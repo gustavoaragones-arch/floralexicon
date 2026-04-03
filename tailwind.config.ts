@@ -11,6 +11,17 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        flora: {
+          cream: "#FCFBF4",
+          forest: "#1a3c34",
+          "forest-hover": "#142e28",
+          sage: "#e8f0ec",
+          mist: "#f4f7f5",
+        },
+      },
+      fontFamily: {
+        sans: ["var(--font-flora-sans)", "system-ui", "sans-serif"],
+        serif: ["var(--font-flora-serif)", "Georgia", "serif"],
       },
     },
   },
