@@ -8,7 +8,11 @@ import {
   loadPlants,
   resolveCanonicalNameKey,
 } from "@/lib/data";
-import { getPlantCountryCodesSorted } from "@/lib/geo";
+import {
+  getNameHubPlantConfidenceMap,
+  getPlantCountryCodesSorted,
+  type NameHubPlantConfidence,
+} from "@/lib/geo";
 
 export type Ambiguity = "low" | "medium" | "high";
 
@@ -17,13 +21,21 @@ export type PlantNameMatch = {
   name_entry: NameEntry;
   /** Uppercase `name_entry.country` for disambiguation UI. */
   country: string;
+  /** @deprecated Use {@link confidence}; kept as alias for ranking (same value). */
   relevance_score: number;
+  /**
+   * Share of distinct countries for this name hub where this plant is linked (0–1).
+   * Higher = more common regional association for this label.
+   */
+  confidence: number;
 };
 
 export type ResolvedPlantContext = {
   plant: Plant;
   /** Distinct countries (uppercase) from matching name entries for this plant. */
   countries: string[];
+  /** Regional coverage score for this name hub (see {@link PlantNameMatch.confidence}). */
+  confidence: number;
 };
 
 export type ResolvePlantNameResult = {
@@ -64,6 +76,7 @@ function collectMatches(nameEntries: NameEntry[]): PlantNameMatch[] {
         name_entry: entry,
         country: entry.country.trim().toUpperCase(),
         relevance_score: 0,
+        confidence: 0,
       });
     }
   }
@@ -84,10 +97,16 @@ function dedupeMatches(matches: PlantNameMatch[]): PlantNameMatch[] {
 
 function sortMatches(
   matches: PlantNameMatch[],
-  country?: string
+  country?: string,
+  confidenceByPlant?: Map<string, NameHubPlantConfidence>
 ): PlantNameMatch[] {
   const c = country?.trim();
+  const conf = (id: string) => confidenceByPlant?.get(id)?.confidence ?? 0;
   return [...matches].sort((a, b) => {
+    const cb = conf(b.plant.id);
+    const ca = conf(a.plant.id);
+    if (cb !== ca) return cb - ca;
+
     if (c) {
       const aHit = countryMatches(a.name_entry, c);
       const bHit = countryMatches(b.name_entry, c);
@@ -107,7 +126,8 @@ function sortMatches(
 
 function buildPlantContexts(
   sorted: PlantNameMatch[],
-  lang: Locale = "en"
+  lang: Locale = "en",
+  confidenceByPlant?: Map<string, NameHubPlantConfidence>
 ): ResolvedPlantContext[] {
   const names = loadNames();
   const order: string[] = [];
@@ -123,7 +143,8 @@ function buildPlantContexts(
   return order.map((id) => {
     const plant = sorted.find((x) => x.plant.id === id)!.plant;
     const countries = getPlantCountryCodesSorted(id, names, lang);
-    return { plant, countries };
+    const confidence = confidenceByPlant?.get(id)?.confidence ?? 0;
+    return { plant, countries, confidence };
   });
 }
 
@@ -149,21 +170,28 @@ function resolvePlantNameCore(
   const query = typeof input === "string" ? input : "";
   const normalized = resolveCanonicalNameKey(query);
   const nameEntries = normalized ? getNamesByNormalized(normalized) : [];
+  const names = loadNames();
+  const confidenceByPlant = normalized
+    ? getNameHubPlantConfidenceMap(normalized, names)
+    : new Map<string, NameHubPlantConfidence>();
 
   const collected = collectMatches(nameEntries);
   const deduped = dedupeMatches(collected);
-  const sorted = sortMatches(deduped, country);
+  const sorted = sortMatches(deduped, country, confidenceByPlant);
   const ambiguity = resolveAmbiguity(sorted);
 
-  const n = sorted.length;
-  const matches: PlantNameMatch[] = sorted.map((m, i) => ({
-    plant: m.plant,
-    name_entry: m.name_entry,
-    country: m.country,
-    relevance_score: n > 0 ? n - i : 0,
-  }));
+  const matches: PlantNameMatch[] = sorted.map((m) => {
+    const confidence = confidenceByPlant.get(m.plant.id)?.confidence ?? 0;
+    return {
+      plant: m.plant,
+      name_entry: m.name_entry,
+      country: m.country,
+      relevance_score: confidence,
+      confidence,
+    };
+  });
 
-  const plantContexts = buildPlantContexts(matches, lang);
+  const plantContexts = buildPlantContexts(matches, lang, confidenceByPlant);
 
   return {
     query,
@@ -186,6 +214,20 @@ export function resolvePlantName(
 }
 
 /**
+ * Same ranking as {@link resolvePlantName} → `plantContexts`: highest confidence first.
+ */
+export function getRankedPlantIdsWithConfidence(
+  input: string,
+  country?: string,
+  lang: Locale = "en"
+): { plant_id: string; confidence: number }[] {
+  return resolvePlantName(input, country, lang).plantContexts.map((c) => ({
+    plant_id: c.plant.id,
+    confidence: c.confidence,
+  }));
+}
+
+/**
  * Same as {@link resolvePlantName} but only matches name records for the given
  * ISO country (for `/name/[slug]/[country]` geo pages).
  */
@@ -201,16 +243,22 @@ export function resolvePlantNameForCountryRoute(
   const filtered = full.matches.filter((m) => m.country === want);
   if (filtered.length === 0) return null;
 
-  const sorted = sortMatches(filtered, want);
+  const confidenceByPlant = full.normalized
+    ? getNameHubPlantConfidenceMap(full.normalized, loadNames())
+    : new Map<string, NameHubPlantConfidence>();
+  const sorted = sortMatches(filtered, want, confidenceByPlant);
   const ambiguity = resolveAmbiguity(sorted);
-  const n = sorted.length;
-  const matches: PlantNameMatch[] = sorted.map((m, i) => ({
-    plant: m.plant,
-    name_entry: m.name_entry,
-    country: m.country,
-    relevance_score: n > 0 ? n - i : 0,
-  }));
-  const plantContexts = buildPlantContexts(matches, lang);
+  const matches: PlantNameMatch[] = sorted.map((m) => {
+    const confidence = confidenceByPlant.get(m.plant.id)?.confidence ?? 0;
+    return {
+      plant: m.plant,
+      name_entry: m.name_entry,
+      country: m.country,
+      relevance_score: confidence,
+      confidence,
+    };
+  });
+  const plantContexts = buildPlantContexts(matches, lang, confidenceByPlant);
 
   return {
     query: full.query,

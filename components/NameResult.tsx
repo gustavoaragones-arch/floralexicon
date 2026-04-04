@@ -8,6 +8,7 @@ import {
   sortRegionalPlantRows,
 } from "@/lib/resolver";
 import { CountryContextSelector } from "@/components/CountryContextSelector";
+import { NameQuickAnswer } from "@/components/NameQuickAnswer";
 import { NameClusterGlobalPresence } from "@/components/NameClusterGlobalPresence";
 import {
   NameClusterOverview,
@@ -17,6 +18,7 @@ import {
 import { loadNames } from "@/lib/data";
 import {
   aggregateCountryFrequencyForNameHub,
+  getNameHubConfidenceTier,
   getNameHubCountryCodesSorted,
 } from "@/lib/geo";
 import { NameHubExploreSection } from "@/components/NameHubExploreSection";
@@ -188,6 +190,14 @@ export function NameResult({
           </div>
         </div>
 
+        {hasMatches && plantContexts.length > 0 ? (
+          <NameQuickAnswer
+            lang={lang}
+            displayName={titleName}
+            contexts={plantContexts.slice(0, 2)}
+          />
+        ) : null}
+
         {hasMatches ? (
           <CountryContextSelector
             lang={lang}
@@ -288,25 +298,40 @@ export function NameResult({
             </p>
           ) : (
             <ul className="mt-8 flex flex-col gap-12">
-              {plantContexts.map(({ plant, countries }, index) => (
-                <li key={plant.id} className="list-none">
-                  <div className="rounded-2xl border border-stone-200 bg-white px-6 py-6 shadow-sm dark:border-stone-600 dark:bg-stone-900/40 dark:shadow-black/20">
-                    <PlantCard
-                      lang={lang}
-                      plant={plant}
-                      headingLevel="h3"
-                      frameless
-                      commonCountries={countries}
-                      userCountry={selectedCountry}
-                      decisionAssist={{
-                        matchNumber: index + 1,
-                        queryLabel: titleName,
-                        siblingPlants,
-                      }}
-                    />
-                  </div>
-                </li>
-              ))}
+              {plantContexts.map(({ plant, countries, confidence }, index) => {
+                const tier = getNameHubConfidenceTier(confidence);
+                const cardShell =
+                  tier === "most_likely"
+                    ? "rounded-2xl border-2 border-emerald-500/45 bg-white px-6 py-6 shadow-md shadow-emerald-900/5 ring-2 ring-emerald-500/15 dark:border-emerald-500/40 dark:bg-stone-900/40 dark:shadow-black/25 dark:ring-emerald-500/20"
+                    : tier === "strong_regional"
+                      ? "rounded-2xl border border-amber-400/55 bg-amber-50/40 px-6 py-6 shadow-sm ring-1 ring-amber-500/15 dark:border-amber-600/40 dark:bg-amber-950/20 dark:ring-amber-500/10"
+                      : "rounded-2xl border border-stone-200 bg-white px-6 py-6 shadow-sm dark:border-stone-600 dark:bg-stone-900/40 dark:shadow-black/20";
+                return (
+                  <li key={plant.id} className="list-none">
+                    <div className={cardShell}>
+                      <PlantCard
+                        lang={lang}
+                        plant={plant}
+                        headingLevel="h3"
+                        frameless
+                        commonCountries={countries}
+                        userCountry={selectedCountry}
+                        decisionAssist={{
+                          matchNumber: index + 1,
+                          queryLabel: titleName,
+                          siblingPlants,
+                        }}
+                        nameHubConfidence={{
+                          rankIndex: index,
+                          totalMatches: plantContexts.length,
+                          confidence,
+                          showPercent: true,
+                        }}
+                      />
+                    </div>
+                  </li>
+                );
+              })}
             </ul>
           )}
         </section>

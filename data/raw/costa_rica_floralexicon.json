@@ -1,0 +1,1093 @@
+{
+  "_meta": {
+    "dataset": "FloraLexicon — Costa Rica & Central America",
+    "sources": [
+      "Quesada Hernández, Alonso (2008). Plantas al Servicio de la Salud: Plantas Medicinales de Costa Rica y Centroamérica. INBio / Museo Nacional de Costa Rica / Norwegian Embassy. ISBN 978-9977-972-16-9. 28 plant fichas.",
+      "Un Indio Viceita (1934). Plantas Medicinales de Costa Rica. Escuela de Agricultura / Museo Nacional CR (Prof. Manuel Valerio, dir.). 3 pp. (historical supplementary list)."
+    ],
+    "region_iso": ["CR", "GT", "SV", "HN", "NI", "PA", "MX"],
+    "region_label": "Costa Rica & Central America",
+    "entry_count": 36,
+    "extraction_date": "2026-04-01",
+    "schema_version": "floralexicon-1.0"
+  },
+
+  "plants": [
+    {
+      "id": "ocimum_basilicum",
+      "scientific_name": "Ocimum basilicum",
+      "family": "Lamiaceae",
+      "genus": "Ocimum",
+      "rank": "species",
+      "native_status": "introduced",
+      "origin_regions": ["Asia", "Mediterranean"],
+      "plant_type": "herb",
+      "primary_uses": ["medicinal", "culinary", "aromatic"]
+    },
+    {
+      "id": "costus_spicatus",
+      "scientific_name": "Costus spicatus",
+      "family": "Costaceae",
+      "genus": "Costus",
+      "rank": "species",
+      "native_status": "native",
+      "origin_regions": ["Mexico", "Central America", "South America", "Antilles"],
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "cupressus_lusitanica",
+      "scientific_name": "Cupressus lusitanica",
+      "family": "Cupressaceae",
+      "genus": "Cupressus",
+      "rank": "species",
+      "native_status": "native",
+      "origin_regions": ["Mexico", "Central America"],
+      "plant_type": "tree",
+      "primary_uses": ["medicinal", "aromatic"]
+    },
+    {
+      "id": "equisetum_bogotense",
+      "scientific_name": "Equisetum bogotense",
+      "family": "Equisetaceae",
+      "genus": "Equisetum",
+      "rank": "species",
+      "native_status": "native",
+      "origin_regions": ["Central America", "South America", "Antilles"],
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "equisetum_giganteum",
+      "scientific_name": "Equisetum giganteum",
+      "family": "Equisetaceae",
+      "genus": "Equisetum",
+      "rank": "species",
+      "native_status": "native",
+      "origin_regions": ["Central America", "South America", "Antilles"],
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "tradescantia_zebrina",
+      "scientific_name": "Tradescantia zebrina",
+      "family": "Commelinaceae",
+      "genus": "Tradescantia",
+      "rank": "species",
+      "native_status": "native",
+      "origin_regions": ["Mexico", "Central America"],
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "eryngium_foetidum",
+      "scientific_name": "Eryngium foetidum",
+      "family": "Apiaceae",
+      "genus": "Eryngium",
+      "rank": "species",
+      "native_status": "native",
+      "origin_regions": ["Tropical America", "Antilles"],
+      "plant_type": "herb",
+      "primary_uses": ["medicinal", "culinary"]
+    },
+    {
+      "id": "jatropha_gossypiifolia",
+      "scientific_name": "Jatropha gossypiifolia",
+      "family": "Euphorbiaceae",
+      "genus": "Jatropha",
+      "rank": "species",
+      "native_status": "native",
+      "origin_regions": ["Tropical America", "Antilles", "Bahamas"],
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "neurolaena_lobata",
+      "scientific_name": "Neurolaena lobata",
+      "family": "Asteraceae",
+      "genus": "Neurolaena",
+      "rank": "species",
+      "native_status": "native",
+      "origin_regions": ["Tropical America", "Antilles"],
+      "plant_type": "shrub",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "cecropia_obtusifolia",
+      "scientific_name": "Cecropia obtusifolia",
+      "family": "Urticaceae",
+      "genus": "Cecropia",
+      "rank": "species",
+      "native_status": "native",
+      "origin_regions": ["Mexico", "Central America", "Northern South America"],
+      "plant_type": "tree",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "psidium_guajava",
+      "scientific_name": "Psidium guajava",
+      "family": "Myrtaceae",
+      "genus": "Psidium",
+      "rank": "species",
+      "native_status": "native",
+      "origin_regions": ["Tropical America"],
+      "plant_type": "tree",
+      "primary_uses": ["medicinal", "culinary"]
+    },
+    {
+      "id": "mentha_spicata",
+      "scientific_name": "Mentha spicata",
+      "family": "Lamiaceae",
+      "genus": "Mentha",
+      "rank": "species",
+      "native_status": "introduced",
+      "origin_regions": ["Europe"],
+      "plant_type": "herb",
+      "primary_uses": ["medicinal", "culinary", "aromatic"]
+    },
+    {
+      "id": "quassia_amara",
+      "scientific_name": "Quassia amara",
+      "family": "Simaroubaceae",
+      "genus": "Quassia",
+      "rank": "species",
+      "native_status": "native",
+      "origin_regions": ["Mexico", "Central America", "Northern South America", "Amazonia", "Antilles"],
+      "plant_type": "tree",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "zingiber_officinale",
+      "scientific_name": "Zingiber officinale",
+      "family": "Zingiberaceae",
+      "genus": "Zingiber",
+      "rank": "species",
+      "native_status": "introduced",
+      "origin_regions": ["Asia"],
+      "plant_type": "herb",
+      "primary_uses": ["medicinal", "culinary"]
+    },
+    {
+      "id": "lippia_alba",
+      "scientific_name": "Lippia alba",
+      "family": "Verbenaceae",
+      "genus": "Lippia",
+      "rank": "species",
+      "native_status": "native",
+      "origin_regions": ["Southern USA", "Central America", "South America", "Antilles"],
+      "plant_type": "shrub",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "plantago_major",
+      "scientific_name": "Plantago major",
+      "family": "Plantaginaceae",
+      "genus": "Plantago",
+      "rank": "species",
+      "native_status": "introduced",
+      "origin_regions": ["Europe"],
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "matricaria_chamomilla",
+      "scientific_name": "Matricaria chamomilla",
+      "family": "Asteraceae",
+      "genus": "Matricaria",
+      "rank": "species",
+      "native_status": "introduced",
+      "origin_regions": ["Eurasia"],
+      "plant_type": "herb",
+      "primary_uses": ["medicinal", "aromatic"]
+    },
+    {
+      "id": "citrus_aurantium",
+      "scientific_name": "Citrus aurantium",
+      "family": "Rutaceae",
+      "genus": "Citrus",
+      "rank": "species",
+      "native_status": "introduced",
+      "origin_regions": ["Southeast Asia"],
+      "plant_type": "tree",
+      "primary_uses": ["medicinal", "culinary", "aromatic"]
+    },
+    {
+      "id": "lippia_graveolens",
+      "scientific_name": "Lippia graveolens",
+      "family": "Verbenaceae",
+      "genus": "Lippia",
+      "rank": "species",
+      "native_status": "native",
+      "origin_regions": ["Southern USA", "Central America", "Northern South America"],
+      "plant_type": "shrub",
+      "primary_uses": ["medicinal", "culinary"]
+    },
+    {
+      "id": "urera_baccifera",
+      "scientific_name": "Urera baccifera",
+      "family": "Urticaceae",
+      "genus": "Urera",
+      "rank": "species",
+      "native_status": "native",
+      "origin_regions": ["Central America", "South America", "Antilles"],
+      "plant_type": "shrub",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "carica_papaya",
+      "scientific_name": "Carica papaya",
+      "family": "Caricaceae",
+      "genus": "Carica",
+      "rank": "species",
+      "native_status": "native",
+      "origin_regions": ["Tropical America", "Antilles"],
+      "plant_type": "tree",
+      "primary_uses": ["medicinal", "culinary"]
+    },
+    {
+      "id": "passiflora_quadrangularis",
+      "scientific_name": "Passiflora quadrangularis",
+      "family": "Passifloraceae",
+      "genus": "Passiflora",
+      "rank": "species",
+      "native_status": "native",
+      "origin_regions": ["Antilles", "Caribbean"],
+      "plant_type": "vine",
+      "primary_uses": ["medicinal", "culinary"]
+    },
+    {
+      "id": "rosmarinus_officinalis",
+      "scientific_name": "Rosmarinus officinalis",
+      "family": "Lamiaceae",
+      "genus": "Rosmarinus",
+      "rank": "species",
+      "native_status": "introduced",
+      "origin_regions": ["Southern Europe"],
+      "plant_type": "shrub",
+      "primary_uses": ["medicinal", "culinary", "aromatic"]
+    },
+    {
+      "id": "buddleia_americana",
+      "scientific_name": "Buddleia americana",
+      "family": "Scrophulariaceae",
+      "genus": "Buddleia",
+      "rank": "species",
+      "native_status": "native",
+      "origin_regions": ["Mexico", "Central America"],
+      "plant_type": "shrub",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "senna_reticulata",
+      "scientific_name": "Senna reticulata",
+      "family": "Fabaceae",
+      "genus": "Senna",
+      "rank": "species",
+      "native_status": "native",
+      "origin_regions": ["Mexico", "Brazil"],
+      "plant_type": "tree",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "senna_alata",
+      "scientific_name": "Senna alata",
+      "family": "Fabaceae",
+      "genus": "Senna",
+      "rank": "species",
+      "native_status": "native",
+      "origin_regions": ["Tropical America"],
+      "plant_type": "tree",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "momordica_charantia",
+      "scientific_name": "Momordica charantia",
+      "family": "Cucurbitaceae",
+      "genus": "Momordica",
+      "rank": "species",
+      "native_status": "introduced",
+      "origin_regions": ["Tropical America", "Antilles"],
+      "plant_type": "vine",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "justicia_pectoralis",
+      "scientific_name": "Justicia pectoralis",
+      "family": "Acanthaceae",
+      "genus": "Justicia",
+      "rank": "species",
+      "native_status": "native",
+      "origin_regions": ["Tropical America", "Antilles"],
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "uncaria_tomentosa",
+      "scientific_name": "Uncaria tomentosa",
+      "family": "Rubiaceae",
+      "genus": "Uncaria",
+      "rank": "species",
+      "native_status": "native",
+      "origin_regions": ["Tropical America"],
+      "plant_type": "vine",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "cymbopogon_citratus",
+      "scientific_name": "Cymbopogon citratus",
+      "family": "Poaceae",
+      "genus": "Cymbopogon",
+      "rank": "species",
+      "native_status": "introduced",
+      "origin_regions": ["Central America", "South America", "Antilles"],
+      "plant_type": "herb",
+      "primary_uses": ["medicinal", "culinary", "aromatic"]
+    },
+    {
+      "id": "aloe_vera",
+      "scientific_name": "Aloe vera",
+      "family": "Asphodelaceae",
+      "genus": "Aloe",
+      "rank": "species",
+      "native_status": "introduced",
+      "origin_regions": ["Africa"],
+      "plant_type": "succulent",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "portulaca_oleracea",
+      "scientific_name": "Portulaca oleracea",
+      "family": "Portulacaceae",
+      "genus": "Portulaca",
+      "rank": "species",
+      "native_status": "introduced",
+      "origin_regions": ["Mediterranean"],
+      "plant_type": "herb",
+      "primary_uses": ["medicinal", "culinary"]
+    },
+    {
+      "id": "cordia_ferruginea",
+      "scientific_name": "Cordia ferruginea",
+      "family": "Boraginaceae",
+      "genus": "Cordia",
+      "rank": "species",
+      "native_status": "native",
+      "origin_regions": ["Central America", "South America"],
+      "plant_type": "shrub",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "mimosa_pudica",
+      "scientific_name": "Mimosa pudica",
+      "family": "Fabaceae",
+      "genus": "Mimosa",
+      "rank": "species",
+      "native_status": "native",
+      "origin_regions": ["Tropical America"],
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "datura_stramonium",
+      "scientific_name": "Datura stramonium",
+      "family": "Solanaceae",
+      "genus": "Datura",
+      "rank": "species",
+      "native_status": "introduced",
+      "origin_regions": ["Uncertain"],
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "senna_hispidula",
+      "scientific_name": "Senna hispidula",
+      "family": "Fabaceae",
+      "genus": "Senna",
+      "rank": "species",
+      "native_status": "native",
+      "origin_regions": ["Tropical America"],
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    }
+  ],
+
+  "names": [
+    {"plant_id": "ocimum_basilicum", "name": "Albahaca", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "low", "usage_context": "market, home garden"},
+    {"plant_id": "ocimum_basilicum", "name": "Albahaca", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "low", "usage_context": "market"},
+    {"plant_id": "ocimum_basilicum", "name": "Albahaca", "language": "es", "country_iso": "SV", "name_type": "common", "ambiguity_level": "low", "usage_context": "market"},
+
+    {"plant_id": "costus_spicatus", "name": "Caña Agria", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine", "disambiguation_note": "Caña Agria also refers to Costus villossisimus and C. cylindricus in older CR sources"},
+    {"plant_id": "costus_spicatus", "name": "Caña Agria", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+    {"plant_id": "costus_spicatus", "name": "Caña Agria", "language": "es", "country_iso": "HN", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+    {"plant_id": "costus_spicatus", "name": "Caña Agria", "language": "es", "country_iso": "NI", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+    {"plant_id": "costus_spicatus", "name": "Caña Agria", "language": "es", "country_iso": "PA", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+
+    {"plant_id": "cupressus_lusitanica", "name": "Ciprés", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "low", "usage_context": "garden, folk medicine"},
+    {"plant_id": "cupressus_lusitanica", "name": "Ciprés", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine"},
+
+    {"plant_id": "equisetum_bogotense", "name": "Cola de Caballo", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "high", "usage_context": "folk medicine", "disambiguation_note": "CR has two species: E. bogotense (Bogotá type, 1000-3000m) and E. giganteum (giant, 800-1700m). Name also shared with E. arvense in South America."},
+    {"plant_id": "equisetum_bogotense", "name": "Hierba de Plata", "language": "es", "country_iso": "PA", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+    {"plant_id": "equisetum_giganteum", "name": "Cola de Caballo Gigante", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "high", "usage_context": "folk medicine"},
+    {"plant_id": "equisetum_giganteum", "name": "Cola de Caballo", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "high", "usage_context": "folk medicine"},
+    {"plant_id": "equisetum_giganteum", "name": "Hierba de Plata", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+
+    {"plant_id": "tradescantia_zebrina", "name": "Cucaracha", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "high", "usage_context": "folk medicine, ornamental", "disambiguation_note": "Cucaracha in CR = Tradescantia zebrina; in other regions cucaracha may refer to Periplaneta americana (cockroach insect) — entirely different."},
+    {"plant_id": "tradescantia_zebrina", "name": "Hoja de Milagro", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "high", "usage_context": "folk medicine", "disambiguation_note": "Hoja de Milagro also used for Bryophyllum pinnatum (Kalanchoe) in other countries — pharmacologically distinct."},
+    {"plant_id": "tradescantia_zebrina", "name": "Manto del Señor", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+    {"plant_id": "tradescantia_zebrina", "name": "Cucaracha", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "high", "usage_context": "folk medicine"},
+    {"plant_id": "tradescantia_zebrina", "name": "Cucaracha", "language": "es", "country_iso": "NI", "name_type": "common", "ambiguity_level": "high", "usage_context": "folk medicine"},
+
+    {"plant_id": "eryngium_foetidum", "name": "Culantro Coyote", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "medium", "usage_context": "culinary, folk medicine", "disambiguation_note": "Distinguished from Coriandrum sativum (culantro de castilla) by strong odor. Risk of substitution in culinary contexts."},
+    {"plant_id": "eryngium_foetidum", "name": "Culantro", "language": "es", "country_iso": "HN", "name_type": "common", "ambiguity_level": "high", "usage_context": "culinary"},
+    {"plant_id": "eryngium_foetidum", "name": "Acapate", "language": "es", "country_iso": "SV", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine"},
+    {"plant_id": "eryngium_foetidum", "name": "Culantro Silvestre", "language": "es", "country_iso": "SV", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+    {"plant_id": "eryngium_foetidum", "name": "Culentro de Culebra", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+
+    {"plant_id": "jatropha_gossypiifolia", "name": "Frailecillo", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+    {"plant_id": "jatropha_gossypiifolia", "name": "Hierba del Fraile", "language": "es", "country_iso": "SV", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+    {"plant_id": "jatropha_gossypiifolia", "name": "Quelite de Fraile", "language": "es", "country_iso": "NI", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+
+    {"plant_id": "neurolaena_lobata", "name": "Gavilana", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+    {"plant_id": "neurolaena_lobata", "name": "Capitana", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+    {"plant_id": "neurolaena_lobata", "name": "Contragavilana", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+    {"plant_id": "neurolaena_lobata", "name": "Gavilana e Hierba Amarga", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+
+    {"plant_id": "cecropia_obtusifolia", "name": "Guarumo", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine", "disambiguation_note": "Guarumo name shared across several Cecropia spp. in Central America; species-level identity varies by elevation and region."},
+    {"plant_id": "cecropia_obtusifolia", "name": "Guarumbo", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+    {"plant_id": "cecropia_obtusifolia", "name": "Chancarro", "language": "es", "country_iso": "SV", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine"},
+    {"plant_id": "cecropia_obtusifolia", "name": "Choop", "language": "indígena", "country_iso": "GT", "name_type": "indigenous", "ambiguity_level": "low", "usage_context": "indigenous medicine"},
+    {"plant_id": "cecropia_obtusifolia", "name": "Igarata", "language": "indígena", "country_iso": "GT", "name_type": "indigenous", "ambiguity_level": "low", "usage_context": "indigenous medicine"},
+    {"plant_id": "cecropia_obtusifolia", "name": "Ix-coch", "language": "maya", "country_iso": "GT", "name_type": "indigenous", "ambiguity_level": "low", "usage_context": "indigenous medicine"},
+
+    {"plant_id": "psidium_guajava", "name": "Guayaba", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "low", "usage_context": "food, folk medicine"},
+    {"plant_id": "psidium_guajava", "name": "Guayabo", "language": "es", "country_iso": "SV", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine"},
+    {"plant_id": "psidium_guajava", "name": "Guayaba", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine"},
+    {"plant_id": "psidium_guajava", "name": "Guayaba", "language": "es", "country_iso": "PA", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine"},
+    {"plant_id": "psidium_guajava", "name": "Guizaro", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "medium", "usage_context": "historical", "disambiguation_note": "Guizaro used in 1934 CR source, refers to Psidium molle Bertol. — distinct species but closely related."},
+
+    {"plant_id": "mentha_spicata", "name": "Hierba Buena", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "high", "usage_context": "folk medicine, culinary", "disambiguation_note": "Hierba Buena in CR = Mentha spicata; in GT and PA refers to various Mentha spp. (M. citrata, M. crispa, M. piperita, M. viridis, M. rotundifolia) depending on vendor. Species-level disambiguation required."},
+    {"plant_id": "mentha_spicata", "name": "Alavina", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+    {"plant_id": "mentha_spicata", "name": "Arvino", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+    {"plant_id": "mentha_spicata", "name": "Menta Dulce", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "medium", "usage_context": "market"},
+    {"plant_id": "mentha_spicata", "name": "Pan Sut", "language": "indígena", "country_iso": "GT", "name_type": "indigenous", "ambiguity_level": "low", "usage_context": "indigenous medicine"},
+    {"plant_id": "mentha_spicata", "name": "Yerba Buena", "language": "es", "country_iso": "PA", "name_type": "common", "ambiguity_level": "high", "usage_context": "folk medicine"},
+
+    {"plant_id": "quassia_amara", "name": "Hombre Grande", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+    {"plant_id": "quassia_amara", "name": "Palo Quinina", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "high", "usage_context": "folk medicine", "disambiguation_note": "Palo Quinina also used for Cinchona spp. — serious pharmacological ambiguity."},
+    {"plant_id": "quassia_amara", "name": "Quiniclú", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine"},
+    {"plant_id": "quassia_amara", "name": "Quininagrú", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine"},
+    {"plant_id": "quassia_amara", "name": "Cuasia", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine"},
+    {"plant_id": "quassia_amara", "name": "Cuasia de Surinam", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine"},
+    {"plant_id": "quassia_amara", "name": "Hombre Grande", "language": "es", "country_iso": "PA", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+    {"plant_id": "quassia_amara", "name": "Limoncillo", "language": "es", "country_iso": "PA", "name_type": "common", "ambiguity_level": "high", "usage_context": "folk medicine", "disambiguation_note": "Limoncillo used for multiple unrelated species including Minthostachys spp. in South America."},
+    {"plant_id": "quassia_amara", "name": "Palo de Hombre", "language": "es", "country_iso": "PA", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+
+    {"plant_id": "zingiber_officinale", "name": "Jengibre", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine, culinary"},
+    {"plant_id": "zingiber_officinale", "name": "Jengibre", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine"},
+    {"plant_id": "zingiber_officinale", "name": "Jenjibre", "language": "es", "country_iso": "HN", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine"},
+
+    {"plant_id": "lippia_alba", "name": "Juanilama", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine"},
+    {"plant_id": "lippia_alba", "name": "Mastranto", "language": "es", "country_iso": "PA", "name_type": "common", "ambiguity_level": "high", "usage_context": "folk medicine", "disambiguation_note": "Mastranto also used for Hyptis suaveolens in Venezuela/Colombia — different genus entirely."},
+    {"plant_id": "lippia_alba", "name": "Salvia Santa", "language": "es", "country_iso": "PA", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+    {"plant_id": "lippia_alba", "name": "Santa María", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "high", "usage_context": "folk medicine", "disambiguation_note": "Santa María also used for Piper auritum and other species across CA."},
+
+    {"plant_id": "plantago_major", "name": "Llantén", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine"},
+    {"plant_id": "plantago_major", "name": "Llantén", "language": "es", "country_iso": "SV", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine"},
+    {"plant_id": "plantago_major", "name": "Cola de Ardilla", "language": "es", "country_iso": "SV", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+    {"plant_id": "plantago_major", "name": "Lantén", "language": "es", "country_iso": "PA", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine"},
+    {"plant_id": "plantago_major", "name": "Raetzi", "language": "indígena", "country_iso": "GT", "name_type": "indigenous", "ambiguity_level": "low", "usage_context": "indigenous medicine"},
+    {"plant_id": "plantago_major", "name": "Yanten", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "low", "usage_context": "historical (1934 source)"},
+
+    {"plant_id": "matricaria_chamomilla", "name": "Manzanilla", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine", "disambiguation_note": "Manzanilla in CR = Matricaria chamomilla; in GT/SV/PA markets may include Chamaemelum nobile (Roman chamomile) or Anthemis spp."},
+    {"plant_id": "matricaria_chamomilla", "name": "Camomila", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "low", "usage_context": "market"},
+    {"plant_id": "matricaria_chamomilla", "name": "Matricaria", "language": "es", "country_iso": "PA", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine"},
+    {"plant_id": "matricaria_chamomilla", "name": "Manzanilla", "language": "es", "country_iso": "SV", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+
+    {"plant_id": "citrus_aurantium", "name": "Naranjo Agrio", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine"},
+    {"plant_id": "citrus_aurantium", "name": "Naranja Agria", "language": "es", "country_iso": "SV", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine"},
+    {"plant_id": "citrus_aurantium", "name": "Naranja Ácida", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine"},
+    {"plant_id": "citrus_aurantium", "name": "Naranja Amarga", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine"},
+    {"plant_id": "citrus_aurantium", "name": "Naranja de Sevilla", "language": "es", "country_iso": "SV", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine"},
+
+    {"plant_id": "lippia_graveolens", "name": "Orégano", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "high", "usage_context": "culinary, folk medicine", "disambiguation_note": "CRITICAL: Orégano in CR = Lippia graveolens (Verbenaceae). In Europe and most S. America Orégano = Origanum vulgare (Lamiaceae). Pharmacologically and culinarily different. Lippia graveolens is native CA species; Origanum vulgare is Mediterranean introduced."},
+    {"plant_id": "lippia_graveolens", "name": "Mejorana", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "high", "usage_context": "folk medicine", "disambiguation_note": "Mejorana in GT used for Lippia graveolens; in other regions Mejorana = Origanum majorana — distinct species."},
+    {"plant_id": "lippia_graveolens", "name": "Orégano de Monte", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+
+    {"plant_id": "urera_baccifera", "name": "Ortiga", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "high", "usage_context": "folk medicine", "disambiguation_note": "Ortiga in CR = Urera baccifera (stinging shrub, Urticaceae). In South America Ortiga commonly refers to Urtica urens or U. dioica — different genus. All cause urticaria contact but pharmacological properties differ."},
+    {"plant_id": "urera_baccifera", "name": "Chichicaste", "language": "es", "country_iso": "SV", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+    {"plant_id": "urera_baccifera", "name": "Nigua", "language": "es", "country_iso": "SV", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+    {"plant_id": "urera_baccifera", "name": "Pringamoza", "language": "es", "country_iso": "SV", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+
+    {"plant_id": "carica_papaya", "name": "Papaya", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "low", "usage_context": "food, folk medicine"},
+    {"plant_id": "carica_papaya", "name": "Papayo", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine"},
+    {"plant_id": "carica_papaya", "name": "Put", "language": "maya", "country_iso": "SV", "name_type": "indigenous", "ambiguity_level": "low", "usage_context": "indigenous medicine"},
+
+    {"plant_id": "passiflora_quadrangularis", "name": "Pasiflora", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "high", "usage_context": "folk medicine", "disambiguation_note": "Pasiflora as genus name encompasses 500+ species. CR source specifies P. quadrangularis (granadilla real); P. edulis used in SA; P. incarnata used pharmacologically in Europe. Species ambiguity is high."},
+    {"plant_id": "passiflora_quadrangularis", "name": "Granadilla Real", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "medium", "usage_context": "food, folk medicine"},
+    {"plant_id": "passiflora_quadrangularis", "name": "Granadilla Real", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+    {"plant_id": "passiflora_quadrangularis", "name": "Calzoncillo", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "high", "usage_context": "historical (1934)", "disambiguation_note": "1934 source uses Calzoncillo for P. biflora Lam. and P. coriacea — distinct species from P. quadrangularis."},
+
+    {"plant_id": "rosmarinus_officinalis", "name": "Romero", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine, culinary"},
+    {"plant_id": "rosmarinus_officinalis", "name": "Romero", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine"},
+
+    {"plant_id": "buddleia_americana", "name": "Salvia Virgen", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+    {"plant_id": "buddleia_americana", "name": "Salvia", "language": "es", "country_iso": "SV", "name_type": "common", "ambiguity_level": "high", "usage_context": "folk medicine", "disambiguation_note": "Salvia as common name covers Buddleia americana (CR/SV) and true Salvia officinalis (Europe), plus Lippia spp. — high ambiguity across regions."},
+    {"plant_id": "buddleia_americana", "name": "Salviona", "language": "es", "country_iso": "SV", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+    {"plant_id": "buddleia_americana", "name": "Tepozán", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+    {"plant_id": "buddleia_americana", "name": "Hoja Blanca", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+    {"plant_id": "buddleia_americana", "name": "Saetzam", "language": "maya", "country_iso": "GT", "name_type": "indigenous", "ambiguity_level": "low", "usage_context": "indigenous medicine"},
+
+    {"plant_id": "senna_reticulata", "name": "Saragundí", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine", "disambiguation_note": "CR source lists both Senna reticulata and S. alata under the same common name Saragundí — within-source species ambiguity."},
+    {"plant_id": "senna_alata", "name": "Saragundí", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+    {"plant_id": "senna_alata", "name": "Barajo", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine"},
+
+    {"plant_id": "momordica_charantia", "name": "Sorosí", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine"},
+    {"plant_id": "momordica_charantia", "name": "Cunde Amor", "language": "es", "country_iso": "SV", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine"},
+    {"plant_id": "momordica_charantia", "name": "Calaica", "language": "es", "country_iso": "HN", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine"},
+    {"plant_id": "momordica_charantia", "name": "Balsamina", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+    {"plant_id": "momordica_charantia", "name": "Pepinillo", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "high", "usage_context": "folk medicine", "disambiguation_note": "Pepinillo usually refers to Cucumis sativus (cucumber) — serious culinary/botanical ambiguity."},
+
+    {"plant_id": "justicia_pectoralis", "name": "Tilo", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "high", "usage_context": "folk medicine", "disambiguation_note": "CRITICAL: Tilo in CR = Justicia pectoralis (Acanthaceae, Neotropical herb). In Europe Tilo = Tilia europaea (linden tree, Malvaceae). In SA markets both species and Ternstroemia spp. may be sold as Tilo. Pharmacologically very different."},
+    {"plant_id": "justicia_pectoralis", "name": "Tilo", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "high", "usage_context": "folk medicine"},
+    {"plant_id": "justicia_pectoralis", "name": "Tilo", "language": "es", "country_iso": "NI", "name_type": "common", "ambiguity_level": "high", "usage_context": "folk medicine"},
+
+    {"plant_id": "uncaria_tomentosa", "name": "Uña de Gato", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "high", "usage_context": "folk medicine", "disambiguation_note": "CRITICAL: Uña de Gato in CR = Uncaria tomentosa (Rubiaceae, Amazonian vine). In Argentina = Mulinum spinosum (Apiaceae, Patagonian shrub). In Panama listed as Rangaya. In Chile = Acacia farnesiana. Pharmacologically the CR/SA Amazonian species is the commercially significant one; cross-regional confusion is a documented safety risk."},
+    {"plant_id": "uncaria_tomentosa", "name": "Uña de Tigre", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "medium", "usage_context": "folk medicine"},
+    {"plant_id": "uncaria_tomentosa", "name": "Rangallo", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine"},
+    {"plant_id": "uncaria_tomentosa", "name": "Rangaya", "language": "es", "country_iso": "PA", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine"},
+
+    {"plant_id": "cymbopogon_citratus", "name": "Zacate Limón", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine, culinary"},
+    {"plant_id": "cymbopogon_citratus", "name": "Té Limón", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine"},
+    {"plant_id": "cymbopogon_citratus", "name": "Zacate Té", "language": "es", "country_iso": "GT", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine"},
+
+    {"plant_id": "aloe_vera", "name": "Sávila", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine (historical)"},
+    {"plant_id": "aloe_vera", "name": "Sábila", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine"},
+
+    {"plant_id": "portulaca_oleracea", "name": "Verdolaga", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "low", "usage_context": "folk medicine, food (historical)"},
+
+    {"plant_id": "cordia_ferruginea", "name": "Varilla Negra", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "medium", "usage_context": "historical (1934)", "disambiguation_note": "1934 source lists C. laxiflora and C. ulmifolia under same name — species ambiguity in the original source."},
+
+    {"plant_id": "mimosa_pudica", "name": "Dormilona", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "medium", "usage_context": "historical (1934)", "disambiguation_note": "Dormilona used for Mimosa pudica across CA; in SA may also refer to Biophytum sensitivum or other sensitive-leaf plants."},
+
+    {"plant_id": "datura_stramonium", "name": "Tapate", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "high", "usage_context": "historical (1934)", "disambiguation_note": "Tapate = Datura stramonium in 1934 CR source. All Datura spp. are highly toxic (tropane alkaloids). Historical medical use only; not safe for self-administration."},
+
+    {"plant_id": "senna_hispidula", "name": "Naguapate", "language": "es", "country_iso": "CR", "name_type": "common", "ambiguity_level": "medium", "usage_context": "historical (1934)", "disambiguation_note": "1934 source notes a velluda (hairy) lookalike sold as Naguapate that is not medicinal — explicit lookalike warning in original source."}
+  ],
+
+  "geo_distribution": [
+    {"plant_id": "ocimum_basilicum", "countries": ["CR", "GT", "SV", "HN", "NI", "PA", "MX"], "biomes": ["tropical_lowland", "premontane"], "altitude_range_m": [50, 600], "cultural_regions": ["Central America", "Caribbean"]},
+    {"plant_id": "costus_spicatus", "countries": ["MX", "CR", "GT", "SV", "HN", "NI", "PA", "CO", "VE"], "biomes": ["tropical_rainforest", "humid_forest", "riparian"], "altitude_range_m": [0, 1500], "cultural_regions": ["Central America", "Caribbean", "Northern South America"]},
+    {"plant_id": "cupressus_lusitanica", "countries": ["MX", "CR", "GT", "SV", "HN", "NI"], "biomes": ["montane_forest", "premontane", "grassland"], "altitude_range_m": [900, 1400], "cultural_regions": ["Central America"]},
+    {"plant_id": "equisetum_bogotense", "countries": ["CR", "GT", "CO", "VE", "PE", "BO", "EC"], "biomes": ["montane_wetland", "humid_grassland"], "altitude_range_m": [1000, 3000], "cultural_regions": ["Central America", "Andes"]},
+    {"plant_id": "equisetum_giganteum", "countries": ["CR", "GT", "PA", "CO", "VE"], "biomes": ["humid_forest", "riparian", "wetland"], "altitude_range_m": [800, 1700], "cultural_regions": ["Central America", "Northern South America"]},
+    {"plant_id": "tradescantia_zebrina", "countries": ["MX", "CR", "GT", "SV", "HN", "NI", "PA"], "biomes": ["humid_forest_edge", "riparian", "disturbed_areas"], "altitude_range_m": [0, 1500], "cultural_regions": ["Central America"]},
+    {"plant_id": "eryngium_foetidum", "countries": ["CR", "GT", "SV", "HN", "NI", "PA", "MX", "CO", "VE", "GY", "SR"], "biomes": ["tropical_lowland", "humid_forest", "disturbed_areas"], "altitude_range_m": [0, 1000], "cultural_regions": ["Central America", "Caribbean", "Northern South America"]},
+    {"plant_id": "jatropha_gossypiifolia", "countries": ["CR", "GT", "SV", "NI", "PA", "MX", "CO", "VE"], "biomes": ["tropical_dry", "disturbed_areas", "cultivated"], "altitude_range_m": [0, 500], "cultural_regions": ["Central America", "Caribbean", "Tropical America"]},
+    {"plant_id": "neurolaena_lobata", "countries": ["CR", "GT", "MX", "PA", "HN", "NI"], "biomes": ["tropical_forest", "disturbed_areas", "roadside"], "altitude_range_m": [0, 800], "cultural_regions": ["Central America", "Caribbean"]},
+    {"plant_id": "cecropia_obtusifolia", "countries": ["MX", "CR", "GT", "SV", "HN", "NI", "CO", "VE"], "biomes": ["tropical_rainforest", "secondary_forest", "open_areas"], "altitude_range_m": [0, 1300], "cultural_regions": ["Central America", "Northern South America"]},
+    {"plant_id": "psidium_guajava", "countries": ["CR", "GT", "SV", "HN", "NI", "PA", "MX", "CO", "VE", "PE", "BR"], "biomes": ["tropical_lowland", "pasturelands", "roadside"], "altitude_range_m": [0, 1500], "cultural_regions": ["Central America", "Caribbean", "South America"]},
+    {"plant_id": "mentha_spicata", "countries": ["CR", "GT", "SV", "HN", "NI", "PA"], "biomes": ["tropical_montane", "cultivated"], "altitude_range_m": [50, 1400], "cultural_regions": ["Central America"]},
+    {"plant_id": "quassia_amara", "countries": ["MX", "CR", "GT", "PA", "CO", "VE", "GY", "SR", "BR"], "biomes": ["tropical_rainforest", "humid_forest"], "altitude_range_m": [0, 600], "cultural_regions": ["Central America", "Amazonia", "Caribbean"]},
+    {"plant_id": "zingiber_officinale", "countries": ["CR", "GT", "HN", "PA", "MX", "CO", "PE", "BR"], "biomes": ["tropical_lowland", "cultivated"], "altitude_range_m": [0, 1500], "cultural_regions": ["Central America", "South America"]},
+    {"plant_id": "lippia_alba", "countries": ["CR", "GT", "PA", "MX", "CO", "VE", "BR", "AR"], "biomes": ["tropical_forest_edge", "disturbed_areas", "open_forest"], "altitude_range_m": [0, 1500], "cultural_regions": ["Central America", "South America"]},
+    {"plant_id": "plantago_major", "countries": ["CR", "GT", "SV", "HN", "NI", "PA", "MX", "CO", "VE", "PE", "AR", "CL", "UY"], "biomes": ["temperate", "premontane", "disturbed_areas", "cultivated"], "altitude_range_m": [500, 1500], "cultural_regions": ["Central America", "South America", "widespread"]},
+    {"plant_id": "matricaria_chamomilla", "countries": ["CR", "GT", "SV", "HN", "NI", "PA"], "biomes": ["cultivated", "tropical_montane"], "altitude_range_m": [0, 1500], "cultural_regions": ["Central America"]},
+    {"plant_id": "citrus_aurantium", "countries": ["CR", "GT", "SV", "HN", "NI", "PA", "MX", "CO", "VE", "PE", "AR"], "biomes": ["tropical_lowland", "premontane", "cultivated"], "altitude_range_m": [0, 1500], "cultural_regions": ["Central America", "South America"]},
+    {"plant_id": "lippia_graveolens", "countries": ["MX", "CR", "GT", "SV", "HN", "NI", "PA", "CO", "VE"], "biomes": ["tropical_dry", "disturbed_areas", "cultivated"], "altitude_range_m": [0, 1500], "cultural_regions": ["Central America", "Northern South America"]},
+    {"plant_id": "urera_baccifera", "countries": ["CR", "GT", "SV", "HN", "NI", "PA", "MX", "CO", "VE", "BR"], "biomes": ["humid_forest", "montane_foothills", "riparian"], "altitude_range_m": [0, 1400], "cultural_regions": ["Central America", "South America"]},
+    {"plant_id": "carica_papaya", "countries": ["CR", "GT", "SV", "HN", "NI", "PA", "MX", "CO", "VE", "PE", "BR"], "biomes": ["tropical_lowland", "cultivated"], "altitude_range_m": [0, 1400], "cultural_regions": ["Central America", "South America", "Caribbean"]},
+    {"plant_id": "passiflora_quadrangularis", "countries": ["CR", "GT", "PA", "CO", "VE", "GY", "SR"], "biomes": ["tropical_lowland", "cultivated", "humid_forest"], "altitude_range_m": [0, 500], "cultural_regions": ["Central America", "Caribbean", "Northern South America"]},
+    {"plant_id": "rosmarinus_officinalis", "countries": ["CR", "GT", "SV", "HN", "NI", "PA", "MX", "CO", "AR", "CL"], "biomes": ["cultivated", "premontane"], "altitude_range_m": [0, 2000], "cultural_regions": ["Central America", "South America"]},
+    {"plant_id": "buddleia_americana", "countries": ["MX", "CR", "GT", "SV", "HN", "NI", "PA"], "biomes": ["tropical_dry", "premontane", "roadside", "disturbed_areas"], "altitude_range_m": [0, 1500], "cultural_regions": ["Central America"]},
+    {"plant_id": "senna_reticulata", "countries": ["MX", "CR", "GT", "HN", "NI", "PA", "CO", "VE", "BR"], "biomes": ["tropical_lowland", "humid_areas"], "altitude_range_m": [0, 600], "cultural_regions": ["Central America", "South America"]},
+    {"plant_id": "senna_alata", "countries": ["MX", "CR", "GT", "SV", "HN", "NI", "PA", "CO", "VE", "BR"], "biomes": ["tropical_lowland", "humid_areas"], "altitude_range_m": [0, 600], "cultural_regions": ["Central America", "South America"]},
+    {"plant_id": "momordica_charantia", "countries": ["CR", "GT", "SV", "HN", "NI", "PA", "MX", "CO", "VE"], "biomes": ["tropical_lowland", "disturbed_areas", "fencerows"], "altitude_range_m": [0, 1000], "cultural_regions": ["Central America", "Caribbean", "South America"]},
+    {"plant_id": "justicia_pectoralis", "countries": ["CR", "GT", "NI", "PA", "MX", "CO", "VE", "GY", "SR", "BR"], "biomes": ["tropical_forest_floor", "humid_areas"], "altitude_range_m": [0, 1500], "cultural_regions": ["Central America", "Amazonia", "Caribbean"]},
+    {"plant_id": "uncaria_tomentosa", "countries": ["CR", "PA", "CO", "VE", "PE", "BO", "BR"], "biomes": ["tropical_rainforest", "humid_forest", "wetland"], "altitude_range_m": [0, 500], "cultural_regions": ["Central America", "Amazonia"]},
+    {"plant_id": "cymbopogon_citratus", "countries": ["CR", "GT", "SV", "HN", "NI", "PA", "MX", "CO", "VE", "BR", "PE"], "biomes": ["tropical_lowland", "rural_gardens"], "altitude_range_m": [0, 1200], "cultural_regions": ["Central America", "South America"]},
+    {"plant_id": "aloe_vera", "countries": ["CR", "GT", "SV", "HN", "NI", "PA", "MX"], "biomes": ["cultivated", "dry_areas"], "altitude_range_m": [0, 1500], "cultural_regions": ["Central America"]},
+    {"plant_id": "portulaca_oleracea", "countries": ["CR", "GT", "SV", "HN", "NI", "PA", "MX"], "biomes": ["disturbed_areas", "cultivated", "roadside"], "altitude_range_m": [0, 1500], "cultural_regions": ["Central America", "widespread"]},
+    {"plant_id": "cordia_ferruginea", "countries": ["CR", "GT", "PA", "CO", "VE"], "biomes": ["tropical_forest"], "altitude_range_m": [0, 800], "cultural_regions": ["Central America", "Northern South America"]},
+    {"plant_id": "mimosa_pudica", "countries": ["CR", "GT", "SV", "HN", "NI", "PA", "MX", "CO", "VE", "BR", "PE"], "biomes": ["tropical_lowland", "disturbed_areas", "pasturelands"], "altitude_range_m": [0, 1200], "cultural_regions": ["Central America", "South America"]},
+    {"plant_id": "datura_stramonium", "countries": ["CR", "GT", "MX"], "biomes": ["disturbed_areas", "cultivated_margins"], "altitude_range_m": [0, 1500], "cultural_regions": ["Central America"]},
+    {"plant_id": "senna_hispidula", "countries": ["CR", "GT", "MX", "PA", "CO", "VE"], "biomes": ["tropical_dry", "disturbed_areas"], "altitude_range_m": [0, 800], "cultural_regions": ["Central America", "Northern South America"]}
+  ],
+
+  "uses": [
+    {"plant_id": "ocimum_basilicum", "use_type": "medicinal", "body_system": "fever", "application": "Maceración en alcohol para fricciones y baños", "evidence_level": "traditional"},
+    {"plant_id": "ocimum_basilicum", "use_type": "medicinal", "body_system": "digestive", "application": "Disminuye el vómito y dolor estomacal: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "ocimum_basilicum", "use_type": "medicinal", "body_system": "neurological", "application": "Alivia el dolor de cabeza: Infusión fría", "evidence_level": "traditional"},
+    {"plant_id": "ocimum_basilicum", "use_type": "medicinal", "body_system": "reproductive", "application": "Regula la menstruación: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "ocimum_basilicum", "use_type": "medicinal", "body_system": "oral_throat", "application": "Alivia ulceraciones de la boca, dolor de garganta, amígdalas: Gárgaras", "evidence_level": "traditional"},
+    {"plant_id": "ocimum_basilicum", "use_type": "medicinal", "body_system": "dermatological", "application": "Fortalece el cabello: Baños de la planta hervida", "evidence_level": "traditional"},
+    {"plant_id": "ocimum_basilicum", "use_type": "culinary", "body_system": null, "application": "Condimento aromático en comidas", "evidence_level": "empirical"},
+
+    {"plant_id": "costus_spicatus", "use_type": "medicinal", "body_system": "urinary", "application": "Antibiótico contra infecciones de vías urinarias y elimina cálculos renales: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "costus_spicatus", "use_type": "medicinal", "body_system": "neurological", "application": "Alivia dolores de oídos y dolor de cabeza: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "costus_spicatus", "use_type": "medicinal", "body_system": "fever", "application": "Baja la fiebre (febrífugo): Infusión", "evidence_level": "traditional"},
+
+    {"plant_id": "cupressus_lusitanica", "use_type": "medicinal", "body_system": "prostate", "application": "Alivia problemas de la próstata: Maceración", "evidence_level": "traditional"},
+    {"plant_id": "cupressus_lusitanica", "use_type": "medicinal", "body_system": "dermatological", "application": "Combate síntomas del sarampión: Baños", "evidence_level": "traditional"},
+    {"plant_id": "cupressus_lusitanica", "use_type": "medicinal", "body_system": "dermatological", "application": "Para conservar color del cabello: Cocimiento del fruto", "evidence_level": "traditional"},
+
+    {"plant_id": "equisetum_bogotense", "use_type": "medicinal", "body_system": "urinary", "application": "Cura enfermedades de la vejiga: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "equisetum_bogotense", "use_type": "medicinal", "body_system": "blood", "application": "Contrarresta hemorragias internas; purifica la sangre: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "equisetum_bogotense", "use_type": "medicinal", "body_system": "dermatological", "application": "Alivia úlceras, heridas y problemas de la piel: Uso externo", "evidence_level": "traditional"},
+
+    {"plant_id": "tradescantia_zebrina", "use_type": "medicinal", "body_system": "reproductive", "application": "Alivia dolores e irregularidad menstrual: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "tradescantia_zebrina", "use_type": "medicinal", "body_system": "digestive", "application": "Desinflamar el colon / intestino grueso: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "tradescantia_zebrina", "use_type": "medicinal", "body_system": "blood", "application": "Controla las hemorragias (anti-hemorrágico): Decocción", "evidence_level": "traditional"},
+    {"plant_id": "tradescantia_zebrina", "use_type": "medicinal", "body_system": "lactation", "application": "Aumenta la producción de leche materna: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "tradescantia_zebrina", "use_type": "medicinal", "body_system": "neurological", "application": "Contra las neuralgias faciales: Decocción 2 tazas c/8 horas", "evidence_level": "traditional"},
+
+    {"plant_id": "eryngium_foetidum", "use_type": "medicinal", "body_system": "cardiac", "application": "Alivia el dolor de pecho y palpitaciones: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "eryngium_foetidum", "use_type": "medicinal", "body_system": "digestive", "application": "Controla gases y dolor de estómago: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "eryngium_foetidum", "use_type": "medicinal", "body_system": "fever", "application": "Baja la fiebre: Decocción", "evidence_level": "traditional"},
+    {"plant_id": "eryngium_foetidum", "use_type": "medicinal", "body_system": "lipids", "application": "Baja los niveles de colesterol: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "eryngium_foetidum", "use_type": "culinary", "body_system": null, "application": "Condimento ampliamente usado en cocina centroamericana y del Caribe", "evidence_level": "empirical"},
+
+    {"plant_id": "jatropha_gossypiifolia", "use_type": "medicinal", "body_system": "digestive", "application": "Purgante, combate úlceras gastrointestinales, antidiarreico: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "jatropha_gossypiifolia", "use_type": "medicinal", "body_system": "urinary", "application": "Diurético: Decocción de los tallos", "evidence_level": "traditional"},
+
+    {"plant_id": "neurolaena_lobata", "use_type": "medicinal", "body_system": "digestive", "application": "Entona y da vigor al estómago; antidiarreico; combate amebas: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "neurolaena_lobata", "use_type": "medicinal", "body_system": "fever", "application": "Baja la fiebre: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "neurolaena_lobata", "use_type": "medicinal", "body_system": "dermatological", "application": "Cura granos, alergias y varicela: Machacado tópico", "evidence_level": "traditional"},
+    {"plant_id": "neurolaena_lobata", "use_type": "medicinal", "body_system": "antiparasitic", "application": "Actúa como repelente contra garrapatas: Repelente tópico", "evidence_level": "traditional"},
+
+    {"plant_id": "cecropia_obtusifolia", "use_type": "medicinal", "body_system": "urinary", "application": "Diurético, reduce retención de líquidos, contrarresta infecciones renales: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "cecropia_obtusifolia", "use_type": "medicinal", "body_system": "musculoskeletal", "application": "Alivia artritis y reumatismo: Infusión + cataplasma", "evidence_level": "traditional"},
+    {"plant_id": "cecropia_obtusifolia", "use_type": "medicinal", "body_system": "respiratory", "application": "Alivia la tos: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "cecropia_obtusifolia", "use_type": "medicinal", "body_system": "neurological", "application": "Calmante nervioso: Infusión", "evidence_level": "traditional"},
+
+    {"plant_id": "psidium_guajava", "use_type": "medicinal", "body_system": "digestive", "application": "Antidiarreico, contra disentería y amebas, alivia cólicos: Decocción", "evidence_level": "empirical"},
+    {"plant_id": "psidium_guajava", "use_type": "medicinal", "body_system": "hepatic", "application": "Controla problemas hepáticos: Decocción", "evidence_level": "traditional"},
+    {"plant_id": "psidium_guajava", "use_type": "medicinal", "body_system": "respiratory", "application": "Alivia congestión respiratoria: Decocción", "evidence_level": "traditional"},
+    {"plant_id": "psidium_guajava", "use_type": "culinary", "body_system": null, "application": "Fruto comestible ampliamente consumido", "evidence_level": "empirical"},
+
+    {"plant_id": "mentha_spicata", "use_type": "medicinal", "body_system": "digestive", "application": "Antidiarreico, alivia flatulencias, cólicos y dolor de estómago: Infusión o decocción", "evidence_level": "empirical"},
+    {"plant_id": "mentha_spicata", "use_type": "medicinal", "body_system": "lactation", "application": "Detiene la producción de leche materna; desinflamar mamas hinchadas: Decocción", "evidence_level": "traditional"},
+    {"plant_id": "mentha_spicata", "use_type": "medicinal", "body_system": "antiparasitic", "application": "Combate parásitos intestinales: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "mentha_spicata", "use_type": "medicinal", "body_system": "reproductive", "application": "Alivia dolores menstruales: Infusión tópica", "evidence_level": "traditional"},
+
+    {"plant_id": "quassia_amara", "use_type": "medicinal", "body_system": "fever", "application": "Baja la fiebre: Infusión de corteza", "evidence_level": "empirical"},
+    {"plant_id": "quassia_amara", "use_type": "medicinal", "body_system": "hepatic", "application": "Expulsa cálculos del hígado y riñones: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "quassia_amara", "use_type": "medicinal", "body_system": "digestive", "application": "Antidiarreico, mejora malestares del estómago: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "quassia_amara", "use_type": "medicinal", "body_system": "antiparasitic", "application": "Contra amebas: Enema", "evidence_level": "traditional"},
+    {"plant_id": "quassia_amara", "use_type": "medicinal", "body_system": "fever", "application": "Combate paludismo (malaria): Infusión", "evidence_level": "traditional"},
+
+    {"plant_id": "zingiber_officinale", "use_type": "medicinal", "body_system": "respiratory", "application": "Alivia síntomas de resfriados, tos, bronquitis: Decocción / Infusión", "evidence_level": "clinical"},
+    {"plant_id": "zingiber_officinale", "use_type": "medicinal", "body_system": "digestive", "application": "Antidiarreico, alivia irritaciones de la garganta: Infusión", "evidence_level": "empirical"},
+    {"plant_id": "zingiber_officinale", "use_type": "medicinal", "body_system": "reproductive", "application": "Alivia calambres menstruales: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "zingiber_officinale", "use_type": "culinary", "body_system": null, "application": "Rizoma como condimento", "evidence_level": "empirical"},
+
+    {"plant_id": "lippia_alba", "use_type": "medicinal", "body_system": "digestive", "application": "Sedante gastrointestinal para colitis, gastritis; antiespasmódico en cólicos hepáticos: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "lippia_alba", "use_type": "medicinal", "body_system": "respiratory", "application": "Alivia síntomas de resfriados: Extracto en alcohol para fricciones", "evidence_level": "traditional"},
+
+    {"plant_id": "plantago_major", "use_type": "medicinal", "body_system": "blood", "application": "Disminuye hemorragias de heridas: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "plantago_major", "use_type": "medicinal", "body_system": "urinary", "application": "Diurético, alivia enfermedades de la vejiga: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "plantago_major", "use_type": "medicinal", "body_system": "digestive", "application": "Antidiarreico, contra disentería: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "plantago_major", "use_type": "medicinal", "body_system": "hepatic", "application": "Contra afecciones hepáticas: Decocción", "evidence_level": "traditional"},
+    {"plant_id": "plantago_major", "use_type": "medicinal", "body_system": "ophthalmic", "application": "Laxante y contra conjuntivitis: Baños con infusión", "evidence_level": "traditional"},
+
+    {"plant_id": "matricaria_chamomilla", "use_type": "medicinal", "body_system": "digestive", "application": "Disminuye gases, cólicos, diarreas y dolor de estómago: Infusión", "evidence_level": "empirical"},
+    {"plant_id": "matricaria_chamomilla", "use_type": "medicinal", "body_system": "reproductive", "application": "Disminuye dolor menstrual: Infusión", "evidence_level": "empirical"},
+    {"plant_id": "matricaria_chamomilla", "use_type": "medicinal", "body_system": "dermatological", "application": "Ayuda a sanar heridas e infecciones: Compresas", "evidence_level": "traditional"},
+
+    {"plant_id": "citrus_aurantium", "use_type": "medicinal", "body_system": "digestive", "application": "Expulsión de gases, alivia cólicos, combate parásitos intestinales: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "citrus_aurantium", "use_type": "medicinal", "body_system": "respiratory", "application": "Controla el asma, baja la tos y fiebre: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "citrus_aurantium", "use_type": "medicinal", "body_system": "neurological", "application": "Disminuye trastornos nerviosos: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "citrus_aurantium", "use_type": "medicinal", "body_system": "musculoskeletal", "application": "Desinflama y alivia esguinces: Cataplasmas", "evidence_level": "traditional"},
+
+    {"plant_id": "lippia_graveolens", "use_type": "medicinal", "body_system": "digestive", "application": "Antidiarreico, alivia dolor de estómago; antiespasmódico: Infusión de hojas", "evidence_level": "traditional"},
+    {"plant_id": "lippia_graveolens", "use_type": "medicinal", "body_system": "reproductive", "application": "Provoca evacuación menstrual (emenagogo): Infusión de hojas", "evidence_level": "traditional"},
+    {"plant_id": "lippia_graveolens", "use_type": "medicinal", "body_system": "respiratory", "application": "Alivia síntomas de bronquitis: Decocción", "evidence_level": "traditional"},
+    {"plant_id": "lippia_graveolens", "use_type": "culinary", "body_system": null, "application": "Hojas perfumadas como condimento culinario ('orégano' centroamericano)", "evidence_level": "empirical"},
+
+    {"plant_id": "urera_baccifera", "use_type": "medicinal", "body_system": "reproductive", "application": "Provoca evacuación menstrual (emenagogo): Infusión", "evidence_level": "traditional"},
+    {"plant_id": "urera_baccifera", "use_type": "medicinal", "body_system": "urinary", "application": "Actúa contra infecciones de los riñones: Decocción", "evidence_level": "traditional"},
+    {"plant_id": "urera_baccifera", "use_type": "medicinal", "body_system": "dermatological", "application": "Alivia quemaduras y combate la tiña / erisipela: Decocción tópica", "evidence_level": "traditional"},
+
+    {"plant_id": "carica_papaya", "use_type": "medicinal", "body_system": "dermatological", "application": "Combate infección y forúnculos de la piel; cicatriza heridas; reblandece callosidades: Uso tópico (látex)", "evidence_level": "empirical"},
+    {"plant_id": "carica_papaya", "use_type": "medicinal", "body_system": "antiparasitic", "application": "Antiparasitario y contra lombrices intestinales: Solución con savia del tronco", "evidence_level": "traditional"},
+    {"plant_id": "carica_papaya", "use_type": "culinary", "body_system": null, "application": "Fruto comestible; ampliamente cultivado", "evidence_level": "empirical"},
+
+    {"plant_id": "passiflora_quadrangularis", "use_type": "medicinal", "body_system": "neurological", "application": "Sedante para nervios, combate insomnio y nerviosismo: Infusión / jugo de fruta", "evidence_level": "traditional"},
+    {"plant_id": "passiflora_quadrangularis", "use_type": "medicinal", "body_system": "digestive", "application": "Antidiarreico, descongestiona vías respiratorias: Decocción", "evidence_level": "traditional"},
+    {"plant_id": "passiflora_quadrangularis", "use_type": "medicinal", "body_system": "antiparasitic", "application": "Antihelmíntico (gusano intestinal): Frutos", "evidence_level": "traditional"},
+
+    {"plant_id": "rosmarinus_officinalis", "use_type": "medicinal", "body_system": "digestive", "application": "Expulsión de gases, antidiarreico: Infusión", "evidence_level": "empirical"},
+    {"plant_id": "rosmarinus_officinalis", "use_type": "medicinal", "body_system": "musculoskeletal", "application": "Contra el reumatismo: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "rosmarinus_officinalis", "use_type": "medicinal", "body_system": "cardiac", "application": "Estimula la circulación; depura la sangre, fortalece el sistema nervioso y el corazón: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "rosmarinus_officinalis", "use_type": "medicinal", "body_system": "dermatological", "application": "Evita la caída del cabello: Uso externo", "evidence_level": "traditional"},
+    {"plant_id": "rosmarinus_officinalis", "use_type": "aromatic", "body_system": null, "application": "Desinfectante natural: Infusión", "evidence_level": "traditional"},
+
+    {"plant_id": "buddleia_americana", "use_type": "medicinal", "body_system": "respiratory", "application": "Descongestiona las vías respiratorias: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "buddleia_americana", "use_type": "medicinal", "body_system": "urinary", "application": "Combate infecciones urinarias: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "buddleia_americana", "use_type": "medicinal", "body_system": "dermatological", "application": "Combate erisipela, úlceras, alergias, forúnculos: Infusión; alivia quemaduras: Cataplasma", "evidence_level": "traditional"},
+
+    {"plant_id": "senna_reticulata", "use_type": "medicinal", "body_system": "fever", "application": "Baja la fiebre: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "senna_reticulata", "use_type": "medicinal", "body_system": "digestive", "application": "Laxante: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "senna_reticulata", "use_type": "medicinal", "body_system": "hepatic", "application": "Ayuda a malestares del hígado: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "senna_alata", "use_type": "medicinal", "body_system": "dermatological", "application": "Cura el carate y hongos: Fricciones; combate enfermedades venéreas: Fricciones", "evidence_level": "traditional"},
+    {"plant_id": "senna_alata", "use_type": "medicinal", "body_system": "musculoskeletal", "application": "Combate artritis y reumatismo: Maceración en alcohol", "evidence_level": "traditional"},
+
+    {"plant_id": "momordica_charantia", "use_type": "medicinal", "body_system": "dermatological", "application": "Antibiótico contra infecciones de piel y forúnculos; emoliente: Decocción tópica", "evidence_level": "traditional"},
+    {"plant_id": "momordica_charantia", "use_type": "medicinal", "body_system": "antiparasitic", "application": "Elimina lombrices intestinales: Jugo de hojas y semillas + infusión del fruto", "evidence_level": "traditional"},
+    {"plant_id": "momordica_charantia", "use_type": "medicinal", "body_system": "fever", "application": "Alivia síntomas de gripe y baja la fiebre: Infusión", "evidence_level": "traditional"},
+
+    {"plant_id": "justicia_pectoralis", "use_type": "medicinal", "body_system": "neurological", "application": "Calma los nervios, previene el insomnio: Decocción", "evidence_level": "traditional"},
+    {"plant_id": "justicia_pectoralis", "use_type": "medicinal", "body_system": "respiratory", "application": "Descongestiona vías respiratorias (catarros bronquiales): Decocción", "evidence_level": "traditional"},
+    {"plant_id": "justicia_pectoralis", "use_type": "medicinal", "body_system": "cardiac", "application": "Alivia dolores de pecho de la región del corazón: Decocción", "evidence_level": "traditional"},
+
+    {"plant_id": "uncaria_tomentosa", "use_type": "medicinal", "body_system": "immune", "application": "Estimula el sistema inmunológico: Decocción", "evidence_level": "clinical"},
+    {"plant_id": "uncaria_tomentosa", "use_type": "medicinal", "body_system": "musculoskeletal", "application": "Combate la artritis: Decocción", "evidence_level": "empirical"},
+    {"plant_id": "uncaria_tomentosa", "use_type": "medicinal", "body_system": "cardiovascular", "application": "Anticoagulante, reduce accidentes tromboembólicos: Infusión", "evidence_level": "empirical"},
+
+    {"plant_id": "cymbopogon_citratus", "use_type": "medicinal", "body_system": "digestive", "application": "Estomáquico, carminativo, estimula el aparato digestivo: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "cymbopogon_citratus", "use_type": "medicinal", "body_system": "fever", "application": "En fiebres induce sudoración (diaforético): Infusión", "evidence_level": "traditional"},
+    {"plant_id": "cymbopogon_citratus", "use_type": "medicinal", "body_system": "respiratory", "application": "Expectorante, alivia tos, gripe, resfríos y pulmonía: Infusión", "evidence_level": "traditional"},
+    {"plant_id": "cymbopogon_citratus", "use_type": "aromatic", "body_system": null, "application": "Aceites esenciales aromáticos; té de consumo común", "evidence_level": "empirical"},
+
+    {"plant_id": "aloe_vera", "use_type": "medicinal", "body_system": "digestive", "application": "Contra amebas (historical): Uso oral", "evidence_level": "traditional"},
+    {"plant_id": "aloe_vera", "use_type": "medicinal", "body_system": "hepatic", "application": "Buen remedio para inflamaciones del hígado (historical): Uso interno", "evidence_level": "traditional"},
+
+    {"plant_id": "portulaca_oleracea", "use_type": "medicinal", "body_system": "hepatic", "application": "Remedio para inflamaciones del hígado: Uso como ensalada (historical)", "evidence_level": "traditional"},
+    {"plant_id": "portulaca_oleracea", "use_type": "culinary", "body_system": null, "application": "Usada como ensalada", "evidence_level": "empirical"},
+
+    {"plant_id": "cordia_ferruginea", "use_type": "medicinal", "body_system": "dermatological", "application": "Para curación de úlceras (historical)", "evidence_level": "traditional"},
+
+    {"plant_id": "mimosa_pudica", "use_type": "medicinal", "body_system": "general", "application": "Planta de uso medicinal general (historical source; specific uses not detailed)", "evidence_level": "traditional"},
+
+    {"plant_id": "datura_stramonium", "use_type": "medicinal", "body_system": "respiratory", "application": "Usado como calmante para el asma (en forma de cigarrillos, historical): PELIGROSO", "evidence_level": "traditional"},
+    {"plant_id": "datura_stramonium", "use_type": "medicinal", "body_system": "oral_throat", "application": "Para inflamaciones de garganta y rostro (historical): PELIGROSO", "evidence_level": "traditional"},
+
+    {"plant_id": "senna_hispidula", "use_type": "medicinal", "body_system": "blood", "application": "Para purificar la sangre; hierba anti-venérea (historical)", "evidence_level": "traditional"}
+  ],
+
+  "safety": [
+    {
+      "plant_id": "ocimum_basilicum",
+      "contraindications": ["Niños menores de 5 años", "Mujeres embarazadas", "Adultos mayores con tratamientos de enfermedades crónicas"],
+      "drug_interactions": [],
+      "toxicity_level": "low",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "safety_notes": "Uso medicinal seguro a dosis habituales. Aceite esencial puro puede ser irritante."
+    },
+    {
+      "plant_id": "costus_spicatus",
+      "contraindications": ["Niños menores de 5 años", "Mujeres embarazadas", "Adultos mayores con tratamientos crónicos"],
+      "drug_interactions": ["Posible interacción con diuréticos"],
+      "toxicity_level": "low",
+      "lookalike_risk": true,
+      "confused_with": ["costus_villossisimus", "costus_cylindricus"],
+      "safety_notes": "La especie se confunde con otras del género Costus. La fuente histórica (1934) cita C. villossisimus, C. Malortieanus y C. cylindricus bajo el mismo nombre vernáculo — confirmar especie antes de uso."
+    },
+    {
+      "plant_id": "cupressus_lusitanica",
+      "contraindications": ["Niños menores de 5 años", "Mujeres embarazadas"],
+      "drug_interactions": [],
+      "toxicity_level": "low",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "safety_notes": "Aceites esenciales de coníferas pueden ser irritantes en dosis altas. Uso externo seguro a dosis normales."
+    },
+    {
+      "plant_id": "equisetum_bogotense",
+      "contraindications": ["Niños menores de 5 años", "Mujeres embarazadas", "Pacientes con enfermedad renal severa"],
+      "drug_interactions": ["Posible interferencia con diuréticos y medicamentos para la hipertensión"],
+      "toxicity_level": "low",
+      "lookalike_risk": true,
+      "confused_with": ["equisetum_giganteum", "equisetum_arvense"],
+      "safety_notes": "AMBIGUITY FLAG: CR tiene dos especies bajo Cola de Caballo (E. bogotense y E. giganteum). Fuera de CR, Cola de Caballo puede referirse a E. arvense (Andes/SA). Uso prolongado puede deplecionar tiamina."
+    },
+    {
+      "plant_id": "equisetum_giganteum",
+      "contraindications": ["Niños menores de 5 años", "Mujeres embarazadas", "Pacientes con enfermedad renal severa"],
+      "drug_interactions": ["Posible interferencia con diuréticos"],
+      "toxicity_level": "low",
+      "lookalike_risk": true,
+      "confused_with": ["equisetum_bogotense", "equisetum_arvense"],
+      "safety_notes": "Ver nota para E. bogotense. Las dos especies CR tienen perfiles de altitud distintos pero son frecuentemente confundidas en el mercado."
+    },
+    {
+      "plant_id": "tradescantia_zebrina",
+      "contraindications": ["Niños menores de 5 años", "Mujeres embarazadas"],
+      "drug_interactions": [],
+      "toxicity_level": "low",
+      "lookalike_risk": true,
+      "confused_with": ["bryophyllum_pinnatum"],
+      "safety_notes": "AMBIGUITY FLAG: 'Hoja de Milagro' en CR = T. zebrina; en Ecuador/Colombia/Venezuela = Bryophyllum pinnatum (Kalanchoe). Son farmacológicamente distintas. Riesgo de sustitución en comercio interregional."
+    },
+    {
+      "plant_id": "eryngium_foetidum",
+      "contraindications": ["Niños menores de 5 años", "Mujeres embarazadas"],
+      "drug_interactions": [],
+      "toxicity_level": "low",
+      "lookalike_risk": true,
+      "confused_with": ["coriandrum_sativum"],
+      "safety_notes": "AMBIGUITY FLAG: Confusión frecuente con Coriandrum sativum (culantro de castilla). E. foetidum tiene olor mucho más fuerte. En Guyana y el Caribe, E. foetidum se llama simplemente 'shadon beni' o 'culantro' y es base culinaria predominante."
+    },
+    {
+      "plant_id": "jatropha_gossypiifolia",
+      "contraindications": ["Niños menores de 5 años", "Mujeres embarazadas", "Adultos mayores con tratamientos crónicos"],
+      "drug_interactions": ["Evitar con laxantes — efecto purgante potenciado"],
+      "toxicity_level": "moderate",
+      "lookalike_risk": true,
+      "confused_with": ["jatropha_curcas"],
+      "safety_notes": "TOXICITY FLAG: Latex de la planta contiene compuestos irritantes. Las semillas de otras Jatropha spp. (esp. J. curcas) son altamente tóxicas. Uso con precaución a dosis correctas. La savia lechosa puede causar irritación cutánea."
+    },
+    {
+      "plant_id": "neurolaena_lobata",
+      "contraindications": ["Niños menores de 5 años", "Mujeres embarazadas"],
+      "drug_interactions": ["Potencial interacción con antimaláricos"],
+      "toxicity_level": "low",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "safety_notes": "Sabor amargo pronunciado. Las flores amarillas son características. No se conocen lookalikes de riesgo en CA."
+    },
+    {
+      "plant_id": "cecropia_obtusifolia",
+      "contraindications": ["Niños menores de 5 años", "Mujeres embarazadas"],
+      "drug_interactions": ["Posible potenciación de diuréticos"],
+      "toxicity_level": "low",
+      "lookalike_risk": true,
+      "confused_with": ["cecropia_peltata", "cecropia_mexicana"],
+      "safety_notes": "AMBIGUITY FLAG: Varias especies de Cecropia circulan bajo el mismo nombre Guarumo en CA. C. obtusifolia (Costa Rica), C. peltata (más caribeña) y C. mexicana son distintas. La fuente advierte que es especie invasora — no cultivar."
+    },
+    {
+      "plant_id": "psidium_guajava",
+      "contraindications": ["Niños menores de 5 años", "Mujeres embarazadas en dosis excesivas"],
+      "drug_interactions": [],
+      "toxicity_level": "none",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "safety_notes": "Altamente segura a dosis normales. Fruto comestible ampliamente reconocido. No se documentan lookalikes peligrosos."
+    },
+    {
+      "plant_id": "mentha_spicata",
+      "contraindications": ["Niños menores de 5 años", "Mujeres embarazadas", "Mujeres en período de lactancia que deseen mantenerla (inhibe producción de leche)"],
+      "drug_interactions": ["Posible interacción con ciclosporina"],
+      "toxicity_level": "low",
+      "lookalike_risk": true,
+      "confused_with": ["mentha_piperita", "mentha_pulegium"],
+      "safety_notes": "SAFETY FLAG: La fuente indica explícitamente que detiene la producción de leche materna. Mentha pulegium (poleo menta) tiene toxicidad hepática significativa — no confundir. Múltiples variedades de Mentha circulan bajo el mismo nombre."
+    },
+    {
+      "plant_id": "quassia_amara",
+      "contraindications": ["Niños menores de 5 años", "Mujeres embarazadas", "Adultos mayores con tratamientos crónicos"],
+      "drug_interactions": ["Posible potenciación de anticoagulantes"],
+      "toxicity_level": "low",
+      "lookalike_risk": true,
+      "confused_with": ["cinchona_spp"],
+      "safety_notes": "AMBIGUITY FLAG: 'Palo Quinina' como nombre vernáculo genera confusión con Cinchona spp. (fuente de quinina farmacéutica). Son géneros distintos. El extracto de Q. amara en dosis altas puede ser emetogénico."
+    },
+    {
+      "plant_id": "zingiber_officinale",
+      "contraindications": ["Niños menores de 5 años", "Mujeres embarazadas en dosis altas", "Pacientes con trastornos de coagulación"],
+      "drug_interactions": ["Interacción documentada con anticoagulantes (warfarina)", "Puede potenciar hipoglicemiantes"],
+      "toxicity_level": "low",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "safety_notes": "Dosis culinarias seguras. Dosis medicinales altas pueden interactuar con anticoagulantes."
+    },
+    {
+      "plant_id": "lippia_alba",
+      "contraindications": ["Niños menores de 5 años", "Mujeres embarazadas"],
+      "drug_interactions": ["Posible interacción con sedantes"],
+      "toxicity_level": "low",
+      "lookalike_risk": true,
+      "confused_with": ["hyptis_suaveolens", "lippia_graveolens"],
+      "safety_notes": "AMBIGUITY FLAG: Mastranto en Panamá = L. alba; en Venezuela/Colombia Mastranto puede ser Hyptis suaveolens. Santa María en GT puede referirse a Piper auritum. Confirmar especie en transacciones interregionales."
+    },
+    {
+      "plant_id": "plantago_major",
+      "contraindications": ["Niños menores de 5 años", "Mujeres embarazadas"],
+      "drug_interactions": [],
+      "toxicity_level": "none",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "safety_notes": "Planta muy segura. Ampliamente documentada en farmacopeas. No se conocen lookalikes de riesgo."
+    },
+    {
+      "plant_id": "matricaria_chamomilla",
+      "contraindications": ["Niños menores de 5 años", "Mujeres embarazadas", "Personas alérgicas a Asteraceae (alta sensibilidad cruzada con ambrosía, árnica, caléndula)"],
+      "drug_interactions": ["Posible potenciación de anticoagulantes (warfarina)", "Puede potenciar sedantes"],
+      "toxicity_level": "low",
+      "lookalike_risk": true,
+      "confused_with": ["chamaemelum_nobile", "anthemis_cotula"],
+      "safety_notes": "SAFETY FLAG: Anthemis cotula (manzanilla hedionda) es tóxica y puede confundirse morfológicamente. Las personas con alergia a Asteraceae deben evitar. La miel de abeja con manzanilla puede causar reacción en infantes."
+    },
+    {
+      "plant_id": "citrus_aurantium",
+      "contraindications": ["Niños menores de 5 años", "Mujeres embarazadas", "Personas con hipertensión (extracto de cáscara)"],
+      "drug_interactions": ["Posible interacción con medicamentos metabolizados por CYP3A4 (similar a pomelo)", "Interacción con estimulantes (sinefrina en cáscara)"],
+      "toxicity_level": "low",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "safety_notes": "SAFETY FLAG: El extracto de cáscara contiene sinefrina — no confundir uso del fruto con suplementos de extracto de C. aurantium (p. ej. 'bitter orange extract') que tienen perfil de seguridad diferente."
+    },
+    {
+      "plant_id": "lippia_graveolens",
+      "contraindications": ["Niños menores de 5 años", "Mujeres embarazadas (emenagogo)", "Personas con enfermedad hepática"],
+      "drug_interactions": [],
+      "toxicity_level": "low",
+      "lookalike_risk": true,
+      "confused_with": ["origanum_vulgare", "origanum_majorana"],
+      "safety_notes": "CRITICAL AMBIGUITY: 'Orégano' en CA/MX = Lippia graveolens (Verbenaceae); en Europa y SA = Origanum vulgare (Lamiaceae). En GT, 'Mejorana' = L. graveolens; en Europa Mejorana = O. majorana. Son farmacológicamente distintos y el riesgo de sustitución en productos comerciales es alto."
+    },
+    {
+      "plant_id": "urera_baccifera",
+      "contraindications": ["Niños menores de 5 años", "Mujeres embarazadas"],
+      "drug_interactions": [],
+      "toxicity_level": "low",
+      "lookalike_risk": true,
+      "confused_with": ["urtica_urens", "urtica_dioica"],
+      "safety_notes": "AMBIGUITY FLAG: 'Ortiga' en CR = Urera baccifera (Urticaceae); en SA 'Ortiga' = Urtica urens o U. dioica. Morfológicamente similares (ambas urticantes al tacto), farmacológicamente distintas. El contacto directo produce urticaria en todas las especies del grupo."
+    },
+    {
+      "plant_id": "carica_papaya",
+      "contraindications": ["Niños menores de 5 años", "Mujeres embarazadas (el látex es abortivo en dosis altas)"],
+      "drug_interactions": ["Posible potenciación de anticoagulantes (papaína)"],
+      "toxicity_level": "low",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "safety_notes": "SAFETY FLAG: El látex crudo del tronco (savia lechosa) usado antiparasitario contiene papaína en concentración alta — no exceder dosis indicada. El fruto maduro es seguro. Embarazo: la papaya verde y el látex pueden inducir contracciones."
+    },
+    {
+      "plant_id": "passiflora_quadrangularis",
+      "contraindications": ["Niños menores de 5 años", "Mujeres embarazadas", "Adultos mayores con tratamientos crónicos"],
+      "drug_interactions": ["Posible potenciación de sedantes y ansiolíticos"],
+      "toxicity_level": "low",
+      "lookalike_risk": true,
+      "confused_with": ["passiflora_edulis", "passiflora_incarnata", "passiflora_biflora"],
+      "safety_notes": "AMBIGUITY FLAG: El género Passiflora contiene ~500 especies con perfiles químicos muy variables. La fuente histórica (1934) asigna P. biflora y P. coriacea al nombre 'Calzoncillo'. P. incarnata (farmacéutica) tiene estudios clínicos; P. quadrangularis no. Las raíces y hojas pueden tener alcaloides en concentraciones variables."
+    },
+    {
+      "plant_id": "rosmarinus_officinalis",
+      "contraindications": ["Niños menores de 5 años", "Mujeres embarazadas en dosis medicinales altas", "Epilépticos (aceite esencial)"],
+      "drug_interactions": ["Posible interacción con anticoagulantes", "Puede reducir absorción de hierro"],
+      "toxicity_level": "low",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "safety_notes": "El aceite esencial es neurotóxico en dosis altas. Dosis culinarias y en infusión son seguras."
+    },
+    {
+      "plant_id": "buddleia_americana",
+      "contraindications": ["Niños menores de 5 años", "Mujeres embarazadas"],
+      "drug_interactions": [],
+      "toxicity_level": "low",
+      "lookalike_risk": true,
+      "confused_with": ["salvia_officinalis", "lippia_spp"],
+      "safety_notes": "AMBIGUITY FLAG: 'Salvia' como nombre común en SV = Buddleia americana, pero Salvia officinalis es una planta completamente distinta (Lamiaceae) con perfil farmacológico diferente. Riesgo de sustitución en mercado interregional."
+    },
+    {
+      "plant_id": "senna_reticulata",
+      "contraindications": ["Niños menores de 5 años", "Mujeres embarazadas", "Pacientes con enfermedad inflamatoria intestinal"],
+      "drug_interactions": ["Potenciación de otros laxantes estimulantes", "Puede reducir absorción de medicamentos por tránsito acelerado"],
+      "toxicity_level": "moderate",
+      "lookalike_risk": true,
+      "confused_with": ["senna_alata"],
+      "safety_notes": "AMBIGUITY FLAG: La fuente CR lista S. reticulata y S. alata bajo el mismo nombre 'Saragundí'. Ambas son plantas laxantes con antraquinonas. Uso crónico puede producir melanosis coli y dependencia laxante."
+    },
+    {
+      "plant_id": "senna_alata",
+      "contraindications": ["Niños menores de 5 años", "Mujeres embarazadas", "Pacientes con enfermedad inflamatoria intestinal"],
+      "drug_interactions": ["Potenciación de laxantes"],
+      "toxicity_level": "moderate",
+      "lookalike_risk": true,
+      "confused_with": ["senna_reticulata", "cassia_spp"],
+      "safety_notes": "Ver notas para S. reticulata. Las antraquinonas de Senna spp. son potentes — no exceder dosis ni tiempo de uso."
+    },
+    {
+      "plant_id": "momordica_charantia",
+      "contraindications": ["Niños menores de 5 años (las semillas son tóxicas para niños)", "Mujeres embarazadas (abortivo)", "Personas con hipoglucemia"],
+      "drug_interactions": ["INTERACCIÓN SIGNIFICATIVA con hipoglucemiantes orales e insulina — riesgo de hipoglucemia severa"],
+      "toxicity_level": "moderate",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "safety_notes": "SAFETY FLAG: Las semillas crudas contienen lectinas y momordicina tóxicas — especialmente peligrosas para niños. El fruto verde puede inducir hipoglucemia. Mujeres embarazadas deben evitar — documentado efecto abortivo. Monitorear glucemia si se usa con medicación antidiabética."
+    },
+    {
+      "plant_id": "justicia_pectoralis",
+      "contraindications": ["Niños menores de 5 años", "Mujeres embarazadas"],
+      "drug_interactions": ["Posible potenciación de sedantes"],
+      "toxicity_level": "low",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "safety_notes": "CRITICAL AMBIGUITY: 'Tilo' en CR/CA = Justicia pectoralis (Acanthaceae). En Europa = Tilia europaea (tilo europeo, Malvaceae). En algunos mercados SA se vende Ternstroemia spp. como 'Tilo'. Son plantas completamente distintas. Verificar procedencia antes de dispensar."
+    },
+    {
+      "plant_id": "uncaria_tomentosa",
+      "contraindications": ["Niños menores de 5 años", "Mujeres embarazadas", "Pacientes con trasplante de órganos (inmunomodulador)", "Previo a cirugía (anticoagulante)"],
+      "drug_interactions": ["INTERACCIÓN CLÍNICA: anticoagulantes (warfarina, heparina)", "Inmunosupresores (ciclosporina, tacrolimus)", "Antihipertensivos", "Inhibidores de la proteasa (VIH)"],
+      "toxicity_level": "moderate",
+      "lookalike_risk": true,
+      "confused_with": ["mulinum_spinosum", "acacia_farnesiana"],
+      "safety_notes": "CRITICAL FLAG: Uña de Gato en CR/PA = Uncaria tomentosa (Rubiaceae, Amazónica) — la especie farmacológicamente activa con estudios clínicos. En Argentina = Mulinum spinosum (Apiaceae, Patagónica) sin estos efectos. En Chile = Acacia farnesiana. La confusión interregional puede llevar a uso de una especie sin el perfil activo esperado, o viceversa. Interacciones medicamentosas significativas documentadas."
+    },
+    {
+      "plant_id": "cymbopogon_citratus",
+      "contraindications": ["Niños menores de 5 años", "Mujeres embarazadas"],
+      "drug_interactions": [],
+      "toxicity_level": "low",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "safety_notes": "Altamente segura a dosis normales. El aceite esencial puro puede ser irritante cutáneo en concentración alta."
+    },
+    {
+      "plant_id": "aloe_vera",
+      "contraindications": ["Niños menores de 5 años", "Mujeres embarazadas (uso interno)", "Pacientes con enfermedad inflamatoria intestinal"],
+      "drug_interactions": ["Puede potenciar hipoglucemiantes", "Antraquinonas del látex: interacción con digoxina"],
+      "toxicity_level": "low",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "safety_notes": "Importante distinguir el gel (pulpa interna, segura) del látex (capa amarilla bajo la piel, purgante fuerte con antraquinonas). Uso externo del gel es seguro y bien documentado."
+    },
+    {
+      "plant_id": "portulaca_oleracea",
+      "contraindications": ["Pacientes con cálculos renales de oxalato (contiene oxalatos)"],
+      "drug_interactions": [],
+      "toxicity_level": "low",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "safety_notes": "Generalmente segura. Contiene ácido oxálico — consumo frecuente en grandes cantidades no recomendado para personas con litiasis renal."
+    },
+    {
+      "plant_id": "cordia_ferruginea",
+      "contraindications": [],
+      "drug_interactions": [],
+      "toxicity_level": "low",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "safety_notes": "Datos limitados. Fuente histórica (1934) solamente. No suficientemente documentada para uso moderno sin verificación botánica."
+    },
+    {
+      "plant_id": "mimosa_pudica",
+      "contraindications": ["Mujeres embarazadas"],
+      "drug_interactions": [],
+      "toxicity_level": "low",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "safety_notes": "Datos de la fuente histórica solamente. Planta ornamental y de interés; no bien documentada terapéuticamente."
+    },
+    {
+      "plant_id": "datura_stramonium",
+      "contraindications": ["TODOS — USO MÉDICO HISTÓRICO ÚNICAMENTE"],
+      "drug_interactions": ["Interacción severa con anticolinérgicos, antidepresivos, antipsicóticos"],
+      "toxicity_level": "high",
+      "lookalike_risk": true,
+      "confused_with": ["brugmansia_spp", "solanum_nigrum"],
+      "safety_notes": "CRITICAL TOXICITY FLAG: Datura stramonium es ALTAMENTE TÓXICA. Contiene tropan-alcaloides (atropina, escopolamina, hioscina) en concentraciones que pueden ser letales. La fuente histórica (1934) registra su uso en cigarrillos para el asma — práctica NO segura por los estándares modernos. No debe recomendarse para automedicación. Cualquier preparación requiere supervisión médica especializada. Lookalike riesgo con Brugmansia (toloache, floripón) — igualmente tóxico."
+    },
+    {
+      "plant_id": "senna_hispidula",
+      "contraindications": ["Niños menores de 5 años", "Mujeres embarazadas"],
+      "drug_interactions": [],
+      "toxicity_level": "low",
+      "lookalike_risk": true,
+      "confused_with": ["cassia_hispidula_hairy_lookalike"],
+      "safety_notes": "LOOKALIKE FLAG: La fuente histórica (1934) advierte explícitamente sobre un lookalike velludo (hairy) vendido como Naguapate que no es medicinal. Es una advertencia directa de confusión en el mercado costarricense de 1934 — riesgo de sustitución documentado desde el siglo XX."
+    }
+  ]
+}

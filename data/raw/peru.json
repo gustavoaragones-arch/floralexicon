@@ -1,0 +1,623 @@
+{
+    "plants": [
+    {
+    "id": "croton_lechleri",
+    "scientific_name": "Croton lechleri",
+    "family": "Euphorbiaceae",
+    "genus": "Croton",
+    "rank": "species",
+    "origin_regions": ["Amazonian Rainforest"],
+    "native_status": "native",
+    "plant_type": "tree",
+    "primary_uses": ["medicinal", "cosmetic"]
+    },
+    {
+    "id": "minthostachys_mollis",
+    "scientific_name": "Minthostachys mollis",
+    "family": "Lamiaceae",
+    "genus": "Minthostachys",
+    "rank": "species",
+    "origin_regions": ["Andean Highlands"],
+    "native_status": "native",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal", "culinary", "aromatic"]
+    },
+    {
+    "id": "cinchona_officinalis",
+    "scientific_name": "Cinchona officinalis",
+    "family": "Rubiaceae",
+    "genus": "Cinchona",
+    "rank": "species",
+    "origin_regions": ["Andean Highlands"],
+    "native_status": "native",
+    "plant_type": "tree",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "dracontium_loretense",
+    "scientific_name": "Dracontium loretense",
+    "family": "Araceae",
+    "genus": "Dracontium",
+    "rank": "species",
+    "origin_regions": ["Amazonian Rainforest"],
+    "native_status": "native",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    }
+    ],
+    "names": [
+    {
+    "name": "Sangre de Grado",
+    "normalized": "sangre_de_grado",
+    "language": "es",
+    "country": "PE",
+    "plant_ids": ["croton_lechleri"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal", "cicatrizante"]
+    },
+    {
+    "name": "Sangre de Drago",
+    "normalized": "sangre_de_drago",
+    "language": "es",
+    "country": "EC",
+    "plant_ids": ["croton_lechleri"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Muña",
+    "normalized": "muna",
+    "language": "es",
+    "country": "PE",
+    "plant_ids": ["minthostachys_mollis"],
+    "ambiguity_level": "medium",
+    "usage_context": ["tea", "digestive", "aromatic"]
+    },
+    {
+    "name": "Quina",
+    "normalized": "quina",
+    "language": "es",
+    "country": "PE",
+    "plant_ids": ["cinchona_officinalis"],
+    "ambiguity_level": "medium",
+    "usage_context": ["medicinal", "febrifuge"]
+    },
+    {
+    "name": "Jergón Sacha",
+    "normalized": "jergon_sacha",
+    "language": "es",
+    "country": "PE",
+    "plant_ids": ["dracontium_loretense"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal", "snake_antidote"]
+    }
+    ],
+    "geo_distribution": [
+    {
+    "plant_id": "croton_lechleri",
+    "biomes": ["amazon_rainforest"],
+    "countries": ["PE", "EC", "CO", "VE"],
+    "cultural_regions": ["amazonian", "indigenous"]
+    },
+    {
+    "plant_id": "minthostachys_mollis",
+    "biomes": ["andean_highlands"],
+    "countries": ["PE", "BO", "EC"],
+    "cultural_regions": ["andean", "indigenous", "criollo"]
+    },
+    {
+    "plant_id": "cinchona_officinalis",
+    "biomes": ["andean_highlands", "cloud_forest"],
+    "countries": ["PE", "EC", "BO"],
+    "cultural_regions": ["andean"]
+    }
+    ],
+    "uses": [
+    {
+    "plant_id": "croton_lechleri",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Traditionally used for skin wounds, inflammation, and ulcers",
+    "evidence_level": "clinical_supported",
+    "regions": ["PE", "EC"]
+    }
+    ],
+    "culinary": [],
+    "aromatic": []
+    }
+    },
+    {
+    "plant_id": "minthostachys_mollis",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Traditionally used for digestive and respiratory problems",
+    "evidence_level": "preliminary_science",
+    "regions": ["LATAM"]
+    }
+    ],
+    "culinary": ["Condiment", "Infusion"],
+    "aromatic": ["Essential oils"]
+    }
+    }
+    ],
+    "safety": [
+    {
+    "plant_id": "croton_lechleri",
+    "contraindications": ["May cause skin irritation in sensitive individuals"],
+    "drug_interactions": ["None reported in traditional use"],
+    "toxicity_level": "low",
+    "lookalike_risk": false,
+    "confused_with": []
+    },
+    {
+    "plant_id": "cinchona_officinalis",
+    "contraindications": ["Vomiting", "Tinnitus", "Convulsions if overdosed"],
+    "drug_interactions": ["Complex alkaloid interactions"],
+    "toxicity_level": "moderate",
+    "lookalike_risk": false,
+    "confused_with": []
+    },
+    {
+    "plant_id": "dracontium_loretense",
+    "contraindications": ["Calcium oxalate crystals can cause severe mucosa irritation"],
+    "drug_interactions": ["Unknown"],
+    "toxicity_level": "high",
+    "lookalike_risk": true,
+    "confused_with": ["other Dracontium species"]
+    }
+   {
+    "plants": [
+    {
+    "id": "uncaria_tomentosa",
+    "scientific_name": "Uncaria tomentosa",
+    "family": "Rubiaceae",
+    "genus": "Uncaria",
+    "rank": "species",
+    "origin_regions": ["Amazonian Rainforest"],
+    "native_status": "native",
+    "plant_type": "liana",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "lepidium_meyenii",
+    "scientific_name": "Lepidium meyenii",
+    "family": "Brassicaceae",
+    "genus": "Lepidium",
+    "rank": "species",
+    "origin_regions": ["Andean Highlands"],
+    "native_status": "native",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal", "culinary"]
+    },
+    {
+    "id": "bixa_orellana",
+    "scientific_name": "Bixa orellana",
+    "family": "Bixaceae",
+    "genus": "Bixa",
+    "rank": "species",
+    "origin_regions": ["Amazonian Rainforest", "Coastal"],
+    "native_status": "native",
+    "plant_type": "shrub",
+    "primary_uses": ["medicinal", "culinary", "dye"]
+    },
+    {
+    "id": "physalis_angulata",
+    "scientific_name": "Physalis angulata",
+    "family": "Solanaceae",
+    "genus": "Physalis",
+    "rank": "species",
+    "origin_regions": ["Amazonian Rainforest"],
+    "native_status": "native",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal", "culinary"]
+    },
+    {
+    "id": "smallanthus_sonchifolius",
+    "scientific_name": "Smallanthus sonchifolius",
+    "family": "Asteraceae",
+    "genus": "Smallanthus",
+    "rank": "species",
+    "origin_regions": ["Andean Highlands"],
+    "native_status": "native",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal", "culinary"]
+    },
+    {
+    "id": "plukenetia_volubilis",
+    "scientific_name": "Plukenetia volubilis",
+    "family": "Euphorbiaceae",
+    "genus": "Plukenetia",
+    "rank": "species",
+    "origin_regions": ["Amazonian Rainforest"],
+    "native_status": "native",
+    "plant_type": "climbing shrub",
+    "primary_uses": ["medicinal", "culinary"]
+    },
+    {
+    "id": "gentianella_nitida",
+    "scientific_name": "Gentianella nitida",
+    "family": "Gentianaceae",
+    "genus": "Gentianella",
+    "rank": "species",
+    "origin_regions": ["Andean Highlands"],
+    "native_status": "native",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "annona_muricata",
+    "scientific_name": "Annona muricata",
+    "family": "Annonaceae",
+    "genus": "Annona",
+    "rank": "species",
+    "origin_regions": ["Amazonian Rainforest", "Coastal"],
+    "native_status": "native",
+    "plant_type": "tree",
+    "primary_uses": ["medicinal", "culinary"]
+    },
+    {
+    "id": "cyclanthera_pedata",
+    "scientific_name": "Cyclanthera pedata",
+    "family": "Cucurbitaceae",
+    "genus": "Cyclanthera",
+    "rank": "species",
+    "origin_regions": ["Andean Highlands"],
+    "native_status": "native",
+    "plant_type": "climbing herb",
+    "primary_uses": ["medicinal", "culinary"]
+    },
+    {
+    "id": "phyllanthus_niruri",
+    "scientific_name": "Phyllanthus niruri",
+    "family": "Phyllanthaceae",
+    "genus": "Phyllanthus",
+    "rank": "species",
+    "origin_regions": ["Amazonian Rainforest", "Coastal"],
+    "native_status": "native",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    }
+    ],
+    "names": [
+    {
+    "name": "Uña de Gato",
+    "normalized": "una_de_gato",
+    "language": "es",
+    "country": "PE",
+    "plant_ids": ["uncaria_tomentosa"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal", "immunostimulant"]
+    },
+    {
+    "name": "Maca",
+    "normalized": "maca",
+    "language": "es",
+    "country": "PE",
+    "plant_ids": ["lepidium_meyenii"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal", "nutritional", "aphrodisiac"]
+    },
+    {
+    "name": "Achiote",
+    "normalized": "achiote",
+    "language": "es",
+    "country": "PE",
+    "plant_ids": ["bixa_orellana"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal", "prostate_health", "dye"]
+    },
+    {
+    "name": "Bolsa Mullaca",
+    "normalized": "bolsa_mullaca",
+    "language": "es",
+    "country": "PE",
+    "plant_ids": ["physalis_angulata"],
+    "ambiguity_level": "medium",
+    "usage_context": ["medicinal", "skin_conditions"]
+    },
+    {
+    "name": "Yacón",
+    "normalized": "yacon",
+    "language": "es",
+    "country": "PE",
+    "plant_ids": ["smallanthus_sonchifolius"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal", "diabetes", "culinary"]
+    },
+    {
+    "name": "Sacha Inchi",
+    "normalized": "sacha_inchi",
+    "language": "es",
+    "country": "PE",
+    "plant_ids": ["plukenetia_volubilis"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal", "omega_source", "culinary"]
+    },
+    {
+    "name": "Hercampuri",
+    "normalized": "hercampuri",
+    "language": "es",
+    "country": "PE",
+    "plant_ids": ["gentianella_nitida"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal", "liver_detox", "cholesterol"]
+    },
+    {
+    "name": "Graviola",
+    "normalized": "graviola",
+    "language": "es",
+    "country": "PE",
+    "plant_ids": ["annona_muricata"],
+    "ambiguity_level": "medium",
+    "usage_context": ["medicinal", "anti_tumor"]
+    },
+    {
+    "name": "Guanábana",
+    "normalized": "guanabana",
+    "language": "es",
+    "country": "PE",
+    "plant_ids": ["annona_muricata"],
+    "ambiguity_level": "low",
+    "usage_context": ["culinary", "medicinal"]
+    },
+    {
+    "name": "Caigua",
+    "normalized": "caigua",
+    "language": "es",
+    "country": "PE",
+    "plant_ids": ["cyclanthera_pedata"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal", "cholesterol", "culinary"]
+    },
+    {
+    "name": "Chancapiedra",
+    "normalized": "chancapiedra",
+    "language": "es",
+    "country": "PE",
+    "plant_ids": ["phyllanthus_niruri"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal", "kidney_stones"]
+    }
+    ],
+    "geo_distribution": [
+    {
+    "plant_id": "uncaria_tomentosa",
+    "biomes": ["amazon_rainforest"],
+    "countries": ["PE"],
+    "cultural_regions": ["amazonian"]
+    },
+    {
+    "plant_id": "lepidium_meyenii",
+    "biomes": ["andean_highlands"],
+    "countries": ["PE"],
+    "cultural_regions": ["andean"]
+    },
+    {
+    "plant_id": "smallanthus_sonchifolius",
+    "biomes": ["andean_highlands"],
+    "countries": ["PE"],
+    "cultural_regions": ["andean"]
+    },
+    {
+    "plant_id": "phyllanthus_niruri",
+    "biomes": ["amazon_rainforest", "coastal"],
+    "countries": ["PE", "AR"],
+    "cultural_regions": ["amazonian", "criollo"]
+    }
+    ],
+    "uses": [
+    {
+    "plant_id": "uncaria_tomentosa",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Traditionally used for inflammation, osteoarthritis, and immune support",
+    "evidence_level": "preliminary_science",
+    "regions": ["PE"]
+    }
+    ],
+    "culinary": [],
+    "aromatic": []
+    }
+    },
+    {
+    "plant_id": "lepidium_meyenii",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Traditionally used for fatigue, hormone regulation, and fertility",
+    "evidence_level": "preliminary_science",
+    "regions": ["PE"]
+    }
+    ],
+    "culinary": ["Root consumed boiled, roasted, or as flour"],
+    "aromatic": []
+    }
+    },
+    {
+    "plant_id": "smallanthus_sonchifolius",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Traditionally used for blood sugar regulation",
+    "evidence_level": "preliminary_science",
+    "regions": ["PE"]
+    }
+    ],
+    "culinary": ["Root consumed fresh as a fruit"],
+    "aromatic": []
+    }
+    }
+    ],
+    "safety": [
+    {
+    "plant_id": "uncaria_tomentosa",
+    "contraindications": ["Avoid in patients with autoimmune diseases or organ
+   transplants due to immune stimulation"],
+    "drug_interactions": ["May interact with immunosuppressants"],
+    "toxicity_level": "low",
+    "lookalike_risk": true,
+    "confused_with": ["Uncaria guianensis"]
+    },
+    {
+    "plant_id": "annona_muricata",
+    "contraindications": ["Avoid in patients with Parkinson's or motor disorders due to
+   presence of annonacin"],
+    "drug_interactions": ["May interact with antihypertensives"],
+    "toxicity_level": "moderate",
+    "lookalike_risk": false,
+    "confused_with": []
+    },
+    {
+    "plant_id": "gentianella_nitida",
+    "contraindications": ["None reported in traditional use for brief periods"],
+    "drug_interactions": ["Unknown"],
+    "toxicity_level": "low",
+    "lookalike_risk": true,
+    "confused_with": ["other Gentianella species"]
+    }
+   {
+    "plants": [
+    { "id": "abuta_grandifolia", "scientific_name": "Abuta grandifolia", "family":
+   "Menispermaceae", "genus": "Abuta", "rank": "species", "origin_regions": ["Amazonian
+   Rainforest"], "native_status": "native", "plant_type": "shrub", "primary_uses":
+   ["medicinal"] },
+    { "id": "mansoa_alliacea", "scientific_name": "Mansoa alliacea", "family":
+   "Bignoniaceae", "genus": "Mansoa", "rank": "species", "origin_regions": ["Amazonian
+   Rainforest"], "native_status": "native", "plant_type": "liana", "primary_uses": ["medicinal",
+   "aromatic"] },
+    { "id": "artocarpus_altilis", "scientific_name": "Artocarpus altilis", "family": "Moraceae",
+   "genus": "Artocarpus", "rank": "species", "origin_regions": ["Oceania"], "native_status":
+   "introduced", "plant_type": "tree", "primary_uses": ["medicinal", "culinary"] },
+    { "id": "banisteriopsis_caapi", "scientific_name": "Banisteriopsis caapi", "family":
+   "Malpighiaceae", "genus": "Banisteriopsis", "rank": "species", "origin_regions":
+   ["Amazonian Rainforest"], "native_status": "native", "plant_type": "liana",
+   "primary_uses": ["ritual", "medicinal"] },
+    { "id": "brugmansia_suaveolens", "scientific_name": "Brugmansia suaveolens",
+   "family": "Solanaceae", "genus": "Brugmansia", "rank": "species", "origin_regions":
+   ["Amazonian Rainforest"], "native_status": "native", "plant_type": "shrub",
+   "primary_uses": ["medicinal", "ritual"] },
+    { "id": "brunfelsia_grandiflora", "scientific_name": "Brunfelsia grandiflora", "family":
+   "Solanaceae", "genus": "Brunfelsia", "rank": "species", "origin_regions": ["Amazonian
+   Rainforest"], "native_status": "native", "plant_type": "shrub", "primary_uses":
+   ["medicinal"] },
+    { "id": "calophyllum_brasiliense", "scientific_name": "Calophyllum brasiliense",
+   "family": "Calophyllaceae", "genus": "Calophyllum", "rank": "species", "origin_regions":
+   ["Amazonian Rainforest"], "native_status": "native", "plant_type": "tree", "primary_uses":
+   ["medicinal"] },
+    { "id": "copaifera_paupera", "scientific_name": "Copaifera paupera", "family":
+   "Fabaceae", "genus": "Copaifera", "rank": "species", "origin_regions": ["Amazonian
+   Rainforest"], "native_status": "native", "plant_type": "tree", "primary_uses":
+   ["medicinal"] },
+    { "id": "eleutherine_bulbosa", "scientific_name": "Eleutherine bulbosa", "family":
+   "Iridaceae", "genus": "Eleutherine", "rank": "species", "origin_regions": ["Amazonian
+   Rainforest"], "native_status": "native", "plant_type": "herb", "primary_uses":
+   ["medicinal"] },
+    { "id": "eryngium_foetidum", "scientific_name": "Eryngium foetidum", "family":
+   "Apiaceae", "genus": "Eryngium", "rank": "species", "origin_regions": ["Amazonian
+   Rainforest"], "native_status": "native", "plant_type": "herb", "primary_uses": ["medicinal",
+   "culinary"] },
+    { "id": "ficus_insipida", "scientific_name": "Ficus insipida", "family": "Moraceae",
+   "genus": "Ficus", "rank": "species", "origin_regions": ["Amazonian Rainforest"],
+   "native_status": "native", "plant_type": "tree", "primary_uses": ["medicinal"] },
+    { "id": "jatropha_curcas", "scientific_name": "Jatropha curcas", "family":
+   "Euphorbiaceae", "genus": "Jatropha", "rank": "species", "origin_regions": ["Amazonian
+   Rainforest"], "native_status": "native", "plant_type": "shrub", "primary_uses":
+   ["medicinal", "industrial"] },
+    { "id": "lippia_alba", "scientific_name": "Lippia alba", "family": "Verbenaceae", "genus":
+   "Lippia", "rank": "species", "origin_regions": ["Amazonian Rainforest", "Coastal"],
+   "native_status": "native", "plant_type": "shrub", "primary_uses": ["medicinal",
+   "aromatic"] },
+    { "id": "myrciaria_dubia", "scientific_name": "Myrciaria dubia", "family": "Myrtaceae",
+   "genus": "Myrciaria", "rank": "species", "origin_regions": ["Amazonian Rainforest"],
+   "native_status": "native", "plant_type": "shrub", "primary_uses": ["medicinal",
+   "culinary"] },
+    { "id": "scoparia_dulcis", "scientific_name": "Scoparia dulcis", "family":
+   "Plantaginaceae", "genus": "Scoparia", "rank": "species", "origin_regions": ["Amazonian
+   Rainforest"], "native_status": "native", "plant_type": "herb", "primary_uses":
+   ["medicinal"] }
+    ],
+    "names": [
+    { "name": "Abuta", "normalized": "abuta", "language": "es", "country": "PE",
+   "plant_ids": ["abuta_grandifolia"], "ambiguity_level": "low", "usage_context": ["medicinal",
+   "diabetes"] },
+    { "name": "Ajo Sacha", "normalized": "ajo_sacha", "language": "es", "country": "PE",
+   "plant_ids": ["mansoa_alliacea"], "ambiguity_level": "low", "usage_context": ["medicinal",
+   "analgesic"] },
+    { "name": "Pandisho", "normalized": "pandisho", "language": "es", "country": "PE",
+   "plant_ids": ["artocarpus_altilis"], "ambiguity_level": "low", "usage_context": ["medicinal",
+   "diarrhea"] },
+    { "name": "Ayahuasca", "normalized": "ayahuasca", "language": "es", "country": "PE",
+   "plant_ids": ["banisteriopsis_caapi"], "ambiguity_level": "low", "usage_context": ["ritual",
+   "medicinal"] },
+    { "name": "Toé", "normalized": "toe", "language": "es", "country": "PE", "plant_ids":
+   ["brugmansia_suaveolens"], "ambiguity_level": "low", "usage_context": ["medicinal",
+   "ritual"] },
+    { "name": "Chiric Sanango", "normalized": "chiric_sanango", "language": "es",
+   "country": "PE", "plant_ids": ["brunfelsia_grandiflora"], "ambiguity_level": "low",
+   "usage_context": ["medicinal", "rheumatism"] },
+    { "name": "Lagarto Caspi", "normalized": "lagarto_caspi", "language": "es", "country":
+   "PE", "plant_ids": ["calophyllum_brasiliense"], "ambiguity_level": "low", "usage_context":
+   ["medicinal", "cicatrizante"] },
+    { "name": "Copaiba", "normalized": "copaiba", "language": "es", "country": "PE", 
+   "plant_ids": ["copaifera_paupera"], "ambiguity_level": "medium", "usage_context":
+   ["medicinal", "anti_inflammatory"] },
+    { "name": "Yahuar Piri Piri", "normalized": "yahuar_piri_piri", "language": "es",
+   "country": "PE", "plant_ids": ["eleutherine_bulbosa"], "ambiguity_level": "low",
+   "usage_context": ["medicinal", "hemorrhage"] },
+    { "name": "Sacha Culantro", "normalized": "sacha_culantro", "language": "es",
+   "country": "PE", "plant_ids": ["eryngium_foetidum"], "ambiguity_level": "low",
+   "usage_context": ["culinary", "medicinal"] },
+    { "name": "Ojé", "normalized": "oje", "language": "es", "country": "PE", "plant_ids":
+   ["ficus_insipida"], "ambiguity_level": "low", "usage_context": ["medicinal",
+   "antiparasitic"] },
+    { "name": "Piñón Blanco", "normalized": "pinon_blanco", "language": "es", "country":
+   "PE", "plant_ids": ["jatropha_curcas"], "ambiguity_level": "medium", "usage_context":
+   ["medicinal", "purgative"] },
+    { "name": "Pampa Orégano", "normalized": "pampa_oregano", "language": "es",
+   "country": "PE", "plant_ids": ["lippia_alba"], "ambiguity_level": "low", "usage_context":
+   ["medicinal", "digestive"] },
+    { "name": "Camu Camu", "normalized": "camu_camu", "language": "es", "country":
+   "PE", "plant_ids": ["myrciaria_dubia"], "ambiguity_level": "low", "usage_context":
+   ["medicinal", "vitamin_c"] },
+    { "name": "Ñucño Pichana", "normalized": "nucno_pichana", "language": "es",
+   "country": "PE", "plant_ids": ["scoparia_dulcis"], "ambiguity_level": "low",
+   "usage_context": ["medicinal"] }
+    ],
+    "geo_distribution": [
+    { "plant_id": "ficus_insipida", "biomes": ["amazon_rainforest"], "countries": ["PE",
+   "CO", "EC"], "cultural_regions": ["amazonian"] },
+    { "plant_id": "myrciaria_dubia", "biomes": ["amazon_rainforest"], "countries": ["PE",
+   "BR"], "cultural_regions": ["amazonian"] }
+    ],
+    "uses": [
+    {
+    "plant_id": "ficus_insipida",
+    "categories": {
+    "medicinal": [{ "use": "The latex is traditionally used as an anthelmintic
+   (antiparasitic)", "evidence_level": "traditional", "regions": ["PE"] }]
+    }
+    },
+    {
+    "plant_id": "myrciaria_dubia",
+    "categories": {
+    "medicinal": [{ "use": "Used for high Vitamin C concentration and immune support",
+   "evidence_level": "preliminary_science", "regions": ["PE"] }],
+    "culinary": ["Juices", "jams"]
+    }
+    }
+    ],
+    "safety": [
+    { "plant_id": "ficus_insipida", "contraindications": ["Latex is highly caustic; must be
+   administered with extreme caution to avoid intestinal damage"], "toxicity_level":
+   "moderate", "lookalike_risk": false },
+    { "plant_id": "banisteriopsis_caapi", "contraindications": ["Contains MAOIs; high risk of
+   severe interactions with antidepressants and certain foods"], "toxicity_level": "high",
+   "lookalike_risk": false },
+    { "plant_id": "brugmansia_suaveolens", "contraindications": ["Contains tropane
+   alkaloids; highly toxic if ingested; can cause hallucinations and death"], "toxicity_level":
+   "high", "lookalike_risk": true }
+    ]
+   }

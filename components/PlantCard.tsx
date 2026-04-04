@@ -5,6 +5,7 @@ import {
   buildHowItDiffers,
   buildWhenToChooseText,
 } from "@/components/plantDecisionCopy";
+import { getNameHubConfidenceTier } from "@/lib/geo";
 import { localePath, ti, t, type Locale } from "@/lib/i18n";
 import Link from "next/link";
 
@@ -23,6 +24,13 @@ type PlantCardProps = {
     queryLabel: string;
     siblingPlants: Plant[];
   };
+  /** Name hub: confidence ranking + optional coverage percent. */
+  nameHubConfidence?: {
+    rankIndex: number;
+    totalMatches: number;
+    confidence: number;
+    showPercent?: boolean;
+  };
 };
 
 export function PlantCard({
@@ -35,6 +43,7 @@ export function PlantCard({
   commonCountries,
   userCountry,
   decisionAssist,
+  nameHubConfidence,
 }: PlantCardProps) {
   const TitleTag = headingLevel;
   const uses = plant.primary_uses.join(", ");
@@ -82,12 +91,40 @@ export function PlantCard({
     ? "px-0 py-0"
     : "rounded-2xl border border-stone-200 bg-white/70 px-5 py-4 shadow-sm dark:border-stone-700 dark:bg-stone-900/40";
 
+  const confidenceTier = nameHubConfidence
+    ? getNameHubConfidenceTier(nameHubConfidence.confidence)
+    : "none";
+
   return (
     <article className={shell}>
       {decisionAssist ? (
         <p className="mb-4 text-xs font-bold uppercase tracking-widest text-stone-500 dark:text-stone-400">
           {ti(lang, "possible_match", { n: String(decisionAssist.matchNumber) })}
         </p>
+      ) : null}
+
+      {nameHubConfidence ? (
+        <div className="mb-4 flex flex-wrap items-center gap-2">
+          {confidenceTier === "most_likely" ? (
+            <span className="inline-flex shrink-0 items-center rounded-md border border-emerald-600/35 bg-emerald-50 px-2.5 py-1 text-xs font-bold uppercase tracking-wide text-emerald-950 dark:border-emerald-500/40 dark:bg-emerald-950/60 dark:text-emerald-100">
+              {t(lang, "name_confidence_most_likely")}
+            </span>
+          ) : null}
+          {confidenceTier === "strong_regional" ? (
+            <span className="inline-flex shrink-0 items-center rounded-md border border-amber-500/35 bg-amber-50 px-2.5 py-1 text-xs font-semibold uppercase tracking-wide text-amber-950 dark:border-amber-500/40 dark:bg-amber-950/50 dark:text-amber-100">
+              {t(lang, "name_confidence_high_badge")}
+            </span>
+          ) : null}
+          {nameHubConfidence.showPercent ? (
+            <span className="text-xs font-medium text-stone-500 dark:text-stone-400">
+              {ti(lang, "name_confidence_percent", {
+                percent: String(
+                  Math.round(nameHubConfidence.confidence * 100)
+                ),
+              })}
+            </span>
+          ) : null}
+        </div>
       ) : null}
 
       <div className={decisionAssist ? "mb-6" : frameless ? "mb-5" : "mb-4"}>

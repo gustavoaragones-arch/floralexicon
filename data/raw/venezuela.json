@@ -1,0 +1,2410 @@
+{
+    "plants": [
+    {
+    "id": "ruta_graveolens",
+    "scientific_name": "Ruta graveolens",
+    "family": "Rutaceae",
+    "genus": "Ruta",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "matricaria_recutita",
+    "scientific_name": "Matricaria recutita",
+    "family": "Asteraceae",
+    "genus": "Matricaria",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "aloe_vera",
+    "scientific_name": "Aloe vera",
+    "family": "Asphodelaceae",
+    "genus": "Aloe",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "mentha_spicata",
+    "scientific_name": "Mentha spicata",
+    "family": "Lamiaceae",
+    "genus": "Mentha",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "rosmarinus_officinalis",
+    "scientific_name": "Rosmarinus officinalis",
+    "family": "Lamiaceae",
+    "genus": "Rosmarinus",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "ambrosia_cumanensis",
+    "scientific_name": "Ambrosia cumanensis",
+    "family": "Asteraceae",
+    "genus": "Ambrosia",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "native",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "equisetum_bogotense",
+    "scientific_name": "Equisetum bogotense",
+    "family": "Equisetaceae",
+    "genus": "Equisetum",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "native",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "momordica_charantia",
+    "scientific_name": "Momordica charantia",
+    "family": "Cucurbitaceae",
+    "genus": "Momordica",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "phyllanthus_niruri",
+    "scientific_name": "Phyllanthus niruri",
+    "family": "Euphorbiaceae",
+    "genus": "Phyllanthus",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "native",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "plantago_major",
+    "scientific_name": "Plantago major",
+    "family": "Plantaginaceae",
+    "genus": "Plantago",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "eryngium_foetidum",
+    "scientific_name": "Eryngium foetidum",
+    "family": "Apiaceae",
+    "genus": "Eryngium",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "native",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "costus_igneus",
+    "scientific_name": "Costus igneus",
+    "family": "Costaceae",
+    "genus": "Costus",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    }
+    ],
+    "names": [
+    {
+    "name": "Ruda",
+    "normalized": "ruda",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["ruta_graveolens"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal", "tea"]
+    },
+    {
+    "name": "Manzanilla",
+    "normalized": "manzanilla",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["matricaria_recutita"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal", "tea"]
+    },
+    {
+    "name": "Zábila",
+    "normalized": "zabila",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["aloe_vera"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Hierba buena",
+    "normalized": "hierba buena",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["mentha_spicata"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal", "tea", "culinary"]
+    },
+    {
+    "name": "Romero",
+    "normalized": "romero",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["rosmarinus_officinalis"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal", "aromatic"]
+    },
+    {
+    "name": "Altamisa",
+    "normalized": "altamisa",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["ambrosia_cumanensis"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Cola de caballo",
+    "normalized": "cola de caballo",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["equisetum_bogotense"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal", "tea"]
+    },
+    {
+    "name": "Cundeamor",
+    "normalized": "cundeamor",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["momordica_charantia"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Valeriana",
+    "normalized": "valeriana",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["momordica_charantia"],
+    "ambiguity_level": "medium",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Flor escondida",
+    "normalized": "flor escondida",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["phyllanthus_niruri"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Llantén",
+    "normalized": "llanten",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["plantago_major"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Cilantro de Fraile",
+    "normalized": "cilantro de fraile",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["eryngium_foetidum"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal", "culinary"]
+    },
+    {
+    "name": "Culantro",
+    "normalized": "culantro",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["eryngium_foetidum"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal", "culinary"]
+    },
+    {
+    "name": "Insulina",
+    "normalized": "insulina",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["costus_igneus"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Albahaca morada",
+    "normalized": "albahaca morada",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["ocimum_sanctum"],
+    "ambiguity_level": "medium",
+    "usage_context": ["medicinal", "culinary"]
+    }
+    ],
+    "geo_distribution": [
+    {
+    "plant_id": "ruta_graveolens",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "matricaria_recutita",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "aloe_vera",
+    "biomes": ["coastal", "dry_forest"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "mentha_spicata",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "rosmarinus_officinalis",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "ambrosia_cumanensis",
+    "biomes": ["coastal", "dry_forest"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "equisetum_bogotense",
+    "biomes": ["andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "momordica_charantia",
+    "biomes": ["coastal", "dry_forest"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "phyllanthus_niruri",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "plantago_major",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "eryngium_foetidum",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "costus_igneus",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    }
+    ],
+    "uses": [
+    {
+    "plant_id": "ruta_graveolens",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Infecciones renales",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    },
+    {
+    "use": "Desintoxicación hepática",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    },
+    {
+    "use": "Control menstrual",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    },
+    {
+    "use": "Desinflamatorio",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    },
+    {
+    "use": "Regula circulación sanguínea y linfática",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "matricaria_recutita",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Controla cuadros depresivos y nerviosos",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    },
+    {
+    "use": "Dolores abdominales",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    },
+    {
+    "use": "Cuadros febriles",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "aloe_vera",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Infecciones renales",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    },
+    {
+    "use": "Sintomatología asmática y gripal",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    },
+    {
+    "use": "Hemorroides",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "mentha_spicata",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Inflamación estomacal",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    },
+    {
+    "use": "Oxigenante cerebral",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ],
+    "culinary": ["Aderezo en gastronomía"]
+    }
+    },
+    {
+    "plant_id": "rosmarinus_officinalis",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Control de alopecia",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ],
+    "aromatic": ["Uso en masajes y aromaterapia"]
+    }
+    },
+    {
+    "plant_id": "ambrosia_cumanensis",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Control menstrual y regeneración uterina",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "equisetum_bogotense",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Disminuye infecciones renales y cistitis",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "momordica_charantia",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Diabetes",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "phyllanthus_niruri",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Infecciones urinarias",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    },
+    {
+    "use": "Desintoxicación hepática",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "plantago_major",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Antiinflamatorio e hinchazón de amígdalas",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    },
+    {
+    "use": "Antibiótico (culebrilla)",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "eryngium_foetidum",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Colesterol y cólicos",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    },
+    {
+    "use": "Inflamaciones intestinales",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ],
+    "culinary": ["Aliño en gastronomía"]
+    }
+    },
+    {
+    "plant_id": "costus_igneus",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Dolores estomacales y diabetes",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    },
+    {
+    "use": "Rebajar peso",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    }
+    ],
+    "safety": [
+    {
+    "plant_id": "ruta_graveolens",
+    "contraindications": ["Uso excesivo puede causar 
+   irritación cutánea y fotosensibilidad"],
+    "toxicity_level": "moderate",
+    "lookalike_risk": false,
+    "confused_with": []
+    },
+    {
+    "plant_id": "mentha_spicata",
+    "contraindications": ["Posible contaminación fúngica
+   (Rhizopus sp., Nigrospora sp.) en muestras secas de mercado"],
+    "toxicity_level": "low",
+    "lookalike_risk": false,
+    "confused_with": []
+    },
+    {
+    "plant_id": "rosmarinus_officinalis",
+    "contraindications": ["Posible contaminación fúngica
+   (Alternaria sp., Fusarium solani) en muestras secas de
+   mercado"],
+    "toxicity_level": "low",
+    "lookalike_risk": false,
+    "confused_with": []
+    },
+    {
+    "plant_id": "ambrosia_cumanensis",
+    "contraindications": ["Posible contaminación fúngica
+   (Penicillium sp., Rhizopus stolonifer) en muestras secas de
+   mercado"],
+    "toxicity_level": "low",
+    "lookalike_risk": false,
+    "confused_with": []
+    },
+    {
+    "plant_id": "equisetum_bogotense",
+    "contraindications": ["Posible contaminación fúngica
+   (Rhizopus sp., Cladosporium sp.) en muestras secas de mercado"],
+    "toxicity_level": "low",
+    "lookalike_risk": false,
+    "confused_with": []
+    }
+   {
+    "plants": [
+    {
+    "id": "ruta_graveolens",
+    "scientific_name": "Ruta graveolens",
+    "family": "Rutaceae",
+    "genus": "Ruta",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "matricaria_recutita",
+    "scientific_name": "Matricaria recutita",
+    "family": "Asteraceae",
+    "genus": "Matricaria",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "aloe_vera",
+    "scientific_name": "Aloe vera",
+    "family": "Asphodelaceae",
+    "genus": "Aloe",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "mentha_spicata",
+    "scientific_name": "Mentha spicata",
+    "family": "Lamiaceae",
+    "genus": "Mentha",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "rosmarinus_officinalis",
+    "scientific_name": "Rosmarinus officinalis",
+    "family": "Lamiaceae",
+    "genus": "Rosmarinus",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "ambrosia_cumanensis",
+    "scientific_name": "Ambrosia cumanensis",
+    "family": "Asteraceae",
+    "genus": "Ambrosia",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "native",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "equisetum_bogotense",
+    "scientific_name": "Equisetum bogotense",
+    "family": "Equisetaceae",
+    "genus": "Equisetum",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "native",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "momordica_charantia",
+    "scientific_name": "Momordica charantia",
+    "family": "Cucurbitaceae",
+    "genus": "Momordica",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "phyllanthus_niruri",
+    "scientific_name": "Phyllanthus niruri",
+    "family": "Euphorbiaceae",
+    "genus": "Phyllanthus",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "native",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "plantago_major",
+    "scientific_name": "Plantago major",
+    "family": "Plantaginaceae",
+    "genus": "Plantago",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "eryngium_foetidum",
+    "scientific_name": "Eryngium foetidum",
+    "family": "Apiaceae",
+    "genus": "Eryngium",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "native",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "costus_igneus",
+    "scientific_name": "Costus igneus",
+    "family": "Costaceae",
+    "genus": "Costus",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "ocimum_sanctum",
+    "scientific_name": "Ocimum sanctum",
+    "family": "Lamiaceae",
+    "genus": "Ocimum",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal", "culinary"]
+    },
+    {
+    "id": "piper_auritum",
+    "scientific_name": "Piper auritum",
+    "family": "Piperaceae",
+    "genus": "Piper",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "native",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "pimenta_racemosa",
+    "scientific_name": "Pimenta racemosa",
+    "family": "Myrtaceae",
+    "genus": "Pimenta",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "native",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "amaranthus_tricolor",
+    "scientific_name": "Amaranthus tricolor",
+    "family": "Amaranthaceae",
+    "genus": "Amaranthus",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal", "culinary"]
+    },
+    {
+    "id": "amaranthus_retroflexus",
+    "scientific_name": "Amaranthus retroflexus",
+    "family": "Amaranthaceae",
+    "genus": "Amaranthus",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal", "culinary"]
+    },
+    {
+    "id": "borago_officinalis",
+    "scientific_name": "Borago officinalis",
+    "family": "Boraginaceae",
+    "genus": "Borago",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "cassia_occidentalis",
+    "scientific_name": "Cassia occidentalis",
+    "family": "Fabaceae",
+    "genus": "Cassia",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "cnicus_benedictus",
+    "scientific_name": "Cnicus benedictus",
+    "family": "Asteraceae",
+    "genus": "Cnicus",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "bryophyllum_pinnatum",
+    "scientific_name": "Bryophyllum pinnatum",
+    "family": "Crassulaceae",
+    "genus": "Bryophyllum",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "anethum_graveolens",
+    "scientific_name": "Anethum graveolens",
+    "family": "Apiaceae",
+    "genus": "Anethum",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal", "culinary"]
+    },
+    {
+    "id": "lantana_armata",
+    "scientific_name": "Lantana armata",
+    "family": "Verbenaceae",
+    "genus": "Lantana",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "native",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "psidium_guajava",
+    "scientific_name": "Psidium guajava",
+    "family": "Myrtaceae",
+    "genus": "Psidium",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "native",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "bauhinia_variegata",
+    "scientific_name": "Bauhinia variegata",
+    "family": "Fabaceae",
+    "genus": "Bauhinia",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "ficus_carica",
+    "scientific_name": "Ficus carica",
+    "family": "Moraceae",
+    "genus": "Ficus",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "portulaca_oleracea",
+    "scientific_name": "Portulaca oleracea",
+    "family": "Portulacaceae",
+    "genus": "Portulaca",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "majorana_vulgare",
+    "scientific_name": "Majorana vulgare",
+    "family": "Lamiaceae",
+    "genus": "Majorana",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "equisetum_giganteum",
+    "scientific_name": "Equisetum giganteum",
+    "family": "Equisetaceae",
+    "genus": "Equisetum",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "native",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "ocimum_basilicum",
+    "scientific_name": "Ocimum basilicum",
+    "family": "Lamiaceae",
+    "genus": "Ocimum",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal", "culinary"]
+    },
+    {
+    "id": "cyperus_rotundus",
+    "scientific_name": "Cyperus rotundus",
+    "family": "Cyperaceae",
+    "genus": "Cyperus",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "native",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "cymbopogon_citratus",
+    "scientific_name": "Cymbopogon citratus",
+    "family": "Poaceae",
+    "genus": "Cymbopogon",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "ptaffia_iresinoides",
+    "scientific_name": "Ptaffia iresinoides",
+    "family": "Amaranthaceae",
+    "genus": "Ptaffia",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "native",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "micromeria_brownei",
+    "scientific_name": "Micromeria brownei",
+    "family": "Lamiaceae",
+    "genus": "Micromeria",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "native",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "urena_lobata",
+    "scientific_name": "Urena lobata",
+    "family": "Malvaceae",
+    "genus": "Urena",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "artemisia_absinthium",
+    "scientific_name": "Artemisia absinthium",
+    "family": "Asteraceae",
+    "genus": "Artemisia",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "melia_azedarach",
+    "scientific_name": "Melia azedarach",
+    "family": "Meliaceae",
+    "genus": "Melia",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "justicia_pectoralis",
+    "scientific_name": "Justicia pectoralis",
+    "family": "Acanthaceae",
+    "genus": "Justicia",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "native",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "helianthus_annuus",
+    "scientific_name": "Helianthus annuus",
+    "family": "Asteraceae",
+    "genus": "Helianthus",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "taraxacum_officinale",
+    "scientific_name": "Taraxacum officinale",
+    "family": "Asteraceae",
+    "genus": "Taraxacum",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "zingiber_officinale",
+    "scientific_name": "Zingiber officinale",
+    "family": "Zingiberaceae",
+    "genus": "Zingiber",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "pimenta_dioica",
+    "scientific_name": "Pimenta dioica",
+    "family": "Myrtaceae",
+    "genus": "Pimenta",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "native",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "nerium_oleander",
+    "scientific_name": "Nerium oleander",
+    "family": "Apocynaceae",
+    "genus": "Nerium",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "tithonia_diversifolia",
+    "scientific_name": "Tithonia diversifolia",
+    "family": "Asteraceae",
+    "genus": "Tithonia",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "lippia_alba",
+    "scientific_name": "Lippia alba",
+    "family": "Verbenaceae",
+    "genus": "Lippia",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "native",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "jatropha_gossypifolia",
+    "scientific_name": "Jatropha gossypifolia",
+    "family": "Euphorbiaceae",
+    "genus": "Jatropha",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "pluchea_purpurascens",
+    "scientific_name": "Pluchea purpurascens",
+    "family": "Asteraceae",
+    "genus": "Pluchea",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "native",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "lepidium_virginicum",
+    "scientific_name": "Lepidium virginicum",
+    "family": "Brassicaceae",
+    "genus": "Lepidium",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "bixa_orellana",
+    "scientific_name": "Bixa orellana",
+    "family": "Bixaceae",
+    "genus": "Bixa",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "native",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "thymus_vulgaris",
+    "scientific_name": "Thymus vulgaris",
+    "family": "Lamiaceae",
+    "genus": "Thymus",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "pelargonium_peltatum",
+    "scientific_name": "Pelargonium peltatum",
+    "family": "Geraniaceae",
+    "genus": "Pelargonium",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "malva_sylvestris",
+    "scientific_name": "Malva sylvestris",
+    "family": "Malvaceae",
+    "genus": "Malva",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "sambucus_mexicana",
+    "scientific_name": "Sambucus mexicana",
+    "family": "Caprifoliaceae",
+    "genus": "Sambucus",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "native",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "gomphrena_globosa",
+    "scientific_name": "Gomphrena globosa",
+    "family": "Amaranthaceae",
+    "genus": "Gomphrena",
+    "rank": "species",
+    "origin_regions": ["VE"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    }
+    ],
+    "names": [
+    {
+    "name": "Albahaca morada",
+    "normalized": "albahaca morada",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["ocimum_sanctum"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal", "culinary"]
+    },
+    {
+    "name": "Anicillo",
+    "normalized": "anicillo",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["piper_auritum"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Buscapina",
+    "normalized": "buscapina",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["piper_auritum"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Hoja Santa",
+    "normalized": "hoja santa",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["piper_auritum"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Bairum",
+    "normalized": "bairum",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["pimenta_racemosa"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Malagueta",
+    "normalized": "malagueta",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["pimenta_racemosa", "pimenta_dioica"],
+    "ambiguity_level": "medium",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Bledo morado",
+    "normalized": "bledo morado",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["amaranthus_tricolor"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal", "culinary"]
+    },
+    {
+    "name": "Bledo verde",
+    "normalized": "bledo verde",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["amaranthus_retroflexus"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal", "culinary"]
+    },
+    {
+    "name": "Pira",
+    "normalized": "pira",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["amaranthus_retroflexus"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal", "culinary"]
+    },
+    {
+    "name": "Borrajá",
+    "normalized": "borraja",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["borago_officinalis"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Brusca",
+    "normalized": "brusca",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["cassia_occidentalis"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Cardozanto",
+    "normalized": "cardozanto",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["cnicus_benedictus"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Colombiana",
+    "normalized": "colombiana",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["bryophyllum_pinnatum"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Eneldo",
+    "normalized": "eneldo",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["anethum_graveolens"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal", "culinary"]
+    },
+    {
+    "name": "Cariaquito morado",
+    "normalized": "cariaquito morado",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["lantana_armata"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Guayabo",
+    "normalized": "guayabo",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["psidium_guajava"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Casco de vaca",
+    "normalized": "casco de vaca",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["bauhinia_variegata"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Higo",
+    "normalized": "higo",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["ficus_carica"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Verdolaga",
+    "normalized": "verdolaga",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["portulaca_oleracea"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Mejorana",
+    "normalized": "mejorana",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["majorana_vulgare"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Cola de caballo",
+    "normalized": "cola de caballo",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["equisetum_bogotense",
+   "equisetum_giganteum"],
+    "ambiguity_level": "medium",
+    "usage_context": ["medicinal", "tea"]
+    },
+    {
+    "name": "Albahaca",
+    "normalized": "albahaca",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["ocimum_basilicum"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal", "culinary"]
+    },
+    {
+    "name": "Corocillo",
+    "normalized": "corocillo",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["cyperus_rotundus"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Malojillo",
+    "normalized": "malojillo",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["cymbopogon_citratus"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Valeriana",
+    "normalized": "valeriana",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["ptaffia_iresinoides"],
+    "ambiguity_level": "medium",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Oreganón",
+    "normalized": "oreganon",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["micromeria_brownei"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Cadillo de perro",
+    "normalized": "cadillo de perro",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["urena_lobata"],
+    "ambiguity_level": "medium",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Ajenjo",
+    "normalized": "ajenjo",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["artemisia_absinthium"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Alelí",
+    "normalized": "aleli",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["melia_azedarach"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Curía",
+    "normalized": "curia",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["justicia_pectoralis"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Girasol",
+    "normalized": "girasol",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["helianthus_annuus"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Diente de león",
+    "normalized": "diente de leon",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["taraxacum_officinale"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Jengibre",
+    "normalized": "jengibre",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["zingiber_officinale"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Berbería",
+    "normalized": "berberia",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["nerium_oleander"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Árnica",
+    "normalized": "arnica",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["tithonia_diversifolia"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Toronjil",
+    "normalized": "toronjil",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["lippia_alba"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Tua tua",
+    "normalized": "tua tua",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["jatropha_gossypifolia"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Dividivi",
+    "normalized": "dividivi",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["pluchea_purpurascens"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Mastuerzo",
+    "normalized": "mastuerzo",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["lepidium_virginicum"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Onoto",
+    "normalized": "onoto",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["bixa_orellana"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Tomillo",
+    "normalized": "tomillo",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["thymus_vulgaris"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Geranio",
+    "normalized": "geranio",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["pelargonium_peltatum"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Malva",
+    "normalized": "malva",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["malva_sylvestris"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Saúco",
+    "normalized": "sauco",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["sambucus_mexicana"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Siempre viva",
+    "normalized": "siempre viva",
+    "language": "es",
+    "country": "VE",
+    "plant_ids": ["gomphrena_globosa"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    }
+    ],
+    "geo_distribution": [
+    {
+    "plant_id": "ocimum_sanctum",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "piper_auritum",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "pimenta_racemosa",
+    "biomes": ["coastal"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "amaranthus_tricolor",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "amaranthus_retroflexus",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "borago_officinalis",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "cassia_occidentalis",
+    "biomes": ["coastal", "dry_forest"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "cnicus_benedictus",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "bryophyllum_pinnatum",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "anethum_graveolens",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "lantana_armata",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "psidium_guajava",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "bauhinia_variegata",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "ficus_carica",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "portulaca_oleracea",
+    "biomes": ["coastal", "dry_forest"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "majorana_vulgare",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "equisetum_giganteum",
+    "biomes": ["andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "ocimum_basilicum",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "cyperus_rotundus",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "cymbopogon_citratus",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "ptaffia_iresinoides",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "micromeria_brownei",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "urena_lobata",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "artemisia_absinthium",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "melia_azedarach",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "justicia_pectoralis",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "helianthus_annuus",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "taraxacum_officinale",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "zingiber_officinale",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "pimenta_dioica",
+    "biomes": ["coastal"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "nerium_oleander",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "tithonia_diversifolia",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "lippia_alba",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "jatropha_gossypifolia",
+    "biomes": ["coastal", "dry_forest"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "pluchea_purpurascens",
+    "biomes": ["coastal"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "lepidium_virginicum",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "bixa_orellana",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "thymus_vulgaris",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "pelargonium_peltatum",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "malva_sylvestris",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "sambucus_mexicana",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "gomphrena_globosa",
+    "biomes": ["coastal", "andean_highlands"],
+    "countries": ["VE"],
+    "cultural_regions": ["criollo"]
+    }
+    ],
+    "uses": [
+    {
+    "plant_id": "ocimum_sanctum",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Culinaria, cicatrizante, antidiabética,
+   protector gástrico, antiinflamatoria",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ],
+    "culinary": ["Aliño"]
+    }
+    },
+    {
+    "plant_id": "piper_auritum",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Antiespasmódico y para todo tipo de
+   dolores",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "pimenta_racemosa",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Alivia dolores musculares y de cabeza, se
+   utiliza en masajes",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "amaranthus_tricolor",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Regenera neuronas, sube hemoglobina",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ],
+    "culinary": ["Alimento alternativo para animales de
+   granja"]
+    }
+    },
+    {
+    "plant_id": "amaranthus_retroflexus",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Oxigenante",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ],
+    "culinary": ["Gastronomía, ensaladas"]
+    }
+    },
+    {
+    "plant_id": "borago_officinalis",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Derrames menstruales, fiebre",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "cassia_occidentalis",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Fiebre, hepatitis, próstata, sube
+   bilirrubina",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "cnicus_benedictus",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Desinflamatorio del hígado, ayuda a combatir
+   el cáncer",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "bryophyllum_pinnatum",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Elimina cálculos renales",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "anethum_graveolens",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Anti estresante",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ],
+    "culinary": ["Aderezar ensaladas, sopas, carnes"]
+    }
+    },
+    {
+    "plant_id": "lantana_armata",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Alopecia y diabetes",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "psidium_guajava",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Relajante muscular y adelgazante",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "bauhinia_variegata",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Relajante muscular y adelgazante",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "ficus_carica",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Antipirético, antihistamínico,
+   anticonvulsivo, hipnosedante, control menstrual",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "portulaca_oleracea",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Desparasitante, hipocolesterolémico,
+   hemorroides, vermífugo, cicatrizante",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "majorana_vulgare",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Control de crisis depresivas, pánicos e
+   insomnios",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "equisetum_giganteum",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Disminuye las infecciones renales, cistitis,
+   dolores abdominales",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "ocimum_basilicum",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Infecciones renales, tricomoniasis y herpes
+   genital",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ],
+    "culinary": ["Gastronomía"]
+    }
+    },
+    {
+    "plant_id": "cyperus_rotundus",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Infecciones renales",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "cymbopogon_citratus",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Tos, gripe y asma",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "ptaffia_iresinoides",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Antidepresivo y antiparasitario",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "micromeria_brownei",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Infecciones urinarias",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "urena_lobata",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Infecciones urinarias, desintoxicación
+   hepática",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "artemisia_absinthium",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Diabetes y adelgazante",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "melia_azedarach",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Circulación sanguínea",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "justicia_pectoralis",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Infecciones e inflamaciones auditivas",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "helianthus_annuus",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Inflamaciones estomacales, fobias y pánico",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "taraxacum_officinale",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Infecciones urinarias, circulación,
+   desintoxicación hepática, colesterol, adelgazante",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "zingiber_officinale",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Antigripal y desinflamatorio prostático",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "pimenta_dioica",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Alopecia, diabetes y colesterol",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "nerium_oleander",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Sinusitis, triglicéridos y dolores
+   abdominales",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "tithonia_diversifolia",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Golpes",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "lippia_alba",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Regula las pulsaciones",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "jatropha_gossypifolia",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Diabetes, colirio, hemorroides",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "pluchea_purpurascens",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Dolores abdominales",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "lepidium_virginicum",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Dolores estomacales",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "bixa_orellana",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Desintoxicación y desinflamación hepática",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "thymus_vulgaris",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Depurativo",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "pelargonium_peltatum",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Triglicéridos",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "malva_sylvestris",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Adelgazante",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "sambucus_mexicana",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Circulación sanguínea",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    },
+    {
+    "plant_id": "gomphrena_globosa",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Control de los nervios, cuadros depresivos,
+   pánicos, fobias, depresiones, obesidad",
+    "evidence_level": "traditional",
+    "regions": ["VE"]
+    }
+    ]
+    }
+    }
+    ],
+    "safety": [
+    {
+    "plant_id": "ruta_graveolens",
+    "contraindications": ["Uso excesivo puede causar
+   irritación cutánea y fotosensibilidad", "Posible contaminación
+   fúngica (Aspergillus sp., Rhizopus sp.) en muestras secas de
+   mercado"],
+    "toxicity_level": "moderate",
+    "lookalike_risk": false,
+    "confused_with": []
+    },
+    {
+    "plant_id": "nerium_oleander",
+    "contraindications": ["Uso no recomendado sin supervisión
+   debido a su perfil tóxico general reportado en literatura
+   etnobotánica"],
+    "toxicity_level": "high",
+    "lookalike_risk": false,
+    "confused_with": []
+    }
+    ]
+   }

@@ -1,0 +1,312 @@
+{
+    "plants": [
+    {
+    "id": "uncaria_tomentosa",
+    "scientific_name": "Uncaria tomentosa",
+    "family": "Rubiaceae",
+    "genus": "Uncaria",
+    "rank": "species",
+    "origin_regions": ["EC"],
+    "native_status": "native",
+    "plant_type": "vine",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "croton_lechleri",
+    "scientific_name": "Croton lechleri",
+    "family": "Euphorbiaceae",
+    "genus": "Croton",
+    "rank": "species",
+    "origin_regions": ["EC"],
+    "native_status": "native",
+    "plant_type": "tree",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "banisteriopsis_caapi",
+    "scientific_name": "Banisteriopsis caapi",
+    "family": "Malpighiaceae",
+    "genus": "Banisteriopsis",
+    "rank": "species",
+    "origin_regions": ["EC"],
+    "native_status": "native",
+    "plant_type": "vine",
+    "primary_uses": ["medicinal", "ritual"]
+    },
+    {
+    "id": "cinchona_pubescens",
+    "scientific_name": "Cinchona pubescens",
+    "family": "Rubiaceae",
+    "genus": "Cinchona",
+    "rank": "species",
+    "origin_regions": ["EC"],
+    "native_status": "native",
+    "plant_type": "tree",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "maytenus_laevis",
+    "scientific_name": "Maytenus laevis",
+    "family": "Celastraceae",
+    "genus": "Maytenus",
+    "rank": "species",
+    "origin_regions": ["EC"],
+    "native_status": "native",
+    "plant_type": "tree",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "guaiacum_officinale",
+    "scientific_name": "Guaiacum officinale",
+    "family": "Zygophyllaceae",
+    "genus": "Guaiacum",
+    "rank": "species",
+    "origin_regions": ["EC"],
+    "native_status": "native",
+    "plant_type": "tree",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "ilex_guayusa",
+    "scientific_name": "Ilex guayusa",
+    "family": "Aquifoliaceae",
+    "genus": "Ilex",
+    "rank": "species",
+    "origin_regions": ["EC"],
+    "native_status": "native",
+    "plant_type": "tree",
+    "primary_uses": ["medicinal", "tea"]
+    },
+    {
+    "id": "piper_aduncum",
+    "scientific_name": "Piper aduncum",
+    "family": "Piperaceae",
+    "genus": "Piper",
+    "rank": "species",
+    "origin_regions": ["EC"],
+    "native_status": "native",
+    "plant_type": "shrub",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "aloysia_citriodora",
+    "scientific_name": "Aloysia citriodora",
+    "family": "Verbenaceae",
+    "genus": "Aloysia",
+    "rank": "species",
+    "origin_regions": ["EC"],
+    "native_status": "naturalized",
+    "plant_type": "shrub",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "matricaria_recutita",
+    "scientific_name": "Matricaria recutita",
+    "family": "Asteraceae",
+    "genus": "Matricaria",
+    "rank": "species",
+    "origin_regions": ["EC"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "mentha_spicata",
+    "scientific_name": "Mentha spicata",
+    "family": "Lamiaceae",
+    "genus": "Mentha",
+    "rank": "species",
+    "origin_regions": ["EC"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "ruta_graveolens",
+    "scientific_name": "Ruta graveolens",
+    "family": "Rutaceae",
+    "genus": "Ruta",
+    "rank": "species",
+    "origin_regions": ["EC"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "aloe_vera",
+    "scientific_name": "Aloe vera",
+    "family": "Asphodelaceae",
+    "genus": "Aloe",
+    "rank": "species",
+    "origin_regions": ["EC"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "sambucus_mexicana",
+    "scientific_name": "Sambucus mexicana",
+    "family": "Caprifoliaceae",
+    "genus": "Sambucus",
+    "rank": "species",
+    "origin_regions": ["EC"],
+    "native_status": "native",
+    "plant_type": "shrub",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "ocimum_basilicum",
+    "scientific_name": "Ocimum basilicum",
+    "family": "Lamiaceae",
+    "genus": "Ocimum",
+    "rank": "species",
+    "origin_regions": ["EC"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal", "culinary"]
+    }
+    ],
+    "names": [
+    {"name": "Uña de gato", "normalized": "una de gato",
+   "language": "es", "country": "EC", "plant_ids":
+   ["uncaria_tomentosa"], "ambiguity_level": "low",
+   "usage_context": ["medicinal"]},
+    {"name": "Sangre de drago", "normalized": "sangre de drago",
+   "language": "es", "country": "EC", "plant_ids":
+   ["croton_lechleri"], "ambiguity_level": "low", "usage_context":
+   ["medicinal"]},
+    {"name": "Ayahuasca", "normalized": "ayahuasca", "language":
+   "es", "country": "EC", "plant_ids": ["banisteriopsis_caapi"],
+   "ambiguity_level": "low", "usage_context": ["medicinal",
+   "ritual"]},
+    {"name": "Quina", "normalized": "quina", "language": "es",
+   "country": "EC", "plant_ids": ["cinchona_pubescens"],
+   "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Chuchuhuaso", "normalized": "chuchuhuaso",
+   "language": "es", "country": "EC", "plant_ids":
+   ["maytenus_laevis"], "ambiguity_level": "low", "usage_context":
+   ["medicinal"]},
+    {"name": "Guayaco", "normalized": "guayaco", "language":
+   "es", "country": "EC", "plant_ids": ["guaiacum_officinale"],
+   "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Guayusa", "normalized": "guayusa", "language":
+   "es", "country": "EC", "plant_ids": ["ilex_guayusa"],
+   "ambiguity_level": "low", "usage_context": ["medicinal",
+   "tea"]},
+    {"name": "Matico", "normalized": "matico", "language": "es",
+   "country": "EC", "plant_ids": ["piper_aduncum"],
+   "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Toronjil", "normalized": "toronjil", "language":
+   "es", "country": "EC", "plant_ids": ["aloysia_citriodora"],
+   "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Cedrón", "normalized": "cedron", "language": "es",
+   "country": "EC", "plant_ids": ["aloysia_citriodora"],
+   "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Hierba luisa", "normalized": "hierba luisa",
+   "language": "es", "country": "EC", "plant_ids":
+   ["aloysia_citriodora"], "ambiguity_level": "low",
+   "usage_context": ["medicinal"]},
+    {"name": "Manzanilla", "normalized": "manzanilla",
+   "language": "es", "country": "EC", "plant_ids":
+   ["matricaria_recutita"], "ambiguity_level": "low",
+   "usage_context": ["medicinal"]},
+    {"name": "Menta", "normalized": "menta", "language": "es",
+   "country": "EC", "plant_ids": ["mentha_spicata"],
+   "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Ruda", "normalized": "ruda", "language": "es",
+   "country": "EC", "plant_ids": ["ruta_graveolens"],
+   "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Sábila", "normalized": "sabila", "language": "es",
+   "country": "EC", "plant_ids": ["aloe_vera"], "ambiguity_level":
+   "low", "usage_context": ["medicinal"]},
+    {"name": "Sauco", "normalized": "sauco", "language": "es",
+   "country": "EC", "plant_ids": ["sambucus_mexicana"],
+   "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Albahaca", "normalized": "albahaca", "language":
+   "es", "country": "EC", "plant_ids": ["ocimum_basilicum"],
+   "ambiguity_level": "low", "usage_context": ["medicinal",
+   "culinary"]},
+    {"name": "Paraguay", "normalized": "paraguay", "language":
+   "es", "country": "EC", "plant_ids": [], "ambiguity_level":
+   "high", "usage_context": ["medicinal"]},
+    {"name": "Escancel", "normalized": "escancel", "language":
+   "es", "country": "EC", "plant_ids": [], "ambiguity_level":
+   "high", "usage_context": ["medicinal"]},
+    {"name": "Poleo chiquito", "normalized": "poleo chiquito", 
+   "language": "es", "country": "EC", "plant_ids": [],
+   "ambiguity_level": "high", "usage_context": ["medicinal"]},
+    {"name": "Chiri wayusa", "normalized": "chiri wayusa",
+   "language": "qu", "country": "EC", "plant_ids":
+   ["ilex_guayusa"], "ambiguity_level": "low", "usage_context":
+   ["medicinal", "tea"]},
+    {"name": "Rayu Kaspi", "normalized": "rayu kaspi",
+   "language": "qu", "country": "EC", "plant_ids": [],
+   "ambiguity_level": "high", "usage_context": ["medicinal"]},
+    {"name": "Zingya Panga", "normalized": "zingya panga",
+   "language": "qu", "country": "EC", "plant_ids": [],
+   "ambiguity_level": "high", "usage_context": ["medicinal"]}
+    ],
+    "geo_distribution": [
+    {"plant_id": "uncaria_tomentosa", "biomes":
+   ["amazon_rainforest"], "countries": ["EC"], "cultural_regions":
+   ["amazonian", "indigenous"]},
+    {"plant_id": "croton_lechleri", "biomes":
+   ["amazon_rainforest"], "countries": ["EC"], "cultural_regions":
+   ["amazonian", "indigenous"]},
+    {"plant_id": "banisteriopsis_caapi", "biomes":
+   ["amazon_rainforest"], "countries": ["EC"], "cultural_regions":
+   ["amazonian", "indigenous"]},
+    {"plant_id": "cinchona_pubescens", "biomes":
+   ["andean_highlands"], "countries": ["EC"], "cultural_regions":
+   ["andean", "indigenous"]},
+    {"plant_id": "ilex_guayusa", "biomes":
+   ["amazon_rainforest"], "countries": ["EC"], "cultural_regions":
+   ["amazonian", "indigenous"]},
+    {"plant_id": "piper_aduncum", "biomes":
+   ["amazon_rainforest", "andean_highlands"], "countries": ["EC"],
+   "cultural_regions": ["amazonian", "andean"]},
+    {"plant_id": "aloysia_citriodora", "biomes":
+   ["andean_highlands"], "countries": ["EC"], "cultural_regions":
+   ["andean"]},
+    {"plant_id": "matricaria_recutita", "biomes":
+   ["andean_highlands", "coastal"], "countries": ["EC"],
+   "cultural_regions": ["andean"]},
+    {"plant_id": "mentha_spicata", "biomes":
+   ["andean_highlands"], "countries": ["EC"], "cultural_regions":
+   ["andean"]},
+    {"plant_id": "ruta_graveolens", "biomes":
+   ["andean_highlands"], "countries": ["EC"], "cultural_regions":
+   ["andean"]},
+    {"plant_id": "aloe_vera", "biomes": ["coastal",
+   "dry_forest"], "countries": ["EC"], "cultural_regions":
+   ["criollo"]}
+    ],
+    "uses": [
+    {"plant_id": "ilex_guayusa", "categories": {"medicinal":
+   [{"use": "Gripe, fiebre y malestares generales (infusión)",
+   "evidence_level": "traditional", "regions": ["EC"]}]}},
+    {"plant_id": "piper_aduncum", "categories": {"medicinal":
+   [{"use": "Uso en gestación y posparto", "evidence_level":
+   "traditional", "regions": ["EC"]}]}},
+    {"plant_id": "aloysia_citriodora", "categories":
+   {"medicinal": [{"use": "Uso en gestación y posparto (toronjil/ cedrón)", "evidence_level": "traditional", "regions":
+   ["EC"]}]}},
+    {"plant_id": "matricaria_recutita", "categories":
+   {"medicinal": [{"use": "Uso principal en gestación y posparto",
+   "evidence_level": "traditional", "regions": ["EC"]}]}},
+    {"plant_id": "ruta_graveolens", "categories": {"medicinal":
+   [{"use": "Uso en tercer trimestre y posparto", "evidence_level":
+   "traditional", "regions": ["EC"]}]}},
+    {"plant_id": "aloe_vera", "categories": {"medicinal":
+   [{"use": "Uso en posparto", "evidence_level": "traditional",
+   "regions": ["EC"]}]}}
+    ],
+    "safety": [
+    {
+    "plant_id": "ruta_graveolens",
+    "contraindications": ["Uso en embarazo puede provocar contracciones uterinas y aborto"],
+    "toxicity_level": "moderate",
+    "lookalike_risk": false
+    }
+    ]
+   }

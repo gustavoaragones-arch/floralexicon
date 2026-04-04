@@ -1,12 +1,24 @@
 import { CountryContextSelector } from "@/components/CountryContextSelector";
 import { PlantCard } from "@/components/PlantCard";
 import { formatRegionList } from "@/lib/countries";
+import { getNameHubConfidenceTier } from "@/lib/geo";
 import { localePath, t, ti, type Locale } from "@/lib/i18n";
 import type { PlantNameMatch, ResolvedPlantContext } from "@/lib/resolver";
 import Link from "next/link";
 
 const prose =
   "text-sm leading-relaxed text-stone-600 dark:text-stone-400";
+
+function primaryPlantCardShell(confidence: number): string {
+  const tier = getNameHubConfidenceTier(confidence);
+  if (tier === "most_likely") {
+    return "mt-6 rounded-2xl border-2 border-emerald-500/45 bg-white px-6 py-6 shadow-md shadow-emerald-900/5 ring-2 ring-emerald-500/15 dark:border-emerald-500/40 dark:bg-stone-900/40 dark:shadow-black/25 dark:ring-emerald-500/20";
+  }
+  if (tier === "strong_regional") {
+    return "mt-6 rounded-2xl border border-amber-400/55 bg-amber-50/40 px-6 py-6 shadow-sm ring-1 ring-amber-500/15 dark:border-amber-600/40 dark:bg-amber-950/20 dark:ring-amber-500/10";
+  }
+  return "mt-6 rounded-2xl border border-stone-200 bg-white px-6 py-6 shadow-sm dark:border-stone-600 dark:bg-stone-900/40";
+}
 
 function aggregateUseKeys(contexts: ResolvedPlantContext[]): string[] {
   const set = new Set<string>();
@@ -121,7 +133,7 @@ export function NameCountryHub({
               country: countryLabel,
             })}
           </p>
-          <div className="mt-6 rounded-2xl border border-stone-200 bg-white px-6 py-6 shadow-sm dark:border-stone-600 dark:bg-stone-900/40">
+          <div className={primaryPlantCardShell(primary.confidence)}>
             <PlantCard
               lang={lang}
               plant={primary.plant}
@@ -133,6 +145,12 @@ export function NameCountryHub({
                 matchNumber: 1,
                 queryLabel: titleName,
                 siblingPlants,
+              }}
+              nameHubConfidence={{
+                rankIndex: 0,
+                totalMatches: plantContexts.length,
+                confidence: primary.confidence,
+                showPercent: true,
               }}
             />
           </div>

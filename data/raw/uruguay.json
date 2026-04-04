@@ -1,0 +1,661 @@
+{
+    "plants": [
+    {
+    "id": "baccharis_trimera",
+    "scientific_name": "Baccharis trimera",
+    "family": "Compositae",
+    "genus": "Baccharis",
+    "rank": "species",
+    "origin_regions": ["Uruguay", "Argentina", "Brazil",
+   "Southern South America"],
+    "native_status": "native",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "conyza_bonariensis",
+    "scientific_name": "Conyza bonariensis",
+    "family": "Compositae",
+    "genus": "Conyza",
+    "rank": "species",
+    "origin_regions": ["Uruguay", "Argentina", "Southern South
+   America"],
+    "native_status": "native",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "matricaria_recutita",
+    "scientific_name": "Matricaria recutita",
+    "family": "Compositae",
+    "genus": "Matricaria",
+    "rank": "species",
+    "origin_regions": ["Europe"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal", "aromatic", "culinary"]
+    },
+    {
+    "id": "sonchus_oleraceus",
+    "scientific_name": "Sonchus oleraceus",
+    "family": "Compositae",
+    "genus": "Sonchus",
+    "rank": "species",
+    "origin_regions": ["Europe"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal", "culinary"]
+    },
+    {
+    "id": "taraxacum_officinale",
+    "scientific_name": "Taraxacum officinale",
+    "family": "Compositae",
+    "genus": "Taraxacum",
+    "rank": "species",
+    "origin_regions": ["Europe"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal", "culinary"]
+    },
+    {
+    "id": "urtica_urens",
+    "scientific_name": "Urtica urens",
+    "family": "Urticaceae",
+    "genus": "Urtica",
+    "rank": "species",
+    "origin_regions": ["Europe"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal", "culinary"]
+    },
+    {
+    "id": "convolvulus_arvensis",
+    "scientific_name": "Convolvulus arvensis",
+    "family": "Convolvulaceae",
+    "genus": "Convolvulus",
+    "rank": "species",
+    "origin_regions": ["Europe"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "eryngium_horridum",
+    "scientific_name": "Eryngium horridum",
+    "family": "Umbelliferae",
+    "genus": "Eryngium",
+    "rank": "species",
+    "origin_regions": ["Uruguay", "Argentina", "Southern South
+   America"],
+    "native_status": "native",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    },
+    {
+    "id": "plantago_lanceolata",
+    "scientific_name": "Plantago lanceolata",
+    "family": "Plantaginaceae",
+    "genus": "Plantago",
+    "rank": "species",
+    "origin_regions": ["Europe", "Asia"],
+    "native_status": "naturalized",
+    "plant_type": "herb",
+    "primary_uses": ["medicinal"]
+    }
+    ],
+    "names": [
+    {
+    "name": "Carqueja",
+    "normalized": "carqueja",
+    "language": "es",
+    "country": "UY",
+    "plant_ids": ["baccharis_trimera"],
+    "ambiguity_level": "medium",
+    "usage_context": ["medicinal", "tea", "bitter_tonic"]
+    },
+    {
+    "name": "Carqueja",
+    "normalized": "carqueja",
+    "language": "es",
+    "country": "AR",
+    "plant_ids": ["baccharis_trimera"],
+    "ambiguity_level": "medium",
+    "usage_context": ["medicinal", "bitter_beverage"]
+    },
+    {
+    "name": "Yerba Carnicera",
+    "normalized": "yerba carnicera",
+    "language": "es",
+    "country": "UY",
+    "plant_ids": ["conyza_bonariensis"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Yerba Carnicera",
+    "normalized": "yerba carnicera",
+    "language": "es",
+    "country": "AR",
+    "plant_ids": ["conyza_bonariensis"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Manzanilla",
+    "normalized": "manzanilla",
+    "language": "es",
+    "country": "UY",
+    "plant_ids": ["matricaria_recutita"],
+    "ambiguity_level": "high",
+    "usage_context": ["medicinal", "tea", "aromatic",
+   "culinary"]
+    },
+    {
+    "name": "Manzanilla",
+    "normalized": "manzanilla",
+    "language": "es",
+    "country": "AR",
+    "plant_ids": ["matricaria_recutita"],
+    "ambiguity_level": "high",
+    "usage_context": ["medicinal", "tea"]
+    },
+    {
+    "name": "Matricaria",
+    "normalized": "matricaria",
+    "language": "es",
+    "country": "UY",
+    "plant_ids": ["matricaria_recutita"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal", "tea"]
+    },
+    {
+    "name": "Chamomilla",
+    "normalized": "chamomilla",
+    "language": "es",
+    "country": "UY",
+    "plant_ids": ["matricaria_recutita"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal", "tea"]
+    },
+    {
+    "name": "Manzanilla Alemana",
+    "normalized": "manzanilla alemana",
+    "language": "es",
+    "country": "UY",
+    "plant_ids": ["matricaria_recutita"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal", "tea"]
+    },
+    {
+    "name": "Cerraja",
+    "normalized": "cerraja",
+    "language": "es",
+    "country": "UY",
+    "plant_ids": ["sonchus_oleraceus"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal", "culinary"]
+    },
+    {
+    "name": "Cerraja",
+    "normalized": "cerraja",
+    "language": "es",
+    "country": "AR",
+    "plant_ids": ["sonchus_oleraceus"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal", "culinary"]
+    },
+    {
+    "name": "Diente de León",
+    "normalized": "diente de leon",
+    "language": "es",
+    "country": "UY",
+    "plant_ids": ["taraxacum_officinale"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal", "culinary", "tea"]
+    },
+    {
+    "name": "Diente de León",
+    "normalized": "diente de leon",
+    "language": "es",
+    "country": "AR",
+    "plant_ids": ["taraxacum_officinale"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal", "culinary"]
+    },
+    {
+    "name": "Amargón",
+    "normalized": "amargon",
+    "language": "es",
+    "country": "UY",
+    "plant_ids": ["taraxacum_officinale"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Ortiga",
+    "normalized": "ortiga",
+    "language": "es",
+    "country": "UY",
+    "plant_ids": ["urtica_urens"],
+    "ambiguity_level": "high",
+    "usage_context": ["medicinal", "culinary"]
+    },
+    {
+    "name": "Ortiga Brava",
+    "normalized": "ortiga brava",
+    "language": "es",
+    "country": "UY",
+    "plant_ids": ["urtica_urens"],
+    "ambiguity_level": "medium",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Correhuela",
+    "normalized": "correhuela",
+    "language": "es",
+    "country": "UY",
+    "plant_ids": ["convolvulus_arvensis"],
+    "ambiguity_level": "medium",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Corrigüela",
+    "normalized": "corriquela",
+    "language": "es",
+    "country": "UY",
+    "plant_ids": ["convolvulus_arvensis"],
+    "ambiguity_level": "medium",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Cardilla",
+    "normalized": "cardilla",
+    "language": "es",
+    "country": "UY",
+    "plant_ids": ["eryngium_horridum"],
+    "ambiguity_level": "low",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Caraguatá",
+    "normalized": "caraguata",
+    "language": "es",
+    "country": "UY",
+    "plant_ids": ["eryngium_horridum"],
+    "ambiguity_level": "high",
+    "usage_context": ["medicinal"]
+    },
+    {
+    "name": "Llantén",
+    "normalized": "llanten",
+    "language": "es",
+    "country": "UY",
+    "plant_ids": ["plantago_lanceolata"],
+    "ambiguity_level": "medium",
+    "usage_context": ["medicinal", "topical"]
+    },
+    {
+    "name": "Llantén",
+    "normalized": "llanten",
+    "language": "es",
+    "country": "AR",
+    "plant_ids": ["plantago_lanceolata"],
+    "ambiguity_level": "medium",
+    "usage_context": ["medicinal", "topical"]
+    }
+    ],
+    "geo_distribution": [
+    {
+    "plant_id": "baccharis_trimera",
+    "biomes": ["coastal", "dry_forest", "andean_highlands"],
+    "countries": ["UY", "AR"],
+    "cultural_regions": ["criollo", "indigenous"]
+    },
+    {
+    "plant_id": "conyza_bonariensis",
+    "biomes": ["coastal", "dry_forest"],
+    "countries": ["UY", "AR"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "matricaria_recutita",
+    "biomes": ["coastal", "dry_forest"],
+    "countries": ["UY", "AR"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "sonchus_oleraceus",
+    "biomes": ["coastal", "dry_forest"],
+    "countries": ["UY", "AR"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "taraxacum_officinale",
+    "biomes": ["coastal", "dry_forest"],
+    "countries": ["UY", "AR"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "urtica_urens",
+    "biomes": ["coastal", "dry_forest"],
+    "countries": ["UY", "AR"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "convolvulus_arvensis",
+    "biomes": ["coastal", "dry_forest"],
+    "countries": ["UY", "AR"],
+    "cultural_regions": ["criollo"]
+    },
+    {
+    "plant_id": "eryngium_horridum",
+    "biomes": ["coastal", "dry_forest"],
+    "countries": ["UY", "AR"],
+    "cultural_regions": ["criollo", "indigenous"]
+    },
+    {
+    "plant_id": "plantago_lanceolata",
+    "biomes": ["coastal", "dry_forest"],
+    "countries": ["UY", "AR"],
+    "cultural_regions": ["criollo"]
+    }
+    ],
+    "uses": [
+    {
+    "plant_id": "baccharis_trimera",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Traditionally used internally as a
+   stomachic, liver tonic (infusion 1–2%), bitter tonic and
+   febrifuge (infusion 10%). Also used regionally as antirheumatic,
+   anthelmintic, for diabetes, gastroenteritis, anorexia, flu, and
+   colds. Externally used for wound and ulcer treatment.",
+    "evidence_level": "preliminary_science",
+    "regions": ["UY", "AR"]
+    },
+    {
+    "use": "Pharmacological data indicate hypoglycemic
+   action in aqueous extracts, inhibition of Trypanosoma cruzi
+   growth, activity against schistosomiasis vectors,
+   hepatoprotective, antiulcer, and antibiotic activity.",
+    "evidence_level": "preliminary_science",
+    "regions": ["UY", "AR"]
+    }
+    ],
+    "culinary": ["Bitter beverage ingredient in Argentina"],
+    "aromatic": []
+    }
+    },
+    {
+    "plant_id": "conyza_bonariensis",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Traditionally used internally: infusion 1%
+   as hepatoprotector and antiulcer; infusion 3–4% as diuretic for
+   genitourinary conditions and urethral washes; decoction 10% as
+   depurative antirheumatic for uric acid elimination. Fresh leaf
+   infusion 1% traditionally used for stomach ulcers.",
+    "evidence_level": "traditional",
+    "regions": ["UY", "AR"]
+    },
+    {
+    "use": "Externally used as antiseptic and healing
+   agent applied as fresh leaf poultice on wounds.",
+    "evidence_level": "traditional",
+    "regions": ["UY", "AR"]
+    }
+    ],
+    "culinary": ["Refreshing beverage prepared with roots
+   and linseed in Argentina"],
+    "aromatic": []
+    }
+    },
+    {
+    "plant_id": "matricaria_recutita",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Traditionally used internally for
+   gastrointestinal disturbances, antispasmodic, sedative,
+   digestive. Hepatic, diuretic, emollient, carminative, and
+   cardiac properties cited. Infusion 0.5% for stomach pain; 1–1.5% 
+   for lumbago and headache. Externally as compress or bath for
+   skin/mucosa inflammation and rheumatic pain; wound healing.",
+    "evidence_level": "clinical_supported",
+    "regions": ["UY", "AR"]
+    },
+    {
+    "use": "Pharmacological data confirm antiinflammatory, antiseptic, antispasmodic, ulcer-protective,
+   analgesic, healing, and antipyretic activities from essential
+   oil active compounds.",
+    "evidence_level": "clinical_supported",
+    "regions": ["UY", "AR"]
+    }
+    ],
+    "culinary": ["Herbal infusion", "tea"],
+    "aromatic": ["Essential oil used in perfumes, liqueurs,
+   shampoos, cosmetics, detergents, lotions, soaps, and alcoholic
+   beverages"]
+    }
+    },
+    {
+    "plant_id": "sonchus_oleraceus",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Traditionally used internally: fresh plant
+   infusion 1% for liver diseases, promotes bile secretion.
+   Concentrated plant juice used as purgative in small doses. Cough
+   syrup prepared with whole plant, water, and honey (traditional
+   use in Argentina).",
+    "evidence_level": "traditional",
+    "regions": ["UY", "AR"]
+    }
+    ],
+    "culinary": ["Young leaves and stems cooked as food;
+   eaten boiled and seasoned"],
+    "aromatic": []
+    }
+    },
+    {
+    "plant_id": "taraxacum_officinale",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Traditionally used: fresh plant juice 50–
+   100g/day or decoction 50g/L for skin conditions (depurative and
+   diuretic). Prolonged decoction or fresh consumption for 
+   pulmonary conditions. Wine decoction of 40g root as febrifuge.
+   Leaf infusion 1% for liver conditions.",
+    "evidence_level": "traditional",
+    "regions": ["UY", "AR"]
+    },
+    {
+    "use": "European sources cite use as choleretic and
+   cholagogue for liver conditions; bitter tonic for dyspepsia;
+   stomachic for cramps; antirheumatic; and effective diuretic.",
+    "evidence_level": "preliminary_science",
+    "regions": ["UY"]
+    }
+    ],
+    "culinary": ["Young leaves eaten raw in salad or
+   cooked", "Dried root toasted as coffee substitute in
+   Argentina"],
+    "aromatic": []
+    }
+    },
+    {
+    "plant_id": "urtica_urens",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Traditionally used for diuretic, depurative,
+   and antihemorrhagic properties. Strong decoctions not
+   recommended internally due to circulatory risk. Fresh plant
+   juice used for internal hemorrhages. Decoction 20g fresh plant/L
+   used as hypoglycemic. Fresh branches applied topically
+   (revulsive action) to relieve rheumatic pain. Attributed
+   antianemic properties due to mineral content. Powdered leaves
+   used as snuff to stop nosebleeds. Occasionally used to stimulate
+   hair growth.",
+    "evidence_level": "traditional",
+    "regions": ["UY", "AR"]
+    }
+    ],
+    "culinary": ["Cooked and eaten as spinach substitute",
+   "Commercial source of chlorophyll"],
+    "aromatic": []
+    }
+    },
+    {
+    "plant_id": "convolvulus_arvensis",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Traditionally used internally: whole plant
+   infusion (especially root) as antiasthmatic. Fresh plant
+   infusion 0.5% as aperitif. Infusion of 6 crushed leaves as
+   purgative.",
+    "evidence_level": "traditional",
+    "regions": ["UY", "AR"]
+    }
+    ],
+    "culinary": [],
+    "aromatic": []
+    }
+    },
+    {
+    "plant_id": "eryngium_horridum",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Traditionally used: rhizome decoction 1–2%
+   as diuretic in small doses, with bronchial and skin condition
+   benefits. Decoction 5% as gargle for throat irritation. Rhizome
+   decoction used for jaundice (Argentina). Also used as diuretic
+   for kidney pain.",
+    "evidence_level": "traditional",
+    "regions": ["UY", "AR"]
+    }
+    ],
+    "culinary": [],
+    "aromatic": []
+    }
+    },
+    {
+    "plant_id": "plantago_lanceolata",
+    "categories": {
+    "medicinal": [
+    {
+    "use": "Traditionally used: leaf decoction 2% as
+   astringent in gargles for throat irritation and oral mucosa
+   inflammation. Infusion 0.5% for eye washes. Crushed leaves as
+   poultice for wound healing. Seeds as emollient poultice for
+   eyelid inflammation.",
+    "evidence_level": "preliminary_science",
+    "regions": ["UY", "AR"]
+    },
+    {
+    "use": "Pharmacological data: leaf decoctions
+   inhibit bacteria isolated from human conjunctivitis. Seed
+   mucilages used for constipation treatment.",
+    "evidence_level": "preliminary_science",
+    "regions": ["UY"]
+    }
+    ],
+    "culinary": [],
+    "aromatic": []
+    }
+    }
+    ],
+    "safety": [
+    {
+    "plant_id": "baccharis_trimera",
+    "contraindications": ["Pregnancy — not assessed in source;
+   caution advised", "Risk of agrochemical residues if collected
+   from crop fields"],
+    "drug_interactions": ["Potential hypoglycemic interaction
+   — caution with antidiabetic drugs"],
+    "toxicity_level": "low",
+    "lookalike_risk": true,
+    "confused_with": []
+    },
+    {
+    "plant_id": "conyza_bonariensis",
+    "contraindications": ["Risk of agrochemical residues if
+   collected from crop fields"],
+    "drug_interactions": [],
+    "toxicity_level": "low",
+    "lookalike_risk": false,
+    "confused_with": []
+    },
+    {
+    "plant_id": "matricaria_recutita",
+    "contraindications": ["Prolonged skin contact may cause
+   contact dermatitis in sensitive individuals"],
+    "drug_interactions": [],
+    "toxicity_level": "low",
+    "lookalike_risk": true,
+    "confused_with": []
+    },
+    {
+    "plant_id": "sonchus_oleraceus",
+    "contraindications": ["Concentrated juice may cause rectal
+   tenesmus"],
+    "drug_interactions": [],
+    "toxicity_level": "low",
+    "lookalike_risk": false,
+    "confused_with": []
+    },
+    {
+    "plant_id": "taraxacum_officinale",
+    "contraindications": ["Risk of agrochemical residues if
+   collected from lawn or crop fields"],
+    "drug_interactions": [],
+    "toxicity_level": "low",
+    "lookalike_risk": false,
+    "confused_with": []
+    },
+    {
+    "plant_id": "urtica_urens",
+    "contraindications": ["Strong internal decoctions not
+   recommended — risk of circulatory problems", "Urticant plant —
+   skin contact causes stinging; handle with care"],
+    "drug_interactions": ["Potential hypoglycemic interaction
+   — caution with antidiabetic drugs"],
+    "toxicity_level": "low",
+    "lookalike_risk": false,
+    "confused_with": []
+    },
+    {
+    "plant_id": "convolvulus_arvensis",
+    "contraindications": ["Purgative effect — do not exceed
+   indicated dose"],
+    "drug_interactions": [],
+    "toxicity_level": "low",
+    "lookalike_risk": false,
+    "confused_with": []
+    },
+    {
+    "plant_id": "eryngium_horridum",
+    "contraindications": ["Use rhizome decoction in small
+   doses only"],
+    "drug_interactions": [],
+    "toxicity_level": "low",
+    "lookalike_risk": true,
+    "confused_with": ["eryngium_eburneum"]
+    },
+    {
+    "plant_id": "plantago_lanceolata",
+    "contraindications": ["Risk of agrochemical residues if
+   collected from crop fields or roadsides"],
+    "drug_interactions": [],
+    "toxicity_level": "low",
+    "lookalike_risk": true,
+    "confused_with": ["plantago_major", "plantago_australis", 
+   "plantago_tomentosa", "plantago_myosurus"]
+    }
+    ]
+   }
