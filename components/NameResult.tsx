@@ -28,6 +28,7 @@ import {
   type SamePlantCluster,
 } from "@/components/SamePlantNamesSection";
 import { NameSeoContent } from "@/components/NameSeoContent";
+import { ConceptHint } from "@/components/concepts/ConceptHint";
 import { PlantComparisonSection } from "@/components/PlantComparisonSection";
 import { PlantCard } from "@/components/PlantCard";
 import { localePath, ti, t, type Locale } from "@/lib/i18n";
@@ -205,6 +206,12 @@ export function NameResult({
             value={selectedCountry}
             options={countryOptions}
           />
+        ) : null}
+
+        {hasMatches && plantContexts.length > 1 ? (
+          <div className="mt-6 rounded-xl border border-stone-200 bg-stone-50/90 px-4 py-3 dark:border-stone-700 dark:bg-stone-900/50">
+            <ConceptHint lang={lang} concept="plant-name-ambiguity" />
+          </div>
         ) : null}
       </header>
 

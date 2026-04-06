@@ -28,6 +28,9 @@ export function Header({ lang }: { lang: Locale }) {
           <Link href={localePath(lang, "/plants")} className={linkClass}>
             {t(lang, "nav_plants")}
           </Link>
+          <Link href={localePath(lang, "/concepts")} className={linkClass}>
+            {t(lang, "nav_concepts")}
+          </Link>
         </nav>
       </div>
     </header>

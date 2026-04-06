@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "merge-dataset": "tsx scripts/mergeDataset.ts",
+    "layered-merge-phase5": "tsx scripts/layeredMergePhase5.ts",
     "validate-dataset": "tsx scripts/validateDataset.ts"
   },
   "dependencies": {

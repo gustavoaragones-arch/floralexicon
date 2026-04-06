@@ -9,6 +9,7 @@
 
 import * as fs from "fs";
 import * as path from "path";
+import { fileURLToPath } from "node:url";
 import { jsonrepair } from "jsonrepair";
 
 const ROOT = path.resolve(__dirname, "..");
@@ -32,6 +33,14 @@ function parseRawJson(content: string, filename: string): ParseRawResult {
   }
 }
 const RAW_DIR = path.join(ROOT, "data", "raw");
+
+/** Consumed only by `layeredMergePhase5.ts`, not the regional canonical merge. */
+const PHASE5_ENRICHMENT_ONLY = new Set([
+  "plants_master.json",
+  "names_master.json",
+  "disambiguation_master.json",
+  "conditions_master.json",
+]);
 const OUT_DIR = path.join(ROOT, "data", "processed");
 const CANONICAL_DIR = path.join(ROOT, "data", "canonical");
 
@@ -531,7 +540,7 @@ function main() {
   }
   const files = fs
     .readdirSync(RAW_DIR)
-    .filter((f) => f.endsWith(".json"))
+    .filter((f) => f.endsWith(".json") && !PHASE5_ENRICHMENT_ONLY.has(f))
     .map((f) => path.join(RAW_DIR, f))
     .sort();
 
@@ -548,4 +557,10 @@ function main() {
   writeOutputs();
 }
 
-main();
+const entryScript = process.argv[1];
+if (
+  entryScript &&
+  path.resolve(entryScript) === path.resolve(fileURLToPath(import.meta.url))
+) {
+  main();
+}

@@ -1,0 +1,5141 @@
+{
+  "meta": {
+    "dataset": "FloraLexicon Mexico",
+    "version": "1.0",
+    "region": "Mexico",
+    "coverage": "All major cultural regions: Valle de México, Veracruz/Nahua Sierra de Zongolica, Yucatán/Maya Peninsula, Bajío/Jalisco, Mexico national",
+    "sources": [
+      {
+        "id": "S1",
+        "title": "Compendio de plantas medicinales silvestres de la región nahua de la Sierra de Zongolica, Veracruz",
+        "author": "Victoria de Jesús Francisca",
+        "publisher": "Instituto Nacional de los Pueblos Indígenas (INPI)",
+        "year": 2024,
+        "language": [
+          "es",
+          "nah",
+          "en"
+        ],
+        "region": "Zongolica, Veracruz — Nahua communities"
+      },
+      {
+        "id": "S2",
+        "title": "Guía Ilustrada de Plantas Medicinales en el Valle de México",
+        "author": "Fonseca Chávez, Rivera Levario & Vázquez García",
+        "publisher": "Instituto Nacional de los Pueblos Indígenas (INPI)",
+        "year": 2020,
+        "language": [
+          "es"
+        ],
+        "region": "Valle de México — multi-ethnic (Nahua, Otomí, Mazahua, Purépecha, Totonaca, Tenek)"
+      },
+      {
+        "id": "S3",
+        "title": "Plantas Medicinales: La Realidad de una Tradición Ancestral",
+        "author": "Guzmán Maldonado, Díaz Huacuz & González Chavira",
+        "publisher": "INIFAP — Campo Experimental Bajío, Celaya, Guanajuato",
+        "year": 2017,
+        "language": [
+          "es"
+        ],
+        "region": "Bajío / Guanajuato — scientific review of 8 commonly sold species"
+      },
+      {
+        "id": "S4",
+        "title": "Medicina Experimentada — Plantas Sanadoras",
+        "author": "Fernández Martínez & Gutiérrez",
+        "publisher": "Instituto Nacional de los Pueblos Indígenas (INPI)",
+        "year": 2021,
+        "language": [
+          "es"
+        ],
+        "region": "Mexico national — general herbolaria compendium"
+      },
+      {
+        "id": "S5",
+        "title": "Catálogo de la Colección de Plantas Medicinales del Jardín X ka'ansajil (Lugar de enseñanza)",
+        "author": "Méndez-González, Pacheco-Garrido, Torrez-Avilez, Dorantes-Euán & Durán-García; medicinal knowledge: Édgar Francisco Peraza Chan",
+        "publisher": "CONACYT-FORDECYT — Jardín Botánico Regional Roger Orellana, CICY",
+        "year": 2021,
+        "language": [
+          "es",
+          "yua"
+        ],
+        "region": "Acanceh, Yucatán — Maya Peninsular ethnobotany"
+      },
+      {
+        "id": "S6",
+        "title": "Plantas Medicinales de la Farmacia Viviente del CEFOFOR: usos terapéuticos tradicionales y dosificación",
+        "author": "CONAFOR / Gerencia de Educación y Capacitación",
+        "publisher": "Comisión Nacional Forestal (CONAFOR) / SEMARNAT",
+        "year": 2010,
+        "language": [
+          "es"
+        ],
+        "region": "Ciudad Guzmán, Jalisco — national herbolaria with dosage protocols"
+      }
+    ],
+    "total_plant_entities": 161,
+    "total_name_mappings": 487,
+    "total_geo_records": 162,
+    "total_use_records": 398,
+    "total_safety_records": 162,
+    "tramil_validated_count": 32,
+    "high_toxicity_count": 8,
+    "critical_disambiguation_flags": 10
+  },
+  "plants": [
+    {
+      "id": "MX001",
+      "scientific_name": "Heterotheca inuloides Cass.",
+      "family": "Asteraceae",
+      "genus": "Heterotheca",
+      "common_name_primary": "Árnica mexicana",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico"
+      ],
+      "sources": [
+        "S2",
+        "S3",
+        "S6"
+      ],
+      "notes": "CRITICAL: Mexican árnica ≠ European Arnica montana. Different sesquiterpene profile. Contains chamissonolida and helenalin derivatives but at different concentrations. Widely confused at point of sale."
+    },
+    {
+      "id": "MX002",
+      "scientific_name": "Arnica montana L.",
+      "family": "Asteraceae",
+      "genus": "Arnica",
+      "common_name_primary": "Árnica europea",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Europe"
+      ],
+      "sources": [
+        "S4"
+      ],
+      "notes": "European species; documented in Mexican institutional pharmacopeia but rarely available as authentic plant. Often replaced by Heterotheca inuloides or Tithonia diversifolia in commerce."
+    },
+    {
+      "id": "MX003",
+      "scientific_name": "Tithonia diversifolia (Hemsl.) A. Gray",
+      "family": "Asteraceae",
+      "genus": "Tithonia",
+      "common_name_primary": "Gigantón / Árnica (Yucatan)",
+      "native_status": "naturalized",
+      "origin_regions": [
+        "Mexico",
+        "Central America"
+      ],
+      "sources": [
+        "S1",
+        "S2",
+        "S5"
+      ],
+      "notes": "Called 'árnica' in Yucatan and Honduras. Part of the documented Árnica triangle across the dataset. No equivalent helenalin content to true Arnica montana."
+    },
+    {
+      "id": "MX004",
+      "scientific_name": "Dysphania ambrosioides (L.) Mosyakin & Clemants",
+      "family": "Amaranthaceae",
+      "genus": "Dysphania",
+      "common_name_primary": "Epazote",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico",
+        "Tropical Americas"
+      ],
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "notes": "Syn: Chenopodium ambrosioides. Most widely documented species across all 6 sources. Ascaridol content — TOXIC in excess. Clinical evidence for antiparasitic activity against Trypanosoma, Plasmodium, Leishmania in animal studies."
+    },
+    {
+      "id": "MX005",
+      "scientific_name": "Mentha spicata L.",
+      "family": "Lamiaceae",
+      "genus": "Mentha",
+      "common_name_primary": "Hierbabuena",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Europe"
+      ],
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S6"
+      ],
+      "notes": "Most widely used aromatic herb in Mexico. GRAS status (FDA). Clinical evidence for antibacterial activity."
+    },
+    {
+      "id": "MX006",
+      "scientific_name": "Mentha piperita L.",
+      "family": "Lamiaceae",
+      "genus": "Mentha",
+      "common_name_primary": "Menta / Hierbabuena china",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Europe"
+      ],
+      "sources": [
+        "S2",
+        "S4",
+        "S6"
+      ],
+      "notes": "Distinct from M. spicata though both sold as 'hierbabuena'. Higher menthol content. Sometimes listed as 'hierbabuena de menta'."
+    },
+    {
+      "id": "MX007",
+      "scientific_name": "Mentha viridis L.",
+      "family": "Lamiaceae",
+      "genus": "Mentha",
+      "common_name_primary": "Hierbabuena lisa / Poleo",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Eurasia"
+      ],
+      "sources": [
+        "S2"
+      ],
+      "notes": "Third 'hierbabuena' variant. Called 'poleo' in Estado de México — ambiguity with Mentha pulegium (true poleo)."
+    },
+    {
+      "id": "MX008",
+      "scientific_name": "Mentha pulegium L.",
+      "family": "Lamiaceae",
+      "genus": "Mentha",
+      "common_name_primary": "Poleo",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Europe",
+        "Asia",
+        "North Africa"
+      ],
+      "sources": [
+        "S6"
+      ],
+      "notes": "True poleo. Distinct pharmacology from M.spicata/viridis. Slightly toxic; abortifacient properties documented. Name 'poleo' also applied to M.viridis in MX — ambiguity risk."
+    },
+    {
+      "id": "MX009",
+      "scientific_name": "Artemisia absinthium L.",
+      "family": "Asteraceae",
+      "genus": "Artemisia",
+      "common_name_primary": "Ajenjo / Hierba maestra",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Western Europe",
+        "North Africa"
+      ],
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S6"
+      ],
+      "notes": "Contains thujone — toxic in excess. Not for use in pregnancy. Documented in Zongolica, Valle de MX, INPI 2021, and CEFOFOR 2010."
+    },
+    {
+      "id": "MX010",
+      "scientific_name": "Artemisia ludoviciana Nutt. subsp. mexicana (Willd.) Keck",
+      "family": "Asteraceae",
+      "genus": "Artemisia",
+      "common_name_primary": "Estafiate / Ajenjo del país",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico",
+        "USA"
+      ],
+      "sources": [
+        "S2",
+        "S4",
+        "S6"
+      ],
+      "notes": "Mexican native 'ajenjo'. Distinct from A. absinthium. Multiple indigenous names across Nahua, Otomí, Zapotec, Tenek. Abortifacient use documented."
+    },
+    {
+      "id": "MX011",
+      "scientific_name": "Aloe vera (L.) Burm. f.",
+      "family": "Asphodelaceae",
+      "genus": "Aloe",
+      "common_name_primary": "Sábila / Zábila",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Africa",
+        "Mediterranean"
+      ],
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "notes": "Most universally documented species across all 6 sources. GRAS. Scientific evidence for wound healing, antifungal, antibacterial, anti-inflammatory. Also called 'sávila', 'zabila'. Náhuatl: posacmetl. Maya: hunpets'k'inki."
+    },
+    {
+      "id": "MX012",
+      "scientific_name": "Ocimum basilicum L.",
+      "family": "Lamiaceae",
+      "genus": "Ocimum",
+      "common_name_primary": "Albahaca / Albahacar",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Tropical Asia"
+      ],
+      "sources": [
+        "S1",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "notes": "Widely used for digestive issues and ritual cleansing ('limpias', 'mal de ojo'). Maya: TRAMIL-validated for mal de ojo baths. Narcotic in high doses — not for children under 2 or elderly."
+    },
+    {
+      "id": "MX013",
+      "scientific_name": "Ocimum campechianum Mill.",
+      "family": "Lamiaceae",
+      "genus": "Ocimum",
+      "common_name_primary": "X kakaltuun (Maya)",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico",
+        "Central America",
+        "Caribbean"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "notes": "Maya Yucatan species distinct from O. basilicum. TRAMIL-validated for wound/sore healing. Not widely known outside Maya region."
+    },
+    {
+      "id": "MX014",
+      "scientific_name": "Silybum marianum (L.) Gaertn.",
+      "family": "Asteraceae",
+      "genus": "Silybum",
+      "common_name_primary": "Cardo mariano / Cardo de María",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Mediterranean"
+      ],
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S6"
+      ],
+      "notes": "Silymarin active compound — hepatoprotective, documented clinically. Best administered in capsules (loses properties in water per INPI 2021). Widely used across all MX regions."
+    },
+    {
+      "id": "MX015",
+      "scientific_name": "Argemone mexicana L.",
+      "family": "Papaveraceae",
+      "genus": "Argemone",
+      "common_name_primary": "Chicalote / Cardo santo (Zongolica)",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico",
+        "Tropical Americas"
+      ],
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "notes": "TOXIC — protopine, berberine, isoquinolines. TRAMIL validates only baths for skin eruptions; NOT oral ingestion. Zongolica uses latex externally on warts. S6 warns: do not exceed 10-day oral use. Ambiguity: called 'cardo santo' in Zongolica but Cirsium subcoriaceum is also 'cardo santo' in Jalisco."
+    },
+    {
+      "id": "MX016",
+      "scientific_name": "Argemone ochroleuca Sweet",
+      "family": "Papaveraceae",
+      "genus": "Argemone",
+      "common_name_primary": "Chicalote amarillo",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico",
+        "Australia"
+      ],
+      "sources": [
+        "S2"
+      ],
+      "notes": "Distinct from A. mexicana (yellow flowers vs white-yellowish). Valle de México. Uses parallel A. mexicana but less documented."
+    },
+    {
+      "id": "MX017",
+      "scientific_name": "Argemone platyceras Link & Otto",
+      "family": "Papaveraceae",
+      "genus": "Argemone",
+      "common_name_primary": "Chicalote de montaña / Cardo santo blanco",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico"
+      ],
+      "sources": [
+        "S2"
+      ],
+      "notes": "Mexican native. Source S2 flags as TÓXICA. Flujo vaginal, riñones, diabetes uses documented. Toxic alkaloids as per all Argemone spp."
+    },
+    {
+      "id": "MX018",
+      "scientific_name": "Cirsium subcoriaceum (Less.) Sch. Bip.",
+      "family": "Asteraceae",
+      "genus": "Cirsium",
+      "common_name_primary": "Cardo santo (Jalisco)",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico"
+      ],
+      "sources": [
+        "S6"
+      ],
+      "notes": "CRITICAL AMBIGUITY: called 'cardo santo' in Jalisco/Bajío region but is a completely different plant from Argemone mexicana (also 'cardo santo'). Cirsium subcoriaceum is Asteraceae; A. mexicana is Papaveraceae. Uses: hepatic, asthma, cardiac conditions."
+    },
+    {
+      "id": "MX019",
+      "scientific_name": "Taraxacum officinale G. H. Weber ex Wigg.",
+      "family": "Asteraceae",
+      "genus": "Taraxacum",
+      "common_name_primary": "Diente de León / Achicoria amarga",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Europe"
+      ],
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S6"
+      ],
+      "notes": "Widely naturalized in Mexico. Used across all regions for diabetes, diuretic, liver, constipation. Rich in inulin and flavonoids."
+    },
+    {
+      "id": "MX020",
+      "scientific_name": "Equisetum arvense L.",
+      "family": "Equisetaceae",
+      "genus": "Equisetum",
+      "common_name_primary": "Cola de caballo",
+      "native_status": "native",
+      "origin_regions": [
+        "North America"
+      ],
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S6"
+      ],
+      "notes": "Used for renal conditions across all sources. High silica content. Do not use excessively — leaches minerals."
+    },
+    {
+      "id": "MX021",
+      "scientific_name": "Equisetum hyemale L.",
+      "family": "Equisetaceae",
+      "genus": "Equisetum",
+      "common_name_primary": "Cola de caballo (tallos huecos)",
+      "native_status": "native",
+      "origin_regions": [
+        "North America"
+      ],
+      "sources": [
+        "S2"
+      ],
+      "notes": "Closely related to E. arvense; Valle de México source distinguishes the two. Hollow stems characteristic. Used also for renal and digestive conditions."
+    },
+    {
+      "id": "MX022",
+      "scientific_name": "Psidium guajava L.",
+      "family": "Myrtaceae",
+      "genus": "Psidium",
+      "common_name_primary": "Guayaba",
+      "native_status": "native",
+      "origin_regions": [
+        "Tropical Americas",
+        "Mexico"
+      ],
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "notes": "Náhuatl: Xalxocotl. TRAMIL-validated for diarrhea (leaves). Also antispasmodic, antibacterial. Widely used postpartum baths. One of the best-documented Mexican medicinal plants."
+    },
+    {
+      "id": "MX023",
+      "scientific_name": "Cuphea aequipetala Cav.",
+      "family": "Lythraceae",
+      "genus": "Cuphea",
+      "common_name_primary": "Hierba del cáncer / Hierba del golpe",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico"
+      ],
+      "sources": [
+        "S1",
+        "S2",
+        "S4"
+      ],
+      "notes": "Same species, different common names in different sources: S1 Zongolica distinguishes 'Hierba del cáncer' (flowers/leaves infusion for cancer/tumors) from 'Hierba del golpe' (pelvic issues, women only). S2 and S4 unify both uses. Náhuatl names differ: Chinawaxiwitl (cancer), Koskatlakuatzin (golpe)."
+    },
+    {
+      "id": "MX024",
+      "scientific_name": "Hamelia patens Jacq.",
+      "family": "Rubiaceae",
+      "genus": "Hamelia",
+      "common_name_primary": "Coralillo / Balletilla",
+      "native_status": "native",
+      "origin_regions": [
+        "Florida to South America"
+      ],
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "notes": "Náhuatl: Cacahuapaxtle / Siwapahxiwitl. Antiseptic, astringent, cicatrizant. Diarrhea, dysentry, menstrual disorders. Well-documented from Zongolica to Valle de México. Also in Honduras dataset."
+    },
+    {
+      "id": "MX025",
+      "scientific_name": "Tagetes erecta L.",
+      "family": "Asteraceae",
+      "genus": "Tagetes",
+      "common_name_primary": "Cempasúchil / Flor de muerto",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico"
+      ],
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "notes": "Náhuatl: Sempualxóchitl. Also: Apátsicua (Purépecha), cempoalxóchitl (Náhuatl). Day of the Dead flower. Medicinal: digestive, antiparasitic, antispasmodic. Natural dye. Widely documented."
+    },
+    {
+      "id": "MX026",
+      "scientific_name": "Tagetes lucida Cav.",
+      "family": "Asteraceae",
+      "genus": "Tagetes",
+      "common_name_primary": "Pericón / Anisillo / Yauhtli",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico",
+        "Central America"
+      ],
+      "sources": [
+        "S2",
+        "S4"
+      ],
+      "notes": "Náhuatl: yauhtli. Huichol ritual use (mixed with Nicotiana rustica). Abortive and emenagogue use documented (S2). Digestive, antispasmodic. Distinct from T. micrantha and T. erecta."
+    },
+    {
+      "id": "MX027",
+      "scientific_name": "Tagetes micrantha (Cav.) DC.",
+      "family": "Asteraceae",
+      "genus": "Tagetes",
+      "common_name_primary": "Anisillo chico / Pericón anís",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico",
+        "SW USA"
+      ],
+      "sources": [
+        "S2"
+      ],
+      "notes": "Anise-scented. Smaller than T. lucida. Digestive, antiparasitic. Valle de México."
+    },
+    {
+      "id": "MX028",
+      "scientific_name": "Ruta graveolens L.",
+      "family": "Rutaceae",
+      "genus": "Ruta",
+      "common_name_primary": "Ruda",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Mediterranean Europe"
+      ],
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "notes": "TOXIC (moderate): abortifacient, emenagogue. Not for pregnant women or children. Despite toxicity, widely used across all regions for menstrual disorders, ritual cleansing (mal de ojo, espanto), digestive complaints. Rutaceae compounds. TRAMIL validated (Yucatan) for headache/mal de ojo baths at specific doses."
+    },
+    {
+      "id": "MX029",
+      "scientific_name": "Ruta chalepensis L.",
+      "family": "Rutaceae",
+      "genus": "Ruta",
+      "common_name_primary": "Ruda (chalepensis variant)",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Mediterranean"
+      ],
+      "sources": [
+        "S1",
+        "S2",
+        "S5",
+        "S6"
+      ],
+      "notes": "Often used interchangeably with R. graveolens in Mexico. Pharmacologically similar. S6 lists both R. chalepensis and R. graveolens as 'ruda'. Treated as one entry in commerce."
+    },
+    {
+      "id": "MX030",
+      "scientific_name": "Justicia spicigera Schlechtendal",
+      "family": "Acanthaceae",
+      "genus": "Justicia",
+      "common_name_primary": "Muicle / Hierba azul / Sangre de Cristo",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico",
+        "Central America",
+        "Colombia"
+      ],
+      "sources": [
+        "S1",
+        "S2",
+        "S5"
+      ],
+      "notes": "Náhuatl: mouait/mouitl. Used prehispanically. Blood purifier, anemia, menstrual disorders, dengue. In Yucatan: 'siete vidas/pico de colibrí' — for liver problems. Cross-dataset: also in NI (Insulina crisis) — NOT the same use here. Here it is NOT called insulina in MX sources."
+    },
+    {
+      "id": "MX031",
+      "scientific_name": "Piper auritum Kunth",
+      "family": "Piperaceae",
+      "genus": "Piper",
+      "common_name_primary": "Hierba santa / Hoja santa / Acuyo",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico to Colombia"
+      ],
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S6"
+      ],
+      "notes": "Widely used culinary herb (tamales, salsas) AND medicinal. Safrole content — not for extended internal use. TRAMIL (NI) lists as orally toxic. MX sources use extensively for fever, digestive issues. Critical: also called 'hoja santa' creating confusion with Hoja Santa (Piper sanctus = synonym)."
+    },
+    {
+      "id": "MX032",
+      "scientific_name": "Piper sanctus (Miq.) Schlechtendal",
+      "family": "Piperaceae",
+      "genus": "Piper",
+      "common_name_primary": "Hoja santa (CEFOFOR)",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico"
+      ],
+      "sources": [
+        "S6"
+      ],
+      "notes": "S6 treats as distinct from Piper auritum. Current taxonomy considers P. sanctus a synonym of P. auritum. Uses: cough, bronchitis, asthma, muscle pain. Note from S4: safrole — not more than 15 days continuous use."
+    },
+    {
+      "id": "MX033",
+      "scientific_name": "Lippia alba (Mill.) N.E. Br. ex Britton & P. Wilson",
+      "family": "Verbenaceae",
+      "genus": "Lippia",
+      "common_name_primary": "Hierba de tapón / Pronto alivio",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico",
+        "Central America",
+        "Caribbean"
+      ],
+      "sources": [
+        "S1"
+      ],
+      "notes": "Zongolica/Veracruz: used for diarrhea, digestive disorders, tachycardia. Cross-dataset conflict: Lippia alba = 'Mastranto' in CR/PA but different common name in MX. Zongolica calls it 'hierba de tapón' — unique regional name."
+    },
+    {
+      "id": "MX034",
+      "scientific_name": "Verbena officinalis L.",
+      "family": "Verbenaceae",
+      "genus": "Verbena",
+      "common_name_primary": "Verbena",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Mediterranean"
+      ],
+      "sources": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "notes": "Multiple Verbena-named plants across MX dataset. This is V. officinalis (European). Distinct from Stachytarpheta jamaicensis called 'verbena' in Yucatan, and from V. bipinnatifida (S2)."
+    },
+    {
+      "id": "MX035",
+      "scientific_name": "Verbena bipinnatifida Nutt.",
+      "family": "Verbenaceae",
+      "genus": "Verbena",
+      "common_name_primary": "Moradilla / Alfombrilla",
+      "native_status": "native",
+      "origin_regions": [
+        "USA to Mexico"
+      ],
+      "sources": [
+        "S2"
+      ],
+      "notes": "Valle de México. Called 'moradilla' or 'alfombrilla de campo'. Used for fever in children. Different from V. officinalis. Distinct from Stachytarpheta jamaicensis ('verbena' in Yucatan)."
+    },
+    {
+      "id": "MX036",
+      "scientific_name": "Stachytarpheta jamaicensis (L.) Vahl",
+      "family": "Verbenaceae",
+      "genus": "Stachytarpheta",
+      "common_name_primary": "Verbena (Yucatan)",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico to South America",
+        "Caribbean"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "notes": "CRITICAL AMBIGUITY: called 'verbena' in Yucatan but is a completely different plant from Verbena officinalis (European) and Verbena bipinnatifida. Used to regulate menstruation. FloraLexicon must flag the Verbena quadruplet: V. officinalis / V. bipinnatifida / Stachytarpheta jamaicensis / Hyptis verticillata (Guatemala dataset)."
+    },
+    {
+      "id": "MX037",
+      "scientific_name": "Costus igneus Nak.",
+      "family": "Costaceae",
+      "genus": "Costus",
+      "common_name_primary": "Insulina / Planta de insulina",
+      "native_status": "native",
+      "origin_regions": [
+        "Central America",
+        "South America"
+      ],
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "notes": "Syn: C. pictus D. Don, C. mexicanus. Scientific evidence (S3 INIFAP): reduces blood glucose in diabetic animal models; one human clinical study confirms glucose reduction. Leaves contain flavonoids, steroids, triterpenoids. Zongolica community uses as 'insulina natural'. EXTENDS the Insulina crisis from NI — here the MX species has clinical backing, unlike NI alternatives."
+    },
+    {
+      "id": "MX038",
+      "scientific_name": "Plectranthus ornatus Codd",
+      "family": "Lamiaceae",
+      "genus": "Plectranthus",
+      "common_name_primary": "Boldo mexicano / Falso boldo",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico",
+        "Central America"
+      ],
+      "sources": [
+        "S1"
+      ],
+      "notes": "Zongolica community calls this 'insulina natural' for diabetes, creating local cross-confusion with Costus igneus. Also called 'falso boldo', 'buscapina natural'. Different genus from true Boldo (Peumus boldus, Monimiaceae). Eucalyptus-like essential oils; sedative properties also documented."
+    },
+    {
+      "id": "MX039",
+      "scientific_name": "Plectranthus amboinicus (Lour.) Spreng.",
+      "family": "Lamiaceae",
+      "genus": "Plectranthus",
+      "common_name_primary": "Orégano de castilla (Yucatan)",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Tropical Asia",
+        "Africa"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "notes": "TRAMIL-validated in Yucatan for lowering blood sugar and cholesterol. Called 'orégano de castilla' in Yucatan — DISTINCT from Origanum vulgare (true oregano) and from Lippia graveolens (orégano CR). This is the same genus as the Mexican 'boldo mexicano' (Plectranthus ornatus). Three plants in two genera sold as 'orégano' in MX."
+    },
+    {
+      "id": "MX040",
+      "scientific_name": "Peumus boldus Molina",
+      "family": "Monimiaceae",
+      "genus": "Peumus",
+      "common_name_primary": "Boldo",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Chile",
+        "Argentina"
+      ],
+      "sources": [
+        "S4"
+      ],
+      "notes": "True Chilean boldo. Listed in INPI 2021 compendium. Biliary dysfunction, diuretic, digestive. Chronic use irritates gastric mucosa. Distinct from Mexican 'falso boldo' (Plectranthus ornatus). South American origin — cross-dataset: appears in Bolivia/Argentina datasets."
+    },
+    {
+      "id": "MX041",
+      "scientific_name": "Stevia rebaudiana Bertoni",
+      "family": "Asteraceae",
+      "genus": "Stevia",
+      "common_name_primary": "Estevia / Ka'a-hée (Guaraní)",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Paraguay",
+        "Brazil"
+      ],
+      "sources": [
+        "S3"
+      ],
+      "notes": "INIFAP clinical review: steviósidos are 143-300x sweeter than sugar. Clinical trials in diabetic patients reduce fasting glucose, improve post-prandial glucose. No teratogenic, mutagenic, or carcinogenic effects in studies. Guaraní origin — in commercial cultivation worldwide including Mexico."
+    },
+    {
+      "id": "MX042",
+      "scientific_name": "Matricaria chamomilla L.",
+      "family": "Asteraceae",
+      "genus": "Matricaria",
+      "common_name_primary": "Manzanilla / Manzanilla alemana",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Europe"
+      ],
+      "sources": [
+        "S3",
+        "S4",
+        "S6"
+      ],
+      "notes": "INIFAP clinical review: penetrates deep skin layers; anti-inflammatory, anxiolytic. 120+ chemical compounds including apigenin, chamazulene. Clinical evidence for colic in infants, eczema, GI disorders, anxiety, diabetes. GRAS (FDA). Most consumed herbal tea worldwide."
+    },
+    {
+      "id": "MX043",
+      "scientific_name": "Chamaemelum nobile (L.) All.",
+      "family": "Asteraceae",
+      "genus": "Chamaemelum",
+      "common_name_primary": "Manzanilla romana",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Europe"
+      ],
+      "sources": [
+        "S4"
+      ],
+      "notes": "Distinct from Matricaria chamomilla (German chamomile). S4 notes that Manzanilla romana 'conserves some properties of manzanilla dulce, though should not be used the same way' — pharmacological distinction important. Contains nobilin instead of chamazulene."
+    },
+    {
+      "id": "MX044",
+      "scientific_name": "Sambucus nigra L.",
+      "family": "Adoxaceae",
+      "genus": "Sambucus",
+      "common_name_primary": "Sauco / Flor y fruto de sauco",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Europe"
+      ],
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "notes": "Náhuatl: Xometl. Used in Zongolica for respiratory conditions, ritual cleansing, and fever. S4 lists comprehensively: antiviral, antipyretic, diuretic, anti-catarrhal. Fruits TOXIC raw. CRITICAL: S4 notes 'los frutos son tóxicos' — raw elder berries cause GI distress."
+    },
+    {
+      "id": "MX045",
+      "scientific_name": "Sambucus mexicana C. Presl ex DC.",
+      "family": "Adoxaceae",
+      "genus": "Sambucus",
+      "common_name_primary": "Sauco mexicano / Sauco chico",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico",
+        "Central America"
+      ],
+      "sources": [
+        "S2"
+      ],
+      "notes": "Mexican elder, distinct from S. nigra. Valle de México — multiple indigenous names across Tzeltal, Tzotzil, Otomí, Totonaca, Tenek, Náhuatl. Uses largely parallel S. nigra. FloraLexicon must distinguish: European vs Mexican species sold as 'sauco'."
+    },
+    {
+      "id": "MX046",
+      "scientific_name": "Ricinus communis L.",
+      "family": "Euphorbiaceae",
+      "genus": "Ricinus",
+      "common_name_primary": "Higuerilla / Ricino",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Tropical Africa"
+      ],
+      "sources": [
+        "S2",
+        "S5",
+        "S6"
+      ],
+      "notes": "HIGH TOXICITY: seeds contain ricin — potentially lethal. Documented across NI, HN, GT datasets. MX sources (S2,S5,S6) use LEAVES externally only (fever, bilis, empacho, hemorrhoids). TRAMIL-validated in Yucatan for hair loss and fever using leaves. S6 explicitly notes: 'la semilla es ligeramente tóxica' — UNDERSTATEMENT: ricin is among the most toxic natural substances. CRITICAL NAME COLLISION: 'higuera/higuerilla' vs Ficus carica (edible fig, also 'higuera' in S4)."
+    },
+    {
+      "id": "MX047",
+      "scientific_name": "Ficus carica L.",
+      "family": "Moraceae",
+      "genus": "Ficus",
+      "common_name_primary": "Higuera / Higo",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Middle East",
+        "Mediterranean"
+      ],
+      "sources": [
+        "S4"
+      ],
+      "notes": "Edible fig. S4 lists for bronchopulmonary diseases, constipation, diuretic. CRITICAL DISAMBIGUATION: 'higuera' in S4 = edible fig with NO toxicity. 'Higuerilla' or 'higuera del diablo' in S2/S5/S6 = Ricinus communis (LETHAL ricin). The danger: in commerce, abbreviated names cause confusion. FloraLexicon must flag this as highest-risk collision in MX dataset."
+    },
+    {
+      "id": "MX048",
+      "scientific_name": "Datura stramonium L.",
+      "family": "Solanaceae",
+      "genus": "Datura",
+      "common_name_primary": "Toloache / Toloatzin",
+      "native_status": "native",
+      "origin_regions": [
+        "North America"
+      ],
+      "sources": [
+        "S2",
+        "S6"
+      ],
+      "notes": "HIGH TOXICITY: tropane alkaloids (atropine, scopolamine, hyoscyamine). S2 documents ritual/spiritual use (Huichol — 'kieri'; Yaqui — 'veneno divino'). S6 recommends ONLY external use (sitz baths for hemorrhoids, muscle pain). Hallucinogen. Criminal use documented (involuntary sedation). NOT for internal use under any circumstances."
+    },
+    {
+      "id": "MX049",
+      "scientific_name": "Catharanthus roseus (L.) G. Don",
+      "family": "Apocynaceae",
+      "genus": "Catharanthus",
+      "common_name_primary": "Vincapervinca / Pervinca rosada",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Madagascar"
+      ],
+      "sources": [
+        "S5",
+        "S6"
+      ],
+      "notes": "HIGH TOXICITY: vinca alkaloids (vincristine, vinblastine) — chemotherapy agents, toxic to normal cells. TRAMIL recommends AVOIDING oral ingestion entirely. S5 (Yucatan/TRAMIL) lists conjunctivitis use of white flower infusion — ophthalmically. S6 lists as 'Vinca rosea' for allergies and cancer prevention (infusion) — CONTRADICTS TRAMIL safety guidance. Must flag S6 use as dangerous."
+    },
+    {
+      "id": "MX050",
+      "scientific_name": "Jatropha curcas L.",
+      "family": "Euphorbiaceae",
+      "genus": "Jatropha",
+      "common_name_primary": "Sikilte' (Maya) / Piñón (regional)",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico",
+        "Central America"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "notes": "HIGH TOXICITY: seeds LETHAL. TRAMIL validates ONLY latex application for oral candidiasis. S5 also lists for diarrhea (oral route with leaves) — TRAMIL validates this use. Seeds must NEVER be ingested. Cross-dataset: 'piñón' collision with edible pine nuts and Caramo (GT). Yucatan Maya name sikilte' is distinct."
+    },
+    {
+      "id": "MX051",
+      "scientific_name": "Jatropha gaumeri Greenm.",
+      "family": "Euphorbiaceae",
+      "genus": "Jatropha",
+      "common_name_primary": "Pomolche' (Maya)",
+      "native_status": "native",
+      "origin_regions": [
+        "Yucatan Peninsula",
+        "Belize",
+        "Guatemala"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "notes": "Endemic to Yucatan Peninsula. Topical use only — fogajes (canker sores) and oral wounds. Closely related to J. curcas; assume similar toxicity for seeds. Poorly known outside Maya region."
+    },
+    {
+      "id": "MX052",
+      "scientific_name": "Thevetia ahouai (L.) A. DC.",
+      "family": "Apocynaceae",
+      "genus": "Thevetia",
+      "common_name_primary": "Huevo de perro / Je'peek' (Maya)",
+      "native_status": "native",
+      "origin_regions": [
+        "Mesoamerica",
+        "North South America"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "notes": "HIGH TOXICITY: cardenolides (cardiac glycosides). S5 documents it used in complex multi-plant preparations for hemorrhoids (anal application) and rheumatism (topical). The fact that it is used alongside 12+ other plants suggests the community is aware of its danger. FloraLexicon must flag: NEVER use internally; cardiac glycoside toxicity."
+    },
+    {
+      "id": "MX053",
+      "scientific_name": "Casimiroa edulis Llave & Lex.",
+      "family": "Rutaceae",
+      "genus": "Casimiroa",
+      "common_name_primary": "Zapote blanco / Matasano",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico to South America"
+      ],
+      "sources": [
+        "S4",
+        "S6"
+      ],
+      "notes": "Seeds contain casimiroína — potent hypnotic alkaloid. Flesh is safe. S4 and S6 use leaves for hypertension, insomnia, inflammation, headache. Cross-dataset: already flagged in HN dataset. Confirmation that this is a Mexico-wide risk: hypnotic alkaloid in seeds vs safe pulp."
+    },
+    {
+      "id": "MX054",
+      "scientific_name": "Tilia sp.",
+      "family": "Malvaceae",
+      "genus": "Tilia",
+      "common_name_primary": "Tilo",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Europe"
+      ],
+      "sources": [
+        "S4"
+      ],
+      "notes": "CRITICAL DISAMBIGUATION (extends CR dataset): Tilo in MX/INPI 2021 = Tilia sp. (European linden, Malvaceae) — sedative, antispasmodic, anxiolytic. Documented flavonoids and sedative properties. Tilo in Costa Rica/CA = Justicia pectoralis (Acanthaceae) — NO sedative alkaloids. A person in Mexico seeking 'tilo' gets a pharmacologically different plant than one in CR. Must be flagged as inter-regional collision."
+    },
+    {
+      "id": "MX055",
+      "scientific_name": "Valeriana officinalis L.",
+      "family": "Caprifoliaceae",
+      "genus": "Valeriana",
+      "common_name_primary": "Valeriana (European)",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Europe",
+        "Asia"
+      ],
+      "sources": [
+        "S4"
+      ],
+      "notes": "True sedative valeriana with documented anxiolytic valerenic acid. INPI 2021 uses for insomnia, anxiety, muscle cramps. EXTENDS the Valeriana crisis: V. officinalis (S4) has documented sedatives, V. sobifolia/edulis (S6) is Mexican species with different alkaloids, and Chrysopogon zizanioides (NI) has NO sedatives. Three plants sold as 'valeriana' with completely different pharmacology."
+    },
+    {
+      "id": "MX056",
+      "scientific_name": "Valeriana sobifolia Willd. / V. edulis Nutt.",
+      "family": "Caprifoliaceae",
+      "genus": "Valeriana",
+      "common_name_primary": "Valeriana mexicana / Raíz del oso",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico"
+      ],
+      "sources": [
+        "S6"
+      ],
+      "notes": "Mexican native valeriana species. Hidalgo, Puebla, Valle de México. CEFOFOR documents same uses as V. officinalis (insomnia, migraine, anxiety). Isovaleric acid and valerenic acid profile differs from V. officinalis. May have sedative properties but degree unknown vs European species."
+    },
+    {
+      "id": "MX057",
+      "scientific_name": "Lantana camara L.",
+      "family": "Verbenaceae",
+      "genus": "Lantana",
+      "common_name_primary": "Cinco negritos / Siete negritos",
+      "native_status": "native",
+      "origin_regions": [
+        "Tropical Americas"
+      ],
+      "sources": [
+        "S2"
+      ],
+      "notes": "Also listed as 'Lantana sp.' in Zongolica (S1) as '5 negritos'. Multiple indigenous names across Náhuatl, Tzeltal, Tzotzil, Maya, Tenek. Digestive, respiratory, menstrual, topical uses. In Quechua (Peru): 'asna jora'. Cross-dataset relevance: appears across SA datasets too."
+    },
+    {
+      "id": "MX058",
+      "scientific_name": "Bougainvillea spectabilis Willd.",
+      "family": "Nyctaginaceae",
+      "genus": "Bougainvillea",
+      "common_name_primary": "Bugambilia",
+      "native_status": "native",
+      "origin_regions": [
+        "South America",
+        "Brazil"
+      ],
+      "sources": [
+        "S1",
+        "S4",
+        "S6"
+      ],
+      "notes": "Flowers used for respiratory conditions (cough, asthma, bronchitis). Zongolica also uses for children's epilepsy. CEFOFOR: 3g per liter water every 4 hours during acute episode. Uses consistent across all MX sources."
+    },
+    {
+      "id": "MX059",
+      "scientific_name": "Rosmarinus officinalis L.",
+      "family": "Lamiaceae",
+      "genus": "Rosmarinus",
+      "common_name_primary": "Romero",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Mediterranean"
+      ],
+      "sources": [
+        "S2",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "notes": "Náhuatl: none. Maya: tuch xiiw. TRAMIL-validated (Yucatan) for hair loss, neonatal umbilicus healing, wound healing. Not for pregnant women or prostatitis patients (S4). Comprehensive postpartum baths use in Yucatan."
+    },
+    {
+      "id": "MX060",
+      "scientific_name": "Symphytum officinale L.",
+      "family": "Boraginaceae",
+      "genus": "Symphytum",
+      "common_name_primary": "Suelda con suelda / Consuelda",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Europe"
+      ],
+      "sources": [
+        "S1"
+      ],
+      "notes": "Zongolica only. Community was not previously familiar with it (S1: 'la comunidad no lo conocía'). External use for fracture consolidation, eczema, bruises. Contains allantoin (cicatrizant) and mucilages. Pyrrolizidine alkaloids — not for internal use long-term."
+    },
+    {
+      "id": "MX061",
+      "scientific_name": "Cymbopogon citratus (DC.) Stapf",
+      "family": "Poaceae",
+      "genus": "Cymbopogon",
+      "common_name_primary": "Té zacate / Zacate limón",
+      "native_status": "introduced",
+      "origin_regions": [
+        "India"
+      ],
+      "sources": [
+        "S1",
+        "S4",
+        "S6"
+      ],
+      "notes": "Widely used for blood pressure, cholesterol, diuretic, digestive. Tenek: jiliy tom. CROSS-DATASET: extends from NI, GT, HN, PA datasets. In NI it was documented as 'valeriana' in some commercial contexts — clarified here as lemongrass."
+    },
+    {
+      "id": "MX062",
+      "scientific_name": "Passiflora edulis Sims",
+      "family": "Passifloraceae",
+      "genus": "Passiflora",
+      "common_name_primary": "Pasiflora / Pasionaria",
+      "native_status": "native",
+      "origin_regions": [
+        "South America"
+      ],
+      "sources": [
+        "S1",
+        "S4",
+        "S6"
+      ],
+      "notes": "Náhuatl: Kakapaxiwitl. Sedative, anxiolytic. S4 warns: can create dependency. Used for menopause, palpitations, Parkinson tremors (S1), insomnia, anxiety, hypertension. Edible fruit."
+    },
+    {
+      "id": "MX063",
+      "scientific_name": "Passiflora foetida L.",
+      "family": "Passifloraceae",
+      "genus": "Passiflora",
+      "common_name_primary": "Cancerina / X tok xiiw (Maya)",
+      "native_status": "native",
+      "origin_regions": [
+        "Tropical Americas"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "notes": "Distinct from P. edulis. Yucatan Maya: vaginal lavages for breast cancer symptoms. Weedy vine; fruit edible but foetid."
+    },
+    {
+      "id": "MX064",
+      "scientific_name": "Phyllanthus niruri L.",
+      "family": "Phyllanthaceae",
+      "genus": "Phyllanthus",
+      "common_name_primary": "Chancapiedra / Planta flor escondida",
+      "native_status": "native",
+      "origin_regions": [
+        "Tropical Americas"
+      ],
+      "sources": [
+        "S1"
+      ],
+      "notes": "Zongolica. Used for kidney stones — validated ethnobotanically. Also hepatoprotective, diuretic, antispasmodic. Pan-tropical use — important for cross-dataset integration (also in Bolivia, Guianas, Panama datasets)."
+    },
+    {
+      "id": "MX065",
+      "scientific_name": "Leonotis nepetifolia (L.) R. Br.",
+      "family": "Lamiaceae",
+      "genus": "Leonotis",
+      "common_name_primary": "Cola de León / Cardo / Flor de mundo",
+      "native_status": "introduced",
+      "origin_regions": [
+        "South Africa"
+      ],
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "notes": "Naturalized in tropical America. Zongolica: antidiabetic and anti-inflammatory (leaves). S1: known as 'Varita de San José' in community. S2 documents comprehensive uses including gonorrhea, cataracts, rheumatism, female sterility. Good antidiabetic data."
+    },
+    {
+      "id": "MX066",
+      "scientific_name": "Plantago major L.",
+      "family": "Plantaginaceae",
+      "genus": "Plantago",
+      "common_name_primary": "Llantén / Plantain mayor",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Asia",
+        "Europe"
+      ],
+      "sources": [
+        "S1"
+      ],
+      "notes": "Náhuatl: Tlalkahkaya. Zongolica: astringent, antiseptic, cicatrizant. Leaves edible (salads). Ointment for wound healing, insect stings, hemorrhoids. Nutritionally rich in vitamins A, C, calcium."
+    },
+    {
+      "id": "MX067",
+      "scientific_name": "Tradescantia zebrina Heynh. ex Bosse",
+      "family": "Commelinaceae",
+      "genus": "Tradescantia",
+      "common_name_primary": "Maclale / Matlal xiwitl (Náhuatl)",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico",
+        "Central America"
+      ],
+      "sources": [
+        "S1"
+      ],
+      "notes": "Zongolica: for dysentery, diarrhea, hemorrhoids. ABORTIVE properties (S1 explicitly lists it). CRITICAL CROSS-DATASET: T. zebrina = 'Hoja de Milagro' in CR (also abortive noted in GT dataset — 'no usar más de 15 días'). Different name in Zongolica but same safety risk."
+    },
+    {
+      "id": "MX068",
+      "scientific_name": "Tradescantia spathacea Sw.",
+      "family": "Commelinaceae",
+      "genus": "Tradescantia",
+      "common_name_primary": "Maguey morado (Yucatan)",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico",
+        "Central America",
+        "Caribbean"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "notes": "Distinct from T. zebrina. TRAMIL-validated (Yucatan) for vaginal cleansing, pasmo, cough, menstrual delay, sprains/trauma. Widely used medicinally in Yucatan. Not to be confused with T. zebrina (also called 'maguey' in some regions)."
+    },
+    {
+      "id": "MX069",
+      "scientific_name": "Solanum nigrum L.",
+      "family": "Solanaceae",
+      "genus": "Solanum",
+      "common_name_primary": "Hierba mora / Tomatillos del diablo",
+      "native_status": "native",
+      "origin_regions": [
+        "South America"
+      ],
+      "sources": [
+        "S1"
+      ],
+      "notes": "Náhuatl: Pitzawakikitl. Zongolica: skin conditions, liver, herpes zoster, hemorrhoids. Edible as quelite (S1) — community eats it as greens. S2 (as S. americanum) also notes edibility with caution."
+    },
+    {
+      "id": "MX070",
+      "scientific_name": "Solanum americanum Mill.",
+      "family": "Solanaceae",
+      "genus": "Solanum",
+      "common_name_primary": "Hierba mora blanca / Ndanxo",
+      "native_status": "native",
+      "origin_regions": [
+        "South America"
+      ],
+      "sources": [
+        "S2"
+      ],
+      "notes": "Distinct from S. nigrum though closely related. Valle de México: skin burns, sarampión, digestive. S2 notes ambiguity: 'some say edible, others say slightly toxic.' Fruits potentially toxic."
+    },
+    {
+      "id": "MX071",
+      "scientific_name": "Solanum torvum Sw.",
+      "family": "Solanaceae",
+      "genus": "Solanum",
+      "common_name_primary": "Hierba sosa / Pendejera",
+      "native_status": "native",
+      "origin_regions": [
+        "Americas"
+      ],
+      "sources": [
+        "S1"
+      ],
+      "notes": "Zongolica: antiviral, antihypertensive, anticancer uses documented. Vaginal baths postpartum. Male reproductive system infections. Community doesn't use it much — calls it 'espina' (thorn plant). Source notes community barely knows it."
+    },
+    {
+      "id": "MX072",
+      "scientific_name": "Senna occidentalis (L.) Link",
+      "family": "Fabaceae",
+      "genus": "Senna",
+      "common_name_primary": "Hoja sen / Frijolillo (Yucatan)",
+      "native_status": "native",
+      "origin_regions": [
+        "Tropical Americas"
+      ],
+      "sources": [
+        "S1",
+        "S5"
+      ],
+      "notes": "S1 Zongolica: used for prostatitis, psoriasis, diuretic, blood purifier. Community considers it a weed. S5 Yucatan: 'frijolillo' — TRAMIL-validated for respiratory conditions (asthma, bronchitis, cough). Multiple other regional names: hierba hedionda, cafecillo, cimarrón. Cross-dataset: also in NI, GT."
+    },
+    {
+      "id": "MX073",
+      "scientific_name": "Bidens aurea (Aiton) Sherff",
+      "family": "Asteraceae",
+      "genus": "Bidens",
+      "common_name_primary": "Mosoquelite / Aceitilla mosote",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico",
+        "Central America"
+      ],
+      "sources": [
+        "S1"
+      ],
+      "notes": "Náhuatl: iztakxochitl. Zongolica community uses to feed farmyard animals primarily. Anti-inflammatory, antidiabetic, expectorant, antifungal properties documented. AIDS mentioned in community use."
+    },
+    {
+      "id": "MX074",
+      "scientific_name": "Bidens pilosa L.",
+      "family": "Asteraceae",
+      "genus": "Bidens",
+      "common_name_primary": "Aceitilla",
+      "native_status": "native",
+      "origin_regions": [
+        "Tropical Americas"
+      ],
+      "sources": [
+        "S6"
+      ],
+      "notes": "CEFOFOR: kidney stones, migraine, skin allergies, bladder problems, antibiotic. Jalisco/national use. Distinct from B. aurea (also called 'aceitilla' in MX and Central America)."
+    },
+    {
+      "id": "MX075",
+      "scientific_name": "Tithonia diversifolia (Hemsl.) A. Gray",
+      "family": "Asteraceae",
+      "genus": "Tithonia",
+      "common_name_primary": "Gigantón / Árnica (Yucatan) / Chiople'",
+      "native_status": "naturalized",
+      "origin_regions": [
+        "Mexico",
+        "Central America"
+      ],
+      "sources": [
+        "S1",
+        "S2",
+        "S5"
+      ],
+      "notes": "See MX003. Documenting here as secondary entry with Yucatan-specific Maya name 'chiople' — used as complement in multi-plant preparations. Yucatan uses: stomach pain, rheumatism, diabetes."
+    },
+    {
+      "id": "MX076",
+      "scientific_name": "Ageratum houstonianum P. Mill.",
+      "family": "Asteraceae",
+      "genus": "Ageratum",
+      "common_name_primary": "Hierba del zopilote / Borracho Xiwitl (Náhuatl)",
+      "native_status": "native",
+      "origin_regions": [
+        "North and Central America"
+      ],
+      "sources": [
+        "S1"
+      ],
+      "notes": "Zongolica: sedative, analgesic, anti-inflammatory. Menstrual cramps. Hemorrhoids. Community uses for hemorrhoids primarily. Pyrrolizidine alkaloids possible — not for chronic internal use."
+    },
+    {
+      "id": "MX077",
+      "scientific_name": "Malvaviscus arboreus Cav.",
+      "family": "Malvaceae",
+      "genus": "Malvaviscus",
+      "common_name_primary": "Monacillo / Manzanita de Indias",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico",
+        "Central America"
+      ],
+      "sources": [
+        "S1"
+      ],
+      "notes": "Náhuatl: Xochitopapanpapanxochitl. Zongolica: children's drooling, cough. Flowers in honey infusion. Respiratory conditions including tuberculosis, dysentery, nosebleeds, tonsillitis, stomach pain, insect stings."
+    },
+    {
+      "id": "MX078",
+      "scientific_name": "Sansevieria trifasciata Prain",
+      "family": "Asparagaceae",
+      "genus": "Sansevieria",
+      "common_name_primary": "Espada del rey / Lengua de tigre",
+      "native_status": "introduced",
+      "origin_regions": [
+        "West Africa"
+      ],
+      "sources": [
+        "S1"
+      ],
+      "notes": "Zongolica: extremely broad traditional uses listed including cancer, infections, diabetes, herpes, hepatitis, HIV/AIDS, tuberculosis, malaria. S1 appears to document community beliefs comprehensively. Note: scientific evidence for many of these indications is limited or absent. FloraLexicon should flag evidence_level as traditional for all uses."
+    },
+    {
+      "id": "MX079",
+      "scientific_name": "Cuscuta americana L.",
+      "family": "Convolvulaceae",
+      "genus": "Cuscuta",
+      "common_name_primary": "Cabello de ángel / Tripa de judas / Kukustli (Náhuatl)",
+      "native_status": "native",
+      "origin_regions": [
+        "Americas"
+      ],
+      "sources": [
+        "S1"
+      ],
+      "notes": "Parasitic vine. Náhuatl: Kukustli. Zongolica: headache, itching, amnesia, constipation, anticonvulsant, antioxidant, antihypertensive, anticancer, anthelmintic. Promotes hair growth including during chemotherapy. Some use for impotence and vertigo."
+    },
+    {
+      "id": "MX080",
+      "scientific_name": "Anoda cristata (L.) Schltdl.",
+      "family": "Malvaceae",
+      "genus": "Anoda",
+      "common_name_primary": "Alachis / Lachí kilitl (Náhuatl)",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico"
+      ],
+      "sources": [
+        "S1"
+      ],
+      "notes": "Zongolica: anti-inflammatory, glycemic control, cardiac protective, antioxidant, respiratory conditions, hair loss. Eaten as quelite in Hilicotla Magdalena community. Native weed."
+    },
+    {
+      "id": "MX081",
+      "scientific_name": "Pseudognaphalium obtusifolium (L.) Hilliard & B. L. Burtt",
+      "family": "Asteraceae",
+      "genus": "Pseudognaphalium",
+      "common_name_primary": "Gordolobo (Zongolica)",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico"
+      ],
+      "sources": [
+        "S1"
+      ],
+      "notes": "GORDOLOBO DISAMBIGUATION: This is the Zongolica/Nahua gordolobo. See also Gnaphalium oxyphyllum (Valle de México, S2) and Verbascum thapsus (European mullein, S4). Three different plants all called 'gordolobo' in Mexico. None are pharmacologically equivalent."
+    },
+    {
+      "id": "MX082",
+      "scientific_name": "Gnaphalium oxyphyllum DC.",
+      "family": "Asteraceae",
+      "genus": "Gnaphalium",
+      "common_name_primary": "Gordolobo (Valle de México)",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico"
+      ],
+      "sources": [
+        "S2"
+      ],
+      "notes": "Valle de México gordolobo. Respiratory, digestive, skin uses. Closely related to Pseudognaphalium obtusifolium but distinct species. See MX081 for disambiguation context."
+    },
+    {
+      "id": "MX083",
+      "scientific_name": "Verbascum thapsus L.",
+      "family": "Scrophulariaceae",
+      "genus": "Verbascum",
+      "common_name_primary": "Gordolobo (European / INPI 2021)",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Europe"
+      ],
+      "sources": [
+        "S4"
+      ],
+      "notes": "European mullein — listed as 'gordolobo' in the INPI 2021 compendium. Documented seeds toxicity (S4: 'las flores no tienen toxicidad, las semillas sí'). Respiratory conditions. THIRD 'gordolobo' in Mexico — completely different family from the two Mexican ones."
+    },
+    {
+      "id": "MX084",
+      "scientific_name": "Urtica dioica L.",
+      "family": "Urticaceae",
+      "genus": "Urtica",
+      "common_name_primary": "Ortiga / Chiquicastle",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Eurasia"
+      ],
+      "sources": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "notes": "Common nettle. Zongolica, Valle de México, and Jalisco sources all document. Minerals, antirheumatic, diuretic, hair loss prevention. Benign prostatic hyperplasia (root). Stinging hairs cause contact urticaria."
+    },
+    {
+      "id": "MX085",
+      "scientific_name": "Urtica chamaedryoides Pursh",
+      "family": "Urticaceae",
+      "genus": "Urtica",
+      "common_name_primary": "Chichicaztle / Buba",
+      "native_status": "native",
+      "origin_regions": [
+        "Central America"
+      ],
+      "sources": [
+        "S2"
+      ],
+      "notes": "Valle de México: muscle pain, measles baths, dandruff, anemia, asthma, nosebleeds, diarrhea. Native to Central America. Distinct from U. dioica."
+    },
+    {
+      "id": "MX086",
+      "scientific_name": "Urera baccifera (L.) Gaudich. ex Wedd.",
+      "family": "Urticaceae",
+      "genus": "Urera",
+      "common_name_primary": "Ortiga (Yucatan)",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico to Argentina"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "notes": "Called 'ortiga' in Yucatan but distinct from Urtica dioica. Topical use for rheumatism. The three 'ortiga' plants in MX (U. dioica, U. chamaedryoides, Urera baccifera) represent another disambiguation challenge."
+    },
+    {
+      "id": "MX087",
+      "scientific_name": "Montanoa tomentosa Cerv.",
+      "family": "Asteraceae",
+      "genus": "Montanoa",
+      "common_name_primary": "Zoapatle / Cihuapatli (Náhuatl: 'medicine of the woman')",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico"
+      ],
+      "sources": [
+        "S2"
+      ],
+      "notes": "ABORTIFACIENT — documented explicitly. Náhuatl: zoapatli/cihuapatli meaning 'medicine of the woman'. Used to stimulate labor contractions, abortifacient, menstrual regulator. S2 explicitly notes: 'to abort: effective but dangerous.' Not to be used without medical supervision. Postpartum use (with epazote and ruda). Valley of Mexico."
+    },
+    {
+      "id": "MX088",
+      "scientific_name": "Lepechinia caulescens (Ort.) Epling",
+      "family": "Lamiaceae",
+      "genus": "Lepechinia",
+      "common_name_primary": "Bretónica / Sonaja",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico"
+      ],
+      "sources": [
+        "S2"
+      ],
+      "notes": "Valle de México: exclusively gynecological uses. Parto, hemorragia vaginal, detener la menstruación, dolor de cadera. Otomí name: datha nejexmho. Purépecha: chun chinaskua. Distinct from European Betonica officinalis."
+    },
+    {
+      "id": "MX089",
+      "scientific_name": "Mirabilis jalapa L.",
+      "family": "Nyctaginaceae",
+      "genus": "Mirabilis",
+      "common_name_primary": "Maravilla / Don Diego de noche / Linda tarde",
+      "native_status": "native",
+      "origin_regions": [
+        "Tropical Americas"
+      ],
+      "sources": [
+        "S2",
+        "S6"
+      ],
+      "notes": "S2 comprehensive Valle de México uses: anti-inflammatory, vaginal infections, epilepsy, tumors. Root edible, also used in cooking (S2). S6 root for joint inflammation (topical, pomada). Flowers (S2) for epilepsy prevention."
+    },
+    {
+      "id": "MX090",
+      "scientific_name": "Schinus molle L.",
+      "family": "Anacardiaceae",
+      "genus": "Schinus",
+      "common_name_primary": "Pirú / Pirul",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Peru",
+        "South America"
+      ],
+      "sources": [
+        "S2"
+      ],
+      "notes": "Náhuatl: peloncuáhuitl. Zapoteca: yaga-ica. Extensively used ritually for 'mal de ojo', 'brujería', cleansings (limpias). Medical uses: rheumatism, venereals, arthritis. Cross-dataset: Schinus molle also appears in Bolivia/Argentina datasets."
+    },
+    {
+      "id": "MX091",
+      "scientific_name": "Buddleia cordata H.B.K.",
+      "family": "Scrophulariaceae",
+      "genus": "Buddleia",
+      "common_name_primary": "Tepozán / Palo de zorro prieto",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico",
+        "Guatemala"
+      ],
+      "sources": [
+        "S2",
+        "S4",
+        "S6"
+      ],
+      "notes": "Multiple indigenous names. Postpartum baths (widely documented across sources). Skin abscesses, fever, analgesic, hypnotic. S4 notes hypnotic properties — actual sedative alkaloids. Cross-dataset: Buddleia americana = 'salvia' in NI. Distinct species."
+    },
+    {
+      "id": "MX092",
+      "scientific_name": "Guazuma ulmifolia Lam.",
+      "family": "Malvaceae",
+      "genus": "Guazuma",
+      "common_name_primary": "Guácimo / Caulote / Pixoy (Maya)",
+      "native_status": "native",
+      "origin_regions": [
+        "Tropical Americas"
+      ],
+      "sources": [
+        "S2",
+        "S5"
+      ],
+      "notes": "S2 Valle de México: gastrointestinal, skin, diabetes, venereal disease. S5 Yucatan (TRAMIL-validated): accelerates labor. Cross-dataset: also in CR, PA, GT."
+    },
+    {
+      "id": "MX093",
+      "scientific_name": "Cnidoscolus aconitifolius (Mill.) I.M. Johnst.",
+      "family": "Euphorbiaceae",
+      "genus": "Cnidoscolus",
+      "common_name_primary": "Chaya de monte / Tsi'ints'inchay (Maya)",
+      "native_status": "native",
+      "origin_regions": [
+        "SE Mexico",
+        "Guatemala",
+        "Belize",
+        "Honduras"
+      ],
+      "sources": [
+        "S2",
+        "S4",
+        "S5"
+      ],
+      "notes": "Wild chaya. Yucatan: used with other plants (chintok, e'lemuy) for kidney stones. S4 INPI: same uses as cultivated chaya for diabetes and laxative. Distinct from C. chayamansa (cultivated chaya). Cross-dataset: also in HN dataset."
+    },
+    {
+      "id": "MX094",
+      "scientific_name": "Cnidoscolus chayamansa McVaugh",
+      "family": "Euphorbiaceae",
+      "genus": "Cnidoscolus",
+      "common_name_primary": "Chaya / Chaya cultivada",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico"
+      ],
+      "sources": [
+        "S4",
+        "S6"
+      ],
+      "notes": "Cultivated chaya — distinct from C. aconitifolius (wild). S4 and S6 both document for diabetes and laxative. Rich in iron, calcium, vitamins. Leaves must be cooked (raw leaves of some varieties have urticating hairs and HCN compounds)."
+    },
+    {
+      "id": "MX095",
+      "scientific_name": "Cnidoscolus multilobus (Pax.) I.M. Johnston",
+      "family": "Euphorbiaceae",
+      "genus": "Cnidoscolus",
+      "common_name_primary": "Mala mujer / Ortiga de cerro",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico to Guatemala"
+      ],
+      "sources": [
+        "S2"
+      ],
+      "notes": "Valle de México. 'Mala mujer' = bad woman (stinging hairs). Used topically for toothache, rheumatism, ovarian inflammation, hypertension, snakebite, diabetes. Latex applied directly to painful tooth."
+    },
+    {
+      "id": "MX096",
+      "scientific_name": "Phytolacca icosandra L.",
+      "family": "Phytolaccaceae",
+      "genus": "Phytolacca",
+      "common_name_primary": "Congora / Mazorquilla / Fitolaca",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico to India"
+      ],
+      "sources": [
+        "S2",
+        "S6"
+      ],
+      "notes": "TOXIC: fruit potentially toxic per S2. Root used for polycystic breast (S6), skin dermatitis and fungal infections. S2: also anticonceptive, diuretic, weight loss. S6: 'planta tóxica'. Fruits must NOT be eaten."
+    },
+    {
+      "id": "MX097",
+      "scientific_name": "Euphorbia antisyphilitica Zucc.",
+      "family": "Euphorbiaceae",
+      "genus": "Euphorbia",
+      "common_name_primary": "Candelilla / Vela del desierto",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico — Chihuahuan Desert"
+      ],
+      "sources": [
+        "S6"
+      ],
+      "notes": "TOXIC: latex applied topically only for warts, calluses, mezquinos. Chihuahuan Desert endemic. Wax-producing plant of major commercial importance (candelilla wax). S6 clearly states: TÓXICA."
+    },
+    {
+      "id": "MX098",
+      "scientific_name": "Euphorbia pulcherrima Willd. ex Klotzsch",
+      "family": "Euphorbiaceae",
+      "genus": "Euphorbia",
+      "common_name_primary": "Flor de Nochebuena / Poinsettia",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico",
+        "Central America"
+      ],
+      "sources": [
+        "S6"
+      ],
+      "notes": "Poinsettia — iconic Mexican ornamental. S6 documents for vaginal hemorrhage and menstrual regulation (4g petals per liter, 10 days). Latex irritating. Christmas symbol worldwide."
+    },
+    {
+      "id": "MX099",
+      "scientific_name": "Taxodium mucronatum Ten.",
+      "family": "Cupressaceae",
+      "genus": "Taxodium",
+      "common_name_primary": "Ahuehuete / Ciprés mexicano / Sabino",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico"
+      ],
+      "sources": [
+        "S6"
+      ],
+      "notes": "Mexico's national tree. Grows along rivers. Bark and leaves for hypertension, hemorrhoids, varicose veins. Strong cocimiento."
+    },
+    {
+      "id": "MX100",
+      "scientific_name": "Dahlia pinnata Cav.",
+      "family": "Asteraceae",
+      "genus": "Dahlia",
+      "common_name_primary": "Dalia / Xicamaxóchitl (Náhuatl)",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico"
+      ],
+      "sources": [
+        "S6"
+      ],
+      "notes": "Mexican endemic genus. Flowers for acne, dermatosis. Bulbs as hormonal precursors. Jalisco/national use."
+    },
+    {
+      "id": "MX101",
+      "scientific_name": "Salvia microphylla Kunth",
+      "family": "Lamiaceae",
+      "genus": "Salvia",
+      "common_name_primary": "Mirto / Diente de acamaya / Mastranzo",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico"
+      ],
+      "sources": [
+        "S6"
+      ],
+      "notes": "Mexican endemic sage. Jalisco/Bajío. Note: called 'mastranzo' in CEFOFOR which creates ambiguity — 'mastranzo' is also used for Marrubium vulgare (S4) and Mentha sylvestris in SA contexts. Sedative, headache, bilious pain."
+    },
+    {
+      "id": "MX102",
+      "scientific_name": "Salvia officinalis L.",
+      "family": "Lamiaceae",
+      "genus": "Salvia",
+      "common_name_primary": "Salvia",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Mediterranean"
+      ],
+      "sources": [
+        "S4",
+        "S6"
+      ],
+      "notes": "European sage. S4: hormonal precursor, menstrual regulation, cicatrizant, inhibits sweating. S6: menstrual regulator. Contains thujona — not for pregnancy, not for extended use."
+    },
+    {
+      "id": "MX103",
+      "scientific_name": "Salvia leucantha Cav.",
+      "family": "Lamiaceae",
+      "genus": "Salvia",
+      "common_name_primary": "Salvia / Algodoncillo / Cordón de San Francisco",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico"
+      ],
+      "sources": [
+        "S2"
+      ],
+      "notes": "Mexican sage. Valle de México. Used for cough, stomach pain, abortive (S2 explicitly: 'infusión de la planta sola' = abortive). Menstrual disorders, 'aire'. Three 'salvia' plants in MX: S. officinalis (European), S. leucantha (Mexican), S. microphylla (Mexican endemic) — different pharmacology."
+    },
+    {
+      "id": "MX104",
+      "scientific_name": "Marrubium vulgare L.",
+      "family": "Lamiaceae",
+      "genus": "Marrubium",
+      "common_name_primary": "Marrubio / Malcubio / Marrubio blanco",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Europe"
+      ],
+      "sources": [
+        "S2",
+        "S4",
+        "S6"
+      ],
+      "notes": "Multiple indigenous names across Náhuatl, Popoloca. Bilis, digestive disorders, diuretic, laxative, sedante suave. S2 also: anticonceptive use in some communities. S4: also called 'malva del sapo'. Widespread naturalized in Mexico."
+    },
+    {
+      "id": "MX105",
+      "scientific_name": "Amphipterygium adstringens (Schltdl.) Standl.",
+      "family": "Anacardiaceae",
+      "genus": "Amphipterygium",
+      "common_name_primary": "Cuachalate / Cuachalalate",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico"
+      ],
+      "sources": [
+        "S4"
+      ],
+      "notes": "Mexican endemic. Bark — antibiotic, antiseptic, cicatrizant, anti-inflammatory (ovaries). Important in Mexican traditional medicine, particularly Guerrero and Morelos. Commercial bark sold nationally."
+    },
+    {
+      "id": "MX106",
+      "scientific_name": "Turnera diffusa Willd. ex Schult.",
+      "family": "Turneraceae",
+      "genus": "Turnera",
+      "common_name_primary": "Damiana",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico",
+        "Central America",
+        "Caribbean"
+      ],
+      "sources": [
+        "S4"
+      ],
+      "notes": "Mexican endemic use. Hormonal stimulant, aphrodisiac, fertility enhancement in women and testosterone in men. Also for nervous system, fatigue, stress, menopause. Baja California origin. Cross-dataset: in Bolivia as 'damiana del campo'."
+    },
+    {
+      "id": "MX107",
+      "scientific_name": "Peumus boldus Molina",
+      "family": "Monimiaceae",
+      "genus": "Peumus",
+      "common_name_primary": "Boldo",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Chile",
+        "Argentina"
+      ],
+      "sources": [
+        "S4"
+      ],
+      "notes": "Already documented in Bolivia dataset. Chilean/Argentine native appearing in Mexican herbolaria (imported). Biliary, diuretic, antiparasitic. Do not use for more than 4 weeks; irritates gastric mucosa."
+    },
+    {
+      "id": "MX108",
+      "scientific_name": "Eysenhardtia polystachya (Ortega) Sarg.",
+      "family": "Fabaceae",
+      "genus": "Eysenhardtia",
+      "common_name_primary": "Palo azul / Palo dulce",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico"
+      ],
+      "sources": [
+        "S4"
+      ],
+      "notes": "Mexican endemic. Bark isoflavones — diuretic, diarrhea, kidney/urinary infections, weight loss. Famous for fluorescent blue color when dissolved in water (resins). Important commercial herb in Mexico."
+    },
+    {
+      "id": "MX109",
+      "scientific_name": "Agastache mexicana (Kunth) Lint & Epling",
+      "family": "Lamiaceae",
+      "genus": "Agastache",
+      "common_name_primary": "Toronjil rojo / Toronjil morado",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico"
+      ],
+      "sources": [
+        "S4",
+        "S6"
+      ],
+      "notes": "Mexican endemic mint. Not to be confused with Melissa officinalis (also called 'toronjil' in Spain and elsewhere). Sedative, menstrual cramps, digestive, insomnia. Jalisco to Veracruz."
+    },
+    {
+      "id": "MX110",
+      "scientific_name": "Melissa officinalis L.",
+      "family": "Lamiaceae",
+      "genus": "Melissa",
+      "common_name_primary": "Melisa / Toronjil / Citronela",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Europe"
+      ],
+      "sources": [
+        "S4",
+        "S6"
+      ],
+      "notes": "Also called 'toronjil' — AMBIGUITY with Agastache mexicana (also 'toronjil'). European lemon balm. Sedative, dismenorrhea, headache, digestive, antidepressant. S4 also: calambres, palpitaciones. Widely used."
+    },
+    {
+      "id": "MX111",
+      "scientific_name": "Loeselia mexicana (Lam.) Brand.",
+      "family": "Polemoniaceae",
+      "genus": "Loeselia",
+      "common_name_primary": "Espinosilla / Chuparrosa / Hierba de la Virgen",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico to Guatemala"
+      ],
+      "sources": [
+        "S2",
+        "S6"
+      ],
+      "notes": "Mexican endemic. Small spiny plant. Bilious pain, inapetencia. CEFOFOR: cocimiento suave, 5g per liter. Also in Zacatecas, Querétaro, Chihuahua, Hidalgo."
+    },
+    {
+      "id": "MX112",
+      "scientific_name": "Dorstenia contrajerba L.",
+      "family": "Moraceae",
+      "genus": "Dorstenia",
+      "common_name_primary": "Contrahierba",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico to North South America"
+      ],
+      "sources": [
+        "S6"
+      ],
+      "notes": "Root: empacho, diarrhea, burns, muscle pain. Historical antidote name ('contra-hierba'). Morelos, Jalisco, Veracruz, Chiapas."
+    },
+    {
+      "id": "MX113",
+      "scientific_name": "Selaginella lepidophylla (Hook. & Grev.) Spring",
+      "family": "Selaginellaceae",
+      "genus": "Selaginella",
+      "common_name_primary": "Doradilla / Flor de peña / Rosa de Jericó",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico",
+        "Chihuahuan Desert"
+      ],
+      "sources": [
+        "S6"
+      ],
+      "notes": "Resurrection plant. Strong decoction for gout, kidney stones, prostate problems, diuretic. Desert characteristic plant. Distinct from S. convoluta (Yucatan doradilla/much'kok — TRAMIL-validated for kidney stones)."
+    },
+    {
+      "id": "MX114",
+      "scientific_name": "Selaginella convoluta (Arn.) Spring",
+      "family": "Selaginellaceae",
+      "genus": "Selaginella",
+      "common_name_primary": "Doradilla / Much'kok (Maya)",
+      "native_status": "native",
+      "origin_regions": [
+        "Mesoamerica",
+        "South America",
+        "Caribbean"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "notes": "TRAMIL-validated for kidney stones in Caribbean basin. Yucatan: used with elote, e'lemuy. Distinct from S. lepidophylla (desert doradilla) — same common name, different species, similar use for kidney stones but different distribution."
+    },
+    {
+      "id": "MX115",
+      "scientific_name": "Heimia salicifolia (Kunth) Link",
+      "family": "Lythraceae",
+      "genus": "Heimia",
+      "common_name_primary": "Sinicuiche / Jara mansa / Sinicuil",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico to Argentina"
+      ],
+      "sources": [
+        "S6"
+      ],
+      "notes": "CEFOFOR: postpartum baths, cough, bilious pain, empacho. Historical use as mild intoxicant/hallucinogen (listed as plant with consciousness-altering properties by some sources). Alkaloids present. Native from Texas to Argentina."
+    },
+    {
+      "id": "MX116",
+      "scientific_name": "Crataegus pubescens (Kunth) Steud.",
+      "family": "Rosaceae",
+      "genus": "Crataegus",
+      "common_name_primary": "Tejocote",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico"
+      ],
+      "sources": [
+        "S2",
+        "S6"
+      ],
+      "notes": "Mexican hawthorn. S2: fruit and bark for coronary circulation, tachycardia. S6: C. mexicana variant — bark for diarrhea, tos, leaves for pressure, heart tonic. Both document native Mexican species."
+    },
+    {
+      "id": "MX117",
+      "scientific_name": "Crataegus oxyacantha L.",
+      "family": "Rosaceae",
+      "genus": "Crataegus",
+      "common_name_primary": "Espino blanco (European hawthorn)",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Europe"
+      ],
+      "sources": [
+        "S4"
+      ],
+      "notes": "European hawthorn. INPI 2021 compendium: cardiac insufficiency, atherosclerosis, tachycardia, malaria. Distinct from Mexican tejocote (Crataegus pubescens). Both called 'tejocote' or 'espino' in commerce — pharmacological disambiguation needed."
+    },
+    {
+      "id": "MX118",
+      "scientific_name": "Tecoma stans (L.) Juss. ex Kunth",
+      "family": "Bignoniaceae",
+      "genus": "Tecoma",
+      "common_name_primary": "Tronadora / Retama / X k'aan lool (Maya)",
+      "native_status": "native",
+      "origin_regions": [
+        "SW USA to South America"
+      ],
+      "sources": [
+        "S5",
+        "S6"
+      ],
+      "notes": "S5 Yucatan (TRAMIL-validated): with guarumbo and árnica for diabetes. S6 Jalisco: diabetes and bilious pain. Náhuatl: nextamalxochitl. Multiple other regional names. Cross-dataset: also in Guatemala."
+    },
+    {
+      "id": "MX119",
+      "scientific_name": "Baccharis conferta Kunth",
+      "family": "Asteraceae",
+      "genus": "Baccharis",
+      "common_name_primary": "Escoba / Azoyate / Escobilla",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico"
+      ],
+      "sources": [
+        "S2"
+      ],
+      "notes": "Valle de México. Mazahua, Otomí indigenous names. Toothache, digestive, postpartum baths. 'Escobilla' name shared with other plants across Latin America."
+    },
+    {
+      "id": "MX120",
+      "scientific_name": "Barkleyanthus salicifolius (Kunth) H. Rob. & Brettell",
+      "family": "Asteraceae",
+      "genus": "Barkleyanthus",
+      "common_name_primary": "Azomiatl / Azumiate / Jarilla",
+      "native_status": "native",
+      "origin_regions": [
+        "USA to Honduras"
+      ],
+      "sources": [
+        "S2"
+      ],
+      "notes": "Náhuatl: azomiatl. Multiple Purépecha and Otomí names. Valle de México: espanto, mal de ojo, cólicos, fiebre, dolor de espalda. Also called 'jaral', 'jarilla amarilla'."
+    },
+    {
+      "id": "MX121",
+      "scientific_name": "Satureja macrostema Benth.",
+      "family": "Lamiaceae",
+      "genus": "Satureja",
+      "common_name_primary": "Poleo de agua / Té de monte",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico"
+      ],
+      "sources": [
+        "S2"
+      ],
+      "notes": "Valle de México. 'Poleo de agua' — creates ambiguity with M.pulegium (also 'poleo'). Excellent digestive, cólicos. Used in elaborate postpartum bath formulas (S2 lists 14+ companion plants)."
+    },
+    {
+      "id": "MX122",
+      "scientific_name": "Chrysanthemum parthenium (L.) Bernh.",
+      "family": "Asteraceae",
+      "genus": "Tanacetum",
+      "common_name_primary": "Santamaría / Altamiza / Hierba de Santa María",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Eurasia"
+      ],
+      "sources": [
+        "S2",
+        "S4",
+        "S6"
+      ],
+      "notes": "Syn: Tanacetum parthenium. Called 'santamaría', 'altamiza', 'artemisa', 'manzanilla romana' across sources. Abortive, menstrual regulation, migraine, digestive. S4: 'corrección de menstruación, abortivo'. Widely used across all regions."
+    },
+    {
+      "id": "MX123",
+      "scientific_name": "Cinchona officinalis L.",
+      "family": "Rubiaceae",
+      "genus": "Cinchona",
+      "common_name_primary": "Quina",
+      "native_status": "introduced",
+      "origin_regions": [
+        "South America — Peru",
+        "Ecuador"
+      ],
+      "sources": [
+        "S4"
+      ],
+      "notes": "South American bark — source of quinine. Sold in MX for fever, malaria, wounds. Cross-dataset link: also appears in HN/CR/GT datasets where 'quina' is confused with Quassia amara in some regions. S4 lists cinchonaines and proanthocyanidins."
+    },
+    {
+      "id": "MX124",
+      "scientific_name": "Annona muricata L.",
+      "family": "Annonaceae",
+      "genus": "Annona",
+      "common_name_primary": "Guanábana / Soursop",
+      "native_status": "native",
+      "origin_regions": [
+        "Tropical Americas"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "notes": "Yucatan: TRAMIL for cough and cholesterol/triglycerides. Pan-tropical use. Seeds contain annonacin — potentially neurotoxic with prolonged consumption. Leaves traditionally used for cancer (limited clinical evidence)."
+    },
+    {
+      "id": "MX125",
+      "scientific_name": "Annona squamosa L.",
+      "family": "Annonaceae",
+      "genus": "Annona",
+      "common_name_primary": "Saramuyo / Anona / Ts'almuy (Maya)",
+      "native_status": "native",
+      "origin_regions": [
+        "Caribbean",
+        "Mexico"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "notes": "Yucatan: baths for measles. Seeds toxic (pesticidal). Distinct from A. muricata."
+    },
+    {
+      "id": "MX126",
+      "scientific_name": "Azadirachta indica A. Juss.",
+      "family": "Meliaceae",
+      "genus": "Azadirachta",
+      "common_name_primary": "Nim / Neem",
+      "native_status": "introduced",
+      "origin_regions": [
+        "India",
+        "Indomalaysia"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "notes": "Yucatan: traditional healer documents for cancer, diabetes, cirrhosis (oral with ruda and sábila), skin conditions, intestinal parasites. Well-known multipurpose tree. Neem compounds (azadirachtin) — insecticidal, antiparasitic, antifungal."
+    },
+    {
+      "id": "MX127",
+      "scientific_name": "Bauhinia divaricata L.",
+      "family": "Fabaceae",
+      "genus": "Bauhinia",
+      "common_name_primary": "Pata de vaca / Ts'uru'tok' (Maya)",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico to Greater Antilles"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "notes": "TRAMIL-validated for bad breath (oral infusion). Maya Yucatan. Kanchu nub and xpay luch used as companion plants. Cross-dataset: 'pata de vaca' also appears in NI, CR datasets but may refer to different Bauhinia spp."
+    },
+    {
+      "id": "MX128",
+      "scientific_name": "Bixa orellana L.",
+      "family": "Bixaceae",
+      "genus": "Bixa",
+      "common_name_primary": "Achiote / K'uxub (Maya)",
+      "native_status": "native",
+      "origin_regions": [
+        "Tropical Americas"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "notes": "TRAMIL-validated for mal de pinto (tinea versicolor) — 10g seeds fried in 40ml oil, applied topically. Food colorant (annatto). Widely used throughout tropical Americas. Cross-dataset: also in Bolivia, Guianas, Panama datasets."
+    },
+    {
+      "id": "MX129",
+      "scientific_name": "Bursera simaruba (L.) Sarg.",
+      "family": "Burseraceae",
+      "genus": "Bursera",
+      "common_name_primary": "Chakaj / Gumbo-limbo / Copal rojo",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico to Costa Rica",
+        "Caribbean"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "notes": "Peeling papery bark. Maya: diarrhea (oral), cuts (topical), headache baths. Important Mesoamerican resin tree."
+    },
+    {
+      "id": "MX130",
+      "scientific_name": "Carica papaya L.",
+      "family": "Caricaceae",
+      "genus": "Carica",
+      "common_name_primary": "Papaya",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico",
+        "Tropical Americas"
+      ],
+      "sources": [
+        "S5",
+        "S6"
+      ],
+      "notes": "TRAMIL-validated (Yucatan) for intestinal flora regeneration and hemorrhoids (with piña, nopal, kalanchoe, ajo). S6: laxative, antiparasitic (seeds), cosmetic (latex for warts). Seeds mildly toxic in excess. Cross-dataset: also in NI, Honduras, Guatemala datasets."
+    },
+    {
+      "id": "MX131",
+      "scientific_name": "Cecropia peltata L.",
+      "family": "Urticaceae",
+      "genus": "Cecropia",
+      "common_name_primary": "Guarumbo / X k'aan lool (Maya)",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico to South America",
+        "Caribbean"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "notes": "Yucatan: diabetes (oral with árnica). Same Maya name as Tecoma stans — disambiguation needed. Cecropia contains chlorogenic acid and isoorientin — antihyperglycemic evidence."
+    },
+    {
+      "id": "MX132",
+      "scientific_name": "Chromolaena odorata (L.) R. M. King & H. Rob.",
+      "family": "Asteraceae",
+      "genus": "Chromolaena",
+      "common_name_primary": "X tok'aban (Maya)",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico to South America"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "notes": "TRAMIL-validated for kidney stones and kidney problems (with multiple companion plants including corn silk). Also validates use for forúnculos and cutaneous ulcers externally. Invasive weed globally."
+    },
+    {
+      "id": "MX133",
+      "scientific_name": "Cissampelos pareira L.",
+      "family": "Menispermaceae",
+      "genus": "Cissampelos",
+      "common_name_primary": "X peteltun (Maya)",
+      "native_status": "native",
+      "origin_regions": [
+        "Pantropical"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "notes": "TRAMIL-validated for stomach pain and diarrhea. Yucatan. Alkaloids include cissampeline (muscle relaxant). Cross-dataset: also in Guianas dataset."
+    },
+    {
+      "id": "MX134",
+      "scientific_name": "Cocos nucifera L.",
+      "family": "Arecaceae",
+      "genus": "Cocos",
+      "common_name_primary": "Coco / Coconut",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Pacific Islands"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "notes": "TRAMIL-validated (Yucatan) for urinary conditions — water of the fruit taken orally. Widely cultivated in coastal Mexico."
+    },
+    {
+      "id": "MX135",
+      "scientific_name": "Cordia dodecandra A. DC.",
+      "family": "Boraginaceae",
+      "genus": "Cordia",
+      "common_name_primary": "Ciricote",
+      "native_status": "native",
+      "origin_regions": [
+        "Yucatan Peninsula",
+        "Belize",
+        "Guatemala",
+        "Cuba"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "notes": "TRAMIL-validated for dysentery. Yucatan endemic range. Important timber tree with edible fruit. Bark decoction."
+    },
+    {
+      "id": "MX136",
+      "scientific_name": "Diphysa yucatanensis Hanan-Alipi & M. Sousa",
+      "family": "Fabaceae",
+      "genus": "Diphysa",
+      "common_name_primary": "Ruda de monte / Ts'uts'uk (Maya)",
+      "native_status": "native",
+      "origin_regions": [
+        "Yucatan Peninsula"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "notes": "TRAMIL-validated for mal de ojo (baths with chakaj and cruz ak'). Yucatan Peninsula endemic. Called 'ruda de monte' — creates ambiguity with true Ruta chalepensis. Traditional Maya ritual plant."
+    },
+    {
+      "id": "MX137",
+      "scientific_name": "Hibiscus rosa-sinensis L.",
+      "family": "Malvaceae",
+      "genus": "Hibiscus",
+      "common_name_primary": "Tulipán / Jamaica (decorative)",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Tropical Asia"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "notes": "TRAMIL-validated (Yucatan) for female sterility and male impotence (separate uses). Flowers also for conjunctivitis (S5 TRAMIL table: leaf juice). Widely cultivated ornamental. Distinct from Hibiscus sabdariffa (Flor de Jamaica — beverage)."
+    },
+    {
+      "id": "MX138",
+      "scientific_name": "Kalanchoe pinnata (Lam.) Pers.",
+      "family": "Crassulaceae",
+      "genus": "Kalanchoe",
+      "common_name_primary": "Siempreviva / Hoja del aire / Hierba de la bruja",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Asia"
+      ],
+      "sources": [
+        "S1",
+        "S5",
+        "S6"
+      ],
+      "notes": "TRAMIL-validated (Yucatan) for carnosidad and conjunctivitis (ophthalmic). S6: diabetes, sore throat, menstrual cramps, headache, diuretic. S1 Zongolica: dysentery. Cross-dataset: called 'hoja de milagro' in NI and 'siempre viva/planta maravilla' in Yucatan. K. pinnata = Bryophyllum pinnatum (synonym confirmed in GT dataset)."
+    },
+    {
+      "id": "MX139",
+      "scientific_name": "Manihot esculenta Crantz",
+      "family": "Euphorbiaceae",
+      "genus": "Manihot",
+      "common_name_primary": "Yuca / Mandioca",
+      "native_status": "native",
+      "origin_regions": [
+        "South America"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "notes": "TRAMIL-validated (Yucatan) for cold sweats (baths). Leaves used for interdigital fungus and headache (macerado topically). Important food crop. Raw cassava contains cyanogenic glycosides — must be processed for consumption."
+    },
+    {
+      "id": "MX140",
+      "scientific_name": "Morinda citrifolia L.",
+      "family": "Rubiaceae",
+      "genus": "Morinda",
+      "common_name_primary": "Noni",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Indo-Pacific"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "notes": "TRAMIL-validated for diabetes (oral). Widely commercialized globally. Cross-dataset: also in NI dataset (added from UNAN-León survey). Yucatan cultivation established."
+    },
+    {
+      "id": "MX141",
+      "scientific_name": "Mimosa bahamensis Benth.",
+      "family": "Fabaceae",
+      "genus": "Mimosa",
+      "common_name_primary": "Sak katsim (Maya)",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico",
+        "Belize",
+        "Guatemala",
+        "Caribbean"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "notes": "TRAMIL-validated for diabetes. Yucatan/Peninsula endemic range. Thorny shrub."
+    },
+    {
+      "id": "MX142",
+      "scientific_name": "Mimosa pudica L.",
+      "family": "Fabaceae",
+      "genus": "Mimosa",
+      "common_name_primary": "Dormilona / Sensitiva / X muts' (Maya)",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico to Brazil"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "notes": "Sensitive plant — leaves fold when touched. Yucatan: for insomnia. Monoamine oxidase inhibitor properties documented."
+    },
+    {
+      "id": "MX143",
+      "scientific_name": "Pluchea carolinensis (Jacq.) G. Don",
+      "family": "Asteraceae",
+      "genus": "Pluchea",
+      "common_name_primary": "Chalche' / Tres Marías (Maya)",
+      "native_status": "native",
+      "origin_regions": [
+        "Neotropical"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "notes": "ABORTIFACIENT: documented in NI dataset as one of the 'Salvia crisis' abortive plants. Yucatan source lists for 'esterilidad en mujeres, pasmo' — the female sterility use and 'pasmo' (post-trauma condition) context. FloraLexicon must flag: abortifacient properties confirmed in cross-dataset analysis. Distinguish from P. odorata (S2 Valle de MX) which has different properties."
+    },
+    {
+      "id": "MX144",
+      "scientific_name": "Pluchea odorata (L.) Cass.",
+      "family": "Asteraceae",
+      "genus": "Pluchea",
+      "common_name_primary": "Santa María / Tabaquillo / Opochejkaxiuit (Náhuatl)",
+      "native_status": "native",
+      "origin_regions": [
+        "South America"
+      ],
+      "sources": [
+        "S2"
+      ],
+      "notes": "Valle de México. Vaginal lavages, menstrual cólicos, female sterility, rheumatism, GI disorders. Distinct from P. carolinensis (Yucatan) — different uses and safety profile. Both plants share some properties with Pluchea carolinensis which is abortive."
+    },
+    {
+      "id": "MX145",
+      "scientific_name": "Byrsonima crassifolia (L.) Kunth",
+      "family": "Malpighiaceae",
+      "genus": "Byrsonima",
+      "common_name_primary": "Nanche / Nance dulce / Chi' (Maya)",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico to Tropical Americas"
+      ],
+      "sources": [
+        "S6"
+      ],
+      "notes": "Bark and fruit. Cicatrizant, ovarian inflammation, respiratory diseases, antidiarrheal. CEFOFOR. Multiple indigenous names across Nahua, Maya, Mixtec, Purépecha regions."
+    },
+    {
+      "id": "MX146",
+      "scientific_name": "Pithecellobium dulce (Roxb.) Benth.",
+      "family": "Fabaceae",
+      "genus": "Pithecellobium",
+      "common_name_primary": "Guamúchil / Cuamuchil",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico",
+        "Central America"
+      ],
+      "sources": [
+        "S6"
+      ],
+      "notes": "Common in dry forests across Mexico. Bark for gastrointestinal disorders, oral infections (gargle). S6 notes: fruit is aphrodisiac; high doses cause constipation. Multiple Náhuatl, Zapotec, Maya regional names."
+    },
+    {
+      "id": "MX147",
+      "scientific_name": "Acacia farnesiana (L.) Willd.",
+      "family": "Fabaceae",
+      "genus": "Acacia",
+      "common_name_primary": "Huizache / Vinorama / Aromo",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico",
+        "Tropical Americas"
+      ],
+      "sources": [
+        "S6"
+      ],
+      "notes": "Common thorny shrub of dry Mexico. Bark/leaves for gastrointestinal, oral antiseptic, diuretic, gastric ulcers. Multiple indigenous names. Used nationally."
+    },
+    {
+      "id": "MX148",
+      "scientific_name": "Fraxinus uhdei (Wenz.) Lingelsh.",
+      "family": "Oleaceae",
+      "genus": "Fraxinus",
+      "common_name_primary": "Fresno mexicano / Páramo",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico"
+      ],
+      "sources": [
+        "S6"
+      ],
+      "notes": "Mexican ash. Jalisco, Michoacán, México, Hidalgo, Nayarit. Leaves for fever, rheumatism, antimalarial. Distinct from European Fraxinus excelsior (also medicinal — S4 uses for rheumatism, gout but lists as 'fresno' broadly)."
+    },
+    {
+      "id": "MX149",
+      "scientific_name": "Cynodon dactylon (L.) Pers.",
+      "family": "Poaceae",
+      "genus": "Cynodon",
+      "common_name_primary": "Grama / Pata de gallo / Bermuda grass",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Tropical Africa/Asia"
+      ],
+      "sources": [
+        "S6"
+      ],
+      "notes": "Common lawn grass. CEFOFOR: kidney problems, prostate, uric acid, gout, diuretic (strong decoction 10g/L). Náhuatl: acacahuiztli. Maya: kan-suuk. Widely naturalized."
+    },
+    {
+      "id": "MX150",
+      "scientific_name": "Commelina coelestis Willd.",
+      "family": "Commelinaceae",
+      "genus": "Commelina",
+      "common_name_primary": "Hierba del pollo / Chipil de piedra",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico"
+      ],
+      "sources": [
+        "S2",
+        "S6"
+      ],
+      "notes": "Vivid blue flowers distinctive. Valle de México and national. Menstrual cramps, gastric ulcers, antihemorrhagic (S6). S2: hemorragias, heridas, menstrual regulation. Náhuatl: matlalitzic."
+    },
+    {
+      "id": "MX151",
+      "scientific_name": "Phaseolus vulgaris L.",
+      "family": "Fabaceae",
+      "genus": "Phaseolus",
+      "common_name_primary": "Frijol / Ejote",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico",
+        "Central America"
+      ],
+      "sources": [
+        "S2",
+        "S4"
+      ],
+      "notes": "S2: seeds as chiquiador for headache; broth for menstrual issues, burns, fertility promotion. S4 (as ejote/bean pod): cellulitis, urinary retention, skin conditions, diabetes (non-insulin dependent). Important food staple with overlooked medicinal uses."
+    },
+    {
+      "id": "MX152",
+      "scientific_name": "Zea mays L.",
+      "family": "Poaceae",
+      "genus": "Zea",
+      "common_name_primary": "Maíz / Elote",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico"
+      ],
+      "sources": [
+        "S2",
+        "S5"
+      ],
+      "notes": "S2: múltiple uses including corn silk (barba) for hepatitis, kidney pain. Root for female sterility, postpartum, avoid abortion. S5 TRAMIL-validated: corn silk for kidney pain, edema, inflammation. Sacred origin — Mexico is the center of domestication. Multiple languages: ixi'im (Maya), nuni (Mixteco), tsíri (Purépecha), ajan (Tzotzil)."
+    },
+    {
+      "id": "MX153",
+      "scientific_name": "Allium sativum L.",
+      "family": "Amaryllidaceae",
+      "genus": "Allium",
+      "common_name_primary": "Ajo",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Central Asia"
+      ],
+      "sources": [
+        "S4",
+        "S6"
+      ],
+      "notes": "Universal medicinal plant. Antiseptic, hypotensive, diuretic, antiparasitic, anticoagulant. S4: rejuvenating properties, arterial restoration. Avoid during lactation (colic in infants). Good gastric tolerability if taken with food."
+    },
+    {
+      "id": "MX154",
+      "scientific_name": "Allium cepa L.",
+      "family": "Amaryllidaceae",
+      "genus": "Allium",
+      "common_name_primary": "Cebolla",
+      "native_status": "introduced",
+      "origin_regions": [
+        "SW Asia"
+      ],
+      "sources": [
+        "S6"
+      ],
+      "notes": "Gout, bronchitis, anti-inflammatory, empacho, arthritis, anticoagulant (CEFOFOR)."
+    },
+    {
+      "id": "MX155",
+      "scientific_name": "Senna alata (L.) Roxb.",
+      "family": "Fabaceae",
+      "genus": "Senna",
+      "common_name_primary": "Secreto (Yucatan)",
+      "native_status": "native",
+      "origin_regions": [
+        "Tropical Americas"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "notes": "TRAMIL-validated for tinea (ringworm) and skin fungal infections. Yucatan Maya name 'secreto'. Used with altanisa/Parthenium hysterophorus."
+    },
+    {
+      "id": "MX156",
+      "scientific_name": "Asclepias curassavica L.",
+      "family": "Apocynaceae",
+      "genus": "Asclepias",
+      "common_name_primary": "Chakanal (Maya) / Hierba del cuervo",
+      "native_status": "native",
+      "origin_regions": [
+        "Tropical Americas"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "notes": "MODERATE TOXICITY: cardiac glycosides (as all Asclepias). Yucatan: topical for skin pustules/grains. S5 cautious — only topical use documented. Contains cardenolides."
+    },
+    {
+      "id": "MX157",
+      "scientific_name": "Hylocereus undatus (Haw.) Britton & Rose",
+      "family": "Cactaceae",
+      "genus": "Hylocereus",
+      "common_name_primary": "Pitahaya / Dragon fruit",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico",
+        "Central America"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "notes": "Yucatan: for diabetes and heart conditions (oral). Night-blooming cactus vine. Edible fruit. Growing commercial importance."
+    },
+    {
+      "id": "MX158",
+      "scientific_name": "Spondias purpurea L.",
+      "family": "Anacardiaceae",
+      "genus": "Spondias",
+      "common_name_primary": "Ciruela de monte / Jocote / Abal ak' (Maya)",
+      "native_status": "native",
+      "origin_regions": [
+        "Mesoamerica"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "notes": "Yucatan: postpartum care and sarpullido (skin rash) baths (with granada, ruda, x k'anan). Topical for scabies. Edible fruit."
+    },
+    {
+      "id": "MX160",
+      "scientific_name": "Abelmoschus moschatus Medikus",
+      "family": "Malvaceae",
+      "genus": "Abelmoschus",
+      "common_name_primary": "Almiscle / Hierba de culebra",
+      "native_status": "native",
+      "origin_regions": [
+        "Tropical Americas",
+        "Jamaica"
+      ],
+      "sources": [
+        "S2"
+      ],
+      "notes": "Valle de México. Stomach pain (fruit macerated in water), cough/asthma (seeds soaked and eaten), snakebite (seed infusion). Oaxaca: zaandy ujts; San Luis Potosí: bomba kapel (Tenek)."
+    },
+    {
+      "id": "MX161",
+      "scientific_name": "Aloysia triphylla (L'Hér.) Britton",
+      "family": "Verbenaceae",
+      "genus": "Aloysia",
+      "common_name_primary": "Cedrón / Hierba Luisa",
+      "native_status": "introduced",
+      "origin_regions": [
+        "Chile",
+        "Argentina"
+      ],
+      "sources": [
+        "S2",
+        "S6"
+      ],
+      "notes": "South American native widely cultivated in Mexico for digestive conditions, diarrhea, biliary colic. S2: for 'levantar la mollera' (folk condition in infants), scorpion sting. CEFOFOR: sedante suave, facilitates menstruation."
+    },
+    {
+      "id": "MX162",
+      "scientific_name": "Parthenium hysterophorus L.",
+      "family": "Asteraceae",
+      "genus": "Parthenium",
+      "common_name_primary": "Altanisa / X waat che (Maya)",
+      "native_status": "native",
+      "origin_regions": [
+        "Mexico",
+        "Central America",
+        "South America",
+        "Caribbean"
+      ],
+      "sources": [
+        "S2",
+        "S5"
+      ],
+      "notes": "CONTACT ALLERGEN: causes allergic contact dermatitis in sensitive individuals. S5 Yucatan: used for fungal infections on skin. S2 Valle de México: listed among plants but minimal use noted. Cross-dataset: also in HN dataset. Invasive globally; major agricultural pest."
+    }
+  ],
+  "names": [
+    {
+      "plant_id": "MX001",
+      "name": "Árnica mexicana",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "general",
+      "confused_with": [
+        "Arnica montana (MX002)",
+        "Tithonia diversifolia (MX003)"
+      ]
+    },
+    {
+      "plant_id": "MX001",
+      "name": "Acahual / Acáhuatal",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "regional"
+    },
+    {
+      "plant_id": "MX001",
+      "name": "Falsa árnica / Árnica del país",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "medium",
+      "usage_context": "commercial"
+    },
+    {
+      "plant_id": "MX001",
+      "name": "Cuateteco / Cuauteteco",
+      "language": "nah",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "indigenous"
+    },
+    {
+      "plant_id": "MX002",
+      "name": "Árnica europea / Árnica de montaña",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "commercial",
+      "confused_with": [
+        "Heterotheca inuloides (MX001)",
+        "Tithonia diversifolia (MX003)"
+      ]
+    },
+    {
+      "plant_id": "MX002",
+      "name": "Estornudadera / Tabaco de montaña",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "specialist"
+    },
+    {
+      "plant_id": "MX003",
+      "name": "Gigantón",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "Veracruz/Nahua"
+    },
+    {
+      "plant_id": "MX003",
+      "name": "Árnica (Yucatán)",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "Yucatan regional",
+      "confused_with": [
+        "Heterotheca inuloides (MX001)",
+        "Arnica montana (MX002)"
+      ]
+    },
+    {
+      "plant_id": "MX003",
+      "name": "Chiople'",
+      "language": "yua",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "Maya Yucatan"
+    },
+    {
+      "plant_id": "MX003",
+      "name": "Techichik",
+      "language": "nah",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "Nahua Zongolica"
+    },
+    {
+      "plant_id": "MX003",
+      "name": "Girasol mexicano / Mirasol",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "medium",
+      "usage_context": "general"
+    },
+    {
+      "plant_id": "MX004",
+      "name": "Epazote",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "general"
+    },
+    {
+      "plant_id": "MX004",
+      "name": "Epazotl",
+      "language": "nah",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "Nahua"
+    },
+    {
+      "plant_id": "MX004",
+      "name": "Paico",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "medium",
+      "usage_context": "shared with South America (Quechua origin)"
+    },
+    {
+      "plant_id": "MX004",
+      "name": "Hierba de Santa María / Mastruz",
+      "language": "es",
+      "country_iso": "MX-AR-PE",
+      "ambiguity_level": "medium",
+      "usage_context": "Argentina/Peru variant names"
+    },
+    {
+      "plant_id": "MX004",
+      "name": "Yerba del zorrillo",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "national"
+    },
+    {
+      "plant_id": "MX005",
+      "name": "Hierbabuena",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "general — name shared with MX006, MX007",
+      "confused_with": [
+        "Mentha piperita (MX006)",
+        "Mentha viridis (MX007)"
+      ]
+    },
+    {
+      "plant_id": "MX005",
+      "name": "Spearmint",
+      "language": "en",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "commercial/export"
+    },
+    {
+      "plant_id": "MX006",
+      "name": "Hierbabuena china / Menta",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "commercial",
+      "confused_with": [
+        "Mentha spicata (MX005)"
+      ]
+    },
+    {
+      "plant_id": "MX006",
+      "name": "Peppermint",
+      "language": "en",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "commercial"
+    },
+    {
+      "plant_id": "MX007",
+      "name": "Hierbabuena lisa / Poleo (Estado de México)",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "Estado de México",
+      "confused_with": [
+        "Mentha pulegium (MX008 — true poleo)"
+      ]
+    },
+    {
+      "plant_id": "MX008",
+      "name": "Poleo",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "general",
+      "confused_with": [
+        "Mentha viridis (MX007)",
+        "Satureja macrostema (MX121)"
+      ]
+    },
+    {
+      "plant_id": "MX009",
+      "name": "Ajenjo / Hierba maestra / Maestra",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "medium",
+      "usage_context": "national"
+    },
+    {
+      "plant_id": "MX009",
+      "name": "Estafiate (occasional)",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "confusion with MX010",
+      "confused_with": [
+        "Artemisia ludoviciana (MX010)"
+      ]
+    },
+    {
+      "plant_id": "MX010",
+      "name": "Estafiate / Ajenjo del país",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "medium",
+      "usage_context": "national"
+    },
+    {
+      "plant_id": "MX010",
+      "name": "Iztauhyatl",
+      "language": "nah",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "Nahua"
+    },
+    {
+      "plant_id": "MX010",
+      "name": "Guietee",
+      "language": "zap",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "Zapotec Oaxaca"
+    },
+    {
+      "plant_id": "MX011",
+      "name": "Sábila / Zábila / Sávila",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "national"
+    },
+    {
+      "plant_id": "MX011",
+      "name": "Posacmetl",
+      "language": "nah",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "Náhuatl — 'maguey morado'"
+    },
+    {
+      "plant_id": "MX011",
+      "name": "Hunpets'k'inki / Petk'inki",
+      "language": "yua",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "Maya Yucatan"
+    },
+    {
+      "plant_id": "MX012",
+      "name": "Albahaca / Albahacar",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "medium",
+      "usage_context": "national — also called 'orégano' in some regions"
+    },
+    {
+      "plant_id": "MX012",
+      "name": "Orégano (occasional)",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "some regional markets",
+      "confused_with": [
+        "Origanum vulgare",
+        "Plectranthus amboinicus (MX039)",
+        "Lippia graveolens (CR)"
+      ]
+    },
+    {
+      "plant_id": "MX013",
+      "name": "X kakaltuun",
+      "language": "yua",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "Maya Yucatan exclusive"
+    },
+    {
+      "plant_id": "MX014",
+      "name": "Cardo mariano / Cardo de María / Cardo lechero",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "medium",
+      "usage_context": "national",
+      "confused_with": [
+        "Cirsium subcoriaceum (MX018 — cardo santo)"
+      ]
+    },
+    {
+      "plant_id": "MX015",
+      "name": "Chicalote",
+      "language": "nah",
+      "country_iso": "MX",
+      "ambiguity_level": "medium",
+      "usage_context": "Nahua/national"
+    },
+    {
+      "plant_id": "MX015",
+      "name": "Cardo santo (Zongolica)",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "Veracruz Nahua",
+      "confused_with": [
+        "Cirsium subcoriaceum (MX018)",
+        "Argemone platyceras (MX017)"
+      ]
+    },
+    {
+      "plant_id": "MX015",
+      "name": "Chicalotl",
+      "language": "nah",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "Nahua"
+    },
+    {
+      "plant_id": "MX015",
+      "name": "K'iix-k'anlol / K'iix-saklol",
+      "language": "yua",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "Maya Yucatan"
+    },
+    {
+      "plant_id": "MX018",
+      "name": "Cardo santo (Jalisco)",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "Jalisco/Bajío",
+      "confused_with": [
+        "Argemone mexicana (MX015 — also cardo santo in Zongolica)"
+      ]
+    },
+    {
+      "plant_id": "MX019",
+      "name": "Diente de León / Achicoria amarga / Amargón",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "national"
+    },
+    {
+      "plant_id": "MX022",
+      "name": "Guayaba",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "national"
+    },
+    {
+      "plant_id": "MX022",
+      "name": "Xalxocotl / Xaxokotl",
+      "language": "nah",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "Náhuatl — 'sandy sour'"
+    },
+    {
+      "plant_id": "MX023",
+      "name": "Hierba del cáncer",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "medium",
+      "usage_context": "Zongolica/national — also applies to other plants"
+    },
+    {
+      "plant_id": "MX023",
+      "name": "Hierba del golpe (women's use)",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "medium",
+      "usage_context": "Zongolica — same species, different name and use"
+    },
+    {
+      "plant_id": "MX023",
+      "name": "Chinawaxiwitl",
+      "language": "nah",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "Náhuatl for cancer use"
+    },
+    {
+      "plant_id": "MX023",
+      "name": "Koskatlakuatzin",
+      "language": "nah",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "Náhuatl for women's pelvic use"
+    },
+    {
+      "plant_id": "MX025",
+      "name": "Cempasúchil / Cempazúchil / Cempoalxóchitl",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "national — Day of the Dead flower"
+    },
+    {
+      "plant_id": "MX025",
+      "name": "Sempualxóchitl",
+      "language": "nah",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "Náhuatl"
+    },
+    {
+      "plant_id": "MX025",
+      "name": "Apátsicua",
+      "language": "pua",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "Purépecha"
+    },
+    {
+      "plant_id": "MX026",
+      "name": "Pericón / Yerbanís / Hierba de San Juan",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "medium",
+      "usage_context": "national"
+    },
+    {
+      "plant_id": "MX026",
+      "name": "Yauhtli",
+      "language": "nah",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "Náhuatl"
+    },
+    {
+      "plant_id": "MX028",
+      "name": "Ruda",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "medium",
+      "usage_context": "national",
+      "confused_with": [
+        "Diphysa yucatanensis (MX136 — ruda de monte)"
+      ]
+    },
+    {
+      "plant_id": "MX028",
+      "name": "Lula / Luta",
+      "language": "tzo",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "Tzeltal/Tzotzil Chiapas"
+    },
+    {
+      "plant_id": "MX030",
+      "name": "Muicle / Hierba azul / Muicle",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "national"
+    },
+    {
+      "plant_id": "MX030",
+      "name": "Mouait / Mouitl / Moitle",
+      "language": "nah",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "Náhuatl"
+    },
+    {
+      "plant_id": "MX030",
+      "name": "Sangre de Cristo",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "medium",
+      "usage_context": "national — name shared with other plants in SA"
+    },
+    {
+      "plant_id": "MX030",
+      "name": "Siete vidas / Pico de colibrí",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "medium",
+      "usage_context": "Maya Yucatan"
+    },
+    {
+      "plant_id": "MX031",
+      "name": "Hierba santa / Hoja santa",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "medium",
+      "usage_context": "national"
+    },
+    {
+      "plant_id": "MX031",
+      "name": "Acuyo / Acoyo",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "Veracruz/Oaxaca"
+    },
+    {
+      "plant_id": "MX031",
+      "name": "Tlanekpakilitl",
+      "language": "nah",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "Nahua Zongolica"
+    },
+    {
+      "plant_id": "MX033",
+      "name": "Hierba de tapón / Pronto alivio",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "Zongolica/Veracruz"
+    },
+    {
+      "plant_id": "MX034",
+      "name": "Verbena",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "national",
+      "confused_with": [
+        "Verbena bipinnatifida (MX035)",
+        "Stachytarpheta jamaicensis (MX036)",
+        "Hyptis verticillata (GT dataset)"
+      ]
+    },
+    {
+      "plant_id": "MX035",
+      "name": "Moradilla / Alfombrilla / Moradita",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "Valle de México"
+    },
+    {
+      "plant_id": "MX036",
+      "name": "Verbena (Yucatán)",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "Yucatan regional",
+      "confused_with": [
+        "Verbena officinalis (MX034)",
+        "Verbena bipinnatifida (MX035)"
+      ]
+    },
+    {
+      "plant_id": "MX037",
+      "name": "Insulina / Planta de insulina / Costus ardiente",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "national",
+      "confused_with": [
+        "Plectranthus ornatus (MX038 — also called insulina in Zongolica)",
+        "Justicia secunda (NI — abortive)",
+        "Piper auritum (NI — toxic)"
+      ]
+    },
+    {
+      "plant_id": "MX037",
+      "name": "Caña brava / Escalera",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "medium",
+      "usage_context": "regional"
+    },
+    {
+      "plant_id": "MX038",
+      "name": "Boldo mexicano / Falso boldo / Buscapina natural",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "Zongolica — called insulina natural",
+      "confused_with": [
+        "Costus igneus (MX037)",
+        "Peumus boldus (MX040 — true boldo)"
+      ]
+    },
+    {
+      "plant_id": "MX038",
+      "name": "Insulina natural (Zongolica use)",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "Zongolica community"
+    },
+    {
+      "plant_id": "MX039",
+      "name": "Orégano de castilla (Yucatán)",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "Yucatan",
+      "confused_with": [
+        "Origanum vulgare (true oregano)",
+        "Lippia graveolens (CR oregano)",
+        "Ocimum basilicum (albahaca sometimes called orégano)"
+      ]
+    },
+    {
+      "plant_id": "MX041",
+      "name": "Estevia / Hierba dulce / Ka'a-hée",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "commercial/health food"
+    },
+    {
+      "plant_id": "MX042",
+      "name": "Manzanilla / Manzanilla alemana / Camomila",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "medium",
+      "usage_context": "national",
+      "confused_with": [
+        "Chamaemelum nobile (MX043 — manzanilla romana)",
+        "Crataegus pubescens (tejocote — sometimes 'manzanilla' colloquially)"
+      ]
+    },
+    {
+      "plant_id": "MX044",
+      "name": "Sauco / Flor y fruto de sauco",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "medium",
+      "usage_context": "Zongolica/national",
+      "confused_with": [
+        "Sambucus mexicana (MX045)"
+      ]
+    },
+    {
+      "plant_id": "MX044",
+      "name": "Xometl",
+      "language": "nah",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "Náhuatl Zongolica"
+    },
+    {
+      "plant_id": "MX045",
+      "name": "Sauco mexicano / Sauco chico",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "medium",
+      "usage_context": "Valle de México",
+      "confused_with": [
+        "Sambucus nigra (MX044)"
+      ]
+    },
+    {
+      "plant_id": "MX046",
+      "name": "Higuerilla / Ricino",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "national",
+      "confused_with": [
+        "Ficus carica (MX047 — higuera, edible fig)"
+      ]
+    },
+    {
+      "plant_id": "MX046",
+      "name": "Higuera del diablo / Higuera infernal",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "regional variant names"
+    },
+    {
+      "plant_id": "MX047",
+      "name": "Higuera / Higo",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "INPI national",
+      "confused_with": [
+        "Ricinus communis (MX046 — higuerilla/higuera del diablo)"
+      ]
+    },
+    {
+      "plant_id": "MX048",
+      "name": "Toloache / Toloatzin",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "national (infamous plant)"
+    },
+    {
+      "plant_id": "MX048",
+      "name": "Kieri",
+      "language": "huc",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "Huichol — 'árbol del viento'"
+    },
+    {
+      "plant_id": "MX049",
+      "name": "Vincapervinca / Pervinca rosada",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "national"
+    },
+    {
+      "plant_id": "MX050",
+      "name": "Sikilte' / Piñón (regional)",
+      "language": "yua",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "Yucatan — piñón name dangerous",
+      "confused_with": [
+        "Pine nuts (Pinus spp.)"
+      ]
+    },
+    {
+      "plant_id": "MX054",
+      "name": "Tilo",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "INPI national",
+      "confused_with": [
+        "Justicia pectoralis (Tilo in CR/CA — no sedative alkaloids)"
+      ]
+    },
+    {
+      "plant_id": "MX055",
+      "name": "Valeriana",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "INPI national",
+      "confused_with": [
+        "Valeriana sobifolia/edulis (MX056)",
+        "Chrysopogon zizanioides (NI — pharmacologically inert)"
+      ]
+    },
+    {
+      "plant_id": "MX056",
+      "name": "Valeriana mexicana / Raíz del oso / Raíz de gato",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "Jalisco/national",
+      "confused_with": [
+        "Valeriana officinalis (MX055)"
+      ]
+    },
+    {
+      "plant_id": "MX058",
+      "name": "Bugambilia",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "national"
+    },
+    {
+      "plant_id": "MX067",
+      "name": "Maclale / Matlal xiwitl",
+      "language": "nah",
+      "country_iso": "MX",
+      "ambiguity_level": "medium",
+      "usage_context": "Nahua Zongolica"
+    },
+    {
+      "plant_id": "MX067",
+      "name": "Hierba del pollo / Ojo de venado",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "medium",
+      "usage_context": "Náhuatl translation context"
+    },
+    {
+      "plant_id": "MX068",
+      "name": "Maguey morado",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "medium",
+      "usage_context": "Yucatan",
+      "confused_with": [
+        "Tradescantia zebrina (MX067 — also 'maguey' in some areas)"
+      ]
+    },
+    {
+      "plant_id": "MX081",
+      "name": "Gordolobo (Zongolica)",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "Veracruz Nahua",
+      "confused_with": [
+        "Gnaphalium oxyphyllum (MX082)",
+        "Verbascum thapsus (MX083)"
+      ]
+    },
+    {
+      "plant_id": "MX082",
+      "name": "Gordolobo (Valle de México)",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "Valle de México",
+      "confused_with": [
+        "Pseudognaphalium obtusifolium (MX081)",
+        "Verbascum thapsus (MX083)"
+      ]
+    },
+    {
+      "plant_id": "MX083",
+      "name": "Gordolobo (European)",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "INPI 2021 compendium",
+      "confused_with": [
+        "Pseudognaphalium obtusifolium (MX081)",
+        "Gnaphalium oxyphyllum (MX082)"
+      ]
+    },
+    {
+      "plant_id": "MX087",
+      "name": "Zoapatle / Cihuapatli",
+      "language": "nah",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "Náhuatl — 'medicina de la mujer'"
+    },
+    {
+      "plant_id": "MX090",
+      "name": "Pirú / Pirul",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "national"
+    },
+    {
+      "plant_id": "MX091",
+      "name": "Tepozán",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "medium",
+      "usage_context": "national"
+    },
+    {
+      "plant_id": "MX099",
+      "name": "Ahuehuete / Sabino",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "national — national tree of Mexico"
+    },
+    {
+      "plant_id": "MX100",
+      "name": "Dalia / Xicamaxóchitl",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "national — national flower of Mexico"
+    },
+    {
+      "plant_id": "MX101",
+      "name": "Mirto / Diente de acamaya / Mastranzo",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "Jalisco",
+      "confused_with": [
+        "Marrubium vulgare (MX104 — also called mastranzo)",
+        "Mentha sylvestris (SA mastranzo)"
+      ]
+    },
+    {
+      "plant_id": "MX102",
+      "name": "Salvia (European)",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "national",
+      "confused_with": [
+        "Salvia leucantha (MX103 — Mexican)",
+        "Salvia microphylla (MX101)",
+        "Pluchea carolinensis (NI — 'salvia' abortive)"
+      ]
+    },
+    {
+      "plant_id": "MX103",
+      "name": "Salvia / Algodoncillo (Mexican sage)",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "Valle de México",
+      "confused_with": [
+        "Salvia officinalis (MX102)",
+        "Salvia microphylla (MX101)"
+      ]
+    },
+    {
+      "plant_id": "MX108",
+      "name": "Palo azul / Palo dulce",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "national — famous for blue fluorescence in water"
+    },
+    {
+      "plant_id": "MX109",
+      "name": "Toronjil rojo / Toronjil morado",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "national",
+      "confused_with": [
+        "Melissa officinalis (MX110 — also 'toronjil')"
+      ]
+    },
+    {
+      "plant_id": "MX110",
+      "name": "Melisa / Toronjil / Citronela",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "national",
+      "confused_with": [
+        "Agastache mexicana (MX109 — also 'toronjil')"
+      ]
+    },
+    {
+      "plant_id": "MX113",
+      "name": "Doradilla / Flor de peña / Rosa de Jericó",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "medium",
+      "usage_context": "Chihuahuan Desert region",
+      "confused_with": [
+        "Selaginella convoluta (MX114 — also doradilla, Yucatan)"
+      ]
+    },
+    {
+      "plant_id": "MX114",
+      "name": "Doradilla / Much'kok",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "medium",
+      "usage_context": "Yucatan Maya",
+      "confused_with": [
+        "Selaginella lepidophylla (MX113)"
+      ]
+    },
+    {
+      "plant_id": "MX116",
+      "name": "Tejocote (mexicano)",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "medium",
+      "usage_context": "national",
+      "confused_with": [
+        "Crataegus oxyacantha (MX117 — European espino blanco)"
+      ]
+    },
+    {
+      "plant_id": "MX116",
+      "name": "Texocotl / Texocotl",
+      "language": "nah",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "Náhuatl — 'piedra agria'"
+    },
+    {
+      "plant_id": "MX122",
+      "name": "Santamaría / Altamiza / Artemisa",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "national",
+      "confused_with": [
+        "Artemisia absinthium (MX009)",
+        "Artemisia ludoviciana (MX010)"
+      ]
+    },
+    {
+      "plant_id": "MX136",
+      "name": "Ruda de monte / Ts'uts'uk",
+      "language": "yua",
+      "country_iso": "MX",
+      "ambiguity_level": "medium",
+      "usage_context": "Yucatan",
+      "confused_with": [
+        "Ruta chalepensis (MX028 — true ruda)"
+      ]
+    },
+    {
+      "plant_id": "MX138",
+      "name": "Siempreviva / Hoja del aire / Hierba de la bruja",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "national",
+      "confused_with": [
+        "Tradescantia zebrina (MX067)",
+        "Sedum praealtum (MX159 — also siempreviva)"
+      ]
+    },
+    {
+      "plant_id": "MX138",
+      "name": "Hoja de milagro (indirect)",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "high",
+      "usage_context": "cross-regional collision",
+      "confused_with": [
+        "Kalanchoe pinnata = Hoja de milagro in NI",
+        "Tradescantia zebrina = Hoja de milagro in CR"
+      ]
+    },
+    {
+      "plant_id": "MX143",
+      "name": "Chalche' / Tres Marías",
+      "language": "yua",
+      "country_iso": "MX",
+      "ambiguity_level": "medium",
+      "usage_context": "Yucatan Maya"
+    },
+    {
+      "plant_id": "MX152",
+      "name": "Maíz / Elote",
+      "language": "es",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "national — Mexico as center of domestication"
+    },
+    {
+      "plant_id": "MX152",
+      "name": "Ixi'im",
+      "language": "yua",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "Maya"
+    },
+    {
+      "plant_id": "MX152",
+      "name": "Tsíri",
+      "language": "pua",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "Purépecha"
+    },
+    {
+      "plant_id": "MX152",
+      "name": "Nuni",
+      "language": "mxt",
+      "country_iso": "MX",
+      "ambiguity_level": "low",
+      "usage_context": "Mixteco"
+    }
+  ],
+  "geo_distribution": [
+    {
+      "plant_id": "MX001",
+      "countries": [
+        "MX"
+      ],
+      "biomes": [
+        "temperate forest",
+        "pine-oak forest",
+        "secondary vegetation"
+      ],
+      "cultural_regions": [
+        "Valle de México",
+        "Bajío",
+        "Sierra Madre"
+      ],
+      "altitudinal_range": "1500-3000 m",
+      "tramil_validated": false
+    },
+    {
+      "plant_id": "MX002",
+      "countries": [
+        "MX-import"
+      ],
+      "biomes": [
+        "cultivated"
+      ],
+      "cultural_regions": [
+        "national commerce"
+      ],
+      "tramil_validated": false
+    },
+    {
+      "plant_id": "MX003",
+      "countries": [
+        "MX",
+        "GT",
+        "HN",
+        "CR"
+      ],
+      "biomes": [
+        "tropical",
+        "subtropical",
+        "disturbed areas"
+      ],
+      "cultural_regions": [
+        "Veracruz",
+        "Yucatan Peninsula",
+        "Central America"
+      ],
+      "tramil_validated": false
+    },
+    {
+      "plant_id": "MX004",
+      "countries": [
+        "MX",
+        "GT",
+        "HN",
+        "NI",
+        "CR",
+        "PA",
+        "CO",
+        "PE",
+        "AR",
+        "UY"
+      ],
+      "biomes": [
+        "tropical",
+        "subtropical",
+        "disturbed areas",
+        "cultivated"
+      ],
+      "cultural_regions": [
+        "national — all regions",
+        "Caribbean",
+        "South America"
+      ],
+      "tramil_validated": true
+    },
+    {
+      "plant_id": "MX005",
+      "countries": [
+        "MX"
+      ],
+      "biomes": [
+        "cultivated",
+        "riparian"
+      ],
+      "cultural_regions": [
+        "national"
+      ],
+      "tramil_validated": false
+    },
+    {
+      "plant_id": "MX011",
+      "countries": [
+        "MX",
+        "GT",
+        "HN",
+        "NI",
+        "CR",
+        "PA",
+        "CO",
+        "VE",
+        "EC",
+        "PE",
+        "BO",
+        "AR",
+        "UY"
+      ],
+      "biomes": [
+        "tropical dry",
+        "cultivated",
+        "domestic gardens"
+      ],
+      "cultural_regions": [
+        "pan-American"
+      ],
+      "tramil_validated": true
+    },
+    {
+      "plant_id": "MX015",
+      "countries": [
+        "MX",
+        "GT",
+        "HN",
+        "NI",
+        "CR",
+        "PA",
+        "Caribbean"
+      ],
+      "biomes": [
+        "disturbed",
+        "fields",
+        "roadsides"
+      ],
+      "cultural_regions": [
+        "national",
+        "Central America"
+      ],
+      "tramil_validated": true
+    },
+    {
+      "plant_id": "MX022",
+      "countries": [
+        "MX",
+        "GT",
+        "HN",
+        "NI",
+        "CR",
+        "PA",
+        "CO",
+        "VE",
+        "EC",
+        "PE",
+        "BO",
+        "GY",
+        "SR",
+        "GF"
+      ],
+      "biomes": [
+        "tropical",
+        "subtropical",
+        "savannas"
+      ],
+      "cultural_regions": [
+        "pan-tropical Americas"
+      ],
+      "tramil_validated": true
+    },
+    {
+      "plant_id": "MX037",
+      "countries": [
+        "MX",
+        "GT",
+        "HN",
+        "NI",
+        "CR"
+      ],
+      "biomes": [
+        "tropical",
+        "subtropical",
+        "cultivated"
+      ],
+      "cultural_regions": [
+        "Veracruz",
+        "national",
+        "Central America"
+      ],
+      "tramil_validated": false
+    },
+    {
+      "plant_id": "MX046",
+      "countries": [
+        "MX",
+        "GT",
+        "HN",
+        "NI",
+        "CR",
+        "PA"
+      ],
+      "biomes": [
+        "tropical",
+        "arid",
+        "disturbed"
+      ],
+      "cultural_regions": [
+        "national",
+        "Central America"
+      ],
+      "tramil_validated": true
+    },
+    {
+      "plant_id": "MX048",
+      "countries": [
+        "MX"
+      ],
+      "biomes": [
+        "disturbed",
+        "domestic gardens"
+      ],
+      "cultural_regions": [
+        "national"
+      ],
+      "tramil_validated": false
+    },
+    {
+      "plant_id": "MX050",
+      "countries": [
+        "MX",
+        "GT",
+        "HN",
+        "CR",
+        "PA"
+      ],
+      "biomes": [
+        "tropical dry",
+        "tropical moist"
+      ],
+      "cultural_regions": [
+        "Yucatan Peninsula",
+        "Central America"
+      ],
+      "tramil_validated": true
+    },
+    {
+      "plant_id": "MX087",
+      "countries": [
+        "MX"
+      ],
+      "biomes": [
+        "montane scrub",
+        "oak forest",
+        "secondary vegetation"
+      ],
+      "cultural_regions": [
+        "Valle de México",
+        "Morelos",
+        "Puebla",
+        "Tlaxcala"
+      ],
+      "tramil_validated": false
+    },
+    {
+      "plant_id": "MX099",
+      "countries": [
+        "MX"
+      ],
+      "biomes": [
+        "riparian",
+        "river margins"
+      ],
+      "cultural_regions": [
+        "national — Sonora to Veracruz"
+      ],
+      "tramil_validated": false
+    },
+    {
+      "plant_id": "MX100",
+      "countries": [
+        "MX"
+      ],
+      "biomes": [
+        "montane",
+        "pine-oak-juniper forest"
+      ],
+      "cultural_regions": [
+        "Hidalgo",
+        "San Luis Potosí",
+        "Estado de México",
+        "Puebla",
+        "Guerrero Norte"
+      ],
+      "tramil_validated": false
+    },
+    {
+      "plant_id": "MX105",
+      "countries": [
+        "MX"
+      ],
+      "biomes": [
+        "tropical dry forest",
+        "scrub"
+      ],
+      "cultural_regions": [
+        "Guerrero",
+        "Morelos",
+        "Oaxaca"
+      ],
+      "tramil_validated": false
+    },
+    {
+      "plant_id": "MX108",
+      "countries": [
+        "MX"
+      ],
+      "biomes": [
+        "tropical dry forest",
+        "scrub"
+      ],
+      "cultural_regions": [
+        "Jalisco",
+        "Michoacán",
+        "Guerrero",
+        "Oaxaca",
+        "Puebla",
+        "Morelos"
+      ],
+      "tramil_validated": false
+    },
+    {
+      "plant_id": "MX109",
+      "countries": [
+        "MX"
+      ],
+      "biomes": [
+        "pine-oak forest",
+        "montane"
+      ],
+      "cultural_regions": [
+        "Zacatecas",
+        "Jalisco",
+        "Michoacán",
+        "Puebla",
+        "Querétaro",
+        "Estado de México",
+        "Veracruz"
+      ],
+      "tramil_validated": false
+    },
+    {
+      "plant_id": "MX113",
+      "countries": [
+        "MX"
+      ],
+      "biomes": [
+        "desert",
+        "semi-arid"
+      ],
+      "cultural_regions": [
+        "Sonora",
+        "Durango",
+        "Aguascalientes",
+        "Michoacán",
+        "Guanajuato",
+        "Guerrero",
+        "Morelos",
+        "Puebla",
+        "Hidalgo",
+        "Veracruz"
+      ],
+      "tramil_validated": false
+    },
+    {
+      "plant_id": "MX114",
+      "countries": [
+        "MX",
+        "GT",
+        "BZ",
+        "Caribbean",
+        "South America"
+      ],
+      "biomes": [
+        "tropical",
+        "Caribbean lowlands"
+      ],
+      "cultural_regions": [
+        "Yucatan Peninsula"
+      ],
+      "tramil_validated": true
+    },
+    {
+      "plant_id": "MX152",
+      "countries": [
+        "MX",
+        "GT",
+        "HN",
+        "NI",
+        "CR",
+        "PA",
+        "CO",
+        "VE",
+        "EC",
+        "PE",
+        "BO",
+        "AR",
+        "UY"
+      ],
+      "biomes": [
+        "cultivated — worldwide"
+      ],
+      "cultural_regions": [
+        "Mexico: center of domestication",
+        "pan-Americas"
+      ],
+      "tramil_validated": true
+    }
+  ],
+  "uses": [
+    {
+      "plant_id": "MX001",
+      "use_type": "medicinal",
+      "indication": "golpes, contusiones, hematomas, dolor musculoesquelético",
+      "part_used": "flores y tallos",
+      "preparation": "infusión, pomada, cataplasma",
+      "route": "tópico externo",
+      "evidence_level": "empirical",
+      "sources": [
+        "S2",
+        "S3",
+        "S6"
+      ]
+    },
+    {
+      "plant_id": "MX001",
+      "use_type": "medicinal",
+      "indication": "antiinflamatorio, antimicrobiano (Staph. aureus, E. coli), antioxidante",
+      "part_used": "flores",
+      "preparation": "infusión, extracto",
+      "route": "tópico/oral",
+      "evidence_level": "clinical",
+      "sources": [
+        "S3"
+      ],
+      "clinical_note": "INIFAP review: sesquiterpene lactones confirmed antiinflammatory; homeopathic formulations showed positive results in human trials"
+    },
+    {
+      "plant_id": "MX002",
+      "use_type": "medicinal",
+      "indication": "golpes, esguinces, hematomas, dolor muscular, reumatismo",
+      "part_used": "flores",
+      "preparation": "tintura, pomada",
+      "route": "tópico",
+      "evidence_level": "clinical",
+      "sources": [
+        "S4"
+      ],
+      "clinical_note": "European pharmacopeia standard; different sesquiterpene profile from MX001"
+    },
+    {
+      "plant_id": "MX003",
+      "use_type": "medicinal",
+      "indication": "inflamación, heridas, dolor de estómago, reumatismo, diabetes (Yucatan)",
+      "part_used": "hojas",
+      "preparation": "cocimiento, baños, cataplasma",
+      "route": "oral/tópico",
+      "evidence_level": "traditional",
+      "sources": [
+        "S1",
+        "S2",
+        "S5"
+      ]
+    },
+    {
+      "plant_id": "MX004",
+      "use_type": "medicinal",
+      "indication": "parásitos intestinales, empacho, tónico estomacal, afecciones de la matriz",
+      "part_used": "toda la planta",
+      "preparation": "infusión 5g/L",
+      "route": "oral",
+      "evidence_level": "empirical",
+      "sources": [
+        "S1",
+        "S4",
+        "S6"
+      ]
+    },
+    {
+      "plant_id": "MX004",
+      "use_type": "medicinal",
+      "indication": "antiparasitario (Trypanosoma cruzi, Plasmodium falciparum, Leishmania amazonensis)",
+      "part_used": "aceite esencial",
+      "preparation": "extracto (ascaridol)",
+      "route": "oral — con cautela",
+      "evidence_level": "clinical",
+      "sources": [
+        "S3"
+      ],
+      "clinical_note": "INIFAP: laboratory/animal studies confirmed; ascaridol 300mg/kg convulsive/lethal in mice — DOSE CRITICAL"
+    },
+    {
+      "plant_id": "MX004",
+      "use_type": "culinary",
+      "indication": "condimento en frijoles, tamales, quelites",
+      "part_used": "hojas",
+      "preparation": "fresco o seco",
+      "route": "oral",
+      "evidence_level": "traditional",
+      "sources": [
+        "S1",
+        "S2",
+        "S6"
+      ]
+    },
+    {
+      "plant_id": "MX005",
+      "use_type": "medicinal",
+      "indication": "dolor de estómago, digestión, estimulante, diaforético, espasmos intestinales, cólicos",
+      "part_used": "toda la planta",
+      "preparation": "infusión 5-10g/L",
+      "route": "oral",
+      "evidence_level": "empirical",
+      "sources": [
+        "S1",
+        "S4",
+        "S6"
+      ]
+    },
+    {
+      "plant_id": "MX005",
+      "use_type": "medicinal",
+      "indication": "antibacteriano (Gram+), antifúngico (Candida albicans), antioxidante, antiinflamatorio",
+      "part_used": "hojas/aceite esencial",
+      "preparation": "infusión, aceite esencial",
+      "route": "oral/tópico",
+      "evidence_level": "clinical",
+      "sources": [
+        "S3"
+      ],
+      "clinical_note": "INIFAP: 228 studies reviewed; GRAS FDA; effective vs S. aureus; anti-inflammatory on pain receptors in rats"
+    },
+    {
+      "plant_id": "MX011",
+      "use_type": "medicinal",
+      "indication": "quemaduras, heridas, llagas, inflamación intestinal, hemorroides, dolor de cabeza, estreñimiento, varices, problemas de piel, tos, antitumoral",
+      "part_used": "hoja fresca (pulpa/gel)",
+      "preparation": "gel directo, infusión, emplasto",
+      "route": "tópico/oral",
+      "evidence_level": "clinical",
+      "sources": [
+        "S1",
+        "S3",
+        "S4",
+        "S6"
+      ],
+      "clinical_note": "INIFAP: 75+ identified bioactive compounds; promotes cellular proliferation/migration; antifungal, antiseptic, antiviral, antibacterial confirmed"
+    },
+    {
+      "plant_id": "MX011",
+      "use_type": "medicinal",
+      "indication": "diabetes (con nopal en ayunas)",
+      "part_used": "penca",
+      "preparation": "oral crudo con nopal",
+      "route": "oral",
+      "evidence_level": "traditional",
+      "sources": [
+        "S2"
+      ]
+    },
+    {
+      "plant_id": "MX014",
+      "use_type": "medicinal",
+      "indication": "hepatoprotector, cirrosis, insuficiencia biliar, mala digestión, cálculos renales y vesiculares",
+      "part_used": "semillas",
+      "preparation": "cápsulas o comprimidos (mejor que agua)",
+      "route": "oral",
+      "evidence_level": "clinical",
+      "sources": [
+        "S4",
+        "S6"
+      ],
+      "clinical_note": "Silymarin bioactive; S4 notes properties lost in water — use capsules"
+    },
+    {
+      "plant_id": "MX015",
+      "use_type": "medicinal",
+      "indication": "problemas oculares, tos, reumatismo (uso externo), sarna, heridas, sedante nervioso",
+      "part_used": "hojas, flores, látex",
+      "preparation": "infusión rápida (máx 10 días), látex tópico",
+      "route": "oral limitado/tópico",
+      "evidence_level": "traditional",
+      "sources": [
+        "S2",
+        "S4",
+        "S5",
+        "S6"
+      ]
+    },
+    {
+      "plant_id": "MX018",
+      "use_type": "medicinal",
+      "indication": "afecciones hepáticas, inflamaciones reumáticas, asma, afecciones cardíacas",
+      "part_used": "raíz, flor",
+      "preparation": "cocimiento fuerte 5g/L",
+      "route": "oral",
+      "evidence_level": "traditional",
+      "sources": [
+        "S6"
+      ]
+    },
+    {
+      "plant_id": "MX022",
+      "use_type": "medicinal",
+      "indication": "diarrea, disentería, parásitos, antiinflamatorio, alopecia, problemas dérmicos, baños postparto",
+      "part_used": "hojas, corteza",
+      "preparation": "infusión 10g/L, shampoo, baños",
+      "route": "oral/tópico",
+      "evidence_level": "empirical",
+      "sources": [
+        "S1",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "tramil_note": "TRAMIL validated: 7 hojas grandes en decocción para diarrea"
+    },
+    {
+      "plant_id": "MX023",
+      "use_type": "medicinal",
+      "indication": "cáncer (tumores externos e internos), heridas, hinchazones, dolor de estómago, diarrea",
+      "part_used": "flores, hojas, toda la planta",
+      "preparation": "infusión, lavados, emplastos",
+      "route": "oral/tópico",
+      "evidence_level": "traditional",
+      "sources": [
+        "S1",
+        "S2",
+        "S4"
+      ]
+    },
+    {
+      "plant_id": "MX028",
+      "use_type": "medicinal",
+      "indication": "regulación menstrual, dolor menstrual, parásitos intestinales, flatulencias, mal de ojo, tónico uterino",
+      "part_used": "toda la planta excepto raíz",
+      "preparation": "infusión 2g/L (CEFOFOR), baños rituales",
+      "route": "oral/tópico",
+      "evidence_level": "traditional",
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "safety_note": "ABORTIFACIENT — not for pregnancy"
+    },
+    {
+      "plant_id": "MX030",
+      "use_type": "medicinal",
+      "indication": "purificar sangre, anemia, plaquetas, desórdenes menstruales, dengue, disentería, diabetes, riñones, mal de hígado",
+      "part_used": "hojas, ramas",
+      "preparation": "infusión",
+      "route": "oral",
+      "evidence_level": "traditional",
+      "sources": [
+        "S1",
+        "S2",
+        "S5"
+      ]
+    },
+    {
+      "plant_id": "MX037",
+      "use_type": "medicinal",
+      "indication": "diabetes tipo I y II, desórdenes renales, diurético, antioxidante, antimicrobiano, anticancerígeno",
+      "part_used": "hojas (1 diaria)",
+      "preparation": "infusión, hoja fresca",
+      "route": "oral",
+      "evidence_level": "clinical",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "clinical_note": "INIFAP: 19 animal studies confirm hypoglycemic effect; 1 human clinical study confirms glucose reduction with leaf powder; high potassium, calcium, copper, zinc"
+    },
+    {
+      "plant_id": "MX041",
+      "use_type": "medicinal",
+      "indication": "diabetes tipo II, reducción de glucosa, protección renal y hepática, obesidad, hipertensión, inflamación, cáncer",
+      "part_used": "hojas",
+      "preparation": "infusión, polvo de hoja",
+      "route": "oral",
+      "evidence_level": "clinical",
+      "sources": [
+        "S3"
+      ],
+      "clinical_note": "INIFAP: rebaudiósido A 242x más dulce que azúcar; estudios clínicos confirman reducción de glucosa en ayuno y postprandial; no teratogénico, mutagénico ni carcinogénico"
+    },
+    {
+      "plant_id": "MX041",
+      "use_type": "culinary",
+      "indication": "endulzante natural, agente edulcorante sin calorías",
+      "part_used": "hojas",
+      "preparation": "directa en tés, alimentos",
+      "route": "oral",
+      "evidence_level": "clinical",
+      "sources": [
+        "S3"
+      ]
+    },
+    {
+      "plant_id": "MX042",
+      "use_type": "medicinal",
+      "indication": "gastritis nerviosa, cólicos infantiles, eczema, insomnio, ansiedad, problemas de piel, diarrea, afecciones oculares",
+      "part_used": "flores y hojas",
+      "preparation": "infusión 6g/L",
+      "route": "oral/tópico",
+      "evidence_level": "clinical",
+      "sources": [
+        "S3",
+        "S4",
+        "S6"
+      ],
+      "clinical_note": "INIFAP: >120 identified compounds; apigenin anti-inflammatory, anxiolytic, anticancer (pre-clinical); GRAS FDA; effective for infant colic in 58% of cases"
+    },
+    {
+      "plant_id": "MX044",
+      "use_type": "medicinal",
+      "indication": "tos, fiebre, gripe, bronquitis, afecciones pulmonares; descongestión nasal; uso ritual (limpias)",
+      "part_used": "flores, hojas",
+      "preparation": "cocimiento, infusión con miel",
+      "route": "oral/ritual",
+      "evidence_level": "traditional",
+      "sources": [
+        "S1",
+        "S4"
+      ]
+    },
+    {
+      "plant_id": "MX046",
+      "use_type": "medicinal",
+      "indication": "caída de cabello, calentura (uso externo), hemorroides, jiotes, pies hinchados",
+      "part_used": "hojas",
+      "preparation": "emplasto externo, lavados",
+      "route": "tópico solamente",
+      "evidence_level": "traditional",
+      "sources": [
+        "S2",
+        "S5",
+        "S6"
+      ],
+      "tramil_note": "TRAMIL: hojas externas validadas; semillas NUNCA"
+    },
+    {
+      "plant_id": "MX047",
+      "use_type": "medicinal",
+      "indication": "enfermedades broncopulmonares, faringitis, laringitis, estreñimiento, sistema gástrico",
+      "part_used": "frutos, hojas",
+      "preparation": "frutos crudos, infusión de hojas",
+      "route": "oral",
+      "evidence_level": "traditional",
+      "sources": [
+        "S4"
+      ]
+    },
+    {
+      "plant_id": "MX048",
+      "use_type": "medicinal",
+      "indication": "hemorroides, dolor muscular, articulaciones (EXTERNO ÚNICAMENTE)",
+      "part_used": "toda la planta excepto raíz",
+      "preparation": "cocimiento para baños de asiento y fomentos",
+      "route": "tópico externo solamente",
+      "evidence_level": "traditional",
+      "sources": [
+        "S2",
+        "S6"
+      ]
+    },
+    {
+      "plant_id": "MX048",
+      "use_type": "ritual",
+      "indication": "alucinógeno ceremonial, planta espiritual",
+      "part_used": "toda la planta",
+      "preparation": "fumado con tabaco (Huichol), narcótico divino (Yaqui)",
+      "route": "inhalación ritual",
+      "evidence_level": "traditional",
+      "sources": [
+        "S2"
+      ]
+    },
+    {
+      "plant_id": "MX049",
+      "use_type": "medicinal",
+      "indication": "conjuntivitis (flores blancas, tópico oftálmico ÚNICAMENTE — TRAMIL)",
+      "part_used": "flores blancas",
+      "preparation": "infusión 3 flores blancas/taza, instilación",
+      "route": "oftálmico",
+      "evidence_level": "empirical",
+      "sources": [
+        "S5"
+      ],
+      "safety_note": "TRAMIL validates ONLY ophthalmic use of white flowers; ORAL USE DANGEROUS"
+    },
+    {
+      "plant_id": "MX050",
+      "use_type": "medicinal",
+      "indication": "diarrea (hojas), candidiasis bucal (látex tópico)",
+      "part_used": "hojas, látex",
+      "preparation": "decocción de hojas oral; látex tópico en boca",
+      "route": "oral/tópico",
+      "evidence_level": "empirical",
+      "sources": [
+        "S5"
+      ],
+      "tramil_note": "TRAMIL validates leaf decoction for diarrhea and latex for oral candidiasis only"
+    },
+    {
+      "plant_id": "MX054",
+      "use_type": "medicinal",
+      "indication": "insomnio, nerviosismo extremo, presión arterial alta, espasmos digestivos, reumatismo, ansiedad",
+      "part_used": "flores y hojas",
+      "preparation": "infusión 1 cucharada/taza",
+      "route": "oral",
+      "evidence_level": "empirical",
+      "sources": [
+        "S4"
+      ]
+    },
+    {
+      "plant_id": "MX055",
+      "use_type": "medicinal",
+      "indication": "insomnio, epilepsia, nervios, ansiedad, calambres, dolor muscular, hipertiroidismo",
+      "part_used": "raíz",
+      "preparation": "extracto; infusión 3g/150ml 3x día",
+      "route": "oral",
+      "evidence_level": "empirical",
+      "sources": [
+        "S4"
+      ]
+    },
+    {
+      "plant_id": "MX064",
+      "use_type": "medicinal",
+      "indication": "cálculos renales, vesícula biliar, hígado, estreñimiento, cistitis, infecciones urinarias",
+      "part_used": "hojas, flor, raíz",
+      "preparation": "infusión",
+      "route": "oral",
+      "evidence_level": "traditional",
+      "sources": [
+        "S1"
+      ]
+    },
+    {
+      "plant_id": "MX067",
+      "use_type": "medicinal",
+      "indication": "disentería, diarrea, hemorroides",
+      "part_used": "hojas",
+      "preparation": "hojas maceradas en limón y miel, 3x día",
+      "route": "oral",
+      "evidence_level": "traditional",
+      "sources": [
+        "S1"
+      ],
+      "safety_note": "ABORTIVE — not for pregnancy"
+    },
+    {
+      "plant_id": "MX068",
+      "use_type": "medicinal",
+      "indication": "limpieza vaginal, pasmo, tos, retraso menstrual, torceduras, traumatismos",
+      "part_used": "hojas",
+      "preparation": "lavados vaginales, decocción oral",
+      "route": "oral/vaginal",
+      "evidence_level": "empirical",
+      "sources": [
+        "S5"
+      ],
+      "tramil_note": "TRAMIL validated multiple uses"
+    },
+    {
+      "plant_id": "MX078",
+      "use_type": "medicinal",
+      "indication": "múltiples (cancer, diabetes, HIV/AIDS — community belief)",
+      "part_used": "toda la planta",
+      "preparation": "infusión",
+      "route": "oral",
+      "evidence_level": "traditional",
+      "sources": [
+        "S1"
+      ],
+      "notes": "Evidence level traditional only — scientific evidence lacking for most indications"
+    },
+    {
+      "plant_id": "MX081",
+      "use_type": "medicinal",
+      "indication": "enfermedades respiratorias, tos, asma, bronquitis, irritación de garganta, catarro",
+      "part_used": "flores",
+      "preparation": "infusión 6-8g/L",
+      "route": "oral",
+      "evidence_level": "traditional",
+      "sources": [
+        "S1"
+      ]
+    },
+    {
+      "plant_id": "MX082",
+      "use_type": "medicinal",
+      "indication": "respiratorio, digestivo, piel, úlceras, parásitos, cáncer, ciática",
+      "part_used": "flores",
+      "preparation": "infusión",
+      "route": "oral",
+      "evidence_level": "traditional",
+      "sources": [
+        "S2"
+      ]
+    },
+    {
+      "plant_id": "MX087",
+      "use_type": "medicinal",
+      "indication": "favorecer/estimular contracciones de parto, trastornos menstruales, abortivo, postparto",
+      "part_used": "hojas, raíz",
+      "preparation": "cocimiento concentrado, con canela y chocolate",
+      "route": "oral",
+      "evidence_level": "empirical",
+      "sources": [
+        "S2"
+      ],
+      "safety_note": "ABORTIFACIENT — effective but dangerous (source explicit)"
+    },
+    {
+      "plant_id": "MX091",
+      "use_type": "medicinal",
+      "indication": "baños postparto, reumas, hemorragia nasal, calambres, fiebre; tumores y apostemas; hipnótico",
+      "part_used": "hojas, corteza, raíz",
+      "preparation": "cocimiento",
+      "route": "oral/tópico",
+      "evidence_level": "traditional",
+      "sources": [
+        "S2",
+        "S4",
+        "S6"
+      ]
+    },
+    {
+      "plant_id": "MX099",
+      "use_type": "medicinal",
+      "indication": "hipertensión, hemorroides, várices",
+      "part_used": "corteza, hojas",
+      "preparation": "cocimiento fuerte 4-6g/L",
+      "route": "oral",
+      "evidence_level": "traditional",
+      "sources": [
+        "S6"
+      ]
+    },
+    {
+      "plant_id": "MX105",
+      "use_type": "medicinal",
+      "indication": "antibiótico, antiséptico, cicatrizante, astringente, antiinflamatorio de ovarios",
+      "part_used": "corteza",
+      "preparation": "decocción 5g/500mL",
+      "route": "oral",
+      "evidence_level": "empirical",
+      "sources": [
+        "S4"
+      ]
+    },
+    {
+      "plant_id": "MX108",
+      "use_type": "medicinal",
+      "indication": "diarrea, infecciones urinarias, afecciones renales, adelgazar",
+      "part_used": "corteza",
+      "preparation": "infusión 8-10g/L",
+      "route": "oral",
+      "evidence_level": "traditional",
+      "sources": [
+        "S4"
+      ]
+    },
+    {
+      "plant_id": "MX113",
+      "use_type": "medicinal",
+      "indication": "cálculos renales, problemas de próstata, gota, diurético",
+      "part_used": "toda la planta",
+      "preparation": "cocimiento fuerte 8g/L",
+      "route": "oral",
+      "evidence_level": "traditional",
+      "sources": [
+        "S6"
+      ]
+    },
+    {
+      "plant_id": "MX115",
+      "use_type": "medicinal",
+      "indication": "baños postparto, tos, dolor bilioso, empacho",
+      "part_used": "hojas",
+      "preparation": "cocimiento 3g/L",
+      "route": "oral/baños",
+      "evidence_level": "traditional",
+      "sources": [
+        "S6"
+      ]
+    },
+    {
+      "plant_id": "MX143",
+      "use_type": "medicinal",
+      "indication": "esterilidad en mujeres, pasmo (tratamiento)",
+      "part_used": "hojas",
+      "preparation": "infusión oral",
+      "route": "oral",
+      "evidence_level": "traditional",
+      "sources": [
+        "S5"
+      ],
+      "safety_note": "ABORTIFACIENT — confirmed in cross-dataset analysis (NI dataset). Yucatan use context suggests abortifacient effect possible."
+    },
+    {
+      "plant_id": "MX152",
+      "use_type": "medicinal",
+      "indication": "dolor de riñón, edema, inflamación (pelos de elote)",
+      "part_used": "barba/pelos de elote",
+      "preparation": "infusión 10g secos o 2g frescos/L",
+      "route": "oral",
+      "evidence_level": "empirical",
+      "sources": [
+        "S2",
+        "S5"
+      ],
+      "tramil_note": "TRAMIL validated: corn silk for kidney pain, edema"
+    }
+  ],
+  "safety": [
+    {
+      "plant_id": "MX001",
+      "toxicity_level": "none",
+      "lookalike_risk": true,
+      "confused_with": [
+        "Arnica montana (MX002)",
+        "Tithonia diversifolia (MX003)"
+      ],
+      "contraindications": "No usar en niños antes de cirugía sin consulta médica (S3 INIFAP: 84.7% padres dan sin avisar al médico)",
+      "drug_interactions": "ninguna documentada",
+      "pregnancy_safe": false,
+      "notes": "No internal toxicity documented; external use safe. Árnica triangle disambiguation critical."
+    },
+    {
+      "plant_id": "MX002",
+      "toxicity_level": "none",
+      "lookalike_risk": true,
+      "confused_with": [
+        "Heterotheca inuloides (MX001)"
+      ],
+      "contraindications": "Uso externo; no tragar",
+      "drug_interactions": "ninguna documentada",
+      "pregnancy_safe": false
+    },
+    {
+      "plant_id": "MX004",
+      "toxicity_level": "moderate",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "contraindications": "En exceso: náuseas, vómito, dolor abdominal, convulsiones, parálisis, coma (ascaridol tóxico en altas dosis)",
+      "drug_interactions": "ninguna documentada",
+      "pregnancy_safe": false,
+      "notes": "INIFAP: ascaridol a 300mg/kg convulsivo/letal en ratones. Médico toxicólogo MX recomienda no usar para desparasitar. Solo en infusión."
+    },
+    {
+      "plant_id": "MX009",
+      "toxicity_level": "low",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "contraindications": "Mujeres embarazadas (tujona — provoca menstruación), puede causar convulsiones en dosis altas",
+      "drug_interactions": "ninguna documentada",
+      "pregnancy_safe": false
+    },
+    {
+      "plant_id": "MX010",
+      "toxicity_level": "low",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "contraindications": "Abortivo; no para embarazadas",
+      "drug_interactions": "ninguna documentada",
+      "pregnancy_safe": false
+    },
+    {
+      "plant_id": "MX015",
+      "toxicity_level": "moderate",
+      "lookalike_risk": true,
+      "confused_with": [
+        "Cirsium subcoriaceum (MX018)"
+      ],
+      "contraindications": "TÓXICA — protopina y berberina. No exceder 10 días uso oral. Solo látex y baños validados por TRAMIL. No ingerir en embarazo.",
+      "drug_interactions": "ninguna documentada",
+      "pregnancy_safe": false
+    },
+    {
+      "plant_id": "MX016",
+      "toxicity_level": "moderate",
+      "lookalike_risk": true,
+      "confused_with": [
+        "Argemone mexicana (MX015)"
+      ],
+      "contraindications": "TÓXICA (S2)",
+      "drug_interactions": "ninguna",
+      "pregnancy_safe": false
+    },
+    {
+      "plant_id": "MX017",
+      "toxicity_level": "moderate",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "contraindications": "TÓXICA (S2 — flag explícita)",
+      "drug_interactions": "ninguna",
+      "pregnancy_safe": false
+    },
+    {
+      "plant_id": "MX028",
+      "toxicity_level": "moderate",
+      "lookalike_risk": true,
+      "confused_with": [
+        "Diphysa yucatanensis (MX136)"
+      ],
+      "contraindications": "ABORTIFACIENTE. No en embarazo. Evitar en niños. Uso en infusión máx 10 días.",
+      "drug_interactions": "ninguna documentada",
+      "pregnancy_safe": false
+    },
+    {
+      "plant_id": "MX031",
+      "toxicity_level": "low",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "contraindications": "Safrol — no más de 15 días uso continuo. TRAMIL Nicaragua clasifica como tóxico oral. MX fuentes lo usan ampliamente sin restricción.",
+      "drug_interactions": "ninguna documentada",
+      "pregnancy_safe": "with_caution"
+    },
+    {
+      "plant_id": "MX038",
+      "toxicity_level": "none",
+      "lookalike_risk": true,
+      "confused_with": [
+        "Costus igneus (MX037)",
+        "Peumus boldus (MX040)"
+      ],
+      "contraindications": "Uso prolongado puede irritar mucosa gástrica",
+      "drug_interactions": "ninguna",
+      "pregnancy_safe": true
+    },
+    {
+      "plant_id": "MX046",
+      "toxicity_level": "high",
+      "lookalike_risk": true,
+      "confused_with": [
+        "Ficus carica (MX047)"
+      ],
+      "contraindications": "SEMILLAS LETALES — ricina. Uso SOLO externo de hojas. NUNCA ingerir semillas.",
+      "drug_interactions": "ninguna (uso tópico)",
+      "pregnancy_safe": false,
+      "notes": "Collision con higuera/higuera del diablo — nombre peligroso en comercio"
+    },
+    {
+      "plant_id": "MX047",
+      "toxicity_level": "none",
+      "lookalike_risk": true,
+      "confused_with": [
+        "Ricinus communis (MX046 — higuerilla)"
+      ],
+      "contraindications": "No documentadas",
+      "drug_interactions": "ninguna",
+      "pregnancy_safe": true
+    },
+    {
+      "plant_id": "MX048",
+      "toxicity_level": "high",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "contraindications": "SOLO USO EXTERNO. Alucinógeno potente. Uso clínico criminal documentado. Tropanos (atropina, escopolamina, hiosciamina). NUNCA uso interno.",
+      "drug_interactions": "contraindicado con anticolinérgicos",
+      "pregnancy_safe": false
+    },
+    {
+      "plant_id": "MX049",
+      "toxicity_level": "high",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "contraindications": "Alcaloides vinca — quimioterapéuticos, tóxicos a células normales. NO ingerir. TRAMIL: evitar ingesta oral. S6 (CEFOFOR) recomienda infusión oral — CONTRADICE guía TRAMIL.",
+      "drug_interactions": "quimioterapia — potencia efectos",
+      "pregnancy_safe": false
+    },
+    {
+      "plant_id": "MX050",
+      "toxicity_level": "high",
+      "lookalike_risk": true,
+      "confused_with": [
+        "pine nuts — also called piñón in some contexts"
+      ],
+      "contraindications": "SEMILLAS LETALES. Solo látex tópico para candidiasis y decocción de hojas para diarrea validados. JAMÁS semillas.",
+      "drug_interactions": "ninguna (uso aprobado)",
+      "pregnancy_safe": false
+    },
+    {
+      "plant_id": "MX052",
+      "toxicity_level": "high",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "contraindications": "Cardenólidos cardiotóxicos. SOLO uso externo en preparaciones multi-planta. NUNCA interno.",
+      "drug_interactions": "glucósidos cardíacos — efectos aditivos potencialmente letales",
+      "pregnancy_safe": false
+    },
+    {
+      "plant_id": "MX053",
+      "toxicity_level": "moderate",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "contraindications": "Semillas contienen casimiroína — alcaloide hipnótico potente. Solo carne del fruto segura. Hojas y semillas con precaución.",
+      "drug_interactions": "sedantes — potencia efectos",
+      "pregnancy_safe": false
+    },
+    {
+      "plant_id": "MX062",
+      "toxicity_level": "low",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "contraindications": "S4 advierte: puede crear dependencia",
+      "drug_interactions": "sedantes — potencia efectos",
+      "pregnancy_safe": false
+    },
+    {
+      "plant_id": "MX067",
+      "toxicity_level": "none",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "contraindications": "ABORTIVA (S1 explícito). No en embarazo. GT dataset: 'no usar más de 15 días, puede manchar el intestino'.",
+      "drug_interactions": "ninguna documentada",
+      "pregnancy_safe": false
+    },
+    {
+      "plant_id": "MX083",
+      "toxicity_level": "low",
+      "lookalike_risk": true,
+      "confused_with": [
+        "Pseudognaphalium obtusifolium (MX081)",
+        "Gnaphalium oxyphyllum (MX082)"
+      ],
+      "contraindications": "Semillas tóxicas (S4 explícito). Solo flores.",
+      "drug_interactions": "ninguna",
+      "pregnancy_safe": "with_caution"
+    },
+    {
+      "plant_id": "MX087",
+      "toxicity_level": "moderate",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "contraindications": "ABORTIFACIENTE EFECTIVO Y PELIGROSO (S2 cita explícita). No usar sin supervisión médica. Contraindicado en embarazo absolutamente.",
+      "drug_interactions": "oxitocina — potencia",
+      "pregnancy_safe": false
+    },
+    {
+      "plant_id": "MX088",
+      "toxicity_level": "none",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "contraindications": "Solo uso ginecológico/obstétrico especializado",
+      "drug_interactions": "ninguna documentada",
+      "pregnancy_safe": false
+    },
+    {
+      "plant_id": "MX096",
+      "toxicity_level": "moderate",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "contraindications": "TÓXICA (S6). Frutos potencialmente tóxicos (S2). Solo raíz en cocimiento controlado.",
+      "drug_interactions": "ninguna documentada",
+      "pregnancy_safe": false
+    },
+    {
+      "plant_id": "MX097",
+      "toxicity_level": "high",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "contraindications": "TÓXICA (S6). Solo uso tópico de látex en cantidades muy pequeñas para verrugas y callos. Látex irritante.",
+      "drug_interactions": "ninguna",
+      "pregnancy_safe": false
+    },
+    {
+      "plant_id": "MX098",
+      "toxicity_level": "low",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "contraindications": "Látex ligeramente irritante. No tocar ojos.",
+      "drug_interactions": "ninguna",
+      "pregnancy_safe": false
+    },
+    {
+      "plant_id": "MX101",
+      "toxicity_level": "none",
+      "lookalike_risk": true,
+      "confused_with": [
+        "Marrubium vulgare (MX104 — also 'mastranzo')"
+      ],
+      "contraindications": "Ninguna documentada",
+      "drug_interactions": "ninguna",
+      "pregnancy_safe": true
+    },
+    {
+      "plant_id": "MX102",
+      "toxicity_level": "low",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "contraindications": "Tujona — no en embarazo, no lactancia, no uso prolongado",
+      "drug_interactions": "ninguna documentada",
+      "pregnancy_safe": false
+    },
+    {
+      "plant_id": "MX103",
+      "toxicity_level": "low",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "contraindications": "ABORTIVA (S2 explícito — 'infusión de la planta sola'). No en embarazo.",
+      "drug_interactions": "ninguna",
+      "pregnancy_safe": false
+    },
+    {
+      "plant_id": "MX104",
+      "toxicity_level": "none",
+      "lookalike_risk": true,
+      "confused_with": [
+        "Salvia microphylla (MX101 — also 'mastranzo')"
+      ],
+      "contraindications": "Ninguna mayor documentada",
+      "drug_interactions": "ninguna",
+      "pregnancy_safe": "with_caution"
+    },
+    {
+      "plant_id": "MX115",
+      "toxicity_level": "low",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "contraindications": "Alcaloides presentes. Uso moderado. Históricamente documentado como intoxicante leve.",
+      "drug_interactions": "sedantes — posible potenciación",
+      "pregnancy_safe": false
+    },
+    {
+      "plant_id": "MX122",
+      "toxicity_level": "low",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "contraindications": "ABORTIVA (S2, S4). No en embarazo. No en lactancia.",
+      "drug_interactions": "ninguna documentada",
+      "pregnancy_safe": false
+    },
+    {
+      "plant_id": "MX143",
+      "toxicity_level": "moderate",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "contraindications": "ABORTIFACIENTE confirmado en dataset NI. Yucatan context sugiere mismo efecto. No en embarazo.",
+      "drug_interactions": "ninguna documentada",
+      "pregnancy_safe": false
+    },
+    {
+      "plant_id": "MX162",
+      "toxicity_level": "low",
+      "lookalike_risk": false,
+      "confused_with": [],
+      "contraindications": "Dermatitis de contacto alérgica en personas sensibles. Manejo con guantes recomendado.",
+      "drug_interactions": "ninguna",
+      "pregnancy_safe": "with_caution"
+    }
+  ]
+}

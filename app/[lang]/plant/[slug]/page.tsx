@@ -1,3 +1,4 @@
+import { PlantOntologyCrossLinks } from "@/components/PlantOntologyCrossLinks";
 import { NameLinkListSection } from "@/components/NameLinkListSection";
 import { PlantExploreSection } from "@/components/PlantExploreSection";
 import { PlantCard } from "@/components/PlantCard";
@@ -74,6 +75,10 @@ export default function PlantPage({ params }: Props) {
     loadNames(),
     lang
   );
+  const originDistinct = new Set(
+    plant.origin_regions.map((r) => r.trim()).filter(Boolean)
+  ).size;
+  const multipleRegions = originDistinct > 1 || commonCountries.length > 1;
 
   return (
     <main className="mx-auto w-full max-w-[1000px] px-6 py-14">
@@ -84,6 +89,11 @@ export default function PlantPage({ params }: Props) {
         headingLevel="h1"
         showLink={false}
         commonCountries={commonCountries}
+      />
+      <PlantOntologyCrossLinks
+        lang={lang}
+        alsoKnownAsCount={alsoKnownAs.length}
+        multipleRegions={multipleRegions}
       />
       <PlantCategoriesBlock lang={lang} plant={plant} />
       <PlantProgrammaticSeoBlocks lang={lang} plant={plant} />

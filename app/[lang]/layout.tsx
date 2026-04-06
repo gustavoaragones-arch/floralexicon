@@ -1,3 +1,4 @@
+import { CoreConceptPrefetch } from "@/components/CoreConceptPrefetch";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { SetHtmlLang } from "@/components/SetHtmlLang";
@@ -34,6 +35,7 @@ export default function LangLayout({
 
   return (
     <>
+      <CoreConceptPrefetch lang={lang} />
       <SetHtmlLang lang={lang} />
       <script
         type="application/ld+json"

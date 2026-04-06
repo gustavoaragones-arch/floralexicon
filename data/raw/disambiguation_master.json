@@ -1,0 +1,28 @@
+{
+  "disambiguation": [
+    {
+      "query": "manzanilla",
+      "results": [
+        {
+          "plant_id": "matricaria_chamomilla",
+          "confidence": 0.6
+        },
+        {
+          "plant_id": "chamaemelum_nobile",
+          "confidence": 0.4
+        }
+      ],
+      "ambiguity": "high"
+    },
+    {
+      "query": "\u00e1rnica",
+      "results": [
+        {
+          "plant_id": "heterotheca_inuloides",
+          "confidence": 1.0
+        }
+      ],
+      "ambiguity": "low"
+    }
+  ]
+}

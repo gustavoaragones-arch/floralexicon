@@ -1,0 +1,280 @@
+[
+  {
+    "slug": "plant-name-ambiguity",
+    "title": "Plant Name Ambiguity",
+    "title_es": "Ambigüedad en los nombres de plantas",
+    "definition": "A single common name referring to multiple distinct plant species across regions or traditions.",
+    "definition_es": "Un mismo nombre común puede designar varias especies vegetales distintas según la región o la tradición.",
+    "core": true,
+    "priority": 1,
+    "sections": [
+      {
+        "type": "explanation",
+        "content": "Vernacular labels travel across dialects, commerce, and folklore. The same word may denote different species depending on country, tradition, or seller.",
+        "content_es": "Los nombres vernáculos cambian con el dialecto, el comercio y la tradición oral. La misma palabra puede designar especies distintas según el país, la costumbre o el vendedor."
+      },
+      {
+        "type": "example",
+        "query": "gordolobo"
+      },
+      {
+        "type": "system_link",
+        "content": "FloraLexicon lists every indexed species tied to a name so you can compare scientific identity, region, and uses side by side.",
+        "content_es": "FloraLexicon enumera todas las especies indexadas ligadas a un nombre para que compare identidad científica, región y usos en paralelo."
+      },
+      {
+        "type": "explanation",
+        "content": "Ambiguity is expected—not a data error—when the underlying biology and naming practices diverge.",
+        "content_es": "La ambigüedad es esperable—no es un error de datos—cuando divergen la biología subyacente y las prácticas de nombrar."
+      }
+    ],
+    "related": ["binomial-nomenclature", "plant-disambiguation-system", "regional-plant-names"],
+    "seo": {
+      "title": "What is Plant Name Ambiguity?",
+      "title_es": "¿Qué es la ambigüedad en los nombres de plantas?",
+      "description": "Understand why one plant name can refer to multiple species and how disambiguation works in FloraLexicon.",
+      "description_es": "Comprenda por qué un nombre puede referirse a varias especies y cómo funciona la desambiguación en FloraLexicon."
+    }
+  },
+  {
+    "slug": "binomial-nomenclature",
+    "title": "Binomial Nomenclature",
+    "title_es": "Nomenclatura binomial",
+    "definition": "The two-part scientific name (genus + species) that uniquely identifies a species worldwide.",
+    "definition_es": "Nombre científico en dos partes (género + especie) que identifica de forma única una especie en todo el mundo.",
+    "core": true,
+    "priority": 2,
+    "sections": [
+      {
+        "type": "explanation",
+        "content": "Latinized binomials stabilize identity across languages. They do not replace local names—they anchor them.",
+        "content_es": "Los binomios latinizados estabilizan la identidad entre idiomas. No sustituyen los nombres locales: los anclan."
+      },
+      {
+        "type": "system_link",
+        "content": "Every plant record in FloraLexicon is keyed to a binomial-derived id so name pages can resolve to stable species entries.",
+        "content_es": "Cada ficha en FloraLexicon usa un id derivado del binomio para que las páginas de nombre resuelvan a entradas de especie estables."
+      },
+      {
+        "type": "example",
+        "query": "manzanilla"
+      }
+    ],
+    "related": ["plant-synonyms", "plant-name-ambiguity", "plant-disambiguation-system"],
+    "seo": {
+      "title": "Binomial Nomenclature in Plain Terms",
+      "title_es": "Nomenclatura binomial, en términos sencillos",
+      "description": "How genus and species names give each plant a single global identifier, and how FloraLexicon uses them.",
+      "description_es": "Cómo género y especie dan a cada planta un identificador global y cómo lo usa FloraLexicon."
+    }
+  },
+  {
+    "slug": "plant-disambiguation-system",
+    "title": "Plant Disambiguation System",
+    "title_es": "Sistema de desambiguación de plantas",
+    "definition": "How FloraLexicon ranks and presents multiple species when a searched name matches more than one taxon.",
+    "definition_es": "Cómo FloraLexicon ordena y muestra varias especies cuando un nombre buscado coincide con más de un taxón.",
+    "core": true,
+    "priority": 3,
+    "sections": [
+      {
+        "type": "explanation",
+        "content": "FloraLexicon does not assume a single correct plant when the indexed data ties one name to several species. The hub lists each candidate with context so you can decide which matches your source.",
+        "content_es": "FloraLexicon no asume una sola planta “correcta” cuando los datos indexados vinculan un nombre a varias especies. El centro de nombre lista cada candidato con contexto para que usted decida cuál coincide con su fuente."
+      },
+      {
+        "type": "system_link",
+        "content": "Instead of returning one result, the system ranks possible species using confidence, regional name usage, and evidence metadata—then shows them together for comparison.",
+        "content_es": "En lugar de devolver un solo resultado, el sistema ordena las especies posibles usando confianza, uso regional del nombre y metadatos de evidencia—y las muestra juntas para comparar."
+      },
+      {
+        "type": "example",
+        "query": "manzanilla"
+      }
+    ],
+    "related": ["plant-name-ambiguity", "scientific-evidence-levels", "binomial-nomenclature"],
+    "seo": {
+      "title": "How FloraLexicon Disambiguates Plant Names",
+      "title_es": "Cómo FloraLexicon desambigua nombres de plantas",
+      "description": "Why multiple matches appear for one search and how ranking and confidence work.",
+      "description_es": "Por qué aparecen varias coincidencias en una búsqueda y cómo funcionan el orden y la confianza."
+    }
+  },
+  {
+    "slug": "plant-synonyms",
+    "title": "Plant Synonyms",
+    "title_es": "Sinónimos de plantas",
+    "definition": "Alternate scientific names for the same species, usually from past classifications or recombinations.",
+    "definition_es": "Nombres científicos alternativos para la misma especie, por lo general por reclasificaciones o revisiones taxonómicas.",
+    "core": false,
+    "priority": 10,
+    "sections": [
+      {
+        "type": "explanation",
+        "content": "Taxonomists revise genera; older epithets remain in literature and on product labels. Synonyms explain those mismatches.",
+        "content_es": "Los taxónomos revisan géneros; los epítetos antiguos siguen en la literatura y en etiquetas de producto. Los sinónimos explican esas discrepancias."
+      },
+      {
+        "type": "system_link",
+        "content": "FloraLexicon prioritizes one accepted id per species; related literature may still use legacy binomials you can cross-check on the plant page.",
+        "content_es": "FloraLexicon prioriza un id aceptado por especie; la literatura puede seguir usando binomios antiguos que puede contrastar en la ficha de la planta."
+      }
+    ],
+    "related": ["binomial-nomenclature", "ethnobotany"],
+    "seo": {
+      "title": "What Are Plant Synonyms?",
+      "title_es": "¿Qué son los sinónimos de plantas?",
+      "description": "Scientific name synonyms and why they matter when reading herbals, studies, and regional sources.",
+      "description_es": "Sinónimos científicos y por qué importan al leer herbarios, estudios y fuentes regionales."
+    }
+  },
+  {
+    "slug": "ethnobotany",
+    "title": "Ethnobotany",
+    "title_es": "Etnobotánica",
+    "definition": "The study of how people classify, use, and transmit knowledge about plants across cultures.",
+    "definition_es": "Estudio de cómo las personas clasifican, usan y transmiten conocimientos sobre plantas entre culturas.",
+    "core": false,
+    "priority": 10,
+    "sections": [
+      {
+        "type": "explanation",
+        "content": "Traditional names encode use, habitat, and ritual. They rarely map 1:1 to a single Linnaean species without local qualification.",
+        "content_es": "Los nombres tradicionales codifican uso, hábitat y ritual. Rara vez se mapean 1:1 a una sola especie linneana sin matiz local."
+      },
+      {
+        "type": "system_link",
+        "content": "FloraLexicon links vernacular entries to species records to support comparison—not to certify traditional claims.",
+        "content_es": "FloraLexicon enlaza entradas vernáculas con fichas de especie para comparar—no para certificar afirmaciones tradicionales."
+      }
+    ],
+    "related": ["regional-plant-names", "herbal-medicine-traditional-use", "plant-name-ambiguity"],
+    "seo": {
+      "title": "Ethnobotany and Plant Names",
+      "title_es": "Etnobotánica y nombres de plantas",
+      "description": "How cultural plant knowledge relates to scientific identification and FloraLexicon’s name index.",
+      "description_es": "Cómo el conocimiento cultural sobre plantas se relaciona con la identificación científica y el índice de nombres de FloraLexicon."
+    }
+  },
+  {
+    "slug": "regional-plant-names",
+    "title": "Regional Plant Names",
+    "title_es": "Nombres regionales de plantas",
+    "definition": "The same organism or different organisms may share a label when geography and language shift.",
+    "definition_es": "El mismo organismo u otros distintos pueden compartir una etiqueta cuando cambian la geografía y el idioma.",
+    "core": false,
+    "priority": 10,
+    "sections": [
+      {
+        "type": "explanation",
+        "content": "A name common in Mexico may be rare in Chile, or may denote another species entirely. Region is part of the signal.",
+        "content_es": "Un nombre frecuente en México puede ser raro en Chile, o designar otra especie por completo. La región forma parte de la señal."
+      },
+      {
+        "type": "example",
+        "query": "ruda"
+      },
+      {
+        "type": "system_link",
+        "content": "Country and language fields on name records show where an association is indexed—use them to filter plausible matches.",
+        "content_es": "Los campos de país e idioma en los registros de nombre indican dónde está indexada la asociación—úselos para filtrar coincidencias plausibles."
+      }
+    ],
+    "related": ["plant-name-ambiguity", "ethnobotany"],
+    "seo": {
+      "title": "Regional Plant Names Explained",
+      "title_es": "Nombres regionales de plantas, explicados",
+      "description": "Why geography matters for common names and how FloraLexicon encodes regional usage.",
+      "description_es": "Por qué la geografía importa en los nombres comunes y cómo FloraLexicon codifica el uso regional."
+    }
+  },
+  {
+    "slug": "herbal-medicine-traditional-use",
+    "title": "Herbal Medicine & Traditional Use",
+    "title_es": "Medicina herbal y uso tradicional",
+    "definition": "Historical or cultural use descriptions, distinct from modern clinical proof of safety or efficacy.",
+    "definition_es": "Descripciones de uso histórico o cultural, distintas de la prueba clínica moderna de seguridad o eficacia.",
+    "core": false,
+    "priority": 10,
+    "sections": [
+      {
+        "type": "explanation",
+        "content": "Traditional-use metadata summarizes reported contexts. It is informational, not prescribing or diagnosing.",
+        "content_es": "Los metadatos de uso tradicional resumen contextos reportados. Son informativos, no prescriben ni diagnostican."
+      },
+      {
+        "type": "system_link",
+        "content": "Evidence level fields separate folklore, regional practice literature, and stronger study types where the dataset provides them.",
+        "content_es": "Los campos de nivel de evidencia separan folclore, literatura de práctica regional y tipos de estudio más sólidos cuando el conjunto de datos los aporta."
+      }
+    ],
+    "related": ["scientific-evidence-levels", "ethnobotany"],
+    "seo": {
+      "title": "Traditional Use vs. Clinical Evidence",
+      "title_es": "Uso tradicional frente a evidencia clínica",
+      "description": "How FloraLexicon labels traditional herbal context separately from evidence strength.",
+      "description_es": "Cómo FloraLexicon etiqueta el contexto herbal tradicional aparte de la fuerza de la evidencia."
+    }
+  },
+  {
+    "slug": "scientific-evidence-levels",
+    "title": "Scientific Evidence Levels",
+    "title_es": "Niveles de evidencia científica",
+    "definition": "A coarse signal of how claims are supported: traditional attribution, regional compendia, or clinical literature.",
+    "definition_es": "Señal aproximada de cómo se respaldan las afirmaciones: atribución tradicional, compendios regionales o literatura clínica.",
+    "core": false,
+    "priority": 10,
+    "sections": [
+      {
+        "type": "evidence_safety",
+        "tiers": [
+          {
+            "badge": "traditional",
+            "heading": "Traditional Use",
+            "heading_es": "Uso tradicional",
+            "body": "Reported cultural or historical use in herbals, teas, or local practice. Does not prove safety, dose, or efficacy for you or your region.",
+            "body_es": "Uso cultural o histórico reportado en herbarios, infusiones o práctica local. No prueba seguridad, dosis ni eficacia para usted ni para su región."
+          },
+          {
+            "badge": "preliminary",
+            "heading": "Preliminary Research",
+            "heading_es": "Investigación preliminar",
+            "body": "Early or limited lab, animal, or small human work. Findings are not treatment guidelines and may not replicate.",
+            "body_es": "Trabajo temprano o limitado en laboratorio, animales o grupos humanos pequeños. Los hallazgos no son guías de tratamiento y pueden no replicarse."
+          },
+          {
+            "badge": "clinical",
+            "heading": "Clinical Evidence",
+            "heading_es": "Evidencia clínica",
+            "body": "Structured human studies may exist, but strength varies by design, population, and outcome. Still not a substitute for qualified medical advice.",
+            "body_es": "Puede haber estudios humanos estructurados, pero la fuerza varía según diseño, población y resultado. No sustituye el consejo médico cualificado."
+          },
+          {
+            "badge": "caution",
+            "heading": "Contraindications",
+            "heading_es": "Contraindicaciones",
+            "body": "Pregnancy, drug interactions, toxicity, and vulnerable groups require professional screening. FloraLexicon does not diagnose or prescribe.",
+            "body_es": "Embarazo, interacciones medicamentosas, toxicidad y grupos vulnerables requieren valoración profesional. FloraLexicon no diagnostica ni prescribe."
+          }
+        ]
+      },
+      {
+        "type": "explanation",
+        "content": "Higher rungs mean more formal study—not that a plant is safe or appropriate for any use.",
+        "content_es": "Escalones más altos implican estudio más formal—no que la planta sea segura o adecuada para cualquier uso."
+      },
+      {
+        "type": "system_link",
+        "content": "Dataset evidence tags map to these bands so you can compare species without treating a label as medical advice.",
+        "content_es": "Las etiquetas de evidencia del conjunto de datos se mapean a estas bandas para comparar especies sin tomar una etiqueta como consejo médico."
+      }
+    ],
+    "related": ["herbal-medicine-traditional-use", "plant-disambiguation-system"],
+    "seo": {
+      "title": "Evidence Levels for Medicinal Plants",
+      "title_es": "Niveles de evidencia en plantas medicinales",
+      "description": "What traditional, regional, and clinical evidence labels mean in FloraLexicon.",
+      "description_es": "Qué significan en FloraLexicon las etiquetas de evidencia tradicional, regional y clínica."
+    }
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "plants": [
+    {
+      "id": "matricaria_chamomilla",
+      "scientific_name": "Matricaria chamomilla",
+      "family": "Asteraceae",
+      "conditions": [
+        "digestive_issues",
+        "inflammation"
+      ],
+      "preparation": [
+        {
+          "type": "infusion",
+          "oral": true
+        }
+      ],
+      "toxicity": {
+        "level": "low",
+        "notes": null
+      },
+      "evidence": {
+        "level": "traditional"
+      }
+    },
+    {
+      "id": "chamaemelum_nobile",
+      "scientific_name": "Chamaemelum nobile",
+      "family": "Asteraceae",
+      "conditions": [
+        "digestive_issues"
+      ],
+      "preparation": [
+        {
+          "type": "infusion",
+          "oral": true
+        }
+      ],
+      "toxicity": {
+        "level": "low",
+        "notes": null
+      },
+      "evidence": {
+        "level": "traditional"
+      }
+    },
+    {
+      "id": "heterotheca_inuloides",
+      "scientific_name": "Heterotheca inuloides",
+      "family": "Asteraceae",
+      "conditions": [
+        "inflammation",
+        "wound_healing"
+      ],
+      "preparation": [
+        {
+          "type": "topical",
+          "oral": false
+        },
+        {
+          "type": "decoction",
+          "oral": true
+        }
+      ],
+      "toxicity": {
+        "level": "low",
+        "notes": null
+      },
+      "evidence": {
+        "level": "traditional"
+      }
+    }
+  ]
+}
