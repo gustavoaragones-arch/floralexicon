@@ -71,6 +71,8 @@ const dictionary = {
     concepts_cta_link: "Browse the name index →",
     concept_hint_multiple_plants:
       "This name may refer to multiple plants. Learn why →",
+    concept_hint_evidence_levels:
+      "How evidence labels relate to safety →",
     concepts_evidence_badge_traditional: "[Traditional]",
     concepts_evidence_badge_preliminary: "[Studied]",
     concepts_evidence_badge_clinical: "[Clinical]",
@@ -84,6 +86,74 @@ const dictionary = {
       "why the same or different species share names across countries.",
     concepts_core_badge: "Core",
     concepts_jsonld_about: "Botanical nomenclature",
+
+    search_meta_title: "Search plant names | FloraLexicon",
+    search_meta_desc:
+      "Disambiguated plant name search: see every indexed species for a common name, ranked with confidence and safety context.",
+    search_ambiguity_notice:
+      "This name is used for different plants depending on region and tradition.",
+    search_subtitle_multi: "This name may refer to multiple plants",
+    search_subtitle_single: "This name matches one species in our index",
+    search_rank_intro: "{name} may refer to these plants:",
+    search_tier_most_likely: "Most likely",
+    search_tier_possible: "Possible match",
+    search_tier_less_common: "Less common",
+    search_conf_bar_high: "High",
+    search_conf_bar_medium: "Medium",
+    search_conf_bar_low: "Low",
+    search_confidence_visual: "Confidence",
+    search_disamb_common_in: "Most common in {country}",
+    search_inline_reason_region: "Common in {country}",
+    search_inline_reason_usage: "Based on common usage",
+    search_evidence_clinical: "Clinical literature (where indexed)",
+    search_evidence_tramil: "Regional / TRAMIL-style sources",
+    search_evidence_traditional: "Traditional use (indexed)",
+    search_safety_toxic: "Toxicity or caution may apply — verify before use.",
+    search_safety_abort:
+      "May be associated with reproductive risk in traditional sources — seek professional advice.",
+    search_card_badge_toxic: "⚠️ Toxic",
+    search_card_badge_caution: "⚠️ Caution",
+    search_card_badge_precaution: "⚠️ Potentially unsafe",
+    search_card_sub_toxic: "Not for self-use",
+    search_card_sub_caution: "Use with guidance",
+    search_facts_family: "Family",
+    search_facts_region: "Native / range (index)",
+    search_facts_evidence: "Evidence level",
+    search_view_plant: "View plant →",
+    search_global_safety_multi:
+      "This name may refer to multiple plants—uses and safety can differ by species. Compare each match and verify before use.",
+    search_global_safety_combined:
+      "This name refers to multiple plants, some of which may be toxic. Compare species carefully and seek qualified advice when in doubt.",
+    search_global_safety_toxic_only:
+      "This plant may be toxic or unsafe under some uses. Do not self-treat; consult a qualified professional.",
+    search_inline_why_lead: "Why are there multiple results?",
+    search_inline_why_cta: "Learn why →",
+    search_why_heading: "Why this result?",
+    search_why_top_country: "Strongest regional signal in our index: {country}",
+    search_why_user_country: "Appears with your region focus ({country}) in name records",
+    search_why_freq_high: "Frequently tied to this name across countries in our data",
+    search_why_freq_mid: "Moderately associated with this name in regional records",
+    search_why_freq_low: "A less common mapping for this label in our index",
+    search_why_evidence_traditional: "Supported by traditional-use context in the index",
+    search_why_evidence_tramil: "Regional / compendia-style evidence where indexed",
+    search_why_evidence_clinical:
+      "Stronger indexed evidence type (clinical / structured sources)",
+    search_why_tea_fit:
+      "Indexed uses include tea or culinary contexts—closer fit for infusion-style questions",
+    search_why_tea_uncertain:
+      "Not prominently indexed as tea or culinary—use extra care before infusions",
+    search_why_medicinal_fit: "Indexed with medicinal / wellness-related use",
+    search_why_safety_focus:
+      "Ranking considers your question about toxicity or safety",
+    search_empty_no_hub_title: "No exact match found",
+    search_empty_no_hub_body:
+      "Try another spelling, a regional name, or browse the plant index.",
+    search_empty_browse_plants: "Browse all plants",
+    search_empty_browse_names: "Browse plant names",
+    search_prompt_title: "Search a plant name",
+    search_prompt_body:
+      "Enter a common name. We show every indexed species and how common each association is—without guessing a single winner.",
+    search_open_name_hub: "Open full name hub (regions & detail) →",
 
     lang_en: "EN",
     lang_es: "ES",
@@ -460,6 +530,8 @@ const dictionary = {
     concepts_cta_link: "Ver índice de nombres →",
     concept_hint_multiple_plants:
       "Este nombre puede referirse a varias plantas. Saber por qué →",
+    concept_hint_evidence_levels:
+      "Cómo las etiquetas de evidencia se relacionan con la seguridad →",
     concepts_evidence_badge_traditional: "[Tradicional]",
     concepts_evidence_badge_preliminary: "[Estudiado]",
     concepts_evidence_badge_clinical: "[Clínico]",
@@ -473,6 +545,75 @@ const dictionary = {
       "por qué la misma u otras especies comparten nombres entre países.",
     concepts_core_badge: "Esencial",
     concepts_jsonld_about: "Nomenclatura botánica",
+
+    search_meta_title: "Buscar nombres de plantas | FloraLexicon",
+    search_meta_desc:
+      "Búsqueda desambiguada: vea todas las especies indexadas para un nombre común, ordenadas con confianza y contexto de seguridad.",
+    search_ambiguity_notice:
+      "Este nombre se usa para distintas plantas según la región y la tradición.",
+    search_subtitle_multi: "Este nombre puede referirse a varias plantas",
+    search_subtitle_single: "Este nombre coincide con una especie en nuestro índice",
+    search_rank_intro: "{name} puede referirse a estas plantas:",
+    search_tier_most_likely: "Más probable",
+    search_tier_possible: "Posible coincidencia",
+    search_tier_less_common: "Menos frecuente",
+    search_conf_bar_high: "Alta",
+    search_conf_bar_medium: "Media",
+    search_conf_bar_low: "Baja",
+    search_confidence_visual: "Confianza",
+    search_disamb_common_in: "Más frecuente en {country}",
+    search_inline_reason_region: "Frecuente en {country}",
+    search_inline_reason_usage: "Según uso frecuente del nombre",
+    search_evidence_clinical: "Literatura clínica (si está indexada)",
+    search_evidence_tramil: "Fuentes regionales / tipo TRAMIL",
+    search_evidence_traditional: "Uso tradicional (indexado)",
+    search_safety_toxic:
+      "Puede haber toxicidad o precauciones — verifique antes de usar.",
+    search_safety_abort:
+      "En fuentes tradicionales puede asociarse a riesgo reproductivo — consulte a un profesional.",
+    search_card_badge_toxic: "⚠️ Tóxico",
+    search_card_badge_caution: "⚠️ Precaución",
+    search_card_badge_precaution: "⚠️ Posible riesgo",
+    search_card_sub_toxic: "No para automedicación",
+    search_card_sub_caution: "Use con orientación profesional",
+    search_facts_family: "Familia",
+    search_facts_region: "Nativa / área (índice)",
+    search_facts_evidence: "Nivel de evidencia",
+    search_view_plant: "Ver planta →",
+    search_global_safety_multi:
+      "Este nombre puede referirse a varias plantas—los usos y la seguridad pueden variar. Compare cada coincidencia y verifique antes de usar.",
+    search_global_safety_combined:
+      "Este nombre se refiere a varias plantas; algunas pueden ser tóxicas. Compare especies con cuidado y busque asesoramiento cualificado ante la duda.",
+    search_global_safety_toxic_only:
+      "Esta planta puede ser tóxica o insegura en algunos usos. No se automedique; consulte a un profesional cualificado.",
+    search_inline_why_lead: "¿Por qué hay varios resultados?",
+    search_inline_why_cta: "Saber por qué →",
+    search_why_heading: "¿Por qué este resultado?",
+    search_why_top_country: "Señal regional más fuerte en nuestro índice: {country}",
+    search_why_user_country: "Aparece con su región ({country}) en registros de nombres",
+    search_why_freq_high: "Muy vinculada a este nombre entre países en nuestros datos",
+    search_why_freq_mid: "Asociación moderada con este nombre en registros regionales",
+    search_why_freq_low: "Una asociación menos frecuente para esta etiqueta en el índice",
+    search_why_evidence_traditional: "Apoyada por contexto de uso tradicional en el índice",
+    search_why_evidence_tramil: "Evidencia regional / tipo compendio donde está indexada",
+    search_why_evidence_clinical:
+      "Tipo de evidencia indexada más fuerte (clínica / fuentes estructuradas)",
+    search_why_tea_fit:
+      "Los usos indexados incluyen té o contexto culinario—mejor encaje para infusiones",
+    search_why_tea_uncertain:
+      "No figura de forma destacada como té o culinaria—extremar precaución con infusiones",
+    search_why_medicinal_fit: "Indexada con uso medicinal o de bienestar",
+    search_why_safety_focus:
+      "El orden considera su pregunta sobre toxicidad o seguridad",
+    search_empty_no_hub_title: "No hay coincidencia exacta",
+    search_empty_no_hub_body:
+      "Pruebe otra grafía, un nombre regional o explore el índice de plantas.",
+    search_empty_browse_plants: "Ver todas las plantas",
+    search_empty_browse_names: "Ver nombres de plantas",
+    search_prompt_title: "Busque un nombre de planta",
+    search_prompt_body:
+      "Escriba un nombre común. Mostramos cada especie indexada y qué tan frecuente es la asociación—sin elegir un único resultado.",
+    search_open_name_hub: "Abrir centro del nombre (regiones y detalle) →",
 
     lang_en: "EN",
     lang_es: "ES",

@@ -1,11 +1,13 @@
 import { getConceptBySlug } from "@/lib/concepts";
-import { localePath, t, type Locale } from "@/lib/i18n";
+import { localePath, t, type I18nKey, type Locale } from "@/lib/i18n";
 import Link from "next/link";
 
 type Props = {
   lang: Locale;
   /** Concept slug, e.g. `plant-name-ambiguity` */
   concept: string;
+  /** Link label; defaults to ambiguity copy. */
+  messageKey?: I18nKey;
   className?: string;
 };
 
@@ -13,7 +15,12 @@ type Props = {
  * Inline CTA to a glossary concept (e.g. when the resolver returns multiple species).
  * Server-rendered; no client fetch.
  */
-export function ConceptHint({ lang, concept, className = "" }: Props) {
+export function ConceptHint({
+  lang,
+  concept,
+  messageKey = "concept_hint_multiple_plants",
+  className = "",
+}: Props) {
   if (!getConceptBySlug(concept)) return null;
   const href = localePath(lang, `/concepts/${concept}`);
   return (
@@ -24,7 +31,7 @@ export function ConceptHint({ lang, concept, className = "" }: Props) {
         href={href}
         className="font-medium text-flora-forest underline decoration-flora-forest/35 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-400 dark:decoration-emerald-500/40 dark:hover:decoration-emerald-400"
       >
-        {t(lang, "concept_hint_multiple_plants")}
+        {t(lang, messageKey)}
       </Link>
     </p>
   );

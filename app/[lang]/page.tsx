@@ -1,4 +1,3 @@
-import { searchName } from "@/app/actions";
 import {
   alternateLanguageUrls,
   isLocale,
@@ -57,10 +56,11 @@ export default function HomePage({ params }: Props) {
         </p>
 
         <form
-          action={searchName}
+          action={localePath(lang, "/search")}
+          method="get"
           className="mt-10 flex max-w-xl flex-col gap-3 sm:flex-row sm:items-stretch"
+          role="search"
         >
-          <input type="hidden" name="lang" value={lang} />
           <label htmlFor="q" className="sr-only">
             {t(lang, "search_label_sr")}
           </label>
