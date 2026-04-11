@@ -1,3 +1,5 @@
+import { normalizeHubKey } from "@/lib/hubKey";
+
 /**
  * Client-side “most clicked plant” signal for a name hub (localStorage).
  * Server render stays deterministic; hydration may reorder slightly.
@@ -20,7 +22,7 @@ export function parseClickStore(raw: string | null): ClickStore {
 /** Clicks per plant id for this normalized hub key (space-separated canonical). */
 export function readClickCountsForHub(hubKey: string): Map<string, number> {
   if (typeof window === "undefined") return new Map();
-  const hub = hubKey.trim().toLowerCase();
+  const hub = normalizeHubKey(hubKey);
   if (!hub) return new Map();
   const all = parseClickStore(window.localStorage.getItem(PLANT_CLICK_STORAGE_KEY));
   const row = all[hub];
@@ -34,7 +36,7 @@ export function readClickCountsForHub(hubKey: string): Map<string, number> {
 
 export function recordPlantClick(hubKey: string, plantId: string): void {
   if (typeof window === "undefined") return;
-  const hub = hubKey.trim().toLowerCase();
+  const hub = normalizeHubKey(hubKey);
   const id = plantId.trim();
   if (!hub || !id) return;
   const all = parseClickStore(window.localStorage.getItem(PLANT_CLICK_STORAGE_KEY));

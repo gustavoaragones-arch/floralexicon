@@ -81,11 +81,12 @@ const TOX_RANK: Record<ToxicLevel, number> = {
   lethal: 4,
 };
 
-type EvidLevel = "traditional" | "tramil" | "clinical";
+type EvidLevel = "traditional" | "empirical" | "tramil" | "clinical";
 const EVID_RANK: Record<EvidLevel, number> = {
   traditional: 0,
-  tramil: 1,
-  clinical: 2,
+  empirical: 1,
+  tramil: 2,
+  clinical: 3,
 };
 
 function parseToxicLevel(s: string | undefined | null): ToxicLevel {
@@ -106,6 +107,7 @@ function parseEvidLevel(s: string | undefined | null): EvidLevel {
   const t = (s ?? "").toLowerCase().trim();
   if (t === "clinical" || t === "experimental") return "clinical";
   if (t === "tramil") return "tramil";
+  if (t === "empirical") return "empirical";
   return "traditional";
 }
 
@@ -116,6 +118,7 @@ function maxEvid(a: EvidLevel, b: EvidLevel): EvidLevel {
 function evidToConfidence(level: EvidLevel): number {
   if (level === "clinical") return 0.9;
   if (level === "tramil") return 0.65;
+  if (level === "empirical") return 0.5;
   return 0.35;
 }
 
@@ -454,7 +457,8 @@ function ingestMexicoIntoMap(
     let level: EvidLevel = "traditional";
     if (tramil || /tramil/i.test(String(u.tramil_note ?? ""))) level = "tramil";
     if (evl === "clinical" || /clinical/i.test(evl)) level = "clinical";
-    if (evl === "empirical" || evl === "traditional") level = maxEvid(level, "traditional");
+    if (evl === "traditional") level = maxEvid(level, "traditional");
+    if (evl === "empirical") level = maxEvid(level, "empirical");
     p.evidence.level = maxEvid(p.evidence.level, level);
     p.evidence.confidence = Math.max(p.evidence.confidence, evidToConfidence(level));
     const ind = typeof u.indication === "string" ? u.indication : "";

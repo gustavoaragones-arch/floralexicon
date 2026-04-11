@@ -1,13 +1,22 @@
 "use client";
 
 import dynamic from "next/dynamic";
+import { useState } from "react";
 import {
+  SOURCE_PROVENANCE_VISIBLE_CAP,
   confidenceBarVisualPercent,
   type DisambiguationRow,
 } from "@/lib/search";
+import { normalizeHubKey } from "@/lib/hubKey";
 import { ViewPlantLink } from "@/components/search/ViewPlantLink";
 import { localePath, t, ti, type I18nKey, type Locale } from "@/lib/i18n";
 import Link from "next/link";
+
+declare global {
+  interface Window {
+    __flSessionId?: string;
+  }
+}
 
 const WhyDetailsLazy = dynamic(() => import("./WhyDetails"), {
   ssr: false,
@@ -35,6 +44,7 @@ const barLabelI18n: Record<DisambiguationRow["barLevel"], I18nKey> = {
 const evidenceI18n: Record<DisambiguationRow["evidenceKey"], I18nKey> = {
   clinical: "search_evidence_clinical",
   tramil: "search_evidence_tramil",
+  empirical: "search_evidence_empirical",
   traditional: "search_evidence_traditional",
 };
 
@@ -42,18 +52,66 @@ function inlineConfidenceLineText(
   lang: Locale,
   line: NonNullable<DisambiguationRow["inlineConfidenceLine"]>
 ): string {
-  return line.i18nKey === "search_inline_reason_usage"
-    ? t(lang, line.i18nKey)
-    : ti(lang, line.i18nKey, line.vars);
+  if (line.i18nKey === "search_inline_reason_usage") {
+    return t(lang, line.i18nKey);
+  }
+  return ti(lang, line.i18nKey, line.vars);
 }
 
 /** Max two visible tokens: region/usage + evidence, or tier + evidence. */
 function inlineWhySummaryText(lang: Locale, row: DisambiguationRow): string {
   const ev = t(lang, evidenceI18n[row.evidenceKey]);
-  if (row.inlineConfidenceLine) {
-    return `${inlineConfidenceLineText(lang, row.inlineConfidenceLine)} · ${ev}`;
-  }
-  return `${t(lang, tierI18n[row.tier])} · ${ev}`;
+  const tokens = row.inlineConfidenceLine
+    ? [inlineConfidenceLineText(lang, row.inlineConfidenceLine), ev]
+    : [t(lang, tierI18n[row.tier]), ev];
+  return tokens
+    .filter(Boolean)
+    .slice(0, 2)
+    .join(" · ");
+}
+
+function SourceProvenanceBlock({
+  lang,
+  items,
+  plantId,
+}: {
+  lang: Locale;
+  items: string[];
+  plantId: string;
+}) {
+  const [open, setOpen] = useState(false);
+  const hasMore = items.length > SOURCE_PROVENANCE_VISIBLE_CAP;
+  const visible = open ? items : items.slice(0, SOURCE_PROVENANCE_VISIBLE_CAP);
+  const listStr = visible.join(", ");
+  const provId = `prov-${plantId}`;
+
+  return (
+    <div className="mt-1.5 min-h-[1.5rem] text-[11px] leading-snug text-stone-400 dark:text-stone-500">
+      <p id={provId} className="m-0 inline leading-snug">
+        <span className="inline align-baseline">
+          {ti(lang, "search_card_sources", { list: listStr })}
+        </span>
+        {hasMore ? (
+          <button
+            type="button"
+            className="ml-1 inline cursor-pointer align-baseline rounded-sm px-0.5 font-medium text-flora-forest underline decoration-flora-forest/40 underline-offset-2 hover:bg-stone-100 dark:text-emerald-400 dark:hover:bg-stone-800/80"
+            aria-expanded={open}
+            aria-controls={provId}
+            onClick={(e) => {
+              setOpen((o) => !o);
+              e.currentTarget.focus();
+            }}
+          >
+            {open
+              ? t(lang, "search_card_sources_less")
+              : ti(lang, "search_card_sources_extra", {
+                  count: String(items.length - SOURCE_PROVENANCE_VISIBLE_CAP),
+                })}
+          </button>
+        ) : null}
+      </p>
+    </div>
+  );
 }
 
 type Props = {
@@ -63,9 +121,80 @@ type Props = {
   showIndex?: boolean;
   /** Canonical hub key for click tracking (space-normalized). */
   hubKey?: string;
+  /** Current search query (for lightweight `floralexicon:click` analytics). */
+  searchQuery?: string;
+  /** `?country=` query value (uppercase ISO when set). */
+  searchCountryParam?: string;
+  /** Number of disambiguation rows (current result set size). */
+  resultCount: number;
   isWhyOpen: boolean;
   onWhyOpenChange: (open: boolean) => void;
 };
+
+let lastFloralexiconClickKey = "";
+let lastAnalyticsThrottleTs = 0;
+
+/** Clears rapid-click dedupe (e.g. when search query or hub changes). */
+export function resetFloralexiconViewPlantClickDedupe(): void {
+  lastFloralexiconClickKey = "";
+  lastAnalyticsThrottleTs = 0;
+}
+
+function shouldDispatchAnalyticsBurst(now: number): boolean {
+  if (now - lastAnalyticsThrottleTs < 300) return false;
+  lastAnalyticsThrottleTs = now;
+  return true;
+}
+
+function getFloralexiconSessionId(): string {
+  if (typeof window === "undefined") return "server";
+  if (!window.__flSessionId) {
+    window.__flSessionId =
+      typeof crypto !== "undefined" && typeof crypto.randomUUID === "function"
+        ? crypto.randomUUID()
+        : `fl-${Date.now()}-${Math.random().toString(36).slice(2)}`;
+  }
+  return window.__flSessionId;
+}
+
+function clickAnalyticsSeverity(
+  toxicLevel: string | undefined
+): "high" | "medium" | "low" {
+  const lv = toxicLevel?.trim().toLowerCase();
+  if (lv === "lethal") return "high";
+  if (lv === "high") return "medium";
+  return "low";
+}
+
+function dispatchFloralexiconViewPlantClick(detail: {
+  query: string;
+  plantId: string;
+  rank: number;
+  confidence: number;
+  hubKey: string;
+  evidenceLevel?: string;
+  toxic?: string;
+  hasToxic: boolean;
+  lookalike: boolean;
+  country?: string;
+  severity: "high" | "medium" | "low";
+  ts: number;
+  sessionId: string;
+  isTopResult: boolean;
+  resultCount: number;
+}): void {
+  if (typeof window === "undefined") return;
+  const now = Date.now();
+  const key = `${detail.query}|${detail.plantId}`;
+  if (key === lastFloralexiconClickKey) return;
+  if (!shouldDispatchAnalyticsBurst(now)) return;
+  lastFloralexiconClickKey = key;
+  window.dispatchEvent(
+    new CustomEvent("floralexicon:click", {
+      detail: { ...detail, ts: now },
+    })
+  );
+}
 
 export function DisambiguationCard({
   lang,
@@ -73,16 +202,46 @@ export function DisambiguationCard({
   index,
   showIndex,
   hubKey = "",
+  searchQuery = "",
+  searchCountryParam,
+  resultCount,
   isWhyOpen,
   onWhyOpenChange,
 }: Props) {
   const { plant, displayName, confidence, confidencePercent, tier, barLevel } =
     row;
   const barVisualPct = confidenceBarVisualPercent(confidence);
+  const [lookalikeTipOpen, setLookalikeTipOpen] = useState(false);
+  const hubNorm = normalizeHubKey(hubKey);
 
   const plantHref = localePath(lang, `/plant/${plant.id}`);
   const linkClass =
     "inline-flex min-h-11 items-center justify-center rounded-full border border-flora-forest bg-flora-forest px-5 text-sm font-semibold text-white shadow-sm transition-colors hover:border-flora-forest-hover hover:bg-flora-forest-hover dark:border-emerald-600 dark:bg-emerald-700 dark:hover:border-emerald-500 dark:hover:bg-emerald-600";
+
+  const onViewPlantAnalytics = () => {
+    const p = row.plant as {
+      evidence?: { level?: string };
+      toxicity?: { level?: string };
+    };
+    const toxicLevel = p.toxicity?.level;
+    dispatchFloralexiconViewPlantClick({
+      query: searchQuery,
+      plantId: row.plant.id,
+      rank: index,
+      confidence: row.confidence,
+      hubKey: hubNorm,
+      evidenceLevel: p.evidence?.level,
+      toxic: toxicLevel,
+      hasToxic: row.showSafetyRow,
+      lookalike: row.hasLookalikeWarning,
+      country: searchCountryParam,
+      severity: clickAnalyticsSeverity(toxicLevel),
+      ts: 0,
+      sessionId: getFloralexiconSessionId(),
+      isTopResult: index === 0,
+      resultCount,
+    });
+  };
 
   return (
     <article className="rounded-2xl border border-stone-200 bg-white px-5 py-5 shadow-sm dark:border-stone-700 dark:bg-stone-950/60">
@@ -117,6 +276,24 @@ export function DisambiguationCard({
               ) : null}
             </div>
           ) : null}
+          {row.hasLookalikeWarning ? (
+            <div className="flex max-w-[16rem] flex-col items-end gap-1 text-right">
+              <button
+                type="button"
+                className="cursor-pointer rounded-md border border-violet-300/90 bg-violet-50/90 px-2 py-0.5 text-right text-[11px] font-medium leading-tight text-violet-950 dark:border-violet-800/50 dark:bg-violet-950/40 dark:text-violet-100"
+                title={t(lang, "search_tooltip_lookalike")}
+                aria-expanded={lookalikeTipOpen}
+                onClick={() => setLookalikeTipOpen((v) => !v)}
+              >
+                {t(lang, "search_card_badge_lookalike")}
+              </button>
+              {lookalikeTipOpen ? (
+                <p className="text-[10px] font-medium leading-snug text-violet-900/90 dark:text-violet-100/85">
+                  {t(lang, "search_tooltip_lookalike")}
+                </p>
+              ) : null}
+            </div>
+          ) : null}
           <span
             className={`rounded-full px-3 py-1 text-xs font-semibold ${
               tier === "most_likely"
@@ -147,13 +324,7 @@ export function DisambiguationCard({
         </div>
         {row.inlineConfidenceLine ? (
           <p className="mt-2 text-xs font-medium text-stone-600 dark:text-stone-400">
-            {row.inlineConfidenceLine.i18nKey === "search_inline_reason_usage"
-              ? t(lang, row.inlineConfidenceLine.i18nKey)
-              : ti(
-                  lang,
-                  row.inlineConfidenceLine.i18nKey,
-                  row.inlineConfidenceLine.vars
-                )}
+            {inlineConfidenceLineText(lang, row.inlineConfidenceLine)}
           </p>
         ) : null}
       </div>
@@ -161,6 +332,14 @@ export function DisambiguationCard({
       <p className="mt-3 text-xs leading-relaxed text-stone-500 dark:text-stone-400">
         {inlineWhySummaryText(lang, row)}
       </p>
+
+      {row.sourceProvenanceItems && row.sourceProvenanceItems.length > 0 ? (
+        <SourceProvenanceBlock
+          lang={lang}
+          items={row.sourceProvenanceItems}
+          plantId={row.plant.id}
+        />
+      ) : null}
 
       {row.showSafetyRow || row.isAbortifacient ? (
         <p className="mt-3 flex items-start gap-2 rounded-lg border border-amber-300/80 bg-amber-50 px-3 py-2 text-sm font-medium text-amber-950 dark:border-amber-700/50 dark:bg-amber-950/40 dark:text-amber-100">
@@ -212,17 +391,22 @@ export function DisambiguationCard({
       </dl>
 
       <div className="mt-5">
-        {hubKey.trim() ? (
+        {hubNorm ? (
           <ViewPlantLink
             href={plantHref}
-            hubKey={hubKey}
+            hubKey={hubNorm}
             plantId={plant.id}
             className={linkClass}
+            onAnalytics={onViewPlantAnalytics}
           >
             {t(lang, "search_view_plant")}
           </ViewPlantLink>
         ) : (
-          <Link href={plantHref} className={linkClass}>
+          <Link
+            href={plantHref}
+            className={linkClass}
+            onClick={onViewPlantAnalytics}
+          >
             {t(lang, "search_view_plant")}
           </Link>
         )}

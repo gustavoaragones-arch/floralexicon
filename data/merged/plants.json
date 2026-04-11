@@ -24,6 +24,60 @@
     ]
   },
   {
+    "plant_id": "abies_balsamea",
+    "scientific_name": "Abies balsamea (L.) Mill.",
+    "family": "Pinaceae",
+    "names": [
+      "Balsam fir",
+      "Canada balsam"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "ritual",
+      "topical"
+    ],
+    "conditions": [
+      "dermatologic_infection",
+      "musculoskeletal_pain",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Generally safe; resin skin sensitization possible with prolonged use"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_AK",
+      "US_NE"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Abundant boreal forest tree; not at-risk"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Ojibwe",
+        "Cree",
+        "Algonquin",
+        "Montagnais"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "acacia_aroma",
     "scientific_name": "Acacia aroma",
     "family": "Fabaceae",
@@ -321,31 +375,66 @@
   },
   {
     "plant_id": "achillea_millefolium",
-    "scientific_name": "Achillea millefolium",
+    "scientific_name": "Achillea millefolium L.",
     "family": "Asteraceae",
     "names": [
-      "Milenrama"
+      "Common yarrow",
+      "Milenrama",
+      "Milfoil",
+      "Yarrow"
     ],
     "countries": [
-      "CL"
+      "CA",
+      "CL",
+      "US"
     ],
     "uses": [
-      "medicinal"
+      "medicinal",
+      "topical"
     ],
-    "conditions": [],
+    "conditions": [
+      "dermatologic_infection",
+      "digestive_complaints",
+      "respiratory_support"
+    ],
     "toxicity": {
       "level": "low",
-      "type": [],
-      "notes": null
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "Avoid in pregnancy; rare allergic reaction in Asteraceae-sensitive individuals",
+      "contraindications": [
+        "pregnancy"
+      ]
     },
     "evidence": {
-      "level": "traditional",
-      "source": "layered merge",
-      "confidence": 0.35
+      "level": "tramil",
+      "source": "layered merge; NA_ethnobotany",
+      "confidence": 0.65
     },
     "regions": [
-      "CL"
-    ]
+      "CA",
+      "CL",
+      "US"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Abundant and widespread; harvest responsibly from unsprayed areas"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Cherokee",
+        "Ojibwe",
+        "Navajo",
+        "Cheyenne",
+        "Blackfoot",
+        "Okanagan",
+        "Zuni"
+      ],
+      "native_status_na": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1"
+    }
   },
   {
     "plant_id": "achyrocline_satureioides",
@@ -414,6 +503,119 @@
     "regions": [
       "AR"
     ]
+  },
+  {
+    "plant_id": "acorus_calamus",
+    "scientific_name": "Acorus calamus L.",
+    "family": "Acoraceae",
+    "names": [
+      "Calamus",
+      "Sweet calamus",
+      "Sweetflag"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal",
+      "ritual"
+    ],
+    "conditions": [
+      "digestive_complaints",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Contain asarone analogs — avoid long-term heavy use internally; FDA restricted food additive use"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_NE"
+    ],
+    "sustainability": {
+      "status": "caution",
+      "notes": "Tetraploid North American variety; some alkaloid concerns; use moderately"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Cree",
+        "Ojibwe",
+        "Penobscot",
+        "Algonquin",
+        "Potawatomi"
+      ],
+      "native_status": "native",
+      "harvest_status": "caution",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
+    "plant_id": "actaea_racemosa",
+    "scientific_name": "Actaea racemosa L.",
+    "family": "Ranunculaceae",
+    "names": [
+      "Black cohosh",
+      "Black snakeroot",
+      "Bugbane"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "musculoskeletal_pain",
+      "womens_health"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "Not for pregnancy; potential hepatotoxicity with long-term high doses; consult physician if liver conditions",
+      "contraindications": [
+        "liver_caution",
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "clinical",
+      "source": "NA_ethnobotany",
+      "confidence": 0.9
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "at-risk",
+      "notes": "UpS At-Risk List; heavily commercialized; buy cultivated only"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Iroquois",
+        "Cherokee",
+        "Algonquin",
+        "Ojibwe"
+      ],
+      "native_status": "native",
+      "harvest_status": "at-risk",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "agastache_mexicana_kunth_lint__epling",
@@ -511,6 +713,58 @@
     ]
   },
   {
+    "plant_id": "agrimonia_gryposepala",
+    "scientific_name": "Agrimonia gryposepala Wallr.",
+    "family": "Rosaceae",
+    "names": [
+      "Common agrimony",
+      "Tall hairy agrimony"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "digestive_complaints",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Generally safe; tannin-rich; avoid prolonged internal use"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Widespread; not at-risk"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Iroquois",
+        "Cherokee",
+        "Ojibwe",
+        "Potawatomi"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "alibertia_edulis",
     "scientific_name": "Alibertia edulis",
     "family": "Rubiaceae",
@@ -589,6 +843,58 @@
     ]
   },
   {
+    "plant_id": "allium_cernuum",
+    "scientific_name": "Allium cernuum Roth",
+    "family": "Amaryllidaceae",
+    "names": [
+      "Nodding onion",
+      "Wild onion"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "culinary",
+      "medicinal",
+      "tea"
+    ],
+    "conditions": [
+      "digestive_complaints"
+    ],
+    "toxicity": {
+      "level": "high",
+      "type": [],
+      "notes": "Generally safe; distinguish from toxic wild garlic mimics (Zigadenus/death camas)"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Widespread; not at-risk; important food plant"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Blackfoot",
+        "Cherokee",
+        "Ojibwe",
+        "Okanagan",
+        "Flathead"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "allium_sativum",
     "scientific_name": "Allium sativum",
     "family": "Amaryllidaceae",
@@ -644,6 +950,112 @@
       "CO",
       "GY"
     ]
+  },
+  {
+    "plant_id": "allium_tricoccum",
+    "scientific_name": "Allium tricoccum Aiton",
+    "family": "Amaryllidaceae",
+    "names": [
+      "Ramps",
+      "Wild garlic",
+      "Wild leek"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "culinary",
+      "medicinal"
+    ],
+    "conditions": [
+      "digestive_complaints",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "high",
+      "type": [],
+      "notes": "Generally safe; strong sulfur compounds; do not confuse with toxic lily-of-the-valley (Convallaria) or false hellebore"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_NE",
+      "US_SE"
+    ],
+    "lookalike_risk": true,
+    "sustainability": {
+      "status": "caution",
+      "notes": "Slow-growing; populations under pressure from over-harvesting; harvest only 1 bulb in 10; prefer leaf harvest only"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Iroquois",
+        "Cherokee",
+        "Ojibwe",
+        "Algonquin"
+      ],
+      "native_status": "native",
+      "harvest_status": "caution",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
+    "plant_id": "alnus_rubra",
+    "scientific_name": "Alnus rubra Bong.",
+    "family": "Betulaceae",
+    "names": [
+      "Oregon alder",
+      "Red alder"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "topical"
+    ],
+    "conditions": [
+      "dermatologic_infection"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Generally safe; bark contains salicin and betulin; large doses may cause GI upset"
+    },
+    "evidence": {
+      "level": "tramil",
+      "source": "NA_ethnobotany",
+      "confidence": 0.65
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_CA",
+      "US_PNW"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Common riparian tree; not at-risk; take bark from fallen or pruned branches"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Blackfoot Confederacy",
+        "Quinault",
+        "Salish",
+        "Haida"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "aloe_vera",
@@ -1261,6 +1673,168 @@
     ]
   },
   {
+    "plant_id": "anaphalis_margaritacea",
+    "scientific_name": "Anaphalis margaritacea (L.) Benth.",
+    "family": "Asteraceae",
+    "names": [
+      "Cottonweed",
+      "Pearly everlasting"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "ritual"
+    ],
+    "conditions": [
+      "musculoskeletal_pain",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Generally safe"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_AK"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Widespread and abundant; not at-risk"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Chippewa",
+        "Blackfoot",
+        "Thompson",
+        "Okanagan"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
+    "plant_id": "anemopsis_californica",
+    "scientific_name": "Anemopsis californica (Nutt.) Hook. & Arn.",
+    "family": "Saururaceae",
+    "names": [
+      "Lizard tail",
+      "Yerba mansa"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal",
+      "ritual",
+      "topical"
+    ],
+    "conditions": [
+      "dermatologic_infection"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Generally safe; large doses may be irritating"
+    },
+    "evidence": {
+      "level": "tramil",
+      "source": "NA_ethnobotany",
+      "confidence": 0.65
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_CA",
+      "US_SW"
+    ],
+    "sustainability": {
+      "status": "caution",
+      "notes": "Riparian wetland species; habitat threatened; prefer cultivated"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Cahuilla",
+        "Diegueno",
+        "Yaqui",
+        "Apache"
+      ],
+      "native_status": "native",
+      "harvest_status": "caution",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
+    "plant_id": "angelica_atropurpurea",
+    "scientific_name": "Angelica atropurpurea L.",
+    "family": "Apiaceae",
+    "names": [
+      "American angelica",
+      "Great angelica",
+      "Purple-stemmed angelica"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "digestive_complaints",
+      "musculoskeletal_pain",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "CRITICAL IDENTIFICATION: can be confused with deadly Conium maculatum and Cicuta spp. — expert ID required; furanocoumarins cause phototoxicity; avoid in pregnancy",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_AK",
+      "US_NE"
+    ],
+    "sustainability": {
+      "status": "caution",
+      "notes": "Local populations can be vulnerable; do not confuse with poison hemlock (Conium) or water hemlock (Cicuta)"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Iroquois",
+        "Ojibwe",
+        "Algonquin"
+      ],
+      "native_status": "native",
+      "harvest_status": "caution",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "annona_diversifolia",
     "scientific_name": "Annona diversifolia",
     "family": "Annonaceae",
@@ -1658,6 +2232,158 @@
     ]
   },
   {
+    "plant_id": "apocynum_androsaemifolium",
+    "scientific_name": "Apocynum androsaemifolium L.",
+    "family": "Apocynaceae",
+    "names": [
+      "Common dogbane",
+      "Spreading dogbane"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "high",
+      "type": [],
+      "notes": "TOXIC — cardiac glycosides; do not self-administer; traditional use with strict guidance only; milky sap irritating"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US"
+    ],
+    "sustainability": {
+      "status": "caution",
+      "notes": "Contains cardiac glycosides — only for experienced practitioners"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Cherokee",
+        "Iroquois",
+        "Ojibwe"
+      ],
+      "native_status": "native",
+      "harvest_status": "caution",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
+    "plant_id": "aralia_nudicaulis",
+    "scientific_name": "Aralia nudicaulis L.",
+    "family": "Araliaceae",
+    "names": [
+      "Wild sarsaparilla"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal",
+      "topical"
+    ],
+    "conditions": [
+      "dermatologic_infection",
+      "musculoskeletal_pain"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Generally safe; root contains saponins — moderate use"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_AK",
+      "US_NE"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Widespread in boreal and eastern forests; not at-risk"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Ojibwe",
+        "Cree",
+        "Algonquin",
+        "Iroquois"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
+    "plant_id": "aralia_racemosa",
+    "scientific_name": "Aralia racemosa L.",
+    "family": "Araliaceae",
+    "names": [
+      "American spikenard",
+      "Indian root"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "topical"
+    ],
+    "conditions": [
+      "dermatologic_infection",
+      "musculoskeletal_pain"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Generally safe; large doses emetic"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "caution",
+      "notes": "Populations declining in some areas; wild-harvest cautiously or use cultivated"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Iroquois",
+        "Cherokee",
+        "Ojibwe",
+        "Meskwaki"
+      ],
+      "native_status": "native",
+      "harvest_status": "caution",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "arctium_lappa",
     "scientific_name": "Arctium lappa",
     "family": "Asteraceae",
@@ -1685,6 +2411,117 @@
     "regions": [
       "CL"
     ]
+  },
+  {
+    "plant_id": "arctium_minus",
+    "scientific_name": "Arctium minus Bernh.",
+    "family": "Asteraceae",
+    "names": [
+      "Burdock",
+      "Common burdock",
+      "Lesser burdock"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal",
+      "topical"
+    ],
+    "conditions": [
+      "dermatologic_infection"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "Generally safe; avoid in pregnancy; may interact with blood thinners and diabetes medications",
+      "contraindications": [
+        "anticoagulant_interaction",
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "tramil",
+      "source": "NA_ethnobotany",
+      "confidence": 0.65
+    },
+    "regions": [
+      "CA",
+      "US"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Abundant and widespread introduced weed; not at-risk; root edible (gobo)"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Iroquois",
+        "Ojibwe"
+      ],
+      "native_status": "naturalized",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "naturalized"
+    }
+  },
+  {
+    "plant_id": "arctostaphylos_uvaursi",
+    "scientific_name": "Arctostaphylos uva-ursi (L.) Spreng.",
+    "family": "Ericaceae",
+    "names": [
+      "Bearberry",
+      "Kinnikinnick",
+      "Uva ursi"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "dermatologic_infection"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Avoid with kidney disease; limit use to 2 weeks; contains arbutin/hydroquinone — avoid long-term"
+    },
+    "evidence": {
+      "level": "tramil",
+      "source": "NA_ethnobotany",
+      "confidence": 0.65
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_AK",
+      "US_NE",
+      "US_PNW",
+      "US_RC"
+    ],
+    "sustainability": {
+      "status": "caution",
+      "notes": "Not at-risk but slow-growing groundcover; harvest sustainably; do not strip whole plants"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Blackfoot",
+        "Ojibwe",
+        "Cree",
+        "Carrier",
+        "Okanagan",
+        "Thompson"
+      ],
+      "native_status": "native",
+      "harvest_status": "caution",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "argemone_mexicana",
@@ -1817,6 +2654,58 @@
     ]
   },
   {
+    "plant_id": "aristolochia_serpentaria",
+    "scientific_name": "Aristolochia serpentaria L.",
+    "family": "Aristolochiaceae",
+    "names": [
+      "Birthwort",
+      "Virginia snakeroot"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "dermatologic_infection",
+      "digestive_complaints",
+      "respiratory_support",
+      "womens_health"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "HIGH CAUTION: aristolochic acid is nephrotoxic and carcinogenic; avoid internal use; historical use only"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "at-risk",
+      "notes": "UpS Watch List; contains aristolochic acid — use with extreme caution; rare in wild"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Cherokee",
+        "Iroquois"
+      ],
+      "native_status": "native",
+      "harvest_status": "at-risk",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "aristolochia_triangularis",
     "scientific_name": "Aristolochia triangularis",
     "family": "Aristolochiaceae",
@@ -1916,39 +2805,66 @@
   },
   {
     "plant_id": "arnica_montana",
-    "scientific_name": "Arnica montana",
+    "scientific_name": "Arnica montana L. / A. cordifolia Hook.",
     "family": "Asteraceae",
     "names": [
-      "Árnica"
+      "Arnica",
+      "Árnica",
+      "Heartleaf arnica",
+      "Mountain arnica"
     ],
     "countries": [
+      "CA",
       "CL",
       "CO",
-      "CR"
+      "CR",
+      "US"
     ],
     "uses": [
-      "medicinal"
+      "medicinal",
+      "topical"
     ],
     "conditions": [
-      "golpes_esguinces_hematomas_dolor_muscular_reumatismo"
+      "golpes_esguinces_hematomas_dolor_muscular_reumatismo",
+      "musculoskeletal_pain"
     ],
     "toxicity": {
-      "level": "low",
+      "level": "high",
       "type": [],
-      "notes": "Uso externo; no tragar"
+      "notes": "Uso externo; no tragar | External use only — toxic internally; causes severe gastroenteritis; avoid on broken skin; allergic reactions in some Asteraceae-sensitive individuals | External use only — toxic internally; causes severe gastroenteritis; avoid on broken skin; allergic reactions in some Asteraceae-sensitive individuals"
     },
     "evidence": {
       "level": "clinical",
-      "source": "S4",
+      "source": "S4; NA_ethnobotany",
       "confidence": 0.9
     },
     "regions": [
+      "CA",
       "CL",
       "CO",
       "CR",
       "EUROPE",
-      "MX"
-    ]
+      "MX",
+      "US",
+      "US_AK",
+      "US_CA",
+      "US_PNW",
+      "US_RC"
+    ],
+    "sustainability": {
+      "status": "caution",
+      "notes": "A. montana heavily commercialized; native species at-risk in some mountain areas"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Okanagan",
+        "Carrier",
+        "Stoney"
+      ],
+      "native_status_na": "native",
+      "harvest_status": "caution",
+      "na_source": "na_ethnobotany_v1"
+    }
   },
   {
     "plant_id": "arnica_montana_l",
@@ -2078,29 +2994,125 @@
     ]
   },
   {
-    "plant_id": "artemisia_ludoviciana_nutt_subsp_mexicana_willd_keck",
-    "scientific_name": "Artemisia ludoviciana Nutt. subsp. mexicana (Willd.) Keck",
+    "plant_id": "artemisia_filifolia",
+    "scientific_name": "Artemisia filifolia Torr.",
     "family": "Asteraceae",
-    "names": [],
-    "countries": [],
-    "uses": [],
-    "conditions": [],
+    "names": [
+      "Romerillo",
+      "Sand sage",
+      "Thread-leaved sagebrush"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "digestive_complaints",
+      "respiratory_support"
+    ],
     "toxicity": {
       "level": "low",
       "type": [
         "abortifacient"
       ],
-      "notes": "Abortivo; no para embarazadas"
+      "notes": "Contains aromatic camphor oils; avoid in pregnancy; moderate doses only",
+      "contraindications": [
+        "pregnancy"
+      ]
     },
     "evidence": {
       "level": "traditional",
-      "source": "S2; S4; S6",
+      "source": "NA_ethnobotany",
       "confidence": 0.35
     },
     "regions": [
+      "CA",
+      "US",
+      "US_GP",
+      "US_SW"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Abundant desert species; not at-risk"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Pueblo",
+        "Navajo",
+        "Zuni"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
+    "plant_id": "artemisia_ludoviciana_nutt_subsp_mexicana_willd_keck",
+    "scientific_name": "Artemisia ludoviciana Nutt. subsp. mexicana (Willd.) Keck",
+    "family": "Asteraceae",
+    "names": [
+      "Mugwort",
+      "Prairie sage",
+      "Silver wormwood",
+      "White sagebrush"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "ritual"
+    ],
+    "conditions": [
+      "musculoskeletal_pain",
+      "respiratory_support",
+      "womens_health"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "Abortivo; no para embarazadas | Thujone content — avoid in pregnancy; avoid large internal doses; safe for smudging and light tea | Thujone content — avoid in pregnancy; avoid large internal doses; safe for smudging and light tea",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "S2; S4; S6; NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
       "MX",
-      "USA"
-    ]
+      "US",
+      "USA",
+      "US_GP",
+      "US_RC",
+      "US_SW"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Abundant on plains; not at-risk; one of the most important ceremonial plants of the Great Plains"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Blackfoot",
+        "Lakota",
+        "Crow",
+        "Cheyenne",
+        "Comanche",
+        "Navajo"
+      ],
+      "native_status_na": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1"
+    }
   },
   {
     "plant_id": "artemisia_sp",
@@ -2152,6 +3164,64 @@
     "regions": [
       "BO"
     ]
+  },
+  {
+    "plant_id": "asarum_canadense",
+    "scientific_name": "Asarum canadense L.",
+    "family": "Aristolochiaceae",
+    "names": [
+      "Canada wild ginger",
+      "Wild ginger"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "digestive_complaints",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "Contains aristolochic acid analogs — nephrotoxic with long-term use; NOT for extended internal use; avoid in pregnancy and kidney conditions",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "caution",
+      "notes": "Slow-growing woodland species; prefer cultivated; contains aristolochic acid analogs"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Iroquois",
+        "Ojibwe",
+        "Algonquin",
+        "Cherokee",
+        "Meskwaki"
+      ],
+      "native_status": "native",
+      "harvest_status": "caution",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "asclepias_curassavica",
@@ -2250,6 +3320,67 @@
     "regions": []
   },
   {
+    "plant_id": "asclepias_tuberosa",
+    "scientific_name": "Asclepias tuberosa L.",
+    "family": "Apocynaceae",
+    "names": [
+      "Butterfly milkweed",
+      "Orange milkweed",
+      "Pleurisy root"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "digestive_complaints",
+      "musculoskeletal_pain"
+    ],
+    "toxicity": {
+      "level": "high",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "Do not confuse with toxic Asclepias species; this species considered relatively safe; avoid in pregnancy",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_GP",
+      "US_NE",
+      "US_SE"
+    ],
+    "lookalike_risk": true,
+    "sustainability": {
+      "status": "caution",
+      "notes": "Milkweed populations are declining; critical monarch butterfly habitat; harvest root only from abundant stands"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Cherokee",
+        "Navajo",
+        "Choctaw",
+        "Menominee",
+        "Dakota"
+      ],
+      "native_status": "native",
+      "harvest_status": "caution",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "atamisquea_emarginata",
     "scientific_name": "Atamisquea emarginata",
     "family": "Capparaceae",
@@ -2277,6 +3408,60 @@
     "regions": [
       "AR"
     ]
+  },
+  {
+    "plant_id": "atriplex_canescens",
+    "scientific_name": "Atriplex canescens (Pursh) Nutt.",
+    "family": "Amaranthaceae",
+    "names": [
+      "Chamiso",
+      "Four-wing saltbush",
+      "Shadscale"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "culinary",
+      "medicinal",
+      "ritual"
+    ],
+    "conditions": [
+      "digestive_complaints"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Generally safe; high salt content — moderate use"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_GP",
+      "US_SW"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Very abundant desert shrub; not at-risk"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Navajo",
+        "Hopi",
+        "Zuni",
+        "Pueblo"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "avena_sativa_l",
@@ -2507,6 +3692,58 @@
     "regions": []
   },
   {
+    "plant_id": "balsamorhiza_sagittata",
+    "scientific_name": "Balsamorhiza sagittata (Pursh) Nutt.",
+    "family": "Asteraceae",
+    "names": [
+      "Arrow-leaved balsamroot",
+      "Balsam root"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "culinary",
+      "topical"
+    ],
+    "conditions": [
+      "dermatologic_infection"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Generally safe; resinous root in large amounts may cause digestive upset"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_PNW",
+      "US_RC"
+    ],
+    "sustainability": {
+      "status": "caution",
+      "notes": "Very long-lived root — can live 50+ years; harvest only from abundant patches; leaves preferred over root"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Nez Perce",
+        "Cheyenne",
+        "Salish",
+        "Kootenai"
+      ],
+      "native_status": "native",
+      "harvest_status": "caution",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "banisteriopsis_caapi",
     "scientific_name": "Banisteriopsis caapi",
     "family": "Malpighiaceae",
@@ -2534,6 +3771,116 @@
     "regions": [
       "EC"
     ]
+  },
+  {
+    "plant_id": "baptisia_australis",
+    "scientific_name": "Baptisia australis (L.) R. Br.",
+    "family": "Fabaceae",
+    "names": [
+      "Blue false indigo",
+      "Blue wild indigo"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "digestive_complaints"
+    ],
+    "toxicity": {
+      "level": "high",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "Toxic in large doses; emetic and cathartic; avoid in pregnancy",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "caution",
+      "notes": "Slow growing; prefer cultivated; populations declining in some states"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Cherokee",
+        "Osage"
+      ],
+      "native_status": "native",
+      "harvest_status": "caution",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
+    "plant_id": "baptisia_tinctoria",
+    "scientific_name": "Baptisia tinctoria (L.) R. Br.",
+    "family": "Fabaceae",
+    "names": [
+      "Yellow false indigo",
+      "Yellow wild indigo"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "dermatologic_infection",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "high",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "Toxic in large doses; nausea and vomiting; short-term use only; avoid in pregnancy and autoimmune conditions",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "tramil",
+      "source": "NA_ethnobotany",
+      "confidence": 0.65
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "caution",
+      "notes": "Not at-risk but slow-growing; prefer cultivated; wild populations declining"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Cherokee",
+        "Delaware",
+        "Mohegan"
+      ],
+      "native_status": "native",
+      "harvest_status": "caution",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "barkleyanthus_salicifolius_kunth_h_rob__brettell",
@@ -3905,6 +5252,53 @@
     "regions": []
   },
   {
+    "plant_id": "calypso_bulbosa",
+    "scientific_name": "Calypso bulbosa (L.) Oakes",
+    "family": "Orchidaceae",
+    "names": [
+      "Calypso orchid",
+      "Fairy slipper orchid"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "No current medicinal use recommended — conservation concern overrides any use"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_AK",
+      "US_NE",
+      "US_PNW"
+    ],
+    "sustainability": {
+      "status": "at-risk",
+      "notes": "DO NOT harvest — extremely vulnerable mycorrhizal orchid; dies if root or soil disturbed; protected in many jurisdictions; document only"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Nlaka'pamux"
+      ],
+      "native_status": "native",
+      "harvest_status": "at-risk",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "camellia_sinensis",
     "scientific_name": "Camellia sinensis",
     "family": "Theaceae",
@@ -4430,6 +5824,119 @@
     "regions": []
   },
   {
+    "plant_id": "caulophyllum_thalictroides",
+    "scientific_name": "Caulophyllum thalictroides (L.) Michx.",
+    "family": "Berberidaceae",
+    "names": [
+      "Blue cohosh",
+      "Papoose root",
+      "Squaw root"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "musculoskeletal_pain",
+      "womens_health"
+    ],
+    "toxicity": {
+      "level": "high",
+      "type": [
+        "abortifacient",
+        "emmenagogue"
+      ],
+      "notes": "AVOID in pregnancy (labor stimulant); toxic in large doses — cardiovascular and uterine stimulant",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "at-risk",
+      "notes": "UpS At-Risk List; avoid wild harvest"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Cherokee",
+        "Ojibwe",
+        "Iroquois",
+        "Menominee",
+        "Potawatomi"
+      ],
+      "native_status": "native",
+      "harvest_status": "at-risk",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
+    "plant_id": "ceanothus_americanus",
+    "scientific_name": "Ceanothus americanus L.",
+    "family": "Rhamnaceae",
+    "names": [
+      "New Jersey tea",
+      "Red root"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Generally safe; root contains ceanothine — may affect blood clotting; avoid with anticoagulants",
+      "contraindications": [
+        "anticoagulant_interaction"
+      ]
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_GP",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Widespread shrub; leaves used as tea substitute during American Revolution; not at-risk"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Iroquois",
+        "Cherokee",
+        "Ojibwe",
+        "Potawatomi"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "cecropia_concolor",
     "scientific_name": "Cecropia concolor",
     "family": "Urticaceae",
@@ -4733,6 +6240,62 @@
     ]
   },
   {
+    "plant_id": "chamaelirium_luteum",
+    "scientific_name": "Chamaelirium luteum (L.) A. Gray",
+    "family": "Melanthiaceae",
+    "names": [
+      "Blazing star",
+      "Devil's bit",
+      "Fairy wand"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "digestive_complaints",
+      "womens_health"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "Saponin-rich; avoid in pregnancy except near term under skilled supervision",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "at-risk",
+      "notes": "UpS At-Risk List; slow-growing, dioecious — populations vulnerable; cultivate only"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Cherokee",
+        "Iroquois"
+      ],
+      "native_status": "native",
+      "harvest_status": "at-risk",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "chamaemelum_nobile_l_all",
     "scientific_name": "Chamaemelum nobile",
     "family": "Asteraceae",
@@ -4756,6 +6319,60 @@
       "EUROPE",
       "MX"
     ]
+  },
+  {
+    "plant_id": "chamaenerion_angustifolium",
+    "scientific_name": "Chamaenerion angustifolium (L.) Scop.",
+    "family": "Onagraceae",
+    "names": [
+      "Fireweed",
+      "Great willowherb",
+      "Rosebay willowherb"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "culinary",
+      "topical"
+    ],
+    "conditions": [
+      "dermatologic_infection"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Very safe; young shoots edible; tea generally safe"
+    },
+    "evidence": {
+      "level": "tramil",
+      "source": "NA_ethnobotany",
+      "confidence": 0.65
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_AK",
+      "US_PNW"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Extremely abundant post-disturbance species; not at-risk; edible and medicinal"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Cree",
+        "Dene",
+        "Ojibwe",
+        "Haida",
+        "Nlaka'pamux"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "chamaesyce_sp",
@@ -4857,6 +6474,62 @@
       "UY",
       "VE"
     ]
+  },
+  {
+    "plant_id": "chelone_glabra",
+    "scientific_name": "Chelone glabra L.",
+    "family": "Plantaginaceae",
+    "names": [
+      "Balmony",
+      "Snakehead",
+      "White turtlehead"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "digestive_complaints",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "Bitter; large doses cathartic; avoid in pregnancy",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Wetland species; not at-risk in most areas"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Cherokee",
+        "Iroquois"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "chenopodium_ambrosioides",
@@ -4984,6 +6657,66 @@
     "regions": [
       "BO"
     ]
+  },
+  {
+    "plant_id": "chimaphila_umbellata",
+    "scientific_name": "Chimaphila umbellata (L.) W.P.C. Barton",
+    "family": "Ericaceae",
+    "names": [
+      "Pipsissewa",
+      "Prince's pine",
+      "Spotted wintergreen"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "musculoskeletal_pain",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "Contains hydroquinone derivatives — avoid with kidney disease; limit use; not for pregnancy",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_AK",
+      "US_NE",
+      "US_PNW"
+    ],
+    "sustainability": {
+      "status": "caution",
+      "notes": "Slow-growing evergreen groundcover; UpS Watch List; prefer cultivated"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Cree",
+        "Ojibwe",
+        "Blackfoot",
+        "Thompson",
+        "Salish"
+      ],
+      "native_status": "native",
+      "harvest_status": "caution",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "chromolaena_odorata_l_r_m_king__h_rob",
@@ -5159,6 +6892,65 @@
       "CL",
       "PY"
     ]
+  },
+  {
+    "plant_id": "cimicifuga_racemosa",
+    "scientific_name": "Cimicifuga racemosa (syn. Actaea racemosa)",
+    "family": "Ranunculaceae",
+    "names": [
+      "Black bugbane",
+      "Black snakeroot",
+      "Rattlesnake root"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "dermatologic_infection",
+      "musculoskeletal_pain",
+      "womens_health"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "See NA004; avoid in pregnancy; potential hepatotoxicity",
+      "contraindications": [
+        "liver_caution",
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "at-risk",
+      "notes": "Same species as NA004 (Actaea racemosa); cross-reference; UpS At-Risk List"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Algonquin",
+        "Iroquois",
+        "Penobscot"
+      ],
+      "native_status": "native",
+      "harvest_status": "at-risk",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "cinchona_officinalis",
@@ -5906,6 +7698,61 @@
     ]
   },
   {
+    "plant_id": "comptonia_peregrina",
+    "scientific_name": "Comptonia peregrina (L.) J.M. Coult.",
+    "family": "Myricaceae",
+    "names": [
+      "Meadow fern",
+      "Sweet fern"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "digestive_complaints",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "Generally safe; avoid in pregnancy",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_NE"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Not at-risk; not a true fern despite common name"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Algonquin",
+        "Mohegan",
+        "Ojibwe"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "condea_verticillata",
     "scientific_name": "Condea verticillata",
     "family": "Lamiaceae",
@@ -6180,6 +8027,60 @@
       "confidence": 0.35
     },
     "regions": []
+  },
+  {
+    "plant_id": "cornus_sericea",
+    "scientific_name": "Cornus sericea L.",
+    "family": "Cornaceae",
+    "names": [
+      "Red osier dogwood",
+      "Red-twig dogwood"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "culinary",
+      "ritual"
+    ],
+    "conditions": [
+      "digestive_complaints",
+      "musculoskeletal_pain",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Generally safe; bark tannins — moderate internal use"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_AK"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Abundant and widespread; not at-risk"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Ojibwe",
+        "Blackfoot",
+        "Cree",
+        "Okanagan",
+        "Salish"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "costus_igneus",
@@ -7049,6 +8950,59 @@
     "regions": []
   },
   {
+    "plant_id": "datura_wrightii",
+    "scientific_name": "Datura wrightii Regel (D. meteloides)",
+    "family": "Solanaceae",
+    "names": [
+      "Jimsonweed",
+      "Moonflower",
+      "Sacred datura",
+      "Toloache"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "ritual"
+    ],
+    "conditions": [
+      "musculoskeletal_pain"
+    ],
+    "toxicity": {
+      "level": "lethal",
+      "type": [],
+      "notes": "HIGHLY TOXIC — tropane alkaloids (atropine, scopolamine); fatal in small doses above therapeutic threshold; NO self-administration; deaths documented"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_SW"
+    ],
+    "sustainability": {
+      "status": "caution",
+      "notes": "DO NOT harvest or use without traditional ceremonial guidance — this is sacred and extremely dangerous"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Pueblo",
+        "Zuni",
+        "Chumash",
+        "Navajo",
+        "Luiseño"
+      ],
+      "native_status": "native",
+      "harvest_status": "caution",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "daucus_carota",
     "scientific_name": "Daucus carota",
     "family": "Apiaceae",
@@ -7514,6 +9468,61 @@
     ]
   },
   {
+    "plant_id": "echinacea_purpurea",
+    "scientific_name": "Echinacea purpurea (L.) Moench",
+    "family": "Asteraceae",
+    "names": [
+      "Echinacea",
+      "Purple coneflower"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal",
+      "topical"
+    ],
+    "conditions": [
+      "dermatologic_infection",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Generally safe; rare allergic reactions in those with Asteraceae sensitivity"
+    },
+    "evidence": {
+      "level": "clinical",
+      "source": "NA_ethnobotany",
+      "confidence": 0.9
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_GP",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "at-risk",
+      "notes": "Overharvested commercially; buy cultivated only (UpS At-Risk List)"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Cheyenne",
+        "Kiowa",
+        "Omaha",
+        "Dakota",
+        "Cherokee"
+      ],
+      "native_status": "native",
+      "harvest_status": "at-risk",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "echinodorus_grandiflorus",
     "scientific_name": "Echinodorus grandiflorus",
     "family": "Alismataceae",
@@ -7757,6 +9766,60 @@
     ]
   },
   {
+    "plant_id": "ephedra_torreyana",
+    "scientific_name": "Ephedra torreyana S. Wats.",
+    "family": "Ephedraceae",
+    "names": [
+      "Canutillo del campo",
+      "Joint fir",
+      "Mormon tea"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal",
+      "topical"
+    ],
+    "conditions": [
+      "dermatologic_infection",
+      "digestive_complaints"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "North American Ephedra species have much lower ephedrine than Asian species (E. sinica); generally safe as traditional tea; do not confuse with Chinese ma huang supplements"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_SW"
+    ],
+    "lookalike_risk": true,
+    "sustainability": {
+      "status": "safe",
+      "notes": "Abundant in Southwest desert; not at-risk; North American species have very low ephedrine"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Zuni",
+        "Navajo",
+        "Pueblo",
+        "Paiute"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "ephedra_triandra",
     "scientific_name": "Ephedra triandra",
     "family": "Ephedraceae",
@@ -7961,6 +10024,114 @@
       "MX",
       "NORTH_AMERICA"
     ]
+  },
+  {
+    "plant_id": "ericameria_nauseosa",
+    "scientific_name": "Ericameria nauseosa (Pall. ex Pursh) G.L. Nesom",
+    "family": "Asteraceae",
+    "names": [
+      "Chamiso blanco",
+      "Gray rabbitbrush",
+      "Rabbitbrush"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "digestive_complaints",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Generally safe as tea"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_GP",
+      "US_RC",
+      "US_SW"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Extremely abundant in arid West; not at-risk"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Navajo",
+        "Pueblo",
+        "Paiute",
+        "Shoshone"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
+    "plant_id": "eriodictyon_californicum",
+    "scientific_name": "Eriodictyon californicum (Hook. & Arn.) Torr.",
+    "family": "Boraginaceae",
+    "names": [
+      "Bear's weed",
+      "California yerba santa",
+      "Holy herb"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "dermatologic_infection",
+      "musculoskeletal_pain",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Generally safe; potential for contact dermatitis from resinous leaves"
+    },
+    "evidence": {
+      "level": "tramil",
+      "source": "NA_ethnobotany",
+      "confidence": 0.65
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_CA"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Abundant in California chaparral; not at-risk"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Costanoan",
+        "Yokuts",
+        "Ohlone",
+        "Pomo",
+        "Cahuilla"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "erodium_cicutarium",
@@ -8207,6 +10378,60 @@
     ]
   },
   {
+    "plant_id": "eschscholzia_californica",
+    "scientific_name": "Eschscholzia californica Cham.",
+    "family": "Papaveraceae",
+    "names": [
+      "California poppy",
+      "Golden poppy"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "musculoskeletal_pain"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "No opioid alkaloids — completely different from opium poppy; generally safe; mild sedative; avoid in pregnancy",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "tramil",
+      "source": "NA_ethnobotany",
+      "confidence": 0.65
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_CA"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "California state flower — illegal to uproot in California; leaves/flowers may be harvested; not a poppy family opioid"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Costanoan",
+        "Pomo",
+        "Luiseño"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "eucalyptus_camaldulensis",
     "scientific_name": "Eucalyptus camaldulensis",
     "family": "Myrtaceae",
@@ -8350,6 +10575,67 @@
     "regions": [
       "GY"
     ]
+  },
+  {
+    "plant_id": "eupatorium_perfoliatum",
+    "scientific_name": "Eupatorium perfoliatum L.",
+    "family": "Asteraceae",
+    "names": [
+      "Boneset",
+      "Thoroughwort"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "dermatologic_infection",
+      "musculoskeletal_pain",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "Avoid in pregnancy and with liver conditions; some pyrrolizidine alkaloids — moderate use only",
+      "contraindications": [
+        "liver_caution",
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_GP",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Not at-risk; harvest from abundant stands sustainably"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Delaware",
+        "Cherokee",
+        "Algonquin",
+        "Iroquois",
+        "Ojibwe"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "euphorbia_antisyphilitica_zucc",
@@ -8502,6 +10788,57 @@
       "AR",
       "CL"
     ]
+  },
+  {
+    "plant_id": "fallugia_paradoxa",
+    "scientific_name": "Fallugia paradoxa (D. Don) Endl. ex Torr.",
+    "family": "Rosaceae",
+    "names": [
+      "Apache plume",
+      "Ponil"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "ritual"
+    ],
+    "conditions": [
+      "musculoskeletal_pain",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Generally safe"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_SW"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Abundant in Southwest desert scrub; not at-risk"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Navajo",
+        "Zuni",
+        "Apache",
+        "Pueblo"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "fernaldia_pandurata",
@@ -8703,6 +11040,60 @@
     ]
   },
   {
+    "plant_id": "frangula_purshiana",
+    "scientific_name": "Frangula purshiana (DC.) J.G. Cooper",
+    "family": "Rhamnaceae",
+    "names": [
+      "Cascara buckthorn",
+      "Cascara sagrada"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "CRITICAL: bark must be aged 1+ year or treated with heat — fresh bark causes severe vomiting; avoid in pregnancy, bowel obstruction, inflammatory bowel; do not use long-term",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "tramil",
+      "source": "NA_ethnobotany",
+      "confidence": 0.65
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_PNW",
+      "US_RC"
+    ],
+    "sustainability": {
+      "status": "at-risk",
+      "notes": "UpS At-Risk List in some regions; heavily commercialized; check local status"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Nlaka'pamux",
+        "Haida",
+        "Quinault",
+        "Chehalis"
+      ],
+      "native_status": "native",
+      "harvest_status": "at-risk",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "fraxinus_uhdei_wenz_lingelsh",
     "scientific_name": "Fraxinus uhdei (Wenz.) Lingelsh.",
     "family": "Oleaceae",
@@ -8838,6 +11229,64 @@
     ]
   },
   {
+    "plant_id": "gaultheria_procumbens",
+    "scientific_name": "Gaultheria procumbens L.",
+    "family": "Ericaceae",
+    "names": [
+      "Checkerberry",
+      "Teaberry",
+      "Wintergreen"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "musculoskeletal_pain",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "high",
+      "type": [],
+      "notes": "High methyl salicylate content in essential oil — TOXIC if oil consumed directly; avoid with aspirin sensitivity or anticoagulants; safe in tea form",
+      "contraindications": [
+        "anticoagulant_interaction"
+      ]
+    },
+    "evidence": {
+      "level": "tramil",
+      "source": "NA_ethnobotany",
+      "confidence": 0.65
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_AK",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Widespread and abundant; not at-risk"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Ojibwe",
+        "Iroquois",
+        "Cree",
+        "Penobscot",
+        "Algonquin"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "gelidium_cartilagineum_l_gaillon",
     "scientific_name": "Gelidium cartilagineum (L.) Gaillon",
     "family": "Gelidiaceae",
@@ -8948,6 +11397,61 @@
     ]
   },
   {
+    "plant_id": "geranium_maculatum",
+    "scientific_name": "Geranium maculatum L.",
+    "family": "Geraniaceae",
+    "names": [
+      "Cranesbill",
+      "Spotted geranium",
+      "Wild geranium"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "topical"
+    ],
+    "conditions": [
+      "dermatologic_infection",
+      "digestive_complaints"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "High tannin — safe short-term; avoid excessive long-term internal use"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_GP",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Widespread and not at-risk; grows readily in woodland gardens"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Iroquois",
+        "Cherokee",
+        "Ojibwe",
+        "Potawatomi",
+        "Meskwaki"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "geum_chiloensis",
     "scientific_name": "Geum chiloensis",
     "family": "Rosaceae",
@@ -9000,6 +11504,65 @@
     "regions": []
   },
   {
+    "plant_id": "glycyrrhiza_lepidota",
+    "scientific_name": "Glycyrrhiza lepidota Pursh",
+    "family": "Fabaceae",
+    "names": [
+      "American licorice",
+      "Wild licorice"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "digestive_complaints",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "Long-term large doses raise blood pressure (glycyrrhizin); avoid with hypertension, heart failure, edema, pregnancy",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_GP",
+      "US_RC",
+      "US_SW"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Not at-risk; widespread prairie species"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Lakota",
+        "Cheyenne",
+        "Comanche",
+        "Pawnee",
+        "Blackfoot"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "gnaphalium_oxyphyllum_dc",
     "scientific_name": "Gnaphalium oxyphyllum DC.",
     "family": "Asteraceae",
@@ -9044,6 +11607,58 @@
       "confidence": 0.35
     },
     "regions": []
+  },
+  {
+    "plant_id": "grindelia_squarrosa",
+    "scientific_name": "Grindelia squarrosa (Pursh) Dunal",
+    "family": "Asteraceae",
+    "names": [
+      "Broadleaf gumweed",
+      "Curly-cup gumweed",
+      "Grindelia"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "topical"
+    ],
+    "conditions": [
+      "dermatologic_infection"
+    ],
+    "toxicity": {
+      "level": "high",
+      "type": [],
+      "notes": "Resinous — large internal doses toxic; standard herbal doses safe; avoid in kidney disease"
+    },
+    "evidence": {
+      "level": "tramil",
+      "source": "NA_ethnobotany",
+      "confidence": 0.65
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_GP",
+      "US_RC",
+      "US_SW"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Abundant in prairie and disturbed areas; not at-risk"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Blackfoot",
+        "Pawnee",
+        "Cheyenne"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "guaiacum_officinale",
@@ -9189,6 +11804,114 @@
     ]
   },
   {
+    "plant_id": "gutierrezia_sarothrae",
+    "scientific_name": "Gutierrezia sarothrae (Pursh) Britton & Rusby",
+    "family": "Asteraceae",
+    "names": [
+      "Broom snakeweed",
+      "Escoba de la víbora",
+      "Snakeweed"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "dermatologic_infection",
+      "respiratory_support",
+      "womens_health"
+    ],
+    "toxicity": {
+      "level": "high",
+      "type": [],
+      "notes": "Toxic in large quantities to livestock; moderate human doses safe as tea"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_GP",
+      "US_SW"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Extremely abundant dry-land species; not at-risk"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Navajo",
+        "Zuni",
+        "Pueblo"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
+    "plant_id": "hamamelis_virginiana",
+    "scientific_name": "Hamamelis virginiana L.",
+    "family": "Hamamelidaceae",
+    "names": [
+      "American witch hazel",
+      "Witch hazel"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "topical"
+    ],
+    "conditions": [
+      "dermatologic_infection"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Topical use very safe; internal use — tannins may cause liver stress with long-term use",
+      "contraindications": [
+        "liver_caution"
+      ]
+    },
+    "evidence": {
+      "level": "tramil",
+      "source": "NA_ethnobotany",
+      "confidence": 0.65
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Widespread; widely cultivated commercially; not at-risk"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Iroquois",
+        "Mohawk",
+        "Penobscot",
+        "Potawatomi",
+        "Ojibwe"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "hamelia_patens",
     "scientific_name": "Hamelia patens",
     "family": "Rubiaceae",
@@ -9310,6 +12033,63 @@
       "AR",
       "CL"
     ]
+  },
+  {
+    "plant_id": "hedeoma_pulegioides",
+    "scientific_name": "Hedeoma pulegioides (L.) Pers.",
+    "family": "Lamiaceae",
+    "names": [
+      "American pennyroyal",
+      "Mock pennyroyal"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "digestive_complaints",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "high",
+      "type": [
+        "abortifacient",
+        "emmenagogue"
+      ],
+      "notes": "AVOID IN PREGNANCY — powerful emmenagogue and abortifacient; pulegone toxic in large doses; safe as occasional tea; do NOT use essential oil internally",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Widespread; not at-risk"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Iroquois",
+        "Cherokee",
+        "Chippewa"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "heimia_salicifolia",
@@ -9517,6 +12297,57 @@
     "regions": []
   },
   {
+    "plant_id": "hierochloe_odorata",
+    "scientific_name": "Hierochloe odorata (L.) P. Beauv.",
+    "family": "Poaceae",
+    "names": [
+      "Holy grass",
+      "Sweetgrass",
+      "Vanilla grass"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "ritual"
+    ],
+    "conditions": [],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Generally safe; coumarin content — do not consume large amounts internally"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_AK"
+    ],
+    "sustainability": {
+      "status": "caution",
+      "notes": "Sacred cultural importance; harvest only what is needed with permission and respect; populations declining in some areas due to overharvesting for commercial smudge trade"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Ojibwe",
+        "Cree",
+        "Lakota",
+        "Blackfoot",
+        "Iroquois",
+        "Plains nations"
+      ],
+      "native_status": "native",
+      "harvest_status": "caution",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "huperzia_saururus",
     "scientific_name": "Huperzia saururus",
     "family": "Lycopodiaceae",
@@ -9544,6 +12375,63 @@
     "regions": [
       "AR"
     ]
+  },
+  {
+    "plant_id": "hydrastis_canadensis",
+    "scientific_name": "Hydrastis canadensis L.",
+    "family": "Ranunculaceae",
+    "names": [
+      "Goldenseal",
+      "Yellow puccoon"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal",
+      "topical"
+    ],
+    "conditions": [
+      "dermatologic_infection",
+      "digestive_complaints"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "Not for pregnancy; avoid long-term use; interacts with blood thinners and blood pressure medications",
+      "contraindications": [
+        "anticoagulant_interaction",
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "tramil",
+      "source": "NA_ethnobotany",
+      "confidence": 0.65
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "at-risk",
+      "notes": "Threatened in Canada (COSEWIC); UpS Watch List; do not wild-harvest — use cultivated"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Cherokee",
+        "Iroquois"
+      ],
+      "native_status": "native",
+      "harvest_status": "at-risk",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "hylocereus_costaricensis",
@@ -9905,6 +12793,61 @@
     "regions": []
   },
   {
+    "plant_id": "iris_versicolor",
+    "scientific_name": "Iris versicolor L.",
+    "family": "Iridaceae",
+    "names": [
+      "Blue flag iris",
+      "Harlequin blue flag"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "topical"
+    ],
+    "conditions": [
+      "dermatologic_infection"
+    ],
+    "toxicity": {
+      "level": "high",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "TOXIC fresh root — causes severe vomiting; only small prepared doses; avoid in pregnancy, inflammatory bowel conditions",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_NE"
+    ],
+    "sustainability": {
+      "status": "caution",
+      "notes": "Wetland species; populations vulnerable to habitat loss; use with extreme caution"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Algonquin",
+        "Ojibwe",
+        "Cree",
+        "Penobscot"
+      ],
+      "native_status": "native",
+      "harvest_status": "caution",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "irlbachia_alata",
     "scientific_name": "Irlbachia alata",
     "family": "Gentianaceae",
@@ -10176,32 +13119,66 @@
   },
   {
     "plant_id": "juniperus_communis",
-    "scientific_name": "Juniperus communis",
+    "scientific_name": "Juniperus communis L. / scopulorum Sarg.",
     "family": "Cupressaceae",
     "names": [
-      "Enebro"
+      "Common juniper",
+      "Enebro",
+      "Juniper",
+      "Rocky Mountain juniper"
     ],
     "countries": [
-      "CL"
+      "CA",
+      "CL",
+      "US"
     ],
     "uses": [
       "culinary",
-      "medicinal"
+      "medicinal",
+      "ritual"
     ],
     "conditions": [],
     "toxicity": {
-      "level": "low",
-      "type": [],
-      "notes": null
+      "level": "high",
+      "type": [
+        "abortifacient",
+        "emmenagogue"
+      ],
+      "notes": "Avoid with kidney disease; do not use internally during pregnancy (uterine stimulant); essential oil toxic internally",
+      "contraindications": [
+        "pregnancy"
+      ]
     },
     "evidence": {
       "level": "traditional",
-      "source": "layered merge",
+      "source": "layered merge; NA_ethnobotany",
       "confidence": 0.35
     },
     "regions": [
-      "CL"
-    ]
+      "CA",
+      "CL",
+      "US",
+      "US_PNW",
+      "US_RC",
+      "US_SW"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Widespread; not at-risk"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Navajo",
+        "Apache",
+        "Ojibwe",
+        "Blackfoot",
+        "Cherokee",
+        "Pueblo"
+      ],
+      "native_status_na": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1"
+    }
   },
   {
     "plant_id": "justicia_pectoralis",
@@ -10640,6 +13617,64 @@
     ]
   },
   {
+    "plant_id": "lepidium_virginicum",
+    "scientific_name": "Lepidium virginicum L.",
+    "family": "Brassicaceae",
+    "names": [
+      "Peppergrass",
+      "Poor man's pepper",
+      "Virginia pepperweed"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "culinary",
+      "medicinal"
+    ],
+    "conditions": [
+      "digestive_complaints",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "Safe as food; pungent flavor; large doses in pregnancy — avoid as medicinal",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_GP",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Very common weed; not at-risk; edible"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Rappahannock",
+        "Cherokee"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "lepidoploa_remotiflora",
     "scientific_name": "Lepidoploa remotiflora",
     "family": "Asteraceae",
@@ -10723,6 +13758,67 @@
     "regions": [
       "AR"
     ]
+  },
+  {
+    "plant_id": "ligusticum_porteri",
+    "scientific_name": "Ligusticum porteri J.M. Coult. & Rose",
+    "family": "Apiaceae",
+    "names": [
+      "Bear root",
+      "Osha root",
+      "Porter's lovage"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "dermatologic_infection",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "high",
+      "type": [
+        "abortifacient",
+        "emmenagogue"
+      ],
+      "notes": "Avoid in pregnancy (uterine stimulant); do not confuse with toxic poison hemlock (Conium maculatum)",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "tramil",
+      "source": "NA_ethnobotany",
+      "confidence": 0.65
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_RC",
+      "US_SW"
+    ],
+    "lookalike_risk": true,
+    "sustainability": {
+      "status": "caution",
+      "notes": "High-altitude populations slow to regrow; harvest only mature plants; leave most behind"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Navajo",
+        "Apache",
+        "Pueblo",
+        "Zuni",
+        "Athabascan"
+      ],
+      "native_status": "native",
+      "harvest_status": "caution",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "limonium_brasiliense",
@@ -11007,6 +14103,60 @@
     ]
   },
   {
+    "plant_id": "lobelia_inflata",
+    "scientific_name": "Lobelia inflata L.",
+    "family": "Campanulaceae",
+    "names": [
+      "Indian tobacco",
+      "Lobelia"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [],
+    "toxicity": {
+      "level": "high",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "TOXIC in large doses — lobeline causes nausea, vomiting, respiratory depression; narrow therapeutic window; avoid in pregnancy, heart conditions",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "tramil",
+      "source": "NA_ethnobotany",
+      "confidence": 0.65
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "caution",
+      "notes": "Use with caution; declining in some areas; medicinal use only with guidance"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Cherokee",
+        "Iroquois",
+        "Penobscot",
+        "Ojibwe"
+      ],
+      "native_status": "native",
+      "harvest_status": "caution",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "loeselia_mexicana_lam_brand",
     "scientific_name": "Loeselia mexicana (Lam.) Brand.",
     "family": "Polemoniaceae",
@@ -11028,6 +14178,64 @@
       "MEXICO_TO_GUATEMALA",
       "MX"
     ]
+  },
+  {
+    "plant_id": "lomatium_dissectum",
+    "scientific_name": "Lomatium dissectum (Nutt.) Mathias & Constance",
+    "family": "Apiaceae",
+    "names": [
+      "Desert parsley",
+      "Fernleaf biscuitroot",
+      "Lomatium"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "Furanocoumarins — severe photosensitivity; rare skin rash reaction in some users; avoid in pregnancy",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "tramil",
+      "source": "NA_ethnobotany",
+      "confidence": 0.65
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_CA",
+      "US_PNW",
+      "US_RC"
+    ],
+    "sustainability": {
+      "status": "caution",
+      "notes": "Very slow growing root (decades); harvest only from abundant stands; prefer cultivated"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Paiute",
+        "Shoshone",
+        "Thompson",
+        "Okanagan"
+      ],
+      "native_status": "native",
+      "harvest_status": "caution",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "ludwigia_erecta",
@@ -11207,6 +14415,66 @@
       "confidence": 0.35
     },
     "regions": []
+  },
+  {
+    "plant_id": "mahonia_aquifolium",
+    "scientific_name": "Mahonia aquifolium (Pursh) Nutt.",
+    "family": "Berberidaceae",
+    "names": [
+      "Oregon grape",
+      "Tall Oregon grape"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal",
+      "topical"
+    ],
+    "conditions": [
+      "dermatologic_infection",
+      "digestive_complaints",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "Avoid in pregnancy; do not use in infants or with jaundice",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "tramil",
+      "source": "NA_ethnobotany",
+      "confidence": 0.65
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_PNW",
+      "US_RC"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Abundant in Pacific Northwest forests; harvest sustainably; contains berberine"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Salish",
+        "Flathead",
+        "Nlaka'pamux",
+        "Okanagan",
+        "Quinault"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "malva_parviflora",
@@ -11872,6 +15140,59 @@
     "regions": []
   },
   {
+    "plant_id": "mentha_canadensis",
+    "scientific_name": "Mentha canadensis L.",
+    "family": "Lamiaceae",
+    "names": [
+      "American wild mint",
+      "Canada mint",
+      "Wild mint"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal",
+      "ritual"
+    ],
+    "conditions": [
+      "digestive_complaints",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Generally safe; avoid large amounts in infants and young children; galactagogue in moderate doses"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Widespread and abundant; not at-risk"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Ojibwe",
+        "Cree",
+        "Blackfoot",
+        "Cherokee",
+        "Thompson"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "mentha_piperita_l",
     "scientific_name": "Mentha piperita L.",
     "family": "Lamiaceae",
@@ -12337,6 +15658,64 @@
     "regions": []
   },
   {
+    "plant_id": "mitchella_repens",
+    "scientific_name": "Mitchella repens L.",
+    "family": "Rubiaceae",
+    "names": [
+      "Partridgeberry",
+      "Squaw vine",
+      "Twinberry"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "womens_health"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "Avoid in early pregnancy; traditionally used only near term",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "caution",
+      "notes": "Low-growing woodland plant; slow to recover; use sustainably or cultivated"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Cherokee",
+        "Iroquois",
+        "Ojibwe",
+        "Penobscot",
+        "Mohegan"
+      ],
+      "native_status": "native",
+      "harvest_status": "caution",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "momordica_charantia",
     "scientific_name": "Momordica charantia",
     "family": "Cucurbitaceae",
@@ -12414,6 +15793,181 @@
       "PE",
       "VE"
     ]
+  },
+  {
+    "plant_id": "monarda_didyma",
+    "scientific_name": "Monarda didyma L.",
+    "family": "Lamiaceae",
+    "names": [
+      "Oswego tea",
+      "Red bee balm",
+      "Scarlet bee balm"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "digestive_complaints",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "Safe as culinary tea; avoid excess in pregnancy",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_NE"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Not at-risk; popular garden plant"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Iroquois",
+        "Oswego"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
+    "plant_id": "monarda_fistulosa",
+    "scientific_name": "Monarda fistulosa L.",
+    "family": "Lamiaceae",
+    "names": [
+      "Bee balm",
+      "Wild bergamot"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal",
+      "topical"
+    ],
+    "conditions": [
+      "dermatologic_infection",
+      "digestive_complaints",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient",
+        "emmenagogue"
+      ],
+      "notes": "Generally safe; avoid high doses in pregnancy (emmenagogue properties)",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_GP",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Not listed at-risk; grows readily in cultivation; harvest sustainably from abundant stands"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Ojibwe",
+        "Blackfoot",
+        "Crow",
+        "Chippewa",
+        "Winnebago",
+        "Tewa"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
+    "plant_id": "monarda_punctata",
+    "scientific_name": "Monarda punctata L.",
+    "family": "Lamiaceae",
+    "names": [
+      "Horsemint",
+      "Spotted beebalm"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "digestive_complaints",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "High thymol content — safe at culinary doses; avoid very large amounts; not for pregnancy",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_GP",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Not at-risk; grows in sandy soils from seed easily"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Chippewa",
+        "Delaware",
+        "Menominee"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "montanoa_tomentosa_cerv",
@@ -13074,6 +16628,57 @@
     ]
   },
   {
+    "plant_id": "oenothera_biennis",
+    "scientific_name": "Oenothera biennis L.",
+    "family": "Onagraceae",
+    "names": [
+      "Common evening primrose",
+      "Evening primrose"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "culinary",
+      "topical"
+    ],
+    "conditions": [
+      "dermatologic_infection"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Generally safe; seed oil may lower seizure threshold in epileptics; avoid with phenothiazines"
+    },
+    "evidence": {
+      "level": "tramil",
+      "source": "NA_ethnobotany",
+      "confidence": 0.65
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_GP",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Abundant weedy biennial; not at-risk"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Cherokee",
+        "Ojibwe"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "olea_europaea",
     "scientific_name": "Olea europaea",
     "family": "Oleaceae",
@@ -13103,6 +16708,66 @@
       "CL",
       "PA"
     ]
+  },
+  {
+    "plant_id": "oplopanax_horridus",
+    "scientific_name": "Oplopanax horridus (Sm.) Miq.",
+    "family": "Araliaceae",
+    "names": [
+      "Devil's club",
+      "Devil's walking stick (PNW)"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal",
+      "ritual"
+    ],
+    "conditions": [
+      "dermatologic_infection",
+      "musculoskeletal_pain"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "TOXIN WARNING: spines cause infection; internal use must be guided by knowledgeable healer; avoid in pregnancy",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "tramil",
+      "source": "NA_ethnobotany",
+      "confidence": 0.65
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_AK",
+      "US_PNW"
+    ],
+    "sustainability": {
+      "status": "caution",
+      "notes": "Culturally sensitive; very spiny — harvest carefully; slow-growing; prefer cultivated"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Haida",
+        "Tlingit",
+        "Tsimshian",
+        "Heiltsuk",
+        "Nisga'a",
+        "Dene"
+      ],
+      "native_status": "native",
+      "harvest_status": "caution",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "opuntia_soehrensii",
@@ -13215,6 +16880,62 @@
     "regions": []
   },
   {
+    "plant_id": "panax_quinquefolius",
+    "scientific_name": "Panax quinquefolius L.",
+    "family": "Araliaceae",
+    "names": [
+      "American ginseng",
+      "Sang"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "Avoid with blood thinners, stimulants; not for children or pregnancy",
+      "contraindications": [
+        "anticoagulant_interaction",
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "tramil",
+      "source": "NA_ethnobotany",
+      "confidence": 0.65
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "at-risk",
+      "notes": "Federally regulated for export (CITES Appendix II); severely threatened by overharvesting and habitat loss"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Cherokee",
+        "Iroquois",
+        "Ojibwe",
+        "Meskwaki",
+        "Potawatomi"
+      ],
+      "native_status": "native",
+      "harvest_status": "at-risk",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "parkinsonia_aculeata",
     "scientific_name": "Parkinsonia aculeata",
     "family": "Fabaceae",
@@ -13311,6 +17032,57 @@
       "confidence": 0.35
     },
     "regions": []
+  },
+  {
+    "plant_id": "parthenium_integrifolium",
+    "scientific_name": "Parthenium integrifolium L.",
+    "family": "Asteraceae",
+    "names": [
+      "American feverfew",
+      "Eastern feverfew",
+      "Wild quinine"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Generally safe; distinct from European feverfew (Tanacetum parthenium); no migraine evidence for this species"
+    },
+    "evidence": {
+      "level": "tramil",
+      "source": "NA_ethnobotany",
+      "confidence": 0.65
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_GP",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Not at-risk; prairie restoration plant"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Cherokee",
+        "Catawba",
+        "Winnebago"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "paspalum_vaginatum",
@@ -13470,6 +17242,59 @@
       "confidence": 0.35
     },
     "regions": []
+  },
+  {
+    "plant_id": "passiflora_incarnata",
+    "scientific_name": "Passiflora incarnata L.",
+    "family": "Passifloraceae",
+    "names": [
+      "Maypop",
+      "Passionflower"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "Mild sedative — avoid with sedative medications; not for pregnancy",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "tramil",
+      "source": "NA_ethnobotany",
+      "confidence": 0.65
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Not at-risk; grows readily; edible fruit"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Cherokee",
+        "Houma",
+        "Natchez"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "passiflora_quadrangularis",
@@ -13972,6 +17797,58 @@
       "MEXICO_TO_INDIA",
       "MX"
     ]
+  },
+  {
+    "plant_id": "picea_mariana",
+    "scientific_name": "Picea mariana (Mill.) Britton, Sterns & Poggenb.",
+    "family": "Pinaceae",
+    "names": [
+      "Black spruce",
+      "Bog spruce"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "ritual",
+      "topical"
+    ],
+    "conditions": [
+      "dermatologic_infection"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Very safe as tea; high vitamin C in fresh needles"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_AK"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Vast boreal distribution; not at-risk; clip only small amounts from any single tree"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Cree",
+        "Ojibwe",
+        "Innu",
+        "Dene",
+        "Athabascan"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "picrasma_crenata",
@@ -14692,6 +18569,279 @@
     ]
   },
   {
+    "plant_id": "podophyllum_peltatum",
+    "scientific_name": "Podophyllum peltatum L.",
+    "family": "Berberidaceae",
+    "names": [
+      "American mandrake",
+      "May apple",
+      "Wild mandrake"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "topical"
+    ],
+    "conditions": [
+      "dermatologic_infection"
+    ],
+    "toxicity": {
+      "level": "high",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "HIGHLY TOXIC except ripe fruit — podophyllin; causes severe GI, neurological damage; topical pharmaceutical use only by professionals; AVOID in pregnancy (abortifacient)",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "clinical",
+      "source": "NA_ethnobotany",
+      "confidence": 0.9
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "caution",
+      "notes": "Contains podophyllotoxin (pharmaceutical source); do not harvest root casually"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Iroquois",
+        "Cherokee",
+        "Penobscot",
+        "Ojibwe"
+      ],
+      "native_status": "native",
+      "harvest_status": "caution",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
+    "plant_id": "polemonium_reptans",
+    "scientific_name": "Polemonium reptans L.",
+    "family": "Polemoniaceae",
+    "names": [
+      "Greek valerian",
+      "Jacob's ladder",
+      "Spreading Jacob's ladder"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Limited data; use with caution"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "caution",
+      "notes": "Woodland species; harvest cautiously; limited commercial use"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Iroquois",
+        "Cherokee"
+      ],
+      "native_status": "native",
+      "harvest_status": "caution",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
+    "plant_id": "polygala_senega",
+    "scientific_name": "Polygala senega L.",
+    "family": "Polygalaceae",
+    "names": [
+      "Seneca snakeroot",
+      "Snakeroot"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "dermatologic_infection",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "Large doses cause nausea and vomiting; avoid in pregnancy; saponin-rich root",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "tramil",
+      "source": "NA_ethnobotany",
+      "confidence": 0.65
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_AK",
+      "US_GP",
+      "US_NE"
+    ],
+    "sustainability": {
+      "status": "caution",
+      "notes": "Populations declining in some areas; commercially harvested for respiratory products"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Seneca",
+        "Ojibwe",
+        "Cree"
+      ],
+      "native_status": "native",
+      "harvest_status": "caution",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
+    "plant_id": "polygonatum_biflorum",
+    "scientific_name": "Polygonatum biflorum (Walter) Elliott",
+    "family": "Asparagaceae",
+    "names": [
+      "Common Solomon's seal",
+      "Solomon's seal"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "digestive_complaints"
+    ],
+    "toxicity": {
+      "level": "high",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "Berries TOXIC; root generally safe; avoid in pregnancy",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_GP",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "caution",
+      "notes": "Slow-growing woodland rhizome; prefer cultivated; harvesting root kills plant"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Iroquois",
+        "Cherokee",
+        "Ojibwe",
+        "Meskwaki"
+      ],
+      "native_status": "native",
+      "harvest_status": "caution",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
+    "plant_id": "polygonum_bistortoides",
+    "scientific_name": "Polygonum bistortoides Pursh",
+    "family": "Polygonaceae",
+    "names": [
+      "American bistort",
+      "Knotweed",
+      "Mountain bistort"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "culinary",
+      "medicinal"
+    ],
+    "conditions": [
+      "digestive_complaints"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Edible; high in tannins — moderate use; safe"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_PNW",
+      "US_RC"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Alpine meadow species; harvest sustainably; leave most plants"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Blackfoot",
+        "Nez Perce",
+        "Okanagan"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "polygonum_punctatum",
     "scientific_name": "Polygonum punctatum",
     "family": "Polygonaceae",
@@ -14749,6 +18899,58 @@
       "CL",
       "CO"
     ]
+  },
+  {
+    "plant_id": "populus_balsamifera",
+    "scientific_name": "Populus balsamifera L.",
+    "family": "Salicaceae",
+    "names": [
+      "Balm of Gilead",
+      "Balsam poplar"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "topical"
+    ],
+    "conditions": [
+      "dermatologic_infection",
+      "musculoskeletal_pain"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Contains salicylates — avoid with aspirin sensitivity; generally safe topically"
+    },
+    "evidence": {
+      "level": "tramil",
+      "source": "NA_ethnobotany",
+      "confidence": 0.65
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_AK",
+      "US_NE"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Widespread boreal species; not at-risk; gather fallen buds when possible"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Cree",
+        "Ojibwe",
+        "Dene",
+        "Athabascan"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "porlieria_chilensis",
@@ -14830,6 +19032,108 @@
     "regions": [
       "AR"
     ]
+  },
+  {
+    "plant_id": "prunella_vulgaris",
+    "scientific_name": "Prunella vulgaris L.",
+    "family": "Lamiaceae",
+    "names": [
+      "Heal-all",
+      "Prunella",
+      "Self-heal"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "topical"
+    ],
+    "conditions": [
+      "dermatologic_infection",
+      "digestive_complaints"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Very safe; edible herb"
+    },
+    "evidence": {
+      "level": "tramil",
+      "source": "NA_ethnobotany",
+      "confidence": 0.65
+    },
+    "regions": [
+      "CA",
+      "US"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Extremely abundant lawn weed; not at-risk"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Ojibwe",
+        "Iroquois",
+        "Cherokee"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
+    "plant_id": "prunus_virginiana",
+    "scientific_name": "Prunus virginiana L.",
+    "family": "Rosaceae",
+    "names": [
+      "Chokecherry",
+      "Western chokecherry"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "culinary"
+    ],
+    "conditions": [
+      "digestive_complaints",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Bark, seeds, leaves contain cyanogenic glycosides — cook berries; don't consume large quantities of seeds or raw leaves"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Widespread and abundant; not at-risk; widely used as food and medicine"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Blackfoot",
+        "Cree",
+        "Ojibwe",
+        "Lakota",
+        "Cheyenne",
+        "Navajo"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "pseudognaphalium_obtusifolium_l_hilliard__b_l_burtt",
@@ -15262,6 +19566,63 @@
     "regions": []
   },
   {
+    "plant_id": "rhus_trilobata",
+    "scientific_name": "Rhus trilobata Nutt.",
+    "family": "Anacardiaceae",
+    "names": [
+      "Lemita",
+      "Lemonade bush",
+      "Skunkbush",
+      "Three-leaf sumac"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "culinary",
+      "topical"
+    ],
+    "conditions": [
+      "dermatologic_infection",
+      "digestive_complaints",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "high",
+      "type": [],
+      "notes": "Edible berries (sour, not toxic); not related to poison sumac (Toxicodendron) — safe"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_GP",
+      "US_RC",
+      "US_SW"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Abundant in dry western habitats; not at-risk"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Pueblo",
+        "Navajo",
+        "Paiute",
+        "Hopi"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "ribes_cucullatum",
     "scientific_name": "Ribes cucullatum",
     "family": "Grossulariaceae",
@@ -15553,6 +19914,55 @@
     ]
   },
   {
+    "plant_id": "rumex_hymenosepalus",
+    "scientific_name": "Rumex hymenosepalus Torr.",
+    "family": "Polygonaceae",
+    "names": [
+      "Canaigre",
+      "Curly desert dock",
+      "Desert rhubarb",
+      "Wild rhubarb"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "High tannin and oxalate content — excessive internal use can cause kidney stones; topical use safe"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_SW"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Abundant in sandy Southwest soils; not at-risk; commercially harvested for tannin"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Navajo",
+        "Zuni",
+        "Pueblo"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "ruta_chalepensis",
     "scientific_name": "Ruta chalepensis",
     "family": "Rutaceae",
@@ -15742,6 +20152,117 @@
     ]
   },
   {
+    "plant_id": "salix_spp",
+    "scientific_name": "Salix spp. (S. alba, S. nigra, S. lucida)",
+    "family": "Salicaceae",
+    "names": [
+      "Black willow",
+      "Pussy willow",
+      "Willow"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "musculoskeletal_pain",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Avoid with aspirin sensitivity; blood-thinning effect; do not combine with anticoagulants; avoid in children (Reye's syndrome risk, as with aspirin)",
+      "contraindications": [
+        "anticoagulant_interaction"
+      ]
+    },
+    "evidence": {
+      "level": "tramil",
+      "source": "NA_ethnobotany",
+      "confidence": 0.65
+    },
+    "regions": [
+      "CA",
+      "US"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Abundant; not at-risk as a group; clip from branches — do not ring-bark"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Cherokee",
+        "Ojibwe",
+        "Blackfoot",
+        "Navajo",
+        "Cree",
+        "Iroquois"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
+    "plant_id": "salvia_apiana",
+    "scientific_name": "Salvia apiana Jeps.",
+    "family": "Lamiaceae",
+    "names": [
+      "Bee sage",
+      "Sacred sage",
+      "White sage"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "ritual",
+      "topical"
+    ],
+    "conditions": [
+      "dermatologic_infection",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Ceremonial smoke inhalation caution; thujone content — avoid as internal tea in large amounts; sacred plant — harvest with permission and respect"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_CA",
+      "US_SW"
+    ],
+    "sustainability": {
+      "status": "at-risk",
+      "notes": "Critically overharvested for commercial smudge bundles; sacred to California nations; habitat threatened — do not wild-harvest"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Chumash",
+        "Cahuilla",
+        "Tongva",
+        "Luiseño",
+        "Kumeyaay"
+      ],
+      "native_status": "native",
+      "harvest_status": "at-risk",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "salvia_leucantha_cav",
     "scientific_name": "Salvia leucantha Cav.",
     "family": "Lamiaceae",
@@ -15882,9 +20403,11 @@
   },
   {
     "plant_id": "sambucus_canadensis",
-    "scientific_name": "Sambucus canadensis",
-    "family": "Caprifoliaceae",
+    "scientific_name": "Sambucus canadensis L.",
+    "family": "Adoxaceae",
     "names": [
+      "American elderberry",
+      "Common elderberry",
       "Honduras",
       "México",
       "Nicaragua)",
@@ -15892,34 +20415,62 @@
     ],
     "countries": [
       "BO",
+      "CA",
       "CL",
       "EC",
       "GT",
       "PA",
-      "PY"
+      "PY",
+      "US"
     ],
     "uses": [
-      "medicinal"
+      "medicinal",
+      "topical"
     ],
-    "conditions": [],
+    "conditions": [
+      "dermatologic_infection",
+      "respiratory_support"
+    ],
     "toxicity": {
-      "level": "low",
+      "level": "high",
       "type": [],
-      "notes": null
+      "notes": "Raw berries/bark/leaves cause nausea — cook before use; do not confuse with toxic red elderberry (S. racemosa)"
     },
     "evidence": {
-      "level": "traditional",
-      "source": "layered merge",
-      "confidence": 0.35
+      "level": "tramil",
+      "source": "layered merge; NA_ethnobotany",
+      "confidence": 0.65
     },
     "regions": [
       "BO",
+      "CA",
       "CL",
       "EC",
       "GT",
       "PA",
-      "PY"
-    ]
+      "PY",
+      "US",
+      "US_GP",
+      "US_NE",
+      "US_SE"
+    ],
+    "lookalike_risk": true,
+    "sustainability": {
+      "status": "safe",
+      "notes": "Not at-risk; grows abundantly in moist habitats; cook berries before consuming"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Potawatomi",
+        "Cherokee",
+        "Iroquois",
+        "Ojibwe",
+        "Delaware"
+      ],
+      "native_status_na": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1"
+    }
   },
   {
     "plant_id": "sambucus_mexicana",
@@ -16040,6 +20591,62 @@
     "regions": []
   },
   {
+    "plant_id": "sanguinaria_canadensis",
+    "scientific_name": "Sanguinaria canadensis L.",
+    "family": "Papaveraceae",
+    "names": [
+      "Bloodroot",
+      "Red puccoon"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "ritual",
+      "topical"
+    ],
+    "conditions": [],
+    "toxicity": {
+      "level": "high",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "TOXIC internally in large doses — sanguinarine alkaloid; external/low-dose use only; not for pregnancy",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "tramil",
+      "source": "NA_ethnobotany",
+      "confidence": 0.65
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "at-risk",
+      "notes": "UpS At-Risk List; slow reproducer; do not wild-harvest casually"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Iroquois",
+        "Algonquin",
+        "Cherokee",
+        "Ojibwe",
+        "Potawatomi"
+      ],
+      "native_status": "native",
+      "harvest_status": "at-risk",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "sansevieria_trifasciata_prain",
     "scientific_name": "Sansevieria trifasciata Prain",
     "family": "Asparagaceae",
@@ -16116,6 +20723,57 @@
       "confidence": 0.35
     },
     "regions": []
+  },
+  {
+    "plant_id": "sassafras_albidum",
+    "scientific_name": "Sassafras albidum (Nutt.) Nees",
+    "family": "Lauraceae",
+    "names": [
+      "Sassafras"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "culinary",
+      "topical"
+    ],
+    "conditions": [
+      "dermatologic_infection"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Safrole in root bark — FDA banned as food additive (animal carcinogen); occasional tea use considered low-risk but avoid regular internal consumption"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Abundant and weedy; not at-risk"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Cherokee",
+        "Iroquois",
+        "Ojibwe",
+        "Chippewa"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "satureja_macrostema_benth",
@@ -16381,6 +21039,59 @@
     "regions": [
       "GY"
     ]
+  },
+  {
+    "plant_id": "scutellaria_lateriflora",
+    "scientific_name": "Scutellaria lateriflora L.",
+    "family": "Lamiaceae",
+    "names": [
+      "Mad dog skullcap",
+      "Virginia skullcap"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "Generally safe at recommended doses; potential hepatotoxicity from adulterated commercial products; avoid in pregnancy",
+      "contraindications": [
+        "liver_caution",
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "tramil",
+      "source": "NA_ethnobotany",
+      "confidence": 0.65
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "caution",
+      "notes": "Not currently at-risk but populations declining; prefer cultivated sources"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Cherokee",
+        "Iroquois"
+      ],
+      "native_status": "native",
+      "harvest_status": "caution",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "sebastiania_brasiliensis",
@@ -17394,6 +22105,59 @@
     ]
   },
   {
+    "plant_id": "sphaeralcea_angustifolia",
+    "scientific_name": "Sphaeralcea angustifolia (Cav.) G. Don",
+    "family": "Malvaceae",
+    "names": [
+      "Globe mallow",
+      "Sore-eye poppy",
+      "Yerba del negro"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal",
+      "topical"
+    ],
+    "conditions": [
+      "dermatologic_infection",
+      "digestive_complaints"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Leaf hairs can irritate eyes and mucous membranes; prepare as tea carefully; generally safe"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_SW"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Abundant in dry Southwest; not at-risk"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Navajo",
+        "Hopi",
+        "Zuni",
+        "Pueblo"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "spigelia_anthelmia",
     "scientific_name": "Spigelia anthelmia",
     "family": "Loganiaceae",
@@ -18222,6 +22986,60 @@
     ]
   },
   {
+    "plant_id": "thelesperma_megapotamicum",
+    "scientific_name": "Thelesperma megapotamicum (Spreng.) Kuntze",
+    "family": "Asteraceae",
+    "names": [
+      "Cota",
+      "Hopi tea",
+      "Indian tea",
+      "Navajo tea"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "culinary",
+      "medicinal"
+    ],
+    "conditions": [
+      "digestive_complaints"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Very safe as daily beverage tea; antioxidant properties"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_GP",
+      "US_SW"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Not at-risk; sustainably harvested commercially by SW communities"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Navajo",
+        "Hopi",
+        "Zuni",
+        "Apache"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
+  },
+  {
     "plant_id": "thevetia_ahouai_l_a_dc",
     "scientific_name": "Thevetia ahouai (L.) A. DC.",
     "family": "Apocynaceae",
@@ -18244,6 +23062,65 @@
       "MX",
       "NORTH_SOUTH_AMERICA"
     ]
+  },
+  {
+    "plant_id": "thuja_occidentalis",
+    "scientific_name": "Thuja occidentalis L.",
+    "family": "Cupressaceae",
+    "names": [
+      "Arborvitae",
+      "Eastern white cedar",
+      "Northern white cedar"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "ritual"
+    ],
+    "conditions": [
+      "musculoskeletal_pain",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "Thujone content — avoid internal use in pregnancy; do not use essential oil internally",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_AK",
+      "US_NE"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Widely available; not at-risk; clip branchlets sustainably"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Ojibwe",
+        "Potawatomi",
+        "Iroquois",
+        "Algonquin",
+        "Cree"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "thymus_vulgaris",
@@ -18559,6 +23436,57 @@
     ]
   },
   {
+    "plant_id": "trifolium_pratense",
+    "scientific_name": "Trifolium pratense L.",
+    "family": "Fabaceae",
+    "names": [
+      "Meadow clover",
+      "Red clover"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "topical"
+    ],
+    "conditions": [
+      "dermatologic_infection"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "Contains isoflavones; avoid with hormone-sensitive conditions; not for pregnancy in medicinal amounts",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "tramil",
+      "source": "NA_ethnobotany",
+      "confidence": 0.65
+    },
+    "regions": [
+      "CA",
+      "US"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Widespread introduced species; not at-risk; widely cultivated"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Cherokee"
+      ],
+      "native_status": "naturalized",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "naturalized"
+    }
+  },
+  {
     "plant_id": "trigonella_foenumgraecum",
     "scientific_name": "Trigonella foenum-graecum",
     "family": "Fabaceae",
@@ -18586,6 +23514,65 @@
     "regions": [
       "CL"
     ]
+  },
+  {
+    "plant_id": "trillium_erectum",
+    "scientific_name": "Trillium erectum L.",
+    "family": "Melanthiaceae",
+    "names": [
+      "Bethroot",
+      "Birthroot",
+      "Red trillium"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal",
+      "topical"
+    ],
+    "conditions": [
+      "dermatologic_infection",
+      "womens_health"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "Avoid in pregnancy except under skilled guidance near term; saponin-rich — moderate toxicity",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "at-risk",
+      "notes": "UpS At-Risk List; extremely slow growing — harvesting root kills plant; never wild-harvest"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Cherokee",
+        "Ojibwe",
+        "Iroquois",
+        "Potawatomi"
+      ],
+      "native_status": "native",
+      "harvest_status": "at-risk",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "tristerix_tetrandrus",
@@ -18694,6 +23681,62 @@
       "confidence": 0.35
     },
     "regions": []
+  },
+  {
+    "plant_id": "ulmus_rubra",
+    "scientific_name": "Ulmus rubra Muhl.",
+    "family": "Ulmaceae",
+    "names": [
+      "Red elm",
+      "Slippery elm"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal",
+      "topical"
+    ],
+    "conditions": [
+      "dermatologic_infection",
+      "digestive_complaints",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Generally safe; may slow absorption of medications if taken together"
+    },
+    "evidence": {
+      "level": "tramil",
+      "source": "NA_ethnobotany",
+      "confidence": 0.65
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_GP",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "at-risk",
+      "notes": "UpS At-Risk List; harvesting bark kills the tree; Dutch elm disease has further reduced populations — use only sustainably sourced"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Cherokee",
+        "Iroquois",
+        "Chippewa",
+        "Ojibwe",
+        "Potawatomi"
+      ],
+      "native_status": "native",
+      "harvest_status": "at-risk",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "uncaria_tomentosa",
@@ -18856,38 +23899,61 @@
   },
   {
     "plant_id": "urtica_dioica",
-    "scientific_name": "Urtica dioica",
+    "scientific_name": "Urtica dioica L.",
     "family": "Urticaceae",
     "names": [
-      "Ortiga"
+      "Common nettle",
+      "Ortiga",
+      "Stinging nettle"
     ],
     "countries": [
+      "CA",
       "CL",
       "PY",
+      "US",
       "UY"
     ],
     "uses": [
       "culinary",
       "medicinal"
     ],
-    "conditions": [],
+    "conditions": [
+      "musculoskeletal_pain"
+    ],
     "toxicity": {
       "level": "low",
       "type": [],
-      "notes": null
+      "notes": "Use gloves when harvesting; root may interact with blood pressure and prostate medications"
     },
     "evidence": {
-      "level": "traditional",
-      "source": "S1; S2; S6",
-      "confidence": 0.35
+      "level": "tramil",
+      "source": "S1; S2; S6; NA_ethnobotany",
+      "confidence": 0.65
     },
     "regions": [
+      "CA",
       "CL",
       "EURASIA",
       "MX",
       "PY",
+      "US",
       "UY"
-    ]
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Abundant and widespread; harvest young leaves with gloves; cooking/drying neutralizes sting"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Ojibwe",
+        "Iroquois",
+        "Blackfoot",
+        "Okanagan"
+      ],
+      "native_status_na": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1"
+    }
   },
   {
     "plant_id": "urtica_dioica_l",
@@ -19035,17 +24101,22 @@
   },
   {
     "plant_id": "valeriana_officinalis",
-    "scientific_name": "Valeriana officinalis",
+    "scientific_name": "Valeriana officinalis L. / V. sitchensis Bong.",
     "family": "Caprifoliaceae",
     "names": [
+      "Garden valerian",
+      "Sitka valerian",
+      "Valerian",
       "Valeriana"
     ],
     "countries": [
       "AR",
       "BO",
+      "CA",
       "CL",
       "GT",
       "PE",
+      "US",
       "VE"
     ],
     "uses": [
@@ -19056,25 +24127,48 @@
     ],
     "toxicity": {
       "level": "low",
-      "type": [],
-      "notes": null
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "Sedative — avoid with other sedatives, alcohol; may cause vivid dreams; avoid in pregnancy; morning drowsiness at high doses",
+      "contraindications": [
+        "pregnancy"
+      ]
     },
     "evidence": {
-      "level": "traditional",
-      "source": "S4",
-      "confidence": 0.35
+      "level": "tramil",
+      "source": "S4; NA_ethnobotany",
+      "confidence": 0.65
     },
     "regions": [
       "AR",
       "ASIA",
       "BO",
+      "CA",
       "CL",
       "EUROPE",
       "GT",
       "MX",
       "PE",
+      "US",
+      "US_AK",
+      "US_NE",
+      "US_PNW",
       "VE"
-    ]
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Not at-risk; widely cultivated"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Menominee",
+        "Ojibwe"
+      ],
+      "native_status_na": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1"
+    }
   },
   {
     "plant_id": "valeriana_officinalis_l",
@@ -19117,6 +24211,57 @@
     "regions": [
       "MX"
     ]
+  },
+  {
+    "plant_id": "veratrum_viride",
+    "scientific_name": "Veratrum viride Aiton",
+    "family": "Melanthiaceae",
+    "names": [
+      "False hellebore",
+      "Indian poke",
+      "White hellebore"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "ritual"
+    ],
+    "conditions": [
+      "musculoskeletal_pain"
+    ],
+    "toxicity": {
+      "level": "high",
+      "type": [],
+      "notes": "HIGHLY TOXIC — steroidal alkaloids; small doses cause cardiac and respiratory depression; modern medicinal use nearly abandoned; historical interest only; do not wild-harvest"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_AK",
+      "US_NE",
+      "US_PNW"
+    ],
+    "sustainability": {
+      "status": "caution",
+      "notes": "Do not harvest or use without expert guidance"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Iroquois",
+        "Algonquin"
+      ],
+      "native_status": "native",
+      "harvest_status": "caution",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "verbascum_thapsus",
@@ -19190,6 +24335,63 @@
       "MX",
       "USA_TO_MEXICO"
     ]
+  },
+  {
+    "plant_id": "verbena_hastata",
+    "scientific_name": "Verbena hastata L.",
+    "family": "Verbenaceae",
+    "names": [
+      "Blue vervain",
+      "Swamp verbena"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "digestive_complaints",
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "Generally safe; mild sedative; avoid in pregnancy",
+      "contraindications": [
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_GP",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Widespread wetland plant; not at-risk"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Iroquois",
+        "Ojibwe",
+        "Menominee"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "verbena_litoralis",
@@ -19392,6 +24594,57 @@
     "regions": [
       "GY"
     ]
+  },
+  {
+    "plant_id": "veronicastrum_virginicum",
+    "scientific_name": "Veronicastrum virginicum (L.) Farw.",
+    "family": "Plantaginaceae",
+    "names": [
+      "Blackroot",
+      "Culver's root"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "respiratory_support"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": "Fresh root strongly cathartic — use aged root only; can cause hepatitis with long-term use"
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_GP",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Not at-risk; grows in cultivation easily"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Ojibwe",
+        "Seneca",
+        "Menominee"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "waltheria_indica",
@@ -19620,6 +24873,65 @@
     "regions": [
       "VE"
     ]
+  },
+  {
+    "plant_id": "zanthoxylum_americanum",
+    "scientific_name": "Zanthoxylum americanum Mill.",
+    "family": "Rutaceae",
+    "names": [
+      "Northern prickly ash",
+      "Prickly ash",
+      "Toothache tree"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [
+      "digestive_complaints",
+      "musculoskeletal_pain"
+    ],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": "May interact with blood thinners (stimulates circulation); avoid in pregnancy; numbing quality from chewing bark",
+      "contraindications": [
+        "anticoagulant_interaction",
+        "pregnancy"
+      ]
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "NA_ethnobotany",
+      "confidence": 0.35
+    },
+    "regions": [
+      "CA",
+      "US",
+      "US_GP",
+      "US_NE",
+      "US_SE"
+    ],
+    "sustainability": {
+      "status": "safe",
+      "notes": "Widespread shrub; not at-risk"
+    },
+    "metadata": {
+      "indigenous_nations": [
+        "Ojibwe",
+        "Potawatomi",
+        "Cherokee"
+      ],
+      "native_status": "native",
+      "harvest_status": "safe",
+      "na_source": "na_ethnobotany_v1",
+      "native_status_na": "native"
+    }
   },
   {
     "plant_id": "zea_mays",

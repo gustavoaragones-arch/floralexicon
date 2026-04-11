@@ -9,15 +9,27 @@ type Props = {
   hubKey: string;
   plantId: string;
   className?: string;
+  /** Fires after local click recording (e.g. `floralexicon:click` for analytics). */
+  onAnalytics?: () => void;
   children: ReactNode;
 };
 
-export function ViewPlantLink({ href, hubKey, plantId, className, children }: Props) {
+export function ViewPlantLink({
+  href,
+  hubKey,
+  plantId,
+  className,
+  onAnalytics,
+  children,
+}: Props) {
   return (
     <Link
       href={href}
       className={className}
-      onClick={() => recordPlantClick(hubKey, plantId)}
+      onClick={() => {
+        recordPlantClick(hubKey, plantId);
+        onAnalytics?.();
+      }}
     >
       {children}
     </Link>

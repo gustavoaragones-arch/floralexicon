@@ -10,6 +10,7 @@ import {
   ti,
   type Locale,
 } from "@/lib/i18n";
+import { normalizeHubKey } from "@/lib/hubKey";
 import { runDisambiguationSearch } from "@/lib/search";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -62,7 +63,7 @@ export default function DisambiguationSearchPage({ params, searchParams }: Props
   const heading =
     result.displayQuery || t(lang, "search_prompt_title");
 
-  const hubKeyForClicks = result.normalizedHub.trim().toLowerCase();
+  const hubKeyForClicks = normalizeHubKey(result.normalizedHub);
 
   return (
     <main className="mx-auto w-full max-w-[720px] px-6 py-14 sm:py-18">
@@ -162,6 +163,18 @@ export default function DisambiguationSearchPage({ params, searchParams }: Props
             </div>
           ) : null}
 
+          {result.showGlobalLookalikeSoft ? (
+            <div
+              className="mt-4 rounded-xl border border-violet-400/70 bg-violet-50 px-4 py-3 text-sm font-medium leading-relaxed text-violet-950 dark:border-violet-700/50 dark:bg-violet-950/40 dark:text-violet-100"
+              role="status"
+            >
+              <span className="mr-2" aria-hidden>
+                ⚠️
+              </span>
+              {t(lang, "search_global_lookalike_soft")}
+            </div>
+          ) : null}
+
           {result.hasMultiplePlants ? (
             <p className="mt-8 font-medium text-stone-800 dark:text-stone-200">
               {ti(lang, "search_rank_intro", { name: result.displayQuery })}
@@ -173,6 +186,8 @@ export default function DisambiguationSearchPage({ params, searchParams }: Props
             hubKey={hubKeyForClicks}
             initialRows={result.rows}
             hasMultiplePlants={result.hasMultiplePlants}
+            searchQuery={result.displayQuery}
+            searchCountryParam={userCountry}
           />
 
           <p className="mt-10 text-center text-sm text-stone-500 dark:text-stone-500">

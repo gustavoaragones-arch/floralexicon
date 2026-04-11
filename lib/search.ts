@@ -6,12 +6,13 @@ import {
 } from "@/lib/data";
 import { getCountryDisplayName } from "@/lib/countries";
 import { getPlantCountryCodesSorted } from "@/lib/geo";
-import type { I18nKey, Locale } from "@/lib/i18n";
+import { i18nHasKey, t, type I18nKey, type Locale } from "@/lib/i18n";
 import type {
   PlantNameMatch,
   ResolvedPlantContext,
 } from "@/lib/resolver";
 import { resolvePlantName } from "@/lib/resolver";
+import { normalizeHubKey } from "@/lib/hubKey";
 
 /** Query normalization for search (accents, case, hyphens). */
 export function normalizeQuery(input: string): string {
@@ -82,7 +83,115 @@ export function parseSearchQuery(raw: string): {
 type ExtendedPlant = Plant & {
   toxicity?: { level?: string; type?: string[]; notes?: string | null };
   evidence?: { level?: string; source?: string; confidence?: number };
+  sustainability?: { status?: string; notes?: string | null };
+  lookalike_risk?: boolean;
+  geo_precision?: string;
+  /** Merged dataset: ISO countries + regional tokens (e.g. US_NE). */
+  countries?: string[];
+  regions?: string[];
+  metadata?: { na_source?: string; mx_source?: string };
 };
+
+type EvidenceLevelKey = "traditional" | "empirical" | "tramil" | "clinical";
+
+const EVIDENCE_SCORE_MULT: Record<EvidenceLevelKey, number> = {
+  traditional: 1.0,
+  empirical: 1.03,
+  tramil: 1.06,
+  clinical: 1.1,
+};
+
+function readEvidenceLevelKey(plant: Plant): EvidenceLevelKey {
+  const r = evidenceRank(plant);
+  if (r >= 4) return "clinical";
+  if (r >= 3) return "tramil";
+  if (r >= 2) return "empirical";
+  return "traditional";
+}
+
+function readMergedRegions(plant: Plant): string[] {
+  const r = (plant as ExtendedPlant).regions;
+  if (!Array.isArray(r)) return [];
+  return r.map((x) => String(x).trim().toUpperCase()).filter(Boolean);
+}
+
+function readMergedCountries(plant: Plant): string[] {
+  const c = (plant as ExtendedPlant).countries;
+  if (!Array.isArray(c)) return [];
+  return c.map((x) => String(x).trim().toUpperCase()).filter(Boolean);
+}
+
+/** Subnational token like US_NE — used for geo-precision inline copy. */
+function pickSubnationalRegionToken(
+  regs: string[],
+  uc: string
+): string | null {
+  const u = uc.trim().toUpperCase();
+  if (!u || regs.length === 0) return null;
+  const hits = regs.filter(
+    (r) => r.startsWith(`${u}_`) || (r.length > u.length && r[u.length] === "_")
+  );
+  if (hits.length === 0) return null;
+  hits.sort((a, b) => b.length - a.length);
+  return hits[0] ?? null;
+}
+
+/** Readable fallback when no localized region string exists (e.g. MX_BAJA → "MX BAJA"). */
+function humanizeRegionToken(token: string): string {
+  const k = token.trim().toUpperCase();
+  if (/^[A-Z]{2}_[A-Z0-9]+/.test(k)) {
+    const cc = k.slice(0, 2);
+    const rest = k.slice(3).replace(/_/g, " ");
+    return `${cc} ${rest}`.trim();
+  }
+  return k.replace(/_/g, " ");
+}
+
+const REGION_CACHE_MAX = 200;
+const regionLabelCache = new Map<string, string>();
+
+function regionLabelCacheKey(lang: Locale, tokenUpper: string): string {
+  return `${lang}\t${tokenUpper}`;
+}
+
+/** LRU touch: move entry to most-recent end (Map insertion order). */
+function getRegionLabelCache(key: string): string | undefined {
+  const val = regionLabelCache.get(key);
+  if (val !== undefined) {
+    regionLabelCache.delete(key);
+    regionLabelCache.set(key, val);
+  }
+  return val;
+}
+
+function setRegionLabelCache(key: string, value: string): void {
+  if (regionLabelCache.size >= REGION_CACHE_MAX && !regionLabelCache.has(key)) {
+    const firstKey = regionLabelCache.keys().next().value;
+    if (firstKey !== undefined) regionLabelCache.delete(firstKey);
+  }
+  regionLabelCache.delete(key);
+  regionLabelCache.set(key, value);
+}
+
+function mergedRegionLabelForDisplay(token: string, lang: Locale): string {
+  const k = token.trim().toUpperCase();
+  const ck = regionLabelCacheKey(lang, k);
+  const cached = getRegionLabelCache(ck);
+  if (cached !== undefined) return cached;
+  const dynKey = `search_geo_label_${k.toLowerCase()}`;
+  const label = i18nHasKey(dynKey) ? t(lang, dynKey) : humanizeRegionToken(k);
+  setRegionLabelCache(ck, label);
+  return label;
+}
+
+function readLookalikeRisk(plant: Plant): boolean {
+  return (plant as ExtendedPlant).lookalike_risk === true;
+}
+
+function readSustainabilityStatus(plant: Plant): string {
+  const s = (plant as ExtendedPlant).sustainability?.status;
+  return typeof s === "string" ? s.trim().toLowerCase() : "";
+}
 
 function readToxicityLevel(plant: Plant): string {
   const l = (plant as ExtendedPlant).toxicity?.level;
@@ -131,8 +240,9 @@ export function cardSafetySupportLineKey(plant: Plant): I18nKey | null {
 function evidenceRank(plant: Plant): number {
   const raw = (plant as ExtendedPlant).evidence?.level;
   const l = typeof raw === "string" ? raw.toLowerCase() : "";
-  if (l === "clinical" || l === "experimental") return 3;
-  if (l === "tramil") return 2;
+  if (l === "clinical" || l === "experimental") return 4;
+  if (l === "tramil") return 3;
+  if (l === "empirical") return 2;
   return 1;
 }
 
@@ -181,6 +291,10 @@ export type WhyBullet = { i18nKey: I18nKey; vars?: Record<string, string> };
 /** One visible line under the confidence bar (region boost → usage → top country). */
 export type InlineConfidenceLine =
   | { i18nKey: "search_inline_reason_region"; vars: { country: string } }
+  | {
+      i18nKey: "search_inline_reason_region_specific";
+      vars: { regionLabel: string };
+    }
   | { i18nKey: "search_inline_reason_usage" }
   | { i18nKey: "search_disamb_common_in"; vars: { country: string } };
 
@@ -192,15 +306,19 @@ export type DisambiguationRow = {
   countries: string[];
   tier: DisambiguationTier;
   barLevel: ConfidenceBarLevel;
-  evidenceKey: "clinical" | "tramil" | "traditional";
+  evidenceKey: "clinical" | "tramil" | "empirical" | "traditional";
   showSafetyRow: boolean;
   isAbortifacient: boolean;
+  /** Indexed confusable-species risk (separate from toxicity row). */
+  hasLookalikeWarning: boolean;
   whyBullets: WhyBullet[];
   inlineConfidenceLine: InlineConfidenceLine | null;
   /** Short safety pill when this row contributes to caution (which one is risky). */
   safetyMicroBadgeKey: I18nKey | null;
   /** Muted line under badge for lethal / high only. */
   safetySupportLineKey: I18nKey | null;
+  /** Sorted source labels for “Sources: …” (client may truncate + expand). */
+  sourceProvenanceItems: string[] | null;
 };
 
 function confidenceTier(conf: number): DisambiguationTier {
@@ -222,7 +340,7 @@ function bestDisplayName(
 ): string {
   const forPlant = matches.filter((m) => m.plant.id === plantId);
   if (forPlant.length === 0) return "";
-  const hub = hubKey.trim().toLowerCase();
+  const hub = normalizeHubKey(hubKey);
   const exact = forPlant.find(
     (m) => normalizeString(m.name_entry.normalized) === hub
   );
@@ -240,7 +358,6 @@ function sortScore(
   if (ctx.countries.some((c) => c === "MX")) s += 2;
   const uc = userCountry?.trim().toUpperCase();
   if (uc && ctx.countries.includes(uc)) s += 3;
-  s += evidenceRank(plant) * 0.15;
   if (!lethalIntent) s -= safetyPenalty(plant) * 8;
 
   if (intent.oral) {
@@ -264,6 +381,23 @@ function sortScore(
     } else if (plantNeedsToxicCaution(plant)) {
       s += 1;
     }
+  }
+
+  const evKey = readEvidenceLevelKey(plant);
+  s *= EVIDENCE_SCORE_MULT[evKey] ?? 1;
+
+  if (uc) {
+    const regs = readMergedRegions(plant);
+    const mct = readMergedCountries(plant);
+    if (regs.length > 0 && regs.some((r) => r.startsWith(uc))) {
+      s *= 1.12;
+    } else if (mct.length > 0 && mct.includes(uc)) {
+      s *= 1.06;
+    }
+  }
+
+  if (readSustainabilityStatus(plant) === "at-risk") {
+    s *= 0.9;
   }
 
   return s;
@@ -304,6 +438,8 @@ function buildWhyBullets(p: {
 
   if (p.evidenceKey === "traditional") {
     out.push({ i18nKey: "search_why_evidence_traditional" });
+  } else if (p.evidenceKey === "empirical") {
+    out.push({ i18nKey: "search_why_evidence_empirical" });
   } else if (p.evidenceKey === "tramil") {
     out.push({ i18nKey: "search_why_evidence_tramil" });
   } else {
@@ -328,6 +464,133 @@ function buildWhyBullets(p: {
   }
 
   return out.slice(0, 7);
+}
+
+/** Normalize hub confidences so distinct plants’ shares sum to 1.0 (float fix on first row). */
+export function normalizePlantContextConfidences(
+  contexts: ResolvedPlantContext[]
+): ResolvedPlantContext[] {
+  if (contexts.length <= 1) return contexts;
+  const sum = contexts.reduce((a, c) => a + c.confidence, 0);
+  if (sum <= 0 || Math.abs(sum - 1) < 1e-9) return contexts;
+  const scaled = contexts.map((c) => ({
+    ...c,
+    confidence: Math.round((c.confidence / sum) * 1000) / 1000,
+  }));
+  const sum2 = scaled.reduce((a, c) => a + c.confidence, 0);
+  const delta = Math.round((1 - sum2) * 1000) / 1000;
+  if (delta !== 0 && scaled[0]) {
+    scaled[0] = {
+      ...scaled[0],
+      confidence: +(scaled[0].confidence + delta).toFixed(3),
+    };
+  }
+  return scaled;
+}
+
+const SOURCE_LINE_MAX = 96;
+
+/** Max provenance items shown before “(+N more)” expand in the disambiguation card. */
+export const SOURCE_PROVENANCE_VISIBLE_CAP = 3;
+
+type ProvenanceBucket = "catalog" | "mexico" | "north_america" | "other";
+
+const PROVENANCE_BUCKET_ORDER: Record<ProvenanceBucket, number> = {
+  catalog: 0,
+  mexico: 1,
+  north_america: 2,
+  other: 3,
+};
+
+type ProvenanceEntry = {
+  display: string;
+  bucket: ProvenanceBucket;
+  /** Normalized raw fragment for deterministic tie-break (fixed `en` collation). */
+  rawNorm: string;
+};
+
+function mergeProvenanceEntry(prev: ProvenanceEntry, next: ProvenanceEntry): ProvenanceEntry {
+  const bo =
+    PROVENANCE_BUCKET_ORDER[next.bucket] - PROVENANCE_BUCKET_ORDER[prev.bucket];
+  if (bo < 0) return next;
+  if (bo > 0) return prev;
+  const rawNorm =
+    prev.rawNorm.localeCompare(next.rawNorm, "en") <= 0
+      ? prev.rawNorm
+      : next.rawNorm;
+  return { display: prev.display, bucket: prev.bucket, rawNorm };
+}
+
+/** Map a source fragment to display text + stable sort bucket (locale-safe ordering). */
+function sourceSegmentToProvenanceEntry(
+  lang: Locale,
+  segment: string
+): ProvenanceEntry | null {
+  const w = segment.trim();
+  if (!w) return null;
+  const rawNorm = w.toLowerCase();
+  const low = rawNorm;
+  if (low.includes("master") || low.includes("layered merge")) {
+    return {
+      display: t(lang, "search_source_label_catalog"),
+      bucket: "catalog",
+      rawNorm,
+    };
+  }
+  if (low.includes("mexico") || low.includes("mexican") || low.includes("tramil")) {
+    return {
+      display: t(lang, "search_source_label_mexico"),
+      bucket: "mexico",
+      rawNorm,
+    };
+  }
+  if (low.includes("na_ethnobotany") || low.includes("north america")) {
+    return {
+      display: t(lang, "search_source_label_north_america"),
+      bucket: "north_america",
+      rawNorm,
+    };
+  }
+  const clipped =
+    w.length > SOURCE_LINE_MAX ? `${w.slice(0, SOURCE_LINE_MAX - 1)}…` : w;
+  return { display: clipped, bucket: "other", rawNorm };
+}
+
+function sortProvenanceEntries(entries: ProvenanceEntry[]): ProvenanceEntry[] {
+  return [...entries].sort((a, b) => {
+    const o =
+      PROVENANCE_BUCKET_ORDER[a.bucket] - PROVENANCE_BUCKET_ORDER[b.bucket];
+    if (o !== 0) return o;
+    const d = a.display.localeCompare(b.display, "en", { sensitivity: "base" });
+    if (d !== 0) return d;
+    return a.rawNorm.localeCompare(b.rawNorm, "en");
+  });
+}
+
+function buildSourceProvenanceItems(lang: Locale, plant: Plant): string[] | null {
+  const ep = plant as ExtendedPlant;
+  const byKey = new Map<string, ProvenanceEntry>();
+
+  const addFromText = (s: string | undefined, split: boolean) => {
+    if (typeof s !== "string" || !s.trim()) return;
+    const pieces = split ? s.split(/[;,]/) : [s];
+    for (const piece of pieces) {
+      const entry = sourceSegmentToProvenanceEntry(lang, piece);
+      if (!entry) continue;
+      const key = entry.display.toLowerCase();
+      const prev = byKey.get(key);
+      if (!prev) byKey.set(key, entry);
+      else byKey.set(key, mergeProvenanceEntry(prev, entry));
+    }
+  };
+
+  addFromText(ep.evidence?.source, true);
+  addFromText(ep.metadata?.na_source, false);
+  addFromText(ep.metadata?.mx_source, false);
+
+  if (byKey.size === 0) return null;
+  const sorted = sortProvenanceEntries([...byKey.values()]);
+  return sorted.map((e) => e.display);
 }
 
 export function groupMatchesByPlantId(matches: PlantNameMatch[]): string[] {
@@ -373,15 +636,23 @@ export type DisambiguationSearchResult = {
   globalSafetyMode: SearchGlobalSafetyMode;
   /** High/lethal toxicity in results → suggest evidence-levels concept (safety ↔ evidence). */
   suggestEvidenceConceptHint: boolean;
+  /**
+   * Softer copy when some results are look-alike flagged but no toxicity/abort row
+   * (avoids stacking with the main amber banner when combined risk already shown).
+   */
+  showGlobalLookalikeSoft: boolean;
   hadQuery: boolean;
   noHubMatch: boolean;
 };
 
 function globalSafetyModeFor(
   hasMultiplePlants: boolean,
-  anyToxicOrAbortifacient: boolean
+  anyToxicOrAbortifacient: boolean,
+  anyLookalike: boolean
 ): SearchGlobalSafetyMode {
-  if (hasMultiplePlants && anyToxicOrAbortifacient) return "multi_toxic";
+  if (hasMultiplePlants && (anyToxicOrAbortifacient || anyLookalike)) {
+    return "multi_toxic";
+  }
   if (anyToxicOrAbortifacient) return "toxic";
   if (hasMultiplePlants) return "multi";
   return "none";
@@ -406,6 +677,7 @@ export function runDisambiguationSearch(
       hasMultiplePlants: false,
       globalSafetyMode: "none",
       suggestEvidenceConceptHint: false,
+      showGlobalLookalikeSoft: false,
       hadQuery: false,
       noHubMatch: false,
     };
@@ -420,6 +692,7 @@ export function runDisambiguationSearch(
       hasMultiplePlants: false,
       globalSafetyMode: "none",
       suggestEvidenceConceptHint: false,
+      showGlobalLookalikeSoft: false,
       hadQuery: true,
       noHubMatch: true,
     };
@@ -427,8 +700,19 @@ export function runDisambiguationSearch(
 
   const resolved = resolvePlantName(nameForResolve, userCountry, lang);
   const names = loadNames();
+  const normalizedContexts = normalizePlantContextConfidences(
+    resolved.plantContexts
+  );
+
+  if (process.env.NODE_ENV !== "production" && normalizedContexts.length > 1) {
+    const sum = normalizedContexts.reduce((s, c) => s + c.confidence, 0);
+    if (Math.abs(sum - 1) > 0.001) {
+      console.warn("[FloraLexicon] Confidence sum != 1:", displayQuery, sum);
+    }
+  }
+
   const rankedCtx = rankPlantContextsForSearch(
-    resolved.plantContexts,
+    normalizedContexts,
     resolved.matches,
     displayQuery,
     userCountry,
@@ -443,7 +727,7 @@ export function runDisambiguationSearch(
     const countries = getPlantCountryCodesSorted(ctx.plant.id, names, lang);
     const er = evidenceRank(ctx.plant);
     const evidenceKey: DisambiguationRow["evidenceKey"] =
-      er >= 3 ? "clinical" : er >= 2 ? "tramil" : "traditional";
+      er >= 4 ? "clinical" : er >= 3 ? "tramil" : er >= 2 ? "empirical" : "traditional";
     const tier = confidenceTier(conf);
     const bar = barLevel(conf);
 
@@ -458,9 +742,22 @@ export function runDisambiguationSearch(
     });
 
     const uc = userCountry?.trim().toUpperCase();
-    const regionBoosted = Boolean(uc && ctx.countries.includes(uc));
+    const mergedRegs = readMergedRegions(ctx.plant);
+    const mergedCts = readMergedCountries(ctx.plant);
+    const subToken = uc ? pickSubnationalRegionToken(mergedRegs, uc) : null;
+    const isRegionalMatch = Boolean(subToken);
+    const countryGeoMatch = Boolean(
+      uc &&
+        (ctx.countries.includes(uc) ||
+          (mergedCts.length > 0 && mergedCts.includes(uc)))
+    );
     let inlineConfidenceLine: InlineConfidenceLine | null = null;
-    if (regionBoosted && uc) {
+    if (uc && isRegionalMatch && subToken) {
+      inlineConfidenceLine = {
+        i18nKey: "search_inline_reason_region_specific",
+        vars: { regionLabel: mergedRegionLabelForDisplay(subToken, lang) },
+      };
+    } else if (uc && countryGeoMatch) {
       inlineConfidenceLine = {
         i18nKey: "search_inline_reason_region",
         vars: { country: getCountryDisplayName(uc, lang) },
@@ -489,6 +786,8 @@ export function runDisambiguationSearch(
       inlineConfidenceLine,
       safetyMicroBadgeKey: cardSafetyMicroBadgeKey(ctx.plant),
       safetySupportLineKey: cardSafetySupportLineKey(ctx.plant),
+      hasLookalikeWarning: readLookalikeRisk(ctx.plant),
+      sourceProvenanceItems: buildSourceProvenanceItems(lang, ctx.plant),
     };
   });
 
@@ -496,9 +795,12 @@ export function runDisambiguationSearch(
   const anyToxicOrAbortifacient = rows.some(
     (r) => r.showSafetyRow || r.isAbortifacient
   );
+  const anyLookalike = rows.some((r) => r.hasLookalikeWarning);
   const suggestEvidenceConceptHint =
     hasMultiplePlants &&
     rows.some((r) => plantHasHighOrLethalToxicity(r.plant));
+  const showGlobalLookalikeSoft =
+    anyLookalike && !anyToxicOrAbortifacient && !hasMultiplePlants;
 
   return {
     displayQuery,
@@ -508,9 +810,11 @@ export function runDisambiguationSearch(
     hasMultiplePlants,
     globalSafetyMode: globalSafetyModeFor(
       hasMultiplePlants,
-      anyToxicOrAbortifacient
+      anyToxicOrAbortifacient,
+      anyLookalike
     ),
     suggestEvidenceConceptHint,
+    showGlobalLookalikeSoft,
     hadQuery: true,
     noHubMatch: rows.length === 0,
   };

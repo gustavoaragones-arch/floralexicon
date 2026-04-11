@@ -9,6 +9,7 @@
     "lint": "next lint",
     "merge-dataset": "tsx scripts/mergeDataset.ts",
     "layered-merge-phase5": "tsx scripts/layeredMergePhase5.ts",
+    "layered-merge-north-america": "tsx scripts/layeredMergeNorthAmerica.ts",
     "validate-dataset": "tsx scripts/validateDataset.ts"
   },
   "dependencies": {

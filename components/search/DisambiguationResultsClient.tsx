@@ -1,10 +1,14 @@
 "use client";
 
-import { DisambiguationCard } from "@/components/search/DisambiguationCard";
+import {
+  DisambiguationCard,
+  resetFloralexiconViewPlantClickDedupe,
+} from "@/components/search/DisambiguationCard";
 import {
   behavioralBoostPercent,
   readClickCountsForHub,
 } from "@/lib/plantClickSignals";
+import { normalizeHubKey } from "@/lib/hubKey";
 import type { DisambiguationRow } from "@/lib/search";
 import type { Locale } from "@/lib/i18n";
 import { useEffect, useState } from "react";
@@ -14,6 +18,10 @@ type Props = {
   hubKey: string;
   initialRows: DisambiguationRow[];
   hasMultiplePlants: boolean;
+  /** Trimmed search query for analytics hooks on result cards. */
+  searchQuery?: string;
+  /** `?country=` from search URL (passed through for analytics). */
+  searchCountryParam?: string;
 };
 
 /**
@@ -24,14 +32,21 @@ export function DisambiguationResultsClient({
   hubKey,
   initialRows,
   hasMultiplePlants,
+  searchQuery = "",
+  searchCountryParam,
 }: Props) {
+  const hubKeyNorm = normalizeHubKey(hubKey);
   const [rows, setRows] = useState(initialRows);
   const [openWhyId, setOpenWhyId] = useState<string | null>(
     () => initialRows[0]?.plant.id ?? null
   );
 
   useEffect(() => {
-    const counts = readClickCountsForHub(hubKey);
+    resetFloralexiconViewPlantClickDedupe();
+  }, [searchQuery, hubKeyNorm]);
+
+  useEffect(() => {
+    const counts = readClickCountsForHub(hubKeyNorm);
     const next = [...initialRows].sort((a, b) => {
       const da =
         a.confidencePercent + behavioralBoostPercent(a.plant.id, counts);
@@ -41,7 +56,7 @@ export function DisambiguationResultsClient({
       return a.plant.scientific_name.localeCompare(b.plant.scientific_name);
     });
     setRows(next);
-  }, [hubKey, initialRows]);
+  }, [hubKeyNorm, initialRows]);
 
   useEffect(() => {
     setOpenWhyId((prev) => {
@@ -61,7 +76,10 @@ export function DisambiguationResultsClient({
             row={row}
             index={i}
             showIndex={hasMultiplePlants}
-            hubKey={hubKey}
+            hubKey={hubKeyNorm}
+            searchQuery={searchQuery}
+            searchCountryParam={searchCountryParam}
+            resultCount={rows.length}
             isWhyOpen={openWhyId === row.plant.id}
             onWhyOpenChange={(open) => {
               if (open) {

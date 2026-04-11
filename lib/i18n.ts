@@ -104,16 +104,34 @@ const dictionary = {
     search_confidence_visual: "Confidence",
     search_disamb_common_in: "Most common in {country}",
     search_inline_reason_region: "Common in {country}",
+    search_inline_reason_region_specific: "Common in {regionLabel}",
+    search_tooltip_lookalike:
+      "Often confused with similar species—verify identification before use.",
+    search_card_sources_extra: "(+{count} more)",
+    search_card_sources_less: "Show less",
+    search_geo_label_us_ne: "Northeast US",
+    search_geo_label_us_se: "Southeast US",
+    search_geo_label_us_nw: "Northwest US",
+    search_geo_label_us_sw: "Southwest US",
+    search_geo_label_us_nc: "North Central US",
+    search_geo_label_us_sc: "South Central US",
+    search_geo_label_us_ec: "East Central US",
+    search_geo_label_us_wc: "West Central US",
+    search_geo_label_us_pnw: "Pacific Northwest (US)",
+    search_geo_label_mx_baja: "Baja California (MX)",
     search_inline_reason_usage: "Based on common usage",
     search_evidence_clinical: "Clinical literature (where indexed)",
     search_evidence_tramil: "Regional / TRAMIL-style sources",
     search_evidence_traditional: "Traditional use (indexed)",
+    search_evidence_empirical:
+      "Empirical / observational reports (indexed; not TRAMIL-specific)",
     search_safety_toxic: "Toxicity or caution may apply — verify before use.",
     search_safety_abort:
       "May be associated with reproductive risk in traditional sources — seek professional advice.",
     search_card_badge_toxic: "⚠️ Toxic",
     search_card_badge_caution: "⚠️ Caution",
     search_card_badge_precaution: "⚠️ Potentially unsafe",
+    search_card_badge_lookalike: "⚠️ Confusable species",
     search_card_sub_toxic: "Not for self-use",
     search_card_sub_caution: "Use with guidance",
     search_facts_family: "Family",
@@ -123,9 +141,15 @@ const dictionary = {
     search_global_safety_multi:
       "This name may refer to multiple plants—uses and safety can differ by species. Compare each match and verify before use.",
     search_global_safety_combined:
-      "This name refers to multiple plants, some of which may be toxic. Compare species carefully and seek qualified advice when in doubt.",
+      "This name refers to multiple plants—some may be toxic or easy to confuse with a similar species. Compare species carefully and seek qualified advice when in doubt.",
     search_global_safety_toxic_only:
       "This plant may be toxic or unsafe under some uses. Do not self-treat; consult a qualified professional.",
+    search_global_lookalike_soft:
+      "Some results may be confused with similar species—verify the scientific name and illustration before use.",
+    search_card_sources: "Sources: {list}",
+    search_source_label_mexico: "Mexico",
+    search_source_label_north_america: "North America",
+    search_source_label_catalog: "Catalog merge",
     search_inline_why_lead: "Why are there multiple results?",
     search_inline_why_cta: "Learn why →",
     search_why_heading: "Why this result?",
@@ -135,6 +159,8 @@ const dictionary = {
     search_why_freq_mid: "Moderately associated with this name in regional records",
     search_why_freq_low: "A less common mapping for this label in our index",
     search_why_evidence_traditional: "Supported by traditional-use context in the index",
+    search_why_evidence_empirical:
+      "Indexed as empirical / observational (not the same as TRAMIL protocol evidence)",
     search_why_evidence_tramil: "Regional / compendia-style evidence where indexed",
     search_why_evidence_clinical:
       "Stronger indexed evidence type (clinical / structured sources)",
@@ -563,10 +589,27 @@ const dictionary = {
     search_confidence_visual: "Confianza",
     search_disamb_common_in: "Más frecuente en {country}",
     search_inline_reason_region: "Frecuente en {country}",
+    search_inline_reason_region_specific: "Frecuente en {regionLabel}",
+    search_tooltip_lookalike:
+      "A menudo se confunde con especies similares—verifique la identificación antes de usar.",
+    search_card_sources_extra: "(+{count} más)",
+    search_card_sources_less: "Mostrar menos",
+    search_geo_label_us_ne: "noreste de EE. UU.",
+    search_geo_label_us_se: "sureste de EE. UU.",
+    search_geo_label_us_nw: "noroeste de EE. UU.",
+    search_geo_label_us_sw: "suroeste de EE. UU.",
+    search_geo_label_us_nc: "centro-norte de EE. UU.",
+    search_geo_label_us_sc: "centro-sur de EE. UU.",
+    search_geo_label_us_ec: "centro-este de EE. UU.",
+    search_geo_label_us_wc: "centro-oeste de EE. UU.",
+    search_geo_label_us_pnw: "Pacífico Noroeste (EE. UU.)",
+    search_geo_label_mx_baja: "Baja California (MX)",
     search_inline_reason_usage: "Según uso frecuente del nombre",
     search_evidence_clinical: "Literatura clínica (si está indexada)",
     search_evidence_tramil: "Fuentes regionales / tipo TRAMIL",
     search_evidence_traditional: "Uso tradicional (indexado)",
+    search_evidence_empirical:
+      "Reportes empíricos / observacionales (indexados; no equivalen a TRAMIL)",
     search_safety_toxic:
       "Puede haber toxicidad o precauciones — verifique antes de usar.",
     search_safety_abort:
@@ -574,6 +617,7 @@ const dictionary = {
     search_card_badge_toxic: "⚠️ Tóxico",
     search_card_badge_caution: "⚠️ Precaución",
     search_card_badge_precaution: "⚠️ Posible riesgo",
+    search_card_badge_lookalike: "⚠️ Especies confundibles",
     search_card_sub_toxic: "No para automedicación",
     search_card_sub_caution: "Use con orientación profesional",
     search_facts_family: "Familia",
@@ -583,9 +627,15 @@ const dictionary = {
     search_global_safety_multi:
       "Este nombre puede referirse a varias plantas—los usos y la seguridad pueden variar. Compare cada coincidencia y verifique antes de usar.",
     search_global_safety_combined:
-      "Este nombre se refiere a varias plantas; algunas pueden ser tóxicas. Compare especies con cuidado y busque asesoramiento cualificado ante la duda.",
+      "Este nombre se refiere a varias plantas—algunas pueden ser tóxicas o confundirse con especies parecidas. Compare con cuidado y busque asesoramiento cualificado ante la duda.",
     search_global_safety_toxic_only:
       "Esta planta puede ser tóxica o insegura en algunos usos. No se automedique; consulte a un profesional cualificado.",
+    search_global_lookalike_soft:
+      "Algunos resultados pueden confundirse con especies similares—verifique el nombre científico y las referencias antes de usar.",
+    search_card_sources: "Fuentes: {list}",
+    search_source_label_mexico: "México",
+    search_source_label_north_america: "Norteamérica",
+    search_source_label_catalog: "Fusión de catálogo",
     search_inline_why_lead: "¿Por qué hay varios resultados?",
     search_inline_why_cta: "Saber por qué →",
     search_why_heading: "¿Por qué este resultado?",
@@ -595,6 +645,8 @@ const dictionary = {
     search_why_freq_mid: "Asociación moderada con este nombre en registros regionales",
     search_why_freq_low: "Una asociación menos frecuente para esta etiqueta en el índice",
     search_why_evidence_traditional: "Apoyada por contexto de uso tradicional en el índice",
+    search_why_evidence_empirical:
+      "Indexada como evidencia empírica / observacional (no equivale a protocolo TRAMIL)",
     search_why_evidence_tramil: "Evidencia regional / tipo compendio donde está indexada",
     search_why_evidence_clinical:
       "Tipo de evidencia indexada más fuerte (clínica / fuentes estructuradas)",
@@ -967,3 +1019,8 @@ const dictionary = {
       "FloraLexicon se centra en hierbas medicinales y en plantas para infusiones y tés de hierbas, además de remedios naturales y medicina tradicional con plantas en distintas culturas. No pretende catalogar plantas ornamentales ni decorativas.",
   },
 } as const;
+
+/** True if `key` exists in the English pack (authoritative key set for `I18nKey`). */
+export function i18nHasKey(key: string): key is I18nKey {
+  return Object.prototype.hasOwnProperty.call(dictionary.en, key);
+}
