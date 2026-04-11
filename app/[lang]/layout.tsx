@@ -7,6 +7,8 @@ import { CONTACT_EMAIL, SITE_URL } from "@/lib/site";
 import { isLocale, locales, type Locale } from "@/lib/i18n";
 import { notFound } from "next/navigation";
 
+export const runtime = "edge";
+
 const organizationJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
