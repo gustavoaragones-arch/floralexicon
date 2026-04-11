@@ -3,8 +3,6 @@ import type { Metadata } from "next";
 import { SITE_URL } from "@/lib/site";
 import "./globals.css";
 
-export const runtime = "edge";
-
 const floraSerif = Fraunces({
   subsets: ["latin"],
   variable: "--font-flora-serif",

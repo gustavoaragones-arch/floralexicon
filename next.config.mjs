@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /** Required for Docker-style deploys and for Cloudflare next-on-pages. */
+  /** Required for Docker-style deploys and compatible with OpenNext Cloudflare builds. */
   output: "standalone",
 };
 
