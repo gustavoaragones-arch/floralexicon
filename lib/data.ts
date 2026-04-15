@@ -287,8 +287,6 @@ export function getAlsoKnownAsLinks(plantId: string): NameIndexLink[] {
     );
 }
 
-const MAX_RELATED_HERB_NAME_LINKS = 40;
-
 /**
  * Indexed names that share any plant id with this hub’s species, excluding the
  * current name hub (by canonical slug). Data-driven internal linking.
@@ -318,8 +316,102 @@ export function getRelatedHerbNameLinksForHub(
     .map(([slug, label]) => ({ slug, label }))
     .sort((a, b) =>
       a.label.localeCompare(b.label, "en", { sensitivity: "base" })
+    );
+}
+
+/** Alternate indexed labels for the same plants as this hub, with countries (for SEO lists). */
+export type AlternateNameCountryRow = {
+  slug: string;
+  label: string;
+  countryCodes: string[];
+};
+
+export function getAlternateHerbNamesWithCountriesForHub(
+  plantIds: string[],
+  excludeCanonicalSlug: string,
+  maxRows = 120
+): AlternateNameCountryRow[] {
+  if (!plantIds.length) return [];
+  ensureIndexes();
+  const want = new Set(plantIds.map((id) => id.trim()).filter(Boolean));
+  if (want.size === 0) return [];
+
+  const excludeCanonical = urlSlugToCanonicalSlug(excludeCanonicalSlug);
+  const bySlug = new Map<string, { label: string; countries: Set<string> }>();
+
+  for (const entry of namesList) {
+    if (!entry.plant_ids.some((id) => want.has(id))) continue;
+    const slug = getNameEntryUrlSlug(entry);
+    if (!slug) continue;
+    if (urlSlugToCanonicalSlug(slug) === excludeCanonical) continue;
+    const code = entry.country?.trim().toUpperCase();
+    if (!code) continue;
+    const label = entry.name.trim() || slug;
+    let row = bySlug.get(slug);
+    if (!row) {
+      row = { label, countries: new Set() };
+      bySlug.set(slug, row);
+    } else if (label.length > row.label.length) {
+      row.label = label;
+    }
+    row.countries.add(code);
+  }
+
+  return Array.from(bySlug.entries())
+    .map(([slug, { label, countries }]) => ({
+      slug,
+      label,
+      countryCodes: [...countries].sort((a, b) => a.localeCompare(b)),
+    }))
+    .sort(
+      (a, b) =>
+        b.countryCodes.length - a.countryCodes.length ||
+        a.label.localeCompare(b.label, "en", { sensitivity: "base" })
     )
-    .slice(0, MAX_RELATED_HERB_NAME_LINKS);
+    .slice(0, maxRows);
+}
+
+export type CountryNameGroup = {
+  countryCode: string;
+  entries: NameIndexLink[];
+};
+
+/**
+ * For a plant id: every indexed (country, common-name) pair from `names.json`,
+ * grouped by country for “what is it called here?” views.
+ */
+export function getNamesGroupedByCountryForPlant(
+  plantId: string
+): CountryNameGroup[] {
+  if (!plantId) return [];
+  ensureIndexes();
+  const byCountry = new Map<string, Map<string, string>>();
+
+  for (const entry of namesList) {
+    if (!entry.plant_ids.includes(plantId)) continue;
+    const code = entry.country?.trim().toUpperCase();
+    if (!code) continue;
+    const slug = getNameEntryUrlSlug(entry);
+    if (!slug) continue;
+    const label = entry.name.trim() || slug;
+    let slugMap = byCountry.get(code);
+    if (!slugMap) {
+      slugMap = new Map();
+      byCountry.set(code, slugMap);
+    }
+    if (!slugMap.has(slug)) slugMap.set(slug, label);
+  }
+
+  return Array.from(byCountry.entries())
+    .map(([countryCode, slugMap]) => ({
+      countryCode,
+      entries: Array.from(slugMap.entries())
+        .map(([slug, label]) => ({ slug, label }))
+        .sort((a, b) =>
+          a.label.localeCompare(b.label, "en", { sensitivity: "base" })
+        ),
+    }))
+    .sort((a, b) => a.countryCode.localeCompare(b.countryCode));
 }
 
 /** Country path segments (`/name/[slug]/[country]`) that exist for this canonical hub. */

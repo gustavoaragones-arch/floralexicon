@@ -1,4 +1,4 @@
-import type { Plant } from "@/lib/data";
+import type { NameIndexLink, Plant } from "@/lib/data";
 import { formatRegionList, joinCountryNames } from "@/lib/countries";
 import { PlantReferenceImage } from "@/components/PlantReferenceImage";
 import {
@@ -31,6 +31,12 @@ type PlantCardProps = {
     confidence: number;
     showPercent?: boolean;
   };
+  /** Other indexed common names for this species (name hub cards). */
+  alsoKnownAs?: NameIndexLink[];
+  /** Put illustration after text so the common name / region story leads. */
+  deferImage?: boolean;
+  /** Omit family line on name-hub match cards (keep focus on verification fields). */
+  hideFamilyRow?: boolean;
 };
 
 export function PlantCard({
@@ -44,6 +50,9 @@ export function PlantCard({
   userCountry,
   decisionAssist,
   nameHubConfidence,
+  alsoKnownAs,
+  deferImage = false,
+  hideFamilyRow = false,
 }: PlantCardProps) {
   const TitleTag = headingLevel;
   const uses = plant.primary_uses.join(", ");
@@ -87,9 +96,14 @@ export function PlantCard({
     </span>
   );
 
-  const shell = frameless
-    ? "px-0 py-0"
-    : "rounded-2xl border border-stone-200 bg-white/70 px-5 py-4 shadow-sm dark:border-stone-700 dark:bg-stone-900/40";
+  const shell = [
+    frameless
+      ? "px-0 py-0"
+      : "rounded-2xl border border-stone-200 bg-white/70 px-5 py-4 shadow-sm dark:border-stone-700 dark:bg-stone-900/40",
+    deferImage ? "flex flex-col" : "",
+  ]
+    .filter(Boolean)
+    .join(" ");
 
   const confidenceTier = nameHubConfidence
     ? getNameHubConfidenceTier(nameHubConfidence.confidence)
@@ -127,7 +141,13 @@ export function PlantCard({
         </div>
       ) : null}
 
-      <div className={decisionAssist ? "mb-6" : frameless ? "mb-5" : "mb-4"}>
+      <div
+        className={
+          deferImage
+            ? `${decisionAssist ? "mb-6" : frameless ? "mb-5" : "mb-4"} order-last mt-6`
+            : `${decisionAssist ? "mb-6" : frameless ? "mb-5" : "mb-4"}`
+        }
+      >
         <p className="mb-2 text-xs font-medium uppercase tracking-wider text-stone-500 dark:text-stone-500">
           {t(lang, "visual_reference")}
         </p>
@@ -191,16 +211,38 @@ export function PlantCard({
       ) : null}
       <p className="mt-2 text-sm text-stone-600 dark:text-stone-400">
         <span className="text-stone-500 dark:text-stone-500">
-          {t(lang, "family")}{" "}
-        </span>
-        {plant.family}
-      </p>
-      <p className="mt-1 text-sm text-stone-600 dark:text-stone-400">
-        <span className="text-stone-500 dark:text-stone-500">
           {t(lang, "uses")}{" "}
         </span>
         <span className="capitalize">{uses}</span>
       </p>
+      {alsoKnownAs && alsoKnownAs.length > 0 ? (
+        <p className="mt-3 text-sm text-stone-600 dark:text-stone-400">
+          <span className="font-medium text-stone-700 dark:text-stone-300">
+            {t(lang, "also_known_as")}:{" "}
+          </span>
+          <span className="inline-flex flex-wrap gap-x-2 gap-y-1">
+            {alsoKnownAs.map(({ slug, label }, i) => (
+              <span key={slug}>
+                {i > 0 ? <span className="text-stone-400"> · </span> : null}
+                <Link
+                  href={localePath(lang, `/name/${slug}`)}
+                  className="font-medium text-flora-forest underline decoration-stone-300 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-400 dark:hover:decoration-emerald-400"
+                >
+                  {label}
+                </Link>
+              </span>
+            ))}
+          </span>
+        </p>
+      ) : null}
+      {!hideFamilyRow ? (
+        <p className="mt-2 text-sm text-stone-600 dark:text-stone-400">
+          <span className="text-stone-500 dark:text-stone-500">
+            {t(lang, "family")}{" "}
+          </span>
+          {plant.family}
+        </p>
+      ) : null}
       {variant === "full" ? (
         <dl className="mt-4 space-y-1 border-t border-stone-200 pt-4 text-sm text-stone-600 dark:border-stone-800 dark:text-stone-400">
           <div>

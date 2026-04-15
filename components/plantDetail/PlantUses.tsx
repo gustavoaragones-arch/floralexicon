@@ -1,4 +1,5 @@
 import type { PlantDetailModel } from "@/lib/plantDetailData";
+import { browsePathForPrimaryUseSlug } from "@/lib/categories";
 import { conceptSlugForCondition } from "@/lib/conditionConceptLinks";
 import { localePath, t, type Locale } from "@/lib/i18n";
 import { conditionThemeOneLiner, humanConditionLabel, humanUseLabel } from "@/lib/plantHumanLabels";
@@ -6,6 +7,29 @@ import Link from "next/link";
 
 const conceptLinkClass =
   "font-medium text-flora-forest underline decoration-stone-300 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-400 dark:hover:decoration-emerald-400";
+
+function buildBrowseLinksFromUses(
+  lang: Locale,
+  useSlugs: string[]
+): { href: string; label: string }[] {
+  const seenPath = new Set<string>();
+  const out: { href: string; label: string }[] = [];
+  for (const raw of useSlugs) {
+    const path = browsePathForPrimaryUseSlug(raw);
+    if (!path || seenPath.has(path)) continue;
+    seenPath.add(path);
+    const label =
+      path === "/medicinal-herbs"
+        ? t(lang, "home_link_medicinal_herbs")
+        : path === "/culinary-herbs"
+          ? t(lang, "home_link_culinary_herbs")
+          : path === "/ritual-herbs"
+            ? t(lang, "home_link_ritual_herbs")
+            : humanUseLabel(raw, lang);
+    out.push({ href: localePath(lang, path), label });
+  }
+  return out;
+}
 
 type Props = { lang: Locale; model: PlantDetailModel };
 
@@ -15,6 +39,7 @@ export function PlantUses({ lang, model }: Props) {
   const useSlugs = merged?.uses?.length
     ? merged.uses
     : core.primary_uses.map((u) => u.trim()).filter(Boolean);
+  const browseLinks = buildBrowseLinksFromUses(lang, useSlugs);
 
   if (conditions.length === 0) {
     return (
@@ -33,6 +58,21 @@ export function PlantUses({ lang, model }: Props) {
             <li key={u}>{humanUseLabel(u, lang)}</li>
           ))}
         </ul>
+        {browseLinks.length > 0 ? (
+          <p className="mt-4 text-sm text-stone-600 dark:text-stone-400">
+            <span className="font-medium text-stone-800 dark:text-stone-200">
+              {t(lang, "plant_detail_browse_uses_lead")}{" "}
+            </span>
+            {browseLinks.map((l, i) => (
+              <span key={l.href}>
+                {i > 0 ? " · " : null}
+                <Link href={l.href} className={conceptLinkClass}>
+                  {l.label}
+                </Link>
+              </span>
+            ))}
+          </p>
+        ) : null}
       </section>
     );
   }
@@ -47,8 +87,28 @@ export function PlantUses({ lang, model }: Props) {
       </h2>
       <p className="mt-2 text-xs text-stone-600 dark:text-stone-400">
         {t(lang, "uses")}:{" "}
-        {useSlugs.map((u) => humanUseLabel(u, lang)).join(" · ")}
+        {useSlugs.map((u, idx) => (
+          <span key={u}>
+            {idx > 0 ? " · " : null}
+            {humanUseLabel(u, lang)}
+          </span>
+        ))}
       </p>
+      {browseLinks.length > 0 ? (
+        <p className="mt-2 text-sm text-stone-600 dark:text-stone-400">
+          <span className="font-medium text-stone-800 dark:text-stone-200">
+            {t(lang, "plant_detail_browse_uses_lead")}{" "}
+          </span>
+          {browseLinks.map((l, i) => (
+            <span key={l.href}>
+              {i > 0 ? " · " : null}
+              <Link href={l.href} className={conceptLinkClass}>
+                {l.label}
+              </Link>
+            </span>
+          ))}
+        </p>
+      ) : null}
       <ul className="mt-4 space-y-3">
         {conditions.map((cid) => {
           const slug = conceptSlugForCondition(cid);

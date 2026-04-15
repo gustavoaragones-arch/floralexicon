@@ -47,7 +47,7 @@ export function alternateLanguageUrls(pathWithoutLocale: string): {
 const dictionary = {
   en: {
     nav_home: "Home",
-    nav_plant_names: "Plant Names",
+    nav_plant_names: "Herb names",
     nav_plants: "Plants",
     nav_concepts: "Concepts",
     concepts_meta_index_title: "Understanding Plant Names | FloraLexicon",
@@ -184,27 +184,28 @@ const dictionary = {
     lang_en: "EN",
     lang_es: "ES",
 
-    search_placeholder: "Try a medicinal herb or regional name…",
+    search_placeholder:
+      "Search a herb name (e.g. ruda, cedrón, manzanilla)",
     search_placeholder_short: "e.g. manzanilla, chamomile",
     search_button: "Search",
     search_label_sr: "Herb name",
-    hero_title: "Identify medicinal herbs across languages and regions",
+    hero_title: "Find what your herb is called in different countries",
     hero_lead:
-      "Resolve traditional herb names used in teas, remedies, and local medicine. FloraLexicon maps common names to scientific species across countries and cultures.",
-    hero_search_context:
-      "Focused on herbs used in teas, traditional medicine, and everyday remedies.",
+      "Translate traditional herb names used in teas, remedies, and local medicine. Discover local names across cultures — and verify the exact plant when needed.",
+    hero_search_helper:
+      "Use common or regional names. Results show how the herb is known in different countries.",
     examples_label: "Examples:",
     home_how_title: "How FloraLexicon works",
     home_how_1_title: "Enter a herb name",
     home_how_1_body:
       "— commonly used in teas, remedies, or traditional medicine.",
-    home_how_2_title: "See possible matches",
+    home_how_2_title: "See how it’s called in different countries",
     home_how_2_body:
-      "— each option ties the label to a species in our index, with country context when available.",
-    home_how_3_title: "Identify the correct species",
+      "— we group local and regional herb names with the countries where each label is used.",
+    home_how_3_title: "Confirm the correct plant using the scientific name",
     home_how_3_body:
-      "— compare scientific names, family, uses, and region to match your source.",
-    home_why_title: "Why plant names are confusing",
+      "— when you need certainty, use the scientific name as a stable check—not the starting point for browsing.",
+    home_why_title: "Why names are confusing",
     home_popular_title: "Popular medicinal herb searches",
     home_popular_cta: "View resolution →",
     home_browse_title: "Browse herbs & species",
@@ -214,8 +215,11 @@ const dictionary = {
     home_all_names: "All plant names",
     home_browse_by_use_title: "Browse by use",
     home_link_medicinal_herbs: "Medicinal herbs",
-    home_link_culinary_herbs: "Culinary herbs",
+    home_link_culinary_herbs: "Culinary-medicinal herbs",
     home_link_ritual_herbs: "Ritual herbs",
+    home_country_hub_title: "Browse herbs by country",
+    home_country_hub_lead:
+      "Explore herbs commonly used in each country and their local names.",
 
     plant_categories_label: "Categories:",
     category_name_medicinal: "Medicinal",
@@ -276,9 +280,9 @@ const dictionary = {
     herbs_country_empty: "No species in the slim index list this country in the merged dataset yet.",
 
     site_disclaimer_strip: "Information on this site is for educational purposes only.",
-    footer_tagline_a: "FloraLexicon maps everyday and regional plant labels to",
-    footer_tagline_b: "scientific plant names",
-    footer_tagline_c: "so you can compare sources and regions with confidence.",
+    footer_tagline_a: "FloraLexicon translates everyday and regional herb names across countries, with",
+    footer_tagline_b: "scientific names",
+    footer_tagline_c: " as a verification layer when you need to be sure.",
     footer_info_only_title: "Informational purposes only",
     footer_info_only_body:
       "not medical, legal, foraging, or professional identification advice. See our",
@@ -290,8 +294,8 @@ const dictionary = {
     footer_nav_privacy: "Privacy",
     footer_nav_terms: "Terms",
 
-    name_label_plant_name: "Plant name",
-    name_h1: "What plant does ‘{name}’ refer to?",
+    name_label_plant_name: "Herb name",
+    name_h1: 'What is "{name}" called in different countries?',
     name_spelling_match: "We match this spelling as:",
     name_ambiguity_label: "Ambiguity",
     ambiguity_low: "Low",
@@ -338,14 +342,14 @@ const dictionary = {
     same_plant_heading: "Other names for these plants",
     also_known_as: "Also known as",
 
-    names_index_h1: "Plant names index",
+    names_index_h1: "Herb names index",
     names_index_lead:
-      "Alphabetical list of every name in FloraLexicon. Each link opens possible scientific matches for that label.",
+      "Alphabetical list of common and regional herb names in FloraLexicon. Each link opens country context and plant matches for that label.",
     names_index_other: "Other",
 
     plants_index_h1: "Plants",
     plants_index_lead:
-      "Species currently in the dataset, ordered alphabetically by scientific name.",
+      "Species in the index (scientific names) — open a page to see common names by country and traditional-use notes.",
 
     prog_name_no_index:
       "‘{name}’ is a plant name people often look up. FloraLexicon does not yet map this spelling to species in our public index.",
@@ -361,9 +365,9 @@ const dictionary = {
     contact_lead: "For questions, corrections, or feedback:",
     about_title: "About FloraLexicon",
     about_p1:
-      "FloraLexicon is a plant name resolution engine designed to identify plant species across languages, regions, and cultures.",
+      "FloraLexicon is a global herb name translator: it helps you find what a traditional or medicinal herb is called in different countries, then verify the correct plant when the label is ambiguous.",
     about_p2:
-      "The platform maps common plant names to scientific taxonomy, helping users understand which species a name refers to in a specific context.",
+      "It is built for teas, remedies, and cross-cultural shopping—not as a full botanical encyclopedia.",
     about_p3_prefix: "FloraLexicon is developed and operated by",
     about_p3_suffix:
       ", an independent digital product studio based in the United States and Canada.",
@@ -402,9 +406,9 @@ const dictionary = {
     hub_use_culinary: "culinary use",
     hub_use_aromatic: "aromatic use",
 
-    name_related_herb_names_h2: "Related herb names",
+    name_related_herb_names_h2: 'How is "{name}" called in other countries?',
     name_related_herb_names_lead:
-      "Other indexed labels that share at least one species with this name hub—useful when the same plant is sold or discussed under different names.",
+      "Other common names in our index that point to the same plants as this label—useful for travel, markets, and cross-cultural remedies.",
     name_hub_countries_index_h2: "Used in these countries",
     name_hub_countries_index_lead:
       "Open a country-focused view of this name hub (same dataset as the regional breakdown below).",
@@ -470,11 +474,11 @@ const dictionary = {
     decision_diff_families:
       "Unlike other plants called '{q}' in this index, this species is in the {family} family. Other matches belong to {families}.",
 
-    defined_term_desc: "Plant name disambiguation across regions",
+    defined_term_desc: "Cross-cultural herb name translator with regional context",
 
-    meta_home_title: "Medicinal herb identification & scientific names",
+    meta_home_title: "Herb Name Translator Across Countries | FloraLexicon",
     meta_home_desc:
-      "Herb identification for medicinal herbs, herbal tea plants, and traditional plant medicine. FloraLexicon maps common names to scientific species across countries and cultures.",
+      "Translate traditional herb names for teas and remedies. See local names by country, then verify the plant with scientific naming when you need certainty.",
     meta_names_title: "Plant Names Index",
     meta_names_desc: "Browse plant names and discover their scientific equivalents.",
     meta_plants_title: "Plants index",
@@ -486,9 +490,9 @@ const dictionary = {
     meta_name_missing_title: "Name not in index",
     meta_name_missing_desc:
       "No plants found for this name in FloraLexicon. Try another common name or check spelling.",
-    meta_name_match_title: "What plant is ‘{name}’? Medicinal herb identification",
+    meta_name_match_title: 'What is "{name}" called in different countries?',
     meta_name_match_desc:
-      "Medicinal herb name hub: scientific species, uses (tea, medicinal, ritual), country-by-country meaning, synonyms, and related links.",
+      'Find what "{name}" is called in different countries. Compare local herb names and verify the correct plant using scientific classification.',
     meta_name_country_title: "What is {name} in {country}?",
     meta_name_country_desc:
       "Most common plant linked to «{name}» in {country}, local usage notes, and links to the full name hub and species pages.",
@@ -508,6 +512,27 @@ const dictionary = {
     name_hub_species_h2: "Scientific plants associated with ‘{name}’",
     name_hub_species_lead:
       "{count} indexed species match this name below. Scientific names are the stable ID—compare cards and regions before you rely on the common label alone.",
+    name_intro_p1:
+      '"{name}" is a common herb name used in traditional medicine, teas, and local remedies. Its meaning changes depending on country and context, and may refer to different plants.',
+    name_intro_p2:
+      "Use the country filter below to find the most relevant match for your region.",
+    name_instant_answer_lead: "{name} is commonly known as:",
+    name_instant_answer_closing_single:
+      "It often refers to species in the {genus} genus—exact meaning still depends on region, language, and what you are buying.",
+    name_instant_answer_closing_multi:
+      "It may refer to different plants depending on region and local tradition—always match the label to where you are.",
+    name_instant_answer_where_recorded:
+      "In our index, this spelling is tied to records from:",
+    name_also_called_h2: "Also called",
+    name_also_called_lead:
+      "Other common names for the same plants in FloraLexicon, with countries where each label appears in the data.",
+    name_country_mappings_h2: "Country mappings",
+    name_country_mappings_intro:
+      "Each country links to a focused view of this herb name. Plants listed are every indexed species tied to that country for this label.",
+    name_country_hub_link_title: "Open country view for this herb name",
+    name_hub_matches_h2: 'Matches for "{name}"',
+    name_hub_matches_lead:
+      "{count} indexed plant match(es) below. Compare where each is common, how it is used, and other local names before you rely on a single translation.",
     name_hub_explore_h2: "Explore related herbs",
     name_hub_explore_lead:
       "Synonyms and nearby labels in the index, plus curated lists by traditional use.",
@@ -554,24 +579,13 @@ const dictionary = {
 
     terms_see_disclaimer: "Disclaimer",
 
-    home_why_p1a: "The same everyday name often points to",
-    home_why_p1b: "different plants",
-    home_why_p1c:
-      "in different countries — or even in the same language. Without",
-    home_why_p1d: "scientific plant names",
-    home_why_p1e: ", it is easy to mix up species that share a label.",
-    home_why_p2a: "The opposite happens too:",
-    home_why_p2b: "different names",
-    home_why_p2c: "can refer to the",
-    home_why_p2d: "same plant",
-    home_why_p2e: ". FloraLexicon surfaces those links so",
-    home_why_p2f: "herb identification",
-    home_why_p2g: "and cross-border references stay grounded in taxonomy.",
-    home_why_p3:
-      "This is especially common with medicinal herbs, where the same name may refer to different species used in local remedies.",
+    home_why_para1:
+      "The same herb name often refers to different plants depending on country, language, or context. That is especially common with medicinal herbs, teas, and local remedies.",
+    home_why_para2:
+      "The same plant can carry many different local names across regions and traditions. FloraLexicon helps you see what to ask for in another country, then verify the species when you need certainty.",
     home_medicinal_title: "Built for traditional and medicinal herb use",
     home_medicinal_body:
-      "FloraLexicon focuses on medicinal herbs and herbal tea plants—used in teas, natural remedies, and traditional plant medicine across cultures. It does not aim to catalog ornamental or decorative plants.",
+      "FloraLexicon focuses on herbs used in teas, remedies, and traditional medicine across cultures. It helps you find the correct local name and confirm the plant — not catalog ornamental species.",
 
     plant_detail_def_line1:
       "{scientific} is a {kind} traditionally discussed for {themes} in FloraLexicon’s ethnobotanical index.",
@@ -590,7 +604,7 @@ const dictionary = {
     plant_detail_theme_general: "traditional household and herbal contexts",
     plant_detail_used_for: "Used for",
     plant_detail_page_scope:
-      "This page explains traditional-use themes, index safety flags, and how naming can differ by region.",
+      "Traditional-use themes, index safety flags, and how local herb names differ by country.",
     plant_detail_sources_footnote:
       "Last updated from FloraLexicon’s merged ethnobotanical index—informational only; see disclaimer.",
     plant_detail_also_known: "Also known as",
@@ -653,6 +667,9 @@ const dictionary = {
 
     plant_detail_meta_title: "{name} — uses, benefits, safety | FloraLexicon",
     plant_detail_meta_title_v2: "{name}: uses, benefits, safety, and risks | FloraLexicon",
+    plant_detail_meta_title_positioning: "{name} — Common Names Across Countries",
+    plant_detail_meta_desc_positioning:
+      "Local and regional herb names for {name} across countries. Compare labels by region and verify the species in FloraLexicon.",
     plant_detail_meta_desc:
       "{lead} Safety context in the index: {safety}. Informational only—not medical advice.",
     plant_detail_meta_desc_v2:
@@ -664,6 +681,11 @@ const dictionary = {
     plant_detail_description_lead:
       "A {type} in the {family} family ({genus}), with indexed traditional use categories: {uses}.",
     plant_detail_common_names: "Common names",
+    plant_detail_common_in_label: "Common in:",
+    plant_detail_called_in_countries_h2: "What is this herb called in different countries?",
+    plant_detail_called_in_countries_lead:
+      "Indexed common names for this species, grouped by country. Each label opens that name’s hub.",
+    plant_detail_browse_uses_lead: "Browse by use:",
     plant_detail_short_intro: "Overview",
     plant_detail_facts: "At a glance",
     plant_detail_fact_family: "Family",
@@ -725,7 +747,7 @@ const dictionary = {
   },
   es: {
     nav_home: "Inicio",
-    nav_plant_names: "Nombres de plantas",
+    nav_plant_names: "Nombres de hierbas",
     nav_plants: "Plantas",
     nav_concepts: "Conceptos",
     concepts_meta_index_title: "Entender los nombres de plantas | FloraLexicon",
@@ -863,27 +885,28 @@ const dictionary = {
     lang_en: "EN",
     lang_es: "ES",
 
-    search_placeholder: "Prueba una hierba medicinal o un nombre regional…",
+    search_placeholder:
+      "Busca un nombre de hierba (ej. ruda, cedrón, manzanilla)",
     search_placeholder_short: "ej. manzanilla, matico",
     search_button: "Buscar",
     search_label_sr: "Nombre de hierba",
-    hero_title: "Identifica hierbas medicinales entre idiomas y regiones",
+    hero_title: "Descubre cómo se llama tu hierba en otros países",
     hero_lead:
-      "Resuelve nombres tradicionales de hierbas usados en infusiones, remedios y medicina local. FloraLexicon relaciona nombres comunes con especies científicas en distintos países y culturas.",
-    hero_search_context:
-      "Enfocado en hierbas usadas en infusiones, medicina tradicional y remedios cotidianos.",
+      "Traduce nombres tradicionales de hierbas usados en infusiones, remedios y medicina local. Encuentra nombres locales en distintas culturas y verifica la planta exacta cuando lo necesites.",
+    hero_search_helper:
+      "Usa nombres comunes o regionales. Los resultados muestran cómo se conoce la hierba en cada país.",
     examples_label: "Ejemplos:",
     home_how_title: "Cómo funciona FloraLexicon",
     home_how_1_title: "Escribe el nombre de una hierba",
     home_how_1_body:
       "— la que suele usarse en infusiones, remedios o medicina tradicional.",
-    home_how_2_title: "Ve posibles coincidencias",
+    home_how_2_title: "Mira cómo se llama en distintos países",
     home_how_2_body:
-      "— cada opción enlaza la etiqueta con una especie en nuestro índice, con contexto de país cuando existe.",
-    home_how_3_title: "Identifica la especie correcta",
+      "— agrupamos nombres locales y regiones con los países donde aparece cada etiqueta.",
+    home_how_3_title: "Confirma la planta con el nombre científico",
     home_how_3_body:
-      "— compara nombres científicos, familia, usos y región con tu fuente.",
-    home_why_title: "Por qué los nombres de plantas confunden",
+      "— cuando necesites certeza, usa el nombre científico como comprobación estable, no como primer paso al buscar.",
+    home_why_title: "Por qué los nombres confunden",
     home_popular_title: "Búsquedas populares de hierbas medicinales",
     home_popular_cta: "Ver resolución →",
     home_browse_title: "Explorar hierbas y especies",
@@ -893,8 +916,11 @@ const dictionary = {
     home_all_names: "Todos los nombres",
     home_browse_by_use_title: "Explorar por uso",
     home_link_medicinal_herbs: "Hierbas medicinales",
-    home_link_culinary_herbs: "Hierbas culinarias",
+    home_link_culinary_herbs: "Hierbas culinarias y medicinales",
     home_link_ritual_herbs: "Hierbas rituales",
+    home_country_hub_title: "Explorar hierbas por país",
+    home_country_hub_lead:
+      "Explora hierbas usadas con frecuencia en cada país y sus nombres locales.",
 
     plant_categories_label: "Categorías:",
     category_name_medicinal: "Medicinal",
@@ -956,9 +982,9 @@ const dictionary = {
       "Aún no hay especies del índice reducido que listen este país en el conjunto fusionado.",
 
     site_disclaimer_strip: "La información de este sitio es solo educativa.",
-    footer_tagline_a: "FloraLexicon relaciona etiquetas cotidianas y regionales con",
-    footer_tagline_b: "nombres científicos de plantas",
-    footer_tagline_c: "para que compares fuentes y regiones con más claridad.",
+    footer_tagline_a: "FloraLexicon traduce nombres cotidianos y regionales de hierbas entre países, con",
+    footer_tagline_b: "nombres científicos",
+    footer_tagline_c: " como capa de verificación cuando necesitas estar seguro.",
     footer_info_only_title: "Solo fines informativos",
     footer_info_only_body:
       "no es consejo médico, legal, de recolección ni de identificación profesional. Consulta nuestro",
@@ -971,7 +997,7 @@ const dictionary = {
     footer_nav_terms: "Términos",
 
     name_label_plant_name: "Nombre de planta",
-    name_h1: "¿A qué planta se refiere «{name}»?",
+    name_h1: "¿Cómo se llama «{name}» en distintos países?",
     name_spelling_match: "Agrupamos esta grafía como:",
     name_ambiguity_label: "Ambigüedad",
     ambiguity_low: "Baja",
@@ -1018,14 +1044,14 @@ const dictionary = {
     same_plant_heading: "Otros nombres de estas plantas",
     also_known_as: "También conocida como",
 
-    names_index_h1: "Índice de nombres de plantas",
+    names_index_h1: "Índice de nombres de hierbas",
     names_index_lead:
-      "Lista alfabética de todos los nombres en FloraLexicon. Cada enlace abre las posibles coincidencias científicas.",
+      "Lista alfabética de nombres comunes y regionales en FloraLexicon. Cada enlace abre el contexto por país y las plantas asociadas a esa etiqueta.",
     names_index_other: "Otros",
 
     plants_index_h1: "Plantas",
     plants_index_lead:
-      "Especies del conjunto de datos, ordenadas alfabéticamente por nombre científico.",
+      "Especies del índice (nombres científicos): abre una ficha para ver nombres comunes por país y notas de uso tradicional.",
 
     prog_name_no_index:
       "«{name}» es un nombre de planta que mucha gente consulta. FloraLexicon aún no asocia esta grafía a especies en el índice público.",
@@ -1042,9 +1068,9 @@ const dictionary = {
     contact_lead: "Para preguntas, correcciones o comentarios:",
     about_title: "Acerca de FloraLexicon",
     about_p1:
-      "FloraLexicon es un motor de resolución de nombres de plantas para identificar especies entre idiomas, regiones y culturas.",
+      "FloraLexicon es un traductor global de nombres de hierbas: ayuda a saber cómo se llama una hierba medicinal o tradicional en otros países y luego a verificar la planta correcta cuando la etiqueta es ambigua.",
     about_p2:
-      "La plataforma relaciona nombres comunes con taxonomía científica y ayuda a entender a qué especie alude un nombre en un contexto dado.",
+      "Está pensado para infusiones, remedios y compras entre culturas, no como enciclopedia botánica completa.",
     about_p3_prefix: "FloraLexicon es desarrollado y operado por",
     about_p3_suffix:
       ", un estudio digital independiente con presencia en Estados Unidos y Canadá.",
@@ -1083,9 +1109,9 @@ const dictionary = {
     hub_use_culinary: "uso culinario",
     hub_use_aromatic: "uso aromático",
 
-    name_related_herb_names_h2: "Nombres de hierbas relacionados",
+    name_related_herb_names_h2: "¿Cómo se llama «{name}» en otros países o contextos?",
     name_related_herb_names_lead:
-      "Otras etiquetas indexadas que comparten al menos una especie con este concentrador de nombre—útil cuando la misma planta se vende o se cita con distintos nombres.",
+      "Otros nombres comunes del índice que apuntan a las mismas plantas que esta etiqueta—útiles para viajes, mercados y remedios entre culturas.",
     name_hub_countries_index_h2: "Usada en estos países",
     name_hub_countries_index_lead:
       "Abra la vista por país de este nombre (los mismos datos que el desglose regional más abajo).",
@@ -1151,11 +1177,11 @@ const dictionary = {
     decision_diff_families:
       "A diferencia de otras plantas llamadas «{q}» en este índice, esta especie pertenece a la familia {family}. Las otras coincidencias corresponden a {families}.",
 
-    defined_term_desc: "Desambiguación de nombres de plantas entre regiones",
+    defined_term_desc: "Traductor de nombres de hierbas entre culturas y regiones",
 
-    meta_home_title: "Identificación de hierbas medicinales y nombres científicos",
+    meta_home_title: "Traductor de nombres de hierbas entre países | FloraLexicon",
     meta_home_desc:
-      "Identificación de hierbas medicinales, plantas para infusiones y medicina tradicional con plantas. FloraLexicon relaciona nombres comunes con especies científicas entre países y culturas.",
+      "Traduce nombres tradicionales de hierbas para infusiones y remedios. Ve nombres locales por país y verifica la planta con el nombre científico cuando necesites certeza.",
     meta_names_title: "Índice de nombres de plantas",
     meta_names_desc: "Explora nombres de plantas y sus equivalentes científicos.",
     meta_plants_title: "Índice de plantas",
@@ -1168,9 +1194,9 @@ const dictionary = {
     meta_name_missing_title: "Nombre no encontrado",
     meta_name_missing_desc:
       "No hay plantas para este nombre en FloraLexicon. Prueba otro nombre común o revisa la ortografía.",
-    meta_name_match_title: "¿Qué planta es {name}?",
+    meta_name_match_title: "¿Cómo se llama «{name}» en distintos países?",
     meta_name_match_desc:
-      "Descubre a qué planta se refiere «{name}» en diferentes países.",
+      "Descubre cómo se llama «{name}» en distintos países. Compara nombres locales de hierbas y verifica la planta con la clasificación científica.",
     meta_name_country_title: "¿Qué es {name} en {country}?",
     meta_name_country_desc:
       "La planta más habitual vinculada a «{name}» en {country}, notas de uso local y enlaces al tema del nombre y a las especies.",
@@ -1190,6 +1216,27 @@ const dictionary = {
     name_hub_species_h2: "Plantas científicas asociadas a «{name}»",
     name_hub_species_lead:
       "Hay {count} especies indexadas que coinciden con esta etiqueta abajo. Los nombres científicos son la referencia estable: compara fichas y regiones antes de fiarte solo del nombre común.",
+    name_intro_p1:
+      "«{name}» es un nombre común de hierba en medicina tradicional, infusiones y remedios locales. Su significado cambia según el país y el contexto, y puede designar plantas distintas.",
+    name_intro_p2:
+      "Usa el filtro de país abajo para ver la coincidencia más relevante para tu región.",
+    name_instant_answer_lead: "«{name}» también se conoce como:",
+    name_instant_answer_closing_single:
+      "A menudo se refiere a especies del género {genus}: el sentido exacto sigue dependiendo del país, del idioma y del producto.",
+    name_instant_answer_closing_multi:
+      "Puede referirse a plantas distintas según la región y la tradición local: cruza siempre la etiqueta con el lugar donde compras o preguntas.",
+    name_instant_answer_where_recorded:
+      "En nuestro índice, esta grafía aparece en registros de:",
+    name_also_called_h2: "También se llama",
+    name_also_called_lead:
+      "Otros nombres comunes para las mismas plantas en FloraLexicon, con países donde figura cada etiqueta en los datos.",
+    name_country_mappings_h2: "Mapeo por país",
+    name_country_mappings_intro:
+      "Cada país enlaza a una vista centrada en ese nombre. Las plantas listadas son todas las especies indexadas ligadas a ese país para esta etiqueta.",
+    name_country_hub_link_title: "Abrir vista por país para este nombre de hierba",
+    name_hub_matches_h2: "Coincidencias para «{name}»",
+    name_hub_matches_lead:
+      "{count} coincidencia(s) de planta en el índice abajo. Compara dónde es frecuente cada una, sus usos y otros nombres locales antes de quedarte con una sola traducción.",
     name_hub_explore_h2: "Explorar hierbas relacionadas",
     name_hub_explore_lead:
       "Sinónimos y etiquetas cercanas en el índice, más listas por uso tradicional.",
@@ -1236,24 +1283,13 @@ const dictionary = {
 
     terms_see_disclaimer: "Aviso legal",
 
-    home_why_p1a: "A menudo el mismo nombre cotidiano designa",
-    home_why_p1b: "plantas distintas",
-    home_why_p1c:
-      "en distintos países — incluso en el mismo idioma. Sin",
-    home_why_p1d: "nombres científicos de plantas",
-    home_why_p1e: ", es fácil confundir especies que comparten etiqueta.",
-    home_why_p2a: "También ocurre al revés:",
-    home_why_p2b: "distintos nombres",
-    home_why_p2c: "pueden referirse a la",
-    home_why_p2d: "misma planta",
-    home_why_p2e: ". FloraLexicon muestra esos vínculos para que la",
-    home_why_p2f: "identificación de hierbas",
-    home_why_p2g: "y las referencias transfronterizas se apoyen en la taxonomía.",
-    home_why_p3:
-      "Esto es especialmente frecuente con las hierbas medicinales: el mismo nombre puede referirse a distintas especies usadas en remedios locales.",
+    home_why_para1:
+      "El mismo nombre de hierba puede designar plantas distintas según el país, el idioma o el contexto. Es muy frecuente con hierbas medicinales, infusiones y remedios locales.",
+    home_why_para2:
+      "La misma planta puede tener muchos nombres locales en distintas regiones y tradiciones. FloraLexicon ayuda a ver qué pedir en otro país y luego comprobar la especie cuando necesites certeza.",
     home_medicinal_title: "Pensado para el uso tradicional y medicinal de las hierbas",
     home_medicinal_body:
-      "FloraLexicon se centra en hierbas medicinales y en plantas para infusiones y tés de hierbas, además de remedios naturales y medicina tradicional con plantas en distintas culturas. No pretende catalogar plantas ornamentales ni decorativas.",
+      "FloraLexicon se centra en hierbas usadas en infusiones, remedios y medicina tradicional en distintas culturas. Te ayuda a encontrar el nombre local correcto y confirmar la planta: no cataloga especies ornamentales.",
 
     plant_detail_def_line1:
       "{scientific} es una {kind} asociada en el índice de FloraLexicon a usos tradicionales relacionados con: {themes}.",
@@ -1272,7 +1308,7 @@ const dictionary = {
     plant_detail_theme_general: "contextos domésticos y herbales tradicionales",
     plant_detail_used_for: "Uso tradicional destacado",
     plant_detail_page_scope:
-      "Esta página resume temas de uso tradicional, alertas de seguridad del índice y cómo cambian los nombres por región.",
+      "Temas de uso tradicional, alertas de seguridad del índice y cómo cambian los nombres locales de la hierba por país.",
     plant_detail_sources_footnote:
       "Última actualización según el índice etnobotánico fusionado de FloraLexicon—solo informativo; véase el aviso legal.",
     plant_detail_also_known: "También conocida como",
@@ -1337,6 +1373,9 @@ const dictionary = {
 
     plant_detail_meta_title: "{name} — usos, beneficios y seguridad | FloraLexicon",
     plant_detail_meta_title_v2: "{name}: usos, beneficios, seguridad y riesgos | FloraLexicon",
+    plant_detail_meta_title_positioning: "{name} — Nombres comunes entre países",
+    plant_detail_meta_desc_positioning:
+      "Nombres locales y regionales de {name} en distintos países. Compara etiquetas por región y verifica la especie en FloraLexicon.",
     plant_detail_meta_desc:
       "{lead} Contexto de seguridad en el índice: {safety}. Solo informativo: no es consejo médico.",
     plant_detail_meta_desc_v2:
@@ -1348,6 +1387,11 @@ const dictionary = {
     plant_detail_description_lead:
       "Una {type} de la familia {family} ({genus}), con categorías de uso tradicional indexadas: {uses}.",
     plant_detail_common_names: "Nombres comunes",
+    plant_detail_common_in_label: "Común en:",
+    plant_detail_called_in_countries_h2: "¿Cómo se llama esta hierba en distintos países?",
+    plant_detail_called_in_countries_lead:
+      "Nombres comunes indexados para esta especie, agrupados por país. Cada etiqueta abre el concentrador de ese nombre.",
+    plant_detail_browse_uses_lead: "Explorar por uso:",
     plant_detail_short_intro: "Resumen",
     plant_detail_facts: "Datos clave",
     plant_detail_fact_family: "Familia",

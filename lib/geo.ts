@@ -2,6 +2,9 @@ import { resolveCanonicalNameKey, type NameEntry } from "@/lib/data";
 import type { Locale } from "@/lib/i18n";
 import { getCountryDisplayName } from "@/lib/countries";
 
+/** Country labels for UI: map ISO codes to full names via {@link getCountryDisplayName}. */
+export { getCountryDisplayName, joinCountryNames } from "@/lib/countries";
+
 /** Confidence badge: "Most likely match" when coverage is at or above this share. */
 export const CONFIDENCE_MOST_LIKELY_MIN = 0.7;
 /** Confidence badge: "Strong regional signal" from this share up to (but not including) {@link CONFIDENCE_MOST_LIKELY_MIN}. */

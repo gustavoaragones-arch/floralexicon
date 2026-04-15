@@ -1,3 +1,4 @@
+import { getCountryDisplayName, urlSlugToCountryCode } from "@/lib/countries";
 import {
   alternateLanguageUrls,
   isLocale,
@@ -5,6 +6,7 @@ import {
   t,
   type Locale,
 } from "@/lib/i18n";
+import { SEO_HUB_COUNTRY_SLUGS } from "@/lib/seoProgrammaticRoutes";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -81,7 +83,7 @@ export default function HomePage({ params }: Props) {
         </form>
 
         <p className="mt-4 max-w-2xl text-sm font-medium text-stone-700 dark:text-stone-300">
-          {t(lang, "hero_search_context")}
+          {t(lang, "hero_search_helper")}
         </p>
 
         <p className="mt-6 text-sm text-stone-500 dark:text-stone-500">
@@ -98,6 +100,32 @@ export default function HomePage({ params }: Props) {
             </span>
           ))}
         </p>
+      </section>
+
+      <section
+        className="mt-10 rounded-3xl border border-stone-200/80 bg-white/70 px-6 py-8 shadow-sm dark:border-stone-700 dark:bg-stone-900/35 sm:px-8"
+        aria-labelledby="country-hub-heading"
+      >
+        <h2 id="country-hub-heading" className={h2Class}>
+          {t(lang, "home_country_hub_title")}
+        </h2>
+        <p className={`mt-3 max-w-2xl text-sm ${bodyClass}`}>{t(lang, "home_country_hub_lead")}</p>
+        <ul className="mt-5 flex flex-wrap gap-3">
+          {SEO_HUB_COUNTRY_SLUGS.map((slug) => {
+            const code = urlSlugToCountryCode(slug);
+            if (!code) return null;
+            return (
+              <li key={slug}>
+                <a
+                  href={`/herbs/${slug}`}
+                  className="inline-flex min-h-11 items-center rounded-full border border-stone-300 bg-white px-5 py-2 text-sm font-semibold text-stone-800 shadow-sm transition-colors hover:border-flora-forest/60 hover:text-flora-forest dark:border-stone-600 dark:bg-stone-950 dark:text-stone-100 dark:hover:border-emerald-600 dark:hover:text-emerald-300"
+                >
+                  {getCountryDisplayName(code, lang)}
+                </a>
+              </li>
+            );
+          })}
+        </ul>
       </section>
 
       <div className="mt-20 space-y-20">
@@ -135,33 +163,8 @@ export default function HomePage({ params }: Props) {
             {t(lang, "home_why_title")}
           </h2>
           <div className={`space-y-4 ${bodyClass}`}>
-            <p>
-              {t(lang, "home_why_p1a")}{" "}
-              <strong className="font-medium text-stone-800 dark:text-stone-200">
-                {t(lang, "home_why_p1b")}
-              </strong>{" "}
-              {t(lang, "home_why_p1c")}{" "}
-              <strong className="font-medium text-stone-800 dark:text-stone-200">
-                {t(lang, "home_why_p1d")}
-              </strong>
-              {t(lang, "home_why_p1e")}
-            </p>
-            <p>
-              {t(lang, "home_why_p2a")}{" "}
-              <strong className="font-medium text-stone-800 dark:text-stone-200">
-                {t(lang, "home_why_p2b")}
-              </strong>{" "}
-              {t(lang, "home_why_p2c")}{" "}
-              <strong className="font-medium text-stone-800 dark:text-stone-200">
-                {t(lang, "home_why_p2d")}
-              </strong>
-              {t(lang, "home_why_p2e")}{" "}
-              <strong className="font-medium text-stone-800 dark:text-stone-200">
-                {t(lang, "home_why_p2f")}
-              </strong>{" "}
-              {t(lang, "home_why_p2g")}
-            </p>
-            <p>{t(lang, "home_why_p3")}</p>
+            <p>{t(lang, "home_why_para1")}</p>
+            <p>{t(lang, "home_why_para2")}</p>
           </div>
         </section>
 

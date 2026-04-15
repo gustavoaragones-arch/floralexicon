@@ -4,7 +4,7 @@ import { PlantEvidence } from "@/components/plantDetail/PlantEvidence";
 import { PlantFaq } from "@/components/plantDetail/PlantFaq";
 import { PlantFactsGrid } from "@/components/plantDetail/PlantFactsGrid";
 import { PlantHeader } from "@/components/plantDetail/PlantHeader";
-import { PlantOtherNamesSection } from "@/components/plantDetail/PlantOtherNamesSection";
+import { PlantHerbNamesByCountrySection } from "@/components/plantDetail/PlantHerbNamesByCountrySection";
 import { PlantPageScope } from "@/components/plantDetail/PlantPageScope";
 import { PlantRegions } from "@/components/plantDetail/PlantRegions";
 import { PlantSimilarUsesSection } from "@/components/plantDetail/PlantSimilarUsesSection";
@@ -13,9 +13,12 @@ import { PlantSourcesFootnote } from "@/components/plantDetail/PlantSourcesFootn
 import { PlantUses } from "@/components/plantDetail/PlantUses";
 import { RelatedPlants } from "@/components/plantDetail/RelatedPlants";
 import { PlantExploreSection } from "@/components/PlantExploreSection";
-import { getAlsoKnownAsLinks, getPlantsSharingPrimaryUses, loadPlants } from "@/lib/data";
-import { clipForMetaDescription, humanToxicityBand, humanUseLabel } from "@/lib/plantHumanLabels";
-import { topTwoThemesForHeader } from "@/lib/plantIntroCopy";
+import {
+  getAlsoKnownAsLinks,
+  getNamesGroupedByCountryForPlant,
+  getPlantsSharingPrimaryUses,
+  loadPlants,
+} from "@/lib/data";
 import {
   buildPlantDetailModel,
   getAmbiguityHubsForPlant,
@@ -59,28 +62,13 @@ export function generateMetadata({ params }: Props): Metadata {
     };
   }
 
-  const model = buildPlantDetailModel(plant);
-  const topTwo = topTwoThemesForHeader(model, lang);
-  const usesShort =
-    topTwo.join(" · ") ||
-    plant.primary_uses
-      .slice(0, 2)
-      .map((u) => humanUseLabel(u.trim(), lang))
-      .filter(Boolean)
-      .join(" · ") ||
-    t(lang, "plant_detail_value_not_listed");
-  const safety = model.merged?.toxicity?.level
-    ? humanToxicityBand(model.merged.toxicity.level, lang)
-    : t(lang, "plant_detail_tox_unknown");
-
-  const description = clipForMetaDescription(
-    ti(lang, "plant_detail_meta_desc_v2", { uses: usesShort, safety }),
-    155
-  );
-
   return {
-    title: ti(lang, "plant_detail_meta_title_v2", { name: plant.scientific_name }),
-    description,
+    title: ti(lang, "plant_detail_meta_title_positioning", {
+      name: plant.scientific_name,
+    }),
+    description: ti(lang, "plant_detail_meta_desc_positioning", {
+      name: plant.scientific_name,
+    }),
     alternates: {
       canonical: lang === "es" ? alt.es : alt.en,
       languages: {
@@ -106,15 +94,16 @@ export default function PlantPage({ params }: Props) {
   const publicName = model.displayNames[0] ?? plant.scientific_name;
   const otherNameLinks = getAlsoKnownAsLinks(plant.id);
   const similarByUses = getPlantsSharingPrimaryUses(plant, 14);
+  const namesByCountry = getNamesGroupedByCountryForPlant(plant.id);
 
   return (
     <main className="mx-auto w-full max-w-[1000px] px-6 py-14">
       <PlantCriticalSafetyBanner lang={lang} model={model} />
-      <PlantHeader lang={lang} model={model} />
+      <PlantHeader lang={lang} model={model} alsoKnownLinks={otherNameLinks} />
+      <PlantHerbNamesByCountrySection lang={lang} groups={namesByCountry} />
       <PlantPageScope lang={lang} />
       <PlantFactsGrid lang={lang} model={model} />
       <PlantUses lang={lang} model={model} />
-      <PlantOtherNamesSection lang={lang} links={otherNameLinks} />
       <PlantSimilarUsesSection lang={lang} plant={plant} similar={similarByUses} />
       <PlantSafety lang={lang} model={model} />
       <PlantEvidence lang={lang} model={model} />

@@ -40,3 +40,12 @@ export function filterPlantsByCategory(
 ): Plant[] {
   return plants.filter((p) => getPlantCategories(p).includes(category));
 }
+
+/** Hub path under `[lang]` for a primary-use slug, when we surface browse-by-use links. */
+export function browsePathForPrimaryUseSlug(use: string): string | null {
+  const u = use.trim().toLowerCase();
+  if (u === "medicinal" || u === "tea") return categoryListingPath.medicinal;
+  if (u === "culinary") return categoryListingPath["culinary-medicinal"];
+  if (u === "ritual") return categoryListingPath.ritual;
+  return null;
+}

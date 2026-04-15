@@ -8,6 +8,7 @@ export const countryMap: Record<string, string> = {
   EC: "Ecuador",
   ES: "Spain",
   GB: "United Kingdom",
+  GT: "Guatemala",
   MX: "Mexico",
   PE: "Peru",
   US: "United States",

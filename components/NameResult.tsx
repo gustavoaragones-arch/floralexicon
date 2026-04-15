@@ -8,17 +8,16 @@ import {
   sortRegionalPlantRows,
 } from "@/lib/resolver";
 import { CountryContextSelector } from "@/components/CountryContextSelector";
+import { NameInstantAnswer } from "@/components/NameInstantAnswer";
 import { NameQuickAnswer } from "@/components/NameQuickAnswer";
-import { NameClusterGlobalPresence } from "@/components/NameClusterGlobalPresence";
 import {
-  NameClusterOverview,
   NameClusterRegional,
   NameClusterUses,
 } from "@/components/NameClusterSections";
 import {
-  getRelatedHerbNameLinksForHub,
+  getAlternateHerbNamesWithCountriesForHub,
+  getOtherNamesForSamePlant,
   loadNames,
-  urlSlugToCanonicalSlug,
 } from "@/lib/data";
 import {
   aggregateCountryFrequencyForNameHub,
@@ -166,30 +165,33 @@ export function NameResult({
       : null;
 
   const hubPlantIds = plantContexts.map((c) => c.plant.id);
-  const relatedRaw = hasMatches
-    ? getRelatedHerbNameLinksForHub(hubPlantIds, nameSlug)
+  const alternateNameCountryRows = hasMatches
+    ? getAlternateHerbNamesWithCountriesForHub(hubPlantIds, nameSlug, 120)
     : [];
-  const sameSlugCanon = new Set<string>();
-  for (const c of samePlantClusters) {
-    for (const { slug } of c.links) {
-      sameSlugCanon.add(urlSlugToCanonicalSlug(slug));
-    }
-  }
-  const relatedHerbLinks = relatedRaw.filter(
-    (l) => !sameSlugCanon.has(urlSlugToCanonicalSlug(l.slug))
-  );
 
   return (
     <div>
+      {hasMatches ? (
+        <NameInstantAnswer
+          lang={lang}
+          displayName={titleName}
+          alternateRows={alternateNameCountryRows}
+          countryCodesWhereNameAppears={globalHubCodes}
+          plantContexts={plantContexts}
+        />
+      ) : null}
       <header className="border-b border-stone-200 pb-8 dark:border-stone-800">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
           <div className="min-w-0 flex-1">
-            <p className="text-xs font-medium uppercase tracking-wider text-stone-500 dark:text-stone-500">
-              {t(lang, "name_label_plant_name")}
-            </p>
-            <h1 className="mt-2 font-serif text-xl font-semibold leading-snug tracking-tight text-stone-900 dark:text-stone-100 sm:text-2xl md:text-3xl">
+            <h1 className="font-serif text-xl font-semibold leading-snug tracking-tight text-stone-900 dark:text-stone-100 sm:text-2xl md:text-3xl">
               {ti(lang, "name_h1", { name: titleName })}
             </h1>
+            {hasMatches ? (
+              <div className="mt-4 max-w-2xl space-y-3 text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+                <p>{ti(lang, "name_intro_p1", { name: titleName })}</p>
+                <p>{t(lang, "name_intro_p2")}</p>
+              </div>
+            ) : null}
             {normalized && normalized !== queryLabel ? (
               <p className="mt-2 text-sm text-stone-500 dark:text-stone-400">
                 {t(lang, "name_spelling_match")} {normalized}
@@ -212,14 +214,6 @@ export function NameResult({
           </div>
         </div>
 
-        {hasMatches && plantContexts.length > 0 ? (
-          <NameQuickAnswer
-            lang={lang}
-            displayName={titleName}
-            contexts={plantContexts.slice(0, 2)}
-          />
-        ) : null}
-
         {hasMatches ? (
           <CountryContextSelector
             lang={lang}
@@ -238,31 +232,24 @@ export function NameResult({
 
       {hasMatches ? (
         <div className="mt-10 space-y-0">
-          <NameClusterGlobalPresence
+          <NameClusterRegional
             lang={lang}
-            displayName={titleName}
-            countryCodesSorted={globalHubCodes}
+            nameCanonicalSlug={nameSlug}
+            regionalRows={regionalRows}
           />
           <NameHubCountryIndexSection
             lang={lang}
             nameCanonicalSlug={nameSlug}
             countryCodesSorted={globalHubCodes}
           />
-          <div className="mt-10">
-            <NameClusterOverview lang={lang} displayName={titleName} />
-          </div>
+          <NameRelatedHerbNamesSection
+            lang={lang}
+            rows={alternateNameCountryRows.slice(0, 48)}
+          />
           <NameClusterUses
             lang={lang}
             displayName={titleName}
             useKeys={useKeys}
-          />
-          <NameRelatedHerbNamesSection lang={lang} links={relatedHerbLinks} />
-          <NameClusterRegional
-            lang={lang}
-            displayName={titleName}
-            nameCanonicalSlug={nameSlug}
-            regionalRows={regionalRows}
-            names={names}
           />
           <div className="mt-10">
             <NameProgrammaticSeoBlocks
@@ -307,10 +294,10 @@ export function NameResult({
             id="hub-species-heading"
             className="font-serif text-xl font-semibold tracking-tight text-stone-900 dark:text-stone-100 sm:text-2xl"
           >
-            {ti(lang, "name_hub_species_h2", { name: titleName })}
+            {ti(lang, "name_hub_matches_h2", { name: titleName })}
           </h2>
           <p className="mt-3 max-w-2xl text-sm leading-relaxed text-stone-600 dark:text-stone-400">
-            {ti(lang, "name_hub_species_lead", {
+            {ti(lang, "name_hub_matches_lead", {
               count: String(plantContexts.length),
             })}
           </p>
@@ -351,6 +338,9 @@ export function NameResult({
                         frameless
                         commonCountries={countries}
                         userCountry={selectedCountry}
+                        alsoKnownAs={getOtherNamesForSamePlant(plant.id, nameSlug)}
+                        deferImage
+                        hideFamilyRow
                         decisionAssist={{
                           matchNumber: index + 1,
                           queryLabel: titleName,
@@ -370,6 +360,16 @@ export function NameResult({
             </ul>
           )}
         </section>
+      ) : null}
+
+      {hasMatches && plantContexts.length > 0 ? (
+        <div className="mt-10">
+          <NameQuickAnswer
+            lang={lang}
+            displayName={titleName}
+            contexts={plantContexts.slice(0, 2)}
+          />
+        </div>
       ) : null}
 
       {hasMatches && ambiguity === "high" && plantContexts.length >= 2 ? (

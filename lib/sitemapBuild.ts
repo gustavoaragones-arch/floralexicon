@@ -6,6 +6,12 @@ import {
   getNamesByNormalized,
   loadPlants,
 } from "@/lib/data";
+import {
+  herbHubStaticParams,
+  seoNameCountryQueryPath,
+  seoNameCountryQueryStaticParams,
+} from "@/lib/seoProgrammaticRoutes";
+import { getUseClusterSlugs } from "@/lib/useClusters";
 
 type ProcessedNameRow = { normalized?: string };
 type ProcessedPlantRow = { id?: string };
@@ -65,8 +71,10 @@ const URLSET_NS = `xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"`;
 const XHTML_NS = `xmlns:xhtml="http://www.w3.org/1999/xhtml"`;
 
 export function buildSitemapIndexXml(origin: string): string {
-  const namesLoc = escapeXml(`${origin}/sitemaps/names-1.xml`);
-  const plantsLoc = escapeXml(`${origin}/sitemaps/plants-1.xml`);
+  const base = origin.replace(/\/$/, "");
+  const namesLoc = escapeXml(`${base}/sitemaps/names-1.xml`);
+  const plantsLoc = escapeXml(`${base}/sitemaps/plants-1.xml`);
+  const programmaticLoc = escapeXml(`${base}/sitemaps/programmatic-1.xml`);
   return [
     `<?xml version="1.0" encoding="UTF-8"?>`,
     `<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">`,
@@ -76,9 +84,56 @@ export function buildSitemapIndexXml(origin: string): string {
     `  <sitemap>`,
     `    <loc>${plantsLoc}</loc>`,
     `  </sitemap>`,
+    `  <sitemap>`,
+    `    <loc>${programmaticLoc}</loc>`,
+    `  </sitemap>`,
     `</sitemapindex>`,
     "",
   ].join("\n");
+}
+
+/**
+ * Locale-agnostic programmatic hubs: `/herbs/*`, `/query/*`, `/use/*`, cluster landing paths.
+ * Matches `generateStaticParams` for `/herbs/[country]` (featured hubs) and `/query/[name]-in-[country]` (curated batch).
+ */
+export function buildProgrammaticSitemapXml(origin: string): string {
+  const base = origin.replace(/\/$/, "");
+  const lines: string[] = [
+    `<?xml version="1.0" encoding="UTF-8"?>`,
+    `<urlset ${URLSET_NS}>`,
+  ];
+
+  const pushUrl = (path: string, changefreq: string, priority: string) => {
+    const loc = `${base}${path.startsWith("/") ? path : `/${path}`}`;
+    lines.push("  <url>");
+    lines.push(`    <loc>${escapeXml(loc)}</loc>`);
+    lines.push(`    <changefreq>${changefreq}</changefreq>`);
+    lines.push(`    <priority>${priority}</priority>`);
+    lines.push("  </url>");
+  };
+
+  pushUrl("/herbs", "weekly", "0.85");
+  pushUrl("/query", "weekly", "0.75");
+  pushUrl("/medicinal-herbs", "weekly", "0.85");
+  pushUrl("/herbal-teas", "weekly", "0.85");
+  pushUrl("/culinary-medicinal-herbs", "weekly", "0.85");
+  pushUrl("/ritual-herbs", "weekly", "0.85");
+
+  for (const slug of getUseClusterSlugs()) {
+    pushUrl(`/use/${slug}`, "weekly", "0.75");
+  }
+
+  for (const { country } of herbHubStaticParams()) {
+    pushUrl(`/herbs/${country}`, "weekly", "0.8");
+  }
+
+  for (const row of seoNameCountryQueryStaticParams()) {
+    pushUrl(seoNameCountryQueryPath(row.name, row.country), "weekly", "0.7");
+  }
+
+  lines.push("</urlset>");
+  lines.push("");
+  return lines.join("\n");
 }
 
 export function buildNamesSitemapXml(origin: string): string {

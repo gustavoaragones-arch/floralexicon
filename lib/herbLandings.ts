@@ -1,6 +1,7 @@
 import { countryCodeToUrlSlug, countryMap } from "@/lib/countries";
 import {
   getNameEntryUrlSlug,
+  resolveCanonicalNameKey,
   loadNames,
   loadPlants,
   type NameIndexLink,
@@ -61,4 +62,63 @@ export function generateHerbCountryStaticParams(): { lang: Locale; country: stri
   return locales.flatMap((lang) =>
     codes.map((iso) => ({ lang, country: countryCodeToUrlSlug(iso) }))
   );
+}
+
+/** Distinct use labels for a country, ranked by number of plants. */
+export function getUseCountsForCountry(iso: string): { use: string; count: number }[] {
+  const counts = new Map<string, number>();
+  for (const plant of getPlantsForCountry(iso)) {
+    for (const raw of plant.primary_uses) {
+      const use = raw.trim().toLowerCase();
+      if (!use) continue;
+      counts.set(use, (counts.get(use) ?? 0) + 1);
+    }
+  }
+  return [...counts.entries()]
+    .map(([use, count]) => ({ use, count }))
+    .sort((a, b) => b.count - a.count || a.use.localeCompare(b.use, "en"));
+}
+
+export type QueryStaticParam = {
+  query: string;
+  nameSlug: string;
+  countryIso: string;
+};
+
+/**
+ * Top long-tail query combinations in the form "{name}-in-{country}".
+ * Picks top names per country by record frequency in `names.json`.
+ */
+export function getTopNameCountryQueryParams(limitPerCountry = 24): QueryStaticParam[] {
+  const byCountryThenName = new Map<string, Map<string, number>>();
+  for (const row of loadNames()) {
+    const country = row.country.trim().toUpperCase();
+    if (!country) continue;
+    const canonical = resolveCanonicalNameKey(row.normalized);
+    if (!canonical) continue;
+    const nameSlug = canonical.replace(/\s+/g, "-");
+    let perName = byCountryThenName.get(country);
+    if (!perName) {
+      perName = new Map<string, number>();
+      byCountryThenName.set(country, perName);
+    }
+    perName.set(nameSlug, (perName.get(nameSlug) ?? 0) + 1);
+  }
+
+  const out: QueryStaticParam[] = [];
+  for (const [countryIso, perName] of byCountryThenName) {
+    const topNames = [...perName.entries()]
+      .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "en"))
+      .slice(0, limitPerCountry)
+      .map(([nameSlug]) => nameSlug);
+    const countrySlug = countryCodeToUrlSlug(countryIso);
+    for (const nameSlug of topNames) {
+      out.push({
+        query: `${nameSlug}-in-${countrySlug}`,
+        nameSlug,
+        countryIso,
+      });
+    }
+  }
+  return out.sort((a, b) => a.query.localeCompare(b.query, "en"));
 }
