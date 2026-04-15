@@ -246,6 +246,34 @@ const dictionary = {
     category_ritual_intro:
       "Explore herbs used in traditional practices, cultural rituals, and indigenous medicine.",
     category_empty_list: "No plants in this category match the current index.",
+    category_medicinal_seo_p2:
+      "Each species links to a plant page with safety and regional notes. Common-name hubs link to disambiguation pages when one label maps to more than one scientific plant.",
+    category_medicinal_country_heading: "Browse by country",
+    category_medicinal_country_lead:
+      "Regional index pages list species and name hubs recorded for that country in FloraLexicon’s merged dataset.",
+    category_plant_list_h2: "Species in this category",
+    category_plant_list_truncated:
+      "Showing {shown} of {total} species—see country hubs or search for more.",
+    category_footer_nav_aria: "More ways to explore",
+
+    meta_herbs_country_title: "Medicinal herbs in {country} | FloraLexicon",
+    meta_herbs_country_desc:
+      "Species and common-name hubs indexed for {country} in FloraLexicon: links to plant pages and name disambiguation.",
+    herbs_country_h1: "Medicinal herbs in {country}",
+    herbs_country_intro:
+      "Plants below appear in FloraLexicon’s regional index for {country} (merged ethnobotanical slice). Use them as a starting point—always verify identification and local regulations.",
+    herbs_country_intro_seo:
+      "Traditional and medicinal use varies by species and source. Follow links to each plant’s page for indexed use categories, or open a name hub when the same label may refer to more than one species.",
+    herbs_country_nav_aria: "Related listings",
+    herbs_country_nav_medicinal: "Medicinal herbs worldwide",
+    herbs_country_nav_plants: "All plants in the index",
+    herbs_country_nav_names: "Browse plant names",
+    herbs_country_names_h2: "Common names recorded in {country}",
+    herbs_country_names_lead:
+      "Each label opens the name hub for that spelling in FloraLexicon’s index.",
+    herbs_country_plants_h2: "Indexed species for {country}",
+    herbs_country_plants_cap: "Showing {shown} of {total} species.",
+    herbs_country_empty: "No species in the slim index list this country in the merged dataset yet.",
 
     site_disclaimer_strip: "Information on this site is for educational purposes only.",
     footer_tagline_a: "FloraLexicon maps everyday and regional plant labels to",
@@ -373,6 +401,21 @@ const dictionary = {
     hub_use_ritual: "ritual use",
     hub_use_culinary: "culinary use",
     hub_use_aromatic: "aromatic use",
+
+    name_related_herb_names_h2: "Related herb names",
+    name_related_herb_names_lead:
+      "Other indexed labels that share at least one species with this name hub—useful when the same plant is sold or discussed under different names.",
+    name_hub_countries_index_h2: "Used in these countries",
+    name_hub_countries_index_lead:
+      "Open a country-focused view of this name hub (same dataset as the regional breakdown below).",
+    name_hub_plant_quick_nav_aria: "Jump to species in this name hub",
+    name_hub_plant_quick_nav_label: "Plants for this name (quick links)",
+    plant_detail_other_names_h2: "Other names for this plant",
+    plant_detail_other_names_lead:
+      "Indexed common-name hubs that reference this species—each link opens the disambiguation page for that label.",
+    plant_detail_similar_uses_h2: "Similar medicinal herbs (shared uses)",
+    plant_detail_similar_uses_lead:
+      "Other species in this index that share at least one of the same traditional use categories:",
 
     seo_meaning_h2: "What does ‘{name}’ mean?",
     seo_meaning_lead: "‘{name}’ is a common or regional plant name, not a unique scientific identifier.",
@@ -882,6 +925,35 @@ const dictionary = {
     category_ritual_intro:
       "Explora hierbas usadas en prácticas tradicionales, rituales culturales y medicina indígena.",
     category_empty_list: "Ninguna planta de esta categoría coincide con el índice actual.",
+    category_medicinal_seo_p2:
+      "Cada especie enlaza a su ficha con notas de seguridad y región. Los concentradores de nombre enlazan a la desambiguación cuando una etiqueta corresponde a más de una planta científica.",
+    category_medicinal_country_heading: "Explorar por país",
+    category_medicinal_country_lead:
+      "Las páginas regionales listan especies y nombres registrados para ese país en el conjunto fusionado de FloraLexicon.",
+    category_plant_list_h2: "Especies en esta categoría",
+    category_plant_list_truncated:
+      "Se muestran {shown} de {total} especies—usa los hubs por país o la búsqueda para ver más.",
+    category_footer_nav_aria: "Más formas de explorar",
+
+    meta_herbs_country_title: "Hierbas medicinales en {country} | FloraLexicon",
+    meta_herbs_country_desc:
+      "Especies y nombres comunes indexados para {country} en FloraLexicon: enlaces a fichas de planta y a la desambiguación de nombres.",
+    herbs_country_h1: "Hierbas medicinales en {country}",
+    herbs_country_intro:
+      "Las plantas siguientes figuran en el índice regional de FloraLexicon para {country} (fragmento etnobotánico fusionado). Sirven como punto de partida: verifique identificación y normativa local.",
+    herbs_country_intro_seo:
+      "El uso tradicional y medicinal varía por especie y fuente. Siga los enlaces a la ficha de cada planta para categorías de uso indexadas, o abra un concentrador de nombre cuando la misma etiqueta pueda designar más de una especie.",
+    herbs_country_nav_aria: "Listados relacionados",
+    herbs_country_nav_medicinal: "Hierbas medicinales en el mundo",
+    herbs_country_nav_plants: "Todas las plantas del índice",
+    herbs_country_nav_names: "Explorar nombres de plantas",
+    herbs_country_names_h2: "Nombres comunes registrados en {country}",
+    herbs_country_names_lead:
+      "Cada etiqueta abre el concentrador de ese nombre en el índice de FloraLexicon.",
+    herbs_country_plants_h2: "Especies indexadas para {country}",
+    herbs_country_plants_cap: "Se muestran {shown} de {total} especies.",
+    herbs_country_empty:
+      "Aún no hay especies del índice reducido que listen este país en el conjunto fusionado.",
 
     site_disclaimer_strip: "La información de este sitio es solo educativa.",
     footer_tagline_a: "FloraLexicon relaciona etiquetas cotidianas y regionales con",
@@ -1010,6 +1082,21 @@ const dictionary = {
     hub_use_ritual: "uso ritual",
     hub_use_culinary: "uso culinario",
     hub_use_aromatic: "uso aromático",
+
+    name_related_herb_names_h2: "Nombres de hierbas relacionados",
+    name_related_herb_names_lead:
+      "Otras etiquetas indexadas que comparten al menos una especie con este concentrador de nombre—útil cuando la misma planta se vende o se cita con distintos nombres.",
+    name_hub_countries_index_h2: "Usada en estos países",
+    name_hub_countries_index_lead:
+      "Abra la vista por país de este nombre (los mismos datos que el desglose regional más abajo).",
+    name_hub_plant_quick_nav_aria: "Ir a las especies de este nombre",
+    name_hub_plant_quick_nav_label: "Plantas para este nombre (accesos rápidos)",
+    plant_detail_other_names_h2: "Otros nombres para esta planta",
+    plant_detail_other_names_lead:
+      "Concentradores de nombre común indexados que referencian esta especie—cada enlace abre la página de desambiguación de esa etiqueta.",
+    plant_detail_similar_uses_h2: "Hierbas medicinales parecidas (usos compartidos)",
+    plant_detail_similar_uses_lead:
+      "Otras especies de este índice que comparten al menos una categoría de uso tradicional:",
 
     seo_meaning_h2: "¿Qué significa «{name}»?",
     seo_meaning_lead: "«{name}» es un nombre común o regional de planta, no un identificador científico único.",

@@ -287,6 +287,80 @@ export function getAlsoKnownAsLinks(plantId: string): NameIndexLink[] {
     );
 }
 
+const MAX_RELATED_HERB_NAME_LINKS = 40;
+
+/**
+ * Indexed names that share any plant id with this hub’s species, excluding the
+ * current name hub (by canonical slug). Data-driven internal linking.
+ */
+export function getRelatedHerbNameLinksForHub(
+  plantIds: string[],
+  excludeCanonicalSlug: string
+): NameIndexLink[] {
+  if (!plantIds.length) return [];
+  ensureIndexes();
+  const want = new Set(plantIds.map((id) => id.trim()).filter(Boolean));
+  if (want.size === 0) return [];
+
+  const excludeCanonical = urlSlugToCanonicalSlug(excludeCanonicalSlug);
+  const bySlug = new Map<string, string>();
+
+  for (const entry of namesList) {
+    if (!entry.plant_ids.some((id) => want.has(id))) continue;
+    const slug = getNameEntryUrlSlug(entry);
+    if (!slug) continue;
+    if (urlSlugToCanonicalSlug(slug) === excludeCanonical) continue;
+    const label = entry.name.trim() || slug;
+    if (!bySlug.has(slug)) bySlug.set(slug, label);
+  }
+
+  return Array.from(bySlug.entries())
+    .map(([slug, label]) => ({ slug, label }))
+    .sort((a, b) =>
+      a.label.localeCompare(b.label, "en", { sensitivity: "base" })
+    )
+    .slice(0, MAX_RELATED_HERB_NAME_LINKS);
+}
+
+/** Country path segments (`/name/[slug]/[country]`) that exist for this canonical hub. */
+export function getCountryUrlSlugsForNameHub(nameCanonicalSlug: string): Set<string> {
+  const canon = urlSlugToCanonicalSlug(nameCanonicalSlug);
+  const out = new Set<string>();
+  for (const row of getNameCountryStaticParams()) {
+    if (urlSlugToCanonicalSlug(row.slug) !== canon) continue;
+    out.add(row.country);
+  }
+  return out;
+}
+
+/**
+ * Other plants in the slim index that share at least one `primary_uses` slug with `plant`.
+ */
+export function getPlantsSharingPrimaryUses(plant: Plant, limit = 14): Plant[] {
+  ensureIndexes();
+  const uses = new Set(
+    plant.primary_uses.map((u) => u.trim().toLowerCase()).filter(Boolean)
+  );
+  if (uses.size === 0) return [];
+
+  const scored: { plant: Plant; n: number }[] = [];
+  for (const p of plantsList) {
+    if (p.id === plant.id) continue;
+    const n = p.primary_uses.filter((u) =>
+      uses.has(u.trim().toLowerCase())
+    ).length;
+    if (n === 0) continue;
+    scored.push({ plant: p, n });
+  }
+
+  scored.sort(
+    (a, b) =>
+      b.n - a.n ||
+      a.plant.scientific_name.localeCompare(b.plant.scientific_name, "en")
+  );
+  return scored.slice(0, limit).map((x) => x.plant);
+}
+
 /** ISO-style codes for region filter; merged with any countries present in names data. */
 const DEFAULT_REGION_CODES = [
   "AR",

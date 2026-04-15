@@ -40,6 +40,10 @@ export default function MedicinalHerbsPage({ params }: Props) {
       category="medicinal"
       h1Key="category_medicinal_h1"
       introKey="category_medicinal_intro"
+      introSecondaryKey="category_medicinal_seo_p2"
+      maxPlants={100}
+      nameLinkLimit={48}
+      showCountryHubLinks
     />
   );
 }

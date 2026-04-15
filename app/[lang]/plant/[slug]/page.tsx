@@ -4,14 +4,16 @@ import { PlantEvidence } from "@/components/plantDetail/PlantEvidence";
 import { PlantFaq } from "@/components/plantDetail/PlantFaq";
 import { PlantFactsGrid } from "@/components/plantDetail/PlantFactsGrid";
 import { PlantHeader } from "@/components/plantDetail/PlantHeader";
+import { PlantOtherNamesSection } from "@/components/plantDetail/PlantOtherNamesSection";
 import { PlantPageScope } from "@/components/plantDetail/PlantPageScope";
 import { PlantRegions } from "@/components/plantDetail/PlantRegions";
+import { PlantSimilarUsesSection } from "@/components/plantDetail/PlantSimilarUsesSection";
 import { PlantSafety } from "@/components/plantDetail/PlantSafety";
 import { PlantSourcesFootnote } from "@/components/plantDetail/PlantSourcesFootnote";
 import { PlantUses } from "@/components/plantDetail/PlantUses";
 import { RelatedPlants } from "@/components/plantDetail/RelatedPlants";
 import { PlantExploreSection } from "@/components/PlantExploreSection";
-import { loadPlants } from "@/lib/data";
+import { getAlsoKnownAsLinks, getPlantsSharingPrimaryUses, loadPlants } from "@/lib/data";
 import { clipForMetaDescription, humanToxicityBand, humanUseLabel } from "@/lib/plantHumanLabels";
 import { topTwoThemesForHeader } from "@/lib/plantIntroCopy";
 import {
@@ -102,6 +104,8 @@ export default function PlantPage({ params }: Props) {
   const ambiguityHubs = getAmbiguityHubsForPlant(plant.id);
   const related = getSmartRelatedPlants(plant, model, 6);
   const publicName = model.displayNames[0] ?? plant.scientific_name;
+  const otherNameLinks = getAlsoKnownAsLinks(plant.id);
+  const similarByUses = getPlantsSharingPrimaryUses(plant, 14);
 
   return (
     <main className="mx-auto w-full max-w-[1000px] px-6 py-14">
@@ -110,6 +114,8 @@ export default function PlantPage({ params }: Props) {
       <PlantPageScope lang={lang} />
       <PlantFactsGrid lang={lang} model={model} />
       <PlantUses lang={lang} model={model} />
+      <PlantOtherNamesSection lang={lang} links={otherNameLinks} />
+      <PlantSimilarUsesSection lang={lang} plant={plant} similar={similarByUses} />
       <PlantSafety lang={lang} model={model} />
       <PlantEvidence lang={lang} model={model} />
       <PlantRegions lang={lang} model={model} />

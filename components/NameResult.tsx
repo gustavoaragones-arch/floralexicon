@@ -15,18 +15,25 @@ import {
   NameClusterRegional,
   NameClusterUses,
 } from "@/components/NameClusterSections";
-import { loadNames } from "@/lib/data";
+import {
+  getRelatedHerbNameLinksForHub,
+  loadNames,
+  urlSlugToCanonicalSlug,
+} from "@/lib/data";
 import {
   aggregateCountryFrequencyForNameHub,
   getNameHubConfidenceTier,
   getNameHubCountryCodesSorted,
 } from "@/lib/geo";
+import { NameHubCountryIndexSection } from "@/components/NameHubCountryIndexSection";
 import { NameHubExploreSection } from "@/components/NameHubExploreSection";
+import { NameHubPlantQuickLinks } from "@/components/NameHubPlantQuickLinks";
 import { NameProgrammaticSeoBlocks } from "@/components/NameProgrammaticSeoBlocks";
 import {
   SamePlantNamesSection,
   type SamePlantCluster,
 } from "@/components/SamePlantNamesSection";
+import { NameRelatedHerbNamesSection } from "@/components/NameRelatedHerbNamesSection";
 import { NameSeoContent } from "@/components/NameSeoContent";
 import { ConceptHint } from "@/components/concepts/ConceptHint";
 import { PlantComparisonSection } from "@/components/PlantComparisonSection";
@@ -158,6 +165,20 @@ export function NameResult({
         })()
       : null;
 
+  const hubPlantIds = plantContexts.map((c) => c.plant.id);
+  const relatedRaw = hasMatches
+    ? getRelatedHerbNameLinksForHub(hubPlantIds, nameSlug)
+    : [];
+  const sameSlugCanon = new Set<string>();
+  for (const c of samePlantClusters) {
+    for (const { slug } of c.links) {
+      sameSlugCanon.add(urlSlugToCanonicalSlug(slug));
+    }
+  }
+  const relatedHerbLinks = relatedRaw.filter(
+    (l) => !sameSlugCanon.has(urlSlugToCanonicalSlug(l.slug))
+  );
+
   return (
     <div>
       <header className="border-b border-stone-200 pb-8 dark:border-stone-800">
@@ -222,6 +243,11 @@ export function NameResult({
             displayName={titleName}
             countryCodesSorted={globalHubCodes}
           />
+          <NameHubCountryIndexSection
+            lang={lang}
+            nameCanonicalSlug={nameSlug}
+            countryCodesSorted={globalHubCodes}
+          />
           <div className="mt-10">
             <NameClusterOverview lang={lang} displayName={titleName} />
           </div>
@@ -230,6 +256,7 @@ export function NameResult({
             displayName={titleName}
             useKeys={useKeys}
           />
+          <NameRelatedHerbNamesSection lang={lang} links={relatedHerbLinks} />
           <NameClusterRegional
             lang={lang}
             displayName={titleName}
@@ -287,6 +314,7 @@ export function NameResult({
               count: String(plantContexts.length),
             })}
           </p>
+          <NameHubPlantQuickLinks lang={lang} plantContexts={plantContexts} />
           <p className="sr-only">
             {ti(lang, "options_heading", {
               count: String(plantContexts.length),
