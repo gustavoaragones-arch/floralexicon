@@ -8,17 +8,16 @@ import {
 import {
   alternateLanguageUrls,
   isLocale,
-  localePath,
   locales,
   ti,
   t,
   type Locale,
 } from "@/lib/i18n";
-import { countryCodeToUrlSlug, resolveCountryFromQueryParam } from "@/lib/countries";
+import { resolveCountryFromQueryParam } from "@/lib/countries";
 import { resolvePlantName } from "@/lib/resolver";
 import { SITE_URL } from "@/lib/site";
 import type { Metadata } from "next";
-import { notFound, permanentRedirect } from "next/navigation";
+import { notFound } from "next/navigation";
 
 type Props = {
   params: { lang: string; slug: string };
@@ -88,17 +87,10 @@ export default function NamePage({ params, searchParams }: Props) {
 
   const canonicalSlug = urlSlugToCanonicalSlug(params.slug);
   const countryRaw = searchParams?.country;
-  if (typeof countryRaw === "string" && countryRaw.trim()) {
-    const code = resolveCountryFromQueryParam(countryRaw);
-    if (code) {
-      permanentRedirect(
-        localePath(
-          lang,
-          `/name/${canonicalSlug}/${countryCodeToUrlSlug(code)}`
-        )
-      );
-    }
-  }
+  const countryFromQuery =
+    typeof countryRaw === "string" && countryRaw.trim()
+      ? resolveCountryFromQueryParam(countryRaw.trim()) ?? null
+      : null;
 
   const result = resolvePlantName(params.slug, undefined, lang);
   const hasMatches = result.matches.length > 0;
@@ -139,6 +131,7 @@ export default function NamePage({ params, searchParams }: Props) {
           plantContexts={result.plantContexts}
           matches={result.matches}
           nameSlug={canonicalSlug}
+          selectedCountry={countryFromQuery ?? undefined}
           countryOptions={countryOptions}
           hasMatches={hasMatches}
           samePlantClusters={samePlantClusters}

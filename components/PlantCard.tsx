@@ -1,5 +1,6 @@
 import type { NameIndexLink, Plant } from "@/lib/data";
 import { formatRegionList, joinCountryNames } from "@/lib/countries";
+import { formatHumanUseKey } from "@/lib/nameHubDisplay";
 import { PlantReferenceImage } from "@/components/PlantReferenceImage";
 import {
   buildHowItDiffers,
@@ -37,6 +38,10 @@ type PlantCardProps = {
   deferImage?: boolean;
   /** Omit family line on name-hub match cards (keep focus on verification fields). */
   hideFamilyRow?: boolean;
+  /** Name hub: hide “when to choose / how it differs” copy for a scannable decision layout. */
+  suppressDecisionExplanations?: boolean;
+  /** Name hub match cards: evidence-first layout (countries → aliases → uses → confidence → image). */
+  hubStyleCard?: boolean;
 };
 
 export function PlantCard({
@@ -53,6 +58,8 @@ export function PlantCard({
   alsoKnownAs,
   deferImage = false,
   hideFamilyRow = false,
+  suppressDecisionExplanations = false,
+  hubStyleCard = false,
 }: PlantCardProps) {
   const TitleTag = headingLevel;
   const uses = plant.primary_uses.join(", ");
@@ -63,6 +70,7 @@ export function PlantCard({
     commonCountries?.some((c) => c.toUpperCase() === region) === true;
 
   const whenText =
+    !suppressDecisionExplanations &&
     decisionAssist &&
     buildWhenToChooseText({
       lang,
@@ -73,6 +81,7 @@ export function PlantCard({
     });
 
   const differsText =
+    !suppressDecisionExplanations &&
     decisionAssist &&
     buildHowItDiffers({
       lang,
@@ -109,56 +118,170 @@ export function PlantCard({
     ? getNameHubConfidenceTier(nameHubConfidence.confidence)
     : "none";
 
+  const hubEvidence = hubStyleCard && suppressDecisionExplanations;
+  const topCountryCodes = (commonCountries ?? []).slice(0, 4);
+  const humanUses = Array.from(
+    new Set(plant.primary_uses.map((u) => u.trim().toLowerCase()).filter(Boolean))
+  )
+    .sort()
+    .map((k) => formatHumanUseKey(lang, k))
+    .filter(Boolean);
+
+  const imageBlock = (
+    <div
+      className={
+        deferImage
+          ? `${decisionAssist && !suppressDecisionExplanations ? "mb-6" : frameless ? "mb-5" : "mb-4"} mt-6`
+          : `${decisionAssist && !suppressDecisionExplanations ? "mb-6" : frameless ? "mb-5" : "mb-4"}`
+      }
+    >
+      <p className="mb-2 text-xs font-medium uppercase tracking-wider text-stone-500 dark:text-stone-500">
+        {t(lang, "visual_reference")}
+      </p>
+      <PlantReferenceImage
+        plantId={plant.id}
+        scientificName={plant.scientific_name}
+        queryLabel={decisionAssist?.queryLabel}
+        primaryUses={plant.primary_uses}
+        plantType={plant.plant_type}
+      />
+    </div>
+  );
+
+  const confidenceBlock =
+    nameHubConfidence ? (
+      <div className="mt-4 flex flex-wrap items-center gap-2">
+        {confidenceTier === "most_likely" ? (
+          <span className="inline-flex shrink-0 items-center rounded-md border border-emerald-600/35 bg-emerald-50 px-2.5 py-1 text-xs font-bold uppercase tracking-wide text-emerald-950 dark:border-emerald-500/40 dark:bg-emerald-950/60 dark:text-emerald-100">
+            {t(lang, "name_confidence_most_likely")}
+          </span>
+        ) : null}
+        {confidenceTier === "strong_regional" ? (
+          <span className="inline-flex shrink-0 items-center rounded-md border border-amber-500/35 bg-amber-50 px-2.5 py-1 text-xs font-semibold uppercase tracking-wide text-amber-950 dark:border-amber-500/40 dark:bg-amber-950/50 dark:text-amber-100">
+            {t(lang, "name_confidence_high_badge")}
+          </span>
+        ) : null}
+        {nameHubConfidence.showPercent ? (
+          <span className="text-xs font-medium text-stone-500 dark:text-stone-400">
+            {ti(lang, "name_confidence_percent", {
+              percent: String(Math.round(nameHubConfidence.confidence * 100)),
+            })}
+          </span>
+        ) : null}
+      </div>
+    ) : null;
+
+  if (hubEvidence) {
+    return (
+      <article className={shell}>
+        <div className="flex flex-wrap items-start gap-2">
+          <TitleTag className="font-serif text-xl font-semibold leading-tight tracking-tight text-stone-900 sm:text-2xl dark:text-stone-100">
+            {title}
+          </TitleTag>
+          {matchesUserRegion ? (
+            <span className="inline-flex shrink-0 items-center rounded border border-green-600/40 bg-green-100 px-2 py-0.5 text-xs font-semibold uppercase tracking-wide text-green-900 dark:border-green-500/50 dark:bg-green-950 dark:text-green-200">
+              {t(lang, "region_badge")}
+            </span>
+          ) : null}
+        </div>
+
+        {topCountryCodes.length > 0 ? (
+          <p className="mt-4 text-sm text-stone-700 dark:text-stone-300">
+            <span aria-hidden="true" className="mr-1">
+              ✅
+            </span>
+            <span className="font-semibold text-stone-800 dark:text-stone-200">
+              {t(lang, "plantcard_most_common_in")}{" "}
+            </span>
+            {joinCountryNames(topCountryCodes, lang)}
+          </p>
+        ) : null}
+
+        {alsoKnownAs && alsoKnownAs.length > 0 ? (
+          <div className="mt-4 text-sm text-stone-700 dark:text-stone-300">
+            <p className="font-semibold text-stone-800 dark:text-stone-200">
+              {t(lang, "also_known_as")}
+            </p>
+            <ul className="mt-2 list-disc space-y-1 pl-5">
+              {alsoKnownAs.map(({ slug, label }) => (
+                <li key={slug}>
+                  <Link
+                    href={localePath(lang, `/name/${slug}`)}
+                    className="font-medium text-flora-forest underline decoration-stone-300 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-400 dark:hover:decoration-emerald-400"
+                  >
+                    {label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ) : null}
+
+        {humanUses.length > 0 ? (
+          <div className="mt-4 text-sm text-stone-700 dark:text-stone-300">
+            <p className="font-semibold text-stone-800 dark:text-stone-200">
+              {t(lang, "plantcard_used_for")}
+            </p>
+            <ul className="mt-2 list-disc space-y-1 pl-5">
+              {humanUses.map((label) => (
+                <li key={label}>{label}</li>
+              ))}
+            </ul>
+          </div>
+        ) : null}
+
+        {confidenceBlock}
+
+        {deferImage ? imageBlock : null}
+        {!hideFamilyRow ? (
+          <p className="mt-3 text-sm text-stone-600 dark:text-stone-400">
+            <span className="text-stone-500 dark:text-stone-500">
+              {t(lang, "family")}{" "}
+            </span>
+            {plant.family}
+          </p>
+        ) : null}
+        {variant === "full" ? (
+          <dl className="mt-4 space-y-1 border-t border-stone-200 pt-4 text-sm text-stone-600 dark:border-stone-800 dark:text-stone-400">
+            <div>
+              <dt className="inline text-stone-500 dark:text-stone-500">
+                {t(lang, "genus")}{" "}
+              </dt>
+              <dd className="inline">{plant.genus}</dd>
+            </div>
+            <div>
+              <dt className="inline text-stone-500 dark:text-stone-500">
+                {t(lang, "rank")}{" "}
+              </dt>
+              <dd className="inline capitalize">{plant.rank}</dd>
+            </div>
+            <div>
+              <dt className="inline text-stone-500 dark:text-stone-500">
+                {t(lang, "type")}{" "}
+              </dt>
+              <dd className="inline capitalize">{plant.plant_type}</dd>
+            </div>
+            <div>
+              <dt className="text-stone-500 dark:text-stone-500">
+                {t(lang, "origin")}
+              </dt>
+              <dd className="mt-0.5">{formatRegionList(plant.origin_regions)}</dd>
+            </div>
+          </dl>
+        ) : null}
+      </article>
+    );
+  }
+
   return (
     <article className={shell}>
-      {decisionAssist ? (
+      {decisionAssist && !suppressDecisionExplanations ? (
         <p className="mb-4 text-xs font-bold uppercase tracking-widest text-stone-500 dark:text-stone-400">
           {ti(lang, "possible_match", { n: String(decisionAssist.matchNumber) })}
         </p>
       ) : null}
 
-      {nameHubConfidence ? (
-        <div className="mb-4 flex flex-wrap items-center gap-2">
-          {confidenceTier === "most_likely" ? (
-            <span className="inline-flex shrink-0 items-center rounded-md border border-emerald-600/35 bg-emerald-50 px-2.5 py-1 text-xs font-bold uppercase tracking-wide text-emerald-950 dark:border-emerald-500/40 dark:bg-emerald-950/60 dark:text-emerald-100">
-              {t(lang, "name_confidence_most_likely")}
-            </span>
-          ) : null}
-          {confidenceTier === "strong_regional" ? (
-            <span className="inline-flex shrink-0 items-center rounded-md border border-amber-500/35 bg-amber-50 px-2.5 py-1 text-xs font-semibold uppercase tracking-wide text-amber-950 dark:border-amber-500/40 dark:bg-amber-950/50 dark:text-amber-100">
-              {t(lang, "name_confidence_high_badge")}
-            </span>
-          ) : null}
-          {nameHubConfidence.showPercent ? (
-            <span className="text-xs font-medium text-stone-500 dark:text-stone-400">
-              {ti(lang, "name_confidence_percent", {
-                percent: String(
-                  Math.round(nameHubConfidence.confidence * 100)
-                ),
-              })}
-            </span>
-          ) : null}
-        </div>
-      ) : null}
-
-      <div
-        className={
-          deferImage
-            ? `${decisionAssist ? "mb-6" : frameless ? "mb-5" : "mb-4"} order-last mt-6`
-            : `${decisionAssist ? "mb-6" : frameless ? "mb-5" : "mb-4"}`
-        }
-      >
-        <p className="mb-2 text-xs font-medium uppercase tracking-wider text-stone-500 dark:text-stone-500">
-          {t(lang, "visual_reference")}
-        </p>
-        <PlantReferenceImage
-          plantId={plant.id}
-          scientificName={plant.scientific_name}
-          queryLabel={decisionAssist?.queryLabel}
-          primaryUses={plant.primary_uses}
-          plantType={plant.plant_type}
-        />
-      </div>
+      {!deferImage ? imageBlock : null}
 
       <div className="flex flex-wrap items-start gap-2">
         <TitleTag
@@ -201,22 +324,8 @@ export function PlantCard({
         </section>
       ) : null}
 
-      {commonCountries && commonCountries.length > 0 ? (
-        <p className="mt-4 text-sm text-stone-600 dark:text-stone-400">
-          <span className="text-stone-500 dark:text-stone-500">
-            {t(lang, "common_in")}{" "}
-          </span>
-          {joinCountryNames(commonCountries, lang)}
-        </p>
-      ) : null}
-      <p className="mt-2 text-sm text-stone-600 dark:text-stone-400">
-        <span className="text-stone-500 dark:text-stone-500">
-          {t(lang, "uses")}{" "}
-        </span>
-        <span className="capitalize">{uses}</span>
-      </p>
       {alsoKnownAs && alsoKnownAs.length > 0 ? (
-        <p className="mt-3 text-sm text-stone-600 dark:text-stone-400">
+        <p className="mt-4 text-sm text-stone-600 dark:text-stone-400">
           <span className="font-medium text-stone-700 dark:text-stone-300">
             {t(lang, "also_known_as")}:{" "}
           </span>
@@ -235,6 +344,26 @@ export function PlantCard({
           </span>
         </p>
       ) : null}
+
+      {commonCountries && commonCountries.length > 0 ? (
+        <p className="mt-3 text-sm text-stone-600 dark:text-stone-400">
+          <span className="text-stone-500 dark:text-stone-500">
+            {t(lang, "common_in")}{" "}
+          </span>
+          {joinCountryNames(commonCountries, lang)}
+        </p>
+      ) : null}
+
+      <p className="mt-3 text-sm text-stone-600 dark:text-stone-400">
+        <span className="text-stone-500 dark:text-stone-500">
+          {t(lang, "uses")}{" "}
+        </span>
+        <span className="capitalize">{uses}</span>
+      </p>
+
+      {confidenceBlock}
+
+      {deferImage ? imageBlock : null}
       {!hideFamilyRow ? (
         <p className="mt-2 text-sm text-stone-600 dark:text-stone-400">
           <span className="text-stone-500 dark:text-stone-500">

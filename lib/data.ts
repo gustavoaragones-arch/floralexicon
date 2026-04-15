@@ -287,6 +287,36 @@ export function getAlsoKnownAsLinks(plantId: string): NameIndexLink[] {
     );
 }
 
+/** Global coverage for a species from every `names.json` row that references the plant. */
+export type PlantGlobalData = {
+  /** Distinct ISO country codes (sorted A–Z for stable output). */
+  countries: string[];
+  /** All unique indexed common-name hubs for this plant (deduped by URL slug). */
+  names: NameIndexLink[];
+};
+
+/**
+ * Aggregate countries and common-name links for a plant across the full name index
+ * (not limited to the current name hub row).
+ */
+export function getPlantGlobalData(plantId: string): PlantGlobalData {
+  const id = plantId.trim();
+  if (!id) return { countries: [], names: [] };
+  ensureIndexes();
+
+  const countries = new Set<string>();
+  for (const entry of namesList) {
+    if (!entry.plant_ids.includes(id)) continue;
+    const code = entry.country?.trim().toUpperCase();
+    if (code) countries.add(code);
+  }
+
+  return {
+    countries: [...countries].sort((a, b) => a.localeCompare(b)),
+    names: getAlsoKnownAsLinks(id),
+  };
+}
+
 /**
  * Indexed names that share any plant id with this hub’s species, excluding the
  * current name hub (by canonical slug). Data-driven internal linking.
