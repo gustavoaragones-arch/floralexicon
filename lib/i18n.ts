@@ -529,6 +529,156 @@ const dictionary = {
     home_medicinal_title: "Built for traditional and medicinal herb use",
     home_medicinal_body:
       "FloraLexicon focuses on medicinal herbs and herbal tea plants—used in teas, natural remedies, and traditional plant medicine across cultures. It does not aim to catalog ornamental or decorative plants.",
+
+    plant_detail_def_line1:
+      "{scientific} is a {kind} traditionally discussed for {themes} in FloraLexicon’s ethnobotanical index.",
+    plant_detail_def_line2:
+      "It is commonly known as {examples} in different regions and languages.",
+    plant_detail_def_and: "and",
+    plant_detail_kind_medicinal_herb: "medicinal herb",
+    plant_detail_kind_plant: "plant",
+    plant_detail_theme_digestive: "digestive support",
+    plant_detail_theme_inflammation: "everyday inflammation comfort",
+    plant_detail_theme_respiratory: "respiratory comfort",
+    plant_detail_theme_womens: "women’s health traditions",
+    plant_detail_theme_relax: "relaxation and sleep",
+    plant_detail_theme_skin: "skin and wound-care traditions",
+    plant_detail_theme_pain: "muscle and joint comfort",
+    plant_detail_theme_general: "traditional household and herbal contexts",
+    plant_detail_used_for: "Used for",
+    plant_detail_page_scope:
+      "This page explains traditional-use themes, index safety flags, and how naming can differ by region.",
+    plant_detail_sources_footnote:
+      "Last updated from FloraLexicon’s merged ethnobotanical index—informational only; see disclaimer.",
+    plant_detail_also_known: "Also known as",
+    plant_detail_safety_badge_toxic: "Index toxicity",
+    plant_detail_safety_badge_lookalike: "Look‑alike / name risk",
+    plant_detail_safety_confusable_warning:
+      "⚠️ Confusable species: similar common names or look‑alikes may be a different plant. Confirm identity before use.",
+    plant_detail_regions_use_heading: "Regional naming in the index",
+    plant_detail_regions_uniform: "Used similarly across regions in this index slice—differences are mostly in local names, not separate use rows.",
+    plant_detail_regions_arrow: "→",
+    plant_detail_related_match_genus: "· same genus",
+    plant_detail_related_match_theme: "· shared indexed theme",
+    plant_detail_related_blurb: "Same genus first, then species that share an indexed condition with this plant.",
+    plant_detail_cond_one_digest:
+      "Often indexed for easing mild bloating and everyday digestive discomfort (traditional context only).",
+    plant_detail_cond_one_inflam:
+      "Commonly grouped with mild, everyday inflammation comfort—not a treatment claim.",
+    plant_detail_cond_one_respiratory:
+      "Traditionally associated with gentle respiratory comfort in regional records.",
+    plant_detail_cond_one_womens:
+      "Recorded in some traditions for women’s health folk use—verify locally and with a clinician when relevant.",
+    plant_detail_cond_one_relax:
+      "Often linked to calm, sleep, or stress ease in informal herbal use contexts.",
+    plant_detail_cond_one_skin:
+      "Sometimes noted for skin or wound-care folk traditions; verify species and hygiene.",
+    plant_detail_cond_one_pain:
+      "May appear with muscle or joint comfort discussions in the index.",
+    plant_detail_cond_one_circulation:
+      "Sometimes listed near circulation or vascular folk traditions—confirm sources.",
+    plant_detail_cond_one_fallback:
+      "Indexed under “{label}” for traditional context—verify identification and local guidance.",
+    plant_detail_safety_block_title: "Safety",
+    plant_detail_safety_level: "Level",
+    plant_detail_safety_avoid: "Avoid if",
+    plant_detail_safety_interactions: "Interactions",
+    plant_detail_safety_lookalike: "Look‑alike risk",
+    plant_detail_safety_lookalike_yes: "Yes",
+    plant_detail_safety_lookalike_no: "No",
+    plant_detail_avoid_pregnant: "Pregnant or breastfeeding (per index flags)",
+    plant_detail_avoid_none: "No extra “avoid if” flags in the index slice",
+    plant_detail_interact_none: "None called out beyond the notes below",
+    plant_detail_interact_sedatives_bloodthinners:
+      "Possible interactions: sedatives or blood thinners (if noted in sources—verify)",
+    plant_detail_amb_alert:
+      "This species is sometimes confused with other plants called “{common}”. Different species can have different effects and safety profiles.",
+    plant_detail_amb_compare_cta: "Compare all “{common}” plants →",
+    plant_detail_faq_heading: "Common questions",
+    plant_detail_faq_q_daily: "Is {name} safe to drink daily?",
+    plant_detail_faq_a_daily:
+      "Many people use moderate amounts in teas, but safety depends on the exact species, dose, medications, and your health context. This page is informational only—ask a qualified clinician when unsure.",
+    plant_detail_faq_q_used: "What is {name} used for?",
+    plant_detail_faq_a_used:
+      "In FloraLexicon’s index, this species is most often associated with: {themes}. Traditional use is not proof of benefit or safety for any person.",
+    plant_detail_faq_q_confused: "Can {name} be confused with other plants?",
+    plant_detail_faq_a_confused:
+      "Yes—shared common names are a major source of mix‑ups. When you see an ambiguity callout below, open the name hub to compare scientific species side by side.",
+    plant_detail_faq_q_safe: "Is {name} safe?",
+    plant_detail_faq_a_safe:
+      "The index labels toxicity as {safety}. Common themes include {themes}. This is not a personal risk assessment—ask a qualified clinician for your situation.",
+
+    plant_detail_meta_title: "{name} — uses, benefits, safety | FloraLexicon",
+    plant_detail_meta_title_v2: "{name}: uses, benefits, safety, and risks | FloraLexicon",
+    plant_detail_meta_desc:
+      "{lead} Safety context in the index: {safety}. Informational only—not medical advice.",
+    plant_detail_meta_desc_v2:
+      "{uses}. Index safety: {safety}. Informational only—not medical advice.",
+    plant_detail_safety_critical:
+      "High toxicity risk is flagged for some uses in our index. Verify the exact species and consult qualified sources before any use.",
+    plant_detail_safety_lethal:
+      "Severe toxicity may be possible. Do not self-treat; seek authoritative safety guidance.",
+    plant_detail_description_lead:
+      "A {type} in the {family} family ({genus}), with indexed traditional use categories: {uses}.",
+    plant_detail_common_names: "Common names",
+    plant_detail_short_intro: "Overview",
+    plant_detail_facts: "At a glance",
+    plant_detail_fact_family: "Family",
+    plant_detail_fact_regions: "Countries & regions (index)",
+    plant_detail_fact_evidence: "Evidence label (index)",
+    plant_detail_fact_toxicity: "Toxicity (index)",
+    plant_detail_fact_sustainability: "Sustainability / harvest",
+    plant_detail_uses_heading: "Uses & indexed themes",
+    plant_detail_uses_none:
+      "No extra therapeutic themes are listed for this species in the current index slice—see traditional use categories above.",
+    plant_detail_uses_group_blurb:
+      "This theme appears in FloraLexicon’s regional/ethnobotanical index for this species.",
+    plant_detail_safety_heading: "Safety notes",
+    plant_detail_safety_intro:
+      "These flags summarize dataset metadata. They are not a safety guarantee and do not replace professional advice.",
+    plant_detail_contra_heading: "Precautions (index)",
+    plant_detail_contra_pregnancy: "Pregnancy & lactation",
+    plant_detail_lookalike: "Look‑alike / name confusion",
+    plant_detail_evidence_heading: "Evidence label",
+    plant_detail_evidence_read_concept: "How FloraLexicon labels evidence →",
+    plant_detail_regions_heading: "Geography",
+    plant_detail_regions_origin: "Native / origin regions (dataset)",
+    plant_detail_regions_index: "Where it appears in the index",
+    plant_detail_regions_diff:
+      "When countries differ from native range, it usually reflects where names and uses were recorded—not a claim that the plant is wild everywhere listed.",
+    plant_detail_amb_heading: "Names that can mean more than one plant",
+    plant_detail_amb_headline: "⚠️ Same common name, different species",
+    plant_detail_amb_confused_line:
+      "This plant is sometimes confused with other species called “{common}”.",
+    plant_detail_amb_intro_strong:
+      "This plant is sometimes confused with other species that share the same everyday name.",
+    plant_detail_amb_intro:
+      "Different species can have different chemistry, traditions, and safety. Compare scientific names before use.",
+    plant_detail_amb_species_line: "Other indexed species under this name:",
+    plant_detail_related_heading: "Related species",
+    plant_detail_related_same_genus: "Same genus in this index",
+    plant_detail_use_topical: "Topical use",
+    plant_detail_value_not_listed: "Not listed in the current index slice.",
+    plant_detail_flag_abortifacient:
+      "Strong uterine / pregnancy‑related cautions appear in the index for some traditions—treat as high risk until verified.",
+    plant_detail_tox_notes: "Notes",
+    plant_detail_tox_lethal: "Very high concern",
+    plant_detail_tox_high: "High concern",
+    plant_detail_tox_moderate: "Moderate concern",
+    plant_detail_tox_low: "Lower concern in index",
+    plant_detail_tox_unknown: "Not specified",
+    plant_detail_evid_clinical: "Clinical / stronger study context (label)",
+    plant_detail_evid_tramil: "TRAMIL‑style regional phytotherapy context (label)",
+    plant_detail_evid_empirical: "Empirical / mixed evidence context (label)",
+    plant_detail_evid_traditional: "Traditional / ethnobotanical context (label)",
+    plant_detail_sus_at_risk: "At‑risk harvest pressure (index)",
+    plant_detail_sus_caution: "Caution (index)",
+    plant_detail_sus_safe: "Lower concern (index)",
+    plant_detail_contra_anticoagulant: "Blood thinner interactions (caution)",
+    plant_detail_contra_liver: "Liver / metabolism caution",
+    plant_detail_badge_toxic: "Toxicity: {level}",
+    plant_detail_badge_lookalike: "Name confusion possible",
+    plant_detail_tox_flags: "Index safety flags",
   },
   es: {
     nav_home: "Inicio",
@@ -1017,6 +1167,158 @@ const dictionary = {
     home_medicinal_title: "Pensado para el uso tradicional y medicinal de las hierbas",
     home_medicinal_body:
       "FloraLexicon se centra en hierbas medicinales y en plantas para infusiones y tés de hierbas, además de remedios naturales y medicina tradicional con plantas en distintas culturas. No pretende catalogar plantas ornamentales ni decorativas.",
+
+    plant_detail_def_line1:
+      "{scientific} es una {kind} asociada en el índice de FloraLexicon a usos tradicionales relacionados con: {themes}.",
+    plant_detail_def_line2:
+      "Se la conoce comúnmente como {examples} en distintas regiones e idiomas.",
+    plant_detail_def_and: "y",
+    plant_detail_kind_medicinal_herb: "hierba medicinal",
+    plant_detail_kind_plant: "planta",
+    plant_detail_theme_digestive: "apoyo digestivo",
+    plant_detail_theme_inflammation: "malestar inflamatorio leve",
+    plant_detail_theme_respiratory: "comodidad respiratoria",
+    plant_detail_theme_womens: "tradiciones de salud femenina",
+    plant_detail_theme_relax: "relajación y sueño",
+    plant_detail_theme_skin: "cuidado de piel y heridas (tradición)",
+    plant_detail_theme_pain: "comodidad muscular y articular",
+    plant_detail_theme_general: "contextos domésticos y herbales tradicionales",
+    plant_detail_used_for: "Uso tradicional destacado",
+    plant_detail_page_scope:
+      "Esta página resume temas de uso tradicional, alertas de seguridad del índice y cómo cambian los nombres por región.",
+    plant_detail_sources_footnote:
+      "Última actualización según el índice etnobotánico fusionado de FloraLexicon—solo informativo; véase el aviso legal.",
+    plant_detail_also_known: "También conocida como",
+    plant_detail_safety_badge_toxic: "Toxicidad (índice)",
+    plant_detail_safety_badge_lookalike: "Riesgo de homónimos / parecidos",
+    plant_detail_safety_confusable_warning:
+      "⚠️ Especies confundibles: nombres parecidos u homónimos pueden designar otra planta. Confirme la identidad antes de usarla.",
+    plant_detail_regions_use_heading: "Nombres regionales en el índice",
+    plant_detail_regions_uniform:
+      "Uso tradicional similar entre regiones en este fragmento del índice—las diferencias suelen ser de nombre local, no de filas de uso distintas.",
+    plant_detail_regions_arrow: "→",
+    plant_detail_related_match_genus: "· mismo género",
+    plant_detail_related_match_theme: "· tema indexado compartido",
+    plant_detail_related_blurb:
+      "Primero el mismo género; luego especies que comparten una condición indexada con esta planta.",
+    plant_detail_cond_one_digest:
+      "A menudo indexada para malestar digestivo leve e hinchazón (solo contexto tradicional).",
+    plant_detail_cond_one_inflam:
+      "Suele agruparse con comodidad ante inflamación leve del día a día—no es una afirmación terapéutica.",
+    plant_detail_cond_one_respiratory:
+      "Asociada en registros regionales a comodidad respiratoria suave.",
+    plant_detail_cond_one_womens:
+      "Aparece en algunas tradiciones de salud femenina—verifique localmente y con un profesional si aplica.",
+    plant_detail_cond_one_relax:
+      "A menudo ligada a calma, sueño o estrés en contextos herbales informales.",
+    plant_detail_cond_one_skin:
+      "A veces citada en tradiciones de piel o heridas; verifique especie e higiene.",
+    plant_detail_cond_one_pain:
+      "Puede figurar junto a comodidad muscular o articular en el índice.",
+    plant_detail_cond_one_circulation:
+      "A veces listada cerca de tradiciones vasculares o de circulación—confirme fuentes.",
+    plant_detail_cond_one_fallback:
+      "Indexada bajo «{label}» en contexto tradicional—verifique identificación y orientación local.",
+    plant_detail_safety_block_title: "Seguridad",
+    plant_detail_safety_level: "Nivel",
+    plant_detail_safety_avoid: "Evitar si",
+    plant_detail_safety_interactions: "Interacciones / precauciones",
+    plant_detail_safety_lookalike: "Riesgo de homónimos",
+    plant_detail_safety_lookalike_yes: "Sí",
+    plant_detail_safety_lookalike_no: "No",
+    plant_detail_avoid_pregnant: "Embarazo o lactancia (según banderas del índice)",
+    plant_detail_avoid_none: "Sin señales adicionales de “evitar si” en este fragmento",
+    plant_detail_interact_none: "Nada más destacado aparte de las notas",
+    plant_detail_interact_sedatives_bloodthinners:
+      "Posibles interacciones: sedantes o anticoagulantes (si aparece en fuentes—verificar)",
+    plant_detail_amb_alert:
+      "A veces se confunde esta especie con otras plantas llamadas «{common}». Las especies distintas pueden tener efectos y perfiles de seguridad diferentes.",
+    plant_detail_amb_compare_cta: "Comparar todas las plantas «{common}» →",
+    plant_detail_faq_heading: "Preguntas frecuentes",
+    plant_detail_faq_q_daily: "¿Es seguro tomar {name} a diario?",
+    plant_detail_faq_a_daily:
+      "Muchas personas usan cantidades moderadas en infusiones, pero la seguridad depende de la especie exacta, la dosis, los medicamentos y su contexto de salud. Esta página es solo informativa: consulte a un profesional si tiene dudas.",
+    plant_detail_faq_q_used: "¿Para qué se usa {name}?",
+    plant_detail_faq_a_used:
+      "En el índice de FloraLexicon, esta especie suele asociarse con: {themes}. El uso tradicional no prueba beneficio ni seguridad para una persona concreta.",
+    plant_detail_faq_q_confused: "¿Puede confundirse {name} con otras plantas?",
+    plant_detail_faq_a_confused:
+      "Sí: los nombres comunes compartidos son una fuente frecuente de errores. Si ve la alerta de ambigüedad, abra el concentrador del nombre para comparar especies científicas en paralelo.",
+    plant_detail_faq_q_safe: "¿Es segura {name}?",
+    plant_detail_faq_a_safe:
+      "El índice etiqueta la toxicidad como {safety}. Los temas frecuentes incluyen {themes}. Esto no es una evaluación personal de riesgo: consulte a un profesional.",
+
+    plant_detail_meta_title: "{name} — usos, beneficios y seguridad | FloraLexicon",
+    plant_detail_meta_title_v2: "{name}: usos, beneficios, seguridad y riesgos | FloraLexicon",
+    plant_detail_meta_desc:
+      "{lead} Contexto de seguridad en el índice: {safety}. Solo informativo: no es consejo médico.",
+    plant_detail_meta_desc_v2:
+      "{uses}. Seguridad en el índice: {safety}. Solo informativo: no es consejo médico.",
+    plant_detail_safety_critical:
+      "El índice marca riesgo elevado de toxicidad para algunos usos. Verifica la especie exacta y consulta fuentes cualificadas antes de usarla.",
+    plant_detail_safety_lethal:
+      "Puede haber toxicidad grave. No te automediques; busca orientación de seguridad autorizada.",
+    plant_detail_description_lead:
+      "Una {type} de la familia {family} ({genus}), con categorías de uso tradicional indexadas: {uses}.",
+    plant_detail_common_names: "Nombres comunes",
+    plant_detail_short_intro: "Resumen",
+    plant_detail_facts: "Datos clave",
+    plant_detail_fact_family: "Familia",
+    plant_detail_fact_regions: "Países y regiones (índice)",
+    plant_detail_fact_evidence: "Etiqueta de evidencia (índice)",
+    plant_detail_fact_toxicity: "Toxicidad (índice)",
+    plant_detail_fact_sustainability: "Sostenibilidad / cosecha",
+    plant_detail_uses_heading: "Usos y temas indexados",
+    plant_detail_uses_none:
+      "Aún no hay temas terapéuticos adicionales para esta especie en el fragmento actual del índice—mira las categorías de uso tradicional arriba.",
+    plant_detail_uses_group_blurb:
+      "Este tema aparece en el índice etnobotánico/regional de FloraLexicon para esta especie.",
+    plant_detail_safety_heading: "Notas de seguridad",
+    plant_detail_safety_intro:
+      "Estas alertas resumen metadatos del conjunto de datos. No garantizan seguridad ni sustituyen consejo profesional.",
+    plant_detail_contra_heading: "Precauciones (índice)",
+    plant_detail_contra_pregnancy: "Embarazo y lactancia",
+    plant_detail_lookalike: "Riesgo de confusión de nombres",
+    plant_detail_evidence_heading: "Etiqueta de evidencia",
+    plant_detail_evidence_read_concept: "Cómo etiquetamos la evidencia →",
+    plant_detail_regions_heading: "Geografía",
+    plant_detail_regions_origin: "Regiones nativas / de origen (datos)",
+    plant_detail_regions_index: "Dónde aparece en el índice",
+    plant_detail_regions_diff:
+      "Si los países difieren del rango nativo, suele reflejar dónde se registraron nombres y usos—no que la planta sea silvestre en todos los sitios listados.",
+    plant_detail_amb_heading: "Nombres que pueden designar más de una planta",
+    plant_detail_amb_headline: "⚠️ Mismo nombre común, distintas especies",
+    plant_detail_amb_confused_line:
+      "A veces se confunde con otras especies llamadas «{common}».",
+    plant_detail_amb_intro_strong:
+      "A veces se confunde esta planta con otras especies que comparten el mismo nombre cotidiano.",
+    plant_detail_amb_intro:
+      "Las especies distintas pueden tener distinta química, tradición y riesgo. Compare los nombres científicos antes de usar.",
+    plant_detail_amb_species_line: "Otras especies indexadas bajo este nombre:",
+    plant_detail_related_heading: "Especies relacionadas",
+    plant_detail_related_same_genus: "Mismo género en este índice",
+    plant_detail_use_topical: "Uso tópico",
+    plant_detail_value_not_listed: "No figura en el fragmento actual del índice.",
+    plant_detail_flag_abortifacient:
+      "El índice registra precauciones fuertes ligadas al embarazo/útero en algunas tradiciones—trata como alto riesgo hasta verificar.",
+    plant_detail_tox_notes: "Notas",
+    plant_detail_tox_lethal: "Riesgo muy alto",
+    plant_detail_tox_high: "Riesgo alto",
+    plant_detail_tox_moderate: "Riesgo moderado",
+    plant_detail_tox_low: "Riesgo menor en el índice",
+    plant_detail_tox_unknown: "Sin especificar",
+    plant_detail_evid_clinical: "Contexto clínico / de estudios (etiqueta)",
+    plant_detail_evid_tramil: "Contexto tipo TRAMIL (etiqueta)",
+    plant_detail_evid_empirical: "Contexto empírico / mixto (etiqueta)",
+    plant_detail_evid_traditional: "Contexto tradicional / etnobotánico (etiqueta)",
+    plant_detail_sus_at_risk: "Presión de cosecha: en riesgo (índice)",
+    plant_detail_sus_caution: "Precaución (índice)",
+    plant_detail_sus_safe: "Menor preocupación (índice)",
+    plant_detail_contra_anticoagulant: "Interacción con anticoagulantes (precaución)",
+    plant_detail_contra_liver: "Precaución hepática / metabolismo",
+    plant_detail_badge_toxic: "Toxicidad: {level}",
+    plant_detail_badge_lookalike: "Posible confusión de nombres",
+    plant_detail_tox_flags: "Alertas de seguridad en el índice",
   },
 } as const;
 

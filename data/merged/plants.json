@@ -105,7 +105,8 @@
     },
     "regions": [
       "AR"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "acacia_caven",
@@ -134,7 +135,8 @@
     },
     "regions": [
       "AR"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "acacia_farnesiana",
@@ -210,7 +212,8 @@
     "regions": [
       "AR",
       "CO"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "acaena_splendens",
@@ -241,7 +244,8 @@
     "regions": [
       "AR",
       "CL"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "acalypha_arvensis",
@@ -474,7 +478,8 @@
       "CL",
       "PY",
       "UY"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "acmella_decumbens",
@@ -600,6 +605,7 @@
       "US_NE",
       "US_SE"
     ],
+    "lookalike_risk": true,
     "sustainability": {
       "status": "at-risk",
       "notes": "UpS At-Risk List; heavily commercialized; buy cultivated only"
@@ -1077,8 +1083,7 @@
       "medicinal"
     ],
     "conditions": [
-      "diabetes_con_nopal_en_ayunas",
-      "quemaduras_heridas_llagas_inflamacion_intestinal_hemorroides_dolor_de_cabeza_est"
+      "diabetes_con_nopal_en_ayunas"
     ],
     "toxicity": {
       "level": "low",
@@ -1160,7 +1165,8 @@
       "PE",
       "PY",
       "UY"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "aloysia_citrodora",
@@ -1178,6 +1184,7 @@
       "BO",
       "CL",
       "EC",
+      "ES",
       "PE",
       "PY",
       "UY"
@@ -1196,18 +1203,26 @@
     },
     "evidence": {
       "level": "traditional",
-      "source": "layered merge",
-      "confidence": 0.35
+      "source": "layered merge; Spain_ethnobotany",
+      "confidence": 0.5
     },
     "regions": [
       "AR",
       "BO",
       "CL",
       "EC",
+      "ES",
       "PE",
       "PY",
       "UY"
-    ]
+    ],
+    "lookalike_risk": true,
+    "metadata": {
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "naturalized",
+      "plant_type_es": "shrub"
+    },
+    "geo_precision": "regional"
   },
   {
     "plant_id": "aloysia_gratissima",
@@ -1312,7 +1327,8 @@
       "PE",
       "PY",
       "UY"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "aloysia_triphylla_lhr_britton",
@@ -1545,7 +1561,8 @@
       "CL",
       "PA",
       "VE"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "ambrosia_peruviana",
@@ -1576,9 +1593,7 @@
     "names": [],
     "countries": [],
     "uses": [],
-    "conditions": [
-      "antibiotico_antiseptico_cicatrizante_astringente_antiinflamatorio_de_ovarios"
-    ],
+    "conditions": [],
     "toxicity": {
       "level": "low",
       "type": [],
@@ -2199,7 +2214,8 @@
     "regions": [
       "BO",
       "CO"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "apium_graveolens_l",
@@ -2229,7 +2245,8 @@
     "regions": [
       "BO",
       "CO"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "apocynum_androsaemifolium",
@@ -2410,7 +2427,8 @@
     },
     "regions": [
       "CL"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "arctium_minus",
@@ -2536,9 +2554,7 @@
     "uses": [
       "medicinal"
     ],
-    "conditions": [
-      "problemas_oculares_tos_reumatismo_uso_externo_sarna_heridas_sedante_nervioso"
-    ],
+    "conditions": [],
     "toxicity": {
       "level": "moderate",
       "type": [],
@@ -2651,7 +2667,8 @@
       "AR",
       "GT",
       "HN"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "aristolochia_serpentaria",
@@ -2825,13 +2842,12 @@
       "topical"
     ],
     "conditions": [
-      "golpes_esguinces_hematomas_dolor_muscular_reumatismo",
       "musculoskeletal_pain"
     ],
     "toxicity": {
       "level": "high",
       "type": [],
-      "notes": "Uso externo; no tragar | External use only — toxic internally; causes severe gastroenteritis; avoid on broken skin; allergic reactions in some Asteraceae-sensitive individuals | External use only — toxic internally; causes severe gastroenteritis; avoid on broken skin; allergic reactions in some Asteraceae-sensitive individuals"
+      "notes": "Uso externo; no tragar | External use only — toxic internally; causes severe gastroenteritis; avoid on broken skin; allergic reactions in some Asteraceae-sensitive individuals"
     },
     "evidence": {
       "level": "clinical",
@@ -2851,6 +2867,7 @@
       "US_PNW",
       "US_RC"
     ],
+    "lookalike_risk": true,
     "sustainability": {
       "status": "caution",
       "notes": "A. montana heavily commercialized; native species at-risk in some mountain areas"
@@ -2896,7 +2913,46 @@
       "CL",
       "CO",
       "CR"
-    ]
+    ],
+    "lookalike_risk": true
+  },
+  {
+    "plant_id": "artemisia_abrotanum",
+    "scientific_name": "Artemisia abrotanum L.",
+    "family": "Asteraceae",
+    "names": [],
+    "countries": [
+      "ES"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": null
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "Spain_ethnobotany",
+      "confidence": 0.5
+    },
+    "regions": [
+      "ES"
+    ],
+    "metadata": {
+      "genus": "Artemisia",
+      "rank": "species",
+      "native_status": "naturalized",
+      "plant_type": "herb",
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "naturalized",
+      "plant_type_es": "herb"
+    },
+    "geo_precision": "regional"
   },
   {
     "plant_id": "artemisia_absinthium",
@@ -2908,6 +2964,7 @@
     "countries": [
       "CL",
       "CO",
+      "ES",
       "PY"
     ],
     "uses": [
@@ -2916,22 +2973,32 @@
     "conditions": [],
     "toxicity": {
       "level": "low",
-      "type": [],
+      "type": [
+        "abortifacient"
+      ],
       "notes": "Mujeres embarazadas (tujona — provoca menstruación), puede causar convulsiones en dosis altas"
     },
     "evidence": {
       "level": "traditional",
-      "source": "S1; S2; S4; S6",
-      "confidence": 0.35
+      "source": "S1; S2; S4; S6; Spain_ethnobotany",
+      "confidence": 0.5
     },
     "regions": [
       "CL",
       "CO",
+      "ES",
       "MX",
       "NORTH_AFRICA",
       "PY",
       "WESTERN_EUROPE"
-    ]
+    ],
+    "lookalike_risk": true,
+    "metadata": {
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "native",
+      "plant_type_es": "herb"
+    },
+    "geo_precision": "regional"
   },
   {
     "plant_id": "artemisia_absinthium_l",
@@ -2963,7 +3030,8 @@
       "CL",
       "CO",
       "PY"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "artemisia_copa",
@@ -3034,6 +3102,7 @@
       "US_GP",
       "US_SW"
     ],
+    "lookalike_risk": true,
     "sustainability": {
       "status": "safe",
       "notes": "Abundant desert species; not at-risk"
@@ -3077,7 +3146,7 @@
       "type": [
         "abortifacient"
       ],
-      "notes": "Abortivo; no para embarazadas | Thujone content — avoid in pregnancy; avoid large internal doses; safe for smudging and light tea | Thujone content — avoid in pregnancy; avoid large internal doses; safe for smudging and light tea",
+      "notes": "Abortivo; no para embarazadas | Thujone content — avoid in pregnancy; avoid large internal doses; safe for smudging and light tea",
       "contraindications": [
         "pregnancy"
       ]
@@ -3666,7 +3735,8 @@
       "PA",
       "PE",
       "SV"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "bactris_balanoidea",
@@ -4178,7 +4248,8 @@
       "MX",
       "PE",
       "TROPICAL_AMERICAS"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "bidens_pilosa_l",
@@ -4243,7 +4314,8 @@
       "PA",
       "PE",
       "VE"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "bixa_orellana",
@@ -4288,7 +4360,8 @@
       "PE",
       "TROPICAL_AMERICAS",
       "VE"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "bixa_orellana_l",
@@ -4332,7 +4405,8 @@
       "PA",
       "PE",
       "VE"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "blechum_pyramidatum",
@@ -4664,9 +4738,7 @@
     "names": [],
     "countries": [],
     "uses": [],
-    "conditions": [
-      "banos_postparto_reumas_hemorragia_nasal_calambres_fiebre_tumores_y_apostemas_hip"
-    ],
+    "conditions": [],
     "toxicity": {
       "level": "low",
       "type": [],
@@ -4741,7 +4813,8 @@
       "EC",
       "PA",
       "PE"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "bulnesia_sarmientoi",
@@ -4772,7 +4845,8 @@
     "regions": [
       "AR",
       "PA"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "bursera_graveolens",
@@ -4946,7 +5020,8 @@
       "MX",
       "PA",
       "VE"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "byrsonima_crassifolia_l_kunth",
@@ -4999,7 +5074,8 @@
       "BO",
       "CL",
       "PY"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "cajanus_cajan",
@@ -5091,7 +5167,8 @@
     "regions": [
       "CL",
       "MX"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "calea_urticifolia",
@@ -5144,7 +5221,8 @@
       "PY",
       "SV",
       "UY"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "calendula_officinalis",
@@ -5156,7 +5234,8 @@
     ],
     "countries": [
       "CL",
-      "CO"
+      "CO",
+      "ES"
     ],
     "uses": [
       "medicinal"
@@ -5169,13 +5248,21 @@
     },
     "evidence": {
       "level": "traditional",
-      "source": "layered merge",
-      "confidence": 0.35
+      "source": "layered merge; Spain_ethnobotany",
+      "confidence": 0.5
     },
     "regions": [
       "CL",
-      "CO"
-    ]
+      "CO",
+      "ES"
+    ],
+    "lookalike_risk": true,
+    "metadata": {
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "naturalized",
+      "plant_type_es": "herb"
+    },
+    "geo_precision": "regional"
   },
   {
     "plant_id": "calendula_officinalis_l",
@@ -5205,7 +5292,8 @@
     "regions": [
       "CL",
       "CO"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "callicarpa_acuminata",
@@ -5769,7 +5857,8 @@
     "regions": [
       "CO",
       "PA"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "catharanthus_roseus",
@@ -5784,9 +5873,7 @@
     "uses": [
       "medicinal"
     ],
-    "conditions": [
-      "conjuntivitis_flores_blancas_topico_oftalmico_unicamente_tramil"
-    ],
+    "conditions": [],
     "toxicity": {
       "level": "high",
       "type": [],
@@ -5962,7 +6049,8 @@
     },
     "regions": [
       "BO"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "cecropia_obtusifolia",
@@ -6015,7 +6103,8 @@
     "regions": [
       "AR",
       "BO"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "cecropia_peltata",
@@ -6318,7 +6407,8 @@
     "regions": [
       "EUROPE",
       "MX"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "chamaenerion_angustifolium",
@@ -6473,7 +6563,46 @@
       "SV",
       "UY",
       "VE"
-    ]
+    ],
+    "lookalike_risk": true
+  },
+  {
+    "plant_id": "chelidonium_majus",
+    "scientific_name": "Chelidonium majus L.",
+    "family": "Papaveraceae",
+    "names": [],
+    "countries": [
+      "ES"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [],
+    "toxicity": {
+      "level": "low",
+      "type": [
+        "abortifacient"
+      ],
+      "notes": null
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "Spain_ethnobotany",
+      "confidence": 0.5
+    },
+    "regions": [
+      "ES"
+    ],
+    "metadata": {
+      "genus": "Chelidonium",
+      "rank": "species",
+      "native_status": "native",
+      "plant_type": "herb",
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "native",
+      "plant_type_es": "herb"
+    },
+    "geo_precision": "regional"
   },
   {
     "plant_id": "chelone_glabra",
@@ -6564,7 +6693,8 @@
       "BO",
       "CL",
       "PE"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "chenopodium_chilense",
@@ -6599,7 +6729,8 @@
       "BO",
       "CL",
       "PE"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "chenopodium_graveolens",
@@ -6936,6 +7067,7 @@
       "US_NE",
       "US_SE"
     ],
+    "lookalike_risk": true,
     "sustainability": {
       "status": "at-risk",
       "notes": "Same species as NA004 (Actaea racemosa); cross-reference; UpS At-Risk List"
@@ -6983,7 +7115,8 @@
       "MX",
       "PE",
       "SOUTH_AMERICA_—_PERU"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "cinchona_officinalis_l",
@@ -7033,7 +7166,8 @@
     "regions": [
       "EC",
       "PE"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "cinnamomum_verum",
@@ -7065,9 +7199,7 @@
     "names": [],
     "countries": [],
     "uses": [],
-    "conditions": [
-      "afecciones_hepaticas_inflamaciones_reumaticas_asma_afecciones_cardiacas"
-    ],
+    "conditions": [],
     "toxicity": {
       "level": "low",
       "type": [],
@@ -7126,7 +7258,8 @@
       "HN",
       "MX",
       "PANTROPICAL"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "cissampelos_pareira_l",
@@ -7695,7 +7828,8 @@
       "MX",
       "PA",
       "VE"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "comptonia_peregrina",
@@ -8095,9 +8229,7 @@
     "uses": [
       "medicinal"
     ],
-    "conditions": [
-      "diabetes_tipo_i_y_ii_desordenes_renales_diuretico_antioxidante_antimicrobiano_an"
-    ],
+    "conditions": [],
     "toxicity": {
       "level": "low",
       "type": [],
@@ -8231,7 +8363,8 @@
       "Peumo alemán"
     ],
     "countries": [
-      "CL"
+      "CL",
+      "ES"
     ],
     "uses": [
       "medicinal"
@@ -8244,12 +8377,19 @@
     },
     "evidence": {
       "level": "traditional",
-      "source": "layered merge",
-      "confidence": 0.35
+      "source": "layered merge; Spain_ethnobotany",
+      "confidence": 0.5
     },
     "regions": [
-      "CL"
-    ]
+      "CL",
+      "ES"
+    ],
+    "metadata": {
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "native",
+      "plant_type_es": "shrub"
+    },
+    "geo_precision": "regional"
   },
   {
     "plant_id": "crataegus_oxyacantha_l",
@@ -8438,7 +8578,8 @@
       "AR",
       "EC",
       "PE"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "croton_reflexifolius",
@@ -8518,7 +8659,8 @@
     "regions": [
       "AR",
       "EC"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "cucurbita_pepo",
@@ -8550,9 +8692,7 @@
     "names": [],
     "countries": [],
     "uses": [],
-    "conditions": [
-      "cancer_tumores_externos_e_internos_heridas_hinchazones_dolor_de_estomago_diarrea"
-    ],
+    "conditions": [],
     "toxicity": {
       "level": "low",
       "type": [],
@@ -8654,7 +8794,8 @@
       "PA",
       "SV",
       "VE"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "cuscuta_americana_l",
@@ -8707,7 +8848,8 @@
     "regions": [
       "AR",
       "CL"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "cyclolepis_genistoides",
@@ -8824,7 +8966,8 @@
     "regions": [
       "CL",
       "CO"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "cynara_scolymus_l",
@@ -8854,7 +8997,8 @@
     "regions": [
       "CL",
       "CO"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "cynodon_dactylon_l_pers",
@@ -8911,8 +9055,7 @@
       "medicinal"
     ],
     "conditions": [
-      "alucinogeno_ceremonial_planta_espiritual",
-      "hemorroides_dolor_muscular_articulaciones_externo_unicamente"
+      "alucinogeno_ceremonial_planta_espiritual"
     ],
     "toxicity": {
       "level": "high",
@@ -9091,7 +9234,8 @@
       "AR",
       "BO",
       "PE"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "diphysa_americana",
@@ -9201,7 +9345,8 @@
     "regions": [
       "AR",
       "CL"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "dorstenia_contrajerba_l",
@@ -9395,9 +9540,7 @@
       "medicinal"
     ],
     "conditions": [
-      "antiparasitario_trypanosoma_cruzi_plasmodium_falciparum_leishmania_amazonensis",
-      "condimento_en_frijoles_tamales_quelites",
-      "parasitos_intestinales_empacho_tonico_estomacal_afecciones_de_la_matriz"
+      "condimento_en_frijoles_tamales_quelites"
     ],
     "toxicity": {
       "level": "moderate",
@@ -9416,7 +9559,8 @@
       "MX",
       "PE",
       "TROPICAL_AMERICAS"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "dysphania_ambrosioides_l_mosyakin__clemants",
@@ -9733,7 +9877,8 @@
     "regions": [
       "AR",
       "CL"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "ephedra_chilensis",
@@ -9763,7 +9908,8 @@
     "regions": [
       "AR",
       "CL"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "ephedra_torreyana",
@@ -9848,7 +9994,8 @@
     "regions": [
       "AR",
       "CL"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "equisetum_arvense",
@@ -9868,6 +10015,7 @@
       "AR",
       "BO",
       "CL",
+      "ES",
       "PA",
       "PE",
       "PY",
@@ -9884,20 +10032,28 @@
     },
     "evidence": {
       "level": "traditional",
-      "source": "S1; S2; S4; S6",
-      "confidence": 0.35
+      "source": "S1; S2; S4; S6; Spain_ethnobotany",
+      "confidence": 0.5
     },
     "regions": [
       "AR",
       "BO",
       "CL",
+      "ES",
       "MX",
       "NORTH_AMERICA",
       "PA",
       "PE",
       "PY",
       "VE"
-    ]
+    ],
+    "lookalike_risk": true,
+    "metadata": {
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "native",
+      "plant_type_es": "herb"
+    },
+    "geo_precision": "regional"
   },
   {
     "plant_id": "equisetum_arvense_l",
@@ -9960,7 +10116,8 @@
       "PE",
       "PY",
       "VE"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "equisetum_giganteum",
@@ -10000,7 +10157,8 @@
       "PE",
       "PY",
       "VE"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "equisetum_hyemale_l",
@@ -10275,7 +10433,8 @@
       "MX",
       "PA",
       "SV"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "erythrina_cristagalli",
@@ -10339,7 +10498,8 @@
     "regions": [
       "AR",
       "PA"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "erythroxylum_coca",
@@ -10546,7 +10706,8 @@
     "regions": [
       "AR",
       "PE"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "eupatorium_odoratum",
@@ -10740,9 +10901,7 @@
     "names": [],
     "countries": [],
     "uses": [],
-    "conditions": [
-      "diarrea_infecciones_urinarias_afecciones_renales_adelgazar"
-    ],
+    "conditions": [],
     "toxicity": {
       "level": "low",
       "type": [],
@@ -10870,9 +11029,7 @@
     "names": [],
     "countries": [],
     "uses": [],
-    "conditions": [
-      "enfermedades_broncopulmonares_faringitis_laringitis_estrenimiento_sistema_gastri"
-    ],
+    "conditions": [],
     "toxicity": {
       "level": "low",
       "type": [],
@@ -11003,7 +11160,8 @@
     "regions": [
       "AR",
       "CL"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "foeniculum_vulgare",
@@ -11015,6 +11173,7 @@
     "countries": [
       "BO",
       "CL",
+      "ES",
       "PY"
     ],
     "uses": [
@@ -11030,14 +11189,21 @@
     },
     "evidence": {
       "level": "traditional",
-      "source": "layered merge",
-      "confidence": 0.35
+      "source": "layered merge; Spain_ethnobotany",
+      "confidence": 0.5
     },
     "regions": [
       "BO",
       "CL",
+      "ES",
       "PY"
-    ]
+    ],
+    "metadata": {
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "native",
+      "plant_type_es": "herb"
+    },
+    "geo_precision": "regional"
   },
   {
     "plant_id": "frangula_purshiana",
@@ -11504,6 +11670,42 @@
     "regions": []
   },
   {
+    "plant_id": "glycyrrhiza_glabra",
+    "scientific_name": "Glycyrrhiza glabra L.",
+    "family": "Fabaceae",
+    "names": [],
+    "countries": [
+      "ES"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": null
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "Spain_ethnobotany",
+      "confidence": 0.5
+    },
+    "regions": [
+      "ES"
+    ],
+    "metadata": {
+      "genus": "Glycyrrhiza",
+      "rank": "species",
+      "native_status": "native",
+      "plant_type": "herb",
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "native",
+      "plant_type_es": "herb"
+    },
+    "geo_precision": "regional"
+  },
+  {
     "plant_id": "glycyrrhiza_lepidota",
     "scientific_name": "Glycyrrhiza lepidota Pursh",
     "family": "Fabaceae",
@@ -11569,9 +11771,7 @@
     "names": [],
     "countries": [],
     "uses": [],
-    "conditions": [
-      "respiratorio_digestivo_piel_ulceras_parasitos_cancer_ciatica"
-    ],
+    "conditions": [],
     "toxicity": {
       "level": "low",
       "type": [],
@@ -12002,7 +12202,8 @@
     "regions": [
       "AR",
       "CL"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "haplopappus_spp",
@@ -12032,7 +12233,8 @@
     "regions": [
       "AR",
       "CL"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "hedeoma_pulegioides",
@@ -12208,8 +12410,6 @@
     "countries": [],
     "uses": [],
     "conditions": [
-      "antiinflamatorio_antimicrobiano_staph_aureus_e_coli_antioxidante",
-      "golpes_contusiones_hematomas_dolor_musculoesqueletico",
       "inflammation",
       "wound_healing"
     ],
@@ -12225,7 +12425,8 @@
     },
     "regions": [
       "MX"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "hibiscus_rosasinensis",
@@ -12595,7 +12796,8 @@
       "Hipérico"
     ],
     "countries": [
-      "CL"
+      "CL",
+      "ES"
     ],
     "uses": [
       "medicinal"
@@ -12608,12 +12810,19 @@
     },
     "evidence": {
       "level": "traditional",
-      "source": "layered merge",
-      "confidence": 0.35
+      "source": "layered merge; Spain_ethnobotany",
+      "confidence": 0.5
     },
     "regions": [
-      "CL"
-    ]
+      "CL",
+      "ES"
+    ],
+    "metadata": {
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "native",
+      "plant_type_es": "herb"
+    },
+    "geo_precision": "regional"
   },
   {
     "plant_id": "hyptis_capitata_jacq",
@@ -13247,7 +13456,8 @@
       "HN",
       "PA",
       "PY"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "justicia_secunda",
@@ -13286,9 +13496,7 @@
     "uses": [
       "medicinal"
     ],
-    "conditions": [
-      "purificar_sangre_anemia_plaquetas_desordenes_menstruales_dengue_disenteria_diabe"
-    ],
+    "conditions": [],
     "toxicity": {
       "level": "low",
       "type": [],
@@ -13510,6 +13718,42 @@
     ]
   },
   {
+    "plant_id": "laurus_nobilis",
+    "scientific_name": "Laurus nobilis L.",
+    "family": "Lauraceae",
+    "names": [],
+    "countries": [
+      "ES"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": null
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "Spain_ethnobotany",
+      "confidence": 0.5
+    },
+    "regions": [
+      "ES"
+    ],
+    "metadata": {
+      "genus": "Laurus",
+      "rank": "species",
+      "native_status": "native",
+      "plant_type": "tree",
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "native",
+      "plant_type_es": "tree"
+    },
+    "geo_precision": "regional"
+  },
+  {
     "plant_id": "lavandula_angustifolia",
     "scientific_name": "Lavandula angustifolia",
     "family": "Lamiaceae",
@@ -13517,7 +13761,8 @@
       "Lavanda"
     ],
     "countries": [
-      "CL"
+      "CL",
+      "ES"
     ],
     "uses": [
       "aromatic",
@@ -13531,12 +13776,19 @@
     },
     "evidence": {
       "level": "traditional",
-      "source": "layered merge",
-      "confidence": 0.35
+      "source": "layered merge; Spain_ethnobotany",
+      "confidence": 0.5
     },
     "regions": [
-      "CL"
-    ]
+      "CL",
+      "ES"
+    ],
+    "metadata": {
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "native",
+      "plant_type_es": "shrub"
+    },
+    "geo_precision": "regional"
   },
   {
     "plant_id": "leonotis_nepetifolia_l_r_br",
@@ -14064,7 +14316,8 @@
       "AR",
       "CL",
       "PY"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "lithraea_molleoides",
@@ -14100,7 +14353,8 @@
       "BO",
       "CL",
       "PE"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "lobelia_inflata",
@@ -14507,6 +14761,7 @@
     ],
     "countries": [
       "CL",
+      "ES",
       "PY"
     ],
     "uses": [
@@ -14520,13 +14775,20 @@
     },
     "evidence": {
       "level": "traditional",
-      "source": "layered merge",
-      "confidence": 0.35
+      "source": "layered merge; Spain_ethnobotany",
+      "confidence": 0.5
     },
     "regions": [
       "CL",
+      "ES",
       "PY"
-    ]
+    ],
+    "metadata": {
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "native",
+      "plant_type_es": "herb"
+    },
+    "geo_precision": "regional"
   },
   {
     "plant_id": "malvaviscus_arboreus",
@@ -14830,7 +15092,6 @@
     ],
     "conditions": [
       "digestive_issues",
-      "gastritis_nerviosa_colicos_infantiles_eczema_insomnio_ansiedad_problemas_de_piel",
       "inflammation"
     ],
     "toxicity": {
@@ -14855,7 +15116,8 @@
       "PY",
       "UY",
       "VE"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "matricaria_chamomilla_l",
@@ -14893,6 +15155,7 @@
       "CL",
       "CO",
       "EC",
+      "ES",
       "PE",
       "PY",
       "UY",
@@ -14911,8 +15174,8 @@
     },
     "evidence": {
       "level": "traditional",
-      "source": "layered merge",
-      "confidence": 0.35
+      "source": "layered merge; Spain_ethnobotany",
+      "confidence": 0.5
     },
     "regions": [
       "AR",
@@ -14920,11 +15183,19 @@
       "CL",
       "CO",
       "EC",
+      "ES",
       "PE",
       "PY",
       "UY",
       "VE"
-    ]
+    ],
+    "lookalike_risk": true,
+    "metadata": {
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "native",
+      "plant_type_es": "herb"
+    },
+    "geo_precision": "regional"
   },
   {
     "plant_id": "maytenus_boaria",
@@ -15087,6 +15358,7 @@
       "BO",
       "CL",
       "EC",
+      "ES",
       "PE",
       "PY",
       "UY"
@@ -15104,20 +15376,28 @@
     },
     "evidence": {
       "level": "traditional",
-      "source": "S4; S6",
-      "confidence": 0.35
+      "source": "S4; S6; Spain_ethnobotany",
+      "confidence": 0.5
     },
     "regions": [
       "AR",
       "BO",
       "CL",
       "EC",
+      "ES",
       "EUROPE",
       "MX",
       "PE",
       "PY",
       "UY"
-    ]
+    ],
+    "lookalike_risk": true,
+    "metadata": {
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "naturalized",
+      "plant_type_es": "herb"
+    },
+    "geo_precision": "regional"
   },
   {
     "plant_id": "melissa_officinalis_l",
@@ -15226,6 +15506,7 @@
     "countries": [
       "AR",
       "CL",
+      "ES",
       "PY"
     ],
     "uses": [
@@ -15234,26 +15515,37 @@
     ],
     "conditions": [],
     "toxicity": {
-      "level": "low",
+      "level": "high",
       "type": [
         "abortifacient"
       ],
-      "notes": null
+      "notes": "Tóxico en dosis altas. Evitar en embarazo",
+      "contraindications": [
+        "pregnancy"
+      ]
     },
     "evidence": {
       "level": "traditional",
-      "source": "S6",
-      "confidence": 0.35
+      "source": "S6; Spain_ethnobotany",
+      "confidence": 0.5
     },
     "regions": [
       "AR",
       "ASIA",
       "CL",
+      "ES",
       "EUROPE",
       "MX",
       "NORTH_AFRICA",
       "PY"
-    ]
+    ],
+    "lookalike_risk": true,
+    "metadata": {
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "native",
+      "plant_type_es": "herb"
+    },
+    "geo_precision": "regional"
   },
   {
     "plant_id": "mentha_pulegium_l",
@@ -15290,6 +15582,7 @@
       "CL",
       "CO",
       "EC",
+      "ES",
       "PE",
       "PY",
       "VE"
@@ -15299,10 +15592,7 @@
       "culinary",
       "medicinal"
     ],
-    "conditions": [
-      "antibacteriano_gram_antifungico_candida_albicans_antioxidante_antiinflamatorio",
-      "dolor_de_estomago_digestion_estimulante_diaforetico_espasmos_intestinales_colico"
-    ],
+    "conditions": [],
     "toxicity": {
       "level": "low",
       "type": [],
@@ -15310,7 +15600,7 @@
     },
     "evidence": {
       "level": "clinical",
-      "source": "S1; S2; S3; S4; S6",
+      "source": "S1; S2; S3; S4; S6; Spain_ethnobotany",
       "confidence": 0.9
     },
     "regions": [
@@ -15318,12 +15608,20 @@
       "CL",
       "CO",
       "EC",
+      "ES",
       "EUROPE",
       "MX",
       "PE",
       "PY",
       "VE"
-    ]
+    ],
+    "lookalike_risk": true,
+    "metadata": {
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "naturalized",
+      "plant_type_es": "herb"
+    },
+    "geo_precision": "regional"
   },
   {
     "plant_id": "mentha_spicata_l",
@@ -15411,7 +15709,8 @@
       "PE",
       "PY",
       "VE"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "mikania_micrantha",
@@ -15471,7 +15770,8 @@
       "AR",
       "GT",
       "HN"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "mimosa_bahamensis_benth",
@@ -15747,7 +16047,8 @@
       "BO",
       "CO",
       "GY"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "momordica_charantia_l",
@@ -15792,7 +16093,8 @@
       "GY",
       "PE",
       "VE"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "monarda_didyma",
@@ -15976,9 +16278,7 @@
     "names": [],
     "countries": [],
     "uses": [],
-    "conditions": [
-      "favorecer_estimular_contracciones_de_parto_trastornos_menstruales_abortivo_postp"
-    ],
+    "conditions": [],
     "toxicity": {
       "level": "moderate",
       "type": [
@@ -16239,7 +16539,8 @@
       "BO",
       "EC",
       "PE"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "musa_paradisiaca",
@@ -16469,6 +16770,7 @@
       "CL",
       "CO",
       "EC",
+      "ES",
       "HN",
       "PY"
     ],
@@ -16485,18 +16787,26 @@
     },
     "evidence": {
       "level": "traditional",
-      "source": "S1; S4; S5; S6",
-      "confidence": 0.35
+      "source": "S1; S4; S5; S6; Spain_ethnobotany",
+      "confidence": 0.5
     },
     "regions": [
       "CL",
       "CO",
       "EC",
+      "ES",
       "HN",
       "MX",
       "PY",
       "TROPICAL_ASIA"
-    ]
+    ],
+    "lookalike_risk": true,
+    "metadata": {
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "naturalized",
+      "plant_type_es": "herb"
+    },
+    "geo_precision": "regional"
   },
   {
     "plant_id": "ocimum_basilicum_l",
@@ -16533,7 +16843,8 @@
       "EC",
       "HN",
       "PY"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "ocimum_campechianum",
@@ -16575,7 +16886,8 @@
       "HN",
       "MX",
       "PY"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "ocimum_campechianum_mill",
@@ -16707,7 +17019,8 @@
     "regions": [
       "CL",
       "PA"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "oplopanax_horridus",
@@ -16934,6 +17247,42 @@
       "na_source": "na_ethnobotany_v1",
       "native_status_na": "native"
     }
+  },
+  {
+    "plant_id": "papaver_rhoeas",
+    "scientific_name": "Papaver rhoeas L.",
+    "family": "Papaveraceae",
+    "names": [],
+    "countries": [
+      "ES"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": null
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "Spain_ethnobotany",
+      "confidence": 0.5
+    },
+    "regions": [
+      "ES"
+    ],
+    "metadata": {
+      "genus": "Papaver",
+      "rank": "species",
+      "native_status": "native",
+      "plant_type": "herb",
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "native",
+      "plant_type_es": "herb"
+    },
+    "geo_precision": "regional"
   },
   {
     "plant_id": "parkinsonia_aculeata",
@@ -17438,7 +17787,8 @@
     "regions": [
       "AR",
       "CO"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "petiveria_alliacea_l",
@@ -17479,7 +17829,8 @@
       "CO",
       "PA",
       "VE"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "peumus_boldus",
@@ -17492,6 +17843,7 @@
       "AR",
       "CL",
       "CO",
+      "ES",
       "PE",
       "PY",
       "UY"
@@ -17509,8 +17861,8 @@
     },
     "evidence": {
       "level": "traditional",
-      "source": "S4",
-      "confidence": 0.35
+      "source": "S4; Spain_ethnobotany",
+      "confidence": 0.5
     },
     "regions": [
       "AR",
@@ -17518,11 +17870,19 @@
       "CHILE",
       "CL",
       "CO",
+      "ES",
       "MX",
       "PE",
       "PY",
       "UY"
-    ]
+    ],
+    "lookalike_risk": true,
+    "metadata": {
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "naturalized",
+      "plant_type_es": "tree"
+    },
+    "geo_precision": "regional"
   },
   {
     "plant_id": "peumus_boldus_molina",
@@ -17542,7 +17902,8 @@
       "source": "layered merge",
       "confidence": 0.35
     },
-    "regions": []
+    "regions": [],
+    "lookalike_risk": true
   },
   {
     "plant_id": "phaseolus_vulgaris_l",
@@ -17617,7 +17978,8 @@
     "regions": [
       "CL",
       "CO"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "phyla_dulcis",
@@ -17653,7 +18015,8 @@
       "CL",
       "MX",
       "PA"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "phyllanthus_niruri",
@@ -17676,9 +18039,7 @@
     "uses": [
       "medicinal"
     ],
-    "conditions": [
-      "calculos_renales_vesicula_biliar_higado_estrenimiento_cistitis_infecciones_urina"
-    ],
+    "conditions": [],
     "toxicity": {
       "level": "low",
       "type": [],
@@ -17891,6 +18252,7 @@
       "BO",
       "CL",
       "CO",
+      "ES",
       "PY"
     ],
     "uses": [
@@ -17906,15 +18268,23 @@
     },
     "evidence": {
       "level": "traditional",
-      "source": "layered merge",
-      "confidence": 0.35
+      "source": "layered merge; Spain_ethnobotany",
+      "confidence": 0.5
     },
     "regions": [
       "BO",
       "CL",
       "CO",
+      "ES",
       "PY"
-    ]
+    ],
+    "lookalike_risk": true,
+    "metadata": {
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "naturalized",
+      "plant_type_es": "herb"
+    },
+    "geo_precision": "regional"
   },
   {
     "plant_id": "pimpinella_anisum_l",
@@ -17946,7 +18316,8 @@
       "CL",
       "CO",
       "PY"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "pinus_radiata",
@@ -18049,7 +18420,8 @@
       "EC",
       "PA",
       "PE"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "piper_auritum",
@@ -18086,7 +18458,8 @@
       "HN",
       "MEXICO_TO_COLOMBIA",
       "MX"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "piper_auritum_kunth",
@@ -18308,7 +18681,8 @@
       "PY",
       "UY",
       "VE"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "plantago_major",
@@ -18352,7 +18726,8 @@
       "PY",
       "UY",
       "VE"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "plantago_major_l",
@@ -18898,7 +19273,8 @@
     "regions": [
       "CL",
       "CO"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "populus_balsamifera",
@@ -19142,9 +19518,7 @@
     "names": [],
     "countries": [],
     "uses": [],
-    "conditions": [
-      "enfermedades_respiratorias_tos_asma_bronquitis_irritacion_de_garganta_catarro"
-    ],
+    "conditions": [],
     "toxicity": {
       "level": "low",
       "type": [],
@@ -19187,7 +19561,8 @@
     "regions": [
       "AR",
       "CL"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "psidium_guajava",
@@ -19206,9 +19581,7 @@
       "culinary",
       "medicinal"
     ],
-    "conditions": [
-      "diarrea_disenteria_parasitos_antiinflamatorio_alopecia_problemas_dermicos_banos_"
-    ],
+    "conditions": [],
     "toxicity": {
       "level": "low",
       "type": [],
@@ -19370,7 +19743,8 @@
     "regions": [
       "AR",
       "CL"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "quinchamalium_chilense",
@@ -19661,9 +20035,7 @@
     "uses": [
       "medicinal"
     ],
-    "conditions": [
-      "caida_de_cabello_calentura_uso_externo_hemorroides_jiotes_pies_hinchados"
-    ],
+    "conditions": [],
     "toxicity": {
       "level": "high",
       "type": [],
@@ -19911,7 +20283,8 @@
       "HN",
       "PA",
       "SV"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "rumex_hymenosepalus",
@@ -19963,6 +20336,42 @@
     }
   },
   {
+    "plant_id": "ruscus_aculeatus",
+    "scientific_name": "Ruscus aculeatus L.",
+    "family": "Asparagaceae",
+    "names": [],
+    "countries": [
+      "ES"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": null
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "Spain_ethnobotany",
+      "confidence": 0.5
+    },
+    "regions": [
+      "ES"
+    ],
+    "metadata": {
+      "genus": "Ruscus",
+      "rank": "species",
+      "native_status": "native",
+      "plant_type": "shrub",
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "native",
+      "plant_type_es": "shrub"
+    },
+    "geo_precision": "regional"
+  },
+  {
     "plant_id": "ruta_chalepensis",
     "scientific_name": "Ruta chalepensis",
     "family": "Rutaceae",
@@ -20007,7 +20416,8 @@
       "PY",
       "UY",
       "VE"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "ruta_chalepensis_l",
@@ -20042,6 +20452,7 @@
       "CL",
       "CO",
       "EC",
+      "ES",
       "PE",
       "PY",
       "UY",
@@ -20052,19 +20463,22 @@
       "ritual"
     ],
     "conditions": [
-      "regulacion_menstrual_dolor_menstrual_parasitos_intestinales_flatulencias_mal_de_"
+      "womens_health"
     ],
     "toxicity": {
       "level": "moderate",
       "type": [
         "abortifacient"
       ],
-      "notes": "ABORTIFACIENTE. No en embarazo. Evitar en niños. Uso en infusión máx 10 días."
+      "notes": "ABORTIFACIENTE. No en embarazo. Evitar en niños. Uso en infusión máx 10 días. | Potente: usar con precaución. Evitar en embarazo y lactancia",
+      "contraindications": [
+        "pregnancy"
+      ]
     },
     "evidence": {
       "level": "traditional",
-      "source": "S1; S2; S4; S5; S6",
-      "confidence": 0.35
+      "source": "S1; S2; S4; S5; S6; Spain_ethnobotany",
+      "confidence": 0.5
     },
     "regions": [
       "AR",
@@ -20072,13 +20486,23 @@
       "CL",
       "CO",
       "EC",
+      "ES",
+      "ES_MEDITERRANEAN",
+      "ES_TRADITIONAL",
       "MEDITERRANEAN_EUROPE",
       "MX",
       "PE",
       "PY",
       "UY",
       "VE"
-    ]
+    ],
+    "lookalike_risk": true,
+    "metadata": {
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "native",
+      "plant_type_es": "herb"
+    },
+    "geo_precision": "regional"
   },
   {
     "plant_id": "ruta_graveolens_l",
@@ -20318,6 +20742,7 @@
     "countries": [
       "BO",
       "CL",
+      "ES",
       "PY"
     ],
     "uses": [
@@ -20333,16 +20758,23 @@
     },
     "evidence": {
       "level": "traditional",
-      "source": "S4; S6",
-      "confidence": 0.35
+      "source": "S4; S6; Spain_ethnobotany",
+      "confidence": 0.5
     },
     "regions": [
       "BO",
       "CL",
+      "ES",
       "MEDITERRANEAN",
       "MX",
       "PY"
-    ]
+    ],
+    "metadata": {
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "native",
+      "plant_type_es": "herb"
+    },
+    "geo_precision": "regional"
   },
   {
     "plant_id": "salvia_officinalis_l",
@@ -20375,6 +20807,7 @@
     "countries": [
       "BO",
       "CL",
+      "ES",
       "PY",
       "VE"
     ],
@@ -20383,7 +20816,10 @@
       "culinary",
       "medicinal"
     ],
-    "conditions": [],
+    "conditions": [
+      "circulation_support",
+      "musculoskeletal_pain"
+    ],
     "toxicity": {
       "level": "low",
       "type": [],
@@ -20391,15 +20827,24 @@
     },
     "evidence": {
       "level": "traditional",
-      "source": "layered merge",
-      "confidence": 0.35
+      "source": "layered merge; Spain_ethnobotany",
+      "confidence": 0.5
     },
     "regions": [
       "BO",
       "CL",
+      "ES",
+      "ES_MEDITERRANEAN",
+      "ES_MEDITERRANEAN_EU",
       "PY",
       "VE"
-    ]
+    ],
+    "metadata": {
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "native",
+      "plant_type_es": "shrub"
+    },
+    "geo_precision": "regional"
   },
   {
     "plant_id": "sambucus_canadensis",
@@ -20508,7 +20953,8 @@
       "GT",
       "MX",
       "PY"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "sambucus_mexicana_c_presl_ex_dc",
@@ -20541,15 +20987,14 @@
       "BO",
       "CL",
       "EC",
+      "ES",
       "GT",
       "PY"
     ],
     "uses": [
       "medicinal"
     ],
-    "conditions": [
-      "tos_fiebre_gripe_bronquitis_afecciones_pulmonares_descongestion_nasal_uso_ritual"
-    ],
+    "conditions": [],
     "toxicity": {
       "level": "low",
       "type": [],
@@ -20557,18 +21002,26 @@
     },
     "evidence": {
       "level": "traditional",
-      "source": "S1; S4",
-      "confidence": 0.35
+      "source": "S1; S4; Spain_ethnobotany",
+      "confidence": 0.5
     },
     "regions": [
       "BO",
       "CL",
       "EC",
+      "ES",
       "EUROPE",
       "GT",
       "MX",
       "PY"
-    ]
+    ],
+    "lookalike_risk": true,
+    "metadata": {
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "native",
+      "plant_type_es": "shrub"
+    },
+    "geo_precision": "regional"
   },
   {
     "plant_id": "sambucus_nigra_l",
@@ -20653,9 +21106,7 @@
     "names": [],
     "countries": [],
     "uses": [],
-    "conditions": [
-      "multiples_cancer_diabetes_hiv_aids_community_belief"
-    ],
+    "conditions": [],
     "toxicity": {
       "level": "low",
       "type": [],
@@ -20700,7 +21151,8 @@
     "regions": [
       "AR",
       "CL"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "sarcostemma_clausum",
@@ -20798,6 +21250,42 @@
     ]
   },
   {
+    "plant_id": "satureja_montana",
+    "scientific_name": "Satureja montana L.",
+    "family": "Lamiaceae",
+    "names": [],
+    "countries": [
+      "ES"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": null
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "Spain_ethnobotany",
+      "confidence": 0.5
+    },
+    "regions": [
+      "ES"
+    ],
+    "metadata": {
+      "genus": "Satureja",
+      "rank": "species",
+      "native_status": "native",
+      "plant_type": "herb",
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "native",
+      "plant_type_es": "herb"
+    },
+    "geo_precision": "regional"
+  },
+  {
     "plant_id": "satureja_parvifolia",
     "scientific_name": "Satureja parvifolia",
     "family": "Lamiaceae",
@@ -20887,7 +21375,8 @@
       "BO",
       "CL",
       "PE"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "schinus_molle",
@@ -20927,7 +21416,8 @@
       "PE",
       "PERU",
       "SOUTH_AMERICA"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "schinus_molle_l",
@@ -20982,7 +21472,8 @@
       "BO",
       "CL",
       "PE"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "schkuhria_pinnata",
@@ -21153,9 +21644,7 @@
     "names": [],
     "countries": [],
     "uses": [],
-    "conditions": [
-      "calculos_renales_problemas_de_prostata_gota_diuretico"
-    ],
+    "conditions": [],
     "toxicity": {
       "level": "low",
       "type": [],
@@ -21198,7 +21687,8 @@
     },
     "regions": [
       "CL"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "senecio_graveolens",
@@ -21310,7 +21800,8 @@
       "BO",
       "CL",
       "PY"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "senna_corymbosa",
@@ -21407,7 +21898,8 @@
       "NI",
       "PA",
       "TROPICAL_AMERICAS"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "senna_occidentalis_l_link",
@@ -21549,11 +22041,13 @@
     "scientific_name": "Silybum marianum (L.) Gaertn.",
     "family": "Asteraceae",
     "names": [],
-    "countries": [],
-    "uses": [],
-    "conditions": [
-      "hepatoprotector_cirrosis_insuficiencia_biliar_mala_digestion_calculos_renales_y_"
+    "countries": [
+      "ES"
     ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [],
     "toxicity": {
       "level": "low",
       "type": [],
@@ -21561,13 +22055,20 @@
     },
     "evidence": {
       "level": "clinical",
-      "source": "S1; S2; S4; S6",
+      "source": "S1; S2; S4; S6; Spain_ethnobotany",
       "confidence": 0.9
     },
     "regions": [
+      "ES",
       "MEDITERRANEAN",
       "MX"
-    ]
+    ],
+    "metadata": {
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "native",
+      "plant_type_es": "herb"
+    },
+    "geo_precision": "regional"
   },
   {
     "plant_id": "simarouba_amara",
@@ -21615,7 +22116,8 @@
       "HN",
       "MX",
       "PA"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "simarouba_glauca",
@@ -21638,6 +22140,42 @@
       "confidence": 0.35
     },
     "regions": []
+  },
+  {
+    "plant_id": "sisymbrium_officinale",
+    "scientific_name": "Sisymbrium officinale (L.) Scop.",
+    "family": "Brassicaceae",
+    "names": [],
+    "countries": [
+      "ES"
+    ],
+    "uses": [
+      "medicinal"
+    ],
+    "conditions": [],
+    "toxicity": {
+      "level": "low",
+      "type": [],
+      "notes": null
+    },
+    "evidence": {
+      "level": "traditional",
+      "source": "Spain_ethnobotany",
+      "confidence": 0.5
+    },
+    "regions": [
+      "ES"
+    ],
+    "metadata": {
+      "genus": "Sisymbrium",
+      "rank": "species",
+      "native_status": "native",
+      "plant_type": "herb",
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "native",
+      "plant_type_es": "herb"
+    },
+    "geo_precision": "regional"
   },
   {
     "plant_id": "smallanthus_sonchifolius",
@@ -22046,7 +22584,8 @@
       "PY",
       "SV",
       "UY"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "sparganophorus_vaillantii",
@@ -22358,10 +22897,7 @@
       "culinary",
       "medicinal"
     ],
-    "conditions": [
-      "diabetes_tipo_ii_reduccion_de_glucosa_proteccion_renal_y_hepatica_obesidad_hiper",
-      "endulzante_natural_agente_edulcorante_sin_calorias"
-    ],
+    "conditions": [],
     "toxicity": {
       "level": "low",
       "type": [],
@@ -22745,7 +23281,8 @@
     "regions": [
       "CL",
       "PA"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "tanaecium_nocturnum",
@@ -22787,6 +23324,7 @@
       "AR",
       "CL",
       "CO",
+      "ES",
       "HN",
       "PY",
       "SV",
@@ -22804,20 +23342,28 @@
     },
     "evidence": {
       "level": "traditional",
-      "source": "S1; S2; S4; S6",
-      "confidence": 0.35
+      "source": "S1; S2; S4; S6; Spain_ethnobotany",
+      "confidence": 0.5
     },
     "regions": [
       "AR",
       "CL",
       "CO",
+      "ES",
       "EUROPE",
       "HN",
       "MX",
       "PY",
       "SV",
       "UY"
-    ]
+    ],
+    "lookalike_risk": true,
+    "metadata": {
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "native",
+      "plant_type_es": "herb"
+    },
+    "geo_precision": "regional"
   },
   {
     "plant_id": "taraxacum_officinale_g_h_weber_ex_wigg",
@@ -23133,6 +23679,7 @@
       "BO",
       "CL",
       "CO",
+      "ES",
       "PY"
     ],
     "uses": [
@@ -23140,7 +23687,11 @@
       "culinary",
       "medicinal"
     ],
-    "conditions": [],
+    "conditions": [
+      "dermatologic_infection",
+      "digestive_complaints",
+      "respiratory_support"
+    ],
     "toxicity": {
       "level": "low",
       "type": [],
@@ -23148,15 +23699,27 @@
     },
     "evidence": {
       "level": "traditional",
-      "source": "layered merge",
-      "confidence": 0.35
+      "source": "layered merge; Spain_ethnobotany",
+      "confidence": 0.5
     },
     "regions": [
       "BO",
       "CL",
       "CO",
+      "ES",
+      "ES_ANDALUSIAN",
+      "ES_CASTILIAN",
+      "ES_IBERIAN",
+      "ES_MEDITERRANEAN",
       "PY"
-    ]
+    ],
+    "lookalike_risk": true,
+    "metadata": {
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "native",
+      "plant_type_es": "herb"
+    },
+    "geo_precision": "regional"
   },
   {
     "plant_id": "thymus_vulgaris_l",
@@ -23190,7 +23753,8 @@
       "CL",
       "CO",
       "PY"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "tilia_cordata",
@@ -23202,13 +23766,18 @@
     "countries": [
       "CL",
       "CR",
+      "ES",
       "PA",
       "PY"
     ],
     "uses": [
       "medicinal"
     ],
-    "conditions": [],
+    "conditions": [
+      "anxiety_support",
+      "sleep_support",
+      "stress_support"
+    ],
     "toxicity": {
       "level": "low",
       "type": [],
@@ -23216,15 +23785,23 @@
     },
     "evidence": {
       "level": "traditional",
-      "source": "layered merge",
-      "confidence": 0.35
+      "source": "layered merge; Spain_ethnobotany",
+      "confidence": 0.5
     },
     "regions": [
       "CL",
       "CR",
+      "ES",
       "PA",
       "PY"
-    ]
+    ],
+    "lookalike_risk": true,
+    "metadata": {
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "native",
+      "plant_type_es": "tree"
+    },
+    "geo_precision": "regional"
   },
   {
     "plant_id": "tilia_sp",
@@ -23233,9 +23810,7 @@
     "names": [],
     "countries": [],
     "uses": [],
-    "conditions": [
-      "insomnio_nerviosismo_extremo_presion_arterial_alta_espasmos_digestivos_reumatism"
-    ],
+    "conditions": [],
     "toxicity": {
       "level": "low",
       "type": [],
@@ -23249,7 +23824,8 @@
     "regions": [
       "EUROPE",
       "MX"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "tillandsia_usneoides",
@@ -23280,7 +23856,8 @@
     "regions": [
       "AR",
       "CL"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "tithonia_diversifolia",
@@ -23291,9 +23868,7 @@
     "uses": [
       "medicinal"
     ],
-    "conditions": [
-      "inflamacion_heridas_dolor_de_estomago_reumatismo_diabetes_yucatan"
-    ],
+    "conditions": [],
     "toxicity": {
       "level": "low",
       "type": [],
@@ -23336,9 +23911,7 @@
     "names": [],
     "countries": [],
     "uses": [],
-    "conditions": [
-      "limpieza_vaginal_pasmo_tos_retraso_menstrual_torceduras_traumatismos"
-    ],
+    "conditions": [],
     "toxicity": {
       "level": "low",
       "type": [],
@@ -23771,7 +24344,8 @@
       "BO",
       "EC",
       "PE"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "unxia_camphorata",
@@ -23909,6 +24483,7 @@
     "countries": [
       "CA",
       "CL",
+      "ES",
       "PY",
       "US",
       "UY"
@@ -23927,18 +24502,20 @@
     },
     "evidence": {
       "level": "tramil",
-      "source": "S1; S2; S6; NA_ethnobotany",
+      "source": "S1; S2; S6; NA_ethnobotany; Spain_ethnobotany",
       "confidence": 0.65
     },
     "regions": [
       "CA",
       "CL",
+      "ES",
       "EURASIA",
       "MX",
       "PY",
       "US",
       "UY"
     ],
+    "lookalike_risk": true,
     "sustainability": {
       "status": "safe",
       "notes": "Abundant and widespread; harvest young leaves with gloves; cooking/drying neutralizes sting"
@@ -23952,8 +24529,12 @@
       ],
       "native_status_na": "native",
       "harvest_status": "safe",
-      "na_source": "na_ethnobotany_v1"
-    }
+      "na_source": "na_ethnobotany_v1",
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "native",
+      "plant_type_es": "herb"
+    },
+    "geo_precision": "regional"
   },
   {
     "plant_id": "urtica_dioica_l",
@@ -24007,7 +24588,8 @@
       "CL",
       "PY",
       "UY"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "usnea_densirostra",
@@ -24066,7 +24648,8 @@
     "regions": [
       "BO",
       "CO"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "vaccinium_myrtillus",
@@ -24097,7 +24680,8 @@
     "regions": [
       "BO",
       "CO"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "valeriana_officinalis",
@@ -24114,6 +24698,7 @@
       "BO",
       "CA",
       "CL",
+      "ES",
       "GT",
       "PE",
       "US",
@@ -24122,9 +24707,7 @@
     "uses": [
       "medicinal"
     ],
-    "conditions": [
-      "insomnio_epilepsia_nervios_ansiedad_calambres_dolor_muscular_hipertiroidismo"
-    ],
+    "conditions": [],
     "toxicity": {
       "level": "low",
       "type": [
@@ -24137,7 +24720,7 @@
     },
     "evidence": {
       "level": "tramil",
-      "source": "S4; NA_ethnobotany",
+      "source": "S4; NA_ethnobotany; Spain_ethnobotany",
       "confidence": 0.65
     },
     "regions": [
@@ -24146,6 +24729,7 @@
       "BO",
       "CA",
       "CL",
+      "ES",
       "EUROPE",
       "GT",
       "MX",
@@ -24156,6 +24740,7 @@
       "US_PNW",
       "VE"
     ],
+    "lookalike_risk": true,
     "sustainability": {
       "status": "safe",
       "notes": "Not at-risk; widely cultivated"
@@ -24167,8 +24752,12 @@
       ],
       "native_status_na": "native",
       "harvest_status": "safe",
-      "na_source": "na_ethnobotany_v1"
-    }
+      "na_source": "na_ethnobotany_v1",
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "native",
+      "plant_type_es": "herb"
+    },
+    "geo_precision": "regional"
   },
   {
     "plant_id": "valeriana_officinalis_l",
@@ -24271,12 +24860,15 @@
       "Hierba del paño"
     ],
     "countries": [
-      "CL"
+      "CL",
+      "ES"
     ],
     "uses": [
       "medicinal"
     ],
-    "conditions": [],
+    "conditions": [
+      "respiratory_support"
+    ],
     "toxicity": {
       "level": "low",
       "type": [],
@@ -24284,14 +24876,21 @@
     },
     "evidence": {
       "level": "traditional",
-      "source": "S4",
-      "confidence": 0.35
+      "source": "S4; Spain_ethnobotany",
+      "confidence": 0.5
     },
     "regions": [
       "CL",
+      "ES",
       "EUROPE",
       "MX"
-    ]
+    ],
+    "metadata": {
+      "es_source": "Spain ethnobotany dataset",
+      "native_status_es": "native",
+      "plant_type_es": "herb"
+    },
+    "geo_precision": "regional"
   },
   {
     "plant_id": "verbascum_thapsus_l",
@@ -24423,7 +25022,8 @@
       "AR",
       "CL",
       "PY"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "verbena_littoralis",
@@ -24455,7 +25055,8 @@
       "AR",
       "CL",
       "PY"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "verbena_officinalis",
@@ -24489,7 +25090,8 @@
       "MEDITERRANEAN",
       "MX",
       "PY"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "verbena_officinalis_l",
@@ -24564,7 +25166,8 @@
       "HN",
       "MX",
       "PA"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "vernonia_cinerea",
@@ -24758,7 +25361,8 @@
     },
     "regions": [
       "AR"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "xanthium_spinosum",
@@ -24789,7 +25393,8 @@
     "regions": [
       "AR",
       "CL"
-    ]
+    ],
+    "lookalike_risk": true
   },
   {
     "plant_id": "xanthosoma_violaceum",

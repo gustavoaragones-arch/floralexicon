@@ -38,6 +38,15 @@
     "confidence": 1
   },
   {
+    "name": "abrotano macho",
+    "normalized": "abrotano_macho",
+    "plant_id": "artemisia_abrotanum",
+    "lang": "es",
+    "region": "es",
+    "ambiguity": "low",
+    "confidence": 1
+  },
+  {
     "name": "acahual / acáhuatal",
     "normalized": "acahual_acahuatal",
     "plant_id": "heterotheca_inuloides_cass",
@@ -340,13 +349,22 @@
     "confidence": 1
   },
   {
+    "name": "ajedrea",
+    "normalized": "ajedrea",
+    "plant_id": "satureja_montana",
+    "lang": "es",
+    "region": "es",
+    "ambiguity": "low",
+    "confidence": 1
+  },
+  {
     "name": "ajenjo",
     "normalized": "ajenjo",
     "plant_id": "artemisia_absinthium",
     "lang": "es",
     "region": "cl",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.571,
     "cluster": "amb_ajenjo"
   },
   {
@@ -356,7 +374,7 @@
     "lang": "es",
     "region": "co",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.571,
     "cluster": "amb_ajenjo"
   },
   {
@@ -366,7 +384,17 @@
     "lang": "es",
     "region": "py",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.571,
+    "cluster": "amb_ajenjo"
+  },
+  {
+    "name": "ajenjo",
+    "normalized": "ajenjo",
+    "plant_id": "artemisia_absinthium",
+    "lang": "es",
+    "region": "es",
+    "ambiguity": "high",
+    "confidence": 0.571,
     "cluster": "amb_ajenjo"
   },
   {
@@ -376,7 +404,7 @@
     "lang": "es",
     "region": "cl",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.429,
     "cluster": "amb_ajenjo"
   },
   {
@@ -386,7 +414,7 @@
     "lang": "es",
     "region": "co",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.429,
     "cluster": "amb_ajenjo"
   },
   {
@@ -396,7 +424,7 @@
     "lang": "es",
     "region": "py",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.429,
     "cluster": "amb_ajenjo"
   },
   {
@@ -460,7 +488,7 @@
     "lang": "es",
     "region": "cl",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.375,
     "cluster": "amb_albahaca"
   },
   {
@@ -470,7 +498,7 @@
     "lang": "es",
     "region": "co",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.375,
     "cluster": "amb_albahaca"
   },
   {
@@ -480,7 +508,7 @@
     "lang": "es",
     "region": "ec",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.375,
     "cluster": "amb_albahaca"
   },
   {
@@ -490,7 +518,7 @@
     "lang": "es",
     "region": "hn",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.375,
     "cluster": "amb_albahaca"
   },
   {
@@ -500,7 +528,17 @@
     "lang": "es",
     "region": "py",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.375,
+    "cluster": "amb_albahaca"
+  },
+  {
+    "name": "albahaca",
+    "normalized": "albahaca",
+    "plant_id": "ocimum_basilicum",
+    "lang": "es",
+    "region": "es",
+    "ambiguity": "high",
+    "confidence": 0.375,
     "cluster": "amb_albahaca"
   },
   {
@@ -510,7 +548,7 @@
     "lang": "es",
     "region": "cl",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.313,
     "cluster": "amb_albahaca"
   },
   {
@@ -520,7 +558,7 @@
     "lang": "es",
     "region": "co",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.313,
     "cluster": "amb_albahaca"
   },
   {
@@ -530,7 +568,7 @@
     "lang": "es",
     "region": "ec",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.313,
     "cluster": "amb_albahaca"
   },
   {
@@ -540,7 +578,7 @@
     "lang": "es",
     "region": "hn",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.313,
     "cluster": "amb_albahaca"
   },
   {
@@ -550,7 +588,7 @@
     "lang": "es",
     "region": "py",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.313,
     "cluster": "amb_albahaca"
   },
   {
@@ -560,7 +598,7 @@
     "lang": "es",
     "region": "cl",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.313,
     "cluster": "amb_albahaca"
   },
   {
@@ -570,7 +608,7 @@
     "lang": "es",
     "region": "co",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.313,
     "cluster": "amb_albahaca"
   },
   {
@@ -580,7 +618,7 @@
     "lang": "es",
     "region": "ec",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.313,
     "cluster": "amb_albahaca"
   },
   {
@@ -590,7 +628,7 @@
     "lang": "es",
     "region": "hn",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.313,
     "cluster": "amb_albahaca"
   },
   {
@@ -600,7 +638,7 @@
     "lang": "es",
     "region": "py",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.313,
     "cluster": "amb_albahaca"
   },
   {
@@ -811,6 +849,15 @@
     "plant_id": "justicia_pectoralis_jacq",
     "lang": "es",
     "region": "co",
+    "ambiguity": "low",
+    "confidence": 1
+  },
+  {
+    "name": "amapola",
+    "normalized": "amapola",
+    "plant_id": "papaver_rhoeas",
+    "lang": "es",
+    "region": "es",
     "ambiguity": "low",
     "confidence": 1
   },
@@ -1564,6 +1611,15 @@
     "plant_id": "pimpinella_anisum",
     "lang": "es",
     "region": "bo",
+    "ambiguity": "low",
+    "confidence": 1
+  },
+  {
+    "name": "anís verde",
+    "normalized": "anis_verde",
+    "plant_id": "pimpinella_anisum",
+    "lang": "es",
+    "region": "es",
     "ambiguity": "low",
     "confidence": 1
   },
@@ -2989,7 +3045,7 @@
     "lang": "es",
     "region": "ar",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.538,
     "cluster": "amb_boldo"
   },
   {
@@ -2999,7 +3055,7 @@
     "lang": "es",
     "region": "cl",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.538,
     "cluster": "amb_boldo"
   },
   {
@@ -3009,7 +3065,7 @@
     "lang": "es",
     "region": "co",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.538,
     "cluster": "amb_boldo"
   },
   {
@@ -3019,7 +3075,7 @@
     "lang": "es",
     "region": "pe",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.538,
     "cluster": "amb_boldo"
   },
   {
@@ -3029,7 +3085,7 @@
     "lang": "es",
     "region": "py",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.538,
     "cluster": "amb_boldo"
   },
   {
@@ -3039,7 +3095,17 @@
     "lang": "es",
     "region": "uy",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.538,
+    "cluster": "amb_boldo"
+  },
+  {
+    "name": "boldo",
+    "normalized": "boldo",
+    "plant_id": "peumus_boldus",
+    "lang": "es",
+    "region": "es",
+    "ambiguity": "high",
+    "confidence": 0.538,
     "cluster": "amb_boldo"
   },
   {
@@ -3049,7 +3115,7 @@
     "lang": "es",
     "region": "ar",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.462,
     "cluster": "amb_boldo"
   },
   {
@@ -3059,7 +3125,7 @@
     "lang": "es",
     "region": "cl",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.462,
     "cluster": "amb_boldo"
   },
   {
@@ -3069,7 +3135,7 @@
     "lang": "es",
     "region": "co",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.462,
     "cluster": "amb_boldo"
   },
   {
@@ -3079,7 +3145,7 @@
     "lang": "es",
     "region": "pe",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.462,
     "cluster": "amb_boldo"
   },
   {
@@ -3089,7 +3155,7 @@
     "lang": "es",
     "region": "py",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.462,
     "cluster": "amb_boldo"
   },
   {
@@ -3099,7 +3165,7 @@
     "lang": "es",
     "region": "uy",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.462,
     "cluster": "amb_boldo"
   },
   {
@@ -3736,7 +3802,7 @@
     "lang": "es",
     "region": "cl",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.6,
     "cluster": "amb_calendula"
   },
   {
@@ -3746,7 +3812,17 @@
     "lang": "es",
     "region": "co",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.6,
+    "cluster": "amb_calendula"
+  },
+  {
+    "name": "caléndula",
+    "normalized": "calendula",
+    "plant_id": "calendula_officinalis",
+    "lang": "es",
+    "region": "es",
+    "ambiguity": "high",
+    "confidence": 0.6,
     "cluster": "amb_calendula"
   },
   {
@@ -3756,7 +3832,7 @@
     "lang": "es",
     "region": "cl",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.4,
     "cluster": "amb_calendula"
   },
   {
@@ -3766,7 +3842,7 @@
     "lang": "es",
     "region": "co",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.4,
     "cluster": "amb_calendula"
   },
   {
@@ -4216,6 +4292,15 @@
     "plant_id": "argemone_mexicana",
     "lang": "es",
     "region": "ar",
+    "ambiguity": "low",
+    "confidence": 1
+  },
+  {
+    "name": "cardo mariano",
+    "normalized": "cardo_mariano",
+    "plant_id": "silybum_marianum_l_gaertn",
+    "lang": "es",
+    "region": "es",
     "ambiguity": "low",
     "confidence": 1
   },
@@ -4681,6 +4766,15 @@
     "plant_id": "erythrina_cristagalli",
     "lang": "es",
     "region": "py",
+    "ambiguity": "low",
+    "confidence": 1
+  },
+  {
+    "name": "celidonia",
+    "normalized": "celidonia",
+    "plant_id": "chelidonium_majus",
+    "lang": "es",
+    "region": "es",
     "ambiguity": "low",
     "confidence": 1
   },
@@ -5467,7 +5561,7 @@
     "lang": "es",
     "region": "ar",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.364,
     "cluster": "amb_cola_de_caballo"
   },
   {
@@ -5477,7 +5571,7 @@
     "lang": "es",
     "region": "bo",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.364,
     "cluster": "amb_cola_de_caballo"
   },
   {
@@ -5487,7 +5581,7 @@
     "lang": "es",
     "region": "cl",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.364,
     "cluster": "amb_cola_de_caballo"
   },
   {
@@ -5497,7 +5591,7 @@
     "lang": "es",
     "region": "pa",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.364,
     "cluster": "amb_cola_de_caballo"
   },
   {
@@ -5507,7 +5601,7 @@
     "lang": "es",
     "region": "pe",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.364,
     "cluster": "amb_cola_de_caballo"
   },
   {
@@ -5517,7 +5611,7 @@
     "lang": "es",
     "region": "py",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.364,
     "cluster": "amb_cola_de_caballo"
   },
   {
@@ -5527,7 +5621,17 @@
     "lang": "es",
     "region": "ve",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.364,
+    "cluster": "amb_cola_de_caballo"
+  },
+  {
+    "name": "cola de caballo",
+    "normalized": "cola_de_caballo",
+    "plant_id": "equisetum_arvense",
+    "lang": "es",
+    "region": "es",
+    "ambiguity": "high",
+    "confidence": 0.364,
     "cluster": "amb_cola_de_caballo"
   },
   {
@@ -5537,7 +5641,7 @@
     "lang": "es",
     "region": "ar",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.318,
     "cluster": "amb_cola_de_caballo"
   },
   {
@@ -5547,7 +5651,7 @@
     "lang": "es",
     "region": "bo",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.318,
     "cluster": "amb_cola_de_caballo"
   },
   {
@@ -5557,7 +5661,7 @@
     "lang": "es",
     "region": "cl",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.318,
     "cluster": "amb_cola_de_caballo"
   },
   {
@@ -5567,7 +5671,7 @@
     "lang": "es",
     "region": "pa",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.318,
     "cluster": "amb_cola_de_caballo"
   },
   {
@@ -5577,7 +5681,7 @@
     "lang": "es",
     "region": "pe",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.318,
     "cluster": "amb_cola_de_caballo"
   },
   {
@@ -5587,7 +5691,7 @@
     "lang": "es",
     "region": "py",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.318,
     "cluster": "amb_cola_de_caballo"
   },
   {
@@ -5597,7 +5701,7 @@
     "lang": "es",
     "region": "ve",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.318,
     "cluster": "amb_cola_de_caballo"
   },
   {
@@ -5607,7 +5711,7 @@
     "lang": "es",
     "region": "ar",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.318,
     "cluster": "amb_cola_de_caballo"
   },
   {
@@ -5617,7 +5721,7 @@
     "lang": "es",
     "region": "bo",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.318,
     "cluster": "amb_cola_de_caballo"
   },
   {
@@ -5627,7 +5731,7 @@
     "lang": "es",
     "region": "cl",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.318,
     "cluster": "amb_cola_de_caballo"
   },
   {
@@ -5637,7 +5741,7 @@
     "lang": "es",
     "region": "pa",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.318,
     "cluster": "amb_cola_de_caballo"
   },
   {
@@ -5647,7 +5751,7 @@
     "lang": "es",
     "region": "pe",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.318,
     "cluster": "amb_cola_de_caballo"
   },
   {
@@ -5657,7 +5761,7 @@
     "lang": "es",
     "region": "py",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.318,
     "cluster": "amb_cola_de_caballo"
   },
   {
@@ -5667,7 +5771,7 @@
     "lang": "es",
     "region": "ve",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.318,
     "cluster": "amb_cola_de_caballo"
   },
   {
@@ -6577,7 +6681,7 @@
     "lang": "es",
     "region": "ar",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.444,
     "cluster": "amb_diente_de_leon"
   },
   {
@@ -6587,7 +6691,7 @@
     "lang": "es",
     "region": "cl",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.444,
     "cluster": "amb_diente_de_leon"
   },
   {
@@ -6597,7 +6701,7 @@
     "lang": "es",
     "region": "hn",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.444,
     "cluster": "amb_diente_de_leon"
   },
   {
@@ -6607,7 +6711,7 @@
     "lang": "es",
     "region": "uy",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.444,
     "cluster": "amb_diente_de_leon"
   },
   {
@@ -6617,7 +6721,7 @@
     "lang": "es",
     "region": "ar",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.556,
     "cluster": "amb_diente_de_leon"
   },
   {
@@ -6627,7 +6731,7 @@
     "lang": "es",
     "region": "cl",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.556,
     "cluster": "amb_diente_de_leon"
   },
   {
@@ -6637,7 +6741,7 @@
     "lang": "es",
     "region": "hn",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.556,
     "cluster": "amb_diente_de_leon"
   },
   {
@@ -6647,7 +6751,17 @@
     "lang": "es",
     "region": "uy",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.556,
+    "cluster": "amb_diente_de_leon"
+  },
+  {
+    "name": "diente de león",
+    "normalized": "diente_de_leon",
+    "plant_id": "taraxacum_officinale",
+    "lang": "es",
+    "region": "es",
+    "ambiguity": "high",
+    "confidence": 0.556,
     "cluster": "amb_diente_de_leon"
   },
   {
@@ -6877,6 +6991,15 @@
     "confidence": 1
   },
   {
+    "name": "erizon",
+    "normalized": "erizon",
+    "plant_id": "sisymbrium_officinale",
+    "lang": "es",
+    "region": "es",
+    "ambiguity": "low",
+    "confidence": 1
+  },
+  {
     "name": "erva picáo",
     "normalized": "erva_picao",
     "plant_id": "bidens_pilosa_l",
@@ -6947,6 +7070,15 @@
     "plant_id": "acacia_caven",
     "lang": "es",
     "region": "ar",
+    "ambiguity": "low",
+    "confidence": 1
+  },
+  {
+    "name": "espino blanco",
+    "normalized": "espino_blanco",
+    "plant_id": "crataegus_monogyna",
+    "lang": "es",
+    "region": "es",
     "ambiguity": "low",
     "confidence": 1
   },
@@ -7463,6 +7595,15 @@
     "plant_id": "cassia_fistula",
     "lang": "es",
     "region": "pa",
+    "ambiguity": "low",
+    "confidence": 1
+  },
+  {
+    "name": "gordolobo",
+    "normalized": "gordolobo",
+    "plant_id": "verbascum_thapsus",
+    "lang": "es",
+    "region": "es",
     "ambiguity": "low",
     "confidence": 1
   },
@@ -8293,7 +8434,7 @@
     "lang": "es",
     "region": "ar",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.3,
     "cluster": "amb_hierba_luisa"
   },
   {
@@ -8303,7 +8444,7 @@
     "lang": "es",
     "region": "ec",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.3,
     "cluster": "amb_hierba_luisa"
   },
   {
@@ -8313,7 +8454,7 @@
     "lang": "es",
     "region": "pe",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.3,
     "cluster": "amb_hierba_luisa"
   },
   {
@@ -8323,7 +8464,7 @@
     "lang": "es",
     "region": "ar",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.4,
     "cluster": "amb_hierba_luisa"
   },
   {
@@ -8333,7 +8474,7 @@
     "lang": "es",
     "region": "ec",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.4,
     "cluster": "amb_hierba_luisa"
   },
   {
@@ -8343,7 +8484,17 @@
     "lang": "es",
     "region": "pe",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.4,
+    "cluster": "amb_hierba_luisa"
+  },
+  {
+    "name": "hierba luisa",
+    "normalized": "hierba_luisa",
+    "plant_id": "aloysia_citrodora",
+    "lang": "es",
+    "region": "es",
+    "ambiguity": "high",
+    "confidence": 0.4,
     "cluster": "amb_hierba_luisa"
   },
   {
@@ -8353,7 +8504,7 @@
     "lang": "es",
     "region": "ar",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.3,
     "cluster": "amb_hierba_luisa"
   },
   {
@@ -8363,7 +8514,7 @@
     "lang": "es",
     "region": "ec",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.3,
     "cluster": "amb_hierba_luisa"
   },
   {
@@ -8373,7 +8524,7 @@
     "lang": "es",
     "region": "pe",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.3,
     "cluster": "amb_hierba_luisa"
   },
   {
@@ -8392,7 +8543,7 @@
     "lang": "es",
     "region": "co",
     "ambiguity": "high",
-    "confidence": 0.571,
+    "confidence": 0.625,
     "cluster": "amb_hierbabuena"
   },
   {
@@ -8402,7 +8553,7 @@
     "lang": "es",
     "region": "pe",
     "ambiguity": "high",
-    "confidence": 0.571,
+    "confidence": 0.625,
     "cluster": "amb_hierbabuena"
   },
   {
@@ -8412,7 +8563,7 @@
     "lang": "es",
     "region": "ve",
     "ambiguity": "high",
-    "confidence": 0.571,
+    "confidence": 0.625,
     "cluster": "amb_hierbabuena"
   },
   {
@@ -8422,7 +8573,17 @@
     "lang": "es",
     "region": "mx",
     "ambiguity": "high",
-    "confidence": 0.571,
+    "confidence": 0.625,
+    "cluster": "amb_hierbabuena"
+  },
+  {
+    "name": "hierbabuena",
+    "normalized": "hierbabuena",
+    "plant_id": "mentha_spicata",
+    "lang": "es",
+    "region": "es",
+    "ambiguity": "high",
+    "confidence": 0.625,
     "cluster": "amb_hierbabuena"
   },
   {
@@ -8432,7 +8593,7 @@
     "lang": "es",
     "region": "co",
     "ambiguity": "high",
-    "confidence": 0.429,
+    "confidence": 0.375,
     "cluster": "amb_hierbabuena"
   },
   {
@@ -8442,7 +8603,7 @@
     "lang": "es",
     "region": "pe",
     "ambiguity": "high",
-    "confidence": 0.429,
+    "confidence": 0.375,
     "cluster": "amb_hierbabuena"
   },
   {
@@ -8452,7 +8613,7 @@
     "lang": "es",
     "region": "ve",
     "ambiguity": "high",
-    "confidence": 0.429,
+    "confidence": 0.375,
     "cluster": "amb_hierbabuena"
   },
   {
@@ -8557,11 +8718,29 @@
     "confidence": 1
   },
   {
+    "name": "hinojo",
+    "normalized": "hinojo",
+    "plant_id": "foeniculum_vulgare",
+    "lang": "es",
+    "region": "es",
+    "ambiguity": "low",
+    "confidence": 1
+  },
+  {
     "name": "hipérico",
     "normalized": "hiperico",
     "plant_id": "hypericum_perforatum",
     "lang": "es",
     "region": "cl",
+    "ambiguity": "low",
+    "confidence": 1
+  },
+  {
+    "name": "hipérico",
+    "normalized": "hiperico",
+    "plant_id": "hypericum_perforatum",
+    "lang": "es",
+    "region": "es",
     "ambiguity": "low",
     "confidence": 1
   },
@@ -9550,6 +9729,15 @@
     "confidence": 1
   },
   {
+    "name": "laurel",
+    "normalized": "laurel",
+    "plant_id": "laurus_nobilis",
+    "lang": "es",
+    "region": "es",
+    "ambiguity": "low",
+    "confidence": 1
+  },
+  {
     "name": "laureña",
     "normalized": "laurena",
     "plant_id": "senna_reticulata",
@@ -9564,6 +9752,15 @@
     "plant_id": "lavandula_angustifolia",
     "lang": "es",
     "region": "cl",
+    "ambiguity": "low",
+    "confidence": 1
+  },
+  {
+    "name": "lavanda",
+    "normalized": "lavanda",
+    "plant_id": "lavandula_angustifolia",
+    "lang": "es",
+    "region": "es",
     "ambiguity": "low",
     "confidence": 1
   },
@@ -10400,6 +10597,15 @@
     "confidence": 1
   },
   {
+    "name": "malva",
+    "normalized": "malva",
+    "plant_id": "malva_sylvestris",
+    "lang": "es",
+    "region": "es",
+    "ambiguity": "low",
+    "confidence": 1
+  },
+  {
     "name": "mameicillo blanco",
     "normalized": "mameicillo_blanco",
     "plant_id": "guarea_guidonia",
@@ -10469,7 +10675,7 @@
     "lang": "es",
     "region": "mx",
     "ambiguity": "high",
-    "confidence": 0.05,
+    "confidence": 0.048,
     "cluster": "amb_manzanilla"
   },
   {
@@ -10579,7 +10785,7 @@
     "lang": "es",
     "region": "ar",
     "ambiguity": "high",
-    "confidence": 0.45,
+    "confidence": 0.476,
     "cluster": "amb_manzanilla"
   },
   {
@@ -10589,7 +10795,7 @@
     "lang": "es",
     "region": "bo",
     "ambiguity": "high",
-    "confidence": 0.45,
+    "confidence": 0.476,
     "cluster": "amb_manzanilla"
   },
   {
@@ -10599,7 +10805,7 @@
     "lang": "es",
     "region": "cl",
     "ambiguity": "high",
-    "confidence": 0.45,
+    "confidence": 0.476,
     "cluster": "amb_manzanilla"
   },
   {
@@ -10609,7 +10815,7 @@
     "lang": "es",
     "region": "co",
     "ambiguity": "high",
-    "confidence": 0.45,
+    "confidence": 0.476,
     "cluster": "amb_manzanilla"
   },
   {
@@ -10619,7 +10825,7 @@
     "lang": "es",
     "region": "ec",
     "ambiguity": "high",
-    "confidence": 0.45,
+    "confidence": 0.476,
     "cluster": "amb_manzanilla"
   },
   {
@@ -10629,7 +10835,7 @@
     "lang": "es",
     "region": "pe",
     "ambiguity": "high",
-    "confidence": 0.45,
+    "confidence": 0.476,
     "cluster": "amb_manzanilla"
   },
   {
@@ -10639,7 +10845,7 @@
     "lang": "es",
     "region": "py",
     "ambiguity": "high",
-    "confidence": 0.45,
+    "confidence": 0.476,
     "cluster": "amb_manzanilla"
   },
   {
@@ -10649,7 +10855,7 @@
     "lang": "es",
     "region": "uy",
     "ambiguity": "high",
-    "confidence": 0.45,
+    "confidence": 0.476,
     "cluster": "amb_manzanilla"
   },
   {
@@ -10659,7 +10865,17 @@
     "lang": "es",
     "region": "ve",
     "ambiguity": "high",
-    "confidence": 0.45,
+    "confidence": 0.476,
+    "cluster": "amb_manzanilla"
+  },
+  {
+    "name": "manzanilla",
+    "normalized": "manzanilla",
+    "plant_id": "matricaria_recutita",
+    "lang": "es",
+    "region": "es",
+    "ambiguity": "high",
+    "confidence": 0.476,
     "cluster": "amb_manzanilla"
   },
   {
@@ -11172,6 +11388,15 @@
     "confidence": 1
   },
   {
+    "name": "melisa",
+    "normalized": "melisa",
+    "plant_id": "melissa_officinalis",
+    "lang": "es",
+    "region": "es",
+    "ambiguity": "low",
+    "confidence": 1
+  },
+  {
     "name": "melisa / toronjil / citronela",
     "normalized": "melisa_toronjil_citronela",
     "plant_id": "melissa_officinalis",
@@ -11312,7 +11537,8 @@
     "lang": "es",
     "region": "cl",
     "ambiguity": "low",
-    "confidence": 1
+    "confidence": 1,
+    "risk": "high"
   },
   {
     "name": "méxico",
@@ -12433,7 +12659,7 @@
     "lang": "es",
     "region": "cl",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.571,
     "cluster": "amb_ortiga"
   },
   {
@@ -12443,7 +12669,7 @@
     "lang": "es",
     "region": "py",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.571,
     "cluster": "amb_ortiga"
   },
   {
@@ -12453,7 +12679,17 @@
     "lang": "es",
     "region": "uy",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.571,
+    "cluster": "amb_ortiga"
+  },
+  {
+    "name": "ortiga",
+    "normalized": "ortiga",
+    "plant_id": "urtica_dioica",
+    "lang": "es",
+    "region": "es",
+    "ambiguity": "high",
+    "confidence": 0.571,
     "cluster": "amb_ortiga"
   },
   {
@@ -12463,7 +12699,7 @@
     "lang": "es",
     "region": "cl",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.429,
     "cluster": "amb_ortiga"
   },
   {
@@ -12473,7 +12709,7 @@
     "lang": "es",
     "region": "py",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.429,
     "cluster": "amb_ortiga"
   },
   {
@@ -12483,7 +12719,7 @@
     "lang": "es",
     "region": "uy",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.429,
     "cluster": "amb_ortiga"
   },
   {
@@ -13892,7 +14128,7 @@
     "lang": "es",
     "region": "ar",
     "ambiguity": "high",
-    "confidence": 0.429,
+    "confidence": 0.375,
     "cluster": "amb_poleo"
   },
   {
@@ -13902,7 +14138,7 @@
     "lang": "es",
     "region": "cl",
     "ambiguity": "high",
-    "confidence": 0.429,
+    "confidence": 0.375,
     "cluster": "amb_poleo"
   },
   {
@@ -13912,7 +14148,7 @@
     "lang": "es",
     "region": "py",
     "ambiguity": "high",
-    "confidence": 0.429,
+    "confidence": 0.375,
     "cluster": "amb_poleo"
   },
   {
@@ -13922,8 +14158,9 @@
     "lang": "es",
     "region": "ar",
     "ambiguity": "high",
-    "confidence": 0.571,
-    "cluster": "amb_poleo"
+    "confidence": 0.625,
+    "cluster": "amb_poleo",
+    "risk": "high"
   },
   {
     "name": "poleo",
@@ -13932,8 +14169,9 @@
     "lang": "es",
     "region": "cl",
     "ambiguity": "high",
-    "confidence": 0.571,
-    "cluster": "amb_poleo"
+    "confidence": 0.625,
+    "cluster": "amb_poleo",
+    "risk": "high"
   },
   {
     "name": "poleo",
@@ -13942,8 +14180,9 @@
     "lang": "es",
     "region": "py",
     "ambiguity": "high",
-    "confidence": 0.571,
-    "cluster": "amb_poleo"
+    "confidence": 0.625,
+    "cluster": "amb_poleo",
+    "risk": "high"
   },
   {
     "name": "poleo",
@@ -13952,8 +14191,20 @@
     "lang": "es",
     "region": "mx",
     "ambiguity": "high",
-    "confidence": 0.571,
-    "cluster": "amb_poleo"
+    "confidence": 0.625,
+    "cluster": "amb_poleo",
+    "risk": "high"
+  },
+  {
+    "name": "poleo",
+    "normalized": "poleo",
+    "plant_id": "mentha_pulegium",
+    "lang": "es",
+    "region": "es",
+    "ambiguity": "high",
+    "confidence": 0.625,
+    "cluster": "amb_poleo",
+    "risk": "high"
   },
   {
     "name": "ponil",
@@ -14726,6 +14977,15 @@
     "confidence": 1
   },
   {
+    "name": "regaliz",
+    "normalized": "regaliz",
+    "plant_id": "glycyrrhiza_glabra",
+    "lang": "es",
+    "region": "es",
+    "ambiguity": "low",
+    "confidence": 1
+  },
+  {
     "name": "renaco xovin",
     "normalized": "renaco_xovin",
     "plant_id": "ficus_insipida",
@@ -14893,6 +15153,15 @@
     "confidence": 1
   },
   {
+    "name": "romero",
+    "normalized": "romero",
+    "plant_id": "salvia_rosmarinus",
+    "lang": "es",
+    "region": "es",
+    "ambiguity": "low",
+    "confidence": 1
+  },
+  {
     "name": "romero castilla",
     "normalized": "romero_castilla",
     "plant_id": "salvia_rosmarinus",
@@ -14953,7 +15222,7 @@
     "lang": "es",
     "region": "ar",
     "ambiguity": "high",
-    "confidence": 0.474,
+    "confidence": 0.45,
     "cluster": "amb_ruda"
   },
   {
@@ -14963,7 +15232,7 @@
     "lang": "es",
     "region": "bo",
     "ambiguity": "high",
-    "confidence": 0.474,
+    "confidence": 0.45,
     "cluster": "amb_ruda"
   },
   {
@@ -14973,7 +15242,7 @@
     "lang": "es",
     "region": "cl",
     "ambiguity": "high",
-    "confidence": 0.474,
+    "confidence": 0.45,
     "cluster": "amb_ruda"
   },
   {
@@ -14983,7 +15252,7 @@
     "lang": "es",
     "region": "co",
     "ambiguity": "high",
-    "confidence": 0.474,
+    "confidence": 0.45,
     "cluster": "amb_ruda"
   },
   {
@@ -14993,7 +15262,7 @@
     "lang": "es",
     "region": "ec",
     "ambiguity": "high",
-    "confidence": 0.474,
+    "confidence": 0.45,
     "cluster": "amb_ruda"
   },
   {
@@ -15003,7 +15272,7 @@
     "lang": "es",
     "region": "pe",
     "ambiguity": "high",
-    "confidence": 0.474,
+    "confidence": 0.45,
     "cluster": "amb_ruda"
   },
   {
@@ -15013,7 +15282,7 @@
     "lang": "es",
     "region": "py",
     "ambiguity": "high",
-    "confidence": 0.474,
+    "confidence": 0.45,
     "cluster": "amb_ruda"
   },
   {
@@ -15023,7 +15292,7 @@
     "lang": "es",
     "region": "uy",
     "ambiguity": "high",
-    "confidence": 0.474,
+    "confidence": 0.45,
     "cluster": "amb_ruda"
   },
   {
@@ -15033,7 +15302,7 @@
     "lang": "es",
     "region": "ve",
     "ambiguity": "high",
-    "confidence": 0.474,
+    "confidence": 0.45,
     "cluster": "amb_ruda"
   },
   {
@@ -15043,7 +15312,7 @@
     "lang": "es",
     "region": "ar",
     "ambiguity": "high",
-    "confidence": 0.526,
+    "confidence": 0.55,
     "cluster": "amb_ruda"
   },
   {
@@ -15053,7 +15322,7 @@
     "lang": "es",
     "region": "bo",
     "ambiguity": "high",
-    "confidence": 0.526,
+    "confidence": 0.55,
     "cluster": "amb_ruda"
   },
   {
@@ -15063,7 +15332,7 @@
     "lang": "es",
     "region": "cl",
     "ambiguity": "high",
-    "confidence": 0.526,
+    "confidence": 0.55,
     "cluster": "amb_ruda"
   },
   {
@@ -15073,7 +15342,7 @@
     "lang": "es",
     "region": "co",
     "ambiguity": "high",
-    "confidence": 0.526,
+    "confidence": 0.55,
     "cluster": "amb_ruda"
   },
   {
@@ -15083,7 +15352,7 @@
     "lang": "es",
     "region": "ec",
     "ambiguity": "high",
-    "confidence": 0.526,
+    "confidence": 0.55,
     "cluster": "amb_ruda"
   },
   {
@@ -15093,7 +15362,7 @@
     "lang": "es",
     "region": "pe",
     "ambiguity": "high",
-    "confidence": 0.526,
+    "confidence": 0.55,
     "cluster": "amb_ruda"
   },
   {
@@ -15103,7 +15372,7 @@
     "lang": "es",
     "region": "py",
     "ambiguity": "high",
-    "confidence": 0.526,
+    "confidence": 0.55,
     "cluster": "amb_ruda"
   },
   {
@@ -15113,7 +15382,7 @@
     "lang": "es",
     "region": "uy",
     "ambiguity": "high",
-    "confidence": 0.526,
+    "confidence": 0.55,
     "cluster": "amb_ruda"
   },
   {
@@ -15123,7 +15392,7 @@
     "lang": "es",
     "region": "ve",
     "ambiguity": "high",
-    "confidence": 0.526,
+    "confidence": 0.55,
     "cluster": "amb_ruda"
   },
   {
@@ -15133,7 +15402,17 @@
     "lang": "es",
     "region": "mx",
     "ambiguity": "high",
-    "confidence": 0.526,
+    "confidence": 0.55,
+    "cluster": "amb_ruda"
+  },
+  {
+    "name": "ruda",
+    "normalized": "ruda",
+    "plant_id": "ruta_graveolens",
+    "lang": "es",
+    "region": "es",
+    "ambiguity": "high",
+    "confidence": 0.55,
     "cluster": "amb_ruda"
   },
   {
@@ -15142,6 +15421,15 @@
     "plant_id": "diphysa_yucatanensis_hananalipi__m_sousa",
     "lang": "yua",
     "region": "mx",
+    "ambiguity": "low",
+    "confidence": 1
+  },
+  {
+    "name": "rusco",
+    "normalized": "rusco",
+    "plant_id": "ruscus_aculeatus",
+    "lang": "es",
+    "region": "es",
     "ambiguity": "low",
     "confidence": 1
   },
@@ -15280,6 +15568,15 @@
     "plant_id": "salvia_officinalis",
     "lang": "es",
     "region": "py",
+    "ambiguity": "low",
+    "confidence": 1
+  },
+  {
+    "name": "salvia",
+    "normalized": "salvia",
+    "plant_id": "salvia_officinalis",
+    "lang": "es",
+    "region": "es",
     "ambiguity": "low",
     "confidence": 1
   },
@@ -15645,7 +15942,7 @@
     "lang": "es",
     "region": "bo",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.313,
     "cluster": "amb_sauco",
     "risk": "high"
   },
@@ -15656,7 +15953,7 @@
     "lang": "es",
     "region": "cl",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.313,
     "cluster": "amb_sauco",
     "risk": "high"
   },
@@ -15667,7 +15964,7 @@
     "lang": "es",
     "region": "ec",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.313,
     "cluster": "amb_sauco",
     "risk": "high"
   },
@@ -15678,7 +15975,7 @@
     "lang": "es",
     "region": "gt",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.313,
     "cluster": "amb_sauco",
     "risk": "high"
   },
@@ -15689,7 +15986,7 @@
     "lang": "es",
     "region": "py",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.313,
     "cluster": "amb_sauco",
     "risk": "high"
   },
@@ -15700,7 +15997,7 @@
     "lang": "es",
     "region": "bo",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.313,
     "cluster": "amb_sauco"
   },
   {
@@ -15710,7 +16007,7 @@
     "lang": "es",
     "region": "cl",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.313,
     "cluster": "amb_sauco"
   },
   {
@@ -15720,7 +16017,7 @@
     "lang": "es",
     "region": "ec",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.313,
     "cluster": "amb_sauco"
   },
   {
@@ -15730,7 +16027,7 @@
     "lang": "es",
     "region": "gt",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.313,
     "cluster": "amb_sauco"
   },
   {
@@ -15740,7 +16037,7 @@
     "lang": "es",
     "region": "py",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.313,
     "cluster": "amb_sauco"
   },
   {
@@ -15750,7 +16047,7 @@
     "lang": "es",
     "region": "bo",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.375,
     "cluster": "amb_sauco"
   },
   {
@@ -15760,7 +16057,7 @@
     "lang": "es",
     "region": "cl",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.375,
     "cluster": "amb_sauco"
   },
   {
@@ -15770,7 +16067,7 @@
     "lang": "es",
     "region": "ec",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.375,
     "cluster": "amb_sauco"
   },
   {
@@ -15780,7 +16077,7 @@
     "lang": "es",
     "region": "gt",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.375,
     "cluster": "amb_sauco"
   },
   {
@@ -15790,7 +16087,17 @@
     "lang": "es",
     "region": "py",
     "ambiguity": "high",
-    "confidence": 0.333,
+    "confidence": 0.375,
+    "cluster": "amb_sauco"
+  },
+  {
+    "name": "sauco",
+    "normalized": "sauco",
+    "plant_id": "sambucus_nigra",
+    "lang": "es",
+    "region": "es",
+    "ambiguity": "high",
+    "confidence": 0.375,
     "cluster": "amb_sauco"
   },
   {
@@ -16940,6 +17247,15 @@
     "confidence": 1
   },
   {
+    "name": "tila",
+    "normalized": "tila",
+    "plant_id": "tilia_cordata",
+    "lang": "es",
+    "region": "es",
+    "ambiguity": "low",
+    "confidence": 1
+  },
+  {
     "name": "tilo",
     "normalized": "tilo",
     "plant_id": "justicia_pectoralis_jacq",
@@ -17102,7 +17418,7 @@
     "lang": "es",
     "region": "bo",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.556,
     "cluster": "amb_tomillo"
   },
   {
@@ -17112,7 +17428,7 @@
     "lang": "es",
     "region": "cl",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.556,
     "cluster": "amb_tomillo"
   },
   {
@@ -17122,7 +17438,7 @@
     "lang": "es",
     "region": "co",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.556,
     "cluster": "amb_tomillo"
   },
   {
@@ -17132,7 +17448,17 @@
     "lang": "es",
     "region": "py",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.556,
+    "cluster": "amb_tomillo"
+  },
+  {
+    "name": "tomillo",
+    "normalized": "tomillo",
+    "plant_id": "thymus_vulgaris",
+    "lang": "es",
+    "region": "es",
+    "ambiguity": "high",
+    "confidence": 0.556,
     "cluster": "amb_tomillo"
   },
   {
@@ -17142,7 +17468,7 @@
     "lang": "es",
     "region": "bo",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.444,
     "cluster": "amb_tomillo"
   },
   {
@@ -17152,7 +17478,7 @@
     "lang": "es",
     "region": "cl",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.444,
     "cluster": "amb_tomillo"
   },
   {
@@ -17162,7 +17488,7 @@
     "lang": "es",
     "region": "co",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.444,
     "cluster": "amb_tomillo"
   },
   {
@@ -17172,7 +17498,7 @@
     "lang": "es",
     "region": "py",
     "ambiguity": "high",
-    "confidence": 0.5,
+    "confidence": 0.444,
     "cluster": "amb_tomillo"
   },
   {
@@ -17834,7 +18160,7 @@
     "lang": "es",
     "region": "ar",
     "ambiguity": "high",
-    "confidence": 0.316,
+    "confidence": 0.3,
     "cluster": "amb_valeriana"
   },
   {
@@ -17844,7 +18170,7 @@
     "lang": "es",
     "region": "bo",
     "ambiguity": "high",
-    "confidence": 0.316,
+    "confidence": 0.3,
     "cluster": "amb_valeriana"
   },
   {
@@ -17854,7 +18180,7 @@
     "lang": "es",
     "region": "cl",
     "ambiguity": "high",
-    "confidence": 0.316,
+    "confidence": 0.3,
     "cluster": "amb_valeriana"
   },
   {
@@ -17864,7 +18190,7 @@
     "lang": "es",
     "region": "gt",
     "ambiguity": "high",
-    "confidence": 0.316,
+    "confidence": 0.3,
     "cluster": "amb_valeriana"
   },
   {
@@ -17874,7 +18200,7 @@
     "lang": "es",
     "region": "pe",
     "ambiguity": "high",
-    "confidence": 0.316,
+    "confidence": 0.3,
     "cluster": "amb_valeriana"
   },
   {
@@ -17884,7 +18210,7 @@
     "lang": "es",
     "region": "ve",
     "ambiguity": "high",
-    "confidence": 0.316,
+    "confidence": 0.3,
     "cluster": "amb_valeriana"
   },
   {
@@ -17894,7 +18220,7 @@
     "lang": "es",
     "region": "ar",
     "ambiguity": "high",
-    "confidence": 0.316,
+    "confidence": 0.3,
     "cluster": "amb_valeriana"
   },
   {
@@ -17904,7 +18230,7 @@
     "lang": "es",
     "region": "bo",
     "ambiguity": "high",
-    "confidence": 0.316,
+    "confidence": 0.3,
     "cluster": "amb_valeriana"
   },
   {
@@ -17914,7 +18240,7 @@
     "lang": "es",
     "region": "cl",
     "ambiguity": "high",
-    "confidence": 0.316,
+    "confidence": 0.3,
     "cluster": "amb_valeriana"
   },
   {
@@ -17924,7 +18250,7 @@
     "lang": "es",
     "region": "gt",
     "ambiguity": "high",
-    "confidence": 0.316,
+    "confidence": 0.3,
     "cluster": "amb_valeriana"
   },
   {
@@ -17934,7 +18260,7 @@
     "lang": "es",
     "region": "pe",
     "ambiguity": "high",
-    "confidence": 0.316,
+    "confidence": 0.3,
     "cluster": "amb_valeriana"
   },
   {
@@ -17944,7 +18270,7 @@
     "lang": "es",
     "region": "ve",
     "ambiguity": "high",
-    "confidence": 0.316,
+    "confidence": 0.3,
     "cluster": "amb_valeriana"
   },
   {
@@ -17954,7 +18280,7 @@
     "lang": "es",
     "region": "ar",
     "ambiguity": "high",
-    "confidence": 0.368,
+    "confidence": 0.4,
     "cluster": "amb_valeriana"
   },
   {
@@ -17964,7 +18290,7 @@
     "lang": "es",
     "region": "bo",
     "ambiguity": "high",
-    "confidence": 0.368,
+    "confidence": 0.4,
     "cluster": "amb_valeriana"
   },
   {
@@ -17974,7 +18300,7 @@
     "lang": "es",
     "region": "cl",
     "ambiguity": "high",
-    "confidence": 0.368,
+    "confidence": 0.4,
     "cluster": "amb_valeriana"
   },
   {
@@ -17984,7 +18310,7 @@
     "lang": "es",
     "region": "gt",
     "ambiguity": "high",
-    "confidence": 0.368,
+    "confidence": 0.4,
     "cluster": "amb_valeriana"
   },
   {
@@ -17994,7 +18320,7 @@
     "lang": "es",
     "region": "pe",
     "ambiguity": "high",
-    "confidence": 0.368,
+    "confidence": 0.4,
     "cluster": "amb_valeriana"
   },
   {
@@ -18004,7 +18330,7 @@
     "lang": "es",
     "region": "ve",
     "ambiguity": "high",
-    "confidence": 0.368,
+    "confidence": 0.4,
     "cluster": "amb_valeriana"
   },
   {
@@ -18014,7 +18340,17 @@
     "lang": "es",
     "region": "mx",
     "ambiguity": "high",
-    "confidence": 0.368,
+    "confidence": 0.4,
+    "cluster": "amb_valeriana"
+  },
+  {
+    "name": "valeriana",
+    "normalized": "valeriana",
+    "plant_id": "valeriana_officinalis",
+    "lang": "es",
+    "region": "es",
+    "ambiguity": "high",
+    "confidence": 0.4,
     "cluster": "amb_valeriana"
   },
   {

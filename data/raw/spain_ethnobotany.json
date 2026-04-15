@@ -1,0 +1,465 @@
+{
+  "plants": [
+    {
+      "id": "matricaria_recutita",
+      "scientific_name": "Matricaria recutita L.",
+      "family": "Asteraceae",
+      "genus": "Matricaria",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "native",
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "thymus_vulgaris",
+      "scientific_name": "Thymus vulgaris L.",
+      "family": "Lamiaceae",
+      "genus": "Thymus",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "native",
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "salvia_rosmarinus",
+      "scientific_name": "Salvia rosmarinus L.",
+      "family": "Lamiaceae",
+      "genus": "Salvia",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "native",
+      "plant_type": "shrub",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "tilia_cordata",
+      "scientific_name": "Tilia cordata Mill.",
+      "family": "Malvaceae",
+      "genus": "Tilia",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "native",
+      "plant_type": "tree",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "mentha_pulegium",
+      "scientific_name": "Mentha pulegium L.",
+      "family": "Lamiaceae",
+      "genus": "Mentha",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "native",
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "ruta_graveolens",
+      "scientific_name": "Ruta graveolens L.",
+      "family": "Rutaceae",
+      "genus": "Ruta",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "native",
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "lavandula_angustifolia",
+      "scientific_name": "Lavandula angustifolia Mill.",
+      "family": "Lamiaceae",
+      "genus": "Lavandula",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "native",
+      "plant_type": "shrub",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "salvia_officinalis",
+      "scientific_name": "Salvia officinalis L.",
+      "family": "Lamiaceae",
+      "genus": "Salvia",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "native",
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "foeniculum_vulgare",
+      "scientific_name": "Foeniculum vulgare Mill.",
+      "family": "Apiaceae",
+      "genus": "Foeniculum",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "native",
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "malva_sylvestris",
+      "scientific_name": "Malva sylvestris L.",
+      "family": "Malvaceae",
+      "genus": "Malva",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "native",
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "crataegus_monogyna",
+      "scientific_name": "Crataegus monogyna Jacq.",
+      "family": "Rosaceae",
+      "genus": "Crataegus",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "native",
+      "plant_type": "shrub",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "sambucus_nigra",
+      "scientific_name": "Sambucus nigra L.",
+      "family": "Adoxaceae",
+      "genus": "Sambucus",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "native",
+      "plant_type": "shrub",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "verbascum_thapsus",
+      "scientific_name": "Verbascum thapsus L.",
+      "family": "Scrophulariaceae",
+      "genus": "Verbascum",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "native",
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "satureja_montana",
+      "scientific_name": "Satureja montana L.",
+      "family": "Lamiaceae",
+      "genus": "Satureja",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "native",
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "sisymbrium_officinale",
+      "scientific_name": "Sisymbrium officinale (L.) Scop.",
+      "family": "Brassicaceae",
+      "genus": "Sisymbrium",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "native",
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "glycyrrhiza_glabra",
+      "scientific_name": "Glycyrrhiza glabra L.",
+      "family": "Fabaceae",
+      "genus": "Glycyrrhiza",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "native",
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "aloysia_citrodora",
+      "scientific_name": "Aloysia citrodora Palau",
+      "family": "Verbenaceae",
+      "genus": "Aloysia",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "naturalized",
+      "plant_type": "shrub",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "pimpinella_anisum",
+      "scientific_name": "Pimpinella anisum L.",
+      "family": "Apiaceae",
+      "genus": "Pimpinella",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "naturalized",
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "taraxacum_officinale",
+      "scientific_name": "Taraxacum officinale F.H.Wigg.",
+      "family": "Asteraceae",
+      "genus": "Taraxacum",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "native",
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "artemisia_absinthium",
+      "scientific_name": "Artemisia absinthium L.",
+      "family": "Asteraceae",
+      "genus": "Artemisia",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "native",
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "peumus_boldus",
+      "scientific_name": "Peumus boldus Molina",
+      "family": "Monimiaceae",
+      "genus": "Peumus",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "naturalized",
+      "plant_type": "tree",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "silybum_marianum",
+      "scientific_name": "Silybum marianum (L.) Gaertn.",
+      "family": "Asteraceae",
+      "genus": "Silybum",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "native",
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "valeriana_officinalis",
+      "scientific_name": "Valeriana officinalis L.",
+      "family": "Caprifoliaceae",
+      "genus": "Valeriana",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "native",
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "melissa_officinalis",
+      "scientific_name": "Melissa officinalis L.",
+      "family": "Lamiaceae",
+      "genus": "Melissa",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "naturalized",
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "papaver_rhoeas",
+      "scientific_name": "Papaver rhoeas L.",
+      "family": "Papaveraceae",
+      "genus": "Papaver",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "native",
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "hypericum_perforatum",
+      "scientific_name": "Hypericum perforatum L.",
+      "family": "Hypericaceae",
+      "genus": "Hypericum",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "native",
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "equisetum_arvense",
+      "scientific_name": "Equisetum arvense L.",
+      "family": "Equisetaceae",
+      "genus": "Equisetum",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "native",
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "calendula_officinalis",
+      "scientific_name": "Calendula officinalis L.",
+      "family": "Asteraceae",
+      "genus": "Calendula",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "naturalized",
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "urtica_dioica",
+      "scientific_name": "Urtica dioica L.",
+      "family": "Urticaceae",
+      "genus": "Urtica",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "native",
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "ruscus_aculeatus",
+      "scientific_name": "Ruscus aculeatus L.",
+      "family": "Asparagaceae",
+      "genus": "Ruscus",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "native",
+      "plant_type": "shrub",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "laurus_nobilis",
+      "scientific_name": "Laurus nobilis L.",
+      "family": "Lauraceae",
+      "genus": "Laurus",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "native",
+      "plant_type": "tree",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "ocimum_basilicum",
+      "scientific_name": "Ocimum basilicum L.",
+      "family": "Lamiaceae",
+      "genus": "Ocimum",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "naturalized",
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "mentha_spicata",
+      "scientific_name": "Mentha spicata L.",
+      "family": "Lamiaceae",
+      "genus": "Mentha",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "naturalized",
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "artemisia_abrotanum",
+      "scientific_name": "Artemisia abrotanum L.",
+      "family": "Asteraceae",
+      "genus": "Artemisia",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "naturalized",
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    },
+    {
+      "id": "chelidonium_majus",
+      "scientific_name": "Chelidonium majus L.",
+      "family": "Papaveraceae",
+      "genus": "Chelidonium",
+      "rank": "species",
+      "origin_regions": ["ES"],
+      "native_status": "native",
+      "plant_type": "herb",
+      "primary_uses": ["medicinal"]
+    }
+  ],
+  "names": [
+    {"name": "Manzanilla", "normalized": "manzanilla", "language": "es", "country": "ES", "plant_ids": ["matricaria_recutita"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Tomillo", "normalized": "tomillo", "language": "es", "country": "ES", "plant_ids": ["thymus_vulgaris"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Romero", "normalized": "romero", "language": "es", "country": "ES", "plant_ids": ["salvia_rosmarinus"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Tila", "normalized": "tila", "language": "es", "country": "ES", "plant_ids": ["tilia_cordata"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Poleo", "normalized": "poleo", "language": "es", "country": "ES", "plant_ids": ["mentha_pulegium"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Ruda", "normalized": "ruda", "language": "es", "country": "ES", "plant_ids": ["ruta_graveolens"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Lavanda", "normalized": "lavanda", "language": "es", "country": "ES", "plant_ids": ["lavandula_angustifolia"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Salvia", "normalized": "salvia", "language": "es", "country": "ES", "plant_ids": ["salvia_officinalis"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Hinojo", "normalized": "hinojo", "language": "es", "country": "ES", "plant_ids": ["foeniculum_vulgare"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Malva", "normalized": "malva", "language": "es", "country": "ES", "plant_ids": ["malva_sylvestris"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Espino Blanco", "normalized": "espino blanco", "language": "es", "country": "ES", "plant_ids": ["crataegus_monogyna"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Sauco", "normalized": "sauco", "language": "es", "country": "ES", "plant_ids": ["sambucus_nigra"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Gordolobo", "normalized": "gordolobo", "language": "es", "country": "ES", "plant_ids": ["verbascum_thapsus"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Ajedrea", "normalized": "ajedrea", "language": "es", "country": "ES", "plant_ids": ["satureja_montana"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Erizon", "normalized": "erizon", "language": "es", "country": "ES", "plant_ids": ["sisymbrium_officinale"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Regaliz", "normalized": "regaliz", "language": "es", "country": "ES", "plant_ids": ["glycyrrhiza_glabra"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Hierba Luisa", "normalized": "hierba luisa", "language": "es", "country": "ES", "plant_ids": ["aloysia_citrodora"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Anís Verde", "normalized": "anis verde", "language": "es", "country": "ES", "plant_ids": ["pimpinella_anisum"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Diente de León", "normalized": "diente de leon", "language": "es", "country": "ES", "plant_ids": ["taraxacum_officinale"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Ajenjo", "normalized": "ajenjo", "language": "es", "country": "ES", "plant_ids": ["artemisia_absinthium"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Boldo", "normalized": "boldo", "language": "es", "country": "ES", "plant_ids": ["peumus_boldus"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Cardo Mariano", "normalized": "cardo mariano", "language": "es", "country": "ES", "plant_ids": ["silybum_marianum"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Valeriana", "normalized": "valeriana", "language": "es", "country": "ES", "plant_ids": ["valeriana_officinalis"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Melisa", "normalized": "melisa", "language": "es", "country": "ES", "plant_ids": ["melissa_officinalis"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Amapola", "normalized": "amapola", "language": "es", "country": "ES", "plant_ids": ["papaver_rhoeas"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Hipérico", "normalized": "hiperico", "language": "es", "country": "ES", "plant_ids": ["hypericum_perforatum"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Cola de Caballo", "normalized": "cola de caballo", "language": "es", "country": "ES", "plant_ids": ["equisetum_arvense"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Caléndula", "normalized": "calendula", "language": "es", "country": "ES", "plant_ids": ["calendula_officinalis"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Ortiga", "normalized": "ortiga", "language": "es", "country": "ES", "plant_ids": ["urtica_dioica"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Rusco", "normalized": "rusco", "language": "es", "country": "ES", "plant_ids": ["ruscus_aculeatus"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Laurel", "normalized": "laurel", "language": "es", "country": "ES", "plant_ids": ["laurus_nobilis"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Albahaca", "normalized": "albahaca", "language": "es", "country": "ES", "plant_ids": ["ocimum_basilicum"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Hierbabuena", "normalized": "hierbabuena", "language": "es", "country": "ES", "plant_ids": ["mentha_spicata"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Abrotano Macho", "normalized": "abrotano macho", "language": "es", "country": "ES", "plant_ids": ["artemisia_abrotanum"], "ambiguity_level": "low", "usage_context": ["medicinal"]},
+    {"name": "Celidonia", "normalized": "celidonia", "language": "es", "country": "ES", "plant_ids": ["chelidonium_majus"], "ambiguity_level": "low", "usage_context": ["medicinal"]}
+  ],
+  "geo_distribution": [
+    {"plant_id": "thymus_vulgaris", "biomes": ["mediterranean"], "countries": ["ES"], "cultural_regions": ["iberian", "castilian", "andalusian"]},
+    {"plant_id": "salvia_rosmarinus", "biomes": ["mediterranean"], "countries": ["ES"], "cultural_regions": ["mediterranean_europe"]},
+    {"plant_id": "ruta_graveolens", "biomes": ["mediterranean"], "countries": ["ES"], "cultural_regions": ["spanish_traditional"]}
+  ],
+  "uses": [
+    {
+      "plant_id": "ruta_graveolens",
+      "categories": {"medicinal": [{"use": "Regulación menstrual, dolores de oído (usada con precaución)", "evidence_level": "traditional", "regions": ["ES"]}]}
+    },
+    {
+      "plant_id": "thymus_vulgaris",
+      "categories": {"medicinal": [{"use": "Infecciones respiratorias, tos, ayuda digestiva", "evidence_level": "traditional", "regions": ["ES"]}]}
+    },
+    {
+      "plant_id": "salvia_rosmarinus",
+      "categories": {"medicinal": [{"use": "Dolores articulares, circulación, memoria", "evidence_level": "traditional", "regions": ["ES"]}]}
+    },
+    {
+      "plant_id": "tilia_cordata",
+      "categories": {"medicinal": [{"use": "Ansiedad, estrés, sueño", "evidence_level": "traditional", "regions": ["ES"]}]}
+    },
+    {
+      "plant_id": "verbascum_thapsus",
+      "categories": {"medicinal": [{"use": "Tos seca, pecho cerrado", "evidence_level": "traditional", "regions": ["ES"]}]}
+    }
+  ],
+  "safety": [
+    {
+      "plant_id": "ruta_graveolens",
+      "contraindications": ["Potente: usar con precaución. Evitar en embarazo y lactancia"],
+      "toxicity_level": "moderate"
+    },
+    {
+      "plant_id": "mentha_pulegium",
+      "contraindications": ["Tóxico en dosis altas. Evitar en embarazo"],
+      "toxicity_level": "high"
+    }
+  ]
+}

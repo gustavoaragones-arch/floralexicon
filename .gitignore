@@ -28,10 +28,13 @@ yarn-error.log*
 # local env files
 .env*.local
 
+# local npm cache (used when global ~/.npm is not writable)
+.npm-cache
+
 # vercel
 .vercel
 
-# opennext (cloudflare adapter)
+# legacy adapter build output (safe to ignore if recreated locally)
 .open-next
 
 # typescript
