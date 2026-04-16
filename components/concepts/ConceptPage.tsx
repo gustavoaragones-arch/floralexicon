@@ -6,6 +6,7 @@ import {
 } from "@/lib/concepts";
 import { ConceptCard } from "@/components/concepts/ConceptCard";
 import { localePath, t, type I18nKey, type Locale } from "@/lib/i18n";
+import { resolveSearchNavigation } from "@/lib/resolver";
 import Link from "next/link";
 import type { ReactNode } from "react";
 
@@ -57,7 +58,11 @@ function renderSection(lang: Locale, s: ConceptSection, i: number): ReactNode {
     );
   }
   if (s.type === "example") {
-    const href = localePath(lang, `/search?q=${encodeURIComponent(s.query)}`);
+    const nav = resolveSearchNavigation(s.query);
+    const href =
+      nav.type === "name"
+        ? localePath(lang, `/name/${nav.slug}`)
+        : localePath(lang, `/search?q=${encodeURIComponent(s.query)}`);
     return (
       <div
         key={i}

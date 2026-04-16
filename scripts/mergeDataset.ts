@@ -461,6 +461,62 @@ function bootstrapPlantIdAliases() {
   registerAlias("pluchoea_carolinensis", "pluchea_carolinensis");
 }
 
+/** FloraLexicon v2 raw: `{ "plants": [ { scientific_name, family, country, common_names, uses } ] }` */
+function ingestPlantRecord(record: unknown, sourceFile: string) {
+  if (!record || typeof record !== "object") return;
+  const row = record as JsonRecord;
+  const scientific_name = row.scientific_name;
+  const family = row.family;
+  const common_names = row.common_names;
+  const uses = row.uses;
+
+  if (typeof scientific_name !== "string" || !scientific_name.trim()) {
+    console.warn(`[${sourceFile}] invalid plant record`, record);
+    return;
+  }
+  if (!Array.isArray(common_names) || common_names.length === 0) {
+    console.warn(`[${sourceFile}] invalid plant record`, record);
+    return;
+  }
+
+  const countriesRow = countriesFromDataRow(row);
+  if (countriesRow.length === 0) {
+    if (
+      (row.country != null && String(row.country).trim()) ||
+      (row.country_iso != null && String(row.country_iso).trim())
+    ) {
+      unknownCountries++;
+      console.warn(
+        `[${sourceFile}] unknown country/country_iso: ${String(row.country ?? row.country_iso)}`
+      );
+    }
+    console.warn(`[${sourceFile}] invalid plant record`, record);
+    return;
+  }
+
+  const normSci = normalizeScientificName(scientific_name);
+  const rawPlantId =
+    typeof row.id === "string" ? row.id.trim() : undefined;
+  const plant = getOrCreatePlant(normSci, scientific_name.trim(), rawPlantId);
+  const plantId = plant.id;
+
+  if (typeof family === "string" && family.trim()) {
+    if (!plant.family) plant.family = family.trim();
+  }
+  for (const c of countriesRow) plant.countries.add(c);
+  for (const u of coerceUses(uses ?? row.primary_uses)) {
+    plant.uses.add(u.toLowerCase());
+  }
+
+  for (const name of common_names) {
+    const cn = String(name).trim();
+    if (!cn) continue;
+    plant.names.add(cn);
+    const mapKey = normalizeNameKeyForMap(cn);
+    mergeNameForPlant(mapKey, cn, plantId, countriesRow, row, sourceFile);
+  }
+}
+
 function ingestSimpleRow(row: JsonRecord, sourceFile: string) {
   const sci = row.scientific_name;
   if (typeof sci !== "string" || !sci.trim()) {
@@ -685,6 +741,14 @@ function ingestFile(filePath: string) {
       filesLoaded++;
       return;
     }
+    if (Array.isArray(plants)) {
+      for (const record of plants) {
+        ingestPlantRecord(record, base);
+      }
+      loadedSources.push({ file: base, status: repaired ? "repaired" : "ok" });
+      filesLoaded++;
+      return;
+    }
     if (Array.isArray(o.records)) {
       for (const row of o.records) {
         if (row && typeof row === "object") {
@@ -697,7 +761,9 @@ function ingestFile(filePath: string) {
     }
   }
 
-  console.warn(`[${base}] unrecognized shape (expected array, {plants,names}, or {records}); skip`);
+  console.warn(
+    `[${base}] unrecognized shape (expected array, {plants,names}, {plants}, or {records}); skip`
+  );
   loadedSources.push({ file: base, status: "skip-shape" });
 }
 

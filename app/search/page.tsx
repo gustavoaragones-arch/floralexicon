@@ -7,7 +7,7 @@ type Props = {
   searchParams: Record<string, string | string[] | undefined>;
 };
 
-/** `/search?q=…` → `/{defaultLocale}/search?q=…` (then resolves to name hub). */
+/** `/search?q=…` → `/{defaultLocale}/search?q=…` (indexed names redirect to `/name/[slug]`). */
 export default function SearchRootRedirect({ searchParams }: Props) {
   const q = searchParams.q;
   const raw = typeof q === "string" ? q : Array.isArray(q) ? q[0] : "";

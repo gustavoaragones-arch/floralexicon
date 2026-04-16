@@ -7,17 +7,7 @@ import {
   confidenceBarVisualPercent,
   type DisambiguationRow,
 } from "@/lib/search";
-import { normalizeHubKey } from "@/lib/hubKey";
-import { ViewPlantLink } from "@/components/search/ViewPlantLink";
-import { resolveCountryFromQueryParam } from "@/lib/countries";
-import { localePath, t, ti, type I18nKey, type Locale } from "@/lib/i18n";
-import Link from "next/link";
-
-declare global {
-  interface Window {
-    __flSessionId?: string;
-  }
-}
+import { t, ti, type I18nKey, type Locale } from "@/lib/i18n";
 
 const WhyDetailsLazy = dynamic(() => import("./WhyDetails"), {
   ssr: false,
@@ -134,81 +124,19 @@ type Props = {
   onWhyOpenChange: (open: boolean) => void;
 };
 
-let lastFloralexiconClickKey = "";
-let lastAnalyticsThrottleTs = 0;
-
-/** Clears rapid-click dedupe (e.g. when search query or hub changes). */
-export function resetFloralexiconViewPlantClickDedupe(): void {
-  lastFloralexiconClickKey = "";
-  lastAnalyticsThrottleTs = 0;
-}
-
-function shouldDispatchAnalyticsBurst(now: number): boolean {
-  if (now - lastAnalyticsThrottleTs < 300) return false;
-  lastAnalyticsThrottleTs = now;
-  return true;
-}
-
-function getFloralexiconSessionId(): string {
-  if (typeof window === "undefined") return "server";
-  if (!window.__flSessionId) {
-    window.__flSessionId =
-      typeof crypto !== "undefined" && typeof crypto.randomUUID === "function"
-        ? crypto.randomUUID()
-        : `fl-${Date.now()}-${Math.random().toString(36).slice(2)}`;
-  }
-  return window.__flSessionId;
-}
-
-function clickAnalyticsSeverity(
-  toxicLevel: string | undefined
-): "high" | "medium" | "low" {
-  const lv = toxicLevel?.trim().toLowerCase();
-  if (lv === "lethal") return "high";
-  if (lv === "high") return "medium";
-  return "low";
-}
-
-function dispatchFloralexiconViewPlantClick(detail: {
-  query: string;
-  plantId: string;
-  rank: number;
-  confidence: number;
-  hubKey: string;
-  evidenceLevel?: string;
-  toxic?: string;
-  hasToxic: boolean;
-  lookalike: boolean;
-  country?: string;
-  severity: "high" | "medium" | "low";
-  ts: number;
-  sessionId: string;
-  isTopResult: boolean;
-  resultCount: number;
-}): void {
-  if (typeof window === "undefined") return;
-  const now = Date.now();
-  const key = `${detail.query}|${detail.plantId}`;
-  if (key === lastFloralexiconClickKey) return;
-  if (!shouldDispatchAnalyticsBurst(now)) return;
-  lastFloralexiconClickKey = key;
-  window.dispatchEvent(
-    new CustomEvent("floralexicon:click", {
-      detail: { ...detail, ts: now },
-    })
-  );
-}
+/** No-op: kept so `DisambiguationResultsClient` callers do not need churn. */
+export function resetFloralexiconViewPlantClickDedupe(): void {}
 
 export function DisambiguationCard({
   lang,
   row,
   index,
   showIndex,
-  hubKey = "",
-  nameSlug,
-  searchQuery = "",
-  searchCountryParam,
-  resultCount,
+  hubKey: _hubKey = "",
+  nameSlug: _nameSlug,
+  searchQuery: _searchQuery = "",
+  searchCountryParam: _searchCountryParam,
+  resultCount: _resultCount,
   isWhyOpen,
   onWhyOpenChange,
 }: Props) {
@@ -216,42 +144,6 @@ export function DisambiguationCard({
     row;
   const barVisualPct = confidenceBarVisualPercent(confidence);
   const [lookalikeTipOpen, setLookalikeTipOpen] = useState(false);
-  const hubNorm = normalizeHubKey(hubKey);
-
-  const nameBase = localePath(lang, `/name/${nameSlug}`);
-  const countryIso = searchCountryParam?.trim()
-    ? resolveCountryFromQueryParam(searchCountryParam.trim())
-    : undefined;
-  const plantHref = countryIso
-    ? `${nameBase}?country=${encodeURIComponent(countryIso)}`
-    : nameBase;
-  const linkClass =
-    "inline-flex min-h-11 items-center justify-center rounded-full border border-flora-forest bg-flora-forest px-5 text-sm font-semibold text-white shadow-sm transition-colors hover:border-flora-forest-hover hover:bg-flora-forest-hover dark:border-emerald-600 dark:bg-emerald-700 dark:hover:border-emerald-500 dark:hover:bg-emerald-600";
-
-  const onViewPlantAnalytics = () => {
-    const p = row.plant as {
-      evidence?: { level?: string };
-      toxicity?: { level?: string };
-    } | null;
-    const toxicLevel = p?.toxicity?.level;
-    dispatchFloralexiconViewPlantClick({
-      query: searchQuery,
-      plantId: row.plantId,
-      rank: index,
-      confidence: row.confidence,
-      hubKey: hubNorm,
-      evidenceLevel: p?.evidence?.level,
-      toxic: toxicLevel,
-      hasToxic: row.showSafetyRow,
-      lookalike: row.hasLookalikeWarning,
-      country: searchCountryParam,
-      severity: clickAnalyticsSeverity(toxicLevel),
-      ts: 0,
-      sessionId: getFloralexiconSessionId(),
-      isTopResult: index === 0,
-      resultCount,
-    });
-  };
 
   return (
     <article className="rounded-2xl border border-stone-200 bg-white px-5 py-5 shadow-sm dark:border-stone-700 dark:bg-stone-950/60">
@@ -409,28 +301,6 @@ export function DisambiguationCard({
           <dd>{t(lang, evidenceI18n[row.evidenceKey])}</dd>
         </div>
       </dl>
-
-      <div className="mt-5">
-        {hubNorm ? (
-          <ViewPlantLink
-            href={plantHref}
-            hubKey={hubNorm}
-            plantId={row.plantId}
-            className={linkClass}
-            onAnalytics={onViewPlantAnalytics}
-          >
-            {t(lang, "search_view_plant")}
-          </ViewPlantLink>
-        ) : (
-          <Link
-            href={plantHref}
-            className={linkClass}
-            onClick={onViewPlantAnalytics}
-          >
-            {t(lang, "search_view_plant")}
-          </Link>
-        )}
-      </div>
     </article>
   );
 }

@@ -8,7 +8,10 @@ import {
   loadPlants,
   nameEntryCountries,
   resolveCanonicalNameKey,
+  urlSlugToCanonicalSlug,
 } from "@/lib/data";
+import { parseSearchQuery } from "@/lib/searchQuery";
+import { toUrlSlug } from "@/lib/toUrlSlug";
 import {
   getPlantCountryCodesSorted,
 } from "@/lib/geo";
@@ -81,6 +84,27 @@ export type ResolvePlantNameResult = {
   plantContexts: ResolvedPlantContext[];
   ambiguity: Ambiguity;
 };
+
+/** Free-text search routing: indexed names always use the name hub (never disambiguation search). */
+export type SearchRouteResolution =
+  | { type: "name"; slug: string }
+  | { type: "search" };
+
+export function resolveSearchNavigation(rawQuery: string): SearchRouteResolution {
+  const displayQuery = typeof rawQuery === "string" ? rawQuery.trim() : "";
+  if (!displayQuery) return { type: "search" };
+
+  const { nameForResolve } = parseSearchQuery(displayQuery);
+  const normalizedHub = resolveCanonicalNameKey(nameForResolve);
+  if (!normalizedHub) return { type: "search" };
+
+  const nameEntries = getNamesByNormalized(normalizedHub);
+  if (nameEntries.length > 0) {
+    const slug = urlSlugToCanonicalSlug(toUrlSlug(normalizedHub));
+    return { type: "name", slug };
+  }
+  return { type: "search" };
+}
 
 function ambiguityLevelOrder(level: string): number {
   const l = level.toLowerCase();

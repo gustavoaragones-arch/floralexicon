@@ -1,4 +1,5 @@
 import { countryCodeToUrlSlug } from "@/lib/countries";
+import { toUrlSlug } from "@/lib/toUrlSlug";
 import nameVariantsJson from "@/data/nameVariants.json";
 import plantsJson from "@/data/plants.json";
 import namesJson from "@/data/names.json";
@@ -171,7 +172,7 @@ export function resolveCanonicalNameKey(input: string): string {
 export function urlSlugToCanonicalSlug(urlSlug: string): string {
   const key = resolveCanonicalNameKey(urlSlug);
   if (!key) return urlSlug.trim().toLowerCase();
-  return key.replace(/\s+/g, "-");
+  return toUrlSlug(key);
 }
 
 function validateDataset(plants: Plant[], names: NameEntry[]): void {
@@ -348,7 +349,7 @@ export function getNamesByNormalized(normalized: string): NameEntry[] {
 /** URL segments for static /name/[slug] generation (hyphens; lookup via normalizeString). */
 export function getAllNameUrlSlugs(): string[] {
   ensureIndexes();
-  return Array.from(nameMap.keys(), (k) => k.replace(/\s+/g, "-"));
+  return Array.from(nameMap.keys(), (k) => toUrlSlug(k));
 }
 
 /** Canonical name slugs plus variant spellings/plurals for static generation. */
@@ -356,14 +357,14 @@ export function getAllNameUrlSlugsIncludingVariants(): string[] {
   ensureIndexes();
   const set = new Set(getAllNameUrlSlugs());
   Array.from(nameAliasToCanonical.keys()).forEach((variantKey) => {
-    set.add(variantKey.replace(/\s+/g, "-"));
+    set.add(toUrlSlug(variantKey));
   });
   return Array.from(set).sort((a, b) => a.localeCompare(b, "en"));
 }
 
 /** Canonical `nameMap` key → path segment for `/name/[slug]`. */
 export function normalizedKeyToUrlSlug(normalizedKey: string): string {
-  return normalizedKey.replace(/\s+/g, "-");
+  return toUrlSlug(normalizedKey);
 }
 
 /** URL slug for a name entry (matches static routes + resolver). */

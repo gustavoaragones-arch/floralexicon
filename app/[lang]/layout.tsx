@@ -4,6 +4,7 @@ import { Header } from "@/components/Header";
 import { SetHtmlLang } from "@/components/SetHtmlLang";
 import { SiteDisclaimer } from "@/components/SiteDisclaimer";
 import { CONTACT_EMAIL, SITE_URL } from "@/lib/site";
+import { getInlineClientNameIndexScript } from "@/lib/buildClientNameIndexScript";
 import { isLocale, locales, type Locale } from "@/lib/i18n";
 import { notFound } from "next/navigation";
 
@@ -37,6 +38,11 @@ export default function LangLayout({
     <>
       <CoreConceptPrefetch lang={lang} />
       <SetHtmlLang lang={lang} />
+      <script
+        dangerouslySetInnerHTML={{
+          __html: getInlineClientNameIndexScript(),
+        }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

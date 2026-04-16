@@ -1,5 +1,6 @@
 import conceptsData from "@/data/concepts.json";
 import { localePath, type Locale } from "@/lib/i18n";
+import { resolveSearchNavigation } from "@/lib/resolver";
 
 export type ConceptSectionExplanation = { type: "explanation"; content: string };
 export type ConceptSectionExample = { type: "example"; query: string };
@@ -200,9 +201,13 @@ export function getConceptContextLinks(
   lang: Locale
 ): ConceptContextLinks {
   const queries = CONTEXT_NAME_QUERIES[conceptSlug] ?? [];
-  const nameQueries = queries.map((query) => ({
-    href: localePath(lang, `/search?q=${encodeURIComponent(query)}`),
-    label: query,
-  }));
+  const nameQueries = queries.map((query) => {
+    const nav = resolveSearchNavigation(query);
+    const href =
+      nav.type === "name"
+        ? localePath(lang, `/name/${nav.slug}`)
+        : localePath(lang, `/search?q=${encodeURIComponent(query)}`);
+    return { href, label: query };
+  });
   return { nameQueries, plantPages: [] };
 }

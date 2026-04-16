@@ -706,6 +706,45 @@ export function NameResult({
         </>
       ) : null}
 
+      {hasMatches && plantContexts.length > 1 ? (
+        <section
+          className="name-alternatives mt-8 border-t border-stone-200 pt-8 dark:border-stone-800"
+          aria-labelledby="name-alternatives-heading"
+        >
+          <h2
+            id="name-alternatives-heading"
+            className="font-serif text-lg font-semibold tracking-tight text-stone-900 dark:text-stone-100"
+          >
+            {t(lang, "name_alternatives_h2")}
+          </h2>
+          <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-stone-700 dark:text-stone-300">
+            {plantContexts.slice(1).map((ctx) => {
+              const sci =
+                ctx.plant?.scientific_name ??
+                ctx.scientific_name ??
+                t(lang, "plant_placeholder_title");
+              const href =
+                ctx.plant && !ctx.isPlaceholder
+                  ? localePath(
+                      lang,
+                      `/plant/${plantNameHubSlug(ctx.plant.id, ctx.plant.scientific_name)}`
+                    )
+                  : localePath(lang, `/plant/${ctx.plant_id}`);
+              return (
+                <li key={ctx.plant_id}>
+                  <Link
+                    href={href}
+                    className="text-flora-forest underline decoration-stone-300 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-400"
+                  >
+                    <span className="italic">{sci}</span>
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      ) : null}
+
       {!hasMatches ? (
         <header className="border-b border-stone-200 pb-8 dark:border-stone-800">
           <h1 className="font-serif text-xl font-semibold leading-snug tracking-tight text-stone-900 dark:text-stone-100 sm:text-2xl md:text-3xl">

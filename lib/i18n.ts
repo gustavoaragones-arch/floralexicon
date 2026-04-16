@@ -137,7 +137,6 @@ const dictionary = {
     search_facts_family: "Family",
     search_facts_region: "Native / range (index)",
     search_facts_evidence: "Evidence level",
-    search_view_plant: "Open name page →",
     search_global_safety_multi:
       "This name may refer to multiple plants—uses and safety can differ by species. Compare each match and verify before use.",
     search_global_safety_combined:
@@ -531,7 +530,7 @@ const dictionary = {
       "Each country links to a focused view of this herb name. Plants listed are every indexed species tied to that country for this label.",
     name_country_hub_link_title: "Open country view for this herb name",
     name_country_resolution_h2: "What does '{name}' refer to in each country?",
-    name_alternatives_h2: "This name may also refer to:",
+    name_alternatives_h2: "Other species this name can mean",
     name_global_name_network_h2: "This plant is known by different names worldwide",
     name_hub_common_uses_h2: "Common uses",
     name_primary_query_line: "Resolving «{name}»",
@@ -871,7 +870,6 @@ const dictionary = {
     search_facts_family: "Familia",
     search_facts_region: "Nativa / área (índice)",
     search_facts_evidence: "Nivel de evidencia",
-    search_view_plant: "Abrir página del nombre →",
     search_global_safety_multi:
       "Este nombre puede referirse a varias plantas—los usos y la seguridad pueden variar. Compare cada coincidencia y verifique antes de usar.",
     search_global_safety_combined:
@@ -1268,7 +1266,7 @@ const dictionary = {
       "Cada país enlaza a una vista centrada en ese nombre. Las plantas listadas son todas las especies indexadas ligadas a ese país para esta etiqueta.",
     name_country_hub_link_title: "Abrir vista por país para este nombre de hierba",
     name_country_resolution_h2: "¿A qué se refiere «{name}» en cada país?",
-    name_alternatives_h2: "Este nombre también puede referirse a:",
+    name_alternatives_h2: "Otras especies que puede designar este nombre",
     name_global_name_network_h2: "Esta planta se conoce con distintos nombres en distintos países",
     name_hub_common_uses_h2: "Usos habituales",
     name_primary_query_line: "Resolviendo «{name}»",

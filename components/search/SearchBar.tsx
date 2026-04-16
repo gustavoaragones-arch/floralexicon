@@ -1,7 +1,11 @@
 "use client";
 
+import {
+  resolveClientNameSlug,
+  shouldDebounceNavigate,
+} from "@/lib/clientNameResolver";
 import { localePath, t, type Locale } from "@/lib/i18n";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import {
   useCallback,
   useEffect,
@@ -16,26 +20,48 @@ type Props = {
 };
 
 /**
- * GET navigation to `/[lang]/search?q=…` with optional debounced replace while typing.
+ * Debounced navigation: go to `/name/[slug]` or `/search?q=…` via `router.replace`
+ * when {@link shouldDebounceNavigate} passes (length ≥3 or known short hub); submit
+ * always runs. Name hub: blur + dedupe same slug (slug ref resets on pathname change).
+ * Server redirect remains a safety net.
  */
 export function SearchBar({ lang, initialQ }: Props) {
   const router = useRouter();
+  const pathname = usePathname();
   const [q, setQ] = useState(initialQ);
   const skipNextDebounce = useRef(true);
+  const lastNavigatedSlugRef = useRef<string | null>(null);
+
+  useEffect(() => {
+    lastNavigatedSlugRef.current = null;
+  }, [pathname]);
 
   useEffect(() => {
     setQ(initialQ);
   }, [initialQ]);
 
+  const inputRef = useRef<HTMLInputElement>(null);
+
   const pushSearch = useCallback(
     (value: string) => {
       const trimmed = value.trim();
-      const base = localePath(lang, "/search");
+      const searchBase = localePath(lang, "/search");
       if (!trimmed) {
-        router.replace(base);
+        lastNavigatedSlugRef.current = null;
+        router.replace(searchBase);
         return;
       }
-      router.replace(`${base}?q=${encodeURIComponent(trimmed)}`);
+      const slug = resolveClientNameSlug(trimmed);
+      if (slug) {
+        if (lastNavigatedSlugRef.current !== slug) {
+          lastNavigatedSlugRef.current = slug;
+          inputRef.current?.blur();
+          router.replace(localePath(lang, `/name/${slug}`));
+        }
+      } else {
+        lastNavigatedSlugRef.current = null;
+        router.replace(`${searchBase}?q=${encodeURIComponent(trimmed)}`);
+      }
     },
     [lang, router]
   );
@@ -46,7 +72,8 @@ export function SearchBar({ lang, initialQ }: Props) {
       return;
     }
     const tmr = window.setTimeout(() => {
-      if (q.trim().length >= 2) pushSearch(q);
+      if (!shouldDebounceNavigate(q)) return;
+      pushSearch(q);
     }, 450);
     return () => window.clearTimeout(tmr);
   }, [q, pushSearch]);
@@ -66,6 +93,7 @@ export function SearchBar({ lang, initialQ }: Props) {
         {t(lang, "search_label_sr")}
       </label>
       <input
+        ref={inputRef}
         id="search-q"
         name="q"
         type="search"
