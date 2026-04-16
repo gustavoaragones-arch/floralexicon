@@ -9,12 +9,6 @@ type NameSeoContentProps = {
   selectedCountry?: string;
 };
 
-function ambiguityNote(lang: Locale, level: Ambiguity): string {
-  if (level === "high") return t(lang, "ambiguity_note_high");
-  if (level === "medium") return t(lang, "ambiguity_note_medium");
-  return t(lang, "ambiguity_note_low");
-}
-
 function buildFaq(
   lang: Locale,
   displayName: string,
@@ -73,9 +67,10 @@ function faqJsonLd(items: { question: string; answer: string }[]) {
 export function NameSeoContent({
   lang,
   displayName,
-  ambiguity,
+  ambiguity: _unusedAmbiguity,
   selectedCountry,
 }: NameSeoContentProps) {
+  void _unusedAmbiguity;
   const name = displayName.trim() || "this name";
   const faqItems = buildFaq(lang, name, selectedCountry);
   const schema = faqJsonLd(faqItems);
@@ -87,41 +82,21 @@ export function NameSeoContent({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
 
-      <article className="mt-16 border-t border-stone-200 pt-12 dark:border-stone-800">
-        <div className="space-y-12 text-sm leading-relaxed text-stone-600 dark:text-stone-400">
-          <section aria-labelledby="seo-correct">
-            <h2
-              id="seo-correct"
-              className="font-serif text-lg font-semibold tracking-tight text-stone-900 dark:text-stone-100"
-            >
-              {t(lang, "seo_correct_h2")}
-            </h2>
-            <p className="mt-3">{t(lang, "seo_correct_p")}</p>
-            <p className="mt-4 text-stone-500 dark:text-stone-500">
-              {ambiguityNote(lang, ambiguity)}
-            </p>
-          </section>
-
-          <section aria-labelledby="seo-faq">
-            <h2
-              id="seo-faq"
-              className="font-serif text-lg font-semibold tracking-tight text-stone-900 dark:text-stone-100"
-            >
-              {t(lang, "seo_faq_h2")}
-            </h2>
-            <dl className="mt-6 space-y-8">
-              {faqItems.map((item) => (
-                <div key={item.question}>
-                  <dt className="font-semibold text-stone-800 dark:text-stone-200">
-                    {item.question}
-                  </dt>
-                  <dd className="mt-2">{item.answer}</dd>
-                </div>
-              ))}
-            </dl>
-          </section>
-        </div>
-      </article>
+      <details className="mt-10 border-t border-stone-200 pt-8 dark:border-stone-800">
+        <summary className="cursor-pointer font-serif text-lg font-semibold tracking-tight text-stone-900 dark:text-stone-100">
+          {t(lang, "seo_faq_h2")}
+        </summary>
+        <dl className="mt-6 space-y-8 text-sm leading-relaxed text-stone-600 dark:text-stone-400">
+          {faqItems.map((item) => (
+            <div key={item.question}>
+              <dt className="font-semibold text-stone-800 dark:text-stone-200">
+                {item.question}
+              </dt>
+              <dd className="mt-2">{item.answer}</dd>
+            </div>
+          ))}
+        </dl>
+      </details>
     </>
   );
 }

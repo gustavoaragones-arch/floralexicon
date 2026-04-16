@@ -137,7 +137,7 @@ const dictionary = {
     search_facts_family: "Family",
     search_facts_region: "Native / range (index)",
     search_facts_evidence: "Evidence level",
-    search_view_plant: "View plant →",
+    search_view_plant: "Open name page →",
     search_global_safety_multi:
       "This name may refer to multiple plants—uses and safety can differ by species. Compare each match and verify before use.",
     search_global_safety_combined:
@@ -179,7 +179,6 @@ const dictionary = {
     search_prompt_title: "Search a plant name",
     search_prompt_body:
       "Enter a common name. We show every indexed species and how common each association is—without guessing a single winner.",
-    search_open_name_hub: "Open full name hub (regions & detail) →",
 
     lang_en: "EN",
     lang_es: "ES",
@@ -316,7 +315,7 @@ const dictionary = {
     possible_match: "Possible match #{n}",
     name_confidence_most_likely: "Most likely match",
     name_confidence_high_badge: "Strong regional signal",
-    name_confidence_percent: "{percent}% regional coverage",
+    name_confidence_percent: "{percent}%",
     name_quick_answer_sr: "Quick answer",
     name_quick_answer_lead: "‘{name}’ most commonly refers to:",
     name_quick_answer_common_in: "Common in",
@@ -341,6 +340,7 @@ const dictionary = {
 
     same_plant_heading: "Other names for these plants",
     also_known_as: "Also known as",
+    plant_hub_also_called: "Also called:",
 
     names_index_h1: "Herb names index",
     names_index_lead:
@@ -539,6 +539,19 @@ const dictionary = {
     name_primary_refers_to: "Most commonly refers to:",
     name_primary_why_multi: "Most common match across {count} countries",
     name_primary_why_coverage: "Highest regional coverage",
+    name_primary_why_dominant_country: "Dominant in {country}",
+    name_primary_why_common_global: "Most common globally",
+    name_primary_why_frequent_match: "Frequent match",
+    name_hub_score_suffix: "match score",
+    name_confidence_tooltip_main:
+      "This score reflects global agreement, regional dominance, and frequency of use across countries.",
+    plant_limited_data_badge: "Limited data",
+    plant_ghost_mapping_note:
+      "This plant is partially mapped from regional name data.",
+    common_names_label: "Common names:",
+    plant_placeholder_title: "Plant not fully indexed yet",
+    plant_placeholder_subtitle:
+      "This name is used in multiple countries, but the species is not yet fully mapped.",
     name_also_known_show_all: "Show all ({n} more)",
     name_languages_heading: "How this plant is called in different languages",
     name_group_ascii_names: "English / international spellings",
@@ -858,7 +871,7 @@ const dictionary = {
     search_facts_family: "Familia",
     search_facts_region: "Nativa / área (índice)",
     search_facts_evidence: "Nivel de evidencia",
-    search_view_plant: "Ver planta →",
+    search_view_plant: "Abrir página del nombre →",
     search_global_safety_multi:
       "Este nombre puede referirse a varias plantas—los usos y la seguridad pueden variar. Compare cada coincidencia y verifique antes de usar.",
     search_global_safety_combined:
@@ -900,7 +913,6 @@ const dictionary = {
     search_prompt_title: "Busque un nombre de planta",
     search_prompt_body:
       "Escriba un nombre común. Mostramos cada especie indexada y qué tan frecuente es la asociación—sin elegir un único resultado.",
-    search_open_name_hub: "Abrir centro del nombre (regiones y detalle) →",
 
     lang_en: "EN",
     lang_es: "ES",
@@ -1038,7 +1050,7 @@ const dictionary = {
     possible_match: "Posible coincidencia n.º {n}",
     name_confidence_most_likely: "Coincidencia más probable",
     name_confidence_high_badge: "Señal regional fuerte",
-    name_confidence_percent: "{percent}% de cobertura regional",
+    name_confidence_percent: "{percent}%",
     name_quick_answer_sr: "Respuesta breve",
     name_quick_answer_lead: "«{name}» se refiere con más frecuencia a:",
     name_quick_answer_common_in: "Frecuente en",
@@ -1063,6 +1075,7 @@ const dictionary = {
 
     same_plant_heading: "Otros nombres de estas plantas",
     also_known_as: "También conocida como",
+    plant_hub_also_called: "También se llama:",
 
     names_index_h1: "Índice de nombres de hierbas",
     names_index_lead:
@@ -1263,6 +1276,19 @@ const dictionary = {
     name_primary_refers_to: "Lo más frecuente es que se refiera a:",
     name_primary_why_multi: "Coincidencia más habitual en {count} países",
     name_primary_why_coverage: "Mayor cobertura regional en los datos",
+    name_primary_why_dominant_country: "Dominante en {country}",
+    name_primary_why_common_global: "Lo más habitual a escala global",
+    name_primary_why_frequent_match: "Coincidencia frecuente",
+    name_hub_score_suffix: "puntuación de coincidencia",
+    name_confidence_tooltip_main:
+      "Esta puntuación refleja el acuerdo global, el predominio regional y la frecuencia de uso entre países.",
+    plant_limited_data_badge: "Datos limitados",
+    plant_ghost_mapping_note:
+      "Esta planta está mapeada de forma parcial a partir de datos regionales de nombres.",
+    common_names_label: "Nombres comunes:",
+    plant_placeholder_title: "Especie aún no indexada por completo",
+    plant_placeholder_subtitle:
+      "Este nombre aparece en varios países, pero la especie aún no está mapeada por completo.",
     name_also_known_show_all: "Ver todas ({n} más)",
     name_languages_heading: "Cómo se llama esta planta en distintos idiomas",
     name_group_ascii_names: "Inglés / grafías internacionales",

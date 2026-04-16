@@ -1,4 +1,5 @@
 import { categoryListingPath } from "@/lib/categories";
+import { plantNameHubSlug } from "@/lib/data";
 import {
   getNameLinksForCountry,
   getPlantsForCountry,
@@ -109,7 +110,10 @@ export function HerbCountryPageContent({
         <ul className="mt-6 space-y-3">
           {listed.map((plant) => (
             <li key={plant.id}>
-              <Link href={localePath(lang, `/plant/${plant.id}`)} className={cardClass}>
+              <Link
+                href={`${localePath(lang, `/name/${plantNameHubSlug(plant.id, plant.scientific_name)}`)}?country=${encodeURIComponent(countryIso)}`}
+                className={cardClass}
+              >
                 <span className="font-medium text-stone-900 group-hover:underline dark:text-stone-100">
                   {plant.scientific_name}
                 </span>

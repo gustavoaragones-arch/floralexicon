@@ -2,7 +2,7 @@ import { NameResult } from "@/components/NameResult";
 import {
   getAllNameUrlSlugsIncludingVariants,
   getCountryOptions,
-  getOtherNamesForSamePlant,
+  getPlantGlobalData,
   urlSlugToCanonicalSlug,
 } from "@/lib/data";
 import {
@@ -61,6 +61,10 @@ export function generateMetadata({ params }: Props): Metadata {
           "x-default": alt.xDefault,
         },
       },
+      openGraph: {
+        url: `${SITE_URL}/${lang}/name/${canonicalSlug}`,
+        siteName: "FloraLexicon",
+      },
     };
   }
 
@@ -77,6 +81,10 @@ export function generateMetadata({ params }: Props): Metadata {
         es: alt.es,
         "x-default": alt.xDefault,
       },
+    },
+    openGraph: {
+      url: `${SITE_URL}/${lang}/name/${canonicalSlug}`,
+      siteName: "FloraLexicon",
     },
   };
 }
@@ -100,13 +108,27 @@ export default function NamePage({ params, searchParams }: Props) {
     result.query.trim() || slugToDisplayLabel(params.slug);
   const countryOptions = getCountryOptions();
 
-  const samePlantClusters = result.plantContexts.map(({ plant }) => ({
-    plant: {
-      id: plant.id,
-      scientific_name: plant.scientific_name,
-    },
-    links: getOtherNamesForSamePlant(plant.id, canonicalSlug),
-  }));
+  const samePlantClusters = result.plantContexts.map(
+    ({ plant, plant_id: plantId }) => {
+      const { names: globalForPlant } = getPlantGlobalData(plantId, {
+        pageNameSlug: canonicalSlug,
+        queryDisplay: queryLabel,
+      });
+      const pageCanon = urlSlugToCanonicalSlug(canonicalSlug);
+      const links = globalForPlant.filter(
+        (l) => urlSlugToCanonicalSlug(l.slug) !== pageCanon
+      );
+      return {
+        plant: {
+          id: plantId,
+          scientific_name:
+            plant?.scientific_name?.trim() ||
+            t(lang, "plant_placeholder_title"),
+        },
+        links,
+      };
+    }
+  );
 
   const definedTermJsonLd = {
     "@context": "https://schema.org",

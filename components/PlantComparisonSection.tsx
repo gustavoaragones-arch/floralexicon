@@ -1,6 +1,6 @@
 "use client";
 
-import type { Plant } from "@/lib/data";
+import { plantNameHubSlug, type Plant } from "@/lib/data";
 import { formatRegionList } from "@/lib/countries";
 import { localePath, t, type Locale } from "@/lib/i18n";
 import Link from "next/link";
@@ -107,7 +107,10 @@ export function PlantComparisonSection({
                 >
                   <td className="px-3 py-3 align-top text-stone-800 dark:text-stone-200">
                     <Link
-                      href={localePath(lang, `/plant/${row.plant.id}`)}
+                      href={localePath(
+                        lang,
+                        `/name/${plantNameHubSlug(row.plant.id, row.plant.scientific_name)}`
+                      )}
                       className={
                         boldName[i]
                           ? "font-bold text-stone-950 underline decoration-stone-300 underline-offset-2 hover:text-flora-forest hover:decoration-flora-forest dark:text-stone-50 dark:hover:text-emerald-300 dark:hover:decoration-emerald-400"

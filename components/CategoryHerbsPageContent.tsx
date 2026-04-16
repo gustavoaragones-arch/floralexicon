@@ -2,7 +2,7 @@ import { filterPlantsByCategory, type PlantCategory } from "@/lib/categories";
 import { getTopNameLinksForCategory } from "@/lib/categoryNames";
 import { countryCodeToUrlSlug, getCountryDisplayName } from "@/lib/countries";
 import { getCountryCodesWithIndexedPlants } from "@/lib/herbLandings";
-import { loadPlants } from "@/lib/data";
+import { loadPlants, plantNameHubSlug } from "@/lib/data";
 import { localePath, t, ti, type I18nKey, type Locale } from "@/lib/i18n";
 import Link from "next/link";
 
@@ -143,7 +143,10 @@ export function CategoryHerbsPageContent({
           {listed.map((plant) => (
             <li key={plant.id}>
               <Link
-                href={localePath(lang, `/plant/${plant.id}`)}
+                href={localePath(
+                  lang,
+                  `/name/${plantNameHubSlug(plant.id, plant.scientific_name)}`
+                )}
                 className={cardClass}
               >
                 <span className="font-medium text-stone-900 group-hover:underline dark:text-stone-100">

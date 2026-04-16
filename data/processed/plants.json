@@ -1,5 +1,18 @@
 [
   {
+    "id": "abelmoschus_moschatus",
+    "scientific_name": "Abelmoschus moschatus Medikus",
+    "family": "Malvaceae",
+    "names": [
+      "Almiscle",
+      "Hierba de culebra"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
     "id": "acacia_aroma",
     "scientific_name": "Acacia aroma",
     "family": "Fabaceae",
@@ -31,6 +44,33 @@
     ]
   },
   {
+    "id": "acacia_farnesiana",
+    "scientific_name": "Acacia farnesiana",
+    "family": "Fabaceae",
+    "names": [
+      "Aromo",
+      "Espino amarillo",
+      "Huizache",
+      "Vinorama"
+    ],
+    "countries": [
+      "HN",
+      "MX"
+    ],
+    "uses": [
+      "aromatic",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "acacia_farnesiana",
+    "scientific_name": "Acacia farnesiana (L.) Willd.",
+    "family": "Fabaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
+  },
+  {
     "id": "acaena_magellanica",
     "scientific_name": "Acaena magellanica",
     "family": "Rosaceae",
@@ -38,8 +78,7 @@
       "Cadillo"
     ],
     "countries": [
-      "AR",
-      "CO"
+      "AR"
     ],
     "uses": [
       "medicinal"
@@ -54,10 +93,41 @@
       "Cepa caballo"
     ],
     "countries": [
-      "AR",
       "CL"
     ],
     "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "acalypha_arvensis",
+    "scientific_name": "Acalypha arvensis",
+    "family": "Euphorbiaceae",
+    "names": [
+      "Borreguillo",
+      "Gusanillo",
+      "Hierba del cáncer"
+    ],
+    "countries": [
+      "GT"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "acanthocereus_tetragonus",
+    "scientific_name": "Acanthocereus tetragonus",
+    "family": "Cactaceae",
+    "names": [
+      "Chute de vaca",
+      "Pitajaya"
+    ],
+    "countries": [
+      "GT"
+    ],
+    "uses": [
+      "culinary",
       "medicinal"
     ]
   },
@@ -131,7 +201,6 @@
     "countries": [
       "AR",
       "BO",
-      "CL",
       "PY",
       "UY"
     ],
@@ -155,6 +224,19 @@
     ]
   },
   {
+    "id": "agastache_mexicana",
+    "scientific_name": "Agastache mexicana (Kunth) Lint & Epling",
+    "family": "Lamiaceae",
+    "names": [
+      "Toronjil morado",
+      "Toronjil rojo"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
     "id": "agathosma_betulina",
     "scientific_name": "Agathosma betulina",
     "family": "Rutaceae",
@@ -167,6 +249,34 @@
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "ageratum_conyzoides",
+    "scientific_name": "Ageratum conyzoides",
+    "family": "Asteraceae",
+    "names": [
+      "Coyolillo",
+      "Hierba del chivo"
+    ],
+    "countries": [
+      "HN"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "ageratum_houstonianum",
+    "scientific_name": "Ageratum houstonianum P. Mill.",
+    "family": "Asteraceae",
+    "names": [
+      "Borracho Xiwitl (Náhuatl)",
+      "Hierba del zopilote"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
   },
   {
     "id": "alibertia_edulis",
@@ -203,7 +313,19 @@
     ]
   },
   {
-    "id": "allium_sativum_l",
+    "id": "allium_cepa",
+    "scientific_name": "Allium cepa L.",
+    "family": "Amaryllidaceae",
+    "names": [
+      "Cebolla"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
+    "id": "allium_sativum",
     "scientific_name": "Allium sativum L.",
     "family": "Amaryllidaceae",
     "names": [
@@ -212,9 +334,21 @@
     ],
     "countries": [
       "CO",
-      "GY"
+      "GY",
+      "MX"
     ],
     "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "allium_sativum",
+    "scientific_name": "Allium sativum",
+    "family": "Amaryllidaceae",
+    "names": [],
+    "countries": [],
+    "uses": [
+      "culinary",
       "medicinal"
     ]
   },
@@ -225,18 +359,44 @@
     "names": [
       "Aloe",
       "Aloe Vera",
+      "Hunpets'k'inki",
+      "Petk'inki",
+      "Posacmetl",
       "Sábila",
+      "Sávila",
       "Zábila"
     ],
     "countries": [
       "CL",
+      "CR",
       "EC",
+      "GT",
+      "HN",
+      "MX",
       "PY",
       "VE"
     ],
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "aloe_vera",
+    "scientific_name": "Aloe vera L. Burm. f.",
+    "family": "Asphodelaceae",
+    "names": [],
+    "countries": [],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "aloe_vera",
+    "scientific_name": "Aloe vera (L.) Burm. f.",
+    "family": "Asphodelaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
   },
   {
     "id": "aloysia_citriodora",
@@ -248,13 +408,8 @@
       "Toronjil"
     ],
     "countries": [
-      "AR",
-      "BO",
-      "CL",
       "EC",
-      "PE",
-      "PY",
-      "UY"
+      "PY"
     ],
     "uses": [
       "medicinal"
@@ -267,7 +422,6 @@
     "names": [
       "Cedrón",
       "Hierba Luisa",
-      "Hierba luisa",
       "Paja Cedrón",
       "Verbena olorosa"
     ],
@@ -276,8 +430,8 @@
       "BO",
       "CL",
       "EC",
+      "ES",
       "PE",
-      "PY",
       "UY"
     ],
     "uses": [
@@ -285,6 +439,26 @@
       "culinary",
       "medicinal",
       "tea"
+    ]
+  },
+  {
+    "id": "aloysia_citrodora",
+    "scientific_name": "Aloysia citrodora Paláu",
+    "family": "Verbenaceae",
+    "names": [],
+    "countries": [],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "aloysia_citrodora",
+    "scientific_name": "Aloysia citrodora Palau",
+    "family": "Verbenaceae",
+    "names": [],
+    "countries": [],
+    "uses": [
+      "medicinal"
     ]
   },
   {
@@ -311,8 +485,7 @@
       "Burrito"
     ],
     "countries": [
-      "AR",
-      "PY"
+      "AR"
     ],
     "uses": [
       "aromatic",
@@ -329,17 +502,21 @@
     ],
     "countries": [
       "AR",
-      "CL",
-      "EC",
-      "PE",
-      "PY",
-      "UY"
+      "MX"
     ],
     "uses": [
       "aromatic",
       "culinary",
       "medicinal"
     ]
+  },
+  {
+    "id": "aloysia_triphylla",
+    "scientific_name": "Aloysia triphylla (L'Hér.) Britton",
+    "family": "Verbenaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
   },
   {
     "id": "alternanthera_pungens",
@@ -426,13 +603,41 @@
       "Pantanis"
     ],
     "countries": [
-      "CL",
       "PA",
       "VE"
     ],
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "ambrosia_peruviana",
+    "scientific_name": "Ambrosia peruviana",
+    "family": "Asteraceae",
+    "names": [
+      "Altamiz",
+      "Marco"
+    ],
+    "countries": [
+      "HN",
+      "NI"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "amphipterygium_adstringens",
+    "scientific_name": "Amphipterygium adstringens (Schltdl.) Standl.",
+    "family": "Anacardiaceae",
+    "names": [
+      "Cuachalalate",
+      "Cuachalate"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
   },
   {
     "id": "anacardium_occidentale",
@@ -446,9 +651,10 @@
       "Caju",
       "Casu",
       "Cayu",
+      "Jocote Marañón",
       "Marañao",
-      "marañón",
       "Marañón",
+      "marañón",
       "marañón amarillo",
       "marañón rojo"
     ],
@@ -457,6 +663,7 @@
       "CO",
       "CR",
       "EC",
+      "GT",
       "PA",
       "PE"
     ],
@@ -500,13 +707,68 @@
     "scientific_name": "Annona muricata",
     "family": "Annonaceae",
     "names": [
-      "Sour-Sop"
+      "Guanábana",
+      "Sour-Sop",
+      "Soursop"
     ],
     "countries": [
-      "GY"
+      "CR",
+      "GY",
+      "HN",
+      "MX",
+      "NI"
     ],
     "uses": [
       "culinary",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "annona_muricata",
+    "scientific_name": "Annona muricata L.",
+    "family": "Annonaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
+  },
+  {
+    "id": "annona_squamosa",
+    "scientific_name": "Annona squamosa L.",
+    "family": "Annonaceae",
+    "names": [
+      "Anona",
+      "Saramuyo",
+      "Ts'almuy (Maya)"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
+    "id": "anoda_cristata",
+    "scientific_name": "Anoda cristata (L.) Schltdl.",
+    "family": "Malvaceae",
+    "names": [
+      "Alachis",
+      "Lachí kilitl (Náhuatl)"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
+    "id": "anredera_vesicaria",
+    "scientific_name": "Anredera vesicaria",
+    "family": "Basellaceae",
+    "names": [
+      "Suelda con suelda"
+    ],
+    "countries": [
+      "NI"
+    ],
+    "uses": [
       "medicinal"
     ]
   },
@@ -592,16 +854,11 @@
     ]
   },
   {
-    "id": "apium_graveolens_l",
+    "id": "apium_graveolens",
     "scientific_name": "Apium graveolens L.",
     "family": "Apiaceae",
-    "names": [
-      "Apio"
-    ],
-    "countries": [
-      "BO",
-      "CO"
-    ],
+    "names": [],
+    "countries": [],
     "uses": [
       "medicinal"
     ]
@@ -626,14 +883,55 @@
     "scientific_name": "Argemone mexicana",
     "family": "Papaveraceae",
     "names": [
-      "Cardo amarillo"
+      "Cardo amarillo",
+      "Cardo Santo",
+      "Cardo santo (Zongolica)",
+      "Chicalote",
+      "Chicalotl",
+      "K'iix-k'anlol",
+      "K'iix-saklol"
     ],
     "countries": [
-      "AR"
+      "AR",
+      "MX",
+      "PY"
     ],
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "argemone_mexicana",
+    "scientific_name": "Argemone mexicana L.",
+    "family": "Papaveraceae",
+    "names": [],
+    "countries": [],
+    "uses": []
+  },
+  {
+    "id": "argemone_ochroleuca",
+    "scientific_name": "Argemone ochroleuca Sweet",
+    "family": "Papaveraceae",
+    "names": [
+      "Chicalote amarillo"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
+    "id": "argemone_platyceras",
+    "scientific_name": "Argemone platyceras Link & Otto",
+    "family": "Papaveraceae",
+    "names": [
+      "Cardo santo blanco",
+      "Chicalote de montaña"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
   },
   {
     "id": "aristolochia_maxima",
@@ -644,7 +942,6 @@
       "guaco"
     ],
     "countries": [
-      "AR",
       "GT",
       "HN"
     ],
@@ -711,28 +1008,40 @@
     "scientific_name": "Arnica montana",
     "family": "Asteraceae",
     "names": [
-      "Árnica"
+      "Árnica",
+      "Árnica de montaña",
+      "Árnica europea",
+      "Estornudadera",
+      "Tabaco de montaña"
     ],
     "countries": [
       "CL",
       "CO",
-      "CR"
+      "MX"
     ],
     "uses": [
       "medicinal"
     ]
   },
   {
-    "id": "arnica_montana_l",
+    "id": "arnica_montana",
     "scientific_name": "Arnica montana L.",
     "family": "Asteraceae",
+    "names": [],
+    "countries": [],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "artemisia_abrotanum",
+    "scientific_name": "Artemisia abrotanum L.",
+    "family": "Asteraceae",
     "names": [
-      "Árnica"
+      "Abrotano Macho"
     ],
     "countries": [
-      "CL",
-      "CO",
-      "CR"
+      "ES"
     ],
     "uses": [
       "medicinal"
@@ -743,11 +1052,17 @@
     "scientific_name": "Artemisia absinthium",
     "family": "Asteraceae",
     "names": [
-      "Ajenjo"
+      "Ajenjo",
+      "Estafiate (occasional)",
+      "Hierba maestra",
+      "Maestra"
     ],
     "countries": [
       "CL",
       "CO",
+      "ES",
+      "GT",
+      "MX",
       "PY"
     ],
     "uses": [
@@ -755,17 +1070,11 @@
     ]
   },
   {
-    "id": "artemisia_absinthium_l",
+    "id": "artemisia_absinthium",
     "scientific_name": "Artemisia absinthium L.",
     "family": "Asteraceae",
-    "names": [
-      "Ajenjo"
-    ],
-    "countries": [
-      "CL",
-      "CO",
-      "PY"
-    ],
+    "names": [],
+    "countries": [],
     "uses": [
       "medicinal"
     ]
@@ -779,6 +1088,37 @@
     ],
     "countries": [
       "AR"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "artemisia_ludoviciana",
+    "scientific_name": "Artemisia ludoviciana Nutt. subsp. mexicana (Willd.) Keck",
+    "family": "Asteraceae",
+    "names": [
+      "Ajenjo del país",
+      "Estafiate",
+      "Guietee",
+      "Iztauhyatl"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
+    "id": "artemisia_sp",
+    "scientific_name": "Artemisia sp.",
+    "family": "Asteraceae",
+    "names": [
+      "Altamiza",
+      "Comino Cimarrón",
+      "Incienso de la tierra"
+    ],
+    "countries": [
+      "GT"
     ],
     "uses": [
       "medicinal"
@@ -812,11 +1152,15 @@
       "Cantil",
       "Capitán de sala",
       "cega olho",
+      "Chakanal (Maya)",
       "Cuchumeca",
       "Flor de agua",
       "flor de culebra",
       "flor de la calentura",
       "hierba de cantil",
+      "Hierba del cuervo",
+      "Hierba Lucero",
+      "Jaguarundy",
       "Leche de burra",
       "mal casada",
       "Mal casada",
@@ -842,12 +1186,21 @@
       "MX",
       "PA",
       "PE",
+      "PY",
       "SV",
       "VE"
     ],
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "asclepias_curassavica",
+    "scientific_name": "Asclepias curassavica L.",
+    "family": "Apocynaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
   },
   {
     "id": "atamisquea_emarginata",
@@ -865,7 +1218,7 @@
     ]
   },
   {
-    "id": "avena_sativa_l",
+    "id": "avena_sativa",
     "scientific_name": "Avena sativa L.",
     "family": "Poaceae",
     "names": [
@@ -877,6 +1230,19 @@
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "azadirachta_indica",
+    "scientific_name": "Azadirachta indica A. Juss.",
+    "family": "Meliaceae",
+    "names": [
+      "Neem",
+      "Nim"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
   },
   {
     "id": "baccharis_boliviensis",
@@ -891,6 +1257,20 @@
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "baccharis_conferta",
+    "scientific_name": "Baccharis conferta Kunth",
+    "family": "Asteraceae",
+    "names": [
+      "Azoyate",
+      "Escoba",
+      "Escobilla"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
   },
   {
     "id": "baccharis_trimera",
@@ -922,8 +1302,6 @@
       "Susowa"
     ],
     "countries": [
-      "AR",
-      "CL",
       "CR",
       "GT",
       "HN",
@@ -950,6 +1328,48 @@
       "medicinal",
       "ritual"
     ]
+  },
+  {
+    "id": "barkleyanthus_salicifolius",
+    "scientific_name": "Barkleyanthus salicifolius (Kunth) H. Rob. & Brettell",
+    "family": "Asteraceae",
+    "names": [
+      "Azomiatl",
+      "Azumiate",
+      "Jarilla"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
+    "id": "basella_alba",
+    "scientific_name": "Basella alba",
+    "family": "Basellaceae",
+    "names": [
+      "Espinaca"
+    ],
+    "countries": [
+      "NI"
+    ],
+    "uses": [
+      "culinary",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "bauhinia_divaricata",
+    "scientific_name": "Bauhinia divaricata L.",
+    "family": "Fabaceae",
+    "names": [
+      "Pata de vaca",
+      "Ts'uru'tok' (Maya)"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
   },
   {
     "id": "bauhinia_forficata",
@@ -1031,24 +1451,31 @@
     ]
   },
   {
-    "id": "bidens_pilosa",
-    "scientific_name": "Bidens pilosa",
-    "family": "Asteraceae",
-    "names": [
-      "Amor seco"
-    ],
-    "countries": [
-      "AR",
-      "BO",
-      "PE"
-    ],
+    "id": "betula_pendula",
+    "scientific_name": "Betula pendula Roth",
+    "family": "Betulaceae",
+    "names": [],
+    "countries": [],
     "uses": [
       "medicinal"
     ]
   },
   {
-    "id": "bidens_pilosa_l",
-    "scientific_name": "Bidens pilosa L.",
+    "id": "bidens_aurea",
+    "scientific_name": "Bidens aurea (Aiton) Sherff",
+    "family": "Asteraceae",
+    "names": [
+      "Aceitilla mosote",
+      "Mosoquelite"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
+    "id": "bidens_pilosa",
+    "scientific_name": "Bidens pilosa",
     "family": "Asteraceae",
     "names": [
       "Aceitilla",
@@ -1057,6 +1484,7 @@
       "Amor seco",
       "amor-seco",
       "Arponcito",
+      "Batatilla",
       "Cadillo",
       "cadillo de huerta",
       "Cadillo rocero",
@@ -1066,6 +1494,7 @@
       "macela do campo",
       "Mazote",
       "Moño de dos puntas",
+      "Mozote",
       "picacho negro",
       "picao-preto",
       "piolho de padre",
@@ -1076,15 +1505,26 @@
     ],
     "countries": [
       "AR",
-      "BO",
       "CO",
       "CR",
       "CU",
+      "HN",
       "MX",
       "PA",
       "PE",
+      "PY",
       "VE"
     ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "bidens_pilosa",
+    "scientific_name": "Bidens pilosa L.",
+    "family": "Asteraceae",
+    "names": [],
+    "countries": [],
     "uses": [
       "medicinal"
     ]
@@ -1095,14 +1535,22 @@
     "family": "Bixaceae",
     "names": [
       "Achiote",
+      "azafrán de la tierra",
+      "Bija",
+      "K'uxub (Maya)",
       "Onoto",
+      "tintórea",
       "Urucú"
     ],
     "countries": [
       "AR",
       "BO",
       "CO",
+      "CR",
       "GT",
+      "HN",
+      "MX",
+      "NI",
       "PA",
       "PE",
       "VE"
@@ -1113,25 +1561,11 @@
     ]
   },
   {
-    "id": "bixa_orellana_l",
+    "id": "bixa_orellana",
     "scientific_name": "Bixa orellana L.",
     "family": "Bixaceae",
-    "names": [
-      "Achiote",
-      "azafrán de la tierra",
-      "Bija",
-      "tintórea",
-      "Urucú"
-    ],
-    "countries": [
-      "AR",
-      "BO",
-      "CO",
-      "GT",
-      "PA",
-      "PE",
-      "VE"
-    ],
+    "names": [],
+    "countries": [],
     "uses": [
       "medicinal"
     ]
@@ -1212,6 +1646,28 @@
     ]
   },
   {
+    "id": "borago_officinalis",
+    "scientific_name": "Borago officinalis L.",
+    "family": "Boraginaceae",
+    "names": [],
+    "countries": [],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "bougainvillea_spectabilis",
+    "scientific_name": "Bougainvillea spectabilis Willd.",
+    "family": "Nyctaginaceae",
+    "names": [
+      "Bugambilia"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
     "id": "bromelia_pinguin",
     "scientific_name": "Bromelia pinguin",
     "family": "Bromeliaceae",
@@ -1220,20 +1676,36 @@
       "chicorrón",
       "Chihuichiue",
       "Maya",
+      "Muta",
       "piña de cerca",
       "piña de ratón",
-      "piñuela",
-      "Piñuela"
+      "Piñuela",
+      "piñuela"
     ],
     "countries": [
       "CO",
       "CU",
       "DO",
+      "GT",
       "PA",
       "VE"
     ],
     "uses": [
       "culinary",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "brugmansia_arborea",
+    "scientific_name": "Brugmansia arborea",
+    "family": "Solanaceae",
+    "names": [
+      "Florifundia"
+    ],
+    "countries": [
+      "GT"
+    ],
+    "uses": [
       "medicinal"
     ]
   },
@@ -1262,6 +1734,72 @@
     ]
   },
   {
+    "id": "bryophyllum_pinnatum",
+    "scientific_name": "Bryophyllum pinnatum",
+    "family": "Crassulaceae",
+    "names": [
+      "Hoja de aire",
+      "Hoja del norte",
+      "Siempre viva"
+    ],
+    "countries": [
+      "GT"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "buddleia_americana",
+    "scientific_name": "Buddleia americana",
+    "family": "Scrophulariaceae",
+    "names": [
+      "Hoja Blanca",
+      "Saetzam",
+      "Salvia",
+      "Salvia Virgen",
+      "Salviona",
+      "Tepozán"
+    ],
+    "countries": [
+      "CR",
+      "GT",
+      "SV"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "buddleia_cordata",
+    "scientific_name": "Buddleia cordata H.B.K.",
+    "family": "Scrophulariaceae",
+    "names": [
+      "Palo de zorro prieto",
+      "Tepozán"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
+    "id": "buddleja_americana",
+    "scientific_name": "Buddleja americana",
+    "family": "Scrophulariaceae",
+    "names": [
+      "Hierba de erisipela",
+      "Hoja blanca",
+      "Tepozán"
+    ],
+    "countries": [
+      "NI"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
     "id": "buddleja_globosa",
     "scientific_name": "Buddleja globosa",
     "family": "Scrophulariaceae",
@@ -1271,10 +1809,7 @@
     ],
     "countries": [
       "AR",
-      "BO",
       "CL",
-      "EC",
-      "PA",
       "PE"
     ],
     "uses": [
@@ -1289,8 +1824,7 @@
       "Palo santo"
     ],
     "countries": [
-      "AR",
-      "PA"
+      "AR"
     ],
     "uses": [
       "aromatic",
@@ -1298,8 +1832,49 @@
     ]
   },
   {
+    "id": "bursera_graveolens",
+    "scientific_name": "Bursera graveolens",
+    "family": "Burseraceae",
+    "names": [
+      "Caraño",
+      "Cofal",
+      "Colparaña",
+      "Palo santo"
+    ],
+    "countries": [
+      "NI"
+    ],
+    "uses": [
+      "aromatic",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "bursera_simarouba",
+    "scientific_name": "Bursera simarouba",
+    "family": "Burseraceae",
+    "names": [
+      "Copal",
+      "Hombre desnudo",
+      "Indio desnudo",
+      "Jiñocuabo",
+      "Jiñocuabo rojo",
+      "Jiñote rojo",
+      "Jiote",
+      "Palo de jiote"
+    ],
+    "countries": [
+      "GT",
+      "HN",
+      "NI"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
     "id": "bursera_simaruba",
-    "scientific_name": "Bursera simaruba",
+    "scientific_name": "Bursera simaruba (L.) Sarg.",
     "family": "Burseraceae",
     "names": [
       "Aceitero",
@@ -1310,13 +1885,15 @@
       "Caratero",
       "Chacá",
       "Chacah",
+      "Chakaj",
       "cholo pelao",
+      "Copal rojo",
       "Copón",
+      "Gumbo-limbo",
       "indio desnudo",
       "Indio desnudo",
       "jiñocuabe",
       "jiñocuabo",
-      "Jiñocuabo",
       "palo chino",
       "palo jiote",
       "palo mulato",
@@ -1332,6 +1909,14 @@
       "NI",
       "PA"
     ],
+    "uses": []
+  },
+  {
+    "id": "bursera_simaruba",
+    "scientific_name": "Bursera simaruba",
+    "family": "Burseraceae",
+    "names": [],
+    "countries": [],
     "uses": [
       "medicinal"
     ]
@@ -1345,8 +1930,12 @@
       "Changugo",
       "Chaparro",
       "Chi",
+      "Chi' (Maya)",
       "Nance",
-      "nance"
+      "nance",
+      "Nance dulce",
+      "Nanche",
+      "Nancite"
     ],
     "countries": [
       "CO",
@@ -1354,6 +1943,7 @@
       "GT",
       "HN",
       "MX",
+      "NI",
       "PA",
       "VE"
     ],
@@ -1361,6 +1951,14 @@
       "culinary",
       "medicinal"
     ]
+  },
+  {
+    "id": "byrsonima_crassifolia",
+    "scientific_name": "Byrsonima crassifolia (L.) Kunth",
+    "family": "Malpighiaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
   },
   {
     "id": "caesalpinia_pulcherrima",
@@ -1371,9 +1969,7 @@
       "Sen"
     ],
     "countries": [
-      "BO",
-      "CL",
-      "PY"
+      "BO"
     ],
     "uses": [
       "medicinal"
@@ -1400,7 +1996,6 @@
     "family": "Marantaceae",
     "names": [
       "hoja blanca",
-      "Hoja Blanca",
       "Hoja de bijao",
       "Ura´dili",
       "Urua"
@@ -1421,8 +2016,7 @@
       "Palo dulce"
     ],
     "countries": [
-      "CL",
-      "MX"
+      "CL"
     ],
     "uses": [
       "medicinal"
@@ -1445,15 +2039,12 @@
       "planta maravillosa"
     ],
     "countries": [
-      "CL",
       "CO",
       "EC",
       "GT",
       "HN",
       "MX",
-      "PY",
-      "SV",
-      "UY"
+      "SV"
     ],
     "uses": [
       "medicinal"
@@ -1469,22 +2060,46 @@
     ],
     "countries": [
       "CL",
-      "CO"
+      "CO",
+      "ES"
     ],
     "uses": [
       "medicinal"
     ]
   },
   {
-    "id": "calendula_officinalis_l",
+    "id": "calendula_officinalis",
     "scientific_name": "Calendula officinalis L.",
     "family": "Asteraceae",
+    "names": [],
+    "countries": [],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "callicarpa_acuminata",
+    "scientific_name": "Callicarpa acuminata",
+    "family": "Lamiaceae",
     "names": [
-      "Caléndula"
+      "Salvia"
     ],
     "countries": [
-      "CL",
-      "CO"
+      "NI"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "calotropis_procera",
+    "scientific_name": "Calotropis procera",
+    "family": "Apocynaceae",
+    "names": [
+      "Huele de noche"
+    ],
+    "countries": [
+      "HN"
     ],
     "uses": [
       "medicinal"
@@ -1503,6 +2118,21 @@
     "uses": [
       "medicinal",
       "tea"
+    ]
+  },
+  {
+    "id": "canavalia_rosea",
+    "scientific_name": "Canavalia rosea",
+    "family": "Fabaceae",
+    "names": [
+      "Chilca de la playa",
+      "Frijol de mar"
+    ],
+    "countries": [
+      "GT"
+    ],
+    "uses": [
+      "medicinal"
     ]
   },
   {
@@ -1528,7 +2158,6 @@
       "Mastuerzo"
     ],
     "countries": [
-      "AR",
       "CL"
     ],
     "uses": [
@@ -1536,29 +2165,27 @@
     ]
   },
   {
-    "id": "capsicum_annuum_l_variedades_picantes",
+    "id": "capsicum_annuum",
     "scientific_name": "Capsicum annuum L. (variedades\n   picantes)",
     "family": "Solanaceae",
     "names": [
-      "Ají"
+      "Ají",
+      "Bird-Pepper"
     ],
     "countries": [
-      "CO"
+      "CO",
+      "GY"
     ],
     "uses": [
       "medicinal"
     ]
   },
   {
-    "id": "capsicum_annuum_var_glabriusculum",
+    "id": "capsicum_annuum",
     "scientific_name": "Capsicum annuum var. glabriusculum",
     "family": "Solanaceae",
-    "names": [
-      "Bird-Pepper"
-    ],
-    "countries": [
-      "GY"
-    ],
+    "names": [],
+    "countries": [],
     "uses": [
       "culinary",
       "medicinal"
@@ -1610,16 +2237,31 @@
     "names": [
       "Mamón",
       "Papaya",
-      "Papayo Macho"
+      "Papayo",
+      "Papayo Macho",
+      "Put"
     ],
     "countries": [
       "AR",
-      "BO"
+      "BO",
+      "CR",
+      "GT",
+      "HN",
+      "MX",
+      "SV"
     ],
     "uses": [
       "culinary",
       "medicinal"
     ]
+  },
+  {
+    "id": "carica_papaya",
+    "scientific_name": "Carica papaya L.",
+    "family": "Caricaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
   },
   {
     "id": "carludovica_palmata",
@@ -1634,6 +2276,31 @@
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "casimiroa_edulis",
+    "scientific_name": "Casimiroa edulis",
+    "family": "Rutaceae",
+    "names": [
+      "Matasano",
+      "Zapote blanco"
+    ],
+    "countries": [
+      "HN",
+      "MX"
+    ],
+    "uses": [
+      "culinary",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "casimiroa_edulis",
+    "scientific_name": "Casimiroa edulis Llave & Lex.",
+    "family": "Rutaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
   },
   {
     "id": "cassia_fistula",
@@ -1664,6 +2331,8 @@
       "Cañaflote",
       "Cañandonga",
       "Carage",
+      "Caragüe",
+      "Carahue",
       "Carao",
       "mare-mare"
     ],
@@ -1682,15 +2351,14 @@
     ]
   },
   {
-    "id": "cassia_occidentalis_l",
+    "id": "cassia_occidentalis",
     "scientific_name": "Cassia occidentalis L.",
     "family": "Fabaceae",
     "names": [
       "Brusca"
     ],
     "countries": [
-      "CO",
-      "PA"
+      "CO"
     ],
     "uses": [
       "medicinal"
@@ -1701,14 +2369,28 @@
     "scientific_name": "Catharanthus roseus",
     "family": "Apocynaceae",
     "names": [
-      "Periwinkle"
+      "Chatía",
+      "Periwinkle",
+      "Pervinca rosada",
+      "Vicaria",
+      "Vincapervinca"
     ],
     "countries": [
-      "GY"
+      "GT",
+      "GY",
+      "MX"
     ],
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "catharanthus_roseus",
+    "scientific_name": "Catharanthus roseus (L.) G. Don",
+    "family": "Apocynaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
   },
   {
     "id": "cecropia_concolor",
@@ -1719,6 +2401,30 @@
     ],
     "countries": [
       "BO"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "cecropia_obtusifolia",
+    "scientific_name": "Cecropia obtusifolia",
+    "family": "Urticaceae",
+    "names": [
+      "Chancarro",
+      "Choop",
+      "Guarumbo",
+      "Guarumo",
+      "Guarumo rojo",
+      "Igarata",
+      "Ix-coch"
+    ],
+    "countries": [
+      "CR",
+      "GT",
+      "HN",
+      "NI",
+      "SV"
     ],
     "uses": [
       "medicinal"
@@ -1742,12 +2448,14 @@
   },
   {
     "id": "cecropia_peltata",
-    "scientific_name": "Cecropia peltata",
+    "scientific_name": "Cecropia peltata L.",
     "family": "Urticaceae",
     "names": [
       "Coiloto palo",
+      "Guarumbo",
       "Guarumo",
       "Imbauba",
+      "X k'aan lool (Maya)",
       "Yagruma",
       "yagruma hembra",
       "Yagrumo"
@@ -1757,8 +2465,17 @@
       "CU",
       "DO",
       "MX",
+      "NI",
       "PA"
     ],
+    "uses": []
+  },
+  {
+    "id": "cecropia_peltata",
+    "scientific_name": "Cecropia peltata",
+    "family": "Urticaceae",
+    "names": [],
+    "countries": [],
     "uses": [
       "medicinal"
     ]
@@ -1774,6 +2491,23 @@
       "GY"
     ],
     "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "celtis_iguanaea",
+    "scientific_name": "Celtis iguanaea",
+    "family": "Cannabaceae",
+    "names": [
+      "Cagalero",
+      "Uña de gato"
+    ],
+    "countries": [
+      "GT",
+      "SV"
+    ],
+    "uses": [
+      "culinary",
       "medicinal"
     ]
   },
@@ -1822,6 +2556,18 @@
     ]
   },
   {
+    "id": "chamaemelum_nobile",
+    "scientific_name": "Chamaemelum nobile (L.) All.",
+    "family": "Asteraceae",
+    "names": [
+      "Manzanilla romana"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
     "id": "chamaesyce_sp",
     "scientific_name": "Chamaesyce sp.",
     "family": "Euphorbiaceae",
@@ -1843,8 +2589,8 @@
       "Agacha cabeza",
       "Amargón",
       "Amargon",
-      "Arnica",
       "Árnica",
+      "Arnica",
       "Arnica del país",
       "Bretónica",
       "hierba de fuego",
@@ -1858,9 +2604,6 @@
       "wuara-dowoo"
     ],
     "countries": [
-      "AR",
-      "BO",
-      "CL",
       "CO",
       "CR",
       "CU",
@@ -1868,12 +2611,23 @@
       "GT",
       "HN",
       "MX",
+      "NI",
       "PA",
-      "PE",
-      "PY",
-      "SV",
-      "UY",
-      "VE"
+      "SV"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "chelidonium_majus",
+    "scientific_name": "Chelidonium majus L.",
+    "family": "Papaveraceae",
+    "names": [
+      "Celidonia"
+    ],
+    "countries": [
+      "ES"
     ],
     "uses": [
       "medicinal"
@@ -1884,13 +2638,15 @@
     "scientific_name": "Chenopodium ambrosioides",
     "family": "Amaranthaceae",
     "names": [
+      "Apazote",
+      "Epazote",
       "Paico"
     ],
     "countries": [
       "AR",
-      "BO",
-      "CL",
-      "PE"
+      "GT",
+      "HN",
+      "NI"
     ],
     "uses": [
       "culinary",
@@ -1905,10 +2661,7 @@
       "Paico"
     ],
     "countries": [
-      "AR",
-      "BO",
-      "CL",
-      "PE"
+      "CL"
     ],
     "uses": [
       "culinary",
@@ -1945,6 +2698,48 @@
     ]
   },
   {
+    "id": "chromolaena_odorata",
+    "scientific_name": "Chromolaena odorata (L.) R. M. King & H. Rob.",
+    "family": "Asteraceae",
+    "names": [
+      "X tok'aban (Maya)"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
+    "id": "chrysanthemum_parthenium",
+    "scientific_name": "Chrysanthemum parthenium (L.) Bernh.",
+    "family": "Asteraceae",
+    "names": [
+      "Altamiza",
+      "Artemisa",
+      "Hierba de Santa María",
+      "Santamaría"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
+    "id": "chrysopogon_zizanioides",
+    "scientific_name": "Chrysopogon zizanioides",
+    "family": "Poaceae",
+    "names": [
+      "Valeriana"
+    ],
+    "countries": [
+      "NI"
+    ],
+    "uses": [
+      "aromatic",
+      "medicinal"
+    ]
+  },
+  {
     "id": "chuquiraga_avellanedae",
     "scientific_name": "Chuquiraga avellanedae",
     "family": "Asteraceae",
@@ -1964,7 +2759,8 @@
     "family": "Asteraceae",
     "names": [
       "Achicoria",
-      "Achicoria amarga"
+      "Achicoria amarga",
+      "Achicoria Amarga"
     ],
     "countries": [
       "CL",
@@ -1976,16 +2772,34 @@
     ]
   },
   {
+    "id": "cichorium_intybus",
+    "scientific_name": "Cichorium intybus L.",
+    "family": "Asteraceae",
+    "names": [],
+    "countries": [],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
     "id": "cinchona_officinalis",
-    "scientific_name": "Cinchona officinalis",
+    "scientific_name": "Cinchona officinalis L.",
     "family": "Rubiaceae",
     "names": [
       "Quina"
     ],
     "countries": [
-      "EC",
+      "MX",
       "PE"
     ],
+    "uses": []
+  },
+  {
+    "id": "cinchona_officinalis",
+    "scientific_name": "Cinchona officinalis",
+    "family": "Rubiaceae",
+    "names": [],
+    "countries": [],
     "uses": [
       "medicinal"
     ]
@@ -1998,12 +2812,38 @@
       "Quina"
     ],
     "countries": [
-      "EC",
-      "PE"
+      "EC"
     ],
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "cinnamomum_verum",
+    "scientific_name": "Cinnamomum verum",
+    "family": "Lauraceae",
+    "names": [
+      "Canela"
+    ],
+    "countries": [
+      "NI"
+    ],
+    "uses": [
+      "culinary",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "cirsium_subcoriaceum",
+    "scientific_name": "Cirsium subcoriaceum (Less.) Sch. Bip.",
+    "family": "Asteraceae",
+    "names": [
+      "Cardo santo (Jalisco)"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
   },
   {
     "id": "cissampelos_pareira",
@@ -2018,18 +2858,28 @@
       "guaco",
       "ixcatú-can",
       "Mil hombres",
-      "Patacón"
+      "Patacón",
+      "X peteltun (Maya)"
     ],
     "countries": [
       "AR",
       "CO",
       "CU",
       "GT",
-      "HN"
+      "HN",
+      "MX"
     ],
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "cissampelos_pareira",
+    "scientific_name": "Cissampelos pareira L.",
+    "family": "Menispermaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
   },
   {
     "id": "cissus_sicyoides",
@@ -2047,15 +2897,42 @@
     ]
   },
   {
+    "id": "citrus_aurantifolia",
+    "scientific_name": "Citrus aurantifolia",
+    "family": "Rutaceae",
+    "names": [
+      "Limón"
+    ],
+    "countries": [
+      "NI"
+    ],
+    "uses": [
+      "culinary",
+      "medicinal"
+    ]
+  },
+  {
     "id": "citrus_aurantium",
     "scientific_name": "Citrus aurantium",
     "family": "Rutaceae",
     "names": [
+      "Naranja Ácida",
+      "Naranja Agria",
+      "Naranja agria",
+      "Naranja Amarga",
+      "Naranja de Sevilla",
+      "Naranjo",
       "Naranjo agrio",
+      "Naranjo Agrio",
       "Naranjo amargo"
     ],
     "countries": [
-      "CL"
+      "CL",
+      "CR",
+      "GT",
+      "HN",
+      "PY",
+      "SV"
     ],
     "uses": [
       "aromatic",
@@ -2077,6 +2954,58 @@
       "culinary",
       "medicinal"
     ]
+  },
+  {
+    "id": "cnidoscolus_aconitifolius",
+    "scientific_name": "Cnidoscolus aconitifolius",
+    "family": "Euphorbiaceae",
+    "names": [
+      "Chaya",
+      "Chaya de monte",
+      "Tsi'ints'inchay (Maya)"
+    ],
+    "countries": [
+      "HN",
+      "MX"
+    ],
+    "uses": [
+      "culinary",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "cnidoscolus_aconitifolius",
+    "scientific_name": "Cnidoscolus aconitifolius (Mill.) I.M. Johnst.",
+    "family": "Euphorbiaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
+  },
+  {
+    "id": "cnidoscolus_chayamansa",
+    "scientific_name": "Cnidoscolus chayamansa McVaugh",
+    "family": "Euphorbiaceae",
+    "names": [
+      "Chaya",
+      "Chaya cultivada"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
+    "id": "cnidoscolus_multilobus",
+    "scientific_name": "Cnidoscolus multilobus (Pax.) I.M. Johnston",
+    "family": "Euphorbiaceae",
+    "names": [
+      "Mala mujer",
+      "Ortiga de cerro"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
   },
   {
     "id": "coccoloba_uvifera",
@@ -2126,9 +3055,13 @@
     "names": [
       "Algodao-bravo",
       "poro-poro",
-      "silk cotton tree"
+      "Pumpo",
+      "silk cotton tree",
+      "Tecomasuche",
+      "Tecomasuchi"
     ],
     "countries": [
+      "GT",
       "PA"
     ],
     "uses": [
@@ -2136,7 +3069,32 @@
     ]
   },
   {
-    "id": "coffea_arabica_l",
+    "id": "cocos_nucifera",
+    "scientific_name": "Cocos nucifera",
+    "family": "Arecaceae",
+    "names": [
+      "Coco",
+      "Coconut"
+    ],
+    "countries": [
+      "GT",
+      "MX"
+    ],
+    "uses": [
+      "culinary",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "cocos_nucifera",
+    "scientific_name": "Cocos nucifera L.",
+    "family": "Arecaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
+  },
+  {
+    "id": "coffea_arabica",
     "scientific_name": "Coffea arabica L.",
     "family": "Rubiaceae",
     "names": [
@@ -2164,6 +3122,19 @@
     ]
   },
   {
+    "id": "commelina_coelestis",
+    "scientific_name": "Commelina coelestis Willd.",
+    "family": "Commelinaceae",
+    "names": [
+      "Chipil de piedra",
+      "Hierba del pollo"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
     "id": "commelina_erecta",
     "scientific_name": "Commelina erecta",
     "family": "Commelinaceae",
@@ -2177,7 +3148,6 @@
       "hierba de sapo",
       "ojo de Santa Lucía",
       "suelda con suelda",
-      "Suelda con suelda",
       "suelda consuelda",
       "Yerba de Santa Lucía"
     ],
@@ -2188,6 +3158,23 @@
       "MX",
       "PA",
       "VE"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "condea_verticillata",
+    "scientific_name": "Condea verticillata",
+    "family": "Lamiaceae",
+    "names": [
+      "Amastrén",
+      "Hierba del dolor",
+      "Jamastrén",
+      "John Charles"
+    ],
+    "countries": [
+      "NI"
     ],
     "uses": [
       "medicinal"
@@ -2240,6 +3227,20 @@
     ]
   },
   {
+    "id": "cordia_bullata",
+    "scientific_name": "Cordia bullata var. globosa",
+    "family": "Boraginaceae",
+    "names": [
+      "Cuajatinta"
+    ],
+    "countries": [
+      "GT"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
     "id": "cordia_cylindrostachya",
     "scientific_name": "Cordia cylindrostachya",
     "family": "Boraginaceae",
@@ -2254,14 +3255,160 @@
     ]
   },
   {
+    "id": "cordia_dentata",
+    "scientific_name": "Cordia dentata",
+    "family": "Boraginaceae",
+    "names": [
+      "Tigüilote"
+    ],
+    "countries": [
+      "NI"
+    ],
+    "uses": [
+      "culinary",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "cordia_dodecandra",
+    "scientific_name": "Cordia dodecandra A. DC.",
+    "family": "Boraginaceae",
+    "names": [
+      "Ciricote"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
+    "id": "cordia_ferruginea",
+    "scientific_name": "Cordia ferruginea",
+    "family": "Boraginaceae",
+    "names": [
+      "Varilla Negra"
+    ],
+    "countries": [
+      "CR"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "cordia_inermis",
+    "scientific_name": "Cordia inermis",
+    "family": "Boraginaceae",
+    "names": [
+      "Arretón",
+      "Barretón",
+      "Cuajatinta",
+      "Parcha"
+    ],
+    "countries": [
+      "GT"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "cordia_spinescens",
+    "scientific_name": "Cordia spinescens",
+    "family": "Boraginaceae",
+    "names": [
+      "Barba de Chumpe",
+      "Bejuco negro",
+      "Varilla negra"
+    ],
+    "countries": [
+      "GT"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "coronopus_didymus",
+    "scientific_name": "Coronopus didymus",
+    "names": [
+      "Mastuerzo"
+    ],
+    "countries": [
+      "AR"
+    ],
+    "uses": []
+  },
+  {
+    "id": "costus_igneus",
+    "scientific_name": "Costus igneus Nak.",
+    "family": "Costaceae",
+    "names": [
+      "Caña brava",
+      "Costus ardiente",
+      "Escalera",
+      "Insulina",
+      "Planta de insulina"
+    ],
+    "countries": [
+      "MX",
+      "VE"
+    ],
+    "uses": []
+  },
+  {
     "id": "costus_igneus",
     "scientific_name": "Costus igneus",
     "family": "Costaceae",
+    "names": [],
+    "countries": [],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "costus_pictus",
+    "scientific_name": "Costus pictus",
+    "family": "Costaceae",
     "names": [
+      "Caña agria",
       "Insulina"
     ],
     "countries": [
-      "VE"
+      "NI"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "costus_spicatus",
+    "scientific_name": "Costus spicatus",
+    "family": "Costaceae",
+    "names": [
+      "Caña Agria"
+    ],
+    "countries": [
+      "CR",
+      "GT",
+      "HN",
+      "NI",
+      "PA"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "coutarea_hexandra",
+    "scientific_name": "Coutarea hexandra",
+    "family": "Rubiaceae",
+    "names": [
+      "Quina",
+      "Quina blanca"
+    ],
+    "countries": [
+      "GT"
     ],
     "uses": [
       "medicinal"
@@ -2272,10 +3419,64 @@
     "scientific_name": "Crataegus monogyna",
     "family": "Rosaceae",
     "names": [
+      "Espino Blanco",
       "Peumo alemán"
     ],
     "countries": [
-      "CL"
+      "CL",
+      "ES"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "crataegus_monogyna",
+    "scientific_name": "Crataegus monogyna Jacq.",
+    "family": "Rosaceae",
+    "names": [],
+    "countries": [],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "crataegus_oxyacantha",
+    "scientific_name": "Crataegus oxyacantha L.",
+    "family": "Rosaceae",
+    "names": [
+      "Espino blanco (European hawthorn)"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
+    "id": "crataegus_pubescens",
+    "scientific_name": "Crataegus pubescens (Kunth) Steud.",
+    "family": "Rosaceae",
+    "names": [
+      "Tejocote",
+      "Tejocote (mexicano)",
+      "Texocotl"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
+    "id": "crescentia_alata",
+    "scientific_name": "Crescentia alata",
+    "family": "Bignoniaceae",
+    "names": [
+      "Jícaro",
+      "Morro de Llano",
+      "Morro pequeño"
+    ],
+    "countries": [
+      "GT"
     ],
     "uses": [
       "medicinal"
@@ -2286,16 +3487,39 @@
     "scientific_name": "Crescentia cujete",
     "family": "Bignoniaceae",
     "names": [
+      "Calabaza",
       "Cuieira",
+      "Guacal",
+      "Jícaro",
+      "Jícaro sabanero",
+      "Morro de Guacal",
       "palo totumas",
-      "Piliche"
+      "Piliche",
+      "Totumo"
     ],
     "countries": [
       "CO",
       "EC",
+      "GT",
+      "NI",
       "PA"
     ],
     "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "crotalaria_guatemalensis",
+    "scientific_name": "Crotalaria guatemalensis",
+    "family": "Fabaceae",
+    "names": [
+      "Chipilín"
+    ],
+    "countries": [
+      "GT"
+    ],
+    "uses": [
+      "culinary",
       "medicinal"
     ]
   },
@@ -2335,6 +3559,20 @@
     ]
   },
   {
+    "id": "croton_reflexifolius",
+    "scientific_name": "Croton reflexifolius",
+    "family": "Euphorbiaceae",
+    "names": [
+      "Copalchi"
+    ],
+    "countries": [
+      "HN"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
     "id": "croton_trinitatis",
     "scientific_name": "Croton trinitatis",
     "family": "Euphorbiaceae",
@@ -2356,10 +3594,57 @@
       "Sangre de drago"
     ],
     "countries": [
-      "AR",
-      "EC"
+      "AR"
     ],
     "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "cucurbita_pepo",
+    "scientific_name": "Cucurbita pepo",
+    "family": "Cucurbitaceae",
+    "names": [
+      "Ayote",
+      "Calabaza"
+    ],
+    "countries": [
+      "HN"
+    ],
+    "uses": [
+      "culinary",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "cuphea_aequipetala",
+    "scientific_name": "Cuphea aequipetala Cav.",
+    "family": "Lythraceae",
+    "names": [
+      "Chinawaxiwitl",
+      "Hierba del cáncer",
+      "Hierba del golpe",
+      "Hierba del golpe (women's use)",
+      "Koskatlakuatzin"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
+    "id": "cupressus_lusitanica",
+    "scientific_name": "Cupressus lusitanica",
+    "family": "Cupressaceae",
+    "names": [
+      "Ciprés"
+    ],
+    "countries": [
+      "CR",
+      "GT"
+    ],
+    "uses": [
+      "aromatic",
       "medicinal"
     ]
   },
@@ -2388,7 +3673,6 @@
     ],
     "countries": [
       "BO",
-      "CL",
       "CO",
       "CR",
       "CU",
@@ -2405,6 +3689,20 @@
     ]
   },
   {
+    "id": "cuscuta_americana",
+    "scientific_name": "Cuscuta americana L.",
+    "family": "Convolvulaceae",
+    "names": [
+      "Cabello de ángel",
+      "Kukustli (Náhuatl)",
+      "Tripa de judas"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
     "id": "cuscuta_chilensis",
     "scientific_name": "Cuscuta chilensis",
     "family": "Convolvulaceae",
@@ -2412,7 +3710,6 @@
       "Cabello de ángel"
     ],
     "countries": [
-      "AR",
       "CL"
     ],
     "uses": [
@@ -2440,11 +3737,22 @@
     "names": [
       "Hierba limón",
       "Limonaria",
-      "Pasto limón"
+      "Pasto limón",
+      "Té Limón",
+      "Té zacate",
+      "Zacate de limón",
+      "Zacate Limón",
+      "Zacate limón",
+      "Zacate Té"
     ],
     "countries": [
       "AR",
       "CO",
+      "CR",
+      "GT",
+      "HN",
+      "MX",
+      "NI",
       "VE"
     ],
     "uses": [
@@ -2452,6 +3760,14 @@
       "culinary",
       "medicinal"
     ]
+  },
+  {
+    "id": "cymbopogon_citratus",
+    "scientific_name": "Cymbopogon citratus (DC.) Stapf",
+    "family": "Poaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
   },
   {
     "id": "cynara_scolymus",
@@ -2470,19 +3786,68 @@
     ]
   },
   {
-    "id": "cynara_scolymus_l",
+    "id": "cynara_scolymus",
     "scientific_name": "Cynara scolymus L.",
     "family": "Asteraceae",
+    "names": [],
+    "countries": [],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "cynodon_dactylon",
+    "scientific_name": "Cynodon dactylon (L.) Pers.",
+    "family": "Poaceae",
     "names": [
-      "Alcachofa"
+      "Bermuda grass",
+      "Grama",
+      "Pata de gallo"
     ],
     "countries": [
-      "CL",
-      "CO"
+      "MX"
+    ],
+    "uses": []
+  },
+  {
+    "id": "dahlia_pinnata",
+    "scientific_name": "Dahlia pinnata Cav.",
+    "family": "Asteraceae",
+    "names": [
+      "Dalia",
+      "Xicamaxóchitl",
+      "Xicamaxóchitl (Náhuatl)"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
+    "id": "datura_stramonium",
+    "scientific_name": "Datura stramonium",
+    "family": "Solanaceae",
+    "names": [
+      "Kieri",
+      "Tapate",
+      "Toloache",
+      "Toloatzin"
+    ],
+    "countries": [
+      "CR",
+      "MX"
     ],
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "datura_stramonium",
+    "scientific_name": "Datura stramonium L.",
+    "family": "Solanaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
   },
   {
     "id": "daucus_carota",
@@ -2519,13 +3884,10 @@
     "scientific_name": "Desmodium uncinatum",
     "family": "Fabaceae",
     "names": [
-      "Amor Seco",
-      "Amor seco"
+      "Amor Seco"
     ],
     "countries": [
-      "AR",
-      "BO",
-      "PE"
+      "BO"
     ],
     "uses": [
       "medicinal"
@@ -2545,6 +3907,20 @@
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "diphysa_yucatanensis",
+    "scientific_name": "Diphysa yucatanensis Hanan-Alipi & M. Sousa",
+    "family": "Fabaceae",
+    "names": [
+      "Ruda de monte",
+      "Ts'uts'uk",
+      "Ts'uts'uk (Maya)"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
   },
   {
     "id": "doliocarpus_major",
@@ -2568,12 +3944,23 @@
       "Contrayerba"
     ],
     "countries": [
-      "AR",
-      "CL"
+      "AR"
     ],
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "dorstenia_contrajerba",
+    "scientific_name": "Dorstenia contrajerba L.",
+    "family": "Moraceae",
+    "names": [
+      "Contrahierba"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
   },
   {
     "id": "dorstenia_contrajerva",
@@ -2581,7 +3968,8 @@
     "family": "Moraceae",
     "names": [
       "contra hierba",
-      "Contrahierba"
+      "Contrahierba",
+      "Contrayerba"
     ],
     "countries": [
       "CR",
@@ -2623,6 +4011,16 @@
     ]
   },
   {
+    "id": "drimys_winteri",
+    "scientific_name": "Drimys winteri J.R. et G.Forster",
+    "family": "Winteraceae",
+    "names": [],
+    "countries": [],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
     "id": "duroia_hirsuta",
     "scientific_name": "Duroia hirsuta",
     "family": "Rubiaceae",
@@ -2658,18 +4056,31 @@
     "family": "Amaranthaceae",
     "names": [
       "Epazote",
-      "Paico"
+      "Epazotl",
+      "Hierba de Santa María",
+      "Mastruz",
+      "Paico",
+      "Yerba del zorrillo"
     ],
     "countries": [
       "AR",
       "BO",
       "CL",
+      "MX",
       "PE"
     ],
     "uses": [
       "culinary",
       "medicinal"
     ]
+  },
+  {
+    "id": "dysphania_ambrosioides",
+    "scientific_name": "Dysphania ambrosioides (L.) Mosyakin & Clemants",
+    "family": "Amaranthaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
   },
   {
     "id": "ecballium_elaterium",
@@ -2782,8 +4193,7 @@
       "Pingo pingo"
     ],
     "countries": [
-      "AR",
-      "CL"
+      "AR"
     ],
     "uses": [
       "medicinal"
@@ -2797,7 +4207,6 @@
       "Pingo pingo"
     ],
     "countries": [
-      "AR",
       "CL"
     ],
     "uses": [
@@ -2813,8 +4222,7 @@
       "Tramontana"
     ],
     "countries": [
-      "AR",
-      "CL"
+      "AR"
     ],
     "uses": [
       "medicinal"
@@ -2835,14 +4243,21 @@
       "rabo-de-touro"
     ],
     "countries": [
-      "AR",
       "BO",
-      "CL",
-      "PA",
-      "PE",
-      "PY",
-      "VE"
+      "ES",
+      "MX",
+      "PA"
     ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "equisetum_arvense",
+    "scientific_name": "Equisetum arvense L.",
+    "family": "Equisetaceae",
+    "names": [],
+    "countries": [],
     "uses": [
       "medicinal"
     ]
@@ -2853,17 +4268,18 @@
     "family": "Equisetaceae",
     "names": [
       "Cola de caballo",
+      "Cola de Caballo",
       "Hierba de la plata",
+      "Hierba de Plata",
       "Limpiaplata",
       "Yerba de la plata"
     ],
     "countries": [
       "AR",
-      "BO",
       "CL",
+      "CR",
       "PA",
       "PE",
-      "PY",
       "VE"
     ],
     "uses": [
@@ -2875,20 +4291,33 @@
     "scientific_name": "Equisetum giganteum",
     "family": "Equisetaceae",
     "names": [
-      "Cola de caballo"
+      "Cepacaballo",
+      "Cola de caballo",
+      "Cola de Caballo",
+      "Cola de Caballo Gigante",
+      "Hierba de Plata"
     ],
     "countries": [
       "AR",
-      "BO",
-      "CL",
-      "PA",
-      "PE",
-      "PY",
-      "VE"
+      "CR",
+      "GT",
+      "PY"
     ],
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "equisetum_hyemale",
+    "scientific_name": "Equisetum hyemale L.",
+    "family": "Equisetaceae",
+    "names": [
+      "Cola de caballo (tallos huecos)"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
   },
   {
     "id": "erodium_cicutarium",
@@ -2909,10 +4338,22 @@
     "scientific_name": "Eryngium foetidum",
     "family": "Apiaceae",
     "names": [
+      "Acapate",
+      "Chicoria",
+      "Cilantro",
       "Cilantro de Fraile",
-      "Culantro"
+      "Culantro",
+      "Culantro Coyote",
+      "Culantro coyote",
+      "Culantro Silvestre",
+      "Culentro de Culebra"
     ],
     "countries": [
+      "CR",
+      "GT",
+      "HN",
+      "NI",
+      "SV",
       "VE"
     ],
     "uses": [
@@ -2994,11 +4435,9 @@
     "names": [
       "Amasisa",
       "palo bobo",
-      "palo santo",
-      "Palo santo"
+      "palo santo"
     ],
     "countries": [
-      "AR",
       "PA"
     ],
     "uses": [
@@ -3025,6 +4464,21 @@
     ]
   },
   {
+    "id": "eucalyptus_camaldulensis",
+    "scientific_name": "Eucalyptus camaldulensis",
+    "family": "Myrtaceae",
+    "names": [
+      "Eucalipto"
+    ],
+    "countries": [
+      "NI"
+    ],
+    "uses": [
+      "aromatic",
+      "medicinal"
+    ]
+  },
+  {
     "id": "eucalyptus_globulus",
     "scientific_name": "Eucalyptus globulus",
     "family": "Myrtaceae",
@@ -3035,6 +4489,7 @@
     "countries": [
       "BO",
       "CL",
+      "HN",
       "PY"
     ],
     "uses": [
@@ -3066,8 +4521,7 @@
       "Chilca"
     ],
     "countries": [
-      "AR",
-      "PE"
+      "AR"
     ],
     "uses": [
       "medicinal"
@@ -3088,6 +4542,32 @@
     ]
   },
   {
+    "id": "euphorbia_antisyphilitica",
+    "scientific_name": "Euphorbia antisyphilitica Zucc.",
+    "family": "Euphorbiaceae",
+    "names": [
+      "Candelilla",
+      "Vela del desierto"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
+    "id": "euphorbia_pulcherrima",
+    "scientific_name": "Euphorbia pulcherrima Willd. ex Klotzsch",
+    "family": "Euphorbiaceae",
+    "names": [
+      "Flor de Nochebuena",
+      "Poinsettia"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
     "id": "euphorbia_serpens",
     "scientific_name": "Euphorbia serpens",
     "family": "Euphorbiaceae",
@@ -3100,6 +4580,35 @@
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "euphorbia_tithymaloides",
+    "scientific_name": "Euphorbia tithymaloides",
+    "family": "Euphorbiaceae",
+    "names": [
+      "Itamo real",
+      "Pie de niño",
+      "Pie de santo"
+    ],
+    "countries": [
+      "GT"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "eysenhardtia_polystachya",
+    "scientific_name": "Eysenhardtia polystachya (Ortega) Sarg.",
+    "family": "Fabaceae",
+    "names": [
+      "Palo azul",
+      "Palo dulce"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
   },
   {
     "id": "fabiana_imbricata",
@@ -3117,6 +4626,34 @@
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "fernaldia_pandurata",
+    "scientific_name": "Fernaldia pandurata",
+    "family": "Apocynaceae",
+    "names": [
+      "Loroco"
+    ],
+    "countries": [
+      "GT"
+    ],
+    "uses": [
+      "culinary",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "ficus_carica",
+    "scientific_name": "Ficus carica L.",
+    "family": "Moraceae",
+    "names": [
+      "Higo",
+      "Higuera"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
   },
   {
     "id": "ficus_insipida",
@@ -3196,6 +4733,7 @@
     "countries": [
       "BO",
       "CL",
+      "ES",
       "PY"
     ],
     "uses": [
@@ -3203,6 +4741,29 @@
       "culinary",
       "medicinal"
     ]
+  },
+  {
+    "id": "foeniculum_vulgare",
+    "scientific_name": "Foeniculum vulgare Mill.",
+    "family": "Apiaceae",
+    "names": [],
+    "countries": [],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "fraxinus_uhdei",
+    "scientific_name": "Fraxinus uhdei (Wenz.) Lingelsh.",
+    "family": "Oleaceae",
+    "names": [
+      "Fresno mexicano",
+      "Páramo"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
   },
   {
     "id": "fuchsia_magellanica",
@@ -3269,8 +4830,7 @@
       "Ñandypá"
     ],
     "countries": [
-      "PA",
-      "PY"
+      "PA"
     ],
     "uses": [
       "medicinal"
@@ -3322,6 +4882,52 @@
     ]
   },
   {
+    "id": "gliricidia_sepium",
+    "scientific_name": "Gliricidia sepium",
+    "family": "Fabaceae",
+    "names": [
+      "Madero",
+      "Madero negro",
+      "Madrecacao",
+      "Madriado"
+    ],
+    "countries": [
+      "GT",
+      "HN",
+      "NI"
+    ],
+    "uses": [
+      "culinary",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "glycyrrhiza_glabra",
+    "scientific_name": "Glycyrrhiza glabra L.",
+    "family": "Fabaceae",
+    "names": [
+      "Regaliz"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "gnaphalium_oxyphyllum",
+    "scientific_name": "Gnaphalium oxyphyllum DC.",
+    "family": "Asteraceae",
+    "names": [
+      "Gordolobo (Valle de México)"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
     "id": "guaiacum_officinale",
     "scientific_name": "Guaiacum officinale",
     "family": "Zygophyllaceae",
@@ -3360,6 +4966,36 @@
     ]
   },
   {
+    "id": "guazuma_ulmifolia",
+    "scientific_name": "Guazuma ulmifolia",
+    "family": "Malvaceae",
+    "names": [
+      "Caulote",
+      "Guácima",
+      "Guácimo",
+      "Guácimo de ternero",
+      "Pixoy (Maya)",
+      "Tapaculo"
+    ],
+    "countries": [
+      "GT",
+      "MX",
+      "NI"
+    ],
+    "uses": [
+      "culinary",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "guazuma_ulmifolia",
+    "scientific_name": "Guazuma ulmifolia Lam.",
+    "family": "Malvaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
+  },
+  {
     "id": "gunnera_tinctoria",
     "scientific_name": "Gunnera tinctoria",
     "family": "Gunneraceae",
@@ -3379,11 +5015,16 @@
     "scientific_name": "Hamelia patens",
     "family": "Rubiaceae",
     "names": [
+      "Balletilla",
       "chac-ixcanan",
+      "Chuchofinto",
+      "Chuchopince",
+      "Coralillo",
       "DOMINICANA). Chichipince",
       "flor de cangrejo",
       "hierba de erisipela",
-      "Hierba de erisipela",
+      "Hierba del cáncer",
+      "Ponponero",
       "red head",
       "SALVADOR). Coloradito",
       "Zorrillo colorado"
@@ -3391,8 +5032,32 @@
     "countries": [
       "CR",
       "GT",
+      "HN",
+      "MX",
       "PA",
       "VE"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "hamelia_patens",
+    "scientific_name": "Hamelia patens Jacq.",
+    "family": "Rubiaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
+  },
+  {
+    "id": "haplopappus_bailahuen",
+    "scientific_name": "Haplopappus bailahuen",
+    "family": "Asteraceae",
+    "names": [
+      "Bailahuén"
+    ],
+    "countries": [
+      "CL"
     ],
     "uses": [
       "medicinal"
@@ -3406,8 +5071,7 @@
       "Bailahuén"
     ],
     "countries": [
-      "AR",
-      "CL"
+      "AR"
     ],
     "uses": [
       "medicinal"
@@ -3421,7 +5085,6 @@
       "Bailahuén"
     ],
     "countries": [
-      "AR",
       "CL"
     ],
     "uses": [
@@ -3433,14 +5096,26 @@
     "scientific_name": "Heimia salicifolia",
     "family": "Lythraceae",
     "names": [
-      "Quiebra arado"
+      "Jara mansa",
+      "Quiebra arado",
+      "Sinicuiche",
+      "Sinicuil"
     ],
     "countries": [
-      "AR"
+      "AR",
+      "MX"
     ],
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "heimia_salicifolia",
+    "scientific_name": "Heimia salicifolia (Kunth) Link",
+    "family": "Lythraceae",
+    "names": [],
+    "countries": [],
+    "uses": []
   },
   {
     "id": "heliotropium_amplexicaule",
@@ -3472,6 +5147,71 @@
     ]
   },
   {
+    "id": "heterotheca_inuloides",
+    "scientific_name": "Heterotheca inuloides Cass.",
+    "family": "Asteraceae",
+    "names": [
+      "Acahual",
+      "Acáhuatal",
+      "Árnica del país",
+      "Árnica mexicana",
+      "Cuateteco",
+      "Cuauteteco",
+      "Falsa árnica"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
+    "id": "hibiscus_rosasinensis",
+    "scientific_name": "Hibiscus rosa-sinensis",
+    "family": "Malvaceae",
+    "names": [
+      "Amapola",
+      "Avispa",
+      "Clavel",
+      "Clavel Panamá",
+      "Clavelón",
+      "Flor de avispa",
+      "Jamaica (decorative)",
+      "Tulipán"
+    ],
+    "countries": [
+      "GT",
+      "MX",
+      "NI"
+    ],
+    "uses": [
+      "culinary",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "hibiscus_rosasinensis",
+    "scientific_name": "Hibiscus rosa-sinensis L.",
+    "family": "Malvaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
+  },
+  {
+    "id": "hibiscus_sabdariffa",
+    "scientific_name": "Hibiscus sabdariffa",
+    "family": "Malvaceae",
+    "names": [
+      "Flor de Jamaica"
+    ],
+    "countries": [
+      "HN"
+    ],
+    "uses": [
+      "culinary",
+      "medicinal"
+    ]
+  },
+  {
     "id": "huperzia_saururus",
     "scientific_name": "Huperzia saururus",
     "family": "Lycopodiaceae",
@@ -3487,29 +5227,69 @@
     ]
   },
   {
+    "id": "hylocereus_costaricensis",
+    "scientific_name": "Hylocereus costaricensis",
+    "family": "Cactaceae",
+    "names": [
+      "Pitahaya"
+    ],
+    "countries": [
+      "NI"
+    ],
+    "uses": [
+      "culinary",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "hylocereus_undatus",
+    "scientific_name": "Hylocereus undatus",
+    "family": "Cactaceae",
+    "names": [
+      "Dragon fruit",
+      "Pitahaya"
+    ],
+    "countries": [
+      "GT",
+      "MX"
+    ],
+    "uses": [
+      "culinary",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "hylocereus_undatus",
+    "scientific_name": "Hylocereus undatus (Haw.) Britton & Rose",
+    "family": "Cactaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
+  },
+  {
     "id": "hymenaea_courbaril",
     "scientific_name": "Hymenaea courbaril",
     "family": "Fabaceae",
     "names": [
+      "Algarrobo",
+      "Guapinol",
       "Paquio"
     ],
     "countries": [
-      "BO"
+      "BO",
+      "CO",
+      "NI"
     ],
     "uses": [
       "medicinal"
     ]
   },
   {
-    "id": "hymenaea_courbaril_l",
+    "id": "hymenaea_courbaril",
     "scientific_name": "Hymenaea courbaril L.",
     "family": "Fabaceae",
-    "names": [
-      "Algarrobo"
-    ],
-    "countries": [
-      "CO"
-    ],
+    "names": [],
+    "countries": [],
     "uses": [
       "medicinal"
     ]
@@ -3537,14 +5317,25 @@
       "Hipérico"
     ],
     "countries": [
-      "CL"
+      "CL",
+      "ES"
     ],
     "uses": [
       "medicinal"
     ]
   },
   {
-    "id": "hyptis_capitata_jacq",
+    "id": "hypericum_perforatum",
+    "scientific_name": "Hypericum perforatum L.",
+    "family": "Hypericaceae",
+    "names": [],
+    "countries": [],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "hyptis_capitata",
     "scientific_name": "Hyptis capitata Jacq.",
     "family": "Lamiaceae",
     "names": [
@@ -3552,6 +5343,39 @@
     ],
     "countries": [
       "CO"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "hyptis_suaveolens",
+    "scientific_name": "Hyptis suaveolens",
+    "family": "Lamiaceae",
+    "names": [
+      "Chan",
+      "Chichiguate",
+      "Chichinguaste",
+      "Salvia blanca"
+    ],
+    "countries": [
+      "GT"
+    ],
+    "uses": [
+      "culinary",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "hyptis_verticillata",
+    "scientific_name": "Hyptis verticillata",
+    "family": "Lamiaceae",
+    "names": [
+      "Hierba Martín",
+      "Verbenón"
+    ],
+    "countries": [
+      "GT"
     ],
     "uses": [
       "medicinal"
@@ -3590,6 +5414,20 @@
     ]
   },
   {
+    "id": "iresine_diffusa",
+    "scientific_name": "Iresine diffusa",
+    "family": "Amaranthaceae",
+    "names": [
+      "Pie de paloma"
+    ],
+    "countries": [
+      "GT"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
     "id": "irlbachia_alata",
     "scientific_name": "Irlbachia alata",
     "family": "Gentianaceae",
@@ -3598,6 +5436,20 @@
     ],
     "countries": [
       "GY"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "ixora_coccinea",
+    "scientific_name": "Ixora coccinea",
+    "family": "Rubiaceae",
+    "names": [
+      "Flor de Genciana"
+    ],
+    "countries": [
+      "NI"
     ],
     "uses": [
       "medicinal"
@@ -3619,6 +5471,21 @@
     ]
   },
   {
+    "id": "jacquinia_pungens",
+    "scientific_name": "Jacquinia pungens",
+    "family": "Primulaceae",
+    "names": [
+      "Cipresillo",
+      "Sacramento"
+    ],
+    "countries": [
+      "GT"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
     "id": "jatropha_curcas",
     "scientific_name": "Jatropha curcas",
     "family": "Euphorbiaceae",
@@ -3628,15 +5495,61 @@
       "Piñón",
       "piñón",
       "piñon",
+      "Piñón (regional)",
       "piñoncillo",
-      "sakilté"
+      "sakilté",
+      "Sikilte'",
+      "Sikilte' (Maya)",
+      "Tempate"
     ],
     "countries": [
       "AR",
       "CO",
       "CR",
       "GT",
+      "HN",
       "MX"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "jatropha_curcas",
+    "scientific_name": "Jatropha curcas L.",
+    "family": "Euphorbiaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
+  },
+  {
+    "id": "jatropha_gaumeri",
+    "scientific_name": "Jatropha gaumeri Greenm.",
+    "family": "Euphorbiaceae",
+    "names": [
+      "Pomolche' (Maya)"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
+    "id": "jatropha_gossypiifolia",
+    "scientific_name": "Jatropha gossypiifolia",
+    "family": "Euphorbiaceae",
+    "names": [
+      "Frailecillo",
+      "Hierba del Fraile",
+      "Purga del fraile",
+      "Purificador de sangre",
+      "Quelite de Fraile",
+      "Quelite del fraile"
+    ],
+    "countries": [
+      "CR",
+      "NI",
+      "SV"
     ],
     "uses": [
       "medicinal"
@@ -3687,28 +5600,39 @@
     ]
   },
   {
-    "id": "justicia_pectoralis_jacq",
+    "id": "justicia_pectoralis",
     "scientific_name": "Justicia pectoralis Jacq.",
     "family": "Acanthaceae",
     "names": [
-      "Amansaguapos / Amansatoros",
+      "Amansaguapos",
+      "Amansatoros",
       "Carpintera\"",
       "Cerebril",
       "Curía",
       "Santa Marta",
-      "tilo",
       "Tilo",
+      "tilo",
       "Yakayú"
     ],
     "countries": [
-      "CL",
       "CO",
       "CR",
       "DO",
+      "GT",
       "HN",
-      "PA",
-      "PY"
+      "NI",
+      "PA"
     ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "justicia_pectoralis",
+    "scientific_name": "Justicia pectoralis",
+    "family": "Acanthaceae",
+    "names": [],
+    "countries": [],
     "uses": [
       "medicinal"
     ]
@@ -3718,11 +5642,72 @@
     "scientific_name": "Justicia secunda",
     "family": "Acanthaceae",
     "names": [
+      "Insulina",
       "St. John Bush"
     ],
     "countries": [
-      "GY"
+      "GY",
+      "NI"
     ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "justicia_spicigera",
+    "scientific_name": "Justicia spicigera Schlechtendal",
+    "family": "Acanthaceae",
+    "names": [
+      "Hierba azul",
+      "Insulina",
+      "Moitle",
+      "Mouait",
+      "Mouitl",
+      "Muicle",
+      "Pico de colibrí",
+      "Sangre de Cristo",
+      "Siete vidas"
+    ],
+    "countries": [
+      "MX",
+      "NI"
+    ],
+    "uses": []
+  },
+  {
+    "id": "justicia_spicigera",
+    "scientific_name": "Justicia spicigera",
+    "family": "Acanthaceae",
+    "names": [],
+    "countries": [],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "kalanchoe_pinnata",
+    "scientific_name": "Kalanchoe pinnata (Lam.) Pers.",
+    "family": "Crassulaceae",
+    "names": [
+      "Hierba de la bruja",
+      "Hoja de milagro",
+      "Hoja de milagro (indirect)",
+      "Hoja del aire",
+      "Mala madre",
+      "Siempreviva"
+    ],
+    "countries": [
+      "MX",
+      "NI"
+    ],
+    "uses": []
+  },
+  {
+    "id": "kalanchoe_pinnata",
+    "scientific_name": "Kalanchoe pinnata",
+    "family": "Crassulaceae",
+    "names": [],
+    "countries": [],
     "uses": [
       "medicinal"
     ]
@@ -3747,16 +5732,29 @@
     "family": "Verbenaceae",
     "names": [
       "Camará",
+      "Chiligua negrita",
+      "Cinco Negritos",
       "Lantana",
+      "Siete negritos",
       "Sweet Sage"
     ],
     "countries": [
       "AR",
-      "GY"
+      "GT",
+      "GY",
+      "MX"
     ],
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "lantana_camara",
+    "scientific_name": "Lantana camara L.",
+    "family": "Verbenaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
   },
   {
     "id": "laretia_acaulis",
@@ -3788,6 +5786,20 @@
     ]
   },
   {
+    "id": "laurus_nobilis",
+    "scientific_name": "Laurus nobilis L.",
+    "family": "Lauraceae",
+    "names": [
+      "Laurel"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
     "id": "lavandula_angustifolia",
     "scientific_name": "Lavandula angustifolia",
     "family": "Lamiaceae",
@@ -3795,12 +5807,50 @@
       "Lavanda"
     ],
     "countries": [
-      "CL"
+      "CL",
+      "ES"
     ],
     "uses": [
       "aromatic",
       "medicinal"
     ]
+  },
+  {
+    "id": "lavandula_angustifolia",
+    "scientific_name": "Lavandula angustifolia Mill.",
+    "family": "Lamiaceae",
+    "names": [],
+    "countries": [],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "leonotis_nepetifolia",
+    "scientific_name": "Leonotis nepetifolia (L.) R. Br.",
+    "family": "Lamiaceae",
+    "names": [
+      "Cardo",
+      "Cola de León",
+      "Flor de mundo"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
+    "id": "lepechinia_caulescens",
+    "scientific_name": "Lepechinia caulescens (Ort.) Epling",
+    "family": "Lamiaceae",
+    "names": [
+      "Bretónica",
+      "Sonaja"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
   },
   {
     "id": "lepidium_meyenii",
@@ -3899,13 +5949,75 @@
     "scientific_name": "Lippia alba",
     "family": "Verbenaceae",
     "names": [
-      "Salvia morada"
+      "Alhucema",
+      "Guanislama",
+      "Hierba de tapón",
+      "Hierba del dolor",
+      "Juanilama",
+      "Juanislama",
+      "Mastranto",
+      "Orégano",
+      "Pronto alivio",
+      "Roldana",
+      "Salvia",
+      "Salvia morada",
+      "Salvia Santa",
+      "Salvia Sija",
+      "Santa María"
     ],
     "countries": [
-      "AR"
+      "AR",
+      "CR",
+      "GT",
+      "MX",
+      "NI",
+      "PA"
     ],
     "uses": [
       "aromatic",
+      "culinary",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "lippia_alba",
+    "scientific_name": "Lippia alba (Mill.) N.E. Br. ex Britton & P. Wilson",
+    "family": "Verbenaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
+  },
+  {
+    "id": "lippia_dulcis",
+    "scientific_name": "Lippia dulcis",
+    "family": "Verbenaceae",
+    "names": [
+      "Orozú",
+      "Urusul"
+    ],
+    "countries": [
+      "NI"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "lippia_graveolens",
+    "scientific_name": "Lippia graveolens",
+    "family": "Verbenaceae",
+    "names": [
+      "Mejorana",
+      "Oreganito",
+      "Orégano",
+      "Orégano de Monte"
+    ],
+    "countries": [
+      "CR",
+      "GT",
+      "HN"
+    ],
+    "uses": [
       "culinary",
       "medicinal"
     ]
@@ -3927,6 +6039,23 @@
     ]
   },
   {
+    "id": "lippia_micromera",
+    "scientific_name": "Lippia micromera",
+    "family": "Verbenaceae",
+    "names": [
+      "Orégano",
+      "Orégano chiquito",
+      "Orégano de hoja fina"
+    ],
+    "countries": [
+      "NI"
+    ],
+    "uses": [
+      "culinary",
+      "medicinal"
+    ]
+  },
+  {
     "id": "lippia_turbinata",
     "scientific_name": "Lippia turbinata",
     "family": "Verbenaceae",
@@ -3936,9 +6065,7 @@
       "Té del país"
     ],
     "countries": [
-      "AR",
-      "CL",
-      "PY"
+      "AR"
     ],
     "uses": [
       "culinary",
@@ -3955,14 +6082,37 @@
       "Molle dulce"
     ],
     "countries": [
-      "AR",
-      "BO",
-      "CL",
-      "PE"
+      "AR"
     ],
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "loeselia_mexicana",
+    "scientific_name": "Loeselia mexicana (Lam.) Brand.",
+    "family": "Polemoniaceae",
+    "names": [
+      "Chuparrosa",
+      "Espinosilla",
+      "Hierba de la Virgen"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
+    "id": "lomatia_hirsuta",
+    "scientific_name": "Lomatia hirsuta",
+    "names": [
+      "Radal"
+    ],
+    "countries": [
+      "AR",
+      "CL"
+    ],
+    "uses": []
   },
   {
     "id": "ludwigia_erecta",
@@ -3973,6 +6123,20 @@
     ],
     "countries": [
       "GY"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "luehea_candida",
+    "scientific_name": "Luehea candida",
+    "family": "Malvaceae",
+    "names": [
+      "Guácimo de molenillo"
+    ],
+    "countries": [
+      "NI"
     ],
     "uses": [
       "medicinal"
@@ -3993,15 +6157,41 @@
     ]
   },
   {
+    "id": "luffa_sepium",
+    "scientific_name": "Luffa sepium",
+    "family": "Cucurbitaceae",
+    "names": [
+      "Bejuco Pashtíllo",
+      "Pashtío"
+    ],
+    "countries": [
+      "GT"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
     "id": "luma_chequen",
     "scientific_name": "Luma chequen",
     "family": "Myrtaceae",
     "names": [
-      "Arrayán"
+      "Arrayán",
+      "Chequén"
     ],
     "countries": [
       "CL"
     ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "luma_chequen",
+    "scientific_name": "Luma chequen (Mol.) A. Gray",
+    "family": "Myrtaceae",
+    "names": [],
+    "countries": [],
     "uses": [
       "medicinal"
     ]
@@ -4022,6 +6212,35 @@
     ]
   },
   {
+    "id": "lygodium_venustum",
+    "scientific_name": "Lygodium venustum",
+    "family": "Lygodiaceae",
+    "names": [
+      "Crespillo",
+      "Crispillo"
+    ],
+    "countries": [
+      "GT"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "malva_parviflora",
+    "scientific_name": "Malva parviflora",
+    "family": "Malvaceae",
+    "names": [
+      "Malva"
+    ],
+    "countries": [
+      "HN"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
     "id": "malva_sylvestris",
     "scientific_name": "Malva sylvestris",
     "family": "Malvaceae",
@@ -4030,11 +6249,78 @@
     ],
     "countries": [
       "CL",
+      "ES",
       "PY"
     ],
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "malva_sylvestris",
+    "scientific_name": "Malva sylvestris L.",
+    "family": "Malvaceae",
+    "names": [],
+    "countries": [],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "malvaviscus_arboreus",
+    "scientific_name": "Malvaviscus arboreus Cav.",
+    "family": "Malvaceae",
+    "names": [
+      "Amapola",
+      "Malva",
+      "Manzanita de Indias",
+      "Monacillo",
+      "Quesillo"
+    ],
+    "countries": [
+      "MX",
+      "NI"
+    ],
+    "uses": []
+  },
+  {
+    "id": "malvaviscus_arboreus",
+    "scientific_name": "Malvaviscus arboreus",
+    "family": "Malvaceae",
+    "names": [],
+    "countries": [],
+    "uses": [
+      "culinary",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "mangifera_indica",
+    "scientific_name": "Mangifera indica",
+    "family": "Anacardiaceae",
+    "names": [
+      "Mango"
+    ],
+    "countries": [
+      "NI"
+    ],
+    "uses": [
+      "culinary",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "manihot_esculenta",
+    "scientific_name": "Manihot esculenta Crantz",
+    "family": "Euphorbiaceae",
+    "names": [
+      "Mandioca",
+      "Yuca"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
   },
   {
     "id": "mansoa_alliacea",
@@ -4086,11 +6372,36 @@
     "scientific_name": "Marrubium vulgare",
     "family": "Lamiaceae",
     "names": [
+      "Malcubio",
       "Marrubio",
+      "Marrubio blanco",
       "Toronjil cuyano"
     ],
     "countries": [
-      "CL"
+      "CL",
+      "MX"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "marrubium_vulgare",
+    "scientific_name": "Marrubium vulgare L.",
+    "family": "Lamiaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
+  },
+  {
+    "id": "martynia_annua",
+    "scientific_name": "Martynia annua",
+    "family": "Martyniaceae",
+    "names": [
+      "Uña de gato"
+    ],
+    "countries": [
+      "GT"
     ],
     "uses": [
       "medicinal"
@@ -4101,16 +6412,22 @@
     "scientific_name": "Matricaria chamomilla",
     "family": "Asteraceae",
     "names": [
-      "Manzanilla"
+      "Camomila",
+      "Manzanilla",
+      "Manzanilla alemana",
+      "Matricaria"
     ],
     "countries": [
       "AR",
       "BO",
       "CL",
       "CO",
-      "EC",
+      "CR",
+      "GT",
+      "MX",
+      "PA",
       "PE",
-      "PY",
+      "SV",
       "UY",
       "VE"
     ],
@@ -4120,6 +6437,14 @@
       "medicinal",
       "tea"
     ]
+  },
+  {
+    "id": "matricaria_chamomilla",
+    "scientific_name": "Matricaria chamomilla L.",
+    "family": "Asteraceae",
+    "names": [],
+    "countries": [],
+    "uses": []
   },
   {
     "id": "matricaria_recutita",
@@ -4133,11 +6458,9 @@
     ],
     "countries": [
       "AR",
-      "BO",
       "CL",
-      "CO",
       "EC",
-      "PE",
+      "ES",
       "PY",
       "UY",
       "VE"
@@ -4145,6 +6468,16 @@
     "uses": [
       "aromatic",
       "culinary",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "matricaria_recutita",
+    "scientific_name": "Matricaria recutita L.",
+    "family": "Asteraceae",
+    "names": [],
+    "countries": [],
+    "uses": [
       "medicinal"
     ]
   },
@@ -4227,6 +6560,7 @@
     "scientific_name": "Melissa officinalis",
     "family": "Lamiaceae",
     "names": [
+      "Citronela",
       "Melisa",
       "Melissa",
       "Toronjil",
@@ -4236,9 +6570,10 @@
       "AR",
       "BO",
       "CL",
-      "EC",
+      "ES",
+      "MX",
+      "NI",
       "PE",
-      "PY",
       "UY"
     ],
     "uses": [
@@ -4246,6 +6581,30 @@
       "culinary",
       "medicinal"
     ]
+  },
+  {
+    "id": "melissa_officinalis",
+    "scientific_name": "Melissa officinalis L.",
+    "family": "Lamiaceae",
+    "names": [],
+    "countries": [],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "mentha_piperita",
+    "scientific_name": "Mentha piperita L.",
+    "family": "Lamiaceae",
+    "names": [
+      "Hierbabuena china",
+      "Menta",
+      "Peppermint"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
   },
   {
     "id": "mentha_pulegium",
@@ -4256,8 +6615,9 @@
       "Poleo"
     ],
     "countries": [
-      "AR",
       "CL",
+      "ES",
+      "MX",
       "PY"
     ],
     "uses": [
@@ -4266,20 +6626,43 @@
     ]
   },
   {
+    "id": "mentha_pulegium",
+    "scientific_name": "Mentha pulegium L.",
+    "family": "Lamiaceae",
+    "names": [],
+    "countries": [],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
     "id": "mentha_spicata",
     "scientific_name": "Mentha spicata",
     "family": "Lamiaceae",
     "names": [
-      "Hierba buena",
+      "Alavina",
+      "Arvino",
       "Hierba Buena",
+      "Hierba buena",
       "Hierbabuena",
-      "Menta"
+      "Menta",
+      "Menta Dulce",
+      "Pan Sut",
+      "Spearmint",
+      "Yerba Buena",
+      "Yerba buena"
     ],
     "countries": [
       "AR",
       "CL",
       "CO",
+      "CR",
       "EC",
+      "ES",
+      "GT",
+      "HN",
+      "MX",
+      "PA",
       "PE",
       "PY",
       "VE"
@@ -4291,23 +6674,48 @@
     ]
   },
   {
-    "id": "mentha_x_piperita",
+    "id": "mentha_spicata",
+    "scientific_name": "Mentha spicata L.",
+    "family": "Lamiaceae",
+    "names": [],
+    "countries": [],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "mentha_viridis",
+    "scientific_name": "Mentha viridis L.",
+    "family": "Lamiaceae",
+    "names": [
+      "Hierbabuena lisa",
+      "Poleo",
+      "Poleo (Estado de México)"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
+    "id": "mentha_x",
     "scientific_name": "Mentha x piperita",
     "family": "Lamiaceae",
     "names": [
+      "Hierba buena de pepermin",
       "Hierbabuena",
+      "Hierbabuena china",
       "Menta",
       "Menta negra",
-      "Menta piperita"
+      "Menta piperita",
+      "Peppermint"
     ],
     "countries": [
       "AR",
       "CL",
-      "CO",
-      "EC",
-      "PE",
-      "PY",
-      "VE"
+      "MX",
+      "NI",
+      "PE"
     ],
     "uses": [
       "aromatic",
@@ -4337,13 +6745,50 @@
       "Guaco"
     ],
     "countries": [
-      "AR",
-      "GT",
-      "HN"
+      "AR"
     ],
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "mimosa_bahamensis",
+    "scientific_name": "Mimosa bahamensis Benth.",
+    "family": "Fabaceae",
+    "names": [
+      "Sak katsim (Maya)"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
+    "id": "mimosa_pudica",
+    "scientific_name": "Mimosa pudica",
+    "family": "Fabaceae",
+    "names": [
+      "Dormilona",
+      "Sensitiva",
+      "X muts' (Maya)"
+    ],
+    "countries": [
+      "CR",
+      "HN",
+      "MX",
+      "NI"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "mimosa_pudica",
+    "scientific_name": "Mimosa pudica L.",
+    "family": "Fabaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
   },
   {
     "id": "mimosa_tenuiflora",
@@ -4384,14 +6829,26 @@
     "scientific_name": "Mirabilis jalapa",
     "family": "Nyctaginaceae",
     "names": [
-      "Dondiego de noche"
+      "Don Diego de noche",
+      "Dondiego de noche",
+      "Linda tarde",
+      "Maravilla"
     ],
     "countries": [
-      "AR"
+      "AR",
+      "MX"
     ],
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "mirabilis_jalapa",
+    "scientific_name": "Mirabilis jalapa L.",
+    "family": "Nyctaginaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
   },
   {
     "id": "momordica_charantia",
@@ -4399,12 +6856,25 @@
     "family": "Cucurbitaceae",
     "names": [
       "Balsamina",
-      "Coraila"
+      "Balsamino",
+      "Calaica",
+      "Coraila",
+      "Cunde Amor",
+      "Cundeamor",
+      "Jaiba",
+      "Pepinillo",
+      "Sorosí",
+      "Valeriana"
     ],
     "countries": [
       "BO",
       "CO",
-      "GY"
+      "CR",
+      "GT",
+      "GY",
+      "HN",
+      "SV",
+      "VE"
     ],
     "uses": [
       "culinary",
@@ -4412,28 +6882,28 @@
     ]
   },
   {
-    "id": "momordica_charantia_l",
+    "id": "momordica_charantia",
     "scientific_name": "Momordica charantia L.",
     "family": "Cucurbitaceae",
-    "names": [
-      "Balsamina",
-      "Coraila",
-      "Cundeamor",
-      "Valeriana"
-    ],
-    "countries": [
-      "AR",
-      "BO",
-      "CL",
-      "CO",
-      "GT",
-      "GY",
-      "PE",
-      "VE"
-    ],
+    "names": [],
+    "countries": [],
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "montanoa_tomentosa",
+    "scientific_name": "Montanoa tomentosa Cerv.",
+    "family": "Asteraceae",
+    "names": [
+      "Cihuapatli",
+      "Cihuapatli (Náhuatl: 'medicine of the woman')",
+      "Zoapatle"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
   },
   {
     "id": "montrichardia_arborescens",
@@ -4446,6 +6916,45 @@
       "GY"
     ],
     "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "morinda_citrifolia",
+    "scientific_name": "Morinda citrifolia",
+    "family": "Rubiaceae",
+    "names": [
+      "Noni"
+    ],
+    "countries": [
+      "HN",
+      "MX",
+      "NI"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "morinda_citrifolia",
+    "scientific_name": "Morinda citrifolia L.",
+    "family": "Rubiaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
+  },
+  {
+    "id": "moringa_oleifera",
+    "scientific_name": "Moringa oleifera",
+    "family": "Moringaceae",
+    "names": [
+      "Paraíso"
+    ],
+    "countries": [
+      "GT"
+    ],
+    "uses": [
+      "culinary",
       "medicinal"
     ]
   },
@@ -4517,10 +7026,7 @@
       "Uña de gato"
     ],
     "countries": [
-      "AR",
-      "BO",
-      "EC",
-      "PE"
+      "AR"
     ],
     "uses": [
       "medicinal"
@@ -4556,19 +7062,56 @@
     ]
   },
   {
+    "id": "myroxylon_balsamum",
+    "scientific_name": "Myroxylon balsamum",
+    "family": "Fabaceae",
+    "names": [
+      "Bálsamo",
+      "Sándalo"
+    ],
+    "countries": [
+      "NI"
+    ],
+    "uses": [
+      "aromatic",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "nerium_oleander",
+    "scientific_name": "Nerium oleander",
+    "family": "Apocynaceae",
+    "names": [
+      "Narciso"
+    ],
+    "countries": [
+      "GT"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
     "id": "neurolaena_lobata",
     "scientific_name": "Neurolaena lobata",
     "family": "Asteraceae",
     "names": [
       "Balsilla",
+      "Capitana",
+      "Contragavilana",
+      "Gavilana",
+      "Gavilana e Hierba Amarga",
       "Mano de lagarto",
       "mano de tigre",
       "Salvia cimarrona",
+      "Santa María de Anís",
       "tres puntas",
       "yerba del cáncer"
     ],
     "countries": [
       "CO",
+      "CR",
+      "GT",
       "HN",
       "VE"
     ],
@@ -4598,7 +7141,23 @@
       "Tabaco"
     ],
     "countries": [
-      "BO"
+      "BO",
+      "GT"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "nymphaea_ampla",
+    "scientific_name": "Nymphaea ampla",
+    "family": "Nymphaeaceae",
+    "names": [
+      "Balona",
+      "Ninfa"
+    ],
+    "countries": [
+      "GT"
     ],
     "uses": [
       "medicinal"
@@ -4609,14 +7168,22 @@
     "scientific_name": "Ocimum basilicum",
     "family": "Lamiaceae",
     "names": [
-      "Albahaca"
+      "Albahaca",
+      "Albahacar",
+      "Orégano (occasional)"
     ],
     "countries": [
       "CL",
       "CO",
+      "CR",
       "EC",
+      "ES",
+      "GT",
       "HN",
-      "PY"
+      "MX",
+      "NI",
+      "PY",
+      "SV"
     ],
     "uses": [
       "aromatic",
@@ -4625,19 +7192,11 @@
     ]
   },
   {
-    "id": "ocimum_basilicum_l",
+    "id": "ocimum_basilicum",
     "scientific_name": "Ocimum basilicum L.",
     "family": "Lamiaceae",
-    "names": [
-      "Albahaca"
-    ],
-    "countries": [
-      "CL",
-      "CO",
-      "EC",
-      "HN",
-      "PY"
-    ],
+    "names": [],
+    "countries": [],
     "uses": [
       "culinary",
       "medicinal"
@@ -4645,27 +7204,37 @@
   },
   {
     "id": "ocimum_campechianum",
-    "scientific_name": "Ocimum campechianum",
+    "scientific_name": "Ocimum campechianum Mill.",
     "family": "Lamiaceae",
     "names": [
       "Albaca de gallina",
       "albaca de monte",
-      "Albahaca"
+      "Albahaca",
+      "Albahaca de monte",
+      "Albahaca montera",
+      "X kakaltuun",
+      "X kakaltuun (Maya)"
     ],
     "countries": [
-      "CL",
-      "CO",
-      "EC",
       "HN",
-      "PY"
+      "MX",
+      "NI"
     ],
+    "uses": []
+  },
+  {
+    "id": "ocimum_campechianum",
+    "scientific_name": "Ocimum campechianum",
+    "family": "Lamiaceae",
+    "names": [],
+    "countries": [],
     "uses": [
       "aromatic",
       "medicinal"
     ]
   },
   {
-    "id": "ocimum_sanctum_l",
+    "id": "ocimum_sanctum",
     "scientific_name": "Ocimum sanctum L.",
     "family": "Lamiaceae",
     "names": [
@@ -4687,8 +7256,7 @@
       "Olivo"
     ],
     "countries": [
-      "CL",
-      "PA"
+      "CL"
     ],
     "uses": [
       "culinary",
@@ -4741,6 +7309,36 @@
     ]
   },
   {
+    "id": "pachira_aquatica",
+    "scientific_name": "Pachira aquatica",
+    "family": "Malvaceae",
+    "names": [
+      "Pumpo",
+      "Sapotón",
+      "Zapotón"
+    ],
+    "countries": [
+      "GT"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "papaver_rhoeas",
+    "scientific_name": "Papaver rhoeas L.",
+    "family": "Papaveraceae",
+    "names": [
+      "Amapola"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
     "id": "parkinsonia_aculeata",
     "scientific_name": "Parkinsonia aculeata",
     "family": "Fabaceae",
@@ -4753,6 +7351,32 @@
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "parthenium_hysterophorus",
+    "scientific_name": "Parthenium hysterophorus",
+    "family": "Asteraceae",
+    "names": [
+      "Altamisa",
+      "Altamiz",
+      "Altanisa",
+      "X waat che (Maya)"
+    ],
+    "countries": [
+      "HN",
+      "MX"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "parthenium_hysterophorus",
+    "scientific_name": "Parthenium hysterophorus L.",
+    "family": "Asteraceae",
+    "names": [],
+    "countries": [],
+    "uses": []
   },
   {
     "id": "paspalum_vaginatum",
@@ -4787,15 +7411,73 @@
     ]
   },
   {
+    "id": "passiflora_edulis",
+    "scientific_name": "Passiflora edulis Sims",
+    "family": "Passifloraceae",
+    "names": [
+      "Calala",
+      "Maracuyá",
+      "Mburucuyá",
+      "Pasiflora",
+      "Pasionaria"
+    ],
+    "countries": [
+      "MX",
+      "NI",
+      "PY"
+    ],
+    "uses": []
+  },
+  {
+    "id": "passiflora_edulis",
+    "scientific_name": "Passiflora edulis",
+    "family": "Passifloraceae",
+    "names": [],
+    "countries": [],
+    "uses": [
+      "culinary",
+      "medicinal"
+    ]
+  },
+  {
     "id": "passiflora_foetida",
     "scientific_name": "Passiflora foetida",
     "family": "Passifloraceae",
     "names": [
+      "Cancerina",
       "Semito",
-      "Simatoo"
+      "Simatoo",
+      "X tok xiiw (Maya)"
     ],
     "countries": [
-      "GY"
+      "GY",
+      "MX"
+    ],
+    "uses": [
+      "culinary",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "passiflora_foetida",
+    "scientific_name": "Passiflora foetida L.",
+    "family": "Passifloraceae",
+    "names": [],
+    "countries": [],
+    "uses": []
+  },
+  {
+    "id": "passiflora_quadrangularis",
+    "scientific_name": "Passiflora quadrangularis",
+    "family": "Passifloraceae",
+    "names": [
+      "Calzoncillo",
+      "Granadilla Real",
+      "Pasiflora"
+    ],
+    "countries": [
+      "CR",
+      "GT"
     ],
     "uses": [
       "culinary",
@@ -4823,12 +7505,14 @@
     "scientific_name": "Persea americana",
     "family": "Lauraceae",
     "names": [
+      "Aguacate",
       "Palto",
       "Pepa de Palta"
     ],
     "countries": [
       "BO",
-      "CL"
+      "CL",
+      "NI"
     ],
     "uses": [
       "culinary",
@@ -4855,35 +7539,37 @@
     "family": "Phytolaccaceae",
     "names": [
       "Anamú",
-      "Petiveria"
+      "Apacín",
+      "chimú",
+      "da-hua-ta",
+      "Hierba de zorrillo",
+      "hierba hedionda",
+      "Ipacín",
+      "Mikura",
+      "Petiveria",
+      "pipí",
+      "Zorrillo"
     ],
     "countries": [
       "AR",
-      "CO"
+      "BO",
+      "CO",
+      "GT",
+      "HN",
+      "NI",
+      "PA",
+      "VE"
     ],
     "uses": [
       "medicinal"
     ]
   },
   {
-    "id": "petiveria_alliacea_l",
+    "id": "petiveria_alliacea",
     "scientific_name": "Petiveria alliacea L.",
     "family": "Phytolaccaceae",
-    "names": [
-      "Anamú",
-      "chimú",
-      "da-hua-ta",
-      "hierba hedionda",
-      "Mikura",
-      "pipí"
-    ],
-    "countries": [
-      "AR",
-      "BO",
-      "CO",
-      "PA",
-      "VE"
-    ],
+    "names": [],
+    "countries": [],
     "uses": [
       "medicinal"
     ]
@@ -4899,6 +7585,8 @@
       "AR",
       "CL",
       "CO",
+      "ES",
+      "MX",
       "PE",
       "PY",
       "UY"
@@ -4910,41 +7598,56 @@
     ]
   },
   {
-    "id": "peumus_boldus_molina",
-    "scientific_name": "Peumus boldus Molina.",
+    "id": "peumus_boldus",
+    "scientific_name": "Peumus boldus Mol.",
     "family": "Monimiaceae",
-    "names": [
-      "Boldo"
-    ],
-    "countries": [
-      "AR",
-      "CL",
-      "CO",
-      "PE",
-      "PY",
-      "UY"
-    ],
+    "names": [],
+    "countries": [],
     "uses": [
       "medicinal"
     ]
   },
   {
-    "id": "peumus_boldus_molina",
+    "id": "peumus_boldus",
+    "scientific_name": "Peumus boldus Molina.",
+    "family": "Monimiaceae",
+    "names": [],
+    "countries": [],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "peumus_boldus",
     "scientific_name": "Peumus boldus Molina",
     "family": "Monimiaceae",
     "names": [],
     "countries": [],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "phaseolus_vulgaris",
+    "scientific_name": "Phaseolus vulgaris L.",
+    "family": "Fabaceae",
+    "names": [
+      "Ejote",
+      "Frijol"
+    ],
+    "countries": [
+      "MX"
+    ],
     "uses": []
   },
   {
-    "id": "phlebodium_pseudoaureum_cav_lellinger",
+    "id": "phlebodium_pseudoaureum",
     "scientific_name": "Phlebodium pseudoaureum (Cav.)\n   Lellinger",
     "family": "Polypodiaceae",
     "names": [
       "Calaguala"
     ],
     "countries": [
-      "CL",
       "CO"
     ],
     "uses": [
@@ -4958,12 +7661,10 @@
     "names": [
       "Cocoxíhuitl",
       "hierba dulce",
-      "Hierba dulce",
       "Oro azul",
       "orosú"
     ],
     "countries": [
-      "CL",
       "MX",
       "PA"
     ],
@@ -4979,6 +7680,7 @@
       "Chanca Piedra",
       "Chancapiedra",
       "Flor escondida",
+      "Planta flor escondida",
       "Quebra Piedra",
       "Rompe piedra",
       "Sarandicito"
@@ -4986,12 +7688,21 @@
     "countries": [
       "AR",
       "BO",
+      "MX",
       "PE",
       "VE"
     ],
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "phyllanthus_niruri",
+    "scientific_name": "Phyllanthus niruri L.",
+    "family": "Phyllanthaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
   },
   {
     "id": "phyllanthus_sellowianus",
@@ -5023,6 +7734,20 @@
     ]
   },
   {
+    "id": "phytolacca_icosandra",
+    "scientific_name": "Phytolacca icosandra L.",
+    "family": "Phytolaccaceae",
+    "names": [
+      "Congora",
+      "Fitolaca",
+      "Mazorquilla"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
     "id": "picrasma_crenata",
     "scientific_name": "Picrasma crenata",
     "family": "Simaroubaceae",
@@ -5049,6 +7774,7 @@
       "BO",
       "CL",
       "CO",
+      "ES",
       "PY"
     ],
     "uses": [
@@ -5058,17 +7784,11 @@
     ]
   },
   {
-    "id": "pimpinella_anisum_l",
+    "id": "pimpinella_anisum",
     "scientific_name": "Pimpinella anisum L.",
     "family": "Apiaceae",
-    "names": [
-      "Anís"
-    ],
-    "countries": [
-      "CL",
-      "CO",
-      "PY"
-    ],
+    "names": [],
+    "countries": [],
     "uses": [
       "medicinal"
     ]
@@ -5116,9 +7836,7 @@
       "yerba del soldado"
     ],
     "countries": [
-      "AR",
       "BO",
-      "CL",
       "CO",
       "EC",
       "PA",
@@ -5133,20 +7851,38 @@
     "scientific_name": "Piper auritum",
     "family": "Piperaceae",
     "names": [
+      "Acoyo",
+      "Acuyo",
       "Anisillo",
+      "Caisimón de anís",
+      "Corazón de María",
       "cow fool",
+      "Hierba santa",
       "hoja de la estrella",
-      "Santa María"
+      "Hoja santa",
+      "Insulina",
+      "Milagrosa",
+      "Santa María",
+      "Tlanekpakilitl"
     ],
     "countries": [
       "CR",
       "HN",
-      "MX"
+      "MX",
+      "NI"
     ],
     "uses": [
       "culinary",
       "medicinal"
     ]
+  },
+  {
+    "id": "piper_auritum",
+    "scientific_name": "Piper auritum Kunth",
+    "family": "Piperaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
   },
   {
     "id": "piper_obliquum",
@@ -5183,6 +7919,44 @@
     ]
   },
   {
+    "id": "piper_sanctus",
+    "scientific_name": "Piper sanctus (Miq.) Schlechtendal",
+    "family": "Piperaceae",
+    "names": [
+      "Hoja santa (CEFOFOR)"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
+    "id": "pithecellobium_dulce",
+    "scientific_name": "Pithecellobium dulce",
+    "family": "Fabaceae",
+    "names": [
+      "Cuamuchil",
+      "Guachimol",
+      "Guamúchil"
+    ],
+    "countries": [
+      "GT",
+      "MX"
+    ],
+    "uses": [
+      "culinary",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "pithecellobium_dulce",
+    "scientific_name": "Pithecellobium dulce (Roxb.) Benth.",
+    "family": "Fabaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
+  },
+  {
     "id": "pityrogramma_calomelanos",
     "scientific_name": "Pityrogramma calomelanos",
     "family": "Pteridaceae",
@@ -5209,12 +7983,8 @@
     ],
     "countries": [
       "AR",
-      "BO",
       "CL",
-      "PE",
-      "PY",
-      "UY",
-      "VE"
+      "UY"
     ],
     "uses": [
       "medicinal"
@@ -5225,21 +7995,144 @@
     "scientific_name": "Plantago major",
     "family": "Plantaginaceae",
     "names": [
+      "Cola de Ardilla",
+      "Lantén",
       "Llantén",
-      "Llantén mayor"
+      "Llantén mayor",
+      "Plantain mayor",
+      "Raetzi",
+      "Yanten"
     ],
     "countries": [
-      "AR",
       "BO",
       "CL",
+      "CR",
+      "GT",
+      "HN",
+      "MX",
+      "NI",
+      "PA",
       "PE",
       "PY",
-      "UY",
+      "SV",
       "VE"
     ],
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "plantago_major",
+    "scientific_name": "Plantago major L.",
+    "family": "Plantaginaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
+  },
+  {
+    "id": "plectranthus_amboinicus",
+    "scientific_name": "Plectranthus amboinicus",
+    "family": "Lamiaceae",
+    "names": [
+      "Orégano",
+      "Orégano Cubano",
+      "Orégano de castilla (Yucatán)",
+      "Orégano de castilla (Yucatan)",
+      "Orégano extranjero",
+      "Orégano francés",
+      "Orégano orejón",
+      "Oreganón"
+    ],
+    "countries": [
+      "GT",
+      "HN",
+      "MX",
+      "NI"
+    ],
+    "uses": [
+      "culinary",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "plectranthus_amboinicus",
+    "scientific_name": "Plectranthus amboinicus (Lour.) Spreng.",
+    "family": "Lamiaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
+  },
+  {
+    "id": "plectranthus_barbatus",
+    "scientific_name": "Plectranthus barbatus",
+    "family": "Lamiaceae",
+    "names": [
+      "Boldo"
+    ],
+    "countries": [
+      "NI"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "plectranthus_ornatus",
+    "scientific_name": "Plectranthus ornatus Codd",
+    "family": "Lamiaceae",
+    "names": [
+      "Boldo mexicano",
+      "Buscapina natural",
+      "Falso boldo",
+      "Insulina natural (Zongolica use)"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
+    "id": "pluchea_carolinensis",
+    "scientific_name": "Pluchea carolinensis (Jacq.) G. Don",
+    "family": "Asteraceae",
+    "names": [
+      "Chalche'",
+      "Ciguapate",
+      "Salvia",
+      "Salvia dolorosa",
+      "Tres Marías",
+      "Tres Marías (Maya)",
+      "Zaguapate"
+    ],
+    "countries": [
+      "MX",
+      "NI"
+    ],
+    "uses": []
+  },
+  {
+    "id": "pluchea_carolinensis",
+    "scientific_name": "Pluchea carolinensis",
+    "family": "Asteraceae",
+    "names": [],
+    "countries": [],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "pluchea_odorata",
+    "scientific_name": "Pluchea odorata (L.) Cass.",
+    "family": "Asteraceae",
+    "names": [
+      "Opochejkaxiuit (Náhuatl)",
+      "Santa María",
+      "Tabaquillo"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
   },
   {
     "id": "pluchea_sagittalis",
@@ -5278,8 +8171,7 @@
       "Yerba del lagarto"
     ],
     "countries": [
-      "CL",
-      "CO"
+      "CL"
     ],
     "uses": [
       "medicinal"
@@ -5301,6 +8193,22 @@
     ]
   },
   {
+    "id": "portulaca_oleracea",
+    "scientific_name": "Portulaca oleracea",
+    "family": "Portulacaceae",
+    "names": [
+      "Verdolaga"
+    ],
+    "countries": [
+      "CR",
+      "GT"
+    ],
+    "uses": [
+      "culinary",
+      "medicinal"
+    ]
+  },
+  {
     "id": "prosopis_alba",
     "scientific_name": "Prosopis alba",
     "family": "Fabaceae",
@@ -5316,6 +8224,18 @@
     ]
   },
   {
+    "id": "pseudognaphalium_obtusifolium",
+    "scientific_name": "Pseudognaphalium obtusifolium (L.) Hilliard & B. L. Burtt",
+    "family": "Asteraceae",
+    "names": [
+      "Gordolobo (Zongolica)"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
     "id": "pseudognaphalium_viravira",
     "scientific_name": "Pseudognaphalium viravira",
     "family": "Asteraceae",
@@ -5323,7 +8243,6 @@
       "Vira vira"
     ],
     "countries": [
-      "AR",
       "CL"
     ],
     "uses": [
@@ -5336,15 +8255,50 @@
     "family": "Myrtaceae",
     "names": [
       "Guava",
-      "Guayaba"
+      "Guayaba",
+      "Guayabo",
+      "Guizaro",
+      "Xalxocotl",
+      "Xaxokotl"
     ],
     "countries": [
       "AR",
       "BO",
-      "GY"
+      "CR",
+      "GT",
+      "GY",
+      "HN",
+      "MX",
+      "NI",
+      "PA",
+      "SV"
     ],
     "uses": [
       "culinary",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "psidium_guajava",
+    "scientific_name": "Psidium guajava L.",
+    "family": "Myrtaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
+  },
+  {
+    "id": "psittacanthus_calyculatus",
+    "scientific_name": "Psittacanthus calyculatus",
+    "family": "Loranthaceae",
+    "names": [
+      "Liga de jocote",
+      "Pereza",
+      "Suelda con suelda"
+    ],
+    "countries": [
+      "GT"
+    ],
+    "uses": [
       "medicinal"
     ]
   },
@@ -5373,19 +8327,31 @@
       "Bitterwood",
       "Cruceta",
       "Crucete",
+      "Cuasia",
+      "Cuasia de Surinam",
       "Guabita amarga",
       "Guabito",
       "Guabito amargo",
       "Guabo amargo",
-      "Hombre grande",
       "Hombre Grande",
+      "Hombre grande",
       "hombrón",
+      "Limoncillo",
+      "Palo de Hombre",
+      "Palo Quinina",
       "Puesilde",
       "Quassia",
+      "Quina",
+      "Quiniclú",
+      "Quininagrú",
       "Udud bungid",
       "Udut pulu"
     ],
     "countries": [
+      "CR",
+      "GT",
+      "HN",
+      "NI",
       "PA"
     ],
     "uses": [
@@ -5400,7 +8366,6 @@
       "Quillay"
     ],
     "countries": [
-      "AR",
       "CL"
     ],
     "uses": [
@@ -5429,9 +8394,13 @@
     "names": [
       "Barachand",
       "chacmuc-ac",
+      "Chalchupa",
       "Chalcupa",
+      "Chichipince",
       "Coataco",
       "Comida de culebra",
+      "Curarina",
+      "Matacoyote",
       "Pavillo",
       "Rawillcha",
       "Sanango",
@@ -5439,6 +8408,7 @@
     ],
     "countries": [
       "CR",
+      "GT",
       "MX",
       "PA"
     ],
@@ -5476,6 +8446,22 @@
     ]
   },
   {
+    "id": "rhizophora_mangle",
+    "scientific_name": "Rhizophora mangle",
+    "family": "Rhizophoraceae",
+    "names": [
+      "Mangle",
+      "Mangle colorado",
+      "Mangle rojo"
+    ],
+    "countries": [
+      "GT"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
     "id": "ribes_cucullatum",
     "scientific_name": "Ribes cucullatum",
     "family": "Grossulariaceae",
@@ -5483,12 +8469,43 @@
       "Zarzaparrilla"
     ],
     "countries": [
-      "CL",
-      "PY"
+      "CL"
     ],
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "ricinus_communis",
+    "scientific_name": "Ricinus communis",
+    "family": "Euphorbiaceae",
+    "names": [
+      "Higuera",
+      "Higuera blanca",
+      "Higuera del diablo",
+      "Higuera infernal",
+      "Higuerill",
+      "Higuerilla",
+      "Higüerillo",
+      "Ricino",
+      "Tártago"
+    ],
+    "countries": [
+      "HN",
+      "MX",
+      "NI"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "ricinus_communis",
+    "scientific_name": "Ricinus communis L.",
+    "family": "Euphorbiaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
   },
   {
     "id": "rosa_moschata",
@@ -5521,6 +8538,20 @@
     ]
   },
   {
+    "id": "ruellia_nudiflora",
+    "scientific_name": "Ruellia nudiflora",
+    "family": "Acanthaceae",
+    "names": [
+      "Hierba del susto"
+    ],
+    "countries": [
+      "GT"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
     "id": "ruellia_tuberosa",
     "scientific_name": "Ruellia tuberosa",
     "family": "Acanthaceae",
@@ -5543,11 +8574,21 @@
       "Romaza"
     ],
     "countries": [
-      "CL",
-      "GT",
-      "HN",
-      "PA",
-      "SV"
+      "CL"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "ruscus_aculeatus",
+    "scientific_name": "Ruscus aculeatus L.",
+    "family": "Asparagaceae",
+    "names": [
+      "Rusco"
+    ],
+    "countries": [
+      "ES"
     ],
     "uses": [
       "medicinal"
@@ -5558,6 +8599,35 @@
     "scientific_name": "Ruta chalepensis",
     "family": "Rutaceae",
     "names": [
+      "Ruda",
+      "Ruda (chalepensis variant)"
+    ],
+    "countries": [
+      "CL",
+      "GT",
+      "MX",
+      "NI"
+    ],
+    "uses": [
+      "medicinal",
+      "ritual"
+    ]
+  },
+  {
+    "id": "ruta_chalepensis",
+    "scientific_name": "Ruta chalepensis L.",
+    "family": "Rutaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
+  },
+  {
+    "id": "ruta_graveolens",
+    "scientific_name": "Ruta graveolens",
+    "family": "Rutaceae",
+    "names": [
+      "Lula",
+      "Luta",
       "Ruda"
     ],
     "countries": [
@@ -5566,6 +8636,9 @@
       "CL",
       "CO",
       "EC",
+      "ES",
+      "HN",
+      "MX",
       "PE",
       "PY",
       "UY",
@@ -5578,25 +8651,12 @@
   },
   {
     "id": "ruta_graveolens",
-    "scientific_name": "Ruta graveolens",
+    "scientific_name": "Ruta graveolens L.",
     "family": "Rutaceae",
-    "names": [
-      "Ruda"
-    ],
-    "countries": [
-      "AR",
-      "BO",
-      "CL",
-      "CO",
-      "EC",
-      "PE",
-      "PY",
-      "UY",
-      "VE"
-    ],
+    "names": [],
+    "countries": [],
     "uses": [
-      "medicinal",
-      "ritual"
+      "medicinal"
     ]
   },
   {
@@ -5615,20 +8675,61 @@
     ]
   },
   {
+    "id": "salvia_leucantha",
+    "scientific_name": "Salvia leucantha Cav.",
+    "family": "Lamiaceae",
+    "names": [
+      "Algodoncillo",
+      "Algodoncillo (Mexican sage)",
+      "Cordón de San Francisco",
+      "Salvia"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
+    "id": "salvia_microphylla",
+    "scientific_name": "Salvia microphylla Kunth",
+    "family": "Lamiaceae",
+    "names": [
+      "Diente de acamaya",
+      "Mastranzo",
+      "Mirto"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
     "id": "salvia_officinalis",
     "scientific_name": "Salvia officinalis",
     "family": "Lamiaceae",
     "names": [
-      "Salvia"
+      "Salvia",
+      "Salvia (European)"
     ],
     "countries": [
       "BO",
       "CL",
-      "PY"
+      "ES",
+      "MX"
     ],
     "uses": [
       "aromatic",
       "culinary",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "salvia_officinalis",
+    "scientific_name": "Salvia officinalis L.",
+    "family": "Lamiaceae",
+    "names": [],
+    "countries": [],
+    "uses": [
       "medicinal"
     ]
   },
@@ -5643,12 +8744,26 @@
     "countries": [
       "BO",
       "CL",
+      "CR",
+      "ES",
+      "GT",
+      "MX",
       "PY",
       "VE"
     ],
     "uses": [
       "aromatic",
       "culinary",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "salvia_rosmarinus",
+    "scientific_name": "Salvia rosmarinus L.",
+    "family": "Lamiaceae",
+    "names": [],
+    "countries": [],
+    "uses": [
       "medicinal"
     ]
   },
@@ -5663,12 +8778,8 @@
       "Sauco"
     ],
     "countries": [
-      "BO",
-      "CL",
-      "EC",
       "GT",
-      "PA",
-      "PY"
+      "PA"
     ],
     "uses": [
       "medicinal"
@@ -5679,13 +8790,15 @@
     "scientific_name": "Sambucus mexicana",
     "family": "Caprifoliaceae",
     "names": [
-      "Sauco"
+      "Sauco",
+      "Saúco",
+      "Sauco chico",
+      "Sauco mexicano"
     ],
     "countries": [
-      "BO",
-      "CL",
       "EC",
-      "GT",
+      "HN",
+      "MX",
       "PY"
     ],
     "uses": [
@@ -5693,22 +8806,54 @@
     ]
   },
   {
+    "id": "sambucus_mexicana",
+    "scientific_name": "Sambucus mexicana C. Presl ex DC.",
+    "family": "Adoxaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
+  },
+  {
     "id": "sambucus_nigra",
     "scientific_name": "Sambucus nigra",
     "family": "Adoxaceae",
     "names": [
-      "Sauco"
+      "Flor y fruto de sauco",
+      "Sauco",
+      "Xometl"
     ],
     "countries": [
       "BO",
       "CL",
-      "EC",
-      "GT",
-      "PY"
+      "ES",
+      "MX"
     ],
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "sambucus_nigra",
+    "scientific_name": "Sambucus nigra L.",
+    "family": "Adoxaceae",
+    "names": [],
+    "countries": [],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "sansevieria_trifasciata",
+    "scientific_name": "Sansevieria trifasciata Prain",
+    "family": "Asparagaceae",
+    "names": [
+      "Espada del rey",
+      "Lengua de tigre"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
   },
   {
     "id": "sapindus_saponaria",
@@ -5719,8 +8864,49 @@
       "Quillay"
     ],
     "countries": [
-      "AR",
-      "CL"
+      "AR"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "sarcostemma_clausum",
+    "scientific_name": "Sarcostemma clausum",
+    "family": "Apocynaceae",
+    "names": [
+      "Bejuco de pescado",
+      "Flor de castilla"
+    ],
+    "countries": [
+      "GT"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "satureja_macrostema",
+    "scientific_name": "Satureja macrostema Benth.",
+    "family": "Lamiaceae",
+    "names": [
+      "Poleo de agua",
+      "Té de monte"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
+    "id": "satureja_montana",
+    "scientific_name": "Satureja montana L.",
+    "family": "Lamiaceae",
+    "names": [
+      "Ajedrea"
+    ],
+    "countries": [
+      "ES"
     ],
     "uses": [
       "medicinal"
@@ -5764,10 +8950,7 @@
       "Molle"
     ],
     "countries": [
-      "AR",
-      "BO",
-      "CL",
-      "PE"
+      "CL"
     ],
     "uses": [
       "medicinal"
@@ -5780,18 +8963,29 @@
     "names": [
       "Aguaribay",
       "Huingán",
-      "Molle"
+      "Molle",
+      "Pirú",
+      "Pirul"
     ],
     "countries": [
       "AR",
       "BO",
       "CL",
+      "MX",
       "PE"
     ],
     "uses": [
       "culinary",
       "medicinal"
     ]
+  },
+  {
+    "id": "schinus_molle",
+    "scientific_name": "Schinus molle L.",
+    "family": "Anacardiaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
   },
   {
     "id": "schinus_terebinthifolius",
@@ -5802,10 +8996,7 @@
       "Molle misionero"
     ],
     "countries": [
-      "AR",
-      "BO",
-      "CL",
-      "PE"
+      "AR"
     ],
     "uses": [
       "medicinal"
@@ -5830,9 +9021,12 @@
     "scientific_name": "Scoparia dulcis",
     "family": "Plantaginaceae",
     "names": [
-      "Sweet Broom"
+      "Culantrillo",
+      "Sweet Broom",
+      "Verbena"
     ],
     "countries": [
+      "GT",
       "GY"
     ],
     "uses": [
@@ -5852,6 +9046,34 @@
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "selaginella_convoluta",
+    "scientific_name": "Selaginella convoluta (Arn.) Spring",
+    "family": "Selaginellaceae",
+    "names": [
+      "Doradilla",
+      "Much'kok",
+      "Much'kok (Maya)"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
+    "id": "selaginella_lepidophylla",
+    "scientific_name": "Selaginella lepidophylla (Hook. & Grev.) Spring",
+    "family": "Selaginellaceae",
+    "names": [
+      "Doradilla",
+      "Flor de peña",
+      "Rosa de Jericó"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
   },
   {
     "id": "senecio_fistulosus",
@@ -5887,14 +9109,36 @@
     "scientific_name": "Senna alata",
     "family": "Fabaceae",
     "names": [
-      "Carrion Crow Bush"
+      "Barajo",
+      "Carrion Crow Bush",
+      "Christmas blossom",
+      "Hoja de baraja",
+      "Moco",
+      "San Pedro",
+      "Saragundí",
+      "Secreto (Yucatan)",
+      "Senna",
+      "Serocontil"
     ],
     "countries": [
-      "GY"
+      "CR",
+      "GT",
+      "GY",
+      "HN",
+      "MX",
+      "NI"
     ],
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "senna_alata",
+    "scientific_name": "Senna alata (L.) Roxb.",
+    "family": "Fabaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
   },
   {
     "id": "senna_alexandrina",
@@ -5906,7 +9150,6 @@
       "Sen de Alejandría"
     ],
     "countries": [
-      "BO",
       "CL",
       "PY"
     ],
@@ -5929,6 +9172,20 @@
     ]
   },
   {
+    "id": "senna_hispidula",
+    "scientific_name": "Senna hispidula",
+    "family": "Fabaceae",
+    "names": [
+      "Naguapate"
+    ],
+    "countries": [
+      "CR"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
     "id": "senna_occidentalis",
     "scientific_name": "Senna occidentalis",
     "family": "Fabaceae",
@@ -5937,16 +9194,19 @@
       "Café moucha",
       "Cresta de gallo",
       "Frijolillo",
+      "Frijolillo (Yucatan)",
       "frijolillo negro",
+      "Hoja sen",
+      "Lengua de pájaro",
       "Mayamal",
-      "Pico de Pájaro",
       "Pico de pájaro",
+      "Pico de Pájaro",
       "Pwa piant\""
     ],
     "countries": [
-      "CO",
       "GY",
       "HN",
+      "MX",
       "NI",
       "PA"
     ],
@@ -5954,6 +9214,14 @@
       "culinary",
       "medicinal"
     ]
+  },
+  {
+    "id": "senna_occidentalis",
+    "scientific_name": "Senna occidentalis (L.) Link",
+    "family": "Fabaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
   },
   {
     "id": "senna_reticulata",
@@ -5964,6 +9232,7 @@
       "laureña",
       "Saracontil",
       "Saragundí",
+      "Serocontil",
       "wild senna"
     ],
     "countries": [
@@ -5995,10 +9264,46 @@
     "scientific_name": "Sida rhombifolia",
     "family": "Malvaceae",
     "names": [
-      "Escoba dura"
+      "Escoba dura",
+      "Escobillo",
+      "Escobillo amarillo",
+      "Escobillo morado"
     ],
     "countries": [
-      "AR"
+      "AR",
+      "GT"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "sida_spinosa",
+    "scientific_name": "Sida spinosa",
+    "family": "Malvaceae",
+    "names": [
+      "Escobillo blanco"
+    ],
+    "countries": [
+      "GT"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "silybum_marianum",
+    "scientific_name": "Silybum marianum (L.) Gaertn.",
+    "family": "Asteraceae",
+    "names": [
+      "Cardo de María",
+      "Cardo lechero",
+      "Cardo mariano",
+      "Cardo Mariano"
+    ],
+    "countries": [
+      "ES",
+      "MX"
     ],
     "uses": [
       "medicinal"
@@ -6020,13 +9325,40 @@
       "Xpaxakil"
     ],
     "countries": [
-      "CL",
       "CU",
       "DO",
       "GT",
       "HN",
       "MX",
       "PA"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "simarouba_glauca",
+    "scientific_name": "Simarouba glauca",
+    "family": "Simaroubaceae",
+    "names": [
+      "Aceituno"
+    ],
+    "countries": [
+      "GT"
+    ],
+    "uses": [
+      "culinary"
+    ]
+  },
+  {
+    "id": "sisymbrium_officinale",
+    "scientific_name": "Sisymbrium officinale (L.) Scop.",
+    "family": "Brassicaceae",
+    "names": [
+      "Erizon"
+    ],
+    "countries": [
+      "ES"
     ],
     "uses": [
       "medicinal"
@@ -6050,20 +9382,83 @@
     ]
   },
   {
+    "id": "smilax_domingensis",
+    "scientific_name": "Smilax domingensis",
+    "family": "Smilacaceae",
+    "names": [
+      "Cuculmeca",
+      "Culcumeca roja"
+    ],
+    "countries": [
+      "HN",
+      "NI"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
     "id": "smilax_sp",
     "scientific_name": "Smilax sp.",
     "family": "Smilacaceae",
     "names": [
       "Cock-Shun",
-      "Sarsparilla"
+      "Sarsparilla",
+      "Zarzaparrilla"
     ],
     "countries": [
-      "GY"
+      "GY",
+      "PY"
     ],
     "uses": [
       "culinary",
       "medicinal"
     ]
+  },
+  {
+    "id": "smilax_spinosa",
+    "scientific_name": "Smilax spinosa",
+    "family": "Smilacaceae",
+    "names": [
+      "Zarzaparrilla"
+    ],
+    "countries": [
+      "NI"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "solanum_americanum",
+    "scientific_name": "Solanum americanum",
+    "family": "Solanaceae",
+    "names": [
+      "Hierba mora",
+      "Hierba mora blanca",
+      "Hierbamora",
+      "Macuy",
+      "Macuy negro",
+      "Ndanxo",
+      "Quilete"
+    ],
+    "countries": [
+      "GT",
+      "HN",
+      "MX"
+    ],
+    "uses": [
+      "culinary",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "solanum_americanum",
+    "scientific_name": "Solanum americanum Mill.",
+    "family": "Solanaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
   },
   {
     "id": "solanum_ligustrinum",
@@ -6084,14 +9479,25 @@
     "scientific_name": "Solanum nigrum",
     "family": "Solanaceae",
     "names": [
-      "Black Nightshade"
+      "Black Nightshade",
+      "Hierba mora",
+      "Tomatillos del diablo"
     ],
     "countries": [
-      "GY"
+      "GY",
+      "MX"
     ],
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "solanum_nigrum",
+    "scientific_name": "Solanum nigrum L.",
+    "family": "Solanaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
   },
   {
     "id": "solanum_sisymbriifolium",
@@ -6123,6 +9529,32 @@
     ]
   },
   {
+    "id": "solanum_torvum",
+    "scientific_name": "Solanum torvum",
+    "family": "Solanaceae",
+    "names": [
+      "Hierba sosa",
+      "Huevo de gato",
+      "Lavaplatos",
+      "Pendejera"
+    ],
+    "countries": [
+      "GT",
+      "MX"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "solanum_torvum",
+    "scientific_name": "Solanum torvum Sw.",
+    "family": "Solanaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
+  },
+  {
     "id": "solidago_chilensis",
     "scientific_name": "Solidago chilensis",
     "family": "Asteraceae",
@@ -6146,16 +9578,13 @@
       "Cerraja",
       "colmillo de león",
       "diente de león",
-      "Diente de León",
       "Hierba de leche"
     ],
     "countries": [
       "AR",
-      "CL",
       "CO",
       "HN",
       "PA",
-      "PY",
       "SV",
       "UY"
     ],
@@ -6231,6 +9660,34 @@
     ]
   },
   {
+    "id": "spondias_purpurea",
+    "scientific_name": "Spondias purpurea",
+    "family": "Anacardiaceae",
+    "names": [
+      "Abal ak' (Maya)",
+      "Ciruela de monte",
+      "Jocote",
+      "Jocote de Cuaresma",
+      "Jocote tronador"
+    ],
+    "countries": [
+      "GT",
+      "MX"
+    ],
+    "uses": [
+      "culinary",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "spondias_purpurea",
+    "scientific_name": "Spondias purpurea L.",
+    "family": "Anacardiaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
+  },
+  {
     "id": "stachytarpheta_cayennensis",
     "scientific_name": "Stachytarpheta cayennensis",
     "family": "Verbenaceae",
@@ -6245,20 +9702,73 @@
     ]
   },
   {
+    "id": "stachytarpheta_jamaicensis",
+    "scientific_name": "Stachytarpheta jamaicensis (L.) Vahl",
+    "family": "Verbenaceae",
+    "names": [
+      "Verbena (Yucatán)",
+      "Verbena (Yucatan)"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
     "id": "stevia_rebaudiana",
     "scientific_name": "Stevia rebaudiana",
     "family": "Asteraceae",
     "names": [
+      "Estevia",
+      "Hierba dulce",
       "Ka'a he'ê",
+      "Ka'a-hée",
+      "Ka'a-hée (Guaraní)",
       "Yerba dulce"
     ],
     "countries": [
-      "AR"
+      "AR",
+      "MX"
     ],
     "uses": [
       "culinary",
       "medicinal"
     ]
+  },
+  {
+    "id": "stevia_rebaudiana",
+    "scientific_name": "Stevia rebaudiana Bertoni",
+    "family": "Asteraceae",
+    "names": [],
+    "countries": [],
+    "uses": []
+  },
+  {
+    "id": "swietenia_humilis",
+    "scientific_name": "Swietenia humilis",
+    "family": "Meliaceae",
+    "names": [
+      "Caoba"
+    ],
+    "countries": [
+      "GT"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "symphytum_officinale",
+    "scientific_name": "Symphytum officinale L.",
+    "family": "Boraginaceae",
+    "names": [
+      "Consuelda",
+      "Suelda con suelda"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
   },
   {
     "id": "tabebuia_impetiginosa",
@@ -6315,6 +9825,75 @@
     ]
   },
   {
+    "id": "tagetes_erecta",
+    "scientific_name": "Tagetes erecta",
+    "family": "Asteraceae",
+    "names": [
+      "Apátsicua",
+      "Cempasúchil",
+      "Cempazúchil",
+      "Cempoalxóchitl",
+      "Flor de muerto",
+      "Sempualxóchitl"
+    ],
+    "countries": [
+      "HN",
+      "MX"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "tagetes_erecta",
+    "scientific_name": "Tagetes erecta L.",
+    "family": "Asteraceae",
+    "names": [],
+    "countries": [],
+    "uses": []
+  },
+  {
+    "id": "tagetes_lucida",
+    "scientific_name": "Tagetes lucida",
+    "family": "Asteraceae",
+    "names": [
+      "Anisillo",
+      "Hierba de San Juan",
+      "Pericón",
+      "Yauhtli",
+      "Yerbanís"
+    ],
+    "countries": [
+      "GT",
+      "MX"
+    ],
+    "uses": [
+      "aromatic",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "tagetes_lucida",
+    "scientific_name": "Tagetes lucida Cav.",
+    "family": "Asteraceae",
+    "names": [],
+    "countries": [],
+    "uses": []
+  },
+  {
+    "id": "tagetes_micrantha",
+    "scientific_name": "Tagetes micrantha (Cav.) DC.",
+    "family": "Asteraceae",
+    "names": [
+      "Anisillo chico",
+      "Pericón anís"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
     "id": "tagetes_minuta",
     "scientific_name": "Tagetes minuta",
     "family": "Asteraceae",
@@ -6338,7 +9917,9 @@
       "Tamarindo"
     ],
     "countries": [
-      "BO"
+      "BO",
+      "GT",
+      "NI"
     ],
     "uses": [
       "culinary",
@@ -6350,12 +9931,22 @@
     "scientific_name": "Tanacetum parthenium",
     "family": "Asteraceae",
     "names": [
-      "Artemisa"
+      "Artemisa",
+      "Matricaria"
     ],
     "countries": [
-      "CL",
-      "PA"
+      "CL"
     ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "tanacetum_parthenium",
+    "scientific_name": "Tanacetum parthenium (L.) Sch. Bip.",
+    "family": "Asteraceae",
+    "names": [],
+    "countries": [],
     "uses": [
       "medicinal"
     ]
@@ -6379,17 +9970,91 @@
     "scientific_name": "Taraxacum officinale",
     "family": "Asteraceae",
     "names": [
+      "Achicoria amarga",
       "Amargón",
       "Diente de León"
     ],
     "countries": [
       "AR",
       "CL",
-      "CO",
-      "HN",
+      "ES",
+      "MX",
       "PY",
-      "SV",
       "UY"
+    ],
+    "uses": [
+      "culinary",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "taraxacum_officinale",
+    "scientific_name": "Taraxacum officinale G. H. Weber ex Wigg.",
+    "family": "Asteraceae",
+    "names": [],
+    "countries": [],
+    "uses": []
+  },
+  {
+    "id": "taraxacum_officinale",
+    "scientific_name": "Taraxacum officinale F.H.Wigg.",
+    "family": "Asteraceae",
+    "names": [],
+    "countries": [],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "taxodium_mucronatum",
+    "scientific_name": "Taxodium mucronatum Ten.",
+    "family": "Cupressaceae",
+    "names": [
+      "Ahuehuete",
+      "Ciprés mexicano",
+      "Sabino"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
+    "id": "tecoma_stans",
+    "scientific_name": "Tecoma stans",
+    "family": "Bignoniaceae",
+    "names": [
+      "Flor amarilla",
+      "Retama",
+      "Timboque",
+      "Tronadora",
+      "X k'aan lool (Maya)"
+    ],
+    "countries": [
+      "GT",
+      "MX"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "tecoma_stans",
+    "scientific_name": "Tecoma stans (L.) Juss. ex Kunth",
+    "family": "Bignoniaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
+  },
+  {
+    "id": "terminalia_catappa",
+    "scientific_name": "Terminalia catappa",
+    "family": "Combretaceae",
+    "names": [
+      "Almendro"
+    ],
+    "countries": [
+      "GT"
     ],
     "uses": [
       "culinary",
@@ -6414,6 +10079,19 @@
     ]
   },
   {
+    "id": "thevetia_ahouai",
+    "scientific_name": "Thevetia ahouai (L.) A. DC.",
+    "family": "Apocynaceae",
+    "names": [
+      "Huevo de perro",
+      "Je'peek' (Maya)"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
     "id": "thymus_vulgaris",
     "scientific_name": "Thymus vulgaris",
     "family": "Lamiaceae",
@@ -6424,6 +10102,7 @@
       "BO",
       "CL",
       "CO",
+      "ES",
       "PY"
     ],
     "uses": [
@@ -6433,18 +10112,11 @@
     ]
   },
   {
-    "id": "thymus_vulgaris_l",
+    "id": "thymus_vulgaris",
     "scientific_name": "Thymus vulgaris L.",
     "family": "Lamiaceae",
-    "names": [
-      "Tomillo"
-    ],
-    "countries": [
-      "BO",
-      "CL",
-      "CO",
-      "PY"
-    ],
+    "names": [],
+    "countries": [],
     "uses": [
       "medicinal"
     ]
@@ -6454,17 +10126,39 @@
     "scientific_name": "Tilia cordata",
     "family": "Malvaceae",
     "names": [
+      "Tila",
       "Tilo"
     ],
     "countries": [
       "CL",
-      "CR",
-      "PA",
-      "PY"
+      "ES"
     ],
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "tilia_cordata",
+    "scientific_name": "Tilia cordata Mill.",
+    "family": "Malvaceae",
+    "names": [],
+    "countries": [],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "tilia_sp",
+    "scientific_name": "Tilia sp.",
+    "family": "Malvaceae",
+    "names": [
+      "Tilo"
+    ],
+    "countries": [
+      "MX",
+      "PY"
+    ],
+    "uses": []
   },
   {
     "id": "tillandsia_usneoides",
@@ -6475,12 +10169,88 @@
       "Clavel del aire"
     ],
     "countries": [
-      "AR",
-      "CL"
+      "AR"
     ],
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "tithonia_diversifolia",
+    "scientific_name": "Tithonia diversifolia",
+    "family": "Asteraceae",
+    "names": [
+      "Árnica",
+      "Árnica (Yucatán)",
+      "Árnica (Yucatan)",
+      "Chiople'",
+      "Gigantón",
+      "Girasol mexicano",
+      "Mirasol",
+      "Techichik"
+    ],
+    "countries": [
+      "HN",
+      "MX"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "tithonia_diversifolia",
+    "scientific_name": "Tithonia diversifolia (Hemsl.) A. Gray",
+    "family": "Asteraceae",
+    "names": [],
+    "countries": [],
+    "uses": []
+  },
+  {
+    "id": "tradescantia_spathacea",
+    "scientific_name": "Tradescantia spathacea Sw.",
+    "family": "Commelinaceae",
+    "names": [
+      "Maguey morado",
+      "Maguey morado (Yucatan)"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
+    "id": "tradescantia_zebrina",
+    "scientific_name": "Tradescantia zebrina",
+    "family": "Commelinaceae",
+    "names": [
+      "Adorno de Esquipulas",
+      "Cucaracha",
+      "Hierba de pollo",
+      "Hierba del pollo",
+      "Hoja de Milagro",
+      "Maclale",
+      "Manto del Señor",
+      "Matlal xiwitl",
+      "Matlal xiwitl (Náhuatl)",
+      "Ojo de venado"
+    ],
+    "countries": [
+      "CR",
+      "GT",
+      "MX",
+      "NI"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "tradescantia_zebrina",
+    "scientific_name": "Tradescantia zebrina Heynh. ex Bosse",
+    "family": "Commelinaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
   },
   {
     "id": "tridax_procumbens",
@@ -6532,9 +10302,11 @@
     "scientific_name": "Tropaeolum majus",
     "family": "Tropaeolaceae",
     "names": [
+      "Capuchina",
       "Espuela de galán"
     ],
     "countries": [
+      "AR",
       "CL"
     ],
     "uses": [
@@ -6550,24 +10322,38 @@
       "Damiana"
     ],
     "countries": [
-      "AR"
+      "AR",
+      "MX"
     ],
     "uses": [
       "medicinal"
     ]
   },
   {
+    "id": "turnera_diffusa",
+    "scientific_name": "Turnera diffusa Willd. ex Schult.",
+    "family": "Turneraceae",
+    "names": [],
+    "countries": [],
+    "uses": []
+  },
+  {
     "id": "uncaria_tomentosa",
     "scientific_name": "Uncaria tomentosa",
     "family": "Rubiaceae",
     "names": [
+      "Rangallo",
+      "Rangaya",
       "Uña de Gato",
-      "Uña de gato"
+      "Uña de gato",
+      "Uña de Tigre"
     ],
     "countries": [
       "AR",
       "BO",
+      "CR",
       "EC",
+      "PA",
       "PE"
     ],
     "uses": [
@@ -6603,19 +10389,72 @@
     ]
   },
   {
+    "id": "urera_baccifera",
+    "scientific_name": "Urera baccifera",
+    "family": "Urticaceae",
+    "names": [
+      "Chichicaste",
+      "Nigua",
+      "Ortiga",
+      "Ortiga (Yucatan)",
+      "Pringamoza"
+    ],
+    "countries": [
+      "CR",
+      "MX",
+      "SV"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "urera_baccifera",
+    "scientific_name": "Urera baccifera (L.) Gaudich. ex Wedd.",
+    "family": "Urticaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
+  },
+  {
+    "id": "urtica_chamaedryoides",
+    "scientific_name": "Urtica chamaedryoides Pursh",
+    "family": "Urticaceae",
+    "names": [
+      "Buba",
+      "Chichicaztle"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
     "id": "urtica_dioica",
     "scientific_name": "Urtica dioica",
     "family": "Urticaceae",
     "names": [
+      "Chiquicastle",
       "Ortiga"
     ],
     "countries": [
       "CL",
-      "PY",
-      "UY"
+      "ES",
+      "MX",
+      "PY"
     ],
     "uses": [
       "culinary",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "urtica_dioica",
+    "scientific_name": "Urtica dioica L.",
+    "family": "Urticaceae",
+    "names": [],
+    "countries": [],
+    "uses": [
       "medicinal"
     ]
   },
@@ -6628,8 +10467,6 @@
       "Ortiga Brava"
     ],
     "countries": [
-      "CL",
-      "PY",
       "UY"
     ],
     "uses": [
@@ -6653,14 +10490,13 @@
     ]
   },
   {
-    "id": "vaccinium_macrocarpon_aiton",
+    "id": "vaccinium_macrocarpon",
     "scientific_name": "Vaccinium macrocarpon Aiton.",
     "family": "Ericaceae",
     "names": [
       "Arándano"
     ],
     "countries": [
-      "BO",
       "CO"
     ],
     "uses": [
@@ -6675,8 +10511,7 @@
       "Arándano"
     ],
     "countries": [
-      "BO",
-      "CO"
+      "BO"
     ],
     "uses": [
       "culinary",
@@ -6688,15 +10523,60 @@
     "scientific_name": "Valeriana officinalis",
     "family": "Caprifoliaceae",
     "names": [
-      "Valeriana"
+      "Valeriana",
+      "Valeriana (European)"
     ],
     "countries": [
       "AR",
       "BO",
       "CL",
-      "GT",
-      "PE",
-      "VE"
+      "ES",
+      "MX",
+      "PE"
+    ],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "valeriana_officinalis",
+    "scientific_name": "Valeriana officinalis L.",
+    "family": "Caprifoliaceae",
+    "names": [],
+    "countries": [],
+    "uses": [
+      "medicinal"
+    ]
+  },
+  {
+    "id": "valeriana_sobifolia",
+    "scientific_name": "Valeriana sobifolia Willd. / V. edulis Nutt.",
+    "family": "Caprifoliaceae",
+    "names": [
+      "Raíz de gato",
+      "Raíz del oso",
+      "Valeriana mexicana"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
+  },
+  {
+    "id": "verbascum_thapsus",
+    "scientific_name": "Verbascum thapsus",
+    "family": "Scrophulariaceae",
+    "names": [
+      "Gordolobo",
+      "Gordolobo (European",
+      "Gordolobo (European)",
+      "Hierba del paño",
+      "INPI 2021)"
+    ],
+    "countries": [
+      "CL",
+      "ES",
+      "MX"
     ],
     "uses": [
       "medicinal"
@@ -6704,29 +10584,40 @@
   },
   {
     "id": "verbascum_thapsus",
-    "scientific_name": "Verbascum thapsus",
+    "scientific_name": "Verbascum thapsus L.",
     "family": "Scrophulariaceae",
-    "names": [
-      "Hierba del paño"
-    ],
-    "countries": [
-      "CL"
-    ],
+    "names": [],
+    "countries": [],
     "uses": [
       "medicinal"
     ]
+  },
+  {
+    "id": "verbena_bipinnatifida",
+    "scientific_name": "Verbena bipinnatifida Nutt.",
+    "family": "Verbenaceae",
+    "names": [
+      "Alfombrilla",
+      "Moradilla",
+      "Moradita"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "uses": []
   },
   {
     "id": "verbena_litoralis",
     "scientific_name": "Verbena litoralis",
     "family": "Verbenaceae",
     "names": [
-      "Verbena"
+      "Verbena",
+      "Verbena de monte"
     ],
     "countries": [
-      "AR",
       "CL",
-      "PY"
+      "GT",
+      "HN"
     ],
     "uses": [
       "medicinal"
@@ -6740,9 +10631,7 @@
       "Verbena"
     ],
     "countries": [
-      "AR",
-      "CL",
-      "PY"
+      "AR"
     ],
     "uses": [
       "medicinal"
@@ -6750,16 +10639,23 @@
   },
   {
     "id": "verbena_officinalis",
-    "scientific_name": "Verbena officinalis",
+    "scientific_name": "Verbena officinalis L.",
     "family": "Verbenaceae",
     "names": [
       "Verbena"
     ],
     "countries": [
-      "AR",
-      "CL",
+      "MX",
       "PY"
     ],
+    "uses": []
+  },
+  {
+    "id": "verbena_officinalis",
+    "scientific_name": "Verbena officinalis",
+    "family": "Verbenaceae",
+    "names": [],
+    "countries": [],
     "uses": [
       "medicinal"
     ]
@@ -6881,8 +10777,7 @@
       "Cepa caballo"
     ],
     "countries": [
-      "AR",
-      "CL"
+      "AR"
     ],
     "uses": [
       "medicinal"
@@ -6940,16 +10835,30 @@
     "scientific_name": "Zea mays",
     "family": "Poaceae",
     "names": [
+      "Elote",
+      "Ixi'im",
+      "Maíz",
+      "Nuni",
       "Pelo de choclo",
-      "Pelo de maíz"
+      "Pelo de maíz",
+      "Tsíri"
     ],
     "countries": [
-      "CL"
+      "CL",
+      "MX"
     ],
     "uses": [
       "culinary",
       "medicinal"
     ]
+  },
+  {
+    "id": "zea_mays",
+    "scientific_name": "Zea mays L.",
+    "family": "Poaceae",
+    "names": [],
+    "countries": [],
+    "uses": []
   },
   {
     "id": "zebrina_pendula",
@@ -6970,13 +10879,32 @@
     "scientific_name": "Zingiber officinale",
     "family": "Zingiberaceae",
     "names": [
-      "Jengibre"
+      "Jengibre",
+      "Jenjibre"
     ],
     "countries": [
-      "BO"
+      "BO",
+      "CR",
+      "GT",
+      "HN"
     ],
     "uses": [
       "culinary",
+      "medicinal"
+    ]
+  },
+  {
+    "id": "zinnia_sp",
+    "scientific_name": "Zinnia sp.",
+    "family": "Asteraceae",
+    "names": [
+      "Cinco Negritos o Mulata",
+      "Mulata silvestre"
+    ],
+    "countries": [
+      "GT"
+    ],
+    "uses": [
       "medicinal"
     ]
   },

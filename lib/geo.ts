@@ -1,4 +1,8 @@
-import { resolveCanonicalNameKey, type NameEntry } from "@/lib/data";
+import {
+  nameEntryCountries,
+  resolveCanonicalNameKey,
+  type NameEntry,
+} from "@/lib/data";
 import type { Locale } from "@/lib/i18n";
 import { getCountryDisplayName } from "@/lib/countries";
 
@@ -39,18 +43,20 @@ export function getNameHubPlantConfidenceMap(
 
   for (const entry of names) {
     if (resolveCanonicalNameKey(entry.normalized) !== hub) continue;
-    const code = entry.country?.trim().toUpperCase();
-    if (!code) continue;
-    allCountries.add(code);
-    for (const pid of entry.plant_ids) {
-      const id = typeof pid === "string" ? pid.trim() : "";
-      if (!id) continue;
-      let set = plantToCountries.get(id);
-      if (!set) {
-        set = new Set();
-        plantToCountries.set(id, set);
+    const codes = nameEntryCountries(entry);
+    if (codes.length === 0) continue;
+    for (const code of codes) {
+      allCountries.add(code);
+      for (const pid of entry.plant_ids) {
+        const id = typeof pid === "string" ? pid.trim() : "";
+        if (!id) continue;
+        let set = plantToCountries.get(id);
+        if (!set) {
+          set = new Set();
+          plantToCountries.set(id, set);
+        }
+        set.add(code);
       }
-      set.add(code);
     }
   }
 
@@ -81,9 +87,10 @@ export function aggregateCountryFrequencyForPlant(
 
   for (const entry of names) {
     if (!entry.plant_ids.includes(id)) continue;
-    const code = entry.country?.trim().toUpperCase();
-    if (!code) continue;
-    freq.set(code, (freq.get(code) ?? 0) + 1);
+    for (const code of nameEntryCountries(entry)) {
+      if (!code) continue;
+      freq.set(code, (freq.get(code) ?? 0) + 1);
+    }
   }
   return freq;
 }
@@ -112,9 +119,10 @@ export function aggregateCountryFrequencyForNameHub(
   for (const entry of names) {
     const k = resolveCanonicalNameKey(entry.normalized);
     if (k !== hub) continue;
-    const code = entry.country?.trim().toUpperCase();
-    if (!code) continue;
-    freq.set(code, (freq.get(code) ?? 0) + 1);
+    for (const code of nameEntryCountries(entry)) {
+      if (!code) continue;
+      freq.set(code, (freq.get(code) ?? 0) + 1);
+    }
   }
   return freq;
 }

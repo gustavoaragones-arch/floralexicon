@@ -9,6 +9,7 @@ import {
 } from "@/lib/search";
 import { normalizeHubKey } from "@/lib/hubKey";
 import { ViewPlantLink } from "@/components/search/ViewPlantLink";
+import { resolveCountryFromQueryParam } from "@/lib/countries";
 import { localePath, t, ti, type I18nKey, type Locale } from "@/lib/i18n";
 import Link from "next/link";
 
@@ -121,6 +122,8 @@ type Props = {
   showIndex?: boolean;
   /** Canonical hub key for click tracking (space-normalized). */
   hubKey?: string;
+  /** Canonical name hub slug for the primary CTA URL. */
+  nameSlug: string;
   /** Current search query (for lightweight `floralexicon:click` analytics). */
   searchQuery?: string;
   /** `?country=` query value (uppercase ISO when set). */
@@ -202,6 +205,7 @@ export function DisambiguationCard({
   index,
   showIndex,
   hubKey = "",
+  nameSlug,
   searchQuery = "",
   searchCountryParam,
   resultCount,
@@ -214,7 +218,13 @@ export function DisambiguationCard({
   const [lookalikeTipOpen, setLookalikeTipOpen] = useState(false);
   const hubNorm = normalizeHubKey(hubKey);
 
-  const plantHref = localePath(lang, `/plant/${plant.id}`);
+  const nameBase = localePath(lang, `/name/${nameSlug}`);
+  const countryIso = searchCountryParam?.trim()
+    ? resolveCountryFromQueryParam(searchCountryParam.trim())
+    : undefined;
+  const plantHref = countryIso
+    ? `${nameBase}?country=${encodeURIComponent(countryIso)}`
+    : nameBase;
   const linkClass =
     "inline-flex min-h-11 items-center justify-center rounded-full border border-flora-forest bg-flora-forest px-5 text-sm font-semibold text-white shadow-sm transition-colors hover:border-flora-forest-hover hover:bg-flora-forest-hover dark:border-emerald-600 dark:bg-emerald-700 dark:hover:border-emerald-500 dark:hover:bg-emerald-600";
 
@@ -222,15 +232,15 @@ export function DisambiguationCard({
     const p = row.plant as {
       evidence?: { level?: string };
       toxicity?: { level?: string };
-    };
-    const toxicLevel = p.toxicity?.level;
+    } | null;
+    const toxicLevel = p?.toxicity?.level;
     dispatchFloralexiconViewPlantClick({
       query: searchQuery,
-      plantId: row.plant.id,
+      plantId: row.plantId,
       rank: index,
       confidence: row.confidence,
       hubKey: hubNorm,
-      evidenceLevel: p.evidence?.level,
+      evidenceLevel: p?.evidence?.level,
       toxic: toxicLevel,
       hasToxic: row.showSafetyRow,
       lookalike: row.hasLookalikeWarning,
@@ -253,11 +263,19 @@ export function DisambiguationCard({
             </p>
           ) : null}
           <h2 className="font-serif text-xl font-semibold tracking-tight text-stone-900 dark:text-stone-100">
-            {plant.scientific_name}
+            {row.isPlaceholder
+              ? t(lang, "plant_placeholder_title")
+              : plant!.scientific_name}
           </h2>
-          {displayName &&
+          {row.isPlaceholder ? (
+            <p className="mt-2 text-sm text-stone-600 dark:text-stone-400">
+              {t(lang, "plant_placeholder_subtitle")}
+            </p>
+          ) : null}
+          {!row.isPlaceholder &&
+          displayName &&
           displayName.trim().toLowerCase() !==
-            plant.scientific_name.trim().toLowerCase() ? (
+            plant!.scientific_name.trim().toLowerCase() ? (
             <p className="mt-1 text-sm text-stone-600 dark:text-stone-400">
               ({displayName})
             </p>
@@ -337,7 +355,7 @@ export function DisambiguationCard({
         <SourceProvenanceBlock
           lang={lang}
           items={row.sourceProvenanceItems}
-          plantId={row.plant.id}
+          plantId={row.plantId}
         />
       ) : null}
 
@@ -370,16 +388,18 @@ export function DisambiguationCard({
           <dt className="font-medium text-stone-800 dark:text-stone-200">
             {t(lang, "search_facts_family")}
           </dt>
-          <dd>{plant.family}</dd>
+          <dd>{row.isPlaceholder ? "—" : plant!.family}</dd>
         </div>
         <div className="flex flex-wrap gap-x-2">
           <dt className="font-medium text-stone-800 dark:text-stone-200">
             {t(lang, "search_facts_region")}
           </dt>
           <dd>
-            {plant.origin_regions.length
-              ? plant.origin_regions.join(", ")
-              : "—"}
+            {row.isPlaceholder
+              ? "—"
+              : plant!.origin_regions.length
+                ? plant!.origin_regions.join(", ")
+                : "—"}
           </dd>
         </div>
         <div className="flex flex-wrap gap-x-2">
@@ -395,7 +415,7 @@ export function DisambiguationCard({
           <ViewPlantLink
             href={plantHref}
             hubKey={hubNorm}
-            plantId={plant.id}
+            plantId={row.plantId}
             className={linkClass}
             onAnalytics={onViewPlantAnalytics}
           >

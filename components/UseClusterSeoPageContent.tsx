@@ -1,3 +1,5 @@
+import { plantNameHubSlug } from "@/lib/data";
+import { defaultLocale, localePath } from "@/lib/i18n";
 import {
   getPlantsForUseCluster,
   getTopNameLinksForUseCluster,
@@ -38,7 +40,7 @@ export function UseClusterSeoPageContent({ slug }: Props) {
           {names.map((item) => (
             <li key={item.slug}>
               <Link
-                href={`/name/${item.slug}`}
+                href={localePath(defaultLocale, `/name/${item.slug}`)}
                 className="inline-block rounded-full border border-stone-200 bg-white/80 px-3 py-1 text-sm font-medium text-flora-forest hover:border-flora-forest/40 dark:border-stone-600 dark:bg-stone-900/60 dark:text-emerald-300"
               >
                 {item.label}
@@ -59,7 +61,10 @@ export function UseClusterSeoPageContent({ slug }: Props) {
           {plants.map((plant) => (
             <li key={plant.id}>
               <Link
-                href={`/plant/${plant.id}`}
+                href={localePath(
+                  defaultLocale,
+                  `/name/${plantNameHubSlug(plant.id, plant.scientific_name)}`
+                )}
                 className="block rounded-2xl border border-stone-200 bg-white/60 px-4 py-3 hover:border-flora-forest/35 dark:border-stone-700 dark:bg-stone-900/40"
               >
                 <p className="font-medium italic tracking-tight text-stone-900 dark:text-stone-100">

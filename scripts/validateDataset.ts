@@ -31,7 +31,7 @@ type NameRow = {
   name: string;
   normalized: string;
   plant_ids: string[];
-  countries: string[];
+  countries?: string[];
 };
 
 /** Collapse trivial scientific-name variants (e.g. trailing "L.", rank noise) for duplicate clustering. */
@@ -104,13 +104,23 @@ function main() {
     }
   }
 
-  // --- 3. High ambiguity names (>3 plants) ---
+  // --- 3. High ambiguity names (>3 distinct plants for same normalized hub) ---
+  const plantsPerNorm = new Map<string, Set<string>>();
   for (const row of names) {
-    const n = row.plant_ids?.length ?? 0;
-    if (n > HIGH_AMBIGUITY_THRESHOLD) {
-      highAmbiguity.push(
-        `High ambiguity: ${row.name} → ${n} plants`
-      );
+    const norm = row.normalized?.trim() ?? "";
+    if (!norm) continue;
+    let set = plantsPerNorm.get(norm);
+    if (!set) {
+      set = new Set();
+      plantsPerNorm.set(norm, set);
+    }
+    for (const id of row.plant_ids ?? []) {
+      if (id) set.add(id);
+    }
+  }
+  for (const [norm, set] of plantsPerNorm) {
+    if (set.size > HIGH_AMBIGUITY_THRESHOLD) {
+      highAmbiguity.push(`High ambiguity: ${norm} → ${set.size} plants`);
     }
   }
 

@@ -4,6 +4,7 @@ import {
   resolveCanonicalNameKey,
   loadNames,
   loadPlants,
+  nameEntryCountries,
   type NameIndexLink,
   type Plant,
 } from "@/lib/data";
@@ -92,17 +93,18 @@ export type QueryStaticParam = {
 export function getTopNameCountryQueryParams(limitPerCountry = 24): QueryStaticParam[] {
   const byCountryThenName = new Map<string, Map<string, number>>();
   for (const row of loadNames()) {
-    const country = row.country.trim().toUpperCase();
-    if (!country) continue;
     const canonical = resolveCanonicalNameKey(row.normalized);
     if (!canonical) continue;
     const nameSlug = canonical.replace(/\s+/g, "-");
-    let perName = byCountryThenName.get(country);
-    if (!perName) {
-      perName = new Map<string, number>();
-      byCountryThenName.set(country, perName);
+    for (const country of nameEntryCountries(row)) {
+      if (!country) continue;
+      let perName = byCountryThenName.get(country);
+      if (!perName) {
+        perName = new Map<string, number>();
+        byCountryThenName.set(country, perName);
+      }
+      perName.set(nameSlug, (perName.get(nameSlug) ?? 0) + 1);
     }
-    perName.set(nameSlug, (perName.get(nameSlug) ?? 0) + 1);
   }
 
   const out: QueryStaticParam[] = [];

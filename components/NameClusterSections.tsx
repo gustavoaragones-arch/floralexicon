@@ -1,7 +1,7 @@
-import { countryCodeToUrlSlug, getCountryDisplayName } from "@/lib/countries";
+import { getCountryDisplayName } from "@/lib/countries";
 import { countryCodeToFlagEmoji, formatHumanUseKey } from "@/lib/nameHubDisplay";
 import { localePath, t, ti, type Locale } from "@/lib/i18n";
-import type { RegionalPlantRow } from "@/lib/resolver";
+import { isPlaceholderPlant, type RegionalPlantRow } from "@/lib/resolver";
 import Link from "next/link";
 
 const sectionProse =
@@ -46,10 +46,7 @@ export function NameClusterRegional({
             >
               <div className="country-name text-sm font-semibold tracking-tight text-stone-900 dark:text-stone-100">
                 <Link
-                  href={localePath(
-                    lang,
-                    `/name/${nameCanonicalSlug}/${countryCodeToUrlSlug(row.countryCode)}`
-                  )}
+                  href={`${localePath(lang, `/name/${nameCanonicalSlug}`)}?country=${encodeURIComponent(row.countryCode)}`}
                   className={`${linkClass} inline-flex items-center gap-2 font-semibold`}
                   title={t(lang, "name_country_hub_link_title")}
                 >
@@ -65,12 +62,18 @@ export function NameClusterRegional({
                         ,{" "}
                       </span>
                     ) : null}
-                    <Link
-                      href={localePath(lang, `/plant/${plant.id}`)}
-                      className={`${linkClass} italic tracking-tight`}
-                    >
-                      {plant.scientific_name}
-                    </Link>
+                    {isPlaceholderPlant(plant) ? (
+                      <span className="italic text-stone-600 dark:text-stone-400">
+                        {t(lang, "plant_placeholder_title")}
+                      </span>
+                    ) : (
+                      <Link
+                        href={`${localePath(lang, `/name/${nameCanonicalSlug}`)}?country=${encodeURIComponent(row.countryCode)}`}
+                        className={`${linkClass} italic tracking-tight`}
+                      >
+                        {plant.scientific_name}
+                      </Link>
+                    )}
                   </span>
                 ))}
               </div>

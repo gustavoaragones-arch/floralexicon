@@ -10,11 +10,13 @@ import {
   ti,
   type Locale,
 } from "@/lib/i18n";
+import { urlSlugToCanonicalSlug } from "@/lib/data";
+import { resolveCountryFromQueryParam } from "@/lib/countries";
 import { normalizeHubKey } from "@/lib/hubKey";
 import { runDisambiguationSearch } from "@/lib/search";
 import type { Metadata } from "next";
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 
 export const dynamic = "force-dynamic";
 
@@ -60,10 +62,30 @@ export default function DisambiguationSearchPage({ params, searchParams }: Props
   const userCountry = pickParam(searchParams.country)?.toUpperCase();
 
   const result = runDisambiguationSearch(qRaw, lang, userCountry);
+
+  if (
+    result.hadQuery &&
+    !result.noHubMatch &&
+    result.rows.length === 1
+  ) {
+    const nameSlug = urlSlugToCanonicalSlug(
+      result.normalizedHub.replace(/\s+/g, "-")
+    );
+    const base = localePath(lang, `/name/${nameSlug}`);
+    const cc = userCountry
+      ? resolveCountryFromQueryParam(userCountry)
+      : undefined;
+    const qs = cc ? `?country=${encodeURIComponent(cc)}` : "";
+    redirect(`${base}${qs}`);
+  }
+
   const heading =
     result.displayQuery || t(lang, "search_prompt_title");
 
   const hubKeyForClicks = normalizeHubKey(result.normalizedHub);
+  const nameSlugForResults = urlSlugToCanonicalSlug(
+    result.normalizedHub.replace(/\s+/g, "-")
+  );
 
   return (
     <main className="mx-auto w-full max-w-[720px] px-6 py-14 sm:py-18">
@@ -184,23 +206,12 @@ export default function DisambiguationSearchPage({ params, searchParams }: Props
           <DisambiguationResultsClient
             lang={lang}
             hubKey={hubKeyForClicks}
+            nameSlug={nameSlugForResults}
             initialRows={result.rows}
             hasMultiplePlants={result.hasMultiplePlants}
             searchQuery={result.displayQuery}
             searchCountryParam={userCountry}
           />
-
-          <p className="mt-10 text-center text-sm text-stone-500 dark:text-stone-500">
-            <Link
-              href={localePath(
-                lang,
-                `/name/${result.normalizedHub.replace(/\s+/g, "-")}`
-              )}
-              className="font-medium text-flora-forest underline decoration-flora-forest/35 underline-offset-2 dark:text-emerald-400"
-            >
-              {t(lang, "search_open_name_hub")}
-            </Link>
-          </p>
         </>
       ) : null}
     </main>

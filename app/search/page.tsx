@@ -11,6 +11,12 @@ type Props = {
 export default function SearchRootRedirect({ searchParams }: Props) {
   const q = searchParams.q;
   const raw = typeof q === "string" ? q : Array.isArray(q) ? q[0] : "";
-  const qs = raw ? `?q=${encodeURIComponent(raw)}` : "";
+  const c = searchParams.country;
+  const countryRaw =
+    typeof c === "string" ? c : Array.isArray(c) ? c[0] : "";
+  const params = new URLSearchParams();
+  if (raw) params.set("q", raw);
+  if (countryRaw) params.set("country", countryRaw);
+  const qs = params.toString() ? `?${params.toString()}` : "";
   redirect(`/${defaultLocale}/search${qs}`);
 }

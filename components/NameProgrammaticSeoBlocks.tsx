@@ -39,6 +39,7 @@ function collectCountryLabels(
 function collectUseLabels(contexts: ResolvedPlantContext[]): string[] {
   const set = new Set<string>();
   for (const ctx of contexts) {
+    if (!ctx.plant) continue;
     for (const u of ctx.plant.primary_uses) {
       const low = u.trim().toLowerCase();
       if (low) set.add(low);

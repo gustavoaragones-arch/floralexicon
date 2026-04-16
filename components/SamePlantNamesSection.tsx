@@ -1,4 +1,4 @@
-import type { NameIndexLink, Plant } from "@/lib/data";
+import { plantNameHubSlug, type NameIndexLink, type Plant } from "@/lib/data";
 import { localePath, t, type Locale } from "@/lib/i18n";
 import Link from "next/link";
 
@@ -48,7 +48,7 @@ export function SamePlantNamesSection({
                 href={localePath(lang, `/name/${slug}`)}
                 className={linkClass}
               >
-                {label.toLowerCase()}
+                {label}
               </Link>
             </li>
           ))}
@@ -59,7 +59,10 @@ export function SamePlantNamesSection({
             <div key={plant.id}>
               <h3 className="font-serif text-lg font-semibold tracking-tight text-stone-900 dark:text-stone-100">
                 <Link
-                  href={localePath(lang, `/plant/${plant.id}`)}
+                  href={localePath(
+                    lang,
+                    `/name/${plantNameHubSlug(plant.id, plant.scientific_name)}`
+                  )}
                   className="text-flora-forest underline decoration-stone-300 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-400 dark:hover:decoration-emerald-400"
                 >
                   {plant.scientific_name}
@@ -72,7 +75,7 @@ export function SamePlantNamesSection({
                       href={localePath(lang, `/name/${slug}`)}
                       className={linkClass}
                     >
-                      {label.toLowerCase()}
+                      {label}
                     </Link>
                   </li>
                 ))}

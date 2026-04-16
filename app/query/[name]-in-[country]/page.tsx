@@ -7,7 +7,9 @@ import {
   getAlternateHerbNamesWithCountriesForHub,
   getNamesByNormalized,
   getPlantById,
+  plantNameHubSlug,
   resolveCanonicalNameKey,
+  urlSlugToCanonicalSlug,
 } from "@/lib/data";
 import {
   isSeoHubCountrySlug,
@@ -15,6 +17,7 @@ import {
   seoNameCountryQueryPath,
   seoNameCountryQueryStaticParams,
 } from "@/lib/seoProgrammaticRoutes";
+import { defaultLocale, localePath } from "@/lib/i18n";
 import { resolvePlantName } from "@/lib/resolver";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -64,6 +67,8 @@ export default function QueryLandingPage({ params }: Props) {
   const nameLabel = humanNameFromSlug(params.name);
   const queryText = params.name.replace(/-/g, " ").trim();
   const result = resolvePlantName(queryText, iso, "en");
+  const nameHubSlug = urlSlugToCanonicalSlug(params.name);
+  const nameHubBase = localePath(defaultLocale, `/name/${nameHubSlug}`);
   const matches = result.plantContexts.slice(0, MAX_ANSWER_PLANTS);
 
   const canonicalKey = resolveCanonicalNameKey(queryText);
@@ -71,7 +76,7 @@ export default function QueryLandingPage({ params }: Props) {
     (e) => e.country.trim().toUpperCase() === iso
   );
 
-  const plantIds = matches.map((m) => m.plant.id);
+  const plantIds = matches.map((m) => m.plant_id);
   const alsoCalled = getAlternateHerbNamesWithCountriesForHub(
     plantIds,
     params.name,
@@ -102,7 +107,10 @@ export default function QueryLandingPage({ params }: Props) {
         {matches.length === 0 ? (
           <p className="mt-3 text-sm leading-relaxed text-stone-700 dark:text-stone-300">
             We do not yet have indexed plant links for this exact spelling in {countryLabel}. Open the{" "}
-            <Link href={`/name/${params.name}`} className="font-medium text-flora-forest underline dark:text-emerald-300">
+            <Link
+              href={`${nameHubBase}?country=${encodeURIComponent(iso)}`}
+              className="font-medium text-flora-forest underline dark:text-emerald-300"
+            >
               name hub
             </Link>{" "}
             or the{" "}
@@ -115,10 +123,19 @@ export default function QueryLandingPage({ params }: Props) {
           <>
             <ul className="mt-4 list-disc space-y-2 pl-5 text-sm leading-relaxed text-stone-800 dark:text-stone-200">
               {matches.map((ctx) => (
-                <li key={ctx.plant.id}>
-                  <Link href={`/plant/${ctx.plant.id}`} className="font-medium italic text-flora-forest hover:underline dark:text-emerald-300">
-                    {ctx.plant.scientific_name}
-                  </Link>
+                <li key={ctx.plant_id}>
+                  {ctx.plant && !ctx.isPlaceholder ? (
+                    <Link
+                      href={`${localePath(defaultLocale, `/name/${plantNameHubSlug(ctx.plant.id, ctx.plant.scientific_name)}`)}?country=${encodeURIComponent(iso)}`}
+                      className="font-medium italic text-flora-forest hover:underline dark:text-emerald-300"
+                    >
+                      {ctx.plant.scientific_name}
+                    </Link>
+                  ) : (
+                    <span className="font-medium italic text-stone-800 dark:text-stone-200">
+                      Plant not fully indexed yet (see name hub for regional usage)
+                    </span>
+                  )}
                 </li>
               ))}
             </ul>
@@ -160,7 +177,11 @@ export default function QueryLandingPage({ params }: Props) {
                     return (
                       <li key={pid}>
                         <Link
-                          href={`/plant/${pid}`}
+                          href={
+                            p
+                              ? `${localePath(defaultLocale, `/name/${plantNameHubSlug(p.id, p.scientific_name)}`)}?country=${encodeURIComponent(iso)}`
+                              : nameHubBase
+                          }
                           className="text-sm font-medium text-flora-forest underline dark:text-emerald-300"
                         >
                           {label}
@@ -194,7 +215,7 @@ export default function QueryLandingPage({ params }: Props) {
             {alsoCalled.map((row) => (
               <li key={row.slug}>
                 <Link
-                  href={`/name/${row.slug}`}
+                  href={`${localePath(defaultLocale, `/name/${row.slug}`)}?country=${encodeURIComponent(iso)}`}
                   className="inline-block rounded-full border border-stone-200 bg-white/80 px-3 py-1 text-sm font-medium text-flora-forest hover:border-flora-forest/40 dark:border-stone-600 dark:bg-stone-900/60 dark:text-emerald-300"
                 >
                   {row.label}
@@ -222,12 +243,24 @@ export default function QueryLandingPage({ params }: Props) {
         {matches.length === 0 ? null : (
           <ul className="mt-4 space-y-3 text-sm leading-relaxed text-stone-700 dark:text-stone-300">
             {matches.slice(0, 4).map((ctx) => (
-              <li key={ctx.plant.id}>
-                In FloraLexicon, &quot;{nameLabel}&quot; in {countryLabel} can point to the species{" "}
-                <Link href={`/plant/${ctx.plant.id}`} className="font-medium italic text-flora-forest underline dark:text-emerald-300">
-                  {ctx.plant.scientific_name}
-                </Link>
-                .
+              <li key={ctx.plant_id}>
+                {ctx.plant && !ctx.isPlaceholder ? (
+                  <>
+                    In FloraLexicon, &quot;{nameLabel}&quot; in {countryLabel} can point to the species{" "}
+                    <Link
+                      href={`${localePath(defaultLocale, `/name/${plantNameHubSlug(ctx.plant.id, ctx.plant.scientific_name)}`)}?country=${encodeURIComponent(iso)}`}
+                      className="font-medium italic text-flora-forest underline dark:text-emerald-300"
+                    >
+                      {ctx.plant.scientific_name}
+                    </Link>
+                    .
+                  </>
+                ) : (
+                  <>
+                    In FloraLexicon, &quot;{nameLabel}&quot; in {countryLabel} is linked to a species that is
+                    not yet fully mapped to a plant page; see the name hub for indexed regional usage.
+                  </>
+                )}
               </li>
             ))}
           </ul>
@@ -259,7 +292,10 @@ export default function QueryLandingPage({ params }: Props) {
         <p className="font-medium text-stone-800 dark:text-stone-200">Explore further</p>
         <ul className="mt-3 flex flex-wrap gap-4">
           <li>
-            <Link href={`/name/${params.name}`} className="font-medium text-flora-forest underline dark:text-emerald-300">
+            <Link
+              href={`${nameHubBase}?country=${encodeURIComponent(iso)}`}
+              className="font-medium text-flora-forest underline dark:text-emerald-300"
+            >
               Name hub: {nameLabel}
             </Link>
           </li>

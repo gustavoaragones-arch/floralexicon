@@ -1,7 +1,7 @@
 import { CountryContextSelector } from "@/components/CountryContextSelector";
 import { PlantCard } from "@/components/PlantCard";
 import { formatRegionList } from "@/lib/countries";
-import { getNameHubConfidenceTier } from "@/lib/geo";
+import { getPlantGlobalData, plantNameHubSlug } from "@/lib/data";
 import { localePath, t, ti, type Locale } from "@/lib/i18n";
 import type { PlantNameMatch, ResolvedPlantContext } from "@/lib/resolver";
 import Link from "next/link";
@@ -9,20 +9,10 @@ import Link from "next/link";
 const prose =
   "text-sm leading-relaxed text-stone-600 dark:text-stone-400";
 
-function primaryPlantCardShell(confidence: number): string {
-  const tier = getNameHubConfidenceTier(confidence);
-  if (tier === "most_likely") {
-    return "mt-6 rounded-2xl border-2 border-emerald-500/45 bg-white px-6 py-6 shadow-md shadow-emerald-900/5 ring-2 ring-emerald-500/15 dark:border-emerald-500/40 dark:bg-stone-900/40 dark:shadow-black/25 dark:ring-emerald-500/20";
-  }
-  if (tier === "strong_regional") {
-    return "mt-6 rounded-2xl border border-amber-400/55 bg-amber-50/40 px-6 py-6 shadow-sm ring-1 ring-amber-500/15 dark:border-amber-600/40 dark:bg-amber-950/20 dark:ring-amber-500/10";
-  }
-  return "mt-6 rounded-2xl border border-stone-200 bg-white px-6 py-6 shadow-sm dark:border-stone-600 dark:bg-stone-900/40";
-}
-
 function aggregateUseKeys(contexts: ResolvedPlantContext[]): string[] {
   const set = new Set<string>();
   for (const { plant } of contexts) {
+    if (!plant) continue;
     for (const u of plant.primary_uses) {
       const low = u.trim().toLowerCase();
       if (low) set.add(low);
@@ -75,10 +65,18 @@ export function NameCountryHub({
 }: NameCountryHubProps) {
   const titleName = displayName.trim();
   const useKeys = aggregateUseKeys(plantContexts);
-  const siblingPlants = plantContexts.map((c) => c.plant);
+  const siblingPlants = plantContexts
+    .map((c) => c.plant)
+    .filter((p): p is NonNullable<typeof p> => p != null);
   const primary = plantContexts[0];
   const entryName =
     matches[0]?.name_entry.name.trim() || titleName;
+  const primaryGlobalNames = primary
+    ? getPlantGlobalData(primary.plant_id, {
+        pageNameSlug: nameCanonicalSlug,
+        queryDisplay: titleName,
+      }).names
+    : [];
 
   return (
     <div>
@@ -128,19 +126,27 @@ export function NameCountryHub({
           </h2>
           <p className={`mt-2 ${prose}`}>
             {ti(lang, "name_country_primary_lead", {
-              scientific: primary.plant.scientific_name,
+              scientific:
+                primary.plant?.scientific_name ??
+                t(lang, "plant_placeholder_title"),
               name: entryName,
               country: countryLabel,
             })}
           </p>
-          <div className={primaryPlantCardShell(primary.confidence)}>
+          <div className="mt-6 rounded-2xl border border-stone-200 bg-white px-6 py-6 shadow-sm dark:border-stone-600 dark:bg-stone-900/40">
             <PlantCard
               lang={lang}
               plant={primary.plant}
+              indexingPlaceholder={Boolean(primary.isPlaceholder)}
               headingLevel="h3"
               frameless
+              deferImage
               commonCountries={primary.countries}
               userCountry={countryCode}
+              nameHubSlug={nameCanonicalSlug}
+              hubStyleCard
+              suppressDecisionExplanations
+              alsoKnownAs={primaryGlobalNames}
               decisionAssist={{
                 matchNumber: 1,
                 queryLabel: titleName,
@@ -151,6 +157,9 @@ export function NameCountryHub({
                 totalMatches: plantContexts.length,
                 confidence: primary.confidence,
                 showPercent: true,
+                global_agreement: primary.global_agreement,
+                regional_strength: primary.regional_strength,
+                selectedCountryIso: countryCode,
               }}
             />
           </div>
@@ -167,17 +176,28 @@ export function NameCountryHub({
           </h2>
           <ul className="mt-4 space-y-3">
             {plantContexts.slice(1).map((ctx) => (
-              <li key={ctx.plant.id}>
-                <Link
-                  href={localePath(lang, `/plant/${ctx.plant.id}`)}
-                  className="font-medium text-flora-forest underline decoration-stone-300 underline-offset-2 dark:text-emerald-400"
-                >
-                  {ctx.plant.scientific_name}
-                </Link>
-                <span className="text-stone-500 dark:text-stone-500">
-                  {" "}
-                  · {ctx.plant.family}
-                </span>
+              <li key={ctx.plant_id}>
+                {ctx.plant && !ctx.isPlaceholder ? (
+                  <>
+                    <Link
+                      href={`${localePath(
+                        lang,
+                        `/name/${plantNameHubSlug(ctx.plant.id, ctx.plant.scientific_name)}`
+                      )}?country=${encodeURIComponent(countryCode)}`}
+                      className="font-medium text-flora-forest underline decoration-stone-300 underline-offset-2 dark:text-emerald-400"
+                    >
+                      {ctx.plant.scientific_name}
+                    </Link>
+                    <span className="text-stone-500 dark:text-stone-500">
+                      {" "}
+                      · {ctx.plant.family}
+                    </span>
+                  </>
+                ) : (
+                  <span className="text-stone-800 dark:text-stone-200">
+                    {t(lang, "plant_placeholder_title")}
+                  </span>
+                )}
               </li>
             ))}
           </ul>
@@ -199,9 +219,21 @@ export function NameCountryHub({
         </h2>
         <ul className="mt-3 list-disc space-y-2 pl-5 text-stone-700 dark:text-stone-300">
           {plantContexts.map((ctx) => (
-            <li key={ctx.plant.id}>
-              <span className="font-medium">{ctx.plant.scientific_name}:</span>{" "}
-              {formatRegionList(ctx.plant.origin_regions)}
+            <li key={ctx.plant_id}>
+              {ctx.plant && !ctx.isPlaceholder ? (
+                <>
+                  <span className="font-medium">{ctx.plant.scientific_name}:</span>{" "}
+                  {formatRegionList(ctx.plant.origin_regions)}
+                </>
+              ) : (
+                <span className="text-stone-700 dark:text-stone-300">
+                  <span className="font-medium">
+                    {t(lang, "plant_placeholder_title")}
+                  </span>
+                  <span className="text-stone-500"> — </span>
+                  {t(lang, "plant_placeholder_subtitle")}
+                </span>
+              )}
             </li>
           ))}
         </ul>

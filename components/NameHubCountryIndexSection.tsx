@@ -14,7 +14,7 @@ type Props = {
 };
 
 /**
- * Flat index of country-filtered name hub pages — only links that exist in
+ * Flat index of country-filtered name hub views — only links that exist in
  * `getNameCountryStaticParams` for this hub.
  */
 export function NameHubCountryIndexSection({
@@ -27,11 +27,13 @@ export function NameHubCountryIndexSection({
     .map((code) => {
       const seg = countryCodeToUrlSlug(code);
       if (!validSegs.has(seg)) return null;
-      return { code, seg, label: getCountryDisplayName(code, lang) };
+      return { code, label: getCountryDisplayName(code, lang) };
     })
     .filter((x): x is NonNullable<typeof x> => x != null);
 
   if (rows.length === 0) return null;
+
+  const hubBase = localePath(lang, `/name/${nameCanonicalSlug}`);
 
   return (
     <section
@@ -48,10 +50,10 @@ export function NameHubCountryIndexSection({
         {t(lang, "name_hub_countries_index_lead")}
       </p>
       <ul className="mt-4 flex flex-wrap gap-2">
-        {rows.map(({ code, seg, label }) => (
+        {rows.map(({ code, label }) => (
           <li key={code}>
             <Link
-              href={localePath(lang, `/name/${nameCanonicalSlug}/${seg}`)}
+              href={`${hubBase}?country=${encodeURIComponent(code)}`}
               className={chipClass}
             >
               {label}

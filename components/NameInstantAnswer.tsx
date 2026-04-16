@@ -24,7 +24,9 @@ export function NameInstantAnswer({
 }: Props) {
   const name = displayName.trim();
   const genera = new Set(
-    plantContexts.map(({ plant }) => plant.genus.trim()).filter(Boolean)
+    plantContexts
+      .map(({ plant }) => plant?.genus.trim())
+      .filter((g): g is string => Boolean(g))
   );
   const closing =
     genera.size === 1

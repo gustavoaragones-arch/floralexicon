@@ -1,6 +1,6 @@
 "use client";
 
-import { countryCodeToUrlSlug, getCountryDisplayName } from "@/lib/countries";
+import { getCountryDisplayName } from "@/lib/countries";
 import { localePath, t, type Locale } from "@/lib/i18n";
 import { useRouter } from "next/navigation";
 import { useTransition } from "react";
@@ -42,10 +42,7 @@ export function CountryContextSelector({
         onChange={(e) => {
           const code = e.target.value.trim().toUpperCase();
           const path = code
-            ? localePath(
-                lang,
-                `/name/${slug}/${countryCodeToUrlSlug(code)}`
-              )
+            ? `${hubPath}?country=${encodeURIComponent(code)}`
             : hubPath;
           startTransition(() => router.push(path));
         }}

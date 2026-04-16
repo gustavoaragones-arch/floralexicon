@@ -1,3 +1,4 @@
+import { plantNameHubSlug } from "@/lib/data";
 import type { RelatedPlantItem } from "@/lib/plantDetailQueries";
 import { localePath, t, type Locale } from "@/lib/i18n";
 import Link from "next/link";
@@ -24,7 +25,13 @@ export function RelatedPlants({ lang, related }: Props) {
       <ul className="mt-3 flex flex-col gap-2 text-sm">
         {related.map(({ plant, match }) => (
           <li key={plant.id} className="flex flex-wrap items-baseline gap-x-2">
-            <Link href={localePath(lang, `/plant/${plant.id}`)} className={linkClass}>
+            <Link
+              href={localePath(
+                lang,
+                `/name/${plantNameHubSlug(plant.id, plant.scientific_name)}`
+              )}
+              className={linkClass}
+            >
               {plant.scientific_name}
             </Link>
             <span className="text-xs text-stone-500 dark:text-stone-400">

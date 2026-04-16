@@ -1,7 +1,8 @@
 import { getCountryDisplayName, joinCountryNames, urlSlugToCountryCode } from "@/lib/countries";
-import { getAlsoKnownAsLinks } from "@/lib/data";
+import { getAlsoKnownAsLinks, plantNameHubSlug } from "@/lib/data";
 import { getMergedPlantRow } from "@/lib/plantDetailData";
 import { getNameLinksForCountry, getPlantsForCountry } from "@/lib/herbLandings";
+import { defaultLocale, localePath } from "@/lib/i18n";
 import { herbHubStaticParams, isSeoHubCountrySlug, SEO_HUB_COUNTRY_SLUGS } from "@/lib/seoProgrammaticRoutes";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -69,7 +70,7 @@ export default function CountryHerbsSeoPage({ params }: Props) {
             {names.map(({ slug, label }) => (
               <li key={slug}>
                 <Link
-                  href={`/name/${slug}`}
+                  href={`${localePath(defaultLocale, `/name/${slug}`)}?country=${encodeURIComponent(iso)}`}
                   className="inline-block rounded-full border border-stone-200 bg-white/80 px-3 py-1 text-sm font-medium text-flora-forest hover:border-flora-forest/40 dark:border-stone-600 dark:bg-stone-900/60 dark:text-emerald-300"
                 >
                   {label}
@@ -103,7 +104,10 @@ export default function CountryHerbsSeoPage({ params }: Props) {
                   className="rounded-2xl border border-stone-200 bg-white/60 px-4 py-4 dark:border-stone-700 dark:bg-stone-900/40"
                 >
                   <p className="font-medium italic tracking-tight text-stone-900 dark:text-stone-100">
-                    <Link href={`/plant/${plant.id}`} className="text-flora-forest hover:underline dark:text-emerald-300">
+                    <Link
+                      href={`${localePath(defaultLocale, `/name/${plantNameHubSlug(plant.id, plant.scientific_name)}`)}?country=${encodeURIComponent(iso)}`}
+                      className="text-flora-forest hover:underline dark:text-emerald-300"
+                    >
                       {plant.scientific_name}
                     </Link>
                   </p>
@@ -117,7 +121,7 @@ export default function CountryHerbsSeoPage({ params }: Props) {
                       {also.map(({ slug, label }) => (
                         <li key={slug}>
                           <Link
-                            href={`/name/${slug}`}
+                            href={`${localePath(defaultLocale, `/name/${slug}`)}?country=${encodeURIComponent(iso)}`}
                             className="text-sm font-medium text-flora-forest underline decoration-stone-300 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-300"
                           >
                             {label}

@@ -7,11 +7,16 @@ const linkClass =
 
 type Props = {
   lang: Locale;
+  nameSlug: string;
   plantContexts: ResolvedPlantContext[];
 };
 
 /** Quick crawlable links to each species card in this name hub. */
-export function NameHubPlantQuickLinks({ lang, plantContexts }: Props) {
+export function NameHubPlantQuickLinks({
+  lang,
+  nameSlug,
+  plantContexts,
+}: Props) {
   if (plantContexts.length === 0) return null;
 
   return (
@@ -23,11 +28,22 @@ export function NameHubPlantQuickLinks({ lang, plantContexts }: Props) {
         {t(lang, "name_hub_plant_quick_nav_label")}
       </p>
       <ul className="mt-2 flex flex-wrap gap-2">
-        {plantContexts.map(({ plant }) => (
-          <li key={plant.id}>
-            <Link href={localePath(lang, `/plant/${plant.id}`)} className={linkClass}>
-              {plant.scientific_name}
-            </Link>
+        {plantContexts.map((ctx) => (
+          <li key={ctx.plant_id}>
+            {ctx.plant && !ctx.isPlaceholder ? (
+              <Link
+                href={`${localePath(lang, `/name/${nameSlug}`)}#name-hub-plant-${ctx.plant.id}`}
+                className={linkClass}
+              >
+                {ctx.plant.scientific_name}
+              </Link>
+            ) : (
+              <span
+                className={`${linkClass} cursor-default border-dashed opacity-90`}
+              >
+                {t(lang, "plant_placeholder_title")}
+              </span>
+            )}
           </li>
         ))}
       </ul>

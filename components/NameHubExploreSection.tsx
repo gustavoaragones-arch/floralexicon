@@ -1,7 +1,6 @@
 import type { SamePlantCluster } from "@/components/SamePlantNamesSection";
 import { categoryListingPath, getPlantCategories, type PlantCategory } from "@/lib/categories";
-import { urlSlugToCanonicalSlug } from "@/lib/data";
-import type { Plant } from "@/lib/data";
+import { urlSlugToCanonicalSlug, type Plant } from "@/lib/data";
 import { localePath, t, type Locale } from "@/lib/i18n";
 import Link from "next/link";
 

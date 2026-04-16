@@ -6,36 +6,71 @@ import {
   getPlantById,
   loadNames,
   loadPlants,
+  nameEntryCountries,
   resolveCanonicalNameKey,
 } from "@/lib/data";
 import {
-  getNameHubPlantConfidenceMap,
   getPlantCountryCodesSorted,
-  type NameHubPlantConfidence,
 } from "@/lib/geo";
 
 export type Ambiguity = "low" | "medium" | "high";
 
+/**
+ * Synthetic entry when `names.json` references a `plant_id` missing from `plants.json`.
+ * Use {@link isPlaceholderPlant} / `isPlaceholder` on matches instead of duck-typing.
+ */
+export type PlaceholderPlant = {
+  id: string;
+  scientific_name: null;
+  isPlaceholder: true;
+};
+
+export type RegionalPlantEntry = Plant | PlaceholderPlant;
+
+export function isPlaceholderPlant(p: RegionalPlantEntry): p is PlaceholderPlant {
+  return (
+    "isPlaceholder" in p &&
+    p.isPlaceholder === true &&
+    p.scientific_name === null
+  );
+}
+
 export type PlantNameMatch = {
-  plant: Plant;
+  /** Present when this id exists in `plants.json`; otherwise null with {@link isPlaceholder}. */
+  plant: Plant | null;
+  plant_id: string;
+  scientific_name: string | null;
+  isPlaceholder?: boolean;
   name_entry: NameEntry;
-  /** Uppercase `name_entry.country` for disambiguation UI. */
+  /** Uppercase ISO country for this association (one row per country when the entry spans several). */
   country: string;
   /** @deprecated Use {@link confidence}; kept as alias for ranking (same value). */
   relevance_score: number;
   /**
-   * Share of distinct countries for this name hub where this plant is linked (0–1).
-   * Higher = more common regional association for this label.
+   * Multi-signal confidence score (0–1):
+   * 0.4*global_agreement + 0.35*regional_strength + 0.25*name_dominance
    */
   confidence: number;
+  /** Distinct-country agreement: countriesForPlant / totalCountriesForName. */
+  global_agreement: number;
+  /** Country-aware strength for selected region, else equals global_agreement. */
+  regional_strength: number;
+  /** Row dominance for this label: plantOccurrences / totalOccurrences. */
+  name_dominance: number;
 };
 
 export type ResolvedPlantContext = {
-  plant: Plant;
+  plant: Plant | null;
+  plant_id: string;
+  scientific_name: string | null;
+  isPlaceholder?: boolean;
   /** Distinct countries (uppercase) from matching name entries for this plant. */
   countries: string[];
-  /** Regional coverage score for this name hub (see {@link PlantNameMatch.confidence}). */
+  /** Composite score (see {@link PlantNameMatch.confidence}). */
   confidence: number;
+  global_agreement: number;
+  regional_strength: number;
+  name_dominance: number;
 };
 
 export type ResolvePlantNameResult = {
@@ -56,10 +91,13 @@ function ambiguityLevelOrder(level: string): number {
 }
 
 function countryMatches(entry: NameEntry, country?: string): boolean {
-  if (!country || typeof country !== "string") return false;
-  const want = country.trim().toUpperCase();
+  const want = country?.trim().toUpperCase();
   if (!want) return false;
-  return entry.country.trim().toUpperCase() === want;
+  return nameEntryCountries(entry).includes(want);
+}
+
+function makePlaceholderPlant(pid: string): PlaceholderPlant {
+  return { id: pid, scientific_name: null, isPlaceholder: true };
 }
 
 function collectMatches(nameEntries: NameEntry[]): PlantNameMatch[] {
@@ -70,14 +108,41 @@ function collectMatches(nameEntries: NameEntry[]): PlantNameMatch[] {
       if (!pid || seenIds.has(pid)) continue;
       seenIds.add(pid);
       const plant = getPlantById(pid);
-      if (!plant) continue;
-      raw.push({
-        plant,
-        name_entry: entry,
-        country: entry.country.trim().toUpperCase(),
-        relevance_score: 0,
-        confidence: 0,
-      });
+      const resolvedPlant = plant ?? null;
+      const scientific_name = plant?.scientific_name ?? null;
+      const isPlaceholder = !plant;
+      const codes = nameEntryCountries(entry);
+      if (codes.length === 0) {
+        raw.push({
+          plant: resolvedPlant,
+          plant_id: pid,
+          scientific_name,
+          isPlaceholder,
+          name_entry: entry,
+          country: "",
+          relevance_score: 0,
+          confidence: 0,
+          global_agreement: 0,
+          regional_strength: 0,
+          name_dominance: 0,
+        });
+        continue;
+      }
+      for (const code of codes) {
+        raw.push({
+          plant: resolvedPlant,
+          plant_id: pid,
+          scientific_name,
+          isPlaceholder,
+          name_entry: entry,
+          country: code,
+          relevance_score: 0,
+          confidence: 0,
+          global_agreement: 0,
+          regional_strength: 0,
+          name_dominance: 0,
+        });
+      }
     }
   }
   return raw;
@@ -87,7 +152,7 @@ function dedupeMatches(matches: PlantNameMatch[]): PlantNameMatch[] {
   const seen = new Set<string>();
   const out: PlantNameMatch[] = [];
   for (const m of matches) {
-    const key = `${m.name_entry.language}\0${m.name_entry.country}\0${m.name_entry.name}\0${m.plant.id}`;
+    const key = `${m.name_entry.language}\0${m.country}\0${m.name_entry.name}\0${m.plant_id}`;
     if (seen.has(key)) continue;
     seen.add(key);
     out.push(m);
@@ -95,29 +160,29 @@ function dedupeMatches(matches: PlantNameMatch[]): PlantNameMatch[] {
   return out;
 }
 
-function sortMatches(
-  matches: PlantNameMatch[],
-  country?: string,
-  confidenceByPlant?: Map<string, NameHubPlantConfidence>
-): PlantNameMatch[] {
-  const c = country?.trim();
-  const conf = (id: string) => confidenceByPlant?.get(id)?.confidence ?? 0;
-  return [...matches].sort((a, b) => {
-    const cb = conf(b.plant.id);
-    const ca = conf(a.plant.id);
-    if (cb !== ca) return cb - ca;
+function scientificSortKey(m: PlantNameMatch): string {
+  return (m.scientific_name ?? "\uFFFF").toLowerCase();
+}
 
-    if (c) {
-      const aHit = countryMatches(a.name_entry, c);
-      const bHit = countryMatches(b.name_entry, c);
-      if (aHit !== bHit) return aHit ? -1 : 1;
+function sortMatches(
+  matches: PlantNameMatch[]
+): PlantNameMatch[] {
+  return [...matches].sort((a, b) => {
+    const cb = b.confidence;
+    const ca = a.confidence;
+    if (cb !== ca) return cb - ca;
+    if (b.regional_strength !== a.regional_strength) {
+      return b.regional_strength - a.regional_strength;
+    }
+    if (b.name_dominance !== a.name_dominance) {
+      return b.name_dominance - a.name_dominance;
     }
 
     const ambA = ambiguityLevelOrder(a.name_entry.ambiguity_level);
     const ambB = ambiguityLevelOrder(b.name_entry.ambiguity_level);
     if (ambA !== ambB) return ambA - ambB;
 
-    const sci = a.plant.scientific_name.localeCompare(b.plant.scientific_name);
+    const sci = scientificSortKey(a).localeCompare(scientificSortKey(b));
     if (sci !== 0) return sci;
 
     return a.name_entry.name.localeCompare(b.name_entry.name);
@@ -126,36 +191,119 @@ function sortMatches(
 
 function buildPlantContexts(
   sorted: PlantNameMatch[],
-  lang: Locale = "en",
-  confidenceByPlant?: Map<string, NameHubPlantConfidence>
+  lang: Locale = "en"
 ): ResolvedPlantContext[] {
   const names = loadNames();
   const order: string[] = [];
   const seen = new Set<string>();
 
   for (const m of sorted) {
-    const id = m.plant.id;
+    const id = m.plant_id;
     if (seen.has(id)) continue;
     seen.add(id);
     order.push(id);
   }
 
   return order.map((id) => {
-    const plant = sorted.find((x) => x.plant.id === id)!.plant;
+    const m = sorted.find((x) => x.plant_id === id)!;
     const countries = getPlantCountryCodesSorted(id, names, lang);
-    const confidence = confidenceByPlant?.get(id)?.confidence ?? 0;
-    return { plant, countries, confidence };
+    const confidence = m.confidence;
+    return {
+      plant: m.plant,
+      plant_id: id,
+      scientific_name: m.scientific_name,
+      isPlaceholder: m.isPlaceholder,
+      countries,
+      confidence,
+      global_agreement: m.global_agreement,
+      regional_strength: m.regional_strength,
+      name_dominance: m.name_dominance,
+    };
   });
+}
+
+type ConfidenceParts = {
+  confidence: number;
+  global_agreement: number;
+  regional_strength: number;
+  name_dominance: number;
+};
+
+function buildConfidenceByPlant(
+  nameEntries: NameEntry[],
+  selectedCountry?: string
+): Map<string, ConfidenceParts> {
+  const byPlant = new Map<string, ConfidenceParts>();
+  const totalOccurrences = nameEntries.length;
+  const allCountries = new Set<string>();
+  for (const entry of nameEntries) {
+    for (const c of nameEntryCountries(entry)) {
+      if (c) allCountries.add(c);
+    }
+  }
+  const totalCountriesForName = allCountries.size;
+  const selected = selectedCountry?.trim().toUpperCase();
+  const totalCountryOccurrences = selected
+    ? nameEntries.filter((e) => nameEntryCountries(e).includes(selected)).length
+    : 0;
+
+  const allPlantIds = new Set<string>();
+  for (const entry of nameEntries) {
+    for (const pid of entry.plant_ids) {
+      if (pid) allPlantIds.add(pid);
+    }
+  }
+
+  for (const pid of allPlantIds) {
+    const countriesForPlant = new Set<string>();
+    let plantOccurrences = 0;
+    let plantCountryOccurrences = 0;
+    for (const entry of nameEntries) {
+      const hasPlant = entry.plant_ids.includes(pid);
+      if (!hasPlant) continue;
+      plantOccurrences++;
+      const codes = nameEntryCountries(entry);
+      for (const c of codes) {
+        if (c) countriesForPlant.add(c);
+      }
+      if (selected && codes.includes(selected)) {
+        plantCountryOccurrences++;
+      }
+    }
+
+    const global_agreement =
+      totalCountriesForName > 0 ? countriesForPlant.size / totalCountriesForName : 0;
+    const name_dominance =
+      totalOccurrences > 0 ? plantOccurrences / totalOccurrences : 0;
+    const regional_strength = selected
+      ? totalCountryOccurrences > 0
+        ? plantCountryOccurrences / totalCountryOccurrences
+        : 0
+      : global_agreement;
+    const confidence =
+      0.4 * global_agreement +
+      0.35 * regional_strength +
+      0.25 * name_dominance;
+
+    byPlant.set(pid, {
+      confidence,
+      global_agreement,
+      regional_strength,
+      name_dominance,
+    });
+  }
+
+  return byPlant;
 }
 
 function resolveAmbiguity(matches: PlantNameMatch[]): Ambiguity {
   if (matches.length === 0) return "low";
 
-  const plantIds = new Set(matches.map((m) => m.plant.id));
+  const plantIds = new Set(matches.map((m) => m.plant_id));
   if (plantIds.size > 1) return "high";
 
   const countries = new Set(
-    matches.map((m) => m.name_entry.country.trim().toUpperCase()).filter(Boolean)
+    matches.map((m) => m.country.trim().toUpperCase()).filter(Boolean)
   );
   if (plantIds.size === 1 && countries.size > 1) return "medium";
 
@@ -170,28 +318,26 @@ function resolvePlantNameCore(
   const query = typeof input === "string" ? input : "";
   const normalized = resolveCanonicalNameKey(query);
   const nameEntries = normalized ? getNamesByNormalized(normalized) : [];
-  const names = loadNames();
-  const confidenceByPlant = normalized
-    ? getNameHubPlantConfidenceMap(normalized, names)
-    : new Map<string, NameHubPlantConfidence>();
+  const confidenceByPlant = buildConfidenceByPlant(nameEntries, country);
 
   const collected = collectMatches(nameEntries);
   const deduped = dedupeMatches(collected);
-  const sorted = sortMatches(deduped, country, confidenceByPlant);
-  const ambiguity = resolveAmbiguity(sorted);
-
-  const matches: PlantNameMatch[] = sorted.map((m) => {
-    const confidence = confidenceByPlant.get(m.plant.id)?.confidence ?? 0;
+  const withConfidence: PlantNameMatch[] = deduped.map((m) => {
+    const c = confidenceByPlant.get(m.plant_id);
     return {
-      plant: m.plant,
-      name_entry: m.name_entry,
-      country: m.country,
-      relevance_score: confidence,
-      confidence,
+      ...m,
+      relevance_score: c?.confidence ?? 0,
+      confidence: c?.confidence ?? 0,
+      global_agreement: c?.global_agreement ?? 0,
+      regional_strength: c?.regional_strength ?? 0,
+      name_dominance: c?.name_dominance ?? 0,
     };
   });
+  const sorted = sortMatches(withConfidence);
+  const ambiguity = resolveAmbiguity(sorted);
 
-  const plantContexts = buildPlantContexts(matches, lang, confidenceByPlant);
+  const matches: PlantNameMatch[] = sorted;
+  const plantContexts = buildPlantContexts(matches, lang);
 
   return {
     query,
@@ -222,7 +368,7 @@ export function getRankedPlantIdsWithConfidence(
   lang: Locale = "en"
 ): { plant_id: string; confidence: number }[] {
   return resolvePlantName(input, country, lang).plantContexts.map((c) => ({
-    plant_id: c.plant.id,
+    plant_id: c.plant_id,
     confidence: c.confidence,
   }));
 }
@@ -243,22 +389,10 @@ export function resolvePlantNameForCountryRoute(
   const filtered = full.matches.filter((m) => m.country === want);
   if (filtered.length === 0) return null;
 
-  const confidenceByPlant = full.normalized
-    ? getNameHubPlantConfidenceMap(full.normalized, loadNames())
-    : new Map<string, NameHubPlantConfidence>();
-  const sorted = sortMatches(filtered, want, confidenceByPlant);
+  const sorted = sortMatches(filtered);
   const ambiguity = resolveAmbiguity(sorted);
-  const matches: PlantNameMatch[] = sorted.map((m) => {
-    const confidence = confidenceByPlant.get(m.plant.id)?.confidence ?? 0;
-    return {
-      plant: m.plant,
-      name_entry: m.name_entry,
-      country: m.country,
-      relevance_score: confidence,
-      confidence,
-    };
-  });
-  const plantContexts = buildPlantContexts(matches, lang, confidenceByPlant);
+  const matches: PlantNameMatch[] = sorted;
+  const plantContexts = buildPlantContexts(matches, lang);
 
   return {
     query: full.query,
@@ -277,14 +411,16 @@ export function getAllPlantRouteIds(): string[] {
   return loadPlants().map((p) => p.id);
 }
 
-export function resolveEntryPlants(entry: NameEntry): Plant[] {
-  const out: Plant[] = [];
+/** Every plant id on the entry, using a placeholder when missing from `plants.json`. */
+export function resolveEntryPlants(entry: NameEntry): RegionalPlantEntry[] {
+  const out: RegionalPlantEntry[] = [];
   const seen = new Set<string>();
   for (const id of entry.plant_ids) {
     if (seen.has(id)) continue;
     seen.add(id);
     const p = getPlantById(id);
     if (p) out.push(p);
+    else out.push(makePlaceholderPlant(id));
   }
   return out;
 }
@@ -296,26 +432,31 @@ export function getNameEntriesForSlug(slug: string): NameEntry[] {
 export type RegionalPlantRow = {
   countryCode: string;
   countryLabel: string;
-  plants: Plant[];
+  plants: RegionalPlantEntry[];
 };
 
 /** One row per country present in matches, with distinct plants for hub “regional meaning”. */
 export function buildRegionalPlantRows(matches: PlantNameMatch[]): RegionalPlantRow[] {
-  const byCountry = new Map<string, Map<string, Plant>>();
+  const byCountry = new Map<string, Map<string, RegionalPlantEntry>>();
   for (const m of matches) {
     const code = m.country?.trim().toUpperCase();
     if (!code) continue;
     if (!byCountry.has(code)) byCountry.set(code, new Map());
-    byCountry.get(code)!.set(m.plant.id, m.plant);
+    const entry: RegionalPlantEntry =
+      m.plant ??
+      makePlaceholderPlant(m.plant_id);
+    byCountry.get(code)!.set(m.plant_id, entry);
   }
 
   return Array.from(byCountry.entries())
     .map(([countryCode, plantById]) => ({
       countryCode,
       countryLabel: getCountryName(countryCode),
-      plants: Array.from(plantById.values()).sort((a, b) =>
-        a.scientific_name.localeCompare(b.scientific_name)
-      ),
+      plants: Array.from(plantById.values()).sort((a, b) => {
+        const sa = isPlaceholderPlant(a) ? "\uFFFF" : a.scientific_name;
+        const sb = isPlaceholderPlant(b) ? "\uFFFF" : b.scientific_name;
+        return sa.localeCompare(sb);
+      }),
     }))
     .sort((a, b) =>
       a.countryLabel.localeCompare(b.countryLabel, "en", { sensitivity: "base" })

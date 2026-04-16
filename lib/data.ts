@@ -12,13 +12,24 @@ export type Plant = {
   origin_regions: string[];
   plant_type: string;
   primary_uses: string[];
+  /**
+   * Synthetic plant built from `names.json` when this `id` is referenced but missing from `plants.json`.
+   * Prefer {@link getPlantById} which returns ghosts automatically when name rows exist.
+   */
+  isGhost?: boolean;
 };
 
 export type NameEntry = {
   name: string;
   normalized: string;
   language: string;
+  /**
+   * Legacy single-country field; kept populated (first sorted ISO code) for older call sites.
+   * Prefer {@link nameEntryCountries}.
+   */
   country: string;
+  /** Distinct ISO codes where this name–plant row appears across merged sources (uppercase, sorted). */
+  countries: string[];
   plant_ids: string[];
   ambiguity_level: string;
 };
@@ -31,6 +42,13 @@ export const nameMap = new Map<string, NameEntry[]>();
 let plantsList: Plant[] = [];
 let namesList: NameEntry[] = [];
 let indexesBuilt = false;
+
+/** Memoized synthetic plants for orphan `plant_id`s (see {@link buildGhostPlant}). */
+const ghostPlantCache = new Map<string, Plant>();
+
+function clearGhostPlantCache(): void {
+  ghostPlantCache.clear();
+}
 
 function isPlantRecord(x: unknown): x is Plant {
   if (!x || typeof x !== "object") return false;
@@ -47,18 +65,62 @@ function isPlantRecord(x: unknown): x is Plant {
   );
 }
 
-function isNameRecord(x: unknown): x is NameEntry {
-  if (!x || typeof x !== "object") return false;
-  const o = x as Record<string, unknown>;
-  return (
-    typeof o.name === "string" &&
-    typeof o.normalized === "string" &&
-    typeof o.language === "string" &&
-    typeof o.country === "string" &&
-    Array.isArray(o.plant_ids) &&
-    o.plant_ids.every((id) => typeof id === "string") &&
-    typeof o.ambiguity_level === "string"
-  );
+/** ISO country codes attached to a name row (multi-country aware). */
+export function nameEntryCountries(entry: NameEntry): string[] {
+  if (Array.isArray(entry.countries) && entry.countries.length > 0) {
+    return [...entry.countries];
+  }
+  const c = entry.country?.trim().toUpperCase();
+  return c ? [c] : [];
+}
+
+function coalesceNameRecord(raw: Record<string, unknown>): NameEntry | null {
+  if (typeof raw.name !== "string" || typeof raw.normalized !== "string") {
+    return null;
+  }
+
+  const plantIds = new Set<string>();
+  if (typeof raw.plant_id === "string" && raw.plant_id.trim()) {
+    plantIds.add(raw.plant_id.trim());
+  }
+  if (Array.isArray(raw.plant_ids)) {
+    for (const id of raw.plant_ids) {
+      if (typeof id === "string" && id.trim()) plantIds.add(id.trim());
+    }
+  }
+  const plant_ids = [...plantIds];
+  if (plant_ids.length === 0) return null;
+
+  const cset = new Set<string>();
+  if (Array.isArray(raw.countries)) {
+    for (const c of raw.countries) {
+      if (typeof c === "string" && c.trim()) cset.add(c.trim().toUpperCase());
+    }
+  }
+  if (typeof raw.country === "string" && raw.country.trim()) {
+    cset.add(raw.country.trim().toUpperCase());
+  }
+  const countries = [...cset].sort((a, b) => a.localeCompare(b));
+  if (countries.length === 0) return null;
+
+  const language =
+    typeof raw.language === "string" && raw.language.trim()
+      ? raw.language
+      : "es";
+  const ambiguity_level =
+    typeof raw.ambiguity_level === "string" && raw.ambiguity_level.trim()
+      ? raw.ambiguity_level
+      : "low";
+
+  return {
+    name: raw.name,
+    normalized: raw.normalized,
+    language,
+    country: countries[0] ?? "",
+    countries,
+    plant_ids,
+    ambiguity_level,
+  };
 }
 
 /**
@@ -139,7 +201,7 @@ function validateDataset(plants: Plant[], names: NameEntry[]): void {
     for (const pid of entry.plant_ids) {
       if (!plantMap.has(pid)) {
         console.warn(
-          `[FloraLexicon] Missing plant_id "${pid}" referenced by "${entry.name}" (${entry.country})`
+          `[FloraLexicon] Missing plant_id "${pid}" referenced by "${entry.name}" (${nameEntryCountries(entry).join(", ")})`
         );
       }
     }
@@ -160,6 +222,7 @@ function buildNameMap(names: NameEntry[]): void {
 function buildIndexes(plants: Plant[], names: NameEntry[]): void {
   plantMap.clear();
   nameMap.clear();
+  clearGhostPlantCache();
 
   validateDataset(plants, names);
   buildNameMap(names);
@@ -172,7 +235,13 @@ function ensureIndexes(): void {
   const rawNames = Array.isArray(namesJson) ? namesJson : [];
 
   plantsList = rawPlants.filter(isPlantRecord);
-  namesList = rawNames.filter(isNameRecord);
+  namesList = rawNames
+    .map((x) =>
+      x && typeof x === "object"
+        ? coalesceNameRecord(x as Record<string, unknown>)
+        : null
+    )
+    .filter((e): e is NameEntry => e != null);
 
   buildIndexes(plantsList, namesList);
   indexesBuilt = true;
@@ -188,11 +257,80 @@ export function loadNames(): readonly NameEntry[] {
   return namesList;
 }
 
-/** O(1) by plant id. Returns undefined if missing or unknown id. */
+/**
+ * All name index rows that reference `plantId` (for ghost / audit tooling).
+ */
+export function findNameRowsByPlantId(plantId: string): NameEntry[] {
+  const want = plantId.trim();
+  if (!want) return [];
+  ensureIndexes();
+  return namesList.filter((e) => e.plant_ids.includes(want));
+}
+
+function extractNamesFromRows(rows: NameEntry[]): string[] {
+  const set = new Set<string>();
+  for (const r of rows) {
+    const n = r.name?.trim();
+    if (n) set.add(n);
+  }
+  return [...set].sort((a, b) =>
+    a.localeCompare(b, "en", { sensitivity: "base" })
+  );
+}
+
+function extractCountriesFromRows(rows: NameEntry[]): string[] {
+  const set = new Set<string>();
+  for (const r of rows) {
+    for (const c of nameEntryCountries(r)) {
+      if (c) set.add(c);
+    }
+  }
+  return [...set].sort((a, b) => a.localeCompare(b));
+}
+
+/**
+ * Synthetic `Plant` for ids present in `names.json` but not yet in `plants.json`.
+ * Uses regional name rows only — no manual curation required.
+ */
+export function buildGhostPlant(plant_id: string, nameRows: NameEntry[]): Plant {
+  const id = plant_id.trim();
+  const working = id.replace(/_/g, " ").trim() || id;
+  const parts = working.split(/\s+/).filter(Boolean);
+  const genus = parts[0] ? parts[0]!.charAt(0).toUpperCase() + parts[0]!.slice(1) : "";
+  const scientific_name =
+    parts.length >= 2
+      ? `${parts[0]!.charAt(0).toUpperCase() + parts[0]!.slice(1)} ${parts[1]!.toLowerCase()}`
+      : working.charAt(0).toUpperCase() + working.slice(1);
+
+  return {
+    id,
+    scientific_name,
+    family: "",
+    genus: genus || "—",
+    rank: "species",
+    origin_regions: [],
+    plant_type: "species",
+    primary_uses: [],
+    isGhost: true,
+  };
+}
+
+/**
+ * O(1) by plant id for curated `plants.json` rows; otherwise a memoized {@link buildGhostPlant}
+ * when `names.json` still references the id, or `undefined` if nothing is known.
+ */
 export function getPlantById(id: string): Plant | undefined {
   if (!id || typeof id !== "string") return undefined;
   ensureIndexes();
-  return plantMap.get(id);
+  const hit = plantMap.get(id);
+  if (hit) return hit;
+  const cached = ghostPlantCache.get(id);
+  if (cached) return cached;
+  const relatedRows = findNameRowsByPlantId(id);
+  if (relatedRows.length === 0) return undefined;
+  const ghost = buildGhostPlant(id, relatedRows);
+  ghostPlantCache.set(id, ghost);
+  return ghost;
 }
 
 /**
@@ -287,6 +425,101 @@ export function getAlsoKnownAsLinks(plantId: string): NameIndexLink[] {
     );
 }
 
+/** Count `names.json` rows (country rows) per canonical name URL slug for this plant. */
+function nameSlugFrequencyForPlant(plantId: string): Map<string, number> {
+  const freq = new Map<string, number>();
+  const id = plantId.trim();
+  if (!id) return freq;
+  ensureIndexes();
+  for (const entry of namesList) {
+    if (!entry.plant_ids.includes(id)) continue;
+    const slug = getNameEntryUrlSlug(entry);
+    if (!slug) continue;
+    const key = urlSlugToCanonicalSlug(slug);
+    freq.set(key, (freq.get(key) ?? 0) + 1);
+  }
+  return freq;
+}
+
+/**
+ * Collapse labels that fold to the same string (accents/spacing) while keeping
+ * a single display label (prefer higher row frequency, then longer label).
+ */
+function dedupeNameIndexLinksByNormalizedLabel(
+  links: NameIndexLink[],
+  freq: Map<string, number>
+): NameIndexLink[] {
+  const byNorm = new Map<string, NameIndexLink>();
+  for (const link of links) {
+    const nk = normalizeString(link.label);
+    if (!nk) continue;
+    const prev = byNorm.get(nk);
+    if (!prev) {
+      byNorm.set(nk, link);
+      continue;
+    }
+    const fNew = freq.get(urlSlugToCanonicalSlug(link.slug)) ?? 0;
+    const fOld = freq.get(urlSlugToCanonicalSlug(prev.slug)) ?? 0;
+    const pick =
+      fNew !== fOld
+        ? fNew > fOld
+          ? link
+          : prev
+        : link.label.length !== prev.label.length
+          ? link.label.length > prev.label.length
+            ? link
+            : prev
+          : link.label.localeCompare(prev.label, "en", { sensitivity: "base" }) < 0
+            ? link
+            : prev;
+    byNorm.set(nk, pick);
+  }
+  return [...byNorm.values()];
+}
+
+function sortNameIndexLinksForPlantPage(
+  links: NameIndexLink[],
+  plantId: string,
+  options?: { pageNameSlug?: string; queryDisplay?: string }
+): NameIndexLink[] {
+  const freq = nameSlugFrequencyForPlant(plantId);
+  const pageCanon =
+    options?.pageNameSlug && options.pageNameSlug.trim()
+      ? urlSlugToCanonicalSlug(options.pageNameSlug)
+      : "";
+  const queryNorm = options?.queryDisplay
+    ? normalizeString(options.queryDisplay.trim())
+    : "";
+
+  const rawQueryDisplay = options?.queryDisplay?.trim() ?? "";
+  const querySlugCanon = rawQueryDisplay
+    ? urlSlugToCanonicalSlug(rawQueryDisplay)
+    : "";
+
+  const rank = (link: NameIndexLink) => {
+    const labelNorm = normalizeString(link.label);
+    const slugCanon = urlSlugToCanonicalSlug(link.slug);
+    const hitQueryLabel = queryNorm && labelNorm === queryNorm ? 4 : 0;
+    const hitQuerySlug =
+      querySlugCanon && slugCanon === querySlugCanon ? 4 : 0;
+    const hitQuery = Math.max(hitQueryLabel, hitQuerySlug);
+    const hitPage = pageCanon && slugCanon === pageCanon ? 2 : 0;
+    const f = freq.get(slugCanon) ?? 0;
+    return { hitQuery, hitPage, f, label: link.label, slug: link.slug };
+  };
+
+  return [...links].sort((a, b) => {
+    const ra = rank(a);
+    const rb = rank(b);
+    if (rb.hitQuery !== ra.hitQuery) return rb.hitQuery - ra.hitQuery;
+    if (rb.hitPage !== ra.hitPage) return rb.hitPage - ra.hitPage;
+    if (rb.f !== ra.f) return rb.f - ra.f;
+    const lab = ra.label.localeCompare(rb.label, "en", { sensitivity: "base" });
+    if (lab !== 0) return lab;
+    return ra.slug.localeCompare(rb.slug, "en", { sensitivity: "base" });
+  });
+}
+
 /** Global coverage for a species from every `names.json` row that references the plant. */
 export type PlantGlobalData = {
   /** Distinct ISO country codes (sorted A–Z for stable output). */
@@ -295,11 +528,21 @@ export type PlantGlobalData = {
   names: NameIndexLink[];
 };
 
+export type PlantGlobalDataOptions = {
+  /** Canonical `/name/[slug]` segment for the active page (hyphenated). */
+  pageNameSlug?: string;
+  /** User-visible query / title spelling for “exact label” ordering. */
+  queryDisplay?: string;
+};
+
 /**
  * Aggregate countries and common-name links for a plant across the full name index
  * (not limited to the current name hub row).
  */
-export function getPlantGlobalData(plantId: string): PlantGlobalData {
+export function getPlantGlobalData(
+  plantId: string,
+  options?: PlantGlobalDataOptions
+): PlantGlobalData {
   const id = plantId.trim();
   if (!id) return { countries: [], names: [] };
   ensureIndexes();
@@ -307,14 +550,42 @@ export function getPlantGlobalData(plantId: string): PlantGlobalData {
   const countries = new Set<string>();
   for (const entry of namesList) {
     if (!entry.plant_ids.includes(id)) continue;
-    const code = entry.country?.trim().toUpperCase();
-    if (code) countries.add(code);
+    for (const code of nameEntryCountries(entry)) {
+      if (code) countries.add(code);
+    }
   }
+
+  const freq = nameSlugFrequencyForPlant(id);
+  let names = getAlsoKnownAsLinks(id);
+  names = dedupeNameIndexLinksByNormalizedLabel(names, freq);
+  names = sortNameIndexLinksForPlantPage(names, id, options);
 
   return {
     countries: [...countries].sort((a, b) => a.localeCompare(b)),
-    names: getAlsoKnownAsLinks(id),
+    names,
   };
+}
+
+/**
+ * Canonical `/name/[slug]` segment for a species (internal navigation only).
+ * Uses the first indexed common-name slug when present, otherwise the scientific name.
+ */
+export function plantNameHubSlug(
+  plantId: string,
+  scientificName: string
+): string {
+  const id = plantId.trim();
+  if (!id) {
+    return urlSlugToCanonicalSlug(
+      scientificName.replace(/\s+/g, "-").toLowerCase()
+    );
+  }
+  const { names } = getPlantGlobalData(id);
+  const first = names[0]?.slug;
+  if (first) return urlSlugToCanonicalSlug(first);
+  return urlSlugToCanonicalSlug(
+    scientificName.replace(/\s+/g, "-").toLowerCase()
+  );
 }
 
 /**
@@ -374,8 +645,8 @@ export function getAlternateHerbNamesWithCountriesForHub(
     const slug = getNameEntryUrlSlug(entry);
     if (!slug) continue;
     if (urlSlugToCanonicalSlug(slug) === excludeCanonical) continue;
-    const code = entry.country?.trim().toUpperCase();
-    if (!code) continue;
+    const codes = nameEntryCountries(entry);
+    if (codes.length === 0) continue;
     const label = entry.name.trim() || slug;
     let row = bySlug.get(slug);
     if (!row) {
@@ -384,7 +655,7 @@ export function getAlternateHerbNamesWithCountriesForHub(
     } else if (label.length > row.label.length) {
       row.label = label;
     }
-    row.countries.add(code);
+    for (const code of codes) row.countries.add(code);
   }
 
   return Array.from(bySlug.entries())
@@ -419,17 +690,18 @@ export function getNamesGroupedByCountryForPlant(
 
   for (const entry of namesList) {
     if (!entry.plant_ids.includes(plantId)) continue;
-    const code = entry.country?.trim().toUpperCase();
-    if (!code) continue;
     const slug = getNameEntryUrlSlug(entry);
     if (!slug) continue;
     const label = entry.name.trim() || slug;
-    let slugMap = byCountry.get(code);
-    if (!slugMap) {
-      slugMap = new Map();
-      byCountry.set(code, slugMap);
+    for (const code of nameEntryCountries(entry)) {
+      if (!code) continue;
+      let slugMap = byCountry.get(code);
+      if (!slugMap) {
+        slugMap = new Map();
+        byCountry.set(code, slugMap);
+      }
+      if (!slugMap.has(slug)) slugMap.set(slug, label);
     }
-    if (!slugMap.has(slug)) slugMap.set(slug, label);
   }
 
   return Array.from(byCountry.entries())
@@ -501,8 +773,9 @@ export function getCountryOptions(): string[] {
   ensureIndexes();
   const set = new Set<string>([...DEFAULT_REGION_CODES]);
   for (const n of namesList) {
-    const c = n.country?.trim().toUpperCase();
-    if (c) set.add(c);
+    for (const c of nameEntryCountries(n)) {
+      if (c) set.add(c);
+    }
   }
   return Array.from(set).sort();
 }
@@ -515,13 +788,14 @@ export function getNameCountryStaticParams(): { slug: string; country: string }[
   for (const entry of namesList) {
     const slug = getNameEntryUrlSlug(entry);
     if (!slug) continue;
-    const code = entry.country?.trim().toUpperCase();
-    if (!code) continue;
-    const countrySeg = countryCodeToUrlSlug(code);
-    const key = `${slug}::${countrySeg}`;
-    if (seen.has(key)) continue;
-    seen.add(key);
-    out.push({ slug, country: countrySeg });
+    for (const code of nameEntryCountries(entry)) {
+      if (!code) continue;
+      const countrySeg = countryCodeToUrlSlug(code);
+      const key = `${slug}::${countrySeg}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      out.push({ slug, country: countrySeg });
+    }
   }
   return out.sort(
     (a, b) => a.slug.localeCompare(b.slug) || a.country.localeCompare(b.country)

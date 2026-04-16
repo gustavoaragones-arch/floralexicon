@@ -11,7 +11,9 @@
     "layered-merge-phase5": "tsx scripts/layeredMergePhase5.ts",
     "layered-merge-north-america": "tsx scripts/layeredMergeNorthAmerica.ts",
     "layered-merge-spain": "tsx scripts/layeredMergeSpain.ts",
-    "validate-dataset": "tsx scripts/validateDataset.ts"
+    "validate-dataset": "tsx scripts/validateDataset.ts",
+    "audit-names": "tsx scripts/audit-names.ts",
+    "suggest-mappings": "tsx scripts/suggest-name-mappings.ts"
   },
   "dependencies": {
     "next": "14.2.35",

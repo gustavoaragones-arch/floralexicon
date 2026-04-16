@@ -1,4 +1,4 @@
-import { loadPlants } from "@/lib/data";
+import { loadPlants, plantNameHubSlug } from "@/lib/data";
 import {
   alternateLanguageUrls,
   isLocale,
@@ -50,7 +50,10 @@ export default function PlantsIndexPage({ params }: Props) {
         {plants.map((plant) => (
           <li key={plant.id}>
             <Link
-              href={localePath(lang, `/plant/${plant.id}`)}
+              href={localePath(
+                lang,
+                `/name/${plantNameHubSlug(plant.id, plant.scientific_name)}`
+              )}
               className="group block rounded-2xl border border-stone-200 bg-white/60 px-4 py-3 shadow-sm transition-colors hover:border-flora-forest/35 hover:bg-white dark:border-stone-700 dark:bg-stone-900/40 dark:hover:border-emerald-700/50 dark:hover:bg-stone-900/70"
             >
               <span className="font-medium text-stone-900 group-hover:underline dark:text-stone-100">

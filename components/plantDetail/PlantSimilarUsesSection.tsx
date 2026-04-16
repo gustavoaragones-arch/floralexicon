@@ -1,4 +1,4 @@
-import type { Plant } from "@/lib/data";
+import { plantNameHubSlug, type Plant } from "@/lib/data";
 import { humanUseLabel } from "@/lib/plantHumanLabels";
 import { localePath, t, type Locale } from "@/lib/i18n";
 import Link from "next/link";
@@ -45,7 +45,13 @@ export function PlantSimilarUsesSection({ lang, plant, similar }: Props) {
       <ul className="mt-4 flex flex-col gap-2 text-sm">
         {similar.map((p) => (
           <li key={p.id}>
-            <Link href={localePath(lang, `/plant/${p.id}`)} className={linkClass}>
+            <Link
+              href={localePath(
+                lang,
+                `/name/${plantNameHubSlug(p.id, p.scientific_name)}`
+              )}
+              className={linkClass}
+            >
               {p.scientific_name}
             </Link>
             <span className="ml-2 text-xs text-stone-500 dark:text-stone-400">

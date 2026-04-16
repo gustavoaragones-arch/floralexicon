@@ -299,7 +299,11 @@ export type InlineConfidenceLine =
   | { i18nKey: "search_disamb_common_in"; vars: { country: string } };
 
 export type DisambiguationRow = {
-  plant: Plant;
+  /** `null` when the name index references a plant id not yet in `plants.json`. */
+  plant: Plant | null;
+  /** Always set; use when `plant` is null. */
+  plantId: string;
+  isPlaceholder: boolean;
   confidence: number;
   confidencePercent: number;
   displayName: string;
@@ -338,7 +342,7 @@ function bestDisplayName(
   matches: PlantNameMatch[],
   hubKey: string
 ): string {
-  const forPlant = matches.filter((m) => m.plant.id === plantId);
+  const forPlant = matches.filter((m) => m.plant_id === plantId);
   if (forPlant.length === 0) return "";
   const hub = normalizeHubKey(hubKey);
   const exact = forPlant.find(
@@ -349,11 +353,14 @@ function bestDisplayName(
 
 function sortScore(
   ctx: ResolvedPlantContext,
-  plant: Plant,
+  plant: Plant | null,
   userCountry: string | undefined,
   lethalIntent: boolean,
   intent: QueryIntent
 ): number {
+  if (!plant || ctx.isPlaceholder) {
+    return ctx.confidence * 100 - 1_000_000;
+  }
   let s = ctx.confidence * 100;
   if (ctx.countries.some((c) => c === "MX")) s += 2;
   const uc = userCountry?.trim().toUpperCase();
@@ -597,9 +604,9 @@ export function groupMatchesByPlantId(matches: PlantNameMatch[]): string[] {
   const order: string[] = [];
   const seen = new Set<string>();
   for (const m of matches) {
-    if (seen.has(m.plant.id)) continue;
-    seen.add(m.plant.id);
-    order.push(m.plant.id);
+    if (seen.has(m.plant_id)) continue;
+    seen.add(m.plant_id);
+    order.push(m.plant_id);
   }
   return order;
 }
@@ -620,7 +627,9 @@ export function rankPlantContextsForSearch(
     const sa = sortScore(a, a.plant, userCountry, lethalIntent, intent);
     const sb = sortScore(b, b.plant, userCountry, lethalIntent, intent);
     if (sb !== sa) return sb - sa;
-    return a.plant.scientific_name.localeCompare(b.plant.scientific_name);
+    const na = (a.scientific_name ?? "\uFFFF").toLowerCase();
+    const nb = (b.scientific_name ?? "\uFFFF").toLowerCase();
+    return na.localeCompare(nb);
   });
 }
 
@@ -721,10 +730,73 @@ export function runDisambiguationSearch(
 
   const rows: DisambiguationRow[] = rankedCtx.map((ctx) => {
     const conf = ctx.confidence;
+    const pid = ctx.plant_id;
+    const countries = getPlantCountryCodesSorted(pid, names, lang);
+
+    if (!ctx.plant || ctx.isPlaceholder) {
+      const displayName =
+        bestDisplayName(pid, resolved.matches, normalizedHub) || "";
+      const evidenceKey: DisambiguationRow["evidenceKey"] = "traditional";
+      const tier = confidenceTier(conf);
+      const bar = barLevel(conf);
+      const whyBullets: WhyBullet[] = buildWhyBullets({
+        tier,
+        evidenceKey,
+        countries,
+        plant: {
+          id: pid,
+          scientific_name: "",
+          family: "",
+          genus: "",
+          rank: "species",
+          origin_regions: [],
+          plant_type: "",
+          primary_uses: [],
+        },
+        intent,
+        userCountry,
+        lang,
+      });
+      const uc = userCountry?.trim().toUpperCase();
+      let inlineConfidenceLine: InlineConfidenceLine | null = null;
+      if (uc && ctx.countries.includes(uc)) {
+        inlineConfidenceLine = {
+          i18nKey: "search_inline_reason_region",
+          vars: { country: getCountryDisplayName(uc, lang) },
+        };
+      } else if (conf > 0.7) {
+        inlineConfidenceLine = { i18nKey: "search_inline_reason_usage" };
+      } else if (countries[0]) {
+        inlineConfidenceLine = {
+          i18nKey: "search_disamb_common_in",
+          vars: { country: getCountryDisplayName(countries[0], lang) },
+        };
+      }
+      return {
+        plant: null,
+        plantId: pid,
+        isPlaceholder: true,
+        confidence: conf,
+        confidencePercent: Math.round(Math.min(1, Math.max(0, conf)) * 100),
+        displayName,
+        countries,
+        tier,
+        barLevel: bar,
+        evidenceKey,
+        showSafetyRow: false,
+        isAbortifacient: false,
+        whyBullets,
+        inlineConfidenceLine,
+        safetyMicroBadgeKey: null,
+        safetySupportLineKey: null,
+        hasLookalikeWarning: false,
+        sourceProvenanceItems: null,
+      };
+    }
+
     const displayName =
-      bestDisplayName(ctx.plant.id, resolved.matches, normalizedHub) ||
+      bestDisplayName(pid, resolved.matches, normalizedHub) ||
       ctx.plant.scientific_name;
-    const countries = getPlantCountryCodesSorted(ctx.plant.id, names, lang);
     const er = evidenceRank(ctx.plant);
     const evidenceKey: DisambiguationRow["evidenceKey"] =
       er >= 4 ? "clinical" : er >= 3 ? "tramil" : er >= 2 ? "empirical" : "traditional";
@@ -773,6 +845,8 @@ export function runDisambiguationSearch(
 
     return {
       plant: ctx.plant,
+      plantId: pid,
+      isPlaceholder: false,
       confidence: conf,
       confidencePercent: Math.round(Math.min(1, Math.max(0, conf)) * 100),
       displayName,
@@ -798,7 +872,7 @@ export function runDisambiguationSearch(
   const anyLookalike = rows.some((r) => r.hasLookalikeWarning);
   const suggestEvidenceConceptHint =
     hasMultiplePlants &&
-    rows.some((r) => plantHasHighOrLethalToxicity(r.plant));
+    rows.some((r) => r.plant && plantHasHighOrLethalToxicity(r.plant));
   const showGlobalLookalikeSoft =
     anyLookalike && !anyToxicOrAbortifacient && !hasMultiplePlants;
 

@@ -5,6 +5,7 @@
  *   - data/canonical/plants.json — full merged inventory (staging / future global expansion)
  *   - data/processed/plants.json — production only (plants referenced by merged names)
  *   - data/processed/names.json
+ *   - data/names.json — same merged name rows as processed (full graph; not filtered)
  */
 
 import * as fs from "fs";
@@ -54,10 +55,17 @@ export function normalizeScientificName(scientific: string): string {
     .replace(/\s+/g, " ");
 }
 
-/** Stable plant id from scientific name. */
+/**
+ * Stable plant id from scientific name (genus + species epithet only).
+ * Drops trailing authority tokens (e.g. "L.", "Medikus") so regional files
+ * that spell the same binomial with/without authors share one id.
+ */
 export function slugifyScientific(scientific: string): string {
   const n = normalizeScientificName(scientific);
-  return n.replace(/\s+/g, "_").replace(/[^a-z0-9_]/g, "");
+  const parts = n.split(/\s+/).filter(Boolean);
+  const base =
+    parts.length >= 2 ? `${parts[0]} ${parts[1]}` : parts[0] ?? n;
+  return base.replace(/\s+/g, "_").replace(/[^a-z0-9_]/g, "");
 }
 
 /**
@@ -84,6 +92,50 @@ function normalizeNameKeyForMap(name: string): string {
     .replace(/\p{M}/gu, "")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+/**
+ * Same rules as `normalizeString` in `lib/data.ts` (keys in
+ * `data/mappings/name-to-plant.json` must match this output).
+ */
+function normalizeStringForMapping(input: string): string {
+  if (input == null || typeof input !== "string") return "";
+  const folded = input
+    .trim()
+    .toLowerCase()
+    .replace(/-/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  if (!folded) return "";
+  return folded.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
+
+const MAPPINGS_DIR = path.join(ROOT, "data", "mappings");
+const NAME_TO_PLANT_JSON = path.join(MAPPINGS_DIR, "name-to-plant.json");
+
+let nameToPlantMap: Record<string, string> = Object.create(null);
+let nameToPlantMapLoaded = false;
+
+function loadNameToPlantMappings(): void {
+  if (nameToPlantMapLoaded) return;
+  nameToPlantMapLoaded = true;
+  if (!fs.existsSync(NAME_TO_PLANT_JSON)) return;
+  try {
+    const raw = JSON.parse(fs.readFileSync(NAME_TO_PLANT_JSON, "utf8"));
+    if (!raw || typeof raw !== "object" || Array.isArray(raw)) return;
+    const o = raw as Record<string, unknown>;
+    const next: Record<string, string> = Object.create(null);
+    for (const [k, v] of Object.entries(o)) {
+      if (k.startsWith("_")) continue;
+      if (typeof v !== "string" || !v.trim()) continue;
+      const nk = normalizeStringForMapping(k);
+      if (!nk) continue;
+      next[nk] = v.trim();
+    }
+    nameToPlantMap = next;
+  } catch {
+    console.warn("[name-to-plant.json] invalid JSON, skip mappings");
+  }
 }
 
 // --- country ISO ------------------------------------------------------------
@@ -128,6 +180,8 @@ function normalizeCountry(raw: string | undefined | null): string | null {
   return COUNTRY_ALIASES[k] ?? COUNTRY_ALIASES[t.toLowerCase()] ?? null;
 }
 
+type JsonRecord = Record<string, unknown>;
+
 // --- aggregation types ------------------------------------------------------
 
 type PlantAgg = {
@@ -140,10 +194,26 @@ type PlantAgg = {
 };
 
 type NameAgg = {
+  /** `normalizeNameKeyForMap` key (space-separated, accent-folded). */
+  mapKey: string;
+  /** Canonical plant slug for this name row. */
+  plant_id: string;
   displayNames: Set<string>;
-  plant_ids: Set<string>;
   countries: Set<string>;
+  /** Raw JSON source basenames that contributed this row (for audit / backlog). */
+  sources: Set<string>;
+  /** Max ambiguity rank seen when merging sources (0 = low …). */
+  ambiguityRank: number;
 };
+
+/** Name rows with no plant_id / plant_ids in source (merge continues; row not added to namesMap). */
+type MissingNoPlantIdEvent = {
+  name: string;
+  source: string;
+  countries: string[];
+};
+
+const missingNoPlantIdEvents: MissingNoPlantIdEvent[] = [];
 
 function coerceUses(u: unknown): string[] {
   if (u == null) return [];
@@ -218,36 +288,178 @@ function resolvePlantId(rawId: string): string {
   return idAlias.get(rawId) ?? rawId;
 }
 
-function mergeNameMapKey(
+function ambiguityRankFromRow(row: unknown): number {
+  if (!row || typeof row !== "object") return 0;
+  const o = row as JsonRecord;
+  const raw = o.ambiguity_level ?? o.ambiguity;
+  const l = typeof raw === "string" ? raw.toLowerCase().trim() : "";
+  if (l === "low") return 0;
+  if (l === "medium") return 1;
+  if (l === "high") return 2;
+  if (l === "lethal") return 3;
+  return 0;
+}
+
+function ambiguityLevelFromRank(r: number): string {
+  if (r >= 2) return "high";
+  if (r >= 1) return "medium";
+  return "low";
+}
+
+/** Multi-label cells in regional bundles (e.g. Mexico INPI): split on ` / `. */
+function compoundDisplayParts(name: string): string[] {
+  const t = name.trim();
+  if (!t) return [];
+  if (t.includes(" / ")) {
+    const parts = t.split(" / ").map((s) => s.trim()).filter(Boolean);
+    if (parts.length > 1) return parts;
+  }
+  return [t];
+}
+
+function isoTokensFromField(v: unknown): string[] {
+  if (typeof v !== "string" || !v.trim()) return [];
+  const t = v.trim().toUpperCase();
+  if (/^[A-Z]{2}(-[A-Z]{2})+$/.test(t)) {
+    return t.split("-").filter((c) => /^[A-Z]{2}$/.test(c));
+  }
+  const n = normalizeCountry(v);
+  return n ? [n] : [];
+}
+
+function countriesFromDataRow(row: JsonRecord): string[] {
+  const set = new Set<string>();
+  for (const c of isoTokensFromField(row.country)) set.add(c);
+  for (const c of isoTokensFromField(row.country_iso)) set.add(c);
+  return [...set];
+}
+
+function coercePlantIdsFromRow(row: JsonRecord): string[] {
+  const fromArr = coerceStringArray(row.plant_ids);
+  const single =
+    typeof row.plant_id === "string" ? row.plant_id.trim() : "";
+  const merged = [...fromArr, ...(single ? [single] : [])];
+  return [...new Set(merged.map((id) => resolvePlantId(id)).filter(Boolean))];
+}
+
+/** Default ISO when a bundle lists plants with local ids but no per-plant country (e.g. Mexico). */
+function defaultCountryIsoForSource(base: string): string | null {
+  if (base === "mexico_floralexicon.json") return "MX";
+  return null;
+}
+
+function mergeNameForPlant(
   mapKey: string,
   displayName: string,
-  plantIds: string[],
-  countries: string[]
+  plantId: string,
+  countries: string[],
+  rowAmbiguitySource?: unknown,
+  sourceFile?: string
 ) {
-  let agg = namesMap.get(mapKey);
+  const canon = resolvePlantId(plantId);
+  if (!canon) return;
+  const compoundKey = `${mapKey}\0${canon}`;
+  const ar = ambiguityRankFromRow(rowAmbiguitySource);
+  let agg = namesMap.get(compoundKey);
   if (!agg) {
     agg = {
+      mapKey,
+      plant_id: canon,
       displayNames: new Set(),
-      plant_ids: new Set(),
       countries: new Set(),
+      sources: new Set(),
+      ambiguityRank: ar,
     };
-    namesMap.set(mapKey, agg);
+    namesMap.set(compoundKey, agg);
   } else {
     namesMergedCount++;
+    if (ar > agg.ambiguityRank) agg.ambiguityRank = ar;
   }
   if (displayName.trim()) agg.displayNames.add(displayName.trim());
-  for (const pid of plantIds) {
-    const c = resolvePlantId(pid);
-    if (c) agg.plant_ids.add(c);
-  }
   for (const c of countries) {
     if (c) agg.countries.add(c);
   }
+  if (sourceFile?.trim()) agg.sources.add(sourceFile.trim());
 }
 
 // --- parsers ----------------------------------------------------------------
 
-type JsonRecord = Record<string, unknown>;
+/**
+ * Seed `plantsMap` from `data/canonical/plants.json` before raw sources so manual
+ * inventory rows (and id aliases) participate in the same merge as regional JSON.
+ */
+function ingestCanonicalPlantRecord(row: JsonRecord, sourceFile: string) {
+  const sci = row.scientific_name;
+  if (typeof sci !== "string" || !sci.trim()) return;
+  const rawId = typeof row.id === "string" ? row.id.trim() : undefined;
+  const plant = getOrCreatePlant(normalizeScientificName(sci), sci.trim(), rawId);
+  const canonId = plant.id;
+
+  if (typeof row.family === "string" && row.family.trim()) {
+    if (!plant.family) plant.family = row.family.trim();
+  }
+
+  const countriesList: string[] = [];
+  if (Array.isArray(row.countries)) {
+    for (const c of row.countries) {
+      const n = normalizeCountry(String(c));
+      if (n) {
+        plant.countries.add(n);
+        countriesList.push(n);
+      }
+    }
+  }
+  for (const c of countriesFromDataRow(row)) {
+    if (c) {
+      plant.countries.add(c);
+      if (!countriesList.includes(c)) countriesList.push(c);
+    }
+  }
+
+  for (const u of coerceUses(row.uses ?? row.primary_uses)) {
+    plant.uses.add(u.toLowerCase());
+  }
+
+  const nameList =
+    coerceStringArray(row.names).length > 0
+      ? coerceStringArray(row.names)
+      : coerceStringArray(row.common_names);
+  for (const cn of nameList) {
+    const t = cn.trim();
+    if (!t) continue;
+    plant.names.add(t);
+    const mapKey = normalizeNameKeyForMap(t);
+    mergeNameForPlant(mapKey, t, canonId, countriesList, row, sourceFile);
+  }
+}
+
+function ingestCanonicalPlantsBaseline() {
+  const p = path.join(CANONICAL_DIR, "plants.json");
+  if (!fs.existsSync(p)) return;
+  let data: unknown;
+  try {
+    data = JSON.parse(fs.readFileSync(p, "utf8"));
+  } catch {
+    console.warn("[canonical/plants.json] invalid JSON, skip baseline seed");
+    return;
+  }
+  if (!Array.isArray(data)) {
+    console.warn("[canonical/plants.json] expected array, skip baseline seed");
+    return;
+  }
+  const base = "canonical/plants.json";
+  for (const row of data) {
+    if (row && typeof row === "object") {
+      ingestCanonicalPlantRecord(row as JsonRecord, base);
+    }
+  }
+}
+
+/** Raw keys that disagree with {@link slugifyScientific} but are already in names.json. */
+function bootstrapPlantIdAliases() {
+  registerAlias("tropaelum_majus", "tropaeolum_majus");
+  registerAlias("pluchoea_carolinensis", "pluchea_carolinensis");
+}
 
 function ingestSimpleRow(row: JsonRecord, sourceFile: string) {
   const sci = row.scientific_name;
@@ -264,13 +476,17 @@ function ingestSimpleRow(row: JsonRecord, sourceFile: string) {
     if (!plant.family) plant.family = row.family.trim();
   }
 
-  const country = normalizeCountry(
-    typeof row.country === "string" ? row.country : undefined
-  );
-  if (country) plant.countries.add(country);
-  else if (row.country != null && String(row.country).trim()) {
+  const countriesRow = countriesFromDataRow(row);
+  for (const c of countriesRow) plant.countries.add(c);
+  if (
+    countriesRow.length === 0 &&
+    ((row.country != null && String(row.country).trim()) ||
+      (row.country_iso != null && String(row.country_iso).trim()))
+  ) {
     unknownCountries++;
-    console.warn(`[${sourceFile}] unknown country: ${String(row.country)}`);
+    console.warn(
+      `[${sourceFile}] unknown country/country_iso: ${String(row.country ?? row.country_iso)}`
+    );
   }
 
   for (const u of coerceUses(row.uses ?? row.primary_uses)) {
@@ -280,14 +496,8 @@ function ingestSimpleRow(row: JsonRecord, sourceFile: string) {
   const commons = coerceStringArray(row.common_names);
   for (const cn of commons) {
     plant.names.add(cn);
-    const iso = country;
     const mapKey = normalizeNameKeyForMap(cn);
-    mergeNameMapKey(
-      mapKey,
-      cn,
-      [canonId],
-      iso ? [iso] : []
-    );
+    mergeNameForPlant(mapKey, cn, canonId, countriesRow, row, sourceFile);
   }
 }
 
@@ -296,6 +506,9 @@ function ingestBundle(
   names: unknown[],
   sourceFile: string
 ) {
+  const base = path.basename(sourceFile);
+  const defaultCountry = defaultCountryIsoForSource(base);
+
   for (const p of plants) {
     if (!p || typeof p !== "object") continue;
     const row = p as JsonRecord;
@@ -313,6 +526,25 @@ function ingestBundle(
     for (const u of coerceUses(row.primary_uses ?? row.uses)) {
       plant.uses.add(u.toLowerCase());
     }
+
+    const primary =
+      typeof row.common_name_primary === "string"
+        ? row.common_name_primary.trim()
+        : "";
+    if (primary) {
+      const iso = defaultCountry;
+      for (const part of compoundDisplayParts(primary)) {
+        const mapKey = normalizeNameKeyForMap(part);
+        mergeNameForPlant(
+          mapKey,
+          part,
+          canonId,
+          iso ? [iso] : [],
+          row,
+          base
+        );
+      }
+    }
   }
 
   for (const n of names) {
@@ -321,27 +553,75 @@ function ingestBundle(
     const nm = row.name;
     if (typeof nm !== "string" || !nm.trim()) continue;
 
-    const country = normalizeCountry(
-      typeof row.country === "string" ? row.country : undefined
-    );
-    if (!country && row.country != null && String(row.country).trim()) {
+    const countriesRow = countriesFromDataRow(row);
+    if (
+      countriesRow.length === 0 &&
+      ((row.country != null && String(row.country).trim()) ||
+        (row.country_iso != null && String(row.country_iso).trim()))
+    ) {
       unknownCountries++;
-      console.warn(`[${sourceFile}] unknown country on name "${nm}": ${String(row.country)}`);
+      console.warn(
+        `[${sourceFile}] unknown country/country_iso on name "${nm}": ${String(row.country ?? row.country_iso)}`
+      );
     }
 
-    const pids = coerceStringArray(row.plant_ids);
-    const resolved = pids.map(resolvePlantId).filter(Boolean);
+    const resolved = coercePlantIdsFromRow(row);
+    if (resolved.length === 0) {
+      loadNameToPlantMappings();
+      const lookupKey = normalizeStringForMapping(nm.trim());
+      const mappedRaw =
+        lookupKey && lookupKey in nameToPlantMap ? nameToPlantMap[lookupKey] : undefined;
+      const mappedCanon = mappedRaw ? resolvePlantId(mappedRaw.trim()) : undefined;
 
-    const mapKey = normalizeNameKeyForMap(nm);
-    mergeNameMapKey(mapKey, nm, resolved, country ? [country] : []);
+      if (mappedCanon) {
+        const normSci = findNormSciByCanonicalId(mappedCanon);
+        if (normSci) {
+          console.log(`[mapped] "${nm}" → ${mappedCanon}`);
+          for (const part of compoundDisplayParts(nm)) {
+            const mapKey = normalizeNameKeyForMap(part);
+            mergeNameForPlant(mapKey, part, mappedCanon, countriesRow, row, base);
+          }
+          const plant = plantsMap.get(normSci);
+          if (plant) {
+            for (const part of compoundDisplayParts(nm)) {
+              plant.names.add(part.trim());
+            }
+            for (const c of countriesRow) plant.countries.add(c);
+          }
+          continue;
+        }
+        console.warn(
+          `[mapping] skip "${nm}": plant_id "${mappedCanon}" not in merged plants yet (${sourceFile})`
+        );
+      }
+
+      console.warn(
+        `[${sourceFile}] name "${nm}": missing plant_ids / plant_id (recorded in data/audit/missing-plants.json)`
+      );
+      missingNoPlantIdEvents.push({
+        name: nm.trim(),
+        source: base,
+        countries: [...countriesRow],
+      });
+      continue;
+    }
+
+    for (const part of compoundDisplayParts(nm)) {
+      const mapKey = normalizeNameKeyForMap(part);
+      for (const pid of resolved) {
+        mergeNameForPlant(mapKey, part, pid, countriesRow, row, base);
+      }
+    }
 
     for (const pid of resolved) {
       const normSci = findNormSciByCanonicalId(pid);
       if (!normSci) continue;
       const plant = plantsMap.get(normSci);
       if (plant) {
-        plant.names.add(nm.trim());
-        if (country) plant.countries.add(country);
+        for (const part of compoundDisplayParts(nm)) {
+          plant.names.add(part.trim());
+        }
+        for (const c of countriesRow) plant.countries.add(c);
       }
     }
   }
@@ -358,15 +638,13 @@ function findNormSciByCanonicalId(canonId: string): string | null {
 function syncNamesIntoPlants() {
   for (const agg of namesMap.values()) {
     const display = stableNameDisplay(agg);
-    for (const pid of agg.plant_ids) {
-      const norm = findNormSciByCanonicalId(pid);
-      if (!norm) continue;
-      const plant = plantsMap.get(norm);
-      if (!plant) continue;
-      if (display) plant.names.add(display);
-      for (const c of agg.countries) {
-        plant.countries.add(c);
-      }
+    const norm = findNormSciByCanonicalId(agg.plant_id);
+    if (!norm) continue;
+    const plant = plantsMap.get(norm);
+    if (!plant) continue;
+    if (display) plant.names.add(display);
+    for (const c of agg.countries) {
+      plant.countries.add(c);
     }
   }
 }
@@ -431,6 +709,120 @@ function stableNameDisplay(agg: NameAgg): string {
   )[0] ?? "";
 }
 
+/** Written to `data/audit/missing-plants.json`; sorted by frequency then country spread. */
+type MissingPlantAuditRow = {
+  reason: "orphan_plant_id" | "no_plant_ids_in_row";
+  frequency: number;
+  countrySpread: number;
+  plant_id?: string;
+  /** Example display name (orphan) or row label (no ids). */
+  name?: string;
+  /** Primary source basename for no-plant-id rows. */
+  source?: string;
+  /** Contributing raw files. */
+  sources: string[];
+  countries: string[];
+};
+
+function buildMissingPlantsAudit(
+  validPlantIds: Set<string>
+): MissingPlantAuditRow[] {
+  const orphanByPid = new Map<
+    string,
+    {
+      count: number;
+      countries: Set<string>;
+      sources: Set<string>;
+      names: Set<string>;
+    }
+  >();
+
+  for (const agg of namesMap.values()) {
+    if (validPlantIds.has(agg.plant_id)) continue;
+    const display = stableNameDisplay(agg);
+    let rec = orphanByPid.get(agg.plant_id);
+    if (!rec) {
+      rec = {
+        count: 0,
+        countries: new Set(),
+        sources: new Set(),
+        names: new Set(),
+      };
+      orphanByPid.set(agg.plant_id, rec);
+    }
+    rec.count++;
+    for (const c of agg.countries) {
+      if (c) rec.countries.add(c);
+    }
+    for (const s of agg.sources) {
+      if (s) rec.sources.add(s);
+    }
+    if (display) rec.names.add(display);
+  }
+
+  const noIdByKey = new Map<
+    string,
+    { count: number; countries: Set<string>; source: string; name: string }
+  >();
+  for (const ev of missingNoPlantIdEvents) {
+    const key = `${ev.source}\0${ev.name}`;
+    let rec = noIdByKey.get(key);
+    if (!rec) {
+      rec = {
+        count: 0,
+        countries: new Set(),
+        source: ev.source,
+        name: ev.name,
+      };
+      noIdByKey.set(key, rec);
+    }
+    rec.count++;
+    for (const c of ev.countries) {
+      if (c) rec.countries.add(c);
+    }
+  }
+
+  const rows: MissingPlantAuditRow[] = [];
+
+  for (const [plant_id, r] of orphanByPid) {
+    const names = [...r.names].sort((a, b) =>
+      a.localeCompare(b, "en", { sensitivity: "base" })
+    );
+    rows.push({
+      reason: "orphan_plant_id",
+      plant_id,
+      name: names[0],
+      frequency: r.count,
+      countrySpread: r.countries.size,
+      sources: [...r.sources].sort((a, b) => a.localeCompare(b)),
+      countries: [...r.countries].sort((a, b) => a.localeCompare(b)),
+    });
+  }
+
+  for (const rec of noIdByKey.values()) {
+    rows.push({
+      reason: "no_plant_ids_in_row",
+      name: rec.name,
+      source: rec.source,
+      frequency: rec.count,
+      countrySpread: rec.countries.size,
+      sources: [rec.source],
+      countries: [...rec.countries].sort((a, b) => a.localeCompare(b)),
+    });
+  }
+
+  rows.sort((a, b) => {
+    if (b.frequency !== a.frequency) return b.frequency - a.frequency;
+    if (b.countrySpread !== a.countrySpread)
+      return b.countrySpread - a.countrySpread;
+    const ka = a.plant_id ?? `${a.source ?? ""}:${a.name ?? ""}`;
+    const kb = b.plant_id ?? `${b.source ?? ""}:${b.name ?? ""}`;
+    return ka.localeCompare(kb, "en", { sensitivity: "base" });
+  });
+
+  return rows;
+}
+
 function writeOutputs() {
   const validPlantIds = new Set(
     Array.from(plantsMap.values()).map((p) => p.id)
@@ -449,24 +841,32 @@ function writeOutputs() {
     }))
     .sort((a, b) => a.id.localeCompare(b.id));
 
-  let orphanNamePlantLinks = 0;
-  const namesOut = Array.from(namesMap.entries())
-    .map(([, agg]) => {
+  let namesWithOrphanPlantId = 0;
+  const namesOut = Array.from(namesMap.values())
+    .map((agg) => {
       const name = stableNameDisplay(agg);
-      const rawIds = Array.from(agg.plant_ids);
-      const plant_ids = rawIds.filter((id) => validPlantIds.has(id));
-      orphanNamePlantLinks += rawIds.length - plant_ids.length;
+      if (!name) return null;
+      if (!validPlantIds.has(agg.plant_id)) {
+        namesWithOrphanPlantId += 1;
+      }
       return {
         name,
         normalized: normalizeName(name),
-        plant_ids,
+        plant_ids: [agg.plant_id],
         countries: Array.from(agg.countries).sort(),
+        language: "es",
+        ambiguity_level: ambiguityLevelFromRank(agg.ambiguityRank),
       };
     })
-    .filter((row) => row.name && row.plant_ids.length > 0)
-    .sort((a, b) =>
-      a.normalized.localeCompare(b.normalized, "en", { sensitivity: "base" })
-    );
+    .filter((row): row is NonNullable<typeof row> => row != null)
+    .filter((row) => row.countries.length > 0)
+    .sort((a, b) => {
+      const byName = a.normalized.localeCompare(b.normalized, "en", {
+        sensitivity: "base",
+      });
+      if (byName !== 0) return byName;
+      return a.plant_ids[0]!.localeCompare(b.plant_ids[0]!);
+    });
 
   const activePlantIds = new Set<string>();
   for (const row of namesOut) {
@@ -495,6 +895,23 @@ function writeOutputs() {
     "utf8"
   );
 
+  const DATA_NAMES = path.join(ROOT, "data", "names.json");
+  fs.writeFileSync(
+    DATA_NAMES,
+    JSON.stringify(namesOut, null, 2) + "\n",
+    "utf8"
+  );
+
+  const missingPlantsAudit = buildMissingPlantsAudit(validPlantIds);
+  const AUDIT_DIR = path.join(ROOT, "data", "audit");
+  const MISSING_PLANTS_JSON = path.join(AUDIT_DIR, "missing-plants.json");
+  fs.mkdirSync(AUDIT_DIR, { recursive: true });
+  fs.writeFileSync(
+    MISSING_PLANTS_JSON,
+    JSON.stringify(missingPlantsAudit, null, 2) + "\n",
+    "utf8"
+  );
+
   const duplicateEvents = plantsMergedCount + namesMergedCount;
   console.log("--- FloraLexicon merge complete ---");
   if (loadedSources.length > 0) {
@@ -513,7 +930,7 @@ function writeOutputs() {
   }
   console.log(`Raw JSON files loaded: ${filesLoaded}`);
   console.log(`Total plants (canonical / merged): ${plantsCanonical.length}`);
-  console.log(`Production plants (active — in names.json): ${plantsProduction.length}`);
+  console.log(`Production plants (active — in processed names): ${plantsProduction.length}`);
   console.log(`Inactive plants (canonical only, staging): ${inactiveCount}`);
   console.log(`Total unique names: ${namesOut.length}`);
   console.log(`Merge events (duplicate keys collapsed): ${duplicateEvents}`);
@@ -521,14 +938,34 @@ function writeOutputs() {
   if (unknownCountries > 0) {
     console.log(`Unknown country warnings: ${unknownCountries}`);
   }
-  if (orphanNamePlantLinks > 0) {
+  if (namesWithOrphanPlantId > 0) {
     console.log(
-      `Orphan plant_id references dropped from names: ${orphanNamePlantLinks}`
+      `Names referencing plant_ids not in merged plants (kept in names.json; see audit): ${namesWithOrphanPlantId}`
     );
+  }
+  if (missingNoPlantIdEvents.length > 0) {
+    console.log(
+      `Name rows skipped (no plant_ids in source), recorded in audit: ${missingNoPlantIdEvents.length}`
+    );
+  }
+  console.log(`Wrote: data/audit/missing-plants.json (${missingPlantsAudit.length} backlog rows)`);
+  const top = missingPlantsAudit.slice(0, 20);
+  if (top.length > 0) {
+    console.log("Top missing plants to resolve:");
+    for (const row of top) {
+      const head =
+        row.reason === "orphan_plant_id"
+          ? `plant_id=${row.plant_id}${row.name ? ` (${row.name})` : ""}`
+          : `name="${row.name}" source=${row.source}`;
+      console.log(
+        `  — ${head} | freq=${row.frequency} countries=${row.countrySpread}`
+      );
+    }
   }
   console.log(`Wrote: data/canonical/plants.json`);
   console.log(`Wrote: data/processed/plants.json`);
   console.log(`Wrote: data/processed/names.json`);
+  console.log(`Wrote: data/names.json (${namesOut.length} rows, full merge)`);
 }
 
 // --- main -------------------------------------------------------------------
@@ -548,6 +985,10 @@ function main() {
     console.error(`No JSON files in ${RAW_DIR}`);
     process.exit(1);
   }
+
+  bootstrapPlantIdAliases();
+  ingestCanonicalPlantsBaseline();
+  loadNameToPlantMappings();
 
   for (const f of files) {
     ingestFile(f);

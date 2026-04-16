@@ -1,5 +1,5 @@
 import { formatRegionList } from "@/lib/countries";
-import type { Plant } from "@/lib/data";
+import { plantNameHubSlug, type Plant } from "@/lib/data";
 import { localePath, t, ti, type Locale } from "@/lib/i18n";
 import Link from "next/link";
 
@@ -96,14 +96,20 @@ export function PlantPairCompare({ lang, plantA, plantB }: PlantPairCompareProps
 
       <p className="text-sm text-stone-600 dark:text-stone-400">
         <Link
-          href={localePath(lang, `/plant/${plantA.id}`)}
+          href={localePath(
+            lang,
+            `/name/${plantNameHubSlug(plantA.id, plantA.scientific_name)}`
+          )}
           className={linkClass}
         >
           {plantA.scientific_name}
         </Link>
         {" · "}
         <Link
-          href={localePath(lang, `/plant/${plantB.id}`)}
+          href={localePath(
+            lang,
+            `/name/${plantNameHubSlug(plantB.id, plantB.scientific_name)}`
+          )}
           className={linkClass}
         >
           {plantB.scientific_name}

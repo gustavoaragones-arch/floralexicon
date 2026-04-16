@@ -17,8 +17,12 @@ import {
   getAlsoKnownAsLinks,
   getNamesGroupedByCountryForPlant,
   getPlantsSharingPrimaryUses,
+  loadNames,
   loadPlants,
+  plantNameHubSlug,
 } from "@/lib/data";
+import { getPlantCountryCodesSorted } from "@/lib/geo";
+import { joinCountryNames } from "@/lib/countries";
 import {
   buildPlantDetailModel,
   getAmbiguityHubsForPlant,
@@ -27,6 +31,7 @@ import {
 import {
   alternateLanguageUrls,
   isLocale,
+  localePath,
   locales,
   ti,
   t,
@@ -34,6 +39,7 @@ import {
 } from "@/lib/i18n";
 import { getPlantByRouteId } from "@/lib/resolver";
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 
 type Props = { params: { lang: string; slug: string } };
@@ -88,16 +94,92 @@ export default function PlantPage({ params }: Props) {
   const plant = getPlantByRouteId(slug);
   if (!plant) notFound();
 
+  if (plant.isGhost) {
+    const names = loadNames();
+    const countriesOrdered = getPlantCountryCodesSorted(plant.id, names, lang);
+    const otherNameLinks = getAlsoKnownAsLinks(plant.id);
+    const nameHubHref = localePath(
+      lang,
+      `/name/${plantNameHubSlug(plant.id, plant.scientific_name)}`
+    );
+
+    return (
+      <main className="mx-auto w-full max-w-[1000px] px-6 py-14">
+        <p className="mb-6 text-xs leading-relaxed text-stone-500 dark:text-stone-400">
+          {t(lang, "plant_ghost_mapping_note")}
+        </p>
+        <div className="flex flex-wrap items-start gap-3">
+          <h1 className="font-serif text-3xl font-semibold italic tracking-tight text-stone-900 dark:text-stone-100 sm:text-4xl">
+            {plant.scientific_name}
+          </h1>
+          <span className="inline-flex shrink-0 items-center rounded-md border border-violet-400/40 bg-violet-50 px-2.5 py-1 text-xs font-semibold uppercase tracking-wide text-violet-950 dark:border-violet-500/35 dark:bg-violet-950/40 dark:text-violet-100">
+            {t(lang, "plant_limited_data_badge")}
+          </span>
+        </div>
+        {countriesOrdered.length > 0 ? (
+          <p className="mt-6 text-sm text-stone-700 dark:text-stone-300">
+            <span className="font-semibold text-stone-800 dark:text-stone-200">
+              {t(lang, "plant_detail_common_in_label")}{" "}
+            </span>
+            {joinCountryNames(countriesOrdered, lang)}
+          </p>
+        ) : null}
+        {otherNameLinks.length > 0 ? (
+          <div className="mt-6 text-sm text-stone-700 dark:text-stone-300">
+            <p className="font-semibold text-stone-800 dark:text-stone-200">
+              {t(lang, "plant_detail_also_known")}
+            </p>
+            <ul className="mt-2 list-disc space-y-1 pl-5">
+              {otherNameLinks.map(({ slug, label }) => (
+                <li key={slug}>
+                  <Link
+                    href={localePath(lang, `/name/${slug}`)}
+                    className="font-medium text-flora-forest underline decoration-stone-300 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-400"
+                  >
+                    {label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ) : null}
+        <p className="mt-10 text-sm text-stone-600 dark:text-stone-400">
+          <Link
+            href={nameHubHref}
+            className="font-semibold text-flora-forest underline decoration-flora-forest/35 underline-offset-2 dark:text-emerald-400"
+          >
+            {lang === "es"
+              ? "Ver este nombre en el índice regional →"
+              : "View this name in the regional index →"}
+          </Link>
+        </p>
+      </main>
+    );
+  }
+
   const model = buildPlantDetailModel(plant);
   const ambiguityHubs = getAmbiguityHubsForPlant(plant.id);
   const related = getSmartRelatedPlants(plant, model, 6);
   const publicName = model.displayNames[0] ?? plant.scientific_name;
+  const primaryNameSlug = plantNameHubSlug(plant.id, plant.scientific_name);
   const otherNameLinks = getAlsoKnownAsLinks(plant.id);
   const similarByUses = getPlantsSharingPrimaryUses(plant, 14);
   const namesByCountry = getNamesGroupedByCountryForPlant(plant.id);
 
   return (
     <main className="mx-auto w-full max-w-[1000px] px-6 py-14">
+      <p className="mb-8 rounded-xl border border-stone-200 bg-stone-50/90 px-4 py-3 text-sm leading-relaxed text-stone-700 dark:border-stone-700 dark:bg-stone-900/50 dark:text-stone-300">
+        {lang === "es"
+          ? "Esta página es una referencia botánica detallada. Para traducciones del nombre entre países, consulta"
+          : "This page is a detailed botanical reference. For name translations across countries, see:"}{" "}
+        <Link
+          href={localePath(lang, `/name/${primaryNameSlug}`)}
+          className="font-semibold text-flora-forest underline decoration-flora-forest/35 underline-offset-2 dark:text-emerald-400"
+        >
+          {publicName}
+        </Link>
+        .
+      </p>
       <PlantCriticalSafetyBanner lang={lang} model={model} />
       <PlantHeader lang={lang} model={model} alsoKnownLinks={otherNameLinks} />
       <PlantHerbNamesByCountrySection lang={lang} groups={namesByCountry} />

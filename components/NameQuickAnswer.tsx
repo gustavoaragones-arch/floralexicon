@@ -1,4 +1,5 @@
 import { joinCountryNames } from "@/lib/countries";
+import { plantNameHubSlug } from "@/lib/data";
 import { localePath, ti, t, type Locale } from "@/lib/i18n";
 import type { ResolvedPlantContext } from "@/lib/resolver";
 import Link from "next/link";
@@ -41,15 +42,24 @@ export function NameQuickAnswer({
         {contexts.map((ctx) => {
           const codes = ctx.countries.slice(0, MAX_REGIONS);
           const regions = codes.length > 0 ? joinCountryNames(codes, lang) : "";
+          const label =
+            ctx.plant?.scientific_name ?? t(lang, "plant_placeholder_title");
           return (
-            <li key={ctx.plant.id} className="text-[1.05rem] leading-snug">
+            <li key={ctx.plant_id} className="text-[1.05rem] leading-snug">
               <strong>
-                <Link
-                  href={localePath(lang, `/plant/${ctx.plant.id}`)}
-                  className="text-flora-forest underline decoration-stone-300 underline-offset-[3px] hover:decoration-flora-forest dark:text-emerald-400 dark:decoration-stone-600 dark:hover:decoration-emerald-300"
-                >
-                  {ctx.plant.scientific_name}
-                </Link>
+                {ctx.plant && !ctx.isPlaceholder ? (
+                  <Link
+                    href={localePath(
+                      lang,
+                      `/name/${plantNameHubSlug(ctx.plant.id, ctx.plant.scientific_name)}`
+                    )}
+                    className="text-flora-forest underline decoration-stone-300 underline-offset-[3px] hover:decoration-flora-forest dark:text-emerald-400 dark:decoration-stone-600 dark:hover:decoration-emerald-300"
+                  >
+                    {ctx.plant.scientific_name}
+                  </Link>
+                ) : (
+                  <span className="text-stone-900 dark:text-stone-100">{label}</span>
+                )}
               </strong>
               {regions ? (
                 <>
