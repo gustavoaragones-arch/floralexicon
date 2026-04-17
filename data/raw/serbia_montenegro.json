@@ -1,0 +1,77 @@
+{
+  "plants": [
+    {
+      "scientific_name": "Matricaria chamomilla",
+      "family": "Asteraceae",
+      "country": "RS_ME",
+      "common_names": ["Kamilica"],
+      "uses": ["digestive", "calming"],
+      "meta": { "source": "serbia_traditional", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Mentha piperita",
+      "family": "Lamiaceae",
+      "country": "RS_ME",
+      "common_names": ["Nana"],
+      "uses": ["digestive", "bloating"],
+      "meta": { "source": "serbia_traditional", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Achillea millefolium",
+      "family": "Asteraceae",
+      "country": "RS_ME",
+      "common_names": ["Hajdučka trava"],
+      "uses": ["digestive", "anti-inflammatory"],
+      "meta": { "source": "serbia_traditional", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Salvia officinalis",
+      "family": "Lamiaceae",
+      "country": "RS_ME",
+      "common_names": ["Žalfija"],
+      "uses": ["digestive", "antiseptic"],
+      "meta": { "source": "serbia_traditional", "confidence": "high" }
+    },
+
+          {
+            "scientific_name": "Satureja hortensis",
+            "family": "Lamiaceae",
+            "country": "RS_ME",
+            "common_names": ["Čubar"],
+            "uses": ["digestive", "antimicrobial"],
+            "meta": { "source": "balkan_traditional_medicine", "confidence": "high" }
+          },
+          {
+            "scientific_name": "Sempervivum tectorum",
+            "family": "Crassulaceae",
+            "country": "RS_ME",
+            "common_names": ["Čuvarkuća"],
+            "uses": ["ear infections", "skin"],
+            "meta": { "source": "folk_medicine", "confidence": "medium" }
+          },
+          {
+            "scientific_name": "Asarum europaeum",
+            "family": "Aristolochiaceae",
+            "country": "RS_ME",
+            "common_names": ["Kopitnjak"],
+            "uses": ["historical use", "toxic"],
+            "meta": { "source": "historical_medicine", "confidence": "low" }
+          },
+          {
+            "scientific_name": "Digitalis grandiflora",
+            "family": "Plantaginaceae",
+            "country": "RS_ME",
+            "common_names": ["Naprstak"],
+            "uses": ["cardiac", "toxic"],
+            "meta": { "source": "medical_history", "confidence": "low" }
+          },
+          {
+            "scientific_name": "Carlina acaulis",
+            "family": "Asteraceae",
+            "country": "RS_ME",
+            "common_names": ["Kolinje"],
+            "uses": ["digestive", "diuretic"],
+            "meta": { "source": "balkan_ethnobotany", "confidence": "medium" }
+          }
+        ]
+      }

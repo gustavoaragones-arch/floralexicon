@@ -19,7 +19,9 @@
       "betula_pendula"
     ],
     "countries": [
-      "CL"
+      "CL",
+      "DK",
+      "NL"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -91,7 +93,14 @@
       "artemisia_absinthium"
     ],
     "countries": [
-      "FR"
+      "CL",
+      "CO",
+      "ES",
+      "FR",
+      "GT",
+      "IT",
+      "MX",
+      "PY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -244,6 +253,8 @@
     ],
     "countries": [
       "CL",
+      "FR",
+      "IT",
       "PY"
     ],
     "language": "es",
@@ -257,6 +268,8 @@
     ],
     "countries": [
       "CL",
+      "FR",
+      "IT",
       "PY"
     ],
     "language": "es",
@@ -271,8 +284,12 @@
     "countries": [
       "AR",
       "CL",
+      "DE",
       "ES",
+      "FR",
+      "IT",
       "MX",
+      "NL",
       "PY",
       "UY"
     ],
@@ -286,7 +303,10 @@
       "achillea_millefolium"
     ],
     "countries": [
-      "FR"
+      "AT",
+      "CL",
+      "FR",
+      "IT"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -336,7 +356,15 @@
       "equisetum_arvense"
     ],
     "countries": [
-      "DE"
+      "AT",
+      "BO",
+      "DE",
+      "ES",
+      "FR",
+      "IT",
+      "MX",
+      "NL",
+      "PA"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -450,7 +478,22 @@
       "allium_sativum"
     ],
     "countries": [
-      "IT"
+      "CO",
+      "GY",
+      "IT",
+      "MX"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Agrimonie",
+    "normalized": "agrimonie",
+    "plant_ids": [
+      "agrimonia_eupatoria"
+    ],
+    "countries": [
+      "BE"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -510,6 +553,18 @@
     "ambiguity_level": "low"
   },
   {
+    "name": "Aigremoine",
+    "normalized": "aigremoine",
+    "plant_ids": [
+      "agrimonia_eupatoria"
+    ],
+    "countries": [
+      "BE"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Airampo",
     "normalized": "airampo",
     "plant_ids": [
@@ -532,7 +587,8 @@
       "satureja_montana"
     ],
     "countries": [
-      "ES"
+      "ES",
+      "SI"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -547,7 +603,9 @@
       "CL",
       "CO",
       "ES",
+      "FR",
       "GT",
+      "IT",
       "MX",
       "PY"
     ],
@@ -588,6 +646,7 @@
     "countries": [
       "CO",
       "GY",
+      "IT",
       "MX"
     ],
     "language": "es",
@@ -693,8 +752,10 @@
       "CR",
       "EC",
       "ES",
+      "FR",
       "GT",
       "HN",
+      "IT",
       "MX",
       "NI",
       "PY",
@@ -770,8 +831,10 @@
       "CR",
       "EC",
       "ES",
+      "FR",
       "GT",
       "HN",
+      "IT",
       "MX",
       "NI",
       "PY",
@@ -788,7 +851,8 @@
     ],
     "countries": [
       "CL",
-      "CO"
+      "CO",
+      "IT"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -817,6 +881,7 @@
     ],
     "countries": [
       "CL",
+      "DE",
       "PY"
     ],
     "language": "es",
@@ -978,6 +1043,8 @@
       "laurus_nobilis"
     ],
     "countries": [
+      "AL",
+      "ES",
       "IT"
     ],
     "language": "es",
@@ -1060,6 +1127,18 @@
       "MX",
       "PY",
       "VE"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Alpenrose",
+    "normalized": "alpenrose",
+    "plant_ids": [
+      "rhododendron_ferrugineum"
+    ],
+    "countries": [
+      "AT"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -1173,6 +1252,7 @@
       "althaea_officinalis"
     ],
     "countries": [
+      "FR",
       "IT"
     ],
     "language": "es",
@@ -1248,7 +1328,8 @@
       "papaver_rhoeas"
     ],
     "countries": [
-      "ES"
+      "ES",
+      "IT"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -1350,8 +1431,12 @@
     "countries": [
       "AR",
       "CL",
+      "DE",
       "ES",
+      "FR",
+      "IT",
       "MX",
+      "NL",
       "PY",
       "UY"
     ],
@@ -1418,6 +1503,20 @@
     "ambiguity_level": "low"
   },
   {
+    "name": "Amba'y",
+    "normalized": "amba'y",
+    "plant_ids": [
+      "cecropia_pachystachya"
+    ],
+    "countries": [
+      "AR",
+      "BO",
+      "PY"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Ambaibo",
     "normalized": "ambaibo",
     "plant_ids": [
@@ -1437,7 +1536,8 @@
     ],
     "countries": [
       "AR",
-      "BO"
+      "BO",
+      "PY"
     ],
     "language": "es",
     "ambiguity_level": "high"
@@ -1450,7 +1550,8 @@
     ],
     "countries": [
       "AR",
-      "BO"
+      "BO",
+      "PY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -1577,6 +1678,7 @@
       "angelica_archangelica"
     ],
     "countries": [
+      "DK",
       "FR"
     ],
     "language": "es",
@@ -1720,7 +1822,8 @@
       "AR",
       "GT",
       "HN",
-      "NI"
+      "NI",
+      "PY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -1774,7 +1877,30 @@
       "vaccinium_myrtillus"
     ],
     "countries": [
-      "BO"
+      "BO",
+      "FR"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Arasá",
+    "normalized": "arasa",
+    "plant_ids": [
+      "psidium_guajava"
+    ],
+    "countries": [
+      "AR",
+      "BO",
+      "CR",
+      "GT",
+      "GY",
+      "HN",
+      "MX",
+      "NI",
+      "PA",
+      "PY",
+      "SV"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -1831,8 +1957,10 @@
       "arnica_montana"
     ],
     "countries": [
+      "AT",
       "CL",
       "CO",
+      "DE",
       "FR",
       "IT",
       "MX"
@@ -1894,8 +2022,12 @@
       "arnica_montana"
     ],
     "countries": [
+      "AT",
       "CL",
       "CO",
+      "DE",
+      "FR",
+      "IT",
       "MX"
     ],
     "language": "es",
@@ -1941,8 +2073,12 @@
       "arnica_montana"
     ],
     "countries": [
+      "AT",
       "CL",
       "CO",
+      "DE",
+      "FR",
+      "IT",
       "MX"
     ],
     "language": "es",
@@ -1967,7 +2103,13 @@
       "arnica_montana"
     ],
     "countries": [
-      "IT"
+      "AT",
+      "CL",
+      "CO",
+      "DE",
+      "FR",
+      "IT",
+      "MX"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -1979,7 +2121,13 @@
       "arnica_montana"
     ],
     "countries": [
-      "DE"
+      "AT",
+      "CL",
+      "CO",
+      "DE",
+      "FR",
+      "IT",
+      "MX"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -2163,6 +2311,8 @@
       "cynara_scolymus"
     ],
     "countries": [
+      "CL",
+      "CO",
       "IT"
     ],
     "language": "es",
@@ -2199,7 +2349,14 @@
       "artemisia_absinthium"
     ],
     "countries": [
-      "IT"
+      "CL",
+      "CO",
+      "ES",
+      "FR",
+      "GT",
+      "IT",
+      "MX",
+      "PY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -2247,7 +2404,11 @@
       "crataegus_monogyna"
     ],
     "countries": [
-      "FR"
+      "CL",
+      "DE",
+      "ES",
+      "FR",
+      "NL"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -2507,7 +2668,18 @@
       "valeriana_officinalis"
     ],
     "countries": [
-      "DE"
+      "AR",
+      "BE",
+      "BO",
+      "CL",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "IT",
+      "MX",
+      "NL",
+      "PE"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -2632,6 +2804,19 @@
     "ambiguity_level": "low"
   },
   {
+    "name": "Bar i egër",
+    "normalized": "bar_i_eger",
+    "plant_ids": [
+      "teucrium_polium"
+    ],
+    "countries": [
+      "AL",
+      "ES"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Barachand",
     "normalized": "barachand",
     "plant_ids": [
@@ -2713,6 +2898,7 @@
       "arctium_lappa"
     ],
     "countries": [
+      "BA",
       "CL"
     ],
     "language": "es",
@@ -2755,7 +2941,19 @@
       "ocimum_basilicum"
     ],
     "countries": [
-      "IT"
+      "CL",
+      "CO",
+      "CR",
+      "EC",
+      "ES",
+      "FR",
+      "GT",
+      "HN",
+      "IT",
+      "MX",
+      "NI",
+      "PY",
+      "SV"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -2767,7 +2965,19 @@
       "ocimum_basilicum"
     ],
     "countries": [
-      "FR"
+      "CL",
+      "CO",
+      "CR",
+      "EC",
+      "ES",
+      "FR",
+      "GT",
+      "HN",
+      "IT",
+      "MX",
+      "NI",
+      "PY",
+      "SV"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -2779,7 +2989,19 @@
       "ocimum_basilicum"
     ],
     "countries": [
-      "IT"
+      "CL",
+      "CO",
+      "CR",
+      "EC",
+      "ES",
+      "FR",
+      "GT",
+      "HN",
+      "IT",
+      "MX",
+      "NI",
+      "PY",
+      "SV"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -2824,6 +3046,8 @@
       "laurus_nobilis"
     ],
     "countries": [
+      "AL",
+      "ES",
       "IT"
     ],
     "language": "es",
@@ -2948,6 +3172,20 @@
     "ambiguity_level": "high"
   },
   {
+    "name": "Berk",
+    "normalized": "berk",
+    "plant_ids": [
+      "betula_pendula"
+    ],
+    "countries": [
+      "CL",
+      "DK",
+      "NL"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Bermuda grass",
     "normalized": "bermuda_grass",
     "plant_ids": [
@@ -2955,6 +3193,18 @@
     ],
     "countries": [
       "MX"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Berro",
+    "normalized": "berro",
+    "plant_ids": [
+      "nasturtium_officinale"
+    ],
+    "countries": [
+      "PY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -3039,6 +3289,20 @@
     ],
     "language": "es",
     "ambiguity_level": "medium"
+  },
+  {
+    "name": "Birk",
+    "normalized": "birk",
+    "plant_ids": [
+      "betula_pendula"
+    ],
+    "countries": [
+      "CL",
+      "DK",
+      "NL"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
   },
   {
     "name": "Bitter Tally",
@@ -3197,7 +3461,9 @@
       "capsella_bursapastoris"
     ],
     "countries": [
-      "CL"
+      "CL",
+      "IT",
+      "NL"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -3209,7 +3475,9 @@
       "borago_officinalis"
     ],
     "countries": [
-      "IT"
+      "CL",
+      "IT",
+      "PY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -3233,7 +3501,9 @@
       "borago_officinalis"
     ],
     "countries": [
-      "IT"
+      "CL",
+      "IT",
+      "PY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -3246,6 +3516,7 @@
     ],
     "countries": [
       "CL",
+      "IT",
       "PY"
     ],
     "language": "es",
@@ -3270,7 +3541,9 @@
       "capsella_bursapastoris"
     ],
     "countries": [
-      "IT"
+      "CL",
+      "IT",
+      "NL"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -3312,6 +3585,8 @@
       "rhamnus_frangula"
     ],
     "countries": [
+      "CL",
+      "DE",
       "FR"
     ],
     "language": "es",
@@ -3325,6 +3600,54 @@
     ],
     "countries": [
       "GY"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Brændenælde",
+    "normalized": "brændenælde",
+    "plant_ids": [
+      "urtica_dioica"
+    ],
+    "countries": [
+      "BA",
+      "BE",
+      "CL",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "IT",
+      "MK",
+      "MX",
+      "NL",
+      "PY",
+      "SI"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Brandnetel",
+    "normalized": "brandnetel",
+    "plant_ids": [
+      "urtica_dioica"
+    ],
+    "countries": [
+      "BA",
+      "BE",
+      "CL",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "IT",
+      "MK",
+      "MX",
+      "NL",
+      "PY",
+      "SI"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -3348,7 +3671,19 @@
       "urtica_dioica"
     ],
     "countries": [
-      "DE"
+      "BA",
+      "BE",
+      "CL",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "IT",
+      "MK",
+      "MX",
+      "NL",
+      "PY",
+      "SI"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -3501,6 +3836,18 @@
     "ambiguity_level": "low"
   },
   {
+    "name": "Bugle rampant",
+    "normalized": "bugle_rampant",
+    "plant_ids": [
+      "ajuga_reptans"
+    ],
+    "countries": [
+      "BE"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Buinapaqui",
     "normalized": "buinapaqui",
     "plant_ids": [
@@ -3533,7 +3880,8 @@
       "aloysia_polystachya"
     ],
     "countries": [
-      "AR"
+      "AR",
+      "PY"
     ],
     "language": "es",
     "ambiguity_level": "medium"
@@ -3895,6 +4243,18 @@
     "ambiguity_level": "low"
   },
   {
+    "name": "Çaj mali",
+    "normalized": "caj_mali",
+    "plant_ids": [
+      "sideritis_raeseri"
+    ],
+    "countries": [
+      "AL"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Caju",
     "normalized": "caju",
     "plant_ids": [
@@ -4052,6 +4412,7 @@
     "countries": [
       "CL",
       "CO",
+      "DE",
       "ES",
       "FR",
       "IT"
@@ -4173,6 +4534,7 @@
       "teucrium_chamaedrys"
     ],
     "countries": [
+      "BA",
       "ES"
     ],
     "language": "es",
@@ -4185,15 +4547,27 @@
       "matricaria_chamomilla"
     ],
     "countries": [
+      "AL",
       "AR",
+      "AT",
+      "BA",
+      "BE",
       "BO",
       "CL",
       "CO",
       "CR",
+      "DE",
+      "DK",
+      "FR",
       "GT",
+      "HR",
+      "IT",
+      "MK",
       "MX",
+      "NL",
       "PA",
       "PE",
+      "SI",
       "SV",
       "UY",
       "VE"
@@ -4208,7 +4582,30 @@
       "matricaria_chamomilla"
     ],
     "countries": [
-      "IT"
+      "AL",
+      "AR",
+      "AT",
+      "BA",
+      "BE",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "DE",
+      "DK",
+      "FR",
+      "GT",
+      "HR",
+      "IT",
+      "MK",
+      "MX",
+      "NL",
+      "PA",
+      "PE",
+      "SI",
+      "SV",
+      "UY",
+      "VE"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -4220,7 +4617,30 @@
       "matricaria_chamomilla"
     ],
     "countries": [
-      "FR"
+      "AL",
+      "AR",
+      "AT",
+      "BA",
+      "BE",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "DE",
+      "DK",
+      "FR",
+      "GT",
+      "HR",
+      "IT",
+      "MK",
+      "MX",
+      "NL",
+      "PA",
+      "PE",
+      "SI",
+      "SV",
+      "UY",
+      "VE"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -4244,7 +4664,8 @@
       "chamaemelum_nobile"
     ],
     "countries": [
-      "FR"
+      "FR",
+      "MX"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -4769,6 +5190,8 @@
       "cynara_scolymus"
     ],
     "countries": [
+      "CL",
+      "CO",
       "IT"
     ],
     "language": "es",
@@ -4849,7 +5272,10 @@
       "silybum_marianum"
     ],
     "countries": [
+      "DE",
       "ES",
+      "FR",
+      "IT",
       "MX"
     ],
     "language": "es",
@@ -4862,7 +5288,10 @@
       "silybum_marianum"
     ],
     "countries": [
+      "DE",
       "ES",
+      "FR",
+      "IT",
       "MX"
     ],
     "language": "es",
@@ -4875,7 +5304,9 @@
       "silybum_marianum"
     ],
     "countries": [
+      "DE",
       "ES",
+      "FR",
       "IT",
       "MX"
     ],
@@ -4963,6 +5394,7 @@
       "daucus_carota"
     ],
     "countries": [
+      "BO",
       "FR"
     ],
     "language": "es",
@@ -4994,6 +5426,7 @@
     ],
     "countries": [
       "AR",
+      "PY",
       "UY"
     ],
     "language": "es",
@@ -5007,6 +5440,7 @@
     ],
     "countries": [
       "AR",
+      "PY",
       "UY"
     ],
     "language": "es",
@@ -5199,9 +5633,14 @@
       "equisetum_arvense"
     ],
     "countries": [
+      "AT",
       "BO",
+      "DE",
       "ES",
+      "FR",
+      "IT",
       "MX",
+      "NL",
       "PA"
     ],
     "language": "es",
@@ -5244,9 +5683,14 @@
       "equisetum_arvense"
     ],
     "countries": [
+      "AT",
       "BO",
+      "DE",
       "ES",
+      "FR",
+      "IT",
       "MX",
+      "NL",
       "PA"
     ],
     "language": "es",
@@ -5306,6 +5750,7 @@
       "allium_cepa"
     ],
     "countries": [
+      "IT",
       "MX"
     ],
     "language": "es",
@@ -5435,6 +5880,7 @@
       "chelidonium_majus"
     ],
     "countries": [
+      "DE",
       "ES"
     ],
     "language": "es",
@@ -5740,8 +6186,30 @@
       "matricaria_chamomilla"
     ],
     "countries": [
+      "AL",
+      "AR",
+      "AT",
+      "BA",
+      "BE",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "DE",
+      "DK",
       "FR",
-      "IT"
+      "GT",
+      "HR",
+      "IT",
+      "MK",
+      "MX",
+      "NL",
+      "PA",
+      "PE",
+      "SI",
+      "SV",
+      "UY",
+      "VE"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -5799,6 +6267,7 @@
       "BO",
       "MX",
       "PE",
+      "PY",
       "VE"
     ],
     "language": "es",
@@ -5815,6 +6284,7 @@
       "BO",
       "MX",
       "PE",
+      "PY",
       "VE"
     ],
     "language": "es",
@@ -5916,7 +6386,11 @@
       "silybum_marianum"
     ],
     "countries": [
-      "FR"
+      "DE",
+      "ES",
+      "FR",
+      "IT",
+      "MX"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -6221,7 +6695,10 @@
       "cichorium_intybus"
     ],
     "countries": [
-      "FR"
+      "CL",
+      "FR",
+      "IT",
+      "PY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -6267,7 +6744,10 @@
       "cichorium_intybus"
     ],
     "countries": [
-      "IT"
+      "CL",
+      "FR",
+      "IT",
+      "PY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -6410,7 +6890,10 @@
     "countries": [
       "CL",
       "CO",
-      "ES"
+      "DE",
+      "ES",
+      "FR",
+      "IT"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -6480,10 +6963,19 @@
       "urtica_dioica"
     ],
     "countries": [
+      "BA",
+      "BE",
       "CL",
+      "DE",
+      "DK",
       "ES",
+      "FR",
+      "IT",
+      "MK",
       "MX",
-      "PY"
+      "NL",
+      "PY",
+      "SI"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -6731,13 +7223,29 @@
     "ambiguity_level": "medium"
   },
   {
+    "name": "Čičak",
+    "normalized": "cicak",
+    "plant_ids": [
+      "arctium_lappa"
+    ],
+    "countries": [
+      "BA",
+      "CL"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Cicoria",
     "normalized": "cicoria",
     "plant_ids": [
       "cichorium_intybus"
     ],
     "countries": [
-      "IT"
+      "CL",
+      "FR",
+      "IT",
+      "PY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -6859,7 +7367,8 @@
       "allium_cepa"
     ],
     "countries": [
-      "IT"
+      "IT",
+      "MX"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -6927,6 +7436,29 @@
     "ambiguity_level": "low"
   },
   {
+    "name": "Citroenmelisse",
+    "normalized": "citroenmelisse",
+    "plant_ids": [
+      "melissa_officinalis"
+    ],
+    "countries": [
+      "AR",
+      "BE",
+      "BO",
+      "CL",
+      "DE",
+      "ES",
+      "FR",
+      "IT",
+      "MX",
+      "NI",
+      "PE",
+      "UY"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Citronela",
     "normalized": "citronela",
     "plant_ids": [
@@ -6934,9 +7466,13 @@
     ],
     "countries": [
       "AR",
+      "BE",
       "BO",
       "CL",
+      "DE",
       "ES",
+      "FR",
+      "IT",
       "MX",
       "NI",
       "PE",
@@ -7203,9 +7739,14 @@
       "equisetum_arvense"
     ],
     "countries": [
+      "AT",
       "BO",
+      "DE",
       "ES",
+      "FR",
+      "IT",
       "MX",
+      "NL",
       "PA"
     ],
     "language": "es",
@@ -7449,7 +7990,8 @@
       "symphytum_officinale"
     ],
     "countries": [
-      "MX"
+      "MX",
+      "NL"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -7726,6 +8268,7 @@
       "papaver_rhoeas"
     ],
     "countries": [
+      "ES",
       "IT"
     ],
     "language": "es",
@@ -7951,6 +8494,18 @@
     ],
     "language": "es",
     "ambiguity_level": "medium"
+  },
+  {
+    "name": "Črni teloh",
+    "normalized": "crni_teloh",
+    "plant_ids": [
+      "helleborus_niger"
+    ],
+    "countries": [
+      "SI"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
   },
   {
     "name": "Cruceta",
@@ -8278,6 +8833,18 @@
     "name": "Culantrillo",
     "normalized": "culantrillo",
     "plant_ids": [
+      "adiantum_capillusveneris"
+    ],
+    "countries": [
+      "PY"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Culantrillo",
+    "normalized": "culantrillo",
+    "plant_ids": [
       "scoparia_dulcis"
     ],
     "countries": [
@@ -8502,6 +9069,20 @@
     "ambiguity_level": "high"
   },
   {
+    "name": "Dafinë",
+    "normalized": "dafine",
+    "plant_ids": [
+      "laurus_nobilis"
+    ],
+    "countries": [
+      "AL",
+      "ES",
+      "IT"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Dalal",
     "normalized": "dalal",
     "plant_ids": [
@@ -8546,8 +9127,16 @@
       "taraxacum_officinale"
     ],
     "countries": [
+      "AR",
+      "CL",
+      "DE",
+      "ES",
       "FR",
-      "IT"
+      "IT",
+      "MX",
+      "NL",
+      "PY",
+      "UY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -8590,8 +9179,12 @@
     "countries": [
       "AR",
       "CL",
+      "DE",
       "ES",
+      "FR",
+      "IT",
       "MX",
+      "NL",
       "PY",
       "UY"
     ],
@@ -8605,6 +9198,7 @@
       "rosa_canina"
     ],
     "countries": [
+      "FR",
       "IT"
     ],
     "language": "es",
@@ -8745,6 +9339,19 @@
     "ambiguity_level": "low"
   },
   {
+    "name": "Dubčac",
+    "normalized": "dubcac",
+    "plant_ids": [
+      "teucrium_chamaedrys"
+    ],
+    "countries": [
+      "BA",
+      "ES"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Duraznillo",
     "normalized": "duraznillo",
     "plant_ids": [
@@ -8757,13 +9364,39 @@
     "ambiguity_level": "medium"
   },
   {
+    "name": "Échinacée",
+    "normalized": "echinacee",
+    "plant_ids": [
+      "echinacea_purpurea"
+    ],
+    "countries": [
+      "BE",
+      "DE"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Edelweiß",
+    "normalized": "edelweiß",
+    "plant_ids": [
+      "leontopodium_alpinum"
+    ],
+    "countries": [
+      "AT"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Églantier",
     "normalized": "eglantier",
     "plant_ids": [
       "rosa_canina"
     ],
     "countries": [
-      "FR"
+      "FR",
+      "IT"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -8787,7 +9420,16 @@
       "sambucus_nigra"
     ],
     "countries": [
-      "IT"
+      "BA",
+      "BE",
+      "BO",
+      "CL",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "IT",
+      "MX"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -8799,7 +9441,16 @@
       "sambucus_nigra"
     ],
     "countries": [
-      "IT"
+      "BA",
+      "BE",
+      "BO",
+      "CL",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "IT",
+      "MX"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -8811,6 +9462,7 @@
       "inula_helenium"
     ],
     "countries": [
+      "HR",
       "IT"
     ],
     "language": "es",
@@ -8849,6 +9501,18 @@
     "ambiguity_level": "low"
   },
   {
+    "name": "Encijan",
+    "normalized": "encijan",
+    "plant_ids": [
+      "gentiana_acaulis"
+    ],
+    "countries": [
+      "SI"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Encina",
     "normalized": "encina",
     "plant_ids": [
@@ -8869,7 +9533,20 @@
       "juniperus_communis"
     ],
     "countries": [
+      "AT",
       "CL"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Eneldo",
+    "normalized": "eneldo",
+    "plant_ids": [
+      "anethum_graveolens"
+    ],
+    "countries": [
+      "PY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -8893,6 +9570,20 @@
       "inula_helenium"
     ],
     "countries": [
+      "HR",
+      "IT"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Enzian",
+    "normalized": "enzian",
+    "plant_ids": [
+      "gentiana_lutea"
+    ],
+    "countries": [
+      "AT",
       "IT"
     ],
     "language": "es",
@@ -8921,7 +9612,8 @@
       "AR",
       "GT",
       "HN",
-      "NI"
+      "NI",
+      "PY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -8965,7 +9657,15 @@
       "equisetum_arvense"
     ],
     "countries": [
-      "IT"
+      "AT",
+      "BO",
+      "DE",
+      "ES",
+      "FR",
+      "IT",
+      "MX",
+      "NL",
+      "PA"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -8977,9 +9677,14 @@
       "equisetum_arvense"
     ],
     "countries": [
+      "AT",
       "BO",
+      "DE",
       "ES",
+      "FR",
+      "IT",
       "MX",
+      "NL",
       "PA"
     ],
     "language": "es",
@@ -8992,7 +9697,13 @@
       "hypericum_perforatum"
     ],
     "countries": [
-      "IT"
+      "BA",
+      "CL",
+      "DE",
+      "ES",
+      "IT",
+      "MK",
+      "NL"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -9049,9 +9760,14 @@
       "equisetum_arvense"
     ],
     "countries": [
+      "AT",
       "BO",
+      "DE",
       "ES",
+      "FR",
+      "IT",
       "MX",
+      "NL",
       "PA"
     ],
     "language": "es",
@@ -9081,6 +9797,18 @@
     ],
     "language": "es",
     "ambiguity_level": "high"
+  },
+  {
+    "name": "Escancel",
+    "normalized": "escancel",
+    "plant_ids": [
+      "ageratina_pichinchensis"
+    ],
+    "countries": [
+      "EC"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
   },
   {
     "name": "Escoba",
@@ -9239,7 +9967,10 @@
     ],
     "countries": [
       "CL",
-      "ES"
+      "DE",
+      "ES",
+      "FR",
+      "NL"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -9315,7 +10046,9 @@
       "CL",
       "CO",
       "ES",
+      "FR",
       "GT",
+      "IT",
       "MX",
       "PY"
     ],
@@ -9342,8 +10075,12 @@
       "arnica_montana"
     ],
     "countries": [
+      "AT",
       "CL",
       "CO",
+      "DE",
+      "FR",
+      "IT",
       "MX"
     ],
     "language": "es",
@@ -9434,7 +10171,9 @@
       "rhamnus_frangula"
     ],
     "countries": [
-      "DE"
+      "CL",
+      "DE",
+      "FR"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -9446,7 +10185,13 @@
       "foeniculum_vulgare"
     ],
     "countries": [
-      "DE"
+      "BO",
+      "CL",
+      "DE",
+      "ES",
+      "FR",
+      "IT",
+      "PY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -9458,7 +10203,13 @@
       "foeniculum_vulgare"
     ],
     "countries": [
-      "IT"
+      "BO",
+      "CL",
+      "DE",
+      "ES",
+      "FR",
+      "IT",
+      "PY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -9482,7 +10233,13 @@
       "foeniculum_vulgare"
     ],
     "countries": [
-      "FR"
+      "BO",
+      "CL",
+      "DE",
+      "ES",
+      "FR",
+      "IT",
+      "PY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -9512,13 +10269,31 @@
     "ambiguity_level": "high"
   },
   {
+    "name": "Fichte",
+    "normalized": "fichte",
+    "plant_ids": [
+      "picea_abies"
+    ],
+    "countries": [
+      "AT"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Finocchio",
     "normalized": "finocchio",
     "plant_ids": [
       "foeniculum_vulgare"
     ],
     "countries": [
-      "IT"
+      "BO",
+      "CL",
+      "DE",
+      "ES",
+      "FR",
+      "IT",
+      "PY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -9760,6 +10535,7 @@
       "BO",
       "MX",
       "PE",
+      "PY",
       "VE"
     ],
     "language": "es",
@@ -9772,9 +10548,15 @@
       "sambucus_nigra"
     ],
     "countries": [
+      "BA",
+      "BE",
       "BO",
       "CL",
+      "DE",
+      "DK",
       "ES",
+      "FR",
+      "IT",
       "MX"
     ],
     "language": "es",
@@ -9825,7 +10607,21 @@
       "rhamnus_frangula"
     ],
     "countries": [
-      "CL"
+      "CL",
+      "DE",
+      "FR"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Frauenmantel",
+    "normalized": "frauenmantel",
+    "plant_ids": [
+      "alchemilla_vulgaris"
+    ],
+    "countries": [
+      "AT"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -9975,6 +10771,18 @@
     "ambiguity_level": "low"
   },
   {
+    "name": "Gaillet gratteron",
+    "normalized": "gaillet_gratteron",
+    "plant_ids": [
+      "galium_aparine"
+    ],
+    "countries": [
+      "BE"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Garlic",
     "normalized": "garlic",
     "plant_ids": [
@@ -10051,12 +10859,25 @@
     "ambiguity_level": "medium"
   },
   {
+    "name": "Gefleckter Enzian",
+    "normalized": "gefleckter_enzian",
+    "plant_ids": [
+      "gentiana_punctata"
+    ],
+    "countries": [
+      "AT"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Gentian",
     "normalized": "gentian",
     "plant_ids": [
       "gentiana_lutea"
     ],
     "countries": [
+      "AT",
       "IT"
     ],
     "language": "es",
@@ -10069,6 +10890,7 @@
       "gentiana_lutea"
     ],
     "countries": [
+      "AT",
       "IT"
     ],
     "language": "es",
@@ -10094,7 +10916,8 @@
       "ginkgo_biloba"
     ],
     "countries": [
-      "DE"
+      "DE",
+      "NL"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -10203,6 +11026,48 @@
     "ambiguity_level": "high"
   },
   {
+    "name": "Gorski vrisak",
+    "normalized": "gorski_vrisak",
+    "plant_ids": [
+      "teucrium_montanum"
+    ],
+    "countries": [
+      "HR"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Gospina trava",
+    "normalized": "gospina_trava",
+    "plant_ids": [
+      "hypericum_perforatum"
+    ],
+    "countries": [
+      "BA",
+      "CL",
+      "DE",
+      "ES",
+      "IT",
+      "MK",
+      "NL"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Gospina trava (planinska)",
+    "normalized": "gospina_trava_(planinska)",
+    "plant_ids": [
+      "hypericum_maculatum"
+    ],
+    "countries": [
+      "BA"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Grama",
     "normalized": "grama",
     "plant_ids": [
@@ -10249,6 +11114,18 @@
     "countries": [
       "CL",
       "PY"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Grčka kadulja",
+    "normalized": "grcka_kadulja",
+    "plant_ids": [
+      "salvia_fruticosa"
+    ],
+    "countries": [
+      "HR"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -10697,6 +11574,7 @@
       "MX",
       "NI",
       "PA",
+      "PY",
       "SV"
     ],
     "language": "es",
@@ -10718,6 +11596,7 @@
       "MX",
       "NI",
       "PA",
+      "PY",
       "SV"
     ],
     "language": "es",
@@ -10758,6 +11637,7 @@
       "MX",
       "NI",
       "PA",
+      "PY",
       "SV"
     ],
     "language": "es",
@@ -10830,7 +11710,8 @@
       "althaea_officinalis"
     ],
     "countries": [
-      "FR"
+      "FR",
+      "IT"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -10863,6 +11744,7 @@
       "MX",
       "NI",
       "PA",
+      "PY",
       "SV"
     ],
     "language": "es",
@@ -10942,6 +11824,38 @@
     "ambiguity_level": "medium"
   },
   {
+    "name": "Hedelyng",
+    "normalized": "hedelyng",
+    "plant_ids": [
+      "calluna_vulgaris"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Heermoes",
+    "normalized": "heermoes",
+    "plant_ids": [
+      "equisetum_arvense"
+    ],
+    "countries": [
+      "AT",
+      "BO",
+      "DE",
+      "ES",
+      "FR",
+      "IT",
+      "MX",
+      "NL",
+      "PA"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Heliotropo",
     "normalized": "heliotropo",
     "plant_ids": [
@@ -10949,6 +11863,20 @@
     ],
     "countries": [
       "AR"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Herderstasje",
+    "normalized": "herderstasje",
+    "plant_ids": [
+      "capsella_bursapastoris"
+    ],
+    "countries": [
+      "CL",
+      "IT",
+      "NL"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -11023,6 +11951,11 @@
     "countries": [
       "AR",
       "CL",
+      "DE",
+      "FR",
+      "HR",
+      "IT",
+      "MK",
       "MX",
       "NI",
       "PE"
@@ -11291,9 +12224,13 @@
       "hypericum_perforatum"
     ],
     "countries": [
+      "BA",
       "CL",
+      "DE",
       "ES",
-      "IT"
+      "IT",
+      "MK",
+      "NL"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -11722,6 +12659,7 @@
       "HN",
       "MX",
       "NI",
+      "PY",
       "VE"
     ],
     "language": "es",
@@ -11805,7 +12743,9 @@
       "CL",
       "CO",
       "ES",
+      "FR",
       "GT",
+      "IT",
       "MX",
       "PY"
     ],
@@ -11926,6 +12866,11 @@
     "countries": [
       "AR",
       "CL",
+      "DE",
+      "FR",
+      "HR",
+      "IT",
+      "MK",
       "MX",
       "NI",
       "PE"
@@ -11940,6 +12885,12 @@
       "mentha_piperita"
     ],
     "countries": [
+      "BE",
+      "DE",
+      "FR",
+      "HR",
+      "IT",
+      "MK",
       "MX"
     ],
     "language": "es",
@@ -11954,6 +12905,11 @@
     "countries": [
       "AR",
       "CL",
+      "DE",
+      "FR",
+      "HR",
+      "IT",
+      "MK",
       "MX",
       "NI",
       "PE"
@@ -12169,7 +13125,10 @@
     "countries": [
       "BO",
       "CL",
+      "DE",
       "ES",
+      "FR",
+      "IT",
       "PY"
     ],
     "language": "es",
@@ -12182,8 +13141,13 @@
       "hypericum_perforatum"
     ],
     "countries": [
+      "BA",
       "CL",
-      "ES"
+      "DE",
+      "ES",
+      "IT",
+      "MK",
+      "NL"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -12557,7 +13521,16 @@
       "sambucus_nigra"
     ],
     "countries": [
-      "DE"
+      "BA",
+      "BE",
+      "BO",
+      "CL",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "IT",
+      "MX"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -12622,13 +13595,29 @@
     "ambiguity_level": "high"
   },
   {
+    "name": "Hop",
+    "normalized": "hop",
+    "plant_ids": [
+      "humulus_lupulus"
+    ],
+    "countries": [
+      "DE",
+      "FR",
+      "NL"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Hopfen",
     "normalized": "hopfen",
     "plant_ids": [
       "humulus_lupulus"
     ],
     "countries": [
-      "DE"
+      "DE",
+      "FR",
+      "NL"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -12640,7 +13629,9 @@
       "marrubium_vulgare"
     ],
     "countries": [
-      "IT"
+      "CL",
+      "IT",
+      "MX"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -12652,7 +13643,15 @@
       "equisetum_arvense"
     ],
     "countries": [
-      "IT"
+      "AT",
+      "BO",
+      "DE",
+      "ES",
+      "FR",
+      "IT",
+      "MX",
+      "NL",
+      "PA"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -12664,7 +13663,9 @@
       "humulus_lupulus"
     ],
     "countries": [
-      "FR"
+      "DE",
+      "FR",
+      "NL"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -12841,13 +13842,35 @@
     "ambiguity_level": "low"
   },
   {
+    "name": "Hyld",
+    "normalized": "hyld",
+    "plant_ids": [
+      "sambucus_nigra"
+    ],
+    "countries": [
+      "BA",
+      "BE",
+      "BO",
+      "CL",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "IT",
+      "MX"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Hysope",
     "normalized": "hysope",
     "plant_ids": [
       "hyssopus_officinalis"
     ],
     "countries": [
-      "FR"
+      "FR",
+      "IT"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -12859,6 +13882,7 @@
       "hyssopus_officinalis"
     ],
     "countries": [
+      "FR",
       "IT"
     ],
     "language": "es",
@@ -13185,7 +14209,13 @@
       "hypericum_perforatum"
     ],
     "countries": [
-      "IT"
+      "BA",
+      "CL",
+      "DE",
+      "ES",
+      "IT",
+      "MK",
+      "NL"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -13209,6 +14239,7 @@
       "hyssopus_officinalis"
     ],
     "countries": [
+      "FR",
       "IT"
     ],
     "language": "es",
@@ -13316,6 +14347,20 @@
     ],
     "countries": [
       "AR"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Jaguarete ka'a",
+    "normalized": "jaguarete_ka'a",
+    "plant_ids": [
+      "baccharis_trimera"
+    ],
+    "countries": [
+      "AR",
+      "PY",
+      "UY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -13496,6 +14541,18 @@
     ],
     "countries": [
       "MX"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Jeglič",
+    "normalized": "jeglic",
+    "plant_ids": [
+      "primula_elatior"
+    ],
+    "countries": [
+      "SI"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -13773,7 +14830,13 @@
       "hypericum_perforatum"
     ],
     "countries": [
-      "DE"
+      "BA",
+      "CL",
+      "DE",
+      "ES",
+      "IT",
+      "MK",
+      "NL"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -13960,6 +15023,22 @@
     "ambiguity_level": "low"
   },
   {
+    "name": "Ka'are",
+    "normalized": "ka'are",
+    "plant_ids": [
+      "chenopodium_ambrosioides"
+    ],
+    "countries": [
+      "AR",
+      "GT",
+      "HN",
+      "NI",
+      "PY"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Kagaglin",
     "normalized": "kagaglin",
     "plant_ids": [
@@ -13986,13 +15065,138 @@
     "ambiguity_level": "high"
   },
   {
+    "name": "Kamilica",
+    "normalized": "kamilica",
+    "plant_ids": [
+      "matricaria_chamomilla"
+    ],
+    "countries": [
+      "AL",
+      "AR",
+      "AT",
+      "BA",
+      "BE",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "DE",
+      "DK",
+      "FR",
+      "GT",
+      "HR",
+      "IT",
+      "MK",
+      "MX",
+      "NL",
+      "PA",
+      "PE",
+      "SI",
+      "SV",
+      "UY",
+      "VE"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Kamille",
     "normalized": "kamille",
     "plant_ids": [
       "matricaria_chamomilla"
     ],
     "countries": [
-      "DE"
+      "AL",
+      "AR",
+      "AT",
+      "BA",
+      "BE",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "DE",
+      "DK",
+      "FR",
+      "GT",
+      "HR",
+      "IT",
+      "MK",
+      "MX",
+      "NL",
+      "PA",
+      "PE",
+      "SI",
+      "SV",
+      "UY",
+      "VE"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Kamomil",
+    "normalized": "kamomil",
+    "plant_ids": [
+      "matricaria_chamomilla"
+    ],
+    "countries": [
+      "AL",
+      "AR",
+      "AT",
+      "BA",
+      "BE",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "DE",
+      "DK",
+      "FR",
+      "GT",
+      "HR",
+      "IT",
+      "MK",
+      "MX",
+      "NL",
+      "PA",
+      "PE",
+      "SI",
+      "SV",
+      "UY",
+      "VE"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Kapii kati",
+    "normalized": "kapii_kati",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "AR",
+      "CO",
+      "CR",
+      "GT",
+      "HN",
+      "MX",
+      "NI",
+      "PY",
+      "VE"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Karanda'y",
+    "normalized": "karanda'y",
+    "plant_ids": [
+      "copernicia_alba"
+    ],
+    "countries": [
+      "PY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -14018,6 +15222,42 @@
     "countries": [
       "CR",
       "MX"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Koku",
+    "normalized": "koku",
+    "plant_ids": [
+      "allophylus_edulis"
+    ],
+    "countries": [
+      "PY"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Kopriva",
+    "normalized": "kopriva",
+    "plant_ids": [
+      "urtica_dioica"
+    ],
+    "countries": [
+      "BA",
+      "BE",
+      "CL",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "IT",
+      "MK",
+      "MX",
+      "NL",
+      "PY",
+      "SI"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -14095,6 +15335,31 @@
     "ambiguity_level": "low"
   },
   {
+    "name": "Kuratu",
+    "normalized": "kuratu",
+    "plant_ids": [
+      "coriandrum_sativum"
+    ],
+    "countries": [
+      "PY"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Kvan",
+    "normalized": "kvan",
+    "plant_ids": [
+      "angelica_archangelica"
+    ],
+    "countries": [
+      "DK",
+      "FR"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Lachí kilitl (Náhuatl)",
     "normalized": "lachi_kilitl_(nahuatl)",
     "plant_ids": [
@@ -14157,6 +15422,7 @@
       "arctium_lappa"
     ],
     "countries": [
+      "BA",
       "CL"
     ],
     "language": "es",
@@ -14251,13 +15517,27 @@
     "ambiguity_level": "high"
   },
   {
+    "name": "Latschenkiefer",
+    "normalized": "latschenkiefer",
+    "plant_ids": [
+      "pinus_mugo"
+    ],
+    "countries": [
+      "AT"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Laurel",
     "normalized": "laurel",
     "plant_ids": [
       "laurus_nobilis"
     ],
     "countries": [
-      "ES"
+      "AL",
+      "ES",
+      "IT"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -14285,6 +15565,8 @@
     "countries": [
       "CL",
       "ES",
+      "FR",
+      "HR",
       "IT"
     ],
     "language": "es",
@@ -14297,7 +15579,11 @@
       "lavandula_angustifolia"
     ],
     "countries": [
-      "FR"
+      "CL",
+      "ES",
+      "FR",
+      "HR",
+      "IT"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -14322,7 +15608,10 @@
       "lavandula_angustifolia"
     ],
     "countries": [
+      "CL",
+      "ES",
       "FR",
+      "HR",
       "IT"
     ],
     "language": "es",
@@ -14438,6 +15727,7 @@
       "citrus_limon"
     ],
     "countries": [
+      "BO",
       "IT"
     ],
     "language": "es",
@@ -14450,7 +15740,18 @@
       "melissa_officinalis"
     ],
     "countries": [
-      "IT"
+      "AR",
+      "BE",
+      "BO",
+      "CL",
+      "DE",
+      "ES",
+      "FR",
+      "IT",
+      "MX",
+      "NI",
+      "PE",
+      "UY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -14602,6 +15903,8 @@
       "glycyrrhiza_glabra"
     ],
     "countries": [
+      "ES",
+      "FR",
       "IT"
     ],
     "language": "es",
@@ -14660,7 +15963,8 @@
       "citrus_limon"
     ],
     "countries": [
-      "BO"
+      "BO",
+      "IT"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -14679,6 +15983,7 @@
       "HN",
       "MX",
       "NI",
+      "PY",
       "VE"
     ],
     "language": "es",
@@ -14707,6 +16012,7 @@
       "citrus_limon"
     ],
     "countries": [
+      "BO",
       "IT"
     ],
     "language": "es",
@@ -14762,7 +16068,12 @@
       "tilia_cordata"
     ],
     "countries": [
-      "DE"
+      "BE",
+      "CL",
+      "DE",
+      "ES",
+      "FR",
+      "IT"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -14774,6 +16085,11 @@
       "tilia_cordata"
     ],
     "countries": [
+      "BE",
+      "CL",
+      "DE",
+      "ES",
+      "FR",
       "IT"
     ],
     "language": "es",
@@ -14799,6 +16115,8 @@
       "glycyrrhiza_glabra"
     ],
     "countries": [
+      "ES",
+      "FR",
       "IT"
     ],
     "language": "es",
@@ -14812,7 +16130,10 @@
     ],
     "countries": [
       "AR",
+      "BE",
       "CL",
+      "DE",
+      "FR",
       "IT",
       "UY"
     ],
@@ -14873,7 +16194,11 @@
     ],
     "countries": [
       "AR",
+      "BE",
       "CL",
+      "DE",
+      "FR",
+      "IT",
       "UY"
     ],
     "language": "es",
@@ -14887,7 +16212,11 @@
     ],
     "countries": [
       "AR",
+      "BE",
       "CL",
+      "DE",
+      "FR",
+      "IT",
       "UY"
     ],
     "language": "es",
@@ -14936,7 +16265,16 @@
       "taraxacum_officinale"
     ],
     "countries": [
-      "DE"
+      "AR",
+      "CL",
+      "DE",
+      "ES",
+      "FR",
+      "IT",
+      "MX",
+      "NL",
+      "PY",
+      "UY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -14955,6 +16293,7 @@
       "EC",
       "ES",
       "HN",
+      "IT",
       "MX",
       "PE",
       "PY",
@@ -14978,6 +16317,7 @@
       "EC",
       "ES",
       "HN",
+      "IT",
       "MX",
       "PE",
       "PY",
@@ -15195,7 +16535,9 @@
       "CL",
       "CO",
       "ES",
+      "FR",
       "GT",
+      "IT",
       "MX",
       "PY"
     ],
@@ -15248,6 +16590,18 @@
     "countries": [
       "CL",
       "MX"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Majaron",
+    "normalized": "majaron",
+    "plant_ids": [
+      "origanum_majorana"
+    ],
+    "countries": [
+      "SI"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -15329,6 +16683,7 @@
     ],
     "countries": [
       "CL",
+      "IT",
       "MX"
     ],
     "language": "es",
@@ -15355,6 +16710,7 @@
     "countries": [
       "CL",
       "ES",
+      "FR",
       "IT",
       "PY"
     ],
@@ -15566,15 +16922,27 @@
       "matricaria_chamomilla"
     ],
     "countries": [
+      "AL",
       "AR",
+      "AT",
+      "BA",
+      "BE",
       "BO",
       "CL",
       "CO",
       "CR",
+      "DE",
+      "DK",
+      "FR",
       "GT",
+      "HR",
+      "IT",
+      "MK",
       "MX",
+      "NL",
       "PA",
       "PE",
+      "SI",
       "SV",
       "UY",
       "VE"
@@ -15607,15 +16975,27 @@
       "matricaria_chamomilla"
     ],
     "countries": [
+      "AL",
       "AR",
+      "AT",
+      "BA",
+      "BE",
       "BO",
       "CL",
       "CO",
       "CR",
+      "DE",
+      "DK",
+      "FR",
       "GT",
+      "HR",
+      "IT",
+      "MK",
       "MX",
+      "NL",
       "PA",
       "PE",
+      "SI",
       "SV",
       "UY",
       "VE"
@@ -15648,6 +17028,7 @@
       "chamaemelum_nobile"
     ],
     "countries": [
+      "FR",
       "MX"
     ],
     "language": "es",
@@ -15859,7 +17240,11 @@
       "silybum_marianum"
     ],
     "countries": [
-      "DE"
+      "DE",
+      "ES",
+      "FR",
+      "IT",
+      "MX"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -15898,6 +17283,7 @@
     ],
     "countries": [
       "CL",
+      "IT",
       "MX"
     ],
     "language": "es",
@@ -15910,7 +17296,20 @@
       "althaea_officinalis"
     ],
     "countries": [
+      "FR",
       "IT"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Mastikë",
+    "normalized": "mastike",
+    "plant_ids": [
+      "pistacia_lentiscus"
+    ],
+    "countries": [
+      "AL"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -15967,7 +17366,9 @@
       "capsella_bursapastoris"
     ],
     "countries": [
-      "CL"
+      "CL",
+      "IT",
+      "NL"
     ],
     "language": "es",
     "ambiguity_level": "medium"
@@ -16147,15 +17548,27 @@
       "matricaria_chamomilla"
     ],
     "countries": [
+      "AL",
       "AR",
+      "AT",
+      "BA",
+      "BE",
       "BO",
       "CL",
       "CO",
       "CR",
+      "DE",
+      "DK",
+      "FR",
       "GT",
+      "HR",
+      "IT",
+      "MK",
       "MX",
+      "NL",
       "PA",
       "PE",
+      "SI",
       "SV",
       "UY",
       "VE"
@@ -16200,7 +17613,11 @@
       "malva_sylvestris"
     ],
     "countries": [
-      "FR"
+      "CL",
+      "ES",
+      "FR",
+      "IT",
+      "PY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -16299,6 +17716,22 @@
     "ambiguity_level": "high"
   },
   {
+    "name": "Meidoorn",
+    "normalized": "meidoorn",
+    "plant_ids": [
+      "crataegus_monogyna"
+    ],
+    "countries": [
+      "CL",
+      "DE",
+      "ES",
+      "FR",
+      "NL"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Mejorana",
     "normalized": "mejorana",
     "plant_ids": [
@@ -16313,6 +17746,18 @@
     "ambiguity_level": "high"
   },
   {
+    "name": "Melbærris",
+    "normalized": "melbærris",
+    "plant_ids": [
+      "arctostaphylos_uvaursi"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Melisa",
     "normalized": "melisa",
     "plant_ids": [
@@ -16320,9 +17765,13 @@
     ],
     "countries": [
       "AR",
+      "BE",
       "BO",
       "CL",
+      "DE",
       "ES",
+      "FR",
+      "IT",
       "MX",
       "NI",
       "PE",
@@ -16339,9 +17788,12 @@
     ],
     "countries": [
       "AR",
+      "BE",
       "BO",
       "CL",
+      "DE",
       "ES",
+      "FR",
       "IT",
       "MX",
       "NI",
@@ -16358,8 +17810,18 @@
       "melissa_officinalis"
     ],
     "countries": [
+      "AR",
+      "BE",
+      "BO",
+      "CL",
       "DE",
-      "FR"
+      "ES",
+      "FR",
+      "IT",
+      "MX",
+      "NI",
+      "PE",
+      "UY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -16402,6 +17864,12 @@
       "mentha_piperita"
     ],
     "countries": [
+      "BE",
+      "DE",
+      "FR",
+      "HR",
+      "IT",
+      "MK",
       "MX"
     ],
     "language": "es",
@@ -16440,6 +17908,11 @@
     "countries": [
       "AR",
       "CL",
+      "DE",
+      "FR",
+      "HR",
+      "IT",
+      "MK",
       "MX",
       "NI",
       "PE"
@@ -16480,9 +17953,32 @@
     "countries": [
       "AR",
       "CL",
+      "DE",
+      "FR",
+      "HR",
+      "IT",
+      "MK",
       "MX",
       "NI",
       "PE"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Menta Piperita",
+    "normalized": "menta_piperita",
+    "plant_ids": [
+      "mentha_piperita"
+    ],
+    "countries": [
+      "BE",
+      "DE",
+      "FR",
+      "HR",
+      "IT",
+      "MK",
+      "MX"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -16496,7 +17992,11 @@
     "countries": [
       "AR",
       "CL",
+      "DE",
+      "FR",
+      "HR",
       "IT",
+      "MK",
       "MX",
       "NI",
       "PE"
@@ -16523,10 +18023,76 @@
     "name": "Menthe poivrée",
     "normalized": "menthe_poivree",
     "plant_ids": [
+      "mentha_piperita"
+    ],
+    "countries": [
+      "BE",
+      "DE",
+      "FR",
+      "HR",
+      "IT",
+      "MK",
+      "MX"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Menthe poivrée",
+    "normalized": "menthe_poivree",
+    "plant_ids": [
       "mentha_x"
     ],
     "countries": [
-      "FR"
+      "AR",
+      "CL",
+      "DE",
+      "FR",
+      "HR",
+      "IT",
+      "MK",
+      "MX",
+      "NI",
+      "PE"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Metvica",
+    "normalized": "metvica",
+    "plant_ids": [
+      "mentha_piperita"
+    ],
+    "countries": [
+      "BE",
+      "DE",
+      "FR",
+      "HR",
+      "IT",
+      "MK",
+      "MX"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Metvica",
+    "normalized": "metvica",
+    "plant_ids": [
+      "mentha_x"
+    ],
+    "countries": [
+      "AR",
+      "CL",
+      "DE",
+      "FR",
+      "HR",
+      "IT",
+      "MK",
+      "MX",
+      "NI",
+      "PE"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -16627,7 +18193,10 @@
       "achillea_millefolium"
     ],
     "countries": [
-      "CL"
+      "AT",
+      "CL",
+      "FR",
+      "IT"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -16651,7 +18220,11 @@
       "silybum_marianum"
     ],
     "countries": [
-      "IT"
+      "DE",
+      "ES",
+      "FR",
+      "IT",
+      "MX"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -16663,6 +18236,9 @@
       "achillea_millefolium"
     ],
     "countries": [
+      "AT",
+      "CL",
+      "FR",
       "IT"
     ],
     "language": "es",
@@ -16718,6 +18294,19 @@
     "ambiguity_level": "low"
   },
   {
+    "name": "Mjødurt",
+    "normalized": "mjødurt",
+    "plant_ids": [
+      "filipendula_ulmaria"
+    ],
+    "countries": [
+      "DK",
+      "NL"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Moco",
     "normalized": "moco",
     "plant_ids": [
@@ -16749,6 +18338,19 @@
     ],
     "language": "es",
     "ambiguity_level": "high"
+  },
+  {
+    "name": "Moerasspirea",
+    "normalized": "moerasspirea",
+    "plant_ids": [
+      "filipendula_ulmaria"
+    ],
+    "countries": [
+      "DK",
+      "NL"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
   },
   {
     "name": "Moitle",
@@ -17248,6 +18850,7 @@
       "vaccinium_myrtillus"
     ],
     "countries": [
+      "BO",
       "FR"
     ],
     "language": "es",
@@ -17374,7 +18977,8 @@
       "genipa_americana"
     ],
     "countries": [
-      "PA"
+      "PA",
+      "PY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -17386,7 +18990,21 @@
       "eugenia_uniflora"
     ],
     "countries": [
-      "AR"
+      "AR",
+      "PY"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Ñangapiry",
+    "normalized": "nangapiry",
+    "plant_ids": [
+      "eugenia_uniflora"
+    ],
+    "countries": [
+      "AR",
+      "PY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -17591,7 +19209,19 @@
       "urtica_dioica"
     ],
     "countries": [
-      "IT"
+      "BA",
+      "BE",
+      "CL",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "IT",
+      "MK",
+      "MX",
+      "NL",
+      "PY",
+      "SI"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -17714,6 +19344,7 @@
       "juglans_regia"
     ],
     "countries": [
+      "CL",
       "IT"
     ],
     "language": "es",
@@ -17726,7 +19357,8 @@
       "juglans_regia"
     ],
     "countries": [
-      "CL"
+      "CL",
+      "IT"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -17767,6 +19399,18 @@
     "countries": [
       "CL",
       "MX"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Nyserod",
+    "normalized": "nyserod",
+    "plant_ids": [
+      "achillea_ptarmica"
+    ],
+    "countries": [
+      "DK"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -17885,6 +19529,7 @@
       "olea_europaea"
     ],
     "countries": [
+      "CL",
       "IT"
     ],
     "language": "es",
@@ -17921,6 +19566,19 @@
     "ambiguity_level": "high"
   },
   {
+    "name": "Oman",
+    "normalized": "oman",
+    "plant_ids": [
+      "inula_helenium"
+    ],
+    "countries": [
+      "HR",
+      "IT"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Ombligo de Venus",
     "normalized": "ombligo_de_venus",
     "plant_ids": [
@@ -17951,7 +19609,8 @@
       "allium_cepa"
     ],
     "countries": [
-      "IT"
+      "IT",
+      "MX"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -18054,7 +19713,9 @@
       "origanum_vulgare"
     ],
     "countries": [
+      "AL",
       "BO",
+      "FR",
       "IT",
       "PY"
     ],
@@ -18088,8 +19749,10 @@
       "CR",
       "EC",
       "ES",
+      "FR",
       "GT",
       "HN",
+      "IT",
       "MX",
       "NI",
       "PY",
@@ -18247,7 +19910,11 @@
       "origanum_vulgare"
     ],
     "countries": [
-      "FR"
+      "AL",
+      "BO",
+      "FR",
+      "IT",
+      "PY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -18259,7 +19926,11 @@
       "origanum_vulgare"
     ],
     "countries": [
-      "IT"
+      "AL",
+      "BO",
+      "FR",
+      "IT",
+      "PY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -18309,7 +19980,19 @@
       "urtica_dioica"
     ],
     "countries": [
-      "IT"
+      "BA",
+      "BE",
+      "CL",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "IT",
+      "MK",
+      "MX",
+      "NL",
+      "PY",
+      "SI"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -18321,7 +20004,19 @@
       "urtica_dioica"
     ],
     "countries": [
-      "FR"
+      "BA",
+      "BE",
+      "CL",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "IT",
+      "MK",
+      "MX",
+      "NL",
+      "PY",
+      "SI"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -18347,10 +20042,19 @@
       "urtica_dioica"
     ],
     "countries": [
+      "BA",
+      "BE",
       "CL",
+      "DE",
+      "DK",
       "ES",
+      "FR",
+      "IT",
+      "MK",
       "MX",
-      "PY"
+      "NL",
+      "PY",
+      "SI"
     ],
     "language": "es",
     "ambiguity_level": "high"
@@ -18426,6 +20130,27 @@
     "ambiguity_level": "high"
   },
   {
+    "name": "Paardenbloem",
+    "normalized": "paardenbloem",
+    "plant_ids": [
+      "taraxacum_officinale"
+    ],
+    "countries": [
+      "AR",
+      "CL",
+      "DE",
+      "ES",
+      "FR",
+      "IT",
+      "MX",
+      "NL",
+      "PY",
+      "UY"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Paico",
     "normalized": "paico",
     "plant_ids": [
@@ -18435,7 +20160,8 @@
       "AR",
       "GT",
       "HN",
-      "NI"
+      "NI",
+      "PY"
     ],
     "language": "es",
     "ambiguity_level": "medium"
@@ -19010,6 +20736,7 @@
       "papaver_rhoeas"
     ],
     "countries": [
+      "ES",
       "IT"
     ],
     "language": "es",
@@ -19079,6 +20806,23 @@
       "BO",
       "CO",
       "NI"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Para para'i",
+    "normalized": "para_para'i",
+    "plant_ids": [
+      "phyllanthus_niruri"
+    ],
+    "countries": [
+      "AR",
+      "BO",
+      "MX",
+      "PE",
+      "PY",
+      "VE"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -19321,6 +21065,7 @@
       "passiflora_incarnata"
     ],
     "countries": [
+      "DE",
       "FR"
     ],
     "language": "es",
@@ -19333,7 +21078,8 @@
       "passiflora_incarnata"
     ],
     "countries": [
-      "DE"
+      "DE",
+      "FR"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -19376,6 +21122,7 @@
       "HN",
       "MX",
       "NI",
+      "PY",
       "VE"
     ],
     "language": "es",
@@ -19566,6 +21313,24 @@
     "ambiguity_level": "low"
   },
   {
+    "name": "Pepermunt",
+    "normalized": "pepermunt",
+    "plant_ids": [
+      "mentha_piperita"
+    ],
+    "countries": [
+      "BE",
+      "DE",
+      "FR",
+      "HR",
+      "IT",
+      "MK",
+      "MX"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Pepinillo",
     "normalized": "pepinillo",
     "plant_ids": [
@@ -19603,6 +21368,12 @@
       "mentha_piperita"
     ],
     "countries": [
+      "BE",
+      "DE",
+      "FR",
+      "HR",
+      "IT",
+      "MK",
       "MX"
     ],
     "language": "es",
@@ -19617,7 +21388,11 @@
     "countries": [
       "AR",
       "CL",
+      "DE",
+      "FR",
+      "HR",
       "IT",
+      "MK",
       "MX",
       "NI",
       "PE"
@@ -19799,6 +21574,18 @@
     "ambiguity_level": "low"
   },
   {
+    "name": "Petoprsta",
+    "normalized": "petoprsta",
+    "plant_ids": [
+      "potentilla_erecta"
+    ],
+    "countries": [
+      "BA"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Peumo alemán",
     "normalized": "peumo_aleman",
     "plant_ids": [
@@ -19806,7 +21593,10 @@
     ],
     "countries": [
       "CL",
-      "ES"
+      "DE",
+      "ES",
+      "FR",
+      "NL"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -19828,10 +21618,37 @@
     "name": "Pfefferminze",
     "normalized": "pfefferminze",
     "plant_ids": [
+      "mentha_piperita"
+    ],
+    "countries": [
+      "BE",
+      "DE",
+      "FR",
+      "HR",
+      "IT",
+      "MK",
+      "MX"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Pfefferminze",
+    "normalized": "pfefferminze",
+    "plant_ids": [
       "mentha_x"
     ],
     "countries": [
-      "DE"
+      "AR",
+      "CL",
+      "DE",
+      "FR",
+      "HR",
+      "IT",
+      "MK",
+      "MX",
+      "NI",
+      "PE"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -20401,7 +22218,16 @@
       "taraxacum_officinale"
     ],
     "countries": [
-      "FR"
+      "AR",
+      "CL",
+      "DE",
+      "ES",
+      "FR",
+      "IT",
+      "MX",
+      "NL",
+      "PY",
+      "UY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -20469,7 +22295,8 @@
       "eugenia_uniflora"
     ],
     "countries": [
-      "AR"
+      "AR",
+      "PY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -20555,6 +22382,7 @@
       "BO",
       "MX",
       "PE",
+      "PY",
       "VE"
     ],
     "language": "es",
@@ -20584,8 +22412,13 @@
       "plantago_lanceolata"
     ],
     "countries": [
+      "AR",
+      "BE",
+      "CL",
+      "DE",
       "FR",
-      "IT"
+      "IT",
+      "UY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -20696,6 +22529,18 @@
     ],
     "language": "es",
     "ambiguity_level": "high"
+  },
+  {
+    "name": "Poleo chiquito",
+    "normalized": "poleo_chiquito",
+    "plant_ids": [
+      "clinopodium_brownei"
+    ],
+    "countries": [
+      "EC"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
   },
   {
     "name": "Poleo de agua",
@@ -20846,7 +22691,15 @@
       "equisetum_arvense"
     ],
     "countries": [
-      "FR"
+      "AT",
+      "BO",
+      "DE",
+      "ES",
+      "FR",
+      "IT",
+      "MX",
+      "NL",
+      "PA"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -20909,6 +22762,18 @@
     ],
     "language": "es",
     "ambiguity_level": "high"
+  },
+  {
+    "name": "Pulmonaire",
+    "normalized": "pulmonaire",
+    "plant_ids": [
+      "pulmonaria_officinalis"
+    ],
+    "countries": [
+      "BE"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
   },
   {
     "name": "Pumpo",
@@ -21036,6 +22901,7 @@
       "BO",
       "MX",
       "PE",
+      "PY",
       "VE"
     ],
     "language": "es",
@@ -21398,9 +23264,14 @@
       "equisetum_arvense"
     ],
     "countries": [
+      "AT",
       "BO",
+      "DE",
       "ES",
+      "FR",
+      "IT",
       "MX",
+      "NL",
       "PA"
     ],
     "language": "es",
@@ -21425,9 +23296,14 @@
       "equisetum_arvense"
     ],
     "countries": [
+      "AT",
       "BO",
+      "DE",
       "ES",
+      "FR",
+      "IT",
       "MX",
+      "NL",
       "PA"
     ],
     "language": "es",
@@ -21620,6 +23496,18 @@
     "ambiguity_level": "high"
   },
   {
+    "name": "Različak",
+    "normalized": "razlicak",
+    "plant_ids": [
+      "centaurea_cyanus"
+    ],
+    "countries": [
+      "HR"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "red head",
     "normalized": "red_head",
     "plant_ids": [
@@ -21643,7 +23531,9 @@
       "glycyrrhiza_glabra"
     ],
     "countries": [
-      "ES"
+      "ES",
+      "FR",
+      "IT"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -21655,7 +23545,9 @@
       "glycyrrhiza_glabra"
     ],
     "countries": [
-      "FR"
+      "ES",
+      "FR",
+      "IT"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -21772,13 +23664,34 @@
     "ambiguity_level": "high"
   },
   {
+    "name": "Rigoni",
+    "normalized": "rigoni",
+    "plant_ids": [
+      "origanum_vulgare"
+    ],
+    "countries": [
+      "AL",
+      "BO",
+      "FR",
+      "IT",
+      "PY"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Ringelblume",
     "normalized": "ringelblume",
     "plant_ids": [
       "calendula_officinalis"
     ],
     "countries": [
-      "DE"
+      "CL",
+      "CO",
+      "DE",
+      "ES",
+      "FR",
+      "IT"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -21818,10 +23731,34 @@
     "name": "Romarin",
     "normalized": "romarin",
     "plant_ids": [
+      "rosmarinus_officinalis"
+    ],
+    "countries": [
+      "FR",
+      "HR",
+      "IT"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Romarin",
+    "normalized": "romarin",
+    "plant_ids": [
       "salvia_rosmarinus"
     ],
     "countries": [
-      "FR"
+      "BO",
+      "CL",
+      "CR",
+      "ES",
+      "FR",
+      "GT",
+      "HR",
+      "IT",
+      "MX",
+      "PY",
+      "VE"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -21891,7 +23828,10 @@
       "CL",
       "CR",
       "ES",
+      "FR",
       "GT",
+      "HR",
+      "IT",
       "MX",
       "PY",
       "VE"
@@ -21910,7 +23850,10 @@
       "CL",
       "CR",
       "ES",
+      "FR",
       "GT",
+      "HR",
+      "IT",
       "MX",
       "PY",
       "VE"
@@ -21929,6 +23872,7 @@
       "BO",
       "MX",
       "PE",
+      "PY",
       "VE"
     ],
     "language": "es",
@@ -21941,6 +23885,7 @@
       "rosa_canina"
     ],
     "countries": [
+      "FR",
       "IT"
     ],
     "language": "es",
@@ -21986,10 +23931,59 @@
     "name": "Rosemary",
     "normalized": "rosemary",
     "plant_ids": [
-      "salvia_rosmarinus"
+      "rosmarinus_officinalis"
     ],
     "countries": [
       "FR",
+      "HR",
+      "IT"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Rosemary",
+    "normalized": "rosemary",
+    "plant_ids": [
+      "salvia_rosmarinus"
+    ],
+    "countries": [
+      "BO",
+      "CL",
+      "CR",
+      "ES",
+      "FR",
+      "GT",
+      "HR",
+      "IT",
+      "MX",
+      "PY",
+      "VE"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Rosmarinlyng",
+    "normalized": "rosmarinlyng",
+    "plant_ids": [
+      "ledum_palustre"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Rosmarino",
+    "normalized": "rosmarino",
+    "plant_ids": [
+      "rosmarinus_officinalis"
+    ],
+    "countries": [
+      "FR",
+      "HR",
       "IT"
     ],
     "language": "es",
@@ -22002,7 +23996,17 @@
       "salvia_rosmarinus"
     ],
     "countries": [
-      "IT"
+      "BO",
+      "CL",
+      "CR",
+      "ES",
+      "FR",
+      "GT",
+      "HR",
+      "IT",
+      "MX",
+      "PY",
+      "VE"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -22027,6 +24031,7 @@
     ],
     "countries": [
       "CL",
+      "ES",
       "GT",
       "MX",
       "NI"
@@ -22048,6 +24053,7 @@
       "EC",
       "ES",
       "HN",
+      "IT",
       "MX",
       "PE",
       "PY",
@@ -22065,6 +24071,7 @@
     ],
     "countries": [
       "CL",
+      "ES",
       "GT",
       "MX",
       "NI"
@@ -22091,7 +24098,11 @@
       "ruta_chalepensis"
     ],
     "countries": [
-      "ES"
+      "CL",
+      "ES",
+      "GT",
+      "MX",
+      "NI"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -22103,7 +24114,19 @@
       "ruta_graveolens"
     ],
     "countries": [
-      "IT"
+      "AR",
+      "BO",
+      "CL",
+      "CO",
+      "EC",
+      "ES",
+      "HN",
+      "IT",
+      "MX",
+      "PE",
+      "PY",
+      "UY",
+      "VE"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -22127,7 +24150,55 @@
       "ruta_graveolens"
     ],
     "countries": [
+      "AR",
+      "BO",
+      "CL",
+      "CO",
+      "EC",
+      "ES",
+      "HN",
+      "IT",
+      "MX",
+      "PE",
+      "PY",
+      "UY",
+      "VE"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Ružmarin",
+    "normalized": "ruzmarin",
+    "plant_ids": [
+      "rosmarinus_officinalis"
+    ],
+    "countries": [
+      "FR",
+      "HR",
       "IT"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Ružmarin",
+    "normalized": "ruzmarin",
+    "plant_ids": [
+      "salvia_rosmarinus"
+    ],
+    "countries": [
+      "BO",
+      "CL",
+      "CR",
+      "ES",
+      "FR",
+      "GT",
+      "HR",
+      "IT",
+      "MX",
+      "PY",
+      "VE"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -22259,7 +24330,14 @@
       "salvia_officinalis"
     ],
     "countries": [
-      "IT"
+      "AL",
+      "BO",
+      "CL",
+      "ES",
+      "FR",
+      "IT",
+      "MX",
+      "SI"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -22385,11 +24463,14 @@
       "salvia_officinalis"
     ],
     "countries": [
+      "AL",
       "BO",
       "CL",
       "ES",
+      "FR",
       "IT",
-      "MX"
+      "MX",
+      "SI"
     ],
     "language": "es",
     "ambiguity_level": "medium"
@@ -22401,10 +24482,14 @@
       "salvia_officinalis"
     ],
     "countries": [
+      "AL",
       "BO",
       "CL",
       "ES",
-      "MX"
+      "FR",
+      "IT",
+      "MX",
+      "SI"
     ],
     "language": "es",
     "ambiguity_level": "high"
@@ -22536,7 +24621,16 @@
       "sambucus_nigra"
     ],
     "countries": [
-      "IT"
+      "BA",
+      "BE",
+      "BO",
+      "CL",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "IT",
+      "MX"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -22904,6 +24998,7 @@
       "BO",
       "MX",
       "PE",
+      "PY",
       "VE"
     ],
     "language": "es",
@@ -22981,9 +25076,15 @@
       "sambucus_nigra"
     ],
     "countries": [
+      "BA",
+      "BE",
       "BO",
       "CL",
+      "DE",
+      "DK",
       "ES",
+      "FR",
+      "IT",
       "MX"
     ],
     "language": "es",
@@ -23026,7 +25127,14 @@
       "salvia_officinalis"
     ],
     "countries": [
-      "FR"
+      "AL",
+      "BO",
+      "CL",
+      "ES",
+      "FR",
+      "IT",
+      "MX",
+      "SI"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -23051,12 +25159,48 @@
     "ambiguity_level": "low"
   },
   {
+    "name": "Schachtelhalm",
+    "normalized": "schachtelhalm",
+    "plant_ids": [
+      "equisetum_arvense"
+    ],
+    "countries": [
+      "AT",
+      "BO",
+      "DE",
+      "ES",
+      "FR",
+      "IT",
+      "MX",
+      "NL",
+      "PA"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Schafgarbe",
+    "normalized": "schafgarbe",
+    "plant_ids": [
+      "achillea_millefolium"
+    ],
+    "countries": [
+      "AT",
+      "CL",
+      "FR",
+      "IT"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Schlüsselblume",
     "normalized": "schlusselblume",
     "plant_ids": [
       "primula_veris"
     ],
     "countries": [
+      "AT",
       "DE"
     ],
     "language": "es",
@@ -23069,7 +25213,8 @@
       "chelidonium_majus"
     ],
     "countries": [
-      "DE"
+      "DE",
+      "ES"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -23163,6 +25308,7 @@
     ],
     "countries": [
       "CL",
+      "DE",
       "PY"
     ],
     "language": "es",
@@ -23188,6 +25334,7 @@
     ],
     "countries": [
       "CL",
+      "DE",
       "PY"
     ],
     "language": "es",
@@ -23229,7 +25376,9 @@
       "senna_alexandrina"
     ],
     "countries": [
-      "DE"
+      "CL",
+      "DE",
+      "PY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -23305,6 +25454,19 @@
     "ambiguity_level": "high"
   },
   {
+    "name": "Šetraj",
+    "normalized": "setraj",
+    "plant_ids": [
+      "satureja_montana"
+    ],
+    "countries": [
+      "ES",
+      "SI"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Shak Shak",
     "normalized": "shak_shak",
     "plant_ids": [
@@ -23323,7 +25485,28 @@
       "capsella_bursapastoris"
     ],
     "countries": [
-      "IT"
+      "CL",
+      "IT",
+      "NL"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Sherbelë",
+    "normalized": "sherbele",
+    "plant_ids": [
+      "salvia_officinalis"
+    ],
+    "countries": [
+      "AL",
+      "BO",
+      "CL",
+      "ES",
+      "FR",
+      "IT",
+      "MX",
+      "SI"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -23413,7 +25596,11 @@
     ],
     "countries": [
       "AR",
+      "BE",
       "CL",
+      "DE",
+      "FR",
+      "IT",
       "UY"
     ],
     "language": "es",
@@ -23462,6 +25649,18 @@
       "GT",
       "HN",
       "MX"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Silberwurz",
+    "normalized": "silberwurz",
+    "plant_ids": [
+      "dryas_octopetala"
+    ],
+    "countries": [
+      "AT"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -23519,6 +25718,24 @@
     "ambiguity_level": "low"
   },
   {
+    "name": "Sint-janskruid",
+    "normalized": "sint-janskruid",
+    "plant_ids": [
+      "hypericum_perforatum"
+    ],
+    "countries": [
+      "BA",
+      "CL",
+      "DE",
+      "ES",
+      "IT",
+      "MK",
+      "NL"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "sipu sipu",
     "normalized": "sipu_sipu",
     "plant_ids": [
@@ -23529,6 +25746,49 @@
     ],
     "language": "es",
     "ambiguity_level": "high"
+  },
+  {
+    "name": "Smalle weegbree",
+    "normalized": "smalle_weegbree",
+    "plant_ids": [
+      "plantago_lanceolata"
+    ],
+    "countries": [
+      "AR",
+      "BE",
+      "CL",
+      "DE",
+      "FR",
+      "IT",
+      "UY"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Smeerwortel",
+    "normalized": "smeerwortel",
+    "plant_ids": [
+      "symphytum_officinale"
+    ],
+    "countries": [
+      "MX",
+      "NL"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Smilje",
+    "normalized": "smilje",
+    "plant_ids": [
+      "helichrysum_italicum"
+    ],
+    "countries": [
+      "HR"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
   },
   {
     "name": "Soldier Pusley",
@@ -23573,6 +25833,7 @@
       "echinacea_purpurea"
     ],
     "countries": [
+      "BE",
       "DE"
     ],
     "language": "es",
@@ -23604,7 +25865,12 @@
       "calendula_officinalis"
     ],
     "countries": [
-      "FR"
+      "CL",
+      "CO",
+      "DE",
+      "ES",
+      "FR",
+      "IT"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -23684,7 +25950,13 @@
       "plantago_lanceolata"
     ],
     "countries": [
-      "DE"
+      "AR",
+      "BE",
+      "CL",
+      "DE",
+      "FR",
+      "IT",
+      "UY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -23721,7 +25993,13 @@
       "hypericum_perforatum"
     ],
     "countries": [
-      "DE"
+      "BA",
+      "CL",
+      "DE",
+      "ES",
+      "IT",
+      "MK",
+      "NL"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -23792,7 +26070,8 @@
       "symphytum_officinale"
     ],
     "countries": [
-      "MX"
+      "MX",
+      "NL"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -23870,7 +26149,16 @@
       "sambucus_nigra"
     ],
     "countries": [
-      "FR"
+      "BA",
+      "BE",
+      "BO",
+      "CL",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "IT",
+      "MX"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -23953,8 +26241,12 @@
       "arnica_montana"
     ],
     "countries": [
+      "AT",
       "CL",
       "CO",
+      "DE",
+      "FR",
+      "IT",
       "MX"
     ],
     "language": "es",
@@ -24072,7 +26364,16 @@
       "taraxacum_officinale"
     ],
     "countries": [
-      "IT"
+      "AR",
+      "CL",
+      "DE",
+      "ES",
+      "FR",
+      "IT",
+      "MX",
+      "NL",
+      "PY",
+      "UY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -24234,6 +26535,7 @@
       "HN",
       "MX",
       "NI",
+      "PY",
       "VE"
     ],
     "language": "es",
@@ -24253,6 +26555,7 @@
       "HN",
       "MX",
       "NI",
+      "PY",
       "VE"
     ],
     "language": "es",
@@ -24395,7 +26698,18 @@
       "thymus_vulgaris"
     ],
     "countries": [
-      "FR"
+      "AL",
+      "BE",
+      "BO",
+      "CL",
+      "CO",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "IT",
+      "PY",
+      "SI"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -24407,7 +26721,18 @@
       "thymus_vulgaris"
     ],
     "countries": [
-      "IT"
+      "AL",
+      "BE",
+      "BO",
+      "CL",
+      "CO",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "IT",
+      "PY",
+      "SI"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -24419,7 +26744,18 @@
       "thymus_vulgaris"
     ],
     "countries": [
-      "DE"
+      "AL",
+      "BE",
+      "BO",
+      "CL",
+      "CO",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "IT",
+      "PY",
+      "SI"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -24449,6 +26785,11 @@
       "tilia_cordata"
     ],
     "countries": [
+      "BE",
+      "CL",
+      "DE",
+      "ES",
+      "FR",
       "IT"
     ],
     "language": "es",
@@ -24467,14 +26808,41 @@
     "ambiguity_level": "low"
   },
   {
+    "name": "Tijm",
+    "normalized": "tijm",
+    "plant_ids": [
+      "thymus_vulgaris"
+    ],
+    "countries": [
+      "AL",
+      "BE",
+      "BO",
+      "CL",
+      "CO",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "IT",
+      "PY",
+      "SI"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Tila",
     "normalized": "tila",
     "plant_ids": [
       "tilia_cordata"
     ],
     "countries": [
+      "BE",
       "CL",
-      "ES"
+      "DE",
+      "ES",
+      "FR",
+      "IT"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -24486,7 +26854,12 @@
       "tilia_cordata"
     ],
     "countries": [
-      "FR"
+      "BE",
+      "CL",
+      "DE",
+      "ES",
+      "FR",
+      "IT"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -24516,8 +26889,12 @@
       "tilia_cordata"
     ],
     "countries": [
+      "BE",
       "CL",
-      "ES"
+      "DE",
+      "ES",
+      "FR",
+      "IT"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -24549,13 +26926,70 @@
     "ambiguity_level": "medium"
   },
   {
+    "name": "Timian",
+    "normalized": "timian",
+    "plant_ids": [
+      "thymus_vulgaris"
+    ],
+    "countries": [
+      "AL",
+      "BE",
+      "BO",
+      "CL",
+      "CO",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "IT",
+      "PY",
+      "SI"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Timijan",
+    "normalized": "timijan",
+    "plant_ids": [
+      "thymus_vulgaris"
+    ],
+    "countries": [
+      "AL",
+      "BE",
+      "BO",
+      "CL",
+      "CO",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "IT",
+      "PY",
+      "SI"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Timo",
     "normalized": "timo",
     "plant_ids": [
       "thymus_vulgaris"
     ],
     "countries": [
-      "IT"
+      "AL",
+      "BE",
+      "BO",
+      "CL",
+      "CO",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "IT",
+      "PY",
+      "SI"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -24675,11 +27109,18 @@
       "thymus_vulgaris"
     ],
     "countries": [
+      "AL",
+      "BE",
       "BO",
       "CL",
       "CO",
+      "DE",
+      "DK",
       "ES",
-      "PY"
+      "FR",
+      "IT",
+      "PY",
+      "SI"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -24748,9 +27189,13 @@
     ],
     "countries": [
       "AR",
+      "BE",
       "BO",
       "CL",
+      "DE",
       "ES",
+      "FR",
+      "IT",
       "MX",
       "NI",
       "PE",
@@ -24767,6 +27212,7 @@
     ],
     "countries": [
       "CL",
+      "IT",
       "MX"
     ],
     "language": "es",
@@ -24792,9 +27238,13 @@
     ],
     "countries": [
       "AR",
+      "BE",
       "BO",
       "CL",
+      "DE",
       "ES",
+      "FR",
+      "IT",
       "MX",
       "NI",
       "PE",
@@ -24984,6 +27434,29 @@
     "ambiguity_level": "medium"
   },
   {
+    "name": "Trumzë",
+    "normalized": "trumze",
+    "plant_ids": [
+      "thymus_vulgaris"
+    ],
+    "countries": [
+      "AL",
+      "BE",
+      "BO",
+      "CL",
+      "CO",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "IT",
+      "PY",
+      "SI"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "ts’ ohool",
     "normalized": "ts’_ohool",
     "plant_ids": [
@@ -25159,6 +27632,18 @@
     ],
     "language": "es",
     "ambiguity_level": "medium"
+  },
+  {
+    "name": "Tyttebær",
+    "normalized": "tyttebær",
+    "plant_ids": [
+      "vaccinium_vitisidaea"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
   },
   {
     "name": "tzité",
@@ -25539,6 +28024,29 @@
     "ambiguity_level": "medium"
   },
   {
+    "name": "Valeriaan",
+    "normalized": "valeriaan",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "AR",
+      "BE",
+      "BO",
+      "CL",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "IT",
+      "MX",
+      "NL",
+      "PE"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Valeriana",
     "normalized": "valeriana",
     "plant_ids": [
@@ -25598,11 +28106,16 @@
     ],
     "countries": [
       "AR",
+      "BE",
       "BO",
       "CL",
+      "DE",
+      "DK",
       "ES",
+      "FR",
       "IT",
       "MX",
+      "NL",
       "PE"
     ],
     "language": "es",
@@ -25616,10 +28129,16 @@
     ],
     "countries": [
       "AR",
+      "BE",
       "BO",
       "CL",
+      "DE",
+      "DK",
       "ES",
+      "FR",
+      "IT",
       "MX",
+      "NL",
       "PE"
     ],
     "language": "es",
@@ -25644,7 +28163,18 @@
       "valeriana_officinalis"
     ],
     "countries": [
-      "FR"
+      "AR",
+      "BE",
+      "BO",
+      "CL",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "IT",
+      "MX",
+      "NL",
+      "PE"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -25791,6 +28321,7 @@
       "verbena_officinalis"
     ],
     "countries": [
+      "FR",
       "IT",
       "MX",
       "PY"
@@ -25868,13 +28399,28 @@
     "ambiguity_level": "medium"
   },
   {
+    "name": "Véronique",
+    "normalized": "veronique",
+    "plant_ids": [
+      "veronica_officinalis"
+    ],
+    "countries": [
+      "BE"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Verveine",
     "normalized": "verveine",
     "plant_ids": [
       "verbena_officinalis"
     ],
     "countries": [
-      "FR"
+      "FR",
+      "IT",
+      "MX",
+      "PY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -25937,6 +28483,18 @@
       "GT",
       "GY",
       "MX"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Vidac",
+    "normalized": "vidac",
+    "plant_ids": [
+      "euphrasia_officinalis"
+    ],
+    "countries": [
+      "BA"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -26008,6 +28566,27 @@
     "ambiguity_level": "low"
   },
   {
+    "name": "Vlier",
+    "normalized": "vlier",
+    "plant_ids": [
+      "sambucus_nigra"
+    ],
+    "countries": [
+      "BA",
+      "BE",
+      "BO",
+      "CL",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "IT",
+      "MX"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Voigue",
     "normalized": "voigue",
     "plant_ids": [
@@ -26033,12 +28612,26 @@
     "ambiguity_level": "low"
   },
   {
+    "name": "Wacholder",
+    "normalized": "wacholder",
+    "plant_ids": [
+      "juniperus_communis"
+    ],
+    "countries": [
+      "AT",
+      "CL"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Walnut",
     "normalized": "walnut",
     "plant_ids": [
       "juglans_regia"
     ],
     "countries": [
+      "CL",
       "IT"
     ],
     "language": "es",
@@ -26051,7 +28644,23 @@
       "crataegus_monogyna"
     ],
     "countries": [
-      "DE"
+      "CL",
+      "DE",
+      "ES",
+      "FR",
+      "NL"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Weißer Germer",
+    "normalized": "weißer_germer",
+    "plant_ids": [
+      "veratrum_album"
+    ],
+    "countries": [
+      "AT"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -26207,8 +28816,14 @@
       "artemisia_absinthium"
     ],
     "countries": [
+      "CL",
+      "CO",
+      "ES",
       "FR",
-      "IT"
+      "GT",
+      "IT",
+      "MX",
+      "PY"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -26378,6 +28993,7 @@
       "MX",
       "NI",
       "PA",
+      "PY",
       "SV"
     ],
     "language": "es",
@@ -26399,6 +29015,7 @@
       "MX",
       "NI",
       "PA",
+      "PY",
       "SV"
     ],
     "language": "es",
@@ -26435,9 +29052,15 @@
       "sambucus_nigra"
     ],
     "countries": [
+      "BA",
+      "BE",
       "BO",
       "CL",
+      "DE",
+      "DK",
       "ES",
+      "FR",
+      "IT",
       "MX"
     ],
     "language": "es",
@@ -26584,6 +29207,8 @@
       "achillea_millefolium"
     ],
     "countries": [
+      "AT",
+      "CL",
       "FR",
       "IT"
     ],
@@ -26989,6 +29614,7 @@
       "HN",
       "MX",
       "NI",
+      "PY",
       "VE"
     ],
     "language": "es",
@@ -27020,6 +29646,7 @@
       "HN",
       "MX",
       "NI",
+      "PY",
       "VE"
     ],
     "language": "es",
@@ -27039,6 +29666,7 @@
       "HN",
       "MX",
       "NI",
+      "PY",
       "VE"
     ],
     "language": "es",
@@ -27058,12 +29686,32 @@
     "ambiguity_level": "low"
   },
   {
+    "name": "Žajbelj",
+    "normalized": "zajbelj",
+    "plant_ids": [
+      "salvia_officinalis"
+    ],
+    "countries": [
+      "AL",
+      "BO",
+      "CL",
+      "ES",
+      "FR",
+      "IT",
+      "MX",
+      "SI"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Zamarilla",
     "normalized": "zamarilla",
     "plant_ids": [
       "teucrium_polium"
     ],
     "countries": [
+      "AL",
       "ES"
     ],
     "language": "es",
@@ -27076,7 +29724,8 @@
       "daucus_carota"
     ],
     "countries": [
-      "BO"
+      "BO",
+      "FR"
     ],
     "language": "es",
     "ambiguity_level": "low"
@@ -27180,6 +29829,19 @@
     "ambiguity_level": "low"
   },
   {
+    "name": "Zonnehoed",
+    "normalized": "zonnehoed",
+    "plant_ids": [
+      "echinacea_purpurea"
+    ],
+    "countries": [
+      "BE",
+      "DE"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Zorrillo",
     "normalized": "zorrillo",
     "plant_ids": [
@@ -27216,6 +29878,27 @@
     "ambiguity_level": "high"
   },
   {
+    "name": "Zova",
+    "normalized": "zova",
+    "plant_ids": [
+      "sambucus_nigra"
+    ],
+    "countries": [
+      "BA",
+      "BE",
+      "BO",
+      "CL",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "IT",
+      "MX"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
     "name": "Zumillo",
     "normalized": "zumillo",
     "plant_ids": [
@@ -27223,6 +29906,194 @@
     ],
     "countries": [
       "ES"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Zwarte bes",
+    "normalized": "zwarte_bes",
+    "plant_ids": [
+      "ribes_nigrum"
+    ],
+    "countries": [
+      "NL"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Горска трева",
+    "normalized": "горска_трева",
+    "plant_ids": [
+      "teucrium_scordium"
+    ],
+    "countries": [
+      "MK"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Жолта ајдучка трева",
+    "normalized": "жолта_ајдучка_трева",
+    "plant_ids": [
+      "achillea_clypeolata"
+    ],
+    "countries": [
+      "MK"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Камилица",
+    "normalized": "камилица",
+    "plant_ids": [
+      "matricaria_chamomilla"
+    ],
+    "countries": [
+      "AL",
+      "AR",
+      "AT",
+      "BA",
+      "BE",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "DE",
+      "DK",
+      "FR",
+      "GT",
+      "HR",
+      "IT",
+      "MK",
+      "MX",
+      "NL",
+      "PA",
+      "PE",
+      "SI",
+      "SV",
+      "UY",
+      "VE"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Кантарион",
+    "normalized": "кантарион",
+    "plant_ids": [
+      "hypericum_perforatum"
+    ],
+    "countries": [
+      "BA",
+      "CL",
+      "DE",
+      "ES",
+      "IT",
+      "MK",
+      "NL"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Коприва",
+    "normalized": "коприва",
+    "plant_ids": [
+      "urtica_dioica"
+    ],
+    "countries": [
+      "BA",
+      "BE",
+      "CL",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "IT",
+      "MK",
+      "MX",
+      "NL",
+      "PY",
+      "SI"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Мачја нане",
+    "normalized": "мачја_нане",
+    "plant_ids": [
+      "nepeta_cataria"
+    ],
+    "countries": [
+      "MK"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Нане",
+    "normalized": "нане",
+    "plant_ids": [
+      "mentha_piperita"
+    ],
+    "countries": [
+      "BE",
+      "DE",
+      "FR",
+      "HR",
+      "IT",
+      "MK",
+      "MX"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Нане",
+    "normalized": "нане",
+    "plant_ids": [
+      "mentha_x"
+    ],
+    "countries": [
+      "AR",
+      "CL",
+      "DE",
+      "FR",
+      "HR",
+      "IT",
+      "MK",
+      "MX",
+      "NI",
+      "PE"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Салеп",
+    "normalized": "салеп",
+    "plant_ids": [
+      "orchis_mascula"
+    ],
+    "countries": [
+      "MK"
+    ],
+    "language": "es",
+    "ambiguity_level": "low"
+  },
+  {
+    "name": "Шарпланински чај",
+    "normalized": "шарпланински_чај",
+    "plant_ids": [
+      "sideritis_scardica"
+    ],
+    "countries": [
+      "MK"
     ],
     "language": "es",
     "ambiguity_level": "low"

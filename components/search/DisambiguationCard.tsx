@@ -110,16 +110,6 @@ type Props = {
   row: DisambiguationRow;
   index: number;
   showIndex?: boolean;
-  /** Canonical hub key for click tracking (space-normalized). */
-  hubKey?: string;
-  /** Canonical name hub slug for the primary CTA URL. */
-  nameSlug: string;
-  /** Current search query (for lightweight `floralexicon:click` analytics). */
-  searchQuery?: string;
-  /** `?country=` query value (uppercase ISO when set). */
-  searchCountryParam?: string;
-  /** Number of disambiguation rows (current result set size). */
-  resultCount: number;
   isWhyOpen: boolean;
   onWhyOpenChange: (open: boolean) => void;
 };
@@ -132,11 +122,6 @@ export function DisambiguationCard({
   row,
   index,
   showIndex,
-  hubKey: _hubKey = "",
-  nameSlug: _nameSlug,
-  searchQuery: _searchQuery = "",
-  searchCountryParam: _searchCountryParam,
-  resultCount: _resultCount,
   isWhyOpen,
   onWhyOpenChange,
 }: Props) {

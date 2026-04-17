@@ -1,0 +1,77 @@
+{
+  "plants": [
+    {
+      "scientific_name": "Matricaria chamomilla",
+      "family": "Asteraceae",
+      "country": "SI",
+      "common_names": ["Kamilica"],
+      "uses": ["digestive", "calming"],
+      "meta": { "source": "slovenia_traditional", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Urtica dioica",
+      "family": "Urticaceae",
+      "country": "SI",
+      "common_names": ["Kopriva"],
+      "uses": ["diuretic", "anti-inflammatory"],
+      "meta": { "source": "slovenia_traditional", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Thymus vulgaris",
+      "family": "Lamiaceae",
+      "country": "SI",
+      "common_names": ["Timijan"],
+      "uses": ["cough", "respiratory"],
+      "meta": { "source": "slovenia_traditional", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Salvia officinalis",
+      "family": "Lamiaceae",
+      "country": "SI",
+      "common_names": ["Žajbelj"],
+      "uses": ["digestive", "antiseptic"],
+      "meta": { "source": "slovenia_traditional", "confidence": "high" }
+    },
+  
+          {
+            "scientific_name": "Helleborus niger",
+            "family": "Ranunculaceae",
+            "country": "SI",
+            "common_names": ["Črni teloh"],
+            "uses": ["historical use", "toxic"],
+            "meta": { "source": "balkan_ethnobotany", "confidence": "low" }
+          },
+          {
+            "scientific_name": "Gentiana acaulis",
+            "family": "Gentianaceae",
+            "country": "SI",
+            "common_names": ["Encijan"],
+            "uses": ["digestive bitters", "appetite"],
+            "meta": { "source": "alpine_traditional_medicine", "confidence": "high" }
+          },
+          {
+            "scientific_name": "Satureja montana",
+            "family": "Lamiaceae",
+            "country": "SI",
+            "common_names": ["Šetraj"],
+            "uses": ["digestive", "antimicrobial"],
+            "meta": { "source": "mediterranean_balkan_medicine", "confidence": "high" }
+          },
+          {
+            "scientific_name": "Origanum majorana",
+            "family": "Lamiaceae",
+            "country": "SI",
+            "common_names": ["Majaron"],
+            "uses": ["digestive", "calming"],
+            "meta": { "source": "balkan_traditional_medicine", "confidence": "high" }
+          },
+          {
+            "scientific_name": "Primula elatior",
+            "family": "Primulaceae",
+            "country": "SI",
+            "common_names": ["Jeglič"],
+            "uses": ["respiratory", "cough"],
+            "meta": { "source": "alpine_ethnobotany", "confidence": "medium" }
+          }
+        ]
+      }

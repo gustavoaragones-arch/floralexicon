@@ -18,6 +18,8 @@ import {
 
 export type Ambiguity = "low" | "medium" | "high";
 
+export type AuthorityLevel = "dominant" | "strong" | "weak" | "ambiguous";
+
 /**
  * Synthetic entry when `names.json` references a `plant_id` missing from `plants.json`.
  * Use {@link isPlaceholderPlant} / `isPlaceholder` on matches instead of duck-typing.
@@ -60,6 +62,17 @@ export type PlantNameMatch = {
   regional_strength: number;
   /** Row dominance for this label: plantOccurrences / totalOccurrences. */
   name_dominance: number;
+  /** Composite authority tier from confidence signals (set after ranking). */
+  authority_level?: AuthorityLevel;
+  /** Exactly one ranked row (per plant dedupe: one plant) is the page primary. */
+  is_primary_authority?: boolean;
+  /**
+   * Gap between the primary plant’s max confidence and the best competing plant’s max (0 if none).
+   * Set after ranking when the page primary is chosen.
+   */
+  dominance_score?: number;
+  /** True when {@link dominance_score} is at least 0.15 (clear separation from the runner-up). */
+  is_strong_dominance?: boolean;
 };
 
 export type ResolvedPlantContext = {
@@ -74,6 +87,10 @@ export type ResolvedPlantContext = {
   global_agreement: number;
   regional_strength: number;
   name_dominance: number;
+  authority_level: AuthorityLevel;
+  is_primary_authority: boolean;
+  dominance_score: number;
+  is_strong_dominance: boolean;
 };
 
 export type ResolvePlantNameResult = {
@@ -112,12 +129,6 @@ function ambiguityLevelOrder(level: string): number {
   if (l === "medium") return 1;
   if (l === "high") return 2;
   return 3;
-}
-
-function countryMatches(entry: NameEntry, country?: string): boolean {
-  const want = country?.trim().toUpperCase();
-  if (!want) return false;
-  return nameEntryCountries(entry).includes(want);
 }
 
 function makePlaceholderPlant(pid: string): PlaceholderPlant {
@@ -195,11 +206,12 @@ function sortMatches(
     const cb = b.confidence;
     const ca = a.confidence;
     if (cb !== ca) return cb - ca;
-    if (b.regional_strength !== a.regional_strength) {
-      return b.regional_strength - a.regional_strength;
-    }
+    // Tie-break on name_dominance before regional_strength for stable canonical ordering.
     if (b.name_dominance !== a.name_dominance) {
       return b.name_dominance - a.name_dominance;
+    }
+    if (b.regional_strength !== a.regional_strength) {
+      return b.regional_strength - a.regional_strength;
     }
 
     const ambA = ambiguityLevelOrder(a.name_entry.ambiguity_level);
@@ -211,6 +223,74 @@ function sortMatches(
 
     return a.name_entry.name.localeCompare(b.name_entry.name);
   });
+}
+
+export function classifyAuthority(match: PlantNameMatch): {
+  authority_level: AuthorityLevel;
+} {
+  const { confidence, global_agreement, name_dominance } = match;
+  if (confidence >= 0.85 && global_agreement >= 0.7 && name_dominance >= 0.6) {
+    return { authority_level: "dominant" };
+  }
+  if (confidence >= 0.7 && name_dominance >= 0.5) {
+    return { authority_level: "strong" };
+  }
+  if (confidence >= 0.5) {
+    return { authority_level: "weak" };
+  }
+  return { authority_level: "ambiguous" };
+}
+
+function maxConfidenceByPlant(sorted: PlantNameMatch[]): Map<string, number> {
+  const maxByPlant = new Map<string, number>();
+  for (const m of sorted) {
+    const prev = maxByPlant.get(m.plant_id) ?? 0;
+    if (m.confidence > prev) maxByPlant.set(m.plant_id, m.confidence);
+  }
+  return maxByPlant;
+}
+
+/**
+ * Primary plant’s best confidence minus the strongest other plant’s best confidence
+ * (equivalent to `m.confidence - nextBest` when the list is one row per plant sorted by confidence).
+ */
+function dominanceVersusBestOther(
+  sorted: PlantNameMatch[],
+  primaryPlantId: string
+): { dominance_score: number; is_strong_dominance: boolean } {
+  const maxByPlant = maxConfidenceByPlant(sorted);
+  const primaryMax = maxByPlant.get(primaryPlantId) ?? 0;
+  let bestOther = 0;
+  for (const [pid, c] of maxByPlant) {
+    if (pid === primaryPlantId) continue;
+    if (c > bestOther) bestOther = c;
+  }
+  const dominance_score = primaryMax - bestOther;
+  return {
+    dominance_score,
+    is_strong_dominance: dominance_score >= 0.15,
+  };
+}
+
+/** After ranking: attach authority tiers and mark exactly one primary row (per ranked list). */
+function enrichMatchesWithAuthority(sorted: PlantNameMatch[]): PlantNameMatch[] {
+  const enriched = sorted.map((m) => {
+    const { authority_level } = classifyAuthority(m);
+    return { ...m, authority_level, is_primary_authority: false };
+  });
+  const primaryIdx = enriched.findIndex((m) => m.authority_level === "dominant");
+  const idx = primaryIdx >= 0 ? primaryIdx : 0;
+  const primaryPlantId = enriched[idx]!.plant_id;
+  const { dominance_score, is_strong_dominance } = dominanceVersusBestOther(
+    sorted,
+    primaryPlantId
+  );
+  return enriched.map((m, i) => ({
+    ...m,
+    dominance_score,
+    is_strong_dominance,
+    is_primary_authority: i === idx,
+  }));
 }
 
 function buildPlantContexts(
@@ -229,9 +309,16 @@ function buildPlantContexts(
   }
 
   return order.map((id) => {
-    const m = sorted.find((x) => x.plant_id === id)!;
+    const m =
+      sorted.find(
+        (x) => x.plant_id === id && x.is_primary_authority === true
+      ) ?? sorted.find((x) => x.plant_id === id)!;
     const countries = getPlantCountryCodesSorted(id, names, lang);
     const confidence = m.confidence;
+    const authority_level = m.authority_level ?? "ambiguous";
+    const is_primary_authority = m.is_primary_authority === true;
+    const dominance_score = m.dominance_score ?? 0;
+    const is_strong_dominance = m.is_strong_dominance ?? false;
     return {
       plant: m.plant,
       plant_id: id,
@@ -242,6 +329,10 @@ function buildPlantContexts(
       global_agreement: m.global_agreement,
       regional_strength: m.regional_strength,
       name_dominance: m.name_dominance,
+      authority_level,
+      is_primary_authority,
+      dominance_score,
+      is_strong_dominance,
     };
   });
 }
@@ -358,9 +449,9 @@ function resolvePlantNameCore(
     };
   });
   const sorted = sortMatches(withConfidence);
-  const ambiguity = resolveAmbiguity(sorted);
+  const matches = enrichMatchesWithAuthority(sorted);
+  const ambiguity = resolveAmbiguity(matches);
 
-  const matches: PlantNameMatch[] = sorted;
   const plantContexts = buildPlantContexts(matches, lang);
 
   return {
@@ -414,8 +505,8 @@ export function resolvePlantNameForCountryRoute(
   if (filtered.length === 0) return null;
 
   const sorted = sortMatches(filtered);
-  const ambiguity = resolveAmbiguity(sorted);
-  const matches: PlantNameMatch[] = sorted;
+  const matches = enrichMatchesWithAuthority(sorted);
+  const ambiguity = resolveAmbiguity(matches);
   const plantContexts = buildPlantContexts(matches, lang);
 
   return {

@@ -1,0 +1,123 @@
+{
+  "plants": [
+    {
+      "scientific_name": "Gentiana lutea",
+      "family": "Gentianaceae",
+      "country": "AT",
+      "common_names": ["Enzian"],
+      "uses": ["digestive bitters", "appetite"],
+      "meta": { "source": "austrian_phytotherapy", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Arnica montana",
+      "family": "Asteraceae",
+      "country": "AT",
+      "common_names": ["Arnika"],
+      "uses": ["bruises", "pain", "topical"],
+      "meta": { "source": "austrian_phytotherapy", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Achillea millefolium",
+      "family": "Asteraceae",
+      "country": "AT",
+      "common_names": ["Schafgarbe"],
+      "uses": ["digestive", "spasms"],
+      "meta": { "source": "austrian_phytotherapy", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Primula veris",
+      "family": "Primulaceae",
+      "country": "AT",
+      "common_names": ["Schlüsselblume"],
+      "uses": ["cough", "expectorant"],
+      "meta": { "source": "austrian_phytotherapy", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Pinus mugo",
+      "family": "Pinaceae",
+      "country": "AT",
+      "common_names": ["Latschenkiefer"],
+      "uses": ["respiratory", "topical"],
+      "meta": { "source": "austrian_phytotherapy", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Picea abies",
+      "family": "Pinaceae",
+      "country": "AT",
+      "common_names": ["Fichte"],
+      "uses": ["respiratory", "cough"],
+      "meta": { "source": "austrian_phytotherapy", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Juniperus communis",
+      "family": "Cupressaceae",
+      "country": "AT",
+      "common_names": ["Wacholder"],
+      "uses": ["digestive", "diuretic"],
+      "meta": { "source": "austrian_phytotherapy", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Alchemilla vulgaris",
+      "family": "Rosaceae",
+      "country": "AT",
+      "common_names": ["Frauenmantel"],
+      "uses": ["menstrual", "anti-inflammatory"],
+      "meta": { "source": "austrian_phytotherapy", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Equisetum arvense",
+      "family": "Equisetaceae",
+      "country": "AT",
+      "common_names": ["Schachtelhalm"],
+      "uses": ["diuretic", "bone support"],
+      "meta": { "source": "austrian_phytotherapy", "confidence": "high" }
+    },
+   
+        {
+          "scientific_name": "Gentiana punctata",
+          "family": "Gentianaceae",
+          "country": "AT",
+          "common_names": ["Gefleckter Enzian"],
+          "uses": ["digestive bitters", "appetite"],
+          "meta": { "source": "alpine_traditional_medicine", "confidence": "high" }
+        },
+        {
+          "scientific_name": "Leontopodium alpinum",
+          "family": "Asteraceae",
+          "country": "AT",
+          "common_names": ["Edelweiß"],
+          "uses": ["skin", "antioxidant"],
+          "meta": { "source": "modern_cosmeceutical_use", "confidence": "medium" }
+        },
+        {
+          "scientific_name": "Dryas octopetala",
+          "family": "Rosaceae",
+          "country": "AT",
+          "common_names": ["Silberwurz"],
+          "uses": ["digestive", "astringent"],
+          "meta": { "source": "alpine_ethnobotany", "confidence": "low" }
+        },
+        {
+          "scientific_name": "Rhododendron ferrugineum",
+          "family": "Ericaceae",
+          "country": "AT",
+          "common_names": ["Alpenrose"],
+          "uses": ["anti-inflammatory", "topical"],
+          "meta": { "source": "alpine_traditional_medicine", "confidence": "low" }
+        },
+        {
+          "scientific_name": "Veratrum album",
+          "family": "Melanthiaceae",
+          "country": "AT",
+          "common_names": ["Weißer Germer"],
+          "uses": ["historical use", "toxic"],
+          "meta": { "source": "historical_medicine", "confidence": "low" }
+        },
+        {
+          "scientific_name": "Matricaria chamomilla",
+          "country": "AT",
+          "common_names": ["Kamille"],
+          "uses": ["digestive", "calming", "anti-inflammatory"]
+        }
+      ]
+    }

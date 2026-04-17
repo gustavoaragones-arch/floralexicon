@@ -29,9 +29,7 @@ import {
   type SamePlantCluster,
 } from "@/components/SamePlantNamesSection";
 import { NameSeoContent } from "@/components/NameSeoContent";
-import { PlantComparisonSection } from "@/components/PlantComparisonSection";
 import { ConfidenceTooltipExplainer } from "@/components/ConfidenceTooltipExplainer";
-import { nameHubMatchWhyLine } from "@/lib/nameHubMatchWhyLine";
 import { localePath, ti, t, type Locale } from "@/lib/i18n";
 import Link from "next/link";
 
@@ -76,43 +74,26 @@ function aggregateUseKeys(contexts: ResolvedPlantContext[]): string[] {
   return Array.from(set).sort();
 }
 
-function AmbiguityBadge({ lang, level }: { lang: Locale; level: Ambiguity }) {
-  const base =
-    "inline-flex shrink-0 items-center rounded px-2.5 py-1 text-xs font-bold uppercase tracking-wide";
-
-  if (level === "low") {
-    return (
-      <span
-        className={`${base} border border-green-600/30 bg-green-100 text-green-900 dark:border-green-500/40 dark:bg-green-950 dark:text-green-200`}
-      >
-        {t(lang, "ambiguity_low")}
-      </span>
-    );
+function primaryAuthorityHeadline(
+  lang: Locale,
+  countryIso: string | null,
+  isStrongDominance: boolean
+): string {
+  if (isStrongDominance) {
+    if (countryIso) {
+      return ti(lang, "name_authority_common_in_country", {
+        country: getCountryDisplayName(countryIso, lang),
+      });
+    }
+    return t(lang, "name_authority_common_global");
   }
-  if (level === "medium") {
-    return (
-      <span
-        className={`${base} border border-amber-500/40 bg-amber-100 text-amber-950 dark:border-amber-500/35 dark:bg-amber-950/80 dark:text-amber-100`}
-      >
-        {t(lang, "ambiguity_medium")}
-      </span>
-    );
+  if (countryIso) {
+    return ti(lang, "name_authority_likely_in_country", {
+      country: getCountryDisplayName(countryIso, lang),
+    });
   }
-  return (
-    <span
-      className={`${base} border border-red-600/30 bg-red-100 text-red-950 dark:border-red-500/40 dark:bg-red-950 dark:text-red-100`}
-    >
-      {t(lang, "ambiguity_high")}
-    </span>
-  );
+  return t(lang, "name_authority_likely_match");
 }
-
-function ambiguityNote(lang: Locale, level: Ambiguity): string {
-  if (level === "high") return t(lang, "ambiguity_note_high");
-  if (level === "medium") return t(lang, "ambiguity_note_medium");
-  return t(lang, "ambiguity_note_low");
-}
-
 
 function NameGlobalNameNetworkSection({
   lang,
@@ -227,270 +208,6 @@ function NameGlobalNameNetworkSection({
   );
 }
 
-function SimplifiedMatchCard({
-  lang,
-  ctx,
-  pageNameSlug,
-  queryDisplay,
-  selectedCountryIso,
-}: {
-  lang: Locale;
-  ctx: ResolvedPlantContext;
-  pageNameSlug: string;
-  queryDisplay: string;
-  selectedCountryIso?: string | null;
-}) {
-  const {
-    plant,
-    plant_id: plantId,
-    confidence,
-    isPlaceholder,
-    global_agreement: globalAgreement,
-    regional_strength: regionalStrength,
-  } = ctx;
-  const names = loadNames();
-  const countriesForCard = getPlantCountryCodesSorted(plantId, names, lang);
-  const global = getPlantGlobalData(plantId, {
-    pageNameSlug,
-    queryDisplay,
-  });
-  const whyLine = nameHubMatchWhyLine(
-    lang,
-    regionalStrength,
-    globalAgreement,
-    selectedCountryIso
-  );
-  const useLabels = plant
-    ? Array.from(
-        new Set(plant.primary_uses.map((u) => formatHumanUseKey(lang, u)).filter(Boolean))
-      )
-    : [];
-
-  if (plant?.isGhost) {
-    const limitedBadge =
-      "inline-flex shrink-0 items-center rounded-md border border-violet-400/40 bg-violet-50 px-2.5 py-1 text-xs font-semibold uppercase tracking-wide text-violet-950 dark:border-violet-500/35 dark:bg-violet-950/40 dark:text-violet-100";
-    return (
-      <article className="rounded-2xl border border-stone-200 bg-white px-5 py-5 dark:border-stone-700 dark:bg-stone-900/40">
-        <div className="flex flex-wrap items-start gap-2">
-          <h3 className="min-w-0 flex-1 font-serif text-lg font-semibold italic tracking-tight text-stone-900 dark:text-stone-100">
-            <Link
-              href={localePath(
-                lang,
-                `/name/${plantNameHubSlug(plant.id, plant.scientific_name)}`
-              )}
-              className="text-flora-forest underline decoration-stone-300 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-300"
-            >
-              {plant.scientific_name}
-            </Link>
-          </h3>
-          <span className={limitedBadge}>{t(lang, "plant_limited_data_badge")}</span>
-        </div>
-        <p className="mt-3 text-xs leading-relaxed text-stone-500 dark:text-stone-400">
-          {t(lang, "plant_ghost_mapping_note")}
-        </p>
-        {countriesForCard.length > 0 ? (
-          <p className="mt-3 text-sm text-stone-700 dark:text-stone-300">
-            <strong>{t(lang, "plantcard_most_common_in")}</strong>{" "}
-            {joinCountryNames(countriesForCard, lang)}
-          </p>
-        ) : null}
-        {global.names.length > 0 ? (
-          <div className="mt-3 text-sm text-stone-700 dark:text-stone-300">
-            <p>
-              <strong>{t(lang, "common_names_label")}</strong>{" "}
-              <span className="inline-flex flex-wrap gap-x-2 gap-y-1">
-                {global.names.slice(0, MAX_VISIBLE_NAMES).map(({ slug, label }, i) => (
-                  <span key={slug}>
-                    {i > 0 ? <span className="text-stone-400"> · </span> : null}
-                    <Link
-                      href={localePath(lang, `/name/${slug}`)}
-                      className="font-medium text-flora-forest underline decoration-stone-300 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-400"
-                    >
-                      {label}
-                    </Link>
-                  </span>
-                ))}
-              </span>
-            </p>
-            {global.names.length > MAX_VISIBLE_NAMES ? (
-              <details className="mt-2">
-                <summary className="cursor-pointer text-sm font-medium text-flora-forest hover:underline dark:text-emerald-300">
-                  {ti(lang, "name_also_known_show_all", {
-                    n: String(global.names.length - MAX_VISIBLE_NAMES),
-                  })}
-                </summary>
-                <ul className="mt-2 list-disc space-y-1 pl-5">
-                  {global.names.slice(MAX_VISIBLE_NAMES).map(({ slug, label }) => (
-                    <li key={slug}>
-                      <Link
-                        href={localePath(lang, `/name/${slug}`)}
-                        className="font-medium text-flora-forest underline dark:text-emerald-300"
-                      >
-                        {label}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </details>
-            ) : null}
-          </div>
-        ) : null}
-      </article>
-    );
-  }
-
-  if (isPlaceholder || !plant) {
-    return (
-      <article className="rounded-2xl border border-stone-200 bg-white px-5 py-5 dark:border-stone-700 dark:bg-stone-900/40">
-        <h3 className="font-serif text-lg font-semibold tracking-tight text-stone-900 dark:text-stone-100">
-          {t(lang, "plant_placeholder_title")}
-        </h3>
-        <p className="mt-2 text-sm text-stone-600 dark:text-stone-400">
-          {t(lang, "plant_placeholder_subtitle")}
-        </p>
-        {countriesForCard.length > 0 ? (
-          <p className="mt-3 text-sm text-stone-700 dark:text-stone-300">
-            <strong>{t(lang, "plantcard_most_common_in")}</strong>{" "}
-            {joinCountryNames(countriesForCard, lang)}
-          </p>
-        ) : null}
-        {global.names.length > 0 ? (
-          <div className="mt-3 text-sm text-stone-700 dark:text-stone-300">
-            <p>
-              <strong>{t(lang, "common_names_label")}</strong>{" "}
-              <span className="inline-flex flex-wrap gap-x-2 gap-y-1">
-                {global.names.slice(0, MAX_VISIBLE_NAMES).map(({ slug, label }, i) => (
-                  <span key={slug}>
-                    {i > 0 ? <span className="text-stone-400"> · </span> : null}
-                    <Link
-                      href={localePath(lang, `/name/${slug}`)}
-                      className="font-medium text-flora-forest underline decoration-stone-300 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-400"
-                    >
-                      {label}
-                    </Link>
-                  </span>
-                ))}
-              </span>
-            </p>
-            {global.names.length > MAX_VISIBLE_NAMES ? (
-              <details className="mt-2">
-                <summary className="cursor-pointer text-sm font-medium text-flora-forest hover:underline dark:text-emerald-300">
-                  {ti(lang, "name_also_known_show_all", {
-                    n: String(global.names.length - MAX_VISIBLE_NAMES),
-                  })}
-                </summary>
-                <ul className="mt-2 list-disc space-y-1 pl-5">
-                  {global.names.slice(MAX_VISIBLE_NAMES).map(({ slug, label }) => (
-                    <li key={slug}>
-                      <Link
-                        href={localePath(lang, `/name/${slug}`)}
-                        className="font-medium text-flora-forest underline dark:text-emerald-300"
-                      >
-                        {label}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </details>
-            ) : null}
-          </div>
-        ) : null}
-        <div className="mt-4 flex flex-wrap items-center gap-2 text-xs font-medium text-stone-500 dark:text-stone-400">
-          <span>
-            {ti(lang, "name_confidence_percent", {
-              percent: String(Math.round(confidence * 100)),
-            })}{" "}
-            {t(lang, "name_hub_score_suffix")}
-          </span>
-          <ConfidenceTooltipExplainer lang={lang} />
-        </div>
-        <p className="mt-2 text-sm text-stone-600 dark:text-stone-400">{whyLine}</p>
-      </article>
-    );
-  }
-
-  return (
-    <article className="rounded-2xl border border-stone-200 bg-white px-5 py-5 dark:border-stone-700 dark:bg-stone-900/40">
-      <h3 className="font-serif text-lg font-semibold tracking-tight text-stone-900 dark:text-stone-100">
-        <Link
-          href={localePath(lang, `/name/${plantNameHubSlug(plant.id, plant.scientific_name)}`)}
-          className="text-flora-forest underline decoration-stone-300 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-300"
-        >
-          {plant.scientific_name}
-        </Link>
-      </h3>
-      {countriesForCard.length > 0 ? (
-        <p className="mt-3 text-sm text-stone-700 dark:text-stone-300">
-          <strong>{t(lang, "plantcard_most_common_in")}</strong>{" "}
-          {joinCountryNames(countriesForCard, lang)}
-        </p>
-      ) : null}
-      {global.names.length > 0 ? (
-        <div className="mt-3 text-sm text-stone-700 dark:text-stone-300">
-          <p>
-            <strong>{t(lang, "common_names_label")}</strong>{" "}
-            <span className="inline-flex flex-wrap gap-x-2 gap-y-1">
-              {global.names.slice(0, MAX_VISIBLE_NAMES).map(({ slug, label }, i) => (
-                <span key={slug}>
-                  {i > 0 ? <span className="text-stone-400"> · </span> : null}
-                  <Link
-                    href={localePath(lang, `/name/${slug}`)}
-                    className="font-medium text-flora-forest underline decoration-stone-300 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-400"
-                  >
-                    {label}
-                  </Link>
-                </span>
-              ))}
-            </span>
-          </p>
-          {global.names.length > MAX_VISIBLE_NAMES ? (
-            <details className="mt-2">
-              <summary className="cursor-pointer text-sm font-medium text-flora-forest hover:underline dark:text-emerald-300">
-                {ti(lang, "name_also_known_show_all", {
-                  n: String(global.names.length - MAX_VISIBLE_NAMES),
-                })}
-              </summary>
-              <ul className="mt-2 list-disc space-y-1 pl-5">
-                {global.names.slice(MAX_VISIBLE_NAMES).map(({ slug, label }) => (
-                  <li key={slug}>
-                    <Link
-                      href={localePath(lang, `/name/${slug}`)}
-                      className="font-medium text-flora-forest underline dark:text-emerald-300"
-                    >
-                      {label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </details>
-          ) : null}
-        </div>
-      ) : null}
-      {useLabels.length > 0 ? (
-        <div className="mt-3 text-sm text-stone-700 dark:text-stone-300">
-          <p>
-            <strong>{lang === "es" ? "Usos habituales:" : "Used for:"}</strong>
-          </p>
-          <ul className="mt-1 list-disc pl-5">
-            {useLabels.map((label) => (
-              <li key={label}>{label}</li>
-            ))}
-          </ul>
-        </div>
-      ) : null}
-      <div className="mt-4 flex flex-wrap items-center gap-2 text-xs font-medium text-stone-500 dark:text-stone-400">
-        <span>
-          {ti(lang, "name_confidence_percent", {
-            percent: String(Math.round(confidence * 100)),
-          })}{" "}
-          {t(lang, "name_hub_score_suffix")}
-        </span>
-        <ConfidenceTooltipExplainer lang={lang} />
-      </div>
-      <p className="mt-2 text-sm text-stone-600 dark:text-stone-400">{whyLine}</p>
-    </article>
-  );
-}
 
 export function NameResult({
   lang,
@@ -532,15 +249,20 @@ export function NameResult({
       ? getNameHubCountryCodesSorted(normalized, names, lang)
       : [];
   const useKeys = hasMatches ? aggregateUseKeys(plantContexts) : [];
+
+  const primaryContext =
+    plantContexts.find((p) => p.is_primary_authority) ?? plantContexts[0];
+  const secondaryContexts = plantContexts.filter((p) => !p.is_primary_authority);
+
   const comparePairPath =
     hasMatches &&
-    plantContexts.length === 2 &&
-    plantContexts[0]?.plant &&
-    plantContexts[1]?.plant
+    primaryContext?.plant &&
+    secondaryContexts[0]?.plant &&
+    secondaryContexts.length === 1
       ? (() => {
           const ids = [
-            plantContexts[0].plant!.id,
-            plantContexts[1].plant!.id,
+            primaryContext.plant!.id,
+            secondaryContexts[0]!.plant!.id,
           ].sort();
           return `/compare/${ids[0]}-vs-${ids[1]}`;
         })()
@@ -551,23 +273,30 @@ export function NameResult({
       ? { pageNameSlug: nameSlug.trim(), queryDisplay: inputName }
       : undefined;
 
-  const countryMatch =
-    normalizedCountry && hasMatches
-      ? matches.find(
-          (m) => m.country.trim().toUpperCase() === normalizedCountry
-        )
-      : null;
   const primaryMatch =
-    hasMatches && matches.length > 0 ? countryMatch ?? matches[0] : null;
+    hasMatches && primaryContext
+      ? (normalizedCountry
+          ? matches.find(
+              (m) =>
+                m.plant_id === primaryContext.plant_id &&
+                m.country.trim().toUpperCase() === normalizedCountry
+            )
+          : undefined) ??
+        matches.find(
+          (m) =>
+            m.plant_id === primaryContext.plant_id &&
+            m.is_primary_authority === true
+        ) ??
+        matches.find((m) => m.plant_id === primaryContext.plant_id) ??
+        matches[0] ??
+        null
+      : null;
 
   const plantData = primaryMatch
     ? getPlantGlobalData(primaryMatch.plant_id, plantGlobalOpts)
     : { countries: [] as string[], names: [] };
   const plantCountries = plantData.countries;
   const quickCountryRows = plantCountries.slice(0, 5);
-
-  const comparisonContexts =
-    plantContexts.length > 1 ? plantContexts.slice(1) : [];
 
   const humanUseLabels = Array.from(
     new Set(useKeys.map((k) => formatHumanUseKey(lang, k)).filter(Boolean))
@@ -590,26 +319,18 @@ export function NameResult({
           </h1>
 
           {(() => {
-            const {
-              plant,
-              confidence,
-              plant_id: primaryPid,
-              isPlaceholder,
-              global_agreement: primaryGlobalAgreement,
-              regional_strength: primaryRegionalStrength,
-            } = primaryMatch;
+            const { plant, plant_id: primaryPid, isPlaceholder } = primaryMatch;
             const isGhost = Boolean(plant?.isGhost);
             const countriesOrdered = getPlantCountryCodesSorted(primaryPid, names, lang);
             const globalNames = plantData.names;
             const visibleNames = globalNames.slice(0, MAX_VISIBLE_NAMES);
             const hiddenNames = globalNames.slice(MAX_VISIBLE_NAMES);
-            const whyLine = nameHubMatchWhyLine(
-              lang,
-              primaryRegionalStrength,
-              primaryGlobalAgreement,
-              normalizedCountry
-            );
             const remainingCount = hiddenNames.length;
+            const authorityHeadline = primaryAuthorityHeadline(
+              lang,
+              normalizedCountry,
+              primaryContext.is_strong_dominance
+            );
 
             return (
               <div className="primary-card mt-6 rounded-2xl border-2 border-stone-200 bg-white px-5 py-6 shadow-sm dark:border-stone-600 dark:bg-stone-900/50">
@@ -627,7 +348,13 @@ export function NameResult({
                   </p>
                 ) : null}
 
-                {isGhost ? (
+                {!isPlaceholder && plant && primaryContext.authority_level === "dominant" ? (
+                  <span className="badge badge--green mt-2 inline-block rounded-md border border-emerald-200/70 bg-emerald-50 px-2 py-0.5 text-xs font-medium text-emerald-900 dark:border-emerald-800/60 dark:bg-emerald-950/50 dark:text-emerald-100">
+                    {t(lang, "name_authority_most_common_badge")}
+                  </span>
+                ) : null}
+
+                {isGhost && !plant?.is_enriched ? (
                   <div className="mt-3 space-y-2">
                     <span className="inline-flex shrink-0 items-center rounded-md border border-violet-400/40 bg-violet-50 px-2.5 py-1 text-xs font-semibold uppercase tracking-wide text-violet-950 dark:border-violet-500/35 dark:bg-violet-950/40 dark:text-violet-100">
                       {t(lang, "plant_limited_data_badge")}
@@ -635,22 +362,17 @@ export function NameResult({
                     <p className="text-xs leading-relaxed text-stone-500 dark:text-stone-400">
                       {t(lang, "plant_ghost_mapping_note")}
                     </p>
+                    <div className="flex flex-wrap items-center gap-2 text-xs font-medium text-stone-500 dark:text-stone-400">
+                      <span>{authorityHeadline}</span>
+                      <ConfidenceTooltipExplainer lang={lang} />
+                    </div>
                   </div>
                 ) : (
                   <div className="confidence-row mt-3 flex flex-wrap items-center gap-2 text-xs font-medium text-stone-500 dark:text-stone-400">
-                    <span>
-                      {ti(lang, "name_confidence_percent", {
-                        percent: String(Math.round(confidence * 100)),
-                      })}{" "}
-                      {t(lang, "name_hub_score_suffix")}
-                    </span>
+                    <span>{authorityHeadline}</span>
                     <ConfidenceTooltipExplainer lang={lang} />
                   </div>
                 )}
-
-                <p className="why-line mt-3 text-sm text-stone-600 dark:text-stone-400">
-                  {whyLine}
-                </p>
 
                 {countriesOrdered.length > 0 ? (
                   <p className="mt-4 text-sm text-stone-700 dark:text-stone-300">
@@ -706,19 +428,21 @@ export function NameResult({
         </>
       ) : null}
 
-      {hasMatches && plantContexts.length > 1 ? (
+      {hasMatches &&
+      secondaryContexts.length > 0 &&
+      !primaryContext.is_strong_dominance ? (
         <section
-          className="name-alternatives mt-8 border-t border-stone-200 pt-8 dark:border-stone-800"
-          aria-labelledby="name-alternatives-heading"
+          className="name-secondary-plants mt-8 border-t border-stone-200 pt-6 dark:border-stone-800"
+          aria-labelledby="name-secondary-plants-heading"
         >
           <h2
-            id="name-alternatives-heading"
-            className="font-serif text-lg font-semibold tracking-tight text-stone-900 dark:text-stone-100"
+            id="name-secondary-plants-heading"
+            className="text-xs font-medium uppercase tracking-wide text-stone-500 dark:text-stone-400"
           >
-            {t(lang, "name_alternatives_h2")}
+            {t(lang, "name_secondary_plants_h2")}
           </h2>
-          <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-stone-700 dark:text-stone-300">
-            {plantContexts.slice(1).map((ctx) => {
+          <ul className="mt-2 list-disc space-y-1 pl-4 text-sm text-stone-500 dark:text-stone-400">
+            {secondaryContexts.slice(0, 3).map((ctx) => {
               const sci =
                 ctx.plant?.scientific_name ??
                 ctx.scientific_name ??
@@ -734,9 +458,9 @@ export function NameResult({
                 <li key={ctx.plant_id}>
                   <Link
                     href={href}
-                    className="text-flora-forest underline decoration-stone-300 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-400"
+                    className="text-flora-forest/80 underline decoration-stone-300/80 underline-offset-2 hover:text-flora-forest dark:text-emerald-400/90"
                   >
-                    <span className="italic">{sci}</span>
+                    <em>{sci}</em>
                   </Link>
                 </li>
               );
@@ -771,12 +495,6 @@ export function NameResult({
                   })}
                 </p>
               ) : null}
-            </div>
-            <div className="flex flex-col items-start gap-1 sm:items-end">
-              <span className="text-xs font-medium uppercase tracking-wider text-stone-500 dark:text-stone-500">
-                {t(lang, "name_ambiguity_label")}
-              </span>
-              <AmbiguityBadge lang={lang} level={ambiguity} />
             </div>
           </div>
         </header>
@@ -845,27 +563,6 @@ export function NameResult({
         </div>
       ) : null}
 
-      {hasMatches && comparisonContexts.length > 0 ? (
-        <section className="mt-10" aria-labelledby="hub-species-heading">
-          <h2 id="hub-species-heading" className="sr-only">
-            {ti(lang, "name_hub_matches_h2", { name: titleName })}
-          </h2>
-          <ul className="flex flex-col gap-6">
-            {comparisonContexts.map((ctx) => (
-              <li key={ctx.plant_id} className="list-none">
-                <SimplifiedMatchCard
-                  lang={lang}
-                  ctx={ctx}
-                  pageNameSlug={nameSlug}
-                  queryDisplay={inputName}
-                  selectedCountryIso={normalizedCountry}
-                />
-              </li>
-            ))}
-          </ul>
-        </section>
-      ) : null}
-
       {!hasMatches ? (
         <div
           className="mt-10 rounded-2xl border border-stone-300 bg-flora-sage/50 px-4 py-6 text-center dark:border-stone-600 dark:bg-stone-900/50"
@@ -910,9 +607,6 @@ export function NameResult({
             {lang === "es" ? "Información de seguridad" : "Safety information"}
           </summary>
           <div className="mt-4 space-y-3 text-sm leading-relaxed text-stone-600 dark:text-stone-400">
-            {(ambiguity === "medium" || ambiguity === "high") && (
-              <p>{ambiguityNote(lang, ambiguity)}</p>
-            )}
             <p>{t(lang, "faq_a_safe")}</p>
           </div>
         </details>
@@ -960,7 +654,6 @@ export function NameResult({
               displayName={titleName}
               hasMatches
               plantContexts={plantContexts}
-              ambiguity={ambiguity}
             />
           </div>
         </details>
@@ -991,14 +684,6 @@ export function NameResult({
               plants={siblingPlants}
               samePlantClusters={samePlantClusters}
             />
-            {ambiguity === "high" && plantContexts.length >= 2 ? (
-              <PlantComparisonSection
-                lang={lang}
-                plants={plantContexts
-                  .map((ctx) => ctx.plant)
-                  .filter((p): p is NonNullable<typeof p> => p != null)}
-              />
-            ) : null}
             {comparePairPath ? (
               <p className="text-sm">
                 <Link

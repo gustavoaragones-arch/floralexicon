@@ -1,0 +1,77 @@
+{
+  "plants": [
+    {
+      "scientific_name": "Matricaria chamomilla",
+      "family": "Asteraceae",
+      "country": "AL",
+      "common_names": ["Kamomil"],
+      "uses": ["digestive", "calming"],
+      "meta": { "source": "albania_traditional", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Origanum vulgare",
+      "family": "Lamiaceae",
+      "country": "AL",
+      "common_names": ["Rigoni"],
+      "uses": ["digestive", "antimicrobial"],
+      "meta": { "source": "albania_traditional", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Salvia officinalis",
+      "family": "Lamiaceae",
+      "country": "AL",
+      "common_names": ["Sherbelë"],
+      "uses": ["digestive", "antiseptic"],
+      "meta": { "source": "albania_traditional", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Thymus vulgaris",
+      "family": "Lamiaceae",
+      "country": "AL",
+      "common_names": ["Trumzë"],
+      "uses": ["respiratory", "cough"],
+      "meta": { "source": "albania_traditional", "confidence": "high" }
+    },
+
+          {
+            "scientific_name": "Origanum vulgare subsp. hirtum",
+            "family": "Lamiaceae",
+            "country": "AL",
+            "common_names": ["Rigoni"],
+            "uses": ["digestive", "antimicrobial"],
+            "meta": { "source": "mediterranean_phytotherapy", "confidence": "high" }
+          },
+          {
+            "scientific_name": "Sideritis raeseri",
+            "family": "Lamiaceae",
+            "country": "AL",
+            "common_names": ["Çaj mali"],
+            "uses": ["respiratory", "anti-inflammatory"],
+            "meta": { "source": "balkan_traditional_medicine", "confidence": "high" }
+          },
+          {
+            "scientific_name": "Teucrium polium",
+            "family": "Lamiaceae",
+            "country": "AL",
+            "common_names": ["Bar i egër"],
+            "uses": ["digestive", "antispasmodic"],
+            "meta": { "source": "balkan_medicine", "confidence": "high" }
+          },
+          {
+            "scientific_name": "Pistacia lentiscus",
+            "family": "Anacardiaceae",
+            "country": "AL",
+            "common_names": ["Mastikë"],
+            "uses": ["digestive", "antimicrobial"],
+            "meta": { "source": "mediterranean_medicine", "confidence": "high" }
+          },
+          {
+            "scientific_name": "Laurus nobilis",
+            "family": "Lauraceae",
+            "country": "AL",
+            "common_names": ["Dafinë"],
+            "uses": ["digestive", "respiratory"],
+            "meta": { "source": "mediterranean_traditional_medicine", "confidence": "high" }
+          }
+        ]
+      }

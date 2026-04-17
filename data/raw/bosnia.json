@@ -1,0 +1,77 @@
+{
+  "plants": [
+    {
+      "scientific_name": "Matricaria chamomilla",
+      "family": "Asteraceae",
+      "country": "BA",
+      "common_names": ["Kamilica"],
+      "uses": ["digestive", "calming"],
+      "meta": { "source": "bosnia_traditional", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Hypericum perforatum",
+      "family": "Hypericaceae",
+      "country": "BA",
+      "common_names": ["Gospina trava"],
+      "uses": ["mood", "wounds"],
+      "meta": { "source": "bosnia_traditional", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Urtica dioica",
+      "family": "Urticaceae",
+      "country": "BA",
+      "common_names": ["Kopriva"],
+      "uses": ["diuretic", "anti-inflammatory"],
+      "meta": { "source": "bosnia_traditional", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Sambucus nigra",
+      "family": "Adoxaceae",
+      "country": "BA",
+      "common_names": ["Zova"],
+      "uses": ["colds", "immune"],
+      "meta": { "source": "bosnia_traditional", "confidence": "high" }
+    },
+   
+          {
+            "scientific_name": "Arctium lappa",
+            "family": "Asteraceae",
+            "country": "BA",
+            "common_names": ["Čičak"],
+            "uses": ["detox", "skin"],
+            "meta": { "source": "balkan_traditional_medicine", "confidence": "high" }
+          },
+          {
+            "scientific_name": "Euphrasia officinalis",
+            "family": "Orobanchaceae",
+            "country": "BA",
+            "common_names": ["Vidac"],
+            "uses": ["eye health", "inflammation"],
+            "meta": { "source": "balkan_ethnobotany", "confidence": "medium" }
+          },
+          {
+            "scientific_name": "Potentilla erecta",
+            "family": "Rosaceae",
+            "country": "BA",
+            "common_names": ["Petoprsta"],
+            "uses": ["diarrhea", "astringent"],
+            "meta": { "source": "europe_traditional_medicine", "confidence": "high" }
+          },
+          {
+            "scientific_name": "Hypericum maculatum",
+            "family": "Hypericaceae",
+            "country": "BA",
+            "common_names": ["Gospina trava (planinska)"],
+            "uses": ["wounds", "anti-inflammatory"],
+            "meta": { "source": "balkan_ethnobotany", "confidence": "medium" }
+          },
+          {
+            "scientific_name": "Teucrium chamaedrys",
+            "family": "Lamiaceae",
+            "country": "BA",
+            "common_names": ["Dubčac"],
+            "uses": ["digestive", "liver"],
+            "meta": { "source": "balkan_traditional_medicine", "confidence": "medium" }
+          }
+        ]
+      }

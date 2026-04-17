@@ -1,0 +1,125 @@
+{
+  "plants": [
+    {
+      "scientific_name": "Matricaria chamomilla",
+      "family": "Asteraceae",
+      "country": "BE",
+      "common_names": ["Camomille", "Kamille"],
+      "uses": ["digestive", "calming", "anti-inflammatory"],
+      "meta": { "source": "europe_phytotherapy", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Valeriana officinalis",
+      "family": "Caprifoliaceae",
+      "country": "BE",
+      "common_names": ["Valériane", "Valeriaan"],
+      "uses": ["sleep", "anxiety"],
+      "meta": { "source": "europe_phytotherapy", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Melissa officinalis",
+      "family": "Lamiaceae",
+      "country": "BE",
+      "common_names": ["Mélisse", "Citroenmelisse"],
+      "uses": ["stress", "digestive"],
+      "meta": { "source": "europe_phytotherapy", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Mentha piperita",
+      "family": "Lamiaceae",
+      "country": "BE",
+      "common_names": ["Menthe poivrée", "Pepermunt"],
+      "uses": ["digestive", "bloating"],
+      "meta": { "source": "europe_phytotherapy", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Thymus vulgaris",
+      "family": "Lamiaceae",
+      "country": "BE",
+      "common_names": ["Thym", "Tijm"],
+      "uses": ["cough", "respiratory"],
+      "meta": { "source": "europe_phytotherapy", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Tilia cordata",
+      "family": "Malvaceae",
+      "country": "BE",
+      "common_names": ["Tilleul", "Linde"],
+      "uses": ["sleep", "fever"],
+      "meta": { "source": "europe_phytotherapy", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Urtica dioica",
+      "family": "Urticaceae",
+      "country": "BE",
+      "common_names": ["Ortie", "Brandnetel"],
+      "uses": ["diuretic", "anti-inflammatory"],
+      "meta": { "source": "europe_phytotherapy", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Sambucus nigra",
+      "family": "Adoxaceae",
+      "country": "BE",
+      "common_names": ["Sureau", "Vlier"],
+      "uses": ["colds", "immune"],
+      "meta": { "source": "europe_phytotherapy", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Plantago lanceolata",
+      "family": "Plantaginaceae",
+      "country": "BE",
+      "common_names": ["Plantain", "Smalle weegbree"],
+      "uses": ["cough", "respiratory"],
+      "meta": { "source": "europe_phytotherapy", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Echinacea purpurea",
+      "family": "Asteraceae",
+      "country": "BE",
+      "common_names": ["Échinacée", "Zonnehoed"],
+      "uses": ["immune", "colds"],
+      "meta": { "source": "europe_phytotherapy", "confidence": "high" }
+    },
+        {
+          "scientific_name": "Agrimonia eupatoria",
+          "family": "Rosaceae",
+          "country": "BE",
+          "common_names": ["Aigremoine", "Agrimonie"],
+          "uses": ["digestive", "astringent", "liver"],
+          "meta": { "source": "europe_ethnobotany", "confidence": "medium" }
+        },
+        {
+          "scientific_name": "Pulmonaria officinalis",
+          "family": "Boraginaceae",
+          "country": "BE",
+          "common_names": ["Pulmonaire"],
+          "uses": ["respiratory", "cough"],
+          "meta": { "source": "europe_traditional_medicine", "confidence": "medium" }
+        },
+        {
+          "scientific_name": "Veronica officinalis",
+          "family": "Plantaginaceae",
+          "country": "BE",
+          "common_names": ["Véronique"],
+          "uses": ["respiratory", "digestive"],
+          "meta": { "source": "europe_ethnobotany", "confidence": "medium" }
+        },
+        {
+          "scientific_name": "Galium aparine",
+          "family": "Rubiaceae",
+          "country": "BE",
+          "common_names": ["Gaillet gratteron"],
+          "uses": ["lymphatic", "detox"],
+          "meta": { "source": "europe_traditional_medicine", "confidence": "medium" }
+        },
+        {
+          "scientific_name": "Ajuga reptans",
+          "family": "Lamiaceae",
+          "country": "BE",
+          "common_names": ["Bugle rampant"],
+          "uses": ["wounds", "anti-inflammatory"],
+          "meta": { "source": "folk_medicine", "confidence": "low" }
+        }
+    ]
+  }
+ 

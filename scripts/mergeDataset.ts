@@ -34,6 +34,7 @@ function parseRawJson(content: string, filename: string): ParseRawResult {
   }
 }
 const RAW_DIR = path.join(ROOT, "data", "raw");
+const DATA_NAMES_SNAPSHOT = path.join(ROOT, "data", "names.json");
 
 /** Consumed only by `layeredMergePhase5.ts`, not the regional canonical merge. */
 const PHASE5_ENRICHMENT_ONLY = new Set([
@@ -775,6 +776,37 @@ function stableNameDisplay(agg: NameAgg): string {
   )[0] ?? "";
 }
 
+/**
+ * True when a later raw file (e.g. `*_resolved.json` with `ingestPlantRecord`) already
+ * linked this label to a plant for at least one of the same countries.
+ */
+function nameEventCoveredByNamesMap(ev: MissingNoPlantIdEvent): boolean {
+  const evMapKey = normalizeNameKeyForMap(ev.name);
+  for (const agg of namesMap.values()) {
+    if (agg.mapKey !== evMapKey) continue;
+    if (ev.countries.length === 0) {
+      if (agg.countries.size > 0) return true;
+      continue;
+    }
+    for (const c of ev.countries) {
+      const u = c.trim().toUpperCase();
+      if (u && agg.countries.has(u)) return true;
+    }
+  }
+  return false;
+}
+
+/** Drop stale `no plant_ids` backlog rows superseded by resolved plant rows. */
+function pruneMissingNoPlantIdEventsResolvedByNamesMap(): number {
+  const before = missingNoPlantIdEvents.length;
+  const kept = missingNoPlantIdEvents.filter(
+    (ev) => !nameEventCoveredByNamesMap(ev)
+  );
+  missingNoPlantIdEvents.length = 0;
+  missingNoPlantIdEvents.push(...kept);
+  return before - kept.length;
+}
+
 /** Written to `data/audit/missing-plants.json`; sorted by frequency then country spread. */
 type MissingPlantAuditRow = {
   reason: "orphan_plant_id" | "no_plant_ids_in_row";
@@ -889,7 +921,121 @@ function buildMissingPlantsAudit(
   return rows;
 }
 
-function writeOutputs() {
+type PreMergeSnapshot = {
+  plantCount: number;
+  nameCount: number;
+  countries: Set<string>;
+  normalizedHubs: Set<string>;
+};
+
+function loadPreMergeSnapshot(): PreMergeSnapshot {
+  const countries = new Set<string>();
+  const normalizedHubs = new Set<string>();
+  let plantCount = 0;
+  let nameCount = 0;
+
+  const plantsPath = path.join(CANONICAL_DIR, "plants.json");
+  if (fs.existsSync(plantsPath)) {
+    try {
+      const data: unknown = JSON.parse(fs.readFileSync(plantsPath, "utf8"));
+      if (Array.isArray(data)) {
+        plantCount = data.length;
+        for (const p of data) {
+          if (!p || typeof p !== "object" || Array.isArray(p)) continue;
+          const row = p as { countries?: unknown };
+          if (!Array.isArray(row.countries)) continue;
+          for (const c of row.countries) {
+            if (typeof c === "string" && c.trim()) {
+              countries.add(c.trim().toUpperCase());
+            }
+          }
+        }
+      }
+    } catch {
+      /* first run or corrupt file */
+    }
+  }
+
+  if (fs.existsSync(DATA_NAMES_SNAPSHOT)) {
+    try {
+      const data: unknown = JSON.parse(
+        fs.readFileSync(DATA_NAMES_SNAPSHOT, "utf8")
+      );
+      if (Array.isArray(data)) {
+        nameCount = data.length;
+        for (const row of data) {
+          if (!row || typeof row !== "object" || Array.isArray(row)) continue;
+          const n = (row as { normalized?: unknown }).normalized;
+          if (typeof n === "string" && n.trim()) {
+            normalizedHubs.add(n.trim());
+          }
+        }
+      }
+    } catch {
+      /* ignore */
+    }
+  }
+
+  return { plantCount, nameCount, countries, normalizedHubs };
+}
+
+function logPostMergeSummary(
+  pre: PreMergeSnapshot,
+  plantsCanonical: { countries: string[] }[],
+  namesOut: { normalized: string }[]
+): void {
+  const newCountryCodes = new Set<string>();
+  for (const p of plantsCanonical) {
+    for (const c of p.countries) {
+      const u = c.trim().toUpperCase();
+      if (u && !pre.countries.has(u)) newCountryCodes.add(u);
+    }
+  }
+  const addedCountries = [...newCountryCodes].sort();
+
+  const plantAfter = plantsCanonical.length;
+  const nameAfter = namesOut.length;
+  const dPlants = plantAfter - pre.plantCount;
+  const dNames = nameAfter - pre.nameCount;
+
+  console.log("");
+  console.log("--- Merge summary (vs disk before this run) ---");
+  console.log(
+    `Countries added: ${addedCountries.length}${
+      addedCountries.length ? ` — ${addedCountries.join(", ")}` : ""
+    }`
+  );
+  console.log(
+    `Total plants (canonical): ${pre.plantCount} → ${plantAfter} (${dPlants >= 0 ? "+" : ""}${dPlants})`
+  );
+  console.log(
+    `Total names (rows): ${pre.nameCount} → ${nameAfter} (${dNames >= 0 ? "+" : ""}${dNames})`
+  );
+
+  const newHubRowCounts = new Map<string, number>();
+  for (const row of namesOut) {
+    if (pre.normalizedHubs.has(row.normalized)) continue;
+    newHubRowCounts.set(
+      row.normalized,
+      (newHubRowCounts.get(row.normalized) ?? 0) + 1
+    );
+  }
+  const topHubs = [...newHubRowCounts.entries()].sort((a, b) => {
+    if (b[1] !== a[1]) return b[1] - a[1];
+    return a[0].localeCompare(b[0], "en", { sensitivity: "base" });
+  });
+
+  if (topHubs.length > 0) {
+    console.log("Top 10 new name hubs (by new name rows):");
+    for (const [hub, cnt] of topHubs.slice(0, 10)) {
+      console.log(`  ${hub} — ${cnt} row(s)`);
+    }
+  } else if (pre.normalizedHubs.size > 0) {
+    console.log("Top 10 new name hubs: (none — no new normalized hubs)");
+  }
+}
+
+function writeOutputs(preMerge: PreMergeSnapshot) {
   const validPlantIds = new Set(
     Array.from(plantsMap.values()).map((p) => p.id)
   );
@@ -968,6 +1114,13 @@ function writeOutputs() {
     "utf8"
   );
 
+  const prunedMissing = pruneMissingNoPlantIdEventsResolvedByNamesMap();
+  if (prunedMissing > 0) {
+    console.log(
+      `[merge] Pruned ${prunedMissing} no-plant-id audit row(s) now satisfied by merged names (e.g. *_resolved.json)`
+    );
+  }
+
   const missingPlantsAudit = buildMissingPlantsAudit(validPlantIds);
   const AUDIT_DIR = path.join(ROOT, "data", "audit");
   const MISSING_PLANTS_JSON = path.join(AUDIT_DIR, "missing-plants.json");
@@ -1032,11 +1185,15 @@ function writeOutputs() {
   console.log(`Wrote: data/processed/plants.json`);
   console.log(`Wrote: data/processed/names.json`);
   console.log(`Wrote: data/names.json (${namesOut.length} rows, full merge)`);
+
+  logPostMergeSummary(preMerge, plantsCanonical, namesOut);
 }
 
 // --- main -------------------------------------------------------------------
 
 function main() {
+  const preMerge = loadPreMergeSnapshot();
+
   if (!fs.existsSync(RAW_DIR)) {
     console.error(`Missing directory: ${RAW_DIR}`);
     process.exit(1);
@@ -1045,7 +1202,14 @@ function main() {
     .readdirSync(RAW_DIR)
     .filter((f) => f.endsWith(".json") && !PHASE5_ENRICHMENT_ONLY.has(f))
     .map((f) => path.join(RAW_DIR, f))
-    .sort();
+    .sort((a, b) => {
+      const ba = path.basename(a);
+      const bb = path.basename(b);
+      const pa = ba.endsWith("_resolved.json") ? 0 : 1;
+      const pb = bb.endsWith("_resolved.json") ? 0 : 1;
+      if (pa !== pb) return pa - pb;
+      return a.localeCompare(b, "en", { sensitivity: "base" });
+    });
 
   if (files.length === 0) {
     console.error(`No JSON files in ${RAW_DIR}`);
@@ -1061,7 +1225,7 @@ function main() {
   }
 
   syncNamesIntoPlants();
-  writeOutputs();
+  writeOutputs(preMerge);
 }
 
 const entryScript = process.argv[1];

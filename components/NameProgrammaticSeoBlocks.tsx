@@ -1,7 +1,7 @@
 import { getCountryDisplayName } from "@/lib/countries";
 import { joinWithAnd } from "@/lib/programmaticSeo";
-import { ti, t, type Locale } from "@/lib/i18n";
-import type { Ambiguity, ResolvedPlantContext } from "@/lib/resolver";
+import { ti, type Locale } from "@/lib/i18n";
+import type { ResolvedPlantContext } from "@/lib/resolver";
 
 const prose =
   "text-sm leading-relaxed text-stone-600 dark:text-stone-400";
@@ -11,7 +11,6 @@ type NameProgrammaticSeoBlocksProps = {
   displayName: string;
   hasMatches: boolean;
   plantContexts?: ResolvedPlantContext[];
-  ambiguity?: Ambiguity;
 };
 
 function collectCountryLabels(
@@ -55,7 +54,6 @@ export function NameProgrammaticSeoBlocks({
   displayName,
   hasMatches,
   plantContexts = [],
-  ambiguity = "low",
 }: NameProgrammaticSeoBlocksProps) {
   if (!hasMatches) {
     return (
@@ -67,8 +65,6 @@ export function NameProgrammaticSeoBlocks({
 
   const countries = collectCountryLabels(plantContexts, lang);
   const uses = collectUseLabels(plantContexts);
-  const showDisambiguation =
-    plantContexts.length > 1 || ambiguity === "medium" || ambiguity === "high";
 
   return (
     <div className={`mt-6 space-y-3 ${prose}`}>
@@ -84,9 +80,6 @@ export function NameProgrammaticSeoBlocks({
           <>{ti(lang, "prog_name_intro_fallback", { name: displayName })}</>
         )}
       </p>
-      {showDisambiguation ? (
-        <p>{t(lang, "prog_name_disambiguation")}</p>
-      ) : null}
       {uses.length > 0 ? (
         <p>
           {ti(lang, "prog_name_uses", { uses: joinWithAnd(uses) })}

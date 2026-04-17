@@ -1,0 +1,117 @@
+{
+  "plants": [
+    {
+      "scientific_name": "Matricaria chamomilla",
+      "family": "Asteraceae",
+      "country": "NL",
+      "common_names": ["Kamille"],
+      "uses": ["digestive", "calming"],
+      "meta": { "source": "dutch_phytotherapy", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Valeriana officinalis",
+      "family": "Caprifoliaceae",
+      "country": "NL",
+      "common_names": ["Valeriaan"],
+      "uses": ["sleep", "anxiety"],
+      "meta": { "source": "dutch_phytotherapy", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Humulus lupulus",
+      "family": "Cannabaceae",
+      "country": "NL",
+      "common_names": ["Hop"],
+      "uses": ["sleep", "calming"],
+      "meta": { "source": "dutch_phytotherapy", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Crataegus monogyna",
+      "family": "Rosaceae",
+      "country": "NL",
+      "common_names": ["Meidoorn"],
+      "uses": ["heart", "circulation"],
+      "meta": { "source": "dutch_phytotherapy", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Ginkgo biloba",
+      "family": "Ginkgoaceae",
+      "country": "NL",
+      "common_names": ["Ginkgo"],
+      "uses": ["memory", "circulation"],
+      "meta": { "source": "dutch_phytotherapy", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Hypericum perforatum",
+      "family": "Hypericaceae",
+      "country": "NL",
+      "common_names": ["Sint-janskruid"],
+      "uses": ["mood", "depression"],
+      "meta": { "source": "dutch_phytotherapy", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Urtica dioica",
+      "family": "Urticaceae",
+      "country": "NL",
+      "common_names": ["Brandnetel"],
+      "uses": ["diuretic", "detox"],
+      "meta": { "source": "dutch_phytotherapy", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Equisetum arvense",
+      "family": "Equisetaceae",
+      "country": "NL",
+      "common_names": ["Heermoes"],
+      "uses": ["diuretic", "bone support"],
+      "meta": { "source": "dutch_phytotherapy", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Taraxacum officinale",
+      "family": "Asteraceae",
+      "country": "NL",
+      "common_names": ["Paardenbloem"],
+      "uses": ["liver", "diuretic"],
+      "meta": { "source": "dutch_phytotherapy", "confidence": "high" }
+    },
+  
+        {
+          "scientific_name": "Filipendula ulmaria",
+          "family": "Rosaceae",
+          "country": "NL",
+          "common_names": ["Moerasspirea"],
+          "uses": ["pain", "anti-inflammatory"],
+          "meta": { "source": "europe_phytotherapy", "confidence": "high" }
+        },
+        {
+          "scientific_name": "Betula pendula",
+          "family": "Betulaceae",
+          "country": "NL",
+          "common_names": ["Berk"],
+          "uses": ["diuretic", "detox"],
+          "meta": { "source": "dutch_traditional_medicine", "confidence": "high" }
+        },
+        {
+          "scientific_name": "Ribes nigrum",
+          "family": "Grossulariaceae",
+          "country": "NL",
+          "common_names": ["Zwarte bes"],
+          "uses": ["anti-inflammatory", "immune"],
+          "meta": { "source": "modern_phytotherapy", "confidence": "high" }
+        },
+        {
+          "scientific_name": "Capsella bursa-pastoris",
+          "family": "Brassicaceae",
+          "country": "NL",
+          "common_names": ["Herderstasje"],
+          "uses": ["bleeding", "circulatory"],
+          "meta": { "source": "europe_traditional_medicine", "confidence": "medium" }
+        },
+        {
+          "scientific_name": "Symphytum officinale",
+          "family": "Boraginaceae",
+          "country": "NL",
+          "common_names": ["Smeerwortel"],
+          "uses": ["wounds", "bone healing", "topical"],
+          "meta": { "source": "europe_phytotherapy", "confidence": "high" }
+        }
+      ]
+    }

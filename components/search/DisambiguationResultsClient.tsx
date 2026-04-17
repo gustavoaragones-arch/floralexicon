@@ -16,14 +16,10 @@ import { useEffect, useState } from "react";
 type Props = {
   lang: Locale;
   hubKey: string;
-  /** Canonical `/name/[slug]` for this search hub (all result cards link here). */
-  nameSlug: string;
   initialRows: DisambiguationRow[];
   hasMultiplePlants: boolean;
   /** Trimmed search query for analytics hooks on result cards. */
   searchQuery?: string;
-  /** `?country=` from search URL (passed through for analytics). */
-  searchCountryParam?: string;
 };
 
 /**
@@ -32,11 +28,9 @@ type Props = {
 export function DisambiguationResultsClient({
   lang,
   hubKey,
-  nameSlug,
   initialRows,
   hasMultiplePlants,
   searchQuery = "",
-  searchCountryParam,
 }: Props) {
   const hubKeyNorm = normalizeHubKey(hubKey);
   const [rows, setRows] = useState(initialRows);
@@ -81,11 +75,6 @@ export function DisambiguationResultsClient({
             row={row}
             index={i}
             showIndex={hasMultiplePlants}
-            hubKey={hubKeyNorm}
-            nameSlug={nameSlug}
-            searchQuery={searchQuery}
-            searchCountryParam={searchCountryParam}
-            resultCount={rows.length}
             isWhyOpen={openWhyId === row.plantId}
             onWhyOpenChange={(open) => {
               if (open) {

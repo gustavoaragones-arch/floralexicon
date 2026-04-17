@@ -8,11 +8,14 @@
     "start": "next start",
     "lint": "next lint",
     "merge-dataset": "tsx scripts/mergeDataset.ts",
+    "validate-raw": "tsx scripts/validateRawDataset.ts",
+    "promote-raw": "tsx scripts/promoteStaging.ts",
     "layered-merge-phase5": "tsx scripts/layeredMergePhase5.ts",
     "layered-merge-north-america": "tsx scripts/layeredMergeNorthAmerica.ts",
     "layered-merge-spain": "tsx scripts/layeredMergeSpain.ts",
     "validate-dataset": "tsx scripts/validateDataset.ts",
     "audit-names": "tsx scripts/audit-names.ts",
+    "audit-limited": "tsx scripts/audit-limited-plants.ts",
     "suggest-mappings": "tsx scripts/suggest-name-mappings.ts"
   },
   "dependencies": {

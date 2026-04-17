@@ -105,16 +105,20 @@ export default function PlantPage({ params }: Props) {
 
     return (
       <main className="mx-auto w-full max-w-[1000px] px-6 py-14">
-        <p className="mb-6 text-xs leading-relaxed text-stone-500 dark:text-stone-400">
-          {t(lang, "plant_ghost_mapping_note")}
-        </p>
+        {!plant.is_enriched ? (
+          <p className="mb-6 text-xs leading-relaxed text-stone-500 dark:text-stone-400">
+            {t(lang, "plant_ghost_mapping_note")}
+          </p>
+        ) : null}
         <div className="flex flex-wrap items-start gap-3">
           <h1 className="font-serif text-3xl font-semibold italic tracking-tight text-stone-900 dark:text-stone-100 sm:text-4xl">
             {plant.scientific_name}
           </h1>
-          <span className="inline-flex shrink-0 items-center rounded-md border border-violet-400/40 bg-violet-50 px-2.5 py-1 text-xs font-semibold uppercase tracking-wide text-violet-950 dark:border-violet-500/35 dark:bg-violet-950/40 dark:text-violet-100">
-            {t(lang, "plant_limited_data_badge")}
-          </span>
+          {!plant.is_enriched ? (
+            <span className="inline-flex shrink-0 items-center rounded-md border border-violet-400/40 bg-violet-50 px-2.5 py-1 text-xs font-semibold uppercase tracking-wide text-violet-950 dark:border-violet-500/35 dark:bg-violet-950/40 dark:text-violet-100">
+              {t(lang, "plant_limited_data_badge")}
+            </span>
+          ) : null}
         </div>
         {countriesOrdered.length > 0 ? (
           <p className="mt-6 text-sm text-stone-700 dark:text-stone-300">

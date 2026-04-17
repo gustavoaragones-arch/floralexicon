@@ -3,6 +3,7 @@ import { toUrlSlug } from "@/lib/toUrlSlug";
 import nameVariantsJson from "@/data/nameVariants.json";
 import plantsJson from "@/data/plants.json";
 import namesJson from "@/data/names.json";
+import plantsEnrichedJson from "@/data/enriched/plants.enriched.json";
 
 export type Plant = {
   id: string;
@@ -18,6 +19,10 @@ export type Plant = {
    * Prefer {@link getPlantById} which returns ghosts automatically when name rows exist.
    */
   isGhost?: boolean;
+  /** Curator layer from `data/enriched/plants.enriched.json` (uses / meta / family). */
+  meta?: Record<string, unknown>;
+  /** True when a row exists in the enrichment file for this plant `id` (or slug from `scientific_name`). */
+  is_enriched?: boolean;
 };
 
 export type NameEntry = {
@@ -158,6 +163,86 @@ function buildNameAliasToCanonical(): Map<string, string> {
 
 const nameAliasToCanonical = buildNameAliasToCanonical();
 
+/** Same binomial → id rule as merge pipeline (`slugifyScientific`), for enrichment keys. */
+function slugifyScientific(scientific: string): string {
+  const n = scientific
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, " ");
+  const parts = n.split(/\s+/).filter(Boolean);
+  const base =
+    parts.length >= 2 ? `${parts[0]} ${parts[1]}` : parts[0] ?? n;
+  return base.replace(/\s+/g, "_").replace(/[^a-z0-9_]/g, "");
+}
+
+type EnrichedPlantRow = Record<string, unknown>;
+
+/**
+ * Curated plant patches (bundled JSON). Keeps merge/raw untouched; safe for client + server.
+ * Shape: `[{ "id"?: "…", "scientific_name"?: "…", "uses"?: string[], "family"?: string, "meta"?: object }]`.
+ */
+export function loadEnrichedPlants(): unknown[] {
+  try {
+    if (!Array.isArray(plantsEnrichedJson)) return [];
+    return plantsEnrichedJson;
+  } catch {
+    return [];
+  }
+}
+
+let enrichedByPlantId = new Map<string, EnrichedPlantRow>();
+
+function buildEnrichedPlantById(rows: unknown[]): Map<string, EnrichedPlantRow> {
+  const m = new Map<string, EnrichedPlantRow>();
+  for (const r of rows) {
+    if (!r || typeof r !== "object" || Array.isArray(r)) continue;
+    const o = r as EnrichedPlantRow;
+    const id = typeof o.id === "string" && o.id.trim() ? o.id.trim() : "";
+    const sci =
+      typeof o.scientific_name === "string" && o.scientific_name.trim()
+        ? o.scientific_name.trim()
+        : "";
+    const slug = sci ? slugifyScientific(sci) : "";
+    if (id) m.set(id, o);
+    if (slug && slug !== id) m.set(slug, o);
+  }
+  return m;
+}
+
+function coerceLowerUses(u: unknown): string[] {
+  if (!Array.isArray(u)) return [];
+  return u.map((x) => String(x).trim().toLowerCase()).filter(Boolean);
+}
+
+function mergeEnrichedLayer(plant: Plant): Plant {
+  const row = enrichedByPlantId.get(plant.id);
+  if (!row) return plant;
+
+  const usesArr = coerceLowerUses(row.uses ?? row.primary_uses);
+  const hasUses = usesArr.length > 0;
+  const famRaw = row.family;
+  const familyStr =
+    typeof famRaw === "string" && famRaw.trim() ? famRaw.trim() : null;
+  const metaRaw = row.meta;
+  const metaOk =
+    metaRaw != null &&
+    typeof metaRaw === "object" &&
+    !Array.isArray(metaRaw);
+
+  const next: Plant = {
+    ...plant,
+    primary_uses: hasUses ? usesArr : plant.primary_uses,
+    family: familyStr ?? plant.family,
+    ...(metaOk
+      ? { meta: metaRaw as Record<string, unknown> }
+      : plant.meta
+        ? { meta: plant.meta }
+        : {}),
+    is_enriched: true,
+  };
+  return next;
+}
+
 /**
  * Resolve free text or URL slug segment to the canonical nameMap key
  * (normalized, space-separated). Applies accent folding + variant aliases.
@@ -235,7 +320,10 @@ function ensureIndexes(): void {
   const rawPlants = Array.isArray(plantsJson) ? plantsJson : [];
   const rawNames = Array.isArray(namesJson) ? namesJson : [];
 
-  plantsList = rawPlants.filter(isPlantRecord);
+  enrichedByPlantId = buildEnrichedPlantById(loadEnrichedPlants());
+  plantsList = rawPlants
+    .filter(isPlantRecord)
+    .map((p) => mergeEnrichedLayer(p as unknown as Plant));
   namesList = rawNames
     .map((x) =>
       x && typeof x === "object"
@@ -268,32 +356,11 @@ export function findNameRowsByPlantId(plantId: string): NameEntry[] {
   return namesList.filter((e) => e.plant_ids.includes(want));
 }
 
-function extractNamesFromRows(rows: NameEntry[]): string[] {
-  const set = new Set<string>();
-  for (const r of rows) {
-    const n = r.name?.trim();
-    if (n) set.add(n);
-  }
-  return [...set].sort((a, b) =>
-    a.localeCompare(b, "en", { sensitivity: "base" })
-  );
-}
-
-function extractCountriesFromRows(rows: NameEntry[]): string[] {
-  const set = new Set<string>();
-  for (const r of rows) {
-    for (const c of nameEntryCountries(r)) {
-      if (c) set.add(c);
-    }
-  }
-  return [...set].sort((a, b) => a.localeCompare(b));
-}
-
 /**
  * Synthetic `Plant` for ids present in `names.json` but not yet in `plants.json`.
- * Uses regional name rows only — no manual curation required.
+ * Built from the canonical `plant_id` slug (no name-row payload required).
  */
-export function buildGhostPlant(plant_id: string, nameRows: NameEntry[]): Plant {
+export function buildGhostPlant(plant_id: string): Plant {
   const id = plant_id.trim();
   const working = id.replace(/_/g, " ").trim() || id;
   const parts = working.split(/\s+/).filter(Boolean);
@@ -329,7 +396,7 @@ export function getPlantById(id: string): Plant | undefined {
   if (cached) return cached;
   const relatedRows = findNameRowsByPlantId(id);
   if (relatedRows.length === 0) return undefined;
-  const ghost = buildGhostPlant(id, relatedRows);
+  const ghost = mergeEnrichedLayer(buildGhostPlant(id));
   ghostPlantCache.set(id, ghost);
   return ghost;
 }

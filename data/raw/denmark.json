@@ -1,0 +1,109 @@
+{
+  "plants": [
+    {
+      "scientific_name": "Matricaria chamomilla",
+      "family": "Asteraceae",
+      "country": "DK",
+      "common_names": ["Kamille"],
+      "uses": ["digestive", "calming"],
+      "meta": { "source": "nordic_phytotherapy", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Valeriana officinalis",
+      "family": "Caprifoliaceae",
+      "country": "DK",
+      "common_names": ["Baldrian"],
+      "uses": ["sleep", "anxiety"],
+      "meta": { "source": "nordic_phytotherapy", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Angelica archangelica",
+      "family": "Apiaceae",
+      "country": "DK",
+      "common_names": ["Kvan"],
+      "uses": ["digestive", "appetite"],
+      "meta": { "source": "nordic_phytotherapy", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Filipendula ulmaria",
+      "family": "Rosaceae",
+      "country": "DK",
+      "common_names": ["Mjødurt"],
+      "uses": ["pain", "anti-inflammatory"],
+      "meta": { "source": "nordic_phytotherapy", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Betula pendula",
+      "family": "Betulaceae",
+      "country": "DK",
+      "common_names": ["Birk"],
+      "uses": ["diuretic", "detox"],
+      "meta": { "source": "nordic_phytotherapy", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Urtica dioica",
+      "family": "Urticaceae",
+      "country": "DK",
+      "common_names": ["Brændenælde"],
+      "uses": ["diuretic", "anti-inflammatory"],
+      "meta": { "source": "nordic_phytotherapy", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Thymus vulgaris",
+      "family": "Lamiaceae",
+      "country": "DK",
+      "common_names": ["Timian"],
+      "uses": ["cough", "respiratory"],
+      "meta": { "source": "nordic_phytotherapy", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Sambucus nigra",
+      "family": "Adoxaceae",
+      "country": "DK",
+      "common_names": ["Hyld"],
+      "uses": ["colds", "immune"],
+      "meta": { "source": "nordic_phytotherapy", "confidence": "high" }
+    },
+  
+        {
+          "scientific_name": "Ledum palustre",
+          "family": "Ericaceae",
+          "country": "DK",
+          "common_names": ["Rosmarinlyng"],
+          "uses": ["respiratory", "anti-inflammatory"],
+          "meta": { "source": "nordic_traditional_medicine", "confidence": "medium" }
+        },
+        {
+          "scientific_name": "Vaccinium vitis-idaea",
+          "family": "Ericaceae",
+          "country": "DK",
+          "common_names": ["Tyttebær"],
+          "uses": ["urinary", "antioxidant"],
+          "meta": { "source": "nordic_phytotherapy", "confidence": "high" }
+        },
+        {
+          "scientific_name": "Arctostaphylos uva-ursi",
+          "family": "Ericaceae",
+          "country": "DK",
+          "common_names": ["Melbærris"],
+          "uses": ["urinary", "antimicrobial"],
+          "meta": { "source": "nordic_phytotherapy", "confidence": "high" }
+        },
+        {
+          "scientific_name": "Achillea ptarmica",
+          "family": "Asteraceae",
+          "country": "DK",
+          "common_names": ["Nyserod"],
+          "uses": ["digestive", "stimulant"],
+          "meta": { "source": "nordic_ethnobotany", "confidence": "medium" }
+        },
+        {
+          "scientific_name": "Calluna vulgaris",
+          "family": "Ericaceae",
+          "country": "DK",
+          "common_names": ["Hedelyng"],
+          "uses": ["urinary", "calming"],
+          "meta": { "source": "nordic_traditional_medicine", "confidence": "medium" }
+        }
+      ]
+    }

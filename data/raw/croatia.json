@@ -1,0 +1,77 @@
+{
+  "plants": [
+    {
+      "scientific_name": "Matricaria chamomilla",
+      "family": "Asteraceae",
+      "country": "HR",
+      "common_names": ["Kamilica"],
+      "uses": ["digestive", "calming"],
+      "meta": { "source": "croatia_traditional", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Mentha piperita",
+      "family": "Lamiaceae",
+      "country": "HR",
+      "common_names": ["Metvica"],
+      "uses": ["digestive", "bloating"],
+      "meta": { "source": "croatia_traditional", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Rosmarinus officinalis",
+      "family": "Lamiaceae",
+      "country": "HR",
+      "common_names": ["Ružmarin"],
+      "uses": ["circulation", "digestive"],
+      "meta": { "source": "croatia_traditional", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Lavandula angustifolia",
+      "family": "Lamiaceae",
+      "country": "HR",
+      "common_names": ["Lavanda"],
+      "uses": ["relaxation", "sleep"],
+      "meta": { "source": "croatia_traditional", "confidence": "high" }
+    },
+
+          {
+            "scientific_name": "Helichrysum italicum",
+            "family": "Asteraceae",
+            "country": "HR",
+            "common_names": ["Smilje"],
+            "uses": ["skin", "anti-inflammatory", "antioxidant"],
+            "meta": { "source": "mediterranean_phytotherapy", "confidence": "high" }
+          },
+          {
+            "scientific_name": "Inula helenium",
+            "family": "Asteraceae",
+            "country": "HR",
+            "common_names": ["Oman"],
+            "uses": ["respiratory", "cough"],
+            "meta": { "source": "balkan_traditional_medicine", "confidence": "high" }
+          },
+          {
+            "scientific_name": "Teucrium montanum",
+            "family": "Lamiaceae",
+            "country": "HR",
+            "common_names": ["Gorski vrisak"],
+            "uses": ["digestive", "antispasmodic"],
+            "meta": { "source": "balkan_ethnobotany", "confidence": "medium" }
+          },
+          {
+            "scientific_name": "Salvia fruticosa",
+            "family": "Lamiaceae",
+            "country": "HR",
+            "common_names": ["Grčka kadulja"],
+            "uses": ["respiratory", "digestive"],
+            "meta": { "source": "mediterranean_medicine", "confidence": "high" }
+          },
+          {
+            "scientific_name": "Centaurea cyanus",
+            "family": "Asteraceae",
+            "country": "HR",
+            "common_names": ["Različak"],
+            "uses": ["eye irritation", "anti-inflammatory"],
+            "meta": { "source": "europe_traditional_medicine", "confidence": "medium" }
+          }
+        ]
+      }

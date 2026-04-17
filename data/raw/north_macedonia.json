@@ -1,0 +1,77 @@
+{
+  "plants": [
+    {
+      "scientific_name": "Matricaria chamomilla",
+      "family": "Asteraceae",
+      "country": "MK",
+      "common_names": ["Камилица"],
+      "uses": ["digestive", "calming"],
+      "meta": { "source": "macedonia_traditional", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Mentha piperita",
+      "family": "Lamiaceae",
+      "country": "MK",
+      "common_names": ["Нане"],
+      "uses": ["digestive", "bloating"],
+      "meta": { "source": "macedonia_traditional", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Hypericum perforatum",
+      "family": "Hypericaceae",
+      "country": "MK",
+      "common_names": ["Кантарион"],
+      "uses": ["wounds", "mood"],
+      "meta": { "source": "macedonia_traditional", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Urtica dioica",
+      "family": "Urticaceae",
+      "country": "MK",
+      "common_names": ["Коприва"],
+      "uses": ["diuretic", "anti-inflammatory"],
+      "meta": { "source": "macedonia_traditional", "confidence": "high" }
+    },
+   
+          {
+            "scientific_name": "Sideritis scardica",
+            "family": "Lamiaceae",
+            "country": "MK",
+            "common_names": ["Шарпланински чај"],
+            "uses": ["respiratory", "anti-inflammatory"],
+            "meta": { "source": "balkan_phytotherapy", "confidence": "high" }
+          },
+          {
+            "scientific_name": "Achillea clypeolata",
+            "family": "Asteraceae",
+            "country": "MK",
+            "common_names": ["Жолта ајдучка трева"],
+            "uses": ["digestive", "anti-inflammatory"],
+            "meta": { "source": "balkan_ethnobotany", "confidence": "medium" }
+          },
+          {
+            "scientific_name": "Nepeta cataria",
+            "family": "Lamiaceae",
+            "country": "MK",
+            "common_names": ["Мачја нане"],
+            "uses": ["calming", "digestive"],
+            "meta": { "source": "traditional_medicine", "confidence": "medium" }
+          },
+          {
+            "scientific_name": "Teucrium scordium",
+            "family": "Lamiaceae",
+            "country": "MK",
+            "common_names": ["Горска трева"],
+            "uses": ["digestive", "antimicrobial"],
+            "meta": { "source": "balkan_medicine", "confidence": "medium" }
+          },
+          {
+            "scientific_name": "Orchis mascula",
+            "family": "Orchidaceae",
+            "country": "MK",
+            "common_names": ["Салеп"],
+            "uses": ["tonic", "digestive"],
+            "meta": { "source": "historical_medicine", "confidence": "low" }
+          }
+        ]
+      }
