@@ -575,8 +575,12 @@ const dictionary = {
     name_primary_top_uses: "Top uses:",
     uses_page_h1: "Herbs used for {tag}",
     uses_page_meta_title: "Herbs used for {tag} | FloraLexicon",
-    uses_page_intro: "Species in the index tagged with this use:",
-    uses_page_none: "No species match this use tag in the current index.",
+    uses_page_meta_desc:
+      "Plants traditionally used for {tag} across regions and cultures.",
+    uses_page_intro:
+      "Species from the merged index whose structured uses include this tag:",
+    uses_page_none: "No species match this use tag in the merged index.",
+    uses_page_explore_tags: "Browse other use tags:",
     name_hub_matches_h2: 'Matches for "{name}"',
     name_hub_matches_lead:
       "{count} indexed plant match(es) below. Compare where each is common, how it is used, and other local names before you rely on a single translation.",
@@ -1326,8 +1330,12 @@ const dictionary = {
     name_primary_top_uses: "Usos destacados:",
     uses_page_h1: "Hierbas usadas para {tag}",
     uses_page_meta_title: "Hierbas usadas para {tag} | FloraLexicon",
-    uses_page_intro: "Especies del índice con esta etiqueta de uso:",
-    uses_page_none: "Ninguna especie coincide con esta etiqueta en el índice actual.",
+    uses_page_meta_desc:
+      "Plantas usadas tradicionalmente para {tag} en distintas regiones y culturas.",
+    uses_page_intro:
+      "Especies del índice fusionado cuyos usos estructurados incluyen esta etiqueta:",
+    uses_page_none: "Ninguna especie coincide con esta etiqueta en el índice fusionado.",
+    uses_page_explore_tags: "Explorar otras etiquetas de uso:",
     name_hub_matches_h2: "Coincidencias para «{name}»",
     name_hub_matches_lead:
       "{count} coincidencia(s) de planta en el índice abajo. Compara dónde es frecuente cada una, sus usos y otros nombres locales antes de quedarte con una sola traducción.",

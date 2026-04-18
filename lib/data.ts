@@ -1,6 +1,6 @@
 import { countryCodeToUrlSlug } from "@/lib/countries";
 import { toUrlSlug } from "@/lib/toUrlSlug";
-import { slugifyUseTag } from "@/lib/usePaths";
+import { canonicalTagFromUseSlug, slugifyUseTag } from "@/lib/usePaths";
 import nameVariantsJson from "@/data/nameVariants.json";
 import plantsJson from "@/data/plants.json";
 import namesJson from "@/data/names.json";
@@ -949,12 +949,63 @@ export function getCountryUrlSlugsForNameHub(nameCanonicalSlug: string): Set<str
   return out;
 }
 
+/** Lightweight row for `/uses/[slug]` lists (full processed corpus, not slim runtime). */
+export type ProcessedPlantUseListRow = {
+  id: string;
+  scientific_name: string;
+};
+
+function processedBucketHasTag(bucket: unknown, tagNorm: string): boolean {
+  if (!Array.isArray(bucket)) return false;
+  return bucket.some((x) => String(x).trim().toLowerCase() === tagNorm);
+}
+
 /**
- * Other plants in the slim index that share at least one `primary_uses` slug with `plant`.
+ * Plants from bundled `data/processed/plants.json` whose `uses_structured` includes the
+ * taxonomy leaf for this URL slug. Dedupes duplicate `id` rows (longest `scientific_name` wins).
+ * Server-safe; does not depend on {@link ensureIndexes}.
  */
+export function getProcessedPlantsWithUseSlug(
+  slug: string
+): ProcessedPlantUseListRow[] {
+  const tag = canonicalTagFromUseSlug(slug.trim());
+  if (!tag) return [];
+  const tagNorm = tag.toLowerCase();
+  const processed = Array.isArray(processedPlantsJson) ? processedPlantsJson : [];
+  const byId = new Map<string, ProcessedPlantUseListRow>();
+
+  for (const raw of processed) {
+    if (!raw || typeof raw !== "object") continue;
+    const p = raw as Record<string, unknown>;
+    const id = typeof p.id === "string" ? p.id.trim() : "";
+    if (!id) continue;
+    const u = (p.uses_structured ?? {}) as Record<string, unknown>;
+    const has =
+      processedBucketHasTag(u.medicinal, tagNorm) ||
+      processedBucketHasTag(u.culinary, tagNorm) ||
+      processedBucketHasTag(u.topical, tagNorm) ||
+      processedBucketHasTag(u.other, tagNorm);
+    if (!has) continue;
+
+    const sci =
+      typeof p.scientific_name === "string" ? p.scientific_name.trim() : "";
+    const displaySci = sci || id.replace(/_/g, " ");
+    const prev = byId.get(id);
+    if (!prev || displaySci.length > prev.scientific_name.length) {
+      byId.set(id, { id, scientific_name: displaySci });
+    }
+  }
+
+  return [...byId.values()].sort((a, b) =>
+    a.scientific_name.localeCompare(b.scientific_name, "en", {
+      sensitivity: "base",
+    })
+  );
+}
+
 /**
  * Plants whose `uses_structured` lists include a leaf matching this URL slug
- * (see {@link slugifyUseTag} / `data/taxonomy/uses.json`).
+ * (slim runtime index only; see {@link getProcessedPlantsWithUseSlug} for full processed).
  */
 export function getPlantsWithStructuredUseSlug(slug: string): Plant[] {
   ensureIndexes();
@@ -963,7 +1014,7 @@ export function getPlantsWithStructuredUseSlug(slug: string): Plant[] {
   return plantsList.filter((p) => {
     const u = p.uses_structured;
     const all = [...u.medicinal, ...u.culinary, ...u.topical, ...u.other];
-    return all.some((tag) => slugifyUseTag(tag) === want);
+    return all.some((t) => slugifyUseTag(t) === want);
   });
 }
 
