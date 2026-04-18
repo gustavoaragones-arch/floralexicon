@@ -648,7 +648,7 @@ export function getAlsoKnownAsLinks(plantId: string): NameIndexLink[] {
 }
 
 /** Count `names.json` rows (country rows) per canonical name URL slug for this plant. */
-function nameSlugFrequencyForPlant(plantId: string): Map<string, number> {
+export function getNameSlugRowCountForPlant(plantId: string): Map<string, number> {
   const freq = new Map<string, number>();
   const id = plantId.trim();
   if (!id) return freq;
@@ -667,7 +667,7 @@ function nameSlugFrequencyForPlant(plantId: string): Map<string, number> {
  * Collapse labels that fold to the same string (accents/spacing) while keeping
  * a single display label (prefer higher row frequency, then longer label).
  */
-function dedupeNameIndexLinksByNormalizedLabel(
+export function dedupeNameIndexLinksByNormalizedLabel(
   links: NameIndexLink[],
   freq: Map<string, number>
 ): NameIndexLink[] {
@@ -704,7 +704,7 @@ function sortNameIndexLinksForPlantPage(
   plantId: string,
   options?: { pageNameSlug?: string; queryDisplay?: string }
 ): NameIndexLink[] {
-  const freq = nameSlugFrequencyForPlant(plantId);
+  const freq = getNameSlugRowCountForPlant(plantId);
   const pageCanon =
     options?.pageNameSlug && options.pageNameSlug.trim()
       ? urlSlugToCanonicalSlug(options.pageNameSlug)
@@ -777,7 +777,7 @@ export function getPlantGlobalData(
     }
   }
 
-  const freq = nameSlugFrequencyForPlant(id);
+  const freq = getNameSlugRowCountForPlant(id);
   let names = getAlsoKnownAsLinks(id);
   names = dedupeNameIndexLinksByNormalizedLabel(names, freq);
   names = sortNameIndexLinksForPlantPage(names, id, options);

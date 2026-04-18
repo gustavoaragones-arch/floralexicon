@@ -495,9 +495,13 @@ const dictionary = {
     meta_name_match_title: 'What is "{name}" called in different countries?',
     meta_name_match_desc:
       'Find what "{name}" is called in different countries. Compare local herb names and verify the correct plant using scientific classification.',
-    meta_name_country_title: "What is {name} in {country}?",
+    name_hub_h1_default: 'How is "{name}" called in different countries?',
+    name_hub_h1_country_mode:
+      'What is "{name}" called in {country}?',
+    meta_name_country_title:
+      'What is "{name}" called in {country}?',
     meta_name_country_desc:
-      "Most common plant linked to «{name}» in {country}, local usage notes, and links to the full name hub and species pages.",
+      "Local indexed names for «{name}» in {country}, the most likely species match, and links to verify with scientific classification.",
     name_country_breadcrumb_hub: "All meanings of this name",
     name_country_kicker: "Country context",
     name_country_h1: "What is «{name}» in {country}?",
@@ -545,6 +549,9 @@ const dictionary = {
     name_primary_query_line: "Resolving «{name}»",
     name_page_h1_what_is: 'What is "{name}"?',
     name_primary_refers_to: "Most commonly refers to:",
+    name_country_mode_called_in: "In {country}, this plant is called:",
+    name_country_mode_scientific_verification: "Scientific name (verification):",
+    name_country_mode_also_used_in: "Also used in {country}:",
     name_primary_why_multi: "Most common match across {count} countries",
     name_primary_why_coverage: "Highest regional coverage",
     name_primary_why_dominant_country: "Dominant in {country}",
@@ -561,9 +568,9 @@ const dictionary = {
     plant_placeholder_subtitle:
       "This name is used in multiple countries, but the species is not yet fully mapped.",
     name_also_known_show_all: "Show all ({n} more)",
-    name_languages_heading: "How this plant is called in different languages",
-    name_group_ascii_names: "English / international spellings",
-    name_group_nonascii_names: "Spanish / Portuguese & accented spellings",
+    name_languages_heading: "Worldwide common names (by writing system)",
+    name_group_common_names: "Common names",
+    name_group_other_scripts: "Other scripts",
     plantcard_most_common_in: "Most common in:",
     plantcard_used_for: "Used for:",
     hub_use_human_tea: "Herbal tea",
@@ -1253,9 +1260,13 @@ const dictionary = {
     meta_name_match_title: "¿Cómo se llama «{name}» en distintos países?",
     meta_name_match_desc:
       "Descubre cómo se llama «{name}» en distintos países. Compara nombres locales de hierbas y verifica la planta con la clasificación científica.",
-    meta_name_country_title: "¿Qué es {name} en {country}?",
+    name_hub_h1_default: "¿Cómo se llama «{name}» en distintos países?",
+    name_hub_h1_country_mode:
+      "¿Cómo se llama «{name}» en {country}?",
+    meta_name_country_title:
+      "¿Cómo se llama «{name}» en {country}?",
     meta_name_country_desc:
-      "La planta más habitual vinculada a «{name}» en {country}, notas de uso local y enlaces al tema del nombre y a las especies.",
+      "Nombres locales indexados para «{name}» en {country}, la especie más probable y enlaces para verificar con la clasificación científica.",
     name_country_breadcrumb_hub: "Todos los sentidos de este nombre",
     name_country_kicker: "Contexto por país",
     name_country_h1: "¿Qué es «{name}» en {country}?",
@@ -1303,6 +1314,9 @@ const dictionary = {
     name_primary_query_line: "Resolviendo «{name}»",
     name_page_h1_what_is: "¿Qué es «{name}»?",
     name_primary_refers_to: "Lo más frecuente es que se refiera a:",
+    name_country_mode_called_in: "En {country}, a esta planta se le llama:",
+    name_country_mode_scientific_verification: "Nombre científico (verificación):",
+    name_country_mode_also_used_in: "También se usa en {country}:",
     name_primary_why_multi: "Coincidencia más habitual en {count} países",
     name_primary_why_coverage: "Mayor cobertura regional en los datos",
     name_primary_why_dominant_country: "Dominante en {country}",
@@ -1319,9 +1333,9 @@ const dictionary = {
     plant_placeholder_subtitle:
       "Este nombre aparece en varios países, pero la especie aún no está mapeada por completo.",
     name_also_known_show_all: "Ver todas ({n} más)",
-    name_languages_heading: "Cómo se llama esta planta en distintos idiomas",
-    name_group_ascii_names: "Inglés / grafías internacionales",
-    name_group_nonascii_names: "Español / portugués y grafías con acentos",
+    name_languages_heading: "Nombres comunes en el mundo (por sistema de escritura)",
+    name_group_common_names: "Nombres comunes",
+    name_group_other_scripts: "Otros sistemas de escritura",
     plantcard_most_common_in: "Más habitual en:",
     plantcard_used_for: "Uso tradicional:",
     hub_use_human_tea: "Infusión / té de hierbas",

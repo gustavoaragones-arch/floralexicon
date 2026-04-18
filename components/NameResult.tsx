@@ -12,17 +12,26 @@ import {
   sortRegionalPlantRows,
 } from "@/lib/resolver";
 import { CountryContextSelector } from "@/components/CountryContextSelector";
-import { getPlantGlobalData, loadNames, plantNameHubSlug } from "@/lib/data";
+import {
+  dedupeNameIndexLinksByNormalizedLabel,
+  getNameSlugRowCountForPlant,
+  getNamesByNormalized,
+  getPlantGlobalData,
+  loadNames,
+  plantNameHubSlug,
+} from "@/lib/data";
 import {
   aggregateCountryFrequencyForNameHub,
   getNameHubCountryCodesSorted,
 } from "@/lib/geo";
 import { getCountryDisplayName } from "@/lib/countries";
+import { pickCountryModeLocalNames } from "@/lib/nameHubCountryMode";
 import {
   MAX_VISIBLE_NAMES,
   formatHumanUseKey,
   formatStructuredUseTagDisplay,
-  partitionNameLinksByAscii,
+  isLatinScript,
+  sortNameIndexLinksForScriptGroups,
   topStructuredUseTagsForPrimaryCard,
 } from "@/lib/nameHubDisplay";
 import { NameHubExploreSection } from "@/components/NameHubExploreSection";
@@ -103,12 +112,12 @@ function NameGlobalNameNetworkSection({
       className="mt-6"
       aria-labelledby="global-name-network-heading"
     >
-      <h3
+      <h2
         id="global-name-network-heading"
         className="font-serif text-base font-semibold tracking-tight text-stone-900 dark:text-stone-100"
       >
         {t(lang, "name_languages_heading")}
-      </h3>
+      </h2>
       <ul className="mt-4 space-y-6">
         {plantContexts.map((ctx) => {
           const { plant, plant_id: plantId, isPlaceholder } = ctx;
@@ -116,8 +125,18 @@ function NameGlobalNameNetworkSection({
             pageNameSlug,
             queryDisplay,
           });
-          const { ascii, nonAscii } = partitionNameLinksByAscii(names);
-          const useGroups = ascii.length > 0 && nonAscii.length > 0;
+          const freq = getNameSlugRowCountForPlant(plantId);
+          const uniqueNames = dedupeNameIndexLinksByNormalizedLabel(names, freq);
+          const latinNames = sortNameIndexLinksForScriptGroups(
+            uniqueNames.filter((n) => isLatinScript(n.label)),
+            queryDisplay,
+            freq
+          );
+          const otherScriptNames = sortNameIndexLinksForScriptGroups(
+            uniqueNames.filter((n) => !isLatinScript(n.label)),
+            queryDisplay,
+            freq
+          );
 
           const chip = (slug: string, label: string) => (
             <li key={slug}>
@@ -164,31 +183,33 @@ function NameGlobalNameNetworkSection({
                   </Link>
                 )}
               </p>
-              {names.length === 0 ? (
+              {uniqueNames.length === 0 ? (
                 <p className="mt-2 text-sm text-stone-500 dark:text-stone-400">—</p>
-              ) : useGroups ? (
-                <div className="mt-3 space-y-4 text-sm">
-                  <div>
-                    <p className="text-xs font-semibold uppercase tracking-wide text-stone-500 dark:text-stone-400">
-                      {t(lang, "name_group_ascii_names")}
-                    </p>
-                    <ul className="mt-2 flex flex-wrap gap-2">
-                      {ascii.map(({ slug, label }) => chip(slug, label))}
-                    </ul>
-                  </div>
-                  <div>
-                    <p className="text-xs font-semibold uppercase tracking-wide text-stone-500 dark:text-stone-400">
-                      {t(lang, "name_group_nonascii_names")}
-                    </p>
-                    <ul className="mt-2 flex flex-wrap gap-2">
-                      {nonAscii.map(({ slug, label }) => chip(slug, label))}
-                    </ul>
-                  </div>
-                </div>
               ) : (
-                <ul className="mt-2 flex flex-wrap gap-2">
-                  {names.map(({ slug, label }) => chip(slug, label))}
-                </ul>
+                <div className="mt-3 space-y-4 text-sm">
+                  {latinNames.length > 0 && (
+                    <div>
+                      <h3 className="text-sm font-semibold tracking-tight text-stone-800 dark:text-stone-200">
+                        {t(lang, "name_group_common_names")}
+                      </h3>
+                      <ul className="mt-2 flex flex-wrap gap-2">
+                        {latinNames.map(({ slug, label }) => chip(slug, label))}
+                      </ul>
+                    </div>
+                  )}
+                  {otherScriptNames.length > 0 && (
+                    <div>
+                      <h3 className="text-sm font-semibold tracking-tight text-stone-800 dark:text-stone-200">
+                        {t(lang, "name_group_other_scripts")}
+                      </h3>
+                      <ul className="mt-2 flex flex-wrap gap-2">
+                        {otherScriptNames.map(({ slug, label }) =>
+                          chip(slug, label)
+                        )}
+                      </ul>
+                    </div>
+                  )}
+                </div>
               )}
             </li>
           );
@@ -221,6 +242,7 @@ export function NameResult({
     selectedCountry && selectedCountry.trim()
       ? selectedCountry.trim().toUpperCase()
       : null;
+  const isCountryMode = Boolean(normalizedCountry);
 
   useEffect(() => {
     setShowAllCountries(false);
@@ -304,6 +326,18 @@ export function NameResult({
         null
       : null;
 
+  const countryLocalPick =
+    isCountryMode && normalizedCountry && primaryMatch && normalized
+      ? pickCountryModeLocalNames(
+          getNamesByNormalized(normalized),
+          primaryMatch.plant_id,
+          normalizedCountry
+        )
+      : null;
+  const countryPrimaryHeadline = isCountryMode
+    ? countryLocalPick?.primaryLocalName.trim() || inputName
+    : "";
+
   const plantData = primaryMatch
     ? getPlantGlobalData(primaryMatch.plant_id, plantGlobalOpts)
     : { countries: [] as string[], names: [] };
@@ -316,14 +350,15 @@ export function NameResult({
       {hasMatches && primaryMatch ? (
         <>
           <h1 className="font-serif text-2xl font-semibold leading-tight tracking-tight text-stone-900 sm:text-3xl md:text-4xl dark:text-stone-100">
-            {lang === "es" ? (
+            {isCountryMode && normalizedCountry ? (
               <>
-                ¿Cómo se llama «{inputName}» en diferentes países?
+                {ti(lang, "name_hub_h1_country_mode", {
+                  name: inputName,
+                  country: getCountryDisplayName(normalizedCountry, lang),
+                })}
               </>
             ) : (
-              <>
-                How is &quot;{inputName}&quot; called in different countries?
-              </>
+              <>{ti(lang, "name_hub_h1_default", { name: inputName })}</>
             )}
           </h1>
 
@@ -339,6 +374,110 @@ export function NameResult({
               normalizedCountry,
               primaryContext.is_strong_dominance
             );
+
+            if (isCountryMode && normalizedCountry) {
+              const countryLabel = getCountryDisplayName(
+                normalizedCountry,
+                lang
+              );
+              const plantHref =
+                plant && !isPlaceholder
+                  ? localePath(
+                      lang,
+                      `/plant/${plantNameHubSlug(plant.id, plant.scientific_name)}`
+                    )
+                  : null;
+
+              return (
+                <div className="primary-card mt-6 rounded-2xl border-2 border-stone-200 bg-white px-5 py-6 shadow-sm dark:border-stone-600 dark:bg-stone-900/50">
+                  <p className="label text-sm font-medium text-stone-600 dark:text-stone-400">
+                    {ti(lang, "name_country_mode_called_in", {
+                      country: countryLabel,
+                    })}
+                  </p>
+                  <p className="local-primary-name mt-3 font-serif text-2xl font-semibold leading-tight tracking-tight text-stone-900 sm:text-3xl md:text-4xl dark:text-stone-100">
+                    {countryPrimaryHeadline}
+                  </p>
+
+                  {isPlaceholder || !plant ? (
+                    <p className="mt-3 text-sm text-stone-600 dark:text-stone-400">
+                      {t(lang, "plant_placeholder_subtitle")}
+                    </p>
+                  ) : (
+                    <div className="mt-5 border-t border-stone-200 pt-4 dark:border-stone-700">
+                      <p className="text-sm font-medium text-stone-600 dark:text-stone-400">
+                        {t(lang, "name_country_mode_scientific_verification")}
+                      </p>
+                      <p className="scientific-name mt-1 font-serif text-lg font-semibold italic tracking-tight text-stone-900 sm:text-xl md:text-2xl dark:text-stone-100">
+                        {plantHref ? (
+                          <Link
+                            href={plantHref}
+                            className="text-flora-forest underline decoration-stone-300 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-300"
+                          >
+                            {plant.scientific_name}
+                          </Link>
+                        ) : (
+                          plant.scientific_name
+                        )}
+                      </p>
+                    </div>
+                  )}
+
+                  {isGhost && !plant?.is_enriched ? (
+                    <div className="mt-3 space-y-2">
+                      <span className="inline-flex shrink-0 items-center rounded-md border border-violet-400/40 bg-violet-50 px-2.5 py-1 text-xs font-semibold uppercase tracking-wide text-violet-950 dark:border-violet-500/35 dark:bg-violet-950/40 dark:text-violet-100">
+                        {t(lang, "plant_limited_data_badge")}
+                      </span>
+                      <p className="text-xs leading-relaxed text-stone-500 dark:text-stone-400">
+                        {t(lang, "plant_ghost_mapping_note")}
+                      </p>
+                    </div>
+                  ) : null}
+
+                  {countryLocalPick &&
+                  countryLocalPick.alternativeLabels.length > 0 ? (
+                    <div className="mt-5 text-sm text-stone-800 dark:text-stone-200">
+                      <p className="font-semibold text-stone-900 dark:text-stone-100">
+                        {ti(lang, "name_country_mode_also_used_in", {
+                          country: countryLabel,
+                        })}
+                      </p>
+                      <ul className="mt-2 list-disc space-y-1 pl-5">
+                        {countryLocalPick.alternativeLabels.map((label) => (
+                          <li key={label}>{label}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  ) : null}
+
+                  {plant && !isPlaceholder ? (
+                    (() => {
+                      const tags = topStructuredUseTagsForPrimaryCard(plant, 2);
+                      if (tags.length === 0) return null;
+                      return (
+                        <div className="mt-4 text-sm text-stone-700 dark:text-stone-300">
+                          <p className="font-semibold text-stone-800 dark:text-stone-200">
+                            {t(lang, "name_primary_top_uses")}
+                          </p>
+                          <ul className="mt-2 list-disc space-y-1 pl-5">
+                            {tags.map((tag) => (
+                              <li key={tag}>
+                                <Link
+                                  href={localePath(lang, getUsePath(tag))}
+                                  className="font-medium text-flora-forest underline decoration-stone-300 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-400"
+                                >
+                                  {formatStructuredUseTagDisplay(lang, tag)}
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      );
+                    })()
+                  ) : null}
+                </div>
+              );
+            }
 
             return (
               <div className="primary-card mt-6 rounded-2xl border-2 border-stone-200 bg-white px-5 py-6 shadow-sm dark:border-stone-600 dark:bg-stone-900/50">
@@ -499,13 +638,7 @@ export function NameResult({
       {!hasMatches ? (
         <header className="border-b border-stone-200 pb-8 dark:border-stone-800">
           <h1 className="font-serif text-xl font-semibold leading-snug tracking-tight text-stone-900 dark:text-stone-100 sm:text-2xl md:text-3xl">
-            {lang === "es" ? (
-              <>¿Cómo se llama «{inputName}» en diferentes países?</>
-            ) : (
-              <>
-                How is &quot;{inputName}&quot; called in different countries?
-              </>
-            )}
+            {ti(lang, "name_hub_h1_default", { name: inputName })}
           </h1>
           <div className="mt-4 flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
             <div className="min-w-0 flex-1">
@@ -703,7 +836,7 @@ export function NameResult({
             {lang === "es" ? "Hierbas similares y enlaces" : "Similar herbs"}
           </summary>
           <div className="mt-4 space-y-8">
-            {plantContexts.length > 0 ? (
+            {plantContexts.length > 0 && !isCountryMode ? (
               <NameGlobalNameNetworkSection
                 lang={lang}
                 plantContexts={plantContexts}

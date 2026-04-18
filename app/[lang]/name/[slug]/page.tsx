@@ -13,7 +13,10 @@ import {
   t,
   type Locale,
 } from "@/lib/i18n";
-import { resolveCountryFromQueryParam } from "@/lib/countries";
+import {
+  getCountryDisplayName,
+  resolveCountryFromQueryParam,
+} from "@/lib/countries";
 import { resolvePlantName } from "@/lib/resolver";
 import { SITE_URL } from "@/lib/site";
 import type { Metadata } from "next";
@@ -40,7 +43,7 @@ export async function generateStaticParams() {
   return locales.flatMap((lang) => slugs.map((slug) => ({ lang, slug })));
 }
 
-export function generateMetadata({ params }: Props): Metadata {
+export function generateMetadata({ params, searchParams }: Props): Metadata {
   if (!isLocale(params.lang)) return {};
   const lang = params.lang as Locale;
   const canonicalSlug = urlSlugToCanonicalSlug(params.slug);
@@ -48,6 +51,12 @@ export function generateMetadata({ params }: Props): Metadata {
   const alt = alternateLanguageUrls(path);
 
   const result = resolvePlantName(params.slug, undefined, lang);
+
+  const countryRaw = searchParams?.country;
+  const countryFromQuery =
+    typeof countryRaw === "string" && countryRaw.trim()
+      ? resolveCountryFromQueryParam(countryRaw.trim()) ?? null
+      : null;
 
   if (!result.matches.length) {
     return {
@@ -71,9 +80,30 @@ export function generateMetadata({ params }: Props): Metadata {
   const nameForMeta =
     result.matches[0]?.name_entry.name ?? slugToDisplayLabel(params.slug);
 
+  const countryLabel =
+    countryFromQuery != null
+      ? getCountryDisplayName(countryFromQuery, lang)
+      : null;
+
+  const title =
+    countryLabel != null
+      ? ti(lang, "meta_name_country_title", {
+          name: nameForMeta,
+          country: countryLabel,
+        })
+      : ti(lang, "meta_name_match_title", { name: nameForMeta });
+
+  const description =
+    countryLabel != null
+      ? ti(lang, "meta_name_country_desc", {
+          name: nameForMeta,
+          country: countryLabel,
+        })
+      : ti(lang, "meta_name_match_desc", { name: nameForMeta });
+
   return {
-    title: ti(lang, "meta_name_match_title", { name: nameForMeta }),
-    description: ti(lang, "meta_name_match_desc", { name: nameForMeta }),
+    title,
+    description,
     alternates: {
       canonical: lang === "es" ? alt.es : alt.en,
       languages: {

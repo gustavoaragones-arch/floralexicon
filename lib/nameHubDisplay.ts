@@ -1,30 +1,55 @@
 import type { NameIndexLink, Plant } from "@/lib/data";
+import {
+  normalizeString,
+  urlSlugToCanonicalSlug,
+} from "@/lib/data";
 import { t, type Locale } from "@/lib/i18n";
 
 /** Visible “also known as” links before “Show all”. */
 export const MAX_VISIBLE_NAMES = 6;
 
-/** True if every character is in the ASCII range (rough EN/international vs accented labels). */
-export function isAsciiOnlyLabel(label: string): boolean {
-  if (!label.trim()) return true;
-  for (let i = 0; i < label.length; i++) {
-    if (label.charCodeAt(i) > 0x7f) return false;
-  }
-  return true;
+/**
+ * Script-only check: Latin letters plus whitespace, hyphen, apostrophe.
+ * Hyphen is last in the class so it is literal (same intent as `\s-'` in invalid JS ranges).
+ */
+export function isLatinScript(str: string): boolean {
+  return /^[\p{Script=Latin}\s'-]+$/u.test(str);
 }
 
-export function partitionNameLinksByAscii(
-  names: NameIndexLink[]
-): { ascii: NameIndexLink[]; nonAscii: NameIndexLink[] } {
-  const ascii: NameIndexLink[] = [];
-  const nonAscii: NameIndexLink[] = [];
-  const seen = new Set<string>();
-  for (const n of names) {
-    if (seen.has(n.slug)) continue;
-    seen.add(n.slug);
-    (isAsciiOnlyLabel(n.label) ? ascii : nonAscii).push(n);
-  }
-  return { ascii, nonAscii };
+/**
+ * Sort name chips: exact query match (label or slug), then row count, then shorter label, then A–Z.
+ */
+export function sortNameIndexLinksForScriptGroups(
+  links: NameIndexLink[],
+  queryDisplay: string,
+  freq: Map<string, number>
+): NameIndexLink[] {
+  const queryNorm = normalizeString(queryDisplay.trim());
+  const raw = queryDisplay.trim();
+  const querySlugCanon = raw ? urlSlugToCanonicalSlug(raw) : "";
+
+  const rank = (link: NameIndexLink) => {
+    const labelNorm = normalizeString(link.label);
+    const slugCanon = urlSlugToCanonicalSlug(link.slug);
+    const hitQuery =
+      (queryNorm && labelNorm === queryNorm) ||
+      (querySlugCanon && slugCanon === querySlugCanon)
+        ? 1
+        : 0;
+    const f = freq.get(slugCanon) ?? 0;
+    return { hitQuery, f, len: link.label.length, label: link.label, slug: link.slug };
+  };
+
+  return [...links].sort((a, b) => {
+    const ra = rank(a);
+    const rb = rank(b);
+    if (rb.hitQuery !== ra.hitQuery) return rb.hitQuery - ra.hitQuery;
+    if (rb.f !== ra.f) return rb.f - ra.f;
+    if (ra.len !== rb.len) return ra.len - rb.len;
+    const lab = ra.label.localeCompare(rb.label, "en", { sensitivity: "base" });
+    if (lab !== 0) return lab;
+    return ra.slug.localeCompare(rb.slug, "en");
+  });
 }
 
 /** Human-readable bullet text for traditional `primary_uses` keys (name hub). */
