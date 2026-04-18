@@ -2,6 +2,7 @@ import type { NameEntry } from "@/lib/data";
 import {
   findNameRowsByPlantId,
   nameEntryCountries,
+  nameEntryHasExplicitCountryCoverage,
   normalizeString,
 } from "@/lib/data";
 
@@ -34,7 +35,7 @@ function sortForCountryMode(
 export type CountryModeNamePick = {
   primaryLocalName: string;
   alternativeLabels: string[];
-  /** True when at least one name row lists the selected country in `countries`. */
+  /** True when at least one name row has non–`global_fallback` coverage for the country. */
   hasCountrySpecificRows: boolean;
 };
 
@@ -59,7 +60,7 @@ export function pickCountryModeLocalNames(
 
   const plantNameEntries = findNameRowsByPlantId(pid);
   const countrySpecific = plantNameEntries.filter((e) =>
-    nameEntryCountries(e).includes(c)
+    nameEntryHasExplicitCountryCoverage(e, c)
   );
   const globalNames = plantNameEntries;
   const effectiveNames =

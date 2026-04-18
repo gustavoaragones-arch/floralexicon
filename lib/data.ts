@@ -41,10 +41,34 @@ export type PlantAuthorityTier = "standard" | "cross_regional" | "cosmopolitan";
 /** @deprecated Use {@link PlantAuthorityTier} */
 export type LexiconAuthorityTier = PlantAuthorityTier;
 
+export type CountryUsageConfidence = "high" | "medium" | "low";
+
+export type CountryUsageSource =
+  | "wikidata"
+  | "paper"
+  | "manual"
+  | "global_fallback";
+
+/** Per-country attachment for a name row; preferred over flat `countries`. */
+export type CountryUsage = {
+  country: string;
+  is_primary?: boolean;
+  confidence?: CountryUsageConfidence;
+  source?: CountryUsageSource;
+};
+
+export type NameEntrySource = "wikidata" | "paper" | "manual";
+export type NameEvidenceLevel = "high" | "medium" | "low";
+
 export type NameEntry = {
   name: string;
   normalized: string;
   language: string;
+  /**
+   * Geographic usage (preferred). When present, drives {@link nameEntryCountries}.
+   * Legacy rows may only have `countries` until migration.
+   */
+  country_usage?: CountryUsage[];
   /**
    * Legacy single-country field; kept populated (first sorted ISO code) for older call sites.
    * Prefer {@link nameEntryCountries}.
@@ -54,6 +78,12 @@ export type NameEntry = {
   countries: string[];
   plant_ids: string[];
   ambiguity_level: string;
+  /** Optional provenance for the whole name row (not per-country). */
+  source?: NameEntrySource;
+  evidence_level?: NameEvidenceLevel;
+  is_transliterated?: boolean;
+  /** True when this label is treated as globally scoped in the index. */
+  global?: boolean;
   /** Hub width for this name row (same as `countries.length`; explicit for authority layer). */
   name_country_count?: number;
   /**
@@ -172,11 +202,88 @@ function isPlantRecord(x: unknown): x is Plant {
 
 /** ISO country codes attached to a name row (multi-country aware). */
 export function nameEntryCountries(entry: NameEntry): string[] {
+  if (Array.isArray(entry.country_usage) && entry.country_usage.length > 0) {
+    const s = new Set<string>();
+    for (const u of entry.country_usage) {
+      const cc =
+        typeof u.country === "string" ? u.country.trim().toUpperCase() : "";
+      if (cc) s.add(cc);
+    }
+    return [...s].sort((a, b) => a.localeCompare(b));
+  }
   if (Array.isArray(entry.countries) && entry.countries.length > 0) {
     return [...entry.countries];
   }
   const c = entry.country?.trim().toUpperCase();
   return c ? [c] : [];
+}
+
+/**
+ * True when `countryIso` is tied to this row from real regional data, not a
+ * synthetic `global_fallback` {@link CountryUsage} entry.
+ */
+export function nameEntryHasExplicitCountryCoverage(
+  entry: NameEntry,
+  countryIso: string
+): boolean {
+  const C = countryIso.trim().toUpperCase();
+  if (!C) return false;
+  if (Array.isArray(entry.country_usage) && entry.country_usage.length > 0) {
+    return entry.country_usage.some((u) => {
+      const cc =
+        typeof u.country === "string" ? u.country.trim().toUpperCase() : "";
+      return cc === C && u.source !== "global_fallback";
+    });
+  }
+  return nameEntryCountries(entry).includes(C);
+}
+
+function parseCountryUsageConfidence(
+  v: unknown
+): CountryUsageConfidence | undefined {
+  if (v === "high" || v === "medium" || v === "low") return v;
+  return undefined;
+}
+
+function parseCountryUsageSource(v: unknown): CountryUsageSource | undefined {
+  if (
+    v === "wikidata" ||
+    v === "paper" ||
+    v === "manual" ||
+    v === "global_fallback"
+  ) {
+    return v;
+  }
+  return undefined;
+}
+
+function parseCountryUsageArray(raw: unknown): CountryUsage[] | undefined {
+  if (!Array.isArray(raw) || raw.length === 0) return undefined;
+  const out: CountryUsage[] = [];
+  for (const item of raw) {
+    if (typeof item === "string" && item.trim()) {
+      out.push({
+        country: item.trim().toUpperCase(),
+        is_primary: true,
+        confidence: "medium",
+      });
+      continue;
+    }
+    if (item && typeof item === "object" && !Array.isArray(item)) {
+      const o = item as Record<string, unknown>;
+      const country =
+        typeof o.country === "string" ? o.country.trim().toUpperCase() : "";
+      if (!country) continue;
+      const usage: CountryUsage = { country };
+      if (o.is_primary === true) usage.is_primary = true;
+      const conf = parseCountryUsageConfidence(o.confidence);
+      if (conf) usage.confidence = conf;
+      const src = parseCountryUsageSource(o.source);
+      if (src) usage.source = src;
+      out.push(usage);
+    }
+  }
+  return out.length ? out : undefined;
 }
 
 function coalesceNameRecord(raw: Record<string, unknown>): NameEntry | null {
@@ -196,14 +303,22 @@ function coalesceNameRecord(raw: Record<string, unknown>): NameEntry | null {
   const plant_ids = [...plantIds];
   if (plant_ids.length === 0) return null;
 
+  let country_usage = parseCountryUsageArray(raw.country_usage);
   const cset = new Set<string>();
-  if (Array.isArray(raw.countries)) {
-    for (const c of raw.countries) {
-      if (typeof c === "string" && c.trim()) cset.add(c.trim().toUpperCase());
+  if (country_usage && country_usage.length > 0) {
+    for (const u of country_usage) {
+      if (u.country) cset.add(u.country);
     }
-  }
-  if (typeof raw.country === "string" && raw.country.trim()) {
-    cset.add(raw.country.trim().toUpperCase());
+  } else {
+    country_usage = undefined;
+    if (Array.isArray(raw.countries)) {
+      for (const c of raw.countries) {
+        if (typeof c === "string" && c.trim()) cset.add(c.trim().toUpperCase());
+      }
+    }
+    if (typeof raw.country === "string" && raw.country.trim()) {
+      cset.add(raw.country.trim().toUpperCase());
+    }
   }
   const countries = [...cset].sort((a, b) => a.localeCompare(b));
   if (countries.length === 0) return null;
@@ -257,12 +372,29 @@ function coalesceNameRecord(raw: Record<string, unknown>): NameEntry | null {
     if (vs.length > 0) plant_name_variants = [...new Set(vs)];
   }
 
+  let source: NameEntrySource | undefined;
+  if (raw.source === "wikidata" || raw.source === "paper" || raw.source === "manual") {
+    source = raw.source;
+  }
+  let evidence_level: NameEvidenceLevel | undefined;
+  if (
+    raw.evidence_level === "high" ||
+    raw.evidence_level === "medium" ||
+    raw.evidence_level === "low"
+  ) {
+    evidence_level = raw.evidence_level;
+  }
+  const is_transliterated =
+    raw.is_transliterated === true ? true : undefined;
+  const global = raw.global === true ? true : undefined;
+
   return {
     name: raw.name,
     normalized: raw.normalized,
     language,
     country: countries[0] ?? "",
     countries,
+    ...(country_usage ? { country_usage } : {}),
     plant_ids,
     ambiguity_level,
     name_country_count,
@@ -271,6 +403,10 @@ function coalesceNameRecord(raw: Record<string, unknown>): NameEntry | null {
     ...(is_global_dominant_name ? { is_global_dominant_name } : {}),
     ...(dominant_in_countries ? { dominant_in_countries } : {}),
     ...(plant_name_variants ? { plant_name_variants } : {}),
+    ...(source ? { source } : {}),
+    ...(evidence_level ? { evidence_level } : {}),
+    ...(is_transliterated !== undefined ? { is_transliterated } : {}),
+    ...(global !== undefined ? { global } : {}),
   };
 }
 

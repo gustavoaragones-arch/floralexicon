@@ -8,6 +8,7 @@
 import * as fs from "fs";
 import * as path from "path";
 import { fileURLToPath } from "node:url";
+import type { CountryUsage } from "../lib/data";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const PROCESSED_NAMES = path.join(ROOT, "data", "processed", "names.json");
@@ -27,6 +28,7 @@ type NameRow = {
   normalized: string;
   plant_ids: string[];
   countries: string[];
+  country_usage?: CountryUsage[];
   language: string;
   ambiguity_level: string;
   name_country_count?: number;
@@ -37,6 +39,24 @@ type NameRow = {
   plant_name_variants?: string[];
   [key: string]: unknown;
 };
+
+/** ISO list for a row: prefer `country_usage`, else legacy `countries`. */
+function rowCountryIsos(row: NameRow): string[] {
+  if (Array.isArray(row.country_usage) && row.country_usage.length > 0) {
+    const s = new Set<string>();
+    for (const u of row.country_usage) {
+      const c =
+        typeof u.country === "string" ? u.country.trim().toUpperCase() : "";
+      if (c) s.add(c);
+    }
+    return [...s].sort((a, b) => a.localeCompare(b));
+  }
+  const from = Array.isArray(row.countries) ? row.countries : [];
+  return from
+    .map((c) => String(c).trim().toUpperCase())
+    .filter(Boolean)
+    .sort((a, b) => a.localeCompare(b));
+}
 
 function stripLegacyAuthorityFields(row: NameRow) {
   const legacy = [
@@ -65,15 +85,16 @@ function tierForSpan(span: number): "standard" | "cross_regional" | "cosmopolita
  */
 function regionalRowScore(row: NameRow, countryIso: string): number {
   const C = countryIso.trim().toUpperCase();
-  const listsC = row.countries.some((c) => c.trim().toUpperCase() === C) ? 2 : 0;
-  return listsC + row.countries.length * 0.3 - row.name.length * 0.01;
+  const codes = rowCountryIsos(row);
+  const listsC = codes.some((c) => c === C) ? 2 : 0;
+  return listsC + codes.length * 0.3 - row.name.length * 0.01;
 }
 
 /** Per-country dominant: highest {@link regionalRowScore}, then shorter `name`, then `normalized`. */
 function pickRegionalWinner(rows: NameRow[], country: string): NameRow | null {
   const C = country.trim().toUpperCase();
   const candidates = rows.filter(
-    (r) => r.plant_ids[0] && r.countries.some((c) => c.trim().toUpperCase() === C)
+    (r) => r.plant_ids[0] && rowCountryIsos(r).some((c) => c === C)
   );
   if (candidates.length === 0) return null;
   return [...candidates].sort((a, b) => {
@@ -112,7 +133,7 @@ function main() {
         set = new Set();
         spanByPlant.set(pid, set);
       }
-      for (const c of row.countries) {
+      for (const c of rowCountryIsos(row)) {
         const u = String(c).trim().toUpperCase();
         if (u) set.add(u);
       }
@@ -138,9 +159,9 @@ function main() {
     const span = spanByPlant.get(pid)?.size ?? 0;
     if (span < 3) continue;
     let best = rows[0]!;
-    let bestN = best.countries.length;
+    let bestN = rowCountryIsos(best).length;
     for (const r of rows) {
-      const n = r.countries.length;
+      const n = rowCountryIsos(r).length;
       if (n > bestN) {
         best = r;
         bestN = n;
@@ -192,7 +213,8 @@ function main() {
 
     stripLegacyAuthorityFields(row);
 
-    row.name_country_count = row.countries.length;
+    row.name_country_count = rowCountryIsos(row).length;
+    row.countries = rowCountryIsos(row);
 
     if (span >= 3) {
       row.plant_country_span = span;
@@ -345,7 +367,7 @@ function main() {
     "",
     "## Top mismatches between global dominant vs regional dominant",
     "",
-    "For each plant with ≥3 countries, the **global** dominant label is the hub with the widest `countries` array (then shorter name). The **regional** dominant for ISO `C` is the row among those listing `C` with highest score: `+2` if `C` ∈ `countries`, `+ 0.3 × countries.length`, `- 0.01 × label.length`; ties → shorter `name`, then `normalized`.",
+    "For each plant with ≥3 countries, the **global** dominant label is the hub with the widest geographic footprint (`country_usage` or legacy `countries`; then shorter name). The **regional** dominant for ISO `C` is the row among those listing `C` with highest score: `+2` if `C` is present, `+ 0.3 × hub width`, `- 0.01 × label.length`; ties → shorter `name`, then `normalized`.",
     "",
     "### Plants with the most mismatching countries",
     "",
@@ -399,7 +421,7 @@ function main() {
     "",
     "**Name-level** (all rows):",
     "",
-    "- `name_country_count`: `countries.length` for this hub row.",
+    "- `name_country_count`: number of distinct ISO codes on this hub row (`country_usage` or `countries`).",
     "- `is_global_dominant_name`: true on one row per multi-country plant (widest hub coverage).",
     "- `dominant_in_countries`: ISO list where this row wins the per-country competition for that plant.",
     "",

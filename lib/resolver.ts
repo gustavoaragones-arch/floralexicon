@@ -7,6 +7,7 @@ import {
   loadNames,
   loadPlants,
   nameEntryCountries,
+  nameEntryHasExplicitCountryCoverage,
   resolveCanonicalNameKey,
   urlSlugToCanonicalSlug,
 } from "@/lib/data";
@@ -199,13 +200,85 @@ function scientificSortKey(m: PlantNameMatch): string {
   return (m.scientific_name ?? "\uFFFF").toLowerCase();
 }
 
+/** Row lists `countryIso` only via `global_fallback` in `country_usage`, not explicit data. */
+function nameEntryFallbackOnlyForCountry(
+  entry: NameEntry,
+  countryIso: string
+): boolean {
+  const C = countryIso.trim().toUpperCase();
+  if (!C || !nameEntryCountries(entry).includes(C)) return false;
+  if (nameEntryHasExplicitCountryCoverage(entry, C)) return false;
+  const u = entry.country_usage;
+  if (!Array.isArray(u)) return false;
+  return u.some(
+    (c) =>
+      typeof c.country === "string" &&
+      c.country.trim().toUpperCase() === C &&
+      c.source === "global_fallback"
+  );
+}
+
+/**
+ * Best coverage tier for `(plantId, selectedCountry)` across **all** hub name
+ * rows that reference the plant (not only the match row’s `name_entry`).
+ * explicit (2) > fallback_only (1) > none (0).
+ */
+function plantCoverageTierForCountry(
+  plantId: string,
+  selectedCountry: string | undefined,
+  hubNameEntries: NameEntry[]
+): 0 | 1 | 2 {
+  const sel = selectedCountry?.trim().toUpperCase();
+  if (!sel || !plantId) return 0;
+  let hasExplicit = false;
+  let hasFallback = false;
+  for (const e of hubNameEntries) {
+    if (!e.plant_ids.includes(plantId)) continue;
+    if (!nameEntryCountries(e).includes(sel)) continue;
+    if (nameEntryHasExplicitCountryCoverage(e, sel)) {
+      hasExplicit = true;
+      break;
+    }
+    if (nameEntryFallbackOnlyForCountry(e, sel)) {
+      hasFallback = true;
+    }
+  }
+  if (hasExplicit) return 2;
+  if (hasFallback) return 1;
+  return 0;
+}
+
+function plantCoverageBoostForCountry(
+  plantId: string,
+  selectedCountry: string | undefined,
+  hubNameEntries: NameEntry[]
+): number {
+  const t = plantCoverageTierForCountry(plantId, selectedCountry, hubNameEntries);
+  if (t === 2) return 0.1;
+  if (t === 1) return 0.02;
+  return 0;
+}
+
 function sortMatches(
-  matches: PlantNameMatch[]
+  matches: PlantNameMatch[],
+  selectedCountry: string | undefined,
+  hubNameEntries: NameEntry[]
 ): PlantNameMatch[] {
   return [...matches].sort((a, b) => {
     const cb = b.confidence;
     const ca = a.confidence;
     if (cb !== ca) return cb - ca;
+    const rb = plantCoverageTierForCountry(
+      b.plant_id,
+      selectedCountry,
+      hubNameEntries
+    );
+    const ra = plantCoverageTierForCountry(
+      a.plant_id,
+      selectedCountry,
+      hubNameEntries
+    );
+    if (rb !== ra) return rb - ra;
     // Tie-break on name_dominance before regional_strength for stable canonical ordering.
     if (b.name_dominance !== a.name_dominance) {
       return b.name_dominance - a.name_dominance;
@@ -278,8 +351,9 @@ function enrichMatchesWithAuthority(sorted: PlantNameMatch[]): PlantNameMatch[] 
     const { authority_level } = classifyAuthority(m);
     return { ...m, authority_level, is_primary_authority: false };
   });
-  const primaryIdx = enriched.findIndex((m) => m.authority_level === "dominant");
-  const idx = primaryIdx >= 0 ? primaryIdx : 0;
+  if (enriched.length === 0) return enriched;
+  /** Best row is first after {@link sortMatches} (confidence + coverage quality + dominance). */
+  const idx = 0;
   const primaryPlantId = enriched[idx]!.plant_id;
   const { dominance_score, is_strong_dominance } = dominanceVersusBestOther(
     sorted,
@@ -345,22 +419,13 @@ type ConfidenceParts = {
 };
 
 /**
- * Curated boosts from `applyCrossCountryNameAuthority.ts` metadata.
- * With a selected country: reward the row that is regionally dominant there.
- * Without: reward cosmopolitan plant tier + global dominant label only (no blind cross_regional bump).
+ * Authority metadata boost (cosmopolitan tier + global-dominant label).
+ * Country coverage boosts use {@link plantCoverageBoostForCountry} at plant level.
  */
-function nameEntryCorpusBoost(entry: NameEntry, selectedCountry?: string): number {
-  const sel = selectedCountry?.trim().toUpperCase();
-  if (sel) {
-    const dom = entry.dominant_in_countries;
-    if (Array.isArray(dom) && dom.some((c) => c.trim().toUpperCase() === sel)) {
-      return 0.08;
-    }
-    return 0;
-  }
+function nameEntryAuthorityBoost(entry: NameEntry): number {
   let b = 0;
   const tier = entry.plant_authority_tier ?? entry.lexicon_authority_tier;
-  if (tier === "cosmopolitan") b += 0.05;
+  if (tier === "cosmopolitan") b += 0.08;
   if (entry.is_global_dominant_name === true || entry.dominant_common_name_for_plant === true) {
     b += 0.02;
   }
@@ -463,7 +528,13 @@ function resolvePlantNameCore(
   const withConfidence: PlantNameMatch[] = deduped.map((m) => {
     const c = confidenceByPlant.get(m.plant_id);
     const base = c?.confidence ?? 0;
-    const boosted = Math.min(1, base + nameEntryCorpusBoost(m.name_entry, country));
+    const coverageBoost = plantCoverageBoostForCountry(
+      m.plant_id,
+      country,
+      nameEntries
+    );
+    const authorityBoost = nameEntryAuthorityBoost(m.name_entry);
+    const boosted = Math.min(1, base + coverageBoost + authorityBoost);
     return {
       ...m,
       relevance_score: boosted,
@@ -473,7 +544,7 @@ function resolvePlantNameCore(
       name_dominance: c?.name_dominance ?? 0,
     };
   });
-  const sorted = sortMatches(withConfidence);
+  const sorted = sortMatches(withConfidence, country, nameEntries);
   const matches = enrichMatchesWithAuthority(sorted);
   const ambiguity = resolveAmbiguity(matches);
 
@@ -529,7 +600,8 @@ export function resolvePlantNameForCountryRoute(
   const filtered = full.matches.filter((m) => m.country === want);
   if (filtered.length === 0) return null;
 
-  const sorted = sortMatches(filtered);
+  const hubEntries = full.normalized ? getNamesByNormalized(full.normalized) : [];
+  const sorted = sortMatches(filtered, want, hubEntries);
   const matches = enrichMatchesWithAuthority(sorted);
   const ambiguity = resolveAmbiguity(matches);
   const plantContexts = buildPlantContexts(matches, lang);

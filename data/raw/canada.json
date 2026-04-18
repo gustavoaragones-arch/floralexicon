@@ -1,0 +1,476 @@
+[
+  {
+    "scientific_name": "Rhododendron groenlandicum",
+    "family": "Ericaceae",
+    "country": "CA",
+    "common_names": ["Labrador tea"],
+    "uses": ["respiratory", "tea", "traditional"],
+    "meta": { "source": "indigenous_use", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Hierochloe odorata",
+    "family": "Poaceae",
+    "country": "CA",
+    "common_names": ["Sweetgrass"],
+    "uses": ["ceremonial", "aromatic", "traditional"],
+    "meta": { "source": "indigenous_use", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Acorus calamus",
+    "family": "Acoraceae",
+    "country": "CA",
+    "common_names": ["Ratroot", "Sweetflag"],
+    "uses": ["digestive", "respiratory", "traditional"],
+    "meta": { "source": "ethnobotany", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Chamaenerion angustifolium",
+    "family": "Onagraceae",
+    "country": "CA",
+    "common_names": ["Fireweed"],
+    "uses": ["anti-inflammatory", "skin", "tea"],
+    "meta": { "source": "indigenous_use", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Arctostaphylos uva-ursi",
+    "family": "Ericaceae",
+    "country": "CA",
+    "common_names": ["Bearberry", "Kinnikinnick"],
+    "uses": ["urinary", "antimicrobial"],
+    "meta": { "source": "clinical_herbalism", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Achillea millefolium",
+    "family": "Asteraceae",
+    "country": "CA",
+    "common_names": ["Yarrow"],
+    "uses": ["wound_healing", "anti-inflammatory", "fever"],
+    "meta": { "source": "herbalism", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Urtica dioica",
+    "family": "Urticaceae",
+    "country": "CA",
+    "common_names": ["Stinging nettle"],
+    "uses": ["nutritive", "anti-inflammatory", "allergy"],
+    "meta": { "source": "clinical_herbalism", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Mentha arvensis",
+    "family": "Lamiaceae",
+    "country": "CA",
+    "common_names": ["Wild mint"],
+    "uses": ["digestive", "antispasmodic"],
+    "meta": { "source": "herbalism", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Solidago canadensis",
+    "family": "Asteraceae",
+    "country": "CA",
+    "common_names": ["Goldenrod"],
+    "uses": ["urinary", "anti-inflammatory"],
+    "meta": { "source": "herbalism", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Thuja occidentalis",
+    "family": "Cupressaceae",
+    "country": "CA",
+    "common_names": ["Northern white cedar"],
+    "uses": ["respiratory", "antimicrobial", "topical"],
+    "meta": { "source": "indigenous_use", "confidence": "medium" }
+  },
+  {
+    "scientific_name": "Abies balsamea",
+    "family": "Pinaceae",
+    "country": "CA",
+    "common_names": ["Balsam fir"],
+    "uses": ["respiratory", "topical", "aromatic"],
+    "meta": { "source": "indigenous_use", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Betula papyrifera",
+    "family": "Betulaceae",
+    "country": "CA",
+    "common_names": ["Paper birch"],
+    "uses": ["anti-inflammatory", "analgesic"],
+    "meta": { "source": "ethnobotany", "confidence": "medium" }
+  },
+  {
+    "scientific_name": "Cornus sericea",
+    "family": "Cornaceae",
+    "country": "CA",
+    "common_names": ["Red osier dogwood"],
+    "uses": ["anti-inflammatory", "smoking_herb"],
+    "meta": { "source": "indigenous_use", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Aralia nudicaulis",
+    "family": "Araliaceae",
+    "country": "CA",
+    "common_names": ["Wild sarsaparilla"],
+    "uses": ["adaptogen", "digestive"],
+    "meta": { "source": "ethnobotany", "confidence": "medium" }
+  },
+  {
+    "scientific_name": "Oplopanax horridus",
+    "family": "Araliaceae",
+    "country": "CA",
+    "common_names": ["Devil’s club"],
+    "uses": ["immune", "adaptogen"],
+    "meta": { "source": "indigenous_use", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Panax quinquefolius",
+    "family": "Araliaceae",
+    "country": "CA",
+    "common_names": ["American ginseng"],
+    "uses": ["adaptogen", "energy"],
+    "meta": { "source": "clinical_herbalism", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Salix spp.",
+    "family": "Salicaceae",
+    "country": "CA",
+    "common_names": ["Willow"],
+    "uses": ["analgesic", "anti-inflammatory"],
+    "meta": { "source": "ethnobotany", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Larix laricina",
+    "family": "Pinaceae",
+    "country": "CA",
+    "common_names": ["Tamarack"],
+    "uses": ["respiratory", "antimicrobial"],
+    "meta": { "source": "traditional_use", "confidence": "medium" }
+  },
+  {
+    "scientific_name": "Picea glauca",
+    "family": "Pinaceae",
+    "country": "CA",
+    "common_names": ["White spruce"],
+    "uses": ["vitamin_c", "respiratory"],
+    "meta": { "source": "indigenous_use", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Picea mariana",
+    "family": "Pinaceae",
+    "country": "CA",
+    "common_names": ["Black spruce"],
+    "uses": ["respiratory", "topical"],
+    "meta": { "source": "indigenous_use", "confidence": "medium" }
+  },
+  {
+    "scientific_name": "Populus balsamifera",
+    "family": "Salicaceae",
+    "country": "CA",
+    "common_names": ["Balsam poplar"],
+    "uses": ["anti-inflammatory", "resin", "topical"],
+    "meta": { "source": "indigenous_use", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Heracleum maximum",
+    "family": "Apiaceae",
+    "country": "CA",
+    "common_names": ["Cow parsnip"],
+    "uses": ["digestive", "traditional"],
+    "meta": { "source": "ethnobotany", "confidence": "medium" }
+  },
+  {
+    "scientific_name": "Juniperus communis",
+    "family": "Cupressaceae",
+    "country": "CA",
+    "common_names": ["Common juniper"],
+    "uses": ["urinary", "antimicrobial"],
+    "meta": { "source": "herbalism", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Nuphar lutea",
+    "family": "Nymphaeaceae",
+    "country": "CA",
+    "common_names": ["Yellow pond lily"],
+    "uses": ["astringent", "topical"],
+    "meta": { "source": "traditional_use", "confidence": "medium" }
+  },
+  {
+    "scientific_name": "Rosa acicularis",
+    "family": "Rosaceae",
+    "country": "CA",
+    "common_names": ["Wild rose"],
+    "uses": ["vitamin_c", "immune"],
+    "meta": { "source": "indigenous_use", "confidence": "high" }
+  },
+    {
+      "scientific_name": "Echinacea angustifolia",
+      "family": "Asteraceae",
+      "country": "CA",
+      "common_names": ["Echinacea", "Purple coneflower"],
+      "uses": ["immune", "cold", "infection"],
+      "meta": { "origin": "native_north_america", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Equisetum arvense",
+      "family": "Equisetaceae",
+      "country": "CA",
+      "common_names": ["Horsetail"],
+      "uses": ["diuretic", "skin", "bone"],
+      "meta": { "origin": "native", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Plantago major",
+      "family": "Plantaginaceae",
+      "country": "CA",
+      "common_names": ["Plantain", "Broadleaf plantain"],
+      "uses": ["wound_healing", "anti-inflammatory"],
+      "meta": { "origin": "naturalized", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Artemisia ludoviciana",
+      "family": "Asteraceae",
+      "country": "CA",
+      "common_names": ["Prairie sage", "White sagebrush"],
+      "uses": ["ceremonial", "digestive"],
+      "meta": { "origin": "native", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Lewisia rediviva",
+      "family": "Montiaceae",
+      "country": "CA",
+      "common_names": ["Bitterroot"],
+      "uses": ["digestive", "traditional"],
+      "meta": { "origin": "native", "confidence": "medium" }
+    },
+    {
+      "scientific_name": "Asarum canadense",
+      "family": "Aristolochiaceae",
+      "country": "CA",
+      "common_names": ["Wild ginger"],
+      "uses": ["digestive", "warming"],
+      "meta": { "origin": "native", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Hydrastis canadensis",
+      "family": "Ranunculaceae",
+      "country": "CA",
+      "common_names": ["Goldenseal"],
+      "uses": ["antimicrobial", "immune"],
+      "meta": { "origin": "native", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Actaea racemosa",
+      "family": "Ranunculaceae",
+      "country": "CA",
+      "common_names": ["Black cohosh"],
+      "uses": ["hormonal", "menopause"],
+      "meta": { "origin": "native", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Caulophyllum thalictroides",
+      "family": "Berberidaceae",
+      "country": "CA",
+      "common_names": ["Blue cohosh"],
+      "uses": ["women_health"],
+      "meta": { "origin": "native", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Ulmus rubra",
+      "family": "Ulmaceae",
+      "country": "CA",
+      "common_names": ["Slippery elm"],
+      "uses": ["digestive", "soothing"],
+      "meta": { "origin": "native", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Sanguinaria canadensis",
+      "family": "Papaveraceae",
+      "country": "CA",
+      "common_names": ["Bloodroot"],
+      "uses": ["antimicrobial", "topical"],
+      "meta": { "origin": "native", "confidence": "medium" }
+    },
+    {
+      "scientific_name": "Podophyllum peltatum",
+      "family": "Berberidaceae",
+      "country": "CA",
+      "common_names": ["Mayapple"],
+      "uses": ["topical", "toxic_use"],
+      "meta": { "origin": "native", "confidence": "medium" }
+    },
+    {
+      "scientific_name": "Polygala senega",
+      "family": "Polygalaceae",
+      "country": "CA",
+      "common_names": ["Seneca snakeroot"],
+      "uses": ["respiratory"],
+      "meta": { "origin": "native", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Prunus virginiana",
+      "family": "Rosaceae",
+      "country": "CA",
+      "common_names": ["Chokecherry"],
+      "uses": ["respiratory", "traditional"],
+      "meta": { "origin": "native", "confidence": "high" }
+    },
+  
+    {
+      "scientific_name": "Matricaria chamomilla",
+      "family": "Asteraceae",
+      "country": "CA",
+      "common_names": ["Chamomile", "German chamomile"],
+      "uses": ["calming", "digestive"],
+      "meta": { "origin": "imported", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Valeriana officinalis",
+      "family": "Caprifoliaceae",
+      "country": "CA",
+      "common_names": ["Valerian"],
+      "uses": ["sleep", "anxiety"],
+      "meta": { "origin": "imported", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Lavandula angustifolia",
+      "family": "Lamiaceae",
+      "country": "CA",
+      "common_names": ["Lavender"],
+      "uses": ["calming", "sleep"],
+      "meta": { "origin": "imported", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Mentha × piperita",
+      "family": "Lamiaceae",
+      "country": "CA",
+      "common_names": ["Peppermint"],
+      "uses": ["digestive", "antispasmodic"],
+      "meta": { "origin": "cultivated", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Melissa officinalis",
+      "family": "Lamiaceae",
+      "country": "CA",
+      "common_names": ["Lemon balm"],
+      "uses": ["calming", "digestive"],
+      "meta": { "origin": "imported", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Hypericum perforatum",
+      "family": "Hypericaceae",
+      "country": "CA",
+      "common_names": ["St. John's wort"],
+      "uses": ["mood", "depression"],
+      "meta": { "origin": "naturalized", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Calendula officinalis",
+      "family": "Asteraceae",
+      "country": "CA",
+      "common_names": ["Calendula"],
+      "uses": ["skin", "healing"],
+      "meta": { "origin": "imported", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Taraxacum officinale",
+      "family": "Asteraceae",
+      "country": "CA",
+      "common_names": ["Dandelion"],
+      "uses": ["liver", "digestive"],
+      "meta": { "origin": "naturalized", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Arctium lappa",
+      "family": "Asteraceae",
+      "country": "CA",
+      "common_names": ["Burdock"],
+      "uses": ["detox", "skin"],
+      "meta": { "origin": "naturalized", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Silybum marianum",
+      "family": "Asteraceae",
+      "country": "CA",
+      "common_names": ["Milk thistle"],
+      "uses": ["liver"],
+      "meta": { "origin": "imported", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Tanacetum parthenium",
+      "family": "Asteraceae",
+      "country": "CA",
+      "common_names": ["Feverfew"],
+      "uses": ["migraine"],
+      "meta": { "origin": "imported", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Rosmarinus officinalis",
+      "family": "Lamiaceae",
+      "country": "CA",
+      "common_names": ["Rosemary"],
+      "uses": ["cognitive", "digestive"],
+      "meta": { "origin": "imported", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Thymus vulgaris",
+      "family": "Lamiaceae",
+      "country": "CA",
+      "common_names": ["Thyme"],
+      "uses": ["respiratory", "antimicrobial"],
+      "meta": { "origin": "imported", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Salvia officinalis",
+      "family": "Lamiaceae",
+      "country": "CA",
+      "common_names": ["Common sage"],
+      "uses": ["digestive", "antimicrobial"],
+      "meta": { "origin": "imported", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Origanum vulgare",
+      "family": "Lamiaceae",
+      "country": "CA",
+      "common_names": ["Oregano"],
+      "uses": ["antimicrobial"],
+      "meta": { "origin": "imported", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Humulus lupulus",
+      "family": "Cannabaceae",
+      "country": "CA",
+      "common_names": ["Hops"],
+      "uses": ["sleep", "nervous_system"],
+      "meta": { "origin": "imported", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Leonurus cardiaca",
+      "family": "Lamiaceae",
+      "country": "CA",
+      "common_names": ["Motherwort"],
+      "uses": ["heart", "anxiety"],
+      "meta": { "origin": "naturalized", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Althaea officinalis",
+      "family": "Malvaceae",
+      "country": "CA",
+      "common_names": ["Marshmallow"],
+      "uses": ["soothing", "digestive"],
+      "meta": { "origin": "imported", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Glycyrrhiza glabra",
+      "family": "Fabaceae",
+      "country": "CA",
+      "common_names": ["Licorice"],
+      "uses": ["respiratory", "digestive"],
+      "meta": { "origin": "imported", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Crataegus spp.",
+      "family": "Rosaceae",
+      "country": "CA",
+      "common_names": ["Hawthorn"],
+      "uses": ["heart"],
+      "meta": { "origin": "imported", "confidence": "high" }
+    }
+  ]
+  
