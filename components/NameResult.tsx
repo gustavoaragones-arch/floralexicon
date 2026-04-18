@@ -1,3 +1,6 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import type {
   Ambiguity,
   PlantNameMatch,
@@ -5,17 +8,16 @@ import type {
 } from "@/lib/resolver";
 import {
   buildRegionalPlantRows,
+  isPlaceholderPlant,
   sortRegionalPlantRows,
 } from "@/lib/resolver";
 import { CountryContextSelector } from "@/components/CountryContextSelector";
-import { NameClusterRegional } from "@/components/NameClusterSections";
 import { getPlantGlobalData, loadNames, plantNameHubSlug } from "@/lib/data";
 import {
   aggregateCountryFrequencyForNameHub,
   getNameHubCountryCodesSorted,
-  getPlantCountryCodesSorted,
 } from "@/lib/geo";
-import { getCountryDisplayName, joinCountryNames } from "@/lib/countries";
+import { getCountryDisplayName } from "@/lib/countries";
 import {
   MAX_VISIBLE_NAMES,
   formatHumanUseKey,
@@ -23,7 +25,6 @@ import {
   partitionNameLinksByAscii,
   topStructuredUseTagsForPrimaryCard,
 } from "@/lib/nameHubDisplay";
-import { NameHubCountryIndexSection } from "@/components/NameHubCountryIndexSection";
 import { NameHubExploreSection } from "@/components/NameHubExploreSection";
 import { NameProgrammaticSeoBlocks } from "@/components/NameProgrammaticSeoBlocks";
 import {
@@ -50,20 +51,6 @@ type NameResultProps = {
   samePlantClusters: SamePlantCluster[];
   variantNotice?: { variant: string; canonical: string };
 };
-
-function prioritizeRegionalRows<T extends { countryCode: string }>(
-  rows: T[],
-  selectedIso?: string
-): T[] {
-  const want = selectedIso?.trim().toUpperCase();
-  if (!want || rows.length < 2) return rows;
-  const idx = rows.findIndex((r) => r.countryCode.trim().toUpperCase() === want);
-  if (idx <= 0) return rows;
-  const next = [...rows];
-  const [hit] = next.splice(idx, 1);
-  next.unshift(hit);
-  return next;
-}
 
 function aggregateUseKeys(contexts: ResolvedPlantContext[]): string[] {
   const set = new Set<string>();
@@ -226,31 +213,53 @@ export function NameResult({
   samePlantClusters,
   variantNotice,
 }: NameResultProps) {
+  const [showAllCountries, setShowAllCountries] = useState(false);
+
   const inputName = query.trim() || normalized.trim();
   const titleName = inputName;
   const normalizedCountry =
     selectedCountry && selectedCountry.trim()
       ? selectedCountry.trim().toUpperCase()
       : null;
+
+  useEffect(() => {
+    setShowAllCountries(false);
+  }, [nameSlug, normalizedCountry]);
   const siblingPlants = plantContexts
     .map((c) => c.plant)
     .filter((p): p is NonNullable<typeof p> => p != null);
   const names = loadNames();
-  const hubFreq =
-    hasMatches && normalized
-      ? aggregateCountryFrequencyForNameHub(normalized, names)
-      : new Map<string, number>();
-  const regionalRows = hasMatches
-    ? sortRegionalPlantRows(buildRegionalPlantRows(matches), hubFreq, lang)
-    : [];
-  const regionalRowsDisplay = prioritizeRegionalRows(
-    regionalRows,
-    normalizedCountry ?? undefined
-  );
   const globalHubCodes =
     hasMatches && normalized
       ? getNameHubCountryCodesSorted(normalized, names, lang)
       : [];
+  /** Single source for country preview, expand, and hub-scoped selector options. */
+  const countryMatches = globalHubCodes;
+  const countrySelectorOptions =
+    countryMatches.length > 0 ? countryMatches : countryOptions;
+  const filteredCountryMatches = normalizedCountry
+    ? countryMatches.filter((c) => c === normalizedCountry)
+    : countryMatches;
+
+  const hubFreq =
+    hasMatches && normalized
+      ? aggregateCountryFrequencyForNameHub(normalized, names)
+      : new Map<string, number>();
+  const regionalRowsSorted = hasMatches
+    ? sortRegionalPlantRows(buildRegionalPlantRows(matches), hubFreq, lang)
+    : [];
+  const plantsByCountry = new Map(
+    regionalRowsSorted.map((r) => [r.countryCode, r.plants])
+  );
+  /** Hub country order × plants tied to this name in that country (from matches; preserves ambiguity). */
+  const filteredCountryRows = filteredCountryMatches.map((countryCode) => ({
+    countryCode,
+    plants: plantsByCountry.get(countryCode) ?? [],
+  }));
+  const visibleRows = showAllCountries
+    ? filteredCountryRows
+    : filteredCountryRows.slice(0, 5);
+
   const useKeys = hasMatches ? aggregateUseKeys(plantContexts) : [];
 
   const primaryContext =
@@ -298,9 +307,6 @@ export function NameResult({
   const plantData = primaryMatch
     ? getPlantGlobalData(primaryMatch.plant_id, plantGlobalOpts)
     : { countries: [] as string[], names: [] };
-  const plantCountries = plantData.countries;
-  const quickCountryRows = plantCountries.slice(0, 5);
-
   const humanUseLabels = Array.from(
     new Set(useKeys.map((k) => formatHumanUseKey(lang, k)).filter(Boolean))
   );
@@ -322,9 +328,8 @@ export function NameResult({
           </h1>
 
           {(() => {
-            const { plant, plant_id: primaryPid, isPlaceholder } = primaryMatch;
+            const { plant, isPlaceholder } = primaryMatch;
             const isGhost = Boolean(plant?.isGhost);
-            const countriesOrdered = getPlantCountryCodesSorted(primaryPid, names, lang);
             const globalNames = plantData.names;
             const visibleNames = globalNames.slice(0, MAX_VISIBLE_NAMES);
             const hiddenNames = globalNames.slice(MAX_VISIBLE_NAMES);
@@ -376,13 +381,6 @@ export function NameResult({
                     <ConfidenceTooltipExplainer lang={lang} />
                   </div>
                 )}
-
-                {countriesOrdered.length > 0 ? (
-                  <p className="mt-4 text-sm text-stone-700 dark:text-stone-300">
-                    <strong>{t(lang, "common_in")}</strong>{" "}
-                    {joinCountryNames(countriesOrdered, lang)}
-                  </p>
-                ) : null}
 
                 {visibleNames.length > 0 ? (
                   <div className="mt-4 text-sm text-stone-700 dark:text-stone-300">
@@ -529,67 +527,100 @@ export function NameResult({
         </header>
       ) : null}
 
-      {hasMatches && primaryMatch && quickCountryRows.length > 0 ? (
+      {hasMatches && primaryMatch ? (
         <section
-          className="quick-country-block mt-8 rounded-xl border border-stone-200/90 bg-stone-50/90 px-4 py-4 dark:border-stone-700 dark:bg-stone-900/50"
-          aria-labelledby="quick-country-heading"
+          className="country-breakdown mt-8 rounded-xl border border-stone-200/90 bg-stone-50/90 px-4 py-5 dark:border-stone-700 dark:bg-stone-900/50"
+          aria-labelledby="country-breakdown-heading"
         >
-          <h2 id="quick-country-heading" className="sr-only">
-            {lang === "es" ? "Respuestas por país" : "Quick country answers"}
+          <h2
+            id="country-breakdown-heading"
+            className="font-serif text-lg font-semibold tracking-tight text-stone-900 dark:text-stone-100"
+          >
+            {t(lang, "name_country_breakdown_h2")}
           </h2>
-          <div className="space-y-2 text-sm text-stone-800 dark:text-stone-200">
-            {quickCountryRows.map((countryCode) => {
-              const label = getCountryDisplayName(countryCode, lang);
-              return (
-                <p key={countryCode}>
-                  <span className="font-medium">{label}</span>
-                  <span className="text-stone-400 dark:text-stone-500"> → </span>
-                  <Link
-                    href={`${localePath(lang, `/name/${nameSlug}`)}?country=${encodeURIComponent(countryCode)}`}
-                    className="text-flora-forest underline decoration-stone-300 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-300"
-                  >
-                    {primaryMatch.plant?.scientific_name ??
-                      t(lang, "plant_placeholder_title")}
-                  </Link>
-                </p>
-              );
-            })}
-          </div>
-          <p className="mt-3">
-            <a
-              href="#country-resolution"
-              className="text-sm font-medium text-flora-forest underline decoration-stone-300 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-300"
-            >
-              {lang === "es"
-                ? "Ver desglose completo por país"
-                : "View full country breakdown"}
-            </a>
-          </p>
-        </section>
-      ) : null}
-
-      {hasMatches ? (
-        <div id="country-resolution" className="mt-8 scroll-mt-20 space-y-4">
           <CountryContextSelector
             lang={lang}
             slug={nameSlug}
             value={normalizedCountry ?? undefined}
-            options={countryOptions}
+            options={countrySelectorOptions}
+            wrapperClassName="mt-4 rounded-2xl border border-stone-200 bg-flora-sage/35 px-4 py-4 dark:border-stone-700 dark:bg-stone-900/50"
           />
           {normalized && normalized !== inputName ? (
-            <p className="text-sm text-stone-500 dark:text-stone-400">
+            <p className="mt-3 text-sm text-stone-500 dark:text-stone-400">
               {t(lang, "name_spelling_match")} {normalized}
             </p>
           ) : null}
           {variantNotice ? (
-            <p className="rounded-xl border border-amber-200/80 bg-amber-50/80 px-3 py-2 text-sm text-amber-950 dark:border-amber-800/50 dark:bg-amber-950/30 dark:text-amber-100">
+            <p className="mt-3 rounded-xl border border-amber-200/80 bg-amber-50/80 px-3 py-2 text-sm text-amber-950 dark:border-amber-800/50 dark:bg-amber-950/30 dark:text-amber-100">
               {ti(lang, "name_variant_notice", {
                 variant: variantNotice.variant,
                 canonical: variantNotice.canonical,
               })}
             </p>
           ) : null}
-        </div>
+          {visibleRows.length > 0 ? (
+            <div className="mt-4 text-sm text-stone-800 dark:text-stone-200">
+              {visibleRows.map(({ countryCode, plants }) => (
+                <div key={countryCode} className="country-row mb-3 last:mb-0">
+                  <div className="country-name font-semibold text-stone-900 dark:text-stone-100">
+                    <Link
+                      href={`${localePath(lang, `/name/${nameSlug}`)}?country=${encodeURIComponent(countryCode)}`}
+                      className="text-flora-forest underline decoration-stone-300 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-300"
+                    >
+                      {getCountryDisplayName(countryCode, lang)}
+                    </Link>
+                  </div>
+                  <div className="country-plants ml-3 mt-1 flex flex-wrap gap-2">
+                    {plants.length === 0 ? (
+                      <span className="text-stone-500 dark:text-stone-400">—</span>
+                    ) : (
+                      plants.map((plant) =>
+                        isPlaceholderPlant(plant) ? (
+                          <span
+                            key={plant.id}
+                            className="italic text-stone-600 dark:text-stone-400"
+                          >
+                            {t(lang, "plant_placeholder_title")}
+                          </span>
+                        ) : (
+                          <Link
+                            key={plant.id}
+                            href={localePath(lang, `/plant/${plant.id}`)}
+                            className="italic text-flora-forest underline decoration-stone-300 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-300"
+                          >
+                            {plant.scientific_name}
+                          </Link>
+                        )
+                      )
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+          ) : null}
+          {!normalizedCountry && filteredCountryRows.length > 5 && !showAllCountries ? (
+            <p className="mt-3">
+              <button
+                type="button"
+                onClick={() => setShowAllCountries(true)}
+                className="text-sm font-medium text-flora-forest underline decoration-stone-300 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-300"
+              >
+                {t(lang, "name_country_breakdown_view_full")}
+              </button>
+            </p>
+          ) : null}
+          {showAllCountries && !normalizedCountry && filteredCountryRows.length > 5 ? (
+            <p className="mt-3">
+              <button
+                type="button"
+                onClick={() => setShowAllCountries(false)}
+                className="text-sm font-medium text-flora-forest underline decoration-stone-300 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-300"
+              >
+                {t(lang, "name_country_breakdown_show_less")}
+              </button>
+            </p>
+          ) : null}
+        </section>
       ) : null}
 
       {!hasMatches ? (
@@ -648,28 +679,6 @@ export function NameResult({
           ambiguity={ambiguity}
           selectedCountry={normalizedCountry ?? undefined}
         />
-      ) : null}
-
-      {hasMatches ? (
-        <details className="mt-10 border-t border-stone-200 pt-8 dark:border-stone-800">
-          <summary className="cursor-pointer font-serif text-lg font-semibold tracking-tight text-stone-900 dark:text-stone-100">
-            {lang === "es" ? "Geografía" : "Geography"}
-          </summary>
-          <div className="mt-4">
-            <NameClusterRegional
-              lang={lang}
-              nameCanonicalSlug={nameSlug}
-              regionalRows={regionalRowsDisplay}
-              heading={ti(lang, "name_country_resolution_h2", { name: titleName })}
-              hideIntro
-            />
-            <NameHubCountryIndexSection
-              lang={lang}
-              nameCanonicalSlug={nameSlug}
-              countryCodesSorted={globalHubCodes}
-            />
-          </div>
-        </details>
       ) : null}
 
       {hasMatches ? (

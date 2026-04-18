@@ -304,6 +304,9 @@ const dictionary = {
     ambiguity_banner_medium:
       "This name may refer to more than one plant. Use region context and the differences highlighted below.",
     country_label: "Country",
+    name_country_breakdown_h2: "Country breakdown",
+    name_country_breakdown_view_full: "View full country breakdown",
+    name_country_breakdown_show_less: "Show fewer countries",
     country_all: "All countries",
     country_helper: "Select your country to see the most relevant plant for your region.",
     name_no_matches_title: "No plants found for this name.",
@@ -1057,6 +1060,9 @@ const dictionary = {
     ambiguity_banner_medium:
       "Este nombre puede referirse a más de una planta. Usa el contexto regional y las diferencias resaltadas abajo.",
     country_label: "País",
+    name_country_breakdown_h2: "Desglose por país",
+    name_country_breakdown_view_full: "Ver desglose completo por país",
+    name_country_breakdown_show_less: "Mostrar menos países",
     country_all: "Todos los países",
     country_helper: "Elige tu país para ver la planta más relevante para tu región.",
     name_no_matches_title: "No hay plantas para este nombre.",

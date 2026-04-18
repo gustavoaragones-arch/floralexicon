@@ -10,6 +10,8 @@ type CountryContextSelectorProps = {
   slug: string;
   value?: string;
   options: string[];
+  /** Outer wrapper classes (default includes top margin for standalone use). */
+  wrapperClassName?: string;
 };
 
 export function CountryContextSelector({
@@ -17,6 +19,7 @@ export function CountryContextSelector({
   slug,
   value,
   options,
+  wrapperClassName,
 }: CountryContextSelectorProps) {
   const router = useRouter();
   const [pending, startTransition] = useTransition();
@@ -24,7 +27,12 @@ export function CountryContextSelector({
   const hubPath = localePath(lang, `/name/${slug}`);
 
   return (
-    <div className="mt-8 rounded-2xl border border-stone-200 bg-flora-sage/35 px-4 py-4 dark:border-stone-700 dark:bg-stone-900/50">
+    <div
+      className={
+        wrapperClassName ??
+        "mt-8 rounded-2xl border border-stone-200 bg-flora-sage/35 px-4 py-4 dark:border-stone-700 dark:bg-stone-900/50"
+      }
+    >
       <label
         htmlFor="region-country"
         className="block text-xs font-medium uppercase tracking-wider text-stone-500 dark:text-stone-500"
