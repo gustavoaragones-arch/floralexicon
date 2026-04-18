@@ -1,15 +1,15 @@
 # Cross-country name authority report
 
-Generated: 2026-04-18T18:17:31.088Z
+Generated: 2026-04-18T19:03:05.962Z
 
 ## Summary
 
-- Name rows: **2081**
-- Plants (processed): **702**
-- Plants with ≥3 distinct countries (union names + plant regions): **150**
-- Name hubs where the same `normalized` slug maps to **>1** species: **135**
-- Orphan name rows (plant_id missing from processed plants): **0**
-- Country-level vs global dominant mismatches (rows): **18**
+- Name rows: **2373**
+- Plants (processed): **946**
+- Plants with ≥3 distinct countries (union names + plant regions): **157**
+- Name hubs where the same `normalized` slug maps to **>1** species: **161**
+- Orphan name rows (plant_id missing from processed plants): **66**
+- Country-level vs global dominant mismatches (rows): **0**
 
 ## Canonical scientific_name consistency
 
@@ -19,56 +19,56 @@ Generated: 2026-04-18T18:17:31.088Z
 
 | Rank | plant_id | countries | scientific_name |
 | ---: | --- | ---: | --- |
-| 1 | `matricaria_chamomilla` | 24 | Matricaria chamomilla L. |
-| 2 | `urtica_dioica` | 16 | Urtica dioica L. |
-| 3 | `asclepias_curassavica` | 13 | Asclepias curassavica L. |
-| 4 | `mentha_spicata` | 13 | Mentha spicata L. |
-| 5 | `ocimum_basilicum` | 13 | Ocimum basilicum L. |
-| 6 | `plantago_major` | 13 | Plantago major L. |
-| 7 | `ruta_graveolens` | 13 | Ruta graveolens L. |
-| 8 | `thymus_vulgaris` | 13 | Thymus vulgaris L. |
-| 9 | `melissa_officinalis` | 12 | Melissa officinalis L. |
-| 10 | `valeriana_officinalis` | 12 | Valeriana officinalis L. |
-| 11 | `bixa_orellana` | 11 | Bixa orellana L. |
-| 12 | `curatella_americana` | 11 | Curatella americana |
-| 13 | `mentha_x` | 11 | Mentha x piperita |
-| 14 | `psidium_guajava` | 11 | Psidium guajava L. |
-| 15 | `salvia_rosmarinus` | 11 | Salvia rosmarinus L. |
-| 16 | `sambucus_nigra` | 11 | Sambucus nigra L. |
-| 17 | `taraxacum_officinale` | 11 | Taraxacum officinale G. H. Weber ex Wigg. |
-| 18 | `bidens_pilosa` | 10 | Bidens pilosa L. |
-| 19 | `chaptalia_nutans` | 10 | Chaptalia nutans |
-| 20 | `cymbopogon_citratus` | 9 | Cymbopogon citratus (DC.) Stapf |
-| 21 | `equisetum_arvense` | 9 | Equisetum arvense L. |
-| 22 | `xanthosoma_violaceum` | 9 | Xanthosoma violaceum |
-| 23 | `alibertia_edulis` | 8 | Alibertia edulis |
-| 24 | `aloe_vera` | 8 | Aloe vera (L.) Burm. f. |
-| 25 | `artemisia_absinthium` | 8 | Artemisia absinthium L. |
-| 26 | `bursera_simaruba` | 8 | Bursera simaruba (L.) Sarg. |
-| 27 | `byrsonima_crassifolia` | 8 | Byrsonima crassifolia (L.) Kunth |
-| 28 | `erythrina_berteroana` | 8 | Erythrina berteroana |
-| 29 | `hypericum_perforatum` | 8 | Hypericum perforatum L. |
-| 30 | `mentha_piperita` | 8 | Mentha piperita L. |
-| 31 | `momordica_charantia` | 8 | Momordica charantia L. |
-| 32 | `petiveria_alliacea` | 8 | Petiveria alliacea L. |
-| 33 | `peumus_boldus` | 8 | Peumus boldus Molina. |
-| 34 | `salvia_officinalis` | 8 | Salvia officinalis L. |
-| 35 | `aloysia_citrodora` | 7 | Aloysia citrodora Paláu |
-| 36 | `anacardium_occidentale` | 7 | Anacardium occidentale |
-| 37 | `arnica_montana` | 7 | Arnica montana L. |
-| 38 | `baccharis_trinervis` | 7 | Baccharis trinervis |
-| 39 | `carica_papaya` | 7 | Carica papaya L. |
-| 40 | `cassia_grandis` | 7 | Cassia grandis |
-| 41 | `foeniculum_vulgare` | 7 | Foeniculum vulgare Mill. |
-| 42 | `justicia_pectoralis` | 7 | Justicia pectoralis Jacq. |
-| 43 | `matricaria_recutita` | 7 | Matricaria recutita L. |
-| 44 | `plantago_lanceolata` | 7 | Plantago lanceolata |
-| 45 | `vernonanthura_patens` | 7 | Vernonanthura patens |
-| 46 | `achillea_millefolium` | 6 | Achillea millefolium L. |
-| 47 | `bromelia_pinguin` | 6 | Bromelia pinguin |
-| 48 | `calea_urticifolia` | 6 | Calea urticifolia |
-| 49 | `calendula_officinalis` | 6 | Calendula officinalis L. |
-| 50 | `cecropia_peltata` | 6 | Cecropia peltata L. |
+| 1 | `matricaria_chamomilla` | 25 | Matricaria chamomilla L. |
+| 2 | `urtica_dioica` | 18 | Urtica dioica L. |
+| 3 | `thymus_vulgaris` | 15 | Thymus vulgaris L. |
+| 4 | `mentha_spicata` | 14 | Mentha spicata L. |
+| 5 | `ocimum_basilicum` | 14 | Ocimum basilicum L. |
+| 6 | `plantago_major` | 14 | Plantago major L. |
+| 7 | `valeriana_officinalis` | 14 | Valeriana officinalis L. |
+| 8 | `asclepias_curassavica` | 13 | Asclepias curassavica L. |
+| 9 | `melissa_officinalis` | 13 | Melissa officinalis L. |
+| 10 | `mentha_x` | 13 | Mentha x piperita |
+| 11 | `ruta_graveolens` | 13 | Ruta graveolens L. |
+| 12 | `sambucus_nigra` | 13 | Sambucus nigra L. |
+| 13 | `taraxacum_officinale` | 13 | Taraxacum officinale F.H.Wigg. |
+| 14 | `equisetum_arvense` | 12 | Equisetum arvense L. |
+| 15 | `salvia_rosmarinus` | 12 | Salvia rosmarinus L. |
+| 16 | `bixa_orellana` | 11 | Bixa orellana L. |
+| 17 | `curatella_americana` | 11 | Curatella americana |
+| 18 | `psidium_guajava` | 11 | Psidium guajava L. |
+| 19 | `salvia_officinalis` | 11 | Salvia officinalis L. |
+| 20 | `artemisia_absinthium` | 10 | Artemisia absinthium L. |
+| 21 | `bidens_pilosa` | 10 | Bidens pilosa L. |
+| 22 | `chaptalia_nutans` | 10 | Chaptalia nutans |
+| 23 | `hypericum_perforatum` | 10 | Hypericum perforatum L. |
+| 24 | `cymbopogon_citratus` | 9 | Cymbopogon citratus (DC.) Stapf |
+| 25 | `mentha_piperita` | 9 | Mentha piperita |
+| 26 | `xanthosoma_violaceum` | 9 | Xanthosoma violaceum |
+| 27 | `achillea_millefolium` | 8 | Achillea millefolium L. |
+| 28 | `alibertia_edulis` | 8 | Alibertia edulis |
+| 29 | `aloe_vera` | 8 | Aloe vera (L.) Burm. f. |
+| 30 | `arnica_montana` | 8 | Arnica montana L. |
+| 31 | `bursera_simaruba` | 8 | Bursera simaruba |
+| 32 | `byrsonima_crassifolia` | 8 | Byrsonima crassifolia (L.) Kunth |
+| 33 | `erythrina_berteroana` | 8 | Erythrina berteroana |
+| 34 | `foeniculum_vulgare` | 8 | Foeniculum vulgare Mill. |
+| 35 | `lavandula_angustifolia` | 8 | Lavandula angustifolia Mill. |
+| 36 | `matricaria_recutita` | 8 | Matricaria recutita L. |
+| 37 | `momordica_charantia` | 8 | Momordica charantia L. |
+| 38 | `petiveria_alliacea` | 8 | Petiveria alliacea L. |
+| 39 | `peumus_boldus` | 8 | Peumus boldus Molina |
+| 40 | `aloysia_citrodora` | 7 | Aloysia citrodora Palau |
+| 41 | `anacardium_occidentale` | 7 | Anacardium occidentale |
+| 42 | `baccharis_trinervis` | 7 | Baccharis trinervis |
+| 43 | `calendula_officinalis` | 7 | Calendula officinalis L. |
+| 44 | `carica_papaya` | 7 | Carica papaya L. |
+| 45 | `cassia_grandis` | 7 | Cassia grandis |
+| 46 | `juniperus_communis` | 7 | Juniperus communis L. |
+| 47 | `justicia_pectoralis` | 7 | Justicia pectoralis |
+| 48 | `plantago_lanceolata` | 7 | Plantago lanceolata |
+| 49 | `vernonanthura_patens` | 7 | Vernonanthura patens |
+| 50 | `bromelia_pinguin` | 6 | Bromelia pinguin |
 
 ## Top mismatches between global dominant vs regional dominant
 
@@ -78,44 +78,12 @@ For each plant with ≥3 countries, the **global** dominant label is the hub wit
 
 | plant_id | mismatching countries |
 | --- | ---: |
-| `achillea_millefolium` | 2 |
-| `juniperus_communis` | 2 |
-| `urtica_dioica` | 2 |
-| `althaea_officinalis` | 1 |
-| `arctium_lappa` | 1 |
-| `betula_pendula` | 1 |
-| `borago_officinalis` | 1 |
-| `cichorium_intybus` | 1 |
-| `datura_stramonium` | 1 |
-| `mentha_x` | 1 |
-| `plantago_major` | 1 |
-| `portulaca_oleracea` | 1 |
-| `rosa_canina` | 1 |
-| `sambucus_nigra` | 1 |
-| `vaccinium_myrtillus` | 1 |
+| _(none)_ | 0 |
 
 ### Sample rows (first 40)
 
-| plant_id | country | global label | regional label |
-| --- | --- | --- | --- |
-| `achillea_millefolium` | BG | Yarrow | Common yarrow |
-| `achillea_millefolium` | RO | Yarrow | Duodela |
-| `althaea_officinalis` | RO | Altea | malva |
-| `arctium_lappa` | RO | Čičak | Riborasta |
-| `betula_pendula` | CZ | Berk | bříza bělokorá |
-| `borago_officinalis` | RO | Borage | borange |
-| `cichorium_intybus` | CZ | Chicory | cikorie |
-| `datura_stramonium` | RO | Kieri | Salia |
-| `juniperus_communis` | BG | Enebro | Common juniper |
-| `juniperus_communis` | CZ | Enebro | břín |
-| `mentha_x` | RO | Нане | Tendila |
-| `plantago_major` | BG | Lantén | Broadleaf plantain |
-| `portulaca_oleracea` | RO | Verdolaga | Iaca |
-| `rosa_canina` | CZ | Dog rose | merhelec |
-| `sambucus_nigra` | CZ | Hyld | bezinky |
-| `urtica_dioica` | CZ | Nettle | žihavka |
-| `urtica_dioica` | RO | Nettle | Dyn |
-| `vaccinium_myrtillus` | CZ | Arándano | černá jahoda |
+_No mismatches: for every country on multi-country plants, the regional dominant label matches the global dominant._
+
 
 ## Same common-name hub → different species (conflicts)
 
@@ -123,51 +91,70 @@ These hubs intentionally keep multiple rows (disambiguation in UI). Listed for Q
 
 | normalized | example label | #species | scientific_names |
 | --- | --- | ---: | --- |
-| `salvia` | Salvia | 6 | Buddleia americana; Callicarpa acuminata; Lippia alba (Mill.) N.E. Br. ex Britton & P. Wilson; Pluchea carolinensis (Jacq.) G. Don; Salvia leucantha Cav.; Salvia officinalis L. |
-| `insulina` | Insulina | 5 | Costus igneus Nak.; Costus pictus; Justicia secunda; Justicia spicigera Schlechtendal; Piper auritum Kunth |
+| `salvia` | Salvia | 6 | Buddleia americana; Callicarpa acuminata; Lippia alba (Mill.) N.E. Br. ex Britton & P. Wilson; Pluchea carolinensis; Salvia leucantha Cav.; Salvia officinalis L. |
+| `arnica` | arnica | 5 | arnica_chamissonis; arnica_cordifolia; Arnica montana L.; Chaptalia nutans; Tithonia diversifolia (Hemsl.) A. Gray |
+| `insulina` | Insulina | 5 | Costus igneus; Costus pictus; Justicia secunda; Justicia spicigera; Piper auritum Kunth |
 | `oregano` | Orégano | 5 | Lippia alba (Mill.) N.E. Br. ex Britton & P. Wilson; Lippia graveolens; Lippia micromera; Origanum vulgare subsp. hirtum; Plectranthus amboinicus (Lour.) Spreng. |
 | `santa_maria` | Santa María | 5 | Baccharis trinervis; Lippia alba (Mill.) N.E. Br. ex Britton & P. Wilson; Piper auritum Kunth; Pluchea odorata (L.) Cass.; Vernonanthura patens |
-| `amargon` | Amargón | 4 | Calea urticifolia; Chaptalia nutans; Sonchus oleraceus; Taraxacum officinale G. H. Weber ex Wigg. |
+| `amargon` | Amargón | 4 | Calea urticifolia; Chaptalia nutans; Sonchus oleraceus; Taraxacum officinale F.H.Wigg. |
 | `cadillo` | Cadillo | 4 | Acaena magellanica; Bidens pilosa L.; Commelina erecta; Xanthium cavanillesii |
 | `lengua_de_vaca` | Lengua de vaca | 4 | Baccharis trinervis; Chaptalia nutans; Curatella americana; Rumex conglomeratus |
-| `malva` | malva | 4 | Althaea officinalis; Malva parviflora; Malva sylvestris L.; Malvaviscus arboreus Cav. |
+| `malva` | malva | 4 | Althaea officinalis; Malva parviflora; Malva sylvestris L.; Malvaviscus arboreus |
 | `molle` | Molle | 4 | Lithraea molleoides; Schinus areira; Schinus molle L.; Schinus terebinthifolius |
-| `quina` | Quina | 4 | Cinchona officinalis L.; Cinchona pubescens; Coutarea hexandra; Quassia amara |
-| `suelda_con_suelda` | Suelda con suelda | 4 | Anredera vesicaria; Commelina erecta; Psittacanthus calyculatus; Symphytum officinale L. |
+| `quina` | Quina | 4 | Cinchona officinalis; Cinchona pubescens; Coutarea hexandra; Quassia amara |
+| `suelda_con_suelda` | Suelda con suelda | 4 | Anredera vesicaria; Commelina erecta; Psittacanthus calyculatus; Symphytum officinale |
 | `una_de_gato` | Uña de gato | 4 | Celtis iguanaea; Martynia annua; Mulinum spinosum; Uncaria tomentosa |
 | `valeriana` | Valeriana | 4 | Chaptalia nutans; Chrysopogon zizanioides; Momordica charantia L.; Valeriana officinalis L. |
-| `verbena` | Verbena | 4 | Scoparia dulcis; Verbena litoralis; Verbena littoralis; Verbena officinalis L. |
+| `verbena` | Verbena | 4 | Scoparia dulcis; Verbena litoralis; Verbena littoralis; Verbena officinalis |
 | `altamiz` | Altamiz | 3 | Ambrosia cumanensis; Ambrosia peruviana; Parthenium hysterophorus L. |
-| `amapola` | Amapola | 3 | Hibiscus rosa-sinensis L.; Malvaviscus arboreus Cav.; Papaver rhoeas L. |
-| `arnica` | Árnica | 3 | Arnica montana L.; Chaptalia nutans; Tithonia diversifolia (Hemsl.) A. Gray |
+| `amapola` | Amapola | 3 | Hibiscus rosa-sinensis L.; Malvaviscus arboreus; Papaver rhoeas |
 | `aromo` | Aromo | 3 | Acacia aroma; Acacia caven; Acacia farnesiana (L.) Willd. |
 | `artemisa` | Artemisa | 3 | Ambrosia cumanensis; Chrysanthemum parthenium (L.) Bernh.; Tanacetum parthenium (L.) Sch. Bip. |
 | `bailahuen` | Bailahuén | 3 | Haplopappus bailahuen; Haplopappus rigidus; Haplopappus spp. |
+| `bee_balm` | bee balm | 3 | monarda_didyma; monarda_fistulosa; monarda_punctata |
 | `cabello_de_angel` | Cabello de ángel | 3 | Cuscuta americana L.; Cuscuta chilensis; Tillandsia usneoides |
-| `cedron` | Cedrón | 3 | Aloysia citriodora; Aloysia citrodora Paláu; Aloysia triphylla (L'Hér.) Britton |
+| `cactus` | cactus | 3 | cylindropuntia_spp; echinocereus_spp; opuntia_spp |
+| `cedron` | Cedrón | 3 | Aloysia citriodora; Aloysia citrodora Palau; Aloysia triphylla (L'Hér.) Britton |
 | `cola_de_caballo` | Cola de Caballo | 3 | Equisetum arvense L.; Equisetum bogotense; Equisetum giganteum |
 | `contrayerba` | Contrayerba | 3 | Dorstenia brasiliensis; Dorstenia contrajerva; Flaveria bidentis |
+| `dogwood` | dogwood | 3 | cornus_florida; Cornus sericea; cornus_spp |
+| `echinacea` | Echinacea | 3 | Echinacea angustifolia; Echinacea pallida; Echinacea purpurea |
+| `evening_primrose` | evening primrose | 3 | oenothera_biennis; oenothera_caespitosa; oenothera_speciosa |
+| `ginseng` | ginseng | 3 | eleutherococcus_senticosus; panax_ginseng; Panax quinquefolius |
+| `goldenrod` | Goldenrod | 3 | Solidago canadensis; Solidago odora; solidago_speciosa |
 | `guaco` | Guaco | 3 | Aristolochia maxima; Cissampelos pareira L.; Mikania periplocifolia |
 | `hierba_del_cancer` | Hierba del cáncer | 3 | Acalypha arvensis; Cuphea aequipetala Cav.; Hamelia patens Jacq. |
 | `hierba_dulce` | Hierba dulce | 3 | Calceolaria thyrsiflora; Phyla dulcis; Stevia rebaudiana Bertoni |
-| `hierba_luisa` | Hierba luisa | 3 | Aloysia citriodora; Aloysia citrodora Paláu; Aloysia triphylla (L'Hér.) Britton |
+| `hierba_luisa` | Hierba luisa | 3 | Aloysia citriodora; Aloysia citrodora Palau; Aloysia triphylla (L'Hér.) Britton |
 | `hoja_blanca` | Hoja Blanca | 3 | Buddleia americana; Buddleja americana; Calathea lutea |
+| `juniper` | juniper | 3 | Juniperus communis L.; juniperus_monosperma; juniperus_virginiana |
 | `matricaria` | Matricaria | 3 | Matricaria chamomilla L.; Matricaria recutita L.; Tanacetum parthenium (L.) Sch. Bip. |
-| `menta` | Menta | 3 | Mentha piperita L.; Mentha spicata L.; Mentha x piperita |
+| `menta` | Menta | 3 | Mentha piperita; Mentha spicata L.; Mentha x piperita |
+| `milkweed` | milkweed | 3 | asclepias_incarnata; asclepias_syriaca; asclepias_tuberosa |
+| `mint` | mint | 3 | Mentha arvensis; Mentha spicata L.; Mentha x piperita |
+| `mountain_mint` | mountain mint | 3 | pycnanthemum_muticum; pycnanthemum_tenuifolium; pycnanthemum_virginianum |
+| `oak` | oak | 3 | quercus_alba; quercus_rubra; quercus_spp |
 | `ortiga` | Ortiga | 3 | Urera baccifera (L.) Gaudich. ex Wedd.; Urtica dioica L.; Urtica urens |
 | `paico` | Paico | 3 | Chenopodium ambrosioides; Chenopodium chilense; Dysphania ambrosioides (L.) Mosyakin & Clemants |
 | `palo_santo` | Palo santo | 3 | Bulnesia sarmientoi; Bursera graveolens; Erythrina fusca |
-| `pasiflora` | Pasiflora | 3 | Passiflora caerulea; Passiflora edulis Sims; Passiflora quadrangularis |
+| `pasiflora` | Pasiflora | 3 | Passiflora caerulea; Passiflora edulis; Passiflora quadrangularis |
+| `peppermint` | Peppermint | 3 | Mentha × piperita; Mentha piperita; Mentha x piperita |
+| `pine` | pine | 3 | pinus_resinosa; pinus_spp; pinus_strobus |
 | `pingo_pingo` | Pingo pingo | 3 | Ephedra americana; Ephedra chilensis; Ephedra triandra |
 | `poleo` | Poleo | 3 | Lippia turbinata; Mentha pulegium L.; Mentha viridis L. |
+| `sage` | sage | 3 | salvia_apiana; salvia_columbariae; Salvia officinalis L. |
 | `sauco` | Sauco | 3 | Sambucus canadensis; Sambucus mexicana C. Presl ex DC.; Sambucus nigra L. |
+| `skullcap` | skullcap | 3 | scutellaria_baicalensis; scutellaria_incana; scutellaria_lateriflora |
+| `sumac` | sumac | 3 | rhus_glabra; rhus_trilobata; rhus_typhina |
 | `tepozan` | Tepozán | 3 | Buddleia americana; Buddleia cordata H.B.K.; Buddleja americana |
-| `tilo` | Tilo | 3 | Justicia pectoralis Jacq.; Tilia cordata Mill.; Tilia sp. |
+| `tilo` | Tilo | 3 | Justicia pectoralis; Tilia cordata Mill.; Tilia sp. |
+| `willow` | willow | 3 | salix_alba; salix_nigra; Salix spp. |
+| `yucca` | yucca | 3 | yucca_baccata; yucca_elata; yucca_glauca |
 | `zarzaparrilla` | Zarzaparrilla | 3 | Ribes cucullatum; Smilax sp.; Smilax spinosa |
 | `abrojo` | Abrojo | 2 | Xanthium cavanillesii; Xanthium spinosum |
 | `aceituno` | Aceituno | 2 | Simarouba amara; Simarouba glauca |
-| `achicoria_amarga` | Achicoria amarga | 2 | Cichorium intybus L.; Taraxacum officinale G. H. Weber ex Wigg. |
-| `albahaca` | Albahaca | 2 | Ocimum basilicum L.; Ocimum campechianum Mill. |
+| `achicoria_amarga` | Achicoria amarga | 2 | Cichorium intybus L.; Taraxacum officinale F.H.Wigg. |
+| `albahaca` | Albahaca | 2 | Ocimum basilicum L.; Ocimum campechianum |
 | `altamisa` | Altamisa | 2 | Ambrosia cumanensis; Parthenium hysterophorus L. |
 | `altamiza` | Altamiza | 2 | Artemisia sp.; Chrysanthemum parthenium (L.) Bernh. |
 | `ambaibo` | Ambaibo | 2 | Cecropia concolor; Cecropia pachystachya |
@@ -176,35 +163,16 @@ These hubs intentionally keep multiple rows (disambiguation in UI). Listed for Q
 | `arandano` | Arándano | 2 | Vaccinium macrocarpon Aiton.; Vaccinium myrtillus |
 | `arnica_del_pais` | Arnica del país | 2 | Chaptalia nutans; Heterotheca inuloides Cass. |
 | `artemisia` | Artemisia | 2 | Ambrosia cumanensis; Artemisia vulgaris |
-| `boldo` | Boldo | 2 | Peumus boldus Molina.; Plectranthus barbatus |
+| `bearberry` | bearberry | 2 | arctostaphylos_uva_ursi; Arctostaphylos uva-ursi |
+| `boldo` | Boldo | 2 | Peumus boldus Molina; Plectranthus barbatus |
+| `borsmenta` | borsmenta | 2 | Mentha piperita; Mentha x piperita |
 | `bretonica` | Bretónica | 2 | Chaptalia nutans; Lepechinia caulescens (Ort.) Epling |
 | `brusca` | Brusca | 2 | Cassia occidentalis L.; Senna occidentalis (L.) Link |
 | `calabaza` | Calabaza | 2 | Crescentia cujete; Cucurbita pepo |
 | `calaguala` | Calaguala | 2 | Phlebodium pseudoaureum (Cav.)
    Lellinger; Polypodium feuillei |
 | `cana_agria` | Caña agria | 2 | Costus pictus; Costus spicatus |
-| `caulote` | Caulote | 2 | Brugmansia sanguinea; Guazuma ulmifolia Lam. |
-| `cepa_caballo` | Cepa caballo | 2 | Acaena splendens; Xanthium spinosum |
-| `chamomile` | Chamomile | 2 | Chamomilla recutita; Matricaria chamomilla L. |
-| `chaparro` | Chaparro | 2 | Byrsonima crassifolia (L.) Kunth; Curatella americana |
-| `chaya` | Chaya | 2 | Cnidoscolus aconitifolius (Mill.) I.M. Johnst.; Cnidoscolus chayamansa McVaugh |
-| `chilca` | Chilca | 2 | Baccharis trinervis; Eupatorium buniifolium |
-| `contrahierba` | Contrahierba | 2 | Dorstenia contrajerba L.; Dorstenia contrajerva |
-| `coralillo` | Coralillo | 2 | Erythrina berteroana; Hamelia patens Jacq. |
-| `cresta_de_gallo` | Cresta de gallo | 2 | Erythrina berteroana; Senna occidentalis (L.) Link |
-| `cuajatinta` | Cuajatinta | 2 | Cordia bullata var. globosa; Cordia inermis |
-| `cuasia` | Cuasia | 2 | Picrasma crenata; Quassia amara |
-| `culantrillo` | Culantrillo | 2 | Adiantum capillus-veneris; Scoparia dulcis |
-| `diente_de_leon` | diente de león | 2 | Sonchus oleraceus; Taraxacum officinale G. H. Weber ex Wigg. |
-| `doradilla` | Doradilla | 2 | Selaginella convoluta (Arn.) Spring; Selaginella lepidophylla (Hook. & Grev.) Spring |
-| `epazote` | Epazote | 2 | Chenopodium ambrosioides; Dysphania ambrosioides (L.) Mosyakin & Clemants |
-| `eucalipto` | Eucalipto | 2 | Eucalyptus camaldulensis; Eucalyptus globulus |
-| `guacimo` | guácimo | 2 | Brugmansia sanguinea; Guazuma ulmifolia Lam. |
-| `guarumbo` | Guarumbo | 2 | Cecropia obtusifolia; Cecropia peltata L. |
-| `guarumo` | Guarumo | 2 | Cecropia obtusifolia; Cecropia peltata L. |
-| `hierba_de_erisipela` | Hierba de erisipela | 2 | Buddleja americana; Hamelia patens Jacq. |
-| `hierba_de_plata` | Hierba de Plata | 2 | Equisetum bogotense; Equisetum giganteum |
-| … | (55 more) | | |
+| … | (81 more) | | |
 
 ## Row fields (processed + bundled names)
 

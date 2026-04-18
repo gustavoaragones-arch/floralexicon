@@ -35,7 +35,7 @@ function sortForCountryMode(
 export type CountryModeNamePick = {
   primaryLocalName: string;
   alternativeLabels: string[];
-  /** True when at least one name row has non–`global_fallback` coverage for the country. */
+  /** True when at least one name row has explicit coverage for the country (excludes `global_fallback` only). */
   hasCountrySpecificRows: boolean;
 };
 

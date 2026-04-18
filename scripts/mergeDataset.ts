@@ -205,6 +205,8 @@ type NameAgg = {
   sources: Set<string>;
   /** Max ambiguity rank seen when merging sources (0 = low …). */
   ambiguityRank: number;
+  /** First-seen contributor language; `en` wins when multiple sources disagree. */
+  language?: string;
 };
 
 /** Name rows with no plant_id / plant_ids in source (merge continues; row not added to namesMap). */
@@ -332,6 +334,15 @@ function countriesFromDataRow(row: JsonRecord): string[] {
   const set = new Set<string>();
   for (const c of isoTokensFromField(row.country)) set.add(c);
   for (const c of isoTokensFromField(row.country_iso)) set.add(c);
+  if (Array.isArray(row.country_usage)) {
+    for (const cu of row.country_usage) {
+      if (!cu || typeof cu !== "object" || Array.isArray(cu)) continue;
+      const cc = (cu as JsonRecord).country;
+      if (typeof cc !== "string") continue;
+      const n = normalizeCountry(cc.trim());
+      if (n) set.add(n);
+    }
+  }
   return [...set];
 }
 
@@ -347,6 +358,23 @@ function coercePlantIdsFromRow(row: JsonRecord): string[] {
 function defaultCountryIsoForSource(base: string): string | null {
   if (base === "mexico_floralexicon.json") return "MX";
   return null;
+}
+
+function languageFromContributor(
+  prev: string | undefined,
+  rowSource: unknown
+): string | undefined {
+  if (!rowSource || typeof rowSource !== "object" || Array.isArray(rowSource)) {
+    return prev;
+  }
+  const row = rowSource as JsonRecord;
+  const raw = row.language;
+  if (typeof raw !== "string" || !raw.trim()) return prev;
+  const next = raw.trim().toLowerCase();
+  if (next === "en") return "en";
+  if (!prev) return next;
+  if (prev === "en") return "en";
+  return prev;
 }
 
 function mergeNameForPlant(
@@ -381,6 +409,7 @@ function mergeNameForPlant(
     if (c) agg.countries.add(c);
   }
   if (sourceFile?.trim()) agg.sources.add(sourceFile.trim());
+  agg.language = languageFromContributor(agg.language, rowAmbiguitySource);
 }
 
 // --- parsers ----------------------------------------------------------------
@@ -1066,7 +1095,7 @@ function writeOutputs(preMerge: PreMergeSnapshot) {
         normalized: normalizeName(name),
         plant_ids: [agg.plant_id],
         countries: Array.from(agg.countries).sort(),
-        language: "es",
+        language: agg.language ?? "es",
         ambiguity_level: ambiguityLevelFromRank(agg.ambiguityRank),
       };
     })

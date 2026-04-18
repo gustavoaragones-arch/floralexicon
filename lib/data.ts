@@ -47,7 +47,11 @@ export type CountryUsageSource =
   | "wikidata"
   | "paper"
   | "manual"
-  | "global_fallback";
+  | "global_fallback"
+  /** English (or global) label reused for a country outside primary Anglophone regions. */
+  | "global_reuse"
+  /** Regional / vernacular or non-English-primary name usage (default for migrated rows). */
+  | "local_ethnobotany";
 
 /** Per-country attachment for a name row; preferred over flat `countries`. */
 export type CountryUsage = {
@@ -221,6 +225,7 @@ export function nameEntryCountries(entry: NameEntry): string[] {
 /**
  * True when `countryIso` is tied to this row from real regional data, not a
  * synthetic `global_fallback` {@link CountryUsage} entry.
+ * {@link CountryUsageSource} values `global_reuse` and `local_ethnobotany` count as explicit.
  */
 export function nameEntryHasExplicitCountryCoverage(
   entry: NameEntry,
@@ -250,7 +255,9 @@ function parseCountryUsageSource(v: unknown): CountryUsageSource | undefined {
     v === "wikidata" ||
     v === "paper" ||
     v === "manual" ||
-    v === "global_fallback"
+    v === "global_fallback" ||
+    v === "global_reuse" ||
+    v === "local_ethnobotany"
   ) {
     return v;
   }

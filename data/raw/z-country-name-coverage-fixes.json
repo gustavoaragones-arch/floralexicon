@@ -1,0 +1,25 @@
+{
+  "plants": [],
+  "names": [
+    {
+      "name": "Peppermint",
+      "normalized": "peppermint",
+      "plant_ids": ["mentha_piperita"],
+      "language": "en",
+      "script": "latin",
+      "country_usage": [
+        { "country": "HU", "is_primary": true, "confidence": "high" }
+      ]
+    },
+    {
+      "name": "Rosemary",
+      "normalized": "rosemary",
+      "plant_ids": ["rosmarinus_officinalis"],
+      "language": "en",
+      "script": "latin",
+      "country_usage": [
+        { "country": "CA", "is_primary": true, "confidence": "high" }
+      ]
+    }
+  ]
+}

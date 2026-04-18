@@ -8,7 +8,8 @@
  *
  * Usage:
  *   npx tsx scripts/validate-country-name-coverage.ts
- *   npx tsx scripts/validate-country-name-coverage.ts --fix   # inject global_fallback for **missing** only
+ *   npm run ci:coverage   # same script; fails on missing or fallback-only pairs
+ *   npx tsx scripts/validate-country-name-coverage.ts --fix   # dev-only: inject global_fallback (still fails ci:coverage)
  */
 
 import * as fs from "fs";
@@ -27,9 +28,6 @@ const DATA_NAMES = path.join(ROOT, "data", "names.json");
 const AUDIT_DIR = path.join(ROOT, "data", "audit");
 const AUDIT_OUT = path.join(AUDIT_DIR, "missing-country-names.json");
 const PRIORITY_OUT = path.join(AUDIT_DIR, "country-enrichment-priority.json");
-
-/** Share of (plant,country) pairs that may be `global_fallback` before we warn. */
-const FALLBACK_WARN_RATIO = 0.15;
 
 type PlantRow = {
   id: string;
@@ -55,6 +53,8 @@ export type CoveragePairRow = {
   scientific_name?: string;
   country: string;
   status: CoverageStatus;
+  /** Distinct `country_usage.source` values on rows covering this pair (audit only). */
+  sources?: string[];
 };
 
 export type CoverageSummary = {
@@ -71,6 +71,55 @@ function rowHasCountry(name: NameRow, country: string): boolean {
 
 function rowCountryCount(name: NameRow): number {
   return nameEntryCountries(name as NameEntry).length;
+}
+
+function usageSourcesForPair(
+  plantId: string,
+  country: string,
+  names: NameRow[]
+): string[] {
+  const C = country.trim().toUpperCase();
+  const set = new Set<string>();
+  for (const n of names) {
+    if (!n.plant_ids.includes(plantId)) continue;
+    const u = n.country_usage;
+    if (!Array.isArray(u)) continue;
+    for (const cu of u) {
+      if (typeof cu.country !== "string") continue;
+      if (cu.country.trim().toUpperCase() !== C) continue;
+      const s = cu.source;
+      if (typeof s === "string" && s.trim()) set.add(s.trim());
+    }
+  }
+  return [...set].sort((a, b) => a.localeCompare(b));
+}
+
+/** Exclusive partition of an explicit (plant, country) pair by coarse source tag. */
+function explicitSourcePartition(
+  plantId: string,
+  country: string,
+  names: NameRow[]
+): "local_ethnobotany" | "global_reuse" | "other_explicit" {
+  const C = country.trim().toUpperCase();
+  const entries = names.filter(
+    (n) => n.plant_ids.includes(plantId) && rowHasCountry(n, C)
+  );
+  let hasLocal = false;
+  let hasReuse = false;
+  for (const n of entries) {
+    const u = n.country_usage;
+    if (!Array.isArray(u)) continue;
+    for (const cu of u) {
+      if (typeof cu.country !== "string" || cu.country.trim().toUpperCase() !== C) {
+        continue;
+      }
+      if (cu.source === "local_ethnobotany") hasLocal = true;
+      if (cu.source === "global_reuse") hasReuse = true;
+    }
+  }
+  if (hasLocal) return "local_ethnobotany";
+  if (hasReuse) return "global_reuse";
+  return "other_explicit";
 }
 
 function classifyPair(
@@ -122,11 +171,13 @@ function buildCoveragePairs(
       .filter(Boolean);
     for (const country of countries) {
       const status = classifyPair(pid, country, names);
+      const sources = usageSourcesForPair(pid, country, names);
       pairs.push({
         plant_id: pid,
         scientific_name: p.scientific_name,
         country,
         status,
+        ...(sources.length > 0 ? { sources } : {}),
       });
       if (status === "explicit") explicit++;
       else if (status === "fallback_only") fallback_only++;
@@ -206,7 +257,10 @@ function injectCoverage(
   return true;
 }
 
-function buildEnrichmentPriority(pairs: CoveragePairRow[]): {
+function buildEnrichmentPriority(
+  pairs: CoveragePairRow[],
+  names: NameRow[]
+): {
   plants_ranked_by_fallback_country_count: {
     plant_id: string;
     scientific_name?: string;
@@ -219,6 +273,13 @@ function buildEnrichmentPriority(pairs: CoveragePairRow[]): {
     fallback_only_pairs: number;
     missing_pairs: number;
     fallback_share_of_non_missing: number;
+  }[];
+  countries_coverage_by_source: {
+    country: string;
+    explicit: number;
+    global_reuse: number;
+    local_ethnobotany: number;
+    other_explicit: number;
   }[];
 } {
   const byPlant = new Map<
@@ -281,9 +342,48 @@ function buildEnrichmentPriority(pairs: CoveragePairRow[]): {
       return b.fallback_share_of_non_missing - a.fallback_share_of_non_missing;
     });
 
+  const sourceByCountry = new Map<
+    string,
+    {
+      explicit: number;
+      global_reuse: number;
+      local_ethnobotany: number;
+      other_explicit: number;
+    }
+  >();
+
+  for (const pr of pairs) {
+    if (pr.status !== "explicit") continue;
+    if (!sourceByCountry.has(pr.country)) {
+      sourceByCountry.set(pr.country, {
+        explicit: 0,
+        global_reuse: 0,
+        local_ethnobotany: 0,
+        other_explicit: 0,
+      });
+    }
+    const row = sourceByCountry.get(pr.country)!;
+    row.explicit++;
+    const part = explicitSourcePartition(pr.plant_id, pr.country, names);
+    if (part === "local_ethnobotany") row.local_ethnobotany++;
+    else if (part === "global_reuse") row.global_reuse++;
+    else row.other_explicit++;
+  }
+
+  const countries_coverage_by_source = [...sourceByCountry.entries()]
+    .map(([country, v]) => ({
+      country,
+      explicit: v.explicit,
+      global_reuse: v.global_reuse,
+      local_ethnobotany: v.local_ethnobotany,
+      other_explicit: v.other_explicit,
+    }))
+    .sort((a, b) => a.country.localeCompare(b.country));
+
   return {
     plants_ranked_by_fallback_country_count,
     countries_ranked_by_fallback_load,
+    countries_coverage_by_source,
   };
 }
 
@@ -313,7 +413,7 @@ function main() {
     ({ pairs, summary } = buildCoveragePairs(plants, names));
   }
 
-  const priority = buildEnrichmentPriority(pairs);
+  const priority = buildEnrichmentPriority(pairs, names);
 
   fs.mkdirSync(AUDIT_DIR, { recursive: true });
   fs.writeFileSync(
@@ -360,22 +460,20 @@ function main() {
     );
   }
 
-  const fallbackRatio =
-    summary.total_pairs > 0 ? summary.fallback_only / summary.total_pairs : 0;
-  if (fallbackRatio > FALLBACK_WARN_RATIO) {
-    console.warn(
-      `[validate-country-name-coverage] High fallback usage (${(fallbackRatio * 100).toFixed(1)}% of pairs are fallback_only, threshold ${(FALLBACK_WARN_RATIO * 100).toFixed(0)}%) — dataset quality may need enrichment.`
-    );
-  }
-
+  let failed = false;
   if (summary.missing > 0) {
     console.error(
-      fix
-        ? "Some (plant, country) pairs are still missing after --fix (no fallback target?)."
-        : "Validation failed: missing > 0. Run with --fix to inject global_fallback coverage, or enrich raw data."
+      "❌ Missing country coverage detected. Enrich raw inputs (see docs/data-quality.md)."
     );
-    process.exit(1);
+    failed = true;
   }
+  if (summary.fallback_only > 0) {
+    console.error(
+      "❌ Fallback-only coverage detected (not allowed). Remove global_fallback rows or add explicit coverage."
+    );
+    failed = true;
+  }
+  if (failed) process.exit(1);
 }
 
 main();

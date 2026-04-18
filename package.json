@@ -8,8 +8,10 @@
     "start": "next start",
     "lint": "next lint",
     "merge-dataset": "tsx scripts/mergeDataset.ts",
+    "normalize-raw-north-america": "tsx scripts/normalizeRawNorthAmerica.ts",
     "migrate-country-usage": "tsx scripts/migrate-countries-to-country-usage.ts",
     "validate-country-name-coverage": "tsx scripts/validate-country-name-coverage.ts",
+    "ci:coverage": "tsx scripts/validate-country-name-coverage.ts",
     "validate-country-name-coverage:fix": "tsx scripts/validate-country-name-coverage.ts --fix",
     "validate-raw": "tsx scripts/validateRawDataset.ts",
     "promote-raw": "tsx scripts/promoteStaging.ts",
@@ -24,7 +26,7 @@
     "audit-processed-duplicates": "tsx scripts/audit-processed-duplicates.ts",
     "fix-processed-duplicates": "tsx scripts/fix-processed-duplicates.ts",
     "suggest-mappings": "tsx scripts/suggest-name-mappings.ts",
-    "build-dataset": "npm run merge-dataset && npm run migrate-country-usage && npm run validate-country-name-coverage && npm run apply-cross-country-names && npm run apply-uses-taxonomy"
+    "build-dataset": "npm run merge-dataset && npm run migrate-country-usage && npm run ci:coverage && npm run apply-cross-country-names && npm run apply-uses-taxonomy"
   },
   "dependencies": {
     "next": "14.2.35",
