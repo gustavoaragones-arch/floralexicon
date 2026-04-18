@@ -1,0 +1,218 @@
+{
+  "country": "AR",
+  "version": "1.0",
+  "plants": [
+
+    {
+      "id": "aloysia_triphylla",
+      "scientific_name": "Aloysia triphylla",
+      "family": "Verbenaceae",
+      "common_names": ["Cedrón", "Hierba luisa"],
+      "uses": ["digestive", "sedative", "tea", "aromatic"],
+      "ambiguity": "low",
+      "notes": "Sometimes treated as Aloysia citrodora (synonym)"
+    },
+    {
+      "id": "baccharis_trimera",
+      "scientific_name": "Baccharis trimera",
+      "family": "Asteraceae",
+      "common_names": ["Carqueja", "Carquejilla"],
+      "uses": ["digestive", "hepatic", "detox"],
+      "ambiguity": "low"
+    },
+    {
+      "id": "chenopodium_ambrosioides",
+      "scientific_name": "Chenopodium ambrosioides",
+      "family": "Amaranthaceae",
+      "common_names": ["Paico"],
+      "uses": ["digestive", "antiparasitic"],
+      "ambiguity": "medium",
+      "notes": "Now often classified as Dysphania ambrosioides"
+    },
+    {
+      "id": "equisetum_giganteum",
+      "scientific_name": "Equisetum giganteum",
+      "family": "Equisetaceae",
+      "common_names": ["Cola de caballo"],
+      "uses": ["diuretic", "urinary"],
+      "ambiguity": "high",
+      "notes": "Confused with Equisetum bogotense in Chile"
+    },
+    {
+      "id": "lippia_alba",
+      "scientific_name": "Lippia alba",
+      "family": "Verbenaceae",
+      "common_names": ["Salvia", "Salvia blanca"],
+      "uses": ["sedative", "digestive"],
+      "ambiguity": "high",
+      "notes": "Name overlaps with Salvia officinalis globally"
+    },
+    {
+      "id": "tagetes_minuta",
+      "scientific_name": "Tagetes minuta",
+      "family": "Asteraceae",
+      "common_names": ["Chincho"],
+      "uses": ["digestive", "aromatic"],
+      "ambiguity": "low"
+    },
+
+    {
+      "id": "cecropia_pachystachya",
+      "scientific_name": "Cecropia pachystachya",
+      "family": "Urticaceae",
+      "common_names": ["Ambay"],
+      "uses": ["respiratory"],
+      "ambiguity": "low"
+    },
+    {
+      "id": "bidens_pilosa",
+      "scientific_name": "Bidens pilosa",
+      "family": "Asteraceae",
+      "common_names": ["Amor seco"],
+      "uses": ["wound_healing", "antiinflammatory"],
+      "ambiguity": "high",
+      "notes": "Different species in Chile share this name"
+    },
+    {
+      "id": "blepharocalyx_salicifolius",
+      "scientific_name": "Blepharocalyx salicifolius",
+      "family": "Myrtaceae",
+      "common_names": ["Anacahuita"],
+      "uses": ["respiratory", "medicinal"],
+      "ambiguity": "high",
+      "notes": "Different species in Mexico share same name"
+    },
+    {
+      "id": "anadenanthera_colubrina",
+      "scientific_name": "Anadenanthera colubrina",
+      "family": "Fabaceae",
+      "common_names": ["Cebil"],
+      "uses": ["ritual", "medicinal"],
+      "ambiguity": "low"
+    },
+
+    {
+      "id": "argemone_mexicana",
+      "scientific_name": "Argemone mexicana",
+      "family": "Papaveraceae",
+      "common_names": ["Cardo amarillo"],
+      "uses": ["medicinal"],
+      "ambiguity": "medium"
+    },
+    {
+      "id": "erodium_cicutarium",
+      "scientific_name": "Erodium cicutarium",
+      "family": "Geraniaceae",
+      "common_names": ["Alfilerillo"],
+      "uses": ["medicinal"],
+      "ambiguity": "low"
+    },
+    {
+      "id": "amaranthus_caudatus",
+      "scientific_name": "Amaranthus caudatus",
+      "family": "Amaranthaceae",
+      "common_names": ["Amaranto"],
+      "uses": ["culinary", "nutritional"],
+      "ambiguity": "medium"
+    },
+    {
+      "id": "eichhornia_crassipes",
+      "scientific_name": "Eichhornia crassipes",
+      "family": "Pontederiaceae",
+      "common_names": ["Camalote", "Aguapey"],
+      "uses": ["medicinal"],
+      "ambiguity": "low"
+    },
+    {
+      "id": "xanthium_spinosum",
+      "scientific_name": "Xanthium spinosum",
+      "family": "Asteraceae",
+      "common_names": ["Cepa caballo", "Abrojo chico"],
+      "uses": ["medicinal"],
+      "ambiguity": "high",
+      "notes": "Shares 'abrojo' with Xanthium cavanillesii"
+    },
+    {
+        "scientific_name": "Xanthium cavanillesii",
+        "family": "Asteraceae",
+        "country": "AR",
+        "common_names": ["Cadillo"],
+        "uses": ["medicinal", "traditional"],
+        "meta": { "source": "ethnobotany", "confidence": "low" }
+      },
+      
+        {
+          "scientific_name": "Flaveria bidentis",
+          "family": "Asteraceae",
+          "country": "AR",
+          "common_names": ["Contrayerba"],
+          "uses": ["medicinal", "traditional"],
+          "meta": { "source": "ethnobotany", "confidence": "low" }
+        },
+        {
+          "scientific_name": "Dorstenia contrajerva",
+          "family": "Moraceae",
+          "country": "AR",
+          "common_names": ["Contrayerba"],
+          "uses": ["medicinal", "traditional"],
+          "meta": { "source": "ethnobotany", "confidence": "low" }
+        },
+        
+          {
+            "scientific_name": "Berberis buxifolia",
+            "family": "Berberidaceae",
+            "country": "AR",
+            "common_names": ["Calafate", "Michay"],
+            "uses": ["medicinal", "culinary", "traditional"],
+            "meta": { "source": "ethnobotany", "confidence": "high" }
+          },
+          {
+            "scientific_name": "Schkuhria pinnata",
+            "family": "Asteraceae",
+            "country": "AR",
+            "common_names": ["Canchalagua"],
+            "uses": ["depurative", "febrifuge", "traditional"],
+            "meta": { "source": "ethnobotany", "confidence": "medium" }
+          },
+          {
+            "scientific_name": "Drimys winteri",
+            "family": "Winteraceae",
+            "country": "AR",
+            "common_names": ["Canelo"],
+            "uses": ["medicinal", "indigenous", "traditional"],
+            "meta": { "source": "ethnobotany", "confidence": "medium" }
+          },
+            {
+              "scientific_name": "Asclepias curassavica",
+              "family": "Apocynaceae",
+              "country": "AR",
+              "common_names": ["Bandera española"],
+              "uses": ["medicinal", "traditional"],
+              "meta": { "source": "ethnobotany", "confidence": "high" }
+            },
+            {
+              "scientific_name": "Aloysia polystachya",
+              "family": "Verbenaceae",
+              "country": "AR",
+              "common_names": ["Burrito"],
+              "uses": ["digestive", "tea", "traditional"],
+              "meta": { "source": "ethnobotany", "confidence": "high" }
+            },
+            {
+              "scientific_name": "Hypericum connatum",
+              "family": "Hypericaceae",
+              "country": "AR",
+              "common_names": ["Cabo toril"],
+              "uses": ["medicinal", "traditional"],
+              "meta": { "source": "ethnobotany", "confidence": "high" }
+            },
+            {
+              "scientific_name": "Acaena magellanica",
+              "family": "Rosaceae",
+              "country": "AR",
+              "common_names": ["Cadillo"],
+              "uses": ["medicinal", "traditional"],
+              "meta": { "source": "ethnobotany", "confidence": "medium" }
+            }
+    ]
+}

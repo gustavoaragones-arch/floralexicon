@@ -1,4 +1,9 @@
-import { plantNameHubSlug, type NameIndexLink, type Plant } from "@/lib/data";
+import {
+  plantNameHubSlug,
+  type NameIndexLink,
+  type Plant,
+  type UsesStructured,
+} from "@/lib/data";
 import { formatRegionList, joinCountryNames } from "@/lib/countries";
 import { formatHumanUseKey, MAX_VISIBLE_NAMES } from "@/lib/nameHubDisplay";
 import { PlantReferenceImage } from "@/components/PlantReferenceImage";
@@ -9,7 +14,64 @@ import {
 import { ConfidenceTooltipExplainer } from "@/components/ConfidenceTooltipExplainer";
 import { nameHubMatchWhyLine } from "@/lib/nameHubMatchWhyLine";
 import { localePath, ti, t, type Locale } from "@/lib/i18n";
+import { formatStructuredUseTagDisplay } from "@/lib/nameHubDisplay";
+import { getUsePath } from "@/lib/usePaths";
 import Link from "next/link";
+
+const STRUCTURED_USE_LINK_CLASS =
+  "font-medium text-flora-forest underline decoration-stone-300 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-400 dark:hover:decoration-emerald-400";
+
+const STRUCTURED_USE_BUCKETS: {
+  bucket: keyof UsesStructured;
+  labelKey:
+    | "uses_structured_medicinal"
+    | "uses_structured_culinary"
+    | "uses_structured_topical"
+    | "uses_structured_other";
+}[] = [
+  { bucket: "medicinal", labelKey: "uses_structured_medicinal" },
+  { bucket: "culinary", labelKey: "uses_structured_culinary" },
+  { bucket: "topical", labelKey: "uses_structured_topical" },
+  { bucket: "other", labelKey: "uses_structured_other" },
+];
+
+function StructuredUsesBrowseSection({
+  lang,
+  uses,
+}: {
+  lang: Locale;
+  uses: UsesStructured;
+}) {
+  const rows = STRUCTURED_USE_BUCKETS.map(({ bucket, labelKey }) => ({
+    bucket,
+    labelKey,
+    tags: uses[bucket],
+  })).filter((r) => r.tags.length > 0);
+  if (rows.length === 0) return null;
+  return (
+    <div className="mt-4 text-sm text-stone-700 dark:text-stone-300">
+      {rows.map(({ bucket, labelKey, tags }) => (
+        <div key={bucket} className="mt-3 first:mt-0">
+          <p className="font-semibold text-stone-800 dark:text-stone-200">
+            {t(lang, labelKey)}
+          </p>
+          <ul className="mt-2 list-disc space-y-1 pl-5">
+            {tags.slice(0, 3).map((tag) => (
+              <li key={`${bucket}-${tag}`}>
+                <Link
+                  href={localePath(lang, getUsePath(tag))}
+                  className={STRUCTURED_USE_LINK_CLASS}
+                >
+                  {formatStructuredUseTagDisplay(lang, tag)}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+  );
+}
 
 type PlantCardProps = {
   lang: Locale;
@@ -203,6 +265,7 @@ export function PlantCard({
           </p>
         ) : null}
         {commonNamesBlock}
+        <StructuredUsesBrowseSection lang={lang} uses={plant.uses_structured} />
       </article>
     );
   }
@@ -389,6 +452,8 @@ export function PlantCard({
           </div>
         ) : null}
 
+        <StructuredUsesBrowseSection lang={lang} uses={plant.uses_structured} />
+
         {humanUses.length > 0 ? (
           <div className="mt-4 text-sm text-stone-700 dark:text-stone-300">
             <p className="font-semibold text-stone-800 dark:text-stone-200">
@@ -539,6 +604,8 @@ export function PlantCard({
           ) : null}
         </div>
       ) : null}
+
+      <StructuredUsesBrowseSection lang={lang} uses={plant.uses_structured} />
 
       {commonCountries && commonCountries.length > 0 ? (
         <p className="mt-3 text-sm text-stone-600 dark:text-stone-400">

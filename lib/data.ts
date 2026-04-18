@@ -1,9 +1,18 @@
 import { countryCodeToUrlSlug } from "@/lib/countries";
 import { toUrlSlug } from "@/lib/toUrlSlug";
+import { slugifyUseTag } from "@/lib/usePaths";
 import nameVariantsJson from "@/data/nameVariants.json";
 import plantsJson from "@/data/plants.json";
 import namesJson from "@/data/names.json";
+import processedPlantsJson from "@/data/processed/plants.json";
 import plantsEnrichedJson from "@/data/enriched/plants.enriched.json";
+
+export type UsesStructured = {
+  medicinal: string[];
+  culinary: string[];
+  topical: string[];
+  other: string[];
+};
 
 export type Plant = {
   id: string;
@@ -14,6 +23,8 @@ export type Plant = {
   origin_regions: string[];
   plant_type: string;
   primary_uses: string[];
+  /** Derived from `data/processed/plants.json` keyword taxonomy (not merged into slim JSON). */
+  uses_structured: UsesStructured;
   /**
    * Synthetic plant built from `names.json` when this `id` is referenced but missing from `plants.json`.
    * Prefer {@link getPlantById} which returns ghosts automatically when name rows exist.
@@ -24,6 +35,11 @@ export type Plant = {
   /** True when a row exists in the enrichment file for this plant `id` (or slug from `scientific_name`). */
   is_enriched?: boolean;
 };
+
+export type PlantAuthorityTier = "standard" | "cross_regional" | "cosmopolitan";
+
+/** @deprecated Use {@link PlantAuthorityTier} */
+export type LexiconAuthorityTier = PlantAuthorityTier;
 
 export type NameEntry = {
   name: string;
@@ -38,6 +54,25 @@ export type NameEntry = {
   countries: string[];
   plant_ids: string[];
   ambiguity_level: string;
+  /** Hub width for this name row (same as `countries.length`; explicit for authority layer). */
+  name_country_count?: number;
+  /**
+   * Distinct countries for this species across the merged corpus (union of this plant’s
+   * regional rows and `plants.json` regions). Set by `applyCrossCountryNameAuthority.ts`.
+   */
+  plant_country_span?: number;
+  /** Plant-level geographic breadth tier (optional). */
+  plant_authority_tier?: PlantAuthorityTier;
+  /** @deprecated Renamed to {@link NameEntry.plant_authority_tier} */
+  lexicon_authority_tier?: PlantAuthorityTier;
+  /** True when this row is the global primary indexed label for the plant (widest hub). */
+  is_global_dominant_name?: boolean;
+  /** @deprecated Renamed to {@link NameEntry.is_global_dominant_name} */
+  dominant_common_name_for_plant?: boolean;
+  /** ISO codes where this row wins the per-plant, per-country dominant label rule. */
+  dominant_in_countries?: string[];
+  /** Other common-name labels indexed for the same plant (cross-country variants). */
+  plant_name_variants?: string[];
 };
 
 /** O(1) lookup by plant `id`. */
@@ -51,6 +86,70 @@ let indexesBuilt = false;
 
 /** Memoized synthetic plants for orphan `plant_id`s (see {@link buildGhostPlant}). */
 const ghostPlantCache = new Map<string, Plant>();
+
+export function emptyUsesStructured(): UsesStructured {
+  return { medicinal: [], culinary: [], topical: [], other: [] };
+}
+
+type ProcessedPlantRow = {
+  id?: string;
+  uses_structured?: Record<string, unknown>;
+};
+
+function coerceUsesStringArray(x: unknown): string[] {
+  if (!Array.isArray(x)) return [];
+  const out = x
+    .map((v) => String(v).trim().toLowerCase())
+    .filter(Boolean);
+  return [...new Set(out)].sort((a, b) => a.localeCompare(b));
+}
+
+function coerceUsesStructured(raw: unknown): UsesStructured {
+  if (!raw || typeof raw !== "object" || Array.isArray(raw)) {
+    return emptyUsesStructured();
+  }
+  const o = raw as Record<string, unknown>;
+  return {
+    medicinal: coerceUsesStringArray(o.medicinal),
+    culinary: coerceUsesStringArray(o.culinary),
+    topical: coerceUsesStringArray(o.topical),
+    other: coerceUsesStringArray(o.other),
+  };
+}
+
+function mergeUsesStructuredUnion(a: UsesStructured, b: UsesStructured): UsesStructured {
+  const u = (x: string[], y: string[]) =>
+    [...new Set([...x, ...y])].sort((p, q) => p.localeCompare(q));
+  return {
+    medicinal: u(a.medicinal, b.medicinal),
+    culinary: u(a.culinary, b.culinary),
+    topical: u(a.topical, b.topical),
+    other: u(a.other, b.other),
+  };
+}
+
+/**
+ * `data/processed/plants.json` may contain duplicate `id` rows; union tags so a later
+ * sparse row does not wipe `uses_structured` from an earlier row.
+ */
+function buildProcessedUsesStructuredById(): Map<string, UsesStructured> {
+  const m = new Map<string, UsesStructured>();
+  const rows = Array.isArray(processedPlantsJson) ? processedPlantsJson : [];
+  for (const row of rows) {
+    if (!row || typeof row !== "object") continue;
+    const id =
+      typeof (row as ProcessedPlantRow).id === "string"
+        ? (row as ProcessedPlantRow).id!.trim()
+        : "";
+    if (!id) continue;
+    const next = coerceUsesStructured((row as ProcessedPlantRow).uses_structured);
+    const prev = m.get(id);
+    m.set(id, prev ? mergeUsesStructuredUnion(prev, next) : next);
+  }
+  return m;
+}
+
+let processedUsesById = new Map<string, UsesStructured>();
 
 function clearGhostPlantCache(): void {
   ghostPlantCache.clear();
@@ -118,6 +217,46 @@ function coalesceNameRecord(raw: Record<string, unknown>): NameEntry | null {
       ? raw.ambiguity_level
       : "low";
 
+  const plant_country_span =
+    typeof raw.plant_country_span === "number" && Number.isFinite(raw.plant_country_span)
+      ? Math.max(0, Math.floor(raw.plant_country_span))
+      : undefined;
+
+  const name_country_count =
+    typeof raw.name_country_count === "number" && Number.isFinite(raw.name_country_count)
+      ? Math.max(0, Math.floor(raw.name_country_count))
+      : countries.length;
+
+  let plant_authority_tier: PlantAuthorityTier | undefined;
+  const tierNew = raw.plant_authority_tier;
+  const tierOld = raw.lexicon_authority_tier;
+  const tierRaw = tierNew ?? tierOld;
+  if (tierRaw === "standard" || tierRaw === "cross_regional" || tierRaw === "cosmopolitan") {
+    plant_authority_tier = tierRaw;
+  }
+
+  const is_global_dominant_name =
+    raw.is_global_dominant_name === true || raw.dominant_common_name_for_plant === true
+      ? true
+      : undefined;
+
+  let dominant_in_countries: string[] | undefined;
+  if (Array.isArray(raw.dominant_in_countries)) {
+    const ds = raw.dominant_in_countries
+      .map((x) => (typeof x === "string" ? x.trim().toUpperCase() : ""))
+      .filter(Boolean);
+    dominant_in_countries = [...new Set(ds)].sort((a, b) => a.localeCompare(b));
+    if (dominant_in_countries.length === 0) dominant_in_countries = undefined;
+  }
+
+  let plant_name_variants: string[] | undefined;
+  if (Array.isArray(raw.plant_name_variants)) {
+    const vs = raw.plant_name_variants
+      .map((x) => (typeof x === "string" ? x.trim() : ""))
+      .filter(Boolean);
+    if (vs.length > 0) plant_name_variants = [...new Set(vs)];
+  }
+
   return {
     name: raw.name,
     normalized: raw.normalized,
@@ -126,6 +265,12 @@ function coalesceNameRecord(raw: Record<string, unknown>): NameEntry | null {
     countries,
     plant_ids,
     ambiguity_level,
+    name_country_count,
+    ...(plant_country_span !== undefined ? { plant_country_span } : {}),
+    ...(plant_authority_tier ? { plant_authority_tier } : {}),
+    ...(is_global_dominant_name ? { is_global_dominant_name } : {}),
+    ...(dominant_in_countries ? { dominant_in_countries } : {}),
+    ...(plant_name_variants ? { plant_name_variants } : {}),
   };
 }
 
@@ -321,9 +466,17 @@ function ensureIndexes(): void {
   const rawNames = Array.isArray(namesJson) ? namesJson : [];
 
   enrichedByPlantId = buildEnrichedPlantById(loadEnrichedPlants());
+  processedUsesById = buildProcessedUsesStructuredById();
   plantsList = rawPlants
     .filter(isPlantRecord)
-    .map((p) => mergeEnrichedLayer(p as unknown as Plant));
+    .map((p) => {
+      const base = p as unknown as Plant;
+      const withStructured: Plant = {
+        ...base,
+        uses_structured: processedUsesById.get(base.id) ?? emptyUsesStructured(),
+      };
+      return mergeEnrichedLayer(withStructured);
+    });
   namesList = rawNames
     .map((x) =>
       x && typeof x === "object"
@@ -379,6 +532,7 @@ export function buildGhostPlant(plant_id: string): Plant {
     origin_regions: [],
     plant_type: "species",
     primary_uses: [],
+    uses_structured: processedUsesById.get(id) ?? emptyUsesStructured(),
     isGhost: true,
   };
 }
@@ -798,6 +952,21 @@ export function getCountryUrlSlugsForNameHub(nameCanonicalSlug: string): Set<str
 /**
  * Other plants in the slim index that share at least one `primary_uses` slug with `plant`.
  */
+/**
+ * Plants whose `uses_structured` lists include a leaf matching this URL slug
+ * (see {@link slugifyUseTag} / `data/taxonomy/uses.json`).
+ */
+export function getPlantsWithStructuredUseSlug(slug: string): Plant[] {
+  ensureIndexes();
+  const want = slug.trim().toLowerCase();
+  if (!want) return [];
+  return plantsList.filter((p) => {
+    const u = p.uses_structured;
+    const all = [...u.medicinal, ...u.culinary, ...u.topical, ...u.other];
+    return all.some((tag) => slugifyUseTag(tag) === want);
+  });
+}
+
 export function getPlantsSharingPrimaryUses(plant: Plant, limit = 14): Plant[] {
   ensureIndexes();
   const uses = new Set(

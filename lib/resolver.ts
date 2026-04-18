@@ -344,6 +344,29 @@ type ConfidenceParts = {
   name_dominance: number;
 };
 
+/**
+ * Curated boosts from `applyCrossCountryNameAuthority.ts` metadata.
+ * With a selected country: reward the row that is regionally dominant there.
+ * Without: reward cosmopolitan plant tier + global dominant label only (no blind cross_regional bump).
+ */
+function nameEntryCorpusBoost(entry: NameEntry, selectedCountry?: string): number {
+  const sel = selectedCountry?.trim().toUpperCase();
+  if (sel) {
+    const dom = entry.dominant_in_countries;
+    if (Array.isArray(dom) && dom.some((c) => c.trim().toUpperCase() === sel)) {
+      return 0.08;
+    }
+    return 0;
+  }
+  let b = 0;
+  const tier = entry.plant_authority_tier ?? entry.lexicon_authority_tier;
+  if (tier === "cosmopolitan") b += 0.05;
+  if (entry.is_global_dominant_name === true || entry.dominant_common_name_for_plant === true) {
+    b += 0.02;
+  }
+  return b;
+}
+
 function buildConfidenceByPlant(
   nameEntries: NameEntry[],
   selectedCountry?: string
@@ -439,10 +462,12 @@ function resolvePlantNameCore(
   const deduped = dedupeMatches(collected);
   const withConfidence: PlantNameMatch[] = deduped.map((m) => {
     const c = confidenceByPlant.get(m.plant_id);
+    const base = c?.confidence ?? 0;
+    const boosted = Math.min(1, base + nameEntryCorpusBoost(m.name_entry, country));
     return {
       ...m,
-      relevance_score: c?.confidence ?? 0,
-      confidence: c?.confidence ?? 0,
+      relevance_score: boosted,
+      confidence: boosted,
       global_agreement: c?.global_agreement ?? 0,
       regional_strength: c?.regional_strength ?? 0,
       name_dominance: c?.name_dominance ?? 0,

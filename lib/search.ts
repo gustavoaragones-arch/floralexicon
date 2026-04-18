@@ -1,4 +1,5 @@
 import {
+  emptyUsesStructured,
   normalizeString,
   resolveCanonicalNameKey,
   loadNames,
@@ -703,6 +704,7 @@ export function runDisambiguationSearch(
           origin_regions: [],
           plant_type: "",
           primary_uses: [],
+          uses_structured: emptyUsesStructured(),
         },
         intent,
         userCountry,

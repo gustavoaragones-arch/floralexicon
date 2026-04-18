@@ -14,8 +14,12 @@
     "layered-merge-north-america": "tsx scripts/layeredMergeNorthAmerica.ts",
     "layered-merge-spain": "tsx scripts/layeredMergeSpain.ts",
     "validate-dataset": "tsx scripts/validateDataset.ts",
+    "apply-cross-country-names": "tsx scripts/applyCrossCountryNameAuthority.ts",
+    "apply-uses-taxonomy": "tsx scripts/applyUsesTaxonomy.ts",
     "audit-names": "tsx scripts/audit-names.ts",
     "audit-limited": "tsx scripts/audit-limited-plants.ts",
+    "audit-processed-duplicates": "tsx scripts/audit-processed-duplicates.ts",
+    "fix-processed-duplicates": "tsx scripts/fix-processed-duplicates.ts",
     "suggest-mappings": "tsx scripts/suggest-name-mappings.ts"
   },
   "dependencies": {

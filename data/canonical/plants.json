@@ -81,7 +81,8 @@
       "AR"
     ],
     "uses": [
-      "medicinal"
+      "medicinal",
+      "traditional"
     ]
   },
   {
@@ -195,6 +196,8 @@
     "family": "Asteraceae",
     "names": [
       "Achillée millefeuille",
+      "Common yarrow",
+      "Duodela",
       "Milenrama",
       "Millefoglio",
       "Schafgarbe",
@@ -202,16 +205,47 @@
     ],
     "countries": [
       "AT",
+      "BG",
       "CL",
       "FR",
-      "IT"
+      "IT",
+      "RO"
+    ],
+    "uses": [
+      "analgesic",
+      "anti-inflammatory",
+      "antiasthmatic",
+      "antitussive",
+      "antiviral",
+      "appetite stimulant",
+      "cicatrizing",
+      "detoxifying",
+      "digestive",
+      "digestive diseases",
+      "gallbladder relief",
+      "hemorrhoids",
+      "liver diseases",
+      "medicinal",
+      "sedative",
+      "spasms",
+      "wounds"
+    ]
+  },
+  {
+    "id": "achillea_millefolium",
+    "scientific_name": "Achillea millefolium L.",
+    "family": "Asteraceae",
+    "names": [
+      "Common yarrow"
+    ],
+    "countries": [
+      "BG"
     ],
     "uses": [
       "anti-inflammatory",
-      "digestive",
-      "medicinal",
-      "spasms",
-      "wounds"
+      "digestive aid",
+      "hemostatic",
+      "wound healing"
     ]
   },
   {
@@ -265,6 +299,24 @@
     ]
   },
   {
+    "id": "acorus_calamus",
+    "scientific_name": "Acorus calamus",
+    "family": "Acoraceae",
+    "names": [
+      "pišišvor",
+      "puškvorec obecný"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "uses": [
+      "beverages",
+      "seasoning",
+      "spirits",
+      "syrups"
+    ]
+  },
+  {
     "id": "adiantum_capillusveneris",
     "scientific_name": "Adiantum capillus-veneris",
     "family": "Pteridaceae",
@@ -277,6 +329,22 @@
     "uses": [
       "cough",
       "respiratory"
+    ]
+  },
+  {
+    "id": "adonis_vernalis",
+    "scientific_name": "Adonis vernalis",
+    "family": "Ranunculaceae",
+    "names": [
+      "Dacina"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "uses": [
+      "analgesic",
+      "cardiotonic",
+      "diuretic"
     ]
   },
   {
@@ -370,16 +438,21 @@
     "scientific_name": "Agrimonia eupatoria",
     "family": "Rosaceae",
     "names": [
+      "Agrimoniae herba",
       "Agrimonie",
       "Aigremoine"
     ],
     "countries": [
+      "AT",
       "BE"
     ],
     "uses": [
       "astringent",
       "digestive",
-      "liver"
+      "gastrointestinal issues",
+      "liver",
+      "liver and bile disorders",
+      "respiratory tract"
     ]
   },
   {
@@ -444,6 +517,21 @@
     ],
     "uses": [
       "medicinal"
+    ]
+  },
+  {
+    "id": "alisma_plantagoaquatica",
+    "scientific_name": "Alisma plantago-aquatica",
+    "family": "Alismataceae",
+    "names": [
+      "Coadama"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "uses": [
+      "astringent",
+      "dermatologic diseases (irritation, inflammations)"
     ]
   },
   {
@@ -514,6 +602,24 @@
       "culinary",
       "immune",
       "medicinal"
+    ]
+  },
+  {
+    "id": "allium_ursinum",
+    "scientific_name": "Allium ursinum L.",
+    "family": "Amaryllidaceae",
+    "names": [
+      "Ramsons",
+      "Wild garlic"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "uses": [
+      "antimicrobial",
+      "antioxidant",
+      "cardiovascular health",
+      "culinary use"
     ]
   },
   {
@@ -671,7 +777,9 @@
       "aromatic",
       "calming",
       "digestive",
-      "medicinal"
+      "medicinal",
+      "tea",
+      "traditional"
     ]
   },
   {
@@ -731,15 +839,21 @@
     "names": [
       "Altea",
       "Guimauve",
+      "malva",
       "Marshmallow"
     ],
     "countries": [
       "FR",
-      "IT"
+      "IT",
+      "RO"
     ],
     "uses": [
+      "anti-inflammatory",
+      "cicatrizing",
       "cough",
       "digestive soothing",
+      "laxative",
+      "respiratory disorders",
       "skin irritation",
       "throat irritation"
     ]
@@ -907,6 +1021,23 @@
     "uses": [
       "medicinal",
       "ritual"
+    ]
+  },
+  {
+    "id": "anchusa_officinalis",
+    "scientific_name": "Anchusa officinalis",
+    "family": "Boraginaceae",
+    "names": [
+      "Boudathla"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "diuretic",
+      "respiratory infections",
+      "sudorific"
     ]
   },
   {
@@ -1156,14 +1287,21 @@
     "names": [
       "Bardana",
       "Čičak",
-      "Lampazo"
+      "Lampazo",
+      "Riborasta"
     ],
     "countries": [
       "BA",
-      "CL"
+      "CL",
+      "RO"
     ],
     "uses": [
+      "anti-inflammatory",
+      "antimicrobial",
+      "cicatrizing",
       "detox",
+      "detoxifying",
+      "disinfectant",
       "medicinal",
       "skin"
     ]
@@ -1237,6 +1375,22 @@
       "MX"
     ],
     "uses": []
+  },
+  {
+    "id": "aristolochia_clematitis",
+    "scientific_name": "Aristolochia clematitis",
+    "family": "Aristolochiaceae",
+    "names": [
+      "Sopitis"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "uses": [
+      "analgesic",
+      "anti-inflammatory",
+      "contraceptive"
+    ]
   },
   {
     "id": "aristolochia_maxima",
@@ -1534,7 +1688,8 @@
       "VE"
     ],
     "uses": [
-      "medicinal"
+      "medicinal",
+      "traditional"
     ]
   },
   {
@@ -1799,6 +1954,33 @@
     ]
   },
   {
+    "id": "bellis_perennis",
+    "scientific_name": "Bellis perennis",
+    "family": "Asteraceae",
+    "names": [
+      "chudobka",
+      "daisy",
+      "sedmikráska obecná"
+    ],
+    "countries": [
+      "CZ",
+      "RO"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "antimicrobial",
+      "antioxidant",
+      "beverages",
+      "cicatrizing",
+      "emollient",
+      "green vegetables",
+      "hemostatic",
+      "hypolipidemic",
+      "neuroprotective",
+      "preserved flowers"
+    ]
+  },
+  {
     "id": "berberis_buxifolia",
     "scientific_name": "Berberis buxifolia",
     "family": "Berberidaceae",
@@ -1811,7 +1993,24 @@
     ],
     "uses": [
       "culinary",
-      "medicinal"
+      "medicinal",
+      "traditional"
+    ]
+  },
+  {
+    "id": "beta_vulgaris",
+    "scientific_name": "Beta vulgaris",
+    "family": "Chenopodiaceae",
+    "names": [
+      "Beet"
+    ],
+    "countries": [
+      "AT"
+    ],
+    "uses": [
+      "fever",
+      "infections",
+      "respiratory tract"
     ]
   },
   {
@@ -1821,17 +2020,22 @@
     "names": [
       "Abedul",
       "Berk",
-      "Birk"
+      "Birk",
+      "bříza bělokorá"
     ],
     "countries": [
       "CL",
+      "CZ",
       "DK",
       "NL"
     ],
     "uses": [
       "detox",
       "diuretic",
-      "medicinal"
+      "flour from bark",
+      "medicinal",
+      "sap",
+      "vinegar"
     ]
   },
   {
@@ -2020,17 +2224,24 @@
     "family": "Boraginaceae",
     "names": [
       "Borage",
+      "borange",
+      "borango",
       "Borragine",
       "Borraja"
     ],
     "countries": [
       "CL",
       "IT",
-      "PY"
+      "PY",
+      "RO"
     ],
     "uses": [
       "anti-inflammatory",
+      "antidiabetes",
+      "antitumoral",
+      "cardioprotective",
       "hormonal balance",
+      "immunomodulatory",
       "medicinal",
       "skin"
     ]
@@ -2121,6 +2332,30 @@
     ],
     "uses": [
       "medicinal"
+    ]
+  },
+  {
+    "id": "bryonia_alba",
+    "scientific_name": "Bryonia alba",
+    "family": "Cucurbitaceae",
+    "names": [
+      "Cinouboila"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "uses": [
+      "analgesic",
+      "anti-inflammatory",
+      "antibacterial",
+      "antiepileptic",
+      "depigmentation",
+      "headaches",
+      "hemostatic",
+      "induce abortion",
+      "induce lactation",
+      "snake bite antidote",
+      "wet cough"
     ]
   },
   {
@@ -3307,20 +3542,25 @@
       "Achicoria",
       "Achicoria amarga",
       "Achicoria Amarga",
+      "čekanka obecná",
       "Chicorée",
       "Chicory",
-      "Cicoria"
+      "Cicoria",
+      "cikorie"
     ],
     "countries": [
       "CL",
+      "CZ",
       "FR",
       "IT",
       "PY"
     ],
     "uses": [
       "bitter tonic",
+      "coffee substitute",
       "culinary",
       "digestive",
+      "green vegetables",
       "liver",
       "medicinal"
     ]
@@ -3543,6 +3783,25 @@
       "immune support",
       "medicinal",
       "vitamin c"
+    ]
+  },
+  {
+    "id": "clematis_vitalba",
+    "scientific_name": "Clematis vitalba",
+    "family": "Ranunculaceae",
+    "names": [
+      "Priadila"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "uses": [
+      "analgesic",
+      "antiepileptic",
+      "antitussive",
+      "diuretic",
+      "dizziness",
+      "hair growth"
     ]
   },
   {
@@ -4009,6 +4268,22 @@
     ]
   },
   {
+    "id": "cornus_mas",
+    "scientific_name": "Cornus mas",
+    "family": "Cornaceae",
+    "names": [
+      "dřín jarní",
+      "dřínové jahůdky"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "uses": [
+      "beverages",
+      "wild fruits"
+    ]
+  },
+  {
     "id": "coronopus_didymus",
     "scientific_name": "Coronopus didymus",
     "names": [
@@ -4018,6 +4293,22 @@
       "AR"
     ],
     "uses": []
+  },
+  {
+    "id": "corylus_avellana",
+    "scientific_name": "Corylus avellana",
+    "family": "Betulaceae",
+    "names": [
+      "líska obecná"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "uses": [
+      "oil",
+      "rennet substitute",
+      "wild fruits"
+    ]
   },
   {
     "id": "costus_igneus",
@@ -4206,6 +4497,22 @@
     ],
     "uses": [
       "medicinal"
+    ]
+  },
+  {
+    "id": "crithmum_maritimum",
+    "scientific_name": "Crithmum maritimum L.",
+    "family": "Apiaceae",
+    "names": [
+      "Sea fennel"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "uses": [
+      "depurative",
+      "digestive",
+      "vitamin c source"
     ]
   },
   {
@@ -4519,6 +4826,23 @@
     "uses": []
   },
   {
+    "id": "cynoglossum_officinale",
+    "scientific_name": "Cynoglossum officinale",
+    "family": "Boraginaceae",
+    "names": [
+      "Usazila"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "uses": [
+      "cicatrizing",
+      "hair growth",
+      "laxative",
+      "wound healing"
+    ]
+  },
+  {
     "id": "dahlia_pinnata",
     "scientific_name": "Dahlia pinnata Cav.",
     "family": "Asteraceae",
@@ -4538,16 +4862,22 @@
     "family": "Solanaceae",
     "names": [
       "Kieri",
+      "Salia",
       "Tapate",
       "Toloache",
       "Toloatzin"
     ],
     "countries": [
       "CR",
-      "MX"
+      "MX",
+      "RO"
     ],
     "uses": [
-      "medicinal"
+      "anti-inflammatory",
+      "diuretic",
+      "medicinal",
+      "menstrual induction",
+      "psychomotricity"
     ]
   },
   {
@@ -4636,6 +4966,23 @@
     "uses": []
   },
   {
+    "id": "dipsacus_pilosus",
+    "scientific_name": "Dipsacus pilosus",
+    "family": "Caprifoliaceae",
+    "names": [
+      "Sciare"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "uses": [
+      "anal fissures",
+      "anti-inflammatory",
+      "antiviral",
+      "hemorrhoids"
+    ]
+  },
+  {
     "id": "doliocarpus_major",
     "scientific_name": "Doliocarpus major",
     "family": "Dilleniaceae",
@@ -4685,12 +5032,14 @@
       "Contrayerba"
     ],
     "countries": [
+      "AR",
       "CR",
       "HN",
       "NI"
     ],
     "uses": [
-      "medicinal"
+      "medicinal",
+      "traditional"
     ]
   },
   {
@@ -4720,7 +5069,9 @@
       "CL"
     ],
     "uses": [
-      "medicinal"
+      "indigenous",
+      "medicinal",
+      "traditional"
     ]
   },
   {
@@ -5162,6 +5513,28 @@
     ]
   },
   {
+    "id": "erythraea_centaurium",
+    "scientific_name": "Erythraea centaurium",
+    "family": "Gentianaceae",
+    "names": [
+      "Stirsozila"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "uses": [
+      "analgesic",
+      "anti-inflammatory",
+      "biliary dyskinesia",
+      "cicatrizing",
+      "eye infections",
+      "induce abortion",
+      "menstrual induction",
+      "sedative",
+      "wound healing"
+    ]
+  },
+  {
     "id": "erythrina_berteroana",
     "scientific_name": "Erythrina berteroana",
     "family": "Fabaceae",
@@ -5541,7 +5914,8 @@
       "CL"
     ],
     "uses": [
-      "medicinal"
+      "medicinal",
+      "traditional"
     ]
   },
   {
@@ -5582,6 +5956,24 @@
     "countries": [],
     "uses": [
       "medicinal"
+    ]
+  },
+  {
+    "id": "fragaria_vesca",
+    "scientific_name": "Fragaria vesca",
+    "family": "Rosaceae",
+    "names": [
+      "jahodníček",
+      "jahodník obecný"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "uses": [
+      "beverages",
+      "rennet substitute",
+      "seasoning soups",
+      "wild fruits"
     ]
   },
   {
@@ -5667,6 +6059,22 @@
     "uses": [
       "detox",
       "lymphatic"
+    ]
+  },
+  {
+    "id": "galium_verum",
+    "scientific_name": "Galium verum L.",
+    "family": "Rubiaceae",
+    "names": [
+      "Yellow bedstraw"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "uses": [
+      "diuretic",
+      "sedative",
+      "skin disorders"
     ]
   },
   {
@@ -5778,6 +6186,38 @@
     ]
   },
   {
+    "id": "geranium_macrorrhizum",
+    "scientific_name": "Geranium macrorrhizum L.",
+    "family": "Geraniaceae",
+    "names": [
+      "Bulgarian geranium",
+      "Zdravets"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "uses": [
+      "antihypertensive",
+      "antiseptic",
+      "aromatherapy",
+      "stress reduction"
+    ]
+  },
+  {
+    "id": "geranium_robertianum",
+    "scientific_name": "Geranium robertianum",
+    "family": "Geraniaceae",
+    "names": [
+      "Herb Robert"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "uses": [
+      "maximal active principles at harvest"
+    ]
+  },
+  {
     "id": "geum_chiloensis",
     "scientific_name": "Geum chiloensis",
     "family": "Rosaceae",
@@ -5806,6 +6246,23 @@
     "uses": [
       "circulation",
       "memory"
+    ]
+  },
+  {
+    "id": "glechoma_hederacea",
+    "scientific_name": "Glechoma hederacea",
+    "family": "Lamiaceae",
+    "names": [
+      "kundrlátek",
+      "popenec obecný"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "uses": [
+      "green vegetables",
+      "soups",
+      "vegetable dishes"
     ]
   },
   {
@@ -6184,6 +6641,26 @@
     ]
   },
   {
+    "id": "heracleum_sphondylium",
+    "scientific_name": "Heracleum sphondylium",
+    "family": "Apiaceae",
+    "names": [
+      "hogweed"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "anticancer",
+      "antidiabetic",
+      "antimicrobial",
+      "antioxidant",
+      "antiviral",
+      "neuroprotective"
+    ]
+  },
+  {
     "id": "herniaria_glabra",
     "scientific_name": "Herniaria glabra",
     "family": "Caryophyllaceae",
@@ -6367,6 +6844,30 @@
     ]
   },
   {
+    "id": "hyoscyamus_niger",
+    "scientific_name": "Hyoscyamus niger",
+    "family": "Solanaceae",
+    "names": [
+      "Dielleina"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "uses": [
+      "analgesic",
+      "anti-inflammatory",
+      "antibacterial",
+      "antipyretic",
+      "antitussive",
+      "hallucinogenic",
+      "hemostatic",
+      "hypnotic",
+      "psychomotricity",
+      "sedative",
+      "toothache"
+    ]
+  },
+  {
     "id": "hypericum_connatum",
     "scientific_name": "Hypericum connatum",
     "family": "Hypericaceae",
@@ -6377,7 +6878,8 @@
       "AR"
     ],
     "uses": [
-      "medicinal"
+      "medicinal",
+      "traditional"
     ]
   },
   {
@@ -6411,6 +6913,7 @@
       "Кантарион"
     ],
     "countries": [
+      "AT",
       "BA",
       "CL",
       "DE",
@@ -6439,6 +6942,20 @@
     "countries": [],
     "uses": [
       "medicinal"
+    ]
+  },
+  {
+    "id": "hypericum_spp",
+    "scientific_name": "Hypericum spp.",
+    "family": "Hypericaceae",
+    "names": [
+      "třezalka"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "uses": [
+      "honey substitute"
     ]
   },
   {
@@ -6767,18 +7284,44 @@
     "scientific_name": "Juniperus communis",
     "family": "Cupressaceae",
     "names": [
+      "boleráz",
+      "břín",
+      "Common juniper",
       "Enebro",
+      "jalovec obecný",
       "Wacholder"
     ],
     "countries": [
       "AT",
-      "CL"
+      "BG",
+      "CL",
+      "CZ"
     ],
     "uses": [
+      "beverages",
       "culinary",
       "digestive",
       "diuretic",
-      "medicinal"
+      "medicinal",
+      "preservatives for meat",
+      "seasoning"
+    ]
+  },
+  {
+    "id": "juniperus_communis",
+    "scientific_name": "Juniperus communis L.",
+    "family": "Cupressaceae",
+    "names": [
+      "Common juniper"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "uses": [
+      "antiseptic",
+      "arthritis treatment",
+      "digestive support",
+      "diuretic"
     ]
   },
   {
@@ -6892,6 +7435,22 @@
     "countries": [],
     "uses": [
       "medicinal"
+    ]
+  },
+  {
+    "id": "lamium_album",
+    "scientific_name": "Lamium album L.",
+    "family": "Lamiaceae",
+    "names": [
+      "White dead-nettle"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "expectorant",
+      "gynecological conditions"
     ]
   },
   {
@@ -7013,19 +7572,24 @@
     "names": [
       "Lavanda",
       "Lavande",
-      "Lavender"
+      "Lavender",
+      "lavender"
     ],
     "countries": [
       "CL",
       "ES",
       "FR",
       "HR",
-      "IT"
+      "IT",
+      "RO"
     ],
     "uses": [
+      "anesthetic and analgesic in labor",
+      "antibacterial",
       "antiseptic",
       "aromatic",
       "medicinal",
+      "preventive clothing treatment",
       "relaxation",
       "skin soothing",
       "sleep",
@@ -7336,6 +7900,21 @@
     ]
   },
   {
+    "id": "lithospermum_arvense",
+    "scientific_name": "Lithospermum arvense",
+    "family": "Boraginaceae",
+    "names": [
+      "Guoleta"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "uses": [
+      "diuretic",
+      "nephrolithiasis"
+    ]
+  },
+  {
     "id": "lithraea_molleoides",
     "scientific_name": "Lithraea molleoides",
     "family": "Anacardiaceae",
@@ -7516,13 +8095,17 @@
       "ES",
       "FR",
       "IT",
-      "PY"
+      "PY",
+      "RO"
     ],
     "uses": [
+      "anti-inflammatory",
+      "cicatrizing",
       "digestive",
       "inflammation",
       "laxative",
       "medicinal",
+      "respiratory disorders",
       "skin"
     ]
   },
@@ -7953,6 +8536,7 @@
       "Pepermunt",
       "Peppermint",
       "Pfefferminze",
+      "Tendila",
       "Нане"
     ],
     "countries": [
@@ -7961,14 +8545,21 @@
       "FR",
       "HR",
       "IT",
-      "MK"
+      "MK",
+      "RO"
     ],
     "uses": [
+      "anthelmintic",
+      "anti-inflammatory",
+      "antispastic",
       "bloating",
+      "detoxifying",
       "digestive",
       "digestive upset",
+      "diuretic",
       "hysteria",
-      "nausea"
+      "nausea",
+      "snake bite treatment"
     ]
   },
   {
@@ -8077,6 +8668,7 @@
       "Metvica",
       "Peppermint",
       "Pfefferminze",
+      "Tendila",
       "Нане"
     ],
     "countries": [
@@ -8089,7 +8681,8 @@
       "MK",
       "MX",
       "NI",
-      "PE"
+      "PE",
+      "RO"
     ],
     "uses": [
       "aromatic",
@@ -8679,6 +9272,22 @@
       "cardiovascular",
       "culinary",
       "medicinal"
+    ]
+  },
+  {
+    "id": "onobrychis_viciifolia",
+    "scientific_name": "Onobrychis viciifolia",
+    "family": "Fabaceae",
+    "names": [
+      "Aniarsexe"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "uses": [
+      "abscess",
+      "diuretic",
+      "sudorific"
     ]
   },
   {
@@ -9303,6 +9912,23 @@
     ]
   },
   {
+    "id": "physalis_alkekengi",
+    "scientific_name": "Physalis alkekengi",
+    "family": "Solanaceae",
+    "names": [
+      "Coicolida"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "uses": [
+      "diuretic",
+      "edema",
+      "hepatoprotective",
+      "laxative"
+    ]
+  },
+  {
     "id": "phytolacca_dioica",
     "scientific_name": "Phytolacca dioica",
     "family": "Phytolaccaceae",
@@ -9634,6 +10260,7 @@
     "scientific_name": "Plantago major",
     "family": "Plantaginaceae",
     "names": [
+      "Broadleaf plantain",
       "Cola de Ardilla",
       "Lantén",
       "Llantén",
@@ -9643,6 +10270,7 @@
       "Yanten"
     ],
     "countries": [
+      "BG",
       "BO",
       "CL",
       "CR",
@@ -9664,9 +10292,18 @@
     "id": "plantago_major",
     "scientific_name": "Plantago major L.",
     "family": "Plantaginaceae",
-    "names": [],
-    "countries": [],
-    "uses": []
+    "names": [
+      "Broadleaf plantain"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "uses": [
+      "anti-fungal",
+      "anti-inflammatory",
+      "antimicrobial",
+      "wound healing"
+    ]
   },
   {
     "id": "plectranthus_amboinicus",
@@ -9836,15 +10473,25 @@
     "scientific_name": "Portulaca oleracea",
     "family": "Portulacaceae",
     "names": [
+      "fat grass",
+      "Iaca",
       "Verdolaga"
     ],
     "countries": [
       "CR",
-      "GT"
+      "GT",
+      "RO"
     ],
     "uses": [
+      "antibacterial",
+      "antipyretic",
+      "cicatrizing",
       "culinary",
-      "medicinal"
+      "depurative",
+      "diuretic",
+      "medicinal",
+      "regenerative",
+      "wound healing"
     ]
   },
   {
@@ -9860,6 +10507,25 @@
     "uses": [
       "astringent",
       "diarrhea"
+    ]
+  },
+  {
+    "id": "potentilla_reptans",
+    "scientific_name": "Potentilla reptans",
+    "family": "Rosaceae",
+    "names": [
+      "Propodila"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "uses": [
+      "anti-inflammatory for oral and pharyngeal cavity",
+      "antipyretic",
+      "antiviral",
+      "cicatrizing",
+      "detoxifying",
+      "toothache"
     ]
   },
   {
@@ -9906,6 +10572,22 @@
     "uses": [
       "culinary",
       "medicinal"
+    ]
+  },
+  {
+    "id": "prunella_vulgaris",
+    "scientific_name": "Prunella vulgaris",
+    "family": "Lamiaceae",
+    "names": [
+      "allheal"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "uses": [
+      "astringent",
+      "cicatrizing",
+      "hemostatic"
     ]
   },
   {
@@ -10060,6 +10742,23 @@
     ],
     "uses": [
       "medicinal"
+    ]
+  },
+  {
+    "id": "quercus_robur",
+    "scientific_name": "Quercus robur",
+    "family": "Fagaceae",
+    "names": [
+      "dub letní"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "uses": [
+      "coffee substitute",
+      "flour",
+      "oil",
+      "rennet substitute"
     ]
   },
   {
@@ -10297,17 +10996,23 @@
     "names": [
       "Dog rose",
       "Églantier",
-      "Rosa canina"
+      "merhelec",
+      "Rosa canina",
+      "růže šípková"
     ],
     "countries": [
+      "CZ",
       "FR",
       "IT"
     ],
     "uses": [
       "antioxidant",
+      "beverages",
+      "coffee substitute from seeds",
       "immune",
       "immune support",
-      "vitamin c"
+      "vitamin c",
+      "wild fruits"
     ]
   },
   {
@@ -10376,6 +11081,38 @@
     "uses": []
   },
   {
+    "id": "rubus_caesius",
+    "scientific_name": "Rubus caesius",
+    "family": "Rosaceae",
+    "names": [
+      "ostružiník ježiník"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "uses": [
+      "beverages",
+      "wild fruits"
+    ]
+  },
+  {
+    "id": "rubus_idaeus",
+    "scientific_name": "Rubus idaeus",
+    "family": "Rosaceae",
+    "names": [
+      "malina",
+      "ostružiník maliník"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "uses": [
+      "beverages",
+      "jams and jellies",
+      "wild fruits"
+    ]
+  },
+  {
     "id": "ruellia_nudiflora",
     "scientific_name": "Ruellia nudiflora",
     "family": "Acanthaceae",
@@ -10416,6 +11153,22 @@
     ],
     "uses": [
       "medicinal"
+    ]
+  },
+  {
+    "id": "rumex_spp",
+    "scientific_name": "Rumex spp.",
+    "family": "Polygonaceae",
+    "names": [
+      "šťovík"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "uses": [
+      "green vegetables",
+      "rennet substitute",
+      "soups"
     ]
   },
   {
@@ -10679,6 +11432,20 @@
     ]
   },
   {
+    "id": "sambucus_ebulus",
+    "scientific_name": "Sambucus ebulus",
+    "family": "Adoxaceae",
+    "names": [
+      "dwarf elder"
+    ],
+    "countries": [
+      "AT"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ]
+  },
+  {
     "id": "sambucus_mexicana",
     "scientific_name": "Sambucus mexicana",
     "family": "Caprifoliaceae",
@@ -10711,6 +11478,8 @@
     "scientific_name": "Sambucus nigra",
     "family": "Adoxaceae",
     "names": [
+      "bez černý",
+      "bezinky",
       "Elder",
       "Elderberry",
       "Flor y fruto de sauco",
@@ -10728,6 +11497,7 @@
       "BE",
       "BO",
       "CL",
+      "CZ",
       "DE",
       "DK",
       "ES",
@@ -10736,12 +11506,16 @@
       "MX"
     ],
     "uses": [
+      "beverages",
       "colds",
       "fever",
+      "fried flowers",
       "immune",
       "immune support",
       "medicinal",
-      "respiratory"
+      "oil from seeds",
+      "respiratory",
+      "wild fruits"
     ]
   },
   {
@@ -10958,7 +11732,10 @@
       "AR"
     ],
     "uses": [
-      "medicinal"
+      "depurative",
+      "febrifuge",
+      "medicinal",
+      "traditional"
     ]
   },
   {
@@ -12054,6 +12831,7 @@
       "Achicoria amarga",
       "Amargón",
       "Dandelion",
+      "dandelion",
       "Diente de León",
       "Löwenzahn",
       "Paardenbloem",
@@ -12070,13 +12848,17 @@
       "MX",
       "NL",
       "PY",
+      "RO",
       "UY"
     ],
     "uses": [
+      "anti-inflammatory",
+      "antitumoral",
       "culinary",
       "detox",
       "digestion",
       "diuretic",
+      "hepatoprotective",
       "liver",
       "liver support",
       "medicinal"
@@ -12098,6 +12880,23 @@
     "countries": [],
     "uses": [
       "medicinal"
+    ]
+  },
+  {
+    "id": "taraxacum_sect",
+    "scientific_name": "Taraxacum sect. Ruderalia",
+    "family": "Asteraceae",
+    "names": [
+      "pampeliška",
+      "smetánka"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "uses": [
+      "beverages",
+      "green vegetables",
+      "honey substitute"
     ]
   },
   {
@@ -12280,8 +13079,10 @@
     "scientific_name": "Thymus vulgaris",
     "family": "Lamiaceae",
     "names": [
+      "Mizela",
       "Thym",
       "Thyme",
+      "thyme",
       "Thymian",
       "Tijm",
       "Timian",
@@ -12302,17 +13103,26 @@
       "FR",
       "IT",
       "PY",
+      "RO",
       "SI"
     ],
     "uses": [
+      "anthelmintic",
+      "anti-inflammatory",
+      "antiasthmatic",
       "antibiotic",
+      "antiedema",
       "antimicrobial",
       "aromatic",
       "cough",
       "culinary",
       "expectorant",
+      "fertility increase",
+      "liver disease",
       "medicinal",
-      "respiratory"
+      "oral cavity anti-inflammatory",
+      "respiratory",
+      "sciatica"
     ]
   },
   {
@@ -12670,17 +13480,23 @@
       "Brandnetel",
       "Brennnessel",
       "Chiquicastle",
+      "Dyn",
       "Kopriva",
+      "kopřiva dvoudomá",
       "Nettle",
       "Ortica",
       "Ortie",
       "Ortiga",
+      "stinging nettle",
+      "žihavka",
       "Коприва"
     ],
     "countries": [
+      "AT",
       "BA",
       "BE",
       "CL",
+      "CZ",
       "DE",
       "DK",
       "ES",
@@ -12690,16 +13506,31 @@
       "MX",
       "NL",
       "PY",
+      "RO",
       "SI"
     ],
     "uses": [
+      "abscess",
       "anti-inflammatory",
+      "antimicrobial",
+      "antitumoral",
+      "aphrodisiac",
+      "cicatrizing",
       "culinary",
       "detox",
+      "detoxifying",
+      "disinfectant",
       "diuretic",
+      "expectorant",
+      "green vegetables",
+      "hemostatic",
+      "kidney and urinary tract",
       "medicinal",
+      "rennet substitute",
       "rheumatism",
-      "scalp health"
+      "scalp health",
+      "soups",
+      "wound healing"
     ]
   },
   {
@@ -12763,17 +13594,23 @@
     "family": "Ericaceae",
     "names": [
       "Arándano",
+      "brusnice borůvka",
+      "černá jahoda",
       "Myrtille"
     ],
     "countries": [
       "BO",
+      "CZ",
       "FR"
     ],
     "uses": [
       "antioxidant",
+      "beverages",
       "culinary",
       "medicinal",
-      "vision"
+      "seasoning soups",
+      "vision",
+      "wild fruits"
     ]
   },
   {
@@ -12781,14 +13618,19 @@
     "scientific_name": "Vaccinium vitis-idaea",
     "family": "Ericaceae",
     "names": [
+      "brusnice brusinka",
+      "červená borůvka",
       "Tyttebær"
     ],
     "countries": [
+      "CZ",
       "DK"
     ],
     "uses": [
       "antioxidant",
-      "urinary"
+      "beverages",
+      "urinary",
+      "wild fruits"
     ]
   },
   {
@@ -12852,14 +13694,57 @@
     "scientific_name": "Veratrum album",
     "family": "Melanthiaceae",
     "names": [
+      "Mendruta",
       "Weißer Germer"
+    ],
+    "countries": [
+      "AT",
+      "RO"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "antibacterial (dysentery)",
+      "antispastic",
+      "historical use",
+      "hypotensive",
+      "toxic"
+    ]
+  },
+  {
+    "id": "verbascum_phlomoides",
+    "scientific_name": "Verbascum phlomoides",
+    "family": "Scrophulariaceae",
+    "names": [
+      "Diesema"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "uses": [
+      "analgesic",
+      "anti-inflammatory",
+      "antispastic",
+      "antitussive",
+      "astringent",
+      "cicatrizing",
+      "diarrhea",
+      "expectorant",
+      "toothache"
+    ]
+  },
+  {
+    "id": "verbascum_sp",
+    "scientific_name": "Verbascum sp.",
+    "family": "Scrophulariaceae",
+    "names": [
+      "Verbasci flos"
     ],
     "countries": [
       "AT"
     ],
     "uses": [
-      "historical use",
-      "toxic"
+      "anti-inflammatory",
+      "wound healing"
     ]
   },
   {
@@ -13038,6 +13923,22 @@
     ]
   },
   {
+    "id": "viola_spp",
+    "scientific_name": "Viola spp.",
+    "family": "Violaceae",
+    "names": [
+      "violka"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "uses": [
+      "beverages",
+      "flowers for colouring and preserving",
+      "seasoning soups"
+    ]
+  },
+  {
     "id": "viola_tricolor",
     "scientific_name": "Viola tricolor",
     "family": "Violaceae",
@@ -13103,13 +14004,15 @@
     "family": "Asteraceae",
     "names": [
       "Abrojo",
-      "Abrojo grande"
+      "Abrojo grande",
+      "Cadillo"
     ],
     "countries": [
       "AR"
     ],
     "uses": [
-      "medicinal"
+      "medicinal",
+      "traditional"
     ]
   },
   {

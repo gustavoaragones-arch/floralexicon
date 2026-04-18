@@ -1,0 +1,6084 @@
+{
+  "generatedAt": "2026-04-18T03:33:31.639Z",
+  "sourcePath": "data/processed/plants.json",
+  "totalRows": 831,
+  "uniqueIds": 702,
+  "duplicateIdCount": 124,
+  "duplicateExtraRows": 129,
+  "duplicates": [
+    {
+      "id": "acacia_farnesiana",
+      "rowCount": 2,
+      "rowIndices": [
+        3,
+        4
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"HN\",\"MX\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Aromo\",\"Espino amarillo\",\"Huizache\",\"Vinorama\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Acacia farnesiana",
+            "Acacia farnesiana (L.) Willd."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"aromatic\",\"medicinal\"]",
+            "[]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[\"aromatic\"]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "achillea_millefolium",
+      "rowCount": 2,
+      "rowIndices": [
+        13,
+        14
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AT\",\"BG\",\"CL\",\"FR\",\"IT\",\"RO\"]",
+            "[\"BG\"]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Achillée millefeuille\",\"Common yarrow\",\"Duodela\",\"Milenrama\",\"Millefoglio\",\"Schafgarbe\",\"Yarrow\"]",
+            "[\"Common yarrow\"]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Achillea millefolium",
+            "Achillea millefolium L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"analgesic\",\"anti-inflammatory\",\"antiasthmatic\",\"antitussive\",\"antiviral\",\"appetite stimulant\",\"cicatrizing\",\"detoxifying\",\"digestive\",\"digestive diseases\",\"gallbladder relief\",\"hemorrhoids\",\"liver diseases\",\"medicinal\",\"sedative\",\"spasms\",\"wounds\"]",
+            "[\"anti-inflammatory\",\"digestive aid\",\"hemostatic\",\"wound healing\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[\"anti-inflammatory\",\"digestive\",\"respiratory\",\"sedative\"],\"culinary\":[],\"topical\":[\"wounds\"],\"other\":[]}",
+            "{\"medicinal\":[\"anti-inflammatory\",\"digestive\"],\"culinary\":[],\"topical\":[\"wounds\"],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "allium_cepa",
+      "rowCount": 2,
+      "rowIndices": [
+        32,
+        33
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"IT\",\"MX\"]",
+            "[\"IT\"]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Cebolla\",\"Cipolla\",\"Onion\"]",
+            "[\"Cipolla\",\"Onion\"]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Allium cepa L.",
+            "Allium cepa"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[]",
+            "[\"anti-inflammatory\",\"circulatory\",\"respiratory\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[\"anti-inflammatory\",\"respiratory\"],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "allium_sativum",
+      "rowCount": 2,
+      "rowIndices": [
+        34,
+        35
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"CO\",\"GY\",\"IT\",\"MX\"]",
+            "[\"IT\"]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Aglio\",\"Ajo\",\"Garlic\"]",
+            "[\"Aglio\",\"Garlic\"]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Allium sativum L.",
+            "Allium sativum"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"medicinal\"]",
+            "[\"antimicrobial\",\"cardiovascular\",\"culinary\",\"immune\",\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "aloe_vera",
+      "rowCount": 3,
+      "rowIndices": [
+        38,
+        39,
+        40
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"CL\",\"CR\",\"EC\",\"GT\",\"HN\",\"MX\",\"PY\",\"VE\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Aloe\",\"Aloe Vera\",\"Hunpets'k'inki\",\"Petk'inki\",\"Posacmetl\",\"Sábila\",\"Sávila\",\"Zábila\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 3,
+          "previews": [
+            "Aloe vera",
+            "Aloe vera L. Burm. f.",
+            "Aloe vera (L.) Burm. f."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"medicinal\"]",
+            "[]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "aloysia_citrodora",
+      "rowCount": 3,
+      "rowIndices": [
+        42,
+        43,
+        44
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AR\",\"BO\",\"CL\",\"EC\",\"ES\",\"PE\",\"UY\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Cedrón\",\"Hierba Luisa\",\"Paja Cedrón\",\"Verbena olorosa\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 3,
+          "previews": [
+            "Aloysia citrodora",
+            "Aloysia citrodora Paláu",
+            "Aloysia citrodora Palau"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"aromatic\",\"culinary\",\"medicinal\",\"tea\"]",
+            "[\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\",\"tea\"],\"topical\":[],\"other\":[\"aromatic\"]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "aloysia_triphylla",
+      "rowCount": 2,
+      "rowIndices": [
+        47,
+        48
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AR\",\"MX\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Cedrón\",\"Hierba luisa\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Aloysia triphylla",
+            "Aloysia triphylla (L'Hér.) Britton"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"aromatic\",\"culinary\",\"medicinal\"]",
+            "[]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[\"aromatic\"]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "annona_muricata",
+      "rowCount": 2,
+      "rowIndices": [
+        63,
+        64
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"CR\",\"GY\",\"HN\",\"MX\",\"NI\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Guanábana\",\"Sour-Sop\",\"Soursop\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Annona muricata",
+            "Annona muricata L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"culinary\",\"medicinal\"]",
+            "[]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "apium_graveolens",
+      "rowCount": 2,
+      "rowIndices": [
+        72,
+        73
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"BO\",\"CO\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Apio\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Apium graveolens",
+            "Apium graveolens L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"culinary\",\"medicinal\"]",
+            "[\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "argemone_mexicana",
+      "rowCount": 2,
+      "rowIndices": [
+        76,
+        77
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AR\",\"MX\",\"PY\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Cardo amarillo\",\"Cardo Santo\",\"Cardo santo (Zongolica)\",\"Chicalote\",\"Chicalotl\",\"K'iix-k'anlol\",\"K'iix-saklol\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Argemone mexicana",
+            "Argemone mexicana L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"medicinal\"]",
+            "[]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "arnica_montana",
+      "rowCount": 2,
+      "rowIndices": [
+        85,
+        86
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AT\",\"CL\",\"CO\",\"DE\",\"FR\",\"IT\",\"MX\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Árnica\",\"Arnica\",\"Árnica de montaña\",\"Árnica europea\",\"Arnica montana\",\"Arnika\",\"Estornudadera\",\"Tabaco de montaña\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Arnica montana",
+            "Arnica montana L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"bruises\",\"medicinal\",\"muscle pain\",\"pain\",\"swelling\",\"topical\",\"topical only\"]",
+            "[\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[\"skin\",\"wounds\"],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "artemisia_absinthium",
+      "rowCount": 2,
+      "rowIndices": [
+        88,
+        89
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"CL\",\"CO\",\"ES\",\"FR\",\"GT\",\"IT\",\"MX\",\"PY\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Absinthe\",\"Ajenjo\",\"Assenzio\",\"Estafiate (occasional)\",\"Hierba maestra\",\"Maestra\",\"Wormwood\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Artemisia absinthium",
+            "Artemisia absinthium L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"appetite\",\"digestive bitters\",\"liver\",\"medicinal\",\"parasites\"]",
+            "[\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[\"digestive\"],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "asclepias_curassavica",
+      "rowCount": 2,
+      "rowIndices": [
+        95,
+        96
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AR\",\"CO\",\"CR\",\"CU\",\"GT\",\"GY\",\"HN\",\"MX\",\"PA\",\"PE\",\"PY\",\"SV\",\"VE\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Adelfilla\",\"Algodonillo\",\"Bandera española\",\"Bencenuco\",\"Camburito\",\"Cantil\",\"Capitán de sala\",\"cega olho\",\"Chakanal (Maya)\",\"Cuchumeca\",\"Flor de agua\",\"flor de culebra\",\"flor de la calentura\",\"hierba de cantil\",\"Hierba del cuervo\",\"Hierba Lucero\",\"Jaguarundy\",\"Leche de burra\",\"mal casada\",\"Mal casada\",\"niño muerto\",\"olh’ én\",\"pasorín\",\"pie de gallareta\",\"Piti-Quana\",\"quiebra muelas\",\"quiebra oj",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Asclepias curassavica",
+            "Asclepias curassavica L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"medicinal\",\"traditional\"]",
+            "[]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "betula_pendula",
+      "rowCount": 2,
+      "rowIndices": [
+        114,
+        115
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"CL\",\"CZ\",\"DK\",\"NL\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Abedul\",\"Berk\",\"Birk\",\"bříza bělokorá\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Betula pendula",
+            "Betula pendula Roth"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"detox\",\"diuretic\",\"flour from bark\",\"medicinal\",\"sap\",\"vinegar\"]",
+            "[\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "bidens_pilosa",
+      "rowCount": 2,
+      "rowIndices": [
+        117,
+        118
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AR\",\"CO\",\"CR\",\"CU\",\"HN\",\"MX\",\"PA\",\"PE\",\"PY\",\"VE\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Aceitilla\",\"Alfiler\",\"amapola silvestre\",\"Amor seco\",\"amor-seco\",\"Arponcito\",\"Batatilla\",\"Cadillo\",\"cadillo de huerta\",\"Cadillo rocero\",\"Chipaca\",\"cuambú\",\"erva picáo\",\"macela do campo\",\"Mazote\",\"Moño de dos puntas\",\"Mozote\",\"picacho negro\",\"picao-preto\",\"piolho de padre\",\"Romerillo\",\"romerillo blanco\",\"Saetilla\",\"té de milpa\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Bidens pilosa",
+            "Bidens pilosa L."
+          ]
+        }
+      }
+    },
+    {
+      "id": "bixa_orellana",
+      "rowCount": 2,
+      "rowIndices": [
+        119,
+        120
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AR\",\"BO\",\"CO\",\"CR\",\"GT\",\"HN\",\"MX\",\"NI\",\"PA\",\"PE\",\"VE\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Achiote\",\"azafrán de la tierra\",\"Bija\",\"K'uxub (Maya)\",\"Onoto\",\"tintórea\",\"Urucú\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Bixa orellana",
+            "Bixa orellana L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"culinary\",\"medicinal\"]",
+            "[\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "borago_officinalis",
+      "rowCount": 2,
+      "rowIndices": [
+        125,
+        126
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"CL\",\"IT\",\"PY\",\"RO\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Borage\",\"borange\",\"borango\",\"Borragine\",\"Borraja\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Borago officinalis",
+            "Borago officinalis L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"anti-inflammatory\",\"antidiabetes\",\"antitumoral\",\"cardioprotective\",\"hormonal balance\",\"immunomodulatory\",\"medicinal\",\"skin\"]",
+            "[\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[\"anti-inflammatory\"],\"culinary\":[],\"topical\":[\"skin\"],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "bursera_simaruba",
+      "rowCount": 2,
+      "rowIndices": [
+        140,
+        141
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"CO\",\"CR\",\"CU\",\"GT\",\"HN\",\"MX\",\"NI\",\"PA\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Aceitero\",\"almácigo\",\"Almácigo\",\"cachibú\",\"Caraña\",\"Caratero\",\"Chacá\",\"Chacah\",\"Chakaj\",\"cholo pelao\",\"Copal rojo\",\"Copón\",\"Gumbo-limbo\",\"indio desnudo\",\"Indio desnudo\",\"jiñocuabe\",\"jiñocuabo\",\"palo chino\",\"palo jiote\",\"palo mulato\",\"resbala mono\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Bursera simaruba (L.) Sarg.",
+            "Bursera simaruba"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[]",
+            "[\"medicinal\"]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "byrsonima_crassifolia",
+      "rowCount": 2,
+      "rowIndices": [
+        142,
+        143
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"CO\",\"EC\",\"GT\",\"HN\",\"MX\",\"NI\",\"PA\",\"VE\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Barbasco\",\"Changugo\",\"Chaparro\",\"Chi\",\"Chi' (Maya)\",\"Nance\",\"nance\",\"Nance dulce\",\"Nanche\",\"Nancite\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Byrsonima crassifolia",
+            "Byrsonima crassifolia (L.) Kunth"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"culinary\",\"medicinal\"]",
+            "[]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "calendula_officinalis",
+      "rowCount": 2,
+      "rowIndices": [
+        149,
+        150
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"CL\",\"CO\",\"DE\",\"ES\",\"FR\",\"IT\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Caléndula\",\"Calendula\",\"Chinita\",\"Ringelblume\",\"Souci\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Calendula officinalis",
+            "Calendula officinalis L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"burns\",\"medicinal\",\"rashes\",\"skin\",\"skin irritation\",\"wounds\"]",
+            "[\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[\"skin\",\"wounds\"],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "capsicum_annuum",
+      "rowCount": 2,
+      "rowIndices": [
+        158,
+        159
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"CO\",\"GY\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Ají\",\"Bird-Pepper\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Capsicum annuum L. (variedades\n   picantes)",
+            "Capsicum annuum var. glabriusculum"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"medicinal\"]",
+            "[\"culinary\",\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "carica_papaya",
+      "rowCount": 2,
+      "rowIndices": [
+        162,
+        163
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AR\",\"BO\",\"CR\",\"GT\",\"HN\",\"MX\",\"SV\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Mamón\",\"Papaya\",\"Papayo\",\"Papayo Macho\",\"Put\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Carica papaya",
+            "Carica papaya L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"culinary\",\"medicinal\"]",
+            "[]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "casimiroa_edulis",
+      "rowCount": 2,
+      "rowIndices": [
+        166,
+        167
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"HN\",\"MX\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Matasano\",\"Zapote blanco\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Casimiroa edulis",
+            "Casimiroa edulis Llave & Lex."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"culinary\",\"medicinal\"]",
+            "[]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "catharanthus_roseus",
+      "rowCount": 2,
+      "rowIndices": [
+        171,
+        172
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"GT\",\"GY\",\"MX\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Chatía\",\"Periwinkle\",\"Pervinca rosada\",\"Vicaria\",\"Vincapervinca\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Catharanthus roseus",
+            "Catharanthus roseus (L.) G. Don"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"medicinal\"]",
+            "[]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "cecropia_peltata",
+      "rowCount": 2,
+      "rowIndices": [
+        176,
+        177
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"CO\",\"CU\",\"DO\",\"MX\",\"NI\",\"PA\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Coiloto palo\",\"Guarumbo\",\"Guarumo\",\"Imbauba\",\"X k'aan lool (Maya)\",\"Yagruma\",\"yagruma hembra\",\"Yagrumo\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Cecropia peltata L.",
+            "Cecropia peltata"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[]",
+            "[\"medicinal\"]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "chamaemelum_nobile",
+      "rowCount": 2,
+      "rowIndices": [
+        184,
+        185
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"FR\",\"MX\"]",
+            "[\"FR\"]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Camomille romaine\",\"Manzanilla romana\"]",
+            "[\"Camomille romaine\"]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Chamaemelum nobile (L.) All.",
+            "Chamaemelum nobile"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[]",
+            "[\"calming\",\"digestive\",\"sleep\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[\"digestive\",\"sedative\"],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "chelidonium_majus",
+      "rowCount": 2,
+      "rowIndices": [
+        189,
+        190
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"DE\",\"ES\"]",
+            "[\"DE\"]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Celidonia\",\"Schöllkraut\"]",
+            "[\"Schöllkraut\"]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Chelidonium majus L.",
+            "Chelidonium majus"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"medicinal\"]",
+            "[\"bile\",\"liver\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[\"digestive\"],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "cichorium_intybus",
+      "rowCount": 2,
+      "rowIndices": [
+        199,
+        200
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"CL\",\"CZ\",\"FR\",\"IT\",\"PY\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Achicoria\",\"Achicoria amarga\",\"Achicoria Amarga\",\"čekanka obecná\",\"Chicorée\",\"Chicory\",\"Cicoria\",\"cikorie\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Cichorium intybus",
+            "Cichorium intybus L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"bitter tonic\",\"coffee substitute\",\"culinary\",\"digestive\",\"green vegetables\",\"liver\",\"medicinal\"]",
+            "[\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[\"digestive\"],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "cinchona_officinalis",
+      "rowCount": 2,
+      "rowIndices": [
+        201,
+        202
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"MX\",\"PE\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Quina\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Cinchona officinalis L.",
+            "Cinchona officinalis"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[]",
+            "[\"medicinal\"]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "cissampelos_pareira",
+      "rowCount": 2,
+      "rowIndices": [
+        206,
+        207
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AR\",\"CO\",\"CU\",\"GT\",\"HN\",\"MX\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"bejuco de la preñada\",\"Bejuco pitilla\",\"Charrúa\",\"cuxoguí\",\"Guaco\",\"guaco\",\"ixcatú-can\",\"Mil hombres\",\"Patacón\",\"X peteltun (Maya)\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Cissampelos pareira",
+            "Cissampelos pareira L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"medicinal\"]",
+            "[]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "cnidoscolus_aconitifolius",
+      "rowCount": 2,
+      "rowIndices": [
+        217,
+        218
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"HN\",\"MX\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Chaya\",\"Chaya de monte\",\"Tsi'ints'inchay (Maya)\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Cnidoscolus aconitifolius",
+            "Cnidoscolus aconitifolius (Mill.) I.M. Johnst."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"culinary\",\"medicinal\"]",
+            "[]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "cocos_nucifera",
+      "rowCount": 2,
+      "rowIndices": [
+        224,
+        225
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"GT\",\"MX\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Coco\",\"Coconut\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Cocos nucifera",
+            "Cocos nucifera L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"culinary\",\"medicinal\"]",
+            "[]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "costus_igneus",
+      "rowCount": 2,
+      "rowIndices": [
+        246,
+        247
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"MX\",\"VE\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Caña brava\",\"Costus ardiente\",\"Escalera\",\"Insulina\",\"Planta de insulina\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Costus igneus Nak.",
+            "Costus igneus"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[]",
+            "[\"medicinal\"]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "crataegus_monogyna",
+      "rowCount": 2,
+      "rowIndices": [
+        251,
+        252
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"CL\",\"DE\",\"ES\",\"FR\",\"NL\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Aubépine\",\"Espino Blanco\",\"Meidoorn\",\"Peumo alemán\",\"Weißdorn\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Crataegus monogyna",
+            "Crataegus monogyna Jacq."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"calming\",\"cardiovascular\",\"circulation\",\"heart\",\"medicinal\"]",
+            "[\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[\"sedative\"],\"culinary\":[],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "cymbopogon_citratus",
+      "rowCount": 2,
+      "rowIndices": [
+        271,
+        272
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AR\",\"CO\",\"CR\",\"GT\",\"HN\",\"MX\",\"NI\",\"PY\",\"VE\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Hierba limón\",\"Kapii kati\",\"Limonaria\",\"Pasto limón\",\"Té Limón\",\"Té zacate\",\"Zacate de limón\",\"Zacate Limón\",\"Zacate limón\",\"Zacate Té\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Cymbopogon citratus",
+            "Cymbopogon citratus (DC.) Stapf"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"aromatic\",\"calming\",\"culinary\",\"digestive\",\"medicinal\"]",
+            "[]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[\"digestive\",\"sedative\"],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[\"aromatic\"]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "cynara_scolymus",
+      "rowCount": 2,
+      "rowIndices": [
+        273,
+        274
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"CL\",\"CO\",\"IT\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Alcachofa\",\"Artichoke\",\"Carciofo\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Cynara scolymus",
+            "Cynara scolymus L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"bitters\",\"culinary\",\"liver protection\",\"medicinal\"]",
+            "[\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[\"digestive\"],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "datura_stramonium",
+      "rowCount": 2,
+      "rowIndices": [
+        278,
+        279
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"CR\",\"MX\",\"RO\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Kieri\",\"Salia\",\"Tapate\",\"Toloache\",\"Toloatzin\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Datura stramonium",
+            "Datura stramonium L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"anti-inflammatory\",\"diuretic\",\"medicinal\",\"menstrual induction\",\"psychomotricity\"]",
+            "[]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[\"anti-inflammatory\"],\"culinary\":[],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "drimys_winteri",
+      "rowCount": 2,
+      "rowIndices": [
+        291,
+        292
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AR\",\"CL\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Canelo\",\"Voigue\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Drimys winteri",
+            "Drimys winteri J.R. et G.Forster"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"indigenous\",\"medicinal\",\"traditional\"]",
+            "[\"medicinal\"]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dysphania_ambrosioides",
+      "rowCount": 2,
+      "rowIndices": [
+        296,
+        297
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AR\",\"BO\",\"CL\",\"MX\",\"PE\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Epazote\",\"Epazotl\",\"Hierba de Santa María\",\"Mastruz\",\"Paico\",\"Yerba del zorrillo\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Dysphania ambrosioides",
+            "Dysphania ambrosioides (L.) Mosyakin & Clemants"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"culinary\",\"medicinal\"]",
+            "[]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "equisetum_arvense",
+      "rowCount": 2,
+      "rowIndices": [
+        308,
+        309
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AT\",\"BO\",\"DE\",\"ES\",\"FR\",\"IT\",\"MX\",\"NL\",\"PA\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Ackerschachtelhalm\",\"Cauda-de-cavalo\",\"cavalinha-dos-campos\",\"Cola de Caballo\",\"Cola de caballo\",\"Equiseto\",\"equiseto menor\",\"erva-carnuda\",\"Heermoes\",\"Horsetail\",\"Prêle\",\"rabo de asno\",\"rabo-de-touro\",\"Schachtelhalm\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Equisetum arvense",
+            "Equisetum arvense L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"bone support\",\"diuretic\",\"hair health\",\"medicinal\"]",
+            "[\"medicinal\"]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "foeniculum_vulgare",
+      "rowCount": 2,
+      "rowIndices": [
+        340,
+        341
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"BO\",\"CL\",\"DE\",\"ES\",\"FR\",\"IT\",\"PY\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Fenchel\",\"Fennel\",\"Fenouil\",\"Finocchio\",\"Hinojo\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Foeniculum vulgare",
+            "Foeniculum vulgare Mill."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"aromatic\",\"bloating\",\"colic\",\"culinary\",\"digestion\",\"digestive\",\"medicinal\"]",
+            "[\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[\"digestive\"],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[\"aromatic\"]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "glycyrrhiza_glabra",
+      "rowCount": 2,
+      "rowIndices": [
+        363,
+        364
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"ES\",\"FR\",\"IT\"]",
+            "[\"FR\",\"IT\"]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Licorice\",\"Liquirizia\",\"Regaliz\",\"Réglisse\"]",
+            "[\"Licorice\",\"Liquirizia\",\"Réglisse\"]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Glycyrrhiza glabra L.",
+            "Glycyrrhiza glabra"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"medicinal\"]",
+            "[\"digestion\",\"digestive\",\"sore throat\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[\"digestive\",\"respiratory\"],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "guazuma_ulmifolia",
+      "rowCount": 2,
+      "rowIndices": [
+        368,
+        369
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"GT\",\"MX\",\"NI\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Caulote\",\"Guácima\",\"Guácimo\",\"Guácimo de ternero\",\"Pixoy (Maya)\",\"Tapaculo\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Guazuma ulmifolia",
+            "Guazuma ulmifolia Lam."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"culinary\",\"medicinal\"]",
+            "[]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hamelia_patens",
+      "rowCount": 2,
+      "rowIndices": [
+        372,
+        373
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"CR\",\"GT\",\"HN\",\"MX\",\"PA\",\"VE\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Balletilla\",\"chac-ixcanan\",\"Chuchofinto\",\"Chuchopince\",\"Coralillo\",\"DOMINICANA). Chichipince\",\"flor de cangrejo\",\"hierba de erisipela\",\"Hierba del cáncer\",\"Ponponero\",\"red head\",\"SALVADOR). Coloradito\",\"Zorrillo colorado\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Hamelia patens",
+            "Hamelia patens Jacq."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"medicinal\"]",
+            "[]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "heimia_salicifolia",
+      "rowCount": 2,
+      "rowIndices": [
+        377,
+        378
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AR\",\"MX\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Jara mansa\",\"Quiebra arado\",\"Sinicuiche\",\"Sinicuil\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Heimia salicifolia",
+            "Heimia salicifolia (Kunth) Link"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"medicinal\"]",
+            "[]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hibiscus_rosasinensis",
+      "rowCount": 2,
+      "rowIndices": [
+        387,
+        388
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"GT\",\"MX\",\"NI\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Amapola\",\"Avispa\",\"Clavel\",\"Clavel Panamá\",\"Clavelón\",\"Flor de avispa\",\"Jamaica (decorative)\",\"Tulipán\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Hibiscus rosa-sinensis",
+            "Hibiscus rosa-sinensis L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"culinary\",\"medicinal\"]",
+            "[]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hylocereus_undatus",
+      "rowCount": 2,
+      "rowIndices": [
+        393,
+        394
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"GT\",\"MX\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Dragon fruit\",\"Pitahaya\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Hylocereus undatus",
+            "Hylocereus undatus (Haw.) Britton & Rose"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"culinary\",\"medicinal\"]",
+            "[]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hymenaea_courbaril",
+      "rowCount": 2,
+      "rowIndices": [
+        395,
+        396
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"BO\",\"CO\",\"NI\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Algarrobo\",\"Guapinol\",\"Paquio\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Hymenaea courbaril",
+            "Hymenaea courbaril L."
+          ]
+        }
+      }
+    },
+    {
+      "id": "hypericum_perforatum",
+      "rowCount": 2,
+      "rowIndices": [
+        400,
+        401
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AT\",\"BA\",\"CL\",\"DE\",\"ES\",\"IT\",\"MK\",\"NL\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Erba di San Giovanni\",\"Gospina trava\",\"Hierba de San Juan\",\"Hipérico\",\"Iperico\",\"Johanniskraut\",\"Sint-janskruid\",\"St. John's Wort\",\"Кантарион\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Hypericum perforatum",
+            "Hypericum perforatum L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"anti-inflammatory\",\"burns\",\"depression\",\"medicinal\",\"mild depression\",\"mood\",\"nerve pain\",\"skin irritation\",\"wounds\"]",
+            "[\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[\"anti-inflammatory\"],\"culinary\":[],\"topical\":[\"skin\",\"wounds\"],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "jatropha_curcas",
+      "rowCount": 2,
+      "rowIndices": [
+        416,
+        417
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AR\",\"CO\",\"CR\",\"GT\",\"HN\",\"MX\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Piao branco\",\"pinnao de purga\",\"Piñón\",\"piñón\",\"piñon\",\"Piñón (regional)\",\"piñoncillo\",\"sakilté\",\"Sikilte'\",\"Sikilte' (Maya)\",\"Tempate\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Jatropha curcas",
+            "Jatropha curcas L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"medicinal\"]",
+            "[]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "juniperus_communis",
+      "rowCount": 2,
+      "rowIndices": [
+        422,
+        423
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AT\",\"BG\",\"CL\",\"CZ\"]",
+            "[\"BG\"]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"boleráz\",\"břín\",\"Common juniper\",\"Enebro\",\"jalovec obecný\",\"Wacholder\"]",
+            "[\"Common juniper\"]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Juniperus communis",
+            "Juniperus communis L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"beverages\",\"culinary\",\"digestive\",\"diuretic\",\"medicinal\",\"preservatives for meat\",\"seasoning\"]",
+            "[\"antiseptic\",\"arthritis treatment\",\"digestive support\",\"diuretic\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[\"digestive\"],\"culinary\":[\"flavoring\",\"spice\"],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[\"digestive\"],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "justicia_pectoralis",
+      "rowCount": 2,
+      "rowIndices": [
+        424,
+        425
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"CO\",\"CR\",\"DO\",\"GT\",\"HN\",\"NI\",\"PA\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Amansaguapos\",\"Amansatoros\",\"Carpintera\\\"\",\"Cerebril\",\"Curía\",\"Santa Marta\",\"Tilo\",\"tilo\",\"Yakayú\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Justicia pectoralis Jacq.",
+            "Justicia pectoralis"
+          ]
+        }
+      }
+    },
+    {
+      "id": "justicia_spicigera",
+      "rowCount": 2,
+      "rowIndices": [
+        427,
+        428
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"MX\",\"NI\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Hierba azul\",\"Insulina\",\"Moitle\",\"Mouait\",\"Mouitl\",\"Muicle\",\"Pico de colibrí\",\"Sangre de Cristo\",\"Siete vidas\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Justicia spicigera Schlechtendal",
+            "Justicia spicigera"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[]",
+            "[\"medicinal\"]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kalanchoe_pinnata",
+      "rowCount": 2,
+      "rowIndices": [
+        429,
+        430
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"MX\",\"NI\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Hierba de la bruja\",\"Hoja de milagro\",\"Hoja de milagro (indirect)\",\"Hoja del aire\",\"Mala madre\",\"Siempreviva\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Kalanchoe pinnata (Lam.) Pers.",
+            "Kalanchoe pinnata"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[]",
+            "[\"medicinal\"]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "lantana_camara",
+      "rowCount": 2,
+      "rowIndices": [
+        433,
+        434
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AR\",\"GT\",\"GY\",\"MX\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Camará\",\"Chiligua negrita\",\"Cinco Negritos\",\"Lantana\",\"Siete negritos\",\"Sweet Sage\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Lantana camara",
+            "Lantana camara L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"medicinal\"]",
+            "[]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "laurus_nobilis",
+      "rowCount": 2,
+      "rowIndices": [
+        437,
+        438
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AL\",\"ES\",\"IT\"]",
+            "[\"AL\",\"IT\"]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Alloro\",\"Bay Laurel\",\"Dafinë\",\"Laurel\"]",
+            "[\"Alloro\",\"Bay Laurel\",\"Dafinë\"]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Laurus nobilis L.",
+            "Laurus nobilis"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"medicinal\"]",
+            "[\"digestive\",\"respiratory\",\"stimulant\",\"stomach ache\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[\"digestive\",\"respiratory\"],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "lavandula_angustifolia",
+      "rowCount": 2,
+      "rowIndices": [
+        439,
+        440
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"CL\",\"ES\",\"FR\",\"HR\",\"IT\",\"RO\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Lavanda\",\"Lavande\",\"Lavender\",\"lavender\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Lavandula angustifolia",
+            "Lavandula angustifolia Mill."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"anesthetic and analgesic in labor\",\"antibacterial\",\"antiseptic\",\"aromatic\",\"medicinal\",\"preventive clothing treatment\",\"relaxation\",\"skin soothing\",\"sleep\",\"stress\"]",
+            "[\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[\"sedative\"],\"culinary\":[],\"topical\":[\"skin\"],\"other\":[\"aromatic\"]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "lippia_alba",
+      "rowCount": 2,
+      "rowIndices": [
+        452,
+        453
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AR\",\"CR\",\"GT\",\"MX\",\"NI\",\"PA\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Alhucema\",\"Guanislama\",\"Hierba de tapón\",\"Hierba del dolor\",\"Juanilama\",\"Juanislama\",\"Mastranto\",\"Orégano\",\"Pronto alivio\",\"Roldana\",\"Salvia\",\"Salvia morada\",\"Salvia Santa\",\"Salvia Sija\",\"Santa María\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Lippia alba",
+            "Lippia alba (Mill.) N.E. Br. ex Britton & P. Wilson"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"aromatic\",\"culinary\",\"medicinal\"]",
+            "[]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[\"aromatic\"]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "luma_chequen",
+      "rowCount": 2,
+      "rowIndices": [
+        467,
+        468
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"CL\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Arrayán\",\"Chequén\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Luma chequen",
+            "Luma chequen (Mol.) A. Gray"
+          ]
+        }
+      }
+    },
+    {
+      "id": "malva_sylvestris",
+      "rowCount": 2,
+      "rowIndices": [
+        472,
+        473
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"CL\",\"ES\",\"FR\",\"IT\",\"PY\",\"RO\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Malva\",\"Mauve\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Malva sylvestris",
+            "Malva sylvestris L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"anti-inflammatory\",\"cicatrizing\",\"digestive\",\"inflammation\",\"laxative\",\"medicinal\",\"respiratory disorders\",\"skin\"]",
+            "[\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[\"anti-inflammatory\",\"digestive\",\"respiratory\"],\"culinary\":[],\"topical\":[\"skin\",\"wounds\"],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "malvaviscus_arboreus",
+      "rowCount": 2,
+      "rowIndices": [
+        474,
+        475
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"MX\",\"NI\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Amapola\",\"Malva\",\"Manzanita de Indias\",\"Monacillo\",\"Quesillo\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Malvaviscus arboreus Cav.",
+            "Malvaviscus arboreus"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[]",
+            "[\"culinary\",\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "marrubium_vulgare",
+      "rowCount": 2,
+      "rowIndices": [
+        481,
+        482
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"CL\",\"IT\",\"MX\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Horehound\",\"Malcubio\",\"Marrubio\",\"Marrubio blanco\",\"Toronjil cuyano\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Marrubium vulgare",
+            "Marrubium vulgare L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"bronchial irritation\",\"cough\",\"digestive\",\"expectorant\",\"medicinal\"]",
+            "[]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[\"digestive\",\"respiratory\"],\"culinary\":[],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "matricaria_chamomilla",
+      "rowCount": 2,
+      "rowIndices": [
+        484,
+        485
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AL\",\"AR\",\"AT\",\"BA\",\"BE\",\"BO\",\"CL\",\"CO\",\"CR\",\"DE\",\"DK\",\"FR\",\"GT\",\"HR\",\"IT\",\"MK\",\"MX\",\"NL\",\"PA\",\"PE\",\"SI\",\"SV\",\"UY\",\"VE\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Camomila\",\"Camomilla\",\"Camomille\",\"Chamomile\",\"Kamilica\",\"Kamille\",\"Kamomil\",\"Manzanilla\",\"Manzanilla alemana\",\"Matricaria\",\"Камилица\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Matricaria chamomilla",
+            "Matricaria chamomilla L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"anti-inflammatory\",\"aromatic\",\"calming\",\"colic\",\"culinary\",\"digestive\",\"medicinal\",\"stomach cramps\",\"tea\"]",
+            "[]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[\"anti-inflammatory\",\"digestive\",\"sedative\"],\"culinary\":[\"flavoring\",\"tea\"],\"topical\":[],\"other\":[\"aromatic\"]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "matricaria_recutita",
+      "rowCount": 2,
+      "rowIndices": [
+        486,
+        487
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AR\",\"CL\",\"EC\",\"ES\",\"PY\",\"UY\",\"VE\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Chamomilla\",\"Manzanilla\",\"Manzanilla Alemana\",\"Matricaria\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Matricaria recutita",
+            "Matricaria recutita L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"aromatic\",\"culinary\",\"medicinal\"]",
+            "[\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[\"aromatic\"]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "melissa_officinalis",
+      "rowCount": 2,
+      "rowIndices": [
+        493,
+        494
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AR\",\"BE\",\"BO\",\"CL\",\"DE\",\"ES\",\"FR\",\"IT\",\"MX\",\"NI\",\"PE\",\"UY\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Citroenmelisse\",\"Citronela\",\"Lemon balm\",\"Melisa\",\"Melissa\",\"Mélisse\",\"Melisse\",\"Toronjil\",\"Toronjil pa' la pena\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Melissa officinalis",
+            "Melissa officinalis L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"antispasmodic\",\"aromatic\",\"calming\",\"culinary\",\"digestion\",\"digestive\",\"medicinal\",\"stress\"]",
+            "[\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[\"digestive\",\"sedative\"],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[\"aromatic\"]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mentha_piperita",
+      "rowCount": 2,
+      "rowIndices": [
+        495,
+        496
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"BE\",\"DE\",\"FR\",\"HR\",\"IT\",\"MK\",\"MX\"]",
+            "[\"BE\",\"DE\",\"FR\",\"HR\",\"IT\",\"MK\",\"RO\"]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Hierbabuena china\",\"Menta\",\"Menta Piperita\",\"Menthe poivrée\",\"Metvica\",\"Pepermunt\",\"Peppermint\",\"Pfefferminze\",\"Нане\"]",
+            "[\"Menta Piperita\",\"Menthe poivrée\",\"Metvica\",\"Pepermunt\",\"Peppermint\",\"Pfefferminze\",\"Tendila\",\"Нане\"]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Mentha piperita L.",
+            "Mentha piperita"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[]",
+            "[\"anthelmintic\",\"anti-inflammatory\",\"antispastic\",\"bloating\",\"detoxifying\",\"digestive\",\"digestive upset\",\"diuretic\",\"hysteria\",\"nausea\",\"snake bite treatment\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[\"anti-inflammatory\",\"digestive\",\"sedative\"],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mentha_pulegium",
+      "rowCount": 2,
+      "rowIndices": [
+        497,
+        498
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"CL\",\"ES\",\"MX\",\"PY\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Menta poleo\",\"Poleo\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Mentha pulegium",
+            "Mentha pulegium L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"culinary\",\"medicinal\"]",
+            "[\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mentha_spicata",
+      "rowCount": 2,
+      "rowIndices": [
+        499,
+        500
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AR\",\"CL\",\"CO\",\"CR\",\"EC\",\"ES\",\"GT\",\"HN\",\"MX\",\"PA\",\"PE\",\"PY\",\"VE\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Alavina\",\"Arvino\",\"Hierba Buena\",\"Hierba buena\",\"Hierbabuena\",\"Menta\",\"Menta Dulce\",\"Pan Sut\",\"Spearmint\",\"Yerba Buena\",\"Yerba buena\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Mentha spicata",
+            "Mentha spicata L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"aromatic\",\"culinary\",\"medicinal\"]",
+            "[\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[\"aromatic\"]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mimosa_pudica",
+      "rowCount": 2,
+      "rowIndices": [
+        506,
+        507
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"CR\",\"HN\",\"MX\",\"NI\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Dormilona\",\"Sensitiva\",\"X muts' (Maya)\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Mimosa pudica",
+            "Mimosa pudica L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"medicinal\"]",
+            "[]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mirabilis_jalapa",
+      "rowCount": 2,
+      "rowIndices": [
+        510,
+        511
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AR\",\"MX\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Don Diego de noche\",\"Dondiego de noche\",\"Linda tarde\",\"Maravilla\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Mirabilis jalapa",
+            "Mirabilis jalapa L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"medicinal\"]",
+            "[]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "momordica_charantia",
+      "rowCount": 2,
+      "rowIndices": [
+        512,
+        513
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"BO\",\"CO\",\"CR\",\"GT\",\"GY\",\"HN\",\"SV\",\"VE\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Balsamina\",\"Balsamino\",\"Calaica\",\"Coraila\",\"Cunde Amor\",\"Cundeamor\",\"Jaiba\",\"Pepinillo\",\"Sorosí\",\"Valeriana\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Momordica charantia",
+            "Momordica charantia L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"culinary\",\"medicinal\"]",
+            "[\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "morinda_citrifolia",
+      "rowCount": 2,
+      "rowIndices": [
+        516,
+        517
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"HN\",\"MX\",\"NI\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Noni\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Morinda citrifolia",
+            "Morinda citrifolia L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"medicinal\"]",
+            "[]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ocimum_basilicum",
+      "rowCount": 2,
+      "rowIndices": [
+        534,
+        535
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"CL\",\"CO\",\"CR\",\"EC\",\"ES\",\"FR\",\"GT\",\"HN\",\"IT\",\"MX\",\"NI\",\"PY\",\"SV\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Albahaca\",\"Albahacar\",\"Basil\",\"Basilic\",\"Basilico\",\"Orégano (occasional)\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Ocimum basilicum",
+            "Ocimum basilicum L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"anti-inflammatory\",\"aromatic\",\"culinary\",\"digestive\",\"medicinal\",\"tea\"]",
+            "[\"culinary\",\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[\"anti-inflammatory\",\"digestive\"],\"culinary\":[\"flavoring\",\"tea\"],\"topical\":[],\"other\":[\"aromatic\"]}",
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ocimum_campechianum",
+      "rowCount": 2,
+      "rowIndices": [
+        536,
+        537
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"HN\",\"MX\",\"NI\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Albaca de gallina\",\"albaca de monte\",\"Albahaca\",\"Albahaca de monte\",\"Albahaca montera\",\"X kakaltuun\",\"X kakaltuun (Maya)\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Ocimum campechianum Mill.",
+            "Ocimum campechianum"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[]",
+            "[\"aromatic\",\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[\"aromatic\"]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "origanum_vulgare",
+      "rowCount": 2,
+      "rowIndices": [
+        545,
+        546
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AL\",\"BO\",\"FR\",\"IT\",\"PY\"]",
+            "[\"AL\"]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Orégano\",\"Oregano\",\"Origan\",\"Origano\",\"Rigoni\"]",
+            "[\"Rigoni\"]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Origanum vulgare",
+            "Origanum vulgare subsp. hirtum"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"antimicrobial\",\"antiseptic\",\"appetite stimulant\",\"aromatic\",\"culinary\",\"digestive\",\"medicinal\"]",
+            "[\"antimicrobial\",\"digestive\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[\"digestive\"],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[\"aromatic\"]}",
+            "{\"medicinal\":[\"digestive\"],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "papaver_rhoeas",
+      "rowCount": 2,
+      "rowIndices": [
+        549,
+        550
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"ES\",\"IT\"]",
+            "[\"IT\"]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Amapola\",\"Corn poppy\",\"Papavero\"]",
+            "[\"Corn poppy\",\"Papavero\"]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Papaver rhoeas L.",
+            "Papaver rhoeas"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"medicinal\"]",
+            "[\"cough\",\"mild sedative\",\"sleep\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[\"sedative\"],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "parthenium_hysterophorus",
+      "rowCount": 2,
+      "rowIndices": [
+        553,
+        554
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"HN\",\"MX\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Altamisa\",\"Altamiz\",\"Altanisa\",\"X waat che (Maya)\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Parthenium hysterophorus",
+            "Parthenium hysterophorus L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"medicinal\"]",
+            "[]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "passiflora_edulis",
+      "rowCount": 2,
+      "rowIndices": [
+        557,
+        558
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"MX\",\"NI\",\"PY\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Calala\",\"Maracuyá\",\"Mburucuyá\",\"Pasiflora\",\"Pasionaria\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Passiflora edulis Sims",
+            "Passiflora edulis"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[]",
+            "[\"culinary\",\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "passiflora_foetida",
+      "rowCount": 2,
+      "rowIndices": [
+        559,
+        560
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"GY\",\"MX\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Cancerina\",\"Semito\",\"Simatoo\",\"X tok xiiw (Maya)\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Passiflora foetida",
+            "Passiflora foetida L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"culinary\",\"medicinal\"]",
+            "[]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "petiveria_alliacea",
+      "rowCount": 2,
+      "rowIndices": [
+        566,
+        567
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AR\",\"BO\",\"CO\",\"GT\",\"HN\",\"NI\",\"PA\",\"VE\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Anamú\",\"Apacín\",\"chimú\",\"da-hua-ta\",\"Hierba de zorrillo\",\"hierba hedionda\",\"Ipacín\",\"Mikura\",\"Petiveria\",\"pipí\",\"Zorrillo\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Petiveria alliacea",
+            "Petiveria alliacea L."
+          ]
+        }
+      }
+    },
+    {
+      "id": "peumus_boldus",
+      "rowCount": 4,
+      "rowIndices": [
+        568,
+        569,
+        570,
+        571
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AR\",\"CL\",\"CO\",\"ES\",\"MX\",\"PE\",\"PY\",\"UY\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Boldo\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 4,
+          "previews": [
+            "Peumus boldus",
+            "Peumus boldus Mol.",
+            "Peumus boldus Molina."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"aromatic\",\"culinary\",\"medicinal\"]",
+            "[\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[\"aromatic\"]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "phyllanthus_niruri",
+      "rowCount": 2,
+      "rowIndices": [
+        576,
+        577
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AR\",\"BO\",\"MX\",\"PE\",\"PY\",\"VE\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Chanca Piedra\",\"Chancapiedra\",\"Flor escondida\",\"Para para'i\",\"Planta flor escondida\",\"Quebra Piedra\",\"Rompe piedra\",\"Sarandicito\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Phyllanthus niruri",
+            "Phyllanthus niruri L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"diuretic\",\"kidney\",\"medicinal\",\"stones\"]",
+            "[]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "pimpinella_anisum",
+      "rowCount": 2,
+      "rowIndices": [
+        584,
+        585
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"BO\",\"CL\",\"CO\",\"ES\",\"PY\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Anís\",\"Anís Verde\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Pimpinella anisum",
+            "Pimpinella anisum L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"aromatic\",\"culinary\",\"medicinal\"]",
+            "[\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[\"aromatic\"]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "piper_auritum",
+      "rowCount": 2,
+      "rowIndices": [
+        590,
+        591
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"CR\",\"HN\",\"MX\",\"NI\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Acoyo\",\"Acuyo\",\"Anisillo\",\"Caisimón de anís\",\"Corazón de María\",\"cow fool\",\"Hierba santa\",\"hoja de la estrella\",\"Hoja santa\",\"Insulina\",\"Milagrosa\",\"Santa María\",\"Tlanekpakilitl\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Piper auritum",
+            "Piper auritum Kunth"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"culinary\",\"medicinal\"]",
+            "[]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "pithecellobium_dulce",
+      "rowCount": 2,
+      "rowIndices": [
+        596,
+        597
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"GT\",\"MX\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Cuamuchil\",\"Guachimol\",\"Guamúchil\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Pithecellobium dulce",
+            "Pithecellobium dulce (Roxb.) Benth."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"culinary\",\"medicinal\"]",
+            "[]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "plantago_major",
+      "rowCount": 2,
+      "rowIndices": [
+        600,
+        601
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"BG\",\"BO\",\"CL\",\"CR\",\"GT\",\"HN\",\"MX\",\"NI\",\"PA\",\"PE\",\"PY\",\"SV\",\"VE\"]",
+            "[\"BG\"]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Broadleaf plantain\",\"Cola de Ardilla\",\"Lantén\",\"Llantén\",\"Llantén mayor\",\"Plantain mayor\",\"Raetzi\",\"Yanten\"]",
+            "[\"Broadleaf plantain\"]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Plantago major",
+            "Plantago major L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"medicinal\"]",
+            "[\"anti-fungal\",\"anti-inflammatory\",\"antimicrobial\",\"wound healing\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[\"anti-inflammatory\"],\"culinary\":[],\"topical\":[\"wounds\"],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "plectranthus_amboinicus",
+      "rowCount": 2,
+      "rowIndices": [
+        602,
+        603
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"GT\",\"HN\",\"MX\",\"NI\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Orégano\",\"Orégano Cubano\",\"Orégano de castilla (Yucatán)\",\"Orégano de castilla (Yucatan)\",\"Orégano extranjero\",\"Orégano francés\",\"Orégano orejón\",\"Oreganón\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Plectranthus amboinicus",
+            "Plectranthus amboinicus (Lour.) Spreng."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"culinary\",\"medicinal\"]",
+            "[]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "pluchea_carolinensis",
+      "rowCount": 2,
+      "rowIndices": [
+        606,
+        607
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"MX\",\"NI\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Chalche'\",\"Ciguapate\",\"Salvia\",\"Salvia dolorosa\",\"Tres Marías\",\"Tres Marías (Maya)\",\"Zaguapate\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Pluchea carolinensis (Jacq.) G. Don",
+            "Pluchea carolinensis"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[]",
+            "[\"medicinal\"]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "psidium_guajava",
+      "rowCount": 2,
+      "rowIndices": [
+        622,
+        623
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AR\",\"BO\",\"CR\",\"GT\",\"GY\",\"HN\",\"MX\",\"NI\",\"PA\",\"PY\",\"SV\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Arasá\",\"Guava\",\"Guayaba\",\"Guayabo\",\"Guizaro\",\"Xalxocotl\",\"Xaxokotl\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Psidium guajava",
+            "Psidium guajava L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"culinary\",\"diarrhea\",\"digestive\",\"medicinal\"]",
+            "[]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[\"digestive\"],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ricinus_communis",
+      "rowCount": 2,
+      "rowIndices": [
+        639,
+        640
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"HN\",\"MX\",\"NI\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Higuera\",\"Higuera blanca\",\"Higuera del diablo\",\"Higuera infernal\",\"Higuerill\",\"Higuerilla\",\"Higüerillo\",\"Ricino\",\"Tártago\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Ricinus communis",
+            "Ricinus communis L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"medicinal\"]",
+            "[]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "rosmarinus_officinalis",
+      "rowCount": 2,
+      "rowIndices": [
+        644,
+        645
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"FR\",\"HR\",\"IT\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Romarin\",\"Rosemary\",\"Rosmarino\",\"Ružmarin\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Rosmarinus officinalis",
+            "Rosmarinus officinalis L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"aromatic\",\"circulation\",\"culinary\",\"digestion\",\"digestive\",\"fats digestion\",\"liver\",\"medicinal\",\"memory\"]",
+            "[]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[\"digestive\"],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[\"aromatic\"]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ruta_chalepensis",
+      "rowCount": 2,
+      "rowIndices": [
+        653,
+        654
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"CL\",\"ES\",\"GT\",\"MX\",\"NI\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Ruda\",\"Ruda (chalepensis variant)\",\"Ruda silvestre\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Ruta chalepensis",
+            "Ruta chalepensis L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"digestive\",\"medicinal\",\"menstrual\",\"ritual\"]",
+            "[]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[\"digestive\"],\"culinary\":[],\"topical\":[],\"other\":[\"ritual\"]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ruta_graveolens",
+      "rowCount": 2,
+      "rowIndices": [
+        655,
+        656
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AR\",\"BO\",\"CL\",\"CO\",\"EC\",\"ES\",\"HN\",\"IT\",\"MX\",\"PE\",\"PY\",\"UY\",\"VE\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Lula\",\"Luta\",\"Ruda\",\"Rue\",\"Ruta\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Ruta graveolens",
+            "Ruta graveolens L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"capillary support\",\"medicinal\",\"muscle pain\",\"ritual\",\"traditional external use\"]",
+            "[\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[\"ritual\"]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "salvia_officinalis",
+      "rowCount": 2,
+      "rowIndices": [
+        661,
+        662
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AL\",\"BO\",\"CL\",\"ES\",\"FR\",\"IT\",\"MX\",\"SI\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Sage\",\"Salvia\",\"Salvia (European)\",\"Sauge\",\"Sherbelë\",\"Žajbelj\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Salvia officinalis",
+            "Salvia officinalis L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"antiseptic\",\"aromatic\",\"culinary\",\"digestion\",\"digestive\",\"medicinal\",\"oral antiseptic\",\"sore throat\"]",
+            "[\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[\"digestive\",\"respiratory\"],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[\"aromatic\"]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "salvia_rosmarinus",
+      "rowCount": 2,
+      "rowIndices": [
+        663,
+        664
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"BO\",\"CL\",\"CR\",\"ES\",\"FR\",\"GT\",\"HR\",\"IT\",\"MX\",\"PY\",\"VE\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Romarin\",\"Romero\",\"Romero castilla\",\"Rosemary\",\"Rosmarino\",\"Ružmarin\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Salvia rosmarinus",
+            "Salvia rosmarinus L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"aromatic\",\"culinary\",\"medicinal\"]",
+            "[\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[\"aromatic\"]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "sambucus_mexicana",
+      "rowCount": 2,
+      "rowIndices": [
+        667,
+        668
+      ],
+      "differingFields": [
+        "countries",
+        "family",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"EC\",\"HN\",\"MX\",\"PY\"]",
+            "[]"
+          ]
+        },
+        "family": {
+          "distinctCount": 2,
+          "previews": [
+            "Caprifoliaceae",
+            "Adoxaceae"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Sauco\",\"Saúco\",\"Sauco chico\",\"Sauco mexicano\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Sambucus mexicana",
+            "Sambucus mexicana C. Presl ex DC."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"medicinal\"]",
+            "[]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "sambucus_nigra",
+      "rowCount": 2,
+      "rowIndices": [
+        669,
+        670
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"BA\",\"BE\",\"BO\",\"CL\",\"CZ\",\"DE\",\"DK\",\"ES\",\"FR\",\"IT\",\"MX\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"bez černý\",\"bezinky\",\"Elder\",\"Elderberry\",\"Flor y fruto de sauco\",\"Holunder\",\"Hyld\",\"Sambuco\",\"Sauco\",\"Sureau\",\"Vlier\",\"Xometl\",\"Zova\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Sambucus nigra",
+            "Sambucus nigra L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"beverages\",\"colds\",\"fever\",\"fried flowers\",\"immune\",\"immune support\",\"medicinal\",\"oil from seeds\",\"respiratory\",\"wild fruits\"]",
+            "[\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[\"respiratory\"],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "satureja_montana",
+      "rowCount": 2,
+      "rowIndices": [
+        676,
+        677
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"ES\",\"SI\"]",
+            "[\"SI\"]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Ajedrea\",\"Šetraj\"]",
+            "[\"Šetraj\"]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Satureja montana L.",
+            "Satureja montana"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"medicinal\"]",
+            "[\"antimicrobial\",\"digestive\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[\"digestive\"],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "schinus_molle",
+      "rowCount": 2,
+      "rowIndices": [
+        681,
+        682
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AR\",\"BO\",\"CL\",\"MX\",\"PE\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Aguaribay\",\"Huingán\",\"Molle\",\"Pirú\",\"Pirul\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Schinus molle",
+            "Schinus molle L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"culinary\",\"medicinal\"]",
+            "[]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "senna_alata",
+      "rowCount": 2,
+      "rowIndices": [
+        691,
+        692
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"CR\",\"GT\",\"GY\",\"HN\",\"MX\",\"NI\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Barajo\",\"Carrion Crow Bush\",\"Christmas blossom\",\"Hoja de baraja\",\"Moco\",\"San Pedro\",\"Saragundí\",\"Secreto (Yucatan)\",\"Senna\",\"Serocontil\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Senna alata",
+            "Senna alata (L.) Roxb."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"medicinal\"]",
+            "[]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "senna_occidentalis",
+      "rowCount": 2,
+      "rowIndices": [
+        696,
+        697
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"GY\",\"HN\",\"MX\",\"NI\",\"PA\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Brusca\",\"Café moucha\",\"Cresta de gallo\",\"Frijolillo\",\"Frijolillo (Yucatan)\",\"frijolillo negro\",\"Hoja sen\",\"Lengua de pájaro\",\"Mayamal\",\"Pico de pájaro\",\"Pico de Pájaro\",\"Pwa piant\\\"\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Senna occidentalis",
+            "Senna occidentalis (L.) Link"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"culinary\",\"medicinal\"]",
+            "[]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "silybum_marianum",
+      "rowCount": 2,
+      "rowIndices": [
+        706,
+        707
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"DE\",\"ES\",\"FR\",\"IT\",\"MX\"]",
+            "[\"DE\",\"FR\",\"IT\"]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Cardo de María\",\"Cardo lechero\",\"Cardo mariano\",\"Cardo Mariano\",\"Chardon-Marie\",\"Mariendistel\",\"Milk thistle\"]",
+            "[\"Cardo mariano\",\"Chardon-Marie\",\"Mariendistel\",\"Milk thistle\"]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Silybum marianum (L.) Gaertn.",
+            "Silybum marianum"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"medicinal\"]",
+            "[\"detox\",\"hepatoprotective\",\"liver\",\"liver protection\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[\"digestive\"],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "solanum_americanum",
+      "rowCount": 2,
+      "rowIndices": [
+        715,
+        716
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"GT\",\"HN\",\"MX\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Hierba mora\",\"Hierba mora blanca\",\"Hierbamora\",\"Macuy\",\"Macuy negro\",\"Ndanxo\",\"Quilete\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Solanum americanum",
+            "Solanum americanum Mill."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"culinary\",\"medicinal\"]",
+            "[]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "solanum_nigrum",
+      "rowCount": 2,
+      "rowIndices": [
+        718,
+        719
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"GY\",\"MX\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Black Nightshade\",\"Hierba mora\",\"Tomatillos del diablo\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Solanum nigrum",
+            "Solanum nigrum L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"medicinal\"]",
+            "[]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "solanum_torvum",
+      "rowCount": 2,
+      "rowIndices": [
+        722,
+        723
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"GT\",\"MX\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Hierba sosa\",\"Huevo de gato\",\"Lavaplatos\",\"Pendejera\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Solanum torvum",
+            "Solanum torvum Sw."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"medicinal\"]",
+            "[]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "spondias_purpurea",
+      "rowCount": 2,
+      "rowIndices": [
+        731,
+        732
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"GT\",\"MX\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Abal ak' (Maya)\",\"Ciruela de monte\",\"Jocote\",\"Jocote de Cuaresma\",\"Jocote tronador\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Spondias purpurea",
+            "Spondias purpurea L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"culinary\",\"medicinal\"]",
+            "[]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stevia_rebaudiana",
+      "rowCount": 2,
+      "rowIndices": [
+        735,
+        736
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AR\",\"MX\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Estevia\",\"Hierba dulce\",\"Ka'a he'ê\",\"Ka'a-hée\",\"Ka'a-hée (Guaraní)\",\"Yerba dulce\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Stevia rebaudiana",
+            "Stevia rebaudiana Bertoni"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"culinary\",\"medicinal\"]",
+            "[]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "symphytum_officinale",
+      "rowCount": 2,
+      "rowIndices": [
+        738,
+        739
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"MX\",\"NL\"]",
+            "[\"NL\"]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Consuelda\",\"Smeerwortel\",\"Suelda con suelda\"]",
+            "[\"Smeerwortel\"]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Symphytum officinale L.",
+            "Symphytum officinale"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[]",
+            "[\"bone healing\",\"topical\",\"wounds\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[\"wounds\"],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tagetes_erecta",
+      "rowCount": 2,
+      "rowIndices": [
+        743,
+        744
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"HN\",\"MX\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Apátsicua\",\"Cempasúchil\",\"Cempazúchil\",\"Cempoalxóchitl\",\"Flor de muerto\",\"Sempualxóchitl\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Tagetes erecta",
+            "Tagetes erecta L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"medicinal\"]",
+            "[]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tagetes_lucida",
+      "rowCount": 2,
+      "rowIndices": [
+        745,
+        746
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"GT\",\"MX\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Anisillo\",\"Hierba de San Juan\",\"Pericón\",\"Yauhtli\",\"Yerbanís\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Tagetes lucida",
+            "Tagetes lucida Cav."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"aromatic\",\"medicinal\"]",
+            "[]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[\"aromatic\"]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tanacetum_parthenium",
+      "rowCount": 2,
+      "rowIndices": [
+        750,
+        751
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"CL\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Artemisa\",\"Matricaria\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Tanacetum parthenium",
+            "Tanacetum parthenium (L.) Sch. Bip."
+          ]
+        }
+      }
+    },
+    {
+      "id": "taraxacum_officinale",
+      "rowCount": 3,
+      "rowIndices": [
+        753,
+        754,
+        755
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AR\",\"CL\",\"DE\",\"ES\",\"FR\",\"IT\",\"MX\",\"NL\",\"PY\",\"RO\",\"UY\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Achicoria amarga\",\"Amargón\",\"Dandelion\",\"dandelion\",\"Diente de León\",\"Löwenzahn\",\"Paardenbloem\",\"Pissenlit\",\"Tarassaco\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 3,
+          "previews": [
+            "Taraxacum officinale",
+            "Taraxacum officinale G. H. Weber ex Wigg.",
+            "Taraxacum officinale F.H.Wigg."
+          ]
+        },
+        "uses": {
+          "distinctCount": 3,
+          "previews": [
+            "[\"anti-inflammatory\",\"antitumoral\",\"culinary\",\"detox\",\"digestion\",\"diuretic\",\"hepatoprotective\",\"liver\",\"liver support\",\"medicinal\"]",
+            "[]",
+            "[\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[\"anti-inflammatory\",\"digestive\"],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tecoma_stans",
+      "rowCount": 2,
+      "rowIndices": [
+        758,
+        759
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"GT\",\"MX\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Flor amarilla\",\"Retama\",\"Timboque\",\"Tronadora\",\"X k'aan lool (Maya)\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Tecoma stans",
+            "Tecoma stans (L.) Juss. ex Kunth"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"medicinal\"]",
+            "[]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "thymus_vulgaris",
+      "rowCount": 2,
+      "rowIndices": [
+        768,
+        769
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AL\",\"BE\",\"BO\",\"CL\",\"CO\",\"DE\",\"DK\",\"ES\",\"FR\",\"IT\",\"PY\",\"RO\",\"SI\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Mizela\",\"Thym\",\"Thyme\",\"thyme\",\"Thymian\",\"Tijm\",\"Timian\",\"Timijan\",\"Timo\",\"Tomillo\",\"Trumzë\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Thymus vulgaris",
+            "Thymus vulgaris L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"anthelmintic\",\"anti-inflammatory\",\"antiasthmatic\",\"antibiotic\",\"antiedema\",\"antimicrobial\",\"aromatic\",\"cough\",\"culinary\",\"expectorant\",\"fertility increase\",\"liver disease\",\"medicinal\",\"oral cavity anti-inflammatory\",\"respiratory\",\"sciatica\"]",
+            "[\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[\"anti-inflammatory\",\"digestive\",\"respiratory\"],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[\"aromatic\"]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tilia_cordata",
+      "rowCount": 2,
+      "rowIndices": [
+        770,
+        771
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"BE\",\"CL\",\"DE\",\"ES\",\"FR\",\"IT\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Linde\",\"Linden\",\"Tiglio\",\"Tila\",\"Tilleul\",\"Tilo\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Tilia cordata",
+            "Tilia cordata Mill."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"anxiety\",\"calming\",\"fever\",\"medicinal\",\"sleep\",\"sweating\"]",
+            "[\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[\"sedative\"],\"culinary\":[],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tithonia_diversifolia",
+      "rowCount": 2,
+      "rowIndices": [
+        774,
+        775
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"HN\",\"MX\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Árnica\",\"Árnica (Yucatán)\",\"Árnica (Yucatan)\",\"Chiople'\",\"Gigantón\",\"Girasol mexicano\",\"Mirasol\",\"Techichik\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Tithonia diversifolia",
+            "Tithonia diversifolia (Hemsl.) A. Gray"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"medicinal\"]",
+            "[]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tradescantia_zebrina",
+      "rowCount": 2,
+      "rowIndices": [
+        777,
+        778
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"CR\",\"GT\",\"MX\",\"NI\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Adorno de Esquipulas\",\"Cucaracha\",\"Hierba de pollo\",\"Hierba del pollo\",\"Hoja de Milagro\",\"Maclale\",\"Manto del Señor\",\"Matlal xiwitl\",\"Matlal xiwitl (Náhuatl)\",\"Ojo de venado\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Tradescantia zebrina",
+            "Tradescantia zebrina Heynh. ex Bosse"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"medicinal\"]",
+            "[]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "turnera_diffusa",
+      "rowCount": 2,
+      "rowIndices": [
+        783,
+        784
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AR\",\"MX\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Damiana\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Turnera diffusa",
+            "Turnera diffusa Willd. ex Schult."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"medicinal\"]",
+            "[]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "urera_baccifera",
+      "rowCount": 2,
+      "rowIndices": [
+        789,
+        790
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"CR\",\"MX\",\"SV\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Chichicaste\",\"Nigua\",\"Ortiga\",\"Ortiga (Yucatan)\",\"Pringamoza\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Urera baccifera",
+            "Urera baccifera (L.) Gaudich. ex Wedd."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"medicinal\"]",
+            "[]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "urtica_dioica",
+      "rowCount": 2,
+      "rowIndices": [
+        792,
+        793
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AT\",\"BA\",\"BE\",\"CL\",\"CZ\",\"DE\",\"DK\",\"ES\",\"FR\",\"IT\",\"MK\",\"MX\",\"NL\",\"PY\",\"RO\",\"SI\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Brændenælde\",\"Brandnetel\",\"Brennnessel\",\"Chiquicastle\",\"Dyn\",\"Kopriva\",\"kopřiva dvoudomá\",\"Nettle\",\"Ortica\",\"Ortie\",\"Ortiga\",\"stinging nettle\",\"žihavka\",\"Коприва\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Urtica dioica",
+            "Urtica dioica L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"abscess\",\"anti-inflammatory\",\"antimicrobial\",\"antitumoral\",\"aphrodisiac\",\"cicatrizing\",\"culinary\",\"detox\",\"detoxifying\",\"disinfectant\",\"diuretic\",\"expectorant\",\"green vegetables\",\"hemostatic\",\"kidney and urinary tract\",\"medicinal\",\"rennet substitute\",\"rheumatism\",\"scalp health\",\"soups\",\"wound healing\"]",
+            "[\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[\"anti-inflammatory\",\"respiratory\"],\"culinary\":[\"flavoring\"],\"topical\":[\"skin\",\"wounds\"],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "valeriana_officinalis",
+      "rowCount": 2,
+      "rowIndices": [
+        799,
+        800
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"AR\",\"BE\",\"BO\",\"CL\",\"DE\",\"DK\",\"ES\",\"FR\",\"IT\",\"MX\",\"NL\",\"PE\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Baldrian\",\"Valeriaan\",\"Valeriana\",\"Valeriana (European)\",\"Valériane\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Valeriana officinalis",
+            "Valeriana officinalis L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"anxiety\",\"medicinal\",\"nervous tension\",\"sleep\"]",
+            "[\"medicinal\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[\"sedative\"],\"culinary\":[],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "verbascum_thapsus",
+      "rowCount": 2,
+      "rowIndices": [
+        805,
+        806
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"CL\",\"ES\",\"MX\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Gordolobo\",\"Gordolobo (European\",\"Gordolobo (European)\",\"Hierba del paño\",\"INPI 2021)\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Verbascum thapsus",
+            "Verbascum thapsus L."
+          ]
+        }
+      }
+    },
+    {
+      "id": "verbena_officinalis",
+      "rowCount": 2,
+      "rowIndices": [
+        810,
+        811
+      ],
+      "differingFields": [
+        "countries",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"FR\",\"IT\",\"MX\",\"PY\"]",
+            "[\"FR\",\"IT\"]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Verbena officinalis L.",
+            "Verbena officinalis"
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[]",
+            "[\"digestive\",\"liver\",\"medicinal\",\"relaxation\"]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[\"digestive\",\"sedative\"],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "zea_mays",
+      "rowCount": 2,
+      "rowIndices": [
+        824,
+        825
+      ],
+      "differingFields": [
+        "countries",
+        "names",
+        "scientific_name",
+        "uses",
+        "uses_structured"
+      ],
+      "fieldDetails": {
+        "countries": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"CL\",\"MX\"]",
+            "[]"
+          ]
+        },
+        "names": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"Elote\",\"Ixi'im\",\"Maíz\",\"Nuni\",\"Pelo de choclo\",\"Pelo de maíz\",\"Tsíri\"]",
+            "[]"
+          ]
+        },
+        "scientific_name": {
+          "distinctCount": 2,
+          "previews": [
+            "Zea mays",
+            "Zea mays L."
+          ]
+        },
+        "uses": {
+          "distinctCount": 2,
+          "previews": [
+            "[\"culinary\",\"medicinal\"]",
+            "[]"
+          ]
+        },
+        "uses_structured": {
+          "distinctCount": 2,
+          "previews": [
+            "{\"medicinal\":[],\"culinary\":[\"flavoring\"],\"topical\":[],\"other\":[]}",
+            "{\"medicinal\":[],\"culinary\":[],\"topical\":[],\"other\":[]}"
+          ]
+        }
+      }
+    }
+  ]
+}

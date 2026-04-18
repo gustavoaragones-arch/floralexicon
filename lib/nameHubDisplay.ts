@@ -1,4 +1,4 @@
-import type { NameIndexLink } from "@/lib/data";
+import type { NameIndexLink, Plant } from "@/lib/data";
 import { t, type Locale } from "@/lib/i18n";
 
 /** Visible “also known as” links before “Show all”. */
@@ -44,6 +44,20 @@ export function formatHumanUseKey(lang: Locale, raw: string): string {
     default:
       return k ? k.charAt(0).toUpperCase() + k.slice(1) : "";
   }
+}
+
+/** Human-readable label for a `uses_structured` leaf (reuses `primary_uses` phrasing where keys match). */
+export function formatStructuredUseTagDisplay(lang: Locale, tag: string): string {
+  return formatHumanUseKey(lang, tag.trim().toLowerCase());
+}
+
+/** Up to `max` tags: all medicinal first, then culinary (for name-hub primary card). */
+export function topStructuredUseTagsForPrimaryCard(plant: Plant, max = 2): string[] {
+  const us = plant.uses_structured;
+  const med = us.medicinal.slice(0, max);
+  const need = max - med.length;
+  const cul = need > 0 ? us.culinary.slice(0, need) : [];
+  return [...med, ...cul].slice(0, max);
 }
 
 /** ISO 3166-1 alpha-2 → regional indicator flag emoji (empty if invalid). */

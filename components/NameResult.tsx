@@ -19,7 +19,9 @@ import { getCountryDisplayName, joinCountryNames } from "@/lib/countries";
 import {
   MAX_VISIBLE_NAMES,
   formatHumanUseKey,
+  formatStructuredUseTagDisplay,
   partitionNameLinksByAscii,
+  topStructuredUseTagsForPrimaryCard,
 } from "@/lib/nameHubDisplay";
 import { NameHubCountryIndexSection } from "@/components/NameHubCountryIndexSection";
 import { NameHubExploreSection } from "@/components/NameHubExploreSection";
@@ -31,6 +33,7 @@ import {
 import { NameSeoContent } from "@/components/NameSeoContent";
 import { ConfidenceTooltipExplainer } from "@/components/ConfidenceTooltipExplainer";
 import { localePath, ti, t, type Locale } from "@/lib/i18n";
+import { getUsePath } from "@/lib/usePaths";
 import Link from "next/link";
 
 type NameResultProps = {
@@ -421,6 +424,32 @@ export function NameResult({
                       </details>
                     ) : null}
                   </div>
+                ) : null}
+
+                {plant && !isPlaceholder ? (
+                  (() => {
+                    const tags = topStructuredUseTagsForPrimaryCard(plant, 2);
+                    if (tags.length === 0) return null;
+                    return (
+                      <div className="mt-4 text-sm text-stone-700 dark:text-stone-300">
+                        <p className="font-semibold text-stone-800 dark:text-stone-200">
+                          {t(lang, "name_primary_top_uses")}
+                        </p>
+                        <ul className="mt-2 list-disc space-y-1 pl-5">
+                          {tags.map((tag) => (
+                            <li key={tag}>
+                              <Link
+                                href={localePath(lang, getUsePath(tag))}
+                                className="font-medium text-flora-forest underline decoration-stone-300 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-400"
+                              >
+                                {formatStructuredUseTagDisplay(lang, tag)}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    );
+                  })()
                 ) : null}
               </div>
             );

@@ -1,0 +1,281 @@
+{
+  "country": "BG",
+  "plants": [
+
+    {
+      "scientific_name": "Achillea nobilis",
+      "family": "Asteraceae",
+      "common_names": ["Noble yarrow"],
+      "uses": ["digestive", "antiinflammatory"]
+    },
+    {
+      "scientific_name": "Artemisia absinthium",
+      "family": "Asteraceae",
+      "common_names": ["Wormwood"],
+      "uses": ["digestive", "antiparasitic", "hepatic"]
+    },
+    {
+      "scientific_name": "Artemisia vulgaris",
+      "family": "Asteraceae",
+      "common_names": ["Mugwort"],
+      "uses": ["digestive", "menstrual_support"]
+    },
+    {
+      "scientific_name": "Calendula officinalis",
+      "family": "Asteraceae",
+      "common_names": ["Calendula"],
+      "uses": ["wound_healing", "antiinflammatory", "skin"]
+    },
+    {
+      "scientific_name": "Chamomilla recutita",
+      "family": "Asteraceae",
+      "common_names": ["Chamomile"],
+      "uses": ["sedative", "digestive", "antiinflammatory"]
+    },
+    {
+      "scientific_name": "Cichorium intybus",
+      "family": "Asteraceae",
+      "common_names": ["Chicory"],
+      "uses": ["hepatic", "digestive"]
+    },
+    {
+      "scientific_name": "Taraxacum officinale",
+      "family": "Asteraceae",
+      "common_names": ["Dandelion"],
+      "uses": ["hepatic", "diuretic", "digestive"]
+    },
+    {
+      "scientific_name": "Tussilago farfara",
+      "family": "Asteraceae",
+      "common_names": ["Coltsfoot"],
+      "uses": ["respiratory", "expectorant"]
+    },
+    {
+      "scientific_name": "Silybum marianum",
+      "family": "Asteraceae",
+      "common_names": ["Milk thistle"],
+      "uses": ["hepatic", "detox"]
+    },
+
+    {
+      "scientific_name": "Hypericum perforatum",
+      "family": "Hypericaceae",
+      "common_names": ["St. John's wort"],
+      "uses": ["antidepressant", "wound_healing", "antiinflammatory"]
+    },
+
+    {
+      "scientific_name": "Urtica dioica",
+      "family": "Urticaceae",
+      "common_names": ["Stinging nettle"],
+      "uses": ["antiinflammatory", "nutritional", "diuretic"]
+    },
+
+    {
+      "scientific_name": "Sambucus nigra",
+      "family": "Caprifoliaceae",
+      "common_names": ["Elderberry"],
+      "uses": ["immune_support", "antiviral"]
+    },
+
+    {
+      "scientific_name": "Valeriana officinalis",
+      "family": "Valerianaceae",
+      "common_names": ["Valerian"],
+      "uses": ["sedative", "sleep"]
+    },
+
+    {
+      "scientific_name": "Thymus vulgaris",
+      "family": "Lamiaceae",
+      "common_names": ["Thyme"],
+      "uses": ["antimicrobial", "respiratory"]
+    },
+    {
+      "scientific_name": "Origanum vulgare",
+      "family": "Lamiaceae",
+      "common_names": ["Oregano"],
+      "uses": ["antimicrobial", "digestive"]
+    },
+    {
+      "scientific_name": "Melissa officinalis",
+      "family": "Lamiaceae",
+      "common_names": ["Lemon balm"],
+      "uses": ["sedative", "digestive"]
+    },
+    {
+      "scientific_name": "Mentha piperita",
+      "family": "Lamiaceae",
+      "common_names": ["Peppermint"],
+      "uses": ["digestive", "antispasmodic"]
+    },
+    {
+      "scientific_name": "Salvia officinalis",
+      "family": "Lamiaceae",
+      "common_names": ["Sage"],
+      "uses": ["antimicrobial", "digestive"]
+    },
+
+    {
+      "scientific_name": "Foeniculum vulgare",
+      "family": "Apiaceae",
+      "common_names": ["Fennel"],
+      "uses": ["digestive", "carminative"]
+    },
+    {
+      "scientific_name": "Carum carvi",
+      "family": "Apiaceae",
+      "common_names": ["Caraway"],
+      "uses": ["digestive"]
+    },
+    {
+      "scientific_name": "Coriandrum sativum",
+      "family": "Apiaceae",
+      "common_names": ["Coriander"],
+      "uses": ["digestive", "detox"]
+    },
+    {
+      "scientific_name": "Pimpinella anisum",
+      "family": "Apiaceae",
+      "common_names": ["Anise"],
+      "uses": ["digestive", "respiratory"]
+    },
+
+    {
+      "scientific_name": "Rosa canina",
+      "family": "Rosaceae",
+      "common_names": ["Rosehip"],
+      "uses": ["vitamin_c", "immune_support"]
+    },
+    {
+      "scientific_name": "Fragaria vesca",
+      "family": "Rosaceae",
+      "common_names": ["Wild strawberry"],
+      "uses": ["nutritional"]
+    },
+    {
+      "scientific_name": "Rubus idaeus",
+      "family": "Rosaceae",
+      "common_names": ["Raspberry"],
+      "uses": ["nutritional", "reproductive_health"]
+    },
+
+    {
+      "scientific_name": "Plantago lanceolata",
+      "family": "Plantaginaceae",
+      "common_names": ["Ribwort plantain"],
+      "uses": ["respiratory", "wound_healing"]
+    },
+
+    {
+      "scientific_name": "Equisetum arvense",
+      "family": "Equisetaceae",
+      "common_names": ["Horsetail"],
+      "uses": ["diuretic", "bone_health"]
+    },
+
+    {
+      "scientific_name": "Chelidonium majus",
+      "family": "Papaveraceae",
+      "common_names": ["Greater celandine"],
+      "uses": ["hepatic", "antiviral"]
+    },
+
+    {
+      "scientific_name": "Atropa belladonna",
+      "family": "Solanaceae",
+      "common_names": ["Belladonna"],
+      "uses": ["antispasmodic"],
+      "meta": { "toxicity": "high" }
+    },
+
+    {
+      "scientific_name": "Datura stramonium",
+      "family": "Solanaceae",
+      "common_names": ["Jimsonweed"],
+      "uses": ["respiratory"],
+      "meta": { "toxicity": "high" }
+    },
+
+    {
+      "scientific_name": "Digitalis purpurea",
+      "family": "Plantaginaceae",
+      "common_names": ["Foxglove"],
+      "uses": ["cardiotonic"],
+      "meta": { "toxicity": "high" }
+    },
+
+    {
+      "scientific_name": "Glycyrrhiza glabra",
+      "family": "Fabaceae",
+      "common_names": ["Licorice"],
+      "uses": ["respiratory", "digestive"]
+    },
+
+    {
+      "scientific_name": "Trifolium pratense",
+      "family": "Fabaceae",
+      "common_names": ["Red clover"],
+      "uses": ["hormonal_support"]
+    },
+
+    {
+      "scientific_name": "Vitis vinifera",
+      "family": "Vitaceae",
+      "common_names": ["Grape vine"],
+      "uses": ["antioxidant", "cardiovascular"]
+    },
+
+    {
+      "scientific_name": "Ficus carica",
+      "family": "Moraceae",
+      "common_names": ["Fig"],
+      "uses": ["digestive", "nutritional"]
+    },
+
+    {
+      "scientific_name": "Juglans regia",
+      "family": "Juglandaceae",
+      "common_names": ["Walnut"],
+      "uses": ["nutritional", "antiparasitic"]
+    },
+
+    {
+      "scientific_name": "Tilia cordata",
+      "family": "Malvaceae",
+      "common_names": ["Linden"],
+      "uses": ["sedative", "respiratory"]
+    },
+
+    {
+      "scientific_name": "Verbascum densiflorum",
+      "family": "Scrophulariaceae",
+      "common_names": ["Mullein"],
+      "uses": ["respiratory"]
+    },
+
+    {
+      "scientific_name": "Verbena officinalis",
+      "family": "Verbenaceae",
+      "common_names": ["Vervain"],
+      "uses": ["digestive", "sedative"]
+    },
+
+    {
+      "scientific_name": "Viola tricolor",
+      "family": "Violaceae",
+      "common_names": ["Wild pansy"],
+      "uses": ["skin", "antiinflammatory"]
+    }
+
+  ]
+
+
+
+
+
+  
+}
+
+
+
