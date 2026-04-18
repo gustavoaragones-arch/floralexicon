@@ -1,32 +1,23 @@
 import type { NameEntry } from "@/lib/data";
-import { nameEntryCountries, normalizeString } from "@/lib/data";
+import {
+  findNameRowsByPlantId,
+  nameEntryCountries,
+  normalizeString,
+} from "@/lib/data";
 
 function isDominantInCountry(entry: NameEntry, countryIso: string): boolean {
   const c = countryIso.trim().toUpperCase();
-  return (entry.dominant_in_countries ?? []).some((x) => x.trim().toUpperCase() === c);
+  return (entry.dominant_in_countries ?? []).some(
+    (x) => x.trim().toUpperCase() === c
+  );
 }
 
-/**
- * Labels used for a plant in a given country (from name index rows), ranked for
- * “what people say there” without language inference.
- */
-export function pickCountryModeLocalNames(
-  entries: readonly NameEntry[],
-  plantId: string,
+function sortForCountryMode(
+  entries: NameEntry[],
   countryIso: string
-): { primaryLocalName: string; alternativeLabels: string[] } {
+): NameEntry[] {
   const c = countryIso.trim().toUpperCase();
-  const pid = plantId.trim();
-  if (!c || !pid) return { primaryLocalName: "", alternativeLabels: [] };
-
-  const filtered = entries.filter(
-    (e) => e.plant_ids.includes(pid) && nameEntryCountries(e).includes(c)
-  );
-  if (filtered.length === 0) {
-    return { primaryLocalName: "", alternativeLabels: [] };
-  }
-
-  const ranked = [...filtered].sort((a, b) => {
+  return [...entries].sort((a, b) => {
     const da = isDominantInCountry(a, c) ? 1 : 0;
     const db = isDominantInCountry(b, c) ? 1 : 0;
     if (db !== da) return db - da;
@@ -38,7 +29,51 @@ export function pickCountryModeLocalNames(
     if (la !== lb) return la - lb;
     return a.name.localeCompare(b.name, "en", { sensitivity: "base" });
   });
+}
 
+export type CountryModeNamePick = {
+  primaryLocalName: string;
+  alternativeLabels: string[];
+  /** True when at least one name row lists the selected country in `countries`. */
+  hasCountrySpecificRows: boolean;
+};
+
+/**
+ * Picks display labels for country mode: prefers rows that include the selected
+ * country; if none exist, falls back to all indexed name rows for the plant
+ * (same sort keys, honest UI via {@link CountryModeNamePick.hasCountrySpecificRows}).
+ */
+export function pickCountryModeLocalNames(
+  plantId: string,
+  countryIso: string
+): CountryModeNamePick {
+  const c = countryIso.trim().toUpperCase();
+  const pid = plantId.trim();
+  if (!c || !pid) {
+    return {
+      primaryLocalName: "",
+      alternativeLabels: [],
+      hasCountrySpecificRows: false,
+    };
+  }
+
+  const plantNameEntries = findNameRowsByPlantId(pid);
+  const countrySpecific = plantNameEntries.filter((e) =>
+    nameEntryCountries(e).includes(c)
+  );
+  const globalNames = plantNameEntries;
+  const effectiveNames =
+    countrySpecific.length > 0 ? countrySpecific : globalNames;
+
+  if (effectiveNames.length === 0) {
+    return {
+      primaryLocalName: "",
+      alternativeLabels: [],
+      hasCountrySpecificRows: countrySpecific.length > 0,
+    };
+  }
+
+  const ranked = sortForCountryMode(effectiveNames, c);
   const orderedLabels: string[] = [];
   const seenNorm = new Set<string>();
   for (const e of ranked) {
@@ -53,5 +88,9 @@ export function pickCountryModeLocalNames(
 
   const primaryLocalName = orderedLabels[0] ?? "";
   const alternativeLabels = orderedLabels.slice(1, 4);
-  return { primaryLocalName, alternativeLabels };
+  return {
+    primaryLocalName,
+    alternativeLabels,
+    hasCountrySpecificRows: countrySpecific.length > 0,
+  };
 }

@@ -550,8 +550,16 @@ const dictionary = {
     name_page_h1_what_is: 'What is "{name}"?',
     name_primary_refers_to: "Most commonly refers to:",
     name_country_mode_called_in: "In {country}, this plant is called:",
+    name_country_mode_no_country_for_country:
+      "No country-specific name recorded for {country}.",
+    name_country_mode_common_name_used: "Common name used:",
+    name_country_mode_badge_local: "Local name",
+    name_country_mode_badge_global: "Global name",
+    name_country_mode_fallback_hint:
+      "This name is widely used internationally but may vary locally.",
     name_country_mode_scientific_verification: "Scientific name (verification):",
     name_country_mode_also_used_in: "Also used in {country}:",
+    name_country_mode_other_names: "Other known names:",
     name_primary_why_multi: "Most common match across {count} countries",
     name_primary_why_coverage: "Highest regional coverage",
     name_primary_why_dominant_country: "Dominant in {country}",
@@ -1315,8 +1323,16 @@ const dictionary = {
     name_page_h1_what_is: "¿Qué es «{name}»?",
     name_primary_refers_to: "Lo más frecuente es que se refiera a:",
     name_country_mode_called_in: "En {country}, a esta planta se le llama:",
+    name_country_mode_no_country_for_country:
+      "No hay un nombre específico registrado para {country}.",
+    name_country_mode_common_name_used: "Nombre común mostrado:",
+    name_country_mode_badge_local: "Nombre local",
+    name_country_mode_badge_global: "Nombre global",
+    name_country_mode_fallback_hint:
+      "Este nombre es muy habitual a nivel internacional, pero puede cambiar según la región.",
     name_country_mode_scientific_verification: "Nombre científico (verificación):",
     name_country_mode_also_used_in: "También se usa en {country}:",
+    name_country_mode_other_names: "Otros nombres conocidos:",
     name_primary_why_multi: "Coincidencia más habitual en {count} países",
     name_primary_why_coverage: "Mayor cobertura regional en los datos",
     name_primary_why_dominant_country: "Dominante en {country}",

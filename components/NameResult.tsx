@@ -15,7 +15,6 @@ import { CountryContextSelector } from "@/components/CountryContextSelector";
 import {
   dedupeNameIndexLinksByNormalizedLabel,
   getNameSlugRowCountForPlant,
-  getNamesByNormalized,
   getPlantGlobalData,
   loadNames,
   plantNameHubSlug,
@@ -286,6 +285,7 @@ export function NameResult({
 
   const primaryContext =
     plantContexts.find((p) => p.is_primary_authority) ?? plantContexts[0];
+
   const secondaryContexts = plantContexts.filter((p) => !p.is_primary_authority);
 
   const comparePairPath =
@@ -327,12 +327,8 @@ export function NameResult({
       : null;
 
   const countryLocalPick =
-    isCountryMode && normalizedCountry && primaryMatch && normalized
-      ? pickCountryModeLocalNames(
-          getNamesByNormalized(normalized),
-          primaryMatch.plant_id,
-          normalizedCountry
-        )
+    isCountryMode && normalizedCountry && primaryContext
+      ? pickCountryModeLocalNames(primaryContext.plant_id, normalizedCountry)
       : null;
   const countryPrimaryHeadline = isCountryMode
     ? countryLocalPick?.primaryLocalName.trim() || inputName
@@ -388,16 +384,56 @@ export function NameResult({
                     )
                   : null;
 
+              const isFallback = Boolean(
+                countryLocalPick && !countryLocalPick.hasCountrySpecificRows
+              );
+
               return (
                 <div className="primary-card mt-6 rounded-2xl border-2 border-stone-200 bg-white px-5 py-6 shadow-sm dark:border-stone-600 dark:bg-stone-900/50">
-                  <p className="label text-sm font-medium text-stone-600 dark:text-stone-400">
-                    {ti(lang, "name_country_mode_called_in", {
-                      country: countryLabel,
-                    })}
-                  </p>
-                  <p className="local-primary-name mt-3 font-serif text-2xl font-semibold leading-tight tracking-tight text-stone-900 sm:text-3xl md:text-4xl dark:text-stone-100">
-                    {countryPrimaryHeadline}
-                  </p>
+                  {countryLocalPick?.hasCountrySpecificRows ? (
+                    <p className="label text-sm font-medium text-stone-600 dark:text-stone-400">
+                      {ti(lang, "name_country_mode_called_in", {
+                        country: countryLabel,
+                      })}
+                    </p>
+                  ) : (
+                    <div className="space-y-1">
+                      <p className="label text-sm font-medium text-stone-600 dark:text-stone-400">
+                        {ti(lang, "name_country_mode_no_country_for_country", {
+                          country: countryLabel,
+                        })}
+                      </p>
+                      <p className="text-sm font-medium text-stone-700 dark:text-stone-300">
+                        {t(lang, "name_country_mode_common_name_used")}
+                      </p>
+                    </div>
+                  )}
+
+                  <div className="mt-3 space-y-2">
+                    <div className="flex flex-wrap items-baseline gap-x-3 gap-y-2">
+                      <p className="local-primary-name font-serif text-2xl font-semibold leading-tight tracking-tight text-stone-900 sm:text-3xl md:text-4xl dark:text-stone-100">
+                        {countryPrimaryHeadline}
+                      </p>
+                      {countryLocalPick ? (
+                        <span
+                          className={
+                            isFallback
+                              ? "badge badge--muted shrink-0 inline-block rounded-md border border-stone-200 bg-stone-100 px-2 py-0.5 text-xs font-medium text-stone-700 dark:border-stone-600 dark:bg-stone-800 dark:text-stone-200"
+                              : "badge badge--green shrink-0 inline-block rounded-md border border-emerald-200/70 bg-emerald-50 px-2 py-0.5 text-xs font-medium text-emerald-900 dark:border-emerald-800/60 dark:bg-emerald-950/50 dark:text-emerald-100"
+                          }
+                        >
+                          {isFallback
+                            ? t(lang, "name_country_mode_badge_global")
+                            : t(lang, "name_country_mode_badge_local")}
+                        </span>
+                      ) : null}
+                    </div>
+                    {isFallback && countryLocalPick ? (
+                      <p className="text-xs leading-relaxed text-stone-500 dark:text-stone-400">
+                        {t(lang, "name_country_mode_fallback_hint")}
+                      </p>
+                    ) : null}
+                  </div>
 
                   {isPlaceholder || !plant ? (
                     <p className="mt-3 text-sm text-stone-600 dark:text-stone-400">
@@ -438,9 +474,11 @@ export function NameResult({
                   countryLocalPick.alternativeLabels.length > 0 ? (
                     <div className="mt-5 text-sm text-stone-800 dark:text-stone-200">
                       <p className="font-semibold text-stone-900 dark:text-stone-100">
-                        {ti(lang, "name_country_mode_also_used_in", {
-                          country: countryLabel,
-                        })}
+                        {countryLocalPick.hasCountrySpecificRows
+                          ? ti(lang, "name_country_mode_also_used_in", {
+                              country: countryLabel,
+                            })
+                          : t(lang, "name_country_mode_other_names")}
                       </p>
                       <ul className="mt-2 list-disc space-y-1 pl-5">
                         {countryLocalPick.alternativeLabels.map((label) => (
