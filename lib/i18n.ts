@@ -553,10 +553,15 @@ const dictionary = {
     name_country_mode_no_country_for_country:
       "No country-specific name recorded for {country}.",
     name_country_mode_common_name_used: "Common name used:",
+    name_country_mode_language_intro:
+      "No country-specific label in the index; showing a same-language name recorded for this species:",
     name_country_mode_badge_local: "Local name",
-    name_country_mode_badge_global: "Global name",
+    name_country_mode_badge_regional: "Common regional name",
+    name_country_mode_badge_global: "International name",
+    name_country_mode_regional_hint:
+      "This label matches the region’s language in the index but is not tied to this country as a dedicated local row.",
     name_country_mode_fallback_hint:
-      "This name is widely used internationally but may vary locally.",
+      "International catalog name: verify locally; wording and species usage differ by country.",
     name_country_mode_scientific_verification: "Scientific name (verification):",
     name_country_mode_also_used_in: "Also used in {country}:",
     name_country_mode_other_names: "Other known names:",
@@ -1326,10 +1331,15 @@ const dictionary = {
     name_country_mode_no_country_for_country:
       "No hay un nombre específico registrado para {country}.",
     name_country_mode_common_name_used: "Nombre común mostrado:",
+    name_country_mode_language_intro:
+      "No hay una fila específica del país en el índice; se muestra un nombre en el mismo idioma registrado para la especie:",
     name_country_mode_badge_local: "Nombre local",
-    name_country_mode_badge_global: "Nombre global",
+    name_country_mode_badge_regional: "Nombre regional habitual",
+    name_country_mode_badge_global: "Nombre internacional",
+    name_country_mode_regional_hint:
+      "La etiqueta coincide con el idioma de la región en el índice, pero no consta como fila local dedicada a este país.",
     name_country_mode_fallback_hint:
-      "Este nombre es muy habitual a nivel internacional, pero puede cambiar según la región.",
+      "Nombre de catálogo internacional: comprueba en fuentes locales; la especie y la forma de llamarla cambian según el país.",
     name_country_mode_scientific_verification: "Nombre científico (verificación):",
     name_country_mode_also_used_in: "También se usa en {country}:",
     name_country_mode_other_names: "Otros nombres conocidos:",

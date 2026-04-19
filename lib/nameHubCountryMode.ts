@@ -6,6 +6,34 @@ import {
   normalizeString,
 } from "@/lib/data";
 
+/** ISO 3166-1 alpha-2 → primary indexed language for controlled fallbacks (resolver + country mode). */
+export const COUNTRY_LANGUAGE_MAP: Record<string, string> = {
+  AR: "es",
+  CL: "es",
+  BO: "es",
+  CO: "es",
+  MX: "es",
+  ES: "es",
+  US: "en",
+  CA: "en",
+  FR: "fr",
+  DE: "de",
+  IT: "it",
+};
+
+/**
+ * Returns lowercase BCP 47 primary language subtag when mapped; otherwise `null`
+ * (explicit country rows only — no guessed language family).
+ */
+export function detectCountryLanguage(iso: string): string | null {
+  const c = iso.trim().toUpperCase();
+  if (!c) return null;
+  const lang = COUNTRY_LANGUAGE_MAP[c];
+  return typeof lang === "string" && lang.trim()
+    ? lang.trim().toLowerCase()
+    : null;
+}
+
 function isDominantInCountry(entry: NameEntry, countryIso: string): boolean {
   const c = countryIso.trim().toUpperCase();
   return (entry.dominant_in_countries ?? []).some(
@@ -32,49 +60,39 @@ function sortForCountryMode(
   });
 }
 
+export type CountryModeResolutionMode =
+  | "native"
+  | "language_fallback"
+  | "global";
+
 export type CountryModeNamePick = {
+  mode: CountryModeResolutionMode;
   primaryLocalName: string;
   alternativeLabels: string[];
   /** True when at least one name row has explicit coverage for the country (excludes `global_fallback` only). */
   hasCountrySpecificRows: boolean;
 };
 
-/**
- * Picks display labels for country mode: prefers rows that include the selected
- * country; if none exist, falls back to all indexed name rows for the plant
- * (same sort keys, honest UI via {@link CountryModeNamePick.hasCountrySpecificRows}).
- */
-export function pickCountryModeLocalNames(
-  plantId: string,
-  countryIso: string
+function entryLanguageNorm(entry: NameEntry): string {
+  return (entry.language ?? "").trim().toLowerCase();
+}
+
+function buildResult(
+  entries: NameEntry[],
+  countryIso: string,
+  mode: CountryModeResolutionMode
 ): CountryModeNamePick {
   const c = countryIso.trim().toUpperCase();
-  const pid = plantId.trim();
-  if (!c || !pid) {
+  if (entries.length === 0) {
     return {
+      mode,
       primaryLocalName: "",
       alternativeLabels: [],
-      hasCountrySpecificRows: false,
+      hasCountrySpecificRows: mode === "native",
     };
   }
 
-  const plantNameEntries = findNameRowsByPlantId(pid);
-  const countrySpecific = plantNameEntries.filter((e) =>
-    nameEntryHasExplicitCountryCoverage(e, c)
-  );
-  const globalNames = plantNameEntries;
-  const effectiveNames =
-    countrySpecific.length > 0 ? countrySpecific : globalNames;
-
-  if (effectiveNames.length === 0) {
-    return {
-      primaryLocalName: "",
-      alternativeLabels: [],
-      hasCountrySpecificRows: countrySpecific.length > 0,
-    };
-  }
-
-  const ranked = sortForCountryMode(effectiveNames, c);
+  const ranked = sortForCountryMode(entries, c);
   const orderedLabels: string[] = [];
   const seenNorm = new Set<string>();
   for (const e of ranked) {
@@ -90,8 +108,79 @@ export function pickCountryModeLocalNames(
   const primaryLocalName = orderedLabels[0] ?? "";
   const alternativeLabels = orderedLabels.slice(1, 4);
   return {
+    mode,
     primaryLocalName,
     alternativeLabels,
-    hasCountrySpecificRows: countrySpecific.length > 0,
+    hasCountrySpecificRows: mode === "native",
   };
+}
+
+/**
+ * Picks display labels for country mode: explicit country rows first, then
+ * same-language hub rows, then full hub (international) — deterministic sort
+ * within each tier.
+ */
+export function pickCountryModeLocalNames(
+  plantId: string,
+  countryIso: string
+): CountryModeNamePick {
+  const c = countryIso.trim().toUpperCase();
+  const pid = plantId.trim();
+  if (!c || !pid) {
+    return {
+      mode: "global",
+      primaryLocalName: "",
+      alternativeLabels: [],
+      hasCountrySpecificRows: false,
+    };
+  }
+
+  const entries = findNameRowsByPlantId(pid);
+
+  // STEP 1 — explicit country match
+  const countrySpecific = entries.filter((entry) =>
+    nameEntryHasExplicitCountryCoverage(entry, c)
+  );
+
+  if (countrySpecific.length > 0) {
+    const result = buildResult(countrySpecific, c, "native");
+    if (process.env.NODE_ENV === "development") {
+      console.log({
+        country: c,
+        mode: result.mode,
+        primary: result.primaryLocalName || undefined,
+      });
+    }
+    return result;
+  }
+
+  // STEP 2 — language fallback (same mapped language only)
+  const language = detectCountryLanguage(c);
+  const sameLanguage =
+    language != null
+      ? entries.filter((entry) => entryLanguageNorm(entry) === language)
+      : [];
+
+  if (sameLanguage.length > 0) {
+    const result = buildResult(sameLanguage, c, "language_fallback");
+    if (process.env.NODE_ENV === "development") {
+      console.log({
+        country: c,
+        mode: result.mode,
+        primary: result.primaryLocalName || undefined,
+      });
+    }
+    return result;
+  }
+
+  // STEP 3 — global fallback (never preferred)
+  const result = buildResult(entries, c, "global");
+  if (process.env.NODE_ENV === "development") {
+    console.log({
+      country: c,
+      mode: result.mode,
+      primary: result.primaryLocalName || undefined,
+    });
+  }
+  return result;
 }

@@ -16,6 +16,7 @@ import { toUrlSlug } from "@/lib/toUrlSlug";
 import {
   getPlantCountryCodesSorted,
 } from "@/lib/geo";
+import { detectCountryLanguage } from "@/lib/nameHubCountryMode";
 
 export type Ambiguity = "low" | "medium" | "high";
 
@@ -499,6 +500,27 @@ function buildConfidenceByPlant(
   return byPlant;
 }
 
+/**
+ * When a region is selected: keep only rows for that ISO where the name entry
+ * is either explicitly tied to the country or shares the region’s mapped language
+ * (blocks unrelated languages, e.g. German labels in Chile).
+ */
+function matchAllowedForSelectedCountry(
+  m: PlantNameMatch,
+  countryIso: string
+): boolean {
+  const C = countryIso.trim().toUpperCase();
+  if (!C) return true;
+  const rowCountry = m.country.trim().toUpperCase();
+  if (!rowCountry || rowCountry !== C) return false;
+  const entry = m.name_entry;
+  if (nameEntryHasExplicitCountryCoverage(entry, C)) return true;
+  const lang = detectCountryLanguage(C);
+  if (lang == null) return false;
+  const entryLang = (entry.language ?? "").trim().toLowerCase();
+  return entryLang === lang;
+}
+
 function resolveAmbiguity(matches: PlantNameMatch[]): Ambiguity {
   if (matches.length === 0) return "low";
 
@@ -544,7 +566,13 @@ function resolvePlantNameCore(
       name_dominance: c?.name_dominance ?? 0,
     };
   });
-  const sorted = sortMatches(withConfidence, country, nameEntries);
+
+  const selected = country?.trim().toUpperCase();
+  const countryScoped = selected
+    ? withConfidence.filter((m) => matchAllowedForSelectedCountry(m, selected))
+    : withConfidence;
+
+  const sorted = sortMatches(countryScoped, country, nameEntries);
   const matches = enrichMatchesWithAuthority(sorted);
   const ambiguity = resolveAmbiguity(matches);
 
@@ -597,22 +625,9 @@ export function resolvePlantNameForCountryRoute(
   if (!want) return null;
 
   const full = resolvePlantNameCore(slugInput, want, lang);
-  const filtered = full.matches.filter((m) => m.country === want);
-  if (filtered.length === 0) return null;
+  if (full.matches.length === 0) return null;
 
-  const hubEntries = full.normalized ? getNamesByNormalized(full.normalized) : [];
-  const sorted = sortMatches(filtered, want, hubEntries);
-  const matches = enrichMatchesWithAuthority(sorted);
-  const ambiguity = resolveAmbiguity(matches);
-  const plantContexts = buildPlantContexts(matches, lang);
-
-  return {
-    query: full.query,
-    normalized: full.normalized,
-    matches,
-    plantContexts,
-    ambiguity,
-  };
+  return full;
 }
 
 export function getPlantByRouteId(routeId: string): Plant | undefined {

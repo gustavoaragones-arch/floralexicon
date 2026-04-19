@@ -1,6 +1,4 @@
 "use client";
-
-import { useEffect, useState } from "react";
 import type {
   Ambiguity,
   PlantNameMatch,
@@ -19,10 +17,7 @@ import {
   loadNames,
   plantNameHubSlug,
 } from "@/lib/data";
-import {
-  aggregateCountryFrequencyForNameHub,
-  getNameHubCountryCodesSorted,
-} from "@/lib/geo";
+import { aggregateCountryFrequencyForNameHub } from "@/lib/geo";
 import { getCountryDisplayName } from "@/lib/countries";
 import { pickCountryModeLocalNames } from "@/lib/nameHubCountryMode";
 import {
@@ -233,8 +228,6 @@ export function NameResult({
   samePlantClusters,
   variantNotice,
 }: NameResultProps) {
-  const [showAllCountries, setShowAllCountries] = useState(false);
-
   const inputName = query.trim() || normalized.trim();
   const titleName = inputName;
   const normalizedCountry =
@@ -243,21 +236,31 @@ export function NameResult({
       : null;
   const isCountryMode = Boolean(normalizedCountry);
 
-  useEffect(() => {
-    setShowAllCountries(false);
-  }, [nameSlug, normalizedCountry]);
+  const primaryContext =
+    plantContexts.find((p) => p.is_primary_authority) ?? plantContexts[0];
+
   const siblingPlants = plantContexts
     .map((c) => c.plant)
     .filter((p): p is NonNullable<typeof p> => p != null);
   const names = loadNames();
-  const globalHubCodes =
-    hasMatches && normalized
-      ? getNameHubCountryCodesSorted(normalized, names, lang)
+  /** Country selector: plant regional inventory (`processed` merge), not name-hub footprint. */
+  const plantSelectorCountries =
+    hasMatches &&
+    primaryContext?.plant &&
+    !primaryContext.isPlaceholder &&
+    Array.isArray(primaryContext.plant.countries) &&
+    primaryContext.plant.countries.length > 0
+      ? [...primaryContext.plant.countries].sort((a, b) => a.localeCompare(b))
       : [];
-  /** Single source for country preview, expand, and hub-scoped selector options. */
+  const globalHubCodes = plantSelectorCountries;
+  /** Single source for country preview and selector options (plant distribution only). */
   const countryMatches = globalHubCodes;
   const countrySelectorOptions =
-    countryMatches.length > 0 ? countryMatches : countryOptions;
+    plantSelectorCountries.length > 0
+      ? plantSelectorCountries
+      : primaryContext?.isPlaceholder
+        ? countryOptions
+        : [];
   const filteredCountryMatches = normalizedCountry
     ? countryMatches.filter((c) => c === normalizedCountry)
     : countryMatches;
@@ -277,14 +280,8 @@ export function NameResult({
     countryCode,
     plants: plantsByCountry.get(countryCode) ?? [],
   }));
-  const visibleRows = showAllCountries
-    ? filteredCountryRows
-    : filteredCountryRows.slice(0, 5);
 
   const useKeys = hasMatches ? aggregateUseKeys(plantContexts) : [];
-
-  const primaryContext =
-    plantContexts.find((p) => p.is_primary_authority) ?? plantContexts[0];
 
   const secondaryContexts = plantContexts.filter((p) => !p.is_primary_authority);
 
@@ -384,17 +381,19 @@ export function NameResult({
                     )
                   : null;
 
-              const isFallback = Boolean(
-                countryLocalPick && !countryLocalPick.hasCountrySpecificRows
-              );
+              const pickMode = countryLocalPick?.mode;
 
               return (
                 <div className="primary-card mt-6 rounded-2xl border-2 border-stone-200 bg-white px-5 py-6 shadow-sm dark:border-stone-600 dark:bg-stone-900/50">
-                  {countryLocalPick?.hasCountrySpecificRows ? (
+                  {pickMode === "native" ? (
                     <p className="label text-sm font-medium text-stone-600 dark:text-stone-400">
                       {ti(lang, "name_country_mode_called_in", {
                         country: countryLabel,
                       })}
+                    </p>
+                  ) : pickMode === "language_fallback" ? (
+                    <p className="label text-sm font-medium text-stone-600 dark:text-stone-400">
+                      {t(lang, "name_country_mode_language_intro")}
                     </p>
                   ) : (
                     <div className="space-y-1">
@@ -417,20 +416,28 @@ export function NameResult({
                       {countryLocalPick ? (
                         <span
                           className={
-                            isFallback
-                              ? "badge badge--muted shrink-0 inline-block rounded-md border border-stone-200 bg-stone-100 px-2 py-0.5 text-xs font-medium text-stone-700 dark:border-stone-600 dark:bg-stone-800 dark:text-stone-200"
-                              : "badge badge--green shrink-0 inline-block rounded-md border border-emerald-200/70 bg-emerald-50 px-2 py-0.5 text-xs font-medium text-emerald-900 dark:border-emerald-800/60 dark:bg-emerald-950/50 dark:text-emerald-100"
+                            pickMode === "native"
+                              ? "badge badge--green shrink-0 inline-block rounded-md border border-emerald-200/70 bg-emerald-50 px-2 py-0.5 text-xs font-medium text-emerald-900 dark:border-emerald-800/60 dark:bg-emerald-950/50 dark:text-emerald-100"
+                              : pickMode === "language_fallback"
+                                ? "badge shrink-0 inline-block rounded-md border border-amber-200/80 bg-amber-50 px-2 py-0.5 text-xs font-medium text-amber-950 dark:border-amber-800/50 dark:bg-amber-950/40 dark:text-amber-100"
+                                : "badge badge--muted shrink-0 inline-block rounded-md border border-stone-200 bg-stone-100 px-2 py-0.5 text-xs font-medium text-stone-700 dark:border-stone-600 dark:bg-stone-800 dark:text-stone-200"
                           }
                         >
-                          {isFallback
-                            ? t(lang, "name_country_mode_badge_global")
-                            : t(lang, "name_country_mode_badge_local")}
+                          {pickMode === "native"
+                            ? t(lang, "name_country_mode_badge_local")
+                            : pickMode === "language_fallback"
+                              ? t(lang, "name_country_mode_badge_regional")
+                              : t(lang, "name_country_mode_badge_global")}
                         </span>
                       ) : null}
                     </div>
-                    {isFallback && countryLocalPick ? (
+                    {countryLocalPick &&
+                    (pickMode === "language_fallback" ||
+                      pickMode === "global") ? (
                       <p className="text-xs leading-relaxed text-stone-500 dark:text-stone-400">
-                        {t(lang, "name_country_mode_fallback_hint")}
+                        {pickMode === "language_fallback"
+                          ? t(lang, "name_country_mode_regional_hint")
+                          : t(lang, "name_country_mode_fallback_hint")}
                       </p>
                     ) : null}
                   </div>
@@ -474,7 +481,7 @@ export function NameResult({
                   countryLocalPick.alternativeLabels.length > 0 ? (
                     <div className="mt-5 text-sm text-stone-800 dark:text-stone-200">
                       <p className="font-semibold text-stone-900 dark:text-stone-100">
-                        {countryLocalPick.hasCountrySpecificRows
+                        {countryLocalPick.mode === "native"
                           ? ti(lang, "name_country_mode_also_used_in", {
                               country: countryLabel,
                             })
@@ -729,9 +736,9 @@ export function NameResult({
               })}
             </p>
           ) : null}
-          {visibleRows.length > 0 ? (
+          {filteredCountryRows.length > 0 ? (
             <div className="mt-4 text-sm text-stone-800 dark:text-stone-200">
-              {visibleRows.map(({ countryCode, plants }) => (
+              {filteredCountryRows.map(({ countryCode, plants }) => (
                 <div key={countryCode} className="country-row mb-3 last:mb-0">
                   <div className="country-name font-semibold text-stone-900 dark:text-stone-100">
                     <Link
@@ -768,28 +775,6 @@ export function NameResult({
                 </div>
               ))}
             </div>
-          ) : null}
-          {!normalizedCountry && filteredCountryRows.length > 5 && !showAllCountries ? (
-            <p className="mt-3">
-              <button
-                type="button"
-                onClick={() => setShowAllCountries(true)}
-                className="text-sm font-medium text-flora-forest underline decoration-stone-300 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-300"
-              >
-                {t(lang, "name_country_breakdown_view_full")}
-              </button>
-            </p>
-          ) : null}
-          {showAllCountries && !normalizedCountry && filteredCountryRows.length > 5 ? (
-            <p className="mt-3">
-              <button
-                type="button"
-                onClick={() => setShowAllCountries(false)}
-                className="text-sm font-medium text-flora-forest underline decoration-stone-300 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-300"
-              >
-                {t(lang, "name_country_breakdown_show_less")}
-              </button>
-            </p>
           ) : null}
         </section>
       ) : null}
@@ -863,6 +848,7 @@ export function NameResult({
               displayName={titleName}
               hasMatches
               plantContexts={plantContexts}
+              suppressCountryRollup
             />
           </div>
         </details>

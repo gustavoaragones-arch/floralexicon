@@ -50,13 +50,17 @@ export function generateMetadata({ params, searchParams }: Props): Metadata {
   const path = `/name/${canonicalSlug}`;
   const alt = alternateLanguageUrls(path);
 
-  const result = resolvePlantName(params.slug, undefined, lang);
-
   const countryRaw = searchParams?.country;
   const countryFromQuery =
     typeof countryRaw === "string" && countryRaw.trim()
       ? resolveCountryFromQueryParam(countryRaw.trim()) ?? null
       : null;
+
+  const result = resolvePlantName(
+    params.slug,
+    countryFromQuery ?? undefined,
+    lang
+  );
 
   if (!result.matches.length) {
     return {
@@ -130,7 +134,11 @@ export default function NamePage({ params, searchParams }: Props) {
       ? resolveCountryFromQueryParam(countryRaw.trim()) ?? null
       : null;
 
-  const result = resolvePlantName(params.slug, undefined, lang);
+  const result = resolvePlantName(
+    params.slug,
+    countryFromQuery ?? undefined,
+    lang
+  );
   const hasMatches = result.matches.length > 0;
 
   const ambiguity = result.ambiguity;

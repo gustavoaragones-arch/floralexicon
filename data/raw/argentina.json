@@ -1,218 +1,5083 @@
-{
-  "country": "AR",
-  "version": "1.0",
-  "plants": [
-
-    {
-      "id": "aloysia_triphylla",
-      "scientific_name": "Aloysia triphylla",
-      "family": "Verbenaceae",
-      "common_names": ["Cedrón", "Hierba luisa"],
-      "uses": ["digestive", "sedative", "tea", "aromatic"],
-      "ambiguity": "low",
-      "notes": "Sometimes treated as Aloysia citrodora (synonym)"
-    },
-    {
-      "id": "baccharis_trimera",
-      "scientific_name": "Baccharis trimera",
-      "family": "Asteraceae",
-      "common_names": ["Carqueja", "Carquejilla"],
-      "uses": ["digestive", "hepatic", "detox"],
-      "ambiguity": "low"
-    },
-    {
-      "id": "chenopodium_ambrosioides",
-      "scientific_name": "Chenopodium ambrosioides",
-      "family": "Amaranthaceae",
-      "common_names": ["Paico"],
-      "uses": ["digestive", "antiparasitic"],
-      "ambiguity": "medium",
-      "notes": "Now often classified as Dysphania ambrosioides"
-    },
-    {
-      "id": "equisetum_giganteum",
-      "scientific_name": "Equisetum giganteum",
-      "family": "Equisetaceae",
-      "common_names": ["Cola de caballo"],
-      "uses": ["diuretic", "urinary"],
-      "ambiguity": "high",
-      "notes": "Confused with Equisetum bogotense in Chile"
-    },
-    {
-      "id": "lippia_alba",
-      "scientific_name": "Lippia alba",
-      "family": "Verbenaceae",
-      "common_names": ["Salvia", "Salvia blanca"],
-      "uses": ["sedative", "digestive"],
-      "ambiguity": "high",
-      "notes": "Name overlaps with Salvia officinalis globally"
-    },
-    {
-      "id": "tagetes_minuta",
-      "scientific_name": "Tagetes minuta",
-      "family": "Asteraceae",
-      "common_names": ["Chincho"],
-      "uses": ["digestive", "aromatic"],
-      "ambiguity": "low"
-    },
-
-    {
-      "id": "cecropia_pachystachya",
-      "scientific_name": "Cecropia pachystachya",
-      "family": "Urticaceae",
-      "common_names": ["Ambay"],
-      "uses": ["respiratory"],
-      "ambiguity": "low"
-    },
-    {
-      "id": "bidens_pilosa",
-      "scientific_name": "Bidens pilosa",
-      "family": "Asteraceae",
-      "common_names": ["Amor seco"],
-      "uses": ["wound_healing", "antiinflammatory"],
-      "ambiguity": "high",
-      "notes": "Different species in Chile share this name"
-    },
-    {
-      "id": "blepharocalyx_salicifolius",
-      "scientific_name": "Blepharocalyx salicifolius",
-      "family": "Myrtaceae",
-      "common_names": ["Anacahuita"],
-      "uses": ["respiratory", "medicinal"],
-      "ambiguity": "high",
-      "notes": "Different species in Mexico share same name"
-    },
-    {
-      "id": "anadenanthera_colubrina",
-      "scientific_name": "Anadenanthera colubrina",
-      "family": "Fabaceae",
-      "common_names": ["Cebil"],
-      "uses": ["ritual", "medicinal"],
-      "ambiguity": "low"
-    },
-
-    {
-      "id": "argemone_mexicana",
-      "scientific_name": "Argemone mexicana",
-      "family": "Papaveraceae",
-      "common_names": ["Cardo amarillo"],
-      "uses": ["medicinal"],
-      "ambiguity": "medium"
-    },
-    {
-      "id": "erodium_cicutarium",
-      "scientific_name": "Erodium cicutarium",
-      "family": "Geraniaceae",
-      "common_names": ["Alfilerillo"],
-      "uses": ["medicinal"],
-      "ambiguity": "low"
-    },
-    {
-      "id": "amaranthus_caudatus",
-      "scientific_name": "Amaranthus caudatus",
-      "family": "Amaranthaceae",
-      "common_names": ["Amaranto"],
-      "uses": ["culinary", "nutritional"],
-      "ambiguity": "medium"
-    },
-    {
-      "id": "eichhornia_crassipes",
-      "scientific_name": "Eichhornia crassipes",
-      "family": "Pontederiaceae",
-      "common_names": ["Camalote", "Aguapey"],
-      "uses": ["medicinal"],
-      "ambiguity": "low"
-    },
-    {
-      "id": "xanthium_spinosum",
-      "scientific_name": "Xanthium spinosum",
-      "family": "Asteraceae",
-      "common_names": ["Cepa caballo", "Abrojo chico"],
-      "uses": ["medicinal"],
-      "ambiguity": "high",
-      "notes": "Shares 'abrojo' with Xanthium cavanillesii"
-    },
-    {
-        "scientific_name": "Xanthium cavanillesii",
-        "family": "Asteraceae",
-        "country": "AR",
-        "common_names": ["Cadillo"],
-        "uses": ["medicinal", "traditional"],
-        "meta": { "source": "ethnobotany", "confidence": "low" }
-      },
-      
-        {
-          "scientific_name": "Flaveria bidentis",
-          "family": "Asteraceae",
-          "country": "AR",
-          "common_names": ["Contrayerba"],
-          "uses": ["medicinal", "traditional"],
-          "meta": { "source": "ethnobotany", "confidence": "low" }
-        },
-        {
-          "scientific_name": "Dorstenia contrajerva",
-          "family": "Moraceae",
-          "country": "AR",
-          "common_names": ["Contrayerba"],
-          "uses": ["medicinal", "traditional"],
-          "meta": { "source": "ethnobotany", "confidence": "low" }
-        },
-        
-          {
-            "scientific_name": "Berberis buxifolia",
-            "family": "Berberidaceae",
-            "country": "AR",
-            "common_names": ["Calafate", "Michay"],
-            "uses": ["medicinal", "culinary", "traditional"],
-            "meta": { "source": "ethnobotany", "confidence": "high" }
-          },
-          {
-            "scientific_name": "Schkuhria pinnata",
-            "family": "Asteraceae",
-            "country": "AR",
-            "common_names": ["Canchalagua"],
-            "uses": ["depurative", "febrifuge", "traditional"],
-            "meta": { "source": "ethnobotany", "confidence": "medium" }
-          },
-          {
-            "scientific_name": "Drimys winteri",
-            "family": "Winteraceae",
-            "country": "AR",
-            "common_names": ["Canelo"],
-            "uses": ["medicinal", "indigenous", "traditional"],
-            "meta": { "source": "ethnobotany", "confidence": "medium" }
-          },
-            {
-              "scientific_name": "Asclepias curassavica",
-              "family": "Apocynaceae",
-              "country": "AR",
-              "common_names": ["Bandera española"],
-              "uses": ["medicinal", "traditional"],
-              "meta": { "source": "ethnobotany", "confidence": "high" }
-            },
-            {
-              "scientific_name": "Aloysia polystachya",
-              "family": "Verbenaceae",
-              "country": "AR",
-              "common_names": ["Burrito"],
-              "uses": ["digestive", "tea", "traditional"],
-              "meta": { "source": "ethnobotany", "confidence": "high" }
-            },
-            {
-              "scientific_name": "Hypericum connatum",
-              "family": "Hypericaceae",
-              "country": "AR",
-              "common_names": ["Cabo toril"],
-              "uses": ["medicinal", "traditional"],
-              "meta": { "source": "ethnobotany", "confidence": "high" }
-            },
-            {
-              "scientific_name": "Acaena magellanica",
-              "family": "Rosaceae",
-              "country": "AR",
-              "common_names": ["Cadillo"],
-              "uses": ["medicinal", "traditional"],
-              "meta": { "source": "ethnobotany", "confidence": "medium" }
-            }
-    ]
-}
+[
+  {
+    "scientific_name": "Achyrocline satureioides",
+    "family": "Asteraceae",
+    "country": "AR",
+    "common_names": [
+      "Marcela",
+      "Viravira",
+      "Wira wira"
+    ],
+    "uses": [
+      "digestive",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Baccharis trimera",
+    "family": "Asteraceae",
+    "country": "AR",
+    "common_names": [
+      "Carqueja"
+    ],
+    "uses": [
+      "digestive",
+      "hepatic"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Baccharis articulata",
+    "family": "Asteraceae",
+    "country": "AR",
+    "common_names": [
+      "Carqueja amarga"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Matricaria chamomilla",
+    "family": "Asteraceae",
+    "country": "AR",
+    "common_names": [
+      "Manzanilla"
+    ],
+    "uses": [
+      "digestive",
+      "calming"
+    ],
+    "meta": {
+      "source": "invima_like_latam",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Tagetes minuta",
+    "family": "Asteraceae",
+    "country": "AR",
+    "common_names": [
+      "Suico",
+      "Chincho"
+    ],
+    "uses": [
+      "digestive",
+      "antiparasitic"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Artemisia absinthium",
+    "family": "Asteraceae",
+    "country": "AR",
+    "common_names": [
+      "Ajenjo"
+    ],
+    "uses": [
+      "digestive",
+      "bitter_tonic"
+    ],
+    "meta": {
+      "source": "traditional_use",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Lippia alba",
+    "family": "Verbenaceae",
+    "country": "AR",
+    "common_names": [
+      "Salvia",
+      "Salvia criolla"
+    ],
+    "uses": [
+      "digestive",
+      "calming"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Aloysia citrodora",
+    "family": "Verbenaceae",
+    "country": "AR",
+    "common_names": [
+      "Cedrón"
+    ],
+    "uses": [
+      "digestive",
+      "calming"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Lippia turpina",
+    "family": "Verbenaceae",
+    "country": "AR",
+    "common_names": [
+      "Poleo"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Mentha piperita",
+    "family": "Lamiaceae",
+    "country": "AR",
+    "common_names": [
+      "Menta"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Salvia officinalis",
+    "family": "Lamiaceae",
+    "country": "AR",
+    "common_names": [
+      "Salvia"
+    ],
+    "uses": [
+      "digestive",
+      "antimicrobial"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Foeniculum vulgare",
+    "family": "Apiaceae",
+    "country": "AR",
+    "common_names": [
+      "Hinojo"
+    ],
+    "uses": [
+      "digestive",
+      "carminative"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Pimpinella anisum",
+    "family": "Apiaceae",
+    "country": "AR",
+    "common_names": [
+      "Anís"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Plantago major",
+    "family": "Plantaginaceae",
+    "country": "AR",
+    "common_names": [
+      "Llantén"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "respiratory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Urtica dioica",
+    "family": "Urticaceae",
+    "country": "AR",
+    "common_names": [
+      "Ortiga"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Eucalyptus globulus",
+    "family": "Myrtaceae",
+    "country": "AR",
+    "common_names": [
+      "Eucalipto"
+    ],
+    "uses": [
+      "respiratory"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Passiflora caerulea",
+    "family": "Passifloraceae",
+    "country": "AR",
+    "common_names": [
+      "Pasionaria",
+      "Mburuya"
+    ],
+    "uses": [
+      "calming",
+      "sleep"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Malva sylvestris",
+    "family": "Malvaceae",
+    "country": "AR",
+    "common_names": [
+      "Malva"
+    ],
+    "uses": [
+      "respiratory",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Taraxacum officinale",
+    "family": "Asteraceae",
+    "country": "AR",
+    "common_names": [
+      "Diente de león"
+    ],
+    "uses": [
+      "hepatic",
+      "diuretic"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Peumus boldus",
+    "family": "Monimiaceae",
+    "country": "AR",
+    "common_names": [
+      "Boldo"
+    ],
+    "uses": [
+      "hepatic",
+      "digestive"
+    ],
+    "meta": {
+      "source": "latam_traditional",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Dysphania ambrosioides",
+    "family": "Amaranthaceae",
+    "country": "AR",
+    "common_names": [
+      "Paico"
+    ],
+    "uses": [
+      "antiparasitic"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Equisetum arvense",
+    "family": "Equisetaceae",
+    "country": "AR",
+    "common_names": [
+      "Cola de caballo"
+    ],
+    "uses": [
+      "diuretic"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Prosopis alba",
+    "family": "Fabaceae",
+    "country": "AR",
+    "common_names": [
+      "Algarrobo blanco"
+    ],
+    "uses": [
+      "nutrition",
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Prosopis nigra",
+    "family": "Fabaceae",
+    "country": "AR",
+    "common_names": [
+      "Algarrobo negro"
+    ],
+    "uses": [
+      "nutrition"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Ilex paraguariensis",
+    "family": "Aquifoliaceae",
+    "country": "AR",
+    "common_names": [
+      "Yerba mate"
+    ],
+    "uses": [
+      "stimulant",
+      "digestive"
+    ],
+    "meta": {
+      "source": "regional_core",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Asclepias curassavica",
+    "family": "Apocynaceae",
+    "country": "AR",
+    "common_names": [
+      "Bandera española"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "document_extraction",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Flaveria bidentis",
+    "family": "Asteraceae",
+    "country": "AR",
+    "common_names": [
+      "Contrayerba"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "document_extraction",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Aristolochia triangularis",
+    "family": "Aristolochiaceae",
+    "country": "AR",
+    "common_names": [
+      "Mil hombres"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "document_extraction",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Buddleja globosa",
+    "family": "Scrophulariaceae",
+    "country": "AR",
+    "common_names": [
+      "Pañil",
+      "Matico"
+    ],
+    "uses": [
+      "wound healing",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Schinus molle",
+    "family": "Anacardiaceae",
+    "country": "AR",
+    "common_names": [
+      "Aguaribay",
+      "Pimienta rosa"
+    ],
+    "uses": [
+      "digestive",
+      "antimicrobial"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Geoffroea decorticans",
+    "family": "Fabaceae",
+    "country": "AR",
+    "common_names": [
+      "Chañar"
+    ],
+    "uses": [
+      "respiratory",
+      "cough"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Larrea divaricata",
+    "family": "Zygophyllaceae",
+    "country": "AR",
+    "common_names": [
+      "Jarilla"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "antimicrobial"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Larrea cuneifolia",
+    "family": "Zygophyllaceae",
+    "country": "AR",
+    "common_names": [
+      "Jarilla macho"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Larrea nitida",
+    "family": "Zygophyllaceae",
+    "country": "AR",
+    "common_names": [
+      "Jarilla hembra"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Celtis ehrenbergiana",
+    "family": "Cannabaceae",
+    "country": "AR",
+    "common_names": [
+      "Tala"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Condalia microphylla",
+    "family": "Rhamnaceae",
+    "country": "AR",
+    "common_names": [
+      "Piquillín"
+    ],
+    "uses": [
+      "digestive",
+      "nutrition"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Maytenus boaria",
+    "family": "Celastraceae",
+    "country": "AR",
+    "common_names": [
+      "Maitén"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Chuquiraga erinacea",
+    "family": "Asteraceae",
+    "country": "AR",
+    "common_names": [
+      "Chuquiraga"
+    ],
+    "uses": [
+      "renal",
+      "diuretic"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Perezia recurvata",
+    "family": "Asteraceae",
+    "country": "AR",
+    "common_names": [
+      "Valeriana de campo"
+    ],
+    "uses": [
+      "calming"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Adesmia boronioides",
+    "family": "Fabaceae",
+    "country": "AR",
+    "common_names": [
+      "Paramela"
+    ],
+    "uses": [
+      "digestive",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "patagonia_ethnobotany",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Senecio filaginoides",
+    "family": "Asteraceae",
+    "country": "AR",
+    "common_names": [
+      "Charcao"
+    ],
+    "uses": [
+      "respiratory"
+    ],
+    "meta": {
+      "source": "patagonia_ethnobotany",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Berberis microphylla",
+    "family": "Berberidaceae",
+    "country": "AR",
+    "common_names": [
+      "Calafate"
+    ],
+    "uses": [
+      "digestive",
+      "antioxidant"
+    ],
+    "meta": {
+      "source": "patagonia_ethnobotany",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Berberis darwinii",
+    "family": "Berberidaceae",
+    "country": "AR",
+    "common_names": [
+      "Michay"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "patagonia_ethnobotany",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Ephedra ochreata",
+    "family": "Ephedraceae",
+    "country": "AR",
+    "common_names": [
+      "Pingo pingo"
+    ],
+    "uses": [
+      "respiratory",
+      "diuretic"
+    ],
+    "meta": {
+      "source": "andes_ethnobotany",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Ephedra triandra",
+    "family": "Ephedraceae",
+    "country": "AR",
+    "common_names": [
+      "Tramontana"
+    ],
+    "uses": [
+      "respiratory"
+    ],
+    "meta": {
+      "source": "andes_ethnobotany",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Jodina rhombifolia",
+    "family": "Santalaceae",
+    "country": "AR",
+    "common_names": [
+      "Sombra de toro"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Acacia aroma",
+    "family": "Fabaceae",
+    "country": "AR",
+    "common_names": [
+      "Tusca"
+    ],
+    "uses": [
+      "astringent",
+      "wound healing"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Vachellia aroma",
+    "family": "Fabaceae",
+    "country": "AR",
+    "common_names": [
+      "Aromo criollo"
+    ],
+    "uses": [
+      "astringent"
+    ],
+    "meta": {
+      "source": "taxonomy_update",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Acantholippia seriphioides",
+    "family": "Verbenaceae",
+    "country": "AR",
+    "common_names": [
+      "Tomillo del monte"
+    ],
+    "uses": [
+      "digestive",
+      "respiratory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Satureja parvifolia",
+    "family": "Lamiaceae",
+    "country": "AR",
+    "common_names": [
+      "Muña muña"
+    ],
+    "uses": [
+      "digestive",
+      "antispasmodic"
+    ],
+    "meta": {
+      "source": "andes_ethnobotany",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Minthostachys mollis",
+    "family": "Lamiaceae",
+    "country": "AR",
+    "common_names": [
+      "Muña"
+    ],
+    "uses": [
+      "digestive",
+      "carminative"
+    ],
+    "meta": {
+      "source": "andes_ethnobotany",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Clinopodium gilliesii",
+    "family": "Lamiaceae",
+    "country": "AR",
+    "common_names": [
+      "Peperina"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Clinopodium odorum",
+    "family": "Lamiaceae",
+    "country": "AR",
+    "common_names": [
+      "Peperina de olor"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Glandularia peruviana",
+    "family": "Verbenaceae",
+    "country": "AR",
+    "common_names": [
+      "Verbena colorada"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Glandularia tenera",
+    "family": "Verbenaceae",
+    "country": "AR",
+    "common_names": [
+      "Verbena rastrera"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Hyptis mutabilis",
+    "family": "Lamiaceae",
+    "country": "AR",
+    "common_names": [
+      "Salvia morada"
+    ],
+    "uses": [
+      "respiratory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Hedeoma multiflorum",
+    "family": "Lamiaceae",
+    "country": "AR",
+    "common_names": [
+      "Poleo serrano"
+    ],
+    "uses": [
+      "digestive",
+      "carminative"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Teucrium cubense",
+    "family": "Lamiaceae",
+    "country": "AR",
+    "common_names": [
+      "Polio"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Scutia buxifolia",
+    "family": "Rhamnaceae",
+    "country": "AR",
+    "common_names": [
+      "Coronillo"
+    ],
+    "uses": [
+      "cardiovascular",
+      "toxic"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Maytenus vitis-idaea",
+    "family": "Celastraceae",
+    "country": "AR",
+    "common_names": [
+      "Congorosa"
+    ],
+    "uses": [
+      "gastric",
+      "ulcers"
+    ],
+    "meta": {
+      "source": "latam_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Maytenus ilicifolia",
+    "family": "Celastraceae",
+    "country": "AR",
+    "common_names": [
+      "Espinheira santa"
+    ],
+    "uses": [
+      "gastric",
+      "ulcers"
+    ],
+    "meta": {
+      "source": "latam_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Erythrina crista-galli",
+    "family": "Fabaceae",
+    "country": "AR",
+    "common_names": [
+      "Ceibo"
+    ],
+    "uses": [
+      "sedative"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Senna corymbosa",
+    "family": "Fabaceae",
+    "country": "AR",
+    "common_names": [
+      "Sen del campo"
+    ],
+    "uses": [
+      "laxative"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Cassia occidentalis",
+    "family": "Fabaceae",
+    "country": "AR",
+    "common_names": [
+      "Café de negro"
+    ],
+    "uses": [
+      "digestive",
+      "laxative"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Desmodium incanum",
+    "family": "Fabaceae",
+    "country": "AR",
+    "common_names": [
+      "Pega pega"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Trifolium repens",
+    "family": "Fabaceae",
+    "country": "AR",
+    "common_names": [
+      "Trébol blanco"
+    ],
+    "uses": [
+      "circulatory"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Melilotus officinalis",
+    "family": "Fabaceae",
+    "country": "AR",
+    "common_names": [
+      "Meliloto"
+    ],
+    "uses": [
+      "circulatory"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Medicago sativa",
+    "family": "Fabaceae",
+    "country": "AR",
+    "common_names": [
+      "Alfalfa"
+    ],
+    "uses": [
+      "nutrition",
+      "tonic"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Cissampelos pareira",
+    "family": "Menispermaceae",
+    "country": "AR",
+    "common_names": [
+      "Abuta",
+      "Pareira brava"
+    ],
+    "uses": [
+      "urinary",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "latam_ethnobotany",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Aristolochia argentina",
+    "family": "Aristolochiaceae",
+    "country": "AR",
+    "common_names": [
+      "Charrúa"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Celtis iguanaea",
+    "family": "Cannabaceae",
+    "country": "AR",
+    "common_names": [
+      "Tala trepador"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Phytolacca dioica",
+    "family": "Phytolaccaceae",
+    "country": "AR",
+    "common_names": [
+      "Ombú"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Phytolacca americana",
+    "family": "Phytolaccaceae",
+    "country": "AR",
+    "common_names": [
+      "Ombú americano"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Alternanthera pungens",
+    "family": "Amaranthaceae",
+    "country": "AR",
+    "common_names": [
+      "Yerba del pollo"
+    ],
+    "uses": [
+      "diuretic"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Amaranthus hybridus",
+    "family": "Amaranthaceae",
+    "country": "AR",
+    "common_names": [
+      "Yuyo colorado"
+    ],
+    "uses": [
+      "nutrition"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Amaranthus viridis",
+    "family": "Amaranthaceae",
+    "country": "AR",
+    "common_names": [
+      "Bledo"
+    ],
+    "uses": [
+      "nutrition",
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Gomphrena perennis",
+    "family": "Amaranthaceae",
+    "country": "AR",
+    "common_names": [
+      "Siempre viva"
+    ],
+    "uses": [
+      "respiratory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Chenopodium album",
+    "family": "Amaranthaceae",
+    "country": "AR",
+    "common_names": [
+      "Quinoa silvestre"
+    ],
+    "uses": [
+      "nutrition"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Polygonum punctatum",
+    "family": "Polygonaceae",
+    "country": "AR",
+    "common_names": [
+      "Yerba de bicho"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Rumex crispus",
+    "family": "Polygonaceae",
+    "country": "AR",
+    "common_names": [
+      "Lengua de vaca"
+    ],
+    "uses": [
+      "digestive",
+      "laxative"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Rumex obtusifolius",
+    "family": "Polygonaceae",
+    "country": "AR",
+    "common_names": [
+      "Dock"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Boerhavia diffusa",
+    "family": "Nyctaginaceae",
+    "country": "AR",
+    "common_names": [
+      "Punarnava"
+    ],
+    "uses": [
+      "diuretic"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Mirabilis jalapa",
+    "family": "Nyctaginaceae",
+    "country": "AR",
+    "common_names": [
+      "Dondiego de noche"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Portulaca oleracea",
+    "family": "Portulacaceae",
+    "country": "AR",
+    "common_names": [
+      "Verdolaga"
+    ],
+    "uses": [
+      "nutrition",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Talinum paniculatum",
+    "family": "Talinaceae",
+    "country": "AR",
+    "common_names": [
+      "Ginseng brasileño"
+    ],
+    "uses": [
+      "tonic"
+    ],
+    "meta": {
+      "source": "latam_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Opuntia ficus-indica",
+    "family": "Cactaceae",
+    "country": "AR",
+    "common_names": [
+      "Nopal",
+      "Tuna"
+    ],
+    "uses": [
+      "digestive",
+      "diabetes"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Echinopsis terscheckii",
+    "family": "Cactaceae",
+    "country": "AR",
+    "common_names": [
+      "Cardón"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "andes_ethnobotany",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Trichocereus pachanoi",
+    "family": "Cactaceae",
+    "country": "AR",
+    "common_names": [
+      "San Pedro"
+    ],
+    "uses": [
+      "ritual"
+    ],
+    "meta": {
+      "source": "andes_ethnobotany",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Solanum nigrum",
+    "family": "Solanaceae",
+    "country": "AR",
+    "common_names": [
+      "Hierba mora"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Solanum sisymbriifolium",
+    "family": "Solanaceae",
+    "country": "AR",
+    "common_names": [
+      "Revienta caballo"
+    ],
+    "uses": [
+      "urinary",
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Datura ferox",
+    "family": "Solanaceae",
+    "country": "AR",
+    "common_names": [
+      "Chamico"
+    ],
+    "uses": [
+      "antispasmodic",
+      "toxic"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Brugmansia arborea",
+    "family": "Solanaceae",
+    "country": "AR",
+    "common_names": [
+      "Floripondio"
+    ],
+    "uses": [
+      "ritual",
+      "toxic"
+    ],
+    "meta": {
+      "source": "andes_ethnobotany",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Capsicum baccatum",
+    "family": "Solanaceae",
+    "country": "AR",
+    "common_names": [
+      "Ají"
+    ],
+    "uses": [
+      "circulatory",
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Nicotiana tabacum",
+    "family": "Solanaceae",
+    "country": "AR",
+    "common_names": [
+      "Tabaco"
+    ],
+    "uses": [
+      "ritual",
+      "insecticidal"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Ipomoea purga",
+    "family": "Convolvulaceae",
+    "country": "AR",
+    "common_names": [
+      "Jalapa"
+    ],
+    "uses": [
+      "laxative"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Ipomoea cairica",
+    "family": "Convolvulaceae",
+    "country": "AR",
+    "common_names": [
+      "Campanilla"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Evolvulus arizonicus",
+    "family": "Convolvulaceae",
+    "country": "AR",
+    "common_names": [
+      "Azulita"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Nicotiana glauca",
+    "family": "Solanaceae",
+    "country": "AR",
+    "common_names": [
+      "Palán palán"
+    ],
+    "uses": [
+      "traditional",
+      "toxic"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Cestrum parqui",
+    "family": "Solanaceae",
+    "country": "AR",
+    "common_names": [
+      "Duraznillo negro"
+    ],
+    "uses": [
+      "toxic",
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Physalis viscosa",
+    "family": "Solanaceae",
+    "country": "AR",
+    "common_names": [
+      "Tomatillo"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Brunfelsia australis",
+    "family": "Solanaceae",
+    "country": "AR",
+    "common_names": [
+      "Jazmín del Paraguay"
+    ],
+    "uses": [
+      "ornamental",
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Verbascum thapsus",
+    "family": "Scrophulariaceae",
+    "country": "AR",
+    "common_names": [
+      "Gordolobo"
+    ],
+    "uses": [
+      "respiratory"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Digitalis purpurea",
+    "family": "Plantaginaceae",
+    "country": "AR",
+    "common_names": [
+      "Dedalera"
+    ],
+    "uses": [
+      "cardiovascular",
+      "toxic"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Scoparia dulcis",
+    "family": "Plantaginaceae",
+    "country": "AR",
+    "common_names": [
+      "Escobilla"
+    ],
+    "uses": [
+      "diabetes"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Bacopa monnieri",
+    "family": "Plantaginaceae",
+    "country": "AR",
+    "common_names": [
+      "Brahmi"
+    ],
+    "uses": [
+      "memory",
+      "nervous_system"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Veronica persica",
+    "family": "Plantaginaceae",
+    "country": "AR",
+    "common_names": [
+      "Verónica"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Grindelia pulchella",
+    "family": "Asteraceae",
+    "country": "AR",
+    "common_names": [
+      "Grindelia"
+    ],
+    "uses": [
+      "respiratory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Grindelia camporum",
+    "family": "Asteraceae",
+    "country": "AR",
+    "common_names": [
+      "Yerba del sapo"
+    ],
+    "uses": [
+      "respiratory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Euphorbia serpens",
+    "family": "Euphorbiaceae",
+    "country": "AR",
+    "common_names": [
+      "Lechetrezna"
+    ],
+    "uses": [
+      "skin",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Euphorbia hirta",
+    "family": "Euphorbiaceae",
+    "country": "AR",
+    "common_names": [
+      "Hierba de la golondrina"
+    ],
+    "uses": [
+      "respiratory",
+      "asthma"
+    ],
+    "meta": {
+      "source": "latam_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Ricinus communis",
+    "family": "Euphorbiaceae",
+    "country": "AR",
+    "common_names": [
+      "Higuerilla"
+    ],
+    "uses": [
+      "laxative",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Jatropha gossypiifolia",
+    "family": "Euphorbiaceae",
+    "country": "AR",
+    "common_names": [
+      "Piñón rojo"
+    ],
+    "uses": [
+      "antiparasitic"
+    ],
+    "meta": {
+      "source": "latam_ethnobotany",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Croton urucurana",
+    "family": "Euphorbiaceae",
+    "country": "AR",
+    "common_names": [
+      "Sangre de drago"
+    ],
+    "uses": [
+      "healing",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "latam_ethnobotany",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Sapium haematospermum",
+    "family": "Euphorbiaceae",
+    "country": "AR",
+    "common_names": [
+      "Curupí"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Manihot grahamii",
+    "family": "Euphorbiaceae",
+    "country": "AR",
+    "common_names": [
+      "Yuca brava"
+    ],
+    "uses": [
+      "toxic",
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Phyllanthus sellowianus",
+    "family": "Phyllanthaceae",
+    "country": "AR",
+    "common_names": [
+      "Chancapiedra"
+    ],
+    "uses": [
+      "renal",
+      "kidney stones"
+    ],
+    "meta": {
+      "source": "latam_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Phyllanthus niruri",
+    "family": "Phyllanthaceae",
+    "country": "AR",
+    "common_names": [
+      "Rompepiedra"
+    ],
+    "uses": [
+      "renal",
+      "kidney stones"
+    ],
+    "meta": {
+      "source": "latam_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Acalypha communis",
+    "family": "Euphorbiaceae",
+    "country": "AR",
+    "common_names": [
+      "Acalifa"
+    ],
+    "uses": [
+      "respiratory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Sapindus saponaria",
+    "family": "Sapindaceae",
+    "country": "AR",
+    "common_names": [
+      "Jaboncillo"
+    ],
+    "uses": [
+      "skin",
+      "antimicrobial"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Allophylus edulis",
+    "family": "Sapindaceae",
+    "country": "AR",
+    "common_names": [
+      "Chal chal"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Dodonaea viscosa",
+    "family": "Sapindaceae",
+    "country": "AR",
+    "common_names": [
+      "Chirca"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Paullinia pinnata",
+    "family": "Sapindaceae",
+    "country": "AR",
+    "common_names": [
+      "Bejuco"
+    ],
+    "uses": [
+      "stimulant"
+    ],
+    "meta": {
+      "source": "latam_ethnobotany",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Serjania glabrata",
+    "family": "Sapindaceae",
+    "country": "AR",
+    "common_names": [
+      "Bejuco colorado"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Ziziphus mistol",
+    "family": "Rhamnaceae",
+    "country": "AR",
+    "common_names": [
+      "Mistol"
+    ],
+    "uses": [
+      "nutrition",
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Colletia spinosissima",
+    "family": "Rhamnaceae",
+    "country": "AR",
+    "common_names": [
+      "Espina negra"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Discaria americana",
+    "family": "Rhamnaceae",
+    "country": "AR",
+    "common_names": [
+      "Espinillo"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Ceanothus microphyllus",
+    "family": "Rhamnaceae",
+    "country": "AR",
+    "common_names": [
+      "Ceanoto"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Gouania ulmifolia",
+    "family": "Rhamnaceae",
+    "country": "AR",
+    "common_names": [
+      "Bejuco jabón"
+    ],
+    "uses": [
+      "skin",
+      "cleaning"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Lantana camara",
+    "family": "Verbenaceae",
+    "country": "AR",
+    "common_names": [
+      "Lantana",
+      "Bandera española"
+    ],
+    "uses": [
+      "respiratory",
+      "antimicrobial"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Verbena bonariensis",
+    "family": "Verbenaceae",
+    "country": "AR",
+    "common_names": [
+      "Verbena morada"
+    ],
+    "uses": [
+      "digestive",
+      "calming"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Stachytarpheta cayennensis",
+    "family": "Verbenaceae",
+    "country": "AR",
+    "common_names": [
+      "Verbena azul"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "latam_ethnobotany",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Duranta erecta",
+    "family": "Verbenaceae",
+    "country": "AR",
+    "common_names": [
+      "Duranta",
+      "Corona de novia"
+    ],
+    "uses": [
+      "ornamental",
+      "toxic"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Avicennia germinans",
+    "family": "Acanthaceae",
+    "country": "AR",
+    "common_names": [
+      "Mangle negro"
+    ],
+    "uses": [
+      "skin",
+      "astringent"
+    ],
+    "meta": {
+      "source": "latam_ethnobotany",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Justicia brasiliana",
+    "family": "Acanthaceae",
+    "country": "AR",
+    "common_names": [
+      "Justicia"
+    ],
+    "uses": [
+      "respiratory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Ruellia simplex",
+    "family": "Acanthaceae",
+    "country": "AR",
+    "common_names": [
+      "Petunia mexicana"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Dicliptera squarrosa",
+    "family": "Acanthaceae",
+    "country": "AR",
+    "common_names": [
+      "Dicliptera"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Amaranthus caudatus",
+    "family": "Amaranthaceae",
+    "country": "AR",
+    "common_names": [
+      "Kiwiña",
+      "Amaranto"
+    ],
+    "uses": [
+      "nutrition"
+    ],
+    "meta": {
+      "source": "andes_ethnobotany",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Gomphrena globosa",
+    "family": "Amaranthaceae",
+    "country": "AR",
+    "common_names": [
+      "Siempreviva morada"
+    ],
+    "uses": [
+      "respiratory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Alternanthera philoxeroides",
+    "family": "Amaranthaceae",
+    "country": "AR",
+    "common_names": [
+      "Yerba del pollo de agua"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Pfaffia glomerata",
+    "family": "Amaranthaceae",
+    "country": "AR",
+    "common_names": [
+      "Ginseng brasileño"
+    ],
+    "uses": [
+      "tonic",
+      "energy"
+    ],
+    "meta": {
+      "source": "latam_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Rivina humilis",
+    "family": "Petiveriaceae",
+    "country": "AR",
+    "common_names": [
+      "Coralillo"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Petiveria alliacea",
+    "family": "Petiveriaceae",
+    "country": "AR",
+    "common_names": [
+      "Anamú"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "immune"
+    ],
+    "meta": {
+      "source": "latam_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Talinum triangulare",
+    "family": "Talinaceae",
+    "country": "AR",
+    "common_names": [
+      "Espinaca de agua"
+    ],
+    "uses": [
+      "nutrition"
+    ],
+    "meta": {
+      "source": "latam_ethnobotany",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Basella alba",
+    "family": "Basellaceae",
+    "country": "AR",
+    "common_names": [
+      "Espinaca de Malabar"
+    ],
+    "uses": [
+      "nutrition"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Anredera cordifolia",
+    "family": "Basellaceae",
+    "country": "AR",
+    "common_names": [
+      "Enredadera de papa"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Bougainvillea glabra",
+    "family": "Nyctaginaceae",
+    "country": "AR",
+    "common_names": [
+      "Santa Rita"
+    ],
+    "uses": [
+      "respiratory"
+    ],
+    "meta": {
+      "source": "latam_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Mirabilis longiflora",
+    "family": "Nyctaginaceae",
+    "country": "AR",
+    "common_names": [
+      "Dondiego blanco"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Boerhavia erecta",
+    "family": "Nyctaginaceae",
+    "country": "AR",
+    "common_names": [
+      "Yerba tostada"
+    ],
+    "uses": [
+      "diuretic"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Lantana camara",
+    "family": "Verbenaceae",
+    "country": "AR",
+    "common_names": [
+      "Lantana",
+      "Bandera española"
+    ],
+    "uses": [
+      "respiratory",
+      "antimicrobial"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Verbena bonariensis",
+    "family": "Verbenaceae",
+    "country": "AR",
+    "common_names": [
+      "Verbena morada"
+    ],
+    "uses": [
+      "digestive",
+      "calming"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Stachytarpheta cayennensis",
+    "family": "Verbenaceae",
+    "country": "AR",
+    "common_names": [
+      "Verbena azul"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "latam_ethnobotany",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Duranta erecta",
+    "family": "Verbenaceae",
+    "country": "AR",
+    "common_names": [
+      "Duranta",
+      "Corona de novia"
+    ],
+    "uses": [
+      "ornamental",
+      "toxic"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Avicennia germinans",
+    "family": "Acanthaceae",
+    "country": "AR",
+    "common_names": [
+      "Mangle negro"
+    ],
+    "uses": [
+      "skin",
+      "astringent"
+    ],
+    "meta": {
+      "source": "latam_ethnobotany",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Justicia brasiliana",
+    "family": "Acanthaceae",
+    "country": "AR",
+    "common_names": [
+      "Justicia"
+    ],
+    "uses": [
+      "respiratory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Ruellia simplex",
+    "family": "Acanthaceae",
+    "country": "AR",
+    "common_names": [
+      "Petunia mexicana"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Dicliptera squarrosa",
+    "family": "Acanthaceae",
+    "country": "AR",
+    "common_names": [
+      "Dicliptera"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Amaranthus caudatus",
+    "family": "Amaranthaceae",
+    "country": "AR",
+    "common_names": [
+      "Kiwiña",
+      "Amaranto"
+    ],
+    "uses": [
+      "nutrition"
+    ],
+    "meta": {
+      "source": "andes_ethnobotany",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Gomphrena globosa",
+    "family": "Amaranthaceae",
+    "country": "AR",
+    "common_names": [
+      "Siempreviva morada"
+    ],
+    "uses": [
+      "respiratory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Alternanthera philoxeroides",
+    "family": "Amaranthaceae",
+    "country": "AR",
+    "common_names": [
+      "Yerba del pollo de agua"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Pfaffia glomerata",
+    "family": "Amaranthaceae",
+    "country": "AR",
+    "common_names": [
+      "Ginseng brasileño"
+    ],
+    "uses": [
+      "tonic",
+      "energy"
+    ],
+    "meta": {
+      "source": "latam_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Rivina humilis",
+    "family": "Petiveriaceae",
+    "country": "AR",
+    "common_names": [
+      "Coralillo"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Petiveria alliacea",
+    "family": "Petiveriaceae",
+    "country": "AR",
+    "common_names": [
+      "Anamú"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "immune"
+    ],
+    "meta": {
+      "source": "latam_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Talinum triangulare",
+    "family": "Talinaceae",
+    "country": "AR",
+    "common_names": [
+      "Espinaca de agua"
+    ],
+    "uses": [
+      "nutrition"
+    ],
+    "meta": {
+      "source": "latam_ethnobotany",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Basella alba",
+    "family": "Basellaceae",
+    "country": "AR",
+    "common_names": [
+      "Espinaca de Malabar"
+    ],
+    "uses": [
+      "nutrition"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Anredera cordifolia",
+    "family": "Basellaceae",
+    "country": "AR",
+    "common_names": [
+      "Enredadera de papa"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Bougainvillea glabra",
+    "family": "Nyctaginaceae",
+    "country": "AR",
+    "common_names": [
+      "Santa Rita"
+    ],
+    "uses": [
+      "respiratory"
+    ],
+    "meta": {
+      "source": "latam_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Mirabilis longiflora",
+    "family": "Nyctaginaceae",
+    "country": "AR",
+    "common_names": [
+      "Dondiego blanco"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Boerhavia erecta",
+    "family": "Nyctaginaceae",
+    "country": "AR",
+    "common_names": [
+      "Yerba tostada"
+    ],
+    "uses": [
+      "diuretic"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Lantana camara",
+    "family": "Verbenaceae",
+    "country": "AR",
+    "common_names": [
+      "Lantana",
+      "Bandera española"
+    ],
+    "uses": [
+      "respiratory",
+      "antimicrobial"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Verbena bonariensis",
+    "family": "Verbenaceae",
+    "country": "AR",
+    "common_names": [
+      "Verbena morada"
+    ],
+    "uses": [
+      "digestive",
+      "calming"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Stachytarpheta cayennensis",
+    "family": "Verbenaceae",
+    "country": "AR",
+    "common_names": [
+      "Verbena azul"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "latam_ethnobotany",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Duranta erecta",
+    "family": "Verbenaceae",
+    "country": "AR",
+    "common_names": [
+      "Duranta",
+      "Corona de novia"
+    ],
+    "uses": [
+      "ornamental",
+      "toxic"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Avicennia germinans",
+    "family": "Acanthaceae",
+    "country": "AR",
+    "common_names": [
+      "Mangle negro"
+    ],
+    "uses": [
+      "skin",
+      "astringent"
+    ],
+    "meta": {
+      "source": "latam_ethnobotany",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Justicia brasiliana",
+    "family": "Acanthaceae",
+    "country": "AR",
+    "common_names": [
+      "Justicia"
+    ],
+    "uses": [
+      "respiratory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Ruellia simplex",
+    "family": "Acanthaceae",
+    "country": "AR",
+    "common_names": [
+      "Petunia mexicana"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Dicliptera squarrosa",
+    "family": "Acanthaceae",
+    "country": "AR",
+    "common_names": [
+      "Dicliptera"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Amaranthus caudatus",
+    "family": "Amaranthaceae",
+    "country": "AR",
+    "common_names": [
+      "Kiwiña",
+      "Amaranto"
+    ],
+    "uses": [
+      "nutrition"
+    ],
+    "meta": {
+      "source": "andes_ethnobotany",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Gomphrena globosa",
+    "family": "Amaranthaceae",
+    "country": "AR",
+    "common_names": [
+      "Siempreviva morada"
+    ],
+    "uses": [
+      "respiratory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Alternanthera philoxeroides",
+    "family": "Amaranthaceae",
+    "country": "AR",
+    "common_names": [
+      "Yerba del pollo de agua"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Pfaffia glomerata",
+    "family": "Amaranthaceae",
+    "country": "AR",
+    "common_names": [
+      "Ginseng brasileño"
+    ],
+    "uses": [
+      "tonic",
+      "energy"
+    ],
+    "meta": {
+      "source": "latam_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Rivina humilis",
+    "family": "Petiveriaceae",
+    "country": "AR",
+    "common_names": [
+      "Coralillo"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Petiveria alliacea",
+    "family": "Petiveriaceae",
+    "country": "AR",
+    "common_names": [
+      "Anamú"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "immune"
+    ],
+    "meta": {
+      "source": "latam_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Talinum triangulare",
+    "family": "Talinaceae",
+    "country": "AR",
+    "common_names": [
+      "Espinaca de agua"
+    ],
+    "uses": [
+      "nutrition"
+    ],
+    "meta": {
+      "source": "latam_ethnobotany",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Basella alba",
+    "family": "Basellaceae",
+    "country": "AR",
+    "common_names": [
+      "Espinaca de Malabar"
+    ],
+    "uses": [
+      "nutrition"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Anredera cordifolia",
+    "family": "Basellaceae",
+    "country": "AR",
+    "common_names": [
+      "Enredadera de papa"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Bougainvillea glabra",
+    "family": "Nyctaginaceae",
+    "country": "AR",
+    "common_names": [
+      "Santa Rita"
+    ],
+    "uses": [
+      "respiratory"
+    ],
+    "meta": {
+      "source": "latam_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Mirabilis longiflora",
+    "family": "Nyctaginaceae",
+    "country": "AR",
+    "common_names": [
+      "Dondiego blanco"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Boerhavia erecta",
+    "family": "Nyctaginaceae",
+    "country": "AR",
+    "common_names": [
+      "Yerba tostada"
+    ],
+    "uses": [
+      "diuretic"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Eryngium paniculatum",
+    "family": "Apiaceae",
+    "country": "AR",
+    "common_names": [
+      "Caraguatá"
+    ],
+    "uses": [
+      "diuretic",
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Eryngium pandanifolium",
+    "family": "Apiaceae",
+    "country": "AR",
+    "common_names": [
+      "Caraguatá grande"
+    ],
+    "uses": [
+      "diuretic"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Apium graveolens",
+    "family": "Apiaceae",
+    "country": "AR",
+    "common_names": [
+      "Apio"
+    ],
+    "uses": [
+      "diuretic",
+      "digestive"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Daucus carota",
+    "family": "Apiaceae",
+    "country": "AR",
+    "common_names": [
+      "Zanahoria"
+    ],
+    "uses": [
+      "nutrition",
+      "vision"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Heracleum sphondylium",
+    "family": "Apiaceae",
+    "country": "AR",
+    "common_names": [
+      "Hogweed"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Angelica archangelica",
+    "family": "Apiaceae",
+    "country": "AR",
+    "common_names": [
+      "Angélica"
+    ],
+    "uses": [
+      "digestive",
+      "tonic"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Centella asiatica",
+    "family": "Apiaceae",
+    "country": "AR",
+    "common_names": [
+      "Centella",
+      "Gotu kola"
+    ],
+    "uses": [
+      "circulatory",
+      "skin"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Hydrocotyle bonariensis",
+    "family": "Araliaceae",
+    "country": "AR",
+    "common_names": [
+      "Sombrerito de agua"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Schefflera morototoni",
+    "family": "Araliaceae",
+    "country": "AR",
+    "common_names": [
+      "Morototó"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "latam_ethnobotany",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Panax ginseng",
+    "family": "Araliaceae",
+    "country": "AR",
+    "common_names": [
+      "Ginseng"
+    ],
+    "uses": [
+      "tonic",
+      "energy"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Hedera helix",
+    "family": "Araliaceae",
+    "country": "AR",
+    "common_names": [
+      "Hiedra"
+    ],
+    "uses": [
+      "respiratory"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Sambucus australis",
+    "family": "Adoxaceae",
+    "country": "AR",
+    "common_names": [
+      "Saúco"
+    ],
+    "uses": [
+      "respiratory",
+      "immune"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Sambucus nigra",
+    "family": "Adoxaceae",
+    "country": "AR",
+    "common_names": [
+      "Saúco europeo"
+    ],
+    "uses": [
+      "respiratory"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Valeriana officinalis",
+    "family": "Caprifoliaceae",
+    "country": "AR",
+    "common_names": [
+      "Valeriana"
+    ],
+    "uses": [
+      "sleep",
+      "anxiety"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Valeriana carnosa",
+    "family": "Caprifoliaceae",
+    "country": "AR",
+    "common_names": [
+      "Valeriana andina"
+    ],
+    "uses": [
+      "calming"
+    ],
+    "meta": {
+      "source": "andes_ethnobotany",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Lonicera japonica",
+    "family": "Caprifoliaceae",
+    "country": "AR",
+    "common_names": [
+      "Madreselva"
+    ],
+    "uses": [
+      "respiratory",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Scabiosa atropurpurea",
+    "family": "Caprifoliaceae",
+    "country": "AR",
+    "common_names": [
+      "Escabiosa"
+    ],
+    "uses": [
+      "skin"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Dipsacus fullonum",
+    "family": "Caprifoliaceae",
+    "country": "AR",
+    "common_names": [
+      "Cardencha"
+    ],
+    "uses": [
+      "skin",
+      "traditional"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Cephalaria gigantea",
+    "family": "Caprifoliaceae",
+    "country": "AR",
+    "common_names": [
+      "Escabiosa gigante"
+    ],
+    "uses": [
+      "ornamental"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Morina longifolia",
+    "family": "Caprifoliaceae",
+    "country": "AR",
+    "common_names": [
+      "Morina"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Cecropia pachystachya",
+    "family": "Urticaceae",
+    "country": "AR",
+    "common_names": [
+      "Yaguarandí",
+      "Ambay"
+    ],
+    "uses": [
+      "respiratory",
+      "bronchial"
+    ],
+    "meta": {
+      "source": "latam_ethnobotany",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Urera baccifera",
+    "family": "Urticaceae",
+    "country": "AR",
+    "common_names": [
+      "Ortiga brava"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Pilea microphylla",
+    "family": "Urticaceae",
+    "country": "AR",
+    "common_names": [
+      "Planta artillera"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Boehmeria nivea",
+    "family": "Urticaceae",
+    "country": "AR",
+    "common_names": [
+      "Ramio"
+    ],
+    "uses": [
+      "fiber",
+      "traditional"
+    ],
+    "meta": {
+      "source": "global_use",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Ficus luschnathiana",
+    "family": "Moraceae",
+    "country": "AR",
+    "common_names": [
+      "Higuerón"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Ficus citrifolia",
+    "family": "Moraceae",
+    "country": "AR",
+    "common_names": [
+      "Higuerón americano"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Brosimum gaudichaudii",
+    "family": "Moraceae",
+    "country": "AR",
+    "common_names": [
+      "Marmelero"
+    ],
+    "uses": [
+      "skin"
+    ],
+    "meta": {
+      "source": "latam_ethnobotany",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Maclura tinctoria",
+    "family": "Moraceae",
+    "country": "AR",
+    "common_names": [
+      "Mora amarilla"
+    ],
+    "uses": [
+      "antimicrobial"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Celtis tala",
+    "family": "Cannabaceae",
+    "country": "AR",
+    "common_names": [
+      "Tala"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Humulus lupulus",
+    "family": "Cannabaceae",
+    "country": "AR",
+    "common_names": [
+      "Lúpulo"
+    ],
+    "uses": [
+      "sedative",
+      "digestive"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Cannabis sativa",
+    "family": "Cannabaceae",
+    "country": "AR",
+    "common_names": [
+      "Cannabis",
+      "Marihuana"
+    ],
+    "uses": [
+      "pain",
+      "nervous_system"
+    ],
+    "meta": {
+      "source": "modern_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Juglans australis",
+    "family": "Juglandaceae",
+    "country": "AR",
+    "common_names": [
+      "Nogal criollo"
+    ],
+    "uses": [
+      "antimicrobial",
+      "skin"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Juglans regia",
+    "family": "Juglandaceae",
+    "country": "AR",
+    "common_names": [
+      "Nogal"
+    ],
+    "uses": [
+      "nutrition",
+      "skin"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Quercus robur",
+    "family": "Fagaceae",
+    "country": "AR",
+    "common_names": [
+      "Roble"
+    ],
+    "uses": [
+      "astringent"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Castanea sativa",
+    "family": "Fagaceae",
+    "country": "AR",
+    "common_names": [
+      "Castaño"
+    ],
+    "uses": [
+      "circulatory"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Nothofagus antarctica",
+    "family": "Nothofagaceae",
+    "country": "AR",
+    "common_names": [
+      "Ñire"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "patagonia_ethnobotany",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Nothofagus pumilio",
+    "family": "Nothofagaceae",
+    "country": "AR",
+    "common_names": [
+      "Lenga"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "patagonia_ethnobotany",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Nothofagus dombeyi",
+    "family": "Nothofagaceae",
+    "country": "AR",
+    "common_names": [
+      "Coihue"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "patagonia_ethnobotany",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Salix humboldtiana",
+    "family": "Salicaceae",
+    "country": "AR",
+    "common_names": [
+      "Sauce criollo"
+    ],
+    "uses": [
+      "analgesic",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Populus nigra",
+    "family": "Salicaceae",
+    "country": "AR",
+    "common_names": [
+      "Álamo negro"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Myrcianthes cisplatensis",
+    "family": "Myrtaceae",
+    "country": "AR",
+    "common_names": [
+      "Arrayán"
+    ],
+    "uses": [
+      "digestive",
+      "astringent"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Blepharocalyx salicifolius",
+    "family": "Myrtaceae",
+    "country": "AR",
+    "common_names": [
+      "Anacahuita"
+    ],
+    "uses": [
+      "respiratory",
+      "antimicrobial"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Eugenia uniflora",
+    "family": "Myrtaceae",
+    "country": "AR",
+    "common_names": [
+      "Pitanga",
+      "Ñangapirí"
+    ],
+    "uses": [
+      "digestive",
+      "antioxidant"
+    ],
+    "meta": {
+      "source": "latam_ethnobotany",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Psidium guajava",
+    "family": "Myrtaceae",
+    "country": "AR",
+    "common_names": [
+      "Guayaba"
+    ],
+    "uses": [
+      "digestive",
+      "antidiarrheal"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Acca sellowiana",
+    "family": "Myrtaceae",
+    "country": "AR",
+    "common_names": [
+      "Feijoa"
+    ],
+    "uses": [
+      "nutrition",
+      "digestive"
+    ],
+    "meta": {
+      "source": "regional_use",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Syzygium aromaticum",
+    "family": "Myrtaceae",
+    "country": "AR",
+    "common_names": [
+      "Clavo de olor"
+    ],
+    "uses": [
+      "analgesic",
+      "antimicrobial"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Campomanesia xanthocarpa",
+    "family": "Myrtaceae",
+    "country": "AR",
+    "common_names": [
+      "Guabiroba"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "latam_ethnobotany",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Hexachlamys edulis",
+    "family": "Myrtaceae",
+    "country": "AR",
+    "common_names": [
+      "Ubajay"
+    ],
+    "uses": [
+      "digestive",
+      "nutrition"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Plinia cauliflora",
+    "family": "Myrtaceae",
+    "country": "AR",
+    "common_names": [
+      "Jabuticaba"
+    ],
+    "uses": [
+      "antioxidant"
+    ],
+    "meta": {
+      "source": "latam_ethnobotany",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Luma apiculata",
+    "family": "Myrtaceae",
+    "country": "AR",
+    "common_names": [
+      "Arrayán patagónico"
+    ],
+    "uses": [
+      "astringent"
+    ],
+    "meta": {
+      "source": "patagonia_ethnobotany",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Cupressus sempervirens",
+    "family": "Cupressaceae",
+    "country": "AR",
+    "common_names": [
+      "Ciprés"
+    ],
+    "uses": [
+      "circulatory"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Juniperus communis",
+    "family": "Cupressaceae",
+    "country": "AR",
+    "common_names": [
+      "Enebro"
+    ],
+    "uses": [
+      "diuretic",
+      "digestive"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Austrocedrus chilensis",
+    "family": "Cupressaceae",
+    "country": "AR",
+    "common_names": [
+      "Ciprés de la cordillera"
+    ],
+    "uses": [
+      "respiratory"
+    ],
+    "meta": {
+      "source": "patagonia_ethnobotany",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Araucaria araucana",
+    "family": "Araucariaceae",
+    "country": "AR",
+    "common_names": [
+      "Pehuén"
+    ],
+    "uses": [
+      "nutrition"
+    ],
+    "meta": {
+      "source": "andes_ethnobotany",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Pinus elliottii",
+    "family": "Pinaceae",
+    "country": "AR",
+    "common_names": [
+      "Pino"
+    ],
+    "uses": [
+      "respiratory"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Pinus radiata",
+    "family": "Pinaceae",
+    "country": "AR",
+    "common_names": [
+      "Pino insigne"
+    ],
+    "uses": [
+      "respiratory"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Ephedra americana",
+    "family": "Ephedraceae",
+    "country": "AR",
+    "common_names": [
+      "Pingo pingo cordillerano"
+    ],
+    "uses": [
+      "respiratory",
+      "stimulant"
+    ],
+    "meta": {
+      "source": "andes_ethnobotany",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Ginkgo biloba",
+    "family": "Ginkgoaceae",
+    "country": "AR",
+    "common_names": [
+      "Ginkgo"
+    ],
+    "uses": [
+      "circulatory",
+      "memory"
+    ],
+    "meta": {
+      "source": "modern_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Equisetum giganteum",
+    "family": "Equisetaceae",
+    "country": "AR",
+    "common_names": [
+      "Cola de caballo gigante"
+    ],
+    "uses": [
+      "diuretic"
+    ],
+    "meta": {
+      "source": "latam_ethnobotany",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Polypodium aureum",
+    "family": "Polypodiaceae",
+    "country": "AR",
+    "common_names": [
+      "Calaguala"
+    ],
+    "uses": [
+      "skin",
+      "immune"
+    ],
+    "meta": {
+      "source": "latam_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Tillandsia usneoides",
+    "family": "Bromeliaceae",
+    "country": "AR",
+    "common_names": [
+      "Barba de viejo"
+    ],
+    "uses": [
+      "respiratory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Ananas comosus",
+    "family": "Bromeliaceae",
+    "country": "AR",
+    "common_names": [
+      "Ananá"
+    ],
+    "uses": [
+      "digestive",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Bromelia serra",
+    "family": "Bromeliaceae",
+    "country": "AR",
+    "common_names": [
+      "Caraguatá"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Aechmea distichantha",
+    "family": "Bromeliaceae",
+    "country": "AR",
+    "common_names": [
+      "Caraguatá chico"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Smilax campestris",
+    "family": "Smilacaceae",
+    "country": "AR",
+    "common_names": [
+      "Zarzaparrilla"
+    ],
+    "uses": [
+      "depurative",
+      "skin"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Smilax brasiliensis",
+    "family": "Smilacaceae",
+    "country": "AR",
+    "common_names": [
+      "Zarzaparrilla del monte"
+    ],
+    "uses": [
+      "depurative"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Dioscorea dodecaneura",
+    "family": "Dioscoreaceae",
+    "country": "AR",
+    "common_names": [
+      "Ñame silvestre"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Dioscorea multiflora",
+    "family": "Dioscoreaceae",
+    "country": "AR",
+    "common_names": [
+      "Barbasco"
+    ],
+    "uses": [
+      "hormonal"
+    ],
+    "meta": {
+      "source": "latam_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Zingiber officinale",
+    "family": "Zingiberaceae",
+    "country": "AR",
+    "common_names": [
+      "Jengibre"
+    ],
+    "uses": [
+      "digestive",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Curcuma longa",
+    "family": "Zingiberaceae",
+    "country": "AR",
+    "common_names": [
+      "Cúrcuma"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "hepatic"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Alpinia zerumbet",
+    "family": "Zingiberaceae",
+    "country": "AR",
+    "common_names": [
+      "Jengibre ornamental"
+    ],
+    "uses": [
+      "circulatory"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Costus spicatus",
+    "family": "Costaceae",
+    "country": "AR",
+    "common_names": [
+      "Caña agria"
+    ],
+    "uses": [
+      "renal",
+      "diuretic"
+    ],
+    "meta": {
+      "source": "latam_ethnobotany",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Canna indica",
+    "family": "Cannaceae",
+    "country": "AR",
+    "common_names": [
+      "Achira"
+    ],
+    "uses": [
+      "nutrition"
+    ],
+    "meta": {
+      "source": "andes_ethnobotany",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Typha domingensis",
+    "family": "Typhaceae",
+    "country": "AR",
+    "common_names": [
+      "Totora"
+    ],
+    "uses": [
+      "traditional",
+      "wound"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Juncus effusus",
+    "family": "Juncaceae",
+    "country": "AR",
+    "common_names": [
+      "Junco"
+    ],
+    "uses": [
+      "diuretic"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Cyperus rotundus",
+    "family": "Cyperaceae",
+    "country": "AR",
+    "common_names": [
+      "Coquito"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Cyperus esculentus",
+    "family": "Cyperaceae",
+    "country": "AR",
+    "common_names": [
+      "Chufa"
+    ],
+    "uses": [
+      "nutrition"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Phragmites australis",
+    "family": "Poaceae",
+    "country": "AR",
+    "common_names": [
+      "Carrizo"
+    ],
+    "uses": [
+      "diuretic"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Cymbopogon citratus",
+    "family": "Poaceae",
+    "country": "AR",
+    "common_names": [
+      "Caña limón",
+      "Pasto limón"
+    ],
+    "uses": [
+      "digestive",
+      "calming"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Zea mays",
+    "family": "Poaceae",
+    "country": "AR",
+    "common_names": [
+      "Maíz"
+    ],
+    "uses": [
+      "diuretic",
+      "nutrition"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Saccharum officinarum",
+    "family": "Poaceae",
+    "country": "AR",
+    "common_names": [
+      "Caña de azúcar"
+    ],
+    "uses": [
+      "nutrition",
+      "energy"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Hordeum vulgare",
+    "family": "Poaceae",
+    "country": "AR",
+    "common_names": [
+      "Cebada"
+    ],
+    "uses": [
+      "digestive",
+      "nutrition"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Triticum aestivum",
+    "family": "Poaceae",
+    "country": "AR",
+    "common_names": [
+      "Trigo"
+    ],
+    "uses": [
+      "nutrition"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Avena sativa",
+    "family": "Poaceae",
+    "country": "AR",
+    "common_names": [
+      "Avena"
+    ],
+    "uses": [
+      "nutrition",
+      "calming"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Oryza sativa",
+    "family": "Poaceae",
+    "country": "AR",
+    "common_names": [
+      "Arroz"
+    ],
+    "uses": [
+      "nutrition",
+      "digestive"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Bambusa vulgaris",
+    "family": "Poaceae",
+    "country": "AR",
+    "common_names": [
+      "Bambú"
+    ],
+    "uses": [
+      "diuretic"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Elymus repens",
+    "family": "Poaceae",
+    "country": "AR",
+    "common_names": [
+      "Grama"
+    ],
+    "uses": [
+      "diuretic"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Cynodon dactylon",
+    "family": "Poaceae",
+    "country": "AR",
+    "common_names": [
+      "Grama común"
+    ],
+    "uses": [
+      "diuretic",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Panicum maximum",
+    "family": "Poaceae",
+    "country": "AR",
+    "common_names": [
+      "Pasto guinea"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Sorghum bicolor",
+    "family": "Poaceae",
+    "country": "AR",
+    "common_names": [
+      "Sorgo"
+    ],
+    "uses": [
+      "nutrition"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Coffea arabica",
+    "family": "Rubiaceae",
+    "country": "AR",
+    "common_names": [
+      "Café"
+    ],
+    "uses": [
+      "stimulant"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Cinchona pubescens",
+    "family": "Rubiaceae",
+    "country": "AR",
+    "common_names": [
+      "Quina"
+    ],
+    "uses": [
+      "fever",
+      "antimalarial"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Galium aparine",
+    "family": "Rubiaceae",
+    "country": "AR",
+    "common_names": [
+      "Amor de hortelano"
+    ],
+    "uses": [
+      "diuretic"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Rubia tinctorum",
+    "family": "Rubiaceae",
+    "country": "AR",
+    "common_names": [
+      "Rubia"
+    ],
+    "uses": [
+      "circulatory"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Morinda citrifolia",
+    "family": "Rubiaceae",
+    "country": "AR",
+    "common_names": [
+      "Noni"
+    ],
+    "uses": [
+      "immune",
+      "digestive"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Gardenia jasminoides",
+    "family": "Rubiaceae",
+    "country": "AR",
+    "common_names": [
+      "Gardenia"
+    ],
+    "uses": [
+      "calming"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Tabernaemontana catharinensis",
+    "family": "Apocynaceae",
+    "country": "AR",
+    "common_names": [
+      "Jazmín del monte"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "latam_ethnobotany",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Nerium oleander",
+    "family": "Apocynaceae",
+    "country": "AR",
+    "common_names": [
+      "Adelfa"
+    ],
+    "uses": [
+      "cardiotonic",
+      "toxic"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Catharanthus roseus",
+    "family": "Apocynaceae",
+    "country": "AR",
+    "common_names": [
+      "Vinca"
+    ],
+    "uses": [
+      "antitumor"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Asclepias mellodora",
+    "family": "Apocynaceae",
+    "country": "AR",
+    "common_names": [
+      "Yerba de la víbora"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Saccharum officinarum",
+    "family": "Poaceae",
+    "country": "AR",
+    "common_names": [
+      "Caña de azúcar"
+    ],
+    "uses": [
+      "nutrition",
+      "energy"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Hordeum vulgare",
+    "family": "Poaceae",
+    "country": "AR",
+    "common_names": [
+      "Cebada"
+    ],
+    "uses": [
+      "digestive",
+      "nutrition"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Triticum aestivum",
+    "family": "Poaceae",
+    "country": "AR",
+    "common_names": [
+      "Trigo"
+    ],
+    "uses": [
+      "nutrition"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Avena sativa",
+    "family": "Poaceae",
+    "country": "AR",
+    "common_names": [
+      "Avena"
+    ],
+    "uses": [
+      "nutrition",
+      "calming"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Oryza sativa",
+    "family": "Poaceae",
+    "country": "AR",
+    "common_names": [
+      "Arroz"
+    ],
+    "uses": [
+      "nutrition",
+      "digestive"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Bambusa vulgaris",
+    "family": "Poaceae",
+    "country": "AR",
+    "common_names": [
+      "Bambú"
+    ],
+    "uses": [
+      "diuretic"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Elymus repens",
+    "family": "Poaceae",
+    "country": "AR",
+    "common_names": [
+      "Grama"
+    ],
+    "uses": [
+      "diuretic"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Cynodon dactylon",
+    "family": "Poaceae",
+    "country": "AR",
+    "common_names": [
+      "Grama común"
+    ],
+    "uses": [
+      "diuretic",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Panicum maximum",
+    "family": "Poaceae",
+    "country": "AR",
+    "common_names": [
+      "Pasto guinea"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Sorghum bicolor",
+    "family": "Poaceae",
+    "country": "AR",
+    "common_names": [
+      "Sorgo"
+    ],
+    "uses": [
+      "nutrition"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Coffea arabica",
+    "family": "Rubiaceae",
+    "country": "AR",
+    "common_names": [
+      "Café"
+    ],
+    "uses": [
+      "stimulant"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Cinchona pubescens",
+    "family": "Rubiaceae",
+    "country": "AR",
+    "common_names": [
+      "Quina"
+    ],
+    "uses": [
+      "fever",
+      "antimalarial"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Galium aparine",
+    "family": "Rubiaceae",
+    "country": "AR",
+    "common_names": [
+      "Amor de hortelano"
+    ],
+    "uses": [
+      "diuretic"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Rubia tinctorum",
+    "family": "Rubiaceae",
+    "country": "AR",
+    "common_names": [
+      "Rubia"
+    ],
+    "uses": [
+      "circulatory"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Morinda citrifolia",
+    "family": "Rubiaceae",
+    "country": "AR",
+    "common_names": [
+      "Noni"
+    ],
+    "uses": [
+      "immune",
+      "digestive"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Gardenia jasminoides",
+    "family": "Rubiaceae",
+    "country": "AR",
+    "common_names": [
+      "Gardenia"
+    ],
+    "uses": [
+      "calming"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Tabernaemontana catharinensis",
+    "family": "Apocynaceae",
+    "country": "AR",
+    "common_names": [
+      "Jazmín del monte"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "latam_ethnobotany",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Nerium oleander",
+    "family": "Apocynaceae",
+    "country": "AR",
+    "common_names": [
+      "Adelfa"
+    ],
+    "uses": [
+      "cardiotonic",
+      "toxic"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Catharanthus roseus",
+    "family": "Apocynaceae",
+    "country": "AR",
+    "common_names": [
+      "Vinca"
+    ],
+    "uses": [
+      "antitumor"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Asclepias mellodora",
+    "family": "Apocynaceae",
+    "country": "AR",
+    "common_names": [
+      "Yerba de la víbora"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Arum maculatum",
+    "family": "Araceae",
+    "country": "AR",
+    "common_names": [
+      "Aro"
+    ],
+    "uses": [
+      "traditional",
+      "toxic"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Colocasia esculenta",
+    "family": "Araceae",
+    "country": "AR",
+    "common_names": [
+      "Taro"
+    ],
+    "uses": [
+      "nutrition"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Xanthosoma sagittifolium",
+    "family": "Araceae",
+    "country": "AR",
+    "common_names": [
+      "Malanga"
+    ],
+    "uses": [
+      "nutrition"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Philodendron bipinnatifidum",
+    "family": "Araceae",
+    "country": "AR",
+    "common_names": [
+      "Filodendro"
+    ],
+    "uses": [
+      "ornamental"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Monstera deliciosa",
+    "family": "Araceae",
+    "country": "AR",
+    "common_names": [
+      "Costilla de Adán"
+    ],
+    "uses": [
+      "nutrition"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Dieffenbachia seguine",
+    "family": "Araceae",
+    "country": "AR",
+    "common_names": [
+      "Dieffenbachia"
+    ],
+    "uses": [
+      "ornamental",
+      "toxic"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Anthurium andraeanum",
+    "family": "Araceae",
+    "country": "AR",
+    "common_names": [
+      "Anturio"
+    ],
+    "uses": [
+      "ornamental"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Pistia stratiotes",
+    "family": "Araceae",
+    "country": "AR",
+    "common_names": [
+      "Lechuga de agua"
+    ],
+    "uses": [
+      "skin",
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Lemna minor",
+    "family": "Araceae",
+    "country": "AR",
+    "common_names": [
+      "Lenteja de agua"
+    ],
+    "uses": [
+      "nutrition",
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Spirodela polyrhiza",
+    "family": "Araceae",
+    "country": "AR",
+    "common_names": [
+      "Lenteja mayor"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Eichhornia crassipes",
+    "family": "Pontederiaceae",
+    "country": "AR",
+    "common_names": [
+      "Camalote"
+    ],
+    "uses": [
+      "traditional",
+      "water"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Pontederia cordata",
+    "family": "Pontederiaceae",
+    "country": "AR",
+    "common_names": [
+      "Camalote chico"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Tradescantia fluminensis",
+    "family": "Commelinaceae",
+    "country": "AR",
+    "common_names": [
+      "Amor de hombre"
+    ],
+    "uses": [
+      "skin"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Commelina erecta",
+    "family": "Commelinaceae",
+    "country": "AR",
+    "common_names": [
+      "Flor de Santa Lucía"
+    ],
+    "uses": [
+      "eye",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Tradescantia zebrina",
+    "family": "Commelinaceae",
+    "country": "AR",
+    "common_names": [
+      "Amor de hombre morado"
+    ],
+    "uses": [
+      "ornamental"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Pontederia rotundifolia",
+    "family": "Pontederiaceae",
+    "country": "AR",
+    "common_names": [
+      "Camalotillo"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Hedychium coronarium",
+    "family": "Zingiberaceae",
+    "country": "AR",
+    "common_names": [
+      "Jengibre blanco"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "latam_ethnobotany",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Canna glauca",
+    "family": "Cannaceae",
+    "country": "AR",
+    "common_names": [
+      "Achira amarilla"
+    ],
+    "uses": [
+      "nutrition"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Thalia geniculata",
+    "family": "Marantaceae",
+    "country": "AR",
+    "common_names": [
+      "Platanillo de agua"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_argentina",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Maranta arundinacea",
+    "family": "Marantaceae",
+    "country": "AR",
+    "common_names": [
+      "Arrurruz"
+    ],
+    "uses": [
+      "digestive",
+      "nutrition"
+    ],
+    "meta": {
+      "source": "global_phytotherapy",
+      "confidence": "high"
+    }
+  }
+]

@@ -23,6 +23,11 @@ export type Plant = {
   origin_regions: string[];
   plant_type: string;
   primary_uses: string[];
+  /**
+   * Regional inventory ISO codes from `data/processed/plants.json` (merged dataset),
+   * when present. Used for geo UI (e.g. country selector), not name-row coverage.
+   */
+  countries?: string[];
   /** Derived from `data/processed/plants.json` keyword taxonomy (not merged into slim JSON). */
   uses_structured: UsesStructured;
   /**
@@ -183,7 +188,34 @@ function buildProcessedUsesStructuredById(): Map<string, UsesStructured> {
   return m;
 }
 
+function buildProcessedCountriesById(): Map<string, string[]> {
+  const acc = new Map<string, Set<string>>();
+  const rows = Array.isArray(processedPlantsJson) ? processedPlantsJson : [];
+  for (const row of rows) {
+    if (!row || typeof row !== "object") continue;
+    const p = row as Record<string, unknown>;
+    const id = typeof p.id === "string" ? p.id.trim() : "";
+    if (!id || !Array.isArray(p.countries)) continue;
+    let set = acc.get(id);
+    if (!set) {
+      set = new Set();
+      acc.set(id, set);
+    }
+    for (const c of p.countries) {
+      const u = typeof c === "string" ? c.trim().toUpperCase() : "";
+      if (u) set.add(u);
+    }
+  }
+  const out = new Map<string, string[]>();
+  for (const [id, set] of acc) {
+    out.set(id, [...set].sort((a, b) => a.localeCompare(b)));
+  }
+  return out;
+}
+
 let processedUsesById = new Map<string, UsesStructured>();
+/** ISO codes per plant id from merged `data/processed/plants.json` (union duplicate rows). */
+let processedCountriesById = new Map<string, string[]>();
 
 function clearGhostPlantCache(): void {
   ghostPlantCache.clear();
@@ -240,7 +272,17 @@ export function nameEntryHasExplicitCountryCoverage(
       return cc === C && u.source !== "global_fallback";
     });
   }
-  return nameEntryCountries(entry).includes(C);
+  const legacy = new Set<string>();
+  if (Array.isArray(entry.countries)) {
+    for (const x of entry.countries) {
+      const u = typeof x === "string" ? x.trim().toUpperCase() : "";
+      if (u) legacy.add(u);
+    }
+  }
+  if (typeof entry.country === "string" && entry.country.trim()) {
+    legacy.add(entry.country.trim().toUpperCase());
+  }
+  return legacy.has(C);
 }
 
 function parseCountryUsageConfidence(
@@ -610,13 +652,16 @@ function ensureIndexes(): void {
 
   enrichedByPlantId = buildEnrichedPlantById(loadEnrichedPlants());
   processedUsesById = buildProcessedUsesStructuredById();
+  processedCountriesById = buildProcessedCountriesById();
   plantsList = rawPlants
     .filter(isPlantRecord)
     .map((p) => {
       const base = p as unknown as Plant;
+      const inv = processedCountriesById.get(base.id);
       const withStructured: Plant = {
         ...base,
         uses_structured: processedUsesById.get(base.id) ?? emptyUsesStructured(),
+        ...(inv?.length ? { countries: inv } : {}),
       };
       return mergeEnrichedLayer(withStructured);
     });
@@ -666,6 +711,8 @@ export function buildGhostPlant(plant_id: string): Plant {
       ? `${parts[0]!.charAt(0).toUpperCase() + parts[0]!.slice(1)} ${parts[1]!.toLowerCase()}`
       : working.charAt(0).toUpperCase() + working.slice(1);
 
+  const ghostCountries = processedCountriesById.get(id);
+
   return {
     id,
     scientific_name,
@@ -676,6 +723,7 @@ export function buildGhostPlant(plant_id: string): Plant {
     plant_type: "species",
     primary_uses: [],
     uses_structured: processedUsesById.get(id) ?? emptyUsesStructured(),
+    ...(ghostCountries?.length ? { countries: ghostCountries } : {}),
     isGhost: true,
   };
 }

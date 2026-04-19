@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-18T19:14:43.216Z",
+  "generated_at": "2026-04-19T03:08:58.168Z",
   "plants_ranked_by_fallback_country_count": [],
   "countries_ranked_by_fallback_load": [
     {
       "country": "MX",
-      "explicit_pairs": 177,
+      "explicit_pairs": 178,
       "fallback_only_pairs": 0,
       "missing_pairs": 0,
       "fallback_share_of_non_missing": 0
@@ -18,7 +18,14 @@
     },
     {
       "country": "AR",
-      "explicit_pairs": 146,
+      "explicit_pairs": 361,
+      "fallback_only_pairs": 0,
+      "missing_pairs": 0,
+      "fallback_share_of_non_missing": 0
+    },
+    {
+      "country": "CO",
+      "explicit_pairs": 317,
       "fallback_only_pairs": 0,
       "missing_pairs": 0,
       "fallback_share_of_non_missing": 0
@@ -32,14 +39,14 @@
     },
     {
       "country": "CL",
-      "explicit_pairs": 109,
+      "explicit_pairs": 110,
       "fallback_only_pairs": 0,
       "missing_pairs": 0,
       "fallback_share_of_non_missing": 0
     },
     {
       "country": "GT",
-      "explicit_pairs": 113,
+      "explicit_pairs": 114,
       "fallback_only_pairs": 0,
       "missing_pairs": 0,
       "fallback_share_of_non_missing": 0
@@ -88,7 +95,7 @@
     },
     {
       "country": "US",
-      "explicit_pairs": 98,
+      "explicit_pairs": 99,
       "fallback_only_pairs": 0,
       "missing_pairs": 0,
       "fallback_share_of_non_missing": 0
@@ -102,14 +109,14 @@
     },
     {
       "country": "BO",
-      "explicit_pairs": 66,
+      "explicit_pairs": 319,
       "fallback_only_pairs": 0,
       "missing_pairs": 0,
       "fallback_share_of_non_missing": 0
     },
     {
       "country": "PY",
-      "explicit_pairs": 52,
+      "explicit_pairs": 53,
       "fallback_only_pairs": 0,
       "missing_pairs": 0,
       "fallback_share_of_non_missing": 0
@@ -150,15 +157,8 @@
       "fallback_share_of_non_missing": 0
     },
     {
-      "country": "CO",
-      "explicit_pairs": 57,
-      "fallback_only_pairs": 0,
-      "missing_pairs": 0,
-      "fallback_share_of_non_missing": 0
-    },
-    {
       "country": "CR",
-      "explicit_pairs": 56,
+      "explicit_pairs": 57,
       "fallback_only_pairs": 0,
       "missing_pairs": 0,
       "fallback_share_of_non_missing": 0
@@ -200,7 +200,7 @@
     },
     {
       "country": "VE",
-      "explicit_pairs": 30,
+      "explicit_pairs": 31,
       "fallback_only_pairs": 0,
       "missing_pairs": 0,
       "fallback_share_of_non_missing": 0
@@ -279,9 +279,9 @@
     },
     {
       "country": "AR",
-      "explicit": 146,
-      "global_reuse": 0,
-      "local_ethnobotany": 146,
+      "explicit": 361,
+      "global_reuse": 1,
+      "local_ethnobotany": 360,
       "other_explicit": 0
     },
     {
@@ -314,9 +314,9 @@
     },
     {
       "country": "BO",
-      "explicit": 66,
+      "explicit": 319,
       "global_reuse": 0,
-      "local_ethnobotany": 66,
+      "local_ethnobotany": 319,
       "other_explicit": 0
     },
     {
@@ -328,23 +328,23 @@
     },
     {
       "country": "CL",
-      "explicit": 109,
+      "explicit": 110,
       "global_reuse": 0,
-      "local_ethnobotany": 109,
+      "local_ethnobotany": 110,
       "other_explicit": 0
     },
     {
       "country": "CO",
-      "explicit": 57,
+      "explicit": 317,
       "global_reuse": 0,
-      "local_ethnobotany": 57,
+      "local_ethnobotany": 317,
       "other_explicit": 0
     },
     {
       "country": "CR",
-      "explicit": 56,
+      "explicit": 57,
       "global_reuse": 0,
-      "local_ethnobotany": 56,
+      "local_ethnobotany": 57,
       "other_explicit": 0
     },
     {
@@ -405,16 +405,16 @@
     },
     {
       "country": "GT",
-      "explicit": 113,
+      "explicit": 114,
       "global_reuse": 0,
-      "local_ethnobotany": 113,
+      "local_ethnobotany": 114,
       "other_explicit": 0
     },
     {
       "country": "GY",
       "explicit": 50,
-      "global_reuse": 35,
-      "local_ethnobotany": 15,
+      "global_reuse": 29,
+      "local_ethnobotany": 21,
       "other_explicit": 0
     },
     {
@@ -454,9 +454,9 @@
     },
     {
       "country": "MX",
-      "explicit": 177,
+      "explicit": 178,
       "global_reuse": 0,
-      "local_ethnobotany": 177,
+      "local_ethnobotany": 178,
       "other_explicit": 0
     },
     {
@@ -489,9 +489,9 @@
     },
     {
       "country": "PY",
-      "explicit": 52,
+      "explicit": 53,
       "global_reuse": 0,
-      "local_ethnobotany": 52,
+      "local_ethnobotany": 53,
       "other_explicit": 0
     },
     {
@@ -517,9 +517,9 @@
     },
     {
       "country": "US",
-      "explicit": 98,
+      "explicit": 99,
       "global_reuse": 0,
-      "local_ethnobotany": 98,
+      "local_ethnobotany": 99,
       "other_explicit": 0
     },
     {
@@ -531,9 +531,9 @@
     },
     {
       "country": "VE",
-      "explicit": 30,
+      "explicit": 31,
       "global_reuse": 0,
-      "local_ethnobotany": 30,
+      "local_ethnobotany": 31,
       "other_explicit": 0
     }
   ]

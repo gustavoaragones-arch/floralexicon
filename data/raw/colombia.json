@@ -1,404 +1,4736 @@
-{
-    "plants": [
-    {
-    "id": "bixa_orellana",
-    "scientific_name": "Bixa orellana L.",
+[
+  {
+    "scientific_name": "Bixa orellana",
     "family": "Bixaceae",
-    "genus": "Bixa",
-    "rank": "species",
-    "origin_regions": ["CO"],
-    "native_status": "native",
-    "plant_type": "tree",
-    "primary_uses": ["medicinal"]
-    },
-    {
-    "id": "gelidium_cartilagineum",
-    "scientific_name": "Gelidium cartilagineum (L.) Gaillon",
-    "family": "Gelidiaceae",
-    "genus": "Gelidium",
-    "rank": "species",
-    "origin_regions": ["CO"],
-    "native_status": "native",
-    "plant_type": "algae",
-    "primary_uses": ["medicinal"]
-    },
-    {
-    "id": "artemisia_absinthium",
-    "scientific_name": "Artemisia absinthium L.",
-    "family": "Asteraceae",
-    "genus": "Artemisia",
-    "rank": "species",
-    "origin_regions": ["CO"],
-    "native_status": "naturalized",
-    "plant_type": "herb",
-    "primary_uses": ["medicinal"]
-    },
-    {
-    "id": "capsicum_annuum",
-    "scientific_name": "Capsicum annuum L. (variedades
-   picantes)",
-    "family": "Solanaceae",
-    "genus": "Capsicum",
-    "rank": "species",
-    "origin_regions": ["CO"],
-    "native_status": "native",
-    "plant_type": "herb",
-    "primary_uses": ["medicinal"]
-    },
-    {
-    "id": "allium_sativum",
-    "scientific_name": "Allium sativum L.",
-    "family": "Amaryllidaceae",
-    "genus": "Allium",
-    "rank": "species",
-    "origin_regions": ["CO"],
-    "native_status": "naturalized",
-    "plant_type": "herb",
-    "primary_uses": ["medicinal"]
-    },
-    {
-    "id": "ocimum_basilicum",
-    "scientific_name": "Ocimum basilicum L.",
-    "family": "Lamiaceae",
-    "genus": "Ocimum",
-    "rank": "species",
-    "origin_regions": ["CO"],
-    "native_status": "naturalized",
-    "plant_type": "herb",
-    "primary_uses": ["medicinal", "culinary"]
-    },
-    {
-    "id": "cynara_scolymus",
-    "scientific_name": "Cynara scolymus L.",
-    "family": "Asteraceae",
-    "genus": "Cynara",
-    "rank": "species",
-    "origin_regions": ["CO"],
-    "native_status": "naturalized",
-    "plant_type": "herb",
-    "primary_uses": ["medicinal"]
-    },
-    {
-    "id": "hymenaea_courbaril",
-    "scientific_name": "Hymenaea courbaril L.",
-    "family": "Fabaceae",
-    "genus": "Hymenaea",
-    "rank": "species",
-    "origin_regions": ["CO"],
-    "native_status": "native",
-    "plant_type": "tree",
-    "primary_uses": ["medicinal"]
-    },
-    {
-    "id": "justicia_pectoralis",
-    "scientific_name": "Justicia pectoralis Jacq.",
-    "family": "Acanthaceae",
-    "genus": "Justicia",
-    "rank": "species",
-    "origin_regions": ["CO"],
-    "native_status": "native",
-    "plant_type": "herb",
-    "primary_uses": ["medicinal"]
-    },
-    {
-    "id": "petiveria_alliacea",
-    "scientific_name": "Petiveria alliacea L.",
-    "family": "Phytolaccaceae",
-    "genus": "Petiveria",
-    "rank": "species",
-    "origin_regions": ["CO"],
-    "native_status": "native",
-    "plant_type": "herb",
-    "primary_uses": ["medicinal"]
-    },
-    {
-    "id": "pimpinella_anisum",
-    "scientific_name": "Pimpinella anisum L.",
-    "family": "Apiaceae",
-    "genus": "Pimpinella",
-    "rank": "species",
-    "origin_regions": ["CO"],
-    "native_status": "naturalized",
-    "plant_type": "herb",
-    "primary_uses": ["medicinal"]
-    },
-    {
-    "id": "apium_graveolens",
-    "scientific_name": "Apium graveolens L.",
-    "family": "Apiaceae",
-    "genus": "Apium",
-    "rank": "species",
-    "origin_regions": ["CO"],
-    "native_status": "naturalized",
-    "plant_type": "herb",
-    "primary_uses": ["medicinal"]
-    },
-    {
-    "id": "vaccinium_macrocarpon",
-    "scientific_name": "Vaccinium macrocarpon Aiton.",
-    "family": "Ericaceae",
-    "genus": "Vaccinium",
-    "rank": "species",
-    "origin_regions": ["CO"],
-    "native_status": "naturalized",
-    "plant_type": "shrub",
-    "primary_uses": ["medicinal"]
-    },
-    {
-    "id": "arnica_montana",
-    "scientific_name": "Arnica montana L.",
-    "family": "Asteraceae",
-    "genus": "Arnica",
-    "rank": "species",
-    "origin_regions": ["CO"],
-    "native_status": "naturalized",
-    "plant_type": "herb",
-    "primary_uses": ["medicinal"]
-    },
-    {
-    "id": "avena_sativa",
-    "scientific_name": "Avena sativa L.",
-    "family": "Poaceae",
-    "genus": "Avena",
-    "rank": "species",
-    "origin_regions": ["CO"],
-    "native_status": "naturalized",
-    "plant_type": "herb",
-    "primary_uses": ["medicinal"]
-    },
-    {
-    "id": "momordica_charantia",
-    "scientific_name": "Momordica charantia L.",
-    "family": "Cucurbitaceae",
-    "genus": "Momordica",
-    "rank": "species",
-    "origin_regions": ["CO"],
-    "native_status": "naturalized",
-    "plant_type": "vine",
-    "primary_uses": ["medicinal"]
-    },
-    {
-    "id": "peumus_boldus",
-    "scientific_name": "Peumus boldus Molina.",
-    "family": "Monimiaceae",
-    "genus": "Peumus",
-    "rank": "species",
-    "origin_regions": ["CO"],
-    "native_status": "naturalized",
-    "plant_type": "tree",
-    "primary_uses": ["medicinal"]
-    },
-    {
-    "id": "hyptis_capitata",
-    "scientific_name": "Hyptis capitata Jacq.",
-    "family": "Lamiaceae",
-    "genus": "Hyptis",
-    "rank": "species",
-    "origin_regions": ["CO"],
-    "native_status": "native",
-    "plant_type": "herb",
-    "primary_uses": ["medicinal"]
-    },
-    {
-    "id": "cassia_occidentalis",
-    "scientific_name": "Cassia occidentalis L.",
-    "family": "Fabaceae",
-    "genus": "Cassia",
-    "rank": "species",
-    "origin_regions": ["CO"],
-    "native_status": "native",
-    "plant_type": "shrub",
-    "primary_uses": ["medicinal"]
-    },
-    {
-    "id": "bidens_pilosa",
-    "scientific_name": "Bidens pilosa L.",
-    "family": "Asteraceae",
-    "genus": "Bidens",
-    "rank": "species",
-    "origin_regions": ["CO"],
-    "native_status": "native",
-    "plant_type": "herb",
-    "primary_uses": ["medicinal"]
-    },
-    {
-    "id": "coffea_arabica",
-    "scientific_name": "Coffea arabica L.",
-    "family": "Rubiaceae",
-    "genus": "Coffea",
-    "rank": "species",
-    "origin_regions": ["CO"],
-    "native_status": "naturalized",
-    "plant_type": "tree",
-    "primary_uses": ["medicinal"]
-    },
-    {
-    "id": "phlebodium_pseudoaureum",
-    "scientific_name": "Phlebodium pseudoaureum (Cav.)
-   Lellinger",
-    "family": "Polypodiaceae",
-    "genus": "Phlebodium",
-    "rank": "species",
-    "origin_regions": ["CO"],
-    "native_status": "native",
-    "plant_type": "fern",
-    "primary_uses": ["medicinal"]
-    },
-    {
-    "id": "thymus_vulgaris",
-    "scientific_name": "Thymus vulgaris L.",
-    "family": "Lamiaceae",
-    "genus": "Thymus",
-    "rank": "species",
-    "origin_regions": ["CO"],
-    "native_status": "naturalized",
-    "plant_type": "herb",
-    "primary_uses": ["medicinal"]
-    },
-    {
-    "id": "ocimum_sanctum",
-    "scientific_name": "Ocimum sanctum L.",
-    "family": "Lamiaceae",
-    "genus": "Ocimum",
-    "rank": "species",
-    "origin_regions": ["CO"],
-    "native_status": "naturalized",
-    "plant_type": "herb",
-    "primary_uses": ["medicinal"]
-    },
-    {
-    "id": "calendula_officinalis",
-    "scientific_name": "Calendula officinalis L.",
-    "family": "Asteraceae",
-    "genus": "Calendula",
-    "rank": "species",
-    "origin_regions": ["CO"],
-    "native_status": "naturalized",
-    "plant_type": "herb",
-    "primary_uses": ["medicinal"]
-    }
-    ],
-    "names": [
-    {"name": "Achiote", "normalized": "achiote", "language": 
-   "es", "country": "CO", "plant_ids": ["bixa_orellana"],
-   "ambiguity_level": "low", "usage_context": ["medicinal"]},
-    {"name": "Ajenjo", "normalized": "ajenjo", "language": "es",
-   "country": "CO", "plant_ids": ["artemisia_absinthium"],
-   "ambiguity_level": "low", "usage_context": ["medicinal"]},
-    {"name": "Ají", "normalized": "aji", "language": "es",
-   "country": "CO", "plant_ids": ["capsicum_annuum"],
-   "ambiguity_level": "low", "usage_context": ["medicinal"]},
-    {"name": "Ajo", "normalized": "ajo", "language": "es",
-   "country": "CO", "plant_ids": ["allium_sativum"],
-   "ambiguity_level": "low", "usage_context": ["medicinal"]},
-    {"name": "Albahaca", "normalized": "albahaca", "language":
-   "es", "country": "CO", "plant_ids": ["ocimum_basilicum"],
-   "ambiguity_level": "low", "usage_context": ["medicinal",
-   "culinary"]},
-    {"name": "Alcachofa", "normalized": "alcachofa", "language":
-   "es", "country": "CO", "plant_ids": ["cynara_scolymus"],
-   "ambiguity_level": "low", "usage_context": ["medicinal"]},
-    {"name": "Algarrobo", "normalized": "algarrobo", "language":
-   "es", "country": "CO", "plant_ids": ["hymenaea_courbaril"],
-   "ambiguity_level": "low", "usage_context": ["medicinal"]},
-    {"name": "Amansaguapos / Amansatoros", "normalized":
-   "amansaguapos", "language": "es", "country": "CO", "plant_ids":
-   ["justicia_pectoralis"], "ambiguity_level": "low",
-   "usage_context": ["medicinal"]},
-    {"name": "Anamú", "normalized": "anamu", "language": "es",
-   "country": "CO", "plant_ids": ["petiveria_alliacea"],
-   "ambiguity_level": "low", "usage_context": ["medicinal"]},
-    {"name": "Anís", "normalized": "anis", "language": "es",
-   "country": "CO", "plant_ids": ["pimpinella_anisum"],
-   "ambiguity_level": "low", "usage_context": ["medicinal"]},
-    {"name": "Apio", "normalized": "apio", "language": "es",
-   "country": "CO", "plant_ids": ["apium_graveolens"],
-   "ambiguity_level": "low", "usage_context": ["medicinal"]},
-    {"name": "Arándano", "normalized": "arandano", "language":
-   "es", "country": "CO", "plant_ids": ["vaccinium_macrocarpon"],
-   "ambiguity_level": "low", "usage_context": ["medicinal"]},
-    {"name": "Árnica", "normalized": "arnica", "language": "es",
-   "country": "CO", "plant_ids": ["arnica_montana"],
-   "ambiguity_level": "low", "usage_context": ["medicinal"]},
-    {"name": "Avena", "normalized": "avena", "language": "es",
-   "country": "CO", "plant_ids": ["avena_sativa"],
-   "ambiguity_level": "low", "usage_context": ["medicinal"]},
-    {"name": "Balsamina", "normalized": "balsamina", "language":
-   "es", "country": "CO", "plant_ids": ["momordica_charantia"],
-   "ambiguity_level": "low", "usage_context": ["medicinal"]},
-    {"name": "Boldo", "normalized": "boldo", "language": "es", 
-   "country": "CO", "plant_ids": ["peumus_boldus"],
-   "ambiguity_level": "low", "usage_context": ["medicinal"]},
-    {"name": "Botón negro", "normalized": "boton negro",
-   "language": "es", "country": "CO", "plant_ids":
-   ["hyptis_capitata"], "ambiguity_level": "low", "usage_context":
-   ["medicinal"]},
-    {"name": "Brusca", "normalized": "brusca", "language": "es",
-   "country": "CO", "plant_ids": ["cassia_occidentalis"],
-   "ambiguity_level": "low", "usage_context": ["medicinal"]},
-    {"name": "Cadillo", "normalized": "cadillo", "language":
-   "es", "country": "CO", "plant_ids": ["bidens_pilosa"],
-   "ambiguity_level": "low", "usage_context": ["medicinal"]},
-    {"name": "Café", "normalized": "cafe", "language": "es",
-   "country": "CO", "plant_ids": ["coffea_arabica"],
-   "ambiguity_level": "low", "usage_context": ["medicinal"]},
-    {"name": "Calaguala", "normalized": "calaguala", "language":
-   "es", "country": "CO", "plant_ids": ["phlebodium_pseudoaureum"],
-   "ambiguity_level": "low", "usage_context": ["medicinal"]},
-    {"name": "Tomillo", "normalized": "tomillo", "language":
-   "es", "country": "CO", "plant_ids": ["thymus_vulgaris"],
-   "ambiguity_level": "low", "usage_context": ["medicinal"]},
-    {"name": "Albahaca morada", "normalized": "albahaca morada",
-   "language": "es", "country": "CO", "plant_ids":
-   ["ocimum_sanctum"], "ambiguity_level": "low", "usage_context":
-   ["medicinal"]},
-    {"name": "Caléndula", "normalized": "calendula", "language":
-   "es", "country": "CO", "plant_ids": ["calendula_officinalis"],
-   "ambiguity_level": "low", "usage_context": ["medicinal"]}
-    ],
-    "geo_distribution": [
-    {"plant_id": "bixa_orellana", "biomes": ["andean",
-   "pacific"], "countries": ["CO"], "cultural_regions": ["afro",
-   "norte_cauca"]},
-    {"plant_id": "ocimum_basilicum", "biomes": ["andean",
-   "caribbean"], "countries": ["CO"], "cultural_regions": ["afro",
-   "campesino"]},
-    {"plant_id": "petiveria_alliacea", "biomes": ["pacific",
-   "caribbean"], "countries": ["CO"], "cultural_regions":
-   ["afro_norte_cauca"]}
+    "country": "CO",
+    "common_names": [
+      "Achiote"
     ],
     "uses": [
-    {"plant_id": "artemisia_absinthium", "categories":
-   {"medicinal": [{"use": "Estimulante del apetito",
-   "evidence_level": "approved", "regions": ["CO"]}]}},
-    {"plant_id": "capsicum_annuum", "categories": {"medicinal":
-   [{"use": "Rubefaciente y analgésico de uso externo",
-   "evidence_level": "approved", "regions": ["CO"]}]}},
-    {"plant_id": "allium_sativum", "categories": {"medicinal":
-   [{"use": "Hipotensor. Coadyuvante en hiperlipidemias y
-   profilaxis de ateroesclerosis", "evidence_level": "approved",
-   "regions": ["CO"]}]}},
-    {"plant_id": "ocimum_basilicum", "categories": {"medicinal":
-   [{"use": "Antiflatulento. Coadyuvante en distensión y dolores
-   abdominales", "evidence_level": "approved", "regions":
-   ["CO"]}]}},
-    {"plant_id": "thymus_vulgaris", "categories": {"medicinal":
-   [{"use": "Antiespasmódico, expectorante, digestivo",
-   "evidence_level": "traditional", "regions": ["CO"]}]}}
+      "anti-inflammatory"
     ],
-    "safety": [
-    {
-    "plant_id": "artemisia_absinthium",
-    "contraindications": ["Hipersensibilidad. Embarazo y
-   lactancia. Epilepsia. Por sobredosis o uso prolongado pueden
-   aparecer síntomas de toxicidad debido a la tuyona."],
-    "toxicity_level": "moderate"
-    },
-    {
-    "plant_id": "ruta_graveolens",
-    "contraindications": ["Embarazo y lactancia. Puede
-   producir fotosensibilización."],
-    "toxicity_level": "moderate"
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
     }
-    ]
-   }
+  },
+  {
+    "scientific_name": "Gelidium cartilagineum",
+    "family": "Gelidiaceae",
+    "country": "CO",
+    "common_names": [
+      "Agar-agar"
+    ],
+    "uses": [
+      "laxative"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Artemisia absinthium",
+    "family": "Asteraceae",
+    "country": "CO",
+    "common_names": [
+      "Ajenjo"
+    ],
+    "uses": [
+      "appetite stimulant",
+      "digestive"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Capsicum annuum",
+    "family": "Solanaceae",
+    "country": "CO",
+    "common_names": [
+      "Ají"
+    ],
+    "uses": [
+      "analgesic",
+      "topical anti-inflammatory"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Allium sativum",
+    "family": "Amaryllidaceae",
+    "country": "CO",
+    "common_names": [
+      "Ajo"
+    ],
+    "uses": [
+      "cardiovascular",
+      "lipid-lowering"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Ocimum basilicum",
+    "family": "Lamiaceae",
+    "country": "CO",
+    "common_names": [
+      "Albahaca"
+    ],
+    "uses": [
+      "digestive",
+      "antiflatulent"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Cynara scolymus",
+    "family": "Asteraceae",
+    "country": "CO",
+    "common_names": [
+      "Alcachofa"
+    ],
+    "uses": [
+      "digestive",
+      "hepatobiliary"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Hymenaea courbaril",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Algarrobo"
+    ],
+    "uses": [
+      "hypoglycemic"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Justicia pectoralis",
+    "family": "Acanthaceae",
+    "country": "CO",
+    "common_names": [
+      "Amansaguapos",
+      "Amansatoros"
+    ],
+    "uses": [
+      "sedative",
+      "anxiolytic"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Petiveria alliacea",
+    "family": "Phytolaccaceae",
+    "country": "CO",
+    "common_names": [
+      "Anamú"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "oral"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Pimpinella anisum",
+    "family": "Apiaceae",
+    "country": "CO",
+    "common_names": [
+      "Anís"
+    ],
+    "uses": [
+      "digestive",
+      "antiflatulent"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Apium graveolens",
+    "family": "Apiaceae",
+    "country": "CO",
+    "common_names": [
+      "Apio"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Vaccinium macrocarpon",
+    "family": "Ericaceae",
+    "country": "CO",
+    "common_names": [
+      "Arándano"
+    ],
+    "uses": [
+      "urinary"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Arnica montana",
+    "family": "Asteraceae",
+    "country": "CO",
+    "common_names": [
+      "Árnica"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "analgesic"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Avena sativa",
+    "family": "Poaceae",
+    "country": "CO",
+    "common_names": [
+      "Avena"
+    ],
+    "uses": [
+      "cholesterol",
+      "laxative"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Momordica charantia",
+    "family": "Cucurbitaceae",
+    "country": "CO",
+    "common_names": [
+      "Balsamina"
+    ],
+    "uses": [
+      "hypoglycemic"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Peumus boldus",
+    "family": "Monimiaceae",
+    "country": "CO",
+    "common_names": [
+      "Boldo"
+    ],
+    "uses": [
+      "digestive",
+      "hepatobiliary"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Hyptis capitata",
+    "family": "Lamiaceae",
+    "country": "CO",
+    "common_names": [
+      "Botón negro"
+    ],
+    "uses": [
+      "dermatological",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Cassia occidentalis",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Brusca"
+    ],
+    "uses": [
+      "antiseptic",
+      "topical"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Bidens pilosa",
+    "family": "Asteraceae",
+    "country": "CO",
+    "common_names": [
+      "Cadillo"
+    ],
+    "uses": [
+      "digestive",
+      "gastritis"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Coffea arabica",
+    "family": "Rubiaceae",
+    "country": "CO",
+    "common_names": [
+      "Café"
+    ],
+    "uses": [
+      "stimulant"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Phlebodium pseudoaureum",
+    "family": "Polypodiaceae",
+    "country": "CO",
+    "common_names": [
+      "Calaguala"
+    ],
+    "uses": [
+      "dermatological",
+      "photoprotection"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Calendula officinalis",
+    "family": "Asteraceae",
+    "country": "CO",
+    "common_names": [
+      "Caléndula"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "healing"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Cinnamomum verum",
+    "family": "Lauraceae",
+    "country": "CO",
+    "common_names": [
+      "Canela"
+    ],
+    "uses": [
+      "digestive",
+      "antispasmodic"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Drimys winteri",
+    "family": "Winteraceae",
+    "country": "CO",
+    "common_names": [
+      "Canelo de monte"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "analgesic"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Silybum marianum",
+    "family": "Asteraceae",
+    "country": "CO",
+    "common_names": [
+      "Cardo mariano"
+    ],
+    "uses": [
+      "hepatoprotective"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Chondrus crispus",
+    "family": "Gigartinaceae",
+    "country": "CO",
+    "common_names": [
+      "Carragaen"
+    ],
+    "uses": [
+      "laxative"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Rhamnus purshiana",
+    "family": "Rhamnaceae",
+    "country": "CO",
+    "common_names": [
+      "Cáscara sagrada"
+    ],
+    "uses": [
+      "laxative"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Aesculus hippocastanum",
+    "family": "Sapindaceae",
+    "country": "CO",
+    "common_names": [
+      "Castaño de indias"
+    ],
+    "uses": [
+      "venous",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Allium cepa",
+    "family": "Amaryllidaceae",
+    "country": "CO",
+    "common_names": [
+      "Cebolla"
+    ],
+    "uses": [
+      "healing",
+      "topical"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Aloysia citrodora",
+    "family": "Verbenaceae",
+    "country": "CO",
+    "common_names": [
+      "Cidron",
+      "Hierba luisa"
+    ],
+    "uses": [
+      "digestive",
+      "calming"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Cymbopogon citratus",
+    "family": "Poaceae",
+    "country": "CO",
+    "common_names": [
+      "Limoncillo",
+      "Hierba limón"
+    ],
+    "uses": [
+      "digestive",
+      "antispasmodic"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Citrus limon",
+    "family": "Rutaceae",
+    "country": "CO",
+    "common_names": [
+      "Limón"
+    ],
+    "uses": [
+      "digestive",
+      "immune"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Citrus sinensis",
+    "family": "Rutaceae",
+    "country": "CO",
+    "common_names": [
+      "Naranja"
+    ],
+    "uses": [
+      "digestive",
+      "vitamin"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Eucalyptus globulus",
+    "family": "Myrtaceae",
+    "country": "CO",
+    "common_names": [
+      "Eucalipto"
+    ],
+    "uses": [
+      "respiratory",
+      "antiseptic"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Mentha piperita",
+    "family": "Lamiaceae",
+    "country": "CO",
+    "common_names": [
+      "Menta"
+    ],
+    "uses": [
+      "digestive",
+      "antispasmodic"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Mentha spicata",
+    "family": "Lamiaceae",
+    "country": "CO",
+    "common_names": [
+      "Hierbabuena"
+    ],
+    "uses": [
+      "digestive",
+      "carminative"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Origanum vulgare",
+    "family": "Lamiaceae",
+    "country": "CO",
+    "common_names": [
+      "Orégano"
+    ],
+    "uses": [
+      "digestive",
+      "antimicrobial"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Rosmarinus officinalis",
+    "family": "Lamiaceae",
+    "country": "CO",
+    "common_names": [
+      "Romero"
+    ],
+    "uses": [
+      "circulatory",
+      "digestive"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Salvia officinalis",
+    "family": "Lamiaceae",
+    "country": "CO",
+    "common_names": [
+      "Salvia"
+    ],
+    "uses": [
+      "digestive",
+      "antiseptic"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Thymus vulgaris",
+    "family": "Lamiaceae",
+    "country": "CO",
+    "common_names": [
+      "Tomillo"
+    ],
+    "uses": [
+      "respiratory",
+      "antiseptic"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Plantago major",
+    "family": "Plantaginaceae",
+    "country": "CO",
+    "common_names": [
+      "Llantén"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "wound healing"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Urtica dioica",
+    "family": "Urticaceae",
+    "country": "CO",
+    "common_names": [
+      "Ortiga"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "diuretic"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Taraxacum officinale",
+    "family": "Asteraceae",
+    "country": "CO",
+    "common_names": [
+      "Diente de león"
+    ],
+    "uses": [
+      "hepatic",
+      "diuretic"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Sambucus nigra",
+    "family": "Adoxaceae",
+    "country": "CO",
+    "common_names": [
+      "Sauco"
+    ],
+    "uses": [
+      "respiratory",
+      "diaphoretic"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Psidium guajava",
+    "family": "Myrtaceae",
+    "country": "CO",
+    "common_names": [
+      "Guayaba"
+    ],
+    "uses": [
+      "diarrhea",
+      "digestive"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Mangifera indica",
+    "family": "Anacardiaceae",
+    "country": "CO",
+    "common_names": [
+      "Mango"
+    ],
+    "uses": [
+      "digestive",
+      "antioxidant"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Carica papaya",
+    "family": "Caricaceae",
+    "country": "CO",
+    "common_names": [
+      "Papaya"
+    ],
+    "uses": [
+      "digestive",
+      "antiparasitic"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Ananas comosus",
+    "family": "Bromeliaceae",
+    "country": "CO",
+    "common_names": [
+      "Piña"
+    ],
+    "uses": [
+      "digestive",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Persea americana",
+    "family": "Lauraceae",
+    "country": "CO",
+    "common_names": [
+      "Aguacate"
+    ],
+    "uses": [
+      "cardiovascular",
+      "nutrition"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Passiflora edulis",
+    "family": "Passifloraceae",
+    "country": "CO",
+    "common_names": [
+      "Maracuyá"
+    ],
+    "uses": [
+      "calming",
+      "digestive"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Passiflora ligularis",
+    "family": "Passifloraceae",
+    "country": "CO",
+    "common_names": [
+      "Granadilla"
+    ],
+    "uses": [
+      "calming",
+      "digestive"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Physalis peruviana",
+    "family": "Solanaceae",
+    "country": "CO",
+    "common_names": [
+      "Uchuva"
+    ],
+    "uses": [
+      "immune",
+      "antioxidant"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Annona muricata",
+    "family": "Annonaceae",
+    "country": "CO",
+    "common_names": [
+      "Guanábana"
+    ],
+    "uses": [
+      "calming",
+      "immune"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Annona cherimola",
+    "family": "Annonaceae",
+    "country": "CO",
+    "common_names": [
+      "Chirimoya"
+    ],
+    "uses": [
+      "digestive",
+      "nutrition"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Theobroma cacao",
+    "family": "Malvaceae",
+    "country": "CO",
+    "common_names": [
+      "Cacao"
+    ],
+    "uses": [
+      "cardiovascular",
+      "energy"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Erythroxylum coca",
+    "family": "Erythroxylaceae",
+    "country": "CO",
+    "common_names": [
+      "Coca"
+    ],
+    "uses": [
+      "fatigue",
+      "digestive"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Ilex guayusa",
+    "family": "Aquifoliaceae",
+    "country": "CO",
+    "common_names": [
+      "Guayusa"
+    ],
+    "uses": [
+      "stimulant",
+      "energy"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Uncaria tomentosa",
+    "family": "Rubiaceae",
+    "country": "CO",
+    "common_names": [
+      "Uña de gato"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "immune"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Croton lechleri",
+    "family": "Euphorbiaceae",
+    "country": "CO",
+    "common_names": [
+      "Sangre de drago"
+    ],
+    "uses": [
+      "wound healing",
+      "antimicrobial"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Costus spicatus",
+    "family": "Costaceae",
+    "country": "CO",
+    "common_names": [
+      "Caña agria"
+    ],
+    "uses": [
+      "diabetes",
+      "renal"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Justicia secunda",
+    "family": "Acanthaceae",
+    "country": "CO",
+    "common_names": [
+      "Sangre de cristo"
+    ],
+    "uses": [
+      "anemia",
+      "blood"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Kalanchoe pinnata",
+    "family": "Crassulaceae",
+    "country": "CO",
+    "common_names": [
+      "Hoja del aire"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "wound healing"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Bryophyllum daigremontianum",
+    "family": "Crassulaceae",
+    "country": "CO",
+    "common_names": [
+      "Aranto"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Tradescantia zebrina",
+    "family": "Commelinaceae",
+    "country": "CO",
+    "common_names": [
+      "Amor de hombre"
+    ],
+    "uses": [
+      "respiratory",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Hamelia patens",
+    "family": "Rubiaceae",
+    "country": "CO",
+    "common_names": [
+      "Coralillo"
+    ],
+    "uses": [
+      "skin",
+      "healing"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Jatropha gossypiifolia",
+    "family": "Euphorbiaceae",
+    "country": "CO",
+    "common_names": [
+      "Piñón rojo"
+    ],
+    "uses": [
+      "antiparasitic",
+      "skin"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Senna alata",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Vara de oro"
+    ],
+    "uses": [
+      "antifungal",
+      "skin"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Cassia fistula",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Caña fístula"
+    ],
+    "uses": [
+      "laxative"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Desmodium adscendens",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Amor seco"
+    ],
+    "uses": [
+      "respiratory",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Miconia albicans",
+    "family": "Melastomataceae",
+    "country": "CO",
+    "common_names": [
+      "Canela de viejo"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "joint"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Tithonia diversifolia",
+    "family": "Asteraceae",
+    "country": "CO",
+    "common_names": [
+      "Botón de oro"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Chromolaena odorata",
+    "family": "Asteraceae",
+    "country": "CO",
+    "common_names": [
+      "Escoba amarga"
+    ],
+    "uses": [
+      "wound healing"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Eleutherine bulbosa",
+    "family": "Iridaceae",
+    "country": "CO",
+    "common_names": [
+      "Sangre de toro"
+    ],
+    "uses": [
+      "blood",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Renealmia alpinia",
+    "family": "Zingiberaceae",
+    "country": "CO",
+    "common_names": [
+      "Jengibre de monte"
+    ],
+    "uses": [
+      "digestive",
+      "respiratory"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Baccharis latifolia",
+    "family": "Asteraceae",
+    "country": "CO",
+    "common_names": [
+      "Chilca"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "wound healing"
+    ],
+    "meta": {
+      "source": "ethnobotany_andes_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Gnaphalium spicatum",
+    "family": "Asteraceae",
+    "country": "CO",
+    "common_names": [
+      "Vira vira"
+    ],
+    "uses": [
+      "respiratory",
+      "cough"
+    ],
+    "meta": {
+      "source": "ethnobotany_andes_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Minthostachys mollis",
+    "family": "Lamiaceae",
+    "country": "CO",
+    "common_names": [
+      "Muña"
+    ],
+    "uses": [
+      "digestive",
+      "antispasmodic"
+    ],
+    "meta": {
+      "source": "ethnobotany_andes_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Valeriana officinalis",
+    "family": "Caprifoliaceae",
+    "country": "CO",
+    "common_names": [
+      "Valeriana"
+    ],
+    "uses": [
+      "insomnia",
+      "anxiety"
+    ],
+    "meta": {
+      "source": "ethnobotany_andes_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Foeniculum vulgare",
+    "family": "Apiaceae",
+    "country": "CO",
+    "common_names": [
+      "Hinojo"
+    ],
+    "uses": [
+      "digestive",
+      "carminative"
+    ],
+    "meta": {
+      "source": "ethnobotany_andes_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Malva sylvestris",
+    "family": "Malvaceae",
+    "country": "CO",
+    "common_names": [
+      "Malva"
+    ],
+    "uses": [
+      "respiratory",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_andes_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Achyrocline satureioides",
+    "family": "Asteraceae",
+    "country": "CO",
+    "common_names": [
+      "Marcela"
+    ],
+    "uses": [
+      "digestive",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_andes_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Buddleja americana",
+    "family": "Scrophulariaceae",
+    "country": "CO",
+    "common_names": [
+      "Matico"
+    ],
+    "uses": [
+      "wound healing",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_andes_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Perezia pinnatifida",
+    "family": "Asteraceae",
+    "country": "CO",
+    "common_names": [
+      "Escorzonera"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_andes_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Chuquiraga jussieui",
+    "family": "Asteraceae",
+    "country": "CO",
+    "common_names": [
+      "Chuquiragua"
+    ],
+    "uses": [
+      "renal",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_andes_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Desmodium molliculum",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Pie de perro"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_andes_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Berberis goudotii",
+    "family": "Berberidaceae",
+    "country": "CO",
+    "common_names": [
+      "Agracejo"
+    ],
+    "uses": [
+      "hepatic",
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_andes_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Tropaeolum majus",
+    "family": "Tropaeolaceae",
+    "country": "CO",
+    "common_names": [
+      "Capuchina"
+    ],
+    "uses": [
+      "respiratory",
+      "antimicrobial"
+    ],
+    "meta": {
+      "source": "ethnobotany_andes_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Passiflora tripartita",
+    "family": "Passifloraceae",
+    "country": "CO",
+    "common_names": [
+      "Curuba"
+    ],
+    "uses": [
+      "calming",
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_andes_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Smallanthus sonchifolius",
+    "family": "Asteraceae",
+    "country": "CO",
+    "common_names": [
+      "Yacón"
+    ],
+    "uses": [
+      "diabetes",
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_andes_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Cecropia peltata",
+    "family": "Urticaceae",
+    "country": "CO",
+    "common_names": [
+      "Yarumo"
+    ],
+    "uses": [
+      "respiratory",
+      "diabetes"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Cecropia angustifolia",
+    "family": "Urticaceae",
+    "country": "CO",
+    "common_names": [
+      "Yarumo negro"
+    ],
+    "uses": [
+      "respiratory",
+      "cardiovascular"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Guazuma ulmifolia",
+    "family": "Malvaceae",
+    "country": "CO",
+    "common_names": [
+      "Guácimo"
+    ],
+    "uses": [
+      "respiratory",
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Genipa americana",
+    "family": "Rubiaceae",
+    "country": "CO",
+    "common_names": [
+      "Huito"
+    ],
+    "uses": [
+      "skin",
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Byrsonima crassifolia",
+    "family": "Malpighiaceae",
+    "country": "CO",
+    "common_names": [
+      "Nance"
+    ],
+    "uses": [
+      "digestive",
+      "diarrhea"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Spondias mombin",
+    "family": "Anacardiaceae",
+    "country": "CO",
+    "common_names": [
+      "Jobo"
+    ],
+    "uses": [
+      "digestive",
+      "fever"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Annona squamosa",
+    "family": "Annonaceae",
+    "country": "CO",
+    "common_names": [
+      "Anón"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Rollinia mucosa",
+    "family": "Annonaceae",
+    "country": "CO",
+    "common_names": [
+      "Biribí"
+    ],
+    "uses": [
+      "nutrition"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Pourouma cecropiifolia",
+    "family": "Urticaceae",
+    "country": "CO",
+    "common_names": [
+      "Uva caimarona"
+    ],
+    "uses": [
+      "nutrition"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Bactris gasipaes",
+    "family": "Arecaceae",
+    "country": "CO",
+    "common_names": [
+      "Chontaduro"
+    ],
+    "uses": [
+      "nutrition",
+      "energy"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Mauritia flexuosa",
+    "family": "Arecaceae",
+    "country": "CO",
+    "common_names": [
+      "Moriche"
+    ],
+    "uses": [
+      "nutrition",
+      "skin"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Euterpe precatoria",
+    "family": "Arecaceae",
+    "country": "CO",
+    "common_names": [
+      "Açaí"
+    ],
+    "uses": [
+      "antioxidant",
+      "energy"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Astrocaryum chambira",
+    "family": "Arecaceae",
+    "country": "CO",
+    "common_names": [
+      "Chambira"
+    ],
+    "uses": [
+      "skin",
+      "fiber"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Dipteryx odorata",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Cumaru"
+    ],
+    "uses": [
+      "respiratory",
+      "aromatic"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Hymenaea courbaril",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Jatobá"
+    ],
+    "uses": [
+      "respiratory",
+      "energy"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Croton lechleri",
+    "family": "Euphorbiaceae",
+    "country": "CO",
+    "common_names": [
+      "Sangre de drago"
+    ],
+    "uses": [
+      "wound healing",
+      "antimicrobial"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Croton palanostigma",
+    "family": "Euphorbiaceae",
+    "country": "CO",
+    "common_names": [
+      "Sangre de grado"
+    ],
+    "uses": [
+      "healing",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Jatropha curcas",
+    "family": "Euphorbiaceae",
+    "country": "CO",
+    "common_names": [
+      "Piñón"
+    ],
+    "uses": [
+      "antiparasitic",
+      "skin"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Jatropha gossypiifolia",
+    "family": "Euphorbiaceae",
+    "country": "CO",
+    "common_names": [
+      "Piñón rojo"
+    ],
+    "uses": [
+      "antiparasitic",
+      "skin"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Hura crepitans",
+    "family": "Euphorbiaceae",
+    "country": "CO",
+    "common_names": [
+      "Jabillo"
+    ],
+    "uses": [
+      "antiparasitic"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Ricinus communis",
+    "family": "Euphorbiaceae",
+    "country": "CO",
+    "common_names": [
+      "Higuerilla"
+    ],
+    "uses": [
+      "laxative",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Acalypha arvensis",
+    "family": "Euphorbiaceae",
+    "country": "CO",
+    "common_names": [
+      "Hierba del cáncer"
+    ],
+    "uses": [
+      "skin",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Phyllanthus niruri",
+    "family": "Phyllanthaceae",
+    "country": "CO",
+    "common_names": [
+      "Chanca piedra"
+    ],
+    "uses": [
+      "kidney stones",
+      "hepatic"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Euphorbia hirta",
+    "family": "Euphorbiaceae",
+    "country": "CO",
+    "common_names": [
+      "Golondrina"
+    ],
+    "uses": [
+      "respiratory",
+      "asthma"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Cnidoscolus aconitifolius",
+    "family": "Euphorbiaceae",
+    "country": "CO",
+    "common_names": [
+      "Chaya"
+    ],
+    "uses": [
+      "nutrition",
+      "diabetes"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Copaifera officinalis",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Copaiba"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "antimicrobial"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Hymenaea oblongifolia",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Algarrobo amazónico"
+    ],
+    "uses": [
+      "respiratory",
+      "energy"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Inga edulis",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Guamo"
+    ],
+    "uses": [
+      "nutrition",
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Erythrina poeppigiana",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Búcaro"
+    ],
+    "uses": [
+      "sedative",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Senna reticulata",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Retama"
+    ],
+    "uses": [
+      "laxative"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Piper aduncum",
+    "family": "Piperaceae",
+    "country": "CO",
+    "common_names": [
+      "Matico"
+    ],
+    "uses": [
+      "wound healing",
+      "antimicrobial"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Piper auritum",
+    "family": "Piperaceae",
+    "country": "CO",
+    "common_names": [
+      "Hoja santa"
+    ],
+    "uses": [
+      "digestive",
+      "respiratory"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Piper peltatum",
+    "family": "Piperaceae",
+    "country": "CO",
+    "common_names": [
+      "Santa maría"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "skin"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Peperomia pellucida",
+    "family": "Piperaceae",
+    "country": "CO",
+    "common_names": [
+      "Siempre viva"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "renal"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Cissampelos pareira",
+    "family": "Menispermaceae",
+    "country": "CO",
+    "common_names": [
+      "Abuta"
+    ],
+    "uses": [
+      "digestive",
+      "antiparasitic"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Curarea toxicofera",
+    "family": "Menispermaceae",
+    "country": "CO",
+    "common_names": [
+      "Curare"
+    ],
+    "uses": [
+      "ritual"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Aristolochia trilobata",
+    "family": "Aristolochiaceae",
+    "country": "CO",
+    "common_names": [
+      "Bejuco de culebra"
+    ],
+    "uses": [
+      "snakebite",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Aristolochia odoratissima",
+    "family": "Aristolochiaceae",
+    "country": "CO",
+    "common_names": [
+      "Guaco"
+    ],
+    "uses": [
+      "respiratory",
+      "antivenom"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Dorstenia contrajerva",
+    "family": "Moraceae",
+    "country": "CO",
+    "common_names": [
+      "Contrayerba"
+    ],
+    "uses": [
+      "antiparasitic",
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Ficus insipida",
+    "family": "Moraceae",
+    "country": "CO",
+    "common_names": [
+      "Ojé"
+    ],
+    "uses": [
+      "antiparasitic"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Ficus carica",
+    "family": "Moraceae",
+    "country": "CO",
+    "common_names": [
+      "Higo"
+    ],
+    "uses": [
+      "digestive",
+      "laxative"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Artocarpus altilis",
+    "family": "Moraceae",
+    "country": "CO",
+    "common_names": [
+      "Pan de árbol"
+    ],
+    "uses": [
+      "nutrition"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Cecropia obtusifolia",
+    "family": "Urticaceae",
+    "country": "CO",
+    "common_names": [
+      "Guarumo"
+    ],
+    "uses": [
+      "diabetes",
+      "respiratory"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Urera baccifera",
+    "family": "Urticaceae",
+    "country": "CO",
+    "common_names": [
+      "Ortiga brava"
+    ],
+    "uses": [
+      "analgesic",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Laportea aestuans",
+    "family": "Urticaceae",
+    "country": "CO",
+    "common_names": [
+      "Ortiga colorada"
+    ],
+    "uses": [
+      "analgesic"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Aniba rosaeodora",
+    "family": "Lauraceae",
+    "country": "CO",
+    "common_names": [
+      "Palo de rosa"
+    ],
+    "uses": [
+      "aromatic",
+      "skin"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Ocotea quixos",
+    "family": "Lauraceae",
+    "country": "CO",
+    "common_names": [
+      "Ishpingo"
+    ],
+    "uses": [
+      "digestive",
+      "aromatic"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Persea americana",
+    "family": "Lauraceae",
+    "country": "CO",
+    "common_names": [
+      "Aguacate"
+    ],
+    "uses": [
+      "nutrition",
+      "cardiovascular"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Annona montana",
+    "family": "Annonaceae",
+    "country": "CO",
+    "common_names": [
+      "Guanábana de monte"
+    ],
+    "uses": [
+      "digestive",
+      "fever"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Rollinia mucosa",
+    "family": "Annonaceae",
+    "country": "CO",
+    "common_names": [
+      "Biribá"
+    ],
+    "uses": [
+      "nutrition"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Pourouma cecropiifolia",
+    "family": "Urticaceae",
+    "country": "CO",
+    "common_names": [
+      "Uva amazónica"
+    ],
+    "uses": [
+      "nutrition"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Astrocaryum murumuru",
+    "family": "Arecaceae",
+    "country": "CO",
+    "common_names": [
+      "Murumuru"
+    ],
+    "uses": [
+      "skin",
+      "hair"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Attalea butyracea",
+    "family": "Arecaceae",
+    "country": "CO",
+    "common_names": [
+      "Palma de vino"
+    ],
+    "uses": [
+      "nutrition",
+      "skin"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Euterpe oleracea",
+    "family": "Arecaceae",
+    "country": "CO",
+    "common_names": [
+      "Açaí"
+    ],
+    "uses": [
+      "antioxidant",
+      "energy"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Mauritia flexuosa",
+    "family": "Arecaceae",
+    "country": "CO",
+    "common_names": [
+      "Moriche"
+    ],
+    "uses": [
+      "nutrition",
+      "skin"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Dipteryx odorata",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Cumaru"
+    ],
+    "uses": [
+      "aromatic",
+      "respiratory"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Hymenaea courbaril",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Algarrobo",
+      "Jatobá"
+    ],
+    "uses": [
+      "respiratory",
+      "energy"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Copaifera reticulata",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Copaibo"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "antimicrobial"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Pterodon emarginatus",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Sucupira"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "rheumatism"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Stryphnodendron adstringens",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Barbatimán"
+    ],
+    "uses": [
+      "wound healing",
+      "astringent"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Heliconia rostrata",
+    "family": "Heliconiaceae",
+    "country": "CO",
+    "common_names": [
+      "Platanillo"
+    ],
+    "uses": [
+      "skin",
+      "healing"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Costus spicatus",
+    "family": "Costaceae",
+    "country": "CO",
+    "common_names": [
+      "Caña agria"
+    ],
+    "uses": [
+      "diabetes",
+      "renal"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Hedychium coronarium",
+    "family": "Zingiberaceae",
+    "country": "CO",
+    "common_names": [
+      "Jengibre blanco"
+    ],
+    "uses": [
+      "respiratory",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Zingiber officinale",
+    "family": "Zingiberaceae",
+    "country": "CO",
+    "common_names": [
+      "Jengibre"
+    ],
+    "uses": [
+      "digestive",
+      "respiratory"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Curcuma longa",
+    "family": "Zingiberaceae",
+    "country": "CO",
+    "common_names": [
+      "Cúrcuma"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "digestive"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Eleutherine bulbosa",
+    "family": "Iridaceae",
+    "country": "CO",
+    "common_names": [
+      "Sangre de toro"
+    ],
+    "uses": [
+      "blood",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Acmella oleracea",
+    "family": "Asteraceae",
+    "country": "CO",
+    "common_names": [
+      "Hierba del dolor de muela"
+    ],
+    "uses": [
+      "toothache",
+      "analgesic"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Spilanthes acmella",
+    "family": "Asteraceae",
+    "country": "CO",
+    "common_names": [
+      "Botón eléctrico"
+    ],
+    "uses": [
+      "toothache"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Lantana camara",
+    "family": "Verbenaceae",
+    "country": "CO",
+    "common_names": [
+      "Cinco negritos"
+    ],
+    "uses": [
+      "respiratory",
+      "antimicrobial"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Verbena officinalis",
+    "family": "Verbenaceae",
+    "country": "CO",
+    "common_names": [
+      "Verbena"
+    ],
+    "uses": [
+      "digestive",
+      "calming"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Hyptis suaveolens",
+    "family": "Lamiaceae",
+    "country": "CO",
+    "common_names": [
+      "Escobilla"
+    ],
+    "uses": [
+      "digestive",
+      "antimicrobial"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Ocimum campechianum",
+    "family": "Lamiaceae",
+    "country": "CO",
+    "common_names": [
+      "Albahaca de monte"
+    ],
+    "uses": [
+      "digestive",
+      "respiratory"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Plectranthus amboinicus",
+    "family": "Lamiaceae",
+    "country": "CO",
+    "common_names": [
+      "Orégano orejón"
+    ],
+    "uses": [
+      "respiratory",
+      "cough"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Coleus barbatus",
+    "family": "Lamiaceae",
+    "country": "CO",
+    "common_names": [
+      "Boldo brasileño"
+    ],
+    "uses": [
+      "digestive",
+      "hepatic"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Croton cajucara",
+    "family": "Euphorbiaceae",
+    "country": "CO",
+    "common_names": [
+      "Sacaca"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_amazonia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Moringa oleifera",
+    "family": "Moringaceae",
+    "country": "CO",
+    "common_names": [
+      "Moringa"
+    ],
+    "uses": [
+      "nutrition",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Azadirachta indica",
+    "family": "Meliaceae",
+    "country": "CO",
+    "common_names": [
+      "Neem"
+    ],
+    "uses": [
+      "antimicrobial",
+      "skin"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Gliricidia sepium",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Matarratón"
+    ],
+    "uses": [
+      "antiparasitic",
+      "skin"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Bursera simaruba",
+    "family": "Burseraceae",
+    "country": "CO",
+    "common_names": [
+      "Indio desnudo"
+    ],
+    "uses": [
+      "skin",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Guaiacum officinale",
+    "family": "Zygophyllaceae",
+    "country": "CO",
+    "common_names": [
+      "Guayacán"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "rheumatism"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Hibiscus sabdariffa",
+    "family": "Malvaceae",
+    "country": "CO",
+    "common_names": [
+      "Flor de Jamaica"
+    ],
+    "uses": [
+      "antioxidant",
+      "cardiovascular"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Ceiba pentandra",
+    "family": "Malvaceae",
+    "country": "CO",
+    "common_names": [
+      "Ceiba"
+    ],
+    "uses": [
+      "respiratory",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Ochroma pyramidale",
+    "family": "Malvaceae",
+    "country": "CO",
+    "common_names": [
+      "Balsa"
+    ],
+    "uses": [
+      "respiratory"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Theobroma grandiflorum",
+    "family": "Malvaceae",
+    "country": "CO",
+    "common_names": [
+      "Copoazú"
+    ],
+    "uses": [
+      "nutrition"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Cordia alliodora",
+    "family": "Boraginaceae",
+    "country": "CO",
+    "common_names": [
+      "Nogal cafetero"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Heliotropium indicum",
+    "family": "Boraginaceae",
+    "country": "CO",
+    "common_names": [
+      "Rabo de alacrán"
+    ],
+    "uses": [
+      "skin",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Symphytum officinale",
+    "family": "Boraginaceae",
+    "country": "CO",
+    "common_names": [
+      "Consuelda"
+    ],
+    "uses": [
+      "healing",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Echinacea purpurea",
+    "family": "Asteraceae",
+    "country": "CO",
+    "common_names": [
+      "Equinácea"
+    ],
+    "uses": [
+      "immune"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Matricaria chamomilla",
+    "family": "Asteraceae",
+    "country": "CO",
+    "common_names": [
+      "Manzanilla"
+    ],
+    "uses": [
+      "digestive",
+      "calming"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Achillea millefolium",
+    "family": "Asteraceae",
+    "country": "CO",
+    "common_names": [
+      "Milenrama"
+    ],
+    "uses": [
+      "digestive",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Eryngium foetidum",
+    "family": "Apiaceae",
+    "country": "CO",
+    "common_names": [
+      "Cilantro cimarrón"
+    ],
+    "uses": [
+      "digestive",
+      "antimicrobial"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Coriandrum sativum",
+    "family": "Apiaceae",
+    "country": "CO",
+    "common_names": [
+      "Cilantro"
+    ],
+    "uses": [
+      "digestive",
+      "carminative"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Petroselinum crispum",
+    "family": "Apiaceae",
+    "country": "CO",
+    "common_names": [
+      "Perejil"
+    ],
+    "uses": [
+      "diuretic",
+      "digestive"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Daucus carota",
+    "family": "Apiaceae",
+    "country": "CO",
+    "common_names": [
+      "Zanahoria"
+    ],
+    "uses": [
+      "nutrition",
+      "vision"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Ruta graveolens",
+    "family": "Rutaceae",
+    "country": "CO",
+    "common_names": [
+      "Ruda"
+    ],
+    "uses": [
+      "digestive",
+      "antispasmodic"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Citrus aurantium",
+    "family": "Rutaceae",
+    "country": "CO",
+    "common_names": [
+      "Naranja agria"
+    ],
+    "uses": [
+      "digestive",
+      "calming"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Pilocarpus jaborandi",
+    "family": "Rutaceae",
+    "country": "CO",
+    "common_names": [
+      "Jaborandi"
+    ],
+    "uses": [
+      "salivary stimulant"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Quassia amara",
+    "family": "Simaroubaceae",
+    "country": "CO",
+    "common_names": [
+      "Amargo"
+    ],
+    "uses": [
+      "digestive",
+      "antiparasitic"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Simarouba amara",
+    "family": "Simaroubaceae",
+    "country": "CO",
+    "common_names": [
+      "Simaruba"
+    ],
+    "uses": [
+      "digestive",
+      "antiparasitic"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Maytenus laevis",
+    "family": "Celastraceae",
+    "country": "CO",
+    "common_names": [
+      "Chuchuguaza"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "joint"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Uncaria guianensis",
+    "family": "Rubiaceae",
+    "country": "CO",
+    "common_names": [
+      "Uña de gato"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "immune"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Hamelia patens",
+    "family": "Rubiaceae",
+    "country": "CO",
+    "common_names": [
+      "Fuego del monte"
+    ],
+    "uses": [
+      "skin",
+      "healing"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Psychotria viridis",
+    "family": "Rubiaceae",
+    "country": "CO",
+    "common_names": [
+      "Chacruna"
+    ],
+    "uses": [
+      "ritual"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Cinchona officinalis",
+    "family": "Rubiaceae",
+    "country": "CO",
+    "common_names": [
+      "Quina"
+    ],
+    "uses": [
+      "fever",
+      "malaria"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Morinda citrifolia",
+    "family": "Rubiaceae",
+    "country": "CO",
+    "common_names": [
+      "Noni"
+    ],
+    "uses": [
+      "immune",
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Justicia pectoralis",
+    "family": "Acanthaceae",
+    "country": "CO",
+    "common_names": [
+      "Amansatoros",
+      "Tilo"
+    ],
+    "uses": [
+      "sedative",
+      "anxiety"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Justicia secunda",
+    "family": "Acanthaceae",
+    "country": "CO",
+    "common_names": [
+      "Sangre de cristo"
+    ],
+    "uses": [
+      "anemia",
+      "blood"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Stachytarpheta jamaicensis",
+    "family": "Verbenaceae",
+    "country": "CO",
+    "common_names": [
+      "Verbena azul"
+    ],
+    "uses": [
+      "digestive",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Lippia alba",
+    "family": "Verbenaceae",
+    "country": "CO",
+    "common_names": [
+      "Prontoalivio"
+    ],
+    "uses": [
+      "digestive",
+      "calming"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Lippia origanoides",
+    "family": "Verbenaceae",
+    "country": "CO",
+    "common_names": [
+      "Orégano de monte"
+    ],
+    "uses": [
+      "respiratory",
+      "antimicrobial"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Aloysia polystachya",
+    "family": "Verbenaceae",
+    "country": "CO",
+    "common_names": [
+      "Burrito"
+    ],
+    "uses": [
+      "digestive",
+      "calming"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Scoparia dulcis",
+    "family": "Plantaginaceae",
+    "country": "CO",
+    "common_names": [
+      "Escobilla"
+    ],
+    "uses": [
+      "diabetes",
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Bacopa monnieri",
+    "family": "Plantaginaceae",
+    "country": "CO",
+    "common_names": [
+      "Brahmi"
+    ],
+    "uses": [
+      "memory",
+      "nervous_system"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Plantago lanceolata",
+    "family": "Plantaginaceae",
+    "country": "CO",
+    "common_names": [
+      "Llantén menor"
+    ],
+    "uses": [
+      "respiratory",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Digitalis purpurea",
+    "family": "Plantaginaceae",
+    "country": "CO",
+    "common_names": [
+      "Dedalera"
+    ],
+    "uses": [
+      "cardiovascular"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Nerium oleander",
+    "family": "Apocynaceae",
+    "country": "CO",
+    "common_names": [
+      "Adelfa"
+    ],
+    "uses": [
+      "cardiotonic"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Catharanthus roseus",
+    "family": "Apocynaceae",
+    "country": "CO",
+    "common_names": [
+      "Vinca"
+    ],
+    "uses": [
+      "antitumor"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Tabernaemontana sananho",
+    "family": "Apocynaceae",
+    "country": "CO",
+    "common_names": [
+      "Sanango"
+    ],
+    "uses": [
+      "ritual",
+      "nervous_system"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Himatanthus sucuuba",
+    "family": "Apocynaceae",
+    "country": "CO",
+    "common_names": [
+      "Bellaco caspi"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "wound healing"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Aspidosperma excelsum",
+    "family": "Apocynaceae",
+    "country": "CO",
+    "common_names": [
+      "Carapanaúba"
+    ],
+    "uses": [
+      "fever",
+      "malaria"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Erythrina fusca",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Amapola de río"
+    ],
+    "uses": [
+      "sedative",
+      "nervous_system"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Erythrina poeppigiana",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Búcaro"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "sedative"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Clitoria ternatea",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Campanilla azul"
+    ],
+    "uses": [
+      "memory",
+      "nervous_system"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Senna occidentalis",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Café negro"
+    ],
+    "uses": [
+      "laxative",
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Senna alexandrina",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Sen"
+    ],
+    "uses": [
+      "laxative"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Tamarindus indica",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Tamarindo"
+    ],
+    "uses": [
+      "digestive",
+      "laxative"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Caesalpinia spinosa",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Tara"
+    ],
+    "uses": [
+      "astringent",
+      "antimicrobial"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Bauhinia forficata",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Pata de vaca"
+    ],
+    "uses": [
+      "diabetes"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Mimosa pudica",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Dormidera"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "wound healing"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Acacia farnesiana",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Aromo"
+    ],
+    "uses": [
+      "aromatic",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Prosopis juliflora",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Algarrobo"
+    ],
+    "uses": [
+      "nutrition",
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Inga vera",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Guamo"
+    ],
+    "uses": [
+      "nutrition"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Lonchocarpus utilis",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Barbasco"
+    ],
+    "uses": [
+      "antiparasitic"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Piscidia piscipula",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Jamaica dogwood"
+    ],
+    "uses": [
+      "analgesic",
+      "sedative"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Dipteryx oleifera",
+    "family": "Fabaceae",
+    "country": "CO",
+    "common_names": [
+      "Almendro"
+    ],
+    "uses": [
+      "nutrition",
+      "oil"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Crescentia cujete",
+    "family": "Bignoniaceae",
+    "country": "CO",
+    "common_names": [
+      "Totumo"
+    ],
+    "uses": [
+      "respiratory",
+      "cough"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Tabebuia impetiginosa",
+    "family": "Bignoniaceae",
+    "country": "CO",
+    "common_names": [
+      "Guayacán rosado"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "immune"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Jacaranda copaia",
+    "family": "Bignoniaceae",
+    "country": "CO",
+    "common_names": [
+      "Jacarandá"
+    ],
+    "uses": [
+      "skin",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Tecoma stans",
+    "family": "Bignoniaceae",
+    "country": "CO",
+    "common_names": [
+      "Tronadora"
+    ],
+    "uses": [
+      "diabetes"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Handroanthus chrysanthus",
+    "family": "Bignoniaceae",
+    "country": "CO",
+    "common_names": [
+      "Guayacán amarillo"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Mansoa alliacea",
+    "family": "Bignoniaceae",
+    "country": "CO",
+    "common_names": [
+      "Ajo sacha"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "antimicrobial"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Arrabidaea chica",
+    "family": "Bignoniaceae",
+    "country": "CO",
+    "common_names": [
+      "Chica"
+    ],
+    "uses": [
+      "skin",
+      "healing"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Spathodea campanulata",
+    "family": "Bignoniaceae",
+    "country": "CO",
+    "common_names": [
+      "Tulipán africano"
+    ],
+    "uses": [
+      "skin"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Kigelia africana",
+    "family": "Bignoniaceae",
+    "country": "CO",
+    "common_names": [
+      "Árbol de las salchichas"
+    ],
+    "uses": [
+      "skin",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Cydista aequinoctialis",
+    "family": "Bignoniaceae",
+    "country": "CO",
+    "common_names": [
+      "Bejuco de agua"
+    ],
+    "uses": [
+      "renal",
+      "diuretic"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Justicia spicigera",
+    "family": "Acanthaceae",
+    "country": "CO",
+    "common_names": [
+      "Muicle"
+    ],
+    "uses": [
+      "blood",
+      "anemia"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Ruellia tuberosa",
+    "family": "Acanthaceae",
+    "country": "CO",
+    "common_names": [
+      "Ruellia"
+    ],
+    "uses": [
+      "diabetes"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Dicliptera assurgens",
+    "family": "Acanthaceae",
+    "country": "CO",
+    "common_names": [
+      "Hierba de la golondrina"
+    ],
+    "uses": [
+      "respiratory"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Sanchezia speciosa",
+    "family": "Acanthaceae",
+    "country": "CO",
+    "common_names": [
+      "Sanchezia"
+    ],
+    "uses": [
+      "ornamental",
+      "skin"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Aphelandra squarrosa",
+    "family": "Acanthaceae",
+    "country": "CO",
+    "common_names": [
+      "Cebra"
+    ],
+    "uses": [
+      "ornamental"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Guarea guidonia",
+    "family": "Meliaceae",
+    "country": "CO",
+    "common_names": [
+      "Cedrillo"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "skin"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Cedrela odorata",
+    "family": "Meliaceae",
+    "country": "CO",
+    "common_names": [
+      "Cedro"
+    ],
+    "uses": [
+      "fever",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Swietenia macrophylla",
+    "family": "Meliaceae",
+    "country": "CO",
+    "common_names": [
+      "Caoba"
+    ],
+    "uses": [
+      "antidiabetic"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Carapa guianensis",
+    "family": "Meliaceae",
+    "country": "CO",
+    "common_names": [
+      "Andiroba"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "skin"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Trichilia hirta",
+    "family": "Meliaceae",
+    "country": "CO",
+    "common_names": [
+      "Cedrillo de monte"
+    ],
+    "uses": [
+      "antiparasitic"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Melia azedarach",
+    "family": "Meliaceae",
+    "country": "CO",
+    "common_names": [
+      "Paraíso"
+    ],
+    "uses": [
+      "antiparasitic"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Zanthoxylum rhoifolium",
+    "family": "Rutaceae",
+    "country": "CO",
+    "common_names": [
+      "Tachuelo"
+    ],
+    "uses": [
+      "analgesic",
+      "toothache"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Zanthoxylum fagara",
+    "family": "Rutaceae",
+    "country": "CO",
+    "common_names": [
+      "Espino blanco"
+    ],
+    "uses": [
+      "digestive",
+      "antimicrobial"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Ruta chalepensis",
+    "family": "Rutaceae",
+    "country": "CO",
+    "common_names": [
+      "Ruda de Castilla"
+    ],
+    "uses": [
+      "digestive",
+      "antispasmodic"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Esenbeckia febrifuga",
+    "family": "Rutaceae",
+    "country": "CO",
+    "common_names": [
+      "Guayabo de monte"
+    ],
+    "uses": [
+      "fever"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Simaba cedron",
+    "family": "Simaroubaceae",
+    "country": "CO",
+    "common_names": [
+      "Cedrón amargo"
+    ],
+    "uses": [
+      "fever",
+      "antivenom"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Picramnia latifolia",
+    "family": "Picramniaceae",
+    "country": "CO",
+    "common_names": [
+      "Picramnia"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Quassia simaruba",
+    "family": "Simaroubaceae",
+    "country": "CO",
+    "common_names": [
+      "Cuasia"
+    ],
+    "uses": [
+      "digestive",
+      "antiparasitic"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Castela erecta",
+    "family": "Simaroubaceae",
+    "country": "CO",
+    "common_names": [
+      "Amargo negro"
+    ],
+    "uses": [
+      "digestive",
+      "antiparasitic"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Ailanthus altissima",
+    "family": "Simaroubaceae",
+    "country": "CO",
+    "common_names": [
+      "Árbol del cielo"
+    ],
+    "uses": [
+      "antiparasitic"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Lecythis minor",
+    "family": "Lecythidaceae",
+    "country": "CO",
+    "common_names": [
+      "Coco de mono"
+    ],
+    "uses": [
+      "nutrition"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Bertholletia excelsa",
+    "family": "Lecythidaceae",
+    "country": "CO",
+    "common_names": [
+      "Nuez de Brasil"
+    ],
+    "uses": [
+      "nutrition"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Gustavia superba",
+    "family": "Lecythidaceae",
+    "country": "CO",
+    "common_names": [
+      "Membrillo de monte"
+    ],
+    "uses": [
+      "nutrition"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Couroupita guianensis",
+    "family": "Lecythidaceae",
+    "country": "CO",
+    "common_names": [
+      "Bala de cañón"
+    ],
+    "uses": [
+      "skin",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Eschweilera coriacea",
+    "family": "Lecythidaceae",
+    "country": "CO",
+    "common_names": [
+      "Machimango"
+    ],
+    "uses": [
+      "wood",
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Clusia grandiflora",
+    "family": "Clusiaceae",
+    "country": "CO",
+    "common_names": [
+      "Copey"
+    ],
+    "uses": [
+      "skin",
+      "resin"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Clusia rosea",
+    "family": "Clusiaceae",
+    "country": "CO",
+    "common_names": [
+      "Cupey"
+    ],
+    "uses": [
+      "skin"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Garcinia madruno",
+    "family": "Clusiaceae",
+    "country": "CO",
+    "common_names": [
+      "Madroño"
+    ],
+    "uses": [
+      "digestive",
+      "nutrition"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Vismia baccifera",
+    "family": "Hypericaceae",
+    "country": "CO",
+    "common_names": [
+      "Vismia"
+    ],
+    "uses": [
+      "skin",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Hypericum laricifolium",
+    "family": "Hypericaceae",
+    "country": "CO",
+    "common_names": [
+      "Hierba de San Juan"
+    ],
+    "uses": [
+      "depression",
+      "nervous_system"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Turnera diffusa",
+    "family": "Passifloraceae",
+    "country": "CO",
+    "common_names": [
+      "Damiana"
+    ],
+    "uses": [
+      "aphrodisiac",
+      "nervous_system"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Turnera ulmifolia",
+    "family": "Passifloraceae",
+    "country": "CO",
+    "common_names": [
+      "Chanana"
+    ],
+    "uses": [
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Passiflora incarnata",
+    "family": "Passifloraceae",
+    "country": "CO",
+    "common_names": [
+      "Pasionaria"
+    ],
+    "uses": [
+      "anxiety",
+      "insomnia"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Passiflora quadrangularis",
+    "family": "Passifloraceae",
+    "country": "CO",
+    "common_names": [
+      "Badea"
+    ],
+    "uses": [
+      "calming",
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Dilkea retusa",
+    "family": "Passifloraceae",
+    "country": "CO",
+    "common_names": [
+      "Bejuco de monte"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Begonia cucullata",
+    "family": "Begoniaceae",
+    "country": "CO",
+    "common_names": [
+      "Begonia"
+    ],
+    "uses": [
+      "skin",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Begonia glabra",
+    "family": "Begoniaceae",
+    "country": "CO",
+    "common_names": [
+      "Begonia silvestre"
+    ],
+    "uses": [
+      "wound healing"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Virola sebifera",
+    "family": "Myristicaceae",
+    "country": "CO",
+    "common_names": [
+      "Cumala"
+    ],
+    "uses": [
+      "ritual",
+      "nervous_system"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Virola elongata",
+    "family": "Myristicaceae",
+    "country": "CO",
+    "common_names": [
+      "Yake"
+    ],
+    "uses": [
+      "ritual"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Myristica fragrans",
+    "family": "Myristicaceae",
+    "country": "CO",
+    "common_names": [
+      "Nuez moscada"
+    ],
+    "uses": [
+      "digestive",
+      "stimulant"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Siparuna guianensis",
+    "family": "Siparunaceae",
+    "country": "CO",
+    "common_names": [
+      "Limón de monte"
+    ],
+    "uses": [
+      "respiratory",
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Siparuna thecaphora",
+    "family": "Siparunaceae",
+    "country": "CO",
+    "common_names": [
+      "Limón silvestre"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Piper marginatum",
+    "family": "Piperaceae",
+    "country": "CO",
+    "common_names": [
+      "Cordoncillo"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Piper tuberculatum",
+    "family": "Piperaceae",
+    "country": "CO",
+    "common_names": [
+      "Pimienta de monte"
+    ],
+    "uses": [
+      "analgesic"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Piper umbellatum",
+    "family": "Piperaceae",
+    "country": "CO",
+    "common_names": [
+      "Santa maría"
+    ],
+    "uses": [
+      "skin",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Heliconia bihai",
+    "family": "Heliconiaceae",
+    "country": "CO",
+    "common_names": [
+      "Platanillo rojo"
+    ],
+    "uses": [
+      "skin"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Heliconia latispatha",
+    "family": "Heliconiaceae",
+    "country": "CO",
+    "common_names": [
+      "Platanillo amarillo"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Calathea lutea",
+    "family": "Marantaceae",
+    "country": "CO",
+    "common_names": [
+      "Bijao"
+    ],
+    "uses": [
+      "traditional",
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Maranta arundinacea",
+    "family": "Marantaceae",
+    "country": "CO",
+    "common_names": [
+      "Arrurruz"
+    ],
+    "uses": [
+      "digestive",
+      "nutrition"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Ischnosiphon arouma",
+    "family": "Marantaceae",
+    "country": "CO",
+    "common_names": [
+      "Aruama"
+    ],
+    "uses": [
+      "fiber",
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Begonia cucullata",
+    "family": "Begoniaceae",
+    "country": "CO",
+    "common_names": [
+      "Begonia"
+    ],
+    "uses": [
+      "skin",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Begonia glabra",
+    "family": "Begoniaceae",
+    "country": "CO",
+    "common_names": [
+      "Begonia silvestre"
+    ],
+    "uses": [
+      "wound healing"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Virola sebifera",
+    "family": "Myristicaceae",
+    "country": "CO",
+    "common_names": [
+      "Cumala"
+    ],
+    "uses": [
+      "ritual",
+      "nervous_system"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Virola elongata",
+    "family": "Myristicaceae",
+    "country": "CO",
+    "common_names": [
+      "Yake"
+    ],
+    "uses": [
+      "ritual"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Myristica fragrans",
+    "family": "Myristicaceae",
+    "country": "CO",
+    "common_names": [
+      "Nuez moscada"
+    ],
+    "uses": [
+      "digestive",
+      "stimulant"
+    ],
+    "meta": {
+      "source": "invima_listado_plantas_medicinales_2016",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Siparuna guianensis",
+    "family": "Siparunaceae",
+    "country": "CO",
+    "common_names": [
+      "Limón de monte"
+    ],
+    "uses": [
+      "respiratory",
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Siparuna thecaphora",
+    "family": "Siparunaceae",
+    "country": "CO",
+    "common_names": [
+      "Limón silvestre"
+    ],
+    "uses": [
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Piper marginatum",
+    "family": "Piperaceae",
+    "country": "CO",
+    "common_names": [
+      "Cordoncillo"
+    ],
+    "uses": [
+      "anti-inflammatory",
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Piper tuberculatum",
+    "family": "Piperaceae",
+    "country": "CO",
+    "common_names": [
+      "Pimienta de monte"
+    ],
+    "uses": [
+      "analgesic"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Piper umbellatum",
+    "family": "Piperaceae",
+    "country": "CO",
+    "common_names": [
+      "Santa maría"
+    ],
+    "uses": [
+      "skin",
+      "anti-inflammatory"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Heliconia bihai",
+    "family": "Heliconiaceae",
+    "country": "CO",
+    "common_names": [
+      "Platanillo rojo"
+    ],
+    "uses": [
+      "skin"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Heliconia latispatha",
+    "family": "Heliconiaceae",
+    "country": "CO",
+    "common_names": [
+      "Platanillo amarillo"
+    ],
+    "uses": [
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  },
+  {
+    "scientific_name": "Calathea lutea",
+    "family": "Marantaceae",
+    "country": "CO",
+    "common_names": [
+      "Bijao"
+    ],
+    "uses": [
+      "traditional",
+      "digestive"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "medium"
+    }
+  },
+  {
+    "scientific_name": "Maranta arundinacea",
+    "family": "Marantaceae",
+    "country": "CO",
+    "common_names": [
+      "Arrurruz"
+    ],
+    "uses": [
+      "digestive",
+      "nutrition"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "high"
+    }
+  },
+  {
+    "scientific_name": "Ischnosiphon arouma",
+    "family": "Marantaceae",
+    "country": "CO",
+    "common_names": [
+      "Aruama"
+    ],
+    "uses": [
+      "fiber",
+      "traditional"
+    ],
+    "meta": {
+      "source": "ethnobotany_colombia",
+      "confidence": "low"
+    }
+  }
+]

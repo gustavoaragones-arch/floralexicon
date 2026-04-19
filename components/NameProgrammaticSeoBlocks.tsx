@@ -11,6 +11,8 @@ type NameProgrammaticSeoBlocksProps = {
   displayName: string;
   hasMatches: boolean;
   plantContexts?: ResolvedPlantContext[];
+  /** When true, skip the country list sentence (avoids duplicating the name page country breakdown). */
+  suppressCountryRollup?: boolean;
 };
 
 function collectCountryLabels(
@@ -54,6 +56,7 @@ export function NameProgrammaticSeoBlocks({
   displayName,
   hasMatches,
   plantContexts = [],
+  suppressCountryRollup = false,
 }: NameProgrammaticSeoBlocksProps) {
   if (!hasMatches) {
     return (
@@ -69,7 +72,9 @@ export function NameProgrammaticSeoBlocks({
   return (
     <div className={`mt-6 space-y-3 ${prose}`}>
       <p>
-        {countries.length > 0 ? (
+        {suppressCountryRollup ? (
+          <>{ti(lang, "prog_name_intro_fallback", { name: displayName })}</>
+        ) : countries.length > 0 ? (
           <>
             {ti(lang, "prog_name_intro_countries", {
               name: displayName,
