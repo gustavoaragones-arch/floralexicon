@@ -900,14 +900,26 @@
     "names": [
       "Aglio",
       "Ajo",
+      "Alho",
       "Garlic"
     ],
     "countries": [
+      "AR",
       "BO",
+      "BR",
+      "CA",
+      "CL",
       "CO",
+      "EC",
+      "ES",
       "GY",
       "IT",
-      "MX"
+      "MX",
+      "PE",
+      "PY",
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "medicinal"
@@ -920,12 +932,25 @@
     "names": [
       "Aglio",
       "Ajo",
+      "Alho",
       "Garlic"
     ],
     "countries": [
+      "AR",
       "BO",
+      "BR",
+      "CA",
+      "CL",
       "CO",
-      "IT"
+      "EC",
+      "ES",
+      "IT",
+      "MX",
+      "PE",
+      "PY",
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "antimicrobial",
@@ -1014,6 +1039,8 @@
     "names": [
       "Aloe",
       "Aloe Vera",
+      "Aloe vera",
+      "Babosa",
       "Hunpets'k'inki",
       "Petk'inki",
       "Posacmetl",
@@ -1022,14 +1049,22 @@
       "Zábila"
     ],
     "countries": [
+      "AR",
       "BO",
+      "BR",
+      "CA",
       "CL",
+      "CO",
       "CR",
       "EC",
+      "ES",
       "GT",
       "HN",
       "MX",
+      "PE",
       "PY",
+      "US",
+      "UY",
       "VE"
     ],
     "uses": [
@@ -2284,14 +2319,24 @@
       "Tabaco de montaña"
     ],
     "countries": [
+      "AR",
       "AT",
+      "BO",
+      "BR",
+      "CA",
       "CL",
       "CO",
       "DE",
+      "EC",
+      "ES",
       "FR",
       "IT",
       "MX",
-      "US"
+      "PE",
+      "PY",
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "analgesic",
@@ -2479,6 +2524,34 @@
     ]
   },
   {
+    "id": "arthrospira_platensis",
+    "scientific_name": "Arthrospira platensis",
+    "family": "Microalgae",
+    "names": [
+      "Espirulina",
+      "Spirulina"
+    ],
+    "countries": [
+      "AR",
+      "BO",
+      "BR",
+      "CA",
+      "CL",
+      "CO",
+      "EC",
+      "ES",
+      "MX",
+      "PE",
+      "PY",
+      "US",
+      "UY",
+      "VE"
+    ],
+    "uses": [
+      "nutrition"
+    ]
+  },
+  {
     "id": "artocarpus_altilis",
     "scientific_name": "Artocarpus altilis",
     "family": "Moraceae",
@@ -2636,6 +2709,33 @@
     ],
     "uses": [
       "traditional"
+    ]
+  },
+  {
+    "id": "aspalathus_linearis",
+    "scientific_name": "Aspalathus linearis",
+    "family": "Fabaceae",
+    "names": [
+      "Rooibos"
+    ],
+    "countries": [
+      "AR",
+      "BO",
+      "BR",
+      "CA",
+      "CL",
+      "CO",
+      "EC",
+      "ES",
+      "MX",
+      "PE",
+      "PY",
+      "US",
+      "UY",
+      "VE"
+    ],
+    "uses": [
+      "antioxidant"
     ]
   },
   {
@@ -4462,19 +4562,29 @@
     "names": [
       "Caléndula",
       "Calendula",
+      "Calêndula",
       "Chinita",
       "Ringelblume",
       "Souci"
     ],
     "countries": [
+      "AR",
       "BO",
+      "BR",
       "CA",
       "CL",
       "CO",
       "DE",
+      "EC",
       "ES",
       "FR",
-      "IT"
+      "IT",
+      "MX",
+      "PE",
+      "PY",
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "anti-inflammatory",
@@ -4581,18 +4691,64 @@
     "scientific_name": "Camellia sinensis",
     "family": "Theaceae",
     "names": [
+      "Black tea",
+      "Chá",
+      "Green tea",
+      "Matcha",
       "Té",
-      "Té verde"
+      "Té verde",
+      "Tea"
     ],
     "countries": [
-      "BO"
+      "AR",
+      "BO",
+      "BR",
+      "CA",
+      "CL",
+      "CO",
+      "EC",
+      "ES",
+      "MX",
+      "PE",
+      "PY",
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "allergies",
       "conjunctivitis",
       "medicinal",
+      "stimulant",
       "stomach pain",
       "tea"
+    ]
+  },
+  {
+    "id": "camellia_sinensis",
+    "scientific_name": "Camellia sinensis (matcha)",
+    "family": "Theaceae",
+    "names": [
+      "Matcha"
+    ],
+    "countries": [
+      "AR",
+      "BO",
+      "BR",
+      "CA",
+      "CL",
+      "CO",
+      "EC",
+      "ES",
+      "MX",
+      "PE",
+      "PY",
+      "US",
+      "UY",
+      "VE"
+    ],
+    "uses": [
+      "stimulant"
     ]
   },
   {
@@ -6077,12 +6233,25 @@
     "scientific_name": "Cinnamomum verum",
     "family": "Lauraceae",
     "names": [
-      "Canela"
+      "Canela",
+      "Cinnamon"
     ],
     "countries": [
+      "AR",
       "BO",
+      "BR",
+      "CA",
+      "CL",
       "CO",
-      "NI"
+      "EC",
+      "ES",
+      "MX",
+      "NI",
+      "PE",
+      "PY",
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "antispasmodic",
@@ -7024,11 +7193,27 @@
     "family": "Apiaceae",
     "names": [
       "Cilantro",
+      "Coentro",
+      "Coriander",
+      "Coriandro",
+      "Culantro",
       "Kuratu"
     ],
     "countries": [
+      "AR",
+      "BO",
+      "BR",
+      "CA",
+      "CL",
       "CO",
-      "PY"
+      "EC",
+      "ES",
+      "MX",
+      "PE",
+      "PY",
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "carminative",
@@ -7629,11 +7814,26 @@
     "scientific_name": "Curcuma longa",
     "family": "Zingiberaceae",
     "names": [
-      "Cúrcuma"
+      "Açafrão-da-terra",
+      "Cúrcuma",
+      "Palillo",
+      "Turmeric"
     ],
     "countries": [
       "AR",
-      "CO"
+      "BO",
+      "BR",
+      "CA",
+      "CL",
+      "CO",
+      "EC",
+      "ES",
+      "MX",
+      "PE",
+      "PY",
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "anti-inflammatory",
@@ -7735,8 +7935,14 @@
     "family": "Poaceae",
     "names": [
       "Caña limón",
+      "Capim-limão",
+      "Capim-santo",
+      "Cedrón de caña",
       "Hierba limón",
+      "Hierba luisa",
+      "Kapi'i katî",
       "Kapii kati",
+      "Lemongrass",
       "Limonaria",
       "Limoncillo",
       "Pasto limón",
@@ -7749,13 +7955,22 @@
     ],
     "countries": [
       "AR",
+      "BO",
+      "BR",
+      "CA",
+      "CL",
       "CO",
       "CR",
+      "EC",
+      "ES",
       "GT",
       "HN",
       "MX",
       "NI",
+      "PE",
       "PY",
+      "US",
+      "UY",
       "VE"
     ],
     "uses": [
@@ -8596,17 +8811,31 @@
     "family": "Asteraceae",
     "names": [
       "echinacea",
+      "Echinacea",
       "Échinacée",
       "Equinácea",
       "purple coneflower",
+      "Purple coneflower",
       "Sonnenhut",
       "Zonnehoed"
     ],
     "countries": [
+      "AR",
       "BE",
+      "BO",
+      "BR",
+      "CA",
+      "CL",
       "CO",
       "DE",
-      "US"
+      "EC",
+      "ES",
+      "MX",
+      "PE",
+      "PY",
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "colds",
@@ -9833,19 +10062,28 @@
       "Fennel",
       "Fenouil",
       "Finocchio",
+      "Funcho",
       "Hinojo"
     ],
     "countries": [
       "AR",
       "BO",
+      "BR",
+      "CA",
       "CL",
       "CO",
       "DE",
+      "EC",
       "ES",
       "FR",
       "HU",
       "IT",
-      "PY"
+      "MX",
+      "PE",
+      "PY",
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "aromatic",
@@ -10326,8 +10564,21 @@
     ],
     "countries": [
       "AR",
+      "BO",
+      "BR",
+      "CA",
+      "CL",
+      "CO",
       "DE",
-      "NL"
+      "EC",
+      "ES",
+      "MX",
+      "NL",
+      "PE",
+      "PY",
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "circulation",
@@ -11250,11 +11501,28 @@
     "scientific_name": "Hibiscus sabdariffa",
     "family": "Malvaceae",
     "names": [
-      "Flor de Jamaica"
+      "Flor de Jamaica",
+      "Hibisco",
+      "Hibiscus",
+      "Jamaica",
+      "Rosa de Jamaica"
     ],
     "countries": [
+      "AR",
+      "BO",
+      "BR",
+      "CA",
+      "CL",
       "CO",
-      "HN"
+      "EC",
+      "ES",
+      "HN",
+      "MX",
+      "PE",
+      "PY",
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "antioxidant",
@@ -11796,11 +12064,26 @@
     "scientific_name": "Ilex paraguariensis",
     "family": "Aquifoliaceae",
     "names": [
+      "Erva-mate",
+      "Ka'a",
       "Mate",
       "Yerba mate"
     ],
     "countries": [
-      "AR"
+      "AR",
+      "BO",
+      "BR",
+      "CA",
+      "CL",
+      "CO",
+      "EC",
+      "ES",
+      "MX",
+      "PE",
+      "PY",
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "culinary",
@@ -12667,13 +12950,28 @@
     "names": [
       "Alloro",
       "Bay Laurel",
+      "Bay leaf",
       "Dafinë",
-      "Laurel"
+      "Laurel",
+      "Louro"
     ],
     "countries": [
       "AL",
+      "AR",
+      "BO",
+      "BR",
+      "CA",
+      "CL",
+      "CO",
+      "EC",
       "ES",
-      "IT"
+      "IT",
+      "MX",
+      "PE",
+      "PY",
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "medicinal"
@@ -12686,11 +12984,28 @@
     "names": [
       "Alloro",
       "Bay Laurel",
-      "Dafinë"
+      "Bay leaf",
+      "Dafinë",
+      "Laurel",
+      "Louro"
     ],
     "countries": [
       "AL",
-      "IT"
+      "AR",
+      "BO",
+      "BR",
+      "CA",
+      "CL",
+      "CO",
+      "EC",
+      "ES",
+      "IT",
+      "MX",
+      "PE",
+      "PY",
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "digestive",
@@ -12712,14 +13027,25 @@
       "lavender"
     ],
     "countries": [
+      "AR",
+      "BO",
+      "BR",
       "CA",
       "CL",
+      "CO",
+      "EC",
       "ES",
       "FR",
       "HR",
       "HU",
       "IT",
-      "RO"
+      "MX",
+      "PE",
+      "PY",
+      "RO",
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "anesthetic and analgesic in labor",
@@ -13778,12 +14104,15 @@
       "BA",
       "BE",
       "BO",
+      "BR",
       "CA",
       "CL",
       "CO",
       "CR",
       "DE",
       "DK",
+      "EC",
+      "ES",
       "FR",
       "GT",
       "HR",
@@ -13793,8 +14122,10 @@
       "NL",
       "PA",
       "PE",
+      "PY",
       "SI",
       "SV",
+      "US",
       "UY",
       "VE"
     ],
@@ -14024,6 +14355,7 @@
     "names": [
       "Citroenmelisse",
       "Citronela",
+      "Erva-cidreira",
       "Lemon balm",
       "Melisa",
       "Melissa",
@@ -14036,16 +14368,22 @@
       "AR",
       "BE",
       "BO",
+      "BR",
       "CA",
       "CL",
+      "CO",
       "DE",
+      "EC",
       "ES",
       "FR",
       "IT",
       "MX",
       "NI",
       "PE",
-      "UY"
+      "PY",
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "antispasmodic",
@@ -14073,12 +14411,26 @@
     "scientific_name": "Mentha × piperita",
     "family": "Lamiaceae",
     "names": [
+      "Hortelã-pimenta",
       "Menta",
+      "Menta piperita",
       "Peppermint"
     ],
     "countries": [
+      "AR",
       "BO",
-      "CA"
+      "BR",
+      "CA",
+      "CL",
+      "CO",
+      "EC",
+      "ES",
+      "MX",
+      "PE",
+      "PY",
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "antispasmodic",
@@ -14218,6 +14570,7 @@
       "Hierba Buena",
       "Hierba buena",
       "Hierbabuena",
+      "Hortelã",
       "Menta",
       "Menta Dulce",
       "mint",
@@ -14229,6 +14582,8 @@
     "countries": [
       "AR",
       "BO",
+      "BR",
+      "CA",
       "CL",
       "CO",
       "CR",
@@ -14241,6 +14596,7 @@
       "PE",
       "PY",
       "US",
+      "UY",
       "VE"
     ],
     "uses": [
@@ -14685,8 +15041,21 @@
       "Paraíso"
     ],
     "countries": [
+      "AR",
+      "BO",
+      "BR",
+      "CA",
+      "CL",
       "CO",
-      "GT"
+      "EC",
+      "ES",
+      "GT",
+      "MX",
+      "PE",
+      "PY",
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "anti-inflammatory",
@@ -15121,10 +15490,15 @@
       "Basilic",
       "Basilico",
       "bazsalikom",
+      "Manjericão",
       "Orégano (occasional)",
       "Sweet basil"
     ],
     "countries": [
+      "AR",
+      "BO",
+      "BR",
+      "CA",
       "CL",
       "CO",
       "CR",
@@ -15137,8 +15511,12 @@
       "IT",
       "MX",
       "NI",
+      "PE",
       "PY",
-      "SV"
+      "SV",
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "anti-inflammatory",
@@ -15217,6 +15595,36 @@
     ],
     "uses": [
       "medicinal"
+    ]
+  },
+  {
+    "id": "ocimum_tenuiflorum",
+    "scientific_name": "Ocimum tenuiflorum",
+    "family": "Lamiaceae",
+    "names": [
+      "Albahaca sagrada",
+      "Holy basil",
+      "Manjericão sagrado",
+      "Tulsi"
+    ],
+    "countries": [
+      "AR",
+      "BO",
+      "BR",
+      "CA",
+      "CL",
+      "CO",
+      "EC",
+      "ES",
+      "MX",
+      "PE",
+      "PY",
+      "US",
+      "UY",
+      "VE"
+    ],
+    "uses": [
+      "adaptogen"
     ]
   },
   {
@@ -15392,12 +15800,22 @@
     ],
     "countries": [
       "AL",
+      "AR",
       "BO",
+      "BR",
       "CA",
+      "CL",
       "CO",
+      "EC",
+      "ES",
       "FR",
       "IT",
-      "PY"
+      "MX",
+      "PE",
+      "PY",
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "antibacterial",
@@ -15499,7 +15917,19 @@
     ],
     "countries": [
       "AR",
-      "US"
+      "BO",
+      "BR",
+      "CA",
+      "CL",
+      "CO",
+      "EC",
+      "ES",
+      "MX",
+      "PE",
+      "PY",
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "energy",
@@ -15883,10 +16313,24 @@
     "scientific_name": "Paullinia cupana",
     "family": "Sapindaceae",
     "names": [
-      "Guaraná"
+      "Guaraná",
+      "Guarana"
     ],
     "countries": [
-      "BO"
+      "AR",
+      "BO",
+      "BR",
+      "CA",
+      "CL",
+      "CO",
+      "EC",
+      "ES",
+      "MX",
+      "PE",
+      "PY",
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "energy",
@@ -16090,10 +16534,25 @@
     "scientific_name": "Petroselinum crispum",
     "family": "Apiaceae",
     "names": [
-      "Perejil"
+      "Parsley",
+      "Perejil",
+      "Salsa"
     ],
     "countries": [
-      "CO"
+      "AR",
+      "BO",
+      "BR",
+      "CA",
+      "CL",
+      "CO",
+      "EC",
+      "ES",
+      "MX",
+      "PE",
+      "PY",
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "digestive",
@@ -16598,15 +17057,26 @@
     "family": "Apiaceae",
     "names": [
       "Anís",
-      "Anís Verde"
+      "Anis",
+      "Anís Verde",
+      "Anise",
+      "Erva-doce"
     ],
     "countries": [
       "AR",
       "BO",
+      "BR",
+      "CA",
       "CL",
       "CO",
+      "EC",
       "ES",
-      "PY"
+      "MX",
+      "PE",
+      "PY",
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "antiflatulent",
@@ -18234,6 +18704,7 @@
     "scientific_name": "Rosmarinus officinalis",
     "family": "Lamiaceae",
     "names": [
+      "Alecrim",
       "Romarin",
       "Romero",
       "Rosemary",
@@ -18241,16 +18712,24 @@
       "Ružmarin"
     ],
     "countries": [
+      "AR",
       "BO",
+      "BR",
       "CA",
+      "CL",
       "CO",
       "CR",
+      "EC",
+      "ES",
       "FR",
       "GT",
       "HR",
       "IT",
       "MX",
+      "PE",
       "PY",
+      "US",
+      "UY",
       "VE"
     ],
     "uses": [
@@ -18674,6 +19153,7 @@
       "Sage",
       "sage",
       "Salvia",
+      "Sálvia",
       "Salvia (European)",
       "Sauge",
       "Sherbelë",
@@ -18683,16 +19163,22 @@
       "AL",
       "AR",
       "BO",
+      "BR",
       "CA",
       "CL",
       "CO",
+      "EC",
       "ES",
       "FR",
       "HU",
       "IT",
       "MX",
+      "PE",
+      "PY",
       "SI",
-      "US"
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "antimicrobial",
@@ -19691,18 +20177,29 @@
       "Cardo lechero",
       "Cardo mariano",
       "Cardo Mariano",
+      "Cardo-mariano",
       "Chardon-Marie",
       "Mariendistel",
       "Milk thistle"
     ],
     "countries": [
+      "AR",
+      "BO",
+      "BR",
       "CA",
+      "CL",
       "CO",
       "DE",
+      "EC",
       "ES",
       "FR",
       "IT",
-      "MX"
+      "MX",
+      "PE",
+      "PY",
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "medicinal"
@@ -19714,19 +20211,33 @@
     "family": "Asteraceae",
     "names": [
       "Cardo mariano",
+      "Cardo-mariano",
       "Chardon-Marie",
       "Mariendistel",
       "Milk thistle"
     ],
     "countries": [
+      "AR",
+      "BO",
+      "BR",
       "CA",
+      "CL",
       "CO",
       "DE",
+      "EC",
+      "ES",
       "FR",
-      "IT"
+      "IT",
+      "MX",
+      "PE",
+      "PY",
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "detox",
+      "hepatic",
       "hepatoprotective",
       "liver",
       "liver protection"
@@ -20512,19 +21023,34 @@
     "family": "Asteraceae",
     "names": [
       "Estevia",
+      "Estévia",
       "Hierba dulce",
       "Ka'a he'ê",
       "Ka'a-hée",
       "Ka'a-hée (Guaraní)",
+      "Stevia",
       "Yerba dulce"
     ],
     "countries": [
       "AR",
-      "MX"
+      "BO",
+      "BR",
+      "CA",
+      "CL",
+      "CO",
+      "EC",
+      "ES",
+      "MX",
+      "PE",
+      "PY",
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "culinary",
-      "medicinal"
+      "medicinal",
+      "sweetener"
     ]
   },
   {
@@ -20652,11 +21178,26 @@
     "scientific_name": "Syzygium aromaticum",
     "family": "Myrtaceae",
     "names": [
-      "Clavo de olor"
+      "Clavo",
+      "Clavo de olor",
+      "Clove",
+      "Cravo-da-índia"
     ],
     "countries": [
       "AR",
-      "BO"
+      "BO",
+      "BR",
+      "CA",
+      "CL",
+      "CO",
+      "EC",
+      "ES",
+      "MX",
+      "PE",
+      "PY",
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "analgesic",
@@ -20973,6 +21514,7 @@
       "Common dandelion",
       "Dandelion",
       "dandelion",
+      "Dente-de-leão",
       "Diente de León",
       "Diente de león",
       "gyermekláncfű",
@@ -20985,19 +21527,24 @@
     "countries": [
       "AR",
       "BO",
+      "BR",
       "CA",
       "CL",
       "CO",
       "DE",
+      "EC",
       "ES",
       "FR",
       "HU",
       "IT",
       "MX",
       "NL",
+      "PE",
       "PY",
       "RO",
-      "UY"
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "anti-inflammatory",
@@ -21337,25 +21884,34 @@
       "Timian",
       "Timijan",
       "Timo",
+      "Tomilho",
       "Tomillo",
       "Trumzë"
     ],
     "countries": [
       "AL",
+      "AR",
       "BE",
       "BO",
+      "BR",
       "CA",
       "CL",
       "CO",
       "DE",
       "DK",
+      "EC",
       "ES",
       "FR",
       "HU",
       "IT",
+      "MX",
+      "PE",
       "PY",
       "RO",
-      "SI"
+      "SI",
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "anthelmintic",
@@ -21964,6 +22520,7 @@
       "Ortiga",
       "stinging nettle",
       "Stinging nettle",
+      "Urtiga",
       "žihavka",
       "Коприва"
     ],
@@ -21973,12 +22530,14 @@
       "BA",
       "BE",
       "BO",
+      "BR",
       "CA",
       "CL",
       "CO",
       "CZ",
       "DE",
       "DK",
+      "EC",
       "ES",
       "FR",
       "HU",
@@ -21986,9 +22545,13 @@
       "MK",
       "MX",
       "NL",
+      "PE",
       "PY",
       "RO",
-      "SI"
+      "SI",
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "abscess",
@@ -22688,6 +23251,33 @@
     ]
   },
   {
+    "id": "withania_somnifera",
+    "scientific_name": "Withania somnifera",
+    "family": "Solanaceae",
+    "names": [
+      "Ashwagandha"
+    ],
+    "countries": [
+      "AR",
+      "BO",
+      "BR",
+      "CA",
+      "CL",
+      "CO",
+      "EC",
+      "ES",
+      "MX",
+      "PE",
+      "PY",
+      "US",
+      "UY",
+      "VE"
+    ],
+    "uses": [
+      "adaptogen"
+    ]
+  },
+  {
     "id": "xanthium_cavanillesii",
     "scientific_name": "Xanthium cavanillesii",
     "family": "Asteraceae",
@@ -22877,16 +23467,30 @@
     "scientific_name": "Zingiber officinale",
     "family": "Zingiberaceae",
     "names": [
+      "Gengibre",
+      "Ginger",
       "Jengibre",
-      "Jenjibre"
+      "Jenjibre",
+      "Kion"
     ],
     "countries": [
       "AR",
       "BO",
+      "BR",
+      "CA",
+      "CL",
       "CO",
       "CR",
+      "EC",
+      "ES",
       "GT",
-      "HN"
+      "HN",
+      "MX",
+      "PE",
+      "PY",
+      "US",
+      "UY",
+      "VE"
     ],
     "uses": [
       "anti-inflammatory",
