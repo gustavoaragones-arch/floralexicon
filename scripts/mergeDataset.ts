@@ -207,6 +207,14 @@ type NameAgg = {
   ambiguityRank: number;
   /** First-seen contributor language; `en` wins when multiple sources disagree. */
   language?: string;
+  /** True if any contributing raw row set `is_transliterated` (primary-name tie-break). */
+  is_transliterated?: boolean;
+  /**
+   * Best-seen source/confidence per ISO from raw ingestion.
+   * Only populated when a raw record explicitly carries meta.source / meta.confidence.
+   * Used to build authoritative country_usage instead of falling back to `dataset/medium`.
+   */
+  countryUsageByCountry: Map<string, { source: string; confidence: string }>;
 };
 
 /** Name rows with no plant_id / plant_ids in source (merge continues; row not added to namesMap). */
@@ -309,6 +317,25 @@ function ambiguityLevelFromRank(r: number): string {
   return "low";
 }
 
+const CANONICAL_SOURCES = new Set([
+  "local_ethnobotany", "paper", "manual", "wikidata", "regulatory",
+  "dataset", "global_reuse", "global_fallback",
+]);
+
+/**
+ * Map raw meta.source strings (e.g. "chile_ethnobotany", "chile_phytotherapy")
+ * to canonical authority tiers.
+ */
+function canonicalizeSource(raw: string | undefined): string {
+  if (!raw || typeof raw !== "string") return "dataset";
+  const s = raw.trim().toLowerCase();
+  if (CANONICAL_SOURCES.has(s)) return s;
+  if (s.includes("ethnobotany") || s.includes("phytotherapy") || s.includes("traditional")) {
+    return "local_ethnobotany";
+  }
+  return "dataset";
+}
+
 /** Multi-label cells in regional bundles (e.g. Mexico INPI): split on ` / `. */
 function compoundDisplayParts(name: string): string[] {
   const t = name.trim();
@@ -377,13 +404,20 @@ function languageFromContributor(
   return prev;
 }
 
+function markTransliterationFromRow(agg: NameAgg, row?: unknown): void {
+  if (!row || typeof row !== "object" || Array.isArray(row)) return;
+  if ((row as JsonRecord).is_transliterated === true) agg.is_transliterated = true;
+}
+
 function mergeNameForPlant(
   mapKey: string,
   displayName: string,
   plantId: string,
   countries: string[],
   rowAmbiguitySource?: unknown,
-  sourceFile?: string
+  sourceFile?: string,
+  rawSource?: string,
+  rawConfidence?: string
 ) {
   const canon = resolvePlantId(plantId);
   if (!canon) return;
@@ -398,16 +432,41 @@ function mergeNameForPlant(
       countries: new Set(),
       sources: new Set(),
       ambiguityRank: ar,
+      countryUsageByCountry: new Map(),
     };
     namesMap.set(compoundKey, agg);
   } else {
     namesMergedCount++;
     if (ar > agg.ambiguityRank) agg.ambiguityRank = ar;
   }
+  markTransliterationFromRow(agg, rowAmbiguitySource);
   if (displayName.trim()) agg.displayNames.add(displayName.trim());
+
+  const canonSource = rawSource ? canonicalizeSource(rawSource) : undefined;
+  const conf = rawConfidence?.trim().toLowerCase();
+  const canonConf =
+    conf === "high" || conf === "medium" || conf === "low" ? conf : undefined;
+
   for (const c of countries) {
-    if (c) agg.countries.add(c);
+    if (!c) continue;
+    agg.countries.add(c);
+    if (canonSource) {
+      const existing = agg.countryUsageByCountry.get(c);
+      if (
+        !existing ||
+        rankPrimarySource(canonSource) > rankPrimarySource(existing.source) ||
+        (rankPrimarySource(canonSource) === rankPrimarySource(existing.source) &&
+          rankConfidence(canonConf as "high" | "medium" | "low" | undefined) >
+            rankConfidence(existing.confidence as "high" | "medium" | "low" | undefined))
+      ) {
+        agg.countryUsageByCountry.set(c, {
+          source: canonSource,
+          confidence: canonConf ?? "medium",
+        });
+      }
+    }
   }
+
   if (sourceFile?.trim()) agg.sources.add(sourceFile.trim());
   agg.language = languageFromContributor(agg.language, rowAmbiguitySource);
 }
@@ -489,6 +548,8 @@ function ingestCanonicalPlantsBaseline() {
 function bootstrapPlantIdAliases() {
   registerAlias("tropaelum_majus", "tropaeolum_majus");
   registerAlias("pluchoea_carolinensis", "pluchea_carolinensis");
+  registerAlias("matricaria_recutita", "matricaria_chamomilla");
+  registerAlias("chamomilla_recutita", "matricaria_chamomilla");
 }
 
 /** FloraLexicon v2 raw: `{ "plants": [ { scientific_name, family, country, common_names, uses } ] }` */
@@ -538,12 +599,16 @@ function ingestPlantRecord(record: unknown, sourceFile: string) {
     plant.uses.add(u.toLowerCase());
   }
 
+  const meta = row.meta && typeof row.meta === "object" ? row.meta as JsonRecord : null;
+  const rawSource = typeof meta?.source === "string" ? meta.source : undefined;
+  const rawConfidence = typeof meta?.confidence === "string" ? meta.confidence : undefined;
+
   for (const name of common_names) {
     const cn = String(name).trim();
     if (!cn) continue;
     plant.names.add(cn);
     const mapKey = normalizeNameKeyForMap(cn);
-    mergeNameForPlant(mapKey, cn, plantId, countriesRow, row, sourceFile);
+    mergeNameForPlant(mapKey, cn, plantId, countriesRow, row, sourceFile, rawSource, rawConfidence);
   }
 }
 
@@ -579,11 +644,15 @@ function ingestSimpleRow(row: JsonRecord, sourceFile: string) {
     plant.uses.add(u.toLowerCase());
   }
 
+  const meta = row.meta && typeof row.meta === "object" ? row.meta as JsonRecord : null;
+  const rawSource = typeof meta?.source === "string" ? meta.source : undefined;
+  const rawConfidence = typeof meta?.confidence === "string" ? meta.confidence : undefined;
+
   const commons = coerceStringArray(row.common_names);
   for (const cn of commons) {
     plant.names.add(cn);
     const mapKey = normalizeNameKeyForMap(cn);
-    mergeNameForPlant(mapKey, cn, canonId, countriesRow, row, sourceFile);
+    mergeNameForPlant(mapKey, cn, canonId, countriesRow, row, sourceFile, rawSource, rawConfidence);
   }
 }
 
@@ -1008,6 +1077,572 @@ function loadPreMergeSnapshot(): PreMergeSnapshot {
   return { plantCount, nameCount, countries, normalizedHubs };
 }
 
+/** Shape written to names.json (subset of app `NameEntry`; includes `country_usage` when known). */
+type WritableNameRow = {
+  name: string;
+  normalized: string;
+  plant_ids: string[];
+  countries: string[];
+  country_usage?: Array<{
+    country: string;
+    is_primary?: boolean;
+    confidence?: "high" | "medium" | "low";
+    source?:
+      | "wikidata"
+      | "paper"
+      | "manual"
+      | "dataset"
+      | "global_fallback"
+      | "global_reuse"
+      | "local_ethnobotany"
+      | "regulatory";
+  }>;
+  language: string;
+  ambiguity_level: string;
+  /** When true, deprioritized vs non-transliterated locals in primary selection. */
+  is_transliterated?: boolean;
+};
+
+/** Merged plant row (same fields we emit to `plants.json`). */
+type MergedPlantRecord = {
+  id: string;
+  scientific_name: string;
+  names: string[];
+  countries: string[];
+};
+
+function detectLanguageFromCountry(countryIso: string): string {
+  const c = countryIso.trim().toUpperCase();
+  const map: Record<string, string> = {
+    AR: "es",
+    BO: "es",
+    CL: "es",
+    CO: "es",
+    MX: "es",
+    ES: "es",
+    PE: "es",
+    EC: "es",
+    PY: "es",
+    UY: "es",
+    VE: "es",
+    BR: "pt",
+    PT: "pt",
+    US: "en",
+    CA: "en",
+    GB: "en",
+    FR: "fr",
+    DE: "de",
+    IT: "it",
+    NL: "nl",
+    HU: "hu",
+    CZ: "cs",
+    DK: "da",
+    GT: "es",
+    CR: "es",
+  };
+  return map[c] ?? "en";
+}
+
+/**
+ * Returns the primary expected language ISO code for a country.
+ * Used for language-sanity filtering in primary name selection.
+ */
+function getExpectedLanguage(countryCode: string): string {
+  const c = countryCode.trim().toUpperCase();
+  const map: Record<string, string> = {
+    // Spanish
+    AR: "es", BO: "es", CL: "es", CO: "es", CR: "es", CU: "es",
+    DO: "es", EC: "es", ES: "es", GT: "es", HN: "es", MX: "es",
+    NI: "es", PA: "es", PE: "es", PR: "es", PY: "es", SV: "es",
+    UY: "es", VE: "es",
+    // Portuguese
+    BR: "pt", PT: "pt",
+    // English
+    AU: "en", CA: "en", GB: "en", NZ: "en", US: "en",
+    // French
+    FR: "fr",
+    // German
+    AT: "de", DE: "de",
+    // Italian
+    IT: "it",
+    // Dutch
+    NL: "nl", BE: "nl",
+    // Hungarian
+    HU: "hu",
+    // Czech
+    CZ: "cs",
+    // Danish
+    DK: "da",
+    // Albanian
+    AL: "sq",
+    // Croatian
+    HR: "hr",
+    // Slovene
+    SI: "sl",
+    // Bosnian/Serbian
+    BA: "bs", RS: "sr",
+    // Macedonian
+    MK: "mk",
+    // Romanian
+    RO: "ro",
+    // Bulgarian
+    BG: "bg",
+    // Slovak
+    SK: "sk",
+  };
+  return map[c] ?? "en";
+}
+
+/**
+ * Returns true when a name is clearly from the wrong linguistic context for
+ * the given expected language. Uses conservative string heuristics — only
+ * patterns that are unambiguously foreign to the target language.
+ * Never rejects a name solely because it appears in a foreign-language raw
+ * file; this only catches clear cross-language leakage.
+ */
+function isLanguageMismatch(name: string, expectedLang: string): boolean {
+  const n = name.trim().toLowerCase().normalize("NFD").replace(/\p{M}/gu, "");
+  switch (expectedLang) {
+    case "es":
+      // Reject unambiguously German/Nordic herb names appearing in Spanish countries
+      return /\b(kamille|kamomil|baldrian|schafgarbe|ringelblume|holunder|brennnessel|johanniskraut)\b/.test(n);
+    case "en":
+      // Reject unambiguously Spanish/French/German names appearing in English countries
+      return /\b(manzanilla|camomille|kamille|kamomil)\b/.test(n);
+    case "fr":
+      // "chamomile" (English) appearing instead of "camomille" (French)
+      return /\b(chamomile|manzanilla|kamille|kamomil)\b/.test(n) &&
+        !/\bcamomille\b/.test(n);
+    case "de":
+    case "at":
+      // Reject Spanish/English names in German-speaking countries — but German
+      // names appear correct so be conservative here
+      return /\b(manzanilla|chamomile|camomille)\b/.test(n);
+    case "pt":
+      return /\b(kamille|kamomil|chamomile|manzanilla)\b/.test(n);
+    default:
+      return false;
+  }
+}
+
+/**
+ * Emit one name row per (plant, common name, country) from merged plant inventory
+ * so every regional attachment can be backed by an explicit `country_usage` row.
+ */
+function buildNamesFromPlants(plants: MergedPlantRecord[]): WritableNameRow[] {
+  const out: WritableNameRow[] = [];
+  for (const plant of plants) {
+    const plantId = plant.id.trim();
+    if (!plantId) continue;
+    const countries = plant.countries
+      .map((c) => c.trim().toUpperCase())
+      .filter(Boolean);
+    if (countries.length === 0) continue;
+
+    const nameList =
+      plant.names.length > 0
+        ? plant.names
+        : [plant.scientific_name].filter((s) => s.trim());
+
+    for (const country of countries) {
+      for (const rawName of nameList) {
+        const name = String(rawName).trim();
+        if (!name) continue;
+        out.push({
+          name,
+          normalized: normalizeName(name),
+          plant_ids: [plantId],
+          countries: [country],
+          country_usage: [
+            {
+              country,
+              is_primary: false,
+              confidence: "medium",
+              source: "dataset",
+            },
+          ],
+          language: detectLanguageFromCountry(country),
+          ambiguity_level: "low",
+        });
+      }
+    }
+  }
+  return out;
+}
+
+function rankConfidence(
+  c: "high" | "medium" | "low" | undefined
+): number {
+  if (c === "high") return 3;
+  if (c === "medium") return 2;
+  if (c === "low") return 1;
+  return 0;
+}
+
+/**
+ * Higher = stronger for primary selection and for merging duplicate ISO rows.
+ * `global_reuse` stays below all real local / curated tiers so confidence never
+ * lets it beat `local_ethnobotany`.
+ */
+function rankPrimarySource(source: string | undefined): number {
+  switch (source) {
+    case "local_ethnobotany":
+      return 4;
+    case "paper":
+    case "manual":
+    case "wikidata":
+    case "regulatory":
+      return 3;
+    case "dataset":
+      return 2;
+    case "global_reuse":
+      return 1;
+    case "global_fallback":
+      return 0;
+    default:
+      return 2;
+  }
+}
+
+function shouldPreferCountryUsage(
+  incoming: NonNullable<WritableNameRow["country_usage"]>[number],
+  existing: NonNullable<WritableNameRow["country_usage"]>[number]
+): boolean {
+  const rNew = rankPrimarySource(incoming.source);
+  const rOld = rankPrimarySource(existing.source);
+  if (rNew > rOld) return true;
+  if (rNew < rOld) return false;
+  return (
+    rankConfidence(incoming.confidence) > rankConfidence(existing.confidence)
+  );
+}
+
+function mergeCountryUsage(
+  entries: WritableNameRow[]
+): NonNullable<WritableNameRow["country_usage"]> {
+  const map = new Map<
+    string,
+    NonNullable<WritableNameRow["country_usage"]>[number]
+  >();
+  for (const e of entries) {
+    const usages = e.country_usage;
+    if (!usages || usages.length === 0) continue;
+    for (const u of usages) {
+      const iso = (u.country ?? "").trim().toUpperCase();
+      if (!iso) continue;
+      const existing = map.get(iso);
+      if (!existing) {
+        map.set(iso, { ...u, country: iso });
+        continue;
+      }
+      if (shouldPreferCountryUsage(u, existing)) {
+        map.set(iso, { ...u, country: iso });
+      }
+    }
+  }
+  if (map.size === 0) {
+    for (const e of entries) {
+      for (const c of e.countries) {
+        const iso = c.trim().toUpperCase();
+        if (!iso || map.has(iso)) continue;
+        map.set(iso, {
+          country: iso,
+          is_primary: false,
+          confidence: "medium",
+          source: "dataset",
+        });
+      }
+    }
+  }
+  return [...map.values()].sort((a, b) =>
+    a.country.localeCompare(b.country, "en", { sensitivity: "base" })
+  );
+}
+
+function pickBestDisplayName(entries: WritableNameRow[]): string {
+  const names = [...new Set(entries.map((e) => e.name.trim()).filter(Boolean))];
+  names.sort((a, b) => {
+    if (b.length !== a.length) return b.length - a.length;
+    return a.localeCompare(b, "en", { sensitivity: "base" });
+  });
+  return names[0] ?? "";
+}
+
+function pickBestLanguage(entries: WritableNameRow[]): string {
+  const langs = [...new Set(entries.map((e) => e.language.trim()).filter(Boolean))];
+  langs.sort((a, b) => {
+    if (a === "en" && b !== "en") return -1;
+    if (b === "en" && a !== "en") return 1;
+    return a.localeCompare(b, "en", { sensitivity: "base" });
+  });
+  return langs[0] ?? "en";
+}
+
+function ambiguityRankOut(level: string): number {
+  const l = level.toLowerCase();
+  if (l === "high") return 2;
+  if (l === "medium") return 1;
+  return 0;
+}
+
+function mergeAmbiguityLevel(a: string, b: string): string {
+  return ambiguityRankOut(a) >= ambiguityRankOut(b) ? a : b;
+}
+
+function mergeNameEntries(entries: WritableNameRow[]): WritableNameRow {
+  const plantIds = [
+    ...new Set(entries.flatMap((e) => e.plant_ids.map((id) => id.trim())).filter(Boolean)),
+  ].sort((x, y) => x.localeCompare(y));
+  const mergedUsage = mergeCountryUsage(entries);
+  const countries = mergedUsage.map((u) => u.country);
+  const isTransliterated = entries.some((e) => e.is_transliterated === true)
+    ? true
+    : undefined;
+  return {
+    name: pickBestDisplayName(entries),
+    normalized: entries[0]!.normalized,
+    plant_ids: plantIds.length ? plantIds : entries[0]!.plant_ids,
+    countries,
+    country_usage: mergedUsage,
+    language: pickBestLanguage(entries),
+    ambiguity_level: entries.reduce(
+      (acc, e) => mergeAmbiguityLevel(acc, e.ambiguity_level),
+      "low"
+    ),
+    ...(isTransliterated ? { is_transliterated: true } : {}),
+  };
+}
+
+function dedupeWritableNameRows(rows: WritableNameRow[]): WritableNameRow[] {
+  const groups = new Map<string, WritableNameRow[]>();
+  for (const r of rows) {
+    const pid = r.plant_ids[0]?.trim();
+    if (!pid) continue;
+    const key = `${r.normalized}::${pid}`;
+    let g = groups.get(key);
+    if (!g) {
+      g = [];
+      groups.set(key, g);
+    }
+    g.push(r);
+  }
+  const out: WritableNameRow[] = [];
+  for (const g of groups.values()) {
+    if (g.length === 0) continue;
+    out.push(mergeNameEntries(g));
+  }
+  return out;
+}
+
+/** When a row only has legacy `countries`, synthesize `country_usage` for merging. */
+function ensureCountryUsage(row: WritableNameRow): WritableNameRow {
+  if (row.country_usage && row.country_usage.length > 0) return row;
+  const usage: NonNullable<WritableNameRow["country_usage"]> = row.countries
+    .map((c) => c.trim().toUpperCase())
+    .filter(Boolean)
+    .map((country) => ({
+      country,
+      is_primary: false,
+      confidence: "medium" as const,
+      source: "dataset" as const,
+    }));
+  return { ...row, country_usage: usage };
+}
+
+function nameRowCoversPlantCountry(
+  row: WritableNameRow,
+  plantId: string,
+  country: string
+): boolean {
+  const C = country.trim().toUpperCase();
+  if (!row.plant_ids.includes(plantId)) return false;
+  if (row.country_usage?.some((u) => u.country === C)) return true;
+  if (row.countries.some((c) => c.trim().toUpperCase() === C)) return true;
+  return false;
+}
+
+function validateCoverage(
+  plants: MergedPlantRecord[],
+  names: WritableNameRow[]
+): void {
+  for (const plant of plants) {
+    const plantId = plant.id.trim();
+    if (!plantId) continue;
+    const countries = plant.countries
+      .map((c) => c.trim().toUpperCase())
+      .filter(Boolean);
+    for (const country of countries) {
+      const hasName = names.some((entry) =>
+        nameRowCoversPlantCountry(entry, plantId, country)
+      );
+      if (!hasName) {
+        throw new Error(
+          `mergeDataset: missing name for plant=${plantId} country=${country}`
+        );
+      }
+    }
+  }
+}
+
+/**
+ * Union name-derived ISOs into each plant so `plant.countries` matches the
+ * name graph (selectors). Only propagates from `local_ethnobotany` sources —
+ * synthetic (dataset / global_reuse / global_fallback) names must NOT expand
+ * country coverage, as that is the primary mechanism for false-authority spread.
+ */
+function propagateCountriesFromNames(
+  plants: Array<{ id: string; countries: string[] }>,
+  names: WritableNameRow[]
+): void {
+  const map = new Map<string, Set<string>>();
+  for (const name of names) {
+    for (const plantId of name.plant_ids) {
+      const pid = plantId.trim();
+      if (!pid) continue;
+      if (!map.has(pid)) map.set(pid, new Set());
+      const set = map.get(pid)!;
+      for (const u of name.country_usage ?? []) {
+        if (!u || typeof u !== "object") continue;
+        if (typeof u.country !== "string" || !u.country.trim()) continue;
+        // Only propagate from authoritative local sources
+        if (u.source !== "local_ethnobotany") continue;
+        set.add(u.country.trim().toUpperCase());
+      }
+    }
+  }
+  for (const plant of plants) {
+    const set = map.get(plant.id.trim());
+    if (!set || set.size === 0) continue;
+    plant.countries = Array.from(
+      new Set([
+        ...plant.countries
+          .map((c) => String(c).trim().toUpperCase())
+          .filter(Boolean),
+        ...set,
+      ])
+    ).sort((a, b) => a.localeCompare(b, "en", { sensitivity: "base" }));
+  }
+}
+
+type PrimaryGroupItem = {
+  entry: WritableNameRow;
+  usage: NonNullable<WritableNameRow["country_usage"]>[number];
+};
+
+/**
+ * Exactly one `is_primary: true` usage per (plant_id, country).
+ * Sort priority:
+ *   1. source rank (local_ethnobotany wins)
+ *   2. confidence (high > medium > low)
+ *   3. non-transliterated over transliterated
+ *   4. country-exact match
+ *   5. language match (names in the expected country language rank higher)
+ *   6. shorter name
+ *   7. alphabetical
+ *
+ * Hard filter: before ranking, strip language-mismatched candidates for a
+ * country. Falls back to the full candidate set when no valid candidate remains
+ * (better a foreign-language primary than no primary at all).
+ */
+function assignPrimaryNames(names: WritableNameRow[]): void {
+  const debugCountry = process.env.FLORA_DEBUG_COUNTRY?.trim().toUpperCase();
+
+  const grouped = new Map<string, PrimaryGroupItem[]>();
+  for (const entry of names) {
+    for (const plantId of entry.plant_ids) {
+      const pid = plantId.trim();
+      if (!pid) continue;
+      for (const usage of entry.country_usage ?? []) {
+        const country = (usage.country ?? "").trim().toUpperCase();
+        if (!country) continue;
+        const key = `${pid}::${country}`;
+        let arr = grouped.get(key);
+        if (!arr) {
+          arr = [];
+          grouped.set(key, arr);
+        }
+        arr.push({ entry, usage });
+      }
+    }
+  }
+
+  for (const [key, items] of grouped.entries()) {
+    const keyCountry = key.includes("::") ? key.split("::").pop() ?? "" : "";
+    const expectedLang = getExpectedLanguage(keyCountry);
+    const plantId = key.split("::")[0] ?? "";
+
+    // Part 5: hard filter — remove language-mismatched candidates, but keep
+    // full set as fallback so coverage never breaks.
+    const languageValid = items.filter(
+      (item) => !isLanguageMismatch(item.entry.name, expectedLang)
+    );
+    const candidates = languageValid.length > 0 ? languageValid : items;
+
+    candidates.sort((a, b) => {
+      // 1. Source authority
+      const sourceDiff =
+        rankPrimarySource(b.usage.source) - rankPrimarySource(a.usage.source);
+      if (sourceDiff !== 0) return sourceDiff;
+
+      // 2. Confidence
+      const confDiff =
+        rankConfidence(b.usage.confidence) -
+        rankConfidence(a.usage.confidence);
+      if (confDiff !== 0) return confDiff;
+
+      // 3. Non-transliterated preferred
+      const translitDiff =
+        (a.entry.is_transliterated ? 1 : 0) -
+        (b.entry.is_transliterated ? 1 : 0);
+      if (translitDiff !== 0) return translitDiff;
+
+      // 4. Country-exact match
+      const aLocal = a.usage.country === keyCountry;
+      const bLocal = b.usage.country === keyCountry;
+      if (aLocal !== bLocal) return bLocal ? 1 : -1;
+
+      // 5. Language match for the target country
+      const aLangMatch = !isLanguageMismatch(a.entry.name, expectedLang);
+      const bLangMatch = !isLanguageMismatch(b.entry.name, expectedLang);
+      if (aLangMatch !== bLangMatch) return bLangMatch ? 1 : -1;
+
+      // 6. Shorter name
+      const lenDiff = a.entry.name.length - b.entry.name.length;
+      if (lenDiff !== 0) return lenDiff;
+
+      // 7. Alphabetical
+      return a.entry.name.localeCompare(b.entry.name, "en", {
+        sensitivity: "base",
+      });
+    });
+
+    // Mark winner
+    candidates.forEach((item, i) => {
+      item.usage.is_primary = i === 0;
+    });
+    // Ensure non-candidates are marked false (they were filtered out)
+    for (const item of items) {
+      if (!candidates.includes(item)) item.usage.is_primary = false;
+    }
+
+    // Part 7: per-country debug log
+    if (debugCountry && keyCountry === debugCountry) {
+      const winner = candidates[0];
+      console.log(`\n[FLORA_DEBUG] plant=${plantId} country=${keyCountry} expectedLang=${expectedLang}`);
+      console.log(`  candidates (${items.length} total, ${languageValid.length} language-valid):`);
+      for (const item of items) {
+        const mismatch = isLanguageMismatch(item.entry.name, expectedLang);
+        const selected = item === winner ? " ← SELECTED" : "";
+        const filtered = !candidates.includes(item) ? " [lang-filtered]" : "";
+        console.log(
+          `    "${item.entry.name}" | src=${item.usage.source} conf=${item.usage.confidence}` +
+          ` country=${item.usage.country} langMismatch=${mismatch}${selected}${filtered}`
+        );
+      }
+    }
+  }
+}
+
 function logPostMergeSummary(
   pre: PreMergeSnapshot,
   plantsCanonical: { countries: string[] }[],
@@ -1082,32 +1717,83 @@ function writeOutputs(preMerge: PreMergeSnapshot) {
     }))
     .sort((a, b) => a.id.localeCompare(b.id));
 
+  const mergedPlantRows: MergedPlantRecord[] = plantsCanonical.map((p) => ({
+    id: p.id,
+    scientific_name: p.scientific_name,
+    names: p.names,
+    countries: p.countries,
+  }));
+
   let namesWithOrphanPlantId = 0;
-  const namesOut = Array.from(namesMap.values())
-    .map((agg) => {
-      const name = stableNameDisplay(agg);
-      if (!name) return null;
-      if (!validPlantIds.has(agg.plant_id)) {
-        namesWithOrphanPlantId += 1;
-      }
+  const baseRowsFromAgg: WritableNameRow[] = [];
+  for (const agg of namesMap.values()) {
+    const name = stableNameDisplay(agg);
+    if (!name) continue;
+    if (!validPlantIds.has(agg.plant_id)) namesWithOrphanPlantId += 1;
+    const countries = Array.from(agg.countries).sort();
+    if (countries.length === 0) continue;
+    const countryUsage: NonNullable<WritableNameRow["country_usage"]> = countries.map((c) => {
+      const tracked = agg.countryUsageByCountry.get(c);
       return {
-        name,
-        normalized: normalizeName(name),
-        plant_ids: [agg.plant_id],
-        countries: Array.from(agg.countries).sort(),
-        language: agg.language ?? "es",
-        ambiguity_level: ambiguityLevelFromRank(agg.ambiguityRank),
+        country: c,
+        is_primary: false,
+        confidence: (tracked?.confidence ?? "medium") as "high" | "medium" | "low",
+        source: (tracked?.source ?? "dataset") as
+          | "local_ethnobotany" | "paper" | "manual" | "wikidata"
+          | "regulatory" | "dataset" | "global_reuse" | "global_fallback",
       };
-    })
-    .filter((row): row is NonNullable<typeof row> => row != null)
-    .filter((row) => row.countries.length > 0)
-    .sort((a, b) => {
-      const byName = a.normalized.localeCompare(b.normalized, "en", {
-        sensitivity: "base",
-      });
-      if (byName !== 0) return byName;
-      return a.plant_ids[0]!.localeCompare(b.plant_ids[0]!);
     });
+    const row: WritableNameRow = {
+      name,
+      normalized: normalizeName(name),
+      plant_ids: [agg.plant_id],
+      countries,
+      country_usage: countryUsage,
+      language: agg.language ?? "es",
+      ambiguity_level: ambiguityLevelFromRank(agg.ambiguityRank),
+    };
+    if (agg.is_transliterated) row.is_transliterated = true;
+    baseRowsFromAgg.push(row);
+  }
+
+  const plantDerivedNames = buildNamesFromPlants(mergedPlantRows);
+  const namesOut = dedupeWritableNameRows([
+    ...baseRowsFromAgg,
+    ...plantDerivedNames,
+  ]).sort((a, b) => {
+    const byName = a.normalized.localeCompare(b.normalized, "en", {
+      sensitivity: "base",
+    });
+    if (byName !== 0) return byName;
+    return a.plant_ids[0]!.localeCompare(b.plant_ids[0]!);
+  });
+
+  assignPrimaryNames(namesOut);
+  propagateCountriesFromNames(plantsCanonical, namesOut);
+
+  if (process.env.FLORA_MERGE_DEBUG === "1") {
+    const dbg = namesOut.filter(
+      (n) =>
+        n.normalized.includes("chamomile") ||
+        n.normalized.includes("manzanilla") ||
+        n.normalized.includes("camomille") ||
+        n.normalized.includes("kamomil")
+    );
+    console.log("[merge debug] chamomile / manzanilla / camomille / kamomil rows:", JSON.stringify(dbg, null, 2));
+  }
+
+  if (process.env.FLORA_DEBUG_COUNTRY) {
+    const targetCountry = process.env.FLORA_DEBUG_COUNTRY.trim().toUpperCase();
+    console.log(`\n[FLORA_DEBUG_COUNTRY=${targetCountry}] Primary name selections:`);
+    const primaries = namesOut
+      .filter((n) => n.country_usage?.some((u) => u.country === targetCountry && u.is_primary))
+      .sort((a, b) => a.normalized.localeCompare(b.normalized));
+    for (const row of primaries) {
+      const u = row.country_usage?.find((u) => u.country === targetCountry && u.is_primary);
+      console.log(`  ${row.plant_ids[0]} | "${row.name}" | ${u?.source}/${u?.confidence}`);
+    }
+    console.log(`  Total primaries for ${targetCountry}: ${primaries.length}`);
+  }
 
   const activePlantIds = new Set<string>();
   for (const row of namesOut) {
@@ -1117,6 +1803,16 @@ function writeOutputs(preMerge: PreMergeSnapshot) {
     activePlantIds.has(p.id)
   );
   const inactiveCount = plantsCanonical.length - plantsProduction.length;
+
+  validateCoverage(
+    plantsProduction.map((p) => ({
+      id: p.id,
+      scientific_name: p.scientific_name,
+      names: p.names,
+      countries: p.countries,
+    })),
+    namesOut
+  );
 
   fs.mkdirSync(OUT_DIR, { recursive: true });
   fs.mkdirSync(CANONICAL_DIR, { recursive: true });

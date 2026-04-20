@@ -1,623 +1,2242 @@
-{
-    "plants": [
-    {
-    "id": "croton_lechleri",
-    "scientific_name": "Croton lechleri",
-    "family": "Euphorbiaceae",
-    "genus": "Croton",
-    "rank": "species",
-    "origin_regions": ["Amazonian Rainforest"],
-    "native_status": "native",
-    "plant_type": "tree",
-    "primary_uses": ["medicinal", "cosmetic"]
-    },
-    {
-    "id": "minthostachys_mollis",
+[
+  {
     "scientific_name": "Minthostachys mollis",
     "family": "Lamiaceae",
-    "genus": "Minthostachys",
-    "rank": "species",
-    "origin_regions": ["Andean Highlands"],
-    "native_status": "native",
-    "plant_type": "herb",
-    "primary_uses": ["medicinal", "culinary", "aromatic"]
-    },
-    {
-    "id": "cinchona_officinalis",
-    "scientific_name": "Cinchona officinalis",
-    "family": "Rubiaceae",
-    "genus": "Cinchona",
-    "rank": "species",
-    "origin_regions": ["Andean Highlands"],
-    "native_status": "native",
-    "plant_type": "tree",
-    "primary_uses": ["medicinal"]
-    },
-    {
-    "id": "dracontium_loretense",
-    "scientific_name": "Dracontium loretense",
-    "family": "Araceae",
-    "genus": "Dracontium",
-    "rank": "species",
-    "origin_regions": ["Amazonian Rainforest"],
-    "native_status": "native",
-    "plant_type": "herb",
-    "primary_uses": ["medicinal"]
-    }
-    ],
-    "names": [
-    {
-    "name": "Sangre de Grado",
-    "normalized": "sangre_de_grado",
-    "language": "es",
     "country": "PE",
-    "plant_ids": ["croton_lechleri"],
-    "ambiguity_level": "low",
-    "usage_context": ["medicinal", "cicatrizante"]
-    },
-    {
-    "name": "Sangre de Drago",
-    "normalized": "sangre_de_drago",
-    "language": "es",
-    "country": "EC",
-    "plant_ids": ["croton_lechleri"],
-    "ambiguity_level": "low",
-    "usage_context": ["medicinal"]
-    },
-    {
-    "name": "Muña",
-    "normalized": "muna",
-    "language": "es",
+    "common_names": ["Muña"],
+    "uses": ["digestive", "respiratory"],
+    "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Chenopodium ambrosioides",
+    "family": "Amaranthaceae",
     "country": "PE",
-    "plant_ids": ["minthostachys_mollis"],
-    "ambiguity_level": "medium",
-    "usage_context": ["tea", "digestive", "aromatic"]
-    },
-    {
-    "name": "Quina",
-    "normalized": "quina",
-    "language": "es",
-    "country": "PE",
-    "plant_ids": ["cinchona_officinalis"],
-    "ambiguity_level": "medium",
-    "usage_context": ["medicinal", "febrifuge"]
-    },
-    {
-    "name": "Jergón Sacha",
-    "normalized": "jergon_sacha",
-    "language": "es",
-    "country": "PE",
-    "plant_ids": ["dracontium_loretense"],
-    "ambiguity_level": "low",
-    "usage_context": ["medicinal", "snake_antidote"]
-    }
-    ],
-    "geo_distribution": [
-    {
-    "plant_id": "croton_lechleri",
-    "biomes": ["amazon_rainforest"],
-    "countries": ["PE", "EC", "CO", "VE"],
-    "cultural_regions": ["amazonian", "indigenous"]
-    },
-    {
-    "plant_id": "minthostachys_mollis",
-    "biomes": ["andean_highlands"],
-    "countries": ["PE", "BO", "EC"],
-    "cultural_regions": ["andean", "indigenous", "criollo"]
-    },
-    {
-    "plant_id": "cinchona_officinalis",
-    "biomes": ["andean_highlands", "cloud_forest"],
-    "countries": ["PE", "EC", "BO"],
-    "cultural_regions": ["andean"]
-    }
-    ],
-    "uses": [
-    {
-    "plant_id": "croton_lechleri",
-    "categories": {
-    "medicinal": [
-    {
-    "use": "Traditionally used for skin wounds, inflammation, and ulcers",
-    "evidence_level": "clinical_supported",
-    "regions": ["PE", "EC"]
-    }
-    ],
-    "culinary": [],
-    "aromatic": []
-    }
-    },
-    {
-    "plant_id": "minthostachys_mollis",
-    "categories": {
-    "medicinal": [
-    {
-    "use": "Traditionally used for digestive and respiratory problems",
-    "evidence_level": "preliminary_science",
-    "regions": ["LATAM"]
-    }
-    ],
-    "culinary": ["Condiment", "Infusion"],
-    "aromatic": ["Essential oils"]
-    }
-    }
-    ],
-    "safety": [
-    {
-    "plant_id": "croton_lechleri",
-    "contraindications": ["May cause skin irritation in sensitive individuals"],
-    "drug_interactions": ["None reported in traditional use"],
-    "toxicity_level": "low",
-    "lookalike_risk": false,
-    "confused_with": []
-    },
-    {
-    "plant_id": "cinchona_officinalis",
-    "contraindications": ["Vomiting", "Tinnitus", "Convulsions if overdosed"],
-    "drug_interactions": ["Complex alkaloid interactions"],
-    "toxicity_level": "moderate",
-    "lookalike_risk": false,
-    "confused_with": []
-    },
-    {
-    "plant_id": "dracontium_loretense",
-    "contraindications": ["Calcium oxalate crystals can cause severe mucosa irritation"],
-    "drug_interactions": ["Unknown"],
-    "toxicity_level": "high",
-    "lookalike_risk": true,
-    "confused_with": ["other Dracontium species"]
-    }
-   {
-    "plants": [
-    {
-    "id": "uncaria_tomentosa",
+    "common_names": ["Paico"],
+    "uses": ["digestive", "antiparasitic"],
+    "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+  },
+  {
     "scientific_name": "Uncaria tomentosa",
     "family": "Rubiaceae",
-    "genus": "Uncaria",
-    "rank": "species",
-    "origin_regions": ["Amazonian Rainforest"],
-    "native_status": "native",
-    "plant_type": "liana",
-    "primary_uses": ["medicinal"]
-    },
-    {
-    "id": "lepidium_meyenii",
+    "country": "PE",
+    "common_names": ["Uña de gato"],
+    "uses": ["anti-inflammatory", "immune"],
+    "meta": { "source": "peruvian_ethnomedicine", "confidence": "high" }
+  },
+  {
     "scientific_name": "Lepidium meyenii",
     "family": "Brassicaceae",
-    "genus": "Lepidium",
-    "rank": "species",
-    "origin_regions": ["Andean Highlands"],
-    "native_status": "native",
-    "plant_type": "herb",
-    "primary_uses": ["medicinal", "culinary"]
-    },
-    {
-    "id": "bixa_orellana",
-    "scientific_name": "Bixa orellana",
-    "family": "Bixaceae",
-    "genus": "Bixa",
-    "rank": "species",
-    "origin_regions": ["Amazonian Rainforest", "Coastal"],
-    "native_status": "native",
-    "plant_type": "shrub",
-    "primary_uses": ["medicinal", "culinary", "dye"]
-    },
-    {
-    "id": "physalis_angulata",
-    "scientific_name": "Physalis angulata",
-    "family": "Solanaceae",
-    "genus": "Physalis",
-    "rank": "species",
-    "origin_regions": ["Amazonian Rainforest"],
-    "native_status": "native",
-    "plant_type": "herb",
-    "primary_uses": ["medicinal", "culinary"]
-    },
-    {
-    "id": "smallanthus_sonchifolius",
+    "country": "PE",
+    "common_names": ["Maca"],
+    "uses": ["energy", "nutrition"],
+    "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Croton lechleri",
+    "family": "Euphorbiaceae",
+    "country": "PE",
+    "common_names": ["Sangre de grado"],
+    "uses": ["wound healing", "antimicrobial"],
+    "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Baccharis latifolia",
+    "family": "Asteraceae",
+    "country": "PE",
+    "common_names": ["Chilca"],
+    "uses": ["anti-inflammatory"],
+    "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Schinus molle",
+    "family": "Anacardiaceae",
+    "country": "PE",
+    "common_names": ["Molle"],
+    "uses": ["antiseptic", "digestive"],
+    "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Plantago major",
+    "family": "Plantaginaceae",
+    "country": "PE",
+    "common_names": ["Llantén"],
+    "uses": ["wound healing", "anti-inflammatory"],
+    "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Equisetum bogotense",
+    "family": "Equisetaceae",
+    "country": "PE",
+    "common_names": ["Cola de caballo"],
+    "uses": ["diuretic"],
+    "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+  },
+  {
     "scientific_name": "Smallanthus sonchifolius",
     "family": "Asteraceae",
-    "genus": "Smallanthus",
-    "rank": "species",
-    "origin_regions": ["Andean Highlands"],
-    "native_status": "native",
-    "plant_type": "herb",
-    "primary_uses": ["medicinal", "culinary"]
-    },
-    {
-    "id": "plukenetia_volubilis",
-    "scientific_name": "Plukenetia volubilis",
-    "family": "Euphorbiaceae",
-    "genus": "Plukenetia",
-    "rank": "species",
-    "origin_regions": ["Amazonian Rainforest"],
-    "native_status": "native",
-    "plant_type": "climbing shrub",
-    "primary_uses": ["medicinal", "culinary"]
-    },
-    {
-    "id": "gentianella_nitida",
-    "scientific_name": "Gentianella nitida",
-    "family": "Gentianaceae",
-    "genus": "Gentianella",
-    "rank": "species",
-    "origin_regions": ["Andean Highlands"],
-    "native_status": "native",
-    "plant_type": "herb",
-    "primary_uses": ["medicinal"]
-    },
-    {
-    "id": "annona_muricata",
-    "scientific_name": "Annona muricata",
-    "family": "Annonaceae",
-    "genus": "Annona",
-    "rank": "species",
-    "origin_regions": ["Amazonian Rainforest", "Coastal"],
-    "native_status": "native",
-    "plant_type": "tree",
-    "primary_uses": ["medicinal", "culinary"]
-    },
-    {
-    "id": "cyclanthera_pedata",
-    "scientific_name": "Cyclanthera pedata",
-    "family": "Cucurbitaceae",
-    "genus": "Cyclanthera",
-    "rank": "species",
-    "origin_regions": ["Andean Highlands"],
-    "native_status": "native",
-    "plant_type": "climbing herb",
-    "primary_uses": ["medicinal", "culinary"]
-    },
-    {
-    "id": "phyllanthus_niruri",
-    "scientific_name": "Phyllanthus niruri",
-    "family": "Phyllanthaceae",
-    "genus": "Phyllanthus",
-    "rank": "species",
-    "origin_regions": ["Amazonian Rainforest", "Coastal"],
-    "native_status": "native",
-    "plant_type": "herb",
-    "primary_uses": ["medicinal"]
-    }
-    ],
-    "names": [
-    {
-    "name": "Uña de Gato",
-    "normalized": "una_de_gato",
-    "language": "es",
     "country": "PE",
-    "plant_ids": ["uncaria_tomentosa"],
-    "ambiguity_level": "low",
-    "usage_context": ["medicinal", "immunostimulant"]
-    },
-    {
-    "name": "Maca",
-    "normalized": "maca",
-    "language": "es",
+    "common_names": ["Yacón"],
+    "uses": ["digestive", "metabolic"],
+    "meta": { "source": "peruvian_ethnomedicine", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Tagetes minuta",
+    "family": "Asteraceae",
     "country": "PE",
-    "plant_ids": ["lepidium_meyenii"],
-    "ambiguity_level": "low",
-    "usage_context": ["medicinal", "nutritional", "aphrodisiac"]
-    },
-    {
-    "name": "Achiote",
-    "normalized": "achiote",
-    "language": "es",
+    "common_names": ["Huacatay"],
+    "uses": ["digestive", "antimicrobial"],
+    "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Clinopodium bolivianum",
+    "family": "Lamiaceae",
     "country": "PE",
-    "plant_ids": ["bixa_orellana"],
-    "ambiguity_level": "low",
-    "usage_context": ["medicinal", "prostate_health", "dye"]
+    "common_names": ["Kion andino"],
+    "uses": ["digestive"],
+    "meta": { "source": "andean_traditional_medicine", "confidence": "medium" }
+  },
+  
+    {
+      "scientific_name": "Perezia pinnatifida",
+      "family": "Asteraceae",
+      "country": "PE",
+      "common_names": ["Valeriana andina"],
+      "uses": ["nervous system", "sedative"],
+      "meta": { "source": "andean_traditional_medicine", "confidence": "medium" }
     },
     {
-    "name": "Bolsa Mullaca",
-    "normalized": "bolsa_mullaca",
-    "language": "es",
+      "scientific_name": "Gentianella alborosea",
+      "family": "Gentianaceae",
+      "country": "PE",
+      "common_names": ["Hercampuri"],
+      "uses": ["liver", "digestive"],
+      "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Desmodium molliculum",
+      "family": "Fabaceae",
+      "country": "PE",
+      "common_names": ["Manayupa"],
+      "uses": ["detox", "kidney"],
+      "meta": { "source": "peruvian_ethnomedicine", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Annona muricata",
+      "family": "Annonaceae",
+      "country": "PE",
+      "common_names": ["Guanábana"],
+      "uses": ["sedative", "digestive"],
+      "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Ilex guayusa",
+      "family": "Aquifoliaceae",
+      "country": "PE",
+      "common_names": ["Guayusa"],
+      "uses": ["stimulant", "energy"],
+      "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Myrciaria dubia",
+      "family": "Myrtaceae",
+      "country": "PE",
+      "common_names": ["Camu camu"],
+      "uses": ["immune", "antioxidant"],
+      "meta": { "source": "peruvian_ethnomedicine", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Erythroxylum coca",
+      "family": "Erythroxylaceae",
+      "country": "PE",
+      "common_names": ["Coca"],
+      "uses": ["altitude", "digestive", "stimulant"],
+      "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Bidens pilosa",
+      "family": "Asteraceae",
+      "country": "PE",
+      "common_names": ["Amor seco"],
+      "uses": ["anti-inflammatory", "digestive"],
+      "meta": { "source": "peruvian_traditional_use", "confidence": "medium" }
+    },
+    {
+      "scientific_name": "Psidium guajava",
+      "family": "Myrtaceae",
+      "country": "PE",
+      "common_names": ["Guayaba"],
+      "uses": ["antidiarrheal", "digestive"],
+      "meta": { "source": "peruvian_ethnomedicine", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Maytenus macrocarpa",
+      "family": "Celastraceae",
+      "country": "PE",
+      "common_names": ["Chuchuhuasi"],
+      "uses": ["anti-inflammatory", "joint pain"],
+      "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+    },
+    {
+      "scientific_name": "Tabebuia impetiginosa",
+      "family": "Bignoniaceae",
+      "country": "PE",
+      "common_names": ["Lapacho", "Pau d’arco"],
+      "uses": ["immune", "antimicrobial"],
+      "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+    },
+    {
+      "scientific_name": "Passiflora edulis",
+      "family": "Passifloraceae",
+      "country": "PE",
+      "common_names": ["Maracuyá"],
+      "uses": ["sedative", "nervous system"],
+      "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+    },
+    
+      {
+        "scientific_name": "Krameria lappacea",
+        "family": "Krameriaceae",
+        "country": "PE",
+        "common_names": ["Ratania"],
+        "uses": ["oral health", "astringent"],
+        "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+      },
+      {
+        "scientific_name": "Buddleja incana",
+        "family": "Scrophulariaceae",
+        "country": "PE",
+        "common_names": ["Kiswara"],
+        "uses": ["respiratory", "anti-inflammatory"],
+        "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+      },
+      {
+        "scientific_name": "Ambrosia arborescens",
+        "family": "Asteraceae",
+        "country": "PE",
+        "common_names": ["Marco"],
+        "uses": ["digestive", "antiparasitic"],
+        "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+      },
+      {
+        "scientific_name": "Solanum mammosum",
+        "family": "Solanaceae",
+        "country": "PE",
+        "common_names": ["Teta de vaca"],
+        "uses": ["topical", "anti-inflammatory"],
+        "meta": { "source": "peruvian_traditional_use", "confidence": "medium" }
+      },
+      {
+        "scientific_name": "Physalis peruviana",
+        "family": "Solanaceae",
+        "country": "PE",
+        "common_names": ["Aguaymanto"],
+        "uses": ["nutrition", "antioxidant"],
+        "meta": { "source": "peruvian_ethnomedicine", "confidence": "high" }
+      },
+      {
+        "scientific_name": "Capsicum pubescens",
+        "family": "Solanaceae",
+        "country": "PE",
+        "common_names": ["Rocoto"],
+        "uses": ["circulatory", "stimulant"],
+        "meta": { "source": "peruvian_traditional_use", "confidence": "medium" }
+      },
+      {
+        "scientific_name": "Nicotiana rustica",
+        "family": "Solanaceae",
+        "country": "PE",
+        "common_names": ["Tabaco andino"],
+        "uses": ["ritual", "topical"],
+        "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+      },
+      {
+        "scientific_name": "Eucalyptus globulus",
+        "family": "Myrtaceae",
+        "country": "PE",
+        "common_names": ["Eucalipto"],
+        "uses": ["respiratory"],
+        "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+      },
+      {
+        "scientific_name": "Matricaria recutita",
+        "family": "Asteraceae",
+        "country": "PE",
+        "common_names": ["Manzanilla"],
+        "uses": ["digestive", "calming"],
+        "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+      },
+      {
+        "scientific_name": "Ruta graveolens",
+        "family": "Rutaceae",
+        "country": "PE",
+        "common_names": ["Ruda"],
+        "uses": ["digestive", "ritual"],
+        "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+      },
+      {
+        "scientific_name": "Sambucus peruviana",
+        "family": "Adoxaceae",
+        "country": "PE",
+        "common_names": ["Sauco"],
+        "uses": ["respiratory", "immune"],
+        "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+      },
+      {
+        "scientific_name": "Opuntia ficus-indica",
+        "family": "Cactaceae",
+        "country": "PE",
+        "common_names": ["Tuna"],
+        "uses": ["metabolic", "digestive"],
+        "meta": { "source": "peruvian_ethnomedicine", "confidence": "high" }
+      },
+      
+        {
+          "scientific_name": "Perezia coerulescens",
+          "family": "Asteraceae",
+          "country": "PE",
+          "common_names": ["Valeriana andina"],
+          "uses": ["nervous system", "sedative"],
+          "meta": { "source": "andean_traditional_medicine", "confidence": "medium" }
+        },
+        {
+          "scientific_name": "Gentianella nitida",
+          "family": "Gentianaceae",
+          "country": "PE",
+          "common_names": ["Hercampuri (var.)"],
+          "uses": ["liver", "digestive"],
+          "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+        },
+        {
+          "scientific_name": "Muehlenbeckia volcanica",
+          "family": "Polygonaceae",
+          "country": "PE",
+          "common_names": ["Mullaca"],
+          "uses": ["kidney", "urinary"],
+          "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+        },
+        {
+          "scientific_name": "Geranium dielsianum",
+          "family": "Geraniaceae",
+          "country": "PE",
+          "common_names": ["Pasuchaca"],
+          "uses": ["metabolic", "diabetes"],
+          "meta": { "source": "peruvian_ethnomedicine", "confidence": "high" }
+        },
+        {
+          "scientific_name": "Oenothera rosea",
+          "family": "Onagraceae",
+          "country": "PE",
+          "common_names": ["Chupasangre"],
+          "uses": ["wound healing", "anti-inflammatory"],
+          "meta": { "source": "andean_traditional_medicine", "confidence": "medium" }
+        },
+        {
+          "scientific_name": "Alternanthera pungens",
+          "family": "Amaranthaceae",
+          "country": "PE",
+          "common_names": ["Sanguinaria"],
+          "uses": ["anti-inflammatory"],
+          "meta": { "source": "peruvian_traditional_use", "confidence": "medium" }
+        },
+        {
+          "scientific_name": "Jatropha curcas",
+          "family": "Euphorbiaceae",
+          "country": "PE",
+          "common_names": ["Piñón"],
+          "uses": ["topical", "anti-inflammatory"],
+          "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+        },
+        {
+          "scientific_name": "Himatanthus sucuuba",
+          "family": "Apocynaceae",
+          "country": "PE",
+          "common_names": ["Bellaco caspi"],
+          "uses": ["anti-inflammatory", "analgesic"],
+          "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+        },
+        {
+          "scientific_name": "Croton draconoides",
+          "family": "Euphorbiaceae",
+          "country": "PE",
+          "common_names": ["Sangre de drago (var.)"],
+          "uses": ["wound healing"],
+          "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+        },
+        {
+          "scientific_name": "Aspidosperma excelsum",
+          "family": "Apocynaceae",
+          "country": "PE",
+          "common_names": ["Remo caspi"],
+          "uses": ["fever", "antimalarial"],
+          "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+        },
+        {
+          "scientific_name": "Banisteriopsis caapi",
+          "family": "Malpighiaceae",
+          "country": "PE",
+          "common_names": ["Ayahuasca"],
+          "uses": ["ritual", "nervous system"],
+          "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+        },
+        {
+          "scientific_name": "Justicia pectoralis",
+          "family": "Acanthaceae",
+          "country": "PE",
+          "common_names": ["Tilo amazónico"],
+          "uses": ["sedative", "respiratory"],
+          "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+        },
+        
+          {
+            "scientific_name": "Senecio canescens",
+            "family": "Asteraceae",
+            "country": "PE",
+            "common_names": ["Huamanripa"],
+            "uses": ["respiratory", "anti-inflammatory"],
+            "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+          },
+          {
+            "scientific_name": "Senecio tephrosioides",
+            "family": "Asteraceae",
+            "country": "PE",
+            "common_names": ["Huamanripa (var.)"],
+            "uses": ["respiratory"],
+            "meta": { "source": "andean_traditional_medicine", "confidence": "medium" }
+          },
+          {
+            "scientific_name": "Hypochaeris taraxacoides",
+            "family": "Asteraceae",
+            "country": "PE",
+            "common_names": ["Achicoria silvestre"],
+            "uses": ["digestive", "liver"],
+            "meta": { "source": "andean_traditional_medicine", "confidence": "medium" }
+          },
+          {
+            "scientific_name": "Taraxacum officinale",
+            "family": "Asteraceae",
+            "country": "PE",
+            "common_names": ["Diente de león"],
+            "uses": ["liver", "digestive"],
+            "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+          },
+          {
+            "scientific_name": "Urtica dioica",
+            "family": "Urticaceae",
+            "country": "PE",
+            "common_names": ["Ortiga"],
+            "uses": ["anti-inflammatory", "diuretic"],
+            "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+          },
+          {
+            "scientific_name": "Rumex crispus",
+            "family": "Polygonaceae",
+            "country": "PE",
+            "common_names": ["Lengua de vaca"],
+            "uses": ["digestive", "skin"],
+            "meta": { "source": "peruvian_traditional_use", "confidence": "medium" }
+          },
+          {
+            "scientific_name": "Malva parviflora",
+            "family": "Malvaceae",
+            "country": "PE",
+            "common_names": ["Malva"],
+            "uses": ["respiratory", "digestive"],
+            "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+          },
+          {
+            "scientific_name": "Malva sylvestris",
+            "family": "Malvaceae",
+            "country": "PE",
+            "common_names": ["Malva común"],
+            "uses": ["respiratory"],
+            "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+          },
+          {
+            "scientific_name": "Borago officinalis",
+            "family": "Boraginaceae",
+            "country": "PE",
+            "common_names": ["Borraja"],
+            "uses": ["anti-inflammatory", "respiratory"],
+            "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+          },
+          {
+            "scientific_name": "Plantago lanceolata",
+            "family": "Plantaginaceae",
+            "country": "PE",
+            "common_names": ["Llantén menor"],
+            "uses": ["respiratory", "wound healing"],
+            "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+          },
+          {
+            "scientific_name": "Achyrocline alata",
+            "family": "Asteraceae",
+            "country": "PE",
+            "common_names": ["Wira wira"],
+            "uses": ["respiratory", "cold"],
+            "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+          },
+          {
+            "scientific_name": "Gnaphalium dombeyanum",
+            "family": "Asteraceae",
+            "country": "PE",
+            "common_names": ["Wira wira (var.)"],
+            "uses": ["respiratory"],
+            "meta": { "source": "andean_traditional_medicine", "confidence": "medium" }
+          },
+          
+            {
+              "scientific_name": "Senecio canescens",
+              "family": "Asteraceae",
+              "country": "PE",
+              "common_names": ["Huamanripa"],
+              "uses": ["respiratory", "anti-inflammatory"],
+              "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+            },
+            {
+              "scientific_name": "Senecio tephrosioides",
+              "family": "Asteraceae",
+              "country": "PE",
+              "common_names": ["Huamanripa (var.)"],
+              "uses": ["respiratory"],
+              "meta": { "source": "andean_traditional_medicine", "confidence": "medium" }
+            },
+            {
+              "scientific_name": "Hypochaeris taraxacoides",
+              "family": "Asteraceae",
+              "country": "PE",
+              "common_names": ["Achicoria silvestre"],
+              "uses": ["digestive", "liver"],
+              "meta": { "source": "andean_traditional_medicine", "confidence": "medium" }
+            },
+            {
+              "scientific_name": "Taraxacum officinale",
+              "family": "Asteraceae",
+              "country": "PE",
+              "common_names": ["Diente de león"],
+              "uses": ["liver", "digestive"],
+              "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+            },
+            {
+              "scientific_name": "Urtica dioica",
+              "family": "Urticaceae",
+              "country": "PE",
+              "common_names": ["Ortiga"],
+              "uses": ["anti-inflammatory", "diuretic"],
+              "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+            },
+            {
+              "scientific_name": "Rumex crispus",
+              "family": "Polygonaceae",
+              "country": "PE",
+              "common_names": ["Lengua de vaca"],
+              "uses": ["digestive", "skin"],
+              "meta": { "source": "peruvian_traditional_use", "confidence": "medium" }
+            },
+            {
+              "scientific_name": "Malva parviflora",
+              "family": "Malvaceae",
+              "country": "PE",
+              "common_names": ["Malva"],
+              "uses": ["respiratory", "digestive"],
+              "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+            },
+            {
+              "scientific_name": "Malva sylvestris",
+              "family": "Malvaceae",
+              "country": "PE",
+              "common_names": ["Malva común"],
+              "uses": ["respiratory"],
+              "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+            },
+            {
+              "scientific_name": "Borago officinalis",
+              "family": "Boraginaceae",
+              "country": "PE",
+              "common_names": ["Borraja"],
+              "uses": ["anti-inflammatory", "respiratory"],
+              "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+            },
+            {
+              "scientific_name": "Plantago lanceolata",
+              "family": "Plantaginaceae",
+              "country": "PE",
+              "common_names": ["Llantén menor"],
+              "uses": ["respiratory", "wound healing"],
+              "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+            },
+            {
+              "scientific_name": "Achyrocline alata",
+              "family": "Asteraceae",
+              "country": "PE",
+              "common_names": ["Wira wira"],
+              "uses": ["respiratory", "cold"],
+              "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+            },
+            {
+              "scientific_name": "Gnaphalium dombeyanum",
+              "family": "Asteraceae",
+              "country": "PE",
+              "common_names": ["Wira wira (var.)"],
+              "uses": ["respiratory"],
+              "meta": { "source": "andean_traditional_medicine", "confidence": "medium" }
+            },
+            
+              {
+                "scientific_name": "Valeriana pilosa",
+                "family": "Caprifoliaceae",
+                "country": "PE",
+                "common_names": ["Valeriana"],
+                "uses": ["nervous system", "sedative"],
+                "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+              },
+              {
+                "scientific_name": "Valeriana officinalis",
+                "family": "Caprifoliaceae",
+                "country": "PE",
+                "common_names": ["Valeriana común"],
+                "uses": ["sedative", "sleep"],
+                "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+              },
+              {
+                "scientific_name": "Hypericum laricifolium",
+                "family": "Hypericaceae",
+                "country": "PE",
+                "common_names": ["Hierba de San Juan andina"],
+                "uses": ["nervous system", "anti-inflammatory"],
+                "meta": { "source": "andean_traditional_medicine", "confidence": "medium" }
+              },
+              {
+                "scientific_name": "Hypericum perforatum",
+                "family": "Hypericaceae",
+                "country": "PE",
+                "common_names": ["Hierba de San Juan"],
+                "uses": ["nervous system", "mood"],
+                "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+              },
+              {
+                "scientific_name": "Passiflora ligularis",
+                "family": "Passifloraceae",
+                "country": "PE",
+                "common_names": ["Granadilla"],
+                "uses": ["sedative", "digestive"],
+                "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+              },
+              {
+                "scientific_name": "Cestrum auriculatum",
+                "family": "Solanaceae",
+                "country": "PE",
+                "common_names": ["Hierba hedionda"],
+                "uses": ["analgesic", "anti-inflammatory"],
+                "meta": { "source": "andean_traditional_medicine", "confidence": "medium" }
+              },
+              {
+                "scientific_name": "Brugmansia arborea",
+                "family": "Solanaceae",
+                "country": "PE",
+                "common_names": ["Floripondio"],
+                "uses": ["ritual", "analgesic"],
+                "meta": { "source": "andean_traditional_medicine", "confidence": "medium" }
+              },
+              {
+                "scientific_name": "Datura stramonium",
+                "family": "Solanaceae",
+                "country": "PE",
+                "common_names": ["Chamico"],
+                "uses": ["analgesic", "ritual"],
+                "meta": { "source": "peruvian_traditional_use", "confidence": "medium" }
+              },
+              {
+                "scientific_name": "Solanum americanum",
+                "family": "Solanaceae",
+                "country": "PE",
+                "common_names": ["Hierba mora"],
+                "uses": ["anti-inflammatory", "topical"],
+                "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+              },
+              {
+                "scientific_name": "Bixa orellana",
+                "family": "Bixaceae",
+                "country": "PE",
+                "common_names": ["Achiote"],
+                "uses": ["skin", "anti-inflammatory"],
+                "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+              },
+              {
+                "scientific_name": "Annona cherimola",
+                "family": "Annonaceae",
+                "country": "PE",
+                "common_names": ["Chirimoya"],
+                "uses": ["digestive", "sedative"],
+                "meta": { "source": "peruvian_traditional_use", "confidence": "medium" }
+              },
+              {
+                "scientific_name": "Annona squamosa",
+                "family": "Annonaceae",
+                "country": "PE",
+                "common_names": ["Anona"],
+                "uses": ["digestive"],
+                "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+              },
+              
+                {
+                  "scientific_name": "Costus scaber",
+                  "family": "Costaceae",
+                  "country": "PE",
+                  "common_names": ["Caña agria"],
+                  "uses": ["kidney", "diuretic"],
+                  "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                },
+                {
+                  "scientific_name": "Costus spicatus",
+                  "family": "Costaceae",
+                  "country": "PE",
+                  "common_names": ["Caña de mono"],
+                  "uses": ["urinary", "anti-inflammatory"],
+                  "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                },
+                {
+                  "scientific_name": "Zingiber officinale",
+                  "family": "Zingiberaceae",
+                  "country": "PE",
+                  "common_names": ["Kion", "Jengibre"],
+                  "uses": ["digestive", "anti-inflammatory"],
+                  "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                },
+                {
+                  "scientific_name": "Curcuma longa",
+                  "family": "Zingiberaceae",
+                  "country": "PE",
+                  "common_names": ["Cúrcuma"],
+                  "uses": ["anti-inflammatory", "digestive"],
+                  "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                },
+                {
+                  "scientific_name": "Piper aduncum",
+                  "family": "Piperaceae",
+                  "country": "PE",
+                  "common_names": ["Matico"],
+                  "uses": ["wound healing", "antimicrobial"],
+                  "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                },
+                {
+                  "scientific_name": "Piper elongatum",
+                  "family": "Piperaceae",
+                  "country": "PE",
+                  "common_names": ["Matico (var.)"],
+                  "uses": ["respiratory", "antimicrobial"],
+                  "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+                },
+                {
+                  "scientific_name": "Piper umbellatum",
+                  "family": "Piperaceae",
+                  "country": "PE",
+                  "common_names": ["Santa María"],
+                  "uses": ["anti-inflammatory", "skin"],
+                  "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+                },
+                {
+                  "scientific_name": "Hedyosmum racemosum",
+                  "family": "Chloranthaceae",
+                  "country": "PE",
+                  "common_names": ["Sachainchi hoja"],
+                  "uses": ["respiratory", "digestive"],
+                  "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+                },
+                {
+                  "scientific_name": "Dracontium loretense",
+                  "family": "Araceae",
+                  "country": "PE",
+                  "common_names": ["Jergón sacha"],
+                  "uses": ["anti-inflammatory", "analgesic"],
+                  "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                },
+                {
+                  "scientific_name": "Hura crepitans",
+                  "family": "Euphorbiaceae",
+                  "country": "PE",
+                  "common_names": ["Catahua"],
+                  "uses": ["topical", "antiparasitic"],
+                  "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+                },
+                {
+                  "scientific_name": "Virola sebifera",
+                  "family": "Myristicaceae",
+                  "country": "PE",
+                  "common_names": ["Cumala"],
+                  "uses": ["ritual", "stimulant"],
+                  "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+                },
+                {
+                  "scientific_name": "Iryanthera juruensis",
+                  "family": "Myristicaceae",
+                  "country": "PE",
+                  "common_names": ["Cumala (var.)"],
+                  "uses": ["ritual"],
+                  "meta": { "source": "amazonian_traditional_use", "confidence": "low" }
+                },
+                
+                  {
+                    "scientific_name": "Maytenus laevis",
+                    "family": "Celastraceae",
+                    "country": "PE",
+                    "common_names": ["Chuchuhuasi (var.)"],
+                    "uses": ["anti-inflammatory", "joint pain"],
+                    "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+                  },
+                  {
+                    "scientific_name": "Maytenus krukovii",
+                    "family": "Celastraceae",
+                    "country": "PE",
+                    "common_names": ["Chuchuhuasi (amazonico)"],
+                    "uses": ["anti-inflammatory"],
+                    "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                  },
+                  {
+                    "scientific_name": "Himatanthus articulatus",
+                    "family": "Apocynaceae",
+                    "country": "PE",
+                    "common_names": ["Bellaco caspi (var.)"],
+                    "uses": ["analgesic", "anti-inflammatory"],
+                    "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                  },
+                  {
+                    "scientific_name": "Geissospermum reticulatum",
+                    "family": "Apocynaceae",
+                    "country": "PE",
+                    "common_names": ["Pau pereira"],
+                    "uses": ["fever", "immune"],
+                    "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+                  },
+                  {
+                    "scientific_name": "Aspidosperma rigidum",
+                    "family": "Apocynaceae",
+                    "country": "PE",
+                    "common_names": ["Quina quina"],
+                    "uses": ["antimalarial", "fever"],
+                    "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                  },
+                  {
+                    "scientific_name": "Cinchona officinalis",
+                    "family": "Rubiaceae",
+                    "country": "PE",
+                    "common_names": ["Quina"],
+                    "uses": ["antimalarial", "fever"],
+                    "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+                  },
+                  {
+                    "scientific_name": "Cinchona pubescens",
+                    "family": "Rubiaceae",
+                    "country": "PE",
+                    "common_names": ["Quina roja"],
+                    "uses": ["fever", "tonic"],
+                    "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+                  },
+                  {
+                    "scientific_name": "Cinchona calisaya",
+                    "family": "Rubiaceae",
+                    "country": "PE",
+                    "common_names": ["Calisaya"],
+                    "uses": ["digestive", "fever"],
+                    "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+                  },
+                  {
+                    "scientific_name": "Juglans neotropica",
+                    "family": "Juglandaceae",
+                    "country": "PE",
+                    "common_names": ["Nogal andino"],
+                    "uses": ["antimicrobial", "skin"],
+                    "meta": { "source": "andean_traditional_medicine", "confidence": "medium" }
+                  },
+                  {
+                    "scientific_name": "Berberis vulgaris",
+                    "family": "Berberidaceae",
+                    "country": "PE",
+                    "common_names": ["Agracejo"],
+                    "uses": ["digestive", "liver"],
+                    "meta": { "source": "peruvian_traditional_use", "confidence": "medium" }
+                  },
+                  {
+                    "scientific_name": "Berberis lutea",
+                    "family": "Berberidaceae",
+                    "country": "PE",
+                    "common_names": ["Agracejo andino"],
+                    "uses": ["liver", "digestive"],
+                    "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+                  },
+                  {
+                    "scientific_name": "Polylepis racemosa",
+                    "family": "Rosaceae",
+                    "country": "PE",
+                    "common_names": ["Queñua"],
+                    "uses": ["respiratory", "anti-inflammatory"],
+                    "meta": { "source": "andean_traditional_medicine", "confidence": "medium" }
+                  },
+                  
+                    {
+                      "scientific_name": "Polylepis incana",
+                      "family": "Rosaceae",
+                      "country": "PE",
+                      "common_names": ["Queñua (var.)"],
+                      "uses": ["respiratory"],
+                      "meta": { "source": "andean_traditional_medicine", "confidence": "medium" }
+                    },
+                    {
+                      "scientific_name": "Alnus acuminata",
+                      "family": "Betulaceae",
+                      "country": "PE",
+                      "common_names": ["Aliso"],
+                      "uses": ["anti-inflammatory", "wound healing"],
+                      "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+                    },
+                    {
+                      "scientific_name": "Bixa orellana",
+                      "family": "Bixaceae",
+                      "country": "PE",
+                      "common_names": ["Achiote"],
+                      "uses": ["skin", "anti-inflammatory"],
+                      "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                    },
+                    {
+                      "scientific_name": "Genipa americana",
+                      "family": "Rubiaceae",
+                      "country": "PE",
+                      "common_names": ["Huito"],
+                      "uses": ["skin", "antimicrobial"],
+                      "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                    },
+                    {
+                      "scientific_name": "Mauritia flexuosa",
+                      "family": "Arecaceae",
+                      "country": "PE",
+                      "common_names": ["Aguaje"],
+                      "uses": ["nutrition", "skin"],
+                      "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                    },
+                    {
+                      "scientific_name": "Euterpe precatoria",
+                      "family": "Arecaceae",
+                      "country": "PE",
+                      "common_names": ["Açaí amazónico"],
+                      "uses": ["nutrition", "antioxidant"],
+                      "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                    },
+                    {
+                      "scientific_name": "Theobroma cacao",
+                      "family": "Malvaceae",
+                      "country": "PE",
+                      "common_names": ["Cacao"],
+                      "uses": ["stimulant", "nutrition"],
+                      "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                    },
+                    {
+                      "scientific_name": "Theobroma grandiflorum",
+                      "family": "Malvaceae",
+                      "country": "PE",
+                      "common_names": ["Copoazú"],
+                      "uses": ["nutrition", "skin"],
+                      "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                    },
+                    {
+                      "scientific_name": "Plukenetia volubilis",
+                      "family": "Euphorbiaceae",
+                      "country": "PE",
+                      "common_names": ["Sacha inchi"],
+                      "uses": ["nutrition", "cardiovascular"],
+                      "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                    },
+                    {
+                      "scientific_name": "Bertholletia excelsa",
+                      "family": "Lecythidaceae",
+                      "country": "PE",
+                      "common_names": ["Castaña amazónica"],
+                      "uses": ["nutrition"],
+                      "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                    },
+                    {
+                      "scientific_name": "Carapa guianensis",
+                      "family": "Meliaceae",
+                      "country": "PE",
+                      "common_names": ["Andiroba"],
+                      "uses": ["anti-inflammatory", "insect repellent"],
+                      "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                    },
+                    {
+                      "scientific_name": "Copaifera officinalis",
+                      "family": "Fabaceae",
+                      "country": "PE",
+                      "common_names": ["Copaiba"],
+                      "uses": ["anti-inflammatory", "antimicrobial"],
+                      "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                    },
+                  
+                      {
+                        "scientific_name": "Cedrela odorata",
+                        "family": "Meliaceae",
+                        "country": "PE",
+                        "common_names": ["Cedro"],
+                        "uses": ["antimicrobial", "fever"],
+                        "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+                      },
+                      {
+                        "scientific_name": "Swietenia macrophylla",
+                        "family": "Meliaceae",
+                        "country": "PE",
+                        "common_names": ["Caoba"],
+                        "uses": ["digestive", "tonic"],
+                        "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+                      },
+                      {
+                        "scientific_name": "Guazuma ulmifolia",
+                        "family": "Malvaceae",
+                        "country": "PE",
+                        "common_names": ["Guácimo"],
+                        "uses": ["digestive", "skin"],
+                        "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                      },
+                      {
+                        "scientific_name": "Ochroma pyramidale",
+                        "family": "Malvaceae",
+                        "country": "PE",
+                        "common_names": ["Balsa"],
+                        "uses": ["respiratory", "anti-inflammatory"],
+                        "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+                      },
+                      {
+                        "scientific_name": "Cecropia peltata",
+                        "family": "Urticaceae",
+                        "country": "PE",
+                        "common_names": ["Cetico"],
+                        "uses": ["respiratory", "cardiovascular"],
+                        "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                      },
+                      {
+                        "scientific_name": "Cecropia membranacea",
+                        "family": "Urticaceae",
+                        "country": "PE",
+                        "common_names": ["Cetico (var.)"],
+                        "uses": ["respiratory"],
+                        "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+                      },
+                      {
+                        "scientific_name": "Ficus insipida",
+                        "family": "Moraceae",
+                        "country": "PE",
+                        "common_names": ["Ojé"],
+                        "uses": ["antiparasitic"],
+                        "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                      },
+                      {
+                        "scientific_name": "Ficus maxima",
+                        "family": "Moraceae",
+                        "country": "PE",
+                        "common_names": ["Ojé (var.)"],
+                        "uses": ["antiparasitic"],
+                        "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+                      },
+                      {
+                        "scientific_name": "Brosimum alicastrum",
+                        "family": "Moraceae",
+                        "country": "PE",
+                        "common_names": ["Ramón"],
+                        "uses": ["nutrition"],
+                        "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+                      },
+                      {
+                        "scientific_name": "Pourouma cecropiifolia",
+                        "family": "Urticaceae",
+                        "country": "PE",
+                        "common_names": ["Uvilla"],
+                        "uses": ["nutrition"],
+                        "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                      },
+                      {
+                        "scientific_name": "Annona muricata",
+                        "family": "Annonaceae",
+                        "country": "PE",
+                        "common_names": ["Guanábana"],
+                        "uses": ["sedative", "digestive"],
+                        "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                      },
+                      {
+                        "scientific_name": "Rollinia mucosa",
+                        "family": "Annonaceae",
+                        "country": "PE",
+                        "common_names": ["Anona amazónica"],
+                        "uses": ["nutrition"],
+                        "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+                      },
+                      
+                        {
+                          "scientific_name": "Inga edulis",
+                          "family": "Fabaceae",
+                          "country": "PE",
+                          "common_names": ["Guaba"],
+                          "uses": ["nutrition", "digestive"],
+                          "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                        },
+                        {
+                          "scientific_name": "Inga feuilleei",
+                          "family": "Fabaceae",
+                          "country": "PE",
+                          "common_names": ["Pacay"],
+                          "uses": ["nutrition"],
+                          "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                        },
+                        {
+                          "scientific_name": "Erythrina edulis",
+                          "family": "Fabaceae",
+                          "country": "PE",
+                          "common_names": ["Pajuro"],
+                          "uses": ["nutrition"],
+                          "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+                        },
+                        {
+                          "scientific_name": "Phaseolus lunatus",
+                          "family": "Fabaceae",
+                          "country": "PE",
+                          "common_names": ["Pallar"],
+                          "uses": ["nutrition"],
+                          "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                        },
+                        {
+                          "scientific_name": "Arachis hypogaea",
+                          "family": "Fabaceae",
+                          "country": "PE",
+                          "common_names": ["Maní"],
+                          "uses": ["nutrition"],
+                          "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                        },
+                        {
+                          "scientific_name": "Prosopis pallida",
+                          "family": "Fabaceae",
+                          "country": "PE",
+                          "common_names": ["Algarrobo"],
+                          "uses": ["digestive", "nutrition"],
+                          "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                        },
+                        {
+                          "scientific_name": "Caesalpinia spinosa",
+                          "family": "Fabaceae",
+                          "country": "PE",
+                          "common_names": ["Tara"],
+                          "uses": ["astringent", "digestive"],
+                          "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+                        },
+                        {
+                          "scientific_name": "Senna alexandrina",
+                          "family": "Fabaceae",
+                          "country": "PE",
+                          "common_names": ["Sen"],
+                          "uses": ["laxative"],
+                          "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                        },
+                        {
+                          "scientific_name": "Senna occidentalis",
+                          "family": "Fabaceae",
+                          "country": "PE",
+                          "common_names": ["Café negro"],
+                          "uses": ["digestive", "laxative"],
+                          "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+                        },
+                        {
+                          "scientific_name": "Mimosa pudica",
+                          "family": "Fabaceae",
+                          "country": "PE",
+                          "common_names": ["Dormilona"],
+                          "uses": ["anti-inflammatory", "wound healing"],
+                          "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                        },
+                        {
+                          "scientific_name": "Acacia macracantha",
+                          "family": "Fabaceae",
+                          "country": "PE",
+                          "common_names": ["Huarango"],
+                          "uses": ["astringent", "antimicrobial"],
+                          "meta": { "source": "peruvian_traditional_use", "confidence": "medium" }
+                        },
+                        {
+                          "scientific_name": "Parkia panurensis",
+                          "family": "Fabaceae",
+                          "country": "PE",
+                          "common_names": ["Pashaco"],
+                          "uses": ["nutrition"],
+                          "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+                        },
+                      
+                        
+                          {
+                            "scientific_name": "Solanum tuberosum",
+                            "family": "Solanaceae",
+                            "country": "PE",
+                            "common_names": ["Papa"],
+                            "uses": ["nutrition", "skin"],
+                            "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+                          },
+                          {
+                            "scientific_name": "Oxalis tuberosa",
+                            "family": "Oxalidaceae",
+                            "country": "PE",
+                            "common_names": ["Oca"],
+                            "uses": ["nutrition"],
+                            "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+                          },
+                          {
+                            "scientific_name": "Tropaeolum tuberosum",
+                            "family": "Tropaeolaceae",
+                            "country": "PE",
+                            "common_names": ["Mashua"],
+                            "uses": ["antimicrobial", "urinary"],
+                            "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+                          },
+                          {
+                            "scientific_name": "Ullucus tuberosus",
+                            "family": "Basellaceae",
+                            "country": "PE",
+                            "common_names": ["Olluco"],
+                            "uses": ["nutrition"],
+                            "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+                          },
+                          {
+                            "scientific_name": "Arracacia xanthorrhiza",
+                            "family": "Apiaceae",
+                            "country": "PE",
+                            "common_names": ["Arracacha"],
+                            "uses": ["digestive", "nutrition"],
+                            "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+                          },
+                          {
+                            "scientific_name": "Ipomoea batatas",
+                            "family": "Convolvulaceae",
+                            "country": "PE",
+                            "common_names": ["Camote"],
+                            "uses": ["nutrition"],
+                            "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                          },
+                          {
+                            "scientific_name": "Cucurbita maxima",
+                            "family": "Cucurbitaceae",
+                            "country": "PE",
+                            "common_names": ["Zapallo"],
+                            "uses": ["nutrition", "digestive"],
+                            "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                          },
+                          {
+                            "scientific_name": "Cyclanthera pedata",
+                            "family": "Cucurbitaceae",
+                            "country": "PE",
+                            "common_names": ["Caigua"],
+                            "uses": ["cardiovascular", "metabolic"],
+                            "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                          },
+                          {
+                            "scientific_name": "Sechium edule",
+                            "family": "Cucurbitaceae",
+                            "country": "PE",
+                            "common_names": ["Chayote"],
+                            "uses": ["digestive", "diuretic"],
+                            "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                          },
+                          {
+                            "scientific_name": "Citrullus lanatus",
+                            "family": "Cucurbitaceae",
+                            "country": "PE",
+                            "common_names": ["Sandía"],
+                            "uses": ["diuretic", "nutrition"],
+                            "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                          },
+                          {
+                            "scientific_name": "Carica papaya",
+                            "family": "Caricaceae",
+                            "country": "PE",
+                            "common_names": ["Papaya"],
+                            "uses": ["digestive", "antiparasitic"],
+                            "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                          },
+                          {
+                            "scientific_name": "Vasconcellea pubescens",
+                            "family": "Caricaceae",
+                            "country": "PE",
+                            "common_names": ["Papaya andina"],
+                            "uses": ["digestive"],
+                            "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+                          },
+                          
+                            {
+                              "scientific_name": "Capsicum baccatum",
+                              "family": "Solanaceae",
+                              "country": "PE",
+                              "common_names": ["Ají amarillo"],
+                              "uses": ["digestive", "circulatory"],
+                              "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                            },
+                            {
+                              "scientific_name": "Capsicum chinense",
+                              "family": "Solanaceae",
+                              "country": "PE",
+                              "common_names": ["Ají limo"],
+                              "uses": ["digestive", "stimulant"],
+                              "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                            },
+                            {
+                              "scientific_name": "Capsicum annuum",
+                              "family": "Solanaceae",
+                              "country": "PE",
+                              "common_names": ["Ají panca"],
+                              "uses": ["digestive"],
+                              "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                            },
+                            {
+                              "scientific_name": "Lycopersicon esculentum",
+                              "family": "Solanaceae",
+                              "country": "PE",
+                              "common_names": ["Tomate"],
+                              "uses": ["nutrition", "antioxidant"],
+                              "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                            },
+                            {
+                              "scientific_name": "Solanum lycopersicum",
+                              "family": "Solanaceae",
+                              "country": "PE",
+                              "common_names": ["Tomate (moderno)"],
+                              "uses": ["nutrition"],
+                              "meta": { "source": "modern_classification", "confidence": "high" }
+                            },
+                            {
+                              "scientific_name": "Solanum betaceum",
+                              "family": "Solanaceae",
+                              "country": "PE",
+                              "common_names": ["Tomate de árbol"],
+                              "uses": ["antioxidant", "nutrition"],
+                              "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+                            },
+                            {
+                              "scientific_name": "Capsicum frutescens",
+                              "family": "Solanaceae",
+                              "country": "PE",
+                              "common_names": ["Ají charapita"],
+                              "uses": ["stimulant", "digestive"],
+                              "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                            },
+                            {
+                              "scientific_name": "Physalis angulata",
+                              "family": "Solanaceae",
+                              "country": "PE",
+                              "common_names": ["Bolsa mullaca"],
+                              "uses": ["anti-inflammatory", "metabolic"],
+                              "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+                            },
+                            {
+                              "scientific_name": "Brugmansia suaveolens",
+                              "family": "Solanaceae",
+                              "country": "PE",
+                              "common_names": ["Floripondio (var.)"],
+                              "uses": ["ritual", "analgesic"],
+                              "meta": { "source": "andean_traditional_medicine", "confidence": "medium" }
+                            },
+                            {
+                              "scientific_name": "Datura inoxia",
+                              "family": "Solanaceae",
+                              "country": "PE",
+                              "common_names": ["Chamico (var.)"],
+                              "uses": ["ritual", "analgesic"],
+                              "meta": { "source": "peruvian_traditional_use", "confidence": "medium" }
+                            },
+                            {
+                              "scientific_name": "Nicotiana tabacum",
+                              "family": "Solanaceae",
+                              "country": "PE",
+                              "common_names": ["Tabaco"],
+                              "uses": ["ritual", "topical"],
+                              "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                            },
+                            {
+                              "scientific_name": "Cestrum nocturnum",
+                              "family": "Solanaceae",
+                              "country": "PE",
+                              "common_names": ["Dama de noche"],
+                              "uses": ["sedative", "respiratory"],
+                              "meta": { "source": "peruvian_traditional_use", "confidence": "medium" }
+                            },
+                            
+                              {
+                                "scientific_name": "Allium sativum",
+                                "family": "Amaryllidaceae",
+                                "country": "PE",
+                                "common_names": ["Ajo"],
+                                "uses": ["cardiovascular", "antimicrobial"],
+                                "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                              },
+                              {
+                                "scientific_name": "Allium cepa",
+                                "family": "Amaryllidaceae",
+                                "country": "PE",
+                                "common_names": ["Cebolla"],
+                                "uses": ["respiratory", "antimicrobial"],
+                                "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                              },
+                              {
+                                "scientific_name": "Allium fistulosum",
+                                "family": "Amaryllidaceae",
+                                "country": "PE",
+                                "common_names": ["Cebolla china"],
+                                "uses": ["digestive"],
+                                "meta": { "source": "peruvian_traditional_use", "confidence": "medium" }
+                              },
+                              {
+                                "scientific_name": "Allium schoenoprasum",
+                                "family": "Amaryllidaceae",
+                                "country": "PE",
+                                "common_names": ["Cebollín"],
+                                "uses": ["digestive"],
+                                "meta": { "source": "modern_peru_use", "confidence": "medium" }
+                              },
+                              {
+                                "scientific_name": "Aloe vera",
+                                "family": "Asphodelaceae",
+                                "country": "PE",
+                                "common_names": ["Sábila"],
+                                "uses": ["skin", "digestive"],
+                                "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                              },
+                              {
+                                "scientific_name": "Agave americana",
+                                "family": "Asparagaceae",
+                                "country": "PE",
+                                "common_names": ["Maguey"],
+                                "uses": ["digestive", "fermentation"],
+                                "meta": { "source": "andean_traditional_medicine", "confidence": "medium" }
+                              },
+                              {
+                                "scientific_name": "Furcraea andina",
+                                "family": "Asparagaceae",
+                                "country": "PE",
+                                "common_names": ["Cabuya"],
+                                "uses": ["wound healing", "fiber"],
+                                "meta": { "source": "andean_traditional_medicine", "confidence": "medium" }
+                              },
+                              {
+                                "scientific_name": "Asparagus officinalis",
+                                "family": "Asparagaceae",
+                                "country": "PE",
+                                "common_names": ["Espárrago"],
+                                "uses": ["diuretic", "nutrition"],
+                                "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                              },
+                              {
+                                "scientific_name": "Smilax officinalis",
+                                "family": "Smilacaceae",
+                                "country": "PE",
+                                "common_names": ["Zarzaparrilla"],
+                                "uses": ["detox", "skin"],
+                                "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                              },
+                              {
+                                "scientific_name": "Dioscorea trifida",
+                                "family": "Dioscoreaceae",
+                                "country": "PE",
+                                "common_names": ["Ñame amazónico"],
+                                "uses": ["nutrition"],
+                                "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                              },
+                              {
+                                "scientific_name": "Dioscorea alata",
+                                "family": "Dioscoreaceae",
+                                "country": "PE",
+                                "common_names": ["Ñame morado"],
+                                "uses": ["nutrition"],
+                                "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                              },
+                              {
+                                "scientific_name": "Ananas comosus",
+                                "family": "Bromeliaceae",
+                                "country": "PE",
+                                "common_names": ["Piña"],
+                                "uses": ["digestive", "anti-inflammatory"],
+                                "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                              },
+                              
+                                {
+                                  "scientific_name": "Zea mays",
+                                  "family": "Poaceae",
+                                  "country": "PE",
+                                  "common_names": ["Maíz"],
+                                  "uses": ["nutrition", "diuretic"],
+                                  "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+                                },
+                                {
+                                  "scientific_name": "Hordeum vulgare",
+                                  "family": "Poaceae",
+                                  "country": "PE",
+                                  "common_names": ["Cebada"],
+                                  "uses": ["digestive", "cooling"],
+                                  "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                                },
+                                {
+                                  "scientific_name": "Triticum aestivum",
+                                  "family": "Poaceae",
+                                  "country": "PE",
+                                  "common_names": ["Trigo"],
+                                  "uses": ["nutrition"],
+                                  "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                                },
+                                {
+                                  "scientific_name": "Oryza sativa",
+                                  "family": "Poaceae",
+                                  "country": "PE",
+                                  "common_names": ["Arroz"],
+                                  "uses": ["digestive", "nutrition"],
+                                  "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                                },
+                                {
+                                  "scientific_name": "Avena sativa",
+                                  "family": "Poaceae",
+                                  "country": "PE",
+                                  "common_names": ["Avena"],
+                                  "uses": ["nutrition", "nervous system"],
+                                  "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                                },
+                                {
+                                  "scientific_name": "Cymbopogon citratus",
+                                  "family": "Poaceae",
+                                  "country": "PE",
+                                  "common_names": ["Hierba luisa"],
+                                  "uses": ["digestive", "calming"],
+                                  "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                                },
+                                {
+                                  "scientific_name": "Saccharum officinarum",
+                                  "family": "Poaceae",
+                                  "country": "PE",
+                                  "common_names": ["Caña de azúcar"],
+                                  "uses": ["energy", "respiratory"],
+                                  "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                                },
+                                {
+                                  "scientific_name": "Bambusa vulgaris",
+                                  "family": "Poaceae",
+                                  "country": "PE",
+                                  "common_names": ["Bambú"],
+                                  "uses": ["respiratory", "anti-inflammatory"],
+                                  "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+                                },
+                                {
+                                  "scientific_name": "Paspalum notatum",
+                                  "family": "Poaceae",
+                                  "country": "PE",
+                                  "common_names": ["Grama"],
+                                  "uses": ["diuretic"],
+                                  "meta": { "source": "peruvian_traditional_use", "confidence": "low" }
+                                },
+                                {
+                                  "scientific_name": "Cenchrus echinatus",
+                                  "family": "Poaceae",
+                                  "country": "PE",
+                                  "common_names": ["Cadillo"],
+                                  "uses": ["anti-inflammatory"],
+                                  "meta": { "source": "peruvian_traditional_use", "confidence": "low" }
+                                },
+                                {
+                                  "scientific_name": "Eleusine indica",
+                                  "family": "Poaceae",
+                                  "country": "PE",
+                                  "common_names": ["Pata de gallina"],
+                                  "uses": ["diuretic", "fever"],
+                                  "meta": { "source": "peruvian_traditional_use", "confidence": "medium" }
+                                },
+                                {
+                                  "scientific_name": "Setaria parviflora",
+                                  "family": "Poaceae",
+                                  "country": "PE",
+                                  "common_names": ["Cola de zorro"],
+                                  "uses": ["diuretic"],
+                                  "meta": { "source": "peruvian_traditional_use", "confidence": "low" }
+                                },
+                                
+                                  {
+                                    "scientific_name": "Lantana camara",
+                                    "family": "Verbenaceae",
+                                    "country": "PE",
+                                    "common_names": ["Lantana"],
+                                    "uses": ["antimicrobial", "skin"],
+                                    "meta": { "source": "peruvian_traditional_use", "confidence": "medium" }
+                                  },
+                                  {
+                                    "scientific_name": "Verbena litoralis",
+                                    "family": "Verbenaceae",
+                                    "country": "PE",
+                                    "common_names": ["Verbena"],
+                                    "uses": ["digestive", "calming"],
+                                    "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                                  },
+                                  {
+                                    "scientific_name": "Aloysia citrodora",
+                                    "family": "Verbenaceae",
+                                    "country": "PE",
+                                    "common_names": ["Cedrón"],
+                                    "uses": ["digestive", "calming"],
+                                    "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                                  },
+                                  {
+                                    "scientific_name": "Lippia alba",
+                                    "family": "Verbenaceae",
+                                    "country": "PE",
+                                    "common_names": ["Pampa cedrón"],
+                                    "uses": ["digestive", "sedative"],
+                                    "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                                  },
+                                  {
+                                    "scientific_name": "Lippia dulcis",
+                                    "family": "Verbenaceae",
+                                    "country": "PE",
+                                    "common_names": ["Hierba dulce"],
+                                    "uses": ["respiratory", "sweetener"],
+                                    "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+                                  },
+                                  {
+                                    "scientific_name": "Stachytarpheta cayennensis",
+                                    "family": "Verbenaceae",
+                                    "country": "PE",
+                                    "common_names": ["Verbena azul"],
+                                    "uses": ["digestive", "anti-inflammatory"],
+                                    "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+                                  },
+                                  {
+                                    "scientific_name": "Duranta erecta",
+                                    "family": "Verbenaceae",
+                                    "country": "PE",
+                                    "common_names": ["Duranta"],
+                                    "uses": ["topical", "anti-inflammatory"],
+                                    "meta": { "source": "peruvian_traditional_use", "confidence": "low" }
+                                  },
+                                  {
+                                    "scientific_name": "Salvia officinalis",
+                                    "family": "Lamiaceae",
+                                    "country": "PE",
+                                    "common_names": ["Salvia"],
+                                    "uses": ["digestive", "respiratory"],
+                                    "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                                  },
+                                  {
+                                    "scientific_name": "Salvia hispanica",
+                                    "family": "Lamiaceae",
+                                    "country": "PE",
+                                    "common_names": ["Chía"],
+                                    "uses": ["nutrition", "cardiovascular"],
+                                    "meta": { "source": "modern_peru_use", "confidence": "high" }
+                                  },
+                                  {
+                                    "scientific_name": "Rosmarinus officinalis",
+                                    "family": "Lamiaceae",
+                                    "country": "PE",
+                                    "common_names": ["Romero"],
+                                    "uses": ["digestive", "circulatory"],
+                                    "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                                  },
+                                  {
+                                    "scientific_name": "Origanum vulgare",
+                                    "family": "Lamiaceae",
+                                    "country": "PE",
+                                    "common_names": ["Orégano"],
+                                    "uses": ["digestive", "respiratory"],
+                                    "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                                  },
+                                  {
+                                    "scientific_name": "Thymus vulgaris",
+                                    "family": "Lamiaceae",
+                                    "country": "PE",
+                                    "common_names": ["Tomillo"],
+                                    "uses": ["respiratory", "antimicrobial"],
+                                    "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                                  },
+                                  
+                                    {
+                                      "scientific_name": "Mentha × piperita",
+                                      "family": "Lamiaceae",
+                                      "country": "PE",
+                                      "common_names": ["Menta"],
+                                      "uses": ["digestive", "respiratory"],
+                                      "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                                    },
+                                    {
+                                      "scientific_name": "Mentha spicata",
+                                      "family": "Lamiaceae",
+                                      "country": "PE",
+                                      "common_names": ["Hierbabuena"],
+                                      "uses": ["digestive", "calming"],
+                                      "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                                    },
+                                    {
+                                      "scientific_name": "Ocimum basilicum",
+                                      "family": "Lamiaceae",
+                                      "country": "PE",
+                                      "common_names": ["Albahaca"],
+                                      "uses": ["digestive", "antimicrobial"],
+                                      "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                                    },
+                                    {
+                                      "scientific_name": "Clinopodium bolivianum",
+                                      "family": "Lamiaceae",
+                                      "country": "PE",
+                                      "common_names": ["Muña muña"],
+                                      "uses": ["digestive", "respiratory"],
+                                      "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+                                    },
+                                    {
+                                      "scientific_name": "Clinopodium pulchellum",
+                                      "family": "Lamiaceae",
+                                      "country": "PE",
+                                      "common_names": ["Panizara"],
+                                      "uses": ["digestive"],
+                                      "meta": { "source": "andean_traditional_medicine", "confidence": "medium" }
+                                    },
+                                    {
+                                      "scientific_name": "Lepechinia meyenii",
+                                      "family": "Lamiaceae",
+                                      "country": "PE",
+                                      "common_names": ["Salvia andina"],
+                                      "uses": ["respiratory", "anti-inflammatory"],
+                                      "meta": { "source": "andean_traditional_medicine", "confidence": "medium" }
+                                    },
+                                    {
+                                      "scientific_name": "Hyptis mutabilis",
+                                      "family": "Lamiaceae",
+                                      "country": "PE",
+                                      "common_names": ["Chan"],
+                                      "uses": ["digestive", "anti-inflammatory"],
+                                      "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+                                    },
+                                    {
+                                      "scientific_name": "Hyptis suaveolens",
+                                      "family": "Lamiaceae",
+                                      "country": "PE",
+                                      "common_names": ["Mastranto"],
+                                      "uses": ["respiratory", "digestive"],
+                                      "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                                    },
+                                    {
+                                      "scientific_name": "Plectranthus amboinicus",
+                                      "family": "Lamiaceae",
+                                      "country": "PE",
+                                      "common_names": ["Orégano cubano"],
+                                      "uses": ["respiratory", "antimicrobial"],
+                                      "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                                    },
+                                    {
+                                      "scientific_name": "Coleus blumei",
+                                      "family": "Lamiaceae",
+                                      "country": "PE",
+                                      "common_names": ["Coleo"],
+                                      "uses": ["topical"],
+                                      "meta": { "source": "modern_peru_use", "confidence": "low" }
+                                    },
+                                    {
+                                      "scientific_name": "Leonurus sibiricus",
+                                      "family": "Lamiaceae",
+                                      "country": "PE",
+                                      "common_names": ["Cola de león"],
+                                      "uses": ["nervous system", "calming"],
+                                      "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+                                    },
+                                    {
+                                      "scientific_name": "Scutellaria coccinea",
+                                      "family": "Lamiaceae",
+                                      "country": "PE",
+                                      "common_names": ["Escutelaria"],
+                                      "uses": ["nervous system"],
+                                      "meta": { "source": "modern_peru_use", "confidence": "low" }
+                                    },
+                                  
+                                    
+                                      {
+                                        "scientific_name": "Euphorbia hirta",
+                                        "family": "Euphorbiaceae",
+                                        "country": "PE",
+                                        "common_names": ["Golondrina"],
+                                        "uses": ["respiratory", "antimicrobial"],
+                                        "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                                      },
+                                      {
+                                        "scientific_name": "Euphorbia hypericifolia",
+                                        "family": "Euphorbiaceae",
+                                        "country": "PE",
+                                        "common_names": ["Lecheleche"],
+                                        "uses": ["digestive", "antidiarrheal"],
+                                        "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+                                      },
+                                      {
+                                        "scientific_name": "Ricinus communis",
+                                        "family": "Euphorbiaceae",
+                                        "country": "PE",
+                                        "common_names": ["Higuerilla"],
+                                        "uses": ["laxative", "anti-inflammatory"],
+                                        "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                                      },
+                                      {
+                                        "scientific_name": "Jatropha gossypiifolia",
+                                        "family": "Euphorbiaceae",
+                                        "country": "PE",
+                                        "common_names": ["Piñón colorado"],
+                                        "uses": ["topical", "antimicrobial"],
+                                        "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+                                      },
+                                      {
+                                        "scientific_name": "Cnidoscolus aconitifolius",
+                                        "family": "Euphorbiaceae",
+                                        "country": "PE",
+                                        "common_names": ["Chaya"],
+                                        "uses": ["nutrition", "antioxidant"],
+                                        "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+                                      },
+                                      {
+                                        "scientific_name": "Phyllanthus niruri",
+                                        "family": "Phyllanthaceae",
+                                        "country": "PE",
+                                        "common_names": ["Chanca piedra"],
+                                        "uses": ["kidney", "liver"],
+                                        "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                                      },
+                                      {
+                                        "scientific_name": "Phyllanthus urinaria",
+                                        "family": "Phyllanthaceae",
+                                        "country": "PE",
+                                        "common_names": ["Chanca piedra (var.)"],
+                                        "uses": ["kidney"],
+                                        "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+                                      },
+                                      {
+                                        "scientific_name": "Croton palanostigma",
+                                        "family": "Euphorbiaceae",
+                                        "country": "PE",
+                                        "common_names": ["Sangre de grado (var.)"],
+                                        "uses": ["wound healing", "antimicrobial"],
+                                        "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                                      },
+                                      {
+                                        "scientific_name": "Sapium glandulosum",
+                                        "family": "Euphorbiaceae",
+                                        "country": "PE",
+                                        "common_names": ["Lechero"],
+                                        "uses": ["topical", "antimicrobial"],
+                                        "meta": { "source": "amazonian_traditional_use", "confidence": "low" }
+                                      },
+                                      {
+                                        "scientific_name": "Hevea brasiliensis",
+                                        "family": "Euphorbiaceae",
+                                        "country": "PE",
+                                        "common_names": ["Caucho"],
+                                        "uses": ["topical"],
+                                        "meta": { "source": "amazonian_traditional_use", "confidence": "low" }
+                                      },
+                                      {
+                                        "scientific_name": "Manihot esculenta",
+                                        "family": "Euphorbiaceae",
+                                        "country": "PE",
+                                        "common_names": ["Yuca"],
+                                        "uses": ["nutrition"],
+                                        "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+                                      },
+                                      {
+                                        "scientific_name": "Manihot glaziovii",
+                                        "family": "Euphorbiaceae",
+                                        "country": "PE",
+                                        "common_names": ["Yuca brava"],
+                                        "uses": ["topical"],
+                                        "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+                                      },
+                                      
+                                        {
+                                          "scientific_name": "Passiflora incarnata",
+                                          "family": "Passifloraceae",
+                                          "country": "PE",
+                                          "common_names": ["Pasiflora"],
+                                          "uses": ["sedative", "nervous system"],
+                                          "meta": { "source": "peruvian_traditional_use", "confidence": "medium" }
+                                        },
+                                        {
+                                          "scientific_name": "Passiflora quadrangularis",
+                                          "family": "Passifloraceae",
+                                          "country": "PE",
+                                          "common_names": ["Granadilla gigante"],
+                                          "uses": ["digestive", "calming"],
+                                          "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+                                        },
+                                        {
+                                          "scientific_name": "Turnera diffusa",
+                                          "family": "Passifloraceae",
+                                          "country": "PE",
+                                          "common_names": ["Damiana"],
+                                          "uses": ["nervous system", "stimulant"],
+                                          "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+                                        },
+                                        {
+                                          "scientific_name": "Carica candicans",
+                                          "family": "Caricaceae",
+                                          "country": "PE",
+                                          "common_names": ["Mitopampa"],
+                                          "uses": ["digestive"],
+                                          "meta": { "source": "andean_traditional_medicine", "confidence": "low" }
+                                        },
+                                        {
+                                          "scientific_name": "Jacaratia digitata",
+                                          "family": "Caricaceae",
+                                          "country": "PE",
+                                          "common_names": ["Papaya silvestre"],
+                                          "uses": ["digestive", "antiparasitic"],
+                                          "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+                                        },
+                                        {
+                                          "scientific_name": "Vasconcellea monoica",
+                                          "family": "Caricaceae",
+                                          "country": "PE",
+                                          "common_names": ["Papaya de monte"],
+                                          "uses": ["digestive"],
+                                          "meta": { "source": "andean_traditional_medicine", "confidence": "medium" }
+                                        },
+                                        {
+                                          "scientific_name": "Moringa oleifera",
+                                          "family": "Moringaceae",
+                                          "country": "PE",
+                                          "common_names": ["Moringa"],
+                                          "uses": ["nutrition", "anti-inflammatory"],
+                                          "meta": { "source": "modern_peru_use", "confidence": "high" }
+                                        },
+                                        {
+                                          "scientific_name": "Capparis spinosa",
+                                          "family": "Capparaceae",
+                                          "country": "PE",
+                                          "common_names": ["Alcaparra"],
+                                          "uses": ["digestive"],
+                                          "meta": { "source": "peruvian_traditional_use", "confidence": "medium" }
+                                        },
+                                        {
+                                          "scientific_name": "Cleome spinosa",
+                                          "family": "Cleomaceae",
+                                          "country": "PE",
+                                          "common_names": ["Mussambé"],
+                                          "uses": ["anti-inflammatory"],
+                                          "meta": { "source": "amazonian_traditional_use", "confidence": "low" }
+                                        },
+                                        {
+                                          "scientific_name": "Talinum paniculatum",
+                                          "family": "Talinaceae",
+                                          "country": "PE",
+                                          "common_names": ["Verdolaga de monte"],
+                                          "uses": ["nutrition", "anti-inflammatory"],
+                                          "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+                                        },
+                                        {
+                                          "scientific_name": "Portulaca oleracea",
+                                          "family": "Portulacaceae",
+                                          "country": "PE",
+                                          "common_names": ["Verdolaga"],
+                                          "uses": ["nutrition", "anti-inflammatory"],
+                                          "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+                                        },
+                                        {
+                                          "scientific_name": "Basella alba",
+                                          "family": "Basellaceae",
+                                          "country": "PE",
+                                          "common_names": ["Espinaca de Malabar"],
+                                          "uses": ["nutrition", "digestive"],
+                                          "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+                                        },
+                                        
+  {
+    "scientific_name": "Cissus verticillata",
+    "family": "Vitaceae",
     "country": "PE",
-    "plant_ids": ["physalis_angulata"],
-    "ambiguity_level": "medium",
-    "usage_context": ["medicinal", "skin_conditions"]
-    },
-    {
-    "name": "Yacón",
-    "normalized": "yacon",
-    "language": "es",
+    "common_names": ["Bejuco ubí"],
+    "uses": ["metabolic", "anti-inflammatory"],
+    "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+  },
+  {
+    "scientific_name": "Vitis vinifera",
+    "family": "Vitaceae",
     "country": "PE",
-    "plant_ids": ["smallanthus_sonchifolius"],
-    "ambiguity_level": "low",
-    "usage_context": ["medicinal", "diabetes", "culinary"]
-    },
-    {
-    "name": "Sacha Inchi",
-    "normalized": "sacha_inchi",
-    "language": "es",
+    "common_names": ["Vid"],
+    "uses": ["cardiovascular", "antioxidant"],
+    "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Triplaris americana",
+    "family": "Polygonaceae",
     "country": "PE",
-    "plant_ids": ["plukenetia_volubilis"],
-    "ambiguity_level": "low",
-    "usage_context": ["medicinal", "omega_source", "culinary"]
-    },
-    {
-    "name": "Hercampuri",
-    "normalized": "hercampuri",
-    "language": "es",
+    "common_names": ["Tangarana"],
+    "uses": ["anti-inflammatory"],
+    "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+  },
+  {
+    "scientific_name": "Polygonum hydropiperoides",
+    "family": "Polygonaceae",
     "country": "PE",
-    "plant_ids": ["gentianella_nitida"],
-    "ambiguity_level": "low",
-    "usage_context": ["medicinal", "liver_detox", "cholesterol"]
-    },
-    {
-    "name": "Graviola",
-    "normalized": "graviola",
-    "language": "es",
+    "common_names": ["Hierba del sapo"],
+    "uses": ["circulatory", "anti-inflammatory"],
+    "meta": { "source": "peruvian_traditional_use", "confidence": "low" }
+  },
+  {
+    "scientific_name": "Coccoloba uvifera",
+    "family": "Polygonaceae",
     "country": "PE",
-    "plant_ids": ["annona_muricata"],
-    "ambiguity_level": "medium",
-    "usage_context": ["medicinal", "anti_tumor"]
-    },
-    {
-    "name": "Guanábana",
-    "normalized": "guanabana",
-    "language": "es",
+    "common_names": ["Uva de playa"],
+    "uses": ["digestive"],
+    "meta": { "source": "amazonian_traditional_use", "confidence": "low" }
+  },
+  {
+    "scientific_name": "Begonia glabra",
+    "family": "Begoniaceae",
     "country": "PE",
-    "plant_ids": ["annona_muricata"],
-    "ambiguity_level": "low",
-    "usage_context": ["culinary", "medicinal"]
-    },
-    {
-    "name": "Caigua",
-    "normalized": "caigua",
-    "language": "es",
+    "common_names": ["Begonia silvestre"],
+    "uses": ["topical", "anti-inflammatory"],
+    "meta": { "source": "amazonian_traditional_use", "confidence": "low" }
+  },
+  {
+    "scientific_name": "Begonia cucullata",
+    "family": "Begoniaceae",
     "country": "PE",
-    "plant_ids": ["cyclanthera_pedata"],
-    "ambiguity_level": "low",
-    "usage_context": ["medicinal", "cholesterol", "culinary"]
-    },
-    {
-    "name": "Chancapiedra",
-    "normalized": "chancapiedra",
-    "language": "es",
+    "common_names": ["Begonia"],
+    "uses": ["wound healing"],
+    "meta": { "source": "amazonian_traditional_use", "confidence": "low" }
+  },
+  {
+    "scientific_name": "Punica granatum",
+    "family": "Lythraceae",
     "country": "PE",
-    "plant_ids": ["phyllanthus_niruri"],
-    "ambiguity_level": "low",
-    "usage_context": ["medicinal", "kidney_stones"]
-    }
-    ],
-    "geo_distribution": [
-    {
-    "plant_id": "uncaria_tomentosa",
-    "biomes": ["amazon_rainforest"],
-    "countries": ["PE"],
-    "cultural_regions": ["amazonian"]
-    },
-    {
-    "plant_id": "lepidium_meyenii",
-    "biomes": ["andean_highlands"],
-    "countries": ["PE"],
-    "cultural_regions": ["andean"]
-    },
-    {
-    "plant_id": "smallanthus_sonchifolius",
-    "biomes": ["andean_highlands"],
-    "countries": ["PE"],
-    "cultural_regions": ["andean"]
-    },
-    {
-    "plant_id": "phyllanthus_niruri",
-    "biomes": ["amazon_rainforest", "coastal"],
-    "countries": ["PE", "AR"],
-    "cultural_regions": ["amazonian", "criollo"]
-    }
-    ],
-    "uses": [
-    {
-    "plant_id": "uncaria_tomentosa",
-    "categories": {
-    "medicinal": [
-    {
-    "use": "Traditionally used for inflammation, osteoarthritis, and immune support",
-    "evidence_level": "preliminary_science",
-    "regions": ["PE"]
-    }
-    ],
-    "culinary": [],
-    "aromatic": []
-    }
-    },
-    {
-    "plant_id": "lepidium_meyenii",
-    "categories": {
-    "medicinal": [
-    {
-    "use": "Traditionally used for fatigue, hormone regulation, and fertility",
-    "evidence_level": "preliminary_science",
-    "regions": ["PE"]
-    }
-    ],
-    "culinary": ["Root consumed boiled, roasted, or as flour"],
-    "aromatic": []
-    }
-    },
-    {
-    "plant_id": "smallanthus_sonchifolius",
-    "categories": {
-    "medicinal": [
-    {
-    "use": "Traditionally used for blood sugar regulation",
-    "evidence_level": "preliminary_science",
-    "regions": ["PE"]
-    }
-    ],
-    "culinary": ["Root consumed fresh as a fruit"],
-    "aromatic": []
-    }
-    }
-    ],
-    "safety": [
-    {
-    "plant_id": "uncaria_tomentosa",
-    "contraindications": ["Avoid in patients with autoimmune diseases or organ
-   transplants due to immune stimulation"],
-    "drug_interactions": ["May interact with immunosuppressants"],
-    "toxicity_level": "low",
-    "lookalike_risk": true,
-    "confused_with": ["Uncaria guianensis"]
-    },
-    {
-    "plant_id": "annona_muricata",
-    "contraindications": ["Avoid in patients with Parkinson's or motor disorders due to
-   presence of annonacin"],
-    "drug_interactions": ["May interact with antihypertensives"],
-    "toxicity_level": "moderate",
-    "lookalike_risk": false,
-    "confused_with": []
-    },
-    {
-    "plant_id": "gentianella_nitida",
-    "contraindications": ["None reported in traditional use for brief periods"],
-    "drug_interactions": ["Unknown"],
-    "toxicity_level": "low",
-    "lookalike_risk": true,
-    "confused_with": ["other Gentianella species"]
-    }
-   {
-    "plants": [
-    { "id": "abuta_grandifolia", "scientific_name": "Abuta grandifolia", "family":
-   "Menispermaceae", "genus": "Abuta", "rank": "species", "origin_regions": ["Amazonian
-   Rainforest"], "native_status": "native", "plant_type": "shrub", "primary_uses":
-   ["medicinal"] },
-    { "id": "mansoa_alliacea", "scientific_name": "Mansoa alliacea", "family":
-   "Bignoniaceae", "genus": "Mansoa", "rank": "species", "origin_regions": ["Amazonian
-   Rainforest"], "native_status": "native", "plant_type": "liana", "primary_uses": ["medicinal",
-   "aromatic"] },
-    { "id": "artocarpus_altilis", "scientific_name": "Artocarpus altilis", "family": "Moraceae",
-   "genus": "Artocarpus", "rank": "species", "origin_regions": ["Oceania"], "native_status":
-   "introduced", "plant_type": "tree", "primary_uses": ["medicinal", "culinary"] },
-    { "id": "banisteriopsis_caapi", "scientific_name": "Banisteriopsis caapi", "family":
-   "Malpighiaceae", "genus": "Banisteriopsis", "rank": "species", "origin_regions":
-   ["Amazonian Rainforest"], "native_status": "native", "plant_type": "liana",
-   "primary_uses": ["ritual", "medicinal"] },
-    { "id": "brugmansia_suaveolens", "scientific_name": "Brugmansia suaveolens",
-   "family": "Solanaceae", "genus": "Brugmansia", "rank": "species", "origin_regions":
-   ["Amazonian Rainforest"], "native_status": "native", "plant_type": "shrub",
-   "primary_uses": ["medicinal", "ritual"] },
-    { "id": "brunfelsia_grandiflora", "scientific_name": "Brunfelsia grandiflora", "family":
-   "Solanaceae", "genus": "Brunfelsia", "rank": "species", "origin_regions": ["Amazonian
-   Rainforest"], "native_status": "native", "plant_type": "shrub", "primary_uses":
-   ["medicinal"] },
-    { "id": "calophyllum_brasiliense", "scientific_name": "Calophyllum brasiliense",
-   "family": "Calophyllaceae", "genus": "Calophyllum", "rank": "species", "origin_regions":
-   ["Amazonian Rainforest"], "native_status": "native", "plant_type": "tree", "primary_uses":
-   ["medicinal"] },
-    { "id": "copaifera_paupera", "scientific_name": "Copaifera paupera", "family":
-   "Fabaceae", "genus": "Copaifera", "rank": "species", "origin_regions": ["Amazonian
-   Rainforest"], "native_status": "native", "plant_type": "tree", "primary_uses":
-   ["medicinal"] },
-    { "id": "eleutherine_bulbosa", "scientific_name": "Eleutherine bulbosa", "family":
-   "Iridaceae", "genus": "Eleutherine", "rank": "species", "origin_regions": ["Amazonian
-   Rainforest"], "native_status": "native", "plant_type": "herb", "primary_uses":
-   ["medicinal"] },
-    { "id": "eryngium_foetidum", "scientific_name": "Eryngium foetidum", "family":
-   "Apiaceae", "genus": "Eryngium", "rank": "species", "origin_regions": ["Amazonian
-   Rainforest"], "native_status": "native", "plant_type": "herb", "primary_uses": ["medicinal",
-   "culinary"] },
-    { "id": "ficus_insipida", "scientific_name": "Ficus insipida", "family": "Moraceae",
-   "genus": "Ficus", "rank": "species", "origin_regions": ["Amazonian Rainforest"],
-   "native_status": "native", "plant_type": "tree", "primary_uses": ["medicinal"] },
-    { "id": "jatropha_curcas", "scientific_name": "Jatropha curcas", "family":
-   "Euphorbiaceae", "genus": "Jatropha", "rank": "species", "origin_regions": ["Amazonian
-   Rainforest"], "native_status": "native", "plant_type": "shrub", "primary_uses":
-   ["medicinal", "industrial"] },
-    { "id": "lippia_alba", "scientific_name": "Lippia alba", "family": "Verbenaceae", "genus":
-   "Lippia", "rank": "species", "origin_regions": ["Amazonian Rainforest", "Coastal"],
-   "native_status": "native", "plant_type": "shrub", "primary_uses": ["medicinal",
-   "aromatic"] },
-    { "id": "myrciaria_dubia", "scientific_name": "Myrciaria dubia", "family": "Myrtaceae",
-   "genus": "Myrciaria", "rank": "species", "origin_regions": ["Amazonian Rainforest"],
-   "native_status": "native", "plant_type": "shrub", "primary_uses": ["medicinal",
-   "culinary"] },
-    { "id": "scoparia_dulcis", "scientific_name": "Scoparia dulcis", "family":
-   "Plantaginaceae", "genus": "Scoparia", "rank": "species", "origin_regions": ["Amazonian
-   Rainforest"], "native_status": "native", "plant_type": "herb", "primary_uses":
-   ["medicinal"] }
-    ],
-    "names": [
-    { "name": "Abuta", "normalized": "abuta", "language": "es", "country": "PE",
-   "plant_ids": ["abuta_grandifolia"], "ambiguity_level": "low", "usage_context": ["medicinal",
-   "diabetes"] },
-    { "name": "Ajo Sacha", "normalized": "ajo_sacha", "language": "es", "country": "PE",
-   "plant_ids": ["mansoa_alliacea"], "ambiguity_level": "low", "usage_context": ["medicinal",
-   "analgesic"] },
-    { "name": "Pandisho", "normalized": "pandisho", "language": "es", "country": "PE",
-   "plant_ids": ["artocarpus_altilis"], "ambiguity_level": "low", "usage_context": ["medicinal",
-   "diarrhea"] },
-    { "name": "Ayahuasca", "normalized": "ayahuasca", "language": "es", "country": "PE",
-   "plant_ids": ["banisteriopsis_caapi"], "ambiguity_level": "low", "usage_context": ["ritual",
-   "medicinal"] },
-    { "name": "Toé", "normalized": "toe", "language": "es", "country": "PE", "plant_ids":
-   ["brugmansia_suaveolens"], "ambiguity_level": "low", "usage_context": ["medicinal",
-   "ritual"] },
-    { "name": "Chiric Sanango", "normalized": "chiric_sanango", "language": "es",
-   "country": "PE", "plant_ids": ["brunfelsia_grandiflora"], "ambiguity_level": "low",
-   "usage_context": ["medicinal", "rheumatism"] },
-    { "name": "Lagarto Caspi", "normalized": "lagarto_caspi", "language": "es", "country":
-   "PE", "plant_ids": ["calophyllum_brasiliense"], "ambiguity_level": "low", "usage_context":
-   ["medicinal", "cicatrizante"] },
-    { "name": "Copaiba", "normalized": "copaiba", "language": "es", "country": "PE", 
-   "plant_ids": ["copaifera_paupera"], "ambiguity_level": "medium", "usage_context":
-   ["medicinal", "anti_inflammatory"] },
-    { "name": "Yahuar Piri Piri", "normalized": "yahuar_piri_piri", "language": "es",
-   "country": "PE", "plant_ids": ["eleutherine_bulbosa"], "ambiguity_level": "low",
-   "usage_context": ["medicinal", "hemorrhage"] },
-    { "name": "Sacha Culantro", "normalized": "sacha_culantro", "language": "es",
-   "country": "PE", "plant_ids": ["eryngium_foetidum"], "ambiguity_level": "low",
-   "usage_context": ["culinary", "medicinal"] },
-    { "name": "Ojé", "normalized": "oje", "language": "es", "country": "PE", "plant_ids":
-   ["ficus_insipida"], "ambiguity_level": "low", "usage_context": ["medicinal",
-   "antiparasitic"] },
-    { "name": "Piñón Blanco", "normalized": "pinon_blanco", "language": "es", "country":
-   "PE", "plant_ids": ["jatropha_curcas"], "ambiguity_level": "medium", "usage_context":
-   ["medicinal", "purgative"] },
-    { "name": "Pampa Orégano", "normalized": "pampa_oregano", "language": "es",
-   "country": "PE", "plant_ids": ["lippia_alba"], "ambiguity_level": "low", "usage_context":
-   ["medicinal", "digestive"] },
-    { "name": "Camu Camu", "normalized": "camu_camu", "language": "es", "country":
-   "PE", "plant_ids": ["myrciaria_dubia"], "ambiguity_level": "low", "usage_context":
-   ["medicinal", "vitamin_c"] },
-    { "name": "Ñucño Pichana", "normalized": "nucno_pichana", "language": "es",
-   "country": "PE", "plant_ids": ["scoparia_dulcis"], "ambiguity_level": "low",
-   "usage_context": ["medicinal"] }
-    ],
-    "geo_distribution": [
-    { "plant_id": "ficus_insipida", "biomes": ["amazon_rainforest"], "countries": ["PE",
-   "CO", "EC"], "cultural_regions": ["amazonian"] },
-    { "plant_id": "myrciaria_dubia", "biomes": ["amazon_rainforest"], "countries": ["PE",
-   "BR"], "cultural_regions": ["amazonian"] }
-    ],
-    "uses": [
-    {
-    "plant_id": "ficus_insipida",
-    "categories": {
-    "medicinal": [{ "use": "The latex is traditionally used as an anthelmintic
-   (antiparasitic)", "evidence_level": "traditional", "regions": ["PE"] }]
-    }
-    },
-    {
-    "plant_id": "myrciaria_dubia",
-    "categories": {
-    "medicinal": [{ "use": "Used for high Vitamin C concentration and immune support",
-   "evidence_level": "preliminary_science", "regions": ["PE"] }],
-    "culinary": ["Juices", "jams"]
-    }
-    }
-    ],
-    "safety": [
-    { "plant_id": "ficus_insipida", "contraindications": ["Latex is highly caustic; must be
-   administered with extreme caution to avoid intestinal damage"], "toxicity_level":
-   "moderate", "lookalike_risk": false },
-    { "plant_id": "banisteriopsis_caapi", "contraindications": ["Contains MAOIs; high risk of
-   severe interactions with antidepressants and certain foods"], "toxicity_level": "high",
-   "lookalike_risk": false },
-    { "plant_id": "brugmansia_suaveolens", "contraindications": ["Contains tropane
-   alkaloids; highly toxic if ingested; can cause hallucinations and death"], "toxicity_level":
-   "high", "lookalike_risk": true }
-    ]
-   }
+    "common_names": ["Granada"],
+    "uses": ["antioxidant", "digestive"],
+    "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Lawsonia inermis",
+    "family": "Lythraceae",
+    "country": "PE",
+    "common_names": ["Henna"],
+    "uses": ["skin", "antimicrobial"],
+    "meta": { "source": "modern_peru_use", "confidence": "medium" }
+  },
+  {
+    "scientific_name": "Cuphea carthagenensis",
+    "family": "Lythraceae",
+    "country": "PE",
+    "common_names": ["Siete sangrías"],
+    "uses": ["circulatory", "anti-inflammatory"],
+    "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+  },
+  {
+    "scientific_name": "Eucalyptus citriodora",
+    "family": "Myrtaceae",
+    "country": "PE",
+    "common_names": ["Eucalipto limón"],
+    "uses": ["respiratory", "repellent"],
+    "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Psidium cattleianum",
+    "family": "Myrtaceae",
+    "country": "PE",
+    "common_names": ["Arazá"],
+    "uses": ["digestive", "nutrition"],
+    "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+  },
+  
+  {
+    "scientific_name": "Campomanesia lineatifolia",
+    "family": "Myrtaceae",
+    "country": "PE",
+    "common_names": ["Palillo"],
+    "uses": ["digestive", "nutrition"],
+    "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+  },
+  {
+    "scientific_name": "Eugenia stipitata",
+    "family": "Myrtaceae",
+    "country": "PE",
+    "common_names": ["Arazá amazónico"],
+    "uses": ["digestive", "antioxidant"],
+    "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Eugenia uniflora",
+    "family": "Myrtaceae",
+    "country": "PE",
+    "common_names": ["Pitanga"],
+    "uses": ["digestive", "antioxidant"],
+    "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Syzygium cumini",
+    "family": "Myrtaceae",
+    "country": "PE",
+    "common_names": ["Jambolán"],
+    "uses": ["metabolic", "diabetes"],
+    "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Syzygium aromaticum",
+    "family": "Myrtaceae",
+    "country": "PE",
+    "common_names": ["Clavo de olor"],
+    "uses": ["analgesic", "digestive"],
+    "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Myrcianthes hallii",
+    "family": "Myrtaceae",
+    "country": "PE",
+    "common_names": ["Arrayán"],
+    "uses": ["respiratory", "antimicrobial"],
+    "meta": { "source": "andean_traditional_medicine", "confidence": "medium" }
+  },
+  {
+    "scientific_name": "Acca sellowiana",
+    "family": "Myrtaceae",
+    "country": "PE",
+    "common_names": ["Feijoa"],
+    "uses": ["digestive", "nutrition"],
+    "meta": { "source": "peruvian_traditional_use", "confidence": "medium" }
+  },
+  {
+    "scientific_name": "Myrtus communis",
+    "family": "Myrtaceae",
+    "country": "PE",
+    "common_names": ["Mirto"],
+    "uses": ["respiratory", "digestive"],
+    "meta": { "source": "peruvian_traditional_use", "confidence": "medium" }
+  },
+  {
+    "scientific_name": "Eucalyptus globulus",
+    "family": "Myrtaceae",
+    "country": "PE",
+    "common_names": ["Eucalipto"],
+    "uses": ["respiratory"],
+    "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Callistemon citrinus",
+    "family": "Myrtaceae",
+    "country": "PE",
+    "common_names": ["Limpiatubos"],
+    "uses": ["respiratory"],
+    "meta": { "source": "modern_peru_use", "confidence": "low" }
+  },
+  {
+    "scientific_name": "Melaleuca alternifolia",
+    "family": "Myrtaceae",
+    "country": "PE",
+    "common_names": ["Árbol del té"],
+    "uses": ["antimicrobial", "skin"],
+    "meta": { "source": "modern_peru_use", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Pimenta dioica",
+    "family": "Myrtaceae",
+    "country": "PE",
+    "common_names": ["Pimienta de Jamaica"],
+    "uses": ["digestive", "analgesic"],
+    "meta": { "source": "peruvian_traditional_use", "confidence": "medium" }
+  },
+
+  {
+    "scientific_name": "Coffea arabica",
+    "family": "Rubiaceae",
+    "country": "PE",
+    "common_names": ["Café"],
+    "uses": ["stimulant", "energy"],
+    "meta": { "source": "peruvian_traditional_use", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Genipa americana",
+    "family": "Rubiaceae",
+    "country": "PE",
+    "common_names": ["Huito"],
+    "uses": ["skin", "antimicrobial"],
+    "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Morinda citrifolia",
+    "family": "Rubiaceae",
+    "country": "PE",
+    "common_names": ["Noni"],
+    "uses": ["immune", "anti-inflammatory"],
+    "meta": { "source": "modern_peru_use", "confidence": "medium" }
+  },
+  {
+    "scientific_name": "Hamelia patens",
+    "family": "Rubiaceae",
+    "country": "PE",
+    "common_names": ["Coralillo"],
+    "uses": ["skin", "wound healing"],
+    "meta": { "source": "amazonian_traditional_use", "confidence": "medium" }
+  },
+  {
+    "scientific_name": "Borreria laevis",
+    "family": "Rubiaceae",
+    "country": "PE",
+    "common_names": ["Hierba botón"],
+    "uses": ["digestive", "antimicrobial"],
+    "meta": { "source": "amazonian_traditional_use", "confidence": "low" }
+  },
+  {
+    "scientific_name": "Psychotria viridis",
+    "family": "Rubiaceae",
+    "country": "PE",
+    "common_names": ["Chacruna"],
+    "uses": ["ritual", "nervous system"],
+    "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Uncaria guianensis",
+    "family": "Rubiaceae",
+    "country": "PE",
+    "common_names": ["Uña de gato (var.)"],
+    "uses": ["anti-inflammatory", "immune"],
+    "meta": { "source": "amazonian_traditional_use", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Randia armata",
+    "family": "Rubiaceae",
+    "country": "PE",
+    "common_names": ["Indano"],
+    "uses": ["digestive"],
+    "meta": { "source": "amazonian_traditional_use", "confidence": "low" }
+  },
+  {
+    "scientific_name": "Gardenia jasminoides",
+    "family": "Rubiaceae",
+    "country": "PE",
+    "common_names": ["Gardenia"],
+    "uses": ["sedative"],
+    "meta": { "source": "modern_peru_use", "confidence": "low" }
+  },
+  {
+    "scientific_name": "Cinchona officinalis",
+    "family": "Rubiaceae",
+    "country": "PE",
+    "common_names": ["Quina"],
+    "uses": ["antimalarial", "fever"],
+    "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Cinchona calisaya",
+    "family": "Rubiaceae",
+    "country": "PE",
+    "common_names": ["Calisaya"],
+    "uses": ["digestive", "fever"],
+    "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+  },
+  {
+    "scientific_name": "Cinchona pubescens",
+    "family": "Rubiaceae",
+    "country": "PE",
+    "common_names": ["Quina roja"],
+    "uses": ["fever", "tonic"],
+    "meta": { "source": "andean_traditional_medicine", "confidence": "high" }
+  }
+]
+
+                                      
+                                    
+                          
+                        
+                
+            
+          

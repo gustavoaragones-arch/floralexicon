@@ -1,312 +1,331 @@
-{
-    "plants": [
+[
     {
-    "id": "uncaria_tomentosa",
-    "scientific_name": "Uncaria tomentosa",
-    "family": "Rubiaceae",
-    "genus": "Uncaria",
-    "rank": "species",
-    "origin_regions": ["EC"],
-    "native_status": "native",
-    "plant_type": "vine",
-    "primary_uses": ["medicinal"]
+      "scientific_name": "Matricaria recutita",
+      "family": "Asteraceae",
+      "country": "EC",
+      "common_names": ["Manzanilla"],
+      "uses": ["digestive", "anti-inflammatory", "calming"],
+      "meta": { "source": "ecuador_markets_loja", "confidence": "high", "cross_country": true }
     },
     {
-    "id": "croton_lechleri",
-    "scientific_name": "Croton lechleri",
-    "family": "Euphorbiaceae",
-    "genus": "Croton",
-    "rank": "species",
-    "origin_regions": ["EC"],
-    "native_status": "native",
-    "plant_type": "tree",
-    "primary_uses": ["medicinal"]
+      "scientific_name": "Ruta graveolens",
+      "family": "Rutaceae",
+      "country": "EC",
+      "common_names": ["Ruda"],
+      "uses": ["ritual", "digestive", "gynecological"],
+      "meta": { "source": "ecuador_markets_loja", "confidence": "high", "cross_country": true }
     },
     {
-    "id": "banisteriopsis_caapi",
-    "scientific_name": "Banisteriopsis caapi",
-    "family": "Malpighiaceae",
-    "genus": "Banisteriopsis",
-    "rank": "species",
-    "origin_regions": ["EC"],
-    "native_status": "native",
-    "plant_type": "vine",
-    "primary_uses": ["medicinal", "ritual"]
+      "scientific_name": "Melissa officinalis",
+      "family": "Lamiaceae",
+      "country": "EC",
+      "common_names": ["Toronjil"],
+      "uses": ["nervous system", "calming", "digestive"],
+      "meta": { "source": "ecuador_markets_loja", "confidence": "high", "cross_country": true }
     },
     {
-    "id": "cinchona_pubescens",
-    "scientific_name": "Cinchona pubescens",
-    "family": "Rubiaceae",
-    "genus": "Cinchona",
-    "rank": "species",
-    "origin_regions": ["EC"],
-    "native_status": "native",
-    "plant_type": "tree",
-    "primary_uses": ["medicinal"]
+      "scientific_name": "Equisetum bogotense",
+      "family": "Equisetaceae",
+      "country": "EC",
+      "common_names": ["Cola de caballo"],
+      "uses": ["urinary", "anti-inflammatory"],
+      "meta": { "source": "ecuador_markets_loja", "confidence": "high", "cross_country": true }
     },
     {
-    "id": "maytenus_laevis",
-    "scientific_name": "Maytenus laevis",
-    "family": "Celastraceae",
-    "genus": "Maytenus",
-    "rank": "species",
-    "origin_regions": ["EC"],
-    "native_status": "native",
-    "plant_type": "tree",
-    "primary_uses": ["medicinal"]
+      "scientific_name": "Dysphania ambrosioides",
+      "family": "Amaranthaceae",
+      "country": "EC",
+      "common_names": ["Paico"],
+      "uses": ["digestive", "antiparasitic"],
+      "meta": { "source": "ecuador_markets_loja", "confidence": "high", "cross_country": true }
     },
     {
-    "id": "guaiacum_officinale",
-    "scientific_name": "Guaiacum officinale",
-    "family": "Zygophyllaceae",
-    "genus": "Guaiacum",
-    "rank": "species",
-    "origin_regions": ["EC"],
-    "native_status": "native",
-    "plant_type": "tree",
-    "primary_uses": ["medicinal"]
+      "scientific_name": "Aloysia triphylla",
+      "family": "Verbenaceae",
+      "country": "EC",
+      "common_names": ["Cedrón"],
+      "uses": ["digestive", "calming"],
+      "meta": { "source": "ecuador_markets_loja", "confidence": "high", "cross_country": true }
     },
     {
-    "id": "ilex_guayusa",
-    "scientific_name": "Ilex guayusa",
-    "family": "Aquifoliaceae",
-    "genus": "Ilex",
-    "rank": "species",
-    "origin_regions": ["EC"],
-    "native_status": "native",
-    "plant_type": "tree",
-    "primary_uses": ["medicinal", "tea"]
+      "scientific_name": "Cymbopogon citratus",
+      "family": "Poaceae",
+      "country": "EC",
+      "common_names": ["Hierba luisa"],
+      "uses": ["digestive", "calming"],
+      "meta": { "source": "ecuador_markets_loja", "confidence": "high", "cross_country": true }
     },
     {
-    "id": "piper_aduncum",
-    "scientific_name": "Piper aduncum",
-    "family": "Piperaceae",
-    "genus": "Piper",
-    "rank": "species",
-    "origin_regions": ["EC"],
-    "native_status": "native",
-    "plant_type": "shrub",
-    "primary_uses": ["medicinal"]
+      "scientific_name": "Rosmarinus officinalis",
+      "family": "Lamiaceae",
+      "country": "EC",
+      "common_names": ["Romero"],
+      "uses": ["circulatory", "anti-inflammatory", "ritual"],
+      "meta": { "source": "ecuador_markets_loja", "confidence": "high", "cross_country": true }
     },
     {
-    "id": "aloysia_citriodora",
-    "scientific_name": "Aloysia citriodora",
-    "family": "Verbenaceae",
-    "genus": "Aloysia",
-    "rank": "species",
-    "origin_regions": ["EC"],
-    "native_status": "naturalized",
-    "plant_type": "shrub",
-    "primary_uses": ["medicinal"]
+      "scientific_name": "Mentha spicata",
+      "family": "Lamiaceae",
+      "country": "EC",
+      "common_names": ["Hierba buena"],
+      "uses": ["digestive", "respiratory"],
+      "meta": { "source": "ecuador_markets_loja", "confidence": "high", "cross_country": true }
     },
     {
-    "id": "matricaria_recutita",
-    "scientific_name": "Matricaria recutita",
-    "family": "Asteraceae",
-    "genus": "Matricaria",
-    "rank": "species",
-    "origin_regions": ["EC"],
-    "native_status": "naturalized",
-    "plant_type": "herb",
-    "primary_uses": ["medicinal"]
+      "scientific_name": "Origanum majoricum",
+      "family": "Lamiaceae",
+      "country": "EC",
+      "common_names": ["Orégano"],
+      "uses": ["digestive", "respiratory"],
+      "meta": { "source": "ecuador_markets_loja", "confidence": "medium", "cross_country": true }
     },
     {
-    "id": "mentha_spicata",
-    "scientific_name": "Mentha spicata",
-    "family": "Lamiaceae",
-    "genus": "Mentha",
-    "rank": "species",
-    "origin_regions": ["EC"],
-    "native_status": "naturalized",
-    "plant_type": "herb",
-    "primary_uses": ["medicinal"]
+      "scientific_name": "Plantago major",
+      "family": "Plantaginaceae",
+      "country": "EC",
+      "common_names": ["Llantén"],
+      "uses": ["wound healing", "anti-inflammatory"],
+      "meta": { "source": "ecuador_markets_loja", "confidence": "high", "cross_country": true }
     },
     {
-    "id": "ruta_graveolens",
-    "scientific_name": "Ruta graveolens",
-    "family": "Rutaceae",
-    "genus": "Ruta",
-    "rank": "species",
-    "origin_regions": ["EC"],
-    "native_status": "naturalized",
-    "plant_type": "herb",
-    "primary_uses": ["medicinal"]
+      "scientific_name": "Urtica dioica",
+      "family": "Urticaceae",
+      "country": "EC",
+      "common_names": ["Ortiga"],
+      "uses": ["circulatory", "anti-inflammatory"],
+      "meta": { "source": "ecuador_markets_loja", "confidence": "high", "cross_country": true }
     },
     {
-    "id": "aloe_vera",
-    "scientific_name": "Aloe vera",
-    "family": "Asphodelaceae",
-    "genus": "Aloe",
-    "rank": "species",
-    "origin_regions": ["EC"],
-    "native_status": "naturalized",
-    "plant_type": "herb",
-    "primary_uses": ["medicinal"]
+      "scientific_name": "Borago officinalis",
+      "family": "Boraginaceae",
+      "country": "EC",
+      "common_names": ["Borraja"],
+      "uses": ["respiratory", "anti-inflammatory"],
+      "meta": { "source": "ecuador_markets_loja", "confidence": "high", "cross_country": true }
     },
     {
-    "id": "sambucus_mexicana",
-    "scientific_name": "Sambucus mexicana",
-    "family": "Caprifoliaceae",
-    "genus": "Sambucus",
-    "rank": "species",
-    "origin_regions": ["EC"],
-    "native_status": "native",
-    "plant_type": "shrub",
-    "primary_uses": ["medicinal"]
+      "scientific_name": "Sambucus nigra",
+      "family": "Adoxaceae",
+      "country": "EC",
+      "common_names": ["Sauco"],
+      "uses": ["respiratory", "immune"],
+      "meta": { "source": "ecuador_markets_loja", "confidence": "high", "cross_country": true }
     },
     {
-    "id": "ocimum_basilicum",
-    "scientific_name": "Ocimum basilicum",
-    "family": "Lamiaceae",
-    "genus": "Ocimum",
-    "rank": "species",
-    "origin_regions": ["EC"],
-    "native_status": "naturalized",
-    "plant_type": "herb",
-    "primary_uses": ["medicinal", "culinary"]
-    }
-    ],
-    "names": [
-    {"name": "Uña de gato", "normalized": "una de gato",
-   "language": "es", "country": "EC", "plant_ids":
-   ["uncaria_tomentosa"], "ambiguity_level": "low",
-   "usage_context": ["medicinal"]},
-    {"name": "Sangre de drago", "normalized": "sangre de drago",
-   "language": "es", "country": "EC", "plant_ids":
-   ["croton_lechleri"], "ambiguity_level": "low", "usage_context":
-   ["medicinal"]},
-    {"name": "Ayahuasca", "normalized": "ayahuasca", "language":
-   "es", "country": "EC", "plant_ids": ["banisteriopsis_caapi"],
-   "ambiguity_level": "low", "usage_context": ["medicinal",
-   "ritual"]},
-    {"name": "Quina", "normalized": "quina", "language": "es",
-   "country": "EC", "plant_ids": ["cinchona_pubescens"],
-   "ambiguity_level": "low", "usage_context": ["medicinal"]},
-    {"name": "Chuchuhuaso", "normalized": "chuchuhuaso",
-   "language": "es", "country": "EC", "plant_ids":
-   ["maytenus_laevis"], "ambiguity_level": "low", "usage_context":
-   ["medicinal"]},
-    {"name": "Guayaco", "normalized": "guayaco", "language":
-   "es", "country": "EC", "plant_ids": ["guaiacum_officinale"],
-   "ambiguity_level": "low", "usage_context": ["medicinal"]},
-    {"name": "Guayusa", "normalized": "guayusa", "language":
-   "es", "country": "EC", "plant_ids": ["ilex_guayusa"],
-   "ambiguity_level": "low", "usage_context": ["medicinal",
-   "tea"]},
-    {"name": "Matico", "normalized": "matico", "language": "es",
-   "country": "EC", "plant_ids": ["piper_aduncum"],
-   "ambiguity_level": "low", "usage_context": ["medicinal"]},
-    {"name": "Toronjil", "normalized": "toronjil", "language":
-   "es", "country": "EC", "plant_ids": ["aloysia_citriodora"],
-   "ambiguity_level": "low", "usage_context": ["medicinal"]},
-    {"name": "Cedrón", "normalized": "cedron", "language": "es",
-   "country": "EC", "plant_ids": ["aloysia_citriodora"],
-   "ambiguity_level": "low", "usage_context": ["medicinal"]},
-    {"name": "Hierba luisa", "normalized": "hierba luisa",
-   "language": "es", "country": "EC", "plant_ids":
-   ["aloysia_citriodora"], "ambiguity_level": "low",
-   "usage_context": ["medicinal"]},
-    {"name": "Manzanilla", "normalized": "manzanilla",
-   "language": "es", "country": "EC", "plant_ids":
-   ["matricaria_recutita"], "ambiguity_level": "low",
-   "usage_context": ["medicinal"]},
-    {"name": "Menta", "normalized": "menta", "language": "es",
-   "country": "EC", "plant_ids": ["mentha_spicata"],
-   "ambiguity_level": "low", "usage_context": ["medicinal"]},
-    {"name": "Ruda", "normalized": "ruda", "language": "es",
-   "country": "EC", "plant_ids": ["ruta_graveolens"],
-   "ambiguity_level": "low", "usage_context": ["medicinal"]},
-    {"name": "Sábila", "normalized": "sabila", "language": "es",
-   "country": "EC", "plant_ids": ["aloe_vera"], "ambiguity_level":
-   "low", "usage_context": ["medicinal"]},
-    {"name": "Sauco", "normalized": "sauco", "language": "es",
-   "country": "EC", "plant_ids": ["sambucus_mexicana"],
-   "ambiguity_level": "low", "usage_context": ["medicinal"]},
-    {"name": "Albahaca", "normalized": "albahaca", "language":
-   "es", "country": "EC", "plant_ids": ["ocimum_basilicum"],
-   "ambiguity_level": "low", "usage_context": ["medicinal",
-   "culinary"]},
-    {"name": "Paraguay", "normalized": "paraguay", "language":
-   "es", "country": "EC", "plant_ids": [], "ambiguity_level":
-   "high", "usage_context": ["medicinal"]},
-    {"name": "Escancel", "normalized": "escancel", "language":
-   "es", "country": "EC", "plant_ids": [], "ambiguity_level":
-   "high", "usage_context": ["medicinal"]},
-    {"name": "Poleo chiquito", "normalized": "poleo chiquito", 
-   "language": "es", "country": "EC", "plant_ids": [],
-   "ambiguity_level": "high", "usage_context": ["medicinal"]},
-    {"name": "Chiri wayusa", "normalized": "chiri wayusa",
-   "language": "qu", "country": "EC", "plant_ids":
-   ["ilex_guayusa"], "ambiguity_level": "low", "usage_context":
-   ["medicinal", "tea"]},
-    {"name": "Rayu Kaspi", "normalized": "rayu kaspi",
-   "language": "qu", "country": "EC", "plant_ids": [],
-   "ambiguity_level": "high", "usage_context": ["medicinal"]},
-    {"name": "Zingya Panga", "normalized": "zingya panga",
-   "language": "qu", "country": "EC", "plant_ids": [],
-   "ambiguity_level": "high", "usage_context": ["medicinal"]}
-    ],
-    "geo_distribution": [
-    {"plant_id": "uncaria_tomentosa", "biomes":
-   ["amazon_rainforest"], "countries": ["EC"], "cultural_regions":
-   ["amazonian", "indigenous"]},
-    {"plant_id": "croton_lechleri", "biomes":
-   ["amazon_rainforest"], "countries": ["EC"], "cultural_regions":
-   ["amazonian", "indigenous"]},
-    {"plant_id": "banisteriopsis_caapi", "biomes":
-   ["amazon_rainforest"], "countries": ["EC"], "cultural_regions":
-   ["amazonian", "indigenous"]},
-    {"plant_id": "cinchona_pubescens", "biomes":
-   ["andean_highlands"], "countries": ["EC"], "cultural_regions":
-   ["andean", "indigenous"]},
-    {"plant_id": "ilex_guayusa", "biomes":
-   ["amazon_rainforest"], "countries": ["EC"], "cultural_regions":
-   ["amazonian", "indigenous"]},
-    {"plant_id": "piper_aduncum", "biomes":
-   ["amazon_rainforest", "andean_highlands"], "countries": ["EC"],
-   "cultural_regions": ["amazonian", "andean"]},
-    {"plant_id": "aloysia_citriodora", "biomes":
-   ["andean_highlands"], "countries": ["EC"], "cultural_regions":
-   ["andean"]},
-    {"plant_id": "matricaria_recutita", "biomes":
-   ["andean_highlands", "coastal"], "countries": ["EC"],
-   "cultural_regions": ["andean"]},
-    {"plant_id": "mentha_spicata", "biomes":
-   ["andean_highlands"], "countries": ["EC"], "cultural_regions":
-   ["andean"]},
-    {"plant_id": "ruta_graveolens", "biomes":
-   ["andean_highlands"], "countries": ["EC"], "cultural_regions":
-   ["andean"]},
-    {"plant_id": "aloe_vera", "biomes": ["coastal",
-   "dry_forest"], "countries": ["EC"], "cultural_regions":
-   ["criollo"]}
-    ],
-    "uses": [
-    {"plant_id": "ilex_guayusa", "categories": {"medicinal":
-   [{"use": "Gripe, fiebre y malestares generales (infusión)",
-   "evidence_level": "traditional", "regions": ["EC"]}]}},
-    {"plant_id": "piper_aduncum", "categories": {"medicinal":
-   [{"use": "Uso en gestación y posparto", "evidence_level":
-   "traditional", "regions": ["EC"]}]}},
-    {"plant_id": "aloysia_citriodora", "categories":
-   {"medicinal": [{"use": "Uso en gestación y posparto (toronjil/ cedrón)", "evidence_level": "traditional", "regions":
-   ["EC"]}]}},
-    {"plant_id": "matricaria_recutita", "categories":
-   {"medicinal": [{"use": "Uso principal en gestación y posparto",
-   "evidence_level": "traditional", "regions": ["EC"]}]}},
-    {"plant_id": "ruta_graveolens", "categories": {"medicinal":
-   [{"use": "Uso en tercer trimestre y posparto", "evidence_level":
-   "traditional", "regions": ["EC"]}]}},
-    {"plant_id": "aloe_vera", "categories": {"medicinal":
-   [{"use": "Uso en posparto", "evidence_level": "traditional",
-   "regions": ["EC"]}]}}
-    ],
-    "safety": [
-    {
-    "plant_id": "ruta_graveolens",
-    "contraindications": ["Uso en embarazo puede provocar contracciones uterinas y aborto"],
-    "toxicity_level": "moderate",
-    "lookalike_risk": false
-    }
-    ]
-   }
+      "scientific_name": "Taraxacum officinale",
+      "family": "Asteraceae",
+      "country": "EC",
+      "common_names": ["Diente de león"],
+      "uses": ["digestive", "liver"],
+      "meta": { "source": "ecuador_markets_loja", "confidence": "high", "cross_country": true }
+    },
+    
+        {
+          "scientific_name": "Sambucus nigra",
+          "family": "Adoxaceae",
+          "country": "EC",
+          "common_names": ["Tilo", "Sauco"],
+          "uses": ["respiratory", "fever", "antiviral"],
+          "meta": { "source": "ecuador_highlands_ethnobotany", "confidence": "high", "cross_country": true }
+        },
+        {
+          "scientific_name": "Urtica dioica",
+          "family": "Urticaceae",
+          "country": "EC",
+          "common_names": ["Ortiga"],
+          "uses": ["anti-inflammatory", "respiratory"],
+          "meta": { "source": "ecuador_highlands_ethnobotany", "confidence": "high", "cross_country": true }
+        },
+        {
+          "scientific_name": "Allium sativum",
+          "family": "Amaryllidaceae",
+          "country": "EC",
+          "common_names": ["Ajo"],
+          "uses": ["antiviral", "immune", "respiratory"],
+          "meta": { "source": "ecuador_highlands_ethnobotany", "confidence": "high", "cross_country": true }
+        },
+        {
+          "scientific_name": "Glycyrrhiza glabra",
+          "family": "Fabaceae",
+          "country": "EC",
+          "common_names": ["Regaliz"],
+          "uses": ["respiratory", "antiviral"],
+          "meta": { "source": "ecuador_highlands_ethnobotany", "confidence": "high", "cross_country": true }
+        },
+        {
+          "scientific_name": "Mentha spicata",
+          "family": "Lamiaceae",
+          "country": "EC",
+          "common_names": ["Hierba buena"],
+          "uses": ["digestive", "gynecological"],
+          "meta": { "source": "ecuador_highlands_ethnobotany", "confidence": "high", "cross_country": true }
+        },
+        {
+          "scientific_name": "Origanum vulgare",
+          "family": "Lamiaceae",
+          "country": "EC",
+          "common_names": ["Orégano"],
+          "uses": ["digestive", "respiratory"],
+          "meta": { "source": "ecuador_highlands_ethnobotany", "confidence": "high", "cross_country": true }
+        },
+        {
+          "scientific_name": "Rosmarinus officinalis",
+          "family": "Lamiaceae",
+          "country": "EC",
+          "common_names": ["Romero"],
+          "uses": ["postpartum care", "circulatory"],
+          "meta": { "source": "ecuador_highlands_ethnobotany", "confidence": "high", "cross_country": true }
+        },
+        {
+          "scientific_name": "Ficus carica",
+          "family": "Moraceae",
+          "country": "EC",
+          "common_names": ["Higo"],
+          "uses": ["digestive", "gynecological"],
+          "meta": { "source": "ecuador_highlands_ethnobotany", "confidence": "medium", "cross_country": true }
+        },
+        {
+          "scientific_name": "Pelargonium zonale",
+          "family": "Geraniaceae",
+          "country": "EC",
+          "common_names": ["Geranio"],
+          "uses": ["gynecological", "postpartum"],
+          "meta": { "source": "ecuador_highlands_ethnobotany", "confidence": "medium", "cross_country": true }
+        },
+        {
+          "scientific_name": "Juglans neotropica",
+          "family": "Juglandaceae",
+          "country": "EC",
+          "common_names": ["Nogal"],
+          "uses": ["postpartum", "anti-inflammatory"],
+          "meta": { "source": "ecuador_highlands_ethnobotany", "confidence": "medium", "cross_country": false }
+        },
+        {
+          "scientific_name": "Nicotiana tabacum",
+          "family": "Solanaceae",
+          "country": "EC",
+          "common_names": ["Tabaco"],
+          "uses": ["respiratory", "ritual", "antiviral"],
+          "meta": { "source": "ecuador_highlands_ethnobotany", "confidence": "medium", "cross_country": true }
+        },
+        {
+          "scientific_name": "Peperomia galioides",
+          "family": "Piperaceae",
+          "country": "EC",
+          "common_names": ["Congona"],
+          "uses": ["skin", "anti-inflammatory"],
+          "meta": { "source": "ecuador_highlands_ethnobotany", "confidence": "medium", "cross_country": false }
+        },
+        {
+          "scientific_name": "Aristeguietia glutinosa",
+          "family": "Asteraceae",
+          "country": "EC",
+          "common_names": ["Matico"],
+          "uses": ["wound healing", "anti-inflammatory"],
+          "meta": { "source": "ecuador_highlands_ethnobotany", "confidence": "high", "cross_country": true }
+        },
+            {
+              "scientific_name": "Baccharis latifolia",
+              "family": "Asteraceae",
+              "country": "EC",
+              "common_names": ["Chilca"],
+              "uses": ["anti-inflammatory", "wound healing"],
+              "meta": { "source": "ecuador_ethnobotany_combined", "confidence": "high", "cross_country": true }
+            },
+            {
+              "scientific_name": "Gnaphalium spicatum",
+              "family": "Asteraceae",
+              "country": "EC",
+              "common_names": ["Vira vira"],
+              "uses": ["respiratory", "cold"],
+              "meta": { "source": "ecuador_ethnobotany_combined", "confidence": "high", "cross_country": true }
+            },
+            {
+              "scientific_name": "Minthostachys mollis",
+              "family": "Lamiaceae",
+              "country": "EC",
+              "common_names": ["Muña"],
+              "uses": ["digestive", "antispasmodic"],
+              "meta": { "source": "ecuador_ethnobotany_combined", "confidence": "high", "cross_country": true }
+            },
+            {
+              "scientific_name": "Clinopodium brownei",
+              "family": "Lamiaceae",
+              "country": "EC",
+              "common_names": ["Poleo"],
+              "uses": ["digestive", "respiratory"],
+              "meta": { "source": "ecuador_ethnobotany_combined", "confidence": "high", "cross_country": true }
+            },
+            {
+              "scientific_name": "Valeriana pilosa",
+              "family": "Caprifoliaceae",
+              "country": "EC",
+              "common_names": ["Valeriana"],
+              "uses": ["sedative", "nervous system"],
+              "meta": { "source": "ecuador_ethnobotany_combined", "confidence": "high", "cross_country": true }
+            },
+            {
+              "scientific_name": "Passiflora edulis",
+              "family": "Passifloraceae",
+              "country": "EC",
+              "common_names": ["Maracuyá"],
+              "uses": ["sedative", "digestive"],
+              "meta": { "source": "ecuador_ethnobotany_combined", "confidence": "high", "cross_country": true }
+            },
+            {
+              "scientific_name": "Passiflora ligularis",
+              "family": "Passifloraceae",
+              "country": "EC",
+              "common_names": ["Granadilla"],
+              "uses": ["digestive", "calming"],
+              "meta": { "source": "ecuador_ethnobotany_combined", "confidence": "high", "cross_country": true }
+            },
+            {
+              "scientific_name": "Solanum quitoense",
+              "family": "Solanaceae",
+              "country": "EC",
+              "common_names": ["Naranjilla"],
+              "uses": ["digestive", "nutrition"],
+              "meta": { "source": "ecuador_ethnobotany_combined", "confidence": "medium", "cross_country": false }
+            },
+            {
+              "scientific_name": "Vasconcellea pubescens",
+              "family": "Caricaceae",
+              "country": "EC",
+              "common_names": ["Papaya andina"],
+              "uses": ["digestive", "enzyme"],
+              "meta": { "source": "ecuador_ethnobotany_combined", "confidence": "medium", "cross_country": true }
+            },
+            {
+              "scientific_name": "Smallanthus sonchifolius",
+              "family": "Asteraceae",
+              "country": "EC",
+              "common_names": ["Yacón"],
+              "uses": ["metabolic", "digestive"],
+              "meta": { "source": "ecuador_ethnobotany_combined", "confidence": "high", "cross_country": true }
+            },
+            {
+              "scientific_name": "Ambrosia arborescens",
+              "family": "Asteraceae",
+              "country": "EC",
+              "common_names": ["Marco"],
+              "uses": ["digestive", "antiparasitic"],
+              "meta": { "source": "ecuador_ethnobotany_combined", "confidence": "high", "cross_country": true }
+            },
+            {
+              "scientific_name": "Buddleja incana",
+              "family": "Scrophulariaceae",
+              "country": "EC",
+              "common_names": ["Kiswara"],
+              "uses": ["respiratory", "anti-inflammatory"],
+              "meta": { "source": "ecuador_ethnobotany_combined", "confidence": "high", "cross_country": true }
+            },
+            {
+              "scientific_name": "Krameria lappacea",
+              "family": "Krameriaceae",
+              "country": "EC",
+              "common_names": ["Ratania"],
+              "uses": ["astringent", "oral health"],
+              "meta": { "source": "ecuador_ethnobotany_combined", "confidence": "high", "cross_country": true }
+            }
+          ]
