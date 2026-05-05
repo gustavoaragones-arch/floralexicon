@@ -1,0 +1,95 @@
+{
+  "_meta": {
+    "schema_version": "1.0",
+    "description": "FloraLexicon Tier 2 region definitions. Each region has a country roster; every Tier 2 plant in that region must have names for every country listed. Countries may belong to multiple regions (e.g. MX in north_america and central_america); plants may not. Every country_code must exist in canonical/countries.json.",
+    "region_count": 17,
+    "last_updated": "2026-04-23"
+  },
+  "regions": {
+    "andean": {
+      "name": "Andean",
+      "description": "The Andean cultural-ecological zone spanning the high Andes from Venezuela to northern Chile/Argentina.",
+      "countries": ["BO", "PE", "EC", "CO", "CL"]
+    },
+    "amazon": {
+      "name": "Amazon Basin",
+      "description": "The Amazon basin, shared ethnobotanically across multiple South American countries.",
+      "countries": ["BR", "PE", "EC", "CO", "VE", "BO"]
+    },
+    "caribbean": {
+      "name": "Caribbean",
+      "description": "Island nations and cultural zones of the Caribbean. Shares some ethnobotany with Central America.",
+      "countries": ["CU", "DO", "JM", "TT"]
+    },
+    "central_america": {
+      "name": "Central America",
+      "description": "Isthmus from southern Mexico through Panama.",
+      "countries": ["MX", "GT", "SV", "CR", "PA"]
+    },
+    "east_africa": {
+      "name": "East Africa",
+      "description": "Horn of Africa and East African region.",
+      "countries": ["ET", "KE"]
+    },
+    "east_asia": {
+      "name": "East Asia",
+      "description": "China, Japan, Korea, Taiwan. Shared traditional medicine lineage via Chinese materia medica.",
+      "countries": ["CN", "JP", "KR", "TW"]
+    },
+    "eastern_europe": {
+      "name": "Eastern Europe",
+      "description": "Central and eastern European nations with shared Slavic and Central European herbal traditions.",
+      "countries": ["PL", "CZ", "SK", "HU", "RO", "BG", "UA", "RU", "HR"]
+    },
+    "mediterranean": {
+      "name": "Mediterranean",
+      "description": "Mediterranean basin including southern Europe, North Africa, and the Levant. Shared culinary-medicinal tradition.",
+      "countries": ["ES", "PT", "FR", "IT", "GR", "HR", "TR", "MA", "TN", "DZ", "EG", "IL", "IR"]
+    },
+    "nordic": {
+      "name": "Nordic",
+      "description": "Nordic countries with shared Germanic/Scandinavian herbal tradition.",
+      "countries": ["DK", "SE", "NO", "FI"]
+    },
+    "north_america": {
+      "name": "North America",
+      "description": "US, Canada, and northern Mexico. Shared commercial herbal market with Indigenous ethnobotanical substrate.",
+      "countries": ["US", "CA", "MX"]
+    },
+    "oceania": {
+      "name": "Oceania",
+      "description": "Australia and New Zealand. Distinct Indigenous ethnobotany plus European settler tradition.",
+      "countries": ["AU", "NZ"]
+    },
+    "south_asia": {
+      "name": "South Asia",
+      "description": "Indian subcontinent. Ayurvedic and related traditional medicine systems.",
+      "countries": ["IN", "PK", "LK"]
+    },
+    "southeast_asia": {
+      "name": "Southeast Asia",
+      "description": "ASEAN region. Diverse traditions with significant Chinese and Indian influence.",
+      "countries": ["TH", "VN", "ID", "MY", "PH", "SG"]
+    },
+    "southern_africa": {
+      "name": "Southern Africa",
+      "description": "Southern African region with shared ethnobotany and regulated traditional medicine in South Africa.",
+      "countries": ["ZA", "ZM", "ZW"]
+    },
+    "southern_cone": {
+      "name": "Southern Cone",
+      "description": "Argentina, Chile, Uruguay, Paraguay, southern Brazil. Shared Spanish/Portuguese/Guaraní ethnobotany.",
+      "countries": ["AR", "CL", "PY", "UY", "BR"]
+    },
+    "west_africa": {
+      "name": "West Africa",
+      "description": "West African region with shared ethnobotany across anglophone and francophone nations.",
+      "countries": ["SN", "GH", "NG"]
+    },
+    "western_europe": {
+      "name": "Western Europe",
+      "description": "Western European nations with shared Germanic/Romance herbal and pharmacopoeial tradition.",
+      "countries": ["FR", "DE", "BE", "NL", "CH", "AT", "GB", "IE"]
+    }
+  }
+}

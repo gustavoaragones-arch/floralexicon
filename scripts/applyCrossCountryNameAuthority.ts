@@ -85,6 +85,13 @@ function tierForSpan(span: number): "standard" | "cross_regional" | "cosmopolita
  */
 function regionalRowScore(row: NameRow, countryIso: string): number {
   const C = countryIso.trim().toUpperCase();
+  // Honour the merge pipeline's is_primary decision — it wins outright.
+  if (Array.isArray(row.country_usage)) {
+    const isPrimary = row.country_usage.some(
+      (u) => typeof u.country === "string" && u.country.trim().toUpperCase() === C && u.is_primary === true
+    );
+    if (isPrimary) return Infinity;
+  }
   const codes = rowCountryIsos(row);
   const listsC = codes.some((c) => c === C) ? 2 : 0;
   return listsC + codes.length * 0.3 - row.name.length * 0.01;
@@ -440,6 +447,18 @@ function main() {
   console.log(
     `Multi-country plants (≥3): ${multiCountryPlants}; hub conflicts: ${conflicts.length}; global/regional mismatches: ${mismatches.length}`
   );
+
+  // RC1: verify the authority step actually produced dominant_in_countries entries.
+  const dominantCount = names.filter(
+    (n) => Array.isArray(n.dominant_in_countries) && n.dominant_in_countries.length > 0
+  ).length;
+  if (dominantCount === 0) {
+    console.error(
+      "❌ Authority step did not run or produced no dominant_in_countries entries. Check scripts/applyCrossCountryNameAuthority.ts ran successfully."
+    );
+    process.exit(1);
+  }
+  console.log(`dominant_in_countries set on ${dominantCount} row(s) ✓`);
 }
 
 main();

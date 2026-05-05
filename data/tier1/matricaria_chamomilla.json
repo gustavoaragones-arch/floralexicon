@@ -1,0 +1,1315 @@
+{
+  "plant_id": "matricaria_chamomilla",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "FI",
+    "FR",
+    "GB",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Manzanilla",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Argentine retail and supermarket labelling, 2020s"
+      },
+      {
+        "name": "Manzanilla común",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Farmacopea Argentina, Séptima Edición (Argentine Pharmacopoeia, 7th Edition)"
+      },
+      {
+        "name": "Manzanilla alemana",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Enciclopedia Argentina de Agricultura y Jardinería (Argentine Encyclopedia of Agriculture and Gardening)"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Kamille",
+        "language": "de",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Austrian and German-speaking everyday usage; standard retail and conversational term"
+      },
+      {
+        "name": "Echte Kamille",
+        "language": "de",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Europäisches Arzneibuch, Matricariae flos (European Pharmacopoeia, chamomile flower monograph)"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Chamomile",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Australian retail and supermarket labelling for tea and herbal supplements"
+      },
+      {
+        "name": "German chamomile",
+        "language": "en",
+        "confidence": "medium",
+        "source": "regulatory",
+        "citation": "Therapeutic Goods Administration (TGA) Australian Approved Names list, used to disambiguate Matricaria chamomilla from Chamaemelum nobile"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Kamille",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Belgian Dutch/Flemish retail and everyday usage"
+      },
+      {
+        "name": "Camomille",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Belgian French retail and everyday usage"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Лайка",
+        "language": "bg",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Bulgarian retail and everyday usage; standard supermarket and pharmacy label",
+        "transliteration": "Layka",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Лечебна лайка",
+        "language": "bg",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Bulgarian pharmacopoeial and herbal-monograph nomenclature",
+        "transliteration": "Lechebna layka",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Manzanilla",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Bolivian retail, pharmacy, and ethnobotanical usage (Andean Spanish)"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Camomila",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Brazilian retail and supermarket labelling, 2020s"
+      },
+      {
+        "name": "Camomila-comum",
+        "language": "pt",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Farmacopeia Brasileira, 6ª edição (Brazilian Pharmacopoeia, 6th edition)"
+      },
+      {
+        "name": "Maçanilha",
+        "language": "pt",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Plantas Medicinais no Brasil: Nativas e Exóticas (Medicinal Plants in Brazil: Native and Exotic)"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Chamomile",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Canadian retail and Health Canada Natural Health Products Ingredients Database (NHPID) usage"
+      },
+      {
+        "name": "Camomille",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Canadian French (Québec, francophone provinces) retail and everyday usage"
+      },
+      {
+        "name": "German chamomile",
+        "language": "en",
+        "confidence": "medium",
+        "source": "regulatory",
+        "citation": "Health Canada Natural Health Products Ingredients Database (NHPID), Matricaria chamomilla proper name"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Kamille",
+        "language": "de",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Swiss German retail and everyday usage"
+      },
+      {
+        "name": "Camomille",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Romandy (Swiss French) retail and everyday usage"
+      },
+      {
+        "name": "Camomilla",
+        "language": "it",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Swiss Italian (Ticino) retail and everyday usage"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Manzanilla",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Chilean retail and supermarket labelling, 2020s"
+      },
+      {
+        "name": "Manzanilla común",
+        "language": "es",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Farmacopea Chilena, Tercera Edición (Chilean Pharmacopoeia, 3rd Edition)"
+      },
+      {
+        "name": "Manzanilla alemana",
+        "language": "es",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Listado de Medicamentos Herbarios Tradicionales, Minsal Chile (List of Traditional Herbal Medicines, Ministry of Health Chile)"
+      }
+    ],
+    "CN": [
+      {
+        "name": "洋甘菊",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Chinese retail and supermarket labelling, 2020s",
+        "transliteration": "yánggānjú",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "母菊",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "中华人民共和国药典 2020 (Pharmacopoeia of the People's Republic of China, 2020 Edition)",
+        "transliteration": "mǔjú",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "德国洋甘菊",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "中国植物志 (Flora Reipublicae Popularis Sinicae)",
+        "transliteration": "déguó yánggānjú",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Manzanilla",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Colombian retail, supermarket, and pharmacy nomenclature; INVIMA herbal listings"
+      },
+      {
+        "name": "Manzanilla común",
+        "language": "es",
+        "confidence": "medium",
+        "source": "regulatory",
+        "citation": "Vademécum Colombiano de Plantas Medicinales (Colombian Compendium of Medicinal Plants), INVIMA"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Manzanilla",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Costa Rican retail and pharmacy usage"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Manzanilla",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Cuban retail, pharmacy, and Ministerio de Salud Pública (MINSAP) herbal usage"
+      },
+      {
+        "name": "Manzanilla alemana",
+        "language": "es",
+        "confidence": "medium",
+        "source": "ethnobotany",
+        "citation": "Roig y Mesa, Plantas medicinales, aromáticas o venenosas de Cuba (Cuban medicinal plants compendium)"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Heřmánek",
+        "language": "cs",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Czech retail, pharmacy, and everyday usage; standard supermarket label"
+      },
+      {
+        "name": "Heřmánek pravý",
+        "language": "cs",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Český lékopis (Czech Pharmacopoeia), Matricariae flos monograph"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Kamille",
+        "language": "de",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Standard German retail/commercial nomenclature; common retail label"
+      },
+      {
+        "name": "Kamillenblüten",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Deutsches Arzneibuch (German Pharmacopoeia); European Pharmacopoeia"
+      },
+      {
+        "name": "Echte Kamille",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Deutsches Arzneibuch (German Pharmacopoeia)"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Kamille",
+        "language": "da",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Danish retail, pharmacy, and everyday usage"
+      },
+      {
+        "name": "Ægte kamille",
+        "language": "da",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Den Europæiske Farmakopé (European Pharmacopoeia, Danish text), Matricariae flos"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Manzanilla",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Dominican retail and pharmacy usage"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "بابونج",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Algerian and Maghreb Arabic retail, pharmacy, and everyday usage",
+        "transliteration": "bābūnaj",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Camomille",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Algerian French usage in pharmacies, retail packaging, and L2 administrative contexts"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Manzanilla",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Ecuadorian retail, pharmacy, and ARCSA herbal nomenclature"
+      }
+    ],
+    "EG": [
+      {
+        "name": "بابونج",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Egyptian retail and spice market (Attareen) labelling, 2020s",
+        "transliteration": "bābūnaj",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "شيح بابونج",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "دستور الأدوية المصري (Egyptian Pharmacopoeia)",
+        "transliteration": "shīḥ bābūnaj",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "كاموميل",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Egyptian supermarket tea aisle labelling, 2020s",
+        "transliteration": "kāmūmīl",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Manzanilla",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Spanish retail, pharmacy, and Real Farmacopea Española usage"
+      },
+      {
+        "name": "Camamilla",
+        "language": "ca",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Catalan retail and everyday usage in Catalonia, Valencia, and the Balearic Islands"
+      },
+      {
+        "name": "Manzanilla común",
+        "language": "es",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Real Farmacopea Española (Spanish Pharmacopoeia), AEMPS herbal monographs"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Kamomilla",
+        "language": "fi",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Finnish retail, pharmacy, and everyday usage"
+      },
+      {
+        "name": "Kamomill",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Finland-Swedish (Finlandssvenska) retail and everyday usage"
+      },
+      {
+        "name": "Saksankamomilla",
+        "language": "fi",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Finnish botanical and pharmacy literature, German chamomile disambiguated form"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Camomille",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General French retail and supermarket labelling, 2020s"
+      },
+      {
+        "name": "Camomille matricaire",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Pharmacopée Française, 11ème édition (French Pharmacopoeia, 11th ed.)"
+      },
+      {
+        "name": "Matricaire officinale",
+        "language": "fr",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Arrêté du 24 juin 2014 établissant la liste des plantes autorisées dans les compléments alimentaires (Decree of June 24, 2014 establishing the list of plants authorized in food supplements)"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Chamomile",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General UK retail and supermarket labelling; British Pharmacopoeia common name"
+      },
+      {
+        "name": "German chamomile",
+        "language": "en",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "British Pharmacopoeia / British Herbal Pharmacopoeia, Matricaria recutita monograph"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Χαμομήλι",
+        "language": "el",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Greek retail, pharmacy, and everyday usage",
+        "transliteration": "Chamomíli",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Χαμαίμηλον",
+        "language": "el",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Greek Pharmacopoeia (Ελληνική Φαρμακοποιία), classical-form name",
+        "transliteration": "Chamaímilon",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Manzanilla",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Guatemalan retail, pharmacy, and Ministerio de Salud Pública (MSPAS) herbal usage"
+      },
+      {
+        "name": "Manzanilla común",
+        "language": "es",
+        "confidence": "medium",
+        "source": "ethnobotany",
+        "citation": "Cáceres, Plantas de uso medicinal en Guatemala (Guatemalan medicinal plants compendium)"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Kamilica",
+        "language": "hr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Croatian retail, pharmacy, and everyday usage"
+      },
+      {
+        "name": "Prava kamilica",
+        "language": "hr",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Hrvatska farmakopeja (Croatian Pharmacopoeia) / HALMED, Matricariae flos"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Kamilla",
+        "language": "hu",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Hungarian retail, pharmacy, and everyday usage"
+      },
+      {
+        "name": "Orvosi székfű",
+        "language": "hu",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Magyar Gyógyszerkönyv (Hungarian Pharmacopoeia), Matricariae flos"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Kamomil",
+        "language": "id",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Indonesian retail labelling on imported chamomile tea and herbal products; phonetic adaptation of chamomile into Bahasa Indonesia"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Chamomile",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Irish retail, pharmacy, and supermarket labelling"
+      },
+      {
+        "name": "German chamomile",
+        "language": "en",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "British Pharmacopoeia / European Pharmacopoeia (HPRA-recognised), Matricariae flos"
+      }
+    ],
+    "IL": [
+      {
+        "name": "בבונג",
+        "language": "he",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Israeli retail, pharmacy, and everyday Hebrew usage",
+        "transliteration": "babonag",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "بابونج",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Arabic-speaking Israeli and pan-Arab everyday usage",
+        "transliteration": "bābūnaj",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "Chamomile",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "General Indian retail labeling, e-commerce platforms (Amazon.in, BigBasket), and urban consumer health trends, 2020s."
+      },
+      {
+        "name": "बबूना",
+        "language": "hi",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "The Ayurvedic Pharmacopoeia of India; Wealth of India (Raw Materials), CSIR.",
+        "transliteration": "Babūnā",
+        "transliteration_scheme": "iast"
+      }
+    ],
+    "IR": [
+      {
+        "name": "بابونه",
+        "language": "fa",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Iranian retail, pharmacy, and everyday Persian usage",
+        "transliteration": "bābūnah",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "بابونج",
+        "language": "fa",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Iranian Herbal Pharmacopoeia / Persian classical medicine (Tibb-e Sonnati) tradition",
+        "transliteration": "bābūnaj",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Camomilla",
+        "language": "it",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Italian retail and supermarket labelling, 2020s"
+      },
+      {
+        "name": "Camomilla comune",
+        "language": "it",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Farmacopea Ufficiale della Repubblica Italiana"
+      },
+      {
+        "name": "Camomilla tedesca",
+        "language": "it",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Erboristeria Italiana"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Chamomile",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Jamaican retail, supermarket, and pharmacy labelling"
+      }
+    ],
+    "JP": [
+      {
+        "name": "カモミール",
+        "language": "ja",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "General Japanese retail labeling, tea brands (e.g., Lipton JP, Enherb), and consumer health trends, 2020s.",
+        "transliteration": "Kamomīru",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "カミツレ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "The Japanese Pharmacopoeia (Nippon Yakkyokuho); Ministry of Health, Labour and Welfare.",
+        "transliteration": "Kamitsure",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "ジャーマンカモミール",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan Herb Society (JHS) and horticultural guides.",
+        "transliteration": "Jāman kamomīru",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Chamomile",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Kenyan retail and supermarket labelling for imported chamomile tea; English is an official Kenyan language"
+      }
+    ],
+    "KR": [
+      {
+        "name": "캐모마일",
+        "language": "ko",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Korean retail, supermarket, and tea-market labelling; phonetic adaptation of chamomile into Hangul",
+        "transliteration": "kaemomail",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "Chamomile",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Sri Lankan retail and supermarket labelling for imported chamomile tea; English is widely used in Sri Lankan urban commerce"
+      }
+    ],
+    "MA": [
+      {
+        "name": "بابونج",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Moroccan and Maghreb Arabic retail, pharmacy, and everyday usage",
+        "transliteration": "bābūnaj",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Camomille",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Moroccan French usage in pharmacies, retail packaging, and L2 commerce"
+      },
+      {
+        "name": "Camomille allemande",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "French pharmacy nomenclature used in Morocco, German chamomile disambiguator from Cladanthus mixtus (Moroccan chamomile)"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Manzanilla",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "General Mexican retail nomenclature and ethnobotanical records, 2020s"
+      },
+      {
+        "name": "Manzanilla común",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Farmacopea Herbolaria de los Estados Unidos Mexicanos (Mexican Herbal Pharmacopoeia)"
+      },
+      {
+        "name": "Tzitzicquilitl",
+        "language": "nah",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Catálogo de nombres vulgares and científicos de las plantas mexicanas, Maximino Martínez"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Chamomile",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Malaysian retail and supermarket labelling; English widely used in Malaysian urban commerce and pharmacies"
+      },
+      {
+        "name": "洋甘菊",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Standard Chinese name used by Malaysian Chinese community; pan-Chinese retail term",
+        "transliteration": "yánggānjú",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Kamomil",
+        "language": "ms",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Bahasa Malaysia phonetic adaptation of chamomile used on Malay-language product packaging"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Kamille",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Dutch retail, pharmacy, and everyday usage"
+      },
+      {
+        "name": "Echte kamille",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Nederlandse Farmacopee / European Pharmacopoeia (Dutch text), Matricariae flos"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Kamille",
+        "language": "no",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Norwegian retail, pharmacy, and everyday usage; standard term across Bokmål and Nynorsk"
+      },
+      {
+        "name": "Ekte kamille",
+        "language": "no",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Norwegian pharmacy nomenclature (Statens legemiddelverk), Matricariae flos"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Chamomile",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General New Zealand retail and supermarket labelling"
+      },
+      {
+        "name": "German chamomile",
+        "language": "en",
+        "confidence": "medium",
+        "source": "regulatory",
+        "citation": "Medsafe (NZ Medicines and Medical Devices Safety Authority) / Natural Health Products labelling, used to disambiguate from Roman chamomile"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Manzanilla",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Panamanian retail and pharmacy usage"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Manzanilla",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "General Peruvian market nomenclature and traditional medicine practice"
+      },
+      {
+        "name": "Manzanilla común",
+        "language": "es",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Official Peruvian medicinal plant guides and herbalist standards"
+      },
+      {
+        "name": "Mansanilla",
+        "language": "qu",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Linguistic records of Andean flora and Quechua-Spanish medical glossaries"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Chamomile",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Philippine retail, supermarket, and pharmacy labelling; English is co-official and dominant in urban commerce and online search"
+      },
+      {
+        "name": "Kamomila",
+        "language": "tl",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Filipino-language phonetic adaptation of chamomile used on imported chamomile tea packaging"
+      }
+    ],
+    "PK": [
+      {
+        "name": "بابونہ",
+        "language": "ur",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Pakistani Urdu retail, herbal, and everyday usage; standard term across Pakistani Unani and herbal contexts",
+        "transliteration": "bābūnah",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Chamomile",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Pakistani retail and supermarket labelling; English is co-official and dominant in urban Pakistani commerce"
+      },
+      {
+        "name": "بابونج",
+        "language": "ur",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Unani Pharmacopoeia of Pakistan / Unani classical materia medica",
+        "transliteration": "bābūnaj",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Rumianek",
+        "language": "pl",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Polish retail, pharmacy, and everyday usage"
+      },
+      {
+        "name": "Rumianek pospolity",
+        "language": "pl",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Farmakopea Polska (Polish Pharmacopoeia), Matricariae flos"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Camomila",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Portuguese retail, pharmacy, and supermarket labelling"
+      },
+      {
+        "name": "Camomila-comum",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Farmacopeia Portuguesa (Portuguese Pharmacopoeia), Matricariae flos"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Manzanilla",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Paraguayan retail and pharmacy usage"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Mușețel",
+        "language": "ro",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Romanian retail, pharmacy, and everyday usage"
+      },
+      {
+        "name": "Mușețel comun",
+        "language": "ro",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Farmacopeea Română (Romanian Pharmacopoeia), Matricariae flos"
+      },
+      {
+        "name": "Romaniță",
+        "language": "ro",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Romanian regional and folk usage (especially Transylvanian); cognate with Slavic ромашка / rumianek"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Ромашка",
+        "language": "ru",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "General Russian retail and pharmacy labeling, 2020s",
+        "transliteration": "Romashka",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Ромашка аптечная",
+        "language": "ru",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Государственная фармакопея Российской Федерации (State Pharmacopoeia of the Russian Federation)",
+        "transliteration": "Romashka aptechnaya",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Ромашка ободранная",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Flora of the USSR, Vol. 26",
+        "transliteration": "Romashka obodrannaya",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Kamomill",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Swedish retail, pharmacy, and everyday usage"
+      },
+      {
+        "name": "Äkta kamomill",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Swedish pharmacy nomenclature, true chamomile disambiguator from Roman chamomile (Chamaemelum nobile)"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Chamomile",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Singapore retail and supermarket labelling; English is dominant in Singapore commerce, education, and online search"
+      },
+      {
+        "name": "洋甘菊",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Standard Chinese name; universal among Singapore Chinese community",
+        "transliteration": "yánggānjú",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Kamomil",
+        "language": "ms",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Bahasa Melayu phonetic adaptation of chamomile used on Malay-language product packaging"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Rumanček",
+        "language": "sk",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Slovak retail, pharmacy, and everyday usage"
+      },
+      {
+        "name": "Rumanček pravý",
+        "language": "sk",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Slovenský liekopis (Slovak Pharmacopoeia), Matricariae flos"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Manzanilla",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Salvadoran retail and pharmacy usage"
+      }
+    ],
+    "TH": [
+      {
+        "name": "คาโมมายล์",
+        "language": "th",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Thai retail and supermarket labelling on imported chamomile tea; phonetic adaptation of chamomile into Thai script",
+        "transliteration": "khamomai",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "بابونج",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Tunisian and Maghreb Arabic retail, pharmacy, and everyday usage",
+        "transliteration": "bābūnaj",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Camomille",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Tunisian French usage in pharmacies, retail packaging, and L2 commerce"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Papatya",
+        "language": "tr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Turkish retail, pharmacy, and everyday usage"
+      },
+      {
+        "name": "Tıbbi papatya",
+        "language": "tr",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Türk Farmakopesi (Turkish Pharmacopoeia), Matricariae flos"
+      },
+      {
+        "name": "Alman papatyası",
+        "language": "tr",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Turkish pharmacy and herbal nomenclature, German chamomile disambiguator"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Chamomile",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Trinidadian and Caribbean retail and supermarket labelling"
+      }
+    ],
+    "TW": [
+      {
+        "name": "洋甘菊",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Taiwanese retail, supermarket, and herbal-tea market usage; standard pan-Chinese term",
+        "transliteration": "yánggānjú",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "母菊",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Chinese-language botanical and pharmacopoeial nomenclature for genus Matricaria",
+        "transliteration": "mǔjú",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Ромашка",
+        "language": "uk",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Ukrainian retail, pharmacy, and everyday usage",
+        "transliteration": "Romashka",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Ромашка лікарська",
+        "language": "uk",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Державна фармакопея України (State Pharmacopoeia of Ukraine), Matricariae flos",
+        "transliteration": "Romashka likarska",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "US": [
+      {
+        "name": "Chamomile",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "General United States retail and herbal tea market labeling, 2020s"
+      },
+      {
+        "name": "German Chamomile",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "American Botanical Council and herbalist literature"
+      },
+      {
+        "name": "Manzanilla",
+        "language": "es-US",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "U.S. Hispanic market retail and ethnobotanical studies"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Manzanilla",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Uruguayan retail and pharmacy usage"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Manzanilla",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Venezuelan retail and pharmacy usage"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Cúc La Mã",
+        "language": "vi",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Vietnamese retail, supermarket, and tea-market labelling for chamomile products; despite literal Roman chamomile etymology, this is the standard Vietnamese commerce term for Matricaria chamomilla"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Chamomile",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Kirchhoffs South Africa Herb Range"
+      },
+      {
+        "name": "Kamille",
+        "language": "af",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Kirchhoffs South Africa Herb Range"
+      },
+      {
+        "name": "German Chamomile",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "North Carolina Extension Gardener Plant Toolbox (Matricaria chamomilla)"
+      }
+    ]
+  }
+}

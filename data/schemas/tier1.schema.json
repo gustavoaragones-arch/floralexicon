@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://floralexicon.com/schemas/tier1.schema.json",
+  "title": "FloraLexicon Tier 1 Plant Entry",
+  "description": "A Tier 1 plant is globally commercially significant. Every country in supported_countries MUST have at least one name entry in names. The first name in each country's array is the implicit primary. No propagation, no synthesis, no inferred fields.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "plant_id",
+    "tier",
+    "supported_countries",
+    "names"
+  ],
+  "properties": {
+    "plant_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]*$",
+      "description": "Must match a plant_id from canonical/plants.json."
+    },
+    "tier": {
+      "const": 1
+    },
+    "supported_countries": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/CountryCode"
+      },
+      "description": "ISO 3166-1 alpha-2 country codes. Every entry MUST have a corresponding key in names."
+    },
+    "names": {
+      "type": "object",
+      "minProperties": 1,
+      "propertyNames": {
+        "$ref": "#/$defs/CountryCode"
+      },
+      "additionalProperties": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "$ref": "#/$defs/NameEntry"
+        },
+        "description": "The first entry is the implicit primary. Additional entries are alternatives ordered by frequency/authority."
+      }
+    },
+    "notes": {
+      "type": "string",
+      "description": "Optional editorial notes. Not displayed to users."
+    }
+  },
+  "$defs": {
+    "CountryCode": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}$",
+      "description": "ISO 3166-1 alpha-2, uppercase. Must exist in canonical/countries.json."
+    },
+    "LanguageCode": {
+      "type": "string",
+      "pattern": "^[a-z]{2,3}(-[A-Z]{2})?$",
+      "description": "BCP 47 language tag. Base language only (es, fr) or with region (pt-BR, zh-CN)."
+    },
+    "Source": {
+      "type": "string",
+      "enum": [
+        "pharmacopoeia",
+        "pharmacopoeia_traditional",
+        "regulatory",
+        "ethnobotany",
+        "commercial",
+        "traditional",
+        "linguistic"
+      ],
+      "description": "Controlled vocabulary. Normalise upstream source strings to these values at ingestion. Free-text attribution goes in 'citation'. Use 'pharmacopoeia_traditional' for officially-codified traditional medicine systems (Chinese Pharmacopoeia, Ayurvedic Pharmacopoeia of India, Korean Pharmacopoeia of Traditional Medicine)."
+    },
+    "Confidence": {
+      "type": "string",
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "NameEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "language",
+        "confidence",
+        "source"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The local name as written in the target country. Preserve original script (Cyrillic, Arabic, Han, etc.)."
+        },
+        "language": {
+          "$ref": "#/$defs/LanguageCode"
+        },
+        "confidence": {
+          "$ref": "#/$defs/Confidence"
+        },
+        "source": {
+          "$ref": "#/$defs/Source"
+        },
+        "citation": {
+          "type": "string",
+          "description": "Optional free-text citation. E.g. 'WHO Monograph Vol. 1 p. 87' or 'INVIMA 2021-03'."
+        },
+        "transliteration": {
+          "type": "string",
+          "description": "Latin-script transliteration. REQUIRED when 'name' contains non-Latin script characters; FORBIDDEN otherwise (validator-enforced). Used for search indexing, not display."
+        },
+        "transliteration_scheme": {
+          "type": "string",
+          "enum": [
+            "ala_lc",
+            "bgn_pcgn",
+            "buckwalter",
+            "din_31635",
+            "gost",
+            "hepburn",
+            "iast",
+            "iso_15919",
+            "iso_843",
+            "iso_9",
+            "kunrei",
+            "pinyin",
+            "pinyin_toneless",
+            "rr",
+            "rtgs",
+            "yale"
+          ],
+          "description": "Romanisation scheme used for the transliteration. REQUIRED when 'transliteration' is present; FORBIDDEN otherwise (validator-enforced). ala_lc covers both Arabic and Hebrew (Library of Congress romanisation). iso_843 for Greek. rtgs (Royal Thai General System) for Thai. See STYLE_GUIDE.md for project defaults per script."
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "_schema_version": "1.2",
+  "_changelog": [
+    "v1.1 (2026-04-23): added pharmacopoeia_traditional to Source enum; added transliteration_scheme enum field",
+    "v1.2 (2026-04-23): added iso_843 (Greek) and rtgs (Thai) to transliteration_scheme enum; documented ala_lc covers Hebrew"
+  ]
+}
