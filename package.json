@@ -27,7 +27,8 @@
     "audit-processed-duplicates": "tsx scripts/audit-processed-duplicates.ts",
     "fix-processed-duplicates": "tsx scripts/fix-processed-duplicates.ts",
     "suggest-mappings": "tsx scripts/suggest-name-mappings.ts",
-    "build-dataset": "npm run merge-dataset && npm run migrate-country-usage && npm run ci:coverage && npm run apply-cross-country-names && npm run apply-uses-taxonomy"
+    "canary": "tsx scripts/phase1a-canary.ts",
+    "build-dataset": "npm run merge-dataset && npm run migrate-country-usage && npm run ci:coverage && npm run apply-cross-country-names && npm run canary && npm run apply-uses-taxonomy"
   },
   "dependencies": {
     "next": "14.2.35",

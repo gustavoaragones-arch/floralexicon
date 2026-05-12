@@ -92,7 +92,11 @@ function buildResult(
     };
   }
 
-  const ranked = sortForCountryMode(entries, c);
+  const primaries = entries.filter((e) =>
+    e.country_usage?.some((u) => u.country === c && u.is_primary === true)
+  );
+  const pool = primaries.length ? primaries : entries;
+  const ranked = sortForCountryMode(pool, c);
   const orderedLabels: string[] = [];
   const seenNorm = new Set<string>();
   for (const e of ranked) {
