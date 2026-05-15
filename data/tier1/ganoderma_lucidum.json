@@ -1,0 +1,1387 @@
+{
+  "plant_id": "ganoderma_lucidum",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CZ",
+    "DE",
+    "DK",
+    "ES",
+    "FI",
+    "FR",
+    "GB",
+    "GR",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IT",
+    "JP",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NL",
+    "NO",
+    "NZ",
+    "PE",
+    "PH",
+    "PL",
+    "PT",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "TH",
+    "TW",
+    "UA",
+    "US",
+    "VN",
+    "ZA"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Reishi",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Argentine supplement shops, wellness ecommerce, and imported mushroom-product terminology"
+      },
+      {
+        "name": "Hongo reishi",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Argentine mushroom supplement and herbal-commerce terminology"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Reishi",
+        "language": "de",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Austrian supplement, TCM, and medicinal mushroom terminology"
+      },
+      {
+        "name": "Glänzender Lackporling",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "German-language mycological terminology for Ganoderma lucidum sensu lato"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Reishi",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Australian supplement, wellness, and medicinal mushroom terminology"
+      },
+      {
+        "name": "Lingzhi",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Australian Chinese medicine and medicinal mushroom terminology"
+      },
+      {
+        "name": "Varnish shelf",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "English-language mushroom field-guide terminology"
+      },
+      {
+        "name": "Varnished conk",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Australian English mycological terminology for Ganoderma lucidum complex fungi"
+      },
+      {
+        "name": "Ganoderma lucidum",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Australian medicinal mushroom cultivation and supplement terminology"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Reishi",
+        "language": "nl",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Belgian wellness, supplement, and medicinal mushroom terminology"
+      },
+      {
+        "name": "Ganoderme luisant",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "French-language mycological terminology for Ganoderma lucidum sensu lato"
+      },
+      {
+        "name": "Glänzender Lackporling",
+        "language": "de",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "German-language mushroom terminology used in Belgium"
+      },
+      {
+        "name": "Reishi",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Belgian medicinal mushroom, wellness, and supplement terminology"
+      },
+      {
+        "name": "Gesteelde lakzwam",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Belgian Dutch mycological terminology"
+      },
+      {
+        "name": "Lingzhi",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Belgian TCM terminology"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Рейши",
+        "language": "bg",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Bulgarian supplement and medicinal mushroom terminology",
+        "transliteration": "Reyshi",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Лъскава ганодерма",
+        "language": "bg",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Bulgarian mycological terminology for Ganoderma lucidum sensu lato",
+        "transliteration": "Lŭskava ganoderma",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Линджи",
+        "language": "bg",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Bulgarian TCM and medicinal mushroom terminology",
+        "transliteration": "Lindzhi",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Ганодерма",
+        "language": "bg",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Bulgarian medicinal mushroom cultivation and supplement terminology",
+        "transliteration": "Ganoderma",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Reishi",
+        "language": "pt",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Brazilian supplement, wellness, and medicinal mushroom terminology"
+      },
+      {
+        "name": "Cogumelo reishi",
+        "language": "pt",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Brazilian medicinal mushroom and wellness-product terminology"
+      },
+      {
+        "name": "Cogumelo do imperador",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Brazilian wellness-marketing terminology for reishi products"
+      },
+      {
+        "name": "Ganoderma lucidum",
+        "language": "pt",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Brazilian medicinal mushroom cultivation terminology"
+      },
+      {
+        "name": "Cogumelo da imortalidade",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Brazilian wellness-marketing terminology"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Reishi",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Canadian supplement, wellness, medicinal mushroom, and TCM terminology"
+      },
+      {
+        "name": "Lingzhi",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Canadian Chinese medicine and medicinal mushroom terminology"
+      },
+      {
+        "name": "Ganoderme luisant",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Canadian French mycological terminology for Ganoderma lucidum sensu lato"
+      },
+      {
+        "name": "Varnished conk",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Canadian English mycological terminology for Ganoderma lucidum complex fungi"
+      },
+      {
+        "name": "Ganoderma lucidum",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Canadian medicinal mushroom cultivation and supplement terminology"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Reishi",
+        "language": "de",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Swiss supplement, TCM, and medicinal mushroom terminology"
+      },
+      {
+        "name": "Glänzender Lackporling",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Swiss German mycological terminology for Ganoderma lucidum sensu lato"
+      },
+      {
+        "name": "Ganoderme luisant",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Swiss French mycological terminology"
+      },
+      {
+        "name": "Lingzhi",
+        "language": "de",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Swiss TCM terminology"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Reishi",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Chilean wellness ecommerce and imported medicinal mushroom terminology"
+      },
+      {
+        "name": "Hongo reishi",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Chilean supplement and mushroom-product terminology"
+      }
+    ],
+    "CN": [
+      {
+        "name": "灵芝",
+        "language": "zh",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Chinese materia medica, pharmacopoeia, TCM, and nationwide medicinal terminology",
+        "transliteration": "língzhī",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "灵芝菌",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chinese medicinal mushroom terminology",
+        "transliteration": "língzhījùn",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "赤芝",
+        "language": "zh",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Chinese pharmacopoeial terminology for red Ganoderma lucidum / Ganoderma lingzhi complex",
+        "transliteration": "chìzhī",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "仙草",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Chinese folk symbolic terminology associated with lingzhi traditions",
+        "transliteration": "xiāncǎo",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Reishi",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Colombian wellness ecommerce and medicinal mushroom terminology"
+      },
+      {
+        "name": "Hongo reishi",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Colombian mushroom supplement terminology"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Reishi",
+        "language": "cs",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Czech supplement, medicinal mushroom, and wellness terminology"
+      },
+      {
+        "name": "Lesklokorka lesklá",
+        "language": "cs",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Czech mycological terminology for Ganoderma lucidum sensu lato"
+      },
+      {
+        "name": "Lingzhi",
+        "language": "cs",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Czech TCM and medicinal mushroom terminology"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Reishi",
+        "language": "de",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "German medicinal mushroom, wellness, and TCM terminology"
+      },
+      {
+        "name": "Glänzender Lackporling",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "German mycological terminology for Ganoderma lucidum sensu lato"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Reishi",
+        "language": "da",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Danish supplement, wellness, and medicinal mushroom terminology"
+      },
+      {
+        "name": "Lakporesvamp",
+        "language": "da",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Danish mycological terminology for varnished Ganoderma species"
+      },
+      {
+        "name": "Lingzhi",
+        "language": "da",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Danish TCM and medicinal mushroom terminology"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Reishi",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Spanish supplement, wellness, medicinal mushroom, and TCM terminology"
+      },
+      {
+        "name": "Hongo reishi",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Spanish medicinal mushroom terminology"
+      },
+      {
+        "name": "Ganoderma lúcido",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Spanish mycological terminology for Ganoderma lucidum sensu lato"
+      },
+      {
+        "name": "Lingzhi",
+        "language": "es",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Spanish TCM and medicinal mushroom terminology"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Reishi",
+        "language": "fi",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Finnish supplement, wellness, and medicinal mushroom terminology"
+      },
+      {
+        "name": "Lakkakääpä",
+        "language": "fi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Finnish mycological terminology for varnished Ganoderma fungi"
+      },
+      {
+        "name": "Lingzhi",
+        "language": "fi",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Finnish medicinal mushroom and TCM terminology"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Reishi",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "French supplement, medicinal mushroom, wellness, and TCM terminology"
+      },
+      {
+        "name": "Ganoderme luisant",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "French mycological terminology for Ganoderma lucidum sensu lato"
+      },
+      {
+        "name": "Lingzhi",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "French TCM and medicinal mushroom terminology"
+      },
+      {
+        "name": "Champignon de l’immortalité",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "French wellness-marketing terminology for reishi products"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Reishi",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "UK supplement, medicinal mushroom, wellness, and functional mushroom terminology"
+      },
+      {
+        "name": "Lingzhi",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "UK TCM and medicinal mushroom terminology"
+      },
+      {
+        "name": "Varnished conk",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "English-language mycological terminology for Ganoderma lucidum complex fungi"
+      },
+      {
+        "name": "Mushroom of immortality",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "UK wellness-marketing terminology for reishi supplements"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Ρέισι",
+        "language": "el",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Greek supplement, medicinal mushroom, and wellness terminology",
+        "transliteration": "Réisi",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Γανόδερμα",
+        "language": "el",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Greek medicinal mushroom and Ganoderma terminology",
+        "transliteration": "Ganóderma",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Reishi",
+        "language": "hr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Croatian supplement, wellness, and medicinal mushroom terminology"
+      },
+      {
+        "name": "Sjajna ganoderma",
+        "language": "hr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Croatian mycological terminology for Ganoderma lucidum sensu lato"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Reishi",
+        "language": "hu",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Hungarian supplement, medicinal mushroom, and wellness terminology"
+      },
+      {
+        "name": "Pecsétviaszgomba",
+        "language": "hu",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Hungarian mycological terminology for varnished Ganoderma fungi"
+      },
+      {
+        "name": "Lingzhi",
+        "language": "hu",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Hungarian medicinal mushroom terminology"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Lingzhi",
+        "language": "id",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Indonesian Chinese medicine, supplement, and medicinal mushroom terminology"
+      },
+      {
+        "name": "Reishi",
+        "language": "id",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Indonesia wellness and medicinal mushroom terminology"
+      },
+      {
+        "name": "Jamur lingzhi",
+        "language": "id",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Indonesian medicinal mushroom terminology"
+      },
+      {
+        "name": "Ganoderma",
+        "language": "id",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Indonesian medicinal mushroom product terminology"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Reishi",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Irish supplement, wellness, and medicinal mushroom terminology"
+      },
+      {
+        "name": "Lingzhi",
+        "language": "en",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Irish medicinal mushroom and TCM terminology"
+      },
+      {
+        "name": "Varnished conk",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "English-language mycological terminology used in Ireland"
+      }
+    ],
+    "IL": [
+      {
+        "name": "רישיי",
+        "language": "he",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Israeli supplement, wellness, and medicinal mushroom terminology",
+        "transliteration": "reyshi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "לינגז'י",
+        "language": "he",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Israeli TCM and medicinal mushroom terminology",
+        "transliteration": "lingzhi",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "Reishi",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Indian supplement, Ayurveda-adjacent wellness, and medicinal mushroom terminology"
+      },
+      {
+        "name": "Ganoderma",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Indian medicinal mushroom cultivation and supplement terminology"
+      },
+      {
+        "name": "Lingzhi",
+        "language": "en",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Indian medicinal mushroom and imported TCM terminology"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Reishi",
+        "language": "it",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Italian medicinal mushroom, wellness, and TCM terminology"
+      },
+      {
+        "name": "Ganoderma lucidum",
+        "language": "it",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Italian medicinal mushroom and mycological terminology"
+      },
+      {
+        "name": "Fungo dell’immortalità",
+        "language": "it",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Italian wellness-marketing terminology for reishi supplements"
+      },
+      {
+        "name": "Lingzhi",
+        "language": "it",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Italian TCM terminology"
+      }
+    ],
+    "JP": [
+      {
+        "name": "霊芝",
+        "language": "ja",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Japanese Kampo, medicinal mushroom, and pharmacopoeial terminology",
+        "transliteration": "reishi",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "レイシ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Japanese supplement, wellness, and medicinal mushroom terminology",
+        "transliteration": "reishi",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "マンネンタケ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Japanese mycological terminology for Ganoderma lucidum sensu lato",
+        "transliteration": "mannentake",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KR": [
+      {
+        "name": "영지",
+        "language": "ko",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Korean traditional medicine, medicinal mushroom, and pharmacopoeial terminology",
+        "transliteration": "yeongji",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "영지버섯",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Korean medicinal mushroom terminology",
+        "transliteration": "yeongji beoseot",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "불로초",
+        "language": "ko",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Korean symbolic terminology associated with yeongji traditions",
+        "transliteration": "bullocho",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "Reishi",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Sri Lankan supplement, wellness, and medicinal mushroom terminology"
+      },
+      {
+        "name": "Ganoderma",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Sri Lankan medicinal mushroom cultivation and supplement terminology"
+      }
+    ],
+    "MA": [
+      {
+        "name": "ريشي",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Moroccan supplement, wellness, and medicinal mushroom terminology",
+        "transliteration": "rīshī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Reishi",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Moroccan French-language medicinal mushroom terminology"
+      },
+      {
+        "name": "غانوديرما",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Moroccan medicinal mushroom and supplement terminology",
+        "transliteration": "ghānūdīrmā",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Reishi",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Mexican supplement, wellness, and medicinal mushroom terminology"
+      },
+      {
+        "name": "Hongo reishi",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Mexican medicinal mushroom terminology"
+      },
+      {
+        "name": "Ganoderma lucidum",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Mexican medicinal mushroom cultivation and supplement terminology"
+      },
+      {
+        "name": "Hongo de la inmortalidad",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Mexican wellness-marketing terminology for reishi products"
+      }
+    ],
+    "MY": [
+      {
+        "name": "灵芝",
+        "language": "zh",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Malaysian Chinese medicine, herbal retail, and medicinal mushroom terminology",
+        "transliteration": "língzhī",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Lingzhi",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Malaysia medicinal mushroom and TCM terminology"
+      },
+      {
+        "name": "Reishi",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Malaysian wellness and medicinal mushroom terminology"
+      },
+      {
+        "name": "Cendawan lingzhi",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malay medicinal mushroom terminology"
+      },
+      {
+        "name": "Ganoderma",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Malaysian medicinal mushroom cultivation and supplement terminology"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Reishi",
+        "language": "nl",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Dutch supplement, medicinal mushroom, and wellness terminology"
+      },
+      {
+        "name": "Gesteelde lakzwam",
+        "language": "nl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Dutch mycological terminology for Ganoderma lucidum sensu lato"
+      },
+      {
+        "name": "Lingzhi",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Dutch medicinal mushroom terminology"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Reishi",
+        "language": "no",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Norwegian supplement, medicinal mushroom, and wellness terminology"
+      },
+      {
+        "name": "Lakkjuke",
+        "language": "no",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Norwegian mycological terminology for varnished Ganoderma fungi"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Reishi",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "New Zealand supplement, wellness, and medicinal mushroom terminology"
+      },
+      {
+        "name": "Lingzhi",
+        "language": "en",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "New Zealand medicinal mushroom terminology"
+      },
+      {
+        "name": "Varnished conk",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "English-language mycological terminology used in New Zealand"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Reishi",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Peruvian supplement, wellness, and medicinal mushroom terminology"
+      },
+      {
+        "name": "Hongo reishi",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Peruvian medicinal mushroom terminology"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Lingzhi",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Philippine Chinese medicine, medicinal mushroom, and supplement terminology"
+      },
+      {
+        "name": "Reishi",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Philippine wellness and medicinal mushroom terminology"
+      },
+      {
+        "name": "Kabuteng lingzhi",
+        "language": "tl",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Filipino medicinal mushroom terminology"
+      },
+      {
+        "name": "Ganoderma",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Philippine medicinal mushroom cultivation terminology"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Reishi",
+        "language": "pl",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Polish supplement, medicinal mushroom, and wellness terminology"
+      },
+      {
+        "name": "Lakownica lśniąca",
+        "language": "pl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Polish mycological terminology for Ganoderma lucidum sensu lato"
+      },
+      {
+        "name": "Lingzhi",
+        "language": "pl",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Polish medicinal mushroom terminology"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Reishi",
+        "language": "pt",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Portuguese supplement, medicinal mushroom, and wellness terminology"
+      },
+      {
+        "name": "Ganoderma lucidum",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Portuguese medicinal mushroom and mycological terminology"
+      },
+      {
+        "name": "Cogumelo da imortalidade",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Portuguese wellness-marketing terminology for reishi supplements"
+      },
+      {
+        "name": "Lingzhi",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Portuguese medicinal mushroom terminology"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Reishi",
+        "language": "ro",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Romanian supplement, medicinal mushroom, and wellness terminology"
+      },
+      {
+        "name": "Ganoderma lucidum",
+        "language": "ro",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Romanian medicinal mushroom and nutraceutical terminology"
+      },
+      {
+        "name": "Lingzhi",
+        "language": "ro",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Romanian medicinal mushroom terminology"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Рейши",
+        "language": "ru",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Russian supplement, medicinal mushroom, and wellness terminology",
+        "transliteration": "Reyshi",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Лакированный трутовик",
+        "language": "ru",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Russian mycological terminology for Ganoderma lucidum sensu lato",
+        "transliteration": "Lakirovannyy trutovik",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Ганодерма",
+        "language": "ru",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Russian medicinal mushroom and cultivation terminology",
+        "transliteration": "Ganoderma",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Линчжи",
+        "language": "ru",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Russian TCM and medicinal mushroom terminology",
+        "transliteration": "Linchzhi",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Reishi",
+        "language": "sv",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Swedish supplement, medicinal mushroom, and wellness terminology"
+      },
+      {
+        "name": "Lackticka",
+        "language": "sv",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Swedish mycological terminology for varnished Ganoderma fungi"
+      },
+      {
+        "name": "Lingzhi",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Swedish medicinal mushroom terminology"
+      }
+    ],
+    "SG": [
+      {
+        "name": "灵芝",
+        "language": "zh",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Singapore Chinese medicine, herbal retail, and medicinal mushroom terminology",
+        "transliteration": "língzhī",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Lingzhi",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Singapore medicinal mushroom and TCM terminology"
+      },
+      {
+        "name": "Reishi",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Singapore wellness and medicinal mushroom terminology"
+      },
+      {
+        "name": "灵芝菇",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore medicinal mushroom terminology",
+        "transliteration": "língzhīgū",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Cendawan lingzhi",
+        "language": "ms",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Malay medicinal mushroom terminology in Singapore"
+      }
+    ],
+    "TH": [
+      {
+        "name": "เห็ดหลินจือ",
+        "language": "th",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Thai Chinese medicine, medicinal mushroom, and supplement terminology",
+        "transliteration": "het linchue",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "หลินจือ",
+        "language": "th",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Thai medicinal mushroom terminology derived from Chinese Lingzhi",
+        "transliteration": "linchue",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "Reishi",
+        "language": "th",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Thai wellness and imported medicinal mushroom terminology"
+      },
+      {
+        "name": "Ganoderma",
+        "language": "th",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Thai medicinal mushroom cultivation terminology"
+      }
+    ],
+    "TW": [
+      {
+        "name": "靈芝",
+        "language": "zh",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Taiwanese Chinese medicine, herbal retail, and pharmacopoeial terminology",
+        "transliteration": "língzhī",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "靈芝菇",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwanese medicinal mushroom terminology",
+        "transliteration": "língzhīgū",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "赤芝",
+        "language": "zh",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Taiwanese pharmacopoeial terminology for red lingzhi / Ganoderma lucidum complex",
+        "transliteration": "chìzhī",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Рейші",
+        "language": "uk",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Ukrainian supplement, medicinal mushroom, and wellness terminology",
+        "transliteration": "Reyshi",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Лакований трутовик",
+        "language": "uk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ukrainian mycological terminology for Ganoderma lucidum sensu lato",
+        "transliteration": "Lakovanyy trutovyk",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Ганодерма",
+        "language": "uk",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ukrainian medicinal mushroom cultivation and nutraceutical terminology",
+        "transliteration": "Hanoderma",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "US": [
+      {
+        "name": "Reishi",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "US supplement, medicinal mushroom, wellness, and functional mushroom terminology"
+      },
+      {
+        "name": "Lingzhi",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "US TCM and medicinal mushroom terminology"
+      },
+      {
+        "name": "Varnished conk",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "American mycological terminology for Ganoderma lucidum complex fungi"
+      },
+      {
+        "name": "Ganoderma lucidum",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "US medicinal mushroom cultivation and supplement terminology"
+      },
+      {
+        "name": "Mushroom of immortality",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "US wellness-marketing terminology for reishi supplements"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Linh chi",
+        "language": "vi",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Vietnamese medicinal mushroom, Đông y, and herbal terminology"
+      },
+      {
+        "name": "Nấm linh chi",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnamese medicinal mushroom terminology"
+      },
+      {
+        "name": "Reishi",
+        "language": "vi",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Vietnamese wellness and export-oriented terminology"
+      },
+      {
+        "name": "Ganoderma lucidum",
+        "language": "vi",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Vietnamese medicinal mushroom cultivation terminology"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Reishi",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "South African supplement, medicinal mushroom, and wellness terminology"
+      },
+      {
+        "name": "Lingzhi",
+        "language": "en",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "South African medicinal mushroom terminology"
+      },
+      {
+        "name": "Varnished conk",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "English-language mycological terminology used in South Africa"
+      },
+      {
+        "name": "Ganoderma lucidum",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "South African medicinal mushroom cultivation and supplement terminology"
+      }
+    ]
+  }
+}
