@@ -1,0 +1,1288 @@
+{
+  "plant_id": "rosmarinus_officinalis",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "ES",
+    "FI",
+    "FR",
+    "GB",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Romero",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Argentine supermarket, spice, herbal, and culinary nomenclature"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Rosmarin",
+        "language": "de",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Austrian supermarket, herbal, gardening, and culinary nomenclature"
+      },
+      {
+        "name": "Rosmarinkraut",
+        "language": "de",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Austrian spice and herbal-product terminology"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Rosemary",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Australian supermarket, herb-garden, culinary, and nursery nomenclature"
+      },
+      {
+        "name": "Rosemary herb",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Australian spice-rack and packaged-herb terminology"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Rozemarijn",
+        "language": "nl",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Flemish supermarket, spice, and culinary nomenclature"
+      },
+      {
+        "name": "Romarin",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Belgian French culinary and herb-retail terminology"
+      },
+      {
+        "name": "Rosmarin",
+        "language": "de",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Belgian German-speaking community culinary terminology"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Розмарин",
+        "language": "bg",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Bulgarian supermarket, spice, gardening, and culinary nomenclature",
+        "transliteration": "Rozmarin",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Romero",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Bolivian market, herbal, spice, and culinary nomenclature"
+      },
+      {
+        "name": "Romero de cocina",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Bolivian packaged-herb terminology"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Alecrim",
+        "language": "pt",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Brazilian supermarket, culinary, herbal, and nursery nomenclature"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Rosemary",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Canadian supermarket, culinary, gardening, and herb-retail nomenclature"
+      },
+      {
+        "name": "Romarin",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Canadian French culinary and herb-retail terminology"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Rosmarin",
+        "language": "de",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Swiss German supermarket, herb-garden, spice, and culinary nomenclature"
+      },
+      {
+        "name": "Romarin",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Swiss French culinary and herb-retail terminology"
+      },
+      {
+        "name": "Rosmarino",
+        "language": "it",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Swiss Italian culinary and herb-retail terminology"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Romero",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Chilean market, spice, herbal, and culinary nomenclature"
+      },
+      {
+        "name": "Romero seco",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Chilean packaged-spice terminology for dried rosemary"
+      }
+    ],
+    "CN": [
+      {
+        "name": "迷迭香",
+        "language": "zh",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Chinese supermarket, Western-cuisine, herbal-tea, and gardening nomenclature",
+        "transliteration": "mídiéxiāng",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "罗斯玛丽",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Chinese transliterated commercial usage from English 'rosemary'",
+        "transliteration": "luósīmǎlì",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Romero",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Colombian market, spice, herbal, and culinary nomenclature"
+      },
+      {
+        "name": "Romero seco",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Colombian packaged-spice terminology for dried rosemary"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Romero",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Costa Rican market, herbal, spice, and culinary nomenclature"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Romero",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Cuban market, herbal, spice, and culinary nomenclature"
+      },
+      {
+        "name": "Romero de Castilla",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Traditional Caribbean herbal terminology"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Rozmarýn",
+        "language": "cs",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Czech supermarket, spice, gardening, and culinary nomenclature"
+      },
+      {
+        "name": "Rozmarýn lékařský",
+        "language": "cs",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Czech horticultural and herbal-product terminology"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Rosmarin",
+        "language": "de",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "German supermarket, herb-garden, spice, and culinary nomenclature"
+      },
+      {
+        "name": "Rosmarinkraut",
+        "language": "de",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "German packaged-herb and spice terminology"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Rosmarin",
+        "language": "da",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Danish supermarket, spice, gardening, and culinary nomenclature"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Romero",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Dominican market, herbal, spice, and culinary nomenclature"
+      },
+      {
+        "name": "Romero de Castilla",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Dominican traditional herbal terminology"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "إكليل الجبل",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algerian Arabic culinary, herbal, and spice-market nomenclature",
+        "transliteration": "iklīl al-jabal",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Romarin",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Algerian French retail and packaged-herb terminology"
+      },
+      {
+        "name": "روزماري",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Modern commercial loanword usage influenced by French/English labeling",
+        "transliteration": "rūzmārī",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Romero",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Ecuadorian market, spice, herbal, and culinary nomenclature"
+      },
+      {
+        "name": "Romero seco",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ecuadorian packaged-spice terminology for dried rosemary"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Romero",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Spanish supermarket, spice, gardening, and culinary nomenclature"
+      },
+      {
+        "name": "Romaní",
+        "language": "ca",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Catalan culinary, herbal, and gardening terminology"
+      },
+      {
+        "name": "Romeu",
+        "language": "gl",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Galician culinary and herbal terminology"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Rosmariini",
+        "language": "fi",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Finnish supermarket, spice, gardening, and culinary nomenclature"
+      },
+      {
+        "name": "Rosmarin",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Finland-Swedish culinary and herb-retail terminology"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Romarin",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "French supermarket, Provençal cuisine, gardening, and herbal nomenclature"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Rosemary",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "UK supermarket, gardening, culinary, and herb-retail nomenclature"
+      },
+      {
+        "name": "Rhosmari",
+        "language": "cy",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Welsh-language culinary and botanical terminology"
+      },
+      {
+        "name": "Rosemary herb",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "UK packaged-herb terminology"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Δεντρολίβανο",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greek culinary, herbal, gardening, and spice-market nomenclature",
+        "transliteration": "Dendrolívano",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Ροσμαρίνο",
+        "language": "el",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Modern commercial borrowing influenced by Italian/English labeling",
+        "transliteration": "Rosmaríno",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Romero",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Guatemalan market, spice, herbal, and culinary nomenclature"
+      },
+      {
+        "name": "Romero seco",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Guatemalan packaged-spice terminology for dried rosemary"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Ružmarin",
+        "language": "hr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Croatian supermarket, coastal cuisine, gardening, and herbal nomenclature"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Rozmaring",
+        "language": "hu",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Hungarian supermarket, spice, gardening, and culinary nomenclature"
+      },
+      {
+        "name": "Kerti rozmaring",
+        "language": "hu",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Hungarian nursery and gardening terminology"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Rosemary",
+        "language": "id",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Indonesian supermarket, Western-cuisine, and herb-retail nomenclature"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Rosemary",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Irish supermarket, gardening, spice, and culinary nomenclature"
+      },
+      {
+        "name": "Rósmara",
+        "language": "ga",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Irish-language botanical and culinary terminology"
+      },
+      {
+        "name": "Rosemary herb",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Irish packaged-herb terminology"
+      }
+    ],
+    "IL": [
+      {
+        "name": "רוזמרין",
+        "language": "he",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Israeli supermarket, spice, gardening, and culinary nomenclature",
+        "transliteration": "rozmarin",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "إكليل الجبل",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Arabic-speaking Israeli culinary and herbal terminology",
+        "transliteration": "iklīl al-jabal",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "Rosemary",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Indian supermarket, restaurant, herb-retail, and gardening nomenclature"
+      },
+      {
+        "name": "रोज़मेरी",
+        "language": "hi",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Hindi transliterated packaged-herb and gardening terminology",
+        "transliteration": "rojmerī",
+        "transliteration_scheme": "iast"
+      }
+    ],
+    "IR": [
+      {
+        "name": "رزماری",
+        "language": "fa",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Persian supermarket, gardening, herbal, and culinary nomenclature",
+        "transliteration": "rozmārī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "اکلیل کوهی",
+        "language": "fa",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Persian herbal terminology paralleling Arabic naming traditions",
+        "transliteration": "iklīl-e kūhī",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Rosmarino",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italian supermarket, Mediterranean cuisine, gardening, and herbal nomenclature"
+      },
+      {
+        "name": "Rosmarino officinale",
+        "language": "it",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Italian nursery and herbal-product terminology"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Rosemary",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Jamaican market, seasoning, gardening, and culinary nomenclature"
+      },
+      {
+        "name": "Rosemary herb",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Jamaican packaged-seasoning terminology"
+      }
+    ],
+    "JP": [
+      {
+        "name": "ローズマリー",
+        "language": "ja",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Japanese supermarket, herb-garden, Western-cuisine, and packaged-herb nomenclature",
+        "transliteration": "rōzumarī",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "マンネンロウ",
+        "language": "ja",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Traditional Japanese botanical terminology for rosemary",
+        "transliteration": "mannenrō",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Rosemary",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Kenyan supermarket, restaurant, gardening, and herb-retail nomenclature"
+      },
+      {
+        "name": "Rozmeri",
+        "language": "sw",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Swahili gardening and culinary terminology influenced by English borrowing"
+      }
+    ],
+    "KR": [
+      {
+        "name": "로즈마리",
+        "language": "ko",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Korean supermarket, café, herb-garden, and Western-cuisine nomenclature",
+        "transliteration": "rojeumari",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "로즈메리",
+        "language": "ko",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Alternate Korean transliteration in imported-herb retail contexts",
+        "transliteration": "rojeumeri",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "Rosemary",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Sri Lankan supermarket, hotel-culinary, and herb-retail nomenclature"
+      },
+      {
+        "name": "රෝස්මරී",
+        "language": "si",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Sinhala transliterated herb-retail and gardening terminology",
+        "transliteration": "rōsmarī",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "ரோஸ்மெரி",
+        "language": "ta",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Sri Lankan Tamil herb-retail terminology",
+        "transliteration": "rōsmeri",
+        "transliteration_scheme": "iso_15919"
+      }
+    ],
+    "MA": [
+      {
+        "name": "إكليل الجبل",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Moroccan Arabic culinary, herbal, and spice-market nomenclature",
+        "transliteration": "iklīl al-jabal",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Romarin",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Moroccan French supermarket and herb-retail terminology"
+      },
+      {
+        "name": "روزماري",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Modern Moroccan commercial loanword usage",
+        "transliteration": "rūzmārī",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Romero",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexican market, spice, herbal, and culinary nomenclature"
+      },
+      {
+        "name": "Romero seco",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Mexican packaged-spice terminology for dried rosemary"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Rosemary",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Malaysian supermarket, café, restaurant, and herb-retail nomenclature"
+      },
+      {
+        "name": "Rosemary herb",
+        "language": "ms",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Malay-language packaged-herb and restaurant terminology"
+      },
+      {
+        "name": "迷迭香",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Malaysian Chinese culinary and herb-retail terminology",
+        "transliteration": "mídiéxiāng",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Rosemary",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Nigerian supermarket, restaurant, seasoning, and herb-retail nomenclature"
+      },
+      {
+        "name": "Rosemary spice",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Nigerian packaged-seasoning terminology"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Rozemarijn",
+        "language": "nl",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Dutch supermarket, gardening, spice, and culinary nomenclature"
+      },
+      {
+        "name": "Rozemarijnkruid",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Dutch packaged-herb terminology"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Rosmarin",
+        "language": "no",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Norwegian supermarket, spice, gardening, and culinary nomenclature"
+      },
+      {
+        "name": "Rosmarinurt",
+        "language": "no",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Norwegian packaged-herb terminology"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Rosemary",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "New Zealand supermarket, gardening, culinary, and herb-retail nomenclature"
+      },
+      {
+        "name": "Rosemary herb",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "New Zealand packaged-herb terminology"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Romero",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Panamanian market, herbal, spice, and culinary nomenclature"
+      },
+      {
+        "name": "Romero seco",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Panamanian packaged-spice terminology"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Romero",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peruvian market, herbal, spice, and culinary nomenclature"
+      },
+      {
+        "name": "Romero seco",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Peruvian packaged-spice terminology"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Rosemary",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Philippine supermarket, restaurant, herb-retail, and gardening nomenclature"
+      },
+      {
+        "name": "Rosmari",
+        "language": "tl",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Filipino packaged-herb and gardening terminology"
+      }
+    ],
+    "PK": [
+      {
+        "name": "Rosemary",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Pakistani supermarket, restaurant, herb-retail, and gardening nomenclature"
+      },
+      {
+        "name": "روزمیری",
+        "language": "ur",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Urdu packaged-herb and gardening terminology",
+        "transliteration": "rozmērī",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Rozmaryn",
+        "language": "pl",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Polish supermarket, spice, gardening, and culinary nomenclature"
+      },
+      {
+        "name": "Rozmaryn lekarski",
+        "language": "pl",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Polish herbal-product and horticultural terminology"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Alecrim",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portuguese supermarket, Mediterranean cuisine, herbal, and gardening nomenclature"
+      },
+      {
+        "name": "Alecrim seco",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Portuguese packaged-herb terminology"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Romero",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Paraguayan market, spice, herbal, and culinary nomenclature"
+      },
+      {
+        "name": "Romero seco",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Paraguayan packaged-spice terminology"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Rozmarin",
+        "language": "ro",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Romanian supermarket, spice, gardening, and culinary nomenclature"
+      },
+      {
+        "name": "Rozmarin medicinal",
+        "language": "ro",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Romanian herbal-product terminology"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Розмарин",
+        "language": "ru",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Russian supermarket, spice, gardening, and culinary nomenclature",
+        "transliteration": "Rozmarin",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Rosmarin",
+        "language": "sv",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Swedish supermarket, spice, gardening, and culinary nomenclature"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Rosemary",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Singapore supermarket, café, restaurant, and herb-retail nomenclature"
+      },
+      {
+        "name": "迷迭香",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Singapore Chinese culinary and herb-retail terminology",
+        "transliteration": "mídiéxiāng",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Rosemary herb",
+        "language": "ms",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Malay-language packaged-herb terminology in Singapore retail"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Rozmarín",
+        "language": "sk",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Slovak supermarket, spice, gardening, and culinary nomenclature"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Romarin",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Senegalese French supermarket and herb-retail nomenclature"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Romero",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Salvadoran market, spice, herbal, and culinary nomenclature"
+      },
+      {
+        "name": "Romero seco",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Salvadoran packaged-spice terminology"
+      }
+    ],
+    "TH": [
+      {
+        "name": "โรสแมรี่",
+        "language": "th",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Thai supermarket, café, Western-cuisine, and herb-retail nomenclature",
+        "transliteration": "rot-maeri",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "إكليل الجبل",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisian Arabic culinary, herbal, and spice-market nomenclature",
+        "transliteration": "iklīl al-jabal",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Romarin",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Tunisian French herb-retail and supermarket terminology"
+      },
+      {
+        "name": "روزماري",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Tunisian commercial loanword usage",
+        "transliteration": "rūzmārī",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Biberiye",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkish supermarket, herbal, spice, and culinary nomenclature"
+      },
+      {
+        "name": "Biberiye otu",
+        "language": "tr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Turkish packaged-herb terminology"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Rosemary",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Trinidadian culinary, market, and seasoning nomenclature"
+      }
+    ],
+    "TW": [
+      {
+        "name": "迷迭香",
+        "language": "zh",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Taiwanese supermarket, café, Western-cuisine, and herb-retail nomenclature",
+        "transliteration": "mídiéxiāng",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Розмарин",
+        "language": "uk",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Ukrainian supermarket, spice, gardening, and culinary nomenclature",
+        "transliteration": "Rozmaryn",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Розмарин лікарський",
+        "language": "uk",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ukrainian herbal-product terminology",
+        "transliteration": "Rozmaryn likarskyi",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "US": [
+      {
+        "name": "Rosemary",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "US supermarket, gardening, spice, and culinary nomenclature"
+      },
+      {
+        "name": "Romero",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "US Spanish-language supermarket and herb-retail terminology"
+      },
+      {
+        "name": "Rosemary herb",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "US packaged-herb terminology"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Romero",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Uruguayan market, spice, herbal, and culinary nomenclature"
+      },
+      {
+        "name": "Romero seco",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Uruguayan packaged-spice terminology"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Romero",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuelan market, spice, herbal, and culinary nomenclature"
+      },
+      {
+        "name": "Romero seco",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Venezuelan packaged-spice terminology"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Hương thảo",
+        "language": "vi",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Vietnamese supermarket, café, Western-cuisine, and herb-retail nomenclature"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Rosemary",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "South African supermarket, gardening, seasoning, and culinary nomenclature"
+      },
+      {
+        "name": "Roosmaryn",
+        "language": "af",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Afrikaans culinary, gardening, and herb-retail terminology"
+      },
+      {
+        "name": "Rosemary spice",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "South African packaged-seasoning terminology"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Rosemary",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Zambian supermarket, restaurant, gardening, and herb-retail nomenclature"
+      },
+      {
+        "name": "Rosemary herb",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Zambian packaged-herb terminology"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Rosemary",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Zimbabwean supermarket, restaurant, gardening, and herb-retail nomenclature"
+      },
+      {
+        "name": "Rosemary spice",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Zimbabwean packaged-seasoning terminology"
+      }
+    ]
+  }
+}
