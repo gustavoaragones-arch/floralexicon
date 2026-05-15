@@ -1,0 +1,1278 @@
+{
+  "plant_id": "zingiber_officinale",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Jengibre",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Argentine retail, supermarket, and culinary nomenclature, 2020s"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Ingwer",
+        "language": "de",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Austrian retail, pharmacy, and supermarket nomenclature"
+      },
+      {
+        "name": "Ingwerwurzel",
+        "language": "de",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "German-language herbal and pharmacy descriptive nomenclature"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Ginger",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Australian supermarket, produce, and herbal-product nomenclature"
+      },
+      {
+        "name": "Ginger root",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Australian produce and herbal retail terminology"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Gember",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Belgian Dutch supermarket and culinary nomenclature"
+      },
+      {
+        "name": "Gingembre",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Belgian French retail and culinary nomenclature"
+      },
+      {
+        "name": "Ingwer",
+        "language": "de",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "German-speaking Belgian community usage"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Джинджифил",
+        "language": "bg",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Bulgarian retail, culinary, and herbal nomenclature",
+        "transliteration": "Dzhindzhifil",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Jengibre",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Bolivian retail, market, and culinary nomenclature"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Gengibre",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Brazilian retail, supermarket, and culinary nomenclature"
+      },
+      {
+        "name": "Raiz de gengibre",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Brazilian produce and herbal retail terminology"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Ginger",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Canadian supermarket, produce, and herbal-product nomenclature"
+      },
+      {
+        "name": "Gingembre",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Canadian French retail and culinary nomenclature"
+      },
+      {
+        "name": "Ginger root",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Canadian produce and herbal retail terminology"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Ingwer",
+        "language": "de",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Swiss German retail, supermarket, and herbal nomenclature"
+      },
+      {
+        "name": "Gingembre",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Swiss French retail and culinary nomenclature"
+      },
+      {
+        "name": "Zenzero",
+        "language": "it",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Swiss Italian retail and culinary nomenclature"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Jengibre",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Chilean retail, culinary, and herbal nomenclature"
+      }
+    ],
+    "CN": [
+      {
+        "name": "姜",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "General Mainland Chinese culinary and market nomenclature",
+        "transliteration": "jiāng",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "生姜",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "中华人民共和国药典 2020 (Pharmacopoeia of the PRC, 2020 edition)",
+        "transliteration": "shēngjiāng",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "干姜",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "中华人民共和国药典 2020 (Pharmacopoeia of the PRC, 2020 edition)",
+        "transliteration": "gānjiāng",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Jengibre",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Colombian retail, produce, and culinary nomenclature"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Jengibre",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Costa Rican retail, produce, and culinary nomenclature"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Jengibre",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Cuban culinary and market nomenclature"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Zázvor",
+        "language": "cs",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Czech retail, tea, and culinary nomenclature"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Ingwer",
+        "language": "de",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General German supermarket, pharmacy, and culinary nomenclature"
+      },
+      {
+        "name": "Ingwerwurzel",
+        "language": "de",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "German-language herbal and pharmacy descriptive terminology"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Ingefær",
+        "language": "da",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Danish retail and culinary nomenclature"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Jengibre",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Dominican retail and culinary nomenclature"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "زنجبيل",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "General Algerian Arabic herbal and spice-market nomenclature",
+        "transliteration": "zanjabīl",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Gingembre",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Algerian French retail and packaging terminology"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Jengibre",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Ecuadorian retail and culinary nomenclature"
+      }
+    ],
+    "EG": [
+      {
+        "name": "زنجبيل",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Egyptian Arabic spice-market and herbal nomenclature",
+        "transliteration": "zanjabīl",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Jengibre",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Spanish supermarket and culinary nomenclature"
+      },
+      {
+        "name": "Gingebre",
+        "language": "ca",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Catalan culinary and retail usage"
+      },
+      {
+        "name": "Xenxibre",
+        "language": "gl",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Galician culinary and retail usage"
+      }
+    ],
+    "ET": [
+      {
+        "name": "ዝንጅብል",
+        "language": "am",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Ethiopian Amharic spice and culinary nomenclature",
+        "transliteration": "zinjibil",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Inkivääri",
+        "language": "fi",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Finnish supermarket and culinary nomenclature"
+      },
+      {
+        "name": "Ingefära",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Finland-Swedish retail and culinary usage"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Gingembre",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General French supermarket, herbal, and culinary nomenclature"
+      },
+      {
+        "name": "Racine de gingembre",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "French produce and herbal retail terminology"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Ginger",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General UK supermarket, produce, and culinary nomenclature"
+      },
+      {
+        "name": "Sinsir",
+        "language": "cy",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Welsh-language culinary and educational terminology"
+      },
+      {
+        "name": "Ginger root",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "UK produce and herbal retail terminology"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Ginger",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ghanaian market, beverage, and export-crop nomenclature"
+      },
+      {
+        "name": "Akakaduro",
+        "language": "tw",
+        "confidence": "medium",
+        "source": "ethnobotany",
+        "citation": "Akan/Twi ethnobotanical references to ginger use"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Τζίντζερ",
+        "language": "el",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Greek supermarket and culinary nomenclature",
+        "transliteration": "Tzíntzer",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Πιπερόριζα",
+        "language": "el",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Greek descriptive culinary and herbal terminology",
+        "transliteration": "Piperóriza",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Jengibre",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Guatemalan retail and culinary nomenclature"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Đumbir",
+        "language": "hr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Croatian retail, tea, and culinary nomenclature"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Gyömbér",
+        "language": "hu",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Hungarian supermarket, herbal, and culinary nomenclature"
+      },
+      {
+        "name": "Gyömbérgyökér",
+        "language": "hu",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Hungarian produce and herbal retail terminology"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Jahe",
+        "language": "id",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Indonesian culinary, jamu, and market nomenclature"
+      },
+      {
+        "name": "Jae",
+        "language": "jv",
+        "confidence": "medium",
+        "source": "ethnobotany",
+        "citation": "Javanese culinary and traditional herbal usage"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Ginger",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Irish supermarket and culinary nomenclature"
+      },
+      {
+        "name": "Sinséar",
+        "language": "ga",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Irish-language culinary and educational terminology"
+      }
+    ],
+    "IL": [
+      {
+        "name": "ג׳ינג׳ר",
+        "language": "he",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Israeli supermarket and culinary nomenclature",
+        "transliteration": "jing'jer",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "זנגביל",
+        "language": "he",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Hebrew herbal and spice terminology",
+        "transliteration": "zangbīl",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "زنجبيل",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Arabic-speaking Israeli culinary and spice-market usage",
+        "transliteration": "zanjabīl",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "Ginger",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Indian supermarket, packaged-food, and ayurvedic-product nomenclature"
+      },
+      {
+        "name": "अदरक",
+        "language": "hi",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Hindi culinary and Ayurvedic usage for fresh ginger",
+        "transliteration": "adraka",
+        "transliteration_scheme": "iast"
+      },
+      {
+        "name": "सोंठ",
+        "language": "hi",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Ayurvedic and traditional medicinal terminology for dried ginger",
+        "transliteration": "soṇṭha",
+        "transliteration_scheme": "iast"
+      }
+    ],
+    "IR": [
+      {
+        "name": "زنجبیل",
+        "language": "fa",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Persian culinary and spice-market nomenclature",
+        "transliteration": "zanjabīl",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Zenzero",
+        "language": "it",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Italian supermarket and culinary nomenclature"
+      },
+      {
+        "name": "Radice di zenzero",
+        "language": "it",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Italian produce and herbal retail terminology"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Ginger",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Jamaican culinary, beverage, and export nomenclature tied to Jamaican ginger tradition"
+      }
+    ],
+    "JP": [
+      {
+        "name": "生姜",
+        "language": "ja",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Japanese supermarket and culinary nomenclature",
+        "transliteration": "shōga",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "ショウガ",
+        "language": "ja",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Katakana retail and packaging terminology",
+        "transliteration": "shōga",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Tangawizi",
+        "language": "sw",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Swahili culinary, spice-market, and herbal nomenclature"
+      },
+      {
+        "name": "Ginger",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Kenyan supermarket, export, and packaged-food nomenclature"
+      }
+    ],
+    "KR": [
+      {
+        "name": "생강",
+        "language": "ko",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Korean culinary, herbal, and market nomenclature",
+        "transliteration": "saenggang",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "건강",
+        "language": "ko",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Korean traditional medicine terminology for dried ginger",
+        "transliteration": "geongang",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "ඉඟුරු",
+        "language": "si",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Sinhala culinary, Ayurvedic, and herbal nomenclature",
+        "transliteration": "iṅguru",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "இஞ்சி",
+        "language": "ta",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Sri Lankan Tamil culinary and Siddha/Ayurvedic usage",
+        "transliteration": "iñci",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Ginger",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Sri Lankan packaged-food and supermarket nomenclature"
+      }
+    ],
+    "MA": [
+      {
+        "name": "زنجبيل",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Moroccan Arabic spice-market and herbal nomenclature",
+        "transliteration": "zanjabīl",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Gingembre",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Moroccan French retail and packaged-product terminology"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Jengibre",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Mexican supermarket, herbal, and culinary nomenclature"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Halia",
+        "language": "ms",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Malay culinary, jamu, and herbal nomenclature"
+      },
+      {
+        "name": "Ginger",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Malaysian supermarket and packaged-food nomenclature"
+      },
+      {
+        "name": "姜",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Malaysian Chinese culinary and herbal usage",
+        "transliteration": "jiāng",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Ginger",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Nigerian market, export-crop, beverage, and supermarket nomenclature"
+      },
+      {
+        "name": "Atalẹ",
+        "language": "yo",
+        "confidence": "medium",
+        "source": "ethnobotany",
+        "citation": "Yoruba culinary and herbal terminology"
+      },
+      {
+        "name": "Cithar",
+        "language": "ha",
+        "confidence": "medium",
+        "source": "ethnobotany",
+        "citation": "Hausa culinary and spice usage references"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Gember",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Dutch supermarket and culinary nomenclature"
+      },
+      {
+        "name": "Gemberwortel",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Dutch produce and herbal retail terminology"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Ingefær",
+        "language": "no",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Norwegian supermarket and culinary nomenclature"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Ginger",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General New Zealand supermarket and culinary nomenclature"
+      },
+      {
+        "name": "Tinita",
+        "language": "mi",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Māori educational and culinary terminology"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Jengibre",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Panamanian market and culinary nomenclature"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Kion",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Peruvian supermarket, chifa, culinary, and market nomenclature"
+      },
+      {
+        "name": "Jengibre",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Standard Spanish terminology understood in Peru"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Luya",
+        "language": "tl",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Filipino culinary, herbal, and market nomenclature"
+      },
+      {
+        "name": "Ginger",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Philippine supermarket and packaged-food nomenclature"
+      },
+      {
+        "name": "Luy-a",
+        "language": "ceb",
+        "confidence": "medium",
+        "source": "ethnobotany",
+        "citation": "Cebuano culinary and herbal usage"
+      }
+    ],
+    "PK": [
+      {
+        "name": "ادرک",
+        "language": "ur",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Urdu culinary, Unani, and spice-market nomenclature",
+        "transliteration": "adrak",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "سونٹھ",
+        "language": "ur",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Unani and traditional medicinal terminology for dried ginger",
+        "transliteration": "sonṭh",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Ginger",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Pakistani packaged-food and supermarket nomenclature"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Imbir",
+        "language": "pl",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Polish supermarket and culinary nomenclature"
+      },
+      {
+        "name": "Korzeń imbiru",
+        "language": "pl",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Polish produce and herbal retail terminology"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Gengibre",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Portuguese supermarket and culinary nomenclature"
+      },
+      {
+        "name": "Raiz de gengibre",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Portuguese produce and herbal retail terminology"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Jengibre",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Paraguayan supermarket and culinary nomenclature"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Ghimbir",
+        "language": "ro",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Romanian supermarket and culinary nomenclature"
+      },
+      {
+        "name": "Rădăcină de ghimbir",
+        "language": "ro",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Romanian produce and herbal retail terminology"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Имбирь",
+        "language": "ru",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Russian supermarket and culinary nomenclature",
+        "transliteration": "Imbir'",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Корень имбиря",
+        "language": "ru",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Russian produce and herbal retail terminology",
+        "transliteration": "Koren' imbirya",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Ingefära",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Swedish supermarket and culinary nomenclature"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Ginger",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Singapore supermarket, hawker, packaged-food, and beverage nomenclature"
+      },
+      {
+        "name": "姜",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Singapore Chinese culinary and herbal usage",
+        "transliteration": "jiāng",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Halia",
+        "language": "ms",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Malay culinary and herbal usage in Singapore"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Zázvor",
+        "language": "sk",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Slovak supermarket and culinary nomenclature"
+      },
+      {
+        "name": "Koreň zázvoru",
+        "language": "sk",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Slovak produce and herbal retail terminology"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Gingembre",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Senegalese market, beverage, and culinary nomenclature"
+      },
+      {
+        "name": "Jinja",
+        "language": "wo",
+        "confidence": "medium",
+        "source": "ethnobotany",
+        "citation": "Wolof culinary and beverage terminology references"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Jengibre",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Salvadoran market and culinary nomenclature"
+      }
+    ],
+    "TH": [
+      {
+        "name": "ขิง",
+        "language": "th",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Thai culinary, herbal, and market nomenclature",
+        "transliteration": "khing",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "ขิงแห้ง",
+        "language": "th",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Thai traditional medicine terminology for dried ginger",
+        "transliteration": "khing haeng",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "زنجبيل",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Tunisian Arabic spice-market and herbal nomenclature",
+        "transliteration": "zanjabīl",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Gingembre",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Tunisian French retail and packaged-food terminology"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Zencefil",
+        "language": "tr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Turkish spice-market, herbal, tea, and culinary nomenclature"
+      },
+      {
+        "name": "Zencefil kökü",
+        "language": "tr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Turkish produce and herbal retail terminology"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Ginger",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Trinidadian culinary, beverage, and market nomenclature tied to Caribbean ginger traditions"
+      }
+    ],
+    "TW": [
+      {
+        "name": "薑",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Taiwanese culinary and everyday usage for ginger",
+        "transliteration": "jiāng",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "生薑",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Traditional Chinese medicine and Taiwanese herbal terminology for fresh ginger",
+        "transliteration": "shēngjiāng",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "乾薑",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Traditional Chinese medicine terminology for dried ginger",
+        "transliteration": "qiánjiāng",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Імбир",
+        "language": "uk",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Ukrainian supermarket and culinary nomenclature",
+        "transliteration": "Imbyr",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Корінь імбиру",
+        "language": "uk",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ukrainian produce and herbal retail terminology",
+        "transliteration": "Korin' imbyru",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "US": [
+      {
+        "name": "Ginger",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "US supermarket, produce, herbal, beverage, and culinary nomenclature"
+      },
+      {
+        "name": "Jengibre",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "US Spanish-language supermarket and culinary terminology"
+      },
+      {
+        "name": "Ginger root",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "US produce and herbal retail terminology"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Jengibre",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Uruguayan supermarket and culinary nomenclature"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Jengibre",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "General Venezuelan market and culinary nomenclature"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Gừng",
+        "language": "vi",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Vietnamese culinary, herbal, tea, and market nomenclature"
+      },
+      {
+        "name": "Gừng khô",
+        "language": "vi",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Vietnamese traditional medicine terminology for dried ginger"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Ginger",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "South African supermarket, beverage, herbal, and culinary nomenclature"
+      },
+      {
+        "name": "Gemmer",
+        "language": "af",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Afrikaans culinary and retail terminology"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Ginger",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Zimbabwean supermarket, beverage, and culinary nomenclature"
+      }
+    ]
+  }
+}
