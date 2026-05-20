@@ -1,0 +1,1287 @@
+{
+  "plant_id": "ilex_paraguariensis",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Yerba mate",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Argentina vernacular and descriptive terminology for Ilex paraguariensis"
+      },
+      {
+        "name": "Mate",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional yerba mate consumption and infusion terminology"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Mate",
+        "language": "de",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Austria yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Yerba Mate",
+        "language": "de",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Austria yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Yerba mate",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Australia yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Mate tea",
+        "language": "en",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Australia yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Maté",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Belgium yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Yerba mate",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Belgium yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Мате",
+        "language": "bg",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Bulgaria yerba mate retail, supplement, and beverage commerce terminology",
+        "transliteration": "mate",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Yerba mate",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Bolivia traditional yerba mate consumption and infusion terminology"
+      },
+      {
+        "name": "Mate",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Bolivia traditional yerba mate consumption and infusion terminology"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Erva-mate",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Brazil vernacular and descriptive terminology for Ilex paraguariensis"
+      },
+      {
+        "name": "Chimarrão",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Brazil traditional yerba mate consumption and infusion terminology"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Yerba mate",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Canada yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Maté",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Canada yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Mate",
+        "language": "de",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Switzerland yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Maté",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Switzerland yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Yerba mate",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional yerba mate consumption and infusion terminology"
+      },
+      {
+        "name": "Mate",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional yerba mate consumption and infusion terminology"
+      }
+    ],
+    "CN": [
+      {
+        "name": "马黛茶",
+        "language": "zh",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "China yerba mate retail, supplement, and beverage commerce terminology",
+        "transliteration": "mǎdàichá",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "耶巴马黛",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "China yerba mate retail, supplement, and beverage commerce terminology",
+        "transliteration": "yēbǎmǎdài",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Yerba mate",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Colombia yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Mate",
+        "language": "es",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Colombia yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Yerba mate",
+        "language": "es",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Costa Rica yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Mate",
+        "language": "es",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Costa Rica yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Yerba mate",
+        "language": "es",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Cuba yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Maté",
+        "language": "cs",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Czech Republic yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Yerba maté",
+        "language": "cs",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Czech Republic yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Mate",
+        "language": "de",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Germany yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Yerba Mate",
+        "language": "de",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Germany yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Mate",
+        "language": "da",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Denmark yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Mate-te",
+        "language": "da",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Denmark yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Yerba mate",
+        "language": "es",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Dominican Republic yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "ماتيه",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Algeria vernacular and descriptive terminology for Ilex paraguariensis",
+        "transliteration": "mātiyih",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Maté",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Algeria yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Yerba mate",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ecuador yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Mate",
+        "language": "es",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Ecuador yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "EG": [
+      {
+        "name": "ماتيه",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Egypt vernacular and descriptive terminology for Ilex paraguariensis",
+        "transliteration": "mātiyih",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "يربا ماتيه",
+        "language": "ar",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Egypt yerba mate retail, supplement, and beverage commerce terminology",
+        "transliteration": "yarbā mātiyih",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Mate",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Spain yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Yerba mate",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Spain yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Mate",
+        "language": "fi",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Finland yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Mate-tee",
+        "language": "fi",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Finland yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Maté",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "France yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Yerba maté",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "France yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Yerba mate",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "United Kingdom yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Mate tea",
+        "language": "en",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "United Kingdom yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Yerba mate",
+        "language": "en",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Ghana yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Ματέ",
+        "language": "el",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Greece yerba mate retail, supplement, and beverage commerce terminology",
+        "transliteration": "maté",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Yerba mate",
+        "language": "el",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Greece yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Yerba mate",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Guatemala yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Mate",
+        "language": "es",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Guatemala yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Mate",
+        "language": "hr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Croatia yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Mate čaj",
+        "language": "hr",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Croatia yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Maté",
+        "language": "hu",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Hungary yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Yerba maté",
+        "language": "hu",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Hungary yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Yerba mate",
+        "language": "id",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Indonesia yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Teh mate",
+        "language": "id",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Indonesia yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Yerba mate",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ireland yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Mate tea",
+        "language": "en",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Ireland yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "IL": [
+      {
+        "name": "מטה",
+        "language": "he",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Israel vernacular and descriptive terminology for Ilex paraguariensis",
+        "transliteration": "mate",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ירבה מטה",
+        "language": "he",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Israel yerba mate retail, supplement, and beverage commerce terminology",
+        "transliteration": "yerba mate",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "Yerba mate",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "India yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "यरबा माते",
+        "language": "hi",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "India vernacular and descriptive terminology for Ilex paraguariensis",
+        "transliteration": "yarbā māte",
+        "transliteration_scheme": "iso_15919"
+      }
+    ],
+    "IR": [
+      {
+        "name": "ماته",
+        "language": "fa",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Iran vernacular and descriptive terminology for Ilex paraguariensis",
+        "transliteration": "māte",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "یربا ماته",
+        "language": "fa",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Iran yerba mate retail, supplement, and beverage commerce terminology",
+        "transliteration": "yarbā māte",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Mate",
+        "language": "it",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Italy yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Yerba mate",
+        "language": "it",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Italy yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Yerba mate",
+        "language": "en",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Jamaica yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "JP": [
+      {
+        "name": "マテ茶",
+        "language": "ja",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Japan yerba mate retail, supplement, and beverage commerce terminology",
+        "transliteration": "mate-cha",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "イェルバ・マテ",
+        "language": "ja",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Japan yerba mate retail, supplement, and beverage commerce terminology",
+        "transliteration": "yeruba mate",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Yerba mate",
+        "language": "en",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Kenya yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Chai ya mate",
+        "language": "sw",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Kenya yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "KR": [
+      {
+        "name": "마테차",
+        "language": "ko",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "South Korea yerba mate retail, supplement, and beverage commerce terminology",
+        "transliteration": "mate-cha",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "예르바 마테",
+        "language": "ko",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "South Korea yerba mate retail, supplement, and beverage commerce terminology",
+        "transliteration": "yereuba mate",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "Yerba mate",
+        "language": "en",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Sri Lanka yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "MA": [
+      {
+        "name": "ماتيه",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Morocco vernacular and descriptive terminology for Ilex paraguariensis",
+        "transliteration": "mātiyih",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Maté",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Morocco yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Yerba mate",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Mexico yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Mate",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Mexico yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "MY": [
+      {
+        "name": "马黛茶",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Malaysia yerba mate retail, supplement, and beverage commerce terminology",
+        "transliteration": "mǎdàichá",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Yerba mate",
+        "language": "ms",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Malaysia yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Yerba mate",
+        "language": "en",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Nigeria yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Mate",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Netherlands yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Yerba mate",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Netherlands yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Mate",
+        "language": "no",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Norway yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Mate-te",
+        "language": "no",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Norway yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Yerba mate",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "New Zealand yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Mate tea",
+        "language": "en",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "New Zealand yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Yerba mate",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Panama yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Mate",
+        "language": "es",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Panama yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Yerba mate",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Peru traditional yerba mate consumption and infusion terminology"
+      },
+      {
+        "name": "Mate",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Peru traditional yerba mate consumption and infusion terminology"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Yerba mate",
+        "language": "en",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Philippines yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Mate tea",
+        "language": "en",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Philippines yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "PK": [
+      {
+        "name": "ماتے",
+        "language": "ur",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Pakistan vernacular and descriptive terminology for Ilex paraguariensis",
+        "transliteration": "māte",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Yerba mate",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Pakistan yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "یربا ماتے",
+        "language": "ur",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Pakistan yerba mate retail, supplement, and beverage commerce terminology",
+        "transliteration": "yarbā māte",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Mate",
+        "language": "pl",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Poland yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Yerba mate",
+        "language": "pl",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Poland yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Erva-mate",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Portugal vernacular and descriptive terminology for Ilex paraguariensis"
+      },
+      {
+        "name": "Mate",
+        "language": "pt",
+        "confidence": "low",
+        "source": "traditional",
+        "citation": "Portugal traditional yerba mate consumption and infusion terminology"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Yerba mate",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional yerba mate consumption and infusion terminology"
+      },
+      {
+        "name": "Mate",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional yerba mate consumption and infusion terminology"
+      },
+      {
+        "name": "Ka'a",
+        "language": "gn",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Paraguay traditional yerba mate consumption and infusion terminology"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Maté",
+        "language": "ro",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Romania yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Yerba mate",
+        "language": "ro",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Romania yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Мате",
+        "language": "ru",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Russia yerba mate retail, supplement, and beverage commerce terminology",
+        "transliteration": "mate",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Йерба мате",
+        "language": "ru",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Russia yerba mate retail, supplement, and beverage commerce terminology",
+        "transliteration": "yerba mate",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Mate",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Sweden yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Mate-te",
+        "language": "sv",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Sweden yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "SG": [
+      {
+        "name": "马黛茶",
+        "language": "zh",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Singapore yerba mate retail, supplement, and beverage commerce terminology",
+        "transliteration": "mǎdàichá",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Yerba mate",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Singapore yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Maté",
+        "language": "sk",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Slovakia yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Yerba maté",
+        "language": "sk",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Slovakia yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Maté",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Senegal yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Yerba maté",
+        "language": "fr",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Senegal yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Yerba mate",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "El Salvador yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Mate",
+        "language": "es",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "El Salvador yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "TH": [
+      {
+        "name": "ชามาเต",
+        "language": "th",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Thailand yerba mate retail, supplement, and beverage commerce terminology",
+        "transliteration": "cha mate",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "เยอรบามาเต",
+        "language": "th",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Thailand yerba mate retail, supplement, and beverage commerce terminology",
+        "transliteration": "yerba mate",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "ماتيه",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Tunisia vernacular and descriptive terminology for Ilex paraguariensis",
+        "transliteration": "mātiyih",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Maté",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Tunisia yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Mate",
+        "language": "tr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Turkey yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Mate çayı",
+        "language": "tr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Turkey yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Yerba mate",
+        "language": "en",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Trinidad and Tobago yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "TW": [
+      {
+        "name": "馬黛茶",
+        "language": "zh",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Taiwan yerba mate retail, supplement, and beverage commerce terminology",
+        "transliteration": "mǎdàichá",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "耶巴馬黛",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Taiwan yerba mate retail, supplement, and beverage commerce terminology",
+        "transliteration": "yēbāmǎdài",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Мате",
+        "language": "uk",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Ukraine yerba mate retail, supplement, and beverage commerce terminology",
+        "transliteration": "mate",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Єрба мате",
+        "language": "uk",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Ukraine yerba mate retail, supplement, and beverage commerce terminology",
+        "transliteration": "yerba mate",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "US": [
+      {
+        "name": "Yerba mate",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "United States yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Mate",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "United States yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Yerba mate",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional yerba mate consumption and infusion terminology"
+      },
+      {
+        "name": "Mate",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional yerba mate consumption and infusion terminology"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Yerba mate",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Venezuela yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Mate",
+        "language": "es",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Venezuela yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Trà mate",
+        "language": "vi",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Vietnam yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Yerba mate",
+        "language": "vi",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Vietnam yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Yerba mate",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "South Africa yerba mate retail, supplement, and beverage commerce terminology"
+      },
+      {
+        "name": "Mate tea",
+        "language": "en",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "South Africa yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Yerba mate",
+        "language": "en",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Zambia yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Yerba mate",
+        "language": "en",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Zimbabwe yerba mate retail, supplement, and beverage commerce terminology"
+      }
+    ]
+  }
+}
