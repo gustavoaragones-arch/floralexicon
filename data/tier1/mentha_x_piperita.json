@@ -1,0 +1,1337 @@
+{
+  "plant_id": "mentha_x_piperita",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Menta",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Menta piperita",
+        "language": "es",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Argentina pharmacopoeial and medicinal terminology for Mentha × piperita"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Pfefferminze",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Pfefferminztee",
+        "language": "de",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Austria vernacular and descriptive terminology for Mentha × piperita"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Peppermint",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Peppermint tea",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Australia vernacular and descriptive terminology for Mentha × piperita"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Menthe poivrée",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Pepermunt",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional culinary and herbal terminology for peppermint"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Мента",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional culinary and herbal terminology for peppermint",
+        "transliteration": "menta",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Лютива мента",
+        "language": "bg",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Bulgaria pharmacopoeial and medicinal terminology for Mentha × piperita",
+        "transliteration": "lyutiva menta",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Menta",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Menta piperita",
+        "language": "es",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Bolivia pharmacopoeial and medicinal terminology for Mentha × piperita"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Hortelã-pimenta",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Hortelã",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Brazil vernacular and descriptive terminology for Mentha × piperita"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Peppermint",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Menthe poivrée",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional culinary and herbal terminology for peppermint"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Pfefferminze",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Menthe poivrée",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Switzerland traditional culinary and herbal terminology for peppermint"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Menta",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Menta piperita",
+        "language": "es",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Chile pharmacopoeial and medicinal terminology for Mentha × piperita"
+      }
+    ],
+    "CN": [
+      {
+        "name": "薄荷",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional culinary and herbal terminology for peppermint",
+        "transliteration": "bòhe",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "胡椒薄荷",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "China pharmacopoeial and medicinal terminology for Mentha × piperita",
+        "transliteration": "hújiāo bòhe",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Menta",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Menta piperita",
+        "language": "es",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Colombia pharmacopoeial and medicinal terminology for Mentha × piperita"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Menta",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Menta piperita",
+        "language": "es",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Costa Rica pharmacopoeial and medicinal terminology for Mentha × piperita"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Menta",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Menta piperita",
+        "language": "es",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Cuba pharmacopoeial and medicinal terminology for Mentha × piperita"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Máta peprná",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Máta",
+        "language": "cs",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Czech Republic vernacular and descriptive terminology for Mentha × piperita"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Pfefferminze",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Pfefferminztee",
+        "language": "de",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Germany vernacular and descriptive terminology for Mentha × piperita"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Pebermynte",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Pebermyntete",
+        "language": "da",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Denmark vernacular and descriptive terminology for Mentha × piperita"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Menta",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Menta piperita",
+        "language": "es",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Dominican Republic pharmacopoeial and medicinal terminology for Mentha × piperita"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "نعناع",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional culinary and herbal terminology for peppermint",
+        "transliteration": "na'nā'",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "نعناع فلفلي",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Algeria pharmacopoeial and medicinal terminology for Mentha × piperita",
+        "transliteration": "na'nā' filfilī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Menthe poivrée",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Algeria traditional culinary and herbal terminology for peppermint"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Menta",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Menta piperita",
+        "language": "es",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Ecuador pharmacopoeial and medicinal terminology for Mentha × piperita"
+      }
+    ],
+    "EG": [
+      {
+        "name": "نعناع",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional culinary and herbal terminology for peppermint",
+        "transliteration": "na'nā'",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "نعناع فلفلي",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Egypt pharmacopoeial and medicinal terminology for Mentha × piperita",
+        "transliteration": "na'nā' filfilī",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Menta",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Menta piperita",
+        "language": "es",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Spain pharmacopoeial and medicinal terminology for Mentha × piperita"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Piparminttu",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Piparminttutee",
+        "language": "fi",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Finland vernacular and descriptive terminology for Mentha × piperita"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Menthe poivrée",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Menthe",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "France vernacular and descriptive terminology for Mentha × piperita"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Peppermint",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Peppermint tea",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "United Kingdom vernacular and descriptive terminology for Mentha × piperita"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Peppermint",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ghana tea, supplement, and herbal-commerce terminology"
+      },
+      {
+        "name": "Mint",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Ghana vernacular and descriptive terminology for Mentha × piperita"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Δυόσμος",
+        "language": "el",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Greece traditional culinary and herbal terminology for peppermint",
+        "transliteration": "dyósmos",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Μέντα",
+        "language": "el",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Greece vernacular and descriptive terminology for Mentha × piperita",
+        "transliteration": "ménta",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Menta",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Menta piperita",
+        "language": "es",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Guatemala pharmacopoeial and medicinal terminology for Mentha × piperita"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Paprena metvica",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Metvica",
+        "language": "hr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Croatia vernacular and descriptive terminology for Mentha × piperita"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Borsmenta",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Menta",
+        "language": "hu",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Hungary vernacular and descriptive terminology for Mentha × piperita"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Peppermint",
+        "language": "id",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Indonesia tea, supplement, and herbal-commerce terminology"
+      },
+      {
+        "name": "Mint",
+        "language": "id",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Indonesia vernacular and descriptive terminology for Mentha × piperita"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Peppermint",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Peppermint tea",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ireland vernacular and descriptive terminology for Mentha × piperita"
+      }
+    ],
+    "IL": [
+      {
+        "name": "נענע",
+        "language": "he",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Israel traditional culinary and herbal terminology for peppermint",
+        "transliteration": "na'ana",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "מנטה",
+        "language": "he",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Israel vernacular and descriptive terminology for Mentha × piperita",
+        "transliteration": "menta",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "पुदीना",
+        "language": "hi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional culinary and herbal terminology for peppermint",
+        "transliteration": "pudīnā",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Peppermint",
+        "language": "en",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "India pharmacopoeial and medicinal terminology for Mentha × piperita"
+      }
+    ],
+    "IR": [
+      {
+        "name": "نعناع",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional culinary and herbal terminology for peppermint",
+        "transliteration": "na'nā",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "نعناع فلفلی",
+        "language": "fa",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Iran pharmacopoeial and medicinal terminology for Mentha × piperita",
+        "transliteration": "na'nā filfilī",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Menta piperita",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Menta",
+        "language": "it",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Italy vernacular and descriptive terminology for Mentha × piperita"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Peppermint",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Jamaica traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Mint",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Jamaica vernacular and descriptive terminology for Mentha × piperita"
+      }
+    ],
+    "JP": [
+      {
+        "name": "ペパーミント",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional culinary and herbal terminology for peppermint",
+        "transliteration": "pepāminto",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "ハッカ",
+        "language": "ja",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Japan traditional culinary and herbal terminology for peppermint",
+        "transliteration": "hakka",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Peppermint",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Kenya tea, supplement, and herbal-commerce terminology"
+      },
+      {
+        "name": "Mnanaa",
+        "language": "sw",
+        "confidence": "low",
+        "source": "traditional",
+        "citation": "Kenya traditional culinary and herbal terminology for peppermint"
+      }
+    ],
+    "KR": [
+      {
+        "name": "페퍼민트",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional culinary and herbal terminology for peppermint",
+        "transliteration": "pepeominteu",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "박하",
+        "language": "ko",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "South Korea traditional culinary and herbal terminology for peppermint",
+        "transliteration": "bakha",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "Peppermint",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Sri Lanka tea, supplement, and herbal-commerce terminology"
+      },
+      {
+        "name": "Mint",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for Mentha × piperita"
+      }
+    ],
+    "MA": [
+      {
+        "name": "نعناع",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional culinary and herbal terminology for peppermint",
+        "transliteration": "na'nā'",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "نعناع فلفلي",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Morocco pharmacopoeial and medicinal terminology for Mentha × piperita",
+        "transliteration": "na'nā' filfilī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Menthe poivrée",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Morocco traditional culinary and herbal terminology for peppermint"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Menta",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Menta piperita",
+        "language": "es",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Mexico pharmacopoeial and medicinal terminology for Mentha × piperita"
+      }
+    ],
+    "MY": [
+      {
+        "name": "薄荷",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional culinary and herbal terminology for peppermint",
+        "transliteration": "bòhe",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Peppermint",
+        "language": "ms",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Malaysia tea, supplement, and herbal-commerce terminology"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Peppermint",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Nigeria tea, supplement, and herbal-commerce terminology"
+      },
+      {
+        "name": "Mint",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Nigeria vernacular and descriptive terminology for Mentha × piperita"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Pepermunt",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Munt",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Netherlands vernacular and descriptive terminology for Mentha × piperita"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Peppermynte",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Mynte",
+        "language": "no",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Norway vernacular and descriptive terminology for Mentha × piperita"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Peppermint",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Peppermint tea",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "New Zealand vernacular and descriptive terminology for Mentha × piperita"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Menta",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Menta piperita",
+        "language": "es",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Panama pharmacopoeial and medicinal terminology for Mentha × piperita"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Menta",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Menta piperita",
+        "language": "es",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Peru pharmacopoeial and medicinal terminology for Mentha × piperita"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Peppermint",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Philippines traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Mint",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Philippines vernacular and descriptive terminology for Mentha × piperita"
+      }
+    ],
+    "PK": [
+      {
+        "name": "پودینہ",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional culinary and herbal terminology for peppermint",
+        "transliteration": "pudīnā",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Peppermint",
+        "language": "en",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Pakistan pharmacopoeial and medicinal terminology for Mentha × piperita"
+      },
+      {
+        "name": "پودینہ فلفلی",
+        "language": "ur",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Pakistan pharmacopoeial and medicinal terminology for Mentha × piperita",
+        "transliteration": "pudīnā filfilī",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Mięta pieprzowa",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Mięta",
+        "language": "pl",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Poland vernacular and descriptive terminology for Mentha × piperita"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Hortelã-pimenta",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Hortelã",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Portugal vernacular and descriptive terminology for Mentha × piperita"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Mentă",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Mentă creață",
+        "language": "ro",
+        "confidence": "low",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Romania pharmacopoeial and medicinal terminology for Mentha × piperita"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Мята перечная",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional culinary and herbal terminology for peppermint",
+        "transliteration": "myata perechnaya",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Мята",
+        "language": "ru",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Russia vernacular and descriptive terminology for Mentha × piperita",
+        "transliteration": "myata",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Pepparmynta",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Mynta",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Sweden vernacular and descriptive terminology for Mentha × piperita"
+      }
+    ],
+    "SG": [
+      {
+        "name": "薄荷",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional culinary and herbal terminology for peppermint",
+        "transliteration": "bòhe",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Peppermint",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Singapore tea, supplement, and herbal-commerce terminology"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Mäta pieporná",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Mäta",
+        "language": "sk",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Slovakia vernacular and descriptive terminology for Mentha × piperita"
+      }
+    ],
+    "TH": [
+      {
+        "name": "เปปเปอร์มินต์",
+        "language": "th",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Thailand tea, supplement, and herbal-commerce terminology",
+        "transliteration": "peppermint",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "สะระแหน่",
+        "language": "th",
+        "confidence": "low",
+        "source": "traditional",
+        "citation": "Thailand traditional culinary and herbal terminology for peppermint",
+        "transliteration": "saranae",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "نعناع",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional culinary and herbal terminology for peppermint",
+        "transliteration": "na'nā'",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "نعناع فلفلي",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Tunisia pharmacopoeial and medicinal terminology for Mentha × piperita",
+        "transliteration": "na'nā' filfilī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Menthe poivrée",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Tunisia traditional culinary and herbal terminology for peppermint"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Nane",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Biber nanesi",
+        "language": "tr",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Turkey pharmacopoeial and medicinal terminology for Mentha × piperita"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Peppermint",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Mint",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Trinidad and Tobago vernacular and descriptive terminology for Mentha × piperita"
+      }
+    ],
+    "TW": [
+      {
+        "name": "薄荷",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional culinary and herbal terminology for peppermint",
+        "transliteration": "bòhe",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "胡椒薄荷",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Taiwan pharmacopoeial and medicinal terminology for Mentha × piperita",
+        "transliteration": "hújiāo bòhe",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "М’ята перцева",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional culinary and herbal terminology for peppermint",
+        "transliteration": "myata pertseva",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "М’ята",
+        "language": "uk",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ukraine vernacular and descriptive terminology for Mentha × piperita",
+        "transliteration": "myata",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "US": [
+      {
+        "name": "Peppermint",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Peppermint tea",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "United States vernacular and descriptive terminology for Mentha × piperita"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Menta",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Menta piperita",
+        "language": "es",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Uruguay pharmacopoeial and medicinal terminology for Mentha × piperita"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Menta",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Menta piperita",
+        "language": "es",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Venezuela pharmacopoeial and medicinal terminology for Mentha × piperita"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Bạc hà",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Peppermint",
+        "language": "vi",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Vietnam tea, supplement, and herbal-commerce terminology"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Pepermunt",
+        "language": "af",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Peppermint",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional culinary and herbal terminology for peppermint"
+      },
+      {
+        "name": "Munt",
+        "language": "af",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "South Africa vernacular and descriptive terminology for Mentha × piperita"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Peppermint",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Zambia tea, supplement, and herbal-commerce terminology"
+      },
+      {
+        "name": "Mint",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Zambia vernacular and descriptive terminology for Mentha × piperita"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Peppermint",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Zimbabwe tea, supplement, and herbal-commerce terminology"
+      },
+      {
+        "name": "Mint",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Zimbabwe vernacular and descriptive terminology for Mentha × piperita"
+      }
+    ]
+  }
+}
