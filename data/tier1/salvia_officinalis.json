@@ -1,0 +1,1450 @@
+{
+  "plant_id": "salvia_officinalis",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Salvia",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Argentina traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Salvia común",
+        "language": "es",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Argentina pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Salbei",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Echter Salbei",
+        "language": "de",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Austria pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Sage",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Common sage",
+        "language": "en",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Australia pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Sauge",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Salie",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Echter Salbei",
+        "language": "de",
+        "confidence": "low",
+        "source": "pharmacopoeia",
+        "citation": "Belgium pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Градински чай",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional culinary and herbal terminology for sage",
+        "transliteration": "gradinski chay",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Салвия",
+        "language": "bg",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Bulgaria genus-level and vernacular terminology for Salvia officinalis",
+        "transliteration": "salviya",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Salvia",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Bolivia traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Salvia común",
+        "language": "es",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Bolivia pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Sálvia",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Sálvia comum",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Brazil pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Sage",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Sauge",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional culinary and herbal terminology for sage"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Salbei",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Sauge",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Switzerland traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Salvia",
+        "language": "it",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Switzerland traditional culinary and herbal terminology for sage"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Salvia",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Chile traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Salvia común",
+        "language": "es",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Chile pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "CN": [
+      {
+        "name": "鼠尾草",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional culinary and herbal terminology for sage",
+        "transliteration": "shǔwěicǎo",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "药用鼠尾草",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "China pharmacopoeial and medicinal terminology for Salvia officinalis",
+        "transliteration": "yàoyòng shǔwěicǎo",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "鼠尾草属",
+        "language": "zh",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "China genus-level and vernacular terminology for Salvia officinalis",
+        "transliteration": "shǔwěicǎo shǔ",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Salvia",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Colombia traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Salvia común",
+        "language": "es",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Colombia pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Salvia",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Costa Rica traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Salvia común",
+        "language": "es",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Costa Rica pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Salvia",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Cuba traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Salvia común",
+        "language": "es",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Cuba pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Šalvěj",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Šalvěj lékařská",
+        "language": "cs",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Czech Republic pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Salbei",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Echter Salbei",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Germany pharmacopoeial and medicinal terminology for Salvia officinalis"
+      },
+      {
+        "name": "Salvia",
+        "language": "de",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Germany genus-level and vernacular terminology for Salvia officinalis"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Salvie",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Ægte salvie",
+        "language": "da",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Denmark pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Salvia",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Salvia común",
+        "language": "es",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Dominican Republic pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "الميرمية",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional culinary and herbal terminology for sage",
+        "transliteration": "al-mirmiyah",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Sauge",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Algeria traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "سلفيا",
+        "language": "ar",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Algeria genus-level and vernacular terminology for Salvia officinalis",
+        "transliteration": "salfiyā",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Salvia",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Ecuador traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Salvia común",
+        "language": "es",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Ecuador pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "EG": [
+      {
+        "name": "الميرمية",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional culinary and herbal terminology for sage",
+        "transliteration": "al-mirmiyah",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "سلفيا",
+        "language": "ar",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Egypt genus-level and vernacular terminology for Salvia officinalis",
+        "transliteration": "salfiyā",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Salvia",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Salvia común",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Spain pharmacopoeial and medicinal terminology for Salvia officinalis"
+      },
+      {
+        "name": "Salvia officinal",
+        "language": "ca",
+        "confidence": "low",
+        "source": "pharmacopoeia",
+        "citation": "Spain pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Salvia",
+        "language": "fi",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Finland traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Ryytisalvia",
+        "language": "fi",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Finland pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Sauge",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Sauge officinale",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "France pharmacopoeial and medicinal terminology for Salvia officinalis"
+      },
+      {
+        "name": "Salvia",
+        "language": "fr",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "France genus-level and vernacular terminology for Salvia officinalis"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Sage",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Common sage",
+        "language": "en",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "United Kingdom pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Sage",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ghana culinary herb and supplement commerce terminology"
+      },
+      {
+        "name": "Salvia",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Ghana genus-level and vernacular terminology for Salvia officinalis"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Φασκόμηλο",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional culinary and herbal terminology for sage",
+        "transliteration": "faskómilo",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Σάλβια",
+        "language": "el",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Greece genus-level and vernacular terminology for Salvia officinalis",
+        "transliteration": "sálvia",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Salvia",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Guatemala traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Salvia común",
+        "language": "es",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Guatemala pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Kadulja",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Ljekovita kadulja",
+        "language": "hr",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Croatia pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Zsálya",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Orvosi zsálya",
+        "language": "hu",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Hungary pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Sage",
+        "language": "id",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Indonesia culinary herb and supplement commerce terminology"
+      },
+      {
+        "name": "Salvia",
+        "language": "id",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Indonesia genus-level and vernacular terminology for Salvia officinalis"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Sage",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Common sage",
+        "language": "en",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Ireland pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "IL": [
+      {
+        "name": "מרווה",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional culinary and herbal terminology for sage",
+        "transliteration": "marva",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "סלוויה",
+        "language": "he",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Israel genus-level and vernacular terminology for Salvia officinalis",
+        "transliteration": "salvya",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "Sage",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "India culinary herb and supplement commerce terminology"
+      },
+      {
+        "name": "Salvia",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "India genus-level and vernacular terminology for Salvia officinalis"
+      }
+    ],
+    "IR": [
+      {
+        "name": "مریم‌گلی",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional culinary and herbal terminology for sage",
+        "transliteration": "maryam-golī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "سالویا",
+        "language": "fa",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Iran genus-level and vernacular terminology for Salvia officinalis",
+        "transliteration": "sālviyā",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Salvia",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Salvia officinale",
+        "language": "it",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Italy pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Sage",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Jamaica culinary herb and supplement commerce terminology"
+      },
+      {
+        "name": "Salvia",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Jamaica genus-level and vernacular terminology for Salvia officinalis"
+      }
+    ],
+    "JP": [
+      {
+        "name": "セージ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional culinary and herbal terminology for sage",
+        "transliteration": "sēji",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "コモンセージ",
+        "language": "ja",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Japan pharmacopoeial and medicinal terminology for Salvia officinalis",
+        "transliteration": "komon sēji",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "サルビア",
+        "language": "ja",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Japan genus-level and vernacular terminology for Salvia officinalis",
+        "transliteration": "sarubia",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Sage",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Kenya culinary herb and supplement commerce terminology"
+      },
+      {
+        "name": "Salvia",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Kenya genus-level and vernacular terminology for Salvia officinalis"
+      }
+    ],
+    "KR": [
+      {
+        "name": "세이지",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional culinary and herbal terminology for sage",
+        "transliteration": "seiji",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "커먼 세이지",
+        "language": "ko",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "South Korea pharmacopoeial and medicinal terminology for Salvia officinalis",
+        "transliteration": "keomeon seiji",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "살비아",
+        "language": "ko",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "South Korea genus-level and vernacular terminology for Salvia officinalis",
+        "transliteration": "salbia",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "Sage",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Sri Lanka culinary herb and supplement commerce terminology"
+      },
+      {
+        "name": "Salvia",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Sri Lanka genus-level and vernacular terminology for Salvia officinalis"
+      }
+    ],
+    "MA": [
+      {
+        "name": "الميرمية",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional culinary and herbal terminology for sage",
+        "transliteration": "al-mirmiyah",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Sauge",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Morocco traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "سلفيا",
+        "language": "ar",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Morocco genus-level and vernacular terminology for Salvia officinalis",
+        "transliteration": "salfiyā",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Salvia",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Salvia común",
+        "language": "es",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Mexico pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Sage",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Malaysia culinary herb and supplement commerce terminology"
+      },
+      {
+        "name": "鼠尾草",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Malaysia traditional culinary and herbal terminology for sage",
+        "transliteration": "shǔwěicǎo",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Salvia",
+        "language": "ms",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Malaysia genus-level and vernacular terminology for Salvia officinalis"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Sage",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Nigeria culinary herb and supplement commerce terminology"
+      },
+      {
+        "name": "Salvia",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Nigeria genus-level and vernacular terminology for Salvia officinalis"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Salie",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Echte salie",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Netherlands pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Salvie",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Ekte salvie",
+        "language": "no",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Norway pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Sage",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Common sage",
+        "language": "en",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "New Zealand pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Salvia",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Panama traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Salvia común",
+        "language": "es",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Panama pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Salvia",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Peru traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Salvia común",
+        "language": "es",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Peru pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Sage",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Philippines culinary herb and supplement commerce terminology"
+      },
+      {
+        "name": "Salvia",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Philippines genus-level and vernacular terminology for Salvia officinalis"
+      }
+    ],
+    "PK": [
+      {
+        "name": "مریم گلی",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional culinary and herbal terminology for sage",
+        "transliteration": "maryam guli",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "سالویا",
+        "language": "ur",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Pakistan genus-level and vernacular terminology for Salvia officinalis",
+        "transliteration": "sālviya",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Sage",
+        "language": "en",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Pakistan culinary herb and supplement commerce terminology"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Szałwia",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Szałwia lekarska",
+        "language": "pl",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Poland pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Sálvia",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Sálvia-comum",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Portugal pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Salvie",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Salvie medicinală",
+        "language": "ro",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Romania pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Шалфей",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional culinary and herbal terminology for sage",
+        "transliteration": "shalfey",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Шалфей лекарственный",
+        "language": "ru",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Russia pharmacopoeial and medicinal terminology for Salvia officinalis",
+        "transliteration": "shalfey lekarstvennyy",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Сальвия",
+        "language": "ru",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Russia genus-level and vernacular terminology for Salvia officinalis",
+        "transliteration": "salviya",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Salvia",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Äkta salvia",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Sweden pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Sage",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Singapore culinary herb and supplement commerce terminology"
+      },
+      {
+        "name": "鼠尾草",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Singapore traditional culinary and herbal terminology for sage",
+        "transliteration": "shǔwěicǎo",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Salvia",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Singapore genus-level and vernacular terminology for Salvia officinalis"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Šalvia",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Šalvia lekárska",
+        "language": "sk",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Slovakia pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "TH": [
+      {
+        "name": "เสจ",
+        "language": "th",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Thailand culinary herb and supplement commerce terminology",
+        "transliteration": "set",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "ซัลเวีย",
+        "language": "th",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Thailand genus-level and vernacular terminology for Salvia officinalis",
+        "transliteration": "salwia",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "الميرمية",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional culinary and herbal terminology for sage",
+        "transliteration": "al-mirmiyah",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Sauge",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Tunisia traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "سلفيا",
+        "language": "ar",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Tunisia genus-level and vernacular terminology for Salvia officinalis",
+        "transliteration": "salfiyā",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Adaçayı",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Tıbbi adaçayı",
+        "language": "tr",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Turkey pharmacopoeial and medicinal terminology for Salvia officinalis"
+      },
+      {
+        "name": "Salvia",
+        "language": "tr",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Turkey genus-level and vernacular terminology for Salvia officinalis"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Sage",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Trinidad and Tobago culinary herb and supplement commerce terminology"
+      },
+      {
+        "name": "Salvia",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Trinidad and Tobago genus-level and vernacular terminology for Salvia officinalis"
+      }
+    ],
+    "TW": [
+      {
+        "name": "鼠尾草",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional culinary and herbal terminology for sage",
+        "transliteration": "shǔwěicǎo",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "藥用鼠尾草",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Taiwan pharmacopoeial and medicinal terminology for Salvia officinalis",
+        "transliteration": "yàoyòng shǔwěicǎo",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "鼠尾草屬",
+        "language": "zh",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Taiwan genus-level and vernacular terminology for Salvia officinalis",
+        "transliteration": "shǔwěicǎo shǔ",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Шавлія",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional culinary and herbal terminology for sage",
+        "transliteration": "shavliya",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Шавлія лікарська",
+        "language": "uk",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Ukraine pharmacopoeial and medicinal terminology for Salvia officinalis",
+        "transliteration": "shavliya likarska",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "US": [
+      {
+        "name": "Sage",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Common sage",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "United States pharmacopoeial and medicinal terminology for Salvia officinalis"
+      },
+      {
+        "name": "Salvia",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "United States genus-level and vernacular terminology for Salvia officinalis"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Salvia",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Uruguay traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Salvia común",
+        "language": "es",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Uruguay pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Salvia",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Venezuela traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Salvia común",
+        "language": "es",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Venezuela pharmacopoeial and medicinal terminology for Salvia officinalis"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Xô thơm",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Xô thơm thường",
+        "language": "vi",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Vietnam pharmacopoeial and medicinal terminology for Salvia officinalis"
+      },
+      {
+        "name": "Salvia",
+        "language": "vi",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Vietnam genus-level and vernacular terminology for Salvia officinalis"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Salie",
+        "language": "af",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Sage",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "South Africa traditional culinary and herbal terminology for sage"
+      },
+      {
+        "name": "Salvia",
+        "language": "af",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "South Africa genus-level and vernacular terminology for Salvia officinalis"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Sage",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Zambia culinary herb and supplement commerce terminology"
+      },
+      {
+        "name": "Salvia",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Zambia genus-level and vernacular terminology for Salvia officinalis"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Sage",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Zimbabwe culinary herb and supplement commerce terminology"
+      },
+      {
+        "name": "Salvia",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Zimbabwe genus-level and vernacular terminology for Salvia officinalis"
+      }
+    ]
+  }
+}
