@@ -1,0 +1,1599 @@
+{
+  "plant_id": "echinacea_purpurea",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Equinácea",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Argentina supplement, wellness, and herbal-commerce terminology"
+      },
+      {
+        "name": "Echinacea",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Argentina vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Sonnenhut",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Austria herbal-pharmacopoeial terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Purpur-Sonnenhut",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Austria herbal-pharmacopoeial terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Echinacea",
+        "language": "de",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Austria supplement, wellness, and herbal-commerce terminology"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Echinacea",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Australia registered herbal-medicine and supplement terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Purple coneflower",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Australia vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Échinacée",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Belgium supplement, wellness, and herbal-commerce terminology"
+      },
+      {
+        "name": "Echinacea",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Belgium herbal-pharmacopoeial terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Zonnehoed",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Belgium herbal-pharmacopoeial terminology for Echinacea purpurea"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Ехинацея",
+        "language": "bg",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Bulgaria registered herbal-medicine and supplement terminology for Echinacea purpurea",
+        "transliteration": "ekhinatseya",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Пурпурна ехинацея",
+        "language": "bg",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Bulgaria herbal-pharmacopoeial terminology for Echinacea purpurea",
+        "transliteration": "purpurna ekhinatseya",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Equinácea",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Bolivia supplement, wellness, and herbal-commerce terminology"
+      },
+      {
+        "name": "Echinacea",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Bolivia vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Equinácea",
+        "language": "pt",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Brazil registered herbal-medicine and supplement terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Echinacea",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Brazil vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Coneflower roxa",
+        "language": "pt",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Brazil vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Echinacea",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Canada registered herbal-medicine and supplement terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Échinacée",
+        "language": "fr",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Canada registered herbal-medicine and supplement terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Purple coneflower",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Canada vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Sonnenhut",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Switzerland herbal-pharmacopoeial terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Échinacée",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Switzerland herbal-pharmacopoeial terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Echinacea",
+        "language": "it",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Switzerland supplement, wellness, and herbal-commerce terminology"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Equinácea",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Chile supplement, wellness, and herbal-commerce terminology"
+      },
+      {
+        "name": "Echinacea",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Chile vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "CN": [
+      {
+        "name": "紫锥菊",
+        "language": "zh",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "China herbal-pharmacopoeial terminology for Echinacea purpurea",
+        "transliteration": "zǐzhuījú",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "紫松果菊",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "China herbal-pharmacopoeial terminology for Echinacea purpurea",
+        "transliteration": "zǐsōngguǒjú",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Echinacea",
+        "language": "zh",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "China supplement, wellness, and herbal-commerce terminology"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Equinácea",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Colombia supplement, wellness, and herbal-commerce terminology"
+      },
+      {
+        "name": "Echinacea",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Colombia vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Equinácea",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Costa Rica supplement, wellness, and herbal-commerce terminology"
+      },
+      {
+        "name": "Echinacea",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Costa Rica vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Equinácea",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Cuba supplement, wellness, and herbal-commerce terminology"
+      },
+      {
+        "name": "Echinacea",
+        "language": "es",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Cuba vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Třapatka nachová",
+        "language": "cs",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Czech Republic herbal-pharmacopoeial terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Echinacea",
+        "language": "cs",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Czech Republic registered herbal-medicine and supplement terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Nachová třapatka",
+        "language": "cs",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Czech Republic vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Sonnenhut",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Germany herbal-pharmacopoeial terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Purpur-Sonnenhut",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Germany herbal-pharmacopoeial terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Echinacea",
+        "language": "de",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Germany registered herbal-medicine and supplement terminology for Echinacea purpurea"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Solhat",
+        "language": "da",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Denmark herbal-pharmacopoeial terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Purpursolhat",
+        "language": "da",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Denmark herbal-pharmacopoeial terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Echinacea",
+        "language": "da",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Denmark supplement, wellness, and herbal-commerce terminology"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Equinácea",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Dominican Republic supplement, wellness, and herbal-commerce terminology"
+      },
+      {
+        "name": "Echinacea",
+        "language": "es",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Dominican Republic vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "إشنسا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Algeria supplement, wellness, and herbal-commerce terminology",
+        "transliteration": "ishinsā",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Échinacée",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Algeria supplement, wellness, and herbal-commerce terminology"
+      },
+      {
+        "name": "القنفذية الأرجوانية",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Algeria herbal-pharmacopoeial terminology for Echinacea purpurea",
+        "transliteration": "al-qanfudhiyya al-urjuwāniyya",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Equinácea",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Ecuador supplement, wellness, and herbal-commerce terminology"
+      },
+      {
+        "name": "Echinacea",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ecuador vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "EG": [
+      {
+        "name": "إشنسا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Egypt supplement, wellness, and herbal-commerce terminology",
+        "transliteration": "ishinsā",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "القنفذية الأرجوانية",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Egypt herbal-pharmacopoeial terminology for Echinacea purpurea",
+        "transliteration": "al-qanfudhiyya al-urjuwāniyya",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Echinacea",
+        "language": "ar",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Egypt vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Equinácea",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Spain herbal-pharmacopoeial terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Echinacea",
+        "language": "es",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Spain registered herbal-medicine and supplement terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Equinàcia",
+        "language": "ca",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Spain vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Punahattu",
+        "language": "fi",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Finland herbal-pharmacopoeial terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Kaunopunahattu",
+        "language": "fi",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Finland herbal-pharmacopoeial terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Echinacea",
+        "language": "fi",
+        "confidence": "medium",
+        "source": "regulatory",
+        "citation": "Finland registered herbal-medicine and supplement terminology for Echinacea purpurea"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Échinacée",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "France herbal-pharmacopoeial terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Echinacea",
+        "language": "fr",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "France registered herbal-medicine and supplement terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Rudbeckie pourpre",
+        "language": "fr",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "France vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Echinacea",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "United Kingdom registered herbal-medicine and supplement terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Purple coneflower",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "United Kingdom vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Coneflower",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "United Kingdom vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Echinacea",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ghana supplement, wellness, and herbal-commerce terminology"
+      },
+      {
+        "name": "Purple coneflower",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Ghana vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Εχινάκεια",
+        "language": "el",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Greece registered herbal-medicine and supplement terminology for Echinacea purpurea",
+        "transliteration": "echinákeia",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Πορφυρό κωνοφόρο άνθος",
+        "language": "el",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Greece vernacular, ornamental, and descriptive terminology for Echinacea purpurea",
+        "transliteration": "porfyró konofóro ánthos",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Equinácea",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Guatemala supplement, wellness, and herbal-commerce terminology"
+      },
+      {
+        "name": "Echinacea",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Guatemala vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Ehinacea",
+        "language": "hr",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Croatia registered herbal-medicine and supplement terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Crvena rudbekija",
+        "language": "hr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Croatia vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Purpurna rudbekija",
+        "language": "hr",
+        "confidence": "low",
+        "source": "pharmacopoeia",
+        "citation": "Croatia herbal-pharmacopoeial terminology for Echinacea purpurea"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Kasvirág",
+        "language": "hu",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Hungary herbal-pharmacopoeial terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Bíbor kasvirág",
+        "language": "hu",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Hungary herbal-pharmacopoeial terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Echinacea",
+        "language": "hu",
+        "confidence": "medium",
+        "source": "regulatory",
+        "citation": "Hungary registered herbal-medicine and supplement terminology for Echinacea purpurea"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Echinacea",
+        "language": "id",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Indonesia registered herbal-medicine and supplement terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Bunga kerucut ungu",
+        "language": "id",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Indonesia vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Echinacea",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Ireland registered herbal-medicine and supplement terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Purple coneflower",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ireland vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "IL": [
+      {
+        "name": "אכינצאה",
+        "language": "he",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Israel registered herbal-medicine and supplement terminology for Echinacea purpurea",
+        "transliteration": "ekhinatsea",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "קונפלואר סגול",
+        "language": "he",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Israel vernacular, ornamental, and descriptive terminology for Echinacea purpurea",
+        "transliteration": "konflower sagol",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "Echinacea",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "India registered herbal-medicine and supplement terminology for Echinacea purpurea"
+      },
+      {
+        "name": "एकिनेशिया",
+        "language": "hi",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "India supplement, wellness, and herbal-commerce terminology",
+        "transliteration": "ekineshiya",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Purple coneflower",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "India vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "IR": [
+      {
+        "name": "اکیناسه",
+        "language": "fa",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Iran registered herbal-medicine and supplement terminology for Echinacea purpurea",
+        "transliteration": "ekināse",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "گل مخروطی بنفش",
+        "language": "fa",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Iran vernacular, ornamental, and descriptive terminology for Echinacea purpurea",
+        "transliteration": "gol-e makhruti-ye banafsh",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Echinacea",
+        "language": "it",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Italy herbal-pharmacopoeial terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Echinacea purpurea",
+        "language": "it",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Italy herbal-pharmacopoeial terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Fiore-cono viola",
+        "language": "it",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Italy vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Echinacea",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Jamaica supplement, wellness, and herbal-commerce terminology"
+      },
+      {
+        "name": "Purple coneflower",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Jamaica vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "JP": [
+      {
+        "name": "エキナセア",
+        "language": "ja",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Japan registered herbal-medicine and supplement terminology for Echinacea purpurea",
+        "transliteration": "ekinasea",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "ムラサキバレンギク",
+        "language": "ja",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Japan herbal-pharmacopoeial terminology for Echinacea purpurea",
+        "transliteration": "murasaki barengiku",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "パープルコーンフラワー",
+        "language": "ja",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Japan vernacular, ornamental, and descriptive terminology for Echinacea purpurea",
+        "transliteration": "pāpuru kōnfurawā",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Echinacea",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Kenya supplement, wellness, and herbal-commerce terminology"
+      },
+      {
+        "name": "Purple coneflower",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Kenya vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "KR": [
+      {
+        "name": "에키네시아",
+        "language": "ko",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "South Korea registered herbal-medicine and supplement terminology for Echinacea purpurea",
+        "transliteration": "ekinesia",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "에키나세아",
+        "language": "ko",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "South Korea supplement, wellness, and herbal-commerce terminology",
+        "transliteration": "ekinasea",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "자주색 콘플라워",
+        "language": "ko",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "South Korea vernacular, ornamental, and descriptive terminology for Echinacea purpurea",
+        "transliteration": "jajusaek konpeullawo",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "Echinacea",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Sri Lanka supplement, wellness, and herbal-commerce terminology"
+      },
+      {
+        "name": "Purple coneflower",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "MA": [
+      {
+        "name": "إشنسا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Morocco supplement, wellness, and herbal-commerce terminology",
+        "transliteration": "ishinsā",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Échinacée",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Morocco supplement, wellness, and herbal-commerce terminology"
+      },
+      {
+        "name": "القنفذية الأرجوانية",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Morocco herbal-pharmacopoeial terminology for Echinacea purpurea",
+        "transliteration": "al-qanfudhiyya al-urjuwāniyya",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Equinácea",
+        "language": "es",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Mexico registered herbal-medicine and supplement terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Echinacea",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Mexico supplement, wellness, and herbal-commerce terminology"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Echinacea",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Malaysia registered herbal-medicine and supplement terminology for Echinacea purpurea"
+      },
+      {
+        "name": "紫锥菊",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Malaysia herbal-pharmacopoeial terminology for Echinacea purpurea",
+        "transliteration": "zǐzhuījú",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Bunga kon ungu",
+        "language": "ms",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Malaysia vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Echinacea",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Nigeria supplement, wellness, and herbal-commerce terminology"
+      },
+      {
+        "name": "Purple coneflower",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Nigeria vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Zonnehoed",
+        "language": "nl",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Netherlands herbal-pharmacopoeial terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Rode zonnehoed",
+        "language": "nl",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Netherlands herbal-pharmacopoeial terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Echinacea",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "regulatory",
+        "citation": "Netherlands registered herbal-medicine and supplement terminology for Echinacea purpurea"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Solhatt",
+        "language": "no",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Norway herbal-pharmacopoeial terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Rød solhatt",
+        "language": "no",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Norway herbal-pharmacopoeial terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Echinacea",
+        "language": "no",
+        "confidence": "medium",
+        "source": "regulatory",
+        "citation": "Norway registered herbal-medicine and supplement terminology for Echinacea purpurea"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Echinacea",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "New Zealand registered herbal-medicine and supplement terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Purple coneflower",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "New Zealand vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Equinácea",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Panama supplement, wellness, and herbal-commerce terminology"
+      },
+      {
+        "name": "Echinacea",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Panama vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Equinácea",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Peru supplement, wellness, and herbal-commerce terminology"
+      },
+      {
+        "name": "Echinacea",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Peru vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Echinacea",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Philippines supplement, wellness, and herbal-commerce terminology"
+      },
+      {
+        "name": "Purple coneflower",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Philippines vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "PK": [
+      {
+        "name": "ایکینیشیا",
+        "language": "ur",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Pakistan supplement, wellness, and herbal-commerce terminology",
+        "transliteration": "ekineshiya",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Echinacea",
+        "language": "en",
+        "confidence": "medium",
+        "source": "regulatory",
+        "citation": "Pakistan registered herbal-medicine and supplement terminology for Echinacea purpurea"
+      },
+      {
+        "name": "جامنی مخروطی پھول",
+        "language": "ur",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Pakistan vernacular, ornamental, and descriptive terminology for Echinacea purpurea",
+        "transliteration": "jāmani makhrūti phūl",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Jeżówka",
+        "language": "pl",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Poland herbal-pharmacopoeial terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Jeżówka purpurowa",
+        "language": "pl",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Poland herbal-pharmacopoeial terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Echinacea",
+        "language": "pl",
+        "confidence": "medium",
+        "source": "regulatory",
+        "citation": "Poland registered herbal-medicine and supplement terminology for Echinacea purpurea"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Equinácea",
+        "language": "pt",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Portugal herbal-pharmacopoeial terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Echinacea",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "regulatory",
+        "citation": "Portugal registered herbal-medicine and supplement terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Flor-cone roxa",
+        "language": "pt",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Portugal vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Echinacea",
+        "language": "ro",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Romania registered herbal-medicine and supplement terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Echinacea purpurea",
+        "language": "ro",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Romania herbal-pharmacopoeial terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Floarea-conului purpurie",
+        "language": "ro",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Romania vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Эхинацея",
+        "language": "ru",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Russia registered herbal-medicine and supplement terminology for Echinacea purpurea",
+        "transliteration": "ekhinatseya",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Эхинацея пурпурная",
+        "language": "ru",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Russia herbal-pharmacopoeial terminology for Echinacea purpurea",
+        "transliteration": "ekhinatseya purpurnaya",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Пурпурный эхинацея",
+        "language": "ru",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Russia vernacular, ornamental, and descriptive terminology for Echinacea purpurea",
+        "transliteration": "purpurnyy ekhinatseya",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Röd solhatt",
+        "language": "sv",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Sweden herbal-pharmacopoeial terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Solhatt",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Sweden herbal-pharmacopoeial terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Echinacea",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "regulatory",
+        "citation": "Sweden registered herbal-medicine and supplement terminology for Echinacea purpurea"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Echinacea",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Singapore registered herbal-medicine and supplement terminology for Echinacea purpurea"
+      },
+      {
+        "name": "紫锥菊",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Singapore herbal-pharmacopoeial terminology for Echinacea purpurea",
+        "transliteration": "zǐzhuījú",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Bunga kon ungu",
+        "language": "ms",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Singapore vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Echinacea",
+        "language": "sk",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Slovakia registered herbal-medicine and supplement terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Echinacea purpurová",
+        "language": "sk",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Slovakia herbal-pharmacopoeial terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Purpurová echinacea",
+        "language": "sk",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Slovakia vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "TH": [
+      {
+        "name": "เอ็กไคนาเซีย",
+        "language": "th",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Thailand registered herbal-medicine and supplement terminology for Echinacea purpurea",
+        "transliteration": "ekkhainasia",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "เอคิเนเชีย",
+        "language": "th",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Thailand supplement, wellness, and herbal-commerce terminology",
+        "transliteration": "ekhinechia",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "ดอกโคนสีม่วง",
+        "language": "th",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Thailand vernacular, ornamental, and descriptive terminology for Echinacea purpurea",
+        "transliteration": "dok khon si muang",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "إشنسا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Tunisia supplement, wellness, and herbal-commerce terminology",
+        "transliteration": "ishinsā",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Échinacée",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Tunisia supplement, wellness, and herbal-commerce terminology"
+      },
+      {
+        "name": "القنفذية الأرجوانية",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Tunisia herbal-pharmacopoeial terminology for Echinacea purpurea",
+        "transliteration": "al-qanfudhiyya al-urjuwāniyya",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Ekinezya",
+        "language": "tr",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Turkey registered herbal-medicine and supplement terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Ekinezya purpurea",
+        "language": "tr",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Turkey herbal-pharmacopoeial terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Mor koni çiçeği",
+        "language": "tr",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Turkey vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Echinacea",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Trinidad and Tobago supplement, wellness, and herbal-commerce terminology"
+      },
+      {
+        "name": "Purple coneflower",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Trinidad and Tobago vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "TW": [
+      {
+        "name": "紫錐花",
+        "language": "zh",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Taiwan herbal-pharmacopoeial terminology for Echinacea purpurea",
+        "transliteration": "zǐzhuīhuā",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "紫錐菊",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Taiwan herbal-pharmacopoeial terminology for Echinacea purpurea",
+        "transliteration": "zǐzhuījú",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Echinacea",
+        "language": "zh",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Taiwan supplement, wellness, and herbal-commerce terminology"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Ехінацея",
+        "language": "uk",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Ukraine registered herbal-medicine and supplement terminology for Echinacea purpurea",
+        "transliteration": "ekhinatseya",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Ехінацея пурпурова",
+        "language": "uk",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Ukraine herbal-pharmacopoeial terminology for Echinacea purpurea",
+        "transliteration": "ekhinatseya purpurova",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Пурпурова ехінацея",
+        "language": "uk",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Ukraine vernacular, ornamental, and descriptive terminology for Echinacea purpurea",
+        "transliteration": "purpurova ekhinatseya",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "US": [
+      {
+        "name": "Echinacea",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "United States registered herbal-medicine and supplement terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Purple coneflower",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "United States vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Coneflower",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "United States vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Equinácea",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Uruguay supplement, wellness, and herbal-commerce terminology"
+      },
+      {
+        "name": "Echinacea",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Uruguay vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Equinácea",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Venezuela supplement, wellness, and herbal-commerce terminology"
+      },
+      {
+        "name": "Echinacea",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Venezuela vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Echinacea",
+        "language": "vi",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Vietnam registered herbal-medicine and supplement terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Cúc tím",
+        "language": "vi",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Vietnam herbal-pharmacopoeial terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Hoa nón tím",
+        "language": "vi",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Vietnam vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Echinacea",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "South Africa registered herbal-medicine and supplement terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Purple coneflower",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "South Africa vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      },
+      {
+        "name": "Pers keëlblom",
+        "language": "af",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "South Africa vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Echinacea",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Zambia supplement, wellness, and herbal-commerce terminology"
+      },
+      {
+        "name": "Purple coneflower",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Zambia vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Echinacea",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Zimbabwe supplement, wellness, and herbal-commerce terminology"
+      },
+      {
+        "name": "Purple coneflower",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Zimbabwe vernacular, ornamental, and descriptive terminology for Echinacea purpurea"
+      }
+    ]
+  }
+}
