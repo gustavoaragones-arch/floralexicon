@@ -1,0 +1,1836 @@
+{
+  "plant_id": "camellia_sinensis",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Té",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Argentina everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Té verde",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Argentina tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Té negro",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Argentina tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Tee",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Austria everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Grüner Tee",
+        "language": "de",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Austria tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Schwarzer Tee",
+        "language": "de",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Austria tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Tea",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Australia everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Green tea",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Australia tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Black tea",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Australia tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Thé",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Belgium everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Tee",
+        "language": "nl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Belgium everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Thé vert",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Belgium tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Чай",
+        "language": "bg",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bulgaria everyday vernacular beverage terminology for Camellia sinensis",
+        "transliteration": "chay",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Зелен чай",
+        "language": "bg",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Bulgaria tea-retail and beverage-commerce terminology (green/black/processing variants)",
+        "transliteration": "zelen chay",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Черен чай",
+        "language": "bg",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Bulgaria tea-retail and beverage-commerce terminology (green/black/processing variants)",
+        "transliteration": "cheren chay",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Té",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bolivia everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Té verde",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Bolivia tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Té negro",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Bolivia tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Chá",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Brazil everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Chá verde",
+        "language": "pt",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Brazil tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Chá preto",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Brazil tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Tea",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Canada everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Thé",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Canada everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Green tea",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Canada tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Tee",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Switzerland everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Thé",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Switzerland everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Tè",
+        "language": "it",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Switzerland everyday vernacular beverage terminology for Camellia sinensis"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Té",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Chile everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Té verde",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Chile tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Té negro",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Chile tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "CN": [
+      {
+        "name": "茶",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional tea-culture and beverage terminology for Camellia sinensis",
+        "transliteration": "chá",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "绿茶",
+        "language": "zh",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "China tea-retail and beverage-commerce terminology (green/black/processing variants)",
+        "transliteration": "lǜchá",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "红茶",
+        "language": "zh",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "China tea-retail and beverage-commerce terminology (green/black/processing variants)",
+        "transliteration": "hóngchá",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Té",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Colombia everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Té verde",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Colombia tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Té negro",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Colombia tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Té",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Costa Rica everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Té verde",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Costa Rica tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Té negro",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Costa Rica tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Té",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Cuba everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Té verde",
+        "language": "es",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Cuba tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Té negro",
+        "language": "es",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Cuba tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Čaj",
+        "language": "cs",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Czech Republic everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Zelený čaj",
+        "language": "cs",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Czech Republic tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Černý čaj",
+        "language": "cs",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Czech Republic tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Tee",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Germany everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Grüner Tee",
+        "language": "de",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Germany tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Schwarzer Tee",
+        "language": "de",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Germany tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Te",
+        "language": "da",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Denmark everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Grøn te",
+        "language": "da",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Denmark tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Sort te",
+        "language": "da",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Denmark tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Té",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Dominican Republic everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Té verde",
+        "language": "es",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Dominican Republic tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Té negro",
+        "language": "es",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Dominican Republic tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "شاي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional tea-culture and beverage terminology for Camellia sinensis",
+        "transliteration": "shāy",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Thé",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Algeria everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "شاي أخضر",
+        "language": "ar",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Algeria tea-retail and beverage-commerce terminology (green/black/processing variants)",
+        "transliteration": "shāy akhḍar",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Té",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ecuador everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Té verde",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ecuador tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Té negro",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ecuador tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "EG": [
+      {
+        "name": "شاي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional tea-culture and beverage terminology for Camellia sinensis",
+        "transliteration": "shāy",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "شاي أخضر",
+        "language": "ar",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Egypt tea-retail and beverage-commerce terminology (green/black/processing variants)",
+        "transliteration": "shāy akhḍar",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "شاي أسود",
+        "language": "ar",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Egypt tea-retail and beverage-commerce terminology (green/black/processing variants)",
+        "transliteration": "shāy aswad",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Té",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Spain everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Té verde",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Spain tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Té negro",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Spain tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "ET": [
+      {
+        "name": "ሻይ",
+        "language": "am",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ethiopia everyday vernacular beverage terminology for Camellia sinensis",
+        "transliteration": "shay",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "አረንጓዴ ሻይ",
+        "language": "am",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ethiopia tea-retail and beverage-commerce terminology (green/black/processing variants)",
+        "transliteration": "arengwade shay",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Tee",
+        "language": "fi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Finland everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Vihreä tee",
+        "language": "fi",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Finland tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Musta tee",
+        "language": "fi",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Finland tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Thé",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "France everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Thé vert",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "France tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Thé noir",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "France tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Tea",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional tea-culture and beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Black tea",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional tea-culture and beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Green tea",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "United Kingdom tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Tea",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ghana everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Green tea",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ghana tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Black tea",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ghana tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Τσάι",
+        "language": "el",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Greece everyday vernacular beverage terminology for Camellia sinensis",
+        "transliteration": "tsái",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Πράσινο τσάι",
+        "language": "el",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Greece tea-retail and beverage-commerce terminology (green/black/processing variants)",
+        "transliteration": "prásino tsái",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Μαύρο τσάι",
+        "language": "el",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Greece tea-retail and beverage-commerce terminology (green/black/processing variants)",
+        "transliteration": "mávro tsái",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Té",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Guatemala everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Té verde",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Guatemala tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Té negro",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Guatemala tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Čaj",
+        "language": "hr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Croatia everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Zeleni čaj",
+        "language": "hr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Croatia tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Crni čaj",
+        "language": "hr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Croatia tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Tea",
+        "language": "hu",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Hungary everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Zöld tea",
+        "language": "hu",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Hungary tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Fekete tea",
+        "language": "hu",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Hungary tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Teh",
+        "language": "id",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Indonesia everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Teh hijau",
+        "language": "id",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Indonesia tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Teh hitam",
+        "language": "id",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Indonesia tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Tea",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional tea-culture and beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Black tea",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional tea-culture and beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Green tea",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ireland tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "IL": [
+      {
+        "name": "תה",
+        "language": "he",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Israel everyday vernacular beverage terminology for Camellia sinensis",
+        "transliteration": "te",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "תה ירוק",
+        "language": "he",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Israel tea-retail and beverage-commerce terminology (green/black/processing variants)",
+        "transliteration": "te yarok",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "תה שחור",
+        "language": "he",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Israel tea-retail and beverage-commerce terminology (green/black/processing variants)",
+        "transliteration": "te shachor",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "चाय",
+        "language": "hi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional tea-culture and beverage terminology for Camellia sinensis",
+        "transliteration": "chai",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Tea",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "India tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "ग्रीन टी",
+        "language": "hi",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "India tea-retail and beverage-commerce terminology (green/black/processing variants)",
+        "transliteration": "green tea",
+        "transliteration_scheme": "iso_15919"
+      }
+    ],
+    "IR": [
+      {
+        "name": "چای",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional tea-culture and beverage terminology for Camellia sinensis",
+        "transliteration": "chāy",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "چای سبز",
+        "language": "fa",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Iran tea-retail and beverage-commerce terminology (green/black/processing variants)",
+        "transliteration": "chāy sabz",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "چای سیاه",
+        "language": "fa",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Iran tea-retail and beverage-commerce terminology (green/black/processing variants)",
+        "transliteration": "chāy siyāh",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Tè",
+        "language": "it",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Italy everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Tè verde",
+        "language": "it",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Italy tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Tè nero",
+        "language": "it",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Italy tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Tea",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Jamaica everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Green tea",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Jamaica tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Black tea",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Jamaica tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "JP": [
+      {
+        "name": "茶",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional tea-culture and beverage terminology for Camellia sinensis",
+        "transliteration": "cha",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "緑茶",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional tea-culture and beverage terminology for Camellia sinensis",
+        "transliteration": "ryokucha",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "紅茶",
+        "language": "ja",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Japan tea-retail and beverage-commerce terminology (green/black/processing variants)",
+        "transliteration": "kōcha",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Chai",
+        "language": "sw",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Kenya everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Tea",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Kenya tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Black tea",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Kenya tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "KR": [
+      {
+        "name": "차",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional tea-culture and beverage terminology for Camellia sinensis",
+        "transliteration": "cha",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "녹차",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional tea-culture and beverage terminology for Camellia sinensis",
+        "transliteration": "nokcha",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "홍차",
+        "language": "ko",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "South Korea tea-retail and beverage-commerce terminology (green/black/processing variants)",
+        "transliteration": "hongcha",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "තේ",
+        "language": "si",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sri Lanka everyday vernacular beverage terminology for Camellia sinensis",
+        "transliteration": "tē",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Tea",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Sri Lanka tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Ceylon tea",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Sri Lanka tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "MA": [
+      {
+        "name": "شاي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional tea-culture and beverage terminology for Camellia sinensis",
+        "transliteration": "shāy",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "شاي أخضر",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional tea-culture and beverage terminology for Camellia sinensis",
+        "transliteration": "shāy akhḍar",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Thé",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Morocco everyday vernacular beverage terminology for Camellia sinensis"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Té",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Mexico everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Té verde",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Mexico tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Té negro",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Mexico tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Teh",
+        "language": "ms",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Malaysia everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "茶",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional tea-culture and beverage terminology for Camellia sinensis",
+        "transliteration": "chá",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Teh hijau",
+        "language": "ms",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Malaysia tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Tea",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Nigeria everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Green tea",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Nigeria tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Black tea",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Nigeria tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Thee",
+        "language": "nl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Netherlands everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Groene thee",
+        "language": "nl",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Netherlands tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Zwarte thee",
+        "language": "nl",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Netherlands tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Te",
+        "language": "no",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Norway everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Grønn te",
+        "language": "no",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Norway tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Svart te",
+        "language": "no",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Norway tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Tea",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional tea-culture and beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Black tea",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional tea-culture and beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Green tea",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "New Zealand tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Té",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Panama everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Té verde",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Panama tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Té negro",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Panama tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Té",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Peru everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Té verde",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Peru tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Té negro",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Peru tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Tsaa",
+        "language": "tl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Philippines everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Tea",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Philippines tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Green tea",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Philippines tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "PK": [
+      {
+        "name": "چائے",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional tea-culture and beverage terminology for Camellia sinensis",
+        "transliteration": "chāy",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "کالی چائے",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional tea-culture and beverage terminology for Camellia sinensis",
+        "transliteration": "kālī chāy",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "سبز چائے",
+        "language": "ur",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Pakistan tea-retail and beverage-commerce terminology (green/black/processing variants)",
+        "transliteration": "sabz chāy",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Herbata",
+        "language": "pl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Poland everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Zielona herbata",
+        "language": "pl",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Poland tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Czarna herbata",
+        "language": "pl",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Poland tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Chá",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Portugal everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Chá verde",
+        "language": "pt",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Portugal tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Chá preto",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Portugal tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Ceai",
+        "language": "ro",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Romania everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Ceai verde",
+        "language": "ro",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Romania tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Ceai negru",
+        "language": "ro",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Romania tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Чай",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional tea-culture and beverage terminology for Camellia sinensis",
+        "transliteration": "chay",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Чёрный чай",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional tea-culture and beverage terminology for Camellia sinensis",
+        "transliteration": "chyornyy chay",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Зелёный чай",
+        "language": "ru",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Russia tea-retail and beverage-commerce terminology (green/black/processing variants)",
+        "transliteration": "zelyonyy chay",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Te",
+        "language": "sv",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sweden everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Grönt te",
+        "language": "sv",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Sweden tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Svart te",
+        "language": "sv",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Sweden tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "SG": [
+      {
+        "name": "茶",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional tea-culture and beverage terminology for Camellia sinensis",
+        "transliteration": "chá",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Teh",
+        "language": "ms",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Singapore everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Tea",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Singapore everyday vernacular beverage terminology for Camellia sinensis"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Čaj",
+        "language": "sk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Slovakia everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Zelený čaj",
+        "language": "sk",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Slovakia tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Čierny čaj",
+        "language": "sk",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Slovakia tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "TH": [
+      {
+        "name": "ชา",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional tea-culture and beverage terminology for Camellia sinensis",
+        "transliteration": "cha",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "ชาเขียว",
+        "language": "th",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Thailand tea-retail and beverage-commerce terminology (green/black/processing variants)",
+        "transliteration": "cha khiao",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "ชาดำ",
+        "language": "th",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Thailand tea-retail and beverage-commerce terminology (green/black/processing variants)",
+        "transliteration": "cha dam",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "شاي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional tea-culture and beverage terminology for Camellia sinensis",
+        "transliteration": "shāy",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "شاي أخضر",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional tea-culture and beverage terminology for Camellia sinensis",
+        "transliteration": "shāy akhḍar",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Thé",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Tunisia everyday vernacular beverage terminology for Camellia sinensis"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Çay",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional tea-culture and beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Siyah çay",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional tea-culture and beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Yeşil çay",
+        "language": "tr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Turkey tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Tea",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Trinidad and Tobago everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Green tea",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Trinidad and Tobago tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "TW": [
+      {
+        "name": "茶",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional tea-culture and beverage terminology for Camellia sinensis",
+        "transliteration": "chá",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "紅茶",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional tea-culture and beverage terminology for Camellia sinensis",
+        "transliteration": "hóngchá",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "綠茶",
+        "language": "zh",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Taiwan tea-retail and beverage-commerce terminology (green/black/processing variants)",
+        "transliteration": "lǜchá",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Чай",
+        "language": "uk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ukraine everyday vernacular beverage terminology for Camellia sinensis",
+        "transliteration": "chay",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Чорний чай",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional tea-culture and beverage terminology for Camellia sinensis",
+        "transliteration": "chornyy chay",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Зелений чай",
+        "language": "uk",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Ukraine tea-retail and beverage-commerce terminology (green/black/processing variants)",
+        "transliteration": "zelenyy chay",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "US": [
+      {
+        "name": "Tea",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "United States everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Green tea",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "United States tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Black tea",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "United States tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Té",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Uruguay everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Té verde",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Uruguay tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Té",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Venezuela everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Té verde",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Venezuela tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Té negro",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Venezuela tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Trà",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional tea-culture and beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Trà xanh",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional tea-culture and beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Trà đen",
+        "language": "vi",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Vietnam tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Tea",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Africa everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Green tea",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "South Africa tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Tea",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Zambia everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Black tea",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Zambia tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Green tea",
+        "language": "en",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Zambia tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Tea",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Zimbabwe everyday vernacular beverage terminology for Camellia sinensis"
+      },
+      {
+        "name": "Black tea",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Zimbabwe tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      },
+      {
+        "name": "Green tea",
+        "language": "en",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Zimbabwe tea-retail and beverage-commerce terminology (green/black/processing variants)"
+      }
+    ]
+  }
+}
