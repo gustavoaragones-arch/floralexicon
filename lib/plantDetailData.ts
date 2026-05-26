@@ -1,5 +1,7 @@
 import type { Plant } from "@/lib/data";
-import mergedPlants from "@/data/merged/plants.json";
+// Curated merged layer (toxicity/evidence/safety) removed in the tier1 clean start.
+// Will be rebuilt tier1-native later. For now there is no merged data.
+const mergedPlants: unknown[] = [];
 
 export type MergedPlantRow = {
   plant_id: string;

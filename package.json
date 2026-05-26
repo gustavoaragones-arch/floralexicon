@@ -8,20 +8,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "merge-dataset": "tsx scripts/mergeDataset.ts",
-    "normalize-raw-north-america": "tsx scripts/normalizeRawNorthAmerica.ts",
-    "migrate-country-usage": "tsx scripts/migrate-countries-to-country-usage.ts",
     "validate-country-name-coverage": "tsx scripts/validate-country-name-coverage.ts",
     "ci:coverage": "tsx scripts/validate-country-name-coverage.ts",
     "validate-country-name-coverage:fix": "tsx scripts/validate-country-name-coverage.ts --fix",
-    "validate-raw": "tsx scripts/validateRawDataset.ts",
-    "promote-raw": "tsx scripts/promoteStaging.ts",
-    "layered-merge-phase5": "tsx scripts/layeredMergePhase5.ts",
-    "layered-merge-north-america": "tsx scripts/layeredMergeNorthAmerica.ts",
-    "layered-merge-spain": "tsx scripts/layeredMergeSpain.ts",
-    "validate-dataset": "tsx scripts/validateDataset.ts",
-    "apply-cross-country-names": "tsx scripts/applyCrossCountryNameAuthority.ts",
-    "apply-uses-taxonomy": "tsx scripts/applyUsesTaxonomy.ts",
     "audit-names": "tsx scripts/audit-names.ts",
     "audit-limited": "tsx scripts/audit-limited-plants.ts",
     "audit-processed-duplicates": "tsx scripts/audit-processed-duplicates.ts",
@@ -31,7 +20,6 @@
     "build-from-tier1": "tsx scripts/buildFromTier1.ts",
     "validate-tiers": "python3 scripts/validate_tiers.py",
     "build-dataset": "npm run build-from-tier1 && npm run validate-tiers && npm run canary"
-  
   },
   "dependencies": {
     "next": "14.2.35",
