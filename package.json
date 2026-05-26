@@ -28,7 +28,10 @@
     "fix-processed-duplicates": "tsx scripts/fix-processed-duplicates.ts",
     "suggest-mappings": "tsx scripts/suggest-name-mappings.ts",
     "canary": "tsx scripts/phase1a-canary.ts",
-    "build-dataset": "npm run merge-dataset && npm run migrate-country-usage && npm run ci:coverage && npm run apply-cross-country-names && npm run canary && npm run apply-uses-taxonomy"
+    "build-from-tier1": "tsx scripts/buildFromTier1.ts",
+    "validate-tiers": "python3 scripts/validate_tiers.py",
+    "build-dataset": "npm run build-from-tier1 && npm run validate-tiers && npm run canary"
+  
   },
   "dependencies": {
     "next": "14.2.35",
