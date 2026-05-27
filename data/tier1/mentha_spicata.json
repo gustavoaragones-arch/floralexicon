@@ -1,0 +1,1679 @@
+{
+  "plant_id": "mentha_spicata",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "TH",
+    "TN",
+    "TR",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Hierbabuena",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Menta",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Argentina vernacular terminology for spearmint"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Grüne Minze",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Krauseminze",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Minze",
+        "language": "de",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Austria vernacular terminology for spearmint"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Spearmint",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Australia retail and product terminology for spearmint"
+      },
+      {
+        "name": "Garden mint",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Australia everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Mint",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Australia vernacular terminology for spearmint"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Menthe verte",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Groene munt",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Menthe",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Belgium vernacular terminology for spearmint"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Градинска мента",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria everyday culinary and market terminology for spearmint (Mentha spicata)",
+        "transliteration": "gradinska menta",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Мента",
+        "language": "bg",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Bulgaria vernacular terminology for spearmint",
+        "transliteration": "menta",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Hierbabuena",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Yerbabuena",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Menta",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Bolivia vernacular terminology for spearmint"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Hortelã-verde",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Hortelã",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Brazil vernacular terminology for spearmint"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Spearmint",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Canada retail and product terminology for spearmint"
+      },
+      {
+        "name": "Menthe verte",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Canada retail and product terminology for spearmint"
+      },
+      {
+        "name": "Mint",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Canada vernacular terminology for spearmint"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Krauseminze",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Menthe verte",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Menta verde",
+        "language": "it",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Switzerland everyday culinary and market terminology for spearmint (Mentha spicata)"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Hierbabuena",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Yerbabuena",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Chile everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Menta",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Chile vernacular terminology for spearmint"
+      }
+    ],
+    "CN": [
+      {
+        "name": "留兰香",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China everyday culinary and market terminology for spearmint (Mentha spicata)",
+        "transliteration": "liúlánxiāng",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "绿薄荷",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "China everyday culinary and market terminology for spearmint (Mentha spicata)",
+        "transliteration": "lǜ bòhe",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "薄荷",
+        "language": "zh",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "China vernacular terminology for spearmint",
+        "transliteration": "bòhe",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Hierbabuena",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Yerbabuena",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Menta",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Colombia vernacular terminology for spearmint"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Hierbabuena",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Yerbabuena",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Costa Rica everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Menta",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Costa Rica vernacular terminology for spearmint"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Hierbabuena",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Yerbabuena",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Menta",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Cuba vernacular terminology for spearmint"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Máta klasnatá",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Kadeřavá máta",
+        "language": "cs",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Czech Republic everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Máta",
+        "language": "cs",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Czech Republic vernacular terminology for spearmint"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Krauseminze",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Grüne Minze",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Minze",
+        "language": "de",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Germany vernacular terminology for spearmint"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Grønmynte",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Krusemynte",
+        "language": "da",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Denmark everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Mynte",
+        "language": "da",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Denmark vernacular terminology for spearmint"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Hierbabuena",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Yerbabuena",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Menta",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Dominican Republic vernacular terminology for spearmint"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "نعناع",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria everyday culinary and market terminology for spearmint (Mentha spicata)",
+        "transliteration": "naʿnāʿ",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Menthe verte",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Menthe",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Algeria vernacular terminology for spearmint"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Hierbabuena",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Yerbabuena",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Ecuador everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Menta",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ecuador vernacular terminology for spearmint"
+      }
+    ],
+    "EG": [
+      {
+        "name": "نعناع",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt everyday culinary and market terminology for spearmint (Mentha spicata)",
+        "transliteration": "naʿnāʿ",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "نعناع بلدي",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Egypt everyday culinary and market terminology for spearmint (Mentha spicata)",
+        "transliteration": "naʿnāʿ baladī",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Hierbabuena",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Menta verde",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Spain everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Menta",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Spain vernacular terminology for spearmint"
+      }
+    ],
+    "ET": [
+      {
+        "name": "ናና",
+        "language": "am",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Ethiopia everyday culinary and market terminology for spearmint (Mentha spicata)",
+        "transliteration": "nana",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ሚንት",
+        "language": "am",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Ethiopia retail and product terminology for spearmint",
+        "transliteration": "mint",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Viherminttu",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Kähäräminttu",
+        "language": "fi",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Finland everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Minttu",
+        "language": "fi",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Finland vernacular terminology for spearmint"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Menthe verte",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Menthe douce",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "France everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Menthe",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "France vernacular terminology for spearmint"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Spearmint",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Garden mint",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "United Kingdom everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Mint",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "United Kingdom vernacular terminology for spearmint"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Spearmint",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ghana retail and product terminology for spearmint"
+      },
+      {
+        "name": "Mint",
+        "language": "en",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Ghana retail and product terminology for spearmint"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Δυόσμος",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece everyday culinary and market terminology for spearmint (Mentha spicata)",
+        "transliteration": "dyósmos",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Μέντα",
+        "language": "el",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Greece vernacular terminology for spearmint",
+        "transliteration": "ménta",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Πράσινη μέντα",
+        "language": "el",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Greece everyday culinary and market terminology for spearmint (Mentha spicata)",
+        "transliteration": "prásini ménta",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Hierbabuena",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Yerbabuena",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Menta",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Guatemala vernacular terminology for spearmint"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Klasasta metvica",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Kovrčava metvica",
+        "language": "hr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Croatia everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Metvica",
+        "language": "hr",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Croatia vernacular terminology for spearmint"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Fodormenta",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Zöld menta",
+        "language": "hu",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Hungary everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Menta",
+        "language": "hu",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Hungary vernacular terminology for spearmint"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Mint hijau",
+        "language": "id",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Indonesia retail and product terminology for spearmint"
+      },
+      {
+        "name": "Mint",
+        "language": "id",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Indonesia retail and product terminology for spearmint"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Spearmint",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Garden mint",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Ireland everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Mint",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Ireland vernacular terminology for spearmint"
+      }
+    ],
+    "IL": [
+      {
+        "name": "נענע",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel everyday culinary and market terminology for spearmint (Mentha spicata)",
+        "transliteration": "na'ana",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "מנטה",
+        "language": "he",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Israel vernacular terminology for spearmint",
+        "transliteration": "menta",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "पुदीना",
+        "language": "hi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India everyday culinary and market terminology for spearmint (Mentha spicata)",
+        "transliteration": "pudīnā",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Spearmint",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "India retail and product terminology for spearmint"
+      },
+      {
+        "name": "Mint",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "India vernacular terminology for spearmint"
+      }
+    ],
+    "IR": [
+      {
+        "name": "نعناع",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran everyday culinary and market terminology for spearmint (Mentha spicata)",
+        "transliteration": "na'nā",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "نعناع سبز",
+        "language": "fa",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Iran everyday culinary and market terminology for spearmint (Mentha spicata)",
+        "transliteration": "na'nā sabz",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Menta verde",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Menta spicata",
+        "language": "it",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Italy herbal-pharmacopoeial terminology for Mentha spicata"
+      },
+      {
+        "name": "Menta",
+        "language": "it",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Italy vernacular terminology for spearmint"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Spearmint",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Jamaica retail and product terminology for spearmint"
+      },
+      {
+        "name": "Mint",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Jamaica vernacular terminology for spearmint"
+      }
+    ],
+    "JP": [
+      {
+        "name": "スペアミント",
+        "language": "ja",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Japan retail and product terminology for spearmint",
+        "transliteration": "supeaminto",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "ミドリハッカ",
+        "language": "ja",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Japan everyday culinary and market terminology for spearmint (Mentha spicata)",
+        "transliteration": "midorihakka",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "ハッカ",
+        "language": "ja",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Japan vernacular terminology for spearmint",
+        "transliteration": "hakka",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Spearmint",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Kenya retail and product terminology for spearmint"
+      },
+      {
+        "name": "Mint",
+        "language": "en",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Kenya retail and product terminology for spearmint"
+      }
+    ],
+    "KR": [
+      {
+        "name": "스피어민트",
+        "language": "ko",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "South Korea retail and product terminology for spearmint",
+        "transliteration": "seupieominteu",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "민트",
+        "language": "ko",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "South Korea vernacular terminology for spearmint",
+        "transliteration": "minteu",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "녹민트",
+        "language": "ko",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "South Korea retail and product terminology for spearmint",
+        "transliteration": "nokminteu",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "මින්ට්",
+        "language": "si",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Sri Lanka retail and product terminology for spearmint",
+        "transliteration": "mint",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Spearmint",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Sri Lanka retail and product terminology for spearmint"
+      }
+    ],
+    "MA": [
+      {
+        "name": "نعناع",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco everyday culinary and market terminology for spearmint (Mentha spicata)",
+        "transliteration": "naʿnāʿ",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "نعناع بلدي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco everyday culinary and market terminology for spearmint (Mentha spicata)",
+        "transliteration": "naʿnāʿ baladī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Menthe verte",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco everyday culinary and market terminology for spearmint (Mentha spicata)"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Hierbabuena",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Yerbabuena",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Menta",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Mexico vernacular terminology for spearmint"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Daun pudina",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Spearmint",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Malaysia retail and product terminology for spearmint"
+      },
+      {
+        "name": "薄荷",
+        "language": "zh",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Malaysia vernacular terminology for spearmint",
+        "transliteration": "bòhe",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Spearmint",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Nigeria retail and product terminology for spearmint"
+      },
+      {
+        "name": "Mint",
+        "language": "en",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Nigeria retail and product terminology for spearmint"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Groene munt",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Krulmunt",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Munt",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Netherlands vernacular terminology for spearmint"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Grønnmynte",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Krusemynte",
+        "language": "no",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Norway everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Mynte",
+        "language": "no",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Norway vernacular terminology for spearmint"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Spearmint",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "New Zealand retail and product terminology for spearmint"
+      },
+      {
+        "name": "Garden mint",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "New Zealand everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Mint",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "New Zealand vernacular terminology for spearmint"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Hierbabuena",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Yerbabuena",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Panama everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Menta",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Panama vernacular terminology for spearmint"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Hierbabuena",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Yerbabuena",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Peru everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Menta",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Peru vernacular terminology for spearmint"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Yerba buena",
+        "language": "tl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Mint",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Philippines retail and product terminology for spearmint"
+      },
+      {
+        "name": "Spearmint",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Philippines retail and product terminology for spearmint"
+      }
+    ],
+    "PK": [
+      {
+        "name": "پودینہ",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan everyday culinary and market terminology for spearmint (Mentha spicata)",
+        "transliteration": "pudīna",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "سبز پودینہ",
+        "language": "ur",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Pakistan everyday culinary and market terminology for spearmint (Mentha spicata)",
+        "transliteration": "sabz pudīna",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Mint",
+        "language": "en",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Pakistan retail and product terminology for spearmint"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Mięta zielona",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Mięta kłosowa",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Mięta",
+        "language": "pl",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Poland vernacular terminology for spearmint"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Hortelã-verde",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Hortelã",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Portugal vernacular terminology for spearmint"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Mentă creață",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Mentă verde",
+        "language": "ro",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Romania everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Mentă",
+        "language": "ro",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Romania vernacular terminology for spearmint"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Колосящаяся мята",
+        "language": "ru",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Russia everyday culinary and market terminology for spearmint (Mentha spicata)",
+        "transliteration": "kolosyashchayasya myata",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Зелёная мята",
+        "language": "ru",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Russia everyday culinary and market terminology for spearmint (Mentha spicata)",
+        "transliteration": "zelyonaya myata",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Мята",
+        "language": "ru",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Russia vernacular terminology for spearmint",
+        "transliteration": "myata",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Grönmynta",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Krusmynta",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Sweden everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Mynta",
+        "language": "sv",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Sweden vernacular terminology for spearmint"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Daun pudina",
+        "language": "ms",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Singapore everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "薄荷",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Singapore vernacular terminology for spearmint",
+        "transliteration": "bòhe",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Spearmint",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Singapore retail and product terminology for spearmint"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Mäta klasnatá",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Kučeravá mäta",
+        "language": "sk",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Slovakia everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Mäta",
+        "language": "sk",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Slovakia vernacular terminology for spearmint"
+      }
+    ],
+    "TH": [
+      {
+        "name": "สะระแหน่",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand everyday culinary and market terminology for spearmint (Mentha spicata)",
+        "transliteration": "saranae",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "มินต์",
+        "language": "th",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Thailand retail and product terminology for spearmint",
+        "transliteration": "mint",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "สเปียร์มินต์",
+        "language": "th",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Thailand retail and product terminology for spearmint",
+        "transliteration": "spia mint",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "نعناع",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia everyday culinary and market terminology for spearmint (Mentha spicata)",
+        "transliteration": "naʿnāʿ",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "نعناع أخضر",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia everyday culinary and market terminology for spearmint (Mentha spicata)",
+        "transliteration": "naʿnāʿ akhḍar",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Menthe verte",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia everyday culinary and market terminology for spearmint (Mentha spicata)"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Nane",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Yeşil nane",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Kıvırcık nane",
+        "language": "tr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Turkey everyday culinary and market terminology for spearmint (Mentha spicata)"
+      }
+    ],
+    "TW": [
+      {
+        "name": "綠薄荷",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan everyday culinary and market terminology for spearmint (Mentha spicata)",
+        "transliteration": "lǜ bòhe",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "留蘭香",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan everyday culinary and market terminology for spearmint (Mentha spicata)",
+        "transliteration": "liúlánxiāng",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "薄荷",
+        "language": "zh",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Taiwan vernacular terminology for spearmint",
+        "transliteration": "bòhe",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Колосиста м'ята",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine everyday culinary and market terminology for spearmint (Mentha spicata)",
+        "transliteration": "kolosysta m'yata",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Зелена м'ята",
+        "language": "uk",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Ukraine everyday culinary and market terminology for spearmint (Mentha spicata)",
+        "transliteration": "zelena m'yata",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "М'ята",
+        "language": "uk",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Ukraine vernacular terminology for spearmint",
+        "transliteration": "m'yata",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "US": [
+      {
+        "name": "Spearmint",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "United States retail and product terminology for spearmint"
+      },
+      {
+        "name": "Garden mint",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "United States everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Mint",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "United States vernacular terminology for spearmint"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Hierbabuena",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Uruguay everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Menta",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Uruguay vernacular terminology for spearmint"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Hierbabuena",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Yerbabuena",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Venezuela everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Menta",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Venezuela vernacular terminology for spearmint"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Húng lủi",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam everyday culinary and market terminology for spearmint (Mentha spicata)"
+      },
+      {
+        "name": "Bạc hà",
+        "language": "vi",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Vietnam vernacular terminology for spearmint"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Spearmint",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "South Africa retail and product terminology for spearmint"
+      },
+      {
+        "name": "Mint",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "South Africa vernacular terminology for spearmint"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Spearmint",
+        "language": "en",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Zambia retail and product terminology for spearmint"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Spearmint",
+        "language": "en",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Zimbabwe retail and product terminology for spearmint"
+      }
+    ]
+  }
+}
