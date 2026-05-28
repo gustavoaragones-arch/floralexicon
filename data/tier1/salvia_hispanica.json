@@ -1,0 +1,1510 @@
+{
+  "plant_id": "salvia_hispanica",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Chía",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Argentina vernacular terminology for chia"
+      },
+      {
+        "name": "Semillas de chía",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Argentina superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Chia",
+        "language": "de",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Austria superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Chiasamen",
+        "language": "de",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Austria superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Chia",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Australia superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Chia seeds",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Australia superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Chia",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Belgium superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Graines de chia",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Belgium superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Chiazaden",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Belgium superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Чиа",
+        "language": "bg",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bulgaria vernacular terminology for chia",
+        "transliteration": "chia",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Семена от чиа",
+        "language": "bg",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Bulgaria superfood and health-commerce terminology for chia seeds",
+        "transliteration": "semena ot chia",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Chía",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional Mesoamerican and culinary terminology for chia (Salvia hispanica)"
+      },
+      {
+        "name": "Semillas de chía",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional Mesoamerican and culinary terminology for chia (Salvia hispanica)"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Chia",
+        "language": "pt",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Brazil superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Sementes de chia",
+        "language": "pt",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Brazil superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Chia",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Canada superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Chia seeds",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Canada superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Graines de chia",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Canada superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Chia",
+        "language": "de",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Switzerland superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Chiasamen",
+        "language": "de",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Switzerland superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Graines de chia",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Switzerland superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Chía",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Chile vernacular terminology for chia"
+      },
+      {
+        "name": "Semillas de chía",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Chile superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Chia",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Chile superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "CN": [
+      {
+        "name": "奇亚籽",
+        "language": "zh",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "China superfood and health-commerce terminology for chia seeds",
+        "transliteration": "qíyàzǐ",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "奇亞籽",
+        "language": "zh",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "China superfood and health-commerce terminology for chia seeds",
+        "transliteration": "qíyàzǐ",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "奇亚",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "China vernacular terminology for chia",
+        "transliteration": "qíyà",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Chía",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Colombia vernacular terminology for chia"
+      },
+      {
+        "name": "Semillas de chía",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Colombia superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Chia",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Colombia superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Chía",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional Mesoamerican and culinary terminology for chia (Salvia hispanica)"
+      },
+      {
+        "name": "Semillas de chía",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional Mesoamerican and culinary terminology for chia (Salvia hispanica)"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Chía",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Cuba superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Semillas de chía",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Cuba superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Chia",
+        "language": "cs",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Czech Republic superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Chia semínka",
+        "language": "cs",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Czech Republic superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Chia",
+        "language": "de",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Germany superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Chiasamen",
+        "language": "de",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Germany superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Chia",
+        "language": "da",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Denmark superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Chiafrø",
+        "language": "da",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Denmark superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Chía",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Dominican Republic superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Semillas de chía",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Dominican Republic superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "شيا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Algeria vernacular terminology for chia",
+        "transliteration": "shiyā",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "بذور الشيا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Algeria superfood and health-commerce terminology for chia seeds",
+        "transliteration": "budhūr al-shiyā",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Graines de chia",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Algeria superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Chía",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional Mesoamerican and culinary terminology for chia (Salvia hispanica)"
+      },
+      {
+        "name": "Semillas de chía",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional Mesoamerican and culinary terminology for chia (Salvia hispanica)"
+      },
+      {
+        "name": "Chia",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ecuador superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "EG": [
+      {
+        "name": "شيا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Egypt vernacular terminology for chia",
+        "transliteration": "shiyā",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "بذور الشيا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Egypt superfood and health-commerce terminology for chia seeds",
+        "transliteration": "budhūr al-shiyā",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Chía",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Spain vernacular terminology for chia"
+      },
+      {
+        "name": "Semillas de chía",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Spain superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "ET": [
+      {
+        "name": "ቺያ",
+        "language": "am",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ethiopia superfood and health-commerce terminology for chia seeds",
+        "transliteration": "chiya",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "የቺያ ዘሮች",
+        "language": "am",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ethiopia superfood and health-commerce terminology for chia seeds",
+        "transliteration": "yechiya zeroch",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Chia",
+        "language": "fi",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Finland superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Chiansiemenet",
+        "language": "fi",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Finland superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Chia",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "France superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Graines de chia",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "France superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Chia",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "United Kingdom superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Chia seeds",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "United Kingdom superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Chia",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ghana superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Chia seeds",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ghana superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Τσία",
+        "language": "el",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Greece vernacular terminology for chia",
+        "transliteration": "tsía",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Σπόροι τσία",
+        "language": "el",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Greece superfood and health-commerce terminology for chia seeds",
+        "transliteration": "spóroi tsía",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Chía",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional Mesoamerican and culinary terminology for chia (Salvia hispanica)"
+      },
+      {
+        "name": "Semillas de chía",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional Mesoamerican and culinary terminology for chia (Salvia hispanica)"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Chia",
+        "language": "hr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Croatia superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Chia sjemenke",
+        "language": "hr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Croatia superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Chia",
+        "language": "hu",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Hungary superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Chiamag",
+        "language": "hu",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Hungary superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Chia",
+        "language": "id",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Indonesia superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Biji chia",
+        "language": "id",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Indonesia superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Chia",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Ireland superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Chia seeds",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Ireland superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "IL": [
+      {
+        "name": "צ'יה",
+        "language": "he",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Israel vernacular terminology for chia",
+        "transliteration": "chia",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "זרעי צ'יה",
+        "language": "he",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Israel superfood and health-commerce terminology for chia seeds",
+        "transliteration": "zar'ei chia",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "شيا",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Israel vernacular terminology for chia",
+        "transliteration": "shiyā",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "चिया",
+        "language": "hi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "India vernacular terminology for chia",
+        "transliteration": "chiyā",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "चिया बीज",
+        "language": "hi",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "India superfood and health-commerce terminology for chia seeds",
+        "transliteration": "chiyā bīj",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Chia seeds",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "India superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "IR": [
+      {
+        "name": "چیا",
+        "language": "fa",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Iran vernacular terminology for chia",
+        "transliteration": "chiyā",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "دانه چیا",
+        "language": "fa",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Iran superfood and health-commerce terminology for chia seeds",
+        "transliteration": "dāneh-ye chiyā",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Chia",
+        "language": "it",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Italy superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Semi di chia",
+        "language": "it",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Italy superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Chia",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Jamaica superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Chia seeds",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Jamaica superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "JP": [
+      {
+        "name": "チア",
+        "language": "ja",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Japan vernacular terminology for chia",
+        "transliteration": "chia",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "チアシード",
+        "language": "ja",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Japan superfood and health-commerce terminology for chia seeds",
+        "transliteration": "chiashīdo",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "サルビア・ヒスパニカ",
+        "language": "ja",
+        "confidence": "low",
+        "source": "pharmacopoeia",
+        "citation": "Japan botanical-pharmacopoeial terminology for Salvia hispanica",
+        "transliteration": "sarubia hisupanika",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Chia",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Kenya superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Chia seeds",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Kenya superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "KR": [
+      {
+        "name": "치아",
+        "language": "ko",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Korea vernacular terminology for chia",
+        "transliteration": "chia",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "치아씨드",
+        "language": "ko",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "South Korea superfood and health-commerce terminology for chia seeds",
+        "transliteration": "chiassideu",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "살비아 히스파니카",
+        "language": "ko",
+        "confidence": "low",
+        "source": "pharmacopoeia",
+        "citation": "South Korea botanical-pharmacopoeial terminology for Salvia hispanica",
+        "transliteration": "salbia hiseupanika",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "චියා",
+        "language": "si",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular terminology for chia",
+        "transliteration": "chiyā",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "චියා ඇට",
+        "language": "si",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Sri Lanka superfood and health-commerce terminology for chia seeds",
+        "transliteration": "chiyā æṭa",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Chia seeds",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Sri Lanka superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "MA": [
+      {
+        "name": "شيا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Morocco vernacular terminology for chia",
+        "transliteration": "shiyā",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "بذور الشيا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Morocco superfood and health-commerce terminology for chia seeds",
+        "transliteration": "budhūr al-shiyā",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Graines de chia",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Morocco superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Chía",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional Mesoamerican and culinary terminology for chia (Salvia hispanica)"
+      },
+      {
+        "name": "Semillas de chía",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional Mesoamerican and culinary terminology for chia (Salvia hispanica)"
+      },
+      {
+        "name": "Chian",
+        "language": "nah",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Mexico traditional Mesoamerican and culinary terminology for chia (Salvia hispanica)"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Chia",
+        "language": "ms",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Malaysia superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Biji chia",
+        "language": "ms",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Malaysia superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "奇亚籽",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Malaysia superfood and health-commerce terminology for chia seeds",
+        "transliteration": "qíyàzǐ",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Chia",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Nigeria superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Chia seeds",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Nigeria superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Chia",
+        "language": "nl",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Netherlands superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Chiazaden",
+        "language": "nl",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Netherlands superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Chia",
+        "language": "no",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Norway superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Chiafrø",
+        "language": "no",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Norway superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Chia",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "New Zealand superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Chia seeds",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "New Zealand superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Chía",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional Mesoamerican and culinary terminology for chia (Salvia hispanica)"
+      },
+      {
+        "name": "Semillas de chía",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional Mesoamerican and culinary terminology for chia (Salvia hispanica)"
+      },
+      {
+        "name": "Chia",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Panama superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Chía",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional Mesoamerican and culinary terminology for chia (Salvia hispanica)"
+      },
+      {
+        "name": "Semillas de chía",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional Mesoamerican and culinary terminology for chia (Salvia hispanica)"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Chia",
+        "language": "tl",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Philippines superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Chia seeds",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Philippines superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "PK": [
+      {
+        "name": "چیا",
+        "language": "ur",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Pakistan vernacular terminology for chia",
+        "transliteration": "chiyā",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "چیا بیج",
+        "language": "ur",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Pakistan superfood and health-commerce terminology for chia seeds",
+        "transliteration": "chiyā bīj",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Chia seeds",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Pakistan superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Chia",
+        "language": "pl",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Poland superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Nasiona chia",
+        "language": "pl",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Poland superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Szałwia hiszpańska",
+        "language": "pl",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Poland botanical-pharmacopoeial terminology for Salvia hispanica"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Chia",
+        "language": "pt",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Portugal superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Sementes de chia",
+        "language": "pt",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Portugal superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Chia",
+        "language": "ro",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Romania superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Semințe de chia",
+        "language": "ro",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Romania superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Чиа",
+        "language": "ru",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Russia vernacular terminology for chia",
+        "transliteration": "chia",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Семена чиа",
+        "language": "ru",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Russia superfood and health-commerce terminology for chia seeds",
+        "transliteration": "semena chia",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Шалфей испанский",
+        "language": "ru",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Russia botanical-pharmacopoeial terminology for Salvia hispanica",
+        "transliteration": "shalfey ispanskiy",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Chia",
+        "language": "sv",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Sweden superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Chiafrön",
+        "language": "sv",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Sweden superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Chia",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Singapore superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "奇亚籽",
+        "language": "zh",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Singapore superfood and health-commerce terminology for chia seeds",
+        "transliteration": "qíyàzǐ",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Biji chia",
+        "language": "ms",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Singapore superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Chia",
+        "language": "sk",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Slovakia superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Chia semienka",
+        "language": "sk",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Slovakia superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Chía",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "El Salvador superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Semillas de chía",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "El Salvador superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "TH": [
+      {
+        "name": "เชีย",
+        "language": "th",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Thailand vernacular terminology for chia",
+        "transliteration": "chia",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "เมล็ดเชีย",
+        "language": "th",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Thailand superfood and health-commerce terminology for chia seeds",
+        "transliteration": "malet chia",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "ซัลเวีย ฮิสปานิกา",
+        "language": "th",
+        "confidence": "low",
+        "source": "pharmacopoeia",
+        "citation": "Thailand botanical-pharmacopoeial terminology for Salvia hispanica",
+        "transliteration": "sanwia hispanika",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "شيا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Tunisia vernacular terminology for chia",
+        "transliteration": "shiyā",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "بذور الشيا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Tunisia superfood and health-commerce terminology for chia seeds",
+        "transliteration": "budhūr al-shiyā",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Graines de chia",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Tunisia superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Chia",
+        "language": "tr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Turkey superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Chia tohumu",
+        "language": "tr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Turkey superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "İspanyol adaçayı",
+        "language": "tr",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Turkey botanical-pharmacopoeial terminology for Salvia hispanica"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Chia",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Trinidad and Tobago superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Chia seeds",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Trinidad and Tobago superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "TW": [
+      {
+        "name": "奇亞籽",
+        "language": "zh",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Taiwan superfood and health-commerce terminology for chia seeds",
+        "transliteration": "qíyàzǐ",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "奇亞",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Taiwan vernacular terminology for chia",
+        "transliteration": "qíyà",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "鼠尾草籽",
+        "language": "zh",
+        "confidence": "low",
+        "source": "pharmacopoeia",
+        "citation": "Taiwan botanical-pharmacopoeial terminology for Salvia hispanica",
+        "transliteration": "shǔwěicǎozǐ",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Чіа",
+        "language": "uk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ukraine vernacular terminology for chia",
+        "transliteration": "chia",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Насіння чіа",
+        "language": "uk",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Ukraine superfood and health-commerce terminology for chia seeds",
+        "transliteration": "nasinnia chia",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Шавлія іспанська",
+        "language": "uk",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Ukraine botanical-pharmacopoeial terminology for Salvia hispanica",
+        "transliteration": "shavliia ispans'ka",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "US": [
+      {
+        "name": "Chia",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "United States superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Chia seeds",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "United States superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Chía",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Uruguay vernacular terminology for chia"
+      },
+      {
+        "name": "Semillas de chía",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Uruguay superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Chía",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Venezuela superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Semillas de chía",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Venezuela superfood and health-commerce terminology for chia seeds"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Hạt chia",
+        "language": "vi",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Vietnam superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Chia",
+        "language": "vi",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Vietnam vernacular terminology for chia"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Chia",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "South Africa superfood and health-commerce terminology for chia seeds"
+      },
+      {
+        "name": "Chia seeds",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "South Africa superfood and health-commerce terminology for chia seeds"
+      }
+    ]
+  }
+}
