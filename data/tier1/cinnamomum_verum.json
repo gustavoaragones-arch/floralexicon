@@ -1,0 +1,1545 @@
+{
+  "plant_id": "cinnamomum_verum",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Canela",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Canela de Ceilán",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Argentina commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Zimt",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Ceylon-Zimt",
+        "language": "de",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Austria commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Cinnamon",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Ceylon cinnamon",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Australia commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Kaneel",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Cannelle",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Ceylon-Zimt",
+        "language": "de",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Belgium commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Канела",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria everyday culinary and market terminology for cinnamon",
+        "transliteration": "kanela",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Цейлонска канела",
+        "language": "bg",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Bulgaria commercial and retail terminology for Ceylon cinnamon",
+        "transliteration": "tseylonska kanela",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Canela",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Canela de Ceilán",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Bolivia commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Canela",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Canela-do-Ceilão",
+        "language": "pt",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Brazil commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Cinnamon",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Cannelle",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Ceylon cinnamon",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Canada commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Zimt",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Cannelle",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Cannella",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland everyday culinary and market terminology for cinnamon"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Canela",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Canela de Ceilán",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Chile commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "CN": [
+      {
+        "name": "肉桂",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China everyday culinary and market terminology for cinnamon",
+        "transliteration": "ròuguì",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "锡兰肉桂",
+        "language": "zh",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "China commercial and retail terminology for Ceylon cinnamon",
+        "transliteration": "xīlán ròuguì",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Canela",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Canela de Ceilán",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Colombia commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Canela",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Canela de Ceilán",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Costa Rica commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Canela",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Canela de Ceilán",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Cuba commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Skořice",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Cejlonská skořice",
+        "language": "cs",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Czech Republic commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Zimt",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Ceylon-Zimt",
+        "language": "de",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Germany commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Kanel",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Ceylonkanel",
+        "language": "da",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Denmark commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Canela",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Canela de Ceilán",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Dominican Republic commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "قرفة",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria everyday culinary and market terminology for cinnamon",
+        "transliteration": "qirfa",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Cannelle",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "قرفة سيلانية",
+        "language": "ar",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Algeria commercial and retail terminology for Ceylon cinnamon",
+        "transliteration": "qirfa saylāniyya",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Canela",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Canela de Ceilán",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Ecuador commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "EG": [
+      {
+        "name": "قرفة",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt everyday culinary and market terminology for cinnamon",
+        "transliteration": "qirfa",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "قرفة سيلانية",
+        "language": "ar",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Egypt commercial and retail terminology for Ceylon cinnamon",
+        "transliteration": "qirfa saylāniyya",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Canela",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Canyella",
+        "language": "ca",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Canela de Ceilán",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Spain commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "ET": [
+      {
+        "name": "ቀረፋ",
+        "language": "am",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ethiopia everyday culinary and market terminology for cinnamon",
+        "transliteration": "qerefa",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ሴሎን ቀረፋ",
+        "language": "am",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ethiopia commercial and retail terminology for Ceylon cinnamon",
+        "transliteration": "selon qerefa",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Kaneli",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Kanel",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Ceylonkaneli",
+        "language": "fi",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Finland commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Cannelle",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Cannelle de Ceylan",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "France commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Cinnamon",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Ceylon cinnamon",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "United Kingdom commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Cinnamon",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Ceylon cinnamon",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ghana commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Κανέλα",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece everyday culinary and market terminology for cinnamon",
+        "transliteration": "kanela",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Κανέλα Κεϋλάνης",
+        "language": "el",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Greece commercial and retail terminology for Ceylon cinnamon",
+        "transliteration": "kanela keylanis",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Canela",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Canela de Ceilán",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Guatemala commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Cimet",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Cejlonski cimet",
+        "language": "hr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Croatia commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Fahéj",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Ceyloni fahéj",
+        "language": "hu",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Hungary commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Kayu manis",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Kayu manis Ceylon",
+        "language": "id",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Indonesia commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Cinnamon",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Ceylon cinnamon",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Ireland commercial and retail terminology for Ceylon cinnamon"
+      },
+      {
+        "name": "Cainéal",
+        "language": "ga",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Ireland everyday culinary and market terminology for cinnamon"
+      }
+    ],
+    "IL": [
+      {
+        "name": "קינמון",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel everyday culinary and market terminology for cinnamon",
+        "transliteration": "kinamon",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "قرفة",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel everyday culinary and market terminology for cinnamon",
+        "transliteration": "qirfa",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "קינמון ציילוני",
+        "language": "he",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Israel commercial and retail terminology for Ceylon cinnamon",
+        "transliteration": "kinamon tseyloni",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "दालचीनी",
+        "language": "hi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India everyday culinary and market terminology for cinnamon",
+        "transliteration": "dalchini",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Cinnamon",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "সিলন দারুচিনি",
+        "language": "bn",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "India commercial and retail terminology for Ceylon cinnamon",
+        "transliteration": "silon daruchini",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IR": [
+      {
+        "name": "دارچین",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran everyday culinary and market terminology for cinnamon",
+        "transliteration": "darchin",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "دارچین سیلان",
+        "language": "fa",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Iran commercial and retail terminology for Ceylon cinnamon",
+        "transliteration": "darchin-e seylan",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Cannella",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Cannella di Ceylon",
+        "language": "it",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Italy commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Cinnamon",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Ceylon cinnamon",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Jamaica commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "JP": [
+      {
+        "name": "シナモン",
+        "language": "ja",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Japan vernacular and linguistic terminology for cinnamon",
+        "transliteration": "shinamon",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "セイロンシナモン",
+        "language": "ja",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Japan commercial and retail terminology for Ceylon cinnamon",
+        "transliteration": "seiron shinamon",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "ニッケイ",
+        "language": "ja",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Japan everyday culinary and market terminology for cinnamon",
+        "transliteration": "nikkei",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Mdalasini",
+        "language": "sw",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Cinnamon",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Mdalasini wa Ceylon",
+        "language": "sw",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Kenya commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "KR": [
+      {
+        "name": "계피",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea everyday culinary and market terminology for cinnamon",
+        "transliteration": "gyepi",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "실론 계피",
+        "language": "ko",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "South Korea commercial and retail terminology for Ceylon cinnamon",
+        "transliteration": "sillon gyepi",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "කුරුඳු",
+        "language": "si",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka everyday culinary and market terminology for cinnamon",
+        "transliteration": "kurundu",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "இலவங்கப்பட்டை",
+        "language": "ta",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka everyday culinary and market terminology for cinnamon",
+        "transliteration": "ilavangappattai",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Ceylon cinnamon",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka everyday culinary and market terminology for cinnamon"
+      }
+    ],
+    "MA": [
+      {
+        "name": "قرفة",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco everyday culinary and market terminology for cinnamon",
+        "transliteration": "qirfa",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Cannelle",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "قرفة سيلانية",
+        "language": "ar",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Morocco commercial and retail terminology for Ceylon cinnamon",
+        "transliteration": "qirfa saylāniyya",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Canela",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Canela de Ceilán",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Mexico commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Kayu manis",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "肉桂",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia everyday culinary and market terminology for cinnamon",
+        "transliteration": "ròuguì",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Kayu manis Ceylon",
+        "language": "ms",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Malaysia commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Cinnamon",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Kirfa",
+        "language": "ha",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Nigeria vernacular and linguistic terminology for cinnamon"
+      },
+      {
+        "name": "Ceylon cinnamon",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Nigeria commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Kaneel",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Ceylonkaneel",
+        "language": "nl",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Netherlands commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Kanel",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Ceylonkanel",
+        "language": "no",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Norway commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Cinnamon",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Ceylon cinnamon",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "New Zealand commercial and retail terminology for Ceylon cinnamon"
+      },
+      {
+        "name": "Hinamona",
+        "language": "mi",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "New Zealand vernacular and linguistic terminology for cinnamon"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Canela",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Canela de Ceilán",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Panama commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Canela",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Canela de Ceilán",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Peru commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Kanela",
+        "language": "tl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Cinnamon",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Kanela sa Ceylon",
+        "language": "tl",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Philippines commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "PK": [
+      {
+        "name": "دار چینی",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan everyday culinary and market terminology for cinnamon",
+        "transliteration": "dar chini",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Cinnamon",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Pakistan everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "دار چینی سیلون",
+        "language": "ur",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Pakistan commercial and retail terminology for Ceylon cinnamon",
+        "transliteration": "dar chini ceylon",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Cynamon",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Cynamon cejloński",
+        "language": "pl",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Poland commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Canela",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Canela-do-Ceilão",
+        "language": "pt",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Portugal commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Canela",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Canela de Ceilán",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Paraguay commercial and retail terminology for Ceylon cinnamon"
+      },
+      {
+        "name": "Kanéla",
+        "language": "gn",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and linguistic terminology for cinnamon"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Scorțișoară",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Scorțișoară de Ceylon",
+        "language": "ro",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Romania commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Корица",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia everyday culinary and market terminology for cinnamon",
+        "transliteration": "koritsa",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Цейлонская корица",
+        "language": "ru",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Russia commercial and retail terminology for Ceylon cinnamon",
+        "transliteration": "tseylonskaya koritsa",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Kanel",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Ceylonkanel",
+        "language": "sv",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Sweden commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Cinnamon",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "肉桂",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore everyday culinary and market terminology for cinnamon",
+        "transliteration": "ròuguì",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Kayu manis Ceylon",
+        "language": "ms",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Singapore commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Škorica",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Cejlónska škorica",
+        "language": "sk",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Slovakia commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Cannelle",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Cannelle de Ceylan",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Senegal commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Canela",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Canela de Ceilán",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "El Salvador commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "TH": [
+      {
+        "name": "อบเชย",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand everyday culinary and market terminology for cinnamon",
+        "transliteration": "opchoei",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "อบเชยซีลอน",
+        "language": "th",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Thailand commercial and retail terminology for Ceylon cinnamon",
+        "transliteration": "opchoei si lon",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "قرفة",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia everyday culinary and market terminology for cinnamon",
+        "transliteration": "qirfa",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Cannelle",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "قرفة سيلانية",
+        "language": "ar",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Tunisia commercial and retail terminology for Ceylon cinnamon",
+        "transliteration": "qirfa saylāniyya",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Tarçın",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Seylan tarçını",
+        "language": "tr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Turkey commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Cinnamon",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Ceylon cinnamon",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Trinidad and Tobago commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "TW": [
+      {
+        "name": "肉桂",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan everyday culinary and market terminology for cinnamon",
+        "transliteration": "ròuguì",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "錫蘭肉桂",
+        "language": "zh",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Taiwan commercial and retail terminology for Ceylon cinnamon",
+        "transliteration": "xílán ròuguì",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Кориця",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine everyday culinary and market terminology for cinnamon",
+        "transliteration": "korytsia",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Цейлонська кориця",
+        "language": "uk",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Ukraine commercial and retail terminology for Ceylon cinnamon",
+        "transliteration": "tseylonska korytsia",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "Cinnamon",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Ceylon cinnamon",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "United States commercial and retail terminology for Ceylon cinnamon"
+      },
+      {
+        "name": "Canela",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States everyday culinary and market terminology for cinnamon"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Canela",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Canela de Ceilán",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Uruguay commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Canela",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Canela de Ceilán",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Venezuela commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Quế",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Quế Ceylon",
+        "language": "vi",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Vietnam commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Cinnamon",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Kaneel",
+        "language": "af",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Ceylon cinnamon",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "South Africa commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Cinnamon",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Ceylon cinnamon",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Zambia commercial and retail terminology for Ceylon cinnamon"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Cinnamon",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe everyday culinary and market terminology for cinnamon"
+      },
+      {
+        "name": "Ceylon cinnamon",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Zimbabwe commercial and retail terminology for Ceylon cinnamon"
+      }
+    ]
+  }
+}
