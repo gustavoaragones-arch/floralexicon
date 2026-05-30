@@ -1,0 +1,1455 @@
+{
+  "plant_id": "ocimum_basilicum",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Albahaca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Albahaca común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Argentina vernacular and descriptive terminology for basil"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Basilikum",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Echtes Basilikum",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Austria vernacular and descriptive terminology for basil"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Basil",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Sweet basil",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Australia vernacular and descriptive terminology for basil"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Basilicum",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Basilic",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Basilikum",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional culinary and market terminology for basil"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Босилек",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional culinary and market terminology for basil",
+        "transliteration": "bosilek",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Градински босилек",
+        "language": "bg",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bulgaria vernacular and descriptive terminology for basil",
+        "transliteration": "gradinski bosilek",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Albahaca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Albahaca común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bolivia vernacular and descriptive terminology for basil"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Manjericão",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Manjericão-comum",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Brazil vernacular and descriptive terminology for basil"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Basil",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Basilic",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional culinary and market terminology for basil"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Basilikum",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Basilic",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Basilico",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional culinary and market terminology for basil"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Albahaca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Albahaca común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Chile vernacular and descriptive terminology for basil"
+      }
+    ],
+    "CN": [
+      {
+        "name": "罗勒",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional culinary and market terminology for basil",
+        "transliteration": "luólè",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "甜罗勒",
+        "language": "zh",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "China vernacular and descriptive terminology for basil",
+        "transliteration": "tián luólè",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Albahaca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Albahaca común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Colombia vernacular and descriptive terminology for basil"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Albahaca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Albahaca común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Costa Rica vernacular and descriptive terminology for basil"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Albahaca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Albahaca blanca",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Cuba traditional culinary and market terminology for basil"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Bazalka",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Bazalka pravá",
+        "language": "cs",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Czech Republic vernacular and descriptive terminology for basil"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Basilikum",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Echtes Basilikum",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Germany vernacular and descriptive terminology for basil"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Basilikum",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Sød basilikum",
+        "language": "da",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Denmark vernacular and descriptive terminology for basil"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Albahaca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Albahaca común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Dominican Republic vernacular and descriptive terminology for basil"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "الحبق",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional culinary and market terminology for basil",
+        "transliteration": "al-habaq",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Basilic",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "الحبق الحلو",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Algeria vernacular and descriptive terminology for basil",
+        "transliteration": "al-habaq al-hilw",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Albahaca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Albahaca común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ecuador vernacular and descriptive terminology for basil"
+      }
+    ],
+    "EG": [
+      {
+        "name": "الحبق",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional culinary and market terminology for basil",
+        "transliteration": "al-habaq",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الريحان",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional culinary and market terminology for basil",
+        "transliteration": "al-rayhan",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Albahaca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Alfàbrega",
+        "language": "ca",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional culinary and market terminology for basil"
+      }
+    ],
+    "ET": [
+      {
+        "name": "ባሲል",
+        "language": "am",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for basil",
+        "transliteration": "basil",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Basilika",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Maustebasilika",
+        "language": "fi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Finland vernacular and descriptive terminology for basil"
+      },
+      {
+        "name": "Basilika",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional culinary and market terminology for basil"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Basilic",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Basilic commun",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "France vernacular and descriptive terminology for basil"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Basil",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Sweet basil",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "United Kingdom vernacular and descriptive terminology for basil"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Basil",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Sweet basil",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ghana vernacular and descriptive terminology for basil"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Βασιλικός",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional culinary and market terminology for basil",
+        "transliteration": "vasilikos",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Γλυκός βασιλικός",
+        "language": "el",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Greece vernacular and descriptive terminology for basil",
+        "transliteration": "glykos vasilikos",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Albahaca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Albahaca común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Guatemala vernacular and descriptive terminology for basil"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Bosiljak",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Mirisni bosiljak",
+        "language": "hr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Croatia vernacular and descriptive terminology for basil"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Bazsalikom",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Kerti bazsalikom",
+        "language": "hu",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Hungary vernacular and descriptive terminology for basil"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Kemangi",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Selasih",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional culinary and market terminology for basil"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Basil",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Sweet basil",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ireland vernacular and descriptive terminology for basil"
+      },
+      {
+        "name": "Basal milis",
+        "language": "ga",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ireland vernacular and descriptive terminology for basil"
+      }
+    ],
+    "IL": [
+      {
+        "name": "בזיליקום",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional culinary and market terminology for basil",
+        "transliteration": "bazilikum",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الحبق",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional culinary and market terminology for basil",
+        "transliteration": "al-habaq",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "मीठी तुलसी",
+        "language": "hi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional culinary and market terminology for basil",
+        "transliteration": "mithi tulsi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Basil",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "India commercial and retail terminology for basil"
+      },
+      {
+        "name": "திருநீற்றுப்பச்சை",
+        "language": "ta",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "India traditional culinary and market terminology for basil",
+        "transliteration": "thiruneetrupachai",
+        "transliteration_scheme": "iso_15919"
+      }
+    ],
+    "IR": [
+      {
+        "name": "ریحان",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional culinary and market terminology for basil",
+        "transliteration": "reyhan",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ریحان سبز",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional culinary and market terminology for basil",
+        "transliteration": "reyhan sabz",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Basilico",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Basilico comune",
+        "language": "it",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Italy vernacular and descriptive terminology for basil"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Basil",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Sweet basil",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Jamaica vernacular and descriptive terminology for basil"
+      }
+    ],
+    "JP": [
+      {
+        "name": "バジル",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional culinary and market terminology for basil",
+        "transliteration": "bajiru",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "スイートバジル",
+        "language": "ja",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Japan vernacular and descriptive terminology for basil",
+        "transliteration": "suiito bajiru",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Mrehani",
+        "language": "sw",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Basil",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional culinary and market terminology for basil"
+      }
+    ],
+    "KR": [
+      {
+        "name": "바질",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional culinary and market terminology for basil",
+        "transliteration": "bajil",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "스위트 바질",
+        "language": "ko",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Korea vernacular and descriptive terminology for basil",
+        "transliteration": "seuwiteu bajil",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "ස්වීට් බැසිල්",
+        "language": "si",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for basil",
+        "transliteration": "sweet basil",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "துளசி",
+        "language": "ta",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional culinary and market terminology for basil",
+        "transliteration": "thulasi",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Basil",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Sri Lanka commercial and retail terminology for basil"
+      }
+    ],
+    "MA": [
+      {
+        "name": "الحبق",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional culinary and market terminology for basil",
+        "transliteration": "al-habaq",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ⵍⵃⴱⴰⵇ",
+        "language": "ber",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Morocco traditional culinary and market terminology for basil",
+        "transliteration": "lhbaq",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Basilic",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional culinary and market terminology for basil"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Albahaca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Albahaca dulce",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Mexico vernacular and descriptive terminology for basil"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Selasih",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "罗勒",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional culinary and market terminology for basil",
+        "transliteration": "luólè",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "துளசி",
+        "language": "ta",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Malaysia traditional culinary and market terminology for basil",
+        "transliteration": "thulasi",
+        "transliteration_scheme": "iso_15919"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Basil",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Sweet basil",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Nigeria vernacular and descriptive terminology for basil"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Basilicum",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Echte basilicum",
+        "language": "nl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Netherlands vernacular and descriptive terminology for basil"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Basilikum",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Søtbasilikum",
+        "language": "no",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Norway vernacular and descriptive terminology for basil"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Basil",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Sweet basil",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "New Zealand vernacular and descriptive terminology for basil"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Albahaca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Albahaca común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Panama vernacular and descriptive terminology for basil"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Albahaca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Albahaca común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Peru vernacular and descriptive terminology for basil"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Balanoi",
+        "language": "tl",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Philippines traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Basil",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional culinary and market terminology for basil"
+      }
+    ],
+    "PK": [
+      {
+        "name": "ریحان",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional culinary and market terminology for basil",
+        "transliteration": "rehan",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Basil",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Pakistan commercial and retail terminology for basil"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Bazylia",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Bazylia pospolita",
+        "language": "pl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Poland vernacular and descriptive terminology for basil"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Manjericão",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Manjericão-comum",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Portugal vernacular and descriptive terminology for basil"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Albahaca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Albahaca común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and descriptive terminology for basil"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Busuioc",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Busuioc dulce",
+        "language": "ro",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Romania vernacular and descriptive terminology for basil"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Базилик",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional culinary and market terminology for basil",
+        "transliteration": "bazilik",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Базилик душистый",
+        "language": "ru",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Russia vernacular and descriptive terminology for basil",
+        "transliteration": "bazilik dushistyy",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Basilika",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Söt basilika",
+        "language": "sv",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sweden vernacular and descriptive terminology for basil"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Basil",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "罗勒",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional culinary and market terminology for basil",
+        "transliteration": "luólè",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Selasih",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional culinary and market terminology for basil"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Bazalka",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Bazalka pravá",
+        "language": "sk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Slovakia vernacular and descriptive terminology for basil"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Basilic",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Basilic commun",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Senegal vernacular and descriptive terminology for basil"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Albahaca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Albahaca común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "El Salvador vernacular and descriptive terminology for basil"
+      }
+    ],
+    "TH": [
+      {
+        "name": "โหระพา",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional culinary and market terminology for basil",
+        "transliteration": "horapha",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "สวีตเบซิล",
+        "language": "th",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for basil",
+        "transliteration": "sweet basil",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "الحبق",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional culinary and market terminology for basil",
+        "transliteration": "al-habaq",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Basilic",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "الريحان",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional culinary and market terminology for basil",
+        "transliteration": "al-rayhan",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Fesleğen",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Tatlı fesleğen",
+        "language": "tr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Turkey vernacular and descriptive terminology for basil"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Basil",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Sweet basil",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Trinidad and Tobago vernacular and descriptive terminology for basil"
+      }
+    ],
+    "TW": [
+      {
+        "name": "羅勒",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional culinary and market terminology for basil",
+        "transliteration": "luólè",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "甜羅勒",
+        "language": "zh",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Taiwan vernacular and descriptive terminology for basil",
+        "transliteration": "tián luólè",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Базилік",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional culinary and market terminology for basil",
+        "transliteration": "bazylik",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Базилік звичайний",
+        "language": "uk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ukraine vernacular and descriptive terminology for basil",
+        "transliteration": "bazylik zvychainyi",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "Basil",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Sweet basil",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "United States vernacular and descriptive terminology for basil"
+      },
+      {
+        "name": "Albahaca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional culinary and market terminology for basil"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Albahaca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Albahaca común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Uruguay vernacular and descriptive terminology for basil"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Albahaca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Albahaca común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Venezuela vernacular and descriptive terminology for basil"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Húng quế",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Húng tây",
+        "language": "vi",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Vietnam traditional culinary and market terminology for basil"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Basil",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Soet basiliekruid",
+        "language": "af",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Africa vernacular and descriptive terminology for basil"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Basil",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Sweet basil",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Zambia vernacular and descriptive terminology for basil"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Basil",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional culinary and market terminology for basil"
+      },
+      {
+        "name": "Sweet basil",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Zimbabwe vernacular and descriptive terminology for basil"
+      }
+    ]
+  }
+}
