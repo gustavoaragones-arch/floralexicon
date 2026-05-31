@@ -1,0 +1,1478 @@
+{
+  "plant_id": "hypericum_perforatum",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Hierba de San Juan",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Hipérico",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for St. John's wort"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Johanniskraut",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Echtes Johanniskraut",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Austria vernacular and descriptive terminology for St. John's wort"
+      }
+    ],
+    "AU": [
+      {
+        "name": "St. John's Wort",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Common St. John's Wort",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Australia vernacular and descriptive terminology for St. John's wort"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Sint-janskruid",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Millepertuis",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Johanniskraut",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for St. John's wort"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Жълт кантарион",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for St. John's wort",
+        "transliteration": "zhalt kantarion",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Звъника",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for St. John's wort",
+        "transliteration": "zvanika",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Hierba de San Juan",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Hipérico",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for St. John's wort"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Erva-de-São-João",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Hipérico",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for St. John's wort"
+      }
+    ],
+    "CA": [
+      {
+        "name": "St. John's Wort",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Millepertuis",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for St. John's wort"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Johanniskraut",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Millepertuis",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Erba di San Giovanni",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for St. John's wort"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Hierba de San Juan",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Hipérico",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for St. John's wort"
+      }
+    ],
+    "CN": [
+      {
+        "name": "贯叶连翘",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for St. John's wort",
+        "transliteration": "guàn yè lián qiáo",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "圣约翰草",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for St. John's wort",
+        "transliteration": "shèng yuēhàn cǎo",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Hierba de San Juan",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Hipérico",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for St. John's wort"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Hierba de San Juan",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Hipérico",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for St. John's wort"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Hierba de San Juan",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Corazoncillo",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for St. John's wort"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Třezalka tečkovaná",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Třezalka",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for St. John's wort"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Johanniskraut",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Echtes Johanniskraut",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Germany vernacular and descriptive terminology for St. John's wort"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Perikon",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Prikbladet perikon",
+        "language": "da",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Denmark vernacular and descriptive terminology for St. John's wort"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Hierba de San Juan",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Hipérico",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for St. John's wort"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "عشبة القديس يوحنا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for St. John's wort",
+        "transliteration": "ushbat al-qiddis yuhanna",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Millepertuis",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "هيبيريكوم",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for St. John's wort",
+        "transliteration": "hibirikum",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Hierba de San Juan",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Hipérico",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for St. John's wort"
+      }
+    ],
+    "EG": [
+      {
+        "name": "عشبة القديس يوحنا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for St. John's wort",
+        "transliteration": "ushbat al-qiddis yuhanna",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "هيبيريكوم",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for St. John's wort",
+        "transliteration": "hibirikum",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Hierba de San Juan",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Hipérico",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Corazoncillo",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for St. John's wort"
+      }
+    ],
+    "ET": [
+      {
+        "name": "ሴንት ጆንስ ዎርት",
+        "language": "am",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Ethiopia traditional and market terminology for St. John's wort",
+        "transliteration": "sent jons wort",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Mäkikuisma",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Keltamäkikuisma",
+        "language": "fi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Finland vernacular and descriptive terminology for St. John's wort"
+      },
+      {
+        "name": "Johannesört",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for St. John's wort"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Millepertuis",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Millepertuis perforé",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "France vernacular and descriptive terminology for St. John's wort"
+      }
+    ],
+    "GB": [
+      {
+        "name": "St. John's Wort",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Common St. John's Wort",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "United Kingdom vernacular and descriptive terminology for St. John's wort"
+      }
+    ],
+    "GH": [
+      {
+        "name": "St. John's Wort",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Hypericum",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ghana commercial and retail terminology for St. John's wort"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Βαλσαμόχορτο",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for St. John's wort",
+        "transliteration": "valsamochorto",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Υπερικό",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for St. John's wort",
+        "transliteration": "yperiko",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Hierba de San Juan",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Hipérico",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for St. John's wort"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Gospina trava",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Kantarion",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for St. John's wort"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Orbáncfű",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Közönséges orbáncfű",
+        "language": "hu",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Hungary vernacular and descriptive terminology for St. John's wort"
+      }
+    ],
+    "ID": [
+      {
+        "name": "St. John's Wort",
+        "language": "id",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Indonesia commercial and retail terminology for St. John's wort"
+      },
+      {
+        "name": "Hiperikum",
+        "language": "id",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Indonesia vernacular and descriptive terminology for St. John's wort"
+      }
+    ],
+    "IE": [
+      {
+        "name": "St. John's Wort",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Common St. John's Wort",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ireland vernacular and descriptive terminology for St. John's wort"
+      }
+    ],
+    "IL": [
+      {
+        "name": "היפריקום",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for St. John's wort",
+        "transliteration": "hiperikum",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "עשב יוחנן הקדוש",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for St. John's wort",
+        "transliteration": "esev yokhanan ha-kadosh",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "عشبة القديس يوحنا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for St. John's wort",
+        "transliteration": "ushbat al-qiddis yuhanna",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "सेंट जॉन्स वॉर्ट",
+        "language": "hi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for St. John's wort",
+        "transliteration": "sent jons vort",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "हाइपेरिकम",
+        "language": "hi",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "India vernacular and descriptive terminology for St. John's wort",
+        "transliteration": "haiperikam",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "St. John's Wort",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "India commercial and retail terminology for St. John's wort"
+      }
+    ],
+    "IR": [
+      {
+        "name": "گل راعی",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for St. John's wort",
+        "transliteration": "gol-e raei",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "هایپریکوم",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for St. John's wort",
+        "transliteration": "hypericum",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Erba di San Giovanni",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Iperico",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for St. John's wort"
+      }
+    ],
+    "JM": [
+      {
+        "name": "St. John's Wort",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Common St. John's Wort",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Jamaica vernacular and descriptive terminology for St. John's wort"
+      }
+    ],
+    "JP": [
+      {
+        "name": "セントジョーンズワート",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for St. John's wort",
+        "transliteration": "sento joonzu waato",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "セイヨウオトギリソウ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for St. John's wort",
+        "transliteration": "seiyou otogirisou",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "St. John's Wort",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Hypericum",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Kenya commercial and retail terminology for St. John's wort"
+      }
+    ],
+    "KR": [
+      {
+        "name": "세인트존스워트",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for St. John's wort",
+        "transliteration": "seinteu jonseu woteu",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "서양고추나물",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for St. John's wort",
+        "transliteration": "seoyang gochunamul",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "සෙන්ට් ජෝන්ස් වෝට්",
+        "language": "si",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for St. John's wort",
+        "transliteration": "sent jons wort",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "செயின்ட் ஜான்ஸ் வோர்ட்",
+        "language": "ta",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for St. John's wort",
+        "transliteration": "saint johns wort",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "St. John's Wort",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for St. John's wort"
+      }
+    ],
+    "MA": [
+      {
+        "name": "عشبة القديس يوحنا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for St. John's wort",
+        "transliteration": "ushbat al-qiddis yuhanna",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "هيبيريكوم",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for St. John's wort",
+        "transliteration": "hibirikum",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Millepertuis",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for St. John's wort"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Hierba de San Juan",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Hipérico",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Corazoncillo",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for St. John's wort"
+      }
+    ],
+    "MY": [
+      {
+        "name": "St. John's Wort",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Hiperikum",
+        "language": "ms",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Malaysia vernacular and descriptive terminology for St. John's wort"
+      },
+      {
+        "name": "圣约翰草",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for St. John's wort",
+        "transliteration": "shèng yuēhàn cǎo",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "St. John's Wort",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Hypericum",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Nigeria commercial and retail terminology for St. John's wort"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Sint-janskruid",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Echt sint-janskruid",
+        "language": "nl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Netherlands vernacular and descriptive terminology for St. John's wort"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Prikkperikum",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Johannesurt",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for St. John's wort"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "St. John's Wort",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Common St. John's Wort",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "New Zealand vernacular and descriptive terminology for St. John's wort"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Hierba de San Juan",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Hipérico",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for St. John's wort"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Hierba de San Juan",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Hipérico",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for St. John's wort"
+      }
+    ],
+    "PH": [
+      {
+        "name": "St. John's Wort",
+        "language": "tl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Philippines vernacular and descriptive terminology for St. John's wort"
+      },
+      {
+        "name": "St. John's Wort",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for St. John's wort"
+      }
+    ],
+    "PK": [
+      {
+        "name": "سینٹ جانز ورٹ",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for St. John's wort",
+        "transliteration": "saint johns wort",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ہائپریکم",
+        "language": "ur",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Pakistan vernacular and descriptive terminology for St. John's wort",
+        "transliteration": "hypericum",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Dziurawiec",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Dziurawiec zwyczajny",
+        "language": "pl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Poland vernacular and descriptive terminology for St. John's wort"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Erva-de-São-João",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Hipericão",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for St. John's wort"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Hierba de San Juan",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Hipérico",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for St. John's wort"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Sunătoare",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Pojarniță",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for St. John's wort"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Зверобой",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for St. John's wort",
+        "transliteration": "zveroboy",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Зверобой продырявленный",
+        "language": "ru",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Russia vernacular and descriptive terminology for St. John's wort",
+        "transliteration": "zveroboy prodyryavlennyy",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Johannesört",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Äkta johannesört",
+        "language": "sv",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sweden vernacular and descriptive terminology for St. John's wort"
+      }
+    ],
+    "SG": [
+      {
+        "name": "St. John's Wort",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "圣约翰草",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for St. John's wort",
+        "transliteration": "shèng yuēhàn cǎo",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Hiperikum",
+        "language": "ms",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Singapore vernacular and descriptive terminology for St. John's wort"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Ľubovník bodkovaný",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Ľubovník",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for St. John's wort"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Millepertuis",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Millepertuis perforé",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Senegal vernacular and descriptive terminology for St. John's wort"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Hierba de San Juan",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Hipérico",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for St. John's wort"
+      }
+    ],
+    "TH": [
+      {
+        "name": "เซนต์จอห์นเวิร์ต",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for St. John's wort",
+        "transliteration": "sent john woet",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "ไฮเพอริคัม",
+        "language": "th",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for St. John's wort",
+        "transliteration": "hypericum",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "عشبة القديس يوحنا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for St. John's wort",
+        "transliteration": "ushbat al-qiddis yuhanna",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Millepertuis",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "هيبيريكوم",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for St. John's wort",
+        "transliteration": "hibirikum",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Sarı kantaron",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Kantaron otu",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for St. John's wort"
+      }
+    ],
+    "TT": [
+      {
+        "name": "St. John's Wort",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Common St. John's Wort",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Trinidad and Tobago vernacular and descriptive terminology for St. John's wort"
+      }
+    ],
+    "TW": [
+      {
+        "name": "聖約翰草",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for St. John's wort",
+        "transliteration": "shèng yuēhàn cǎo",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "貫葉連翹",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for St. John's wort",
+        "transliteration": "guàn yè liánqiáo",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Звіробій",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for St. John's wort",
+        "transliteration": "zvirobii",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Звіробій звичайний",
+        "language": "uk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ukraine vernacular and descriptive terminology for St. John's wort",
+        "transliteration": "zvirobii zvychainyi",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "St. John's Wort",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Common St. John's Wort",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "United States vernacular and descriptive terminology for St. John's wort"
+      },
+      {
+        "name": "Hierba de San Juan",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for St. John's wort"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Hierba de San Juan",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Hipérico",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for St. John's wort"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Hierba de San Juan",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Hipérico",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Corazoncillo",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for St. John's wort"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Cỏ Ban Âu",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Ban âu",
+        "language": "vi",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for St. John's wort"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "St. John's Wort",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Sint-janskruid",
+        "language": "af",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for St. John's wort"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "St. John's Wort",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Hypericum",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Zambia commercial and retail terminology for St. John's wort"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "St. John's Wort",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for St. John's wort"
+      },
+      {
+        "name": "Hypericum",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Zimbabwe commercial and retail terminology for St. John's wort"
+      }
+    ]
+  }
+}
