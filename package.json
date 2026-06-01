@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "WATCHPACK_POLLING=true next dev",
     "dev:reset": "rm -rf .next && WATCHPACK_POLLING=true next dev",
-    "build": "next build",
+    "build": "npm run build-from-tier1 && next build",
     "start": "next start",
     "lint": "next lint",
     "validate-country-name-coverage": "tsx scripts/validate-country-name-coverage.ts",
