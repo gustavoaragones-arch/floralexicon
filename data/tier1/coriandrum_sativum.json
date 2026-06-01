@@ -1,0 +1,1487 @@
+{
+  "plant_id": "coriandrum_sativum",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Cilantro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Coriandro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional culinary and market terminology for coriander"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Koriander",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Echter Koriander",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Austria vernacular and descriptive terminology for coriander"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Coriander",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Coriander leaf",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional culinary and market terminology for coriander"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Koriander",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Coriandre",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Koriander",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional culinary and market terminology for coriander"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Кориандър",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional culinary and market terminology for coriander",
+        "transliteration": "koriandar",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Кориандър посевен",
+        "language": "bg",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bulgaria vernacular and descriptive terminology for coriander",
+        "transliteration": "koriandar poseven",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Cilantro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Coriandro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional culinary and market terminology for coriander"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Coentro",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Coentro-verde",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Brazil traditional culinary and market terminology for coriander"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Coriander",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Coriandre",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Cilantro",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional culinary and market terminology for coriander"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Koriander",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Coriandre",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Coriandolo",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional culinary and market terminology for coriander"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Cilantro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Coriandro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional culinary and market terminology for coriander"
+      }
+    ],
+    "CN": [
+      {
+        "name": "芫荽",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional culinary and market terminology for coriander",
+        "transliteration": "yán sui",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "香菜",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional culinary and market terminology for coriander",
+        "transliteration": "xiāng cài",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Cilantro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Coriandro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional culinary and market terminology for coriander"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Culantro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Cilantro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional culinary and market terminology for coriander"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Cilantro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Coriandro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional culinary and market terminology for coriander"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Koriandr",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Koriandr setý",
+        "language": "cs",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Czech Republic vernacular and descriptive terminology for coriander"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Koriander",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Echter Koriander",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Germany vernacular and descriptive terminology for coriander"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Koriander",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Ægte koriander",
+        "language": "da",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Denmark vernacular and descriptive terminology for coriander"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Cilantro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Coriandro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional culinary and market terminology for coriander"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "كسبرة",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional culinary and market terminology for coriander",
+        "transliteration": "kusbara",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Coriandre",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "قزبر",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional culinary and market terminology for coriander",
+        "transliteration": "qazbar",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Cilantro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Coriandro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional culinary and market terminology for coriander"
+      }
+    ],
+    "EG": [
+      {
+        "name": "كسبرة",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional culinary and market terminology for coriander",
+        "transliteration": "kusbara",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "كزبرة",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional culinary and market terminology for coriander",
+        "transliteration": "kozbara",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Cilantro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Coriandro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional culinary and market terminology for coriander"
+      }
+    ],
+    "ET": [
+      {
+        "name": "ድንብላል",
+        "language": "am",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ethiopia traditional culinary and market terminology for coriander",
+        "transliteration": "dinblal",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ኮሪያንደር",
+        "language": "am",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for coriander",
+        "transliteration": "koriyander",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Korianteri",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Koriander",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional culinary and market terminology for coriander"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Coriandre",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Coriandre cultivée",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "France vernacular and descriptive terminology for coriander"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Coriander",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Chinese parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional culinary and market terminology for coriander"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Coriander",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Cilantro",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Ghana commercial and retail terminology for coriander / cilantro"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Κόλιανδρος",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional culinary and market terminology for coriander",
+        "transliteration": "koliandros",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Κορίανδρος",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional culinary and market terminology for coriander",
+        "transliteration": "koriandros",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Cilantro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Coriandro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional culinary and market terminology for coriander"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Korijandar",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Kineski peršin",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional culinary and market terminology for coriander"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Koriander",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Közönséges koriander",
+        "language": "hu",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Hungary vernacular and descriptive terminology for coriander"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Ketumbar",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Katumbar",
+        "language": "jv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional culinary and market terminology for coriander"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Coriander",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Chinese parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional culinary and market terminology for coriander"
+      }
+    ],
+    "IL": [
+      {
+        "name": "כוסברה",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional culinary and market terminology for coriander",
+        "transliteration": "kusbara",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "גד השדה",
+        "language": "he",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Israel traditional culinary and market terminology for coriander",
+        "transliteration": "gad hasadeh",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "كسبرة",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional culinary and market terminology for coriander",
+        "transliteration": "kusbara",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "धनिया",
+        "language": "hi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional culinary and market terminology for coriander",
+        "transliteration": "dhaniya",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "कोथिंबीर",
+        "language": "mr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional culinary and market terminology for coriander",
+        "transliteration": "kothimbir",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "கொத்தமல்லி",
+        "language": "ta",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional culinary and market terminology for coriander",
+        "transliteration": "kothamalli",
+        "transliteration_scheme": "iso_15919"
+      }
+    ],
+    "IR": [
+      {
+        "name": "گشنیز",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional culinary and market terminology for coriander",
+        "transliteration": "geshniz",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "تخم گشنیز",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional culinary and market terminology for coriander",
+        "transliteration": "tokhm geshniz",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Coriandolo",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Prezzemolo cinese",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional culinary and market terminology for coriander"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Coriander",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Cilantro",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Jamaica commercial and retail terminology for coriander / cilantro"
+      }
+    ],
+    "JP": [
+      {
+        "name": "コリアンダー",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional culinary and market terminology for coriander",
+        "transliteration": "koriandaa",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "パクチー",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional culinary and market terminology for coriander",
+        "transliteration": "pakuchii",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Giligilani",
+        "language": "sw",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Coriander",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional culinary and market terminology for coriander"
+      }
+    ],
+    "KR": [
+      {
+        "name": "고수",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional culinary and market terminology for coriander",
+        "transliteration": "gosu",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "코리앤더",
+        "language": "ko",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Korea vernacular and descriptive terminology for coriander",
+        "transliteration": "kori-aendeo",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "කොත්තමල්ලි",
+        "language": "si",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional culinary and market terminology for coriander",
+        "transliteration": "kottamalli",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "கொத்தமல்லி",
+        "language": "ta",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional culinary and market terminology for coriander",
+        "transliteration": "kothamalli",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Coriander",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional culinary and market terminology for coriander"
+      }
+    ],
+    "MA": [
+      {
+        "name": "قزبر",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional culinary and market terminology for coriander",
+        "transliteration": "qazbar",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "كسبرة",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional culinary and market terminology for coriander",
+        "transliteration": "kusbara",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Coriandre",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional culinary and market terminology for coriander"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Cilantro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Coriandro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional culinary and market terminology for coriander"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Ketumbar",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Coriander",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "芫荽",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional culinary and market terminology for coriander",
+        "transliteration": "yán sui",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Coriander",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Korianda",
+        "language": "ha",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Nigeria vernacular and descriptive terminology for coriander"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Koriander",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Echte koriander",
+        "language": "nl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Netherlands vernacular and descriptive terminology for coriander"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Koriander",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Ekte koriander",
+        "language": "no",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Norway vernacular and descriptive terminology for coriander"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Coriander",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Chinese parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional culinary and market terminology for coriander"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Cilantro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Coriandro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional culinary and market terminology for coriander"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Cilantro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Coriandro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional culinary and market terminology for coriander"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Kulantro",
+        "language": "tl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Philippines vernacular and descriptive terminology for coriander"
+      },
+      {
+        "name": "Coriander",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional culinary and market terminology for coriander"
+      }
+    ],
+    "PK": [
+      {
+        "name": "دھنیا",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional culinary and market terminology for coriander",
+        "transliteration": "dhania",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Coriander",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Pakistan commercial and retail terminology for coriander / cilantro"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Kolendra",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Kolendra siewna",
+        "language": "pl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Poland vernacular and descriptive terminology for coriander"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Coentro",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Coentro-vulgar",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Portugal vernacular and descriptive terminology for coriander"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Cilantro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Coriandro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Kuratu",
+        "language": "gn",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and descriptive terminology for coriander"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Coriandru",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Coriandru cultivat",
+        "language": "ro",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Romania vernacular and descriptive terminology for coriander"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Кориандр",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional culinary and market terminology for coriander",
+        "transliteration": "koriandr",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Кинза",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional culinary and market terminology for coriander",
+        "transliteration": "kinza",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Koriander",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Äkta koriander",
+        "language": "sv",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sweden vernacular and descriptive terminology for coriander"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Coriander",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "芫荽",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional culinary and market terminology for coriander",
+        "transliteration": "yán sui",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Ketumbar",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional culinary and market terminology for coriander"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Koriander",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Koriander siaty",
+        "language": "sk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Slovakia vernacular and descriptive terminology for coriander"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Coriandre",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Coriandre cultivée",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Senegal vernacular and descriptive terminology for coriander"
+      },
+      {
+        "name": "Koriand",
+        "language": "wo",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Senegal vernacular and descriptive terminology for coriander"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Cilantro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Coriandro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional culinary and market terminology for coriander"
+      }
+    ],
+    "TH": [
+      {
+        "name": "ผักชี",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional culinary and market terminology for coriander",
+        "transliteration": "phak chi",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "ลูกผักชี",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional culinary and market terminology for coriander",
+        "transliteration": "luk phak chi",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "قزبر",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional culinary and market terminology for coriander",
+        "transliteration": "qazbar",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "كسبرة",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional culinary and market terminology for coriander",
+        "transliteration": "kusbara",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Coriandre",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional culinary and market terminology for coriander"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Kişniş",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Aşotu",
+        "language": "tr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Turkey traditional culinary and market terminology for coriander"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Coriander",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Cilantro",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Chinese parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional culinary and market terminology for coriander"
+      }
+    ],
+    "TW": [
+      {
+        "name": "芫荽",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional culinary and market terminology for coriander",
+        "transliteration": "yán sui",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "香菜",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional culinary and market terminology for coriander",
+        "transliteration": "xiāng cài",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Коріандр",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional culinary and market terminology for coriander",
+        "transliteration": "koriandr",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Кінза",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional culinary and market terminology for coriander",
+        "transliteration": "kinza",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "Cilantro",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Coriander",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Cilantro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional culinary and market terminology for coriander"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Cilantro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Coriandro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional culinary and market terminology for coriander"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Cilantro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Coriandro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional culinary and market terminology for coriander"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Ngò rí",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Rau mùi",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional culinary and market terminology for coriander"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Coriander",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Koljander",
+        "language": "af",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional culinary and market terminology for coriander"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Coriander",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Cilantro",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Zambia commercial and retail terminology for coriander / cilantro"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Coriander",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional culinary and market terminology for coriander"
+      },
+      {
+        "name": "Cilantro",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Zimbabwe commercial and retail terminology for coriander / cilantro"
+      }
+    ]
+  }
+}
