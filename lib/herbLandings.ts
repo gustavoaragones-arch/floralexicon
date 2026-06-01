@@ -9,14 +9,12 @@ import {
   type Plant,
 } from "@/lib/data";
 import { locales, type Locale } from "@/lib/i18n";
-import { getMergedPlantRow } from "@/lib/plantDetailData";
 
-/** ISO codes that appear on at least one slim-index plant in merged `countries`. */
+/** ISO codes that appear on at least one plant in `data/processed/plants.json`. */
 export function getCountryCodesWithIndexedPlants(): string[] {
   const codes = new Set<string>();
   for (const p of loadPlants()) {
-    const m = getMergedPlantRow(p.id);
-    for (const c of m?.countries ?? []) {
+    for (const c of p.countries ?? []) {
       const u = c.trim().toUpperCase();
       if (u.length >= 2) codes.add(u);
     }
@@ -26,15 +24,12 @@ export function getCountryCodesWithIndexedPlants(): string[] {
     .sort((a, b) => a.localeCompare(b));
 }
 
-/** Slim-index plants whose merged row lists `iso` in `countries`. */
+/** Plants from `data/processed/plants.json` that list `iso` in their `countries`. */
 export function getPlantsForCountry(iso: string): Plant[] {
   const want = iso.trim().toUpperCase();
   if (!want) return [];
   return loadPlants()
-    .filter((p) => {
-      const m = getMergedPlantRow(p.id);
-      return (m?.countries ?? []).some((c) => c.trim().toUpperCase() === want);
-    })
+    .filter((p) => (p.countries ?? []).some((c) => c.trim().toUpperCase() === want))
     .sort((a, b) => a.scientific_name.localeCompare(b.scientific_name, "en"));
 }
 

@@ -1,9 +1,8 @@
-import { getCountryDisplayName, joinCountryNames, urlSlugToCountryCode } from "@/lib/countries";
+import { getCountryDisplayName, joinCountryNames, urlSlugToCountryCode, countryCodeToUrlSlug } from "@/lib/countries";
 import { getAlsoKnownAsLinks, plantNameHubSlug } from "@/lib/data";
 import { getMergedPlantRow } from "@/lib/plantDetailData";
-import { getNameLinksForCountry, getPlantsForCountry } from "@/lib/herbLandings";
+import { getCountryCodesWithIndexedPlants, getNameLinksForCountry, getPlantsForCountry } from "@/lib/herbLandings";
 import { defaultLocale, localePath } from "@/lib/i18n";
-import { herbHubStaticParams, isSeoHubCountrySlug, SEO_HUB_COUNTRY_SLUGS } from "@/lib/seoProgrammaticRoutes";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -14,11 +13,12 @@ const MAX_PLANTS = 100;
 const MAX_NAMES = 40;
 
 export function generateStaticParams() {
-  return herbHubStaticParams();
+  return getCountryCodesWithIndexedPlants().map((iso) => ({
+    country: countryCodeToUrlSlug(iso),
+  }));
 }
 
 export function generateMetadata({ params }: Props): Metadata {
-  if (!isSeoHubCountrySlug(params.country)) return {};
   const iso = urlSlugToCountryCode(params.country);
   if (!iso) return {};
   const countryLabel = getCountryDisplayName(iso, "en");
@@ -29,7 +29,6 @@ export function generateMetadata({ params }: Props): Metadata {
 }
 
 export default function CountryHerbsSeoPage({ params }: Props) {
-  if (!isSeoHubCountrySlug(params.country)) notFound();
   const iso = urlSlugToCountryCode(params.country);
   if (!iso) notFound();
 
@@ -37,7 +36,8 @@ export default function CountryHerbsSeoPage({ params }: Props) {
   const plants = getPlantsForCountry(iso).slice(0, MAX_PLANTS);
   const names = getNameLinksForCountry(iso, MAX_NAMES);
 
-  const otherHubSlugs = SEO_HUB_COUNTRY_SLUGS.filter((s) => s !== params.country.toLowerCase());
+  const allSlugs = getCountryCodesWithIndexedPlants().map(countryCodeToUrlSlug);
+  const otherHubSlugs = allSlugs.filter((s) => s !== params.country.toLowerCase());
 
   return (
     <main className="mx-auto w-full max-w-[1000px] px-6 py-14">
