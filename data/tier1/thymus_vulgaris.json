@@ -1,0 +1,1462 @@
+{
+  "plant_id": "thymus_vulgaris",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Tomillo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Tomillo común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Argentina vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Thymian",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Echter Thymian",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Austria vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Thyme",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Common thyme",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Australia vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Tijm",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Thym",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Thymian",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional culinary and market terminology for thyme"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Мащерка",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional culinary and market terminology for thyme",
+        "transliteration": "mashterka",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Градинска мащерка",
+        "language": "bg",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bulgaria vernacular and descriptive terminology for thyme",
+        "transliteration": "gradinska mashterka",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Tomillo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Tomillo común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bolivia vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Tomilho",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Tomilho-comum",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Brazil vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Thyme",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Thym",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional culinary and market terminology for thyme"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Thymian",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Thym",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Timo",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional culinary and market terminology for thyme"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Tomillo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Tomillo común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Chile vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "CN": [
+      {
+        "name": "百里香",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional culinary and market terminology for thyme",
+        "transliteration": "bǎi lǐ xiāng",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "普通百里香",
+        "language": "zh",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "China vernacular and descriptive terminology for thyme",
+        "transliteration": "pǔ tōng bǎi lǐ xiāng",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Tomillo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Tomillo común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Colombia vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Tomillo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Tomillo común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Costa Rica vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Tomillo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Tomillo común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Cuba vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Tymián",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Tymián obecný",
+        "language": "cs",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Czech Republic vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Thymian",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Echter Thymian",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Germany vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Timian",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Almindelig timian",
+        "language": "da",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Denmark vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Tomillo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Tomillo común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Dominican Republic vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "زعتر",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional culinary and market terminology for thyme",
+        "transliteration": "zaatar",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Thym",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "الزعتر الشائع",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Algeria vernacular and descriptive terminology for thyme",
+        "transliteration": "al-zaatar al-shaei",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Tomillo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Tomillo común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ecuador vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "EG": [
+      {
+        "name": "زعتر",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional culinary and market terminology for thyme",
+        "transliteration": "zaatar",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الزعتر الشائع",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Egypt vernacular and descriptive terminology for thyme",
+        "transliteration": "al-zaatar al-shaei",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Tomillo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Tomillo común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Spain vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "ET": [
+      {
+        "name": "ታይም",
+        "language": "am",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for thyme",
+        "transliteration": "tayim",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Timjami",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Timjan",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional culinary and market terminology for thyme"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Thym",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Thym commun",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "France vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Thyme",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Common thyme",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "United Kingdom vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Thyme",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Common thyme",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ghana vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Θυμάρι",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional culinary and market terminology for thyme",
+        "transliteration": "thymari",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Κοινό θυμάρι",
+        "language": "el",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Greece vernacular and descriptive terminology for thyme",
+        "transliteration": "koino thymari",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Tomillo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Tomillo común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Guatemala vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Timijan",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Obični timijan",
+        "language": "hr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Croatia vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Kakukkfű",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Kerti kakukkfű",
+        "language": "hu",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Hungary vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Thyme",
+        "language": "id",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Indonesia vernacular and descriptive terminology for thyme"
+      },
+      {
+        "name": "Timi",
+        "language": "id",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Indonesia vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Thyme",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Common thyme",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ireland vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "IL": [
+      {
+        "name": "טימין",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional culinary and market terminology for thyme",
+        "transliteration": "timin",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "קורנית",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional culinary and market terminology for thyme",
+        "transliteration": "kornit",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "زعتر",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional culinary and market terminology for thyme",
+        "transliteration": "zaatar",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "थाइम",
+        "language": "hi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "India vernacular and descriptive terminology for thyme",
+        "transliteration": "thaim",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Thyme",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "தைம்",
+        "language": "ta",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "India vernacular and descriptive terminology for thyme",
+        "transliteration": "taim",
+        "transliteration_scheme": "iso_15919"
+      }
+    ],
+    "IR": [
+      {
+        "name": "آویشن",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional culinary and market terminology for thyme",
+        "transliteration": "avishan",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "آویشن باغی",
+        "language": "fa",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Iran vernacular and descriptive terminology for thyme",
+        "transliteration": "avishan baghi",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Timo",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Timo comune",
+        "language": "it",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Italy vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Thyme",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Common thyme",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Jamaica vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "JP": [
+      {
+        "name": "タイム",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional culinary and market terminology for thyme",
+        "transliteration": "taimu",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "コモンタイム",
+        "language": "ja",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Japan vernacular and descriptive terminology for thyme",
+        "transliteration": "komon taimu",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Thyme",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Common thyme",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Kenya vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "KR": [
+      {
+        "name": "타임",
+        "language": "ko",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Korea vernacular and descriptive terminology for thyme",
+        "transliteration": "taim",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "커먼 타임",
+        "language": "ko",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Korea vernacular and descriptive terminology for thyme",
+        "transliteration": "keomeon taim",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "ටයිම්",
+        "language": "si",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for thyme",
+        "transliteration": "taim",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "தைம்",
+        "language": "ta",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for thyme",
+        "transliteration": "taim",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Thyme",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional culinary and market terminology for thyme"
+      }
+    ],
+    "MA": [
+      {
+        "name": "زعتر",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional culinary and market terminology for thyme",
+        "transliteration": "zaatar",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الزعتر الشائع",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Morocco vernacular and descriptive terminology for thyme",
+        "transliteration": "al-zaatar al-shaei",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Thym",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional culinary and market terminology for thyme"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Tomillo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Tomillo común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Mexico vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Thyme",
+        "language": "ms",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Malaysia vernacular and descriptive terminology for thyme"
+      },
+      {
+        "name": "Common thyme",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Malaysia vernacular and descriptive terminology for thyme"
+      },
+      {
+        "name": "百里香",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional culinary and market terminology for thyme",
+        "transliteration": "bǎi lǐ xiāng",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Thyme",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Common thyme",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Nigeria vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Tijm",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Echte tijm",
+        "language": "nl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Netherlands vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Timian",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Vanlig timian",
+        "language": "no",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Norway vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Thyme",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Common thyme",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "New Zealand vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Tomillo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Tomillo común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Panama vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Tomillo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Tomillo común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Peru vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Thyme",
+        "language": "tl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Philippines vernacular and descriptive terminology for thyme"
+      },
+      {
+        "name": "Thyme",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional culinary and market terminology for thyme"
+      }
+    ],
+    "PK": [
+      {
+        "name": "تھائم",
+        "language": "ur",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Pakistan vernacular and descriptive terminology for thyme",
+        "transliteration": "thaim",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Thyme",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional culinary and market terminology for thyme"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Tymianek",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Tymianek pospolity",
+        "language": "pl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Poland vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Tomilho",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Tomilho-comum",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Portugal vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Tomillo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Tomillo común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and descriptive terminology for thyme"
+      },
+      {
+        "name": "Tomillo",
+        "language": "gn",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Cimbru",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Cimbru de grădină",
+        "language": "ro",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Romania vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Тимьян",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional culinary and market terminology for thyme",
+        "transliteration": "timyan",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Тимьян обыкновенный",
+        "language": "ru",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Russia vernacular and descriptive terminology for thyme",
+        "transliteration": "timyan obyknovennyy",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Timjan",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Äkta timjan",
+        "language": "sv",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sweden vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Thyme",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "百里香",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional culinary and market terminology for thyme",
+        "transliteration": "bǎi lǐ xiāng",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Thyme",
+        "language": "ms",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Singapore vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Tymián",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Tymián obyčajný",
+        "language": "sk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Slovakia vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Thym",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Thym commun",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Senegal vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Tomillo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Tomillo común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "El Salvador vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "TH": [
+      {
+        "name": "ไทม์",
+        "language": "th",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for thyme",
+        "transliteration": "thai",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "ไทม์สามัญ",
+        "language": "th",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for thyme",
+        "transliteration": "thai samany",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "زعتر",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional culinary and market terminology for thyme",
+        "transliteration": "zaatar",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الزعتر الشائع",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Tunisia vernacular and descriptive terminology for thyme",
+        "transliteration": "al-zaatar al-shaei",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Thym",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional culinary and market terminology for thyme"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Kekik",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Adi kekik",
+        "language": "tr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Turkey vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Thyme",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Common thyme",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Trinidad and Tobago vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "TW": [
+      {
+        "name": "百里香",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional culinary and market terminology for thyme",
+        "transliteration": "bǎi lǐ xiāng",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "普通百里香",
+        "language": "zh",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Taiwan vernacular and descriptive terminology for thyme",
+        "transliteration": "pǔ tōng bǎi lǐ xiāng",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Чебрець",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional culinary and market terminology for thyme",
+        "transliteration": "chebrets",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Чебрець звичайний",
+        "language": "uk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ukraine vernacular and descriptive terminology for thyme",
+        "transliteration": "chebrets zvychainyi",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "Thyme",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Common thyme",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "United States vernacular and descriptive terminology for thyme"
+      },
+      {
+        "name": "Tomillo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional culinary and market terminology for thyme"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Tomillo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Tomillo común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Uruguay vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Tomillo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Tomillo común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Venezuela vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Cỏ xạ hương",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Húng tây",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional culinary and market terminology for thyme"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Thyme",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Tiemie",
+        "language": "af",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Common thyme",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Africa vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Thyme",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Common thyme",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Zambia vernacular and descriptive terminology for thyme"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Thyme",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional culinary and market terminology for thyme"
+      },
+      {
+        "name": "Common thyme",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Zimbabwe vernacular and descriptive terminology for thyme"
+      }
+    ]
+  }
+}
