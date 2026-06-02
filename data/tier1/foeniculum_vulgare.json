@@ -1,0 +1,1473 @@
+{
+  "plant_id": "foeniculum_vulgare",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Hinojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Hinojo común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Argentina vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Fenchel",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Gewöhnlicher Fenchel",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Austria vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Fennel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Common fennel",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Australia vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Venkel",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Fenouil",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Fenchel",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional culinary and market terminology for fennel"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Копър",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional culinary and market terminology for fennel",
+        "transliteration": "kopar",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Резене",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional culinary and market terminology for fennel",
+        "transliteration": "rezene",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Hinojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Hinojo común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bolivia vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Funcho",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Erva-doce",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional culinary and market terminology for fennel"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Fennel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Fenouil",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional culinary and market terminology for fennel"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Fenchel",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Fenouil",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Finocchio",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional culinary and market terminology for fennel"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Hinojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Hinojo común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Chile vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "CN": [
+      {
+        "name": "茴香",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional culinary and market terminology for fennel",
+        "transliteration": "huíxiāng",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "甜茴香",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional culinary and market terminology for fennel",
+        "transliteration": "tián huíxiāng",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Hinojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Hinojo común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Colombia vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Hinojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Hinojo común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Costa Rica vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Hinojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Anís dulce",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional culinary and market terminology for fennel"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Fenykl",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Fenykl obecný",
+        "language": "cs",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Czech Republic vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Fenchel",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Gewöhnlicher Fenchel",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Germany vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Fennikel",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Almindelig fennikel",
+        "language": "da",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Denmark vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Hinojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Anís dulce",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional culinary and market terminology for fennel"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "شمر",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional culinary and market terminology for fennel",
+        "transliteration": "shamar",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Fenouil",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "بسباس",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional culinary and market terminology for fennel",
+        "transliteration": "besbas",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Hinojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Hinojo común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ecuador vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "EG": [
+      {
+        "name": "شمر",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional culinary and market terminology for fennel",
+        "transliteration": "shamar",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "سنوت",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional culinary and market terminology for fennel",
+        "transliteration": "sanut",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Hinojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Hinojo común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Spain vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "ET": [
+      {
+        "name": "እንስላል",
+        "language": "am",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ethiopia traditional culinary and market terminology for fennel",
+        "transliteration": "ensilal",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ፈነል",
+        "language": "am",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for fennel",
+        "transliteration": "fenel",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Fenkoli",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Fänkål",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional culinary and market terminology for fennel"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Fenouil",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Fenouil commun",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "France vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Fennel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Common fennel",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "United Kingdom vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Fennel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Sweet fennel",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Ghana traditional culinary and market terminology for fennel"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Μάραθο",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional culinary and market terminology for fennel",
+        "transliteration": "maratho",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Μάραθος",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional culinary and market terminology for fennel",
+        "transliteration": "marathos",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Hinojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Hinojo común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Guatemala vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Komorač",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Obični komorač",
+        "language": "hr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Croatia vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Édeskömény",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Közönséges édeskömény",
+        "language": "hu",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Hungary vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Adas",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Adas manis",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Adas",
+        "language": "jv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional culinary and market terminology for fennel"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Fennel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Common fennel",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ireland vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "IL": [
+      {
+        "name": "שומר",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional culinary and market terminology for fennel",
+        "transliteration": "shumar",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "שומר מצוי",
+        "language": "he",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Israel vernacular and descriptive terminology for fennel",
+        "transliteration": "shumar matzui",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "شمر",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional culinary and market terminology for fennel",
+        "transliteration": "shamar",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "सौंफ",
+        "language": "hi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional culinary and market terminology for fennel",
+        "transliteration": "saunf",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "பெருஞ்சீரகம்",
+        "language": "ta",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional culinary and market terminology for fennel",
+        "transliteration": "perunjeeragam",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "సోంపు",
+        "language": "te",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional culinary and market terminology for fennel",
+        "transliteration": "sompu",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IR": [
+      {
+        "name": "رازیانه",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional culinary and market terminology for fennel",
+        "transliteration": "raziyaneh",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "بادیان رومی",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional culinary and market terminology for fennel",
+        "transliteration": "badian rumi",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Finocchio",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Finocchio comune",
+        "language": "it",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Italy vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Fennel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Sweet fennel",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Jamaica traditional culinary and market terminology for fennel"
+      }
+    ],
+    "JP": [
+      {
+        "name": "フェンネル",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional culinary and market terminology for fennel",
+        "transliteration": "fenneru",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "ウイキョウ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional culinary and market terminology for fennel",
+        "transliteration": "uikyou",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Shamari",
+        "language": "sw",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Fennel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional culinary and market terminology for fennel"
+      }
+    ],
+    "KR": [
+      {
+        "name": "회향",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional culinary and market terminology for fennel",
+        "transliteration": "hoehyang",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "펜넬",
+        "language": "ko",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Korea vernacular and descriptive terminology for fennel",
+        "transliteration": "pennel",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "මහදුරු",
+        "language": "si",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional culinary and market terminology for fennel",
+        "transliteration": "mahaduru",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "சோம்பு",
+        "language": "ta",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional culinary and market terminology for fennel",
+        "transliteration": "sombu",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Fennel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional culinary and market terminology for fennel"
+      }
+    ],
+    "MA": [
+      {
+        "name": "بسباس",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional culinary and market terminology for fennel",
+        "transliteration": "besbas",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "شمر",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional culinary and market terminology for fennel",
+        "transliteration": "shamar",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Fenouil",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional culinary and market terminology for fennel"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Hinojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Hinojo común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Mexico vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Adas manis",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Fennel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "茴香",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional culinary and market terminology for fennel",
+        "transliteration": "huíxiāng",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Fennel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Sweet fennel",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Nigeria traditional culinary and market terminology for fennel"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Venkel",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Gewone venkel",
+        "language": "nl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Netherlands vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Fennikel",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Vanlig fennikel",
+        "language": "no",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Norway vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Fennel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Common fennel",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "New Zealand vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Hinojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Hinojo común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Panama vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Hinojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Hinojo común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Peru vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Haras",
+        "language": "tl",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Philippines traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Fennel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional culinary and market terminology for fennel"
+      }
+    ],
+    "PK": [
+      {
+        "name": "سونف",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional culinary and market terminology for fennel",
+        "transliteration": "saunf",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Fennel",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Pakistan commercial and retail terminology for fennel"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Koper włoski",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Fenkuł",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional culinary and market terminology for fennel"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Funcho",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Funcho-comum",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Portugal vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Hinojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Hinojo común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and descriptive terminology for fennel"
+      },
+      {
+        "name": "Hinojo",
+        "language": "gn",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Fenicul",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Fenicul comun",
+        "language": "ro",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Romania vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Фенхель",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional culinary and market terminology for fennel",
+        "transliteration": "fenkhel",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Фенхель обыкновенный",
+        "language": "ru",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Russia vernacular and descriptive terminology for fennel",
+        "transliteration": "fenkhel obyknovennyy",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Fänkål",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Vanlig fänkål",
+        "language": "sv",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sweden vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Fennel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "茴香",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional culinary and market terminology for fennel",
+        "transliteration": "huíxiāng",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Adas manis",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional culinary and market terminology for fennel"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Fenikel",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Fenikel obyčajný",
+        "language": "sk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Slovakia vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Fenouil",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Fenouil commun",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Senegal vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Hinojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Hinojo común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "El Salvador vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "TH": [
+      {
+        "name": "ยี่หร่า",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional culinary and market terminology for fennel",
+        "transliteration": "yi ra",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "เฟนเนล",
+        "language": "th",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for fennel",
+        "transliteration": "fen nel",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "بسباس",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional culinary and market terminology for fennel",
+        "transliteration": "besbas",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "شمر",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional culinary and market terminology for fennel",
+        "transliteration": "shamar",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Fenouil",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional culinary and market terminology for fennel"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Rezene",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Tatlı rezene",
+        "language": "tr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Turkey vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Fennel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Common fennel",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Trinidad and Tobago vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "TW": [
+      {
+        "name": "茴香",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional culinary and market terminology for fennel",
+        "transliteration": "huíxiāng",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "甜茴香",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional culinary and market terminology for fennel",
+        "transliteration": "tián huíxiāng",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Фенхель",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional culinary and market terminology for fennel",
+        "transliteration": "fenkhel",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Фенхель звичайний",
+        "language": "uk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ukraine vernacular and descriptive terminology for fennel",
+        "transliteration": "fenkhel zvychainyi",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "Fennel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Common fennel",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "United States vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Hinojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Hinojo común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Uruguay vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Hinojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Anís dulce",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional culinary and market terminology for fennel"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Tiểu hồi",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Hồi hương",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional culinary and market terminology for fennel"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Fennel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Vinkel",
+        "language": "af",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Common fennel",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Africa vernacular and descriptive terminology for fennel"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Fennel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Sweet fennel",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Zambia traditional culinary and market terminology for fennel"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Fennel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional culinary and market terminology for fennel"
+      },
+      {
+        "name": "Sweet fennel",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional culinary and market terminology for fennel"
+      }
+    ]
+  }
+}

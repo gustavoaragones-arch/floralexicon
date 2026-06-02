@@ -202,6 +202,108 @@
     ]
   },
   {
+    "name": "Adas",
+    "normalized": "adas",
+    "language": "id",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "ID"
+    ],
+    "country_usage": [
+      {
+        "country": "ID",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ID"
+    ]
+  },
+  {
+    "name": "Adas",
+    "normalized": "adas",
+    "language": "jv",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "ID"
+    ],
+    "country_usage": [
+      {
+        "country": "ID",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Adas manis",
+    "normalized": "adas manis",
+    "language": "id",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "ID"
+    ],
+    "country_usage": [
+      {
+        "country": "ID",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Adas manis",
+    "normalized": "adas manis",
+    "language": "ms",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "MY",
+      "SG"
+    ],
+    "country_usage": [
+      {
+        "country": "MY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Adi sarımsak",
     "normalized": "adi sarımsak",
     "language": "tr",
@@ -1809,6 +1911,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Almindelig fennikel",
+    "normalized": "almindelig fennikel",
+    "language": "da",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Almindelig hvidløg",
     "normalized": "almindelig hvidløg",
     "language": "da",
@@ -2854,6 +2979,45 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Anís dulce",
+    "normalized": "anis dulce",
+    "language": "es",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "CU",
+      "DO",
+      "VE"
+    ],
+    "country_usage": [
+      {
+        "country": "CU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DO",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "VE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
     "dominant_in_countries": []
   },
   {
@@ -11748,6 +11912,77 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Common fennel",
+    "normalized": "common fennel",
+    "language": "en",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "AU",
+      "GB",
+      "IE",
+      "NZ",
+      "TT",
+      "US",
+      "ZA"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "IE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "NZ",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "TT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "ZA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 7,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Common garlic",
     "normalized": "common garlic",
     "language": "en",
@@ -15011,6 +15246,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Édeskömény",
+    "normalized": "edeskomeny",
+    "language": "hu",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "country_usage": [
+      {
+        "country": "HU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HU"
+    ]
+  },
+  {
     "name": "Ehinacea",
     "normalized": "ehinacea",
     "language": "hr",
@@ -15557,6 +15817,29 @@
     ]
   },
   {
+    "name": "Erva-doce",
+    "normalized": "erva doce",
+    "language": "pt",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "BR"
+    ],
+    "country_usage": [
+      {
+        "country": "BR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Erva-mate",
     "normalized": "erva mate",
     "language": "pt",
@@ -15809,6 +16092,39 @@
     ]
   },
   {
+    "name": "Fänkål",
+    "normalized": "fankal",
+    "language": "sv",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "FI",
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "SE"
+    ]
+  },
+  {
     "name": "Fekete bors",
     "normalized": "fekete bors",
     "language": "hu",
@@ -15855,6 +16171,598 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Fenchel",
+    "normalized": "fenchel",
+    "language": "de",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "BE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
+    "dominant_in_countries": [
+      "AT",
+      "CH",
+      "DE"
+    ]
+  },
+  {
+    "name": "Fenicul",
+    "normalized": "fenicul",
+    "language": "ro",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "country_usage": [
+      {
+        "country": "RO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RO"
+    ]
+  },
+  {
+    "name": "Fenicul comun",
+    "normalized": "fenicul comun",
+    "language": "ro",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "country_usage": [
+      {
+        "country": "RO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Fenikel",
+    "normalized": "fenikel",
+    "language": "sk",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "SK"
+    ],
+    "country_usage": [
+      {
+        "country": "SK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SK"
+    ]
+  },
+  {
+    "name": "Fenikel obyčajný",
+    "normalized": "fenikel obycajny",
+    "language": "sk",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "SK"
+    ],
+    "country_usage": [
+      {
+        "country": "SK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Fenkoli",
+    "normalized": "fenkoli",
+    "language": "fi",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "FI"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "FI"
+    ]
+  },
+  {
+    "name": "Fenkuł",
+    "normalized": "fenkuł",
+    "language": "pl",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "country_usage": [
+      {
+        "country": "PL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PL"
+    ]
+  },
+  {
+    "name": "Fennel",
+    "normalized": "fennel",
+    "language": "en",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "GB",
+      "GH",
+      "IE",
+      "JM",
+      "KE",
+      "LK",
+      "MY",
+      "NG",
+      "NZ",
+      "PH",
+      "PK",
+      "SG",
+      "TT",
+      "US",
+      "ZA",
+      "ZM",
+      "ZW"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "JM",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "KE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "LK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MY",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "NG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "NZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "SG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ZA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ZM",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ZW",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 19,
+    "dominant_in_countries": [
+      "AU",
+      "CA",
+      "GB",
+      "GH",
+      "IE",
+      "JM",
+      "MY",
+      "NG",
+      "NZ",
+      "PH",
+      "SG",
+      "TT",
+      "US",
+      "ZA",
+      "ZM",
+      "ZW"
+    ]
+  },
+  {
+    "name": "Fennikel",
+    "normalized": "fennikel",
+    "language": "da",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DK"
+    ]
+  },
+  {
+    "name": "Fennikel",
+    "normalized": "fennikel",
+    "language": "no",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "NO"
+    ]
+  },
+  {
+    "name": "Fenouil",
+    "normalized": "fenouil",
+    "language": "fr",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "CH",
+      "DZ",
+      "FR",
+      "MA",
+      "SN",
+      "TN"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DZ",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 8,
+    "dominant_in_countries": [
+      "FR",
+      "SN"
+    ]
+  },
+  {
+    "name": "Fenouil commun",
+    "normalized": "fenouil commun",
+    "language": "fr",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "FR",
+      "SN"
+    ],
+    "country_usage": [
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "SN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Fenykl",
+    "normalized": "fenykl",
+    "language": "cs",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CZ"
+    ]
+  },
+  {
+    "name": "Fenykl obecný",
+    "normalized": "fenykl obecny",
+    "language": "cs",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Fesleğen",
     "normalized": "feslegen",
     "language": "tr",
@@ -15878,6 +16786,62 @@
     "dominant_in_countries": [
       "TR"
     ]
+  },
+  {
+    "name": "Finocchio",
+    "normalized": "finocchio",
+    "language": "it",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "CH",
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "IT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "IT"
+    ]
+  },
+  {
+    "name": "Finocchio comune",
+    "normalized": "finocchio comune",
+    "language": "it",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "IT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Fíor-aló",
@@ -16192,6 +17156,63 @@
     "dominant_in_countries": [
       "HU"
     ]
+  },
+  {
+    "name": "Funcho",
+    "normalized": "funcho",
+    "language": "pt",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "BR",
+      "PT"
+    ],
+    "country_usage": [
+      {
+        "country": "BR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "BR",
+      "PT"
+    ]
+  },
+  {
+    "name": "Funcho-comum",
+    "normalized": "funcho comum",
+    "language": "pt",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "PT"
+    ],
+    "country_usage": [
+      {
+        "country": "PT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Fungo dell’immortalità",
@@ -17182,11 +18203,65 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Gewöhnlicher Fenchel",
+    "normalized": "gewohnlicher fenchel",
+    "language": "de",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "AT",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "DE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Gewone knoflook",
     "normalized": "gewone knoflook",
     "language": "nl",
     "plant_ids": [
       "allium_sativum"
+    ],
+    "countries": [
+      "NL"
+    ],
+    "country_usage": [
+      {
+        "country": "NL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Gewone venkel",
+    "normalized": "gewone venkel",
+    "language": "nl",
+    "plant_ids": [
+      "foeniculum_vulgare"
     ],
     "countries": [
       "NL"
@@ -21573,6 +22648,29 @@
     ]
   },
   {
+    "name": "Haras",
+    "normalized": "haras",
+    "language": "tl",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "PH"
+    ],
+    "country_usage": [
+      {
+        "country": "PH",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Hardi",
     "normalized": "hardi",
     "language": "en",
@@ -22722,6 +23820,325 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Hinojo",
+    "normalized": "hinojo",
+    "language": "es",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "AR",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "CU",
+      "DO",
+      "EC",
+      "ES",
+      "GT",
+      "MX",
+      "PA",
+      "PE",
+      "PY",
+      "SV",
+      "UY",
+      "VE"
+    ],
+    "country_usage": [
+      {
+        "country": "AR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "BO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "EC",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ES",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MX",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PY",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SV",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "UY",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "VE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 17,
+    "dominant_in_countries": [
+      "AR",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "CU",
+      "DO",
+      "EC",
+      "ES",
+      "GT",
+      "MX",
+      "PA",
+      "PE",
+      "PY",
+      "SV",
+      "UY",
+      "VE"
+    ]
+  },
+  {
+    "name": "Hinojo",
+    "normalized": "hinojo",
+    "language": "gn",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "PY"
+    ],
+    "country_usage": [
+      {
+        "country": "PY",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Hinojo común",
+    "normalized": "hinojo comun",
+    "language": "es",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "AR",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "EC",
+      "ES",
+      "GT",
+      "MX",
+      "PA",
+      "PE",
+      "PY",
+      "SV",
+      "UY"
+    ],
+    "country_usage": [
+      {
+        "country": "AR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "BO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "EC",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "ES",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "GT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "MX",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "PA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "PE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "PY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "SV",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "UY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 14,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Hint ginsengi",
     "normalized": "hint ginsengi",
     "language": "tr",
@@ -23046,6 +24463,29 @@
         "confidence": "low",
         "source": "local_ethnobotany",
         "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Hồi hương",
+    "normalized": "hoi huong",
+    "language": "vi",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "VN"
+    ],
+    "country_usage": [
+      {
+        "country": "VN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -26995,6 +28435,54 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Komorač",
+    "normalized": "komorac",
+    "language": "hr",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "HR"
+    ],
+    "country_usage": [
+      {
+        "country": "HR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HR"
+    ]
+  },
+  {
+    "name": "Koper włoski",
+    "normalized": "koper włoski",
+    "language": "pl",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "country_usage": [
+      {
+        "country": "PL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Kore ginsengi",
     "normalized": "kore ginsengi",
     "language": "tr",
@@ -27871,6 +29359,29 @@
         "confidence": "medium",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Közönséges édeskömény",
+    "normalized": "kozonseges edeskomeny",
+    "language": "hu",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "country_usage": [
+      {
+        "country": "HU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
       }
     ],
     "ambiguity_level": "low",
@@ -38673,6 +40184,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Obični komorač",
+    "normalized": "obicni komorac",
+    "language": "hr",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "HR"
+    ],
+    "country_usage": [
+      {
+        "country": "HR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Orbáncfű",
     "normalized": "orbancfu",
     "language": "hu",
@@ -42514,6 +44048,31 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "VN"
+    ]
+  },
+  {
+    "name": "Rezene",
+    "normalized": "rezene",
+    "language": "tr",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "country_usage": [
+      {
+        "country": "TR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "TR"
     ]
   },
   {
@@ -49222,6 +50781,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Shamari",
+    "normalized": "shamari",
+    "language": "sw",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "KE"
+    ],
+    "country_usage": [
+      {
+        "country": "KE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "KE"
+    ]
+  },
+  {
     "name": "Sinivihreä levä",
     "normalized": "sinivihrea leva",
     "language": "fi",
@@ -51831,6 +53415,61 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Sweet fennel",
+    "normalized": "sweet fennel",
+    "language": "en",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "GH",
+      "JM",
+      "NG",
+      "ZM",
+      "ZW"
+    ],
+    "country_usage": [
+      {
+        "country": "GH",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "JM",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "NG",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ZM",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ZW",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 5,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Szafran",
     "normalized": "szafran",
     "language": "pl",
@@ -52051,6 +53690,29 @@
     "language": "tr",
     "plant_ids": [
       "ocimum_basilicum"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "country_usage": [
+      {
+        "country": "TR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Tatlı rezene",
+    "normalized": "tatlı rezene",
+    "language": "tr",
+    "plant_ids": [
+      "foeniculum_vulgare"
     ],
     "countries": [
       "TR"
@@ -53551,6 +55213,31 @@
     ]
   },
   {
+    "name": "Tiểu hồi",
+    "normalized": "tieu hoi",
+    "language": "vi",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "VN"
+    ],
+    "country_usage": [
+      {
+        "country": "VN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "VN"
+    ]
+  },
+  {
     "name": "Tinita",
     "normalized": "tinita",
     "language": "mi",
@@ -54466,6 +56153,52 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Vanlig fänkål",
+    "normalized": "vanlig fankal",
+    "language": "sv",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "SE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Vanlig fennikel",
+    "normalized": "vanlig fennikel",
+    "language": "no",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Vanlig hvitløk",
     "normalized": "vanlig hvitløk",
     "language": "no",
@@ -54606,6 +56339,40 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Venkel",
+    "normalized": "venkel",
+    "language": "nl",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "BE",
+      "NL"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "NL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "BE",
+      "NL"
+    ]
+  },
+  {
     "name": "Viherminttu",
     "normalized": "viherminttu",
     "language": "fi",
@@ -54670,6 +56437,29 @@
         "confidence": "medium",
         "source": "local_ethnobotany",
         "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Vinkel",
+    "normalized": "vinkel",
+    "language": "af",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "ZA"
+    ],
+    "country_usage": [
+      {
+        "country": "ZA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -57421,6 +59211,54 @@
     ]
   },
   {
+    "name": "Μάραθο",
+    "normalized": "μαραθο",
+    "language": "el",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "GR"
+    ],
+    "country_usage": [
+      {
+        "country": "GR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "GR"
+    ]
+  },
+  {
+    "name": "Μάραθος",
+    "normalized": "μαραθος",
+    "language": "el",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "GR"
+    ],
+    "country_usage": [
+      {
+        "country": "GR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Ματέ",
     "normalized": "ματε",
     "language": "el",
@@ -59782,6 +61620,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Копър",
+    "normalized": "копър",
+    "language": "bg",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "country_usage": [
+      {
+        "country": "BG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "BG"
+    ]
+  },
+  {
     "name": "Корейски женшен",
     "normalized": "кореиски женшен",
     "language": "bg",
@@ -61274,6 +63137,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Резене",
+    "normalized": "резене",
+    "language": "bg",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "country_usage": [
+      {
+        "country": "BG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Рейши",
     "normalized": "реиши",
     "language": "bg",
@@ -61877,6 +63763,102 @@
     "dominant_in_countries": [
       "UA"
     ]
+  },
+  {
+    "name": "Фенхель",
+    "normalized": "фенхель",
+    "language": "ru",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RU"
+    ]
+  },
+  {
+    "name": "Фенхель",
+    "normalized": "фенхель",
+    "language": "uk",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "UA"
+    ]
+  },
+  {
+    "name": "Фенхель звичайний",
+    "normalized": "фенхель звичаинии",
+    "language": "uk",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Фенхель обыкновенный",
+    "normalized": "фенхель обыкновенныи",
+    "language": "ru",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Хибискус",
@@ -64064,6 +66046,54 @@
     "dominant_in_countries": []
   },
   {
+    "name": "שומר",
+    "normalized": "שומר",
+    "language": "he",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "IL"
+    ],
+    "country_usage": [
+      {
+        "country": "IL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IL"
+    ]
+  },
+  {
+    "name": "שומר מצוי",
+    "normalized": "שומר מצוי",
+    "language": "he",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "IL"
+    ],
+    "country_usage": [
+      {
+        "country": "IL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "שׁוֹק הַמּוֹרִינְגָה",
     "normalized": "שׁוֹק הַמּוֹרִינְגָה",
     "language": "he",
@@ -65606,6 +67636,29 @@
     ]
   },
   {
+    "name": "بادیان رومی",
+    "normalized": "بادیان رومی",
+    "language": "fa",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "IR"
+    ],
+    "country_usage": [
+      {
+        "country": "IR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "بذور الشيا",
     "normalized": "بذور الشيا",
     "language": "ar",
@@ -65651,6 +67704,48 @@
     "ambiguity_level": "low",
     "name_country_count": 4,
     "dominant_in_countries": []
+  },
+  {
+    "name": "بسباس",
+    "normalized": "بسباس",
+    "language": "ar",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "DZ",
+      "MA",
+      "TN"
+    ],
+    "country_usage": [
+      {
+        "country": "DZ",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "MA",
+      "TN"
+    ]
   },
   {
     "name": "پودینہ",
@@ -66762,6 +68857,31 @@
     ]
   },
   {
+    "name": "رازیانه",
+    "normalized": "رازیانه",
+    "language": "fa",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "IR"
+    ],
+    "country_usage": [
+      {
+        "country": "IR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IR"
+    ]
+  },
+  {
     "name": "رزماری",
     "normalized": "رزماری",
     "language": "fa",
@@ -67505,6 +69625,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "سنوت",
+    "normalized": "سنوت",
+    "language": "ar",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "EG"
+    ],
+    "country_usage": [
+      {
+        "country": "EG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "سہانجنا",
     "normalized": "سہانجنا",
     "language": "ur",
@@ -67551,6 +69694,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "سونف",
+    "normalized": "سونف",
+    "language": "ur",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "PK"
+    ],
+    "country_usage": [
+      {
+        "country": "PK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PK"
+    ]
   },
   {
     "name": "سیر",
@@ -67814,6 +69982,64 @@
     "ambiguity_level": "low",
     "name_country_count": 3,
     "dominant_in_countries": []
+  },
+  {
+    "name": "شمر",
+    "normalized": "شمر",
+    "language": "ar",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "DZ",
+      "EG",
+      "IL",
+      "MA",
+      "TN"
+    ],
+    "country_usage": [
+      {
+        "country": "DZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "EG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "IL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 5,
+    "dominant_in_countries": [
+      "DZ",
+      "EG"
+    ]
   },
   {
     "name": "شيا",
@@ -70386,6 +72612,31 @@
     ]
   },
   {
+    "name": "እንስላል",
+    "normalized": "እንስላል",
+    "language": "am",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "ET"
+    ],
+    "country_usage": [
+      {
+        "country": "ET",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ET"
+    ]
+  },
+  {
     "name": "እውነተኛ አሎ",
     "normalized": "እውነተኛ አሎ",
     "language": "am",
@@ -70665,6 +72916,29 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "ፈነል",
+    "normalized": "ፈነል",
+    "language": "am",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "ET"
+    ],
+    "country_usage": [
+      {
+        "country": "ET",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
       }
     ],
     "ambiguity_level": "low",
@@ -71580,6 +73854,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "सौंफ",
+    "normalized": "सौंफ",
+    "language": "hi",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IN"
+    ]
+  },
+  {
     "name": "स्पिरुलिना",
     "normalized": "स्पिरुलिना",
     "language": "hi",
@@ -71948,6 +74247,29 @@
     ]
   },
   {
+    "name": "சோம்பு",
+    "normalized": "சோம்பு",
+    "language": "ta",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "LK"
+    ],
+    "country_usage": [
+      {
+        "country": "LK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "திருநீற்றுப்பச்சை",
     "normalized": "திருநீற்றுப்பச்சை",
     "language": "ta",
@@ -72025,6 +74347,29 @@
     "dominant_in_countries": [
       "LK"
     ]
+  },
+  {
+    "name": "பெருஞ்சீரகம்",
+    "normalized": "பெருஞ்சீரகம்",
+    "language": "ta",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "மஞ்சள்",
@@ -72168,6 +74513,29 @@
         "confidence": "medium",
         "source": "local_ethnobotany",
         "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "సోంపు",
+    "normalized": "సోంపు",
+    "language": "te",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -72583,6 +74951,31 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "LK"
+    ]
+  },
+  {
+    "name": "මහදුරු",
+    "normalized": "මහදුරු",
+    "language": "si",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "LK"
+    ],
+    "country_usage": [
+      {
+        "country": "LK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -73479,6 +75872,29 @@
     ]
   },
   {
+    "name": "เฟนเนล",
+    "normalized": "เฟนเนล",
+    "language": "th",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "TH"
+    ],
+    "country_usage": [
+      {
+        "country": "TH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "มะรุม",
     "normalized": "มะรุม",
     "language": "th",
@@ -73596,6 +76012,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "ยี่หร่า",
+    "normalized": "ยี่หร่า",
+    "language": "th",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "TH"
+    ],
+    "country_usage": [
+      {
+        "country": "TH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "TH"
+    ]
   },
   {
     "name": "เยอรบามาเต",
@@ -75938,6 +78379,29 @@
     ]
   },
   {
+    "name": "펜넬",
+    "normalized": "펜넬",
+    "language": "ko",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "country_usage": [
+      {
+        "country": "KR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "홍삼",
     "normalized": "홍삼",
     "language": "ko",
@@ -75982,6 +78446,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "회향",
+    "normalized": "회향",
+    "language": "ko",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "country_usage": [
+      {
+        "country": "KR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "KR"
+    ]
   },
   {
     "name": "후추",
@@ -76194,6 +78683,29 @@
         "confidence": "medium",
         "source": "local_ethnobotany",
         "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "ウイキョウ",
+    "normalized": "ウイキョウ",
+    "language": "ja",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "country_usage": [
+      {
+        "country": "JP",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -77034,6 +79546,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "フェンネル",
+    "normalized": "フェンネル",
+    "language": "ja",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "country_usage": [
+      {
+        "country": "JP",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "JP"
+    ]
   },
   {
     "name": "ペパーミント",
@@ -78598,6 +81135,37 @@
     "dominant_in_countries": []
   },
   {
+    "name": "甜茴香",
+    "normalized": "甜茴香",
+    "language": "zh",
+    "plant_ids": [
+      "foeniculum_vulgare"
+    ],
+    "countries": [
+      "CN",
+      "TW"
+    ],
+    "country_usage": [
+      {
+        "country": "CN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TW",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
     "name": "生姜",
     "normalized": "生姜",
     "language": "ja",
@@ -79608,6 +82176,56 @@
     "language": "zh",
     "plant_ids": [
       "coriandrum_sativum"
+    ],
+    "countries": [
+      "CN",
+      "MY",
+      "SG",
+      "TW"
+    ],
+    "country_usage": [
+      {
+        "country": "CN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TW",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
+    "dominant_in_countries": [
+      "CN",
+      "TW"
+    ]
+  },
+  {
+    "name": "茴香",
+    "normalized": "茴香",
+    "language": "zh",
+    "plant_ids": [
+      "foeniculum_vulgare"
     ],
     "countries": [
       "CN",
