@@ -1,0 +1,1471 @@
+{
+  "plant_id": "origanum_vulgare",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Orégano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Orégano común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Argentina vernacular and descriptive terminology for oregano"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Oregano",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Gewöhnlicher Dost",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional culinary and market terminology for oregano"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Oregano",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Wild marjoram",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional culinary and market terminology for oregano"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Oregano",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Origan",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Oregano",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional culinary and market terminology for oregano"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Риган",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional culinary and market terminology for oregano",
+        "transliteration": "rigan",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Обикновен риган",
+        "language": "bg",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bulgaria vernacular and descriptive terminology for oregano",
+        "transliteration": "obiknoven rigan",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Orégano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Orégano común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bolivia vernacular and descriptive terminology for oregano"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Orégano",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Orégano-comum",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Brazil vernacular and descriptive terminology for oregano"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Oregano",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Origan",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Wild marjoram",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional culinary and market terminology for oregano"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Oregano",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Origan",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Origano",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional culinary and market terminology for oregano"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Orégano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Orégano común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Chile vernacular and descriptive terminology for oregano"
+      }
+    ],
+    "CN": [
+      {
+        "name": "牛至",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional culinary and market terminology for oregano",
+        "transliteration": "niú zhì",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "普通牛至",
+        "language": "zh",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "China vernacular and descriptive terminology for oregano",
+        "transliteration": "pǔ tōng niú zhì",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Orégano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Orégano común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Colombia vernacular and descriptive terminology for oregano"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Orégano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Orégano común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Costa Rica vernacular and descriptive terminology for oregano"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Orégano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Orégano europeo",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Cuba traditional culinary and market terminology for oregano"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Dobromysl",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Dobromysl obecná",
+        "language": "cs",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Czech Republic vernacular and descriptive terminology for oregano"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Oregano",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Gewöhnlicher Dost",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional culinary and market terminology for oregano"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Oregano",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Almindelig merian",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional culinary and market terminology for oregano"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Orégano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Orégano común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Dominican Republic vernacular and descriptive terminology for oregano"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "أوريغانو",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Algeria vernacular and descriptive terminology for oregano",
+        "transliteration": "orighano",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "زعتر بري",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional culinary and market terminology for oregano",
+        "transliteration": "zaatar barri",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Origan",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional culinary and market terminology for oregano"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Orégano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Orégano común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ecuador vernacular and descriptive terminology for oregano"
+      }
+    ],
+    "EG": [
+      {
+        "name": "أوريغانو",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Egypt vernacular and descriptive terminology for oregano",
+        "transliteration": "orighano",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "زعتر بري",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional culinary and market terminology for oregano",
+        "transliteration": "zaatar barri",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Orégano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Orégano común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Spain vernacular and descriptive terminology for oregano"
+      }
+    ],
+    "ET": [
+      {
+        "name": "ኦሮጋኖ",
+        "language": "am",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for oregano",
+        "transliteration": "oregano",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Oregano",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Mäkimeirami",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional culinary and market terminology for oregano"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Origan",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Origan commun",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "France vernacular and descriptive terminology for oregano"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Oregano",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Wild marjoram",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional culinary and market terminology for oregano"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Oregano",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Wild marjoram",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional culinary and market terminology for oregano"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Ρίγανη",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional culinary and market terminology for oregano",
+        "transliteration": "rigani",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Κοινή ρίγανη",
+        "language": "el",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Greece vernacular and descriptive terminology for oregano",
+        "transliteration": "koini rigani",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Orégano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Orégano común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Guatemala vernacular and descriptive terminology for oregano"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Origano",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Mravinac",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional culinary and market terminology for oregano"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Oregánó",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Szurokfű",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional culinary and market terminology for oregano"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Oregano",
+        "language": "id",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Indonesia vernacular and descriptive terminology for oregano"
+      },
+      {
+        "name": "Marjoram liar",
+        "language": "id",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Indonesia vernacular and descriptive terminology for oregano"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Oregano",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Wild marjoram",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional culinary and market terminology for oregano"
+      }
+    ],
+    "IL": [
+      {
+        "name": "אורגנו",
+        "language": "he",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Israel vernacular and descriptive terminology for oregano",
+        "transliteration": "oregano",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "אזובית פשוטה",
+        "language": "he",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Israel vernacular and descriptive terminology for oregano",
+        "transliteration": "ezovit pshuta",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "أوريغانو",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Israel vernacular and descriptive terminology for oregano",
+        "transliteration": "orighano",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "ओरिगैनो",
+        "language": "hi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "India vernacular and descriptive terminology for oregano",
+        "transliteration": "oregano",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Oregano",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "ஓரிகானோ",
+        "language": "ta",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "India vernacular and descriptive terminology for oregano",
+        "transliteration": "oregano",
+        "transliteration_scheme": "iso_15919"
+      }
+    ],
+    "IR": [
+      {
+        "name": "پونه کوهی",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional culinary and market terminology for oregano",
+        "transliteration": "pooneh kuhi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "اورگانو",
+        "language": "fa",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Iran vernacular and descriptive terminology for oregano",
+        "transliteration": "oregano",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Origano",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Origano comune",
+        "language": "it",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Italy vernacular and descriptive terminology for oregano"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Oregano",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Wild marjoram",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional culinary and market terminology for oregano"
+      }
+    ],
+    "JP": [
+      {
+        "name": "オレガノ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional culinary and market terminology for oregano",
+        "transliteration": "oregano",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "ワイルドマジョラム",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional culinary and market terminology for oregano",
+        "transliteration": "wairudo majoramu",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Oregano",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Wild marjoram",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional culinary and market terminology for oregano"
+      }
+    ],
+    "KR": [
+      {
+        "name": "오레가노",
+        "language": "ko",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Korea vernacular and descriptive terminology for oregano",
+        "transliteration": "oregano",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "와일드 마조람",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional culinary and market terminology for oregano",
+        "transliteration": "waildeu majoram",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "ඔරෙගානෝ",
+        "language": "si",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for oregano",
+        "transliteration": "oregano",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "ஓரிகானோ",
+        "language": "ta",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for oregano",
+        "transliteration": "oregano",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Oregano",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional culinary and market terminology for oregano"
+      }
+    ],
+    "MA": [
+      {
+        "name": "أوريغانو",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Morocco vernacular and descriptive terminology for oregano",
+        "transliteration": "orighano",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "زعتر بري",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional culinary and market terminology for oregano",
+        "transliteration": "zaatar barri",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Origan",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional culinary and market terminology for oregano"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Orégano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Orégano mexicano",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Mexico traditional culinary and market terminology for oregano"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Oregano",
+        "language": "ms",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Malaysia vernacular and descriptive terminology for oregano"
+      },
+      {
+        "name": "Oregano",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "牛至",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional culinary and market terminology for oregano",
+        "transliteration": "niú zhì",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Oregano",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Wild marjoram",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional culinary and market terminology for oregano"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Oregano",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Wilde marjolein",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional culinary and market terminology for oregano"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Oregano",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Bergmynte",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional culinary and market terminology for oregano"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Oregano",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Wild marjoram",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional culinary and market terminology for oregano"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Orégano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Orégano común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Panama vernacular and descriptive terminology for oregano"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Orégano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Orégano común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Peru vernacular and descriptive terminology for oregano"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Oregano",
+        "language": "tl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Philippines vernacular and descriptive terminology for oregano"
+      },
+      {
+        "name": "Oregano",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional culinary and market terminology for oregano"
+      }
+    ],
+    "PK": [
+      {
+        "name": "اوریگانو",
+        "language": "ur",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Pakistan vernacular and descriptive terminology for oregano",
+        "transliteration": "oregano",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "جنگلی مرزنجوش",
+        "language": "ur",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Pakistan vernacular and descriptive terminology for oregano",
+        "transliteration": "jangli marzanjosh",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Oregano",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Lebiodka pospolita",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional culinary and market terminology for oregano"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Orégão",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Orégão-comum",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Portugal vernacular and descriptive terminology for oregano"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Orégano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Orégano común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and descriptive terminology for oregano"
+      },
+      {
+        "name": "Orégano",
+        "language": "gn",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and descriptive terminology for oregano"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Oregano",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Sovârf",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional culinary and market terminology for oregano"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Орегано",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional culinary and market terminology for oregano",
+        "transliteration": "oregano",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Душица обыкновенная",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional culinary and market terminology for oregano",
+        "transliteration": "dushitsa obyknovennaya",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Oregano",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Kungsmynta",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional culinary and market terminology for oregano"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Oregano",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "牛至",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional culinary and market terminology for oregano",
+        "transliteration": "niú zhì",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Oregano",
+        "language": "ms",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Singapore vernacular and descriptive terminology for oregano"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Oregano",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Pamajorán obyčajný",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional culinary and market terminology for oregano"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Origan",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Origan commun",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Senegal vernacular and descriptive terminology for oregano"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Orégano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Orégano común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "El Salvador vernacular and descriptive terminology for oregano"
+      }
+    ],
+    "TH": [
+      {
+        "name": "ออริกาโน",
+        "language": "th",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for oregano",
+        "transliteration": "orikano",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "ออริกาโนสามัญ",
+        "language": "th",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for oregano",
+        "transliteration": "orikano samany",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "أوريغانو",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Tunisia vernacular and descriptive terminology for oregano",
+        "transliteration": "orighano",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "زعتر بري",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional culinary and market terminology for oregano",
+        "transliteration": "zaatar barri",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Origan",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional culinary and market terminology for oregano"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Kekik",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Yabani mercanköşk",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional culinary and market terminology for oregano"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Oregano",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Wild marjoram",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional culinary and market terminology for oregano"
+      }
+    ],
+    "TW": [
+      {
+        "name": "牛至",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional culinary and market terminology for oregano",
+        "transliteration": "niú zhì",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "普通牛至",
+        "language": "zh",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Taiwan vernacular and descriptive terminology for oregano",
+        "transliteration": "pǔ tōng niú zhì",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Орегано",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional culinary and market terminology for oregano",
+        "transliteration": "orehano",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Материнка звичайна",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional culinary and market terminology for oregano",
+        "transliteration": "materynka zvychaina",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "Oregano",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Wild marjoram",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Oregano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional culinary and market terminology for oregano"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Orégano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Orégano común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Uruguay vernacular and descriptive terminology for oregano"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Orégano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Orégano común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Venezuela vernacular and descriptive terminology for oregano"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Kinh giới cay",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Oregano",
+        "language": "vi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Vietnam vernacular and descriptive terminology for oregano"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Oregano",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Oregano",
+        "language": "af",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Africa vernacular and descriptive terminology for oregano"
+      },
+      {
+        "name": "Wild marjoram",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional culinary and market terminology for oregano"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Oregano",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Wild marjoram",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional culinary and market terminology for oregano"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Oregano",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional culinary and market terminology for oregano"
+      },
+      {
+        "name": "Wild marjoram",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional culinary and market terminology for oregano"
+      }
+    ]
+  }
+}
