@@ -1,0 +1,1464 @@
+{
+  "plant_id": "valeriana_officinalis",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Valeriana",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for valerian"
+      },
+      {
+        "name": "Valeriana común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Argentina vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Baldrian",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for valerian"
+      },
+      {
+        "name": "Echter Baldrian",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Austria vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Valerian",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for valerian"
+      },
+      {
+        "name": "Common valerian",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Australia vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Valeriaan",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for valerian"
+      },
+      {
+        "name": "Valériane",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for valerian"
+      },
+      {
+        "name": "Baldrian",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for valerian"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Валериана",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for valerian",
+        "transliteration": "valeriana",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Лечебна валериана",
+        "language": "bg",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bulgaria vernacular and descriptive terminology for valerian",
+        "transliteration": "lechebna valeriana",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Valeriana",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for valerian"
+      },
+      {
+        "name": "Valeriana común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bolivia vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Valeriana",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for valerian"
+      },
+      {
+        "name": "Valeriana-comum",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Brazil vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Valerian",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for valerian"
+      },
+      {
+        "name": "Valériane",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for valerian"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Baldrian",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for valerian"
+      },
+      {
+        "name": "Valériane",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for valerian"
+      },
+      {
+        "name": "Valeriana",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for valerian"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Valeriana",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for valerian"
+      },
+      {
+        "name": "Valeriana común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Chile vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "CN": [
+      {
+        "name": "缬草",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for valerian",
+        "transliteration": "xié cǎo",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "药用缬草",
+        "language": "zh",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "China vernacular and descriptive terminology for valerian",
+        "transliteration": "yào yòng xié cǎo",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Valeriana",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for valerian"
+      },
+      {
+        "name": "Valeriana común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Colombia vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Valeriana",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for valerian"
+      },
+      {
+        "name": "Valeriana común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Costa Rica vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Valeriana",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for valerian"
+      },
+      {
+        "name": "Valeriana medicinal",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Cuba vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Kozlík",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for valerian"
+      },
+      {
+        "name": "Kozlík lékařský",
+        "language": "cs",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Czech Republic vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Baldrian",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for valerian"
+      },
+      {
+        "name": "Echter Baldrian",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Germany vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Baldrian",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for valerian"
+      },
+      {
+        "name": "Læge-baldrian",
+        "language": "da",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Denmark vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Valeriana",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for valerian"
+      },
+      {
+        "name": "Valeriana común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Dominican Republic vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "الناردين",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for valerian",
+        "transliteration": "al-nardin",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "فاليريان",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Algeria vernacular and descriptive terminology for valerian",
+        "transliteration": "valerian",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Valériane",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for valerian"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Valeriana",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for valerian"
+      },
+      {
+        "name": "Valeriana común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ecuador vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "EG": [
+      {
+        "name": "الناردين",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for valerian",
+        "transliteration": "al-nardin",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "فاليريان",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Egypt vernacular and descriptive terminology for valerian",
+        "transliteration": "valerian",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Valeriana",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for valerian"
+      },
+      {
+        "name": "Valeriana común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Spain vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "ET": [
+      {
+        "name": "ቫለሪያን",
+        "language": "am",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for valerian",
+        "transliteration": "valerian",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Rohtovirmajuuri",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for valerian"
+      },
+      {
+        "name": "Läkeväxtvaleriana",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for valerian"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Valériane",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for valerian"
+      },
+      {
+        "name": "Valériane officinale",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "France vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Valerian",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for valerian"
+      },
+      {
+        "name": "Common valerian",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "United Kingdom vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Valerian",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for valerian"
+      },
+      {
+        "name": "Common valerian",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ghana vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Βαλεριάνα",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for valerian",
+        "transliteration": "valeriana",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Φαρμακευτική βαλεριάνα",
+        "language": "el",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Greece vernacular and descriptive terminology for valerian",
+        "transliteration": "farmakeftiki valeriana",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Valeriana",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for valerian"
+      },
+      {
+        "name": "Valeriana común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Guatemala vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Valerijana",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for valerian"
+      },
+      {
+        "name": "Ljekovita odoljen",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for valerian"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Macskagyökér",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for valerian"
+      },
+      {
+        "name": "Orvosi macskagyökér",
+        "language": "hu",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Hungary vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Valerian",
+        "language": "id",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Indonesia vernacular and descriptive terminology for valerian"
+      },
+      {
+        "name": "Valerian officinal",
+        "language": "id",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Indonesia vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Valerian",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for valerian"
+      },
+      {
+        "name": "Common valerian",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ireland vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "IL": [
+      {
+        "name": "ולריאן",
+        "language": "he",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Israel vernacular and descriptive terminology for valerian",
+        "transliteration": "valerian",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ולריאנה רפואית",
+        "language": "he",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Israel vernacular and descriptive terminology for valerian",
+        "transliteration": "valeriana refuit",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الناردين",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for valerian",
+        "transliteration": "al-nardin",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "वलेरियन",
+        "language": "hi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "India vernacular and descriptive terminology for valerian",
+        "transliteration": "valerian",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Tagar",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for valerian"
+      },
+      {
+        "name": "வலேரியன்",
+        "language": "ta",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "India vernacular and descriptive terminology for valerian",
+        "transliteration": "valerian",
+        "transliteration_scheme": "iso_15919"
+      }
+    ],
+    "IR": [
+      {
+        "name": "سنبل الطیب",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for valerian",
+        "transliteration": "sonbol al-tib",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "والرین",
+        "language": "fa",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Iran vernacular and descriptive terminology for valerian",
+        "transliteration": "valerin",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Valeriana",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for valerian"
+      },
+      {
+        "name": "Valeriana officinale",
+        "language": "it",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Italy vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Valerian",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for valerian"
+      },
+      {
+        "name": "Common valerian",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Jamaica vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "JP": [
+      {
+        "name": "セイヨウカノコソウ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for valerian",
+        "transliteration": "seiyou kanokosou",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "バレリアン",
+        "language": "ja",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Japan vernacular and descriptive terminology for valerian",
+        "transliteration": "barerian",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Valerian",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for valerian"
+      },
+      {
+        "name": "Common valerian",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Kenya vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "KR": [
+      {
+        "name": "발레리안",
+        "language": "ko",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Korea vernacular and descriptive terminology for valerian",
+        "transliteration": "ballerian",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "서양쥐오줌풀",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for valerian",
+        "transliteration": "seoyang jwi-ojumpul",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "වැලේරියන්",
+        "language": "si",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for valerian",
+        "transliteration": "valerian",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "வலேரியன்",
+        "language": "ta",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for valerian",
+        "transliteration": "valerian",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Valerian",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for valerian"
+      }
+    ],
+    "MA": [
+      {
+        "name": "الناردين",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for valerian",
+        "transliteration": "al-nardin",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "فاليريان",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Morocco vernacular and descriptive terminology for valerian",
+        "transliteration": "valerian",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Valériane",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for valerian"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Valeriana",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for valerian"
+      },
+      {
+        "name": "Valeriana común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Mexico vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Valerian",
+        "language": "ms",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Malaysia vernacular and descriptive terminology for valerian"
+      },
+      {
+        "name": "Valerian",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for valerian"
+      },
+      {
+        "name": "缬草",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for valerian",
+        "transliteration": "xié cǎo",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Valerian",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for valerian"
+      },
+      {
+        "name": "Common valerian",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Nigeria vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Valeriaan",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for valerian"
+      },
+      {
+        "name": "Echte valeriaan",
+        "language": "nl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Netherlands vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Legevendelrot",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for valerian"
+      },
+      {
+        "name": "Valeriana",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for valerian"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Valerian",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for valerian"
+      },
+      {
+        "name": "Common valerian",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "New Zealand vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Valeriana",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for valerian"
+      },
+      {
+        "name": "Valeriana común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Panama vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Valeriana",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for valerian"
+      },
+      {
+        "name": "Valeriana común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Peru vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Valerian",
+        "language": "tl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Philippines vernacular and descriptive terminology for valerian"
+      },
+      {
+        "name": "Valerian",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for valerian"
+      }
+    ],
+    "PK": [
+      {
+        "name": "والیرین",
+        "language": "ur",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Pakistan vernacular and descriptive terminology for valerian",
+        "transliteration": "valerin",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "سنبل الطیب",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for valerian",
+        "transliteration": "sonbol al-tib",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Waleriana",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for valerian"
+      },
+      {
+        "name": "Kozłek lekarski",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for valerian"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Valeriana",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for valerian"
+      },
+      {
+        "name": "Valeriana-comum",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Portugal vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Valeriana",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for valerian"
+      },
+      {
+        "name": "Valeriana común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and descriptive terminology for valerian"
+      },
+      {
+        "name": "Valeriana",
+        "language": "gn",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Valeriană",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for valerian"
+      },
+      {
+        "name": "Odolean",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for valerian"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Валериана",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for valerian",
+        "transliteration": "valeriana",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Валериана лекарственная",
+        "language": "ru",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Russia vernacular and descriptive terminology for valerian",
+        "transliteration": "valeriana lekarstvennaya",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Vänderot",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for valerian"
+      },
+      {
+        "name": "Läkevänderot",
+        "language": "sv",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sweden vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Valerian",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for valerian"
+      },
+      {
+        "name": "缬草",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for valerian",
+        "transliteration": "xié cǎo",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Valerian",
+        "language": "ms",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Singapore vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Valeriána",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for valerian"
+      },
+      {
+        "name": "Valeriána lekárska",
+        "language": "sk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Slovakia vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Valériane",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for valerian"
+      },
+      {
+        "name": "Valériane officinale",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Senegal vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Valeriana",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for valerian"
+      },
+      {
+        "name": "Valeriana común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "El Salvador vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "TH": [
+      {
+        "name": "วาเลอเรียน",
+        "language": "th",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for valerian",
+        "transliteration": "valerian",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "วาเลอเรียนสามัญ",
+        "language": "th",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for valerian",
+        "transliteration": "valerian samany",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "الناردين",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for valerian",
+        "transliteration": "al-nardin",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "فاليريان",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Tunisia vernacular and descriptive terminology for valerian",
+        "transliteration": "valerian",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Valériane",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for valerian"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Kediotu",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for valerian"
+      },
+      {
+        "name": "Tıbbi kediotu",
+        "language": "tr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Turkey vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Valerian",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for valerian"
+      },
+      {
+        "name": "Common valerian",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Trinidad and Tobago vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "TW": [
+      {
+        "name": "纈草",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for valerian",
+        "transliteration": "xié cǎo",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "藥用纈草",
+        "language": "zh",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Taiwan vernacular and descriptive terminology for valerian",
+        "transliteration": "yào yòng xié cǎo",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Валеріана",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for valerian",
+        "transliteration": "valeriana",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Валеріана лікарська",
+        "language": "uk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ukraine vernacular and descriptive terminology for valerian",
+        "transliteration": "valeriana likarska",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "Valerian",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for valerian"
+      },
+      {
+        "name": "Common valerian",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "United States vernacular and descriptive terminology for valerian"
+      },
+      {
+        "name": "Valeriana",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for valerian"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Valeriana",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for valerian"
+      },
+      {
+        "name": "Valeriana común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Uruguay vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Valeriana",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for valerian"
+      },
+      {
+        "name": "Valeriana común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Venezuela vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Nữ lang",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for valerian"
+      },
+      {
+        "name": "Cây nữ lang",
+        "language": "vi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Vietnam vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Valerian",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for valerian"
+      },
+      {
+        "name": "Valeriaan",
+        "language": "af",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for valerian"
+      },
+      {
+        "name": "Common valerian",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Africa vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Valerian",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for valerian"
+      },
+      {
+        "name": "Common valerian",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Zambia vernacular and descriptive terminology for valerian"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Valerian",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for valerian"
+      },
+      {
+        "name": "Common valerian",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Zimbabwe vernacular and descriptive terminology for valerian"
+      }
+    ]
+  }
+}

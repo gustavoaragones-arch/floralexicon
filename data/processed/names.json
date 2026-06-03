@@ -5078,6 +5078,82 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Baldrian",
+    "normalized": "baldrian",
+    "language": "da",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DK"
+    ]
+  },
+  {
+    "name": "Baldrian",
+    "normalized": "baldrian",
+    "language": "de",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "BE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
+    "dominant_in_countries": [
+      "AT",
+      "CH",
+      "DE"
+    ]
+  },
+  {
     "name": "Ban âu",
     "normalized": "ban au",
     "language": "vi",
@@ -8759,6 +8835,29 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Cây nữ lang",
+    "normalized": "cay nu lang",
+    "language": "vi",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "VN"
+    ],
+    "country_usage": [
+      {
+        "country": "VN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
       }
     ],
     "ambiguity_level": "low",
@@ -12540,6 +12639,125 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Common valerian",
+    "normalized": "common valerian",
+    "language": "en",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "AU",
+      "GB",
+      "GH",
+      "IE",
+      "JM",
+      "KE",
+      "NG",
+      "NZ",
+      "TT",
+      "US",
+      "ZA",
+      "ZM",
+      "ZW"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "GH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "IE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "JM",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "KE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "NG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "NZ",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "TT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "ZA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "ZM",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "ZW",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 13,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Coneflower",
     "normalized": "coneflower",
     "language": "en",
@@ -15402,6 +15620,60 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Echte valeriaan",
+    "normalized": "echte valeriaan",
+    "language": "nl",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "NL"
+    ],
+    "country_usage": [
+      {
+        "country": "NL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Echter Baldrian",
+    "normalized": "echter baldrian",
+    "language": "de",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "AT",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "DE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
     "dominant_in_countries": []
   },
   {
@@ -28262,6 +28534,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Kediotu",
+    "normalized": "kediotu",
+    "language": "tr",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "country_usage": [
+      {
+        "country": "TR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "TR"
+    ]
+  },
+  {
     "name": "Kék-zöld alga",
     "normalized": "kek zold alga",
     "language": "hu",
@@ -29958,6 +30255,77 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Kozłek lekarski",
+    "normalized": "kozłek lekarski",
+    "language": "pl",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "country_usage": [
+      {
+        "country": "PL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Kozlík",
+    "normalized": "kozlik",
+    "language": "cs",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CZ"
+    ]
+  },
+  {
+    "name": "Kozlík lékařský",
+    "normalized": "kozlik lekarsky",
+    "language": "cs",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Közönséges édeskömény",
     "normalized": "kozonseges edeskomeny",
     "language": "hu",
@@ -30665,6 +31033,75 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Læge-baldrian",
+    "normalized": "læge baldrian",
+    "language": "da",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Läkevänderot",
+    "normalized": "lakevanderot",
+    "language": "sv",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "SE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Läkeväxtvaleriana",
+    "normalized": "lakevaxtvaleriana",
+    "language": "sv",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "FI"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
     "dominant_in_countries": []
   },
   {
@@ -33241,6 +33678,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Legevendelrot",
+    "normalized": "legevendelrot",
+    "language": "no",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "NO"
+    ]
+  },
+  {
     "name": "Lesklokorka lesklá",
     "normalized": "lesklokorka leskla",
     "language": "cs",
@@ -34028,6 +34490,29 @@
         "confidence": "medium",
         "source": "manual",
         "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Ljekovita odoljen",
+    "normalized": "ljekovita odoljen",
+    "language": "hr",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "HR"
+    ],
+    "country_usage": [
+      {
+        "country": "HR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -35362,6 +35847,31 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "BR"
+    ]
+  },
+  {
+    "name": "Macskagyökér",
+    "normalized": "macskagyoker",
+    "language": "hu",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "country_usage": [
+      {
+        "country": "HU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HU"
     ]
   },
   {
@@ -40820,6 +41330,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Nữ lang",
+    "normalized": "nu lang",
+    "language": "vi",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "VN"
+    ],
+    "country_usage": [
+      {
+        "country": "VN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "VN"
+    ]
+  },
+  {
     "name": "Oải hương",
     "normalized": "oai huong",
     "language": "vi",
@@ -40930,6 +41465,29 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Odolean",
+    "normalized": "odolean",
+    "language": "ro",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "country_usage": [
+      {
+        "country": "RO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -42248,6 +42806,29 @@
         "confidence": "medium",
         "source": "manual",
         "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Orvosi macskagyökér",
+    "normalized": "orvosi macskagyoker",
+    "language": "hu",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "country_usage": [
+      {
+        "country": "HU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
       }
     ],
     "ambiguity_level": "low",
@@ -46212,6 +46793,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Rohtovirmajuuri",
+    "normalized": "rohtovirmajuuri",
+    "language": "fi",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "FI"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "FI"
+    ]
   },
   {
     "name": "Romaní",
@@ -55681,6 +56287,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Tagar",
+    "normalized": "tagar",
+    "language": "en",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Tangawizi",
     "normalized": "tangawizi",
     "language": "sw",
@@ -58052,6 +58681,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Tıbbi kediotu",
+    "normalized": "tıbbi kediotu",
+    "language": "tr",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "country_usage": [
+      {
+        "country": "TR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Tıbbi lavanta",
     "normalized": "tıbbi lavanta",
     "language": "tr",
@@ -59410,6 +60062,1065 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Valeriaan",
+    "normalized": "valeriaan",
+    "language": "af",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "ZA"
+    ],
+    "country_usage": [
+      {
+        "country": "ZA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Valeriaan",
+    "normalized": "valeriaan",
+    "language": "nl",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "BE",
+      "NL"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "NL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "BE",
+      "NL"
+    ]
+  },
+  {
+    "name": "Valerian",
+    "normalized": "valerian",
+    "language": "en",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "GB",
+      "GH",
+      "IE",
+      "JM",
+      "KE",
+      "LK",
+      "MY",
+      "NG",
+      "NZ",
+      "PH",
+      "SG",
+      "TT",
+      "US",
+      "ZA",
+      "ZM",
+      "ZW"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "JM",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "KE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "LK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "NG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "NZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ZA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ZM",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ZW",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 18,
+    "dominant_in_countries": [
+      "AU",
+      "CA",
+      "GB",
+      "GH",
+      "IE",
+      "JM",
+      "KE",
+      "NG",
+      "NZ",
+      "SG",
+      "TT",
+      "US",
+      "ZA",
+      "ZM",
+      "ZW"
+    ]
+  },
+  {
+    "name": "Valerian",
+    "normalized": "valerian",
+    "language": "id",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "ID"
+    ],
+    "country_usage": [
+      {
+        "country": "ID",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ID"
+    ]
+  },
+  {
+    "name": "Valerian",
+    "normalized": "valerian",
+    "language": "ms",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "MY",
+      "SG"
+    ],
+    "country_usage": [
+      {
+        "country": "MY",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "SG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "MY"
+    ]
+  },
+  {
+    "name": "Valerian",
+    "normalized": "valerian",
+    "language": "tl",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "PH"
+    ],
+    "country_usage": [
+      {
+        "country": "PH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PH"
+    ]
+  },
+  {
+    "name": "Valerian officinal",
+    "normalized": "valerian officinal",
+    "language": "id",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "ID"
+    ],
+    "country_usage": [
+      {
+        "country": "ID",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Valeriana",
+    "normalized": "valeriana",
+    "language": "es",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "AR",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "CU",
+      "DO",
+      "EC",
+      "ES",
+      "GT",
+      "MX",
+      "PA",
+      "PE",
+      "PY",
+      "SV",
+      "US",
+      "UY",
+      "VE"
+    ],
+    "country_usage": [
+      {
+        "country": "AR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "BO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "EC",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ES",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MX",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PY",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SV",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "UY",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "VE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 18,
+    "dominant_in_countries": [
+      "AR",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "CU",
+      "DO",
+      "EC",
+      "ES",
+      "GT",
+      "MX",
+      "PA",
+      "PE",
+      "PY",
+      "SV",
+      "UY",
+      "VE"
+    ]
+  },
+  {
+    "name": "Valeriana",
+    "normalized": "valeriana",
+    "language": "gn",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "PY"
+    ],
+    "country_usage": [
+      {
+        "country": "PY",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Valeriana",
+    "normalized": "valeriana",
+    "language": "it",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "CH",
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "IT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "IT"
+    ]
+  },
+  {
+    "name": "Valeriana",
+    "normalized": "valeriana",
+    "language": "no",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Valeriana",
+    "normalized": "valeriana",
+    "language": "pt",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "BR",
+      "PT"
+    ],
+    "country_usage": [
+      {
+        "country": "BR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "BR",
+      "PT"
+    ]
+  },
+  {
+    "name": "Valeriană",
+    "normalized": "valeriana",
+    "language": "ro",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "country_usage": [
+      {
+        "country": "RO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RO"
+    ]
+  },
+  {
+    "name": "Valeriána",
+    "normalized": "valeriana",
+    "language": "sk",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "SK"
+    ],
+    "country_usage": [
+      {
+        "country": "SK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SK"
+    ]
+  },
+  {
+    "name": "Valeriana común",
+    "normalized": "valeriana comun",
+    "language": "es",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "AR",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "DO",
+      "EC",
+      "ES",
+      "GT",
+      "MX",
+      "PA",
+      "PE",
+      "PY",
+      "SV",
+      "UY",
+      "VE"
+    ],
+    "country_usage": [
+      {
+        "country": "AR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "BO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "DO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "EC",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "ES",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "GT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "MX",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "PA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "PE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "PY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "SV",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "UY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "VE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 16,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Valeriána lekárska",
+    "normalized": "valeriana lekarska",
+    "language": "sk",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "SK"
+    ],
+    "country_usage": [
+      {
+        "country": "SK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Valeriana medicinal",
+    "normalized": "valeriana medicinal",
+    "language": "es",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "CU"
+    ],
+    "country_usage": [
+      {
+        "country": "CU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Valeriana officinale",
+    "normalized": "valeriana officinale",
+    "language": "it",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "IT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Valeriana-comum",
+    "normalized": "valeriana comum",
+    "language": "pt",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "BR",
+      "PT"
+    ],
+    "country_usage": [
+      {
+        "country": "BR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "PT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Valériane",
+    "normalized": "valeriane",
+    "language": "fr",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "CH",
+      "DZ",
+      "FR",
+      "MA",
+      "SN",
+      "TN"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DZ",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 8,
+    "dominant_in_countries": [
+      "FR",
+      "SN"
+    ]
+  },
+  {
+    "name": "Valériane officinale",
+    "normalized": "valeriane officinale",
+    "language": "fr",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "FR",
+      "SN"
+    ],
+    "country_usage": [
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "SN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Valerijana",
+    "normalized": "valerijana",
+    "language": "hr",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "HR"
+    ],
+    "country_usage": [
+      {
+        "country": "HR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HR"
+    ]
+  },
+  {
     "name": "Valkosipuli",
     "normalized": "valkosipuli",
     "language": "fi",
@@ -59479,6 +61190,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Vänderot",
+    "normalized": "vanderot",
+    "language": "sv",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "SE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SE"
+    ]
   },
   {
     "name": "Vanlig fänkål",
@@ -59917,6 +61653,31 @@
     "name_country_count": 2,
     "dominant_in_countries": [
       "SE"
+    ]
+  },
+  {
+    "name": "Waleriana",
+    "normalized": "waleriana",
+    "language": "pl",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "country_usage": [
+      {
+        "country": "PL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PL"
     ]
   },
   {
@@ -62036,6 +63797,31 @@
     ]
   },
   {
+    "name": "Βαλεριάνα",
+    "normalized": "βαλεριανα",
+    "language": "el",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "GR"
+    ],
+    "country_usage": [
+      {
+        "country": "GR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "GR"
+    ]
+  },
+  {
     "name": "Βαλσαμόχορτο",
     "normalized": "βαλσαμοχορτο",
     "language": "el",
@@ -63545,6 +65331,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Φαρμακευτική βαλεριάνα",
+    "normalized": "φαρμακευτικη βαλεριανα",
+    "language": "el",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "GR"
+    ],
+    "country_usage": [
+      {
+        "country": "GR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Φασκόμηλο",
     "normalized": "φασκομηλο",
     "language": "el",
@@ -63933,6 +65742,127 @@
     "dominant_in_countries": [
       "BG"
     ]
+  },
+  {
+    "name": "Валериана",
+    "normalized": "валериана",
+    "language": "bg",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "country_usage": [
+      {
+        "country": "BG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "BG"
+    ]
+  },
+  {
+    "name": "Валериана",
+    "normalized": "валериана",
+    "language": "ru",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RU"
+    ]
+  },
+  {
+    "name": "Валериана лекарственная",
+    "normalized": "валериана лекарственная",
+    "language": "ru",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Валеріана",
+    "normalized": "валеріана",
+    "language": "uk",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "UA"
+    ]
+  },
+  {
+    "name": "Валеріана лікарська",
+    "normalized": "валеріана лікарська",
+    "language": "uk",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Ганодерма",
@@ -65997,6 +67927,29 @@
     "country_usage": [
       {
         "country": "UA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Лечебна валериана",
+    "normalized": "лечебна валериана",
+    "language": "bg",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "country_usage": [
+      {
+        "country": "BG",
         "is_primary": false,
         "confidence": "high",
         "source": "local_ethnobotany",
@@ -69205,6 +71158,54 @@
     "dominant_in_countries": []
   },
   {
+    "name": "ולריאן",
+    "normalized": "ולריאן",
+    "language": "he",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "IL"
+    ],
+    "country_usage": [
+      {
+        "country": "IL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IL"
+    ]
+  },
+  {
+    "name": "ולריאנה רפואית",
+    "normalized": "ולריאנה רפואית",
+    "language": "he",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "IL"
+    ],
+    "country_usage": [
+      {
+        "country": "IL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "זנגביל",
     "normalized": "זנגביל",
     "language": "he",
@@ -71583,6 +73584,66 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 4,
+    "dominant_in_countries": [
+      "DZ",
+      "EG",
+      "MA",
+      "TN"
+    ]
+  },
+  {
+    "name": "الناردين",
+    "normalized": "الناردين",
+    "language": "ar",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "DZ",
+      "EG",
+      "IL",
+      "MA",
+      "TN"
+    ],
+    "country_usage": [
+      {
+        "country": "DZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "EG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "IL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 5,
     "dominant_in_countries": [
       "DZ",
       "EG",
@@ -74012,6 +76073,52 @@
     "dominant_in_countries": []
   },
   {
+    "name": "سنبل الطیب",
+    "normalized": "سنبل الطیب",
+    "language": "fa",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "IR"
+    ],
+    "country_usage": [
+      {
+        "country": "IR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "سنبل الطیب",
+    "normalized": "سنبل الطیب",
+    "language": "ur",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "PK"
+    ],
+    "country_usage": [
+      {
+        "country": "PK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "سنوت",
     "normalized": "سنوت",
     "language": "ar",
@@ -74610,6 +76717,53 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "فاليريان",
+    "normalized": "فاليريان",
+    "language": "ar",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "DZ",
+      "EG",
+      "MA",
+      "TN"
+    ],
+    "country_usage": [
+      {
+        "country": "DZ",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "EG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "MA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "TN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
     "dominant_in_countries": []
   },
   {
@@ -76465,6 +78619,56 @@
     ]
   },
   {
+    "name": "والرین",
+    "normalized": "والرین",
+    "language": "fa",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "IR"
+    ],
+    "country_usage": [
+      {
+        "country": "IR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IR"
+    ]
+  },
+  {
+    "name": "والیرین",
+    "normalized": "والیرین",
+    "language": "ur",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "PK"
+    ],
+    "country_usage": [
+      {
+        "country": "PK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PK"
+    ]
+  },
+  {
     "name": "يربا ماتيه",
     "normalized": "يربا ماتيه",
     "language": "ar",
@@ -76840,6 +79044,31 @@
         "country": "ET",
         "is_primary": true,
         "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ET"
+    ]
+  },
+  {
+    "name": "ቫለሪያን",
+    "normalized": "ቫለሪያን",
+    "language": "am",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "ET"
+    ],
+    "country_usage": [
+      {
+        "country": "ET",
+        "is_primary": true,
+        "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "linguistic"
       }
@@ -78270,6 +80499,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "वलेरियन",
+    "normalized": "वलेरियन",
+    "language": "hi",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IN"
+    ]
+  },
+  {
     "name": "सहजन",
     "normalized": "सहजन",
     "language": "hi",
@@ -79046,6 +81300,37 @@
     "dominant_in_countries": []
   },
   {
+    "name": "வலேரியன்",
+    "normalized": "வலேரியன்",
+    "language": "ta",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "IN",
+      "LK"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "LK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
     "name": "ஜிங்கோ பிலோபா",
     "normalized": "ஜிங்கோ பிலோபா",
     "language": "ta",
@@ -79703,6 +81988,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "වැලේරියන්",
+    "normalized": "වැලේරියන්",
+    "language": "si",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "LK"
+    ],
+    "country_usage": [
+      {
+        "country": "LK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "LK"
+    ]
   },
   {
     "name": "සුදු ළූණු",
@@ -80924,6 +83234,54 @@
     "dominant_in_countries": []
   },
   {
+    "name": "วาเลอเรียน",
+    "normalized": "วาเลอเรียน",
+    "language": "th",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "TH"
+    ],
+    "country_usage": [
+      {
+        "country": "TH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "TH"
+    ]
+  },
+  {
+    "name": "วาเลอเรียนสามัญ",
+    "normalized": "วาเลอเรียนสามัญ",
+    "language": "th",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "TH"
+    ],
+    "country_usage": [
+      {
+        "country": "TH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "สเปียร์มินต์",
     "normalized": "สเปียร์มินต์",
     "language": "th",
@@ -82097,6 +84455,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "발레리안",
+    "normalized": "발레리안",
+    "language": "ko",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "country_usage": [
+      {
+        "country": "KR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "KR"
+    ]
+  },
+  {
     "name": "보통 마늘",
     "normalized": "보통 마늘",
     "language": "ko",
@@ -82267,6 +84650,29 @@
     "language": "ko",
     "plant_ids": [
       "hypericum_perforatum"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "country_usage": [
+      {
+        "country": "KR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "서양쥐오줌풀",
+    "normalized": "서양쥐오줌풀",
+    "language": "ko",
+    "plant_ids": [
+      "valeriana_officinalis"
     ],
     "countries": [
       "KR"
@@ -84099,6 +86505,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "セイヨウカノコソウ",
+    "normalized": "セイヨウカノコソウ",
+    "language": "ja",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "country_usage": [
+      {
+        "country": "JP",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "JP"
+    ]
+  },
+  {
     "name": "セイロンシナモン",
     "normalized": "セイロンシナモン",
     "language": "ja",
@@ -84405,6 +86836,29 @@
         "confidence": "medium",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "バレリアン",
+    "normalized": "バレリアン",
+    "language": "ja",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "country_usage": [
+      {
+        "country": "JP",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
       }
     ],
     "ambiguity_level": "low",
@@ -86881,6 +89335,72 @@
     "dominant_in_countries": []
   },
   {
+    "name": "缬草",
+    "normalized": "缬草",
+    "language": "zh",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "CN",
+      "MY",
+      "SG"
+    ],
+    "country_usage": [
+      {
+        "country": "CN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "CN"
+    ]
+  },
+  {
+    "name": "纈草",
+    "normalized": "纈草",
+    "language": "zh",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "TW"
+    ],
+    "country_usage": [
+      {
+        "country": "TW",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "TW"
+    ]
+  },
+  {
     "name": "罗勒",
     "normalized": "罗勒",
     "language": "zh",
@@ -87396,6 +89916,29 @@
     ]
   },
   {
+    "name": "药用缬草",
+    "normalized": "药用缬草",
+    "language": "zh",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "country_usage": [
+      {
+        "country": "CN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "药用鼠尾草",
     "normalized": "药用鼠尾草",
     "language": "zh",
@@ -87782,6 +90325,29 @@
     "dominant_in_countries": [
       "CN"
     ]
+  },
+  {
+    "name": "藥用纈草",
+    "normalized": "藥用纈草",
+    "language": "zh",
+    "plant_ids": [
+      "valeriana_officinalis"
+    ],
+    "countries": [
+      "TW"
+    ],
+    "country_usage": [
+      {
+        "country": "TW",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "藥用鼠尾草",
