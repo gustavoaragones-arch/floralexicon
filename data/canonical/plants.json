@@ -3,7 +3,7 @@
     "schema_version": "1.0",
     "tier_scope": "tier1",
     "description": "FloraLexicon Tier 1 canonical plant master list. Every plant here is globally commercially significant and must resolve correctly in every supported country in its tier file. Kingdom field distinguishes plants from fungi/cyanobacteria/etc. Synonyms list alternate scientific names that may appear in raw data sources — the resolver maps them to the canonical plant_id.",
-    "plant_count": 89,
+    "plant_count": 95,
     "last_updated": "2026-06-03"
   },
   "plants": [
@@ -22,6 +22,18 @@
       "kingdom": "plant",
       "common_name_en": "Baobab",
       "synonyms": []
+    },
+    {
+      "plant_id": "allium_cepa",
+      "scientific_name": "Allium cepa",
+      "family": "Amaryllidaceae",
+      "kingdom": "Plantae",
+      "common_name_en": "Onion",
+      "synonyms": [
+        "common onion",
+        "bulb onion",
+        "garden onion"
+      ]
     },
     {
       "plant_id": "allium_sativum",
@@ -174,6 +186,18 @@
       "synonyms": []
     },
     {
+      "plant_id": "cinnamomum_cassia",
+      "scientific_name": "Cinnamomum cassia",
+      "family": "Lauraceae",
+      "kingdom": "Plantae",
+      "common_name_en": "Cassia",
+      "synonyms": [
+        "Chinese cinnamon",
+        "cassia cinnamon",
+        "Cinnamomum aromaticum"
+      ]
+    },
+    {
       "plant_id": "cinnamomum_verum",
       "scientific_name": "Cinnamomum verum",
       "family": "Lauraceae",
@@ -226,6 +250,18 @@
       "kingdom": "plant",
       "common_name_en": "Turmeric",
       "synonyms": []
+    },
+    {
+      "plant_id": "curcuma_zedoaria",
+      "scientific_name": "Curcuma zedoaria",
+      "family": "Zingiberaceae",
+      "kingdom": "Plantae",
+      "common_name_en": "Zedoary",
+      "synonyms": [
+        "white turmeric",
+        "zedoary",
+        "temu putih"
+      ]
     },
     {
       "plant_id": "cymbopogon_citratus",
@@ -457,6 +493,19 @@
       "synonyms": []
     },
     {
+      "plant_id": "nigella_sativa",
+      "scientific_name": "Nigella sativa",
+      "family": "Ranunculaceae",
+      "kingdom": "Plantae",
+      "common_name_en": "Black seed",
+      "synonyms": [
+        "black cumin",
+        "kalonji",
+        "nigella",
+        "black caraway"
+      ]
+    },
+    {
       "plant_id": "ocimum_basilicum",
       "scientific_name": "Ocimum basilicum",
       "family": "Lamiaceae",
@@ -489,6 +538,17 @@
       "kingdom": "plant",
       "common_name_en": "Ginseng",
       "synonyms": []
+    },
+    {
+      "plant_id": "panax_quinquefolius",
+      "scientific_name": "Panax quinquefolius",
+      "family": "Araliaceae",
+      "kingdom": "Plantae",
+      "common_name_en": "American ginseng",
+      "synonyms": [
+        "American ginseng",
+        "five-leaf ginseng"
+      ]
     },
     {
       "plant_id": "passiflora_incarnata",
@@ -537,6 +597,17 @@
       "kingdom": "plant",
       "common_name_en": "Anise",
       "synonyms": []
+    },
+    {
+      "plant_id": "piper_longum",
+      "scientific_name": "Piper longum",
+      "family": "Piperaceae",
+      "kingdom": "Plantae",
+      "common_name_en": "Long pepper",
+      "synonyms": [
+        "Indian long pepper",
+        "pipali"
+      ]
     },
     {
       "plant_id": "piper_nigrum",
