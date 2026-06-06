@@ -1,0 +1,1450 @@
+{
+  "plant_id": "urtica_dioica",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Ortiga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Ortiga mayor",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for stinging nettle"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Große Brennnessel",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Brennnessel",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for stinging nettle"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Stinging nettle",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Common nettle",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for stinging nettle"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Grote brandnetel",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Ortie dioïque",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Große Brennnessel",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for stinging nettle"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Коприва",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for stinging nettle",
+        "transliteration": "kopriva",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Голяма коприва",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for stinging nettle",
+        "transliteration": "golyama kopriva",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Ortiga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Ortiga mayor",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for stinging nettle"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Urtiga",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Urtiga-maior",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for stinging nettle"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Stinging nettle",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Ortie dioïque",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for stinging nettle"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Große Brennnessel",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Ortie dioïque",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Ortica dioica",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for stinging nettle"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Ortiga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Ortiga mayor",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for stinging nettle"
+      }
+    ],
+    "CN": [
+      {
+        "name": "荨麻",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for stinging nettle",
+        "transliteration": "xún má",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "大荨麻",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for stinging nettle",
+        "transliteration": "dà xún má",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Ortiga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Ortiga mayor",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for stinging nettle"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Ortiga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Ortiga mayor",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for stinging nettle"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Ortiga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Ortiga brava",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for stinging nettle"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Kopřiva dvoudomá",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Kopřiva",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for stinging nettle"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Große Brennnessel",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Brennnessel",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for stinging nettle"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Stor nælde",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Brændenælde",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for stinging nettle"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Ortiga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Ortiga mayor",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for stinging nettle"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "القراص",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for stinging nettle",
+        "transliteration": "al-qurras",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الحريقة",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for stinging nettle",
+        "transliteration": "al-hariqa",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Ortie dioïque",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for stinging nettle"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Ortiga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Ortiga mayor",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for stinging nettle"
+      }
+    ],
+    "EG": [
+      {
+        "name": "القراص",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for stinging nettle",
+        "transliteration": "al-qurras",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الحريقة",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for stinging nettle",
+        "transliteration": "al-hariqa",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Ortiga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Ortiga mayor",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for stinging nettle"
+      }
+    ],
+    "ET": [
+      {
+        "name": "ኔትል",
+        "language": "am",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for nettle",
+        "transliteration": "netil",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "የሚያቃጥል ሣር",
+        "language": "am",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for nettle",
+        "transliteration": "yemiyaqatil sar",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Nokkonen",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Brännässla",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for stinging nettle"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Ortie dioïque",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Grande ortie",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for stinging nettle"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Stinging nettle",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Common nettle",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for stinging nettle"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Stinging nettle",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Nettle",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for stinging nettle"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Τσουκνίδα",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for stinging nettle",
+        "transliteration": "tsouknida",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Κνίδη",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for stinging nettle",
+        "transliteration": "knidi",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Ortiga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Ortiga mayor",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for stinging nettle"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Kopriva",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Velika kopriva",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for stinging nettle"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Nagy csalán",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Csalán",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for stinging nettle"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Jelatang",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Jelatang besar",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for stinging nettle"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Stinging nettle",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Common nettle",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for stinging nettle"
+      }
+    ],
+    "IL": [
+      {
+        "name": "סרפד דו-ביתי",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for stinging nettle",
+        "transliteration": "sarpad du-baiti",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "סרפד",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for stinging nettle",
+        "transliteration": "sarpad",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "القراص",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for stinging nettle",
+        "transliteration": "al-qurras",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "बिच्छू बूटी",
+        "language": "hi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for stinging nettle",
+        "transliteration": "bichhu buti",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Stinging nettle",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for stinging nettle"
+      }
+    ],
+    "IR": [
+      {
+        "name": "گزنه",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for stinging nettle",
+        "transliteration": "gazaneh",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "گزنه بزرگ",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for stinging nettle",
+        "transliteration": "gazaneh bozorg",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Ortica",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Ortica dioica",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for stinging nettle"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Stinging nettle",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Common nettle",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for stinging nettle"
+      }
+    ],
+    "JP": [
+      {
+        "name": "セイヨウイラクサ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for stinging nettle",
+        "transliteration": "seiyō irakusa",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "イラクサ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for stinging nettle",
+        "transliteration": "irakusa",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Stinging nettle",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Nettle",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for stinging nettle"
+      }
+    ],
+    "KR": [
+      {
+        "name": "쐐기풀",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for stinging nettle",
+        "transliteration": "sswaegipul",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "큰쐐기풀",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for stinging nettle",
+        "transliteration": "keun sswaegipul",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "නෙට්ල්",
+        "language": "si",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for nettle",
+        "transliteration": "netl",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "ஸ்டிங்கிங் நெட்டில்",
+        "language": "ta",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for nettle",
+        "transliteration": "stinging nettle",
+        "transliteration_scheme": "iso_15919"
+      }
+    ],
+    "MA": [
+      {
+        "name": "القراص",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for stinging nettle",
+        "transliteration": "al-qurras",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الحريقة",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for stinging nettle",
+        "transliteration": "al-hariqa",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Ortie dioïque",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for stinging nettle"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Ortiga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Ortiga mayor",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for stinging nettle"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Jelatang",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "荨麻",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for stinging nettle",
+        "transliteration": "xún má",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Stinging nettle",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Nettle",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for stinging nettle"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Grote brandnetel",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Brandnetel",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for stinging nettle"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Brennesle",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Stor brennesle",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for stinging nettle"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Stinging nettle",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Common nettle",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for stinging nettle"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Ortiga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Ortiga mayor",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for stinging nettle"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Ortiga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Ortiga mayor",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for stinging nettle"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Nettle",
+        "language": "tl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Philippines vernacular and descriptive terminology for nettle"
+      },
+      {
+        "name": "Stinging nettle",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for stinging nettle"
+      }
+    ],
+    "PK": [
+      {
+        "name": "بچھو بوٹی",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for stinging nettle",
+        "transliteration": "bichhu booti",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "نیٹل",
+        "language": "ur",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Pakistan vernacular and descriptive terminology for nettle",
+        "transliteration": "nettle",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Pokrzywa zwyczajna",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Pokrzywa",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for stinging nettle"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Urtiga",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Urtiga-maior",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for stinging nettle"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Ortiga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Ortiga mayor",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Pyno ka'a",
+        "language": "gn",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for stinging nettle"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Urzică",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Urzică mare",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for stinging nettle"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Крапива двудомная",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for stinging nettle",
+        "transliteration": "krapiva dvudomnaya",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Крапива",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for stinging nettle",
+        "transliteration": "krapiva",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Brännässla",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Stor brännässla",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for stinging nettle"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Stinging nettle",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "荨麻",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for stinging nettle",
+        "transliteration": "xún má",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Jelatang",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for stinging nettle"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Pŕhľava dvojdomá",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Pŕhľava",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for stinging nettle"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Ortie dioïque",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Grande ortie",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for stinging nettle"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Ortiga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Ortiga mayor",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for stinging nettle"
+      }
+    ],
+    "TH": [
+      {
+        "name": "ตำแย",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for stinging nettle",
+        "transliteration": "tamyae",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "สติงกิงเนตเทิล",
+        "language": "th",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for nettle",
+        "transliteration": "stinging nettle",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "القراص",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for stinging nettle",
+        "transliteration": "al-qurras",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الحريقة",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for stinging nettle",
+        "transliteration": "al-hariqa",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Ortie dioïque",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for stinging nettle"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Isırgan otu",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Büyük ısırgan",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for stinging nettle"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Stinging nettle",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Common nettle",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for stinging nettle"
+      }
+    ],
+    "TW": [
+      {
+        "name": "蕁麻",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for stinging nettle",
+        "transliteration": "xún má",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "大蕁麻",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for stinging nettle",
+        "transliteration": "dà xún má",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Кропива дводомна",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for stinging nettle",
+        "transliteration": "kropyva dvodomna",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Кропива",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for stinging nettle",
+        "transliteration": "kropyva",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "Stinging nettle",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Common nettle",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Ortiga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for stinging nettle"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Ortiga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Ortiga mayor",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for stinging nettle"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Ortiga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Ortiga mayor",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for stinging nettle"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Tầm ma",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Cây tầm ma",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for stinging nettle"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Stinging nettle",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Brandnetel",
+        "language": "af",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Common nettle",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for stinging nettle"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Stinging nettle",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Common nettle",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for stinging nettle"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Stinging nettle",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for stinging nettle"
+      },
+      {
+        "name": "Common nettle",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for stinging nettle"
+      }
+    ]
+  }
+}
