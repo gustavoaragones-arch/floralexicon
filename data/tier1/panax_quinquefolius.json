@@ -1,0 +1,1480 @@
+{
+  "plant_id": "panax_quinquefolius",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Ginseng americano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Ginseng de América",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Argentina vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Amerikanischer Ginseng",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Fünfblättriger Ginseng",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Austria vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "AU": [
+      {
+        "name": "American ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Five-leaf ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Australia vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Amerikaanse ginseng",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Ginseng américain",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Amerikanischer Ginseng",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for American ginseng"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Американски женшен",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for American ginseng",
+        "transliteration": "amerikanski zhenshen",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Петлистен женшен",
+        "language": "bg",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bulgaria vernacular and descriptive terminology for American ginseng",
+        "transliteration": "petlisten zhenshen",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Ginseng americano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Ginseng de América",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bolivia vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Ginseng americano",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Ginseng de cinco folhas",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Brazil vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "CA": [
+      {
+        "name": "American ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Ginseng américain",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for American ginseng"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Amerikanischer Ginseng",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Ginseng américain",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Ginseng americano",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for American ginseng"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Ginseng americano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Ginseng de América",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Chile vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "CN": [
+      {
+        "name": "西洋参",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for American ginseng",
+        "transliteration": "xī yáng shēn",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "花旗参",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for American ginseng",
+        "transliteration": "huā qí shēn",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Ginseng americano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Ginseng de América",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Colombia vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Ginseng americano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Ginseng de América",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Costa Rica vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Ginseng americano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Ginseng de América",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Cuba vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Americký ženšen",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Pětilistý ženšen",
+        "language": "cs",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Czech Republic vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Amerikanischer Ginseng",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Fünfblättriger Ginseng",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Germany vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Amerikansk ginseng",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Fembladet ginseng",
+        "language": "da",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Denmark vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Ginseng americano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Ginseng de América",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Dominican Republic vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "الجينسنغ الأمريكي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for American ginseng",
+        "transliteration": "al-jinsing al-amriki",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "جينسنغ أمريكي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Algeria vernacular and descriptive terminology for American ginseng",
+        "transliteration": "jinsing amriki",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Ginseng américain",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for American ginseng"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Ginseng americano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Ginseng de América",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ecuador vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "EG": [
+      {
+        "name": "الجينسنغ الأمريكي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for American ginseng",
+        "transliteration": "al-jinsing al-amriki",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "جينسنغ أمريكي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Egypt vernacular and descriptive terminology for American ginseng",
+        "transliteration": "jinsing amriki",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Ginseng americano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Ginseng de América",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Spain vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "ET": [
+      {
+        "name": "አሜሪካን ጂንሰንግ",
+        "language": "am",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for American ginseng",
+        "transliteration": "american jinseng",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ጂንሰንግ",
+        "language": "am",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for American ginseng",
+        "transliteration": "jinseng",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Amerikaninseng",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Amerikan ginseng",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for American ginseng"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Ginseng américain",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Ginseng à cinq folioles",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "France vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "GB": [
+      {
+        "name": "American ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Five-leaf ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "United Kingdom vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "GH": [
+      {
+        "name": "American ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Five-leaf ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ghana vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Αμερικανικό τζίνσενγκ",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for American ginseng",
+        "transliteration": "amerikaniko tzinsengk",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Πεντάφυλλο τζίνσενγκ",
+        "language": "el",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Greece vernacular and descriptive terminology for American ginseng",
+        "transliteration": "pentafyllo tzinsengk",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Ginseng americano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Ginseng de América",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Guatemala vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Američki ginseng",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Petolisni ginseng",
+        "language": "hr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Croatia vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Amerikai ginzeng",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Ötlevelű ginzeng",
+        "language": "hu",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Hungary vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Ginseng Amerika",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Ginseng lima daun",
+        "language": "id",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Indonesia vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "IE": [
+      {
+        "name": "American ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Five-leaf ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ireland vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "IL": [
+      {
+        "name": "ג'ינסנג אמריקאי",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for American ginseng",
+        "transliteration": "jinseng amerikai",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ג'ינסנג חמשת העלים",
+        "language": "he",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Israel vernacular and descriptive terminology for American ginseng",
+        "transliteration": "jinseng hameshet he'alim",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الجينسنغ الأمريكي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for American ginseng",
+        "transliteration": "al-jinsing al-amriki",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "अमेरिकी जिनसेंग",
+        "language": "hi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "India vernacular and descriptive terminology for American ginseng",
+        "transliteration": "ameriki jinseng",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "American ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "அமெரிக்க ஜின்செங்",
+        "language": "ta",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "India vernacular and descriptive terminology for American ginseng",
+        "transliteration": "amerikka jinseng",
+        "transliteration_scheme": "iso_15919"
+      }
+    ],
+    "IR": [
+      {
+        "name": "جینسینگ آمریکایی",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for American ginseng",
+        "transliteration": "jinseng-e amrikayi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "جینسینگ پنج‌برگ",
+        "language": "fa",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Iran vernacular and descriptive terminology for American ginseng",
+        "transliteration": "jinseng-e panj barg",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Ginseng americano",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Ginseng a cinque foglie",
+        "language": "it",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Italy vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "JM": [
+      {
+        "name": "American ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Five-leaf ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Jamaica vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "JP": [
+      {
+        "name": "アメリカニンジン",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for American ginseng",
+        "transliteration": "amerika ninjin",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "西洋人参",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for American ginseng",
+        "transliteration": "seiyo ninjin",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "American ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Ginseng ya Marekani",
+        "language": "sw",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Five-leaf ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Kenya vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "KR": [
+      {
+        "name": "미국인삼",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for American ginseng",
+        "transliteration": "miguk insam",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "서양삼",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for American ginseng",
+        "transliteration": "seoyangsam",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "ඇමරිකානු ජින්සෙන්ග්",
+        "language": "si",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for American ginseng",
+        "transliteration": "amerikanu jinseng",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "அமெரிக்க ஜின்செங்",
+        "language": "ta",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for American ginseng",
+        "transliteration": "amerikka jinseng",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "American ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for American ginseng"
+      }
+    ],
+    "MA": [
+      {
+        "name": "الجينسنغ الأمريكي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for American ginseng",
+        "transliteration": "al-jinsing al-amriki",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "جينسنغ أمريكي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Morocco vernacular and descriptive terminology for American ginseng",
+        "transliteration": "jinsing amriki",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Ginseng américain",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for American ginseng"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Ginseng americano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Ginseng de América",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Mexico vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Ginseng Amerika",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "American ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "西洋参",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for American ginseng",
+        "transliteration": "xī yáng shēn",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "American ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Five-leaf ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Nigeria vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Amerikaanse ginseng",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Vijfbladige ginseng",
+        "language": "nl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Netherlands vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Amerikansk ginseng",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Fembladet ginseng",
+        "language": "no",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Norway vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "American ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Five-leaf ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "New Zealand vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Ginseng americano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Ginseng de América",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Panama vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Ginseng americano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Ginseng de América",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Peru vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "PH": [
+      {
+        "name": "American ginseng",
+        "language": "tl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Philippines vernacular and descriptive terminology for American ginseng"
+      },
+      {
+        "name": "American ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for American ginseng"
+      }
+    ],
+    "PK": [
+      {
+        "name": "امریکی جنسینگ",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for American ginseng",
+        "transliteration": "amriki jinseng",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "پانچ پتوں والا جنسینگ",
+        "language": "ur",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Pakistan vernacular and descriptive terminology for American ginseng",
+        "transliteration": "panch patton wala jinseng",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Żeń-szeń amerykański",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Żeń-szeń pięciolistkowy",
+        "language": "pl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Poland vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Ginseng americano",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Ginseng de cinco folhas",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Portugal vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Ginseng americano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Ginseng de América",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and descriptive terminology for American ginseng"
+      },
+      {
+        "name": "Ginseng americano",
+        "language": "gn",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Ginseng american",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Ginseng cu cinci frunze",
+        "language": "ro",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Romania vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Американский женьшень",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for American ginseng",
+        "transliteration": "amerikanskiy zhenshen",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Пятилистный женьшень",
+        "language": "ru",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Russia vernacular and descriptive terminology for American ginseng",
+        "transliteration": "pyatilistnyy zhenshen",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Amerikansk ginseng",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Fembladig ginseng",
+        "language": "sv",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sweden vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "SG": [
+      {
+        "name": "American ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "西洋参",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for American ginseng",
+        "transliteration": "xī yáng shēn",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Ginseng Amerika",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for American ginseng"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Americký ženšen",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Päťlistý ženšen",
+        "language": "sk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Slovakia vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Ginseng américain",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Ginseng à cinq folioles",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Senegal vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Ginseng americano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Ginseng de América",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "El Salvador vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "TH": [
+      {
+        "name": "โสมอเมริกัน",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for American ginseng",
+        "transliteration": "som amerigan",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "โสมห้าใบ",
+        "language": "th",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for American ginseng",
+        "transliteration": "som ha bai",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "الجينسنغ الأمريكي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for American ginseng",
+        "transliteration": "al-jinsing al-amriki",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "جينسنغ أمريكي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Tunisia vernacular and descriptive terminology for American ginseng",
+        "transliteration": "jinsing amriki",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Ginseng américain",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for American ginseng"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Amerikan ginsengi",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Beş yapraklı ginseng",
+        "language": "tr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Turkey vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "TT": [
+      {
+        "name": "American ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Five-leaf ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Trinidad and Tobago vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "TW": [
+      {
+        "name": "西洋參",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for American ginseng",
+        "transliteration": "xī yáng shēn",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "花旗參",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for American ginseng",
+        "transliteration": "huā qí shēn",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Американський женьшень",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for American ginseng",
+        "transliteration": "amerykanskyi zhenshen",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "П'ятилистий женьшень",
+        "language": "uk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ukraine vernacular and descriptive terminology for American ginseng",
+        "transliteration": "pyatylystyi zhenshen",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "American ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Five-leaf ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "United States vernacular and descriptive terminology for American ginseng"
+      },
+      {
+        "name": "Ginseng americano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for American ginseng"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Ginseng americano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Ginseng de América",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Uruguay vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Ginseng americano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Ginseng de América",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Venezuela vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Nhân sâm Mỹ",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Sâm Hoa Kỳ",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for American ginseng"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "American ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Amerikaanse ginseng",
+        "language": "af",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Five-leaf ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Africa vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "American ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Five-leaf ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Zambia vernacular and descriptive terminology for American ginseng"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "American ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for American ginseng"
+      },
+      {
+        "name": "Five-leaf ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Zimbabwe vernacular and descriptive terminology for American ginseng"
+      }
+    ]
+  }
+}
