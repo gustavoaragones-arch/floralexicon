@@ -147,7 +147,7 @@ export function buildNamesSitemapXml(origin: string): string {
     lines.push("  <url>");
     lines.push(`    <loc>${escapeXml(en)}</loc>`);
     lines.push(`    <changefreq>weekly</changefreq>`);
-    lines.push(`    <priority>0.9</priority>`);
+    lines.push(`    <priority>0.8</priority>`);
     lines.push(`    <xhtml:link rel="alternate" hreflang="en" href="${escapeXml(en)}"/>`);
     lines.push(`    <xhtml:link rel="alternate" hreflang="es" href="${escapeXml(es)}"/>`);
     lines.push(
@@ -171,7 +171,7 @@ export function buildPlantsSitemapXml(origin: string): string {
     lines.push("  <url>");
     lines.push(`    <loc>${escapeXml(en)}</loc>`);
     lines.push(`    <changefreq>monthly</changefreq>`);
-    lines.push(`    <priority>0.7</priority>`);
+    lines.push(`    <priority>0.9</priority>`);
     lines.push(`    <xhtml:link rel="alternate" hreflang="en" href="${escapeXml(en)}"/>`);
     lines.push(`    <xhtml:link rel="alternate" hreflang="es" href="${escapeXml(es)}"/>`);
     lines.push(

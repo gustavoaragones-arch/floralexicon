@@ -1,5 +1,5 @@
 /** Canonical site URL for metadata and JSON-LD. */
-export const SITE_URL = "https://floralexicon.com";
+export const SITE_URL = "https://www.floralexicon.com";
 
 /** Absolute origin for XML sitemaps (www), e.g. Google Search Console. */
 export const SITEMAP_ORIGIN = "https://www.floralexicon.com";

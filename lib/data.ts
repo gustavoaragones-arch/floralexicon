@@ -23,6 +23,7 @@ export type Plant = {
   origin_regions: string[];
   plant_type: string;
   primary_uses: string[];
+  common_name_en?: string;
   /**
    * Regional inventory ISO codes from `data/processed/plants.json` (merged dataset),
    * when present. Used for geo UI (e.g. country selector), not name-row coverage.

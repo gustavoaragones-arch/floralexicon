@@ -38,6 +38,7 @@ import {
   type Locale,
 } from "@/lib/i18n";
 import { getPlantByRouteId } from "@/lib/resolver";
+import { SITE_URL } from "@/lib/site";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -68,13 +69,18 @@ export function generateMetadata({ params }: Props): Metadata {
     };
   }
 
+  const title = ti(lang, "plant_detail_meta_title_positioning", {
+    name: plant.scientific_name,
+    commonName: plant.common_name_en ?? plant.scientific_name,
+  });
+  const description = ti(lang, "plant_detail_meta_desc_positioning", {
+    name: plant.scientific_name,
+    commonName: plant.common_name_en ?? plant.scientific_name,
+  });
+
   return {
-    title: ti(lang, "plant_detail_meta_title_positioning", {
-      name: plant.scientific_name,
-    }),
-    description: ti(lang, "plant_detail_meta_desc_positioning", {
-      name: plant.scientific_name,
-    }),
+    title,
+    description,
     alternates: {
       canonical: lang === "es" ? alt.es : alt.en,
       languages: {
@@ -82,6 +88,12 @@ export function generateMetadata({ params }: Props): Metadata {
         es: alt.es,
         "x-default": alt.xDefault,
       },
+    },
+    openGraph: {
+      url: `${SITE_URL}/${params.lang}/plant/${params.slug}`,
+      siteName: "FloraLexicon",
+      title,
+      description,
     },
   };
 }

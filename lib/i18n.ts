@@ -741,7 +741,7 @@ const dictionary = {
 
     plant_detail_meta_title: "{name} — uses, benefits, safety | FloraLexicon",
     plant_detail_meta_title_v2: "{name}: uses, benefits, safety, and risks | FloraLexicon",
-    plant_detail_meta_title_positioning: "{name} — Common Names Across Countries",
+    plant_detail_meta_title_positioning: "{commonName} ({name}) — Names in 76 Countries | FloraLexicon",
     plant_detail_meta_desc_positioning:
       "Local and regional herb names for {name} across countries. Compare labels by region and verify the species in FloraLexicon.",
     plant_detail_meta_desc:
@@ -1521,7 +1521,7 @@ const dictionary = {
 
     plant_detail_meta_title: "{name} — usos, beneficios y seguridad | FloraLexicon",
     plant_detail_meta_title_v2: "{name}: usos, beneficios, seguridad y riesgos | FloraLexicon",
-    plant_detail_meta_title_positioning: "{name} — Nombres comunes entre países",
+    plant_detail_meta_title_positioning: "{commonName} ({name}) — Nombres en 76 países | FloraLexicon",
     plant_detail_meta_desc_positioning:
       "Nombres locales y regionales de {name} en distintos países. Compara etiquetas por región y verifica la especie en FloraLexicon.",
     plant_detail_meta_desc:
