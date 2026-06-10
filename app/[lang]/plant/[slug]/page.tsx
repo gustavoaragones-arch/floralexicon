@@ -182,8 +182,24 @@ export default function PlantPage({ params }: Props) {
   const similarByUses = getPlantsSharingPrimaryUses(plant, 14);
   const namesByCountry = getNamesGroupedByCountryForPlant(plant.id);
 
+  const thingJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Thing",
+    name: plant.scientific_name,
+    alternateName: [plant.common_name_en, ...model.displayNames].filter(
+      (n, i, arr) => n && arr.indexOf(n) === i
+    ),
+    description: `${plant.common_name_en ?? plant.scientific_name} is known by different names across countries. FloraLexicon documents the local names used in each country.`,
+    url: `${SITE_URL}/${lang}/plant/${plant.id}`,
+  };
+
   return (
-    <main className="mx-auto w-full max-w-[1000px] px-6 py-14">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(thingJsonLd) }}
+      />
+      <main className="mx-auto w-full max-w-[1000px] px-6 py-14">
       <p className="mb-8 rounded-xl border border-stone-200 bg-stone-50/90 px-4 py-3 text-sm leading-relaxed text-stone-700 dark:border-stone-700 dark:bg-stone-900/50 dark:text-stone-300">
         {lang === "es"
           ? "Esta página es una referencia botánica detallada. Para traducciones del nombre entre países, consulta"
@@ -212,5 +228,6 @@ export default function PlantPage({ params }: Props) {
       <PlantSourcesFootnote lang={lang} />
       <PlantExploreSection lang={lang} plant={plant} />
     </main>
+  </>
   );
 }
