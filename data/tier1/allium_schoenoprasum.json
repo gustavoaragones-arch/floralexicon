@@ -1,0 +1,1501 @@
+{
+  "plant_id": "allium_schoenoprasum",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Ciboulette",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for chives"
+      },
+      {
+        "name": "Cebollino",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for chives"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Schnittlauch",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for chives"
+      },
+      {
+        "name": "Binsenlauch",
+        "language": "de",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for chives"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Chives",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for chives"
+      },
+      {
+        "name": "Common chives",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for chives"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Bieslook",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for chives"
+      },
+      {
+        "name": "Ciboulette",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for chives"
+      },
+      {
+        "name": "Schnittlauch",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for chives"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Див лук",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for chives",
+        "transliteration": "div luk",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Шнит лук",
+        "language": "bg",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bulgaria vernacular and descriptive terminology for chives",
+        "transliteration": "shnit luk",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Cebollino",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for chives"
+      },
+      {
+        "name": "Ciboulette",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Bolivia vernacular and descriptive terminology for chives"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Cebolinha",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for chives"
+      },
+      {
+        "name": "Cebolinha-francesa",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for chives"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Chives",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for chives"
+      },
+      {
+        "name": "Ciboulette",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for chives"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Schnittlauch",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for chives"
+      },
+      {
+        "name": "Ciboulette",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for chives"
+      },
+      {
+        "name": "Erba cipollina",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for chives"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Ciboulette",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for chives"
+      },
+      {
+        "name": "Cebollino",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for chives"
+      }
+    ],
+    "CN": [
+      {
+        "name": "细香葱",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for chives",
+        "transliteration": "xì xiāng cōng",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "北葱",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for chives",
+        "transliteration": "běi cōng",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Cebollino",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for chives"
+      },
+      {
+        "name": "Ciboulette",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Colombia vernacular and descriptive terminology for chives"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Cebollino",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for chives"
+      },
+      {
+        "name": "Ciboulette",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Costa Rica vernacular and descriptive terminology for chives"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Cebollino",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for chives"
+      },
+      {
+        "name": "Cebollín",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for chives"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Pažitka",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for chives"
+      },
+      {
+        "name": "Pažitka pobřežní",
+        "language": "cs",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Czech Republic vernacular and descriptive terminology for chives"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Schnittlauch",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for chives"
+      },
+      {
+        "name": "Binsenlauch",
+        "language": "de",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for chives"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Purløg",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for chives"
+      },
+      {
+        "name": "Almindelig purløg",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for chives"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Cebollino",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for chives"
+      },
+      {
+        "name": "Cebollín",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for chives"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "الثوم المعمر",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for chives",
+        "transliteration": "al-thawm al-muammar",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "سيبوليت",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Algeria vernacular and descriptive terminology for chives",
+        "transliteration": "sibulit",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Ciboulette",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for chives"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Cebollino",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for chives"
+      },
+      {
+        "name": "Ciboulette",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ecuador vernacular and descriptive terminology for chives"
+      }
+    ],
+    "EG": [
+      {
+        "name": "الثوم المعمر",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for chives",
+        "transliteration": "al-thawm al-muammar",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "سيبوليت",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Egypt vernacular and descriptive terminology for chives",
+        "transliteration": "sibulit",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Cebollino",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for chives"
+      },
+      {
+        "name": "Cebollín",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for chives"
+      }
+    ],
+    "ET": [
+      {
+        "name": "ሽንኩርት ቅጠል",
+        "language": "am",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for chives",
+        "transliteration": "shinkurt qetel",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Qullubbii baala",
+        "language": "om",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for chives"
+      },
+      {
+        "name": "ቅጠሊ ሽጉርቲ",
+        "language": "ti",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for chives",
+        "transliteration": "qeteli shigurti",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Ruohosipuli",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for chives"
+      },
+      {
+        "name": "Gräslök",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for chives"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Ciboulette",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for chives"
+      },
+      {
+        "name": "Cive",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for chives"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Chives",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for chives"
+      },
+      {
+        "name": "Common chives",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for chives"
+      },
+      {
+        "name": "Cennin syfi",
+        "language": "cy",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for chives"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Chives",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for chives"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Σχοινόπρασο",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for chives",
+        "transliteration": "schoinoprasso",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Άγριο σχοινόπρασο",
+        "language": "el",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for chives",
+        "transliteration": "agrio schoinoprasso",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Cebollino",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for chives"
+      },
+      {
+        "name": "Cebollín",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for chives"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Vlasac",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for chives"
+      },
+      {
+        "name": "Luk vlasac",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for chives"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Metélőhagyma",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for chives"
+      },
+      {
+        "name": "Snidling",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for chives"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Kucai",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for chives"
+      },
+      {
+        "name": "Kucai",
+        "language": "jv",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Indonesia vernacular and descriptive terminology for chives"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Chives",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for chives"
+      },
+      {
+        "name": "Common chives",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for chives"
+      },
+      {
+        "name": "Síobhais",
+        "language": "ga",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for chives"
+      }
+    ],
+    "IL": [
+      {
+        "name": "עירית",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for chives",
+        "transliteration": "irit",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ثوم معمر",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for chives",
+        "transliteration": "thum muammar",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "चाइव्स",
+        "language": "hi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "India vernacular and descriptive terminology for chives",
+        "transliteration": "chaivs",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "চাইভস",
+        "language": "bn",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "India vernacular and descriptive terminology for chives",
+        "transliteration": "chaivs",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "வெங்காயத்தாள்",
+        "language": "ta",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for chives",
+        "transliteration": "vengayathaal",
+        "transliteration_scheme": "iso_15919"
+      }
+    ],
+    "IR": [
+      {
+        "name": "تره کوهی",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for chives",
+        "transliteration": "tareh kuhi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "پیازچه فرانسوی",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for chives",
+        "transliteration": "piazche faransavi",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Erba cipollina",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for chives"
+      },
+      {
+        "name": "Cipollina",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for chives"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Chives",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for chives"
+      },
+      {
+        "name": "Common chives",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for chives"
+      }
+    ],
+    "JP": [
+      {
+        "name": "チャイブ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Japan vernacular and descriptive terminology for chives",
+        "transliteration": "chaibu",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "セイヨウアサツキ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for chives",
+        "transliteration": "seiyou asatsuki",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Kitunguu saumu",
+        "language": "sw",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Kenya vernacular and descriptive terminology for chives"
+      },
+      {
+        "name": "Chives",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for chives"
+      }
+    ],
+    "KR": [
+      {
+        "name": "차이브",
+        "language": "ko",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Korea vernacular and descriptive terminology for chives",
+        "transliteration": "chaibeu",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "서양부추",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for chives",
+        "transliteration": "seoyang buchu",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "චයිව්ස්",
+        "language": "si",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for chives",
+        "transliteration": "chaivs",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "சைவ்ஸ்",
+        "language": "ta",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for chives",
+        "transliteration": "chaivs",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Chives",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for chives"
+      }
+    ],
+    "MA": [
+      {
+        "name": "الثوم المعمر",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for chives",
+        "transliteration": "al-thawm al-muammar",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "أزريم",
+        "language": "ber",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for chives",
+        "transliteration": "azrim",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Ciboulette",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for chives"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Cebollino",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for chives"
+      },
+      {
+        "name": "Ciboulette",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Mexico vernacular and descriptive terminology for chives"
+      },
+      {
+        "name": "Xonacatlxihuitl",
+        "language": "nah",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Mexico vernacular and descriptive terminology for chives"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Kucai",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for chives"
+      },
+      {
+        "name": "Chives",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for chives"
+      },
+      {
+        "name": "细香葱",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for chives",
+        "transliteration": "xì xiāng cōng",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Chives",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for chives"
+      },
+      {
+        "name": "Ganyen albasa",
+        "language": "ha",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Nigeria vernacular and descriptive terminology for chives"
+      },
+      {
+        "name": "Alubosa ewe",
+        "language": "yo",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Nigeria vernacular and descriptive terminology for chives"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Bieslook",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for chives"
+      },
+      {
+        "name": "Gewone bieslook",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for chives"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Gressløk",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for chives"
+      },
+      {
+        "name": "Gressløk",
+        "language": "nb",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for chives"
+      },
+      {
+        "name": "Graslauk",
+        "language": "nn",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for chives"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Chives",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for chives"
+      },
+      {
+        "name": "Common chives",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for chives"
+      },
+      {
+        "name": "Chives",
+        "language": "mi",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "New Zealand vernacular and descriptive terminology for chives"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Cebollino",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for chives"
+      },
+      {
+        "name": "Ciboulette",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Panama vernacular and descriptive terminology for chives"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Cebollino",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for chives"
+      },
+      {
+        "name": "Cebollín",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for chives"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Chives",
+        "language": "tl",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Philippines vernacular and descriptive terminology for chives"
+      },
+      {
+        "name": "Chives",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for chives"
+      }
+    ],
+    "PK": [
+      {
+        "name": "چائیوز",
+        "language": "ur",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Pakistan vernacular and descriptive terminology for chives",
+        "transliteration": "chaivez",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Chives",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for chives"
+      },
+      {
+        "name": "ਚਾਈਵਜ਼",
+        "language": "pa",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Pakistan vernacular and descriptive terminology for chives",
+        "transliteration": "chaivez",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Szczypiorek",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for chives"
+      },
+      {
+        "name": "Czosnek szczypiorek",
+        "language": "pl",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Poland vernacular and descriptive terminology for chives"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Cebolinho",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for chives"
+      },
+      {
+        "name": "Cebolinha-francesa",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for chives"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Cebollino",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for chives"
+      },
+      {
+        "name": "Ciboulette",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and descriptive terminology for chives"
+      },
+      {
+        "name": "Cebollino'i",
+        "language": "gn",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and descriptive terminology for chives"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Arpagic de tuns",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for chives"
+      },
+      {
+        "name": "Ceapă de tuns",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for chives"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Шнитт-лук",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for chives",
+        "transliteration": "shnitt-luk",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Лук-резанец",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for chives",
+        "transliteration": "luk-rezanets",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Gräslök",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for chives"
+      },
+      {
+        "name": "Vanlig gräslök",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for chives"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Chives",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for chives"
+      },
+      {
+        "name": "细香葱",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for chives",
+        "transliteration": "xì xiāng cōng",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Kucai",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for chives"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Pažítka",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for chives"
+      },
+      {
+        "name": "Pažítka pobrežná",
+        "language": "sk",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Slovakia vernacular and descriptive terminology for chives"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Ciboulette",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for chives"
+      },
+      {
+        "name": "Sobu gu ndaw",
+        "language": "wo",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Senegal vernacular and descriptive terminology for chives"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Cebollino",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for chives"
+      },
+      {
+        "name": "Cebollín",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for chives"
+      }
+    ],
+    "TH": [
+      {
+        "name": "กุยช่ายฝรั่ง",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for chives",
+        "transliteration": "kui chai farang",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "ไชฟ์",
+        "language": "th",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for chives",
+        "transliteration": "chaif",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "الثوم المعمر",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for chives",
+        "transliteration": "al-thawm al-muammar",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "سيبوليت",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Tunisia vernacular and descriptive terminology for chives",
+        "transliteration": "sibulit",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Ciboulette",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for chives"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Frenk soğanı",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for chives"
+      },
+      {
+        "name": "Çayv",
+        "language": "tr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Turkey vernacular and descriptive terminology for chives"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Chives",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for chives"
+      },
+      {
+        "name": "Common chives",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for chives"
+      }
+    ],
+    "TW": [
+      {
+        "name": "細香蔥",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for chives",
+        "transliteration": "xì xiāng cōng",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "北蔥",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for chives",
+        "transliteration": "běi cōng",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Шніт-цибуля",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for chives",
+        "transliteration": "shnit-tsybulia",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Цибуля скорода",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for chives",
+        "transliteration": "tsybulia skoroda",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "Chives",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for chives"
+      },
+      {
+        "name": "Common chives",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for chives"
+      },
+      {
+        "name": "Cebollino",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for chives"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Cebollino",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for chives"
+      },
+      {
+        "name": "Ciboulette",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Uruguay vernacular and descriptive terminology for chives"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Cebollino",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for chives"
+      },
+      {
+        "name": "Cebollín francés",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for chives"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Hẹ tây",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for chives"
+      },
+      {
+        "name": "Hành hương",
+        "language": "vi",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for chives"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Chives",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for chives"
+      },
+      {
+        "name": "Bieslook",
+        "language": "af",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for chives"
+      },
+      {
+        "name": "Ama-chives",
+        "language": "zu",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "South Africa vernacular and descriptive terminology for chives"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Chives",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for chives"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Chives",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for chives"
+      }
+    ]
+  }
+}

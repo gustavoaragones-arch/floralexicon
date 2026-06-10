@@ -2207,6 +2207,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Almindelig purløg",
+    "normalized": "almindelig purløg",
+    "language": "da",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Almindelig timian",
     "normalized": "almindelig timian",
     "language": "da",
@@ -3248,6 +3271,52 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Alubosa ewe",
+    "normalized": "alubosa ewe",
+    "language": "yo",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "NG"
+    ],
+    "country_usage": [
+      {
+        "country": "NG",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Ama-chives",
+    "normalized": "ama chives",
+    "language": "zu",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "ZA"
+    ],
+    "country_usage": [
+      {
+        "country": "ZA",
+        "is_primary": false,
+        "confidence": "low",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
       }
     ],
     "ambiguity_level": "low",
@@ -4324,6 +4393,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Arpagic de tuns",
+    "normalized": "arpagic de tuns",
+    "language": "ro",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "country_usage": [
+      {
+        "country": "RO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RO"
+    ]
   },
   {
     "name": "Árvore-ginkgo",
@@ -7482,6 +7576,63 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Bieslook",
+    "normalized": "bieslook",
+    "language": "af",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "ZA"
+    ],
+    "country_usage": [
+      {
+        "country": "ZA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Bieslook",
+    "normalized": "bieslook",
+    "language": "nl",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "BE",
+      "NL"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "NL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "BE",
+      "NL"
+    ]
+  },
+  {
     "name": "Bijela kurkuma",
     "normalized": "bijela kurkuma",
     "language": "hr",
@@ -7633,6 +7784,37 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Binsenlauch",
+    "normalized": "binsenlauch",
+    "language": "de",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "AT",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
     "dominant_in_countries": []
   },
   {
@@ -11758,6 +11940,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Çayv",
+    "normalized": "cayv",
+    "language": "tr",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "country_usage": [
+      {
+        "country": "TR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "TR"
+    ]
+  },
+  {
     "name": "Ceai",
     "normalized": "ceai",
     "language": "ro",
@@ -11900,6 +12107,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Ceapă de tuns",
+    "normalized": "ceapa de tuns",
+    "language": "ro",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "country_usage": [
+      {
+        "country": "RO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Cebola",
     "normalized": "cebola",
     "language": "pt",
@@ -11963,6 +12193,87 @@
     "ambiguity_level": "low",
     "name_country_count": 2,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Cebolinha",
+    "normalized": "cebolinha",
+    "language": "pt",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "BR"
+    ],
+    "country_usage": [
+      {
+        "country": "BR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "BR"
+    ]
+  },
+  {
+    "name": "Cebolinha-francesa",
+    "normalized": "cebolinha francesa",
+    "language": "pt",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "BR",
+      "PT"
+    ],
+    "country_usage": [
+      {
+        "country": "BR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Cebolinho",
+    "normalized": "cebolinho",
+    "language": "pt",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "PT"
+    ],
+    "country_usage": [
+      {
+        "country": "PT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PT"
+    ]
   },
   {
     "name": "Cebolla",
@@ -12276,6 +12587,290 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Cebollín",
+    "normalized": "cebollin",
+    "language": "es",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "CU",
+      "DO",
+      "ES",
+      "GT",
+      "PE",
+      "SV"
+    ],
+    "country_usage": [
+      {
+        "country": "CU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ES",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SV",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 6,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Cebollín francés",
+    "normalized": "cebollin frances",
+    "language": "es",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "VE"
+    ],
+    "country_usage": [
+      {
+        "country": "VE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Cebollino",
+    "normalized": "cebollino",
+    "language": "es",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "AR",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "CU",
+      "DO",
+      "EC",
+      "ES",
+      "GT",
+      "MX",
+      "PA",
+      "PE",
+      "PY",
+      "SV",
+      "US",
+      "UY",
+      "VE"
+    ],
+    "country_usage": [
+      {
+        "country": "AR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "BO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "EC",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ES",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MX",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PY",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SV",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "UY",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "VE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 18,
+    "dominant_in_countries": [
+      "BO",
+      "CO",
+      "CR",
+      "CU",
+      "DO",
+      "EC",
+      "ES",
+      "GT",
+      "MX",
+      "PA",
+      "PE",
+      "PY",
+      "SV",
+      "UY",
+      "VE"
+    ]
+  },
+  {
+    "name": "Cebollino'i",
+    "normalized": "cebollino'i",
+    "language": "gn",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "PY"
+    ],
+    "country_usage": [
+      {
+        "country": "PY",
+        "is_primary": false,
+        "confidence": "low",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Cebula",
     "normalized": "cebula",
     "language": "pl",
@@ -12421,6 +13016,29 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Cennin syfi",
+    "normalized": "cennin syfi",
+    "language": "cy",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "GB"
+    ],
+    "country_usage": [
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
     "dominant_in_countries": []
   },
   {
@@ -15022,6 +15640,237 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Chives",
+    "normalized": "chives",
+    "language": "en",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "GB",
+      "GH",
+      "IE",
+      "JM",
+      "KE",
+      "LK",
+      "MY",
+      "NG",
+      "NZ",
+      "PH",
+      "PK",
+      "SG",
+      "TT",
+      "US",
+      "ZA",
+      "ZM",
+      "ZW"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "JM",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "KE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "LK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "NG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "NZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ZA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ZM",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ZW",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 19,
+    "dominant_in_countries": [
+      "AU",
+      "CA",
+      "GB",
+      "GH",
+      "IE",
+      "JM",
+      "KE",
+      "LK",
+      "NG",
+      "NZ",
+      "PH",
+      "SG",
+      "TT",
+      "US",
+      "ZA",
+      "ZM",
+      "ZW"
+    ]
+  },
+  {
+    "name": "Chives",
+    "normalized": "chives",
+    "language": "mi",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "NZ"
+    ],
+    "country_usage": [
+      {
+        "country": "NZ",
+        "is_primary": false,
+        "confidence": "low",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Chives",
+    "normalized": "chives",
+    "language": "tl",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "PH"
+    ],
+    "country_usage": [
+      {
+        "country": "PH",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Chùm ngây",
     "normalized": "chum ngay",
     "language": "vi",
@@ -15044,6 +15893,189 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "VN"
+    ]
+  },
+  {
+    "name": "Ciboulette",
+    "normalized": "ciboulette",
+    "language": "es",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "AR",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "EC",
+      "MX",
+      "PA",
+      "PY",
+      "UY"
+    ],
+    "country_usage": [
+      {
+        "country": "AR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "BO",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "EC",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "MX",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "PA",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "PY",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "UY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 10,
+    "dominant_in_countries": [
+      "AR",
+      "CL"
+    ]
+  },
+  {
+    "name": "Ciboulette",
+    "normalized": "ciboulette",
+    "language": "fr",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "CH",
+      "DZ",
+      "FR",
+      "MA",
+      "SN",
+      "TN"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 8,
+    "dominant_in_countries": [
+      "DZ",
+      "FR",
+      "MA",
+      "SN",
+      "TN"
     ]
   },
   {
@@ -15880,6 +16912,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Cipollina",
+    "normalized": "cipollina",
+    "language": "it",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "IT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IT"
+    ]
+  },
+  {
     "name": "Cireașa de iarnă",
     "normalized": "cireasa de iarna",
     "language": "ro",
@@ -16041,6 +17098,29 @@
     "dominant_in_countries": [
       "DK"
     ]
+  },
+  {
+    "name": "Cive",
+    "normalized": "cive",
+    "language": "fr",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Cỏ Ban Âu",
@@ -16459,6 +17539,77 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 18,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Common chives",
+    "normalized": "common chives",
+    "language": "en",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "AU",
+      "GB",
+      "IE",
+      "JM",
+      "NZ",
+      "TT",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "IE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "JM",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "NZ",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 7,
     "dominant_in_countries": []
   },
   {
@@ -19384,6 +20535,29 @@
         "country": "PL",
         "is_primary": false,
         "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Czosnek szczypiorek",
+    "normalized": "czosnek szczypiorek",
+    "language": "pl",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "country_usage": [
+      {
+        "country": "PL",
+        "is_primary": false,
+        "confidence": "medium",
         "source": "local_ethnobotany",
         "authority_source": "linguistic"
       }
@@ -22546,6 +23720,37 @@
     ]
   },
   {
+    "name": "Erba cipollina",
+    "normalized": "erba cipollina",
+    "language": "it",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "CH",
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "IT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Erba di San Giovanni",
     "normalized": "erba di san giovanni",
     "language": "it",
@@ -24813,6 +26018,29 @@
     ]
   },
   {
+    "name": "Frenk soğanı",
+    "normalized": "frenk soganı",
+    "language": "tr",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "country_usage": [
+      {
+        "country": "TR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Funcho",
     "normalized": "funcho",
     "language": "pt",
@@ -25300,6 +26528,29 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 4,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Ganyen albasa",
+    "normalized": "ganyen albasa",
+    "language": "ha",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "NG"
+    ],
+    "country_usage": [
+      {
+        "country": "NG",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
     "dominant_in_countries": []
   },
   {
@@ -25979,6 +27230,29 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Gewone bieslook",
+    "normalized": "gewone bieslook",
+    "language": "nl",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "NL"
+    ],
+    "country_usage": [
+      {
+        "country": "NL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
     "dominant_in_countries": []
   },
   {
@@ -30494,6 +31768,62 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Graslauk",
+    "normalized": "graslauk",
+    "language": "nn",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Gräslök",
+    "normalized": "graslok",
+    "language": "sv",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "FI",
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "SE"
+    ]
+  },
+  {
     "name": "Green cardamom",
     "normalized": "green cardamom",
     "language": "en",
@@ -30738,6 +32068,54 @@
     "ambiguity_level": "low",
     "name_country_count": 14,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Gressløk",
+    "normalized": "gressløk",
+    "language": "nb",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Gressløk",
+    "normalized": "gressløk",
+    "language": "no",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "NO"
+    ]
   },
   {
     "name": "Groene kardemom",
@@ -31559,6 +32937,29 @@
     ]
   },
   {
+    "name": "Hành hương",
+    "normalized": "hanh huong",
+    "language": "vi",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "VN"
+    ],
+    "country_usage": [
+      {
+        "country": "VN",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Hành tây",
     "normalized": "hanh tay",
     "language": "vi",
@@ -31704,6 +33105,31 @@
     "language": "vi",
     "plant_ids": [
       "linum_usitatissimum"
+    ],
+    "countries": [
+      "VN"
+    ],
+    "country_usage": [
+      {
+        "country": "VN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "VN"
+    ]
+  },
+  {
+    "name": "Hẹ tây",
+    "normalized": "he tay",
+    "language": "vi",
+    "plant_ids": [
+      "allium_schoenoprasum"
     ],
     "countries": [
       "VN"
@@ -38472,6 +39898,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Kitunguu saumu",
+    "normalized": "kitunguu saumu",
+    "language": "sw",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "KE"
+    ],
+    "country_usage": [
+      {
+        "country": "KE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Kitunguu saumu cha kawaida",
     "normalized": "kitunguu saumu cha kawaida",
     "language": "sw",
@@ -40091,6 +41540,87 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Kucai",
+    "normalized": "kucai",
+    "language": "id",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "ID"
+    ],
+    "country_usage": [
+      {
+        "country": "ID",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ID"
+    ]
+  },
+  {
+    "name": "Kucai",
+    "normalized": "kucai",
+    "language": "jv",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "ID"
+    ],
+    "country_usage": [
+      {
+        "country": "ID",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Kucai",
+    "normalized": "kucai",
+    "language": "ms",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "MY",
+      "SG"
+    ],
+    "country_usage": [
+      {
+        "country": "MY",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "MY"
+    ]
   },
   {
     "name": "Kučeravá mäta",
@@ -45481,6 +47011,29 @@
     ]
   },
   {
+    "name": "Luk vlasac",
+    "normalized": "luk vlasac",
+    "language": "hr",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "HR"
+    ],
+    "country_usage": [
+      {
+        "country": "HR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Luy-a",
     "normalized": "luy a",
     "language": "ceb",
@@ -50860,6 +52413,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Metélőhagyma",
+    "normalized": "metelohagyma",
+    "language": "hu",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "country_usage": [
+      {
+        "country": "HU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HU"
+    ]
   },
   {
     "name": "Metvica",
@@ -58012,6 +59590,102 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Pažitka",
+    "normalized": "pazitka",
+    "language": "cs",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CZ"
+    ]
+  },
+  {
+    "name": "Pažítka",
+    "normalized": "pazitka",
+    "language": "sk",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "SK"
+    ],
+    "country_usage": [
+      {
+        "country": "SK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SK"
+    ]
+  },
+  {
+    "name": "Pažítka pobrežná",
+    "normalized": "pazitka pobrezna",
+    "language": "sk",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "SK"
+    ],
+    "country_usage": [
+      {
+        "country": "SK",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Pažitka pobřežní",
+    "normalized": "pazitka pobrezni",
+    "language": "cs",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Peber",
     "normalized": "peber",
     "language": "da",
@@ -60823,6 +62497,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Purløg",
+    "normalized": "purløg",
+    "language": "da",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DK"
+    ]
+  },
+  {
     "name": "Purple coneflower",
     "normalized": "purple coneflower",
     "language": "en",
@@ -61209,6 +62908,29 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Qullubbii baala",
+    "normalized": "qullubbii baala",
+    "language": "om",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "ET"
+    ],
+    "country_usage": [
+      {
+        "country": "ET",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
       }
     ],
     "ambiguity_level": "low",
@@ -65806,6 +67528,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Ruohosipuli",
+    "normalized": "ruohosipuli",
+    "language": "fi",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "FI"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "FI"
+    ]
+  },
+  {
     "name": "Ružmarin",
     "normalized": "ruzmarin",
     "language": "hr",
@@ -68910,6 +70657,57 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Schnittlauch",
+    "normalized": "schnittlauch",
+    "language": "de",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "BE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
+    "dominant_in_countries": [
+      "AT",
+      "CH",
+      "DE"
+    ]
+  },
+  {
     "name": "Schwarzer Holunder",
     "normalized": "schwarzer holunder",
     "language": "de",
@@ -70010,6 +71808,29 @@
     ]
   },
   {
+    "name": "Síobhais",
+    "normalized": "siobhais",
+    "language": "ga",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "IE"
+    ],
+    "country_usage": [
+      {
+        "country": "IE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Sipuli",
     "normalized": "sipuli",
     "language": "fi",
@@ -70289,6 +72110,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Snidling",
+    "normalized": "snidling",
+    "language": "hu",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "country_usage": [
+      {
+        "country": "HU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Sobolo",
     "normalized": "sobolo",
     "language": "en",
@@ -70328,6 +72172,29 @@
         "confidence": "medium",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Sobu gu ndaw",
+    "normalized": "sobu gu ndaw",
+    "language": "wo",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "SN"
+    ],
+    "country_usage": [
+      {
+        "country": "SN",
+        "is_primary": false,
+        "confidence": "low",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
       }
     ],
     "ambiguity_level": "low",
@@ -73525,6 +75392,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Szczypiorek",
+    "normalized": "szczypiorek",
+    "language": "pl",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "country_usage": [
+      {
+        "country": "PL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PL"
+    ]
   },
   {
     "name": "Szurokfű",
@@ -79133,6 +81025,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Vanlig gräslök",
+    "normalized": "vanlig graslok",
+    "language": "sv",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "SE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Vanlig hvitløk",
     "normalized": "vanlig hvitløk",
     "language": "no",
@@ -79638,6 +81553,31 @@
     "name_country_count": 2,
     "dominant_in_countries": [
       "SE"
+    ]
+  },
+  {
+    "name": "Vlasac",
+    "normalized": "vlasac",
+    "language": "hr",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "HR"
+    ],
+    "country_usage": [
+      {
+        "country": "HR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HR"
     ]
   },
   {
@@ -80383,6 +82323,29 @@
         "confidence": "medium",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Xonacatlxihuitl",
+    "normalized": "xonacatlxihuitl",
+    "language": "nah",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "country_usage": [
+      {
+        "country": "MX",
+        "is_primary": false,
+        "confidence": "low",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
       }
     ],
     "ambiguity_level": "low",
@@ -83112,6 +85075,29 @@
     ]
   },
   {
+    "name": "Άγριο σχοινόπρασο",
+    "normalized": "αγριο σχοινοπρασο",
+    "language": "el",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "GR"
+    ],
+    "country_usage": [
+      {
+        "country": "GR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Αλόη βέρα",
     "normalized": "αλοη βερα",
     "language": "el",
@@ -85030,6 +87016,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Σχοινόπρασο",
+    "normalized": "σχοινοπρασο",
+    "language": "el",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "GR"
+    ],
+    "country_usage": [
+      {
+        "country": "GR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "GR"
+    ]
+  },
+  {
     "name": "Ταραξάκο",
     "normalized": "ταραξακο",
     "language": "el",
@@ -86396,6 +88407,31 @@
         "confidence": "medium",
         "source": "local_ethnobotany",
         "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "BG"
+    ]
+  },
+  {
+    "name": "Див лук",
+    "normalized": "див лук",
+    "language": "bg",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "country_usage": [
+      {
+        "country": "BG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -88768,6 +90804,29 @@
     ]
   },
   {
+    "name": "Лук-резанец",
+    "normalized": "лук резанец",
+    "language": "ru",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Лъскава ганодерма",
     "normalized": "лъскава ганодерма",
     "language": "bg",
@@ -91101,6 +93160,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Цибуля скорода",
+    "normalized": "цибуля скорода",
+    "language": "uk",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Чай",
     "normalized": "чаи",
     "language": "bg",
@@ -92078,6 +94160,79 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Шнит лук",
+    "normalized": "шнит лук",
+    "language": "bg",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "country_usage": [
+      {
+        "country": "BG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Шнитт-лук",
+    "normalized": "шнитт лук",
+    "language": "ru",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RU"
+    ]
+  },
+  {
+    "name": "Шніт-цибуля",
+    "normalized": "шніт цибуля",
+    "language": "uk",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "UA"
+    ]
   },
   {
     "name": "Эхинацея",
@@ -93528,6 +95683,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "עירית",
+    "normalized": "עירית",
+    "language": "he",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "IL"
+    ],
+    "country_usage": [
+      {
+        "country": "IL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IL"
+    ]
+  },
+  {
     "name": "עשב יוחנן הקדוש",
     "normalized": "עשב יוחנן הקדוש",
     "language": "he",
@@ -94367,6 +96547,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "أزريم",
+    "normalized": "أزريم",
+    "language": "ber",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "MA"
+    ],
+    "country_usage": [
+      {
+        "country": "MA",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "أشواغاندا",
     "normalized": "أشواغاندا",
     "language": "ar",
@@ -94950,6 +97153,53 @@
         "confidence": "medium",
         "source": "local_ethnobotany",
         "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "الثوم المعمر",
+    "normalized": "الثوم المعمر",
+    "language": "ar",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "DZ",
+      "EG",
+      "MA",
+      "TN"
+    ],
+    "country_usage": [
+      {
+        "country": "DZ",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "EG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -97350,6 +99600,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "پیازچه فرانسوی",
+    "normalized": "پیازچه فرانسوی",
+    "language": "fa",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "IR"
+    ],
+    "country_usage": [
+      {
+        "country": "IR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "پیرووی جینسنگ",
     "normalized": "پیرووی جینسنگ",
     "language": "ur",
@@ -97467,6 +99740,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "تره کوهی",
+    "normalized": "تره کوهی",
+    "language": "fa",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "IR"
+    ],
+    "country_usage": [
+      {
+        "country": "IR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IR"
+    ]
+  },
+  {
     "name": "تھائم",
     "normalized": "تھائم",
     "language": "ur",
@@ -97550,6 +99848,29 @@
       "MA",
       "TN"
     ]
+  },
+  {
+    "name": "ثوم معمر",
+    "normalized": "ثوم معمر",
+    "language": "ar",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "IL"
+    ],
+    "country_usage": [
+      {
+        "country": "IL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "جامنی مخروطی پھول",
@@ -98073,6 +100394,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "چائیوز",
+    "normalized": "چائیوز",
+    "language": "ur",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "PK"
+    ],
+    "country_usage": [
+      {
+        "country": "PK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PK"
+    ]
   },
   {
     "name": "چائے",
@@ -99914,6 +102260,47 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "PK"
+    ]
+  },
+  {
+    "name": "سيبوليت",
+    "normalized": "سيبوليت",
+    "language": "ar",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "DZ",
+      "EG",
+      "TN"
+    ],
+    "country_usage": [
+      {
+        "country": "DZ",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "EG",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "TN",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "EG"
     ]
   },
   {
@@ -103282,6 +105669,31 @@
     ]
   },
   {
+    "name": "ሽንኩርት ቅጠል",
+    "normalized": "ሽንኩርት ቅጠል",
+    "language": "am",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "ET"
+    ],
+    "country_usage": [
+      {
+        "country": "ET",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ET"
+    ]
+  },
+  {
     "name": "ቀረፋ",
     "normalized": "ቀረፋ",
     "language": "am",
@@ -103353,6 +105765,29 @@
     "dominant_in_countries": [
       "ET"
     ]
+  },
+  {
+    "name": "ቅጠሊ ሽጉርቲ",
+    "normalized": "ቅጠሊ ሽጉርቲ",
+    "language": "ti",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "ET"
+    ],
+    "country_usage": [
+      {
+        "country": "ET",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "ባሲል",
@@ -104830,6 +107265,31 @@
     ]
   },
   {
+    "name": "चाइव्स",
+    "normalized": "चाइव्स",
+    "language": "hi",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IN"
+    ]
+  },
+  {
     "name": "चाय",
     "normalized": "चाय",
     "language": "hi",
@@ -105836,6 +108296,29 @@
     ]
   },
   {
+    "name": "চাইভস",
+    "normalized": "চাইভস",
+    "language": "bn",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "পেঁয়াজ",
     "normalized": "পেঁয়াজ",
     "language": "bn",
@@ -105875,6 +108358,29 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "ਚਾਈਵਜ਼",
+    "normalized": "ਚਾਈਵਜ਼",
+    "language": "pa",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "PK"
+    ],
+    "country_usage": [
+      {
+        "country": "PK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
       }
     ],
     "ambiguity_level": "low",
@@ -106310,6 +108816,29 @@
     ]
   },
   {
+    "name": "சைவ்ஸ்",
+    "normalized": "சைவ்ஸ்",
+    "language": "ta",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "LK"
+    ],
+    "country_usage": [
+      {
+        "country": "LK",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "சோம்பு",
     "normalized": "சோம்பு",
     "language": "ta",
@@ -106734,6 +109263,29 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "வெங்காயத்தாள்",
+    "normalized": "வெங்காயத்தாள்",
+    "language": "ta",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
     "dominant_in_countries": []
   },
   {
@@ -107275,6 +109827,29 @@
     "dominant_in_countries": [
       "LK"
     ]
+  },
+  {
+    "name": "චයිව්ස්",
+    "normalized": "චයිව්ස්",
+    "language": "si",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "LK"
+    ],
+    "country_usage": [
+      {
+        "country": "LK",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "චියා",
@@ -108024,6 +110599,31 @@
     ]
   },
   {
+    "name": "กุยช่ายฝรั่ง",
+    "normalized": "กุยช่ายฝรั่ง",
+    "language": "th",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "TH"
+    ],
+    "country_usage": [
+      {
+        "country": "TH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "TH"
+    ]
+  },
+  {
     "name": "ขมิ้น",
     "normalized": "ขมิ้น",
     "language": "th",
@@ -108383,6 +110983,29 @@
     "dominant_in_countries": [
       "TH"
     ]
+  },
+  {
+    "name": "ไชฟ์",
+    "normalized": "ไชฟ์",
+    "language": "th",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "TH"
+    ],
+    "country_usage": [
+      {
+        "country": "TH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "ซัลเวีย",
@@ -111161,6 +113784,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "서양부추",
+    "normalized": "서양부추",
+    "language": "ko",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "country_usage": [
+      {
+        "country": "KR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "서양삼",
     "normalized": "서양삼",
     "language": "ko",
@@ -111991,6 +114637,31 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "KR"
+    ]
+  },
+  {
+    "name": "차이브",
+    "normalized": "차이브",
+    "language": "ko",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "country_usage": [
+      {
+        "country": "KR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
       }
     ],
     "ambiguity_level": "low",
@@ -113409,6 +116080,29 @@
     ]
   },
   {
+    "name": "セイヨウアサツキ",
+    "normalized": "セイヨウアサツキ",
+    "language": "ja",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "country_usage": [
+      {
+        "country": "JP",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "セイヨウイラクサ",
     "normalized": "セイヨウイラクサ",
     "language": "ja",
@@ -113699,6 +116393,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "チャイブ",
+    "normalized": "チャイブ",
+    "language": "ja",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "country_usage": [
+      {
+        "country": "JP",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "JP"
+    ]
   },
   {
     "name": "トケイソウ",
@@ -114895,6 +117614,52 @@
     "country_usage": [
       {
         "country": "CN",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "北葱",
+    "normalized": "北葱",
+    "language": "zh",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "country_usage": [
+      {
+        "country": "CN",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "北蔥",
+    "normalized": "北蔥",
+    "language": "zh",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "TW"
+    ],
+    "country_usage": [
+      {
+        "country": "TW",
         "is_primary": false,
         "confidence": "medium",
         "source": "local_ethnobotany",
@@ -116913,6 +119678,72 @@
     "ambiguity_level": "low",
     "name_country_count": 3,
     "dominant_in_countries": []
+  },
+  {
+    "name": "細香蔥",
+    "normalized": "細香蔥",
+    "language": "zh",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "TW"
+    ],
+    "country_usage": [
+      {
+        "country": "TW",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "TW"
+    ]
+  },
+  {
+    "name": "细香葱",
+    "normalized": "细香葱",
+    "language": "zh",
+    "plant_ids": [
+      "allium_schoenoprasum"
+    ],
+    "countries": [
+      "CN",
+      "MY",
+      "SG"
+    ],
+    "country_usage": [
+      {
+        "country": "CN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "CN"
+    ]
   },
   {
     "name": "綠茶",
