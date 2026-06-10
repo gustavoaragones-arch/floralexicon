@@ -1,0 +1,1515 @@
+{
+  "plant_id": "allium_cepa",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Cebolla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for onion"
+      },
+      {
+        "name": "Cebolla común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for onion"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Zwiebel",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for onion"
+      },
+      {
+        "name": "Küchenzwiebel",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for onion"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Onion",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for onion"
+      },
+      {
+        "name": "Common onion",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for onion"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Ui",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for onion"
+      },
+      {
+        "name": "Oignon",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for onion"
+      },
+      {
+        "name": "Zwiebel",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for onion"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Лук",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for onion",
+        "transliteration": "luk",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Кромид лук",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for onion",
+        "transliteration": "kromid luk",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Cebolla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for onion"
+      },
+      {
+        "name": "Siwulla",
+        "language": "qu",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Bolivia vernacular and descriptive terminology for onion"
+      },
+      {
+        "name": "Sibuyya",
+        "language": "ay",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Bolivia vernacular and descriptive terminology for onion"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Cebola",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for onion"
+      },
+      {
+        "name": "Cebola comum",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for onion"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Onion",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for onion"
+      },
+      {
+        "name": "Oignon",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for onion"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Zwiebel",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for onion"
+      },
+      {
+        "name": "Oignon",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for onion"
+      },
+      {
+        "name": "Cipolla",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for onion"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Cebolla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for onion"
+      },
+      {
+        "name": "Cebolla común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for onion"
+      }
+    ],
+    "CN": [
+      {
+        "name": "洋葱",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for onion",
+        "transliteration": "yáng cōng",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "葱头",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for onion",
+        "transliteration": "cōng tóu",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Cebolla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for onion"
+      },
+      {
+        "name": "Cebolla cabezona",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for onion"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Cebolla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for onion"
+      },
+      {
+        "name": "Cebolla común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for onion"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Cebolla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for onion"
+      },
+      {
+        "name": "Cebolla común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for onion"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Cibule",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for onion"
+      },
+      {
+        "name": "Cibule kuchyňská",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for onion"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Zwiebel",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for onion"
+      },
+      {
+        "name": "Küchenzwiebel",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for onion"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Løg",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for onion"
+      },
+      {
+        "name": "Kepaløg",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for onion"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Cebolla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for onion"
+      },
+      {
+        "name": "Cebolla común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for onion"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "بصل",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for onion",
+        "transliteration": "basal",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "بصل المائدة",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for onion",
+        "transliteration": "basal al-maida",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Oignon",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for onion"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Cebolla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for onion"
+      },
+      {
+        "name": "Siwulla",
+        "language": "qu",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ecuador vernacular and descriptive terminology for onion"
+      }
+    ],
+    "EG": [
+      {
+        "name": "بصل",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for onion",
+        "transliteration": "basal",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "بصل أحمر",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for onion",
+        "transliteration": "basal ahmar",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Cebolla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for onion"
+      },
+      {
+        "name": "Cebolla común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for onion"
+      }
+    ],
+    "ET": [
+      {
+        "name": "ሽንኩርት",
+        "language": "am",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ethiopia traditional and market terminology for onion",
+        "transliteration": "shinkurt",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Qullubbii",
+        "language": "om",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ethiopia traditional and market terminology for onion"
+      },
+      {
+        "name": "ቀይሕ ሽጉርቲ",
+        "language": "ti",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ethiopia traditional and market terminology for onion",
+        "transliteration": "qeyih shigurti",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Sipuli",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for onion"
+      },
+      {
+        "name": "Keltasipuli",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for onion"
+      },
+      {
+        "name": "Lök",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for onion"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Oignon",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for onion"
+      },
+      {
+        "name": "Oignon commun",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for onion"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Onion",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for onion"
+      },
+      {
+        "name": "Common onion",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for onion"
+      },
+      {
+        "name": "Nionyn",
+        "language": "cy",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for onion"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Onion",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for onion"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Κρεμμύδι",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for onion",
+        "transliteration": "kremmydi",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Κοινό κρεμμύδι",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for onion",
+        "transliteration": "koinó kremmydi",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Cebolla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for onion"
+      },
+      {
+        "name": "Cebolla común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for onion"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Luk",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for onion"
+      },
+      {
+        "name": "Crveni luk",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for onion"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Vöröshagyma",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for onion"
+      },
+      {
+        "name": "Hagyma",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for onion"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Bawang merah",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for onion"
+      },
+      {
+        "name": "Brambang",
+        "language": "jv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for onion"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Onion",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for onion"
+      },
+      {
+        "name": "Common onion",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for onion"
+      },
+      {
+        "name": "Oinniún",
+        "language": "ga",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for onion"
+      }
+    ],
+    "IL": [
+      {
+        "name": "בצל",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for onion",
+        "transliteration": "batzal",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "بصل",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for onion",
+        "transliteration": "basal",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "प्याज़",
+        "language": "hi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for onion",
+        "transliteration": "pyaaz",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "পেঁয়াজ",
+        "language": "bn",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for onion",
+        "transliteration": "peyaj",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "வெங்காயம்",
+        "language": "ta",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for onion",
+        "transliteration": "vengayam",
+        "transliteration_scheme": "iso_15919"
+      }
+    ],
+    "IR": [
+      {
+        "name": "پیاز",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for onion",
+        "transliteration": "piaz",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "پیاز خوراکی",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for onion",
+        "transliteration": "piaz khoraki",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Cipolla",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for onion"
+      },
+      {
+        "name": "Cipolla comune",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for onion"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Onion",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for onion"
+      },
+      {
+        "name": "Common onion",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for onion"
+      }
+    ],
+    "JP": [
+      {
+        "name": "タマネギ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for onion",
+        "transliteration": "tamanegi",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "玉ねぎ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for onion",
+        "transliteration": "tamanegi",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Kitunguu",
+        "language": "sw",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for onion"
+      },
+      {
+        "name": "Onion",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for onion"
+      }
+    ],
+    "KR": [
+      {
+        "name": "양파",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for onion",
+        "transliteration": "yangpa",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "서양파",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for onion",
+        "transliteration": "seoyangpa",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "ළූණු",
+        "language": "si",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for onion",
+        "transliteration": "lunu",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "வெங்காயம்",
+        "language": "ta",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for onion",
+        "transliteration": "vengayam",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Onion",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for onion"
+      }
+    ],
+    "MA": [
+      {
+        "name": "بصل",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for onion",
+        "transliteration": "basal",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "تازرارت",
+        "language": "ber",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for onion",
+        "transliteration": "tazarart",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Oignon",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for onion"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Cebolla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for onion"
+      },
+      {
+        "name": "Cebolla común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for onion"
+      },
+      {
+        "name": "Xonacatl",
+        "language": "nah",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for onion"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Bawang besar",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for onion"
+      },
+      {
+        "name": "Onion",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for onion"
+      },
+      {
+        "name": "洋葱",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for onion",
+        "transliteration": "yáng cōng",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Onion",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for onion"
+      },
+      {
+        "name": "Albasa",
+        "language": "ha",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for onion"
+      },
+      {
+        "name": "Alubosa",
+        "language": "yo",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for onion"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Ui",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for onion"
+      },
+      {
+        "name": "Gewone ui",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for onion"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Løk",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for onion"
+      },
+      {
+        "name": "Gul løk",
+        "language": "nb",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for onion"
+      },
+      {
+        "name": "Lauk",
+        "language": "nn",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for onion"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Onion",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for onion"
+      },
+      {
+        "name": "Common onion",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for onion"
+      },
+      {
+        "name": "Aniana",
+        "language": "mi",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "New Zealand vernacular and descriptive terminology for onion"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Cebolla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for onion"
+      },
+      {
+        "name": "Cebolla común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for onion"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Cebolla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for onion"
+      },
+      {
+        "name": "Siwulla",
+        "language": "qu",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Peru vernacular and descriptive terminology for onion"
+      },
+      {
+        "name": "Sibuyya",
+        "language": "ay",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Peru vernacular and descriptive terminology for onion"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Sibuyas",
+        "language": "tl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for onion"
+      },
+      {
+        "name": "Onion",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for onion"
+      }
+    ],
+    "PK": [
+      {
+        "name": "پیاز",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for onion",
+        "transliteration": "piaz",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Onion",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for onion"
+      },
+      {
+        "name": "ਪਿਆਜ਼",
+        "language": "pa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for onion",
+        "transliteration": "piaz",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Cebula",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for onion"
+      },
+      {
+        "name": "Cebula zwyczajna",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for onion"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Cebola",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for onion"
+      },
+      {
+        "name": "Cebola-comum",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for onion"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Cebolla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for onion"
+      },
+      {
+        "name": "Sevói",
+        "language": "gn",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and descriptive terminology for onion"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Ceapă",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for onion"
+      },
+      {
+        "name": "Ceapă comună",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for onion"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Лук репчатый",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for onion",
+        "transliteration": "luk repchatyy",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Репчатый лук",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for onion",
+        "transliteration": "repchatyy luk",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Lök",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for onion"
+      },
+      {
+        "name": "Gul lök",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for onion"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Onion",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for onion"
+      },
+      {
+        "name": "洋葱",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for onion",
+        "transliteration": "yáng cōng",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Bawang besar",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for onion"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Cibuľa",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for onion"
+      },
+      {
+        "name": "Cibuľa kuchynská",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for onion"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Oignon",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for onion"
+      },
+      {
+        "name": "Sobu",
+        "language": "wo",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for onion"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Cebolla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for onion"
+      },
+      {
+        "name": "Cebolla común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for onion"
+      }
+    ],
+    "TH": [
+      {
+        "name": "หัวหอม",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for onion",
+        "transliteration": "hua hom",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "หอมหัวใหญ่",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for onion",
+        "transliteration": "hom hua yai",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "بصل",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for onion",
+        "transliteration": "basal",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "بصل المائدة",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for onion",
+        "transliteration": "basal al-maida",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Oignon",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for onion"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Soğan",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for onion"
+      },
+      {
+        "name": "Yemeklik soğan",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for onion"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Onion",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for onion"
+      },
+      {
+        "name": "Common onion",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for onion"
+      }
+    ],
+    "TW": [
+      {
+        "name": "洋蔥",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for onion",
+        "transliteration": "yáng cōng",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "蔥頭",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for onion",
+        "transliteration": "cōng tóu",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Цибуля",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for onion",
+        "transliteration": "tsybulia",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Цибуля ріпчаста",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for onion",
+        "transliteration": "tsybulia ripchasta",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "Onion",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for onion"
+      },
+      {
+        "name": "Common onion",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for onion"
+      },
+      {
+        "name": "Cebolla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for onion"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Cebolla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for onion"
+      },
+      {
+        "name": "Cebolla común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for onion"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Cebolla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for onion"
+      },
+      {
+        "name": "Cebolla cabezona",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for onion"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Hành tây",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for onion"
+      },
+      {
+        "name": "Củ hành",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for onion"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Onion",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for onion"
+      },
+      {
+        "name": "Ui",
+        "language": "af",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for onion"
+      },
+      {
+        "name": "U-anyanisi",
+        "language": "zu",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "South Africa vernacular and descriptive terminology for onion"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Onion",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for onion"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Onion",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for onion"
+      }
+    ]
+  }
+}
