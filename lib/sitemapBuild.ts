@@ -1,3 +1,5 @@
+const BUILD_DATE = new Date().toISOString().split("T")[0]; // "YYYY-MM-DD"
+
 import processedNames from "@/data/processed/names.json";
 import processedPlants from "@/data/processed/plants.json";
 import {
@@ -108,6 +110,7 @@ export function buildProgrammaticSitemapXml(origin: string): string {
     lines.push("  <url>");
     lines.push(`    <loc>${escapeXml(loc)}</loc>`);
     lines.push(`    <changefreq>${changefreq}</changefreq>`);
+    lines.push(`    <lastmod>${BUILD_DATE}</lastmod>`);
     lines.push(`    <priority>${priority}</priority>`);
     lines.push("  </url>");
   };
@@ -147,6 +150,7 @@ export function buildNamesSitemapXml(origin: string): string {
     lines.push("  <url>");
     lines.push(`    <loc>${escapeXml(en)}</loc>`);
     lines.push(`    <changefreq>weekly</changefreq>`);
+    lines.push(`    <lastmod>${BUILD_DATE}</lastmod>`);
     lines.push(`    <priority>0.8</priority>`);
     lines.push(`    <xhtml:link rel="alternate" hreflang="en" href="${escapeXml(en)}"/>`);
     lines.push(`    <xhtml:link rel="alternate" hreflang="es" href="${escapeXml(es)}"/>`);
@@ -171,6 +175,7 @@ export function buildPlantsSitemapXml(origin: string): string {
     lines.push("  <url>");
     lines.push(`    <loc>${escapeXml(en)}</loc>`);
     lines.push(`    <changefreq>monthly</changefreq>`);
+    lines.push(`    <lastmod>${BUILD_DATE}</lastmod>`);
     lines.push(`    <priority>0.9</priority>`);
     lines.push(`    <xhtml:link rel="alternate" hreflang="en" href="${escapeXml(en)}"/>`);
     lines.push(`    <xhtml:link rel="alternate" hreflang="es" href="${escapeXml(es)}"/>`);
