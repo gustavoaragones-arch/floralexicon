@@ -1,0 +1,1494 @@
+{
+  "plant_id": "trigonella_foenum_graecum",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Fenogreco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Alholva",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for fenugreek"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Bockshornklee",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Griechisches Heu",
+        "language": "de",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Austria vernacular and descriptive terminology for fenugreek"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Fenugreek",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Greek hay",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Australia vernacular and descriptive terminology for fenugreek"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Fenegriek",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Fenugrec",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Bockshornklee",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for fenugreek"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Сминдух",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for fenugreek",
+        "transliteration": "sminduh",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Гръцко сено",
+        "language": "bg",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Bulgaria vernacular and descriptive terminology for fenugreek",
+        "transliteration": "gratsko seno",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Fenogreco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Alholva",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for fenugreek"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Feno-grego",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Alforva",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for fenugreek"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Fenugreek",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Fenugrec",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for fenugreek"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Bockshornklee",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Fenugrec",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Fieno greco",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for fenugreek"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Fenogreco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Alholva",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for fenugreek"
+      }
+    ],
+    "CN": [
+      {
+        "name": "胡芦巴",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for fenugreek",
+        "transliteration": "hú lú bā",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "葫芦巴",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for fenugreek",
+        "transliteration": "hú lú bā",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Fenogreco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Alholva",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for fenugreek"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Fenogreco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Alholva",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for fenugreek"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Fenogreco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Alholva",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for fenugreek"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Pískavice řecké seno",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Řecké seno",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for fenugreek"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Bockshornklee",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Griechisches Heu",
+        "language": "de",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Germany vernacular and descriptive terminology for fenugreek"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Bukkehorn",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Bukkehornskløver",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for fenugreek"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Fenogreco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Alholva",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for fenugreek"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "الحلبة",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for fenugreek",
+        "transliteration": "al-hulbah",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "حلبة يونانية",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for fenugreek",
+        "transliteration": "hulbah yunaniyah",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Fenugrec",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for fenugreek"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Fenogreco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Alholva",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for fenugreek"
+      }
+    ],
+    "EG": [
+      {
+        "name": "الحلبة",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for fenugreek",
+        "transliteration": "al-hulbah",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "حلبة يونانية",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for fenugreek",
+        "transliteration": "hulbah yunaniyah",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Fenogreco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Alholva",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for fenugreek"
+      }
+    ],
+    "ET": [
+      {
+        "name": "አብሽ",
+        "language": "am",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ethiopia traditional and market terminology for fenugreek",
+        "transliteration": "abish",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Abishii",
+        "language": "om",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Ethiopia traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "ኣብሽ",
+        "language": "ti",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ethiopia traditional and market terminology for fenugreek",
+        "transliteration": "abish",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Sarviapila",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Bockhornsklöver",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for fenugreek"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Fenugrec",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Sénégrain",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "France vernacular and descriptive terminology for fenugreek"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Fenugreek",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Greek hay",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "United Kingdom vernacular and descriptive terminology for fenugreek"
+      },
+      {
+        "name": "Ffenigrig",
+        "language": "cy",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for fenugreek"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Fenugreek",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for fenugreek"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Τριγωνέλλα",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for fenugreek",
+        "transliteration": "trigonella",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Τριγωνέλλα η ελληνική",
+        "language": "el",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Greece vernacular and descriptive terminology for fenugreek",
+        "transliteration": "trigonella i elliniki",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Fenogreco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Alholva",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for fenugreek"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Piskavica",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Grčko sijeno",
+        "language": "hr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for fenugreek"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Görögszéna",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Lepkeszegmag",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for fenugreek"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Klabet",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Kelabat",
+        "language": "jv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for fenugreek"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Fenugreek",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Greek hay",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ireland vernacular and descriptive terminology for fenugreek"
+      },
+      {
+        "name": "Méiti",
+        "language": "ga",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ireland vernacular and descriptive terminology for fenugreek"
+      }
+    ],
+    "IL": [
+      {
+        "name": "חִלְבָּה",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for fenugreek",
+        "transliteration": "hilba",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الحلبة",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for fenugreek",
+        "transliteration": "al-hulbah",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "मेथी",
+        "language": "hi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for fenugreek",
+        "transliteration": "methi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "মেথি",
+        "language": "bn",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for fenugreek",
+        "transliteration": "methi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "வெந்தயம்",
+        "language": "ta",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for fenugreek",
+        "transliteration": "vendhayam",
+        "transliteration_scheme": "iso_15919"
+      }
+    ],
+    "IR": [
+      {
+        "name": "شنبلیله",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for fenugreek",
+        "transliteration": "shanbalileh",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "حلبه",
+        "language": "fa",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Iran vernacular and descriptive terminology for fenugreek",
+        "transliteration": "holbeh",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Fieno greco",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Trigonella",
+        "language": "it",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Italy vernacular and descriptive terminology for fenugreek"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Fenugreek",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Greek hay",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Jamaica vernacular and descriptive terminology for fenugreek"
+      }
+    ],
+    "JP": [
+      {
+        "name": "フェヌグリーク",
+        "language": "ja",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Japan vernacular and descriptive terminology for fenugreek",
+        "transliteration": "fenuguriiku",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "コロハ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for fenugreek",
+        "transliteration": "koroha",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Methi",
+        "language": "sw",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Kenya vernacular and descriptive terminology for fenugreek"
+      },
+      {
+        "name": "Fenugreek",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Hilba",
+        "language": "sw",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Kenya vernacular and descriptive terminology for fenugreek"
+      }
+    ],
+    "KR": [
+      {
+        "name": "호로파",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for fenugreek",
+        "transliteration": "horopa",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "페누그릭",
+        "language": "ko",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Korea vernacular and descriptive terminology for fenugreek",
+        "transliteration": "penyugeurik",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "උලුහාල්",
+        "language": "si",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for fenugreek",
+        "transliteration": "uluhal",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "வெந்தயம்",
+        "language": "ta",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for fenugreek",
+        "transliteration": "vendhayam",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Fenugreek",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for fenugreek"
+      }
+    ],
+    "MA": [
+      {
+        "name": "الحلبة",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for fenugreek",
+        "transliteration": "al-hulbah",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ⵜⴰⵃⵍⴱⴰ",
+        "language": "ber",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for fenugreek",
+        "transliteration": "tahlba",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Fenugrec",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for fenugreek"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Fenogreco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Alholva",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for fenugreek"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Halba",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Fenugreek",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "胡芦巴",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for fenugreek",
+        "transliteration": "hú lú bā",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Fenugreek",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Hulba",
+        "language": "ha",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Nigeria vernacular and descriptive terminology for fenugreek"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Fenegriek",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Grieks hooi",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Netherlands vernacular and descriptive terminology for fenugreek"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Bukkehornkløver",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Bukkehornkløver",
+        "language": "nb",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Bukkehornkløver",
+        "language": "nn",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for fenugreek"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Fenugreek",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Greek hay",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "New Zealand vernacular and descriptive terminology for fenugreek"
+      },
+      {
+        "name": "Methi",
+        "language": "mi",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "New Zealand vernacular and descriptive terminology for fenugreek"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Fenogreco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Alholva",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for fenugreek"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Fenogreco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Alholva",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for fenugreek"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Fenugreek",
+        "language": "tl",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Philippines vernacular and descriptive terminology for fenugreek"
+      },
+      {
+        "name": "Fenugreek",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for fenugreek"
+      }
+    ],
+    "PK": [
+      {
+        "name": "میتھی",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for fenugreek",
+        "transliteration": "methi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Fenugreek",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "ਮੇਥੀ",
+        "language": "pa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for fenugreek",
+        "transliteration": "methi",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Kozieradka pospolita",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Kozieradka",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for fenugreek"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Feno-grego",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Alforva",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for fenugreek"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Fenogreco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Alholva",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Methi",
+        "language": "gn",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and descriptive terminology for fenugreek"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Schinduf",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Fenugrec",
+        "language": "ro",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Romania vernacular and descriptive terminology for fenugreek"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Пажитник",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for fenugreek",
+        "transliteration": "pazhitnik",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Шамбала",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for fenugreek",
+        "transliteration": "shambala",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Bockhornsklöver",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Grekiskt hö",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Sweden vernacular and descriptive terminology for fenugreek"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Fenugreek",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "胡芦巴",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for fenugreek",
+        "transliteration": "hú lú bā",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Halba",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for fenugreek"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Senovka grécka",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Grécke seno",
+        "language": "sk",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Slovakia vernacular and descriptive terminology for fenugreek"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Fenugrec",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Trigonelle",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Senegal vernacular and descriptive terminology for fenugreek"
+      },
+      {
+        "name": "Hulba",
+        "language": "wo",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Senegal vernacular and descriptive terminology for fenugreek"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Fenogreco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Alholva",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for fenugreek"
+      }
+    ],
+    "TH": [
+      {
+        "name": "เมล็ดซัด",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for fenugreek",
+        "transliteration": "malet sat",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "เฟนูกรีก",
+        "language": "th",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for fenugreek",
+        "transliteration": "fenugreek",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "الحلبة",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for fenugreek",
+        "transliteration": "al-hulbah",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "حلبة يونانية",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for fenugreek",
+        "transliteration": "hulbah yunaniyah",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Fenugrec",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for fenugreek"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Çemen otu",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Boy otu",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for fenugreek"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Fenugreek",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Greek hay",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Trinidad and Tobago vernacular and descriptive terminology for fenugreek"
+      }
+    ],
+    "TW": [
+      {
+        "name": "胡蘆巴",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for fenugreek",
+        "transliteration": "hú lú bā",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "葫蘆巴",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for fenugreek",
+        "transliteration": "hú lú bā",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Пажитник сінний",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for fenugreek",
+        "transliteration": "pazhytnyk sinnyi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Шамбала",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for fenugreek",
+        "transliteration": "shambala",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "Fenugreek",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Greek hay",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "United States vernacular and descriptive terminology for fenugreek"
+      },
+      {
+        "name": "Fenogreco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for fenugreek"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Fenogreco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Alholva",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for fenugreek"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Fenogreco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Alholva",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for fenugreek"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Cỏ cà ri",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Hồ lô ba",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for fenugreek"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Fenugreek",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for fenugreek"
+      },
+      {
+        "name": "Fenegriek",
+        "language": "af",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for fenugreek"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Fenugreek",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for fenugreek"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Fenugreek",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for fenugreek"
+      }
+    ]
+  }
+}

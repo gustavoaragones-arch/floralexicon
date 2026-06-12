@@ -25,6 +25,29 @@
     ]
   },
   {
+    "name": "Abishii",
+    "normalized": "abishii",
+    "language": "om",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "ET"
+    ],
+    "country_usage": [
+      {
+        "country": "ET",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Acácia-branca",
     "normalized": "acacia branca",
     "language": "pt",
@@ -2094,6 +2117,37 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Alforva",
+    "normalized": "alforva",
+    "language": "pt",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "BR",
+      "PT"
+    ],
+    "country_usage": [
+      {
+        "country": "BR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Alga spirulina",
     "normalized": "alga spirulina",
     "language": "it",
@@ -2202,6 +2256,157 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Alholva",
+    "normalized": "alholva",
+    "language": "es",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "AR",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "CU",
+      "DO",
+      "EC",
+      "ES",
+      "GT",
+      "MX",
+      "PA",
+      "PE",
+      "PY",
+      "SV",
+      "UY",
+      "VE"
+    ],
+    "country_usage": [
+      {
+        "country": "AR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "BO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "EC",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ES",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MX",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SV",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "UY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "VE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 17,
     "dominant_in_countries": []
   },
   {
@@ -9253,6 +9458,90 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Bockhornsklöver",
+    "normalized": "bockhornsklover",
+    "language": "sv",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "FI",
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "SE"
+    ]
+  },
+  {
+    "name": "Bockshornklee",
+    "normalized": "bockshornklee",
+    "language": "de",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "BE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
+    "dominant_in_countries": [
+      "AT",
+      "CH",
+      "DE"
+    ]
+  },
+  {
     "name": "Bodza",
     "normalized": "bodza",
     "language": "hu",
@@ -9374,6 +9663,29 @@
     "dominant_in_countries": [
       "HR"
     ]
+  },
+  {
+    "name": "Boy otu",
+    "normalized": "boy otu",
+    "language": "tr",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "country_usage": [
+      {
+        "country": "TR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Brændenælde",
@@ -9615,6 +9927,125 @@
         "confidence": "low",
         "source": "manual",
         "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Bukkehorn",
+    "normalized": "bukkehorn",
+    "language": "da",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DK"
+    ]
+  },
+  {
+    "name": "Bukkehornkløver",
+    "normalized": "bukkehornkløver",
+    "language": "nb",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Bukkehornkløver",
+    "normalized": "bukkehornkløver",
+    "language": "nn",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Bukkehornkløver",
+    "normalized": "bukkehornkløver",
+    "language": "no",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "NO"
+    ]
+  },
+  {
+    "name": "Bukkehornskløver",
+    "normalized": "bukkehornskløver",
+    "language": "da",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -13548,6 +13979,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Çemen otu",
+    "normalized": "cemen otu",
+    "language": "tr",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "country_usage": [
+      {
+        "country": "TR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "TR"
+    ]
   },
   {
     "name": "Cendawan lingzhi",
@@ -17706,6 +18162,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Cỏ cà ri",
+    "normalized": "co ca ri",
+    "language": "vi",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "VN"
+    ],
+    "country_usage": [
+      {
+        "country": "VN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "VN"
+    ]
   },
   {
     "name": "Cỏ xạ hương",
@@ -25032,6 +25513,63 @@
     ]
   },
   {
+    "name": "Fenegriek",
+    "normalized": "fenegriek",
+    "language": "af",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "ZA"
+    ],
+    "country_usage": [
+      {
+        "country": "ZA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Fenegriek",
+    "normalized": "fenegriek",
+    "language": "nl",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "BE",
+      "NL"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "NL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "BE",
+      "NL"
+    ]
+  },
+  {
     "name": "Fenicul",
     "normalized": "fenicul",
     "language": "ro",
@@ -25412,6 +25950,217 @@
     ]
   },
   {
+    "name": "Feno-grego",
+    "normalized": "feno grego",
+    "language": "pt",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "BR",
+      "PT"
+    ],
+    "country_usage": [
+      {
+        "country": "BR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "BR",
+      "PT"
+    ]
+  },
+  {
+    "name": "Fenogreco",
+    "normalized": "fenogreco",
+    "language": "es",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "AR",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "CU",
+      "DO",
+      "EC",
+      "ES",
+      "GT",
+      "MX",
+      "PA",
+      "PE",
+      "PY",
+      "SV",
+      "US",
+      "UY",
+      "VE"
+    ],
+    "country_usage": [
+      {
+        "country": "AR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "BO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "EC",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ES",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MX",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PY",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SV",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "UY",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "VE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 18,
+    "dominant_in_countries": [
+      "AR",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "CU",
+      "DO",
+      "EC",
+      "ES",
+      "GT",
+      "MX",
+      "PA",
+      "PE",
+      "PY",
+      "SV",
+      "UY",
+      "VE"
+    ]
+  },
+  {
     "name": "Fenouil",
     "normalized": "fenouil",
     "language": "fr",
@@ -25525,6 +26274,318 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Fenugrec",
+    "normalized": "fenugrec",
+    "language": "fr",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "CH",
+      "DZ",
+      "FR",
+      "MA",
+      "SN",
+      "TN"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DZ",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 8,
+    "dominant_in_countries": [
+      "FR",
+      "SN"
+    ]
+  },
+  {
+    "name": "Fenugrec",
+    "normalized": "fenugrec",
+    "language": "ro",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "country_usage": [
+      {
+        "country": "RO",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Fenugreek",
+    "normalized": "fenugreek",
+    "language": "en",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "GB",
+      "GH",
+      "IE",
+      "JM",
+      "KE",
+      "LK",
+      "MY",
+      "NG",
+      "NZ",
+      "PH",
+      "PK",
+      "SG",
+      "TT",
+      "US",
+      "ZA",
+      "ZM",
+      "ZW"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "JM",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "KE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "LK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "NG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "NZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ZA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ZM",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ZW",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 19,
+    "dominant_in_countries": [
+      "AU",
+      "CA",
+      "GB",
+      "GH",
+      "IE",
+      "JM",
+      "KE",
+      "NG",
+      "NZ",
+      "PH",
+      "SG",
+      "TT",
+      "US",
+      "ZA",
+      "ZM",
+      "ZW"
+    ]
+  },
+  {
+    "name": "Fenugreek",
+    "normalized": "fenugreek",
+    "language": "tl",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "PH"
+    ],
+    "country_usage": [
+      {
+        "country": "PH",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Fenykl",
     "normalized": "fenykl",
     "language": "cs",
@@ -25596,6 +26657,60 @@
     "dominant_in_countries": [
       "TR"
     ]
+  },
+  {
+    "name": "Ffenigrig",
+    "normalized": "ffenigrig",
+    "language": "cy",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "GB"
+    ],
+    "country_usage": [
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Fieno greco",
+    "normalized": "fieno greco",
+    "language": "it",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "CH",
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "IT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
   },
   {
     "name": "Finocchio",
@@ -32155,6 +33270,31 @@
     ]
   },
   {
+    "name": "Görögszéna",
+    "normalized": "gorogszena",
+    "language": "hu",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "country_usage": [
+      {
+        "country": "HU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HU"
+    ]
+  },
+  {
     "name": "Gospina trava",
     "normalized": "gospina trava",
     "language": "hr",
@@ -32461,6 +33601,123 @@
     ]
   },
   {
+    "name": "Grčko sijeno",
+    "normalized": "grcko sijeno",
+    "language": "hr",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "HR"
+    ],
+    "country_usage": [
+      {
+        "country": "HR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Grécke seno",
+    "normalized": "grecke seno",
+    "language": "sk",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "SK"
+    ],
+    "country_usage": [
+      {
+        "country": "SK",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Greek hay",
+    "normalized": "greek hay",
+    "language": "en",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "AU",
+      "GB",
+      "IE",
+      "JM",
+      "NZ",
+      "TT",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "IE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "JM",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "NZ",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "TT",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 7,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Green cardamom",
     "normalized": "green cardamom",
     "language": "en",
@@ -32707,6 +33964,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Grekiskt hö",
+    "normalized": "grekiskt ho",
+    "language": "sv",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "SE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Gressløk",
     "normalized": "gressløk",
     "language": "nb",
@@ -32753,6 +34033,60 @@
     "dominant_in_countries": [
       "NO"
     ]
+  },
+  {
+    "name": "Griechisches Heu",
+    "normalized": "griechisches heu",
+    "language": "de",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "AT",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "DE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Grieks hooi",
+    "normalized": "grieks hooi",
+    "language": "nl",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "NL"
+    ],
+    "country_usage": [
+      {
+        "country": "NL",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Groene kardemom",
@@ -33539,6 +34873,39 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Halba",
+    "normalized": "halba",
+    "language": "ms",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "MY",
+      "SG"
+    ],
+    "country_usage": [
+      {
+        "country": "MY",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "MY"
+    ]
   },
   {
     "name": "Halia",
@@ -35049,6 +36416,29 @@
     ]
   },
   {
+    "name": "Hilba",
+    "normalized": "hilba",
+    "language": "sw",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "KE"
+    ],
+    "country_usage": [
+      {
+        "country": "KE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Hinamona",
     "normalized": "hinamona",
     "language": "mi",
@@ -35699,6 +37089,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Hồ lô ba",
+    "normalized": "ho lo ba",
+    "language": "vi",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "VN"
+    ],
+    "country_usage": [
+      {
+        "country": "VN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Hồ tiêu",
     "normalized": "ho tieu",
     "language": "vi",
@@ -36342,6 +37755,52 @@
         "confidence": "medium",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Hulba",
+    "normalized": "hulba",
+    "language": "ha",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "NG"
+    ],
+    "country_usage": [
+      {
+        "country": "NG",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Hulba",
+    "normalized": "hulba",
+    "language": "wo",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "SN"
+    ],
+    "country_usage": [
+      {
+        "country": "SN",
+        "is_primary": false,
+        "confidence": "low",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
       }
     ],
     "ambiguity_level": "low",
@@ -40592,6 +42051,29 @@
     ]
   },
   {
+    "name": "Kelabat",
+    "normalized": "kelabat",
+    "language": "jv",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "ID"
+    ],
+    "country_usage": [
+      {
+        "country": "ID",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Kelor",
     "normalized": "kelor",
     "language": "id",
@@ -41383,6 +42865,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Klabet",
+    "normalized": "klabet",
+    "language": "id",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "ID"
+    ],
+    "country_usage": [
+      {
+        "country": "ID",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ID"
+    ]
   },
   {
     "name": "Klasasta metvica",
@@ -42605,6 +44112,54 @@
         "country": "HR",
         "is_primary": false,
         "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Kozieradka",
+    "normalized": "kozieradka",
+    "language": "pl",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "country_usage": [
+      {
+        "country": "PL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PL"
+    ]
+  },
+  {
+    "name": "Kozieradka pospolita",
+    "normalized": "kozieradka pospolita",
+    "language": "pl",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "country_usage": [
+      {
+        "country": "PL",
+        "is_primary": false,
+        "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
       }
@@ -47027,6 +48582,29 @@
     "dominant_in_countries": [
       "HU"
     ]
+  },
+  {
+    "name": "Lepkeszegmag",
+    "normalized": "lepkeszegmag",
+    "language": "hu",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "country_usage": [
+      {
+        "country": "HU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Lesklokorka lesklá",
@@ -52529,6 +54107,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Méiti",
+    "normalized": "meiti",
+    "language": "ga",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "IE"
+    ],
+    "country_usage": [
+      {
+        "country": "IE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Melisa",
     "normalized": "melisa",
     "language": "es",
@@ -54365,6 +55966,75 @@
     "dominant_in_countries": [
       "HU"
     ]
+  },
+  {
+    "name": "Methi",
+    "normalized": "methi",
+    "language": "gn",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "PY"
+    ],
+    "country_usage": [
+      {
+        "country": "PY",
+        "is_primary": false,
+        "confidence": "low",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Methi",
+    "normalized": "methi",
+    "language": "mi",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "NZ"
+    ],
+    "country_usage": [
+      {
+        "country": "NZ",
+        "is_primary": false,
+        "confidence": "low",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Methi",
+    "normalized": "methi",
+    "language": "sw",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "KE"
+    ],
+    "country_usage": [
+      {
+        "country": "KE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Metvica",
@@ -64397,6 +66067,54 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Piskavica",
+    "normalized": "piskavica",
+    "language": "hr",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "HR"
+    ],
+    "country_usage": [
+      {
+        "country": "HR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HR"
+    ]
+  },
+  {
+    "name": "Pískavice řecké seno",
+    "normalized": "piskavice recke seno",
+    "language": "cs",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Pissenlit",
     "normalized": "pissenlit",
     "language": "fr",
@@ -65855,6 +67573,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Řecké seno",
+    "normalized": "recke seno",
+    "language": "cs",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CZ"
+    ]
   },
   {
     "name": "Reishi",
@@ -72920,6 +74663,31 @@
     ]
   },
   {
+    "name": "Sarviapila",
+    "normalized": "sarviapila",
+    "language": "fi",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "FI"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "FI"
+    ]
+  },
+  {
     "name": "Sauco",
     "normalized": "sauco",
     "language": "gn",
@@ -73389,6 +75157,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Schinduf",
+    "normalized": "schinduf",
+    "language": "ro",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "country_usage": [
+      {
+        "country": "RO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RO"
+    ]
   },
   {
     "name": "Schlafbeere",
@@ -74307,6 +76100,54 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Sénégrain",
+    "normalized": "senegrain",
+    "language": "fr",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Senovka grécka",
+    "normalized": "senovka grecka",
+    "language": "sk",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "SK"
+    ],
+    "country_usage": [
+      {
+        "country": "SK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SK"
+    ]
   },
   {
     "name": "Sevói",
@@ -81841,6 +83682,54 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Trigonella",
+    "normalized": "trigonella",
+    "language": "it",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "IT",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IT"
+    ]
+  },
+  {
+    "name": "Trigonelle",
+    "normalized": "trigonelle",
+    "language": "fr",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "SN"
+    ],
+    "country_usage": [
+      {
+        "country": "SN",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
       }
     ],
     "ambiguity_level": "low",
@@ -91052,6 +92941,54 @@
     ]
   },
   {
+    "name": "Τριγωνέλλα",
+    "normalized": "τριγωνελλα",
+    "language": "el",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "GR"
+    ],
+    "country_usage": [
+      {
+        "country": "GR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "GR"
+    ]
+  },
+  {
+    "name": "Τριγωνέλλα η ελληνική",
+    "normalized": "τριγωνελλα η ελληνικη",
+    "language": "el",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "GR"
+    ],
+    "country_usage": [
+      {
+        "country": "GR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Τσάι",
     "normalized": "τσαι",
     "language": "el",
@@ -92368,6 +94305,29 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Гръцко сено",
+    "normalized": "гръцко сено",
+    "language": "bg",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "country_usage": [
+      {
+        "country": "BG",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
       }
     ],
     "ambiguity_level": "low",
@@ -95779,6 +97739,54 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Пажитник",
+    "normalized": "пажитник",
+    "language": "ru",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RU"
+    ]
+  },
+  {
+    "name": "Пажитник сінний",
+    "normalized": "пажитник сіннии",
+    "language": "uk",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Пасифлора",
     "normalized": "пасифлора",
     "language": "bg",
@@ -96806,6 +98814,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Сминдух",
+    "normalized": "сминдух",
+    "language": "bg",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "country_usage": [
+      {
+        "country": "BG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "BG"
+    ]
   },
   {
     "name": "Спирулина",
@@ -98267,6 +100300,54 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Шамбала",
+    "normalized": "шамбала",
+    "language": "ru",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Шамбала",
+    "normalized": "шамбала",
+    "language": "uk",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "UA"
+    ]
+  },
+  {
     "name": "Шафран",
     "normalized": "шафран",
     "language": "bg",
@@ -99300,6 +101381,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "חִלְבָּה",
+    "normalized": "חִלְבָּה",
+    "language": "he",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "IL"
+    ],
+    "country_usage": [
+      {
+        "country": "IL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IL"
+    ]
   },
   {
     "name": "טימין",
@@ -101810,6 +103916,66 @@
     "ambiguity_level": "low",
     "name_country_count": 4,
     "dominant_in_countries": []
+  },
+  {
+    "name": "الحلبة",
+    "normalized": "الحلبة",
+    "language": "ar",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "DZ",
+      "EG",
+      "IL",
+      "MA",
+      "TN"
+    ],
+    "country_usage": [
+      {
+        "country": "DZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "EG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "IL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 5,
+    "dominant_in_countries": [
+      "DZ",
+      "EG",
+      "MA",
+      "TN"
+    ]
   },
   {
     "name": "الخزامى",
@@ -105334,6 +107500,68 @@
     "dominant_in_countries": []
   },
   {
+    "name": "حلبة يونانية",
+    "normalized": "حلبة يونانية",
+    "language": "ar",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "DZ",
+      "EG",
+      "TN"
+    ],
+    "country_usage": [
+      {
+        "country": "DZ",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "EG",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TN",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "حلبه",
+    "normalized": "حلبه",
+    "language": "fa",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "IR"
+    ],
+    "country_usage": [
+      {
+        "country": "IR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "خرقوم",
     "normalized": "خرقوم",
     "language": "ar",
@@ -107267,6 +109495,31 @@
     "dominant_in_countries": [
       "DZ",
       "EG"
+    ]
+  },
+  {
+    "name": "شنبلیله",
+    "normalized": "شنبلیله",
+    "language": "fa",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "IR"
+    ],
+    "country_usage": [
+      {
+        "country": "IR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IR"
     ]
   },
   {
@@ -109231,6 +111484,31 @@
     ]
   },
   {
+    "name": "میتھی",
+    "normalized": "میتھی",
+    "language": "ur",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "PK"
+    ],
+    "country_usage": [
+      {
+        "country": "PK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PK"
+    ]
+  },
+  {
     "name": "میلیسا",
     "normalized": "میلیسا",
     "language": "ur",
@@ -110033,6 +112311,29 @@
     "language": "ber",
     "plant_ids": [
       "ocimum_basilicum"
+    ],
+    "countries": [
+      "MA"
+    ],
+    "country_usage": [
+      {
+        "country": "MA",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "ⵜⴰⵃⵍⴱⴰ",
+    "normalized": "ⵜⴰⵃⵍⴱⴰ",
+    "language": "ber",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
     ],
     "countries": [
       "MA"
@@ -110895,6 +113196,54 @@
         "confidence": "medium",
         "source": "local_ethnobotany",
         "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "አብሽ",
+    "normalized": "አብሽ",
+    "language": "am",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "ET"
+    ],
+    "country_usage": [
+      {
+        "country": "ET",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ET"
+    ]
+  },
+  {
+    "name": "ኣብሽ",
+    "normalized": "ኣብሽ",
+    "language": "ti",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "ET"
+    ],
+    "country_usage": [
+      {
+        "country": "ET",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -112713,6 +115062,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "मेथी",
+    "normalized": "मेथी",
+    "language": "hi",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IN"
+    ]
+  },
+  {
     "name": "यरबा माते",
     "normalized": "यरबा माते",
     "language": "hi",
@@ -113231,6 +115605,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "মেথি",
+    "normalized": "মেথি",
+    "language": "bn",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "সিলন দারুচিনি",
     "normalized": "সিলন দারুচিনি",
     "language": "bn",
@@ -113328,6 +115725,29 @@
     "language": "pa",
     "plant_ids": [
       "piper_longum"
+    ],
+    "countries": [
+      "PK"
+    ],
+    "country_usage": [
+      {
+        "country": "PK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "ਮੇਥੀ",
+    "normalized": "ਮੇਥੀ",
+    "language": "pa",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
     ],
     "countries": [
       "PK"
@@ -114317,6 +116737,37 @@
     "dominant_in_countries": []
   },
   {
+    "name": "வெந்தயம்",
+    "normalized": "வெந்தயம்",
+    "language": "ta",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "IN",
+      "LK"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "LK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
     "name": "வெள்ளை மஞ்சள்",
     "normalized": "வெள்ளை மஞ்சள்",
     "language": "ta",
@@ -114519,6 +116970,31 @@
         "country": "LK",
         "is_primary": true,
         "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "LK"
+    ]
+  },
+  {
+    "name": "උලුහාල්",
+    "normalized": "උලුහාල්",
+    "language": "si",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "LK"
+    ],
+    "country_usage": [
+      {
+        "country": "LK",
+        "is_primary": true,
+        "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
       }
@@ -116583,6 +119059,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "เฟนูกรีก",
+    "normalized": "เฟนูกรีก",
+    "language": "th",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "TH"
+    ],
+    "country_usage": [
+      {
+        "country": "TH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "มะรุม",
     "normalized": "มะรุม",
     "language": "th",
@@ -116677,6 +119176,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "เมล็ดซัด",
+    "normalized": "เมล็ดซัด",
+    "language": "th",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "TH"
+    ],
+    "country_usage": [
+      {
+        "country": "TH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "TH"
+    ]
   },
   {
     "name": "เมล็ดดำ",
@@ -120173,6 +122697,29 @@
     ]
   },
   {
+    "name": "페누그릭",
+    "normalized": "페누그릭",
+    "language": "ko",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "country_usage": [
+      {
+        "country": "KR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "페루 인삼",
     "normalized": "페루 인삼",
     "language": "ko",
@@ -120288,6 +122835,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "호로파",
+    "normalized": "호로파",
+    "language": "ko",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "country_usage": [
+      {
+        "country": "KR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "KR"
+    ]
   },
   {
     "name": "홀리 바질",
@@ -121031,6 +123603,29 @@
     "dominant_in_countries": [
       "JP"
     ]
+  },
+  {
+    "name": "コロハ",
+    "normalized": "コロハ",
+    "language": "ja",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "country_usage": [
+      {
+        "country": "JP",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "サフラン",
@@ -122032,6 +124627,31 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "JP"
+    ]
+  },
+  {
+    "name": "フェヌグリーク",
+    "normalized": "フェヌグリーク",
+    "language": "ja",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "country_usage": [
+      {
+        "country": "JP",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
       }
     ],
     "ambiguity_level": "low",
@@ -125749,6 +128369,72 @@
     "dominant_in_countries": []
   },
   {
+    "name": "胡芦巴",
+    "normalized": "胡芦巴",
+    "language": "zh",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "CN",
+      "MY",
+      "SG"
+    ],
+    "country_usage": [
+      {
+        "country": "CN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "CN"
+    ]
+  },
+  {
+    "name": "胡蘆巴",
+    "normalized": "胡蘆巴",
+    "language": "zh",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "TW"
+    ],
+    "country_usage": [
+      {
+        "country": "TW",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "TW"
+    ]
+  },
+  {
     "name": "胡麻籽",
     "normalized": "胡麻籽",
     "language": "zh",
@@ -126229,6 +128915,52 @@
     "language": "zh",
     "plant_ids": [
       "curcuma_zedoaria"
+    ],
+    "countries": [
+      "TW"
+    ],
+    "country_usage": [
+      {
+        "country": "TW",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "葫芦巴",
+    "normalized": "葫芦巴",
+    "language": "zh",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "country_usage": [
+      {
+        "country": "CN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "葫蘆巴",
+    "normalized": "葫蘆巴",
+    "language": "zh",
+    "plant_ids": [
+      "trigonella_foenum_graecum"
     ],
     "countries": [
       "TW"
