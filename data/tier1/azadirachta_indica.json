@@ -1,0 +1,1586 @@
+{
+  "plant_id": "azadirachta_indica",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for neem"
+      },
+      {
+        "name": "Árbol de neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for neem"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Niembaum",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for neem"
+      },
+      {
+        "name": "Neem",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Austria vernacular and descriptive terminology for neem"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Neem",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for neem"
+      },
+      {
+        "name": "Neem tree",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for neem"
+      },
+      {
+        "name": "Indian lilac",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for neem"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Neem",
+        "language": "nl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Belgium vernacular and descriptive terminology for neem"
+      },
+      {
+        "name": "Margousier",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for neem"
+      },
+      {
+        "name": "Niembaum",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for neem"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Нийм",
+        "language": "bg",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bulgaria vernacular and descriptive terminology for neem",
+        "transliteration": "niym",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Нимово дърво",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for neem",
+        "transliteration": "nimovo darvo",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for neem"
+      },
+      {
+        "name": "Árbol de neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for neem"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Neem",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for neem"
+      },
+      {
+        "name": "Nim",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for neem"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Neem",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for neem"
+      },
+      {
+        "name": "Neem tree",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for neem"
+      },
+      {
+        "name": "Margousier",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for neem"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Niembaum",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for neem"
+      },
+      {
+        "name": "Margousier",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for neem"
+      },
+      {
+        "name": "Neem",
+        "language": "it",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Switzerland vernacular and descriptive terminology for neem"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for neem"
+      },
+      {
+        "name": "Árbol de neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for neem"
+      }
+    ],
+    "CN": [
+      {
+        "name": "楝树",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for neem",
+        "transliteration": "liàn shù",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "印度楝",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for neem",
+        "transliteration": "yìn dù liàn",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for neem"
+      },
+      {
+        "name": "Árbol de neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for neem"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for neem"
+      },
+      {
+        "name": "Árbol de neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for neem"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for neem"
+      },
+      {
+        "name": "Árbol de neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for neem"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Nim",
+        "language": "cs",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Czech Republic vernacular and descriptive terminology for neem"
+      },
+      {
+        "name": "Zederach indický",
+        "language": "cs",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Czech Republic vernacular and descriptive terminology for neem"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Niembaum",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for neem"
+      },
+      {
+        "name": "Neem",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Germany vernacular and descriptive terminology for neem"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Neemtræ",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for neem"
+      },
+      {
+        "name": "Neem",
+        "language": "da",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Denmark vernacular and descriptive terminology for neem"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for neem"
+      },
+      {
+        "name": "Árbol de neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for neem"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "النيم",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Algeria vernacular and descriptive terminology for neem",
+        "transliteration": "al-neem",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "شجرة النيم",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for neem",
+        "transliteration": "shajarat al-neem",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Margousier",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for neem"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for neem"
+      },
+      {
+        "name": "Árbol de neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for neem"
+      }
+    ],
+    "EG": [
+      {
+        "name": "النيم",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Egypt vernacular and descriptive terminology for neem",
+        "transliteration": "al-neem",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "شجرة النيم",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for neem",
+        "transliteration": "shajarat al-neem",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for neem"
+      },
+      {
+        "name": "Árbol de neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for neem"
+      },
+      {
+        "name": "Margosa",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for neem"
+      }
+    ],
+    "ET": [
+      {
+        "name": "ኒም",
+        "language": "am",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for neem",
+        "transliteration": "nim",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Neem",
+        "language": "om",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for neem"
+      },
+      {
+        "name": "ኒም",
+        "language": "ti",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for neem",
+        "transliteration": "nim",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Neempuu",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for neem"
+      },
+      {
+        "name": "Neem",
+        "language": "fi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Finland vernacular and descriptive terminology for neem"
+      },
+      {
+        "name": "Neemträd",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for neem"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Margousier",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for neem"
+      },
+      {
+        "name": "Neem",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "France vernacular and descriptive terminology for neem"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Neem",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for neem"
+      },
+      {
+        "name": "Neem tree",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for neem"
+      },
+      {
+        "name": "Indian lilac",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for neem"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Neem",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for neem"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Νημ",
+        "language": "el",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Greece vernacular and descriptive terminology for neem",
+        "transliteration": "nim",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Δέντρο νημ",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for neem",
+        "transliteration": "dentro nim",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for neem"
+      },
+      {
+        "name": "Árbol de neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for neem"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Neem",
+        "language": "hr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Croatia vernacular and descriptive terminology for neem"
+      },
+      {
+        "name": "Drvo nima",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for neem"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Neem",
+        "language": "hu",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Hungary vernacular and descriptive terminology for neem"
+      },
+      {
+        "name": "Neemfa",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for neem"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Mimba",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for neem"
+      },
+      {
+        "name": "Intaran",
+        "language": "jv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for neem"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Neem",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for neem"
+      },
+      {
+        "name": "Neem tree",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for neem"
+      },
+      {
+        "name": "Crann neem",
+        "language": "ga",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ireland vernacular and descriptive terminology for neem"
+      }
+    ],
+    "IL": [
+      {
+        "name": "נים",
+        "language": "he",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Israel vernacular and descriptive terminology for neem",
+        "transliteration": "nim",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "النيم",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Israel vernacular and descriptive terminology for neem",
+        "transliteration": "al-neem",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "شجرة النيم",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for neem",
+        "transliteration": "shajarat al-neem",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "नीम",
+        "language": "hi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for neem",
+        "transliteration": "neem",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "নিম",
+        "language": "bn",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for neem",
+        "transliteration": "nim",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "வேம்பு",
+        "language": "ta",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for neem",
+        "transliteration": "vembu",
+        "transliteration_scheme": "iso_15919"
+      }
+    ],
+    "IR": [
+      {
+        "name": "چریش",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for neem",
+        "transliteration": "cherish",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "نیم",
+        "language": "fa",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Iran vernacular and descriptive terminology for neem",
+        "transliteration": "nim",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Neem",
+        "language": "it",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Italy vernacular and descriptive terminology for neem"
+      },
+      {
+        "name": "Albero di neem",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for neem"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Neem",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for neem"
+      },
+      {
+        "name": "Neem tree",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for neem"
+      },
+      {
+        "name": "Indian lilac",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for neem"
+      }
+    ],
+    "JP": [
+      {
+        "name": "ニーム",
+        "language": "ja",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Japan vernacular and descriptive terminology for neem",
+        "transliteration": "niimu",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "インドセンダン",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for neem",
+        "transliteration": "indo sendan",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Mwarobaini",
+        "language": "sw",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for neem"
+      },
+      {
+        "name": "Neem",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for neem"
+      },
+      {
+        "name": "Mkilifi",
+        "language": "sw",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Kenya vernacular and descriptive terminology for neem"
+      }
+    ],
+    "KR": [
+      {
+        "name": "님나무",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for neem",
+        "transliteration": "nim namu",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "님",
+        "language": "ko",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Korea vernacular and descriptive terminology for neem",
+        "transliteration": "nim",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "කොහොඹ",
+        "language": "si",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for neem",
+        "transliteration": "kohomba",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "வேம்பு",
+        "language": "ta",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for neem",
+        "transliteration": "vembu",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Neem",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for neem"
+      }
+    ],
+    "MA": [
+      {
+        "name": "النيم",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Morocco vernacular and descriptive terminology for neem",
+        "transliteration": "al-neem",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "شجرة النيم",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for neem",
+        "transliteration": "shajarat al-neem",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ⵏⵉⵎ",
+        "language": "ber",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Morocco vernacular and descriptive terminology for neem",
+        "transliteration": "nim",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for neem"
+      },
+      {
+        "name": "Árbol de neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for neem"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Pokok neem",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for neem"
+      },
+      {
+        "name": "Neem",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for neem"
+      },
+      {
+        "name": "印度楝",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for neem",
+        "transliteration": "yìn dù liàn",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Neem",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for neem"
+      },
+      {
+        "name": "Neem",
+        "language": "ha",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Nigeria vernacular and descriptive terminology for neem"
+      },
+      {
+        "name": "Neem",
+        "language": "yo",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Nigeria vernacular and descriptive terminology for neem"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Neemboom",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for neem"
+      },
+      {
+        "name": "Neem",
+        "language": "nl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Netherlands vernacular and descriptive terminology for neem"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Neemtre",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for neem"
+      },
+      {
+        "name": "Neemtre",
+        "language": "nb",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for neem"
+      },
+      {
+        "name": "Neemtre",
+        "language": "nn",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for neem"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Neem",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for neem"
+      },
+      {
+        "name": "Neem tree",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for neem"
+      },
+      {
+        "name": "Neem",
+        "language": "mi",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "New Zealand vernacular and descriptive terminology for neem"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for neem"
+      },
+      {
+        "name": "Árbol de neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for neem"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for neem"
+      },
+      {
+        "name": "Árbol de neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for neem"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Neem",
+        "language": "tl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Philippines vernacular and descriptive terminology for neem"
+      },
+      {
+        "name": "Neem tree",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for neem"
+      }
+    ],
+    "PK": [
+      {
+        "name": "نیم",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for neem",
+        "transliteration": "neem",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Neem",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for neem"
+      },
+      {
+        "name": "ਨਿੰਮ",
+        "language": "pa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for neem",
+        "transliteration": "nimm",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Miodla indyjska",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for neem"
+      },
+      {
+        "name": "Neem",
+        "language": "pl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Poland vernacular and descriptive terminology for neem"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Neem",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for neem"
+      },
+      {
+        "name": "Nim",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for neem"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for neem"
+      },
+      {
+        "name": "Árbol de neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for neem"
+      },
+      {
+        "name": "Neem",
+        "language": "gn",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and descriptive terminology for neem"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Neem",
+        "language": "ro",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Romania vernacular and descriptive terminology for neem"
+      },
+      {
+        "name": "Arbore de neem",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for neem"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Ним",
+        "language": "ru",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Russia vernacular and descriptive terminology for neem",
+        "transliteration": "nim",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Дерево ним",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for neem",
+        "transliteration": "derevo nim",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Азадирахта индийская",
+        "language": "ru",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Russia vernacular and descriptive terminology for neem",
+        "transliteration": "azadirahta indiyskaya",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Neemträd",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for neem"
+      },
+      {
+        "name": "Neem",
+        "language": "sv",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sweden vernacular and descriptive terminology for neem"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Neem",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for neem"
+      },
+      {
+        "name": "印度楝",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for neem",
+        "transliteration": "yìn dù liàn",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Pokok neem",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for neem"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Nim",
+        "language": "sk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Slovakia vernacular and descriptive terminology for neem"
+      },
+      {
+        "name": "Nimový strom",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for neem"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Margousier",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for neem"
+      },
+      {
+        "name": "Neem",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Senegal vernacular and descriptive terminology for neem"
+      },
+      {
+        "name": "Neem",
+        "language": "wo",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Senegal vernacular and descriptive terminology for neem"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for neem"
+      },
+      {
+        "name": "Árbol de neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for neem"
+      }
+    ],
+    "TH": [
+      {
+        "name": "สะเดาอินเดีย",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for neem",
+        "transliteration": "sadao india",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "นีม",
+        "language": "th",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for neem",
+        "transliteration": "neem",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "النيم",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Tunisia vernacular and descriptive terminology for neem",
+        "transliteration": "al-neem",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "شجرة النيم",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for neem",
+        "transliteration": "shajarat al-neem",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Margousier",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for neem"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Neem ağacı",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for neem"
+      },
+      {
+        "name": "Neem",
+        "language": "tr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Turkey vernacular and descriptive terminology for neem"
+      },
+      {
+        "name": "Hint leylağı",
+        "language": "tr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for neem"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Neem",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for neem"
+      },
+      {
+        "name": "Neem tree",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for neem"
+      },
+      {
+        "name": "Indian lilac",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for neem"
+      }
+    ],
+    "TW": [
+      {
+        "name": "印度楝",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for neem",
+        "transliteration": "yìn dù liàn",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "楝樹",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for neem",
+        "transliteration": "liàn shù",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Нім",
+        "language": "uk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ukraine vernacular and descriptive terminology for neem",
+        "transliteration": "nim",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Дерево нім",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for neem",
+        "transliteration": "derevo nim",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Азадірахта індійська",
+        "language": "uk",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ukraine vernacular and descriptive terminology for neem",
+        "transliteration": "azadirakhta indiiska",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "Neem",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for neem"
+      },
+      {
+        "name": "Neem tree",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for neem"
+      },
+      {
+        "name": "Indian lilac",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for neem"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for neem"
+      },
+      {
+        "name": "Árbol de neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for neem"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for neem"
+      },
+      {
+        "name": "Árbol de neem",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for neem"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Sầu đâu Ấn Độ",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for neem"
+      },
+      {
+        "name": "Neem",
+        "language": "vi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Vietnam vernacular and descriptive terminology for neem"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Neem",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for neem"
+      },
+      {
+        "name": "Neemboom",
+        "language": "af",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for neem"
+      },
+      {
+        "name": "Umuthi we-neem",
+        "language": "zu",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "South Africa vernacular and descriptive terminology for neem"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Neem",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for neem"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Neem",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for neem"
+      }
+    ]
+  }
+}
