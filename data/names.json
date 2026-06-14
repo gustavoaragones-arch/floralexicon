@@ -1244,6 +1244,62 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Akar manis",
+    "normalized": "akar manis",
+    "language": "id",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "ID"
+    ],
+    "country_usage": [
+      {
+        "country": "ID",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ID"
+    ]
+  },
+  {
+    "name": "Akar manis",
+    "normalized": "akar manis",
+    "language": "ms",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "MY",
+      "SG"
+    ],
+    "country_usage": [
+      {
+        "country": "MY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Äkta aloe",
     "normalized": "akta aloe",
     "language": "sv",
@@ -2027,6 +2083,40 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Alcaçuz",
+    "normalized": "alcacuz",
+    "language": "pt",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "BR",
+      "PT"
+    ],
+    "country_usage": [
+      {
+        "country": "BR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "BR",
+      "PT"
+    ]
   },
   {
     "name": "Alecrim",
@@ -4501,6 +4591,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Antanan",
+    "normalized": "antanan",
+    "language": "jv",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "ID"
+    ],
+    "country_usage": [
+      {
+        "country": "ID",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Árbol de los cuarenta escudos",
     "normalized": "arbol de los cuarenta escudos",
     "language": "es",
@@ -5845,6 +5958,84 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Asiatic pennywort",
+    "normalized": "asiatic pennywort",
+    "language": "en",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "AU",
+      "GB",
+      "JM",
+      "TT",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "JM",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 5,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Asiatiese waternavel",
+    "normalized": "asiatiese waternavel",
+    "language": "af",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "ZA"
+    ],
+    "country_usage": [
+      {
+        "country": "ZA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Asiatischer Ginseng",
     "normalized": "asiatischer ginseng",
     "language": "de",
@@ -5868,6 +6059,57 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Asiatischer Wassernabel",
+    "normalized": "asiatischer wassernabel",
+    "language": "de",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "BE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
+    "dominant_in_countries": [
+      "AT",
+      "CH",
+      "DE"
+    ]
+  },
+  {
     "name": "Asiatisk ginseng",
     "normalized": "asiatisk ginseng",
     "language": "sv",
@@ -5889,6 +6131,135 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Asiatisk navleurt",
+    "normalized": "asiatisk navleurt",
+    "language": "nb",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Asiatisk navleurt",
+    "normalized": "asiatisk navleurt",
+    "language": "nn",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Asiatisk navleurt",
+    "normalized": "asiatisk navleurt",
+    "language": "no",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "NO"
+    ]
+  },
+  {
+    "name": "Asiatisk pennyört",
+    "normalized": "asiatisk pennyort",
+    "language": "sv",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "FI",
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "SE"
+    ]
+  },
+  {
+    "name": "Asiatisk vandnavle",
+    "normalized": "asiatisk vandnavle",
+    "language": "da",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DK"
+    ]
   },
   {
     "name": "Aşotu",
@@ -6030,6 +6401,29 @@
         "confidence": "medium",
         "source": "local_ethnobotany",
         "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Asya kaplan otu",
+    "normalized": "asya kaplan otu",
+    "language": "tr",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "country_usage": [
+      {
+        "country": "TR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -6510,6 +6904,90 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Aziatische waternavel",
+    "normalized": "aziatische waternavel",
+    "language": "nl",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "BE",
+      "NL"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "NL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "BE",
+      "NL"
+    ]
+  },
+  {
+    "name": "Azijska centela",
+    "normalized": "azijska centela",
+    "language": "hr",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "HR"
+    ],
+    "country_usage": [
+      {
+        "country": "HR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HR"
+    ]
+  },
+  {
+    "name": "Ázsiai gázló",
+    "normalized": "azsiai gazlo",
+    "language": "hu",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "country_usage": [
+      {
+        "country": "HU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HU"
+    ]
   },
   {
     "name": "Baasilii qulqulluu",
@@ -9764,6 +10242,37 @@
     ]
   },
   {
+    "name": "Bois doux",
+    "normalized": "bois doux",
+    "language": "fr",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "FR",
+      "SN"
+    ],
+    "country_usage": [
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "SN",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Borrie",
     "normalized": "borrie",
     "language": "af",
@@ -10619,6 +11128,54 @@
     "dominant_in_countries": [
       "SK"
     ]
+  },
+  {
+    "name": "Cam thảo",
+    "normalized": "cam thao",
+    "language": "vi",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "VN"
+    ],
+    "country_usage": [
+      {
+        "country": "VN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "VN"
+    ]
+  },
+  {
+    "name": "Cam thảo Âu",
+    "normalized": "cam thao au",
+    "language": "vi",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "VN"
+    ],
+    "country_usage": [
+      {
+        "country": "VN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Camamilla",
@@ -14255,6 +14812,341 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Centela asiática",
+    "normalized": "centela asiatica",
+    "language": "pt",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "BR",
+      "PT"
+    ],
+    "country_usage": [
+      {
+        "country": "BR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "BR",
+      "PT"
+    ]
+  },
+  {
+    "name": "Centella asiatica",
+    "normalized": "centella asiatica",
+    "language": "it",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "CH",
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "IT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "IT"
+    ]
+  },
+  {
+    "name": "Centella asiatică",
+    "normalized": "centella asiatica",
+    "language": "ro",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "country_usage": [
+      {
+        "country": "RO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RO"
+    ]
+  },
+  {
+    "name": "Centella asiática",
+    "normalized": "centella asiatica",
+    "language": "es",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "AR",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "CU",
+      "DO",
+      "EC",
+      "ES",
+      "GT",
+      "MX",
+      "PA",
+      "PE",
+      "PY",
+      "SV",
+      "UY",
+      "VE"
+    ],
+    "country_usage": [
+      {
+        "country": "AR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "BO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "EC",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ES",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MX",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PY",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SV",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "UY",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "VE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 17,
+    "dominant_in_countries": [
+      "AR",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "CU",
+      "DO",
+      "EC",
+      "ES",
+      "GT",
+      "MX",
+      "PA",
+      "PE",
+      "PY",
+      "SV",
+      "UY",
+      "VE"
+    ]
+  },
+  {
+    "name": "Centella asiatique",
+    "normalized": "centella asiatique",
+    "language": "fr",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "CH",
+      "DZ",
+      "FR",
+      "SN",
+      "TN"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DZ",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 7,
+    "dominant_in_countries": [
+      "FR",
+      "SN"
+    ]
   },
   {
     "name": "Cereja-de-inverno",
@@ -22456,6 +23348,52 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Dropwortel",
+    "normalized": "dropwortel",
+    "language": "af",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "ZA"
+    ],
+    "country_usage": [
+      {
+        "country": "ZA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Dropwortel",
+    "normalized": "dropwortel",
+    "language": "nl",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "NL"
+    ],
+    "country_usage": [
+      {
+        "country": "NL",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Drumstick tree",
     "normalized": "drumstick tree",
     "language": "en",
@@ -24314,6 +25252,31 @@
     "ambiguity_level": "low",
     "name_country_count": 2,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Édesgyökér",
+    "normalized": "edesgyoker",
+    "language": "hu",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "country_usage": [
+      {
+        "country": "HU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HU"
+    ]
   },
   {
     "name": "Édeskömény",
@@ -28011,6 +28974,29 @@
     "dominant_in_countries": [
       "HU"
     ]
+  },
+  {
+    "name": "Fréamh mhilis",
+    "normalized": "freamh mhilis",
+    "language": "ga",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "IE"
+    ],
+    "country_usage": [
+      {
+        "country": "IE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Frenk soğanı",
@@ -33561,6 +34547,824 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Gotu kola",
+    "normalized": "gotu kola",
+    "language": "cs",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Gotu kola",
+    "normalized": "gotu kola",
+    "language": "da",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Gotu kola",
+    "normalized": "gotu kola",
+    "language": "es",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "AR",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "CU",
+      "DO",
+      "EC",
+      "ES",
+      "GT",
+      "MX",
+      "PA",
+      "PE",
+      "PY",
+      "SV",
+      "UY",
+      "VE"
+    ],
+    "country_usage": [
+      {
+        "country": "AR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "BO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "DO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "EC",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "ES",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "GT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "MX",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "PA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "PE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "PY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "SV",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "UY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "VE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 17,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Gotu kola",
+    "normalized": "gotu kola",
+    "language": "fi",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "FI"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Gotu kola",
+    "normalized": "gotu kola",
+    "language": "fr",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "FR",
+      "SN"
+    ],
+    "country_usage": [
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "SN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Gotu kola",
+    "normalized": "gotu kola",
+    "language": "gn",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "PY"
+    ],
+    "country_usage": [
+      {
+        "country": "PY",
+        "is_primary": false,
+        "confidence": "low",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Gotu kola",
+    "normalized": "gotu kola",
+    "language": "hr",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "HR"
+    ],
+    "country_usage": [
+      {
+        "country": "HR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Gotu kola",
+    "normalized": "gotu kola",
+    "language": "hu",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "country_usage": [
+      {
+        "country": "HU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Gotu kola",
+    "normalized": "gotu kola",
+    "language": "it",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "IT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Gotu kola",
+    "normalized": "gotu kola",
+    "language": "nl",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "NL"
+    ],
+    "country_usage": [
+      {
+        "country": "NL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Gotu kola",
+    "normalized": "gotu kola",
+    "language": "om",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "ET"
+    ],
+    "country_usage": [
+      {
+        "country": "ET",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Gotu kola",
+    "normalized": "gotu kola",
+    "language": "pl",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "country_usage": [
+      {
+        "country": "PL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Gotu kola",
+    "normalized": "gotu kola",
+    "language": "pt",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "BR",
+      "PT"
+    ],
+    "country_usage": [
+      {
+        "country": "BR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "PT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Gotu kola",
+    "normalized": "gotu kola",
+    "language": "ro",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "country_usage": [
+      {
+        "country": "RO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Gotu kola",
+    "normalized": "gotu kola",
+    "language": "sk",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "SK"
+    ],
+    "country_usage": [
+      {
+        "country": "SK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Gotu kola",
+    "normalized": "gotu kola",
+    "language": "sv",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "SE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Gotu kola",
+    "normalized": "gotu kola",
+    "language": "sw",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "KE"
+    ],
+    "country_usage": [
+      {
+        "country": "KE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Gotu kola",
+    "normalized": "gotu kola",
+    "language": "tr",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "country_usage": [
+      {
+        "country": "TR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "TR"
+    ]
+  },
+  {
+    "name": "Gotu kola",
+    "normalized": "gotu kola",
+    "language": "vi",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "VN"
+    ],
+    "country_usage": [
+      {
+        "country": "VN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Gotu kola",
+    "normalized": "gotu kola",
+    "language": "wo",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "SN"
+    ],
+    "country_usage": [
+      {
+        "country": "SN",
+        "is_primary": false,
+        "confidence": "low",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Gotu Kola",
+    "normalized": "gotu kola",
+    "language": "de",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "AT",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "DE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Gotu Kola",
+    "normalized": "gotu kola",
+    "language": "en",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "GB",
+      "GH",
+      "IE",
+      "JM",
+      "KE",
+      "LK",
+      "MY",
+      "NG",
+      "NZ",
+      "PH",
+      "PK",
+      "SG",
+      "TT",
+      "US",
+      "ZA",
+      "ZM",
+      "ZW"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "JM",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "KE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "LK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "NG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "NZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ZA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ZM",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ZW",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 19,
+    "dominant_in_countries": [
+      "AU",
+      "CA",
+      "GB",
+      "GH",
+      "IE",
+      "JM",
+      "NG",
+      "NZ",
+      "TT",
+      "US",
+      "ZA",
+      "ZM",
+      "ZW"
+    ]
+  },
+  {
     "name": "Graine de lin",
     "normalized": "graine de lin",
     "language": "fr",
@@ -36508,6 +38312,149 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Hierba tigre",
+    "normalized": "hierba tigre",
+    "language": "es",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "AR",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "CU",
+      "DO",
+      "EC",
+      "ES",
+      "GT",
+      "MX",
+      "PA",
+      "PE",
+      "SV",
+      "UY",
+      "VE"
+    ],
+    "country_usage": [
+      {
+        "country": "AR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "BO",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CL",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CO",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CU",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DO",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "EC",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ES",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GT",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MX",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PA",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SV",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "UY",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "VE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 16,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Hierbabuena",
     "normalized": "hierbabuena",
     "language": "es",
@@ -38316,6 +40263,29 @@
     ]
   },
   {
+    "name": "Hydrocotyle asiatique",
+    "normalized": "hydrocotyle asiatique",
+    "language": "fr",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Hyld",
     "normalized": "hyld",
     "language": "da",
@@ -38481,6 +40451,29 @@
     "dominant_in_countries": [
       "CZ"
     ]
+  },
+  {
+    "name": "Idrocotile asiatica",
+    "normalized": "idrocotile asiatica",
+    "language": "it",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "IT",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Iliki",
@@ -38871,6 +40864,95 @@
     "ambiguity_level": "low",
     "name_country_count": 7,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Indian pennywort",
+    "normalized": "indian pennywort",
+    "language": "en",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "GB",
+      "IE",
+      "JM",
+      "KE",
+      "NZ",
+      "TT",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "IE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "JM",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "KE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "NZ",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 9,
+    "dominant_in_countries": [
+      "KE"
+    ]
   },
   {
     "name": "Indiase ginseng",
@@ -45769,6 +47851,260 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Lakrids",
+    "normalized": "lakrids",
+    "language": "da",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DK"
+    ]
+  },
+  {
+    "name": "Lakridsrod",
+    "normalized": "lakridsrod",
+    "language": "da",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Lakris",
+    "normalized": "lakris",
+    "language": "no",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "NO"
+    ]
+  },
+  {
+    "name": "Lakrisrot",
+    "normalized": "lakrisrot",
+    "language": "nb",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Lakrisrot",
+    "normalized": "lakrisrot",
+    "language": "nn",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Lakrits",
+    "normalized": "lakrits",
+    "language": "sv",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "FI",
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "SE"
+    ]
+  },
+  {
+    "name": "Lakritsi",
+    "normalized": "lakritsi",
+    "language": "fi",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "FI"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "FI"
+    ]
+  },
+  {
+    "name": "Lakritsijuuri",
+    "normalized": "lakritsijuuri",
+    "language": "fi",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "FI"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Lakritsrot",
+    "normalized": "lakritsrot",
+    "language": "sv",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "SE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Lakritze",
+    "normalized": "lakritze",
+    "language": "de",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "AT",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Lan",
     "normalized": "lan",
     "language": "hr",
@@ -48661,6 +50997,77 @@
     ]
   },
   {
+    "name": "Lékořice",
+    "normalized": "lekorice",
+    "language": "cs",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CZ"
+    ]
+  },
+  {
+    "name": "Lékořice lysá",
+    "normalized": "lekorice lysa",
+    "language": "cs",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Lemn dulce",
+    "normalized": "lemn dulce",
+    "language": "ro",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "country_usage": [
+      {
+        "country": "RO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Lemon balm",
     "normalized": "lemon balm",
     "language": "en",
@@ -49187,6 +51594,182 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Licorice",
+    "normalized": "licorice",
+    "language": "en",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "GB",
+      "GH",
+      "IE",
+      "JM",
+      "KE",
+      "NG",
+      "NZ",
+      "TT",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "GH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "IE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "JM",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "KE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "NG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "NZ",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "TT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 11,
+    "dominant_in_countries": [
+      "US"
+    ]
+  },
+  {
+    "name": "Licorice",
+    "normalized": "licorice",
+    "language": "pt",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "BR"
+    ],
+    "country_usage": [
+      {
+        "country": "BR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Licorice",
+    "normalized": "licorice",
+    "language": "tl",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "PH"
+    ],
+    "country_usage": [
+      {
+        "country": "PH",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Licviriție",
+    "normalized": "licviritie",
+    "language": "ro",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "country_usage": [
+      {
+        "country": "RO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RO"
+    ]
+  },
+  {
     "name": "Lidah buaya",
     "normalized": "lidah buaya",
     "language": "id",
@@ -49298,6 +51881,52 @@
       "BE",
       "NL"
     ]
+  },
+  {
+    "name": "Likőrgyökér",
+    "normalized": "likorgyoker",
+    "language": "hu",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "country_usage": [
+      {
+        "country": "HU",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Likorisii",
+    "normalized": "likorisii",
+    "language": "om",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "ET"
+    ],
+    "country_usage": [
+      {
+        "country": "ET",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Limunski matičnjak",
@@ -50295,6 +52924,223 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Liquirizia",
+    "normalized": "liquirizia",
+    "language": "it",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "CH",
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "IT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "IT"
+    ]
+  },
+  {
+    "name": "Liquorice",
+    "normalized": "liquorice",
+    "language": "en",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "GB",
+      "GH",
+      "IE",
+      "JM",
+      "KE",
+      "LK",
+      "MY",
+      "NG",
+      "NZ",
+      "PH",
+      "PK",
+      "SG",
+      "TT",
+      "US",
+      "ZA",
+      "ZM",
+      "ZW"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "JM",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "KE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "LK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MY",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "NG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "NZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "ZA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ZM",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ZW",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 19,
+    "dominant_in_countries": [
+      "AU",
+      "CA",
+      "GB",
+      "GH",
+      "IE",
+      "JM",
+      "KE",
+      "MY",
+      "NG",
+      "NZ",
+      "PH",
+      "SG",
+      "TT",
+      "ZA",
+      "ZM",
+      "ZW"
+    ]
+  },
+  {
     "name": "Ljekovita kadulja",
     "normalized": "ljekovita kadulja",
     "language": "hr",
@@ -50817,6 +53663,54 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Lukrecja",
+    "normalized": "lukrecja",
+    "language": "pl",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "country_usage": [
+      {
+        "country": "PL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PL"
+    ]
+  },
+  {
+    "name": "Lukrecja gładka",
+    "normalized": "lukrecja gładka",
+    "language": "pl",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "country_usage": [
+      {
+        "country": "PL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
       }
     ],
     "ambiguity_level": "low",
@@ -52434,6 +55328,29 @@
     "dominant_in_countries": [
       "PH"
     ]
+  },
+  {
+    "name": "Manis oyot",
+    "normalized": "manis oyot",
+    "language": "jv",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "ID"
+    ],
+    "country_usage": [
+      {
+        "country": "ID",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Manjano",
@@ -56528,6 +59445,31 @@
     ]
   },
   {
+    "name": "Meyan kökü",
+    "normalized": "meyan koku",
+    "language": "tr",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "country_usage": [
+      {
+        "country": "TR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "TR"
+    ]
+  },
+  {
     "name": "Mięta",
     "normalized": "mieta",
     "language": "pl",
@@ -58927,6 +61869,29 @@
         "confidence": "medium",
         "source": "local_ethnobotany",
         "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Mzizi mtamu",
+    "normalized": "mzizi mtamu",
+    "language": "sw",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "KE"
+    ],
+    "country_usage": [
+      {
+        "country": "KE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -63150,6 +66115,157 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Orozuz",
+    "normalized": "orozuz",
+    "language": "es",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "AR",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "CU",
+      "DO",
+      "EC",
+      "ES",
+      "GT",
+      "MX",
+      "PA",
+      "PE",
+      "PY",
+      "SV",
+      "UY",
+      "VE"
+    ],
+    "country_usage": [
+      {
+        "country": "AR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "BO",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CL",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CO",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "EC",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "ES",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GT",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "MX",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PA",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "PE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "PY",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "SV",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "UY",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "VE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 17,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Ortica",
     "normalized": "ortica",
     "language": "it",
@@ -63873,6 +66989,29 @@
     "dominant_in_countries": [
       "PE"
     ]
+  },
+  {
+    "name": "Palodú",
+    "normalized": "palodu",
+    "language": "es",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "country_usage": [
+      {
+        "country": "ES",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Pamajorán obyčajný",
@@ -65363,6 +68502,64 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Pegaga",
+    "normalized": "pegaga",
+    "language": "ms",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "MY",
+      "SG"
+    ],
+    "country_usage": [
+      {
+        "country": "MY",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "MY"
+    ]
+  },
+  {
+    "name": "Pegagan",
+    "normalized": "pegagan",
+    "language": "id",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "ID"
+    ],
+    "country_usage": [
+      {
+        "country": "ID",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ID"
+    ]
+  },
+  {
     "name": "Pellava",
     "normalized": "pellava",
     "language": "fi",
@@ -65409,6 +68606,29 @@
     "dominant_in_countries": [
       "FI"
     ]
+  },
+  {
+    "name": "Pennywort Áiseach",
+    "normalized": "pennywort aiseach",
+    "language": "ga",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "IE"
+    ],
+    "country_usage": [
+      {
+        "country": "IE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Pepa roa",
@@ -68888,6 +72108,56 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Pupečník asijský",
+    "normalized": "pupecnik asijsky",
+    "language": "cs",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CZ"
+    ]
+  },
+  {
+    "name": "Pupočník ázijský",
+    "normalized": "pupocnik azijsky",
+    "language": "sk",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "SK"
+    ],
+    "country_usage": [
+      {
+        "country": "SK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SK"
+    ]
+  },
+  {
     "name": "Pupur hir",
     "normalized": "pupur hir",
     "language": "cy",
@@ -69444,6 +72714,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Radice dolce",
+    "normalized": "radice dolce",
+    "language": "it",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "IT",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Raiz de gengibre",
     "normalized": "raiz de gengibre",
     "language": "pt",
@@ -69475,6 +72768,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Raiz-doce",
+    "normalized": "raiz doce",
+    "language": "pt",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "PT"
+    ],
+    "country_usage": [
+      {
+        "country": "PT",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Randa tapak",
     "normalized": "randa tapak",
     "language": "id",
@@ -69496,6 +72812,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Rau má",
+    "normalized": "rau ma",
+    "language": "vi",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "VN"
+    ],
+    "country_usage": [
+      {
+        "country": "VN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "VN"
+    ]
   },
   {
     "name": "Rau mùi",
@@ -69544,6 +72885,295 @@
     "dominant_in_countries": [
       "CZ"
     ]
+  },
+  {
+    "name": "Regaliz",
+    "normalized": "regaliz",
+    "language": "es",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "AR",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "CU",
+      "DO",
+      "EC",
+      "ES",
+      "GT",
+      "MX",
+      "PA",
+      "PE",
+      "PY",
+      "SV",
+      "UY",
+      "VE"
+    ],
+    "country_usage": [
+      {
+        "country": "AR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "BO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "EC",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ES",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MX",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PY",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SV",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "UY",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "VE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 17,
+    "dominant_in_countries": [
+      "AR",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "CU",
+      "DO",
+      "EC",
+      "ES",
+      "GT",
+      "MX",
+      "PA",
+      "PE",
+      "PY",
+      "SV",
+      "UY",
+      "VE"
+    ]
+  },
+  {
+    "name": "Regaliz",
+    "normalized": "regaliz",
+    "language": "gn",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "PY"
+    ],
+    "country_usage": [
+      {
+        "country": "PY",
+        "is_primary": false,
+        "confidence": "low",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Réglisse",
+    "normalized": "reglisse",
+    "language": "fr",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "CH",
+      "DZ",
+      "FR",
+      "SN",
+      "TN"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DZ",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 7,
+    "dominant_in_countries": [
+      "FR",
+      "SN"
+    ]
+  },
+  {
+    "name": "Réglisse",
+    "normalized": "reglisse",
+    "language": "wo",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "SN"
+    ],
+    "country_usage": [
+      {
+        "country": "SN",
+        "is_primary": false,
+        "confidence": "low",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Reishi",
@@ -70353,6 +73983,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Rohtosammakonputki",
+    "normalized": "rohtosammakonputki",
+    "language": "fi",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "FI"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "FI"
+    ]
   },
   {
     "name": "Rohtovirmajuuri",
@@ -78701,6 +82356,102 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Sladić",
+    "normalized": "sladic",
+    "language": "hr",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "HR"
+    ],
+    "country_usage": [
+      {
+        "country": "HR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HR"
+    ]
+  },
+  {
+    "name": "Sladké drievko",
+    "normalized": "sladke drievko",
+    "language": "sk",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "SK"
+    ],
+    "country_usage": [
+      {
+        "country": "SK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SK"
+    ]
+  },
+  {
+    "name": "Sladovka hladkoplodá",
+    "normalized": "sladovka hladkoploda",
+    "language": "sk",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "SK"
+    ],
+    "country_usage": [
+      {
+        "country": "SK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Slatki korijen",
+    "normalized": "slatki korijen",
+    "language": "hr",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "HR"
+    ],
+    "country_usage": [
+      {
+        "country": "HR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Smetánka lékařská",
     "normalized": "smetanka lekarska",
     "language": "cs",
@@ -81404,6 +85155,57 @@
     ]
   },
   {
+    "name": "Süßholz",
+    "normalized": "sußholz",
+    "language": "de",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "BE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
+    "dominant_in_countries": [
+      "AT",
+      "CH",
+      "DE"
+    ]
+  },
+  {
     "name": "Suurlemoenbalsem",
     "normalized": "suurlemoenbalsem",
     "language": "af",
@@ -81912,6 +85714,53 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Sweet root",
+    "normalized": "sweet root",
+    "language": "en",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "GB",
+      "JM",
+      "TT",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "JM",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "TT",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Szafran",
     "normalized": "szafran",
     "language": "pl",
@@ -82148,6 +85997,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Takip-kuhol",
+    "normalized": "takip kuhol",
+    "language": "tl",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "PH"
+    ],
+    "country_usage": [
+      {
+        "country": "PH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PH"
+    ]
+  },
+  {
     "name": "Tầm ma",
     "normalized": "tam ma",
     "language": "vi",
@@ -82357,6 +86231,29 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Tatlı kök",
+    "normalized": "tatlı kok",
+    "language": "tr",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "country_usage": [
+      {
+        "country": "TR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -84281,6 +88178,29 @@
     "language": "vi",
     "plant_ids": [
       "melissa_officinalis"
+    ],
+    "countries": [
+      "VN"
+    ],
+    "country_usage": [
+      {
+        "country": "VN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Tích tuyết thảo",
+    "normalized": "tich tuyet thao",
+    "language": "vi",
+    "plant_ids": [
+      "centella_asiatica"
     ],
     "countries": [
       "VN"
@@ -89434,6 +93354,31 @@
     ]
   },
   {
+    "name": "Wąkrota azjatycka",
+    "normalized": "wakrota azjatycka",
+    "language": "pl",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "country_usage": [
+      {
+        "country": "PL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PL"
+    ]
+  },
+  {
     "name": "Waleriana",
     "normalized": "waleriana",
     "language": "pl",
@@ -92510,6 +96455,40 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Zoethout",
+    "normalized": "zoethout",
+    "language": "nl",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "BE",
+      "NL"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "NL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "BE",
+      "NL"
+    ]
+  },
+  {
     "name": "Zogale",
     "normalized": "zogale",
     "language": "ha",
@@ -92942,6 +96921,31 @@
     ]
   },
   {
+    "name": "Ασιατική κεντέλλα",
+    "normalized": "ασιατικη κεντελλα",
+    "language": "el",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "GR"
+    ],
+    "country_usage": [
+      {
+        "country": "GR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "GR"
+    ]
+  },
+  {
     "name": "Βαλεριάνα",
     "normalized": "βαλεριανα",
     "language": "el",
@@ -93086,6 +97090,54 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Γκότου κόλα",
+    "normalized": "γκοτου κολα",
+    "language": "el",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "GR"
+    ],
+    "country_usage": [
+      {
+        "country": "GR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Γλυκόριζα",
+    "normalized": "γλυκοριζα",
+    "language": "el",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "GR"
+    ],
+    "country_usage": [
+      {
+        "country": "GR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "GR"
+    ]
   },
   {
     "name": "Γλυκός βασιλικός",
@@ -94668,6 +98720,29 @@
     ]
   },
   {
+    "name": "Ρίζα γλυκόριζας",
+    "normalized": "ριζα γλυκοριζας",
+    "language": "el",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "GR"
+    ],
+    "country_usage": [
+      {
+        "country": "GR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Ροζέλα",
     "normalized": "ροζελα",
     "language": "el",
@@ -95313,6 +99388,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Азиатска центела",
+    "normalized": "азиатска центела",
+    "language": "bg",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "country_usage": [
+      {
+        "country": "BG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "BG"
+    ]
   },
   {
     "name": "Алое вера",
@@ -96329,6 +100429,75 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Готу кола",
+    "normalized": "готу кола",
+    "language": "bg",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "country_usage": [
+      {
+        "country": "BG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Готу кола",
+    "normalized": "готу кола",
+    "language": "ru",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Готу кола",
+    "normalized": "готу кола",
+    "language": "uk",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Градинска мащерка",
     "normalized": "градинска мащерка",
     "language": "bg",
@@ -96700,6 +100869,29 @@
         "confidence": "low",
         "source": "local_ethnobotany",
         "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Женско биле",
+    "normalized": "женско биле",
+    "language": "bg",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "country_usage": [
+      {
+        "country": "BG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -98754,6 +102946,52 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Лакрица",
+    "normalized": "лакрица",
+    "language": "ru",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Лакриця",
+    "normalized": "лакриця",
+    "language": "uk",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -101069,6 +105307,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Сладък корен",
+    "normalized": "сладък корен",
+    "language": "bg",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "country_usage": [
+      {
+        "country": "BG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "BG"
+    ]
+  },
+  {
     "name": "Сминдух",
     "normalized": "сминдух",
     "language": "bg",
@@ -101092,6 +105355,102 @@
     "dominant_in_countries": [
       "BG"
     ]
+  },
+  {
+    "name": "Солодка",
+    "normalized": "солодка",
+    "language": "ru",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RU"
+    ]
+  },
+  {
+    "name": "Солодка",
+    "normalized": "солодка",
+    "language": "uk",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "UA"
+    ]
+  },
+  {
+    "name": "Солодка гола",
+    "normalized": "солодка гола",
+    "language": "uk",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Солодка голая",
+    "normalized": "солодка голая",
+    "language": "ru",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Спирулина",
@@ -101622,6 +105981,56 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Центела азійська",
+    "normalized": "центела азіиська",
+    "language": "uk",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "UA"
+    ]
+  },
+  {
+    "name": "Центелла азиатская",
+    "normalized": "центелла азиатская",
+    "language": "ru",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RU"
+    ]
   },
   {
     "name": "Цибуля",
@@ -102795,6 +107204,52 @@
     ]
   },
   {
+    "name": "Щитолисник азійський",
+    "normalized": "щитолисник азіиськии",
+    "language": "uk",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Щитолистник азиатский",
+    "normalized": "щитолистник азиатскии",
+    "language": "ru",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Эхинацея",
     "normalized": "эхинацея",
     "language": "ru",
@@ -103293,6 +107748,29 @@
         "confidence": "medium",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "גוטו קולה",
+    "normalized": "גוטו קולה",
+    "language": "he",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "IL"
+    ],
+    "country_usage": [
+      {
+        "country": "IL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
       }
     ],
     "ambiguity_level": "low",
@@ -103903,6 +108381,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "ליקוריץ",
+    "normalized": "ליקוריץ",
+    "language": "he",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "IL"
+    ],
+    "country_usage": [
+      {
+        "country": "IL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IL"
+    ]
+  },
+  {
     "name": "מאקה",
     "normalized": "מאקה",
     "language": "he",
@@ -104241,6 +108744,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "סנטלה אסיאתית",
+    "normalized": "סנטלה אסיאתית",
+    "language": "he",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "IL"
+    ],
+    "country_usage": [
+      {
+        "country": "IL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IL"
+    ]
   },
   {
     "name": "ספירולינה",
@@ -104910,6 +109438,29 @@
         "country": "IL",
         "is_primary": false,
         "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "שוש קרח",
+    "normalized": "שוש קרח",
+    "language": "he",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "IL"
+    ],
+    "country_usage": [
+      {
+        "country": "IL",
+        "is_primary": false,
+        "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
       }
@@ -106639,6 +111190,58 @@
     ]
   },
   {
+    "name": "السوس",
+    "normalized": "السوس",
+    "language": "ar",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "DZ",
+      "EG",
+      "MA",
+      "TN"
+    ],
+    "country_usage": [
+      {
+        "country": "DZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "EG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
+    "dominant_in_countries": [
+      "DZ",
+      "EG",
+      "MA",
+      "TN"
+    ]
+  },
+  {
     "name": "السی",
     "normalized": "السی",
     "language": "ur",
@@ -108004,6 +112607,31 @@
     "ambiguity_level": "low",
     "name_country_count": 5,
     "dominant_in_countries": []
+  },
+  {
+    "name": "براہمی بوٹی",
+    "normalized": "براہمی بوٹی",
+    "language": "ur",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "PK"
+    ],
+    "country_usage": [
+      {
+        "country": "PK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PK"
+    ]
   },
   {
     "name": "بسباس",
@@ -110675,6 +115303,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "ریشه شیرین",
+    "normalized": "ریشه شیرین",
+    "language": "fa",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "IR"
+    ],
+    "country_usage": [
+      {
+        "country": "IR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "زدواریا",
     "normalized": "زدواریا",
     "language": "fa",
@@ -111353,6 +116004,83 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "سنتلا آسیاتیکا",
+    "normalized": "سنتلا آسیاتیکا",
+    "language": "fa",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "IR"
+    ],
+    "country_usage": [
+      {
+        "country": "IR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IR"
+    ]
+  },
+  {
+    "name": "سنتيلا آسيوية",
+    "normalized": "سنتيلا آسيوية",
+    "language": "ar",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "DZ",
+      "EG",
+      "MA",
+      "TN"
+    ],
+    "country_usage": [
+      {
+        "country": "DZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "EG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
+    "dominant_in_countries": [
+      "DZ",
+      "EG",
+      "MA",
+      "TN"
+    ]
   },
   {
     "name": "سنوت",
@@ -112047,6 +116775,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "شیرین‌بیان",
+    "normalized": "شیرین‌بیان",
+    "language": "fa",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "IR"
+    ],
+    "country_usage": [
+      {
+        "country": "IR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IR"
+    ]
+  },
+  {
     "name": "صبر زرد",
     "normalized": "صبر زرد",
     "language": "fa",
@@ -112111,6 +116864,61 @@
       "MA",
       "TN"
     ]
+  },
+  {
+    "name": "عرق السوس",
+    "normalized": "عرق السوس",
+    "language": "ar",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "DZ",
+      "EG",
+      "IL",
+      "MA",
+      "TN"
+    ],
+    "country_usage": [
+      {
+        "country": "DZ",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "EG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "IL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 5,
+    "dominant_in_countries": []
   },
   {
     "name": "عشبة القديس يوحنا",
@@ -112188,6 +116996,61 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "غوتو كولا",
+    "normalized": "غوتو كولا",
+    "language": "ar",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "DZ",
+      "EG",
+      "IL",
+      "MA",
+      "TN"
+    ],
+    "country_usage": [
+      {
+        "country": "DZ",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "EG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "IL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "MA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "TN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 5,
     "dominant_in_countries": []
   },
   {
@@ -113375,6 +118238,29 @@
     ]
   },
   {
+    "name": "گوتو کولا",
+    "normalized": "گوتو کولا",
+    "language": "fa",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "IR"
+    ],
+    "country_usage": [
+      {
+        "country": "IR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "گیلاس زمستانی",
     "normalized": "گیلاس زمستانی",
     "language": "fa",
@@ -113828,6 +118714,31 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "IR"
+    ]
+  },
+  {
+    "name": "ملیٹھی",
+    "normalized": "ملیٹھی",
+    "language": "ur",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "PK"
+    ],
+    "country_usage": [
+      {
+        "country": "PK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PK"
     ]
   },
   {
@@ -114772,6 +119683,52 @@
     "dominant_in_countries": []
   },
   {
+    "name": "ⴰⵔⴰⵇ ⵏ ⵙⵓⵙ",
+    "normalized": "ⴰⵔⴰⵇ ⵏ ⵙⵓⵙ",
+    "language": "ber",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "MA"
+    ],
+    "country_usage": [
+      {
+        "country": "MA",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "ⴳⵓⵜⵓ ⴽⵓⵍⴰ",
+    "normalized": "ⴳⵓⵜⵓ ⴽⵓⵍⴰ",
+    "language": "ber",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "MA"
+    ],
+    "country_usage": [
+      {
+        "country": "MA",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "ⵍⵃⴱⴰⵇ",
     "normalized": "ⵍⵃⴱⴰⵇ",
     "language": "ber",
@@ -114910,6 +119867,54 @@
     "dominant_in_countries": [
       "ET"
     ]
+  },
+  {
+    "name": "ሊኮሪስ",
+    "normalized": "ሊኮሪስ",
+    "language": "am",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "ET"
+    ],
+    "country_usage": [
+      {
+        "country": "ET",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ET"
+    ]
+  },
+  {
+    "name": "ሊኮሪስ",
+    "normalized": "ሊኮሪስ",
+    "language": "ti",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "ET"
+    ],
+    "country_usage": [
+      {
+        "country": "ET",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "ሎሚ ባልም",
@@ -115104,6 +120109,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "ሴንቴላ አሲያቲካ",
+    "normalized": "ሴንቴላ አሲያቲካ",
+    "language": "am",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "ET"
+    ],
+    "country_usage": [
+      {
+        "country": "ET",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ET"
+    ]
   },
   {
     "name": "ሴንት ጆንስ ዎርት",
@@ -116343,6 +121373,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "ጎቱ ኮላ",
+    "normalized": "ጎቱ ኮላ",
+    "language": "ti",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "ET"
+    ],
+    "country_usage": [
+      {
+        "country": "ET",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "ጥቁር በርበሬ",
     "normalized": "ጥቁር በርበሬ",
     "language": "am",
@@ -117553,6 +122606,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "मंडूकपर्णी",
+    "normalized": "मंडूकपर्णी",
+    "language": "hi",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IN"
+    ]
+  },
+  {
     "name": "माका",
     "normalized": "माका",
     "language": "hi",
@@ -117622,6 +122700,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "मुलेठी",
+    "normalized": "मुलेठी",
+    "language": "hi",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IN"
+    ]
   },
   {
     "name": "मेथी",
@@ -118121,6 +123224,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "থানকুনি",
+    "normalized": "থানকুনি",
+    "language": "bn",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "নিম",
     "normalized": "নিম",
     "language": "bn",
@@ -118195,6 +123321,29 @@
     "language": "bn",
     "plant_ids": [
       "trigonella_foenum_graecum"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "যষ্টিমধু",
+    "normalized": "যষ্টিমধু",
+    "language": "bn",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
     ],
     "countries": [
       "IN"
@@ -118351,6 +123500,52 @@
     "dominant_in_countries": []
   },
   {
+    "name": "ਬ੍ਰਾਹਮੀ ਬੂਟੀ",
+    "normalized": "ਬ੍ਰਾਹਮੀ ਬੂਟੀ",
+    "language": "pa",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "PK"
+    ],
+    "country_usage": [
+      {
+        "country": "PK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "ਮੁਲੇਠੀ",
+    "normalized": "ਮੁਲੇਠੀ",
+    "language": "pa",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "PK"
+    ],
+    "country_usage": [
+      {
+        "country": "PK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "ਮੇਥੀ",
     "normalized": "ਮੇਥੀ",
     "language": "pa",
@@ -118394,6 +123589,37 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "அதிமதுரம்",
+    "normalized": "அதிமதுரம்",
+    "language": "ta",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "IN",
+      "LK"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "LK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
     "dominant_in_countries": []
   },
   {
@@ -119291,6 +124517,37 @@
     "dominant_in_countries": []
   },
   {
+    "name": "வல்லாரை",
+    "normalized": "வல்லாரை",
+    "language": "ta",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "IN",
+      "LK"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "LK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
     "name": "வெங்காயத்தாள்",
     "normalized": "வெங்காயத்தாள்",
     "language": "ta",
@@ -119966,6 +125223,31 @@
     ]
   },
   {
+    "name": "ගොටුකොළ",
+    "normalized": "ගොටුකොළ",
+    "language": "si",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "LK"
+    ],
+    "country_usage": [
+      {
+        "country": "LK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "LK"
+    ]
+  },
+  {
     "name": "චයිව්ස්",
     "normalized": "චයිව්ස්",
     "language": "si",
@@ -120477,6 +125759,31 @@
     ]
   },
   {
+    "name": "වැල්මී",
+    "normalized": "වැල්මී",
+    "language": "si",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "LK"
+    ],
+    "country_usage": [
+      {
+        "country": "LK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "LK"
+    ]
+  },
+  {
     "name": "සුදු කහ",
     "normalized": "සුදු කහ",
     "language": "si",
@@ -120836,6 +126143,29 @@
     ]
   },
   {
+    "name": "โกตูโคลา",
+    "normalized": "โกตูโคลา",
+    "language": "th",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "TH"
+    ],
+    "country_usage": [
+      {
+        "country": "TH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "ขมิ้น",
     "normalized": "ขมิ้น",
     "language": "th",
@@ -121049,6 +126379,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "ชะเอมเทศ",
+    "normalized": "ชะเอมเทศ",
+    "language": "th",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "TH"
+    ],
+    "country_usage": [
+      {
+        "country": "TH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "TH"
+    ]
   },
   {
     "name": "ชา",
@@ -121552,6 +126907,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "ใบบัวบก",
+    "normalized": "ใบบัวบก",
+    "language": "th",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "TH"
+    ],
+    "country_usage": [
+      {
+        "country": "TH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "TH"
+    ]
   },
   {
     "name": "เปปเปอร์มินต์",
@@ -122190,6 +127570,29 @@
         "country": "TH",
         "is_primary": false,
         "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "ลิโคริซ",
+    "normalized": "ลิโคริซ",
+    "language": "th",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "TH"
+    ],
+    "country_usage": [
+      {
+        "country": "TH",
+        "is_primary": false,
+        "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "linguistic"
       }
@@ -123182,6 +128585,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "감초",
+    "normalized": "감초",
+    "language": "ko",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "country_usage": [
+      {
+        "country": "KR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "KR"
+    ]
+  },
+  {
     "name": "강황",
     "normalized": "강황",
     "language": "ko",
@@ -123342,6 +128770,29 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "고투콜라",
+    "normalized": "고투콜라",
+    "language": "ko",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "country_usage": [
+      {
+        "country": "KR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
       }
     ],
     "ambiguity_level": "low",
@@ -123708,6 +129159,29 @@
     ]
   },
   {
+    "name": "리코리스",
+    "normalized": "리코리스",
+    "language": "ko",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "country_usage": [
+      {
+        "country": "KR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "마늘",
     "normalized": "마늘",
     "language": "ko",
@@ -123982,6 +129456,31 @@
     "language": "ko",
     "plant_ids": [
       "curcuma_zedoaria"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "country_usage": [
+      {
+        "country": "KR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "KR"
+    ]
+  },
+  {
+    "name": "병풀",
+    "normalized": "병풀",
+    "language": "ko",
+    "plant_ids": [
+      "centella_asiatica"
     ],
     "countries": [
       "KR"
@@ -126317,6 +131816,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "ゴツコラ",
+    "normalized": "ゴツコラ",
+    "language": "ja",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "country_usage": [
+      {
+        "country": "JP",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "コモンセージ",
     "normalized": "コモンセージ",
     "language": "ja",
@@ -127028,6 +132550,31 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "JP"
+    ]
+  },
+  {
+    "name": "ツボクサ",
+    "normalized": "ツボクサ",
+    "language": "ja",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "country_usage": [
+      {
+        "country": "JP",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -127899,6 +133446,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "リコリス",
+    "normalized": "リコリス",
+    "language": "ja",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "country_usage": [
+      {
+        "country": "JP",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "ルイボス",
     "normalized": "ルイボス",
     "language": "ja",
@@ -128385,6 +133955,37 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "光果甘草",
+    "normalized": "光果甘草",
+    "language": "zh",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "CN",
+      "TW"
+    ],
+    "country_usage": [
+      {
+        "country": "CN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "TW",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
     "dominant_in_countries": []
   },
   {
@@ -129909,6 +135510,81 @@
     ]
   },
   {
+    "name": "甘草",
+    "normalized": "甘草",
+    "language": "ja",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "country_usage": [
+      {
+        "country": "JP",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "JP"
+    ]
+  },
+  {
+    "name": "甘草",
+    "normalized": "甘草",
+    "language": "zh",
+    "plant_ids": [
+      "glycyrrhiza_glabra"
+    ],
+    "countries": [
+      "CN",
+      "MY",
+      "SG",
+      "TW"
+    ],
+    "country_usage": [
+      {
+        "country": "CN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TW",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
+    "dominant_in_countries": [
+      "CN",
+      "TW"
+    ]
+  },
+  {
     "name": "甜罗勒",
     "normalized": "甜罗勒",
     "language": "zh",
@@ -130450,6 +136126,73 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "积雪草",
+    "normalized": "积雪草",
+    "language": "zh",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "CN",
+      "MY",
+      "SG"
+    ],
+    "country_usage": [
+      {
+        "country": "CN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "CN",
+      "SG"
+    ]
+  },
+  {
+    "name": "積雪草",
+    "normalized": "積雪草",
+    "language": "zh",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "TW"
+    ],
+    "country_usage": [
+      {
+        "country": "TW",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "TW"
+    ]
   },
   {
     "name": "紅茶",
@@ -133291,6 +139034,37 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "雷公根",
+    "normalized": "雷公根",
+    "language": "zh",
+    "plant_ids": [
+      "centella_asiatica"
+    ],
+    "countries": [
+      "CN",
+      "TW"
+    ],
+    "country_usage": [
+      {
+        "country": "CN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TW",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
     "dominant_in_countries": []
   },
   {
