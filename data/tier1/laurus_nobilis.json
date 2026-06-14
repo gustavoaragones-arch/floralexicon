@@ -1,0 +1,1845 @@
+{
+  "plant_id": "laurus_nobilis",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Laurel",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Laurel común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for bay leaf"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Echter Lorbeer",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Gewürzlorbeer",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Lorbeerbaum",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for bay leaf"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Bay laurel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Sweet bay",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Bay tree",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for bay leaf"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Laurier",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Laurier-sauce",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Echter Lorbeer",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for bay leaf"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Дафинов лист",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for bay leaf",
+        "transliteration": "dafinov list",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Лавър",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for bay leaf",
+        "transliteration": "lavar",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Благороден лавър",
+        "language": "bg",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bulgaria vernacular and descriptive terminology for bay leaf",
+        "transliteration": "blagoroden lavar",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Laurel",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Laurel de cocina",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for bay leaf"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Louro",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Louro-comum",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Louro-de-apolo",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Brazil vernacular and descriptive terminology for bay leaf"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Bay laurel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Bay tree",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Laurier-sauce",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for bay leaf"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Echter Lorbeer",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Laurier-sauce",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Alloro",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for bay leaf"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Laurel",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Laurel común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for bay leaf"
+      }
+    ],
+    "CN": [
+      {
+        "name": "月桂",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for bay leaf",
+        "transliteration": "yuè guì",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "月桂树",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for bay leaf",
+        "transliteration": "yuè guì shù",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "香叶树",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "China vernacular and descriptive terminology for bay leaf",
+        "transliteration": "xiāng yè shù",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Laurel",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Laurel de cocina",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Laurel común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for bay leaf"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Laurel",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Laurel de cocina",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for bay leaf"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Laurel",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Laurel común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Laurel de cocina",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for bay leaf"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Vavřín vznešený",
+        "language": "cs",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Czech Republic vernacular and descriptive terminology for bay leaf"
+      },
+      {
+        "name": "Bobkový list",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Bobkový strom",
+        "language": "cs",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for bay leaf"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Echter Lorbeer",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Gewürzlorbeer",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Lorbeerbaum",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for bay leaf"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Laurbær",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Ægte laurbær",
+        "language": "da",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Denmark vernacular and descriptive terminology for bay leaf"
+      },
+      {
+        "name": "Laurbærtræ",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for bay leaf"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Laurel",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Laurel de cocina",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Laurel común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for bay leaf"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "الغار",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for bay leaf",
+        "transliteration": "al-ghar",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ورق الغار",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Algeria vernacular and descriptive terminology for bay leaf",
+        "transliteration": "waraq al-ghar",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Laurier-sauce",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for bay leaf"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Laurel",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Laurel de cocina",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Laurel común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for bay leaf"
+      }
+    ],
+    "EG": [
+      {
+        "name": "الغار",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for bay leaf",
+        "transliteration": "al-ghar",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ورق الغار",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Egypt vernacular and descriptive terminology for bay leaf",
+        "transliteration": "waraq al-ghar",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Laurel",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Laurel común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Laurer",
+        "language": "ca",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for bay leaf"
+      }
+    ],
+    "ET": [
+      {
+        "name": "ቤይ ቅጠል",
+        "language": "am",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for bay leaf",
+        "transliteration": "bay qetel",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Bay leaf",
+        "language": "om",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for bay leaf"
+      },
+      {
+        "name": "ቤይ ቅጠል",
+        "language": "ti",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for bay leaf",
+        "transliteration": "bay qetel",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Laakeri",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Laakerinlehti",
+        "language": "fi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Finland vernacular and descriptive terminology for bay leaf"
+      },
+      {
+        "name": "Lagerblad",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for bay leaf"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Laurier-sauce",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Laurier noble",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "France vernacular and descriptive terminology for bay leaf"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Bay laurel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Sweet bay",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Bay tree",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for bay leaf"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Bay laurel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Bay leaf tree",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ghana vernacular and descriptive terminology for bay leaf"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Δάφνη",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for bay leaf",
+        "transliteration": "dafni",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Βάγια",
+        "language": "el",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for bay leaf",
+        "transliteration": "vagia",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Δάφνη ευγενής",
+        "language": "el",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Greece vernacular and descriptive terminology for bay leaf",
+        "transliteration": "dafni evgenis",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Laurel",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Laurel de cocina",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Laurel común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for bay leaf"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Lovor",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Plemeniti lovor",
+        "language": "hr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Croatia vernacular and descriptive terminology for bay leaf"
+      },
+      {
+        "name": "Lovorov list",
+        "language": "hr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Croatia vernacular and descriptive terminology for bay leaf"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Babér",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Nemes babér",
+        "language": "hu",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Hungary vernacular and descriptive terminology for bay leaf"
+      },
+      {
+        "name": "Babérlevél",
+        "language": "hu",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Hungary vernacular and descriptive terminology for bay leaf"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Daun salam Eropa",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Laurel",
+        "language": "id",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Indonesia vernacular and descriptive terminology for bay leaf"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Bay laurel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Sweet bay",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Labhras",
+        "language": "ga",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for bay leaf"
+      }
+    ],
+    "IL": [
+      {
+        "name": "דפנה",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for bay leaf",
+        "transliteration": "dafna",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "עלי דפנה",
+        "language": "he",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Israel vernacular and descriptive terminology for bay leaf",
+        "transliteration": "alei dafna",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الغار",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for bay leaf",
+        "transliteration": "al-ghar",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "तेजपत्ता",
+        "language": "hi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for bay leaf",
+        "transliteration": "tejpatta",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "তেজপাতা",
+        "language": "bn",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for bay leaf",
+        "transliteration": "tejpata",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "பிரியாணி இலை",
+        "language": "ta",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "India vernacular and descriptive terminology for bay leaf",
+        "transliteration": "biriyani ilai",
+        "transliteration_scheme": "iso_15919"
+      }
+    ],
+    "IR": [
+      {
+        "name": "برگ بو",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for bay leaf",
+        "transliteration": "barg-e bu",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "لورل",
+        "language": "fa",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Iran vernacular and descriptive terminology for bay leaf",
+        "transliteration": "lorel",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Alloro",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Lauro",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Alloro comune",
+        "language": "it",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Italy vernacular and descriptive terminology for bay leaf"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Bay laurel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Sweet bay",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Bay tree",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for bay leaf"
+      }
+    ],
+    "JP": [
+      {
+        "name": "ローリエ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for bay leaf",
+        "transliteration": "rōrie",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "月桂樹",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for bay leaf",
+        "transliteration": "gekkeiju",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "ローレル",
+        "language": "ja",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Japan vernacular and descriptive terminology for bay leaf",
+        "transliteration": "rōreru",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Mti wa bay",
+        "language": "sw",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Kenya vernacular and descriptive terminology for bay leaf"
+      },
+      {
+        "name": "Bay laurel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Bay tree",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for bay leaf"
+      }
+    ],
+    "KR": [
+      {
+        "name": "월계수",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for bay leaf",
+        "transliteration": "wolgyesu",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "베이로렐",
+        "language": "ko",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "South Korea vernacular and descriptive terminology for bay leaf",
+        "transliteration": "bei-rorel",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "월계수잎",
+        "language": "ko",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Korea vernacular and descriptive terminology for bay leaf",
+        "transliteration": "wolgyesu-ip",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "බේ කොළ",
+        "language": "si",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for bay leaf",
+        "transliteration": "be kola",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "பே இலை",
+        "language": "ta",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for bay leaf",
+        "transliteration": "bay ilai",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Bay laurel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for bay leaf"
+      }
+    ],
+    "MA": [
+      {
+        "name": "الغار",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for bay leaf",
+        "transliteration": "al-ghar",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ورق الغار",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Morocco vernacular and descriptive terminology for bay leaf",
+        "transliteration": "waraq al-ghar",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ⴰⵖⴰⵔ",
+        "language": "ber",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for bay leaf",
+        "transliteration": "aghar",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Laurel",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Laurel de cocina",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Mexico vernacular and descriptive terminology for bay leaf"
+      },
+      {
+        "name": "Hoja de laurel",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Mexico vernacular and descriptive terminology for bay leaf"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Daun bay",
+        "language": "ms",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Malaysia vernacular and descriptive terminology for bay leaf"
+      },
+      {
+        "name": "Bay laurel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "月桂",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for bay leaf",
+        "transliteration": "yuè guì",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Bay laurel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Bay tree",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Bay leaf",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Nigeria vernacular and descriptive terminology for bay leaf"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Laurier",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Echte laurier",
+        "language": "nl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Netherlands vernacular and descriptive terminology for bay leaf"
+      },
+      {
+        "name": "Laurierboom",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for bay leaf"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Laurbær",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Laurbær",
+        "language": "nb",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Laurbær",
+        "language": "nn",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for bay leaf"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Bay laurel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Sweet bay",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Bay tree",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for bay leaf"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Laurel",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Laurel de cocina",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Panama vernacular and descriptive terminology for bay leaf"
+      },
+      {
+        "name": "Hoja de laurel",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Panama vernacular and descriptive terminology for bay leaf"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Laurel",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Laurel de cocina",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Peru vernacular and descriptive terminology for bay leaf"
+      },
+      {
+        "name": "Hoja de laurel",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Peru vernacular and descriptive terminology for bay leaf"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Laurel",
+        "language": "tl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Bay laurel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for bay leaf"
+      }
+    ],
+    "PK": [
+      {
+        "name": "تیز پات",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for bay leaf",
+        "transliteration": "tez pat",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Bay laurel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "ਤੇਜ਼ ਪੱਤਾ",
+        "language": "pa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for bay leaf",
+        "transliteration": "tez patta",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Wawrzyn szlachetny",
+        "language": "pl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Poland vernacular and descriptive terminology for bay leaf"
+      },
+      {
+        "name": "Liść laurowy",
+        "language": "pl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Poland vernacular and descriptive terminology for bay leaf"
+      },
+      {
+        "name": "Laurowiec",
+        "language": "pl",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for bay leaf"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Louro",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Louro-comum",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Portugal vernacular and descriptive terminology for bay leaf"
+      },
+      {
+        "name": "Folha de louro",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Portugal vernacular and descriptive terminology for bay leaf"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Laurel",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Laurel de cocina",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and descriptive terminology for bay leaf"
+      },
+      {
+        "name": "Laurel",
+        "language": "gn",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and descriptive terminology for bay leaf"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Dafin",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Frunză de dafin",
+        "language": "ro",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Romania vernacular and descriptive terminology for bay leaf"
+      },
+      {
+        "name": "Laur nobil",
+        "language": "ro",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Romania vernacular and descriptive terminology for bay leaf"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Лавр благородный",
+        "language": "ru",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Russia vernacular and descriptive terminology for bay leaf",
+        "transliteration": "lavr blagorodnyy",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Лавровый лист",
+        "language": "ru",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Russia vernacular and descriptive terminology for bay leaf",
+        "transliteration": "lavrovyy list",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Лавр",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for bay leaf",
+        "transliteration": "lavr",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Lagerblad",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Äkta lager",
+        "language": "sv",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sweden vernacular and descriptive terminology for bay leaf"
+      },
+      {
+        "name": "Lagerträd",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for bay leaf"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Bay laurel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "月桂",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for bay leaf",
+        "transliteration": "yuè guì",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Daun bay",
+        "language": "ms",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Singapore vernacular and descriptive terminology for bay leaf"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Vavrín pravý",
+        "language": "sk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Slovakia vernacular and descriptive terminology for bay leaf"
+      },
+      {
+        "name": "Bobkový list",
+        "language": "sk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Slovakia vernacular and descriptive terminology for bay leaf"
+      },
+      {
+        "name": "Vavrín",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for bay leaf"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Laurier-sauce",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Laurier noble",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Senegal vernacular and descriptive terminology for bay leaf"
+      },
+      {
+        "name": "Laurier",
+        "language": "wo",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Senegal vernacular and descriptive terminology for bay leaf"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Laurel",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Laurel de cocina",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "El Salvador vernacular and descriptive terminology for bay leaf"
+      },
+      {
+        "name": "Hoja de laurel",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "El Salvador vernacular and descriptive terminology for bay leaf"
+      }
+    ],
+    "TH": [
+      {
+        "name": "ใบกระวาน",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for bay leaf",
+        "transliteration": "bai krawan",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "เบย์ลอเรล",
+        "language": "th",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for bay leaf",
+        "transliteration": "bay laurel",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "ใบเบย์",
+        "language": "th",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for bay leaf",
+        "transliteration": "bai bay",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "الغار",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for bay leaf",
+        "transliteration": "al-ghar",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ورق الغار",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Tunisia vernacular and descriptive terminology for bay leaf",
+        "transliteration": "waraq al-ghar",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Laurier-sauce",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for bay leaf"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Defne",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Defne yaprağı",
+        "language": "tr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Turkey vernacular and descriptive terminology for bay leaf"
+      },
+      {
+        "name": "Akdeniz defnesi",
+        "language": "tr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Turkey vernacular and descriptive terminology for bay leaf"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Bay laurel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Bay leaf tree",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Trinidad and Tobago vernacular and descriptive terminology for bay leaf"
+      },
+      {
+        "name": "Sweet bay",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for bay leaf"
+      }
+    ],
+    "TW": [
+      {
+        "name": "月桂",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for bay leaf",
+        "transliteration": "yuè guì",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "月桂樹",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for bay leaf",
+        "transliteration": "yuè guì shù",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "香葉樹",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Taiwan vernacular and descriptive terminology for bay leaf",
+        "transliteration": "xiāng yè shù",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Лавр благородний",
+        "language": "uk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ukraine vernacular and descriptive terminology for bay leaf",
+        "transliteration": "lavr blahorodnyi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Лавровий лист",
+        "language": "uk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ukraine vernacular and descriptive terminology for bay leaf",
+        "transliteration": "lavrovyi lyst",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Лавр",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for bay leaf",
+        "transliteration": "lavr",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "Bay laurel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Sweet bay",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Bay tree",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for bay leaf"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Laurel",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Laurel de cocina",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Uruguay vernacular and descriptive terminology for bay leaf"
+      },
+      {
+        "name": "Hoja de laurel",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Uruguay vernacular and descriptive terminology for bay leaf"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Laurel",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Laurel de cocina",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Venezuela vernacular and descriptive terminology for bay leaf"
+      },
+      {
+        "name": "Hoja de laurel",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Venezuela vernacular and descriptive terminology for bay leaf"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Nguyệt quế",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Lá nguyệt quế",
+        "language": "vi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Vietnam vernacular and descriptive terminology for bay leaf"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Bay laurel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Lourier",
+        "language": "af",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Bay leaf",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Africa vernacular and descriptive terminology for bay leaf"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Bay laurel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Bay leaf",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Zambia vernacular and descriptive terminology for bay leaf"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Bay laurel",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for bay leaf"
+      },
+      {
+        "name": "Bay leaf",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Zimbabwe vernacular and descriptive terminology for bay leaf"
+      }
+    ]
+  }
+}
