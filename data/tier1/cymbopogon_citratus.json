@@ -1,0 +1,1724 @@
+{
+  "plant_id": "cymbopogon_citratus",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Hierba limón",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Lemongrass",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Argentina vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Zitronengras",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Lemongras",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Austria vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Lemongrass",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "West Indian lemongrass",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Australia vernacular and descriptive terminology for lemongrass"
+      },
+      {
+        "name": "Oil grass",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Australia vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Citroengras",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Citronnelle",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Zitronengras",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for lemongrass"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Лимонова трева",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for lemongrass",
+        "transliteration": "limonova treva",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Лимонена трева",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for lemongrass",
+        "transliteration": "limonena treva",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Цимбопогон",
+        "language": "bg",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Bulgaria vernacular and descriptive terminology for lemongrass",
+        "transliteration": "tsimbopogon",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Hierba limón",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Zacate limón",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bolivia vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Capim-limão",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Capim-cidreira",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Capim-santo",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for lemongrass"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Lemongrass",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Citronnelle",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "West Indian lemongrass",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Canada vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Zitronengras",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Citronnelle",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Erba limoncina",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for lemongrass"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Hierba limón",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Lemongrass",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Chile vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "CN": [
+      {
+        "name": "香茅",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for lemongrass",
+        "transliteration": "xiāng máo",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "柠檬草",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for lemongrass",
+        "transliteration": "níng méng cǎo",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "香茅草",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for lemongrass",
+        "transliteration": "xiāng máo cǎo",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Hierba limón",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Limonaria",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Zacate limón",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Colombia vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Zacate limón",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Hierba limón",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Lemongrass",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Costa Rica vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Caña santa",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Hierba limón",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Limoncillo",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Cuba vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Citronová tráva",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Voňatka citronová",
+        "language": "cs",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Czech Republic vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Zitronengras",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Lemongras",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Germany vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Citrongræs",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Lemongræs",
+        "language": "da",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Denmark vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Limoncillo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Caña santa",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Hierba limón",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for lemongrass"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "حشيشة الليمون",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for lemongrass",
+        "transliteration": "hashishat al-laymun",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ليمون جراس",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Algeria vernacular and descriptive terminology for lemongrass",
+        "transliteration": "laymun gras",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Citronnelle",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for lemongrass"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Hierba limón",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Limonaria",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Zacate limón",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ecuador vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "EG": [
+      {
+        "name": "حشيشة الليمون",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for lemongrass",
+        "transliteration": "hashishat al-laymun",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ليمون جراس",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Egypt vernacular and descriptive terminology for lemongrass",
+        "transliteration": "laymun gras",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Hierba limón",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Hierba luisa",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Spain vernacular and descriptive terminology for lemongrass"
+      },
+      {
+        "name": "Citronela",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for lemongrass"
+      }
+    ],
+    "ET": [
+      {
+        "name": "ሎሚ ሣር",
+        "language": "am",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for lemongrass",
+        "transliteration": "lomi sar",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Lemon grass",
+        "language": "om",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for lemongrass"
+      },
+      {
+        "name": "ለሚን ሳር",
+        "language": "ti",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for lemongrass",
+        "transliteration": "lemin sar",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Sitruunaruoho",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Sitrongräs",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for lemongrass"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Citronnelle",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Verveine des Indes",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for lemongrass"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Lemongrass",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "West Indian lemongrass",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "United Kingdom vernacular and descriptive terminology for lemongrass"
+      },
+      {
+        "name": "Oil grass",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "United Kingdom vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Lemongrass",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for lemongrass"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Λεμονόχορτο",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for lemongrass",
+        "transliteration": "lemonochorto",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Σιτρονέλα",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for lemongrass",
+        "transliteration": "sitronela",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Zacate limón",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Hierba limón",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Limonaria",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Guatemala vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Limunska trava",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Citronska trava",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for lemongrass"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Citromfű",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Citromnád",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for lemongrass"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Serai",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Sereh",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Sere",
+        "language": "jv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for lemongrass"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Lemongrass",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "West Indian lemongrass",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ireland vernacular and descriptive terminology for lemongrass"
+      },
+      {
+        "name": "Féar líomóide",
+        "language": "ga",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ireland vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "IL": [
+      {
+        "name": "למון גראס",
+        "language": "he",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Israel vernacular and descriptive terminology for lemongrass",
+        "transliteration": "lemon gras",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "עשב לימון",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for lemongrass",
+        "transliteration": "esev limon",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "حشيشة الليمون",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for lemongrass",
+        "transliteration": "hashishat al-laymun",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "लेमन ग्रास",
+        "language": "hi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "India vernacular and descriptive terminology for lemongrass",
+        "transliteration": "lemon grass",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "গন্ধতৃণ",
+        "language": "bn",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for lemongrass",
+        "transliteration": "gandhatrin",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "எலுமிச்சைப் புல்",
+        "language": "ta",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for lemongrass",
+        "transliteration": "elumichai pul",
+        "transliteration_scheme": "iso_15919"
+      }
+    ],
+    "IR": [
+      {
+        "name": "علف لیمو",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for lemongrass",
+        "transliteration": "alaf limoo",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "لمون گراس",
+        "language": "fa",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Iran vernacular and descriptive terminology for lemongrass",
+        "transliteration": "lemon grass",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Erba limoncina",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Lemongrass",
+        "language": "it",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Italy vernacular and descriptive terminology for lemongrass"
+      },
+      {
+        "name": "Citronella delle Indie",
+        "language": "it",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for lemongrass"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Lemongrass",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Fever grass",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Jamaica vernacular and descriptive terminology for lemongrass"
+      },
+      {
+        "name": "West Indian lemongrass",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Jamaica vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "JP": [
+      {
+        "name": "レモングラス",
+        "language": "ja",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Japan vernacular and descriptive terminology for lemongrass",
+        "transliteration": "remongurasu",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "レモンガヤ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for lemongrass",
+        "transliteration": "remongaya",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "シンボポゴン",
+        "language": "ja",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Japan vernacular and descriptive terminology for lemongrass",
+        "transliteration": "shinbopogon",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Mchaichai",
+        "language": "sw",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Lemongrass",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Fever grass",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Kenya vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "KR": [
+      {
+        "name": "레몬그라스",
+        "language": "ko",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Korea vernacular and descriptive terminology for lemongrass",
+        "transliteration": "lemon geuras",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "레몬향풀",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for lemongrass",
+        "transliteration": "lemonhyang pul",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "심보포곤",
+        "language": "ko",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "South Korea vernacular and descriptive terminology for lemongrass",
+        "transliteration": "simbopogon",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "සේර",
+        "language": "si",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for lemongrass",
+        "transliteration": "sera",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "சேரை",
+        "language": "ta",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for lemongrass",
+        "transliteration": "serai",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Lemongrass",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for lemongrass"
+      }
+    ],
+    "MA": [
+      {
+        "name": "حشيشة الليمون",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for lemongrass",
+        "transliteration": "hashishat al-laymun",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ليمون جراس",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Morocco vernacular and descriptive terminology for lemongrass",
+        "transliteration": "laymun gras",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ⴰⵣⵔⵉ ⵏ ⵍⵉⵎⵓⵏ",
+        "language": "ber",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Morocco vernacular and descriptive terminology for lemongrass",
+        "transliteration": "azri n limun",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Zacate limón",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Hierba limón",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Té limón",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Mexico vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Serai",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Lemongrass",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "香茅",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for lemongrass",
+        "transliteration": "xiāng máo",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Lemongrass",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Fever grass",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Nigeria vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Citroengras",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Lemongrass",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Netherlands vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Sitrongress",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Sitrongress",
+        "language": "nb",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Sitrongress",
+        "language": "nn",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for lemongrass"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Lemongrass",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "West Indian lemongrass",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "New Zealand vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Hierba limón",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Zacate limón",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Limonaria",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Panama vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Hierba limón",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Limonaria",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Zacate limón",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Peru vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Tanglad",
+        "language": "tl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Lemongrass",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for lemongrass"
+      }
+    ],
+    "PK": [
+      {
+        "name": "لیموں گھاس",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for lemongrass",
+        "transliteration": "lemon ghaas",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Lemongrass",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "ਨਿੰਬੂ ਘਾਹ",
+        "language": "pa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for lemongrass",
+        "transliteration": "nimbu ghaah",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Trawa cytrynowa",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Palczatka cytrynowa",
+        "language": "pl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Poland vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Capim-limão",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Erva-príncipe",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for lemongrass"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Hierba limón",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Zacate limón",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and descriptive terminology for lemongrass"
+      },
+      {
+        "name": "Hierba limón",
+        "language": "gn",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Iarbă de lămâie",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Lemongrass",
+        "language": "ro",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Romania vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Лемонграсс",
+        "language": "ru",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Russia vernacular and descriptive terminology for lemongrass",
+        "transliteration": "lemongrass",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Лимонное сорго",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for lemongrass",
+        "transliteration": "limonnoye sorgo",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Цимбопогон лимонный",
+        "language": "ru",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Russia vernacular and descriptive terminology for lemongrass",
+        "transliteration": "tsimbopogon limonnyy",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Citrongräs",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Lemongrass",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Sweden vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Lemongrass",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "香茅",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for lemongrass",
+        "transliteration": "xiāng máo",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Serai",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for lemongrass"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Citrónová tráva",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Voňatka citrónová",
+        "language": "sk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Slovakia vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Citronnelle",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Verveine des Indes",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Citronnelle",
+        "language": "wo",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Senegal vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Hierba limón",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Zacate limón",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Limonaria",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "El Salvador vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "TH": [
+      {
+        "name": "ตะไคร้",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for lemongrass",
+        "transliteration": "ta-khrai",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "หญ้าตะไคร้",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for lemongrass",
+        "transliteration": "ya ta-khrai",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "เลมอนกราส",
+        "language": "th",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for lemongrass",
+        "transliteration": "lemon kras",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "حشيشة الليمون",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for lemongrass",
+        "transliteration": "hashishat al-laymun",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ليمون جراس",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Tunisia vernacular and descriptive terminology for lemongrass",
+        "transliteration": "laymun gras",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Citronnelle",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for lemongrass"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Limon otu",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Limon çimi",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Lemongrass",
+        "language": "tr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Turkey vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Lemongrass",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Fever grass",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Trinidad and Tobago vernacular and descriptive terminology for lemongrass"
+      },
+      {
+        "name": "West Indian lemongrass",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Trinidad and Tobago vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "TW": [
+      {
+        "name": "香茅",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for lemongrass",
+        "transliteration": "xiāng máo",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "檸檬草",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for lemongrass",
+        "transliteration": "níng méng cǎo",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "香茅草",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for lemongrass",
+        "transliteration": "xiāng máo cǎo",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Лимонна трава",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for lemongrass",
+        "transliteration": "lymonna trava",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Лемонграс",
+        "language": "uk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ukraine vernacular and descriptive terminology for lemongrass",
+        "transliteration": "lemongras",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Цимбопогон лимонний",
+        "language": "uk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ukraine vernacular and descriptive terminology for lemongrass",
+        "transliteration": "tsymbopohon lymonnyi",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "Lemongrass",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "West Indian lemongrass",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "United States vernacular and descriptive terminology for lemongrass"
+      },
+      {
+        "name": "Fever grass",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "United States vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Hierba limón",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Limonaria",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Lemongrass",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Uruguay vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Limoncillo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Hierba limón",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Caña santa",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Venezuela vernacular and descriptive terminology for lemongrass"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Sả",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Cỏ sả",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Sả chanh",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for lemongrass"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Lemongrass",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for lemongrass"
+      },
+      {
+        "name": "Suurlemoengras",
+        "language": "af",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for lemongrass"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Lemongrass",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for lemongrass"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Lemongrass",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for lemongrass"
+      }
+    ]
+  }
+}

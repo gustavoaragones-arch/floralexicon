@@ -11463,6 +11463,45 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Caña santa",
+    "normalized": "cana santa",
+    "language": "es",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "CU",
+      "DO",
+      "VE"
+    ],
+    "country_usage": [
+      {
+        "country": "CU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "VE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Canela",
     "normalized": "canela",
     "language": "es",
@@ -12598,6 +12637,86 @@
     "country_usage": [
       {
         "country": "ES",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Capim-cidreira",
+    "normalized": "capim cidreira",
+    "language": "pt",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "BR"
+    ],
+    "country_usage": [
+      {
+        "country": "BR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Capim-limão",
+    "normalized": "capim limao",
+    "language": "pt",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "BR",
+      "PT"
+    ],
+    "country_usage": [
+      {
+        "country": "BR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "BR",
+      "PT"
+    ]
+  },
+  {
+    "name": "Capim-santo",
+    "normalized": "capim santo",
+    "language": "pt",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "BR"
+    ],
+    "country_usage": [
+      {
+        "country": "BR",
         "is_primary": false,
         "confidence": "high",
         "source": "local_ethnobotany",
@@ -19090,6 +19209,40 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Citroengras",
+    "normalized": "citroengras",
+    "language": "nl",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "BE",
+      "NL"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "NL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "BE",
+      "NL"
+    ]
+  },
+  {
     "name": "Citroenmelisse",
     "normalized": "citroenmelisse",
     "language": "nl",
@@ -19128,6 +19281,31 @@
     "normalized": "citromfu",
     "language": "hu",
     "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "country_usage": [
+      {
+        "country": "HU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HU"
+    ]
+  },
+  {
+    "name": "Citromfű",
+    "normalized": "citromfu",
+    "language": "hu",
+    "plant_ids": [
       "melissa_officinalis"
     ],
     "countries": [
@@ -19146,6 +19324,127 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "HU"
+    ]
+  },
+  {
+    "name": "Citromnád",
+    "normalized": "citromnad",
+    "language": "hu",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "country_usage": [
+      {
+        "country": "HU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Citronela",
+    "normalized": "citronela",
+    "language": "es",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "country_usage": [
+      {
+        "country": "ES",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ES"
+    ]
+  },
+  {
+    "name": "Citronella delle Indie",
+    "normalized": "citronella delle indie",
+    "language": "it",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "IT",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Citrongræs",
+    "normalized": "citrongræs",
+    "language": "da",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DK"
+    ]
+  },
+  {
+    "name": "Citrongräs",
+    "normalized": "citrongras",
+    "language": "sv",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "SE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SE"
     ]
   },
   {
@@ -19205,6 +19504,178 @@
     "dominant_in_countries": [
       "DK"
     ]
+  },
+  {
+    "name": "Citronnelle",
+    "normalized": "citronnelle",
+    "language": "fr",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "CH",
+      "DZ",
+      "FR",
+      "SN",
+      "TN"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 7,
+    "dominant_in_countries": [
+      "DZ",
+      "FR",
+      "SN",
+      "TN"
+    ]
+  },
+  {
+    "name": "Citronnelle",
+    "normalized": "citronnelle",
+    "language": "wo",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "SN"
+    ],
+    "country_usage": [
+      {
+        "country": "SN",
+        "is_primary": false,
+        "confidence": "low",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Citronová tráva",
+    "normalized": "citronova trava",
+    "language": "cs",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CZ"
+    ]
+  },
+  {
+    "name": "Citrónová tráva",
+    "normalized": "citronova trava",
+    "language": "sk",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "SK"
+    ],
+    "country_usage": [
+      {
+        "country": "SK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SK"
+    ]
+  },
+  {
+    "name": "Citronska trava",
+    "normalized": "citronska trava",
+    "language": "hr",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "HR"
+    ],
+    "country_usage": [
+      {
+        "country": "HR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Cive",
@@ -19276,6 +19747,29 @@
     "dominant_in_countries": [
       "VN"
     ]
+  },
+  {
+    "name": "Cỏ sả",
+    "normalized": "co sa",
+    "language": "vi",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "VN"
+    ],
+    "country_usage": [
+      {
+        "country": "VN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Cỏ xạ hương",
@@ -26106,6 +26600,37 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Erba limoncina",
+    "normalized": "erba limoncina",
+    "language": "it",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "CH",
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "IT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Erva-cidreira",
     "normalized": "erva cidreira",
     "language": "pt",
@@ -26229,6 +26754,29 @@
       "BR",
       "PT"
     ]
+  },
+  {
+    "name": "Erva-príncipe",
+    "normalized": "erva principe",
+    "language": "pt",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "PT"
+    ],
+    "country_usage": [
+      {
+        "country": "PT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Espirulina",
@@ -26480,6 +27028,29 @@
     "dominant_in_countries": [
       "SE"
     ]
+  },
+  {
+    "name": "Féar líomóide",
+    "normalized": "fear liomoide",
+    "language": "ga",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "IE"
+    ],
+    "country_usage": [
+      {
+        "country": "IE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Fehér kurkuma",
@@ -27863,6 +28434,61 @@
     "dominant_in_countries": [
       "TR"
     ]
+  },
+  {
+    "name": "Fever grass",
+    "normalized": "fever grass",
+    "language": "en",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "JM",
+      "KE",
+      "NG",
+      "TT",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "JM",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "KE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "NG",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "TT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 5,
+    "dominant_in_countries": []
   },
   {
     "name": "Ffenigrig",
@@ -38312,6 +38938,206 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Hierba limón",
+    "normalized": "hierba limon",
+    "language": "es",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "AR",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "CU",
+      "DO",
+      "EC",
+      "ES",
+      "GT",
+      "MX",
+      "PA",
+      "PE",
+      "PY",
+      "SV",
+      "UY",
+      "VE"
+    ],
+    "country_usage": [
+      {
+        "country": "AR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "BO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "EC",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ES",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MX",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PY",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SV",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "UY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "VE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 17,
+    "dominant_in_countries": [
+      "BO",
+      "PY"
+    ]
+  },
+  {
+    "name": "Hierba limón",
+    "normalized": "hierba limon",
+    "language": "gn",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "PY"
+    ],
+    "country_usage": [
+      {
+        "country": "PY",
+        "is_primary": false,
+        "confidence": "low",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Hierba luisa",
+    "normalized": "hierba luisa",
+    "language": "es",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "country_usage": [
+      {
+        "country": "ES",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Hierba tigre",
     "normalized": "hierba tigre",
     "language": "es",
@@ -40393,6 +41219,29 @@
       "ZM",
       "ZW"
     ]
+  },
+  {
+    "name": "Iarbă de lămâie",
+    "normalized": "iarba de lamaie",
+    "language": "ro",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "country_usage": [
+      {
+        "country": "RO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Ibisco",
@@ -51264,6 +52113,438 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Lemon grass",
+    "normalized": "lemon grass",
+    "language": "om",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "ET"
+    ],
+    "country_usage": [
+      {
+        "country": "ET",
+        "is_primary": false,
+        "confidence": "low",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Lemongræs",
+    "normalized": "lemongræs",
+    "language": "da",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Lemongras",
+    "normalized": "lemongras",
+    "language": "de",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "AT",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "DE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Lemongrass",
+    "normalized": "lemongrass",
+    "language": "en",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "GB",
+      "GH",
+      "IE",
+      "JM",
+      "KE",
+      "LK",
+      "MY",
+      "NG",
+      "NZ",
+      "PH",
+      "PK",
+      "SG",
+      "TT",
+      "US",
+      "ZA",
+      "ZM",
+      "ZW"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "JM",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "KE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "LK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "NG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "NZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ZA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ZM",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ZW",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 19,
+    "dominant_in_countries": [
+      "AU",
+      "CA",
+      "GB",
+      "GH",
+      "IE",
+      "JM",
+      "NG",
+      "NZ",
+      "PK",
+      "SG",
+      "TT",
+      "US",
+      "ZA",
+      "ZM",
+      "ZW"
+    ]
+  },
+  {
+    "name": "Lemongrass",
+    "normalized": "lemongrass",
+    "language": "es",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "AR",
+      "CL",
+      "CR",
+      "UY"
+    ],
+    "country_usage": [
+      {
+        "country": "AR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CL",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "UY",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
+    "dominant_in_countries": [
+      "AR",
+      "CL",
+      "CR"
+    ]
+  },
+  {
+    "name": "Lemongrass",
+    "normalized": "lemongrass",
+    "language": "it",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "IT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IT"
+    ]
+  },
+  {
+    "name": "Lemongrass",
+    "normalized": "lemongrass",
+    "language": "nl",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "NL"
+    ],
+    "country_usage": [
+      {
+        "country": "NL",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Lemongrass",
+    "normalized": "lemongrass",
+    "language": "ro",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "country_usage": [
+      {
+        "country": "RO",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RO"
+    ]
+  },
+  {
+    "name": "Lemongrass",
+    "normalized": "lemongrass",
+    "language": "sv",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "SE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Lemongrass",
+    "normalized": "lemongrass",
+    "language": "tr",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "country_usage": [
+      {
+        "country": "TR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "TR"
+    ]
+  },
+  {
     "name": "Len setý",
     "normalized": "len sety",
     "language": "cs",
@@ -51927,6 +53208,199 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Limon çimi",
+    "normalized": "limon cimi",
+    "language": "tr",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "country_usage": [
+      {
+        "country": "TR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Limon otu",
+    "normalized": "limon otu",
+    "language": "tr",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "country_usage": [
+      {
+        "country": "TR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Limonaria",
+    "normalized": "limonaria",
+    "language": "es",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "CO",
+      "EC",
+      "GT",
+      "PA",
+      "PE",
+      "SV",
+      "UY"
+    ],
+    "country_usage": [
+      {
+        "country": "CO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "EC",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GT",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "PA",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "PE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SV",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "UY",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 7,
+    "dominant_in_countries": [
+      "CO",
+      "EC",
+      "GT",
+      "PA",
+      "PE",
+      "SV",
+      "UY"
+    ]
+  },
+  {
+    "name": "Limoncillo",
+    "normalized": "limoncillo",
+    "language": "es",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "CU",
+      "DO",
+      "VE"
+    ],
+    "country_usage": [
+      {
+        "country": "CU",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "DO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "VE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "CU",
+      "DO",
+      "VE"
+    ]
+  },
+  {
+    "name": "Limunska trava",
+    "normalized": "limunska trava",
+    "language": "hr",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "HR"
+    ],
+    "country_usage": [
+      {
+        "country": "HR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HR"
+    ]
   },
   {
     "name": "Limunski matičnjak",
@@ -57234,6 +58708,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Mchaichai",
+    "normalized": "mchaichai",
+    "language": "sw",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "KE"
+    ],
+    "country_usage": [
+      {
+        "country": "KE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "KE"
+    ]
   },
   {
     "name": "Mchuzi",
@@ -64614,6 +66113,37 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Oil grass",
+    "normalized": "oil grass",
+    "language": "en",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "AU",
+      "GB"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Oinniún",
     "normalized": "oinniun",
     "language": "ga",
@@ -66955,6 +68485,29 @@
     "country_usage": [
       {
         "country": "HU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Palczatka cytrynowa",
+    "normalized": "palczatka cytrynowa",
+    "language": "pl",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "country_usage": [
+      {
+        "country": "PL",
         "is_primary": false,
         "confidence": "high",
         "source": "local_ethnobotany",
@@ -77718,6 +79271,54 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Sả",
+    "normalized": "sa",
+    "language": "vi",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "VN"
+    ],
+    "country_usage": [
+      {
+        "country": "VN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "VN"
+    ]
+  },
+  {
+    "name": "Sả chanh",
+    "normalized": "sa chanh",
+    "language": "vi",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "VN"
+    ],
+    "country_usage": [
+      {
+        "country": "VN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Saatlein",
     "normalized": "saatlein",
     "language": "de",
@@ -81774,6 +83375,110 @@
     ]
   },
   {
+    "name": "Serai",
+    "normalized": "serai",
+    "language": "id",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "ID"
+    ],
+    "country_usage": [
+      {
+        "country": "ID",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ID"
+    ]
+  },
+  {
+    "name": "Serai",
+    "normalized": "serai",
+    "language": "ms",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "MY",
+      "SG"
+    ],
+    "country_usage": [
+      {
+        "country": "MY",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "MY"
+    ]
+  },
+  {
+    "name": "Sere",
+    "normalized": "sere",
+    "language": "jv",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "ID"
+    ],
+    "country_usage": [
+      {
+        "country": "ID",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Sereh",
+    "normalized": "sereh",
+    "language": "id",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "ID"
+    ],
+    "country_usage": [
+      {
+        "country": "ID",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Sevói",
     "normalized": "sevoi",
     "language": "gn",
@@ -82125,6 +83830,100 @@
     ]
   },
   {
+    "name": "Sitrongräs",
+    "normalized": "sitrongras",
+    "language": "sv",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "FI"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Sitrongress",
+    "normalized": "sitrongress",
+    "language": "nb",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Sitrongress",
+    "normalized": "sitrongress",
+    "language": "nn",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Sitrongress",
+    "normalized": "sitrongress",
+    "language": "no",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "NO"
+    ]
+  },
+  {
     "name": "Sitronmelisse",
     "normalized": "sitronmelisse",
     "language": "no",
@@ -82155,6 +83954,31 @@
     "language": "fi",
     "plant_ids": [
       "melissa_officinalis"
+    ],
+    "countries": [
+      "FI"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "FI"
+    ]
+  },
+  {
+    "name": "Sitruunaruoho",
+    "normalized": "sitruunaruoho",
+    "language": "fi",
+    "plant_ids": [
+      "cymbopogon_citratus"
     ],
     "countries": [
       "FI"
@@ -85231,6 +87055,29 @@
     ]
   },
   {
+    "name": "Suurlemoengras",
+    "normalized": "suurlemoengras",
+    "language": "af",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "ZA"
+    ],
+    "country_usage": [
+      {
+        "country": "ZA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Svart fläder",
     "normalized": "svart flader",
     "language": "sv",
@@ -86072,6 +87919,31 @@
     ]
   },
   {
+    "name": "Tanglad",
+    "normalized": "tanglad",
+    "language": "tl",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "PH"
+    ],
+    "country_usage": [
+      {
+        "country": "PH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PH"
+    ]
+  },
+  {
     "name": "Tảo xoắn",
     "normalized": "tao xoan",
     "language": "vi",
@@ -86541,6 +88413,29 @@
     "dominant_in_countries": [
       "IT"
     ]
+  },
+  {
+    "name": "Té limón",
+    "normalized": "te limon",
+    "language": "es",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "country_usage": [
+      {
+        "country": "MX",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Té negro",
@@ -89528,6 +91423,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Trawa cytrynowa",
+    "normalized": "trawa cytrynowa",
+    "language": "pl",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "country_usage": [
+      {
+        "country": "PL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PL"
+    ]
   },
   {
     "name": "Třezalka",
@@ -92957,6 +94877,37 @@
     ]
   },
   {
+    "name": "Verveine des Indes",
+    "normalized": "verveine des indes",
+    "language": "fr",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "FR",
+      "SN"
+    ],
+    "country_usage": [
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SN",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Viherminttu",
     "normalized": "viherminttu",
     "language": "fi",
@@ -93329,6 +95280,52 @@
     ]
   },
   {
+    "name": "Voňatka citronová",
+    "normalized": "vonatka citronova",
+    "language": "cs",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Voňatka citrónová",
+    "normalized": "vonatka citronova",
+    "language": "sk",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "SK"
+    ],
+    "country_usage": [
+      {
+        "country": "SK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Vöröshagyma",
     "normalized": "voroshagyma",
     "language": "hu",
@@ -93451,6 +95448,85 @@
     "dominant_in_countries": [
       "CH"
     ]
+  },
+  {
+    "name": "West Indian lemongrass",
+    "normalized": "west indian lemongrass",
+    "language": "en",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "GB",
+      "IE",
+      "JM",
+      "NZ",
+      "TT",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "IE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "JM",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "NZ",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "TT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 8,
+    "dominant_in_countries": []
   },
   {
     "name": "White turmeric",
@@ -94955,6 +97031,103 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Zacate limón",
+    "normalized": "zacate limon",
+    "language": "es",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "BO",
+      "CO",
+      "CR",
+      "EC",
+      "GT",
+      "MX",
+      "PA",
+      "PE",
+      "PY",
+      "SV"
+    ],
+    "country_usage": [
+      {
+        "country": "BO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CO",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "EC",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "GT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MX",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "PY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "SV",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 10,
+    "dominant_in_countries": [
+      "MX"
+    ]
+  },
+  {
     "name": "Zafaran",
     "normalized": "zafaran",
     "language": "ha",
@@ -96374,6 +98547,57 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 3,
+    "dominant_in_countries": [
+      "AT",
+      "CH",
+      "DE"
+    ]
+  },
+  {
+    "name": "Zitronengras",
+    "normalized": "zitronengras",
+    "language": "de",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "BE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
     "dominant_in_countries": [
       "AT",
       "CH",
@@ -98002,6 +100226,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Λεμονόχορτο",
+    "normalized": "λεμονοχορτο",
+    "language": "el",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "GR"
+    ],
+    "country_usage": [
+      {
+        "country": "GR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "GR"
+    ]
+  },
+  {
     "name": "Λευκός κουρκουμάς",
     "normalized": "λευκος κουρκουμας",
     "language": "el",
@@ -98865,6 +101114,29 @@
     "language": "el",
     "plant_ids": [
       "crocus_sativus"
+    ],
+    "countries": [
+      "GR"
+    ],
+    "country_usage": [
+      {
+        "country": "GR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Σιτρονέλα",
+    "normalized": "σιτρονελα",
+    "language": "el",
+    "plant_ids": [
+      "cymbopogon_citratus"
     ],
     "countries": [
       "GR"
@@ -102999,6 +105271,56 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Лемонграс",
+    "normalized": "лемонграс",
+    "language": "uk",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "UA"
+    ]
+  },
+  {
+    "name": "Лемонграсс",
+    "normalized": "лемонграсс",
+    "language": "ru",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RU"
+    ]
+  },
+  {
     "name": "Лён обыкновенный",
     "normalized": "лен обыкновенныи",
     "language": "ru",
@@ -103093,11 +105415,80 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Лимонена трева",
+    "normalized": "лимонена трева",
+    "language": "bg",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "country_usage": [
+      {
+        "country": "BG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Лимонна трава",
+    "normalized": "лимонна трава",
+    "language": "uk",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Лимонная мята",
     "normalized": "лимонная мята",
     "language": "ru",
     "plant_ids": [
       "melissa_officinalis"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Лимонное сорго",
+    "normalized": "лимонное сорго",
+    "language": "ru",
+    "plant_ids": [
+      "cymbopogon_citratus"
     ],
     "countries": [
       "RU"
@@ -103132,6 +105523,29 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Лимонова трева",
+    "normalized": "лимонова трева",
+    "language": "bg",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "country_usage": [
+      {
+        "country": "BG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -106104,6 +108518,77 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Цимбопогон",
+    "normalized": "цимбопогон",
+    "language": "bg",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "country_usage": [
+      {
+        "country": "BG",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "BG"
+    ]
+  },
+  {
+    "name": "Цимбопогон лимонний",
+    "normalized": "цимбопогон лимоннии",
+    "language": "uk",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Цимбопогон лимонный",
+    "normalized": "цимбопогон лимонныи",
+    "language": "ru",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Чай",
     "normalized": "чаи",
     "language": "bg",
@@ -108406,6 +110891,31 @@
     ]
   },
   {
+    "name": "למון גראס",
+    "normalized": "למון גראס",
+    "language": "he",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "IL"
+    ],
+    "country_usage": [
+      {
+        "country": "IL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IL"
+    ]
+  },
+  {
     "name": "מאקה",
     "normalized": "מאקה",
     "language": "he",
@@ -108874,6 +111384,29 @@
     "language": "he",
     "plant_ids": [
       "hypericum_perforatum"
+    ],
+    "countries": [
+      "IL"
+    ],
+    "country_usage": [
+      {
+        "country": "IL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "עשב לימון",
+    "normalized": "עשב לימון",
+    "language": "he",
+    "plant_ids": [
+      "cymbopogon_citratus"
     ],
     "countries": [
       "IL"
@@ -114491,6 +117024,64 @@
     "dominant_in_countries": []
   },
   {
+    "name": "حشيشة الليمون",
+    "normalized": "حشيشة الليمون",
+    "language": "ar",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "DZ",
+      "EG",
+      "IL",
+      "MA",
+      "TN"
+    ],
+    "country_usage": [
+      {
+        "country": "DZ",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "EG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "IL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 5,
+    "dominant_in_countries": [
+      "EG",
+      "MA"
+    ]
+  },
+  {
     "name": "حلبة يونانية",
     "normalized": "حلبة يونانية",
     "language": "ar",
@@ -116976,6 +119567,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "علف لیمو",
+    "normalized": "علف لیمو",
+    "language": "fa",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "IR"
+    ],
+    "country_usage": [
+      {
+        "country": "IR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IR"
+    ]
+  },
+  {
     "name": "غانوديرما",
     "normalized": "غانوديرما",
     "language": "ar",
@@ -118386,6 +121002,29 @@
     ]
   },
   {
+    "name": "لمون گراس",
+    "normalized": "لمون گراس",
+    "language": "fa",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "IR"
+    ],
+    "country_usage": [
+      {
+        "country": "IR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "لہسن",
     "normalized": "لہسن",
     "language": "ur",
@@ -118411,6 +121050,53 @@
     ]
   },
   {
+    "name": "ليمون جراس",
+    "normalized": "ليمون جراس",
+    "language": "ar",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "DZ",
+      "EG",
+      "MA",
+      "TN"
+    ],
+    "country_usage": [
+      {
+        "country": "DZ",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "EG",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "MA",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "TN",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
+    "dominant_in_countries": []
+  },
+  {
     "name": "لیمن بام",
     "normalized": "لیمن بام",
     "language": "ur",
@@ -118427,6 +121113,29 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "لیموں گھاس",
+    "normalized": "لیموں گھاس",
+    "language": "ur",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "PK"
+    ],
+    "country_usage": [
+      {
+        "country": "PK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -119706,6 +122415,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "ⴰⵣⵔⵉ ⵏ ⵍⵉⵎⵓⵏ",
+    "normalized": "ⴰⵣⵔⵉ ⵏ ⵍⵉⵎⵓⵏ",
+    "language": "ber",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "MA"
+    ],
+    "country_usage": [
+      {
+        "country": "MA",
+        "is_primary": false,
+        "confidence": "low",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "ⴳⵓⵜⵓ ⴽⵓⵍⴰ",
     "normalized": "ⴳⵓⵜⵓ ⴽⵓⵍⴰ",
     "language": "ber",
@@ -119869,6 +122601,29 @@
     ]
   },
   {
+    "name": "ለሚን ሳር",
+    "normalized": "ለሚን ሳር",
+    "language": "ti",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "ET"
+    ],
+    "country_usage": [
+      {
+        "country": "ET",
+        "is_primary": false,
+        "confidence": "low",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "ሊኮሪስ",
     "normalized": "ሊኮሪስ",
     "language": "am",
@@ -119915,6 +122670,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "ሎሚ ሣር",
+    "normalized": "ሎሚ ሣር",
+    "language": "am",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "ET"
+    ],
+    "country_usage": [
+      {
+        "country": "ET",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ET"
+    ]
   },
   {
     "name": "ሎሚ ባልም",
@@ -122869,6 +125649,29 @@
     ]
   },
   {
+    "name": "लेमन ग्रास",
+    "normalized": "लेमन ग्रास",
+    "language": "hi",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "लेमन बाम",
     "normalized": "लेमन बाम",
     "language": "hi",
@@ -123178,6 +125981,31 @@
     ]
   },
   {
+    "name": "গন্ধতৃণ",
+    "normalized": "গন্ধতৃণ",
+    "language": "bn",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IN"
+    ]
+  },
+  {
     "name": "চাইভস",
     "normalized": "চাইভস",
     "language": "bn",
@@ -123413,6 +126241,29 @@
     "language": "pa",
     "plant_ids": [
       "ocimum_tenuiflorum"
+    ],
+    "countries": [
+      "PK"
+    ],
+    "country_usage": [
+      {
+        "country": "PK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "ਨਿੰਬੂ ਘਾਹ",
+    "normalized": "ਨਿੰਬੂ ਘਾਹ",
+    "language": "pa",
+    "plant_ids": [
+      "cymbopogon_citratus"
     ],
     "countries": [
       "PK"
@@ -123746,6 +126597,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "எலுமிச்சைப் புல்",
+    "normalized": "எலுமிச்சைப் புல்",
+    "language": "ta",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "எல்டர்பெர்ரி",
     "normalized": "எல்டர்பெர்ரி",
     "language": "ta",
@@ -124003,6 +126877,29 @@
     "dominant_in_countries": [
       "LK"
     ]
+  },
+  {
+    "name": "சேரை",
+    "normalized": "சேரை",
+    "language": "ta",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "LK"
+    ],
+    "country_usage": [
+      {
+        "country": "LK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "சைவ்ஸ்",
@@ -125855,6 +128752,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "සේර",
+    "normalized": "සේර",
+    "language": "si",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "LK"
+    ],
+    "country_usage": [
+      {
+        "country": "LK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "LK"
+    ]
+  },
+  {
     "name": "ස්පිරුලිනා",
     "normalized": "ස්පිරුලිනා",
     "language": "si",
@@ -126733,6 +129655,31 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "TH"
+    ]
+  },
+  {
+    "name": "ตะไคร้",
+    "normalized": "ตะไคร้",
+    "language": "th",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "TH"
+    ],
+    "country_usage": [
+      {
+        "country": "TH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -127625,6 +130572,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "เลมอนกราส",
+    "normalized": "เลมอนกราส",
+    "language": "th",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "TH"
+    ],
+    "country_usage": [
+      {
+        "country": "TH",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "เลมอนบาล์ม",
     "normalized": "เลมอนบาล์ม",
     "language": "th",
@@ -128128,6 +131098,29 @@
     "dominant_in_countries": [
       "TH"
     ]
+  },
+  {
+    "name": "หญ้าตะไคร้",
+    "normalized": "หญ้าตะไคร้",
+    "language": "th",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "TH"
+    ],
+    "country_usage": [
+      {
+        "country": "TH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "หญ้าฝรั่น",
@@ -129015,6 +132008,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "레몬그라스",
+    "normalized": "레몬그라스",
+    "language": "ko",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "country_usage": [
+      {
+        "country": "KR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "KR"
+    ]
+  },
+  {
     "name": "레몬밤",
     "normalized": "레몬밤",
     "language": "ko",
@@ -129038,6 +132056,29 @@
     "dominant_in_countries": [
       "KR"
     ]
+  },
+  {
+    "name": "레몬향풀",
+    "normalized": "레몬향풀",
+    "language": "ko",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "country_usage": [
+      {
+        "country": "KR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "로젤",
@@ -130012,6 +133053,29 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "심보포곤",
+    "normalized": "심보포곤",
+    "language": "ko",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "country_usage": [
+      {
+        "country": "KR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
       }
     ],
     "ambiguity_level": "low",
@@ -132098,6 +135162,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "シンボポゴン",
+    "normalized": "シンボポゴン",
+    "language": "ja",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "country_usage": [
+      {
+        "country": "JP",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "スイートバジル",
     "normalized": "スイートバジル",
     "language": "ja",
@@ -133542,6 +136629,54 @@
     ]
   },
   {
+    "name": "レモンガヤ",
+    "normalized": "レモンガヤ",
+    "language": "ja",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "country_usage": [
+      {
+        "country": "JP",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "レモングラス",
+    "normalized": "レモングラス",
+    "language": "ja",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "country_usage": [
+      {
+        "country": "JP",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "JP"
+    ]
+  },
+  {
     "name": "レモンバーム",
     "normalized": "レモンバーム",
     "language": "ja",
@@ -134963,6 +138098,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "柠檬草",
+    "normalized": "柠檬草",
+    "language": "zh",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "country_usage": [
+      {
+        "country": "CN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "柠檬香蜂草",
     "normalized": "柠檬香蜂草",
     "language": "zh",
@@ -135016,6 +138174,29 @@
     "language": "zh",
     "plant_ids": [
       "azadirachta_indica"
+    ],
+    "countries": [
+      "TW"
+    ],
+    "country_usage": [
+      {
+        "country": "TW",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "檸檬草",
+    "normalized": "檸檬草",
+    "language": "zh",
+    "plant_ids": [
+      "cymbopogon_citratus"
     ],
     "countries": [
       "TW"
@@ -139159,6 +142340,87 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "香茅",
+    "normalized": "香茅",
+    "language": "zh",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "CN",
+      "MY",
+      "SG",
+      "TW"
+    ],
+    "country_usage": [
+      {
+        "country": "CN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TW",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
+    "dominant_in_countries": [
+      "CN",
+      "TW"
+    ]
+  },
+  {
+    "name": "香茅草",
+    "normalized": "香茅草",
+    "language": "zh",
+    "plant_ids": [
+      "cymbopogon_citratus"
+    ],
+    "countries": [
+      "CN",
+      "TW"
+    ],
+    "country_usage": [
+      {
+        "country": "CN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TW",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
     "dominant_in_countries": []
   },
   {
