@@ -102,33 +102,86 @@ export default function HomePage({ params }: Props) {
         </p>
       </section>
 
-      <section
-        className="mt-10 rounded-3xl border border-stone-200/80 bg-white/70 px-6 py-8 shadow-sm dark:border-stone-700 dark:bg-stone-900/35 sm:px-8"
-        aria-labelledby="country-hub-heading"
-      >
-        <h2 id="country-hub-heading" className={h2Class}>
-          {t(lang, "home_country_hub_title")}
-        </h2>
-        <p className={`mt-3 max-w-2xl text-sm ${bodyClass}`}>{t(lang, "home_country_hub_lead")}</p>
-        <ul className="mt-5 flex flex-wrap gap-3">
-          {SEO_HUB_COUNTRY_SLUGS.map((slug) => {
-            const code = urlSlugToCountryCode(slug);
-            if (!code) return null;
-            return (
-              <li key={slug}>
-                <a
-                  href={`/herbs/${slug}`}
-                  className="inline-flex min-h-11 items-center rounded-full border border-stone-300 bg-white px-5 py-2 text-sm font-semibold text-stone-800 shadow-sm transition-colors hover:border-flora-forest/60 hover:text-flora-forest dark:border-stone-600 dark:bg-stone-950 dark:text-stone-100 dark:hover:border-emerald-600 dark:hover:text-emerald-300"
-                >
-                  {getCountryDisplayName(code, lang)}
-                </a>
-              </li>
-            );
-          })}
-        </ul>
-      </section>
-
       <div className="mt-20 space-y-20">
+        <section className={sectionClass} aria-labelledby="popular-heading">
+          <h2 id="popular-heading" className={h2Class}>
+            {t(lang, "home_popular_title")}
+          </h2>
+          <ul className="grid gap-3 sm:grid-cols-2">
+            {popular.map((item) => (
+              <li key={item.slug}>
+                <Link
+                  href={localePath(lang, `/name/${item.slug}`)}
+                  className="block rounded-2xl border border-stone-200 bg-white/60 px-4 py-3 text-stone-800 shadow-sm transition-colors hover:border-flora-forest/40 hover:bg-white dark:border-stone-700 dark:bg-stone-900/40 dark:text-stone-200 dark:hover:border-emerald-700/50 dark:hover:bg-stone-900/70"
+                >
+                  <span className="font-medium">{item.label}</span>
+                  <span className="mt-0.5 block text-xs text-stone-500 dark:text-stone-500">
+                    {t(lang, "home_popular_cta")}
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <section
+          className="mt-10 rounded-3xl border border-stone-200/80 bg-white/70 px-6 py-8 shadow-sm dark:border-stone-700 dark:bg-stone-900/35 sm:px-8"
+          aria-labelledby="country-hub-heading"
+        >
+          <h2 id="country-hub-heading" className={h2Class}>
+            {t(lang, "home_country_hub_title")}
+          </h2>
+          <p className={`mt-3 max-w-2xl text-sm ${bodyClass}`}>{t(lang, "home_country_hub_lead")}</p>
+          <ul className="mt-5 flex flex-wrap gap-3">
+            {SEO_HUB_COUNTRY_SLUGS.map((slug) => {
+              const code = urlSlugToCountryCode(slug);
+              if (!code) return null;
+              return (
+                <li key={slug}>
+                  <a
+                    href={`/herbs/${slug}`}
+                    className="inline-flex min-h-11 items-center rounded-full border border-stone-300 bg-white px-5 py-2 text-sm font-semibold text-stone-800 shadow-sm transition-colors hover:border-flora-forest/60 hover:text-flora-forest dark:border-stone-600 dark:bg-stone-950 dark:text-stone-100 dark:hover:border-emerald-600 dark:hover:text-emerald-300"
+                  >
+                    {getCountryDisplayName(code, lang)}
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+
+        <section className={sectionClass} aria-labelledby="browse-by-use-heading">
+          <h2 id="browse-by-use-heading" className={h2Class}>
+            {t(lang, "home_browse_by_use_title")}
+          </h2>
+          <ul className="mt-4 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-x-8">
+            <li>
+              <Link
+                href={localePath(lang, "/medicinal-herbs")}
+                className="font-medium text-flora-forest underline decoration-stone-300 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-400 dark:hover:decoration-emerald-400"
+              >
+                {t(lang, "home_link_medicinal_herbs")}
+              </Link>
+            </li>
+            <li>
+              <Link
+                href={localePath(lang, "/culinary-herbs")}
+                className="font-medium text-flora-forest underline decoration-stone-300 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-400 dark:hover:decoration-emerald-400"
+              >
+                {t(lang, "home_link_culinary_herbs")}
+              </Link>
+            </li>
+            <li>
+              <Link
+                href={localePath(lang, "/ritual-herbs")}
+                className="font-medium text-flora-forest underline decoration-stone-300 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-400 dark:hover:decoration-emerald-400"
+              >
+                {t(lang, "home_link_ritual_herbs")}
+              </Link>
+            </li>
+          </ul>
+        </section>
+
         <section className={sectionClass} aria-labelledby="how-heading">
           <h2 id="how-heading" className={h2Class}>
             {t(lang, "home_how_title")}
@@ -173,59 +226,6 @@ export default function HomePage({ params }: Props) {
             {t(lang, "home_medicinal_title")}
           </h2>
           <p className={bodyClass}>{t(lang, "home_medicinal_body")}</p>
-        </section>
-
-        <section className={sectionClass} aria-labelledby="popular-heading">
-          <h2 id="popular-heading" className={h2Class}>
-            {t(lang, "home_popular_title")}
-          </h2>
-          <ul className="grid gap-3 sm:grid-cols-2">
-            {popular.map((item) => (
-              <li key={item.slug}>
-                <Link
-                  href={localePath(lang, `/name/${item.slug}`)}
-                  className="block rounded-2xl border border-stone-200 bg-white/60 px-4 py-3 text-stone-800 shadow-sm transition-colors hover:border-flora-forest/40 hover:bg-white dark:border-stone-700 dark:bg-stone-900/40 dark:text-stone-200 dark:hover:border-emerald-700/50 dark:hover:bg-stone-900/70"
-                >
-                  <span className="font-medium">{item.label}</span>
-                  <span className="mt-0.5 block text-xs text-stone-500 dark:text-stone-500">
-                    {t(lang, "home_popular_cta")}
-                  </span>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </section>
-
-        <section className={sectionClass} aria-labelledby="browse-by-use-heading">
-          <h2 id="browse-by-use-heading" className={h2Class}>
-            {t(lang, "home_browse_by_use_title")}
-          </h2>
-          <ul className="mt-4 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-x-8">
-            <li>
-              <Link
-                href={localePath(lang, "/medicinal-herbs")}
-                className="font-medium text-flora-forest underline decoration-stone-300 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-400 dark:hover:decoration-emerald-400"
-              >
-                {t(lang, "home_link_medicinal_herbs")}
-              </Link>
-            </li>
-            <li>
-              <Link
-                href={localePath(lang, "/culinary-herbs")}
-                className="font-medium text-flora-forest underline decoration-stone-300 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-400 dark:hover:decoration-emerald-400"
-              >
-                {t(lang, "home_link_culinary_herbs")}
-              </Link>
-            </li>
-            <li>
-              <Link
-                href={localePath(lang, "/ritual-herbs")}
-                className="font-medium text-flora-forest underline decoration-stone-300 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-400 dark:hover:decoration-emerald-400"
-              >
-                {t(lang, "home_link_ritual_herbs")}
-              </Link>
-            </li>
-          </ul>
         </section>
 
         <section className={sectionClass} aria-labelledby="browse-heading">
