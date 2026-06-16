@@ -1,0 +1,1873 @@
+{
+  "plant_id": "calendula_officinalis",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Caléndula",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for calendula"
+      },
+      {
+        "name": "Maravilla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for calendula"
+      },
+      {
+        "name": "Caléndula officinal",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Argentina vernacular and descriptive terminology for calendula"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Ringelblume",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for calendula"
+      },
+      {
+        "name": "Garten-Ringelblume",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Austria vernacular and descriptive terminology for calendula"
+      },
+      {
+        "name": "Echte Ringelblume",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for calendula"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Calendula",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for calendula"
+      },
+      {
+        "name": "Pot marigold",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for calendula"
+      },
+      {
+        "name": "Garden calendula",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for calendula"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Goudsbloem",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for calendula"
+      },
+      {
+        "name": "Souci officinal",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for calendula"
+      },
+      {
+        "name": "Ringelblume",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for calendula"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Невен",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for calendula",
+        "transliteration": "neven",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Градински невен",
+        "language": "bg",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bulgaria vernacular and descriptive terminology for calendula",
+        "transliteration": "gradinski neven",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Календула",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for calendula",
+        "transliteration": "kalendula",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Caléndula",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for calendula"
+      },
+      {
+        "name": "Maravilla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for calendula"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Calêndula",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for calendula"
+      },
+      {
+        "name": "Calêndula-oficinal",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Brazil vernacular and descriptive terminology for calendula"
+      },
+      {
+        "name": "Malmequer-dos-jardins",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for calendula"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Calendula",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for calendula"
+      },
+      {
+        "name": "Pot marigold",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for calendula"
+      },
+      {
+        "name": "Souci officinal",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for calendula"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Ringelblume",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for calendula"
+      },
+      {
+        "name": "Souci officinal",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for calendula"
+      },
+      {
+        "name": "Calendula",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for calendula"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Caléndula",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for calendula"
+      },
+      {
+        "name": "Maravilla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for calendula"
+      },
+      {
+        "name": "Caléndula de jardín",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for calendula"
+      }
+    ],
+    "CN": [
+      {
+        "name": "金盏花",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for calendula",
+        "transliteration": "jīn zhǎn huā",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "药用金盏花",
+        "language": "zh",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "China vernacular and descriptive terminology for calendula",
+        "transliteration": "yào yòng jīn zhǎn huā",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "金盏菊",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for calendula",
+        "transliteration": "jīn zhǎn jú",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Caléndula",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for calendula"
+      },
+      {
+        "name": "Maravilla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for calendula"
+      },
+      {
+        "name": "Caléndula de jardín",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for calendula"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Caléndula",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for calendula"
+      },
+      {
+        "name": "Maravilla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for calendula"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Caléndula",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for calendula"
+      },
+      {
+        "name": "Maravilla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for calendula"
+      },
+      {
+        "name": "Caléndula de jardín",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for calendula"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Měsíček lékařský",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for calendula"
+      },
+      {
+        "name": "Zahradní měsíček",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for calendula"
+      },
+      {
+        "name": "Kalandra",
+        "language": "cs",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for calendula"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Ringelblume",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for calendula"
+      },
+      {
+        "name": "Garten-Ringelblume",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Germany vernacular and descriptive terminology for calendula"
+      },
+      {
+        "name": "Echte Ringelblume",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for calendula"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Morgenfrue",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for calendula"
+      },
+      {
+        "name": "Have-morgenfrue",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for calendula"
+      },
+      {
+        "name": "Læge-morgenfrue",
+        "language": "da",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Denmark vernacular and descriptive terminology for calendula"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Caléndula",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for calendula"
+      },
+      {
+        "name": "Maravilla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for calendula"
+      },
+      {
+        "name": "Caléndula de jardín",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for calendula"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "الآذريون",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for calendula",
+        "transliteration": "al-adhriyūn",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "القطيفة الطبية",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Algeria vernacular and descriptive terminology for calendula",
+        "transliteration": "al-qatifa al-tibbiyya",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Souci officinal",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for calendula"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Caléndula",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for calendula"
+      },
+      {
+        "name": "Maravilla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for calendula"
+      },
+      {
+        "name": "Caléndula de jardín",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for calendula"
+      }
+    ],
+    "EG": [
+      {
+        "name": "الآذريون",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for calendula",
+        "transliteration": "al-adhriyūn",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "القطيفة الطبية",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Egypt vernacular and descriptive terminology for calendula",
+        "transliteration": "al-qatifa al-tibbiyya",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Caléndula",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for calendula"
+      },
+      {
+        "name": "Calèndula",
+        "language": "ca",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for calendula"
+      },
+      {
+        "name": "Caléndula",
+        "language": "gl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for calendula"
+      }
+    ],
+    "ET": [
+      {
+        "name": "ካሌንዱላ",
+        "language": "am",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for calendula",
+        "transliteration": "kalendula",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Kaaleendulaa",
+        "language": "om",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for calendula"
+      },
+      {
+        "name": "ካሌንዱላ",
+        "language": "ti",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for calendula",
+        "transliteration": "kalendula",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Kehäkukka",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for calendula"
+      },
+      {
+        "name": "Rohtokehäkukka",
+        "language": "fi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Finland vernacular and descriptive terminology for calendula"
+      },
+      {
+        "name": "Ringblomma",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for calendula"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Souci officinal",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for calendula"
+      },
+      {
+        "name": "Souci des jardins",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for calendula"
+      },
+      {
+        "name": "Calendula",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "France vernacular and descriptive terminology for calendula"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Calendula",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for calendula"
+      },
+      {
+        "name": "Pot marigold",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for calendula"
+      },
+      {
+        "name": "Garden calendula",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for calendula"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Calendula",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for calendula"
+      },
+      {
+        "name": "Pot marigold",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for calendula"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Καλέντουλα",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for calendula",
+        "transliteration": "kalentoula",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Κατηφές ο φαρμακευτικός",
+        "language": "el",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Greece vernacular and descriptive terminology for calendula",
+        "transliteration": "katifes o farmakeftikos",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Νεκρολούλουδο",
+        "language": "el",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for calendula",
+        "transliteration": "nekrolouloudo",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Caléndula",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for calendula"
+      },
+      {
+        "name": "Maravilla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for calendula"
+      },
+      {
+        "name": "Caléndula de jardín",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for calendula"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Neven",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for calendula"
+      },
+      {
+        "name": "Ljekoviti neven",
+        "language": "hr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Croatia vernacular and descriptive terminology for calendula"
+      },
+      {
+        "name": "Vrtni neven",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for calendula"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Körömvirág",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for calendula"
+      },
+      {
+        "name": "Orvosi körömvirág",
+        "language": "hu",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Hungary vernacular and descriptive terminology for calendula"
+      },
+      {
+        "name": "Kerti körömvirág",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for calendula"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Kalendula",
+        "language": "id",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Indonesia vernacular and descriptive terminology for calendula"
+      },
+      {
+        "name": "Marigold pot",
+        "language": "id",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Indonesia vernacular and descriptive terminology for calendula"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Calendula",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for calendula"
+      },
+      {
+        "name": "Pot marigold",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for calendula"
+      },
+      {
+        "name": "Calandúil",
+        "language": "ga",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ireland vernacular and descriptive terminology for calendula"
+      }
+    ],
+    "IL": [
+      {
+        "name": "קלנדולה",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for calendula",
+        "transliteration": "kalendula",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ציפורני חתול רפואיות",
+        "language": "he",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Israel vernacular and descriptive terminology for calendula",
+        "transliteration": "tzipornei chatul refuiyot",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الآذريون",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for calendula",
+        "transliteration": "al-adhriyūn",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "गेंदा",
+        "language": "hi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for calendula",
+        "transliteration": "genda",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ক্যালেন্ডুলা",
+        "language": "bn",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "India vernacular and descriptive terminology for calendula",
+        "transliteration": "calendula",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "காலெண்டுலா",
+        "language": "ta",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "India vernacular and descriptive terminology for calendula",
+        "transliteration": "kālentulā",
+        "transliteration_scheme": "iso_15919"
+      }
+    ],
+    "IR": [
+      {
+        "name": "گل همیشه‌بهار",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for calendula",
+        "transliteration": "gol-e hamisheh bahar",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "کالاندولا",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for calendula",
+        "transliteration": "calendula",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "همیشه‌بهار دارویی",
+        "language": "fa",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Iran vernacular and descriptive terminology for calendula",
+        "transliteration": "hamisheh bahar daruyi",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Calendula",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for calendula"
+      },
+      {
+        "name": "Calendula officinale",
+        "language": "it",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Italy vernacular and descriptive terminology for calendula"
+      },
+      {
+        "name": "Fiorrancio",
+        "language": "it",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for calendula"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Calendula",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for calendula"
+      },
+      {
+        "name": "Pot marigold",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for calendula"
+      },
+      {
+        "name": "Garden calendula",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for calendula"
+      }
+    ],
+    "JP": [
+      {
+        "name": "カレンデュラ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for calendula",
+        "transliteration": "karendyura",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "トウキンセンカ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for calendula",
+        "transliteration": "tōkinsenka",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "ポットマリーゴールド",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for calendula",
+        "transliteration": "potto marīgōrudo",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Calendula",
+        "language": "sw",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Kenya vernacular and descriptive terminology for calendula"
+      },
+      {
+        "name": "Pot marigold",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for calendula"
+      },
+      {
+        "name": "Calendula",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for calendula"
+      }
+    ],
+    "KR": [
+      {
+        "name": "금잔화",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for calendula",
+        "transliteration": "geumjanhwa",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "카렌듈라",
+        "language": "ko",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Korea vernacular and descriptive terminology for calendula",
+        "transliteration": "karendyulla",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "포트메리골드",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for calendula",
+        "transliteration": "poteu merigoldeu",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "කැලෙන්ඩියුලා",
+        "language": "si",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for calendula",
+        "transliteration": "kalendiyula",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "காலெண்டுலா",
+        "language": "ta",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for calendula",
+        "transliteration": "kālentulā",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Calendula",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for calendula"
+      }
+    ],
+    "MA": [
+      {
+        "name": "الآذريون",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for calendula",
+        "transliteration": "al-adhriyūn",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "القطيفة الطبية",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Morocco vernacular and descriptive terminology for calendula",
+        "transliteration": "al-qatifa al-tibbiyya",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Souci officinal",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for calendula"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Caléndula",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for calendula"
+      },
+      {
+        "name": "Maravilla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for calendula"
+      },
+      {
+        "name": "Caléndula de jardín",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for calendula"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Kalendula",
+        "language": "ms",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Malaysia vernacular and descriptive terminology for calendula"
+      },
+      {
+        "name": "Calendula",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for calendula"
+      },
+      {
+        "name": "金盏花",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for calendula",
+        "transliteration": "jīn zhǎn huā",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Calendula",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for calendula"
+      },
+      {
+        "name": "Pot marigold",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for calendula"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Goudsbloem",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for calendula"
+      },
+      {
+        "name": "Echte goudsbloem",
+        "language": "nl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Netherlands vernacular and descriptive terminology for calendula"
+      },
+      {
+        "name": "Tuingoudsbloem",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for calendula"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Ringblomst",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for calendula"
+      },
+      {
+        "name": "Hageringblomst",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for calendula"
+      },
+      {
+        "name": "Legekalendula",
+        "language": "no",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Norway vernacular and descriptive terminology for calendula"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Calendula",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for calendula"
+      },
+      {
+        "name": "Pot marigold",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for calendula"
+      },
+      {
+        "name": "Garden calendula",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for calendula"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Caléndula",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for calendula"
+      },
+      {
+        "name": "Maravilla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for calendula"
+      },
+      {
+        "name": "Caléndula de jardín",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for calendula"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Caléndula",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for calendula"
+      },
+      {
+        "name": "Maravilla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for calendula"
+      },
+      {
+        "name": "Caléndula de jardín",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for calendula"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Calendula",
+        "language": "tl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Philippines vernacular and descriptive terminology for calendula"
+      },
+      {
+        "name": "Pot marigold",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for calendula"
+      }
+    ],
+    "PK": [
+      {
+        "name": "کیلنڈیولا",
+        "language": "ur",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Pakistan vernacular and descriptive terminology for calendula",
+        "transliteration": "calendula",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Calendula",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for calendula"
+      },
+      {
+        "name": "ਕੈਲੇਂਡੂਲਾ",
+        "language": "pa",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Pakistan vernacular and descriptive terminology for calendula",
+        "transliteration": "kalendula",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Nagietek lekarski",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for calendula"
+      },
+      {
+        "name": "Nagietek",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for calendula"
+      },
+      {
+        "name": "Nagietek ogrodowy",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for calendula"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Calêndula",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for calendula"
+      },
+      {
+        "name": "Calêndula-oficinal",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Portugal vernacular and descriptive terminology for calendula"
+      },
+      {
+        "name": "Malmequer-dos-jardins",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for calendula"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Caléndula",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for calendula"
+      },
+      {
+        "name": "Maravilla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for calendula"
+      },
+      {
+        "name": "Caléndula",
+        "language": "gn",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and descriptive terminology for calendula"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Gălbenele",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for calendula"
+      },
+      {
+        "name": "Gălbenele medicinale",
+        "language": "ro",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Romania vernacular and descriptive terminology for calendula"
+      },
+      {
+        "name": "Calendula",
+        "language": "ro",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Romania vernacular and descriptive terminology for calendula"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Календула",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for calendula",
+        "transliteration": "kalendula",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Ноготки лекарственные",
+        "language": "ru",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Russia vernacular and descriptive terminology for calendula",
+        "transliteration": "nogotki lekarstvennye",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Садовая календула",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for calendula",
+        "transliteration": "sadovaya kalendula",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Ringblomma",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for calendula"
+      },
+      {
+        "name": "Läkeringblomma",
+        "language": "sv",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sweden vernacular and descriptive terminology for calendula"
+      },
+      {
+        "name": "Trädgårdsringblomma",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for calendula"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Calendula",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for calendula"
+      },
+      {
+        "name": "金盏花",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for calendula",
+        "transliteration": "jīn zhǎn huā",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Kalendula",
+        "language": "ms",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Singapore vernacular and descriptive terminology for calendula"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Nechtík lekársky",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for calendula"
+      },
+      {
+        "name": "Nechtík",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for calendula"
+      },
+      {
+        "name": "Záhradný nechtík",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for calendula"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Souci officinal",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for calendula"
+      },
+      {
+        "name": "Souci des jardins",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for calendula"
+      },
+      {
+        "name": "Calendula",
+        "language": "wo",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Senegal vernacular and descriptive terminology for calendula"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Caléndula",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for calendula"
+      },
+      {
+        "name": "Maravilla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for calendula"
+      },
+      {
+        "name": "Caléndula de jardín",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for calendula"
+      }
+    ],
+    "TH": [
+      {
+        "name": "คาเลนดูลา",
+        "language": "th",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for calendula",
+        "transliteration": "kha-len-du-la",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "ดาวเรืองฝรั่ง",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for calendula",
+        "transliteration": "dao rueang farang",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "ดาวเรืองหม้อ",
+        "language": "th",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for calendula",
+        "transliteration": "dao rueang mo",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "الآذريون",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for calendula",
+        "transliteration": "al-adhriyūn",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "القطيفة الطبية",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Tunisia vernacular and descriptive terminology for calendula",
+        "transliteration": "al-qatifa al-tibbiyya",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Souci officinal",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for calendula"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Aynısafa",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for calendula"
+      },
+      {
+        "name": "Tıbbi aynısafa",
+        "language": "tr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Turkey vernacular and descriptive terminology for calendula"
+      },
+      {
+        "name": "Bahçe aynısafası",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for calendula"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Calendula",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for calendula"
+      },
+      {
+        "name": "Pot marigold",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for calendula"
+      },
+      {
+        "name": "Garden calendula",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for calendula"
+      }
+    ],
+    "TW": [
+      {
+        "name": "金盞花",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for calendula",
+        "transliteration": "jīn zhǎn huā",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "藥用金盞花",
+        "language": "zh",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Taiwan vernacular and descriptive terminology for calendula",
+        "transliteration": "yào yòng jīn zhǎn huā",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "金盞菊",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for calendula",
+        "transliteration": "jīn zhǎn jú",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Календула",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for calendula",
+        "transliteration": "kalendula",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Нагідки лікарські",
+        "language": "uk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ukraine vernacular and descriptive terminology for calendula",
+        "transliteration": "nahidky likarski",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Садова календула",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for calendula",
+        "transliteration": "sadova kalendula",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "Calendula",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for calendula"
+      },
+      {
+        "name": "Pot marigold",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for calendula"
+      },
+      {
+        "name": "Calendula",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for calendula"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Caléndula",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for calendula"
+      },
+      {
+        "name": "Maravilla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for calendula"
+      },
+      {
+        "name": "Caléndula de jardín",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for calendula"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Caléndula",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for calendula"
+      },
+      {
+        "name": "Maravilla",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for calendula"
+      },
+      {
+        "name": "Caléndula de jardín",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for calendula"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Cúc kim tiền",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for calendula"
+      },
+      {
+        "name": "Kim tiền thảo châu Âu",
+        "language": "vi",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for calendula"
+      },
+      {
+        "name": "Calendula",
+        "language": "vi",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Vietnam vernacular and descriptive terminology for calendula"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Calendula",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for calendula"
+      },
+      {
+        "name": "Pot marigold",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for calendula"
+      },
+      {
+        "name": "Gousblom",
+        "language": "af",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for calendula"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Calendula",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for calendula"
+      },
+      {
+        "name": "Pot marigold",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for calendula"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Calendula",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for calendula"
+      },
+      {
+        "name": "Pot marigold",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for calendula"
+      }
+    ]
+  }
+}
