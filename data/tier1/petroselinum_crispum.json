@@ -1,0 +1,1866 @@
+{
+  "plant_id": "petroselinum_crispum",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Perejil",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for parsley"
+      },
+      {
+        "name": "Perejil común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for parsley"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Petersilie",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for parsley"
+      },
+      {
+        "name": "Glatte Petersilie",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Austria vernacular and descriptive terminology for parsley"
+      },
+      {
+        "name": "Gartenpetersilie",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for parsley"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for parsley"
+      },
+      {
+        "name": "Garden parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for parsley"
+      },
+      {
+        "name": "Common parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for parsley"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Peterselie",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for parsley"
+      },
+      {
+        "name": "Persil",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for parsley"
+      },
+      {
+        "name": "Petersilie",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for parsley"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Магданоз",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for parsley",
+        "transliteration": "magdanoz",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Градински магданоз",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for parsley",
+        "transliteration": "gradinski magdanoz",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Петроселинум криспум",
+        "language": "bg",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Bulgaria vernacular and descriptive terminology for parsley",
+        "transliteration": "petroselinum krispum",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Perejil",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for parsley"
+      },
+      {
+        "name": "Perejil común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for parsley"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Salsa",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for parsley"
+      },
+      {
+        "name": "Salsa-comum",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for parsley"
+      },
+      {
+        "name": "Salsinha",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Brazil vernacular and descriptive terminology for parsley"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for parsley"
+      },
+      {
+        "name": "Garden parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for parsley"
+      },
+      {
+        "name": "Persil",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for parsley"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Petersilie",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for parsley"
+      },
+      {
+        "name": "Persil",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for parsley"
+      },
+      {
+        "name": "Prezzemolo",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for parsley"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Perejil",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for parsley"
+      },
+      {
+        "name": "Perejil común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for parsley"
+      },
+      {
+        "name": "Perejil de jardín",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for parsley"
+      }
+    ],
+    "CN": [
+      {
+        "name": "欧芹",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for parsley",
+        "transliteration": "ōu qín",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "香芹",
+        "language": "zh",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "China vernacular and descriptive terminology for parsley",
+        "transliteration": "xiāng qín",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "荷兰芹",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for parsley",
+        "transliteration": "hé lán qín",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Perejil",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for parsley"
+      },
+      {
+        "name": "Perejil común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for parsley"
+      },
+      {
+        "name": "Perejil de jardín",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for parsley"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Perejil",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for parsley"
+      },
+      {
+        "name": "Perejil común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for parsley"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Perejil",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for parsley"
+      },
+      {
+        "name": "Perejil común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for parsley"
+      },
+      {
+        "name": "Perejil de jardín",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for parsley"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Petržel",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for parsley"
+      },
+      {
+        "name": "Petržel zahradní",
+        "language": "cs",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Czech Republic vernacular and descriptive terminology for parsley"
+      },
+      {
+        "name": "Kadeřavá petržel",
+        "language": "cs",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Czech Republic vernacular and descriptive terminology for parsley"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Petersilie",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for parsley"
+      },
+      {
+        "name": "Glatte Petersilie",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Germany vernacular and descriptive terminology for parsley"
+      },
+      {
+        "name": "Gartenpetersilie",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for parsley"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Persille",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for parsley"
+      },
+      {
+        "name": "Havepersille",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for parsley"
+      },
+      {
+        "name": "Kruspersille",
+        "language": "da",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Denmark vernacular and descriptive terminology for parsley"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Perejil",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for parsley"
+      },
+      {
+        "name": "Perejil común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for parsley"
+      },
+      {
+        "name": "Perejil de jardín",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for parsley"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "بقدونس",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for parsley",
+        "transliteration": "baqdunis",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "البقدونس",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Algeria vernacular and descriptive terminology for parsley",
+        "transliteration": "al-baqdunis",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Persil",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for parsley"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Perejil",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for parsley"
+      },
+      {
+        "name": "Perejil común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for parsley"
+      },
+      {
+        "name": "Perejil de jardín",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for parsley"
+      }
+    ],
+    "EG": [
+      {
+        "name": "بقدونس",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for parsley",
+        "transliteration": "baqdunis",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "البقدونس",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Egypt vernacular and descriptive terminology for parsley",
+        "transliteration": "al-baqdunis",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Perejil",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for parsley"
+      },
+      {
+        "name": "Julivert",
+        "language": "ca",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for parsley"
+      },
+      {
+        "name": "Perexil",
+        "language": "gl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for parsley"
+      }
+    ],
+    "ET": [
+      {
+        "name": "ፓርስሌይ",
+        "language": "am",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for parsley",
+        "transliteration": "parsley",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Parsilii",
+        "language": "om",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for parsley"
+      },
+      {
+        "name": "ፓርስሌይ",
+        "language": "ti",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for parsley",
+        "transliteration": "parsley",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Persilja",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for parsley"
+      },
+      {
+        "name": "Kiharapersilja",
+        "language": "fi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Finland vernacular and descriptive terminology for parsley"
+      },
+      {
+        "name": "Persilja",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for parsley"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Persil",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for parsley"
+      },
+      {
+        "name": "Persil commun",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for parsley"
+      },
+      {
+        "name": "Persil cultivé",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "France vernacular and descriptive terminology for parsley"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for parsley"
+      },
+      {
+        "name": "Garden parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for parsley"
+      },
+      {
+        "name": "Common parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for parsley"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for parsley"
+      },
+      {
+        "name": "Garden parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for parsley"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Μαϊντανός",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for parsley",
+        "transliteration": "maïntanos",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Κοινός μαϊντανός",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for parsley",
+        "transliteration": "koinos maïntanos",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Πετροσέλινο",
+        "language": "el",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Greece vernacular and descriptive terminology for parsley",
+        "transliteration": "petroselino",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Perejil",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for parsley"
+      },
+      {
+        "name": "Perejil común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for parsley"
+      },
+      {
+        "name": "Perejil de jardín",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for parsley"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Peršin",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for parsley"
+      },
+      {
+        "name": "Vrtni peršin",
+        "language": "hr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Croatia vernacular and descriptive terminology for parsley"
+      },
+      {
+        "name": "Kovrčavi peršin",
+        "language": "hr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Croatia vernacular and descriptive terminology for parsley"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Petrezselyem",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for parsley"
+      },
+      {
+        "name": "Kerti petrezselyem",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for parsley"
+      },
+      {
+        "name": "Fodros petrezselyem",
+        "language": "hu",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Hungary vernacular and descriptive terminology for parsley"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Peterseli",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for parsley"
+      },
+      {
+        "name": "Seledri daun",
+        "language": "id",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Indonesia vernacular and descriptive terminology for parsley"
+      },
+      {
+        "name": "Peterseli",
+        "language": "jv",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Indonesia vernacular and descriptive terminology for parsley"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for parsley"
+      },
+      {
+        "name": "Garden parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for parsley"
+      },
+      {
+        "name": "Peirsil",
+        "language": "ga",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for parsley"
+      }
+    ],
+    "IL": [
+      {
+        "name": "פטרוזיליה",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for parsley",
+        "transliteration": "petrozilya",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "פטרוסלינום מתולתל",
+        "language": "he",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Israel vernacular and descriptive terminology for parsley",
+        "transliteration": "petroselinum metultal",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "بقدونس",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for parsley",
+        "transliteration": "baqdunis",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "अजमोद",
+        "language": "hi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for parsley",
+        "transliteration": "ajmod",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "পার্সলে",
+        "language": "bn",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "India vernacular and descriptive terminology for parsley",
+        "transliteration": "parsley",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "பார்ஸ்லி",
+        "language": "ta",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "India vernacular and descriptive terminology for parsley",
+        "transliteration": "pārsli",
+        "transliteration_scheme": "iso_15919"
+      }
+    ],
+    "IR": [
+      {
+        "name": "جعفری",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for parsley",
+        "transliteration": "jafari",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "جعفری فرنگی",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for parsley",
+        "transliteration": "jafari farangi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "پتروسلینوم کریسپوم",
+        "language": "fa",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Iran vernacular and descriptive terminology for parsley",
+        "transliteration": "petroselinum crispum",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Prezzemolo",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for parsley"
+      },
+      {
+        "name": "Prezzemolo comune",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for parsley"
+      },
+      {
+        "name": "Prezzemolo riccio",
+        "language": "it",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Italy vernacular and descriptive terminology for parsley"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for parsley"
+      },
+      {
+        "name": "Garden parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for parsley"
+      },
+      {
+        "name": "Common parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for parsley"
+      }
+    ],
+    "JP": [
+      {
+        "name": "パセリ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for parsley",
+        "transliteration": "paseri",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "オランダゼリ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for parsley",
+        "transliteration": "orandazeri",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "カーリーパセリ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Japan vernacular and descriptive terminology for parsley",
+        "transliteration": "kārī paseri",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for parsley"
+      },
+      {
+        "name": "Parseli",
+        "language": "sw",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Kenya vernacular and descriptive terminology for parsley"
+      },
+      {
+        "name": "Garden parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for parsley"
+      }
+    ],
+    "KR": [
+      {
+        "name": "파슬리",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for parsley",
+        "transliteration": "paseulli",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "컬리 파슬리",
+        "language": "ko",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Korea vernacular and descriptive terminology for parsley",
+        "transliteration": "keolli paseulli",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "정원 파슬리",
+        "language": "ko",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for parsley",
+        "transliteration": "jeongwon paseulli",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "පාර්ස්ලි",
+        "language": "si",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for parsley",
+        "transliteration": "parsli",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "பார்ஸ்லி",
+        "language": "ta",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for parsley",
+        "transliteration": "pārsli",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for parsley"
+      }
+    ],
+    "MA": [
+      {
+        "name": "بقدونس",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for parsley",
+        "transliteration": "baqdunis",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "المعدنوس",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for parsley",
+        "transliteration": "al-maadnous",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Persil",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for parsley"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Perejil",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for parsley"
+      },
+      {
+        "name": "Perejil común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for parsley"
+      },
+      {
+        "name": "Perejil rizado",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Mexico vernacular and descriptive terminology for parsley"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Parsli",
+        "language": "ms",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Malaysia vernacular and descriptive terminology for parsley"
+      },
+      {
+        "name": "Parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for parsley"
+      },
+      {
+        "name": "欧芹",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for parsley",
+        "transliteration": "ōu qín",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for parsley"
+      },
+      {
+        "name": "Garden parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for parsley"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Peterselie",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for parsley"
+      },
+      {
+        "name": "Krulpeterselie",
+        "language": "nl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Netherlands vernacular and descriptive terminology for parsley"
+      },
+      {
+        "name": "Tuinpeterselie",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for parsley"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Persille",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for parsley"
+      },
+      {
+        "name": "Hagepersille",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for parsley"
+      },
+      {
+        "name": "Kruspersille",
+        "language": "no",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Norway vernacular and descriptive terminology for parsley"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for parsley"
+      },
+      {
+        "name": "Garden parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for parsley"
+      },
+      {
+        "name": "Common parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for parsley"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Perejil",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for parsley"
+      },
+      {
+        "name": "Perejil común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for parsley"
+      },
+      {
+        "name": "Perejil de jardín",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for parsley"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Perejil",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for parsley"
+      },
+      {
+        "name": "Perejil común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for parsley"
+      },
+      {
+        "name": "Perejil de jardín",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for parsley"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Parsley",
+        "language": "tl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Philippines vernacular and descriptive terminology for parsley"
+      },
+      {
+        "name": "Parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for parsley"
+      }
+    ],
+    "PK": [
+      {
+        "name": "اجمود",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for parsley",
+        "transliteration": "ajmod",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for parsley"
+      },
+      {
+        "name": "ਅਜਮੋਦ",
+        "language": "pa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for parsley",
+        "transliteration": "ajmod",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Pietruszka",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for parsley"
+      },
+      {
+        "name": "Pietruszka zwyczajna",
+        "language": "pl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Poland vernacular and descriptive terminology for parsley"
+      },
+      {
+        "name": "Pietruszka naciowa",
+        "language": "pl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Poland vernacular and descriptive terminology for parsley"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Salsa",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for parsley"
+      },
+      {
+        "name": "Salsa-comum",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for parsley"
+      },
+      {
+        "name": "Salsa frisada",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Portugal vernacular and descriptive terminology for parsley"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Perejil",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for parsley"
+      },
+      {
+        "name": "Perejil común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for parsley"
+      },
+      {
+        "name": "Perejil",
+        "language": "gn",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and descriptive terminology for parsley"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Pătrunjel",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for parsley"
+      },
+      {
+        "name": "Pătrunjel de grădină",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for parsley"
+      },
+      {
+        "name": "Pătrunjel creț",
+        "language": "ro",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Romania vernacular and descriptive terminology for parsley"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Петрушка",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for parsley",
+        "transliteration": "petrushka",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Петрушка кудрявая",
+        "language": "ru",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Russia vernacular and descriptive terminology for parsley",
+        "transliteration": "petrushka kudryavaya",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Огородная петрушка",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for parsley",
+        "transliteration": "ogorodnaya petrushka",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Persilja",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for parsley"
+      },
+      {
+        "name": "Trädgårdspersilja",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for parsley"
+      },
+      {
+        "name": "Kruspersilja",
+        "language": "sv",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sweden vernacular and descriptive terminology for parsley"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for parsley"
+      },
+      {
+        "name": "欧芹",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for parsley",
+        "transliteration": "ōu qín",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Parsli",
+        "language": "ms",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Singapore vernacular and descriptive terminology for parsley"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Petržlen",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for parsley"
+      },
+      {
+        "name": "Petržlen záhradný",
+        "language": "sk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Slovakia vernacular and descriptive terminology for parsley"
+      },
+      {
+        "name": "Kučeravý petržlen",
+        "language": "sk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Slovakia vernacular and descriptive terminology for parsley"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Persil",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for parsley"
+      },
+      {
+        "name": "Persil commun",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for parsley"
+      },
+      {
+        "name": "Persil",
+        "language": "wo",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Senegal vernacular and descriptive terminology for parsley"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Perejil",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for parsley"
+      },
+      {
+        "name": "Perejil común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for parsley"
+      },
+      {
+        "name": "Perejil de jardín",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for parsley"
+      }
+    ],
+    "TH": [
+      {
+        "name": "พาร์สลีย์",
+        "language": "th",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for parsley",
+        "transliteration": "phat-sa-li",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "ผักชีฝรั่งยุโรป",
+        "language": "th",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for parsley",
+        "transliteration": "phak chi farang yurop",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "พาร์สลีย์หยิก",
+        "language": "th",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for parsley",
+        "transliteration": "phat-sa-li yik",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "بقدونس",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for parsley",
+        "transliteration": "baqdunis",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "المعدنوس",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for parsley",
+        "transliteration": "al-maadnous",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Persil",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for parsley"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Maydanoz",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for parsley"
+      },
+      {
+        "name": "Bahçe maydanozu",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for parsley"
+      },
+      {
+        "name": "Kıvırcık maydanoz",
+        "language": "tr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Turkey vernacular and descriptive terminology for parsley"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for parsley"
+      },
+      {
+        "name": "Garden parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for parsley"
+      },
+      {
+        "name": "Common parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for parsley"
+      }
+    ],
+    "TW": [
+      {
+        "name": "歐芹",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for parsley",
+        "transliteration": "ōu qín",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "荷蘭芹",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for parsley",
+        "transliteration": "hé lán qín",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "香芹",
+        "language": "zh",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Taiwan vernacular and descriptive terminology for parsley",
+        "transliteration": "xiāng qín",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Петрушка",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for parsley",
+        "transliteration": "petrushka",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Петрушка кучерява",
+        "language": "uk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ukraine vernacular and descriptive terminology for parsley",
+        "transliteration": "petrushka kucheriava",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Городня петрушка",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for parsley",
+        "transliteration": "horodnia petrushka",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "Parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for parsley"
+      },
+      {
+        "name": "Garden parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for parsley"
+      },
+      {
+        "name": "Perejil",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for parsley"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Perejil",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for parsley"
+      },
+      {
+        "name": "Perejil común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for parsley"
+      },
+      {
+        "name": "Perejil de jardín",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for parsley"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Perejil",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for parsley"
+      },
+      {
+        "name": "Perejil común",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for parsley"
+      },
+      {
+        "name": "Perejil de jardín",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for parsley"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Mùi tây",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for parsley"
+      },
+      {
+        "name": "Ngò tây",
+        "language": "vi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Vietnam vernacular and descriptive terminology for parsley"
+      },
+      {
+        "name": "Rau mùi tây",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for parsley"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for parsley"
+      },
+      {
+        "name": "Pietersielie",
+        "language": "af",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for parsley"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for parsley"
+      },
+      {
+        "name": "Garden parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for parsley"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for parsley"
+      },
+      {
+        "name": "Garden parsley",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for parsley"
+      }
+    ]
+  }
+}

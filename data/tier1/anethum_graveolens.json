@@ -1,0 +1,1859 @@
+{
+  "plant_id": "anethum_graveolens",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Eneldo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for dill"
+      },
+      {
+        "name": "Aneto",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Argentina vernacular and descriptive terminology for dill"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Dill",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for dill"
+      },
+      {
+        "name": "Gurkenkraut",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for dill"
+      },
+      {
+        "name": "Dillkraut",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Austria vernacular and descriptive terminology for dill"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Dill",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for dill"
+      },
+      {
+        "name": "Dill weed",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Australia vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "Garden dill",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for dill"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Dille",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for dill"
+      },
+      {
+        "name": "Aneth",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for dill"
+      },
+      {
+        "name": "Dill",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for dill"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Копър",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for dill",
+        "transliteration": "kopar",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Градински копър",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for dill",
+        "transliteration": "gradinski kopar",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Анетум гравеоленс",
+        "language": "bg",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Bulgaria vernacular and descriptive terminology for dill",
+        "transliteration": "anetum graveolens",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Eneldo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for dill"
+      },
+      {
+        "name": "Aneto",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Bolivia vernacular and descriptive terminology for dill"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Endro",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for dill"
+      },
+      {
+        "name": "Aneto",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Brazil vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "Erva-do-endro",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for dill"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Dill",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for dill"
+      },
+      {
+        "name": "Dill weed",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Canada vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "Aneth",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for dill"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Dill",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for dill"
+      },
+      {
+        "name": "Aneth",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for dill"
+      },
+      {
+        "name": "Aneto",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for dill"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Eneldo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for dill"
+      },
+      {
+        "name": "Aneto",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Chile vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "Hierba de eneldo",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Chile vernacular and descriptive terminology for dill"
+      }
+    ],
+    "CN": [
+      {
+        "name": "莳萝",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for dill",
+        "transliteration": "shí luó",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "土茴香",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for dill",
+        "transliteration": "tǔ huí xiāng",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "莳萝草",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "China vernacular and descriptive terminology for dill",
+        "transliteration": "shí luó cǎo",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Eneldo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for dill"
+      },
+      {
+        "name": "Aneto",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Colombia vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "Hierba de eneldo",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Colombia vernacular and descriptive terminology for dill"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Eneldo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for dill"
+      },
+      {
+        "name": "Aneto",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Costa Rica vernacular and descriptive terminology for dill"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Eneldo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for dill"
+      },
+      {
+        "name": "Aneto",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Cuba vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "Hierba de eneldo",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Cuba vernacular and descriptive terminology for dill"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Kopr",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for dill"
+      },
+      {
+        "name": "Kopr vonný",
+        "language": "cs",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Czech Republic vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "Zahradní kopr",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for dill"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Dill",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for dill"
+      },
+      {
+        "name": "Gurkenkraut",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for dill"
+      },
+      {
+        "name": "Dillkraut",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Germany vernacular and descriptive terminology for dill"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Dild",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for dill"
+      },
+      {
+        "name": "Have-dild",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for dill"
+      },
+      {
+        "name": "Dildurt",
+        "language": "da",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Denmark vernacular and descriptive terminology for dill"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Eneldo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for dill"
+      },
+      {
+        "name": "Aneto",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Dominican Republic vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "Hierba de eneldo",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Dominican Republic vernacular and descriptive terminology for dill"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "شبت",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for dill",
+        "transliteration": "shabat",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الشبت",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Algeria vernacular and descriptive terminology for dill",
+        "transliteration": "al-shabat",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Aneth",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for dill"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Eneldo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for dill"
+      },
+      {
+        "name": "Aneto",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ecuador vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "Hierba de eneldo",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ecuador vernacular and descriptive terminology for dill"
+      }
+    ],
+    "EG": [
+      {
+        "name": "شبت",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for dill",
+        "transliteration": "shabat",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الشبت",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Egypt vernacular and descriptive terminology for dill",
+        "transliteration": "al-shabat",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Eneldo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for dill"
+      },
+      {
+        "name": "Aneto",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Spain vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "Anet",
+        "language": "ca",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for dill"
+      }
+    ],
+    "ET": [
+      {
+        "name": "ሽባት",
+        "language": "am",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for dill",
+        "transliteration": "shibat",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Shibetii",
+        "language": "om",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "ሽባት",
+        "language": "ti",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for dill",
+        "transliteration": "shibat",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Tilli",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for dill"
+      },
+      {
+        "name": "Ruokatilli",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for dill"
+      },
+      {
+        "name": "Dill",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for dill"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Aneth",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for dill"
+      },
+      {
+        "name": "Aneth odorant",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "France vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "Fenouil bâtard",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for dill"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Dill",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for dill"
+      },
+      {
+        "name": "Dill weed",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "United Kingdom vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "Garden dill",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for dill"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Dill",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for dill"
+      },
+      {
+        "name": "Dill weed",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ghana vernacular and descriptive terminology for dill"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Άνηθος",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for dill",
+        "transliteration": "anithos",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Άνηθο",
+        "language": "el",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Greece vernacular and descriptive terminology for dill",
+        "transliteration": "anitho",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Άνηθος ο εύοσμος",
+        "language": "el",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Greece vernacular and descriptive terminology for dill",
+        "transliteration": "anithos o evosmos",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Eneldo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for dill"
+      },
+      {
+        "name": "Aneto",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Guatemala vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "Hierba de eneldo",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Guatemala vernacular and descriptive terminology for dill"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Kopar",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for dill"
+      },
+      {
+        "name": "Mirođija",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for dill"
+      },
+      {
+        "name": "Vrtni kopar",
+        "language": "hr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Croatia vernacular and descriptive terminology for dill"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Kapor",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for dill"
+      },
+      {
+        "name": "Kerti kapor",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for dill"
+      },
+      {
+        "name": "Uborkafű",
+        "language": "hu",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for dill"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Adas",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for dill"
+      },
+      {
+        "name": "Adas sowa",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for dill"
+      },
+      {
+        "name": "Adas jawa",
+        "language": "jv",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for dill"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Dill",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for dill"
+      },
+      {
+        "name": "Dill weed",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ireland vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "Dil",
+        "language": "ga",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ireland vernacular and descriptive terminology for dill"
+      }
+    ],
+    "IL": [
+      {
+        "name": "שמיר",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for dill",
+        "transliteration": "shamir",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "שבת ריחני",
+        "language": "he",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Israel vernacular and descriptive terminology for dill",
+        "transliteration": "shevet reihani",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "شبت",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for dill",
+        "transliteration": "shabat",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "सोआ",
+        "language": "hi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for dill",
+        "transliteration": "soa",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "শুলফা",
+        "language": "bn",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for dill",
+        "transliteration": "shulfa",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "சதகுப்பை",
+        "language": "ta",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for dill",
+        "transliteration": "sathakuppai",
+        "transliteration_scheme": "iso_15919"
+      }
+    ],
+    "IR": [
+      {
+        "name": "شوید",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for dill",
+        "transliteration": "shevid",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "شوید باغی",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for dill",
+        "transliteration": "shevid-e baghi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "انیثوم گراویولنس",
+        "language": "fa",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Iran vernacular and descriptive terminology for dill",
+        "transliteration": "anethum graveolens",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Aneto",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for dill"
+      },
+      {
+        "name": "Aneto odoroso",
+        "language": "it",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Italy vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "Finocchio bastardo",
+        "language": "it",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for dill"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Dill",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for dill"
+      },
+      {
+        "name": "Dill weed",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Jamaica vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "Garden dill",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for dill"
+      }
+    ],
+    "JP": [
+      {
+        "name": "ディル",
+        "language": "ja",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Japan vernacular and descriptive terminology for dill",
+        "transliteration": "diru",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "イノンド",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for dill",
+        "transliteration": "inondo",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "ヒメウイキョウ",
+        "language": "ja",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for dill",
+        "transliteration": "himeuikyō",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Bizari",
+        "language": "sw",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for dill"
+      },
+      {
+        "name": "Shibiti",
+        "language": "sw",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Kenya vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "Dill",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for dill"
+      }
+    ],
+    "KR": [
+      {
+        "name": "딜",
+        "language": "ko",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Korea vernacular and descriptive terminology for dill",
+        "transliteration": "dil",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "가든 딜",
+        "language": "ko",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for dill",
+        "transliteration": "gadeun dil",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "아네툼 그라베올렌스",
+        "language": "ko",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "South Korea vernacular and descriptive terminology for dill",
+        "transliteration": "anetum geurabeollenseu",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "සෝවා",
+        "language": "si",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for dill",
+        "transliteration": "sova",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "சதகுப்பை",
+        "language": "ta",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for dill",
+        "transliteration": "sathakuppai",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Dill",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for dill"
+      }
+    ],
+    "MA": [
+      {
+        "name": "شبت",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for dill",
+        "transliteration": "shabat",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الشبت",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Morocco vernacular and descriptive terminology for dill",
+        "transliteration": "al-shabat",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Aneth",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for dill"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Eneldo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for dill"
+      },
+      {
+        "name": "Aneto",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Mexico vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "Hierba de eneldo",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Mexico vernacular and descriptive terminology for dill"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Daun dill",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for dill"
+      },
+      {
+        "name": "Dill",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for dill"
+      },
+      {
+        "name": "莳萝",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for dill",
+        "transliteration": "shí luó",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Dill",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for dill"
+      },
+      {
+        "name": "Dill weed",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Nigeria vernacular and descriptive terminology for dill"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Dille",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for dill"
+      },
+      {
+        "name": "Dillekruid",
+        "language": "nl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Netherlands vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "Komkommerkruid",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for dill"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Dill",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for dill"
+      },
+      {
+        "name": "Hagedill",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for dill"
+      },
+      {
+        "name": "Dill",
+        "language": "nb",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for dill"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Dill",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for dill"
+      },
+      {
+        "name": "Dill weed",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "New Zealand vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "Garden dill",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for dill"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Eneldo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for dill"
+      },
+      {
+        "name": "Aneto",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Panama vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "Hierba de eneldo",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Panama vernacular and descriptive terminology for dill"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Eneldo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for dill"
+      },
+      {
+        "name": "Aneto",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Peru vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "Hierba de eneldo",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Peru vernacular and descriptive terminology for dill"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Eneldo",
+        "language": "tl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Philippines vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "Dill",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for dill"
+      }
+    ],
+    "PK": [
+      {
+        "name": "سوا",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for dill",
+        "transliteration": "soa",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Dill",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for dill"
+      },
+      {
+        "name": "ਸੋਆ",
+        "language": "pa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for dill",
+        "transliteration": "soa",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Koper",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for dill"
+      },
+      {
+        "name": "Koper ogrodowy",
+        "language": "pl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Poland vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "Koperek",
+        "language": "pl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Poland vernacular and descriptive terminology for dill"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Endro",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for dill"
+      },
+      {
+        "name": "Aneto",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Portugal vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "Erva-do-endro",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for dill"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Eneldo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for dill"
+      },
+      {
+        "name": "Aneto",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "Eneldo",
+        "language": "gn",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and descriptive terminology for dill"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Mărar",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for dill"
+      },
+      {
+        "name": "Mărar de grădină",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for dill"
+      },
+      {
+        "name": "Anet",
+        "language": "ro",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Romania vernacular and descriptive terminology for dill"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Укроп",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for dill",
+        "transliteration": "ukrop",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Укроп пахучий",
+        "language": "ru",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Russia vernacular and descriptive terminology for dill",
+        "transliteration": "ukrop pakhuchiy",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Огородный укроп",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for dill",
+        "transliteration": "ogorodnyy ukrop",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Dill",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for dill"
+      },
+      {
+        "name": "Trädgårdsdill",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for dill"
+      },
+      {
+        "name": "Dillört",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Sweden vernacular and descriptive terminology for dill"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Dill",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for dill"
+      },
+      {
+        "name": "莳萝",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for dill",
+        "transliteration": "shí luó",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Daun dill",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for dill"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Kôpor",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for dill"
+      },
+      {
+        "name": "Kôpor voňavý",
+        "language": "sk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Slovakia vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "Záhradný kôpor",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for dill"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Aneth",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for dill"
+      },
+      {
+        "name": "Aneth odorant",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Senegal vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "Dill",
+        "language": "wo",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Senegal vernacular and descriptive terminology for dill"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Eneldo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for dill"
+      },
+      {
+        "name": "Aneto",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "El Salvador vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "Hierba de eneldo",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "El Salvador vernacular and descriptive terminology for dill"
+      }
+    ],
+    "TH": [
+      {
+        "name": "ผักชีลาว",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for dill",
+        "transliteration": "phak chi lao",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "ดิลล์",
+        "language": "th",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for dill",
+        "transliteration": "din",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "ผักชีลาวสวน",
+        "language": "th",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for dill",
+        "transliteration": "phak chi lao suan",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "شبت",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for dill",
+        "transliteration": "shabat",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الشبت",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Tunisia vernacular and descriptive terminology for dill",
+        "transliteration": "al-shabat",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Aneth",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for dill"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Dereotu",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for dill"
+      },
+      {
+        "name": "Bahçe dereotu",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for dill"
+      },
+      {
+        "name": "Anet",
+        "language": "tr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Turkey vernacular and descriptive terminology for dill"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Dill",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for dill"
+      },
+      {
+        "name": "Dill weed",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Trinidad and Tobago vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "Garden dill",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for dill"
+      }
+    ],
+    "TW": [
+      {
+        "name": "蒔蘿",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for dill",
+        "transliteration": "shì luó",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "土茴香",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for dill",
+        "transliteration": "tǔ huí xiāng",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "蒔蘿草",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Taiwan vernacular and descriptive terminology for dill",
+        "transliteration": "shì luó cǎo",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Кріп",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for dill",
+        "transliteration": "krip",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Кріп пахучий",
+        "language": "uk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ukraine vernacular and descriptive terminology for dill",
+        "transliteration": "krip pakhuchyi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Городній кріп",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for dill",
+        "transliteration": "horodnii krip",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "Dill",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for dill"
+      },
+      {
+        "name": "Dill weed",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "United States vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "Garden dill",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for dill"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Eneldo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for dill"
+      },
+      {
+        "name": "Aneto",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Uruguay vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "Hierba de eneldo",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Uruguay vernacular and descriptive terminology for dill"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Eneldo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for dill"
+      },
+      {
+        "name": "Aneto",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Venezuela vernacular and descriptive terminology for dill"
+      },
+      {
+        "name": "Hierba de eneldo",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Venezuela vernacular and descriptive terminology for dill"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Thì là",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for dill"
+      },
+      {
+        "name": "Thì là vườn",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for dill"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Dill",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for dill"
+      },
+      {
+        "name": "Dille",
+        "language": "af",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for dill"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Dill",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for dill"
+      },
+      {
+        "name": "Dill weed",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Zambia vernacular and descriptive terminology for dill"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Dill",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for dill"
+      },
+      {
+        "name": "Dill weed",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Zimbabwe vernacular and descriptive terminology for dill"
+      }
+    ]
+  }
+}
