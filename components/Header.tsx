@@ -12,9 +12,18 @@ export function Header({ lang }: { lang: Locale }) {
         <div className="flex flex-wrap items-center gap-4">
           <Link
             href={localePath(lang, "/")}
-            className="font-serif text-xl font-semibold tracking-tight text-flora-forest dark:text-stone-100"
+            className="flex items-center gap-2"
           >
-            FloraLexicon
+            <img
+              src="/images/logo.png"
+              alt=""
+              width={30}
+              height={31}
+              className="h-[31px] w-[30px] shrink-0"
+            />
+            <span className="font-serif text-xl font-semibold tracking-tight text-flora-forest dark:text-stone-100">
+              FloraLexicon
+            </span>
           </Link>
           <LanguageSwitcher lang={lang} />
         </div>
