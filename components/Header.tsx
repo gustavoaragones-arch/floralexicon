@@ -1,5 +1,6 @@
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { localePath, t, type Locale } from "@/lib/i18n";
+import Image from "next/image";
 import Link from "next/link";
 
 const linkClass =
@@ -14,7 +15,7 @@ export function Header({ lang }: { lang: Locale }) {
             href={localePath(lang, "/")}
             className="flex items-center gap-2"
           >
-            <img
+            <Image
               src="/images/logo.png"
               alt=""
               width={30}

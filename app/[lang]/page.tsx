@@ -8,6 +8,7 @@ import {
 } from "@/lib/i18n";
 import { SEO_HUB_COUNTRY_SLUGS } from "@/lib/seoProgrammaticRoutes";
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
@@ -41,16 +42,16 @@ export default function HomePage({ params }: Props) {
   const bodyClass = "text-stone-600 dark:text-stone-400 leading-relaxed";
 
   const popular = [
-    { slug: "manzanilla", label: "manzanilla" },
-    { slug: "ruda", label: "ruda" },
-    { slug: "matico", label: "matico" },
-    { slug: "cedron", label: "cedrón (cedron)" },
+    { slug: "chamomile", label: "chamomile" },
+    { slug: "turmeric", label: "turmeric" },
+    { slug: "lemongrass", label: "lemongrass" },
+    { slug: "gotu-kola", label: "gotu kola" },
   ];
 
   return (
     <main className="mx-auto w-full max-w-[1000px] px-6 py-16 sm:py-20">
       <section className="relative min-h-[229px] overflow-visible border-b border-stone-200 dark:border-stone-800">
-        <img
+        <Image
           src="/images/plants.png"
           alt=""
           width={351}

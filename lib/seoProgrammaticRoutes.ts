@@ -4,11 +4,11 @@
  */
 
 export const SEO_HUB_COUNTRY_SLUGS = [
-  "peru",
-  "mexico",
-  "colombia",
-  "spain",
-  "argentina",
+  "india",
+  "germany",
+  "japan",
+  "brazil",
+  "morocco",
 ] as const;
 
 export type SeoHubCountrySlug = (typeof SEO_HUB_COUNTRY_SLUGS)[number];
@@ -23,26 +23,26 @@ export function herbHubStaticParams(): { country: string }[] {
 
 /** Top name URL segments × top country URL segments (20 × 10 = 200). */
 export const SEO_QUERY_NAME_SLUGS = [
-  "ruda",
-  "matico",
-  "manzanilla",
-  "cedron",
-  "yerba-buena",
-  "boldo",
-  "epazote",
-  "muna",
-  "guayusa",
-  "salvia",
-  "romero",
-  "tomillo",
-  "albahaca",
-  "hierbabuena",
-  "tila",
-  "valeriana",
-  "diente-de-leon",
-  "ortiga",
-  "eucalipto",
-  "anis",
+  "chamomile",
+  "turmeric",
+  "lemongrass",
+  "gotu-kola",
+  "ashwagandha",
+  "ginger",
+  "lavender",
+  "echinacea",
+  "milk-thistle",
+  "valerian",
+  "rosehip",
+  "yarrow",
+  "calendula",
+  "hawthorn",
+  "brahmi",
+  "dill",
+  "parsley",
+  "bay-leaf",
+  "clove",
+  "nutmeg",
 ] as const;
 
 export const SEO_QUERY_COUNTRY_SLUGS = [
