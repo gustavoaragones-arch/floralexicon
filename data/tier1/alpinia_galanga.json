@@ -1,0 +1,1870 @@
+{
+  "plant_id": "alpinia_galanga",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Galanga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for galangal"
+      },
+      {
+        "name": "Galanga mayor",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Argentina vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Galangal",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Argentina commercial and culinary terminology for galangal"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Galgant",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for galangal"
+      },
+      {
+        "name": "Echter Galgant",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Austria vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Thai-Ingwer",
+        "language": "de",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Austria commercial and culinary terminology for galangal"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Galangal",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for galangal"
+      },
+      {
+        "name": "Greater galangal",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Australia vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Thai ginger",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Australia commercial and culinary terminology for galangal"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Galanga",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for galangal"
+      },
+      {
+        "name": "Galanga officinale",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for galangal"
+      },
+      {
+        "name": "Galgant",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for galangal"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Галангал",
+        "language": "bg",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bulgaria vernacular and descriptive terminology for galangal",
+        "transliteration": "galangal",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Голям галангал",
+        "language": "bg",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bulgaria vernacular and descriptive terminology for galangal",
+        "transliteration": "golyam galangal",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Тайландски джинджифил",
+        "language": "bg",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Bulgaria commercial and culinary terminology for galangal",
+        "transliteration": "taylandski dzhindzhifil",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Galanga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for galangal"
+      },
+      {
+        "name": "Galanga mayor",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bolivia vernacular and descriptive terminology for galangal"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Galanga",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for galangal"
+      },
+      {
+        "name": "Galanga-maior",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Brazil vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Gengibre tailandês",
+        "language": "pt",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Brazil commercial and culinary terminology for galangal"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Galangal",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for galangal"
+      },
+      {
+        "name": "Greater galangal",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Canada vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Galanga",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for galangal"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Galgant",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for galangal"
+      },
+      {
+        "name": "Galanga",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for galangal"
+      },
+      {
+        "name": "Galanga",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for galangal"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Galanga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for galangal"
+      },
+      {
+        "name": "Galanga mayor",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Chile vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Jengibre tailandés",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Chile commercial and culinary terminology for galangal"
+      }
+    ],
+    "CN": [
+      {
+        "name": "高良姜",
+        "language": "zh",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "China pharmacopoeial terminology for galangal",
+        "transliteration": "gāo liáng jiāng",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "大高良姜",
+        "language": "zh",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "China vernacular and descriptive terminology for galangal",
+        "transliteration": "dà gāo liáng jiāng",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "南姜",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for galangal",
+        "transliteration": "nán jiāng",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Galanga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for galangal"
+      },
+      {
+        "name": "Galanga mayor",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Colombia vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Jengibre tailandés",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Colombia commercial and culinary terminology for galangal"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Galanga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for galangal"
+      },
+      {
+        "name": "Galangal",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Costa Rica commercial and culinary terminology for galangal"
+      },
+      {
+        "name": "Galanga mayor",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Costa Rica vernacular and descriptive terminology for galangal"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Galanga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for galangal"
+      },
+      {
+        "name": "Galanga mayor",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Cuba vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Jengibre tailandés",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Cuba commercial and culinary terminology for galangal"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Galgán",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for galangal"
+      },
+      {
+        "name": "Větší galgán",
+        "language": "cs",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Czech Republic vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Thajský zázvor",
+        "language": "cs",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Czech Republic commercial and culinary terminology for galangal"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Galgant",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for galangal"
+      },
+      {
+        "name": "Echter Galgant",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Germany vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Thai-Ingwer",
+        "language": "de",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Germany commercial and culinary terminology for galangal"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Galanga",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for galangal"
+      },
+      {
+        "name": "Stor galanga",
+        "language": "da",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Denmark vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Thai-ingefær",
+        "language": "da",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Denmark commercial and culinary terminology for galangal"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Galanga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for galangal"
+      },
+      {
+        "name": "Galanga mayor",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Dominican Republic vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Jengibre tailandés",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Dominican Republic commercial and culinary terminology for galangal"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "خولنجان",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for galangal",
+        "transliteration": "khawlanjan",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "خولنجان كبير",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Algeria vernacular and descriptive terminology for galangal",
+        "transliteration": "khawlanjan kabir",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Galanga",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for galangal"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Galanga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for galangal"
+      },
+      {
+        "name": "Galanga mayor",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ecuador vernacular and descriptive terminology for galangal"
+      }
+    ],
+    "EG": [
+      {
+        "name": "خولنجان",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for galangal",
+        "transliteration": "khawlanjan",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "خولنجان كبير",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Egypt vernacular and descriptive terminology for galangal",
+        "transliteration": "khawlanjan kabir",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "زنجبيل تايلندي",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Egypt commercial and culinary terminology for galangal",
+        "transliteration": "zanjabil taylandi",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Galanga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for galangal"
+      },
+      {
+        "name": "Galanga mayor",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Spain vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Galanga",
+        "language": "ca",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for galangal"
+      }
+    ],
+    "ET": [
+      {
+        "name": "ጋላንጋል",
+        "language": "am",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for galangal",
+        "transliteration": "galangal",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ታይ ዝንጅብል",
+        "language": "am",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ethiopia commercial and culinary terminology for galangal",
+        "transliteration": "tay zinjibil",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Galangal",
+        "language": "om",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for galangal"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Galanga",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for galangal"
+      },
+      {
+        "name": "Iso galanga",
+        "language": "fi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Finland vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Thaimaalainen inkivääri",
+        "language": "fi",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Finland commercial and culinary terminology for galangal"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Galanga",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for galangal"
+      },
+      {
+        "name": "Grand galanga",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "France vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Gingembre thaï",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "France commercial and culinary terminology for galangal"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Galangal",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for galangal"
+      },
+      {
+        "name": "Greater galangal",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "United Kingdom vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Thai ginger",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "United Kingdom commercial and culinary terminology for galangal"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Galangal",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for galangal"
+      },
+      {
+        "name": "Greater galangal",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ghana vernacular and descriptive terminology for galangal"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Γκαλανγκάλ",
+        "language": "el",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Greece vernacular and descriptive terminology for galangal",
+        "transliteration": "gkalangkal",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Μεγάλη γκαλάνγκα",
+        "language": "el",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Greece vernacular and descriptive terminology for galangal",
+        "transliteration": "megali gkalangka",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Ταϊλανδέζικο τζίντζερ",
+        "language": "el",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Greece commercial and culinary terminology for galangal",
+        "transliteration": "tailandeziko tzintzer",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Galanga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for galangal"
+      },
+      {
+        "name": "Galanga mayor",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Guatemala vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Jengibre tailandés",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Guatemala commercial and culinary terminology for galangal"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Galangal",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for galangal"
+      },
+      {
+        "name": "Veliki galangal",
+        "language": "hr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Croatia vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Tajlandski đumbir",
+        "language": "hr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Croatia commercial and culinary terminology for galangal"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Galanga",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for galangal"
+      },
+      {
+        "name": "Nagy galanga",
+        "language": "hu",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Hungary vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Thai gyömbér",
+        "language": "hu",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Hungary commercial and culinary terminology for galangal"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Lengkuas",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for galangal"
+      },
+      {
+        "name": "Laos",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for galangal"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Galangal",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for galangal"
+      },
+      {
+        "name": "Greater galangal",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ireland vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Galangal",
+        "language": "ga",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Ireland vernacular and descriptive terminology for galangal"
+      }
+    ],
+    "IL": [
+      {
+        "name": "גלנגל",
+        "language": "he",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Israel vernacular and descriptive terminology for galangal",
+        "transliteration": "galangal",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "גלנגל גדול",
+        "language": "he",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Israel vernacular and descriptive terminology for galangal",
+        "transliteration": "galangal gadol",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "خولنجان",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for galangal",
+        "transliteration": "khawlanjan",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "कुलंजन",
+        "language": "hi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for galangal",
+        "transliteration": "kulanjan",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Galangal",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "India commercial and culinary terminology for galangal"
+      },
+      {
+        "name": "महाभारतीय कुलंजन",
+        "language": "hi",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "India vernacular and descriptive terminology for galangal",
+        "transliteration": "mahabhartiya kulanjan",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IR": [
+      {
+        "name": "خولنجان",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for galangal",
+        "transliteration": "kholanjan",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "خولنجان بزرگ",
+        "language": "fa",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Iran vernacular and descriptive terminology for galangal",
+        "transliteration": "kholanjan bozorg",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "زنجبیل تایلندی",
+        "language": "fa",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Iran commercial and culinary terminology for galangal",
+        "transliteration": "zanjebil-e tailandi",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Galanga",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for galangal"
+      },
+      {
+        "name": "Galanga maggiore",
+        "language": "it",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Italy vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Zenzero thailandese",
+        "language": "it",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Italy commercial and culinary terminology for galangal"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Galangal",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for galangal"
+      },
+      {
+        "name": "Greater galangal",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Jamaica vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Thai ginger",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Jamaica commercial and culinary terminology for galangal"
+      }
+    ],
+    "JP": [
+      {
+        "name": "ガランガル",
+        "language": "ja",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Japan vernacular and descriptive terminology for galangal",
+        "transliteration": "garangaru",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "タイショウガ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for galangal",
+        "transliteration": "tai shoga",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "オオナンキョウ",
+        "language": "ja",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Japan vernacular and descriptive terminology for galangal",
+        "transliteration": "oo nankyo",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Galangal",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for galangal"
+      },
+      {
+        "name": "Greater galangal",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Kenya vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Mzizi wa galangal",
+        "language": "sw",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Kenya vernacular and descriptive terminology for galangal"
+      }
+    ],
+    "KR": [
+      {
+        "name": "갈랑갈",
+        "language": "ko",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Korea vernacular and descriptive terminology for galangal",
+        "transliteration": "gallanggal",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "큰갈랑갈",
+        "language": "ko",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Korea vernacular and descriptive terminology for galangal",
+        "transliteration": "keun gallanggal",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "태국생강",
+        "language": "ko",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "South Korea commercial and culinary terminology for galangal",
+        "transliteration": "taeguk saenggang",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "ගලන්ගල්",
+        "language": "si",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for galangal",
+        "transliteration": "galangal",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "තායි ඉඟුරු",
+        "language": "si",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Sri Lanka commercial and culinary terminology for galangal",
+        "transliteration": "thai inguru",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "கலங்கல்",
+        "language": "ta",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for galangal",
+        "transliteration": "kalangal",
+        "transliteration_scheme": "iso_15919"
+      }
+    ],
+    "MA": [
+      {
+        "name": "خولنجان",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for galangal",
+        "transliteration": "khawlanjan",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "خولنجان كبير",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Morocco vernacular and descriptive terminology for galangal",
+        "transliteration": "khawlanjan kabir",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Galanga",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for galangal"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Galanga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for galangal"
+      },
+      {
+        "name": "Galanga mayor",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Mexico vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Jengibre tailandés",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Mexico commercial and culinary terminology for galangal"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Lengkuas",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for galangal"
+      },
+      {
+        "name": "Lengkuas besar",
+        "language": "ms",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Malaysia vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "高良姜",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for galangal",
+        "transliteration": "gāo liáng jiāng",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Galangal",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for galangal"
+      },
+      {
+        "name": "Greater galangal",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Nigeria vernacular and descriptive terminology for galangal"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Galanga",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for galangal"
+      },
+      {
+        "name": "Grote galanga",
+        "language": "nl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Netherlands vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Thaise gember",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Netherlands commercial and culinary terminology for galangal"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Galangal",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for galangal"
+      },
+      {
+        "name": "Stor galangal",
+        "language": "no",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Norway vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Thai-ingefær",
+        "language": "no",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Norway commercial and culinary terminology for galangal"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Galangal",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for galangal"
+      },
+      {
+        "name": "Greater galangal",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "New Zealand vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Thai ginger",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "New Zealand commercial and culinary terminology for galangal"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Galanga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for galangal"
+      },
+      {
+        "name": "Galanga mayor",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Panama vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Jengibre tailandés",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Panama commercial and culinary terminology for galangal"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Galanga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for galangal"
+      },
+      {
+        "name": "Galanga mayor",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Peru vernacular and descriptive terminology for galangal"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Langkawas",
+        "language": "tl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for galangal"
+      },
+      {
+        "name": "Galangal",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for galangal"
+      }
+    ],
+    "PK": [
+      {
+        "name": "خولنجان",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for galangal",
+        "transliteration": "kholanjan",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "بڑا خولنجان",
+        "language": "ur",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Pakistan vernacular and descriptive terminology for galangal",
+        "transliteration": "bara kholanjan",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ਗਲੰਗਲ",
+        "language": "pa",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Pakistan vernacular and descriptive terminology for galangal",
+        "transliteration": "galangal",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Galgant",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for galangal"
+      },
+      {
+        "name": "Galgant większy",
+        "language": "pl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Poland vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Imbir tajski",
+        "language": "pl",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Poland commercial and culinary terminology for galangal"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Galanga",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for galangal"
+      },
+      {
+        "name": "Galanga-maior",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Portugal vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Gengibre tailandês",
+        "language": "pt",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Portugal commercial and culinary terminology for galangal"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Galanga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for galangal"
+      },
+      {
+        "name": "Galanga mayor",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and descriptive terminology for galangal"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Galangal",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for galangal"
+      },
+      {
+        "name": "Galangal mare",
+        "language": "ro",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Romania vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Ghimbir thailandez",
+        "language": "ro",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Romania commercial and culinary terminology for galangal"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Галангал",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for galangal",
+        "transliteration": "galangal",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Большой галангал",
+        "language": "ru",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Russia vernacular and descriptive terminology for galangal",
+        "transliteration": "bolshoy galangal",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Тайский имбирь",
+        "language": "ru",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Russia commercial and culinary terminology for galangal",
+        "transliteration": "tayskiy imbir",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Galangal",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for galangal"
+      },
+      {
+        "name": "Stor galangal",
+        "language": "sv",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sweden vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Thailändsk ingefära",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Sweden commercial and culinary terminology for galangal"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Galangal",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for galangal"
+      },
+      {
+        "name": "高良姜",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for galangal",
+        "transliteration": "gāo liáng jiāng",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Lengkuas",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for galangal"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Galgán",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for galangal"
+      },
+      {
+        "name": "Väčší galgán",
+        "language": "sk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Slovakia vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Thajský zázvor",
+        "language": "sk",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Slovakia commercial and culinary terminology for galangal"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Galanga",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for galangal"
+      },
+      {
+        "name": "Grand galanga",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Senegal vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Galangal",
+        "language": "wo",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Senegal vernacular and descriptive terminology for galangal"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Galanga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for galangal"
+      },
+      {
+        "name": "Galanga mayor",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "El Salvador vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Jengibre tailandés",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "El Salvador commercial and culinary terminology for galangal"
+      }
+    ],
+    "TH": [
+      {
+        "name": "ข่า",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for galangal",
+        "transliteration": "kha",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "ข่าใหญ่",
+        "language": "th",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for galangal",
+        "transliteration": "kha yai",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "กาลังกัล",
+        "language": "th",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for galangal",
+        "transliteration": "galangal",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "خولنجان",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for galangal",
+        "transliteration": "khawlanjan",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "خولنجان كبير",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Tunisia vernacular and descriptive terminology for galangal",
+        "transliteration": "khawlanjan kabir",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Galanga",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for galangal"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Havlıcan",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for galangal"
+      },
+      {
+        "name": "Büyük havlıcan",
+        "language": "tr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Turkey vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Tay zencefili",
+        "language": "tr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Turkey commercial and culinary terminology for galangal"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Galangal",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for galangal"
+      },
+      {
+        "name": "Greater galangal",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Trinidad and Tobago vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Thai ginger",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Trinidad and Tobago commercial and culinary terminology for galangal"
+      }
+    ],
+    "TW": [
+      {
+        "name": "高良薑",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for galangal",
+        "transliteration": "gāo liáng jiāng",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "大高良薑",
+        "language": "zh",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Taiwan vernacular and descriptive terminology for galangal",
+        "transliteration": "dà gāo liáng jiāng",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "南薑",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for galangal",
+        "transliteration": "nán jiāng",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Галангал",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for galangal",
+        "transliteration": "halanhal",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Великий галангал",
+        "language": "uk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ukraine vernacular and descriptive terminology for galangal",
+        "transliteration": "velykyi halanhal",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Тайський імбир",
+        "language": "uk",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ukraine commercial and culinary terminology for galangal",
+        "transliteration": "taiskyi imbyr",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "Galangal",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for galangal"
+      },
+      {
+        "name": "Greater galangal",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "United States vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Thai ginger",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "United States commercial and culinary terminology for galangal"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Galanga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for galangal"
+      },
+      {
+        "name": "Galanga mayor",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Uruguay vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Jengibre tailandés",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Uruguay commercial and culinary terminology for galangal"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Galanga",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for galangal"
+      },
+      {
+        "name": "Galanga mayor",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Venezuela vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Jengibre tailandés",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Venezuela commercial and culinary terminology for galangal"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Riềng",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for galangal"
+      },
+      {
+        "name": "Riềng lớn",
+        "language": "vi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Vietnam vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Galangal",
+        "language": "vi",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Vietnam vernacular and descriptive terminology for galangal"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Galangal",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for galangal"
+      },
+      {
+        "name": "Greater galangal",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Africa vernacular and descriptive terminology for galangal"
+      },
+      {
+        "name": "Thai ginger",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "South Africa commercial and culinary terminology for galangal"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Galangal",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for galangal"
+      },
+      {
+        "name": "Greater galangal",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Zambia vernacular and descriptive terminology for galangal"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Galangal",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for galangal"
+      },
+      {
+        "name": "Greater galangal",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Zimbabwe vernacular and descriptive terminology for galangal"
+      }
+    ]
+  }
+}
