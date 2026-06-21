@@ -1,0 +1,1843 @@
+{
+  "plant_id": "rosa_x_damascena",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Rosa de Damasco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rosa damascena",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Argentina vernacular and descriptive terminology for damask rose"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Damaszener-Rose",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Damaszenerrose",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Austria vernacular and descriptive terminology for damask rose"
+      },
+      {
+        "name": "Ölrose",
+        "language": "de",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Austria commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Damask rose",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rose of Damascus",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Oil rose",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Australia commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Damascusroos",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rose de Damas",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Damaszenerrose",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for damask rose"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Дамаска роза",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for damask rose",
+        "transliteration": "damaska roza",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Маслодайна роза",
+        "language": "bg",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Bulgaria commercial and perfumery terminology for damask rose",
+        "transliteration": "maslodayna roza",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Казанлъшка роза",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for damask rose",
+        "transliteration": "kazanlashka roza",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Rosa de Damasco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rosa damascena",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bolivia vernacular and descriptive terminology for damask rose"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Rosa-damascena",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Brazil vernacular and descriptive terminology for damask rose"
+      },
+      {
+        "name": "Rosa de Damasco",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rosa oleífera",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Brazil commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Damask rose",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rose de Damas",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Oil rose",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Canada commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Damaszenerrose",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rose de Damas",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rosa damascena",
+        "language": "it",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Switzerland vernacular and descriptive terminology for damask rose"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Rosa mosqueta de Damasco",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rosa de Damasco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rosa damascena",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Chile vernacular and descriptive terminology for damask rose"
+      }
+    ],
+    "CN": [
+      {
+        "name": "大马士革玫瑰",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for damask rose",
+        "transliteration": "dà mǎ shì gé méi guī",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "大马士革蔷薇",
+        "language": "zh",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "China vernacular and descriptive terminology for damask rose",
+        "transliteration": "dà mǎ shì gé qiáng wēi",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "玫瑰精油玫瑰",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "China commercial and perfumery terminology for damask rose",
+        "transliteration": "méi guī jīng yóu méi guī",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Rosa de Damasco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rosa damascena",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Colombia vernacular and descriptive terminology for damask rose"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Rosa de Damasco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rosa damascena",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Costa Rica vernacular and descriptive terminology for damask rose"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Rosa de Damasco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rosa damascena",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Cuba vernacular and descriptive terminology for damask rose"
+      },
+      {
+        "name": "Rosa de aceite",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Cuba commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Růže damašská",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Damašská růže",
+        "language": "cs",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Czech Republic vernacular and descriptive terminology for damask rose"
+      },
+      {
+        "name": "Olejová růže",
+        "language": "cs",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Czech Republic commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Damaszenerrose",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Damaszener-Rose",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Germany vernacular and descriptive terminology for damask rose"
+      },
+      {
+        "name": "Ölrose",
+        "language": "de",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Germany commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Damaskrose",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Damascenerrose",
+        "language": "da",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Denmark vernacular and descriptive terminology for damask rose"
+      },
+      {
+        "name": "Olierose",
+        "language": "da",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Denmark commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Rosa de Damasco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rosa damascena",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Dominican Republic vernacular and descriptive terminology for damask rose"
+      },
+      {
+        "name": "Rosa de aceite",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Dominican Republic commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "الورد الدمشقي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for damask rose",
+        "transliteration": "al-ward al-dimashqi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "وردة دمشق",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for damask rose",
+        "transliteration": "wardat dimashq",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Rose de Damas",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for damask rose"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Rosa de Damasco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rosa damascena",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ecuador vernacular and descriptive terminology for damask rose"
+      }
+    ],
+    "EG": [
+      {
+        "name": "الورد الدمشقي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for damask rose",
+        "transliteration": "al-ward al-dimashqi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "وردة دمشق",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for damask rose",
+        "transliteration": "wardat dimashq",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Rosa de Damasco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rosa de Damasc",
+        "language": "ca",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rosa de Damasco",
+        "language": "gl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for damask rose"
+      }
+    ],
+    "ET": [
+      {
+        "name": "ደማስቆ ጽጌረዳ",
+        "language": "am",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for damask rose",
+        "transliteration": "demasqo tsigereda",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Damask rose",
+        "language": "om",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for damask rose"
+      },
+      {
+        "name": "ደማስቆ ሮዝ",
+        "language": "ti",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for damask rose",
+        "transliteration": "demasqo roz",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Damaskonruusu",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Damaskoksenruusu",
+        "language": "fi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Finland vernacular and descriptive terminology for damask rose"
+      },
+      {
+        "name": "Damaskros",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for damask rose"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Rose de Damas",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rosier de Damas",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "France vernacular and descriptive terminology for damask rose"
+      },
+      {
+        "name": "Rose à huile",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "France commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Damask rose",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rose of Damascus",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Oil rose",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "United Kingdom commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Damask rose",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rose of Damascus",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for damask rose"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Τριανταφυλλιά Δαμασκού",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for damask rose",
+        "transliteration": "triantafyllia damaskou",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Ρόδο Δαμασκού",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for damask rose",
+        "transliteration": "rodo damaskou",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Ελαιοτριανταφυλλιά",
+        "language": "el",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Greece commercial and perfumery terminology for damask rose",
+        "transliteration": "elaiotriantafyllia",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Rosa de Damasco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rosa damascena",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Guatemala vernacular and descriptive terminology for damask rose"
+      },
+      {
+        "name": "Rosa de aceite",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Guatemala commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Damaščanska ruža",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Damask ruža",
+        "language": "hr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Croatia vernacular and descriptive terminology for damask rose"
+      },
+      {
+        "name": "Uljna ruža",
+        "language": "hr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Croatia commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Damaszkuszi rózsa",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Damaszkuszi olajrózsa",
+        "language": "hu",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Hungary commercial and perfumery terminology for damask rose"
+      },
+      {
+        "name": "Rózsa damascena",
+        "language": "hu",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Hungary vernacular and descriptive terminology for damask rose"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Mawar Damaskus",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Mawar Damsyik",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Mawar minyak",
+        "language": "id",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Indonesia commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Damask rose",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rose of Damascus",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rós Dhamaisc",
+        "language": "ga",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for damask rose"
+      }
+    ],
+    "IL": [
+      {
+        "name": "ורד דמשקאי",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for damask rose",
+        "transliteration": "vered damaskai",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "הוורד הדמשקאי",
+        "language": "he",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Israel vernacular and descriptive terminology for damask rose",
+        "transliteration": "ha-vered ha-damaskai",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الورد الدمشقي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for damask rose",
+        "transliteration": "al-ward al-dimashqi",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "दमिश्क गुलाब",
+        "language": "hi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for damask rose",
+        "transliteration": "damishk gulab",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Damask rose",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for damask rose"
+      },
+      {
+        "name": "দামাস্ক গোলাপ",
+        "language": "bn",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for damask rose",
+        "transliteration": "damask golap",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IR": [
+      {
+        "name": "گل محمدی",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for damask rose",
+        "transliteration": "gol mohammadi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "رز دمشقی",
+        "language": "fa",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Iran vernacular and descriptive terminology for damask rose",
+        "transliteration": "roz-e damashqi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "گل گلاب",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for damask rose",
+        "transliteration": "gol-e golab",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Rosa damascena",
+        "language": "it",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Italy vernacular and descriptive terminology for damask rose"
+      },
+      {
+        "name": "Rosa di Damasco",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rosa da olio",
+        "language": "it",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Italy commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Damask rose",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rose of Damascus",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Oil rose",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Jamaica commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "JP": [
+      {
+        "name": "ダマスクローズ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for damask rose",
+        "transliteration": "damasuku rōzu",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "ダマスクバラ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Japan vernacular and descriptive terminology for damask rose",
+        "transliteration": "damasuku bara",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "オイルローズ",
+        "language": "ja",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Japan commercial and perfumery terminology for damask rose",
+        "transliteration": "oiru rōzu",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Damask rose",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rose of Damascus",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Waridi wa Damasko",
+        "language": "sw",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Kenya vernacular and descriptive terminology for damask rose"
+      }
+    ],
+    "KR": [
+      {
+        "name": "다마스크장미",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for damask rose",
+        "transliteration": "damaseukeu jangmi",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "다마스크로즈",
+        "language": "ko",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Korea vernacular and descriptive terminology for damask rose",
+        "transliteration": "damaseukeu rozeu",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "장미오일용 장미",
+        "language": "ko",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "South Korea commercial and perfumery terminology for damask rose",
+        "transliteration": "jangmi oil-yong jangmi",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "ඩැමස්ක් රෝස",
+        "language": "si",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for damask rose",
+        "transliteration": "damask rosa",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "டமாஸ்க் ரோஜா",
+        "language": "ta",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for damask rose",
+        "transliteration": "damāsk rōjā",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Damask rose",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for damask rose"
+      }
+    ],
+    "MA": [
+      {
+        "name": "الورد الدمشقي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for damask rose",
+        "transliteration": "al-ward al-dimashqi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "وردة دمشق",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for damask rose",
+        "transliteration": "wardat dimashq",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Rose de Damas",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for damask rose"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Rosa de Damasco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rosa damascena",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Mexico vernacular and descriptive terminology for damask rose"
+      },
+      {
+        "name": "Rosa de aceite",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Mexico commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Mawar Damsyik",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Damask rose",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for damask rose"
+      },
+      {
+        "name": "大马士革玫瑰",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for damask rose",
+        "transliteration": "dà mǎ shì gé méi guī",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Damask rose",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rose of Damascus",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for damask rose"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Damascusroos",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Damaskroos",
+        "language": "nl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Netherlands vernacular and descriptive terminology for damask rose"
+      },
+      {
+        "name": "Olieroos",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Netherlands commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Damaskrose",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Damaskusrose",
+        "language": "no",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Norway vernacular and descriptive terminology for damask rose"
+      },
+      {
+        "name": "Oljerose",
+        "language": "no",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Norway commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Damask rose",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rose of Damascus",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Oil rose",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "New Zealand commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Rosa de Damasco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rosa damascena",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Panama vernacular and descriptive terminology for damask rose"
+      },
+      {
+        "name": "Rosa de aceite",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Panama commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Rosa de Damasco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rosa damascena",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Peru vernacular and descriptive terminology for damask rose"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Rosas Damasko",
+        "language": "tl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Philippines vernacular and descriptive terminology for damask rose"
+      },
+      {
+        "name": "Damask rose",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for damask rose"
+      }
+    ],
+    "PK": [
+      {
+        "name": "گلاب دمشقی",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for damask rose",
+        "transliteration": "gulab-e-dimashqi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Damask rose",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for damask rose"
+      },
+      {
+        "name": "دمشقی گلاب",
+        "language": "pa",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for damask rose",
+        "transliteration": "dimashqi gulab",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Róża damasceńska",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Róża damasceńska olejkowa",
+        "language": "pl",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Poland commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Rosa de Damasco",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rosa-damascena",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Portugal vernacular and descriptive terminology for damask rose"
+      },
+      {
+        "name": "Rosa oleífera",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Portugal commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Rosa de Damasco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rosa damascena",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and descriptive terminology for damask rose"
+      },
+      {
+        "name": "Rosa de Damasco",
+        "language": "gn",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and descriptive terminology for damask rose"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Trandafir de Damasc",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Trandafir damaschin",
+        "language": "ro",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Romania vernacular and descriptive terminology for damask rose"
+      },
+      {
+        "name": "Trandafir pentru ulei",
+        "language": "ro",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Romania commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Дамасская роза",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for damask rose",
+        "transliteration": "damasskaya roza",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Роза дамасцена",
+        "language": "ru",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Russia vernacular and descriptive terminology for damask rose",
+        "transliteration": "roza damastsena",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Масличная роза",
+        "language": "ru",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Russia commercial and perfumery terminology for damask rose",
+        "transliteration": "maslichnaya roza",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Damascenerros",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Damaskros",
+        "language": "sv",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sweden vernacular and descriptive terminology for damask rose"
+      },
+      {
+        "name": "Oljeros",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Sweden commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Damask rose",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for damask rose"
+      },
+      {
+        "name": "大马士革玫瑰",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for damask rose",
+        "transliteration": "dà mǎ shì gé méi guī",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Mawar Damsyik",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for damask rose"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Damašská ruža",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Ruža damašská",
+        "language": "sk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Slovakia vernacular and descriptive terminology for damask rose"
+      },
+      {
+        "name": "Olejová ruža",
+        "language": "sk",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Slovakia commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Rose de Damas",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rosier de Damas",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Senegal vernacular and descriptive terminology for damask rose"
+      },
+      {
+        "name": "Damask rose",
+        "language": "wo",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Senegal vernacular and descriptive terminology for damask rose"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Rosa de Damasco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rosa damascena",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "El Salvador vernacular and descriptive terminology for damask rose"
+      },
+      {
+        "name": "Rosa de aceite",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "El Salvador commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "TH": [
+      {
+        "name": "กุหลาบดามัสก์",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for damask rose",
+        "transliteration": "kulap damat",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "ดอกกุหลาบดามัสก์",
+        "language": "th",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for damask rose",
+        "transliteration": "dok kulap damat",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "กุหลาบน้ำมัน",
+        "language": "th",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Thailand commercial and perfumery terminology for damask rose",
+        "transliteration": "kulap namman",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "الورد الدمشقي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for damask rose",
+        "transliteration": "al-ward al-dimashqi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "وردة دمشق",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for damask rose",
+        "transliteration": "wardat dimashq",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Rose de Damas",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for damask rose"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Şam gülü",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Isparta gülü",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Yağ gülü",
+        "language": "tr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Turkey commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Damask rose",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rose of Damascus",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Oil rose",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Trinidad and Tobago commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "TW": [
+      {
+        "name": "大馬士革玫瑰",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for damask rose",
+        "transliteration": "dà mǎ shì gé méi guī",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "大馬士革薔薇",
+        "language": "zh",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Taiwan vernacular and descriptive terminology for damask rose",
+        "transliteration": "dà mǎ shì gé qiáng wēi",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "玫瑰精油玫瑰",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Taiwan commercial and perfumery terminology for damask rose",
+        "transliteration": "méi guī jīng yóu méi guī",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Дамаська троянда",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for damask rose",
+        "transliteration": "damaska troyanda",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Троянда дамаська",
+        "language": "uk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ukraine vernacular and descriptive terminology for damask rose",
+        "transliteration": "troyanda damaska",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Олійна троянда",
+        "language": "uk",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ukraine commercial and perfumery terminology for damask rose",
+        "transliteration": "oliina troyanda",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "Damask rose",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rose of Damascus",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Oil rose",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "United States commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Rosa de Damasco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rosa damascena",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Uruguay vernacular and descriptive terminology for damask rose"
+      },
+      {
+        "name": "Rosa de aceite",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Uruguay commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Rosa de Damasco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rosa damascena",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Venezuela vernacular and descriptive terminology for damask rose"
+      },
+      {
+        "name": "Rosa de aceite",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Venezuela commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Hoa hồng Damask",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Hoa hồng Damascus",
+        "language": "vi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Vietnam vernacular and descriptive terminology for damask rose"
+      },
+      {
+        "name": "Hoa hồng tinh dầu",
+        "language": "vi",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Vietnam commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Damask rose",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Damaskroos",
+        "language": "af",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Oil rose",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "South Africa commercial and perfumery terminology for damask rose"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Damask rose",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rose of Damascus",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for damask rose"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Damask rose",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for damask rose"
+      },
+      {
+        "name": "Rose of Damascus",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for damask rose"
+      }
+    ]
+  }
+}

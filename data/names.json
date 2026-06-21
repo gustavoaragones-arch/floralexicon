@@ -31287,6 +31287,752 @@
     ]
   },
   {
+    "name": "Damaščanska ruža",
+    "normalized": "damascanska ruza",
+    "language": "hr",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "HR"
+    ],
+    "country_usage": [
+      {
+        "country": "HR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HR"
+    ]
+  },
+  {
+    "name": "Damascenerros",
+    "normalized": "damascenerros",
+    "language": "sv",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "SE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SE"
+    ]
+  },
+  {
+    "name": "Damascenerrose",
+    "normalized": "damascenerrose",
+    "language": "da",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Damascusroos",
+    "normalized": "damascusroos",
+    "language": "nl",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "BE",
+      "NL"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "NL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "BE",
+      "NL"
+    ]
+  },
+  {
+    "name": "Damask rose",
+    "normalized": "damask rose",
+    "language": "en",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "GB",
+      "GH",
+      "IE",
+      "IN",
+      "JM",
+      "KE",
+      "LK",
+      "MY",
+      "NG",
+      "NZ",
+      "PH",
+      "PK",
+      "SG",
+      "TT",
+      "US",
+      "ZA",
+      "ZM",
+      "ZW"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "IN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "JM",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "KE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "LK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "NG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "NZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ZA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ZM",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ZW",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 20,
+    "dominant_in_countries": [
+      "AU",
+      "CA",
+      "GB",
+      "GH",
+      "IE",
+      "JM",
+      "KE",
+      "NG",
+      "NZ",
+      "TT",
+      "US",
+      "ZM",
+      "ZW"
+    ]
+  },
+  {
+    "name": "Damask rose",
+    "normalized": "damask rose",
+    "language": "om",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "ET"
+    ],
+    "country_usage": [
+      {
+        "country": "ET",
+        "is_primary": false,
+        "confidence": "low",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Damask rose",
+    "normalized": "damask rose",
+    "language": "wo",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "SN"
+    ],
+    "country_usage": [
+      {
+        "country": "SN",
+        "is_primary": true,
+        "confidence": "low",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SN"
+    ]
+  },
+  {
+    "name": "Damask ruža",
+    "normalized": "damask ruza",
+    "language": "hr",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "HR"
+    ],
+    "country_usage": [
+      {
+        "country": "HR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Damaskoksenruusu",
+    "normalized": "damaskoksenruusu",
+    "language": "fi",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "FI"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Damaskonruusu",
+    "normalized": "damaskonruusu",
+    "language": "fi",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "FI"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "FI"
+    ]
+  },
+  {
+    "name": "Damaskroos",
+    "normalized": "damaskroos",
+    "language": "af",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "ZA"
+    ],
+    "country_usage": [
+      {
+        "country": "ZA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ZA"
+    ]
+  },
+  {
+    "name": "Damaskroos",
+    "normalized": "damaskroos",
+    "language": "nl",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "NL"
+    ],
+    "country_usage": [
+      {
+        "country": "NL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Damaskros",
+    "normalized": "damaskros",
+    "language": "sv",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "FI",
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Damaskrose",
+    "normalized": "damaskrose",
+    "language": "da",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DK"
+    ]
+  },
+  {
+    "name": "Damaskrose",
+    "normalized": "damaskrose",
+    "language": "no",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "NO"
+    ]
+  },
+  {
+    "name": "Damaskusrose",
+    "normalized": "damaskusrose",
+    "language": "no",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Damašská ruža",
+    "normalized": "damasska ruza",
+    "language": "sk",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "SK"
+    ],
+    "country_usage": [
+      {
+        "country": "SK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SK"
+    ]
+  },
+  {
+    "name": "Damašská růže",
+    "normalized": "damasska ruze",
+    "language": "cs",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Damaszener-Rose",
+    "normalized": "damaszener rose",
+    "language": "de",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "AT",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "AT"
+    ]
+  },
+  {
+    "name": "Damaszenerrose",
+    "normalized": "damaszenerrose",
+    "language": "de",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "BE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
+    "dominant_in_countries": [
+      "CH",
+      "DE"
+    ]
+  },
+  {
+    "name": "Damaszkuszi olajrózsa",
+    "normalized": "damaszkuszi olajrozsa",
+    "language": "hu",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "country_usage": [
+      {
+        "country": "HU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Damaszkuszi rózsa",
+    "normalized": "damaszkuszi rozsa",
+    "language": "hu",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "country_usage": [
+      {
+        "country": "HU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HU"
+    ]
+  },
+  {
     "name": "Dandelion",
     "normalized": "dandelion",
     "language": "en",
@@ -53255,6 +54001,77 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Hoa hồng Damascus",
+    "normalized": "hoa hong damascus",
+    "language": "vi",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "VN"
+    ],
+    "country_usage": [
+      {
+        "country": "VN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Hoa hồng Damask",
+    "normalized": "hoa hong damask",
+    "language": "vi",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "VN"
+    ],
+    "country_usage": [
+      {
+        "country": "VN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "VN"
+    ]
+  },
+  {
+    "name": "Hoa hồng tinh dầu",
+    "normalized": "hoa hong tinh dau",
+    "language": "vi",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "VN"
+    ],
+    "country_usage": [
+      {
+        "country": "VN",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Hoa lạc tiên",
     "normalized": "hoa lac tien",
     "language": "vi",
@@ -56003,6 +56820,29 @@
         "confidence": "medium",
         "source": "manual",
         "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Isparta gülü",
+    "normalized": "isparta gulu",
+    "language": "tr",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "country_usage": [
+      {
+        "country": "TR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -75543,6 +76383,85 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Mawar Damaskus",
+    "normalized": "mawar damaskus",
+    "language": "id",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "ID"
+    ],
+    "country_usage": [
+      {
+        "country": "ID",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ID"
+    ]
+  },
+  {
+    "name": "Mawar Damsyik",
+    "normalized": "mawar damsyik",
+    "language": "id",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "ID"
+    ],
+    "country_usage": [
+      {
+        "country": "ID",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Mawar Damsyik",
+    "normalized": "mawar damsyik",
+    "language": "ms",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "MY",
+      "SG"
+    ],
+    "country_usage": [
+      {
+        "country": "MY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Mawar liar",
     "normalized": "mawar liar",
     "language": "id",
@@ -75559,6 +76478,29 @@
         "confidence": "medium",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Mawar minyak",
+    "normalized": "mawar minyak",
+    "language": "id",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "ID"
+    ],
+    "country_usage": [
+      {
+        "country": "ID",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
       }
     ],
     "ambiguity_level": "low",
@@ -86600,6 +87542,85 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Oil rose",
+    "normalized": "oil rose",
+    "language": "en",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "GB",
+      "JM",
+      "NZ",
+      "TT",
+      "US",
+      "ZA"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "JM",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "NZ",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "TT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "ZA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 8,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Oinniún",
     "normalized": "oinniun",
     "language": "ga",
@@ -86620,6 +87641,175 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Olejová ruža",
+    "normalized": "olejova ruza",
+    "language": "sk",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "SK"
+    ],
+    "country_usage": [
+      {
+        "country": "SK",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Olejová růže",
+    "normalized": "olejova ruze",
+    "language": "cs",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Olieroos",
+    "normalized": "olieroos",
+    "language": "nl",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "NL"
+    ],
+    "country_usage": [
+      {
+        "country": "NL",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Olierose",
+    "normalized": "olierose",
+    "language": "da",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Oljeros",
+    "normalized": "oljeros",
+    "language": "sv",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "SE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Oljerose",
+    "normalized": "oljerose",
+    "language": "no",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Ölrose",
+    "normalized": "olrose",
+    "language": "de",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "AT",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "DE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
     "dominant_in_countries": []
   },
   {
@@ -100332,6 +101522,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Rós Dhamaisc",
+    "normalized": "ros dhamaisc",
+    "language": "ga",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "IE"
+    ],
+    "country_usage": [
+      {
+        "country": "IE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Rós fhiáin",
     "normalized": "ros fhiain",
     "language": "ga",
@@ -100375,6 +101588,554 @@
       },
       {
         "country": "IT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Rosa da olio",
+    "normalized": "rosa da olio",
+    "language": "it",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "IT",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Rosa damascena",
+    "normalized": "rosa damascena",
+    "language": "es",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "AR",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "CU",
+      "DO",
+      "EC",
+      "GT",
+      "MX",
+      "PA",
+      "PE",
+      "PY",
+      "SV",
+      "UY",
+      "VE"
+    ],
+    "country_usage": [
+      {
+        "country": "AR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "BO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "DO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "EC",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "GT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "MX",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "PA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "PE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "PY",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "SV",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "UY",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "VE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 16,
+    "dominant_in_countries": [
+      "AR",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "CU",
+      "DO",
+      "EC",
+      "GT",
+      "MX",
+      "PA",
+      "PE",
+      "PY",
+      "SV",
+      "UY",
+      "VE"
+    ]
+  },
+  {
+    "name": "Rosa damascena",
+    "normalized": "rosa damascena",
+    "language": "it",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "CH",
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "IT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "IT"
+    ]
+  },
+  {
+    "name": "Rosa de aceite",
+    "normalized": "rosa de aceite",
+    "language": "es",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "CU",
+      "DO",
+      "GT",
+      "MX",
+      "PA",
+      "SV",
+      "UY",
+      "VE"
+    ],
+    "country_usage": [
+      {
+        "country": "CU",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "DO",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "GT",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "MX",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "PA",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "SV",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "UY",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "VE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 8,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Rosa de Damasc",
+    "normalized": "rosa de damasc",
+    "language": "ca",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "country_usage": [
+      {
+        "country": "ES",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Rosa de Damasco",
+    "normalized": "rosa de damasco",
+    "language": "es",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "AR",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "CU",
+      "DO",
+      "EC",
+      "ES",
+      "GT",
+      "MX",
+      "PA",
+      "PE",
+      "PY",
+      "SV",
+      "UY",
+      "VE"
+    ],
+    "country_usage": [
+      {
+        "country": "AR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "BO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "EC",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ES",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MX",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SV",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "UY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "VE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 17,
+    "dominant_in_countries": [
+      "ES"
+    ]
+  },
+  {
+    "name": "Rosa de Damasco",
+    "normalized": "rosa de damasco",
+    "language": "gl",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "country_usage": [
+      {
+        "country": "ES",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Rosa de Damasco",
+    "normalized": "rosa de damasco",
+    "language": "gn",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "PY"
+    ],
+    "country_usage": [
+      {
+        "country": "PY",
+        "is_primary": false,
+        "confidence": "low",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Rosa de Damasco",
+    "normalized": "rosa de damasco",
+    "language": "pt",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "BR",
+      "PT"
+    ],
+    "country_usage": [
+      {
+        "country": "BR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PT",
         "is_primary": false,
         "confidence": "high",
         "source": "local_ethnobotany",
@@ -100539,6 +102300,29 @@
       "BO",
       "CL"
     ]
+  },
+  {
+    "name": "Rosa di Damasco",
+    "normalized": "rosa di damasco",
+    "language": "it",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "IT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Rosa mosqueta",
@@ -100738,6 +102522,60 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Rosa mosqueta de Damasco",
+    "normalized": "rosa mosqueta de damasco",
+    "language": "es",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "CL"
+    ],
+    "country_usage": [
+      {
+        "country": "CL",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Rosa oleífera",
+    "normalized": "rosa oleifera",
+    "language": "pt",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "BR",
+      "PT"
+    ],
+    "country_usage": [
+      {
+        "country": "BR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "PT",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Rosa selvatica",
     "normalized": "rosa selvatica",
     "language": "it",
@@ -100895,6 +102733,280 @@
       "BR",
       "PT"
     ]
+  },
+  {
+    "name": "Rosa-damascena",
+    "normalized": "rosa damascena",
+    "language": "pt",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "BR",
+      "PT"
+    ],
+    "country_usage": [
+      {
+        "country": "BR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "PT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "BR",
+      "PT"
+    ]
+  },
+  {
+    "name": "Rosas Damasko",
+    "normalized": "rosas damasko",
+    "language": "tl",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "PH"
+    ],
+    "country_usage": [
+      {
+        "country": "PH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PH"
+    ]
+  },
+  {
+    "name": "Rose à huile",
+    "normalized": "rose a huile",
+    "language": "fr",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Rose de Damas",
+    "normalized": "rose de damas",
+    "language": "fr",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "CH",
+      "DZ",
+      "FR",
+      "MA",
+      "SN",
+      "TN"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DZ",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 8,
+    "dominant_in_countries": [
+      "FR"
+    ]
+  },
+  {
+    "name": "Rose of Damascus",
+    "normalized": "rose of damascus",
+    "language": "en",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "AU",
+      "GB",
+      "GH",
+      "IE",
+      "JM",
+      "KE",
+      "NG",
+      "NZ",
+      "TT",
+      "US",
+      "ZM",
+      "ZW"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "IE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "JM",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "KE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "NG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "NZ",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ZM",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ZW",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 12,
+    "dominant_in_countries": []
   },
   {
     "name": "Rosehip",
@@ -102202,6 +104314,37 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Rosier de Damas",
+    "normalized": "rosier de damas",
+    "language": "fr",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "FR",
+      "SN"
+    ],
+    "country_usage": [
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "SN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Rosier des chiens",
     "normalized": "rosier des chiens",
     "language": "fr",
@@ -102529,6 +104672,54 @@
     "country_usage": [
       {
         "country": "NO",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Róża damasceńska",
+    "normalized": "roza damascenska",
+    "language": "pl",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "country_usage": [
+      {
+        "country": "PL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PL"
+    ]
+  },
+  {
+    "name": "Róża damasceńska olejkowa",
+    "normalized": "roza damascenska olejkowa",
+    "language": "pl",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "country_usage": [
+      {
+        "country": "PL",
         "is_primary": false,
         "confidence": "medium",
         "source": "local_ethnobotany",
@@ -102885,6 +105076,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Rózsa damascena",
+    "normalized": "rozsa damascena",
+    "language": "hu",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "country_usage": [
+      {
+        "country": "HU",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Rudbeckie pourpre",
     "normalized": "rudbeckie pourpre",
     "language": "fr",
@@ -103075,6 +105289,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Ruža damašská",
+    "normalized": "ruza damasska",
+    "language": "sk",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "SK"
+    ],
+    "country_usage": [
+      {
+        "country": "SK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Ruža šípová",
     "normalized": "ruza sipova",
     "language": "sk",
@@ -103096,6 +105333,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Růže damašská",
+    "normalized": "ruze damasska",
+    "language": "cs",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CZ"
+    ]
   },
   {
     "name": "Růže šípková",
@@ -105768,6 +108030,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Şam gülü",
+    "normalized": "sam gulu",
+    "language": "tr",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "country_usage": [
+      {
+        "country": "TR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "TR"
+    ]
   },
   {
     "name": "Sâm Hoa Kỳ",
@@ -116671,6 +118958,77 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Trandafir damaschin",
+    "normalized": "trandafir damaschin",
+    "language": "ro",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "country_usage": [
+      {
+        "country": "RO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RO"
+    ]
+  },
+  {
+    "name": "Trandafir de Damasc",
+    "normalized": "trandafir de damasc",
+    "language": "ro",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "country_usage": [
+      {
+        "country": "RO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Trandafir pentru ulei",
+    "normalized": "trandafir pentru ulei",
+    "language": "ro",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "country_usage": [
+      {
+        "country": "RO",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Trandafir sălbatic",
     "normalized": "trandafir salbatic",
     "language": "ro",
@@ -118571,6 +120929,29 @@
       "BE",
       "NL"
     ]
+  },
+  {
+    "name": "Uljna ruža",
+    "normalized": "uljna ruza",
+    "language": "hr",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "HR"
+    ],
+    "country_usage": [
+      {
+        "country": "HR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Umuthi we-neem",
@@ -121331,6 +123712,29 @@
     ]
   },
   {
+    "name": "Waridi wa Damasko",
+    "normalized": "waridi wa damasko",
+    "language": "sw",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "KE"
+    ],
+    "country_usage": [
+      {
+        "country": "KE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Water hyssop",
     "normalized": "water hyssop",
     "language": "en",
@@ -122383,6 +124787,29 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Yağ gülü",
+    "normalized": "yag gulu",
+    "language": "tr",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "country_usage": [
+      {
+        "country": "TR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
       }
     ],
     "ambiguity_level": "low",
@@ -126515,6 +128942,31 @@
     ]
   },
   {
+    "name": "Ελαιοτριανταφυλλιά",
+    "normalized": "ελαιοτριανταφυλλια",
+    "language": "el",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "GR"
+    ],
+    "country_usage": [
+      {
+        "country": "GR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "GR"
+    ]
+  },
+  {
     "name": "Εχινάκεια",
     "normalized": "εχινακεια",
     "language": "el",
@@ -128308,6 +130760,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Ρόδο Δαμασκού",
+    "normalized": "ροδο δαμασκου",
+    "language": "el",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "GR"
+    ],
+    "country_usage": [
+      {
+        "country": "GR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Ρόδο του σκύλου",
     "normalized": "ροδο του σκυλου",
     "language": "el",
@@ -128734,6 +131209,29 @@
     "dominant_in_countries": [
       "GR"
     ]
+  },
+  {
+    "name": "Τριανταφυλλιά Δαμασκού",
+    "normalized": "τριανταφυλλια δαμασκου",
+    "language": "el",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "GR"
+    ],
+    "country_usage": [
+      {
+        "country": "GR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Τριγκοκιά",
@@ -131093,6 +133591,81 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Дамаска роза",
+    "normalized": "дамаска роза",
+    "language": "bg",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "country_usage": [
+      {
+        "country": "BG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "BG"
+    ]
+  },
+  {
+    "name": "Дамасская роза",
+    "normalized": "дамасская роза",
+    "language": "ru",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RU"
+    ]
+  },
+  {
+    "name": "Дамаська троянда",
+    "normalized": "дамаська троянда",
+    "language": "uk",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "UA"
+    ]
+  },
+  {
     "name": "Дафинов лист",
     "normalized": "дафинов лист",
     "language": "bg",
@@ -132295,6 +134868,29 @@
         "confidence": "low",
         "source": "local_ethnobotany",
         "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Казанлъшка роза",
+    "normalized": "казанлъшка роза",
+    "language": "bg",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "country_usage": [
+      {
+        "country": "BG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -134694,6 +137290,52 @@
     ]
   },
   {
+    "name": "Масличная роза",
+    "normalized": "масличная роза",
+    "language": "ru",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Маслодайна роза",
+    "normalized": "маслодаина роза",
+    "language": "bg",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "country_usage": [
+      {
+        "country": "BG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Мате",
     "normalized": "мате",
     "language": "bg",
@@ -135704,6 +138346,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Олійна троянда",
+    "normalized": "оліина троянда",
+    "language": "uk",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Орегано",
     "normalized": "орегано",
     "language": "ru",
@@ -136562,6 +139227,29 @@
     "dominant_in_countries": [
       "BG"
     ]
+  },
+  {
+    "name": "Роза дамасцена",
+    "normalized": "роза дамасцена",
+    "language": "ru",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Роза собачья",
@@ -137655,6 +140343,29 @@
     "country_usage": [
       {
         "country": "RU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Троянда дамаська",
+    "normalized": "троянда дамаська",
+    "language": "uk",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
         "is_primary": false,
         "confidence": "high",
         "source": "local_ethnobotany",
@@ -140302,6 +143013,29 @@
     ]
   },
   {
+    "name": "הוורד הדמשקאי",
+    "normalized": "הוורד הדמשקאי",
+    "language": "he",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "IL"
+    ],
+    "country_usage": [
+      {
+        "country": "IL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "היביסקוס",
     "normalized": "היביסקוס",
     "language": "he",
@@ -140446,6 +143180,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "ורד דמשקאי",
+    "normalized": "ורד דמשקאי",
+    "language": "he",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "IL"
+    ],
+    "country_usage": [
+      {
+        "country": "IL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IL"
+    ]
   },
   {
     "name": "ורד הכלב",
@@ -145458,6 +148217,66 @@
     "dominant_in_countries": []
   },
   {
+    "name": "الورد الدمشقي",
+    "normalized": "الورد الدمشقي",
+    "language": "ar",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "DZ",
+      "EG",
+      "IL",
+      "MA",
+      "TN"
+    ],
+    "country_usage": [
+      {
+        "country": "DZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "EG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "IL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 5,
+    "dominant_in_countries": [
+      "DZ",
+      "EG",
+      "MA",
+      "TN"
+    ]
+  },
+  {
     "name": "امریکی جنسینگ",
     "normalized": "امریکی جنسینگ",
     "language": "ur",
@@ -149033,6 +151852,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "دمشقی گلاب",
+    "normalized": "دمشقی گلاب",
+    "language": "pa",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "PK"
+    ],
+    "country_usage": [
+      {
+        "country": "PK",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "دھنیا",
     "normalized": "دھنیا",
     "language": "ur",
@@ -149106,6 +151948,29 @@
     "dominant_in_countries": [
       "IR"
     ]
+  },
+  {
+    "name": "رز دمشقی",
+    "normalized": "رز دمشقی",
+    "language": "fa",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "IR"
+    ],
+    "country_usage": [
+      {
+        "country": "IR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "رز هیپ",
@@ -153014,6 +155879,54 @@
     "dominant_in_countries": []
   },
   {
+    "name": "گل گلاب",
+    "normalized": "گل گلاب",
+    "language": "fa",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "IR"
+    ],
+    "country_usage": [
+      {
+        "country": "IR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "گل محمدی",
+    "normalized": "گل محمدی",
+    "language": "fa",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "IR"
+    ],
+    "country_usage": [
+      {
+        "country": "IR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IR"
+    ]
+  },
+  {
     "name": "گل مخروطی بنفش",
     "normalized": "گل مخروطی بنفش",
     "language": "fa",
@@ -153081,6 +155994,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "گلاب دمشقی",
+    "normalized": "گلاب دمشقی",
+    "language": "ur",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "PK"
+    ],
+    "country_usage": [
+      {
+        "country": "PK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PK"
+    ]
   },
   {
     "name": "گلابی پھل",
@@ -154830,6 +157768,53 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 3,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "وردة دمشق",
+    "normalized": "وردة دمشق",
+    "language": "ar",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "DZ",
+      "EG",
+      "MA",
+      "TN"
+    ],
+    "country_usage": [
+      {
+        "country": "DZ",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "EG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
     "dominant_in_countries": []
   },
   {
@@ -157086,6 +160071,54 @@
     "dominant_in_countries": []
   },
   {
+    "name": "ደማስቆ ሮዝ",
+    "normalized": "ደማስቆ ሮዝ",
+    "language": "ti",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "ET"
+    ],
+    "country_usage": [
+      {
+        "country": "ET",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "ደማስቆ ጽጌረዳ",
+    "normalized": "ደማስቆ ጽጌረዳ",
+    "language": "am",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "ET"
+    ],
+    "country_usage": [
+      {
+        "country": "ET",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ET"
+    ]
+  },
+  {
     "name": "ዳንዴሊዮን",
     "normalized": "ዳንዴሊዮን",
     "language": "am",
@@ -158346,6 +161379,31 @@
     ]
   },
   {
+    "name": "दमिश्क गुलाब",
+    "normalized": "दमिश्क गुलाब",
+    "language": "hi",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IN"
+    ]
+  },
+  {
     "name": "दालचीनी",
     "normalized": "दालचीनी",
     "language": "hi",
@@ -159551,6 +162609,29 @@
     "language": "bn",
     "plant_ids": [
       "centella_asiatica"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "দামাস্ক গোলাপ",
+    "normalized": "দামাস্ক গোলাপ",
+    "language": "bn",
+    "plant_ids": [
+      "rosa_x_damascena"
     ],
     "countries": [
       "IN"
@@ -160898,6 +163979,29 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "டமாஸ்க் ரோஜா",
+    "normalized": "டமாஸ்க் ரோஜா",
+    "language": "ta",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "LK"
+    ],
+    "country_usage": [
+      {
+        "country": "LK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
       }
     ],
     "ambiguity_level": "low",
@@ -162577,6 +165681,31 @@
     ]
   },
   {
+    "name": "ඩැමස්ක් රෝස",
+    "normalized": "ඩැමස්ක් රෝස",
+    "language": "si",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "LK"
+    ],
+    "country_usage": [
+      {
+        "country": "LK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "LK"
+    ]
+  },
+  {
     "name": "තිප්පිලි",
     "normalized": "තිප්පිලි",
     "language": "si",
@@ -163551,6 +166680,54 @@
     ]
   },
   {
+    "name": "กุหลาบดามัสก์",
+    "normalized": "กุหลาบดามัสก์",
+    "language": "th",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "TH"
+    ],
+    "country_usage": [
+      {
+        "country": "TH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "TH"
+    ]
+  },
+  {
+    "name": "กุหลาบน้ำมัน",
+    "normalized": "กุหลาบน้ำมัน",
+    "language": "th",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "TH"
+    ],
+    "country_usage": [
+      {
+        "country": "TH",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "กุหลาบป่า",
     "normalized": "กุหลาบป่า",
     "language": "th",
@@ -164210,6 +167387,29 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "ดอกกุหลาบดามัสก์",
+    "normalized": "ดอกกุหลาบดามัสก์",
+    "language": "th",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "TH"
+    ],
+    "country_usage": [
+      {
+        "country": "TH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
       }
     ],
     "ambiguity_level": "low",
@@ -167273,6 +170473,54 @@
     ]
   },
   {
+    "name": "다마스크로즈",
+    "normalized": "다마스크로즈",
+    "language": "ko",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "country_usage": [
+      {
+        "country": "KR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "다마스크장미",
+    "normalized": "다마스크장미",
+    "language": "ko",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "country_usage": [
+      {
+        "country": "KR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "KR"
+    ]
+  },
+  {
     "name": "들장미",
     "normalized": "들장미",
     "language": "ko",
@@ -169377,6 +172625,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "장미오일용 장미",
+    "normalized": "장미오일용 장미",
+    "language": "ko",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "country_usage": [
+      {
+        "country": "KR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "정원 파슬리",
     "normalized": "정원 파슬리",
     "language": "ko",
@@ -170803,6 +174074,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "オイルローズ",
+    "normalized": "オイルローズ",
+    "language": "ja",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "country_usage": [
+      {
+        "country": "JP",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "オオヒレアザミ",
     "normalized": "オオヒレアザミ",
     "language": "ja",
@@ -171810,6 +175104,54 @@
     "language": "ja",
     "plant_ids": [
       "thymus_vulgaris"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "country_usage": [
+      {
+        "country": "JP",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "JP"
+    ]
+  },
+  {
+    "name": "ダマスクバラ",
+    "normalized": "ダマスクバラ",
+    "language": "ja",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "country_usage": [
+      {
+        "country": "JP",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "ダマスクローズ",
+    "normalized": "ダマスクローズ",
+    "language": "ja",
+    "plant_ids": [
+      "rosa_x_damascena"
     ],
     "countries": [
       "JP"
@@ -174643,6 +177985,120 @@
     "dominant_in_countries": []
   },
   {
+    "name": "大馬士革玫瑰",
+    "normalized": "大馬士革玫瑰",
+    "language": "zh",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "TW"
+    ],
+    "country_usage": [
+      {
+        "country": "TW",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "TW"
+    ]
+  },
+  {
+    "name": "大馬士革薔薇",
+    "normalized": "大馬士革薔薇",
+    "language": "zh",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "TW"
+    ],
+    "country_usage": [
+      {
+        "country": "TW",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "大马士革玫瑰",
+    "normalized": "大马士革玫瑰",
+    "language": "zh",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "CN",
+      "MY",
+      "SG"
+    ],
+    "country_usage": [
+      {
+        "country": "CN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MY",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "CN",
+      "MY",
+      "SG"
+    ]
+  },
+  {
+    "name": "大马士革蔷薇",
+    "normalized": "大马士革蔷薇",
+    "language": "zh",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "country_usage": [
+      {
+        "country": "CN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "奇亚",
     "normalized": "奇亚",
     "language": "zh",
@@ -176385,6 +179841,37 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 4,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "玫瑰精油玫瑰",
+    "normalized": "玫瑰精油玫瑰",
+    "language": "zh",
+    "plant_ids": [
+      "rosa_x_damascena"
+    ],
+    "countries": [
+      "CN",
+      "TW"
+    ],
+    "country_usage": [
+      {
+        "country": "CN",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "TW",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
     "dominant_in_countries": []
   },
   {
