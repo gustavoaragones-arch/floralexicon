@@ -27374,6 +27374,29 @@
     ]
   },
   {
+    "name": "Cỏ ngọt",
+    "normalized": "co ngot",
+    "language": "vi",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "VN"
+    ],
+    "country_usage": [
+      {
+        "country": "VN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Cỏ sả",
     "normalized": "co sa",
     "language": "vi",
@@ -32868,6 +32891,60 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Daun manis",
+    "normalized": "daun manis",
+    "language": "id",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "ID"
+    ],
+    "country_usage": [
+      {
+        "country": "ID",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Daun manis",
+    "normalized": "daun manis",
+    "language": "ms",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "MY",
+      "SG"
+    ],
+    "country_usage": [
+      {
+        "country": "MY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Daun pudina",
     "normalized": "daun pudina",
     "language": "ms",
@@ -34514,6 +34591,29 @@
     "dominant_in_countries": [
       "HR"
     ]
+  },
+  {
+    "name": "Duilleog mhilis",
+    "normalized": "duilleog mhilis",
+    "language": "ga",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "IE"
+    ],
+    "country_usage": [
+      {
+        "country": "IE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Duisendblaar",
@@ -36513,6 +36613,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Édesfű",
+    "normalized": "edesfu",
+    "language": "hu",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "country_usage": [
+      {
+        "country": "HU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Édesgyökér",
     "normalized": "edesgyoker",
     "language": "hu",
@@ -37939,6 +38062,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Erba dolce",
+    "normalized": "erba dolce",
+    "language": "it",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "IT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Erba limoncina",
     "normalized": "erba limoncina",
     "language": "it",
@@ -38089,6 +38235,37 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Erva-doce-do-Paraguai",
+    "normalized": "erva doce do paraguai",
+    "language": "pt",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "BR",
+      "PT"
+    ],
+    "country_usage": [
+      {
+        "country": "BR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PT",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
     "dominant_in_countries": []
   },
   {
@@ -38897,6 +39074,185 @@
       "BR",
       "PT"
     ]
+  },
+  {
+    "name": "Estevia",
+    "normalized": "estevia",
+    "language": "es",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "CO",
+      "CR",
+      "CU",
+      "DO",
+      "EC",
+      "ES",
+      "GT",
+      "MX",
+      "PA",
+      "PE",
+      "SV",
+      "VE"
+    ],
+    "country_usage": [
+      {
+        "country": "CO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "CR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "CU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "DO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "EC",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "ES",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "GT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "MX",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "PA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "PE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "SV",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "VE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 12,
+    "dominant_in_countries": [
+      "CU",
+      "DO",
+      "EC",
+      "ES",
+      "GT",
+      "MX",
+      "PA",
+      "PE",
+      "SV",
+      "VE"
+    ]
+  },
+  {
+    "name": "Estévia",
+    "normalized": "estevia",
+    "language": "pt",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "BR",
+      "PT"
+    ],
+    "country_usage": [
+      {
+        "country": "BR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "BR",
+      "PT"
+    ]
+  },
+  {
+    "name": "Estèvia",
+    "normalized": "estevia",
+    "language": "ca",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "country_usage": [
+      {
+        "country": "ES",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Estripo",
@@ -40480,6 +40836,29 @@
     ]
   },
   {
+    "name": "Feuille sucrée",
+    "normalized": "feuille sucree",
+    "language": "fr",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Fever grass",
     "normalized": "fever grass",
     "language": "en",
@@ -41690,6 +42069,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Foglia dolce",
+    "normalized": "foglia dolce",
+    "language": "it",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "IT",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Fokhagyma",
     "normalized": "fokhagyma",
     "language": "hu",
@@ -41735,6 +42137,37 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Folha-doce",
+    "normalized": "folha doce",
+    "language": "pt",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "BR",
+      "PT"
+    ],
+    "country_usage": [
+      {
+        "country": "BR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
     "dominant_in_countries": []
   },
   {
@@ -41800,6 +42233,29 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Frunza dulce",
+    "normalized": "frunza dulce",
+    "language": "ro",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "country_usage": [
+      {
+        "country": "RO",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -52217,6 +52673,61 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Herbe sucrée",
+    "normalized": "herbe sucree",
+    "language": "fr",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "CH",
+      "FR",
+      "SN"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 5,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Heřmánek",
     "normalized": "hermanek",
     "language": "cs",
@@ -53309,6 +53820,157 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 18,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Hierba dulce",
+    "normalized": "hierba dulce",
+    "language": "es",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "AR",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "CU",
+      "DO",
+      "EC",
+      "ES",
+      "GT",
+      "MX",
+      "PA",
+      "PE",
+      "PY",
+      "SV",
+      "UY",
+      "VE"
+    ],
+    "country_usage": [
+      {
+        "country": "AR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "BO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "EC",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ES",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MX",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SV",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "UY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "VE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 17,
     "dominant_in_countries": []
   },
   {
@@ -56382,6 +57044,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Iarba dulce",
+    "normalized": "iarba dulce",
+    "language": "ro",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "country_usage": [
+      {
+        "country": "RO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Ibiš lekársky",
     "normalized": "ibis lekarsky",
     "language": "sk",
@@ -57944,6 +58629,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Jani tamu",
+    "normalized": "jani tamu",
+    "language": "sw",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "KE"
+    ],
+    "country_usage": [
+      {
+        "country": "KE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Japanse notenboom",
     "normalized": "japanse notenboom",
     "language": "nl",
@@ -57956,6 +58664,29 @@
     "country_usage": [
       {
         "country": "NL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Jázminpakóca",
+    "normalized": "jazminpakoca",
+    "language": "hu",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "country_usage": [
+      {
+        "country": "HU",
         "is_primary": false,
         "confidence": "high",
         "source": "local_ethnobotany",
@@ -58593,6 +59324,53 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Ka'a he'ê",
+    "normalized": "ka'a he'e",
+    "language": "gn",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "AR",
+      "BO",
+      "PY",
+      "UY"
+    ],
+    "country_usage": [
+      {
+        "country": "AR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "BO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "UY",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
     "dominant_in_countries": []
   },
   {
@@ -65180,6 +65958,29 @@
         "confidence": "low",
         "source": "local_ethnobotany",
         "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Lá ngọt",
+    "normalized": "la ngot",
+    "language": "vi",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "VN"
+    ],
+    "country_usage": [
+      {
+        "country": "VN",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -75048,6 +75849,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Makealehti",
+    "normalized": "makealehti",
+    "language": "fi",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "FI"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Mäkikuisma",
     "normalized": "makikuisma",
     "language": "fi",
@@ -78808,6 +79632,52 @@
         "country": "PL",
         "is_primary": false,
         "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Medeni list",
+    "normalized": "medeni list",
+    "language": "hr",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "HR"
+    ],
+    "country_usage": [
+      {
+        "country": "HR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Medové listy",
+    "normalized": "medove listy",
+    "language": "cs",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": false,
+        "confidence": "medium",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
       }
@@ -111388,6 +112258,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Şeker otu",
+    "normalized": "seker otu",
+    "language": "tr",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "country_usage": [
+      {
+        "country": "TR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Selasih",
     "normalized": "selasih",
     "language": "id",
@@ -113250,6 +114143,52 @@
     ]
   },
   {
+    "name": "Sladká bylina",
+    "normalized": "sladka bylina",
+    "language": "sk",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "SK"
+    ],
+    "country_usage": [
+      {
+        "country": "SK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Sladká tráva",
+    "normalized": "sladka trava",
+    "language": "cs",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Sladké drievko",
     "normalized": "sladke drievko",
     "language": "sk",
@@ -113273,6 +114212,29 @@
     "dominant_in_countries": [
       "SK"
     ]
+  },
+  {
+    "name": "Sladký list",
+    "normalized": "sladky list",
+    "language": "sk",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "SK"
+    ],
+    "country_usage": [
+      {
+        "country": "SK",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Sladovka hladkoplodá",
@@ -113321,11 +114283,80 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Slatki list",
+    "normalized": "slatki list",
+    "language": "hr",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "HR"
+    ],
+    "country_usage": [
+      {
+        "country": "HR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Ślaz lekarski",
     "normalized": "slaz lekarski",
     "language": "pl",
     "plant_ids": [
       "althaea_officinalis"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "country_usage": [
+      {
+        "country": "PL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Słodki liść",
+    "normalized": "słodki lisc",
+    "language": "pl",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "country_usage": [
+      {
+        "country": "PL",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Słodkie ziele",
+    "normalized": "słodkie ziele",
+    "language": "pl",
+    "plant_ids": [
+      "stevia_rebaudiana"
     ],
     "countries": [
       "PL"
@@ -113530,6 +114561,52 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Søde blade",
+    "normalized": "søde blade",
+    "language": "da",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Sødurt",
+    "normalized": "sødurt",
+    "language": "da",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Soet basiliekruid",
     "normalized": "soet basiliekruid",
     "language": "af",
@@ -113546,6 +114623,29 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Soetblaar",
+    "normalized": "soetblaar",
+    "language": "af",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "ZA"
+    ],
+    "country_usage": [
+      {
+        "country": "ZA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -113937,6 +115037,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Søt urt",
+    "normalized": "søt urt",
+    "language": "no",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Søtbasilikum",
     "normalized": "søtbasilikum",
     "language": "no",
@@ -113953,6 +115076,83 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Sötblad",
+    "normalized": "sotblad",
+    "language": "sv",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "FI",
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Søtblad",
+    "normalized": "søtblad",
+    "language": "no",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Sötört",
+    "normalized": "sotort",
+    "language": "sv",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "SE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -115987,6 +117187,889 @@
     ]
   },
   {
+    "name": "Stevia",
+    "normalized": "stevia",
+    "language": "da",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DK"
+    ]
+  },
+  {
+    "name": "Stevia",
+    "normalized": "stevia",
+    "language": "de",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "AT",
+      "CH",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "CH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "AT",
+      "CH",
+      "DE"
+    ]
+  },
+  {
+    "name": "Stevia",
+    "normalized": "stevia",
+    "language": "en",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "GB",
+      "GH",
+      "IE",
+      "IN",
+      "JM",
+      "KE",
+      "NG",
+      "NZ",
+      "SG",
+      "TT",
+      "US",
+      "ZA",
+      "ZM",
+      "ZW"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "IN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "JM",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "KE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "NG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "NZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "SG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "TT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "ZA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "ZM",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "ZW",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 16,
+    "dominant_in_countries": [
+      "AU",
+      "CA",
+      "GB",
+      "GH",
+      "IE",
+      "JM",
+      "KE",
+      "NG",
+      "NZ",
+      "SG",
+      "TT",
+      "US",
+      "ZA",
+      "ZM",
+      "ZW"
+    ]
+  },
+  {
+    "name": "Stevia",
+    "normalized": "stevia",
+    "language": "es",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "AR",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "CU",
+      "DO",
+      "EC",
+      "GT",
+      "PA",
+      "PY",
+      "SV",
+      "UY",
+      "VE"
+    ],
+    "country_usage": [
+      {
+        "country": "AR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "BO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "EC",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PY",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SV",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "UY",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "VE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 14,
+    "dominant_in_countries": [
+      "AR",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "PY",
+      "UY"
+    ]
+  },
+  {
+    "name": "Stevia",
+    "normalized": "stevia",
+    "language": "fi",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "FI"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "FI"
+    ]
+  },
+  {
+    "name": "Stevia",
+    "normalized": "stevia",
+    "language": "hu",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "country_usage": [
+      {
+        "country": "HU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HU"
+    ]
+  },
+  {
+    "name": "Stevia",
+    "normalized": "stevia",
+    "language": "id",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "ID"
+    ],
+    "country_usage": [
+      {
+        "country": "ID",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ID"
+    ]
+  },
+  {
+    "name": "Stevia",
+    "normalized": "stevia",
+    "language": "it",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "CH",
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "IT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "IT"
+    ]
+  },
+  {
+    "name": "Stevia",
+    "normalized": "stevia",
+    "language": "ms",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "MY"
+    ],
+    "country_usage": [
+      {
+        "country": "MY",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "MY"
+    ]
+  },
+  {
+    "name": "Stevia",
+    "normalized": "stevia",
+    "language": "nl",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "BE",
+      "NL"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "NL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "BE",
+      "NL"
+    ]
+  },
+  {
+    "name": "Stevia",
+    "normalized": "stevia",
+    "language": "no",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "NO"
+    ]
+  },
+  {
+    "name": "Stevia",
+    "normalized": "stevia",
+    "language": "om",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "ET"
+    ],
+    "country_usage": [
+      {
+        "country": "ET",
+        "is_primary": false,
+        "confidence": "low",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Stevia",
+    "normalized": "stevia",
+    "language": "ro",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "country_usage": [
+      {
+        "country": "RO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RO"
+    ]
+  },
+  {
+    "name": "Stevia",
+    "normalized": "stevia",
+    "language": "sv",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "SE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SE"
+    ]
+  },
+  {
+    "name": "Stevia",
+    "normalized": "stevia",
+    "language": "tl",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "PH"
+    ],
+    "country_usage": [
+      {
+        "country": "PH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PH"
+    ]
+  },
+  {
+    "name": "Stevia",
+    "normalized": "stevia",
+    "language": "tr",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "country_usage": [
+      {
+        "country": "TR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "TR"
+    ]
+  },
+  {
+    "name": "Stevia",
+    "normalized": "stevia",
+    "language": "vi",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "VN"
+    ],
+    "country_usage": [
+      {
+        "country": "VN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "VN"
+    ]
+  },
+  {
+    "name": "Stevia",
+    "normalized": "stevia",
+    "language": "wo",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "SN"
+    ],
+    "country_usage": [
+      {
+        "country": "SN",
+        "is_primary": false,
+        "confidence": "low",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Stévia",
+    "normalized": "stevia",
+    "language": "fr",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "DZ",
+      "FR",
+      "MA",
+      "SN",
+      "TN"
+    ],
+    "country_usage": [
+      {
+        "country": "DZ",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "MA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "SN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "TN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 5,
+    "dominant_in_countries": [
+      "FR",
+      "SN"
+    ]
+  },
+  {
+    "name": "Stévia",
+    "normalized": "stevia",
+    "language": "sk",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "SK"
+    ],
+    "country_usage": [
+      {
+        "country": "SK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SK"
+    ]
+  },
+  {
+    "name": "Stévie",
+    "normalized": "stevie",
+    "language": "cs",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CZ"
+    ]
+  },
+  {
+    "name": "Stevija",
+    "normalized": "stevija",
+    "language": "hr",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "HR"
+    ],
+    "country_usage": [
+      {
+        "country": "HR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HR"
+    ]
+  },
+  {
+    "name": "Stewia",
+    "normalized": "stewia",
+    "language": "pl",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "country_usage": [
+      {
+        "country": "PL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PL"
+    ]
+  },
+  {
     "name": "Stinging nettle",
     "normalized": "stinging nettle",
     "language": "en",
@@ -116265,6 +118348,69 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Sugarleaf",
+    "normalized": "sugarleaf",
+    "language": "en",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "AU",
+      "GB",
+      "JM",
+      "NZ",
+      "TT",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "JM",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "NZ",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TT",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 6,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Sunătoare",
     "normalized": "sunatoare",
     "language": "ro",
@@ -116372,6 +118518,37 @@
     ]
   },
   {
+    "name": "Süßblatt",
+    "normalized": "sußblatt",
+    "language": "de",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "AT",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Süßholz",
     "normalized": "sußholz",
     "language": "de",
@@ -116421,6 +118598,45 @@
       "CH",
       "DE"
     ]
+  },
+  {
+    "name": "Süßkraut",
+    "normalized": "sußkraut",
+    "language": "de",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "BE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": []
   },
   {
     "name": "Suurlemoenbalsem",
@@ -117022,6 +119238,141 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 5,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Sweet leaf",
+    "normalized": "sweet leaf",
+    "language": "en",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "GB",
+      "GH",
+      "IE",
+      "JM",
+      "KE",
+      "NG",
+      "NZ",
+      "PH",
+      "TT",
+      "US",
+      "ZA",
+      "ZM",
+      "ZW"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "GH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "IE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "JM",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "KE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "NG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "NZ",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ZA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ZM",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ZW",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 15,
     "dominant_in_countries": []
   },
   {
@@ -117732,6 +120083,29 @@
         "country": "TR",
         "is_primary": false,
         "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Tatlı ot",
+    "normalized": "tatlı ot",
+    "language": "tr",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "country_usage": [
+      {
+        "country": "TR",
+        "is_primary": false,
+        "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
       }
@@ -130136,6 +132510,52 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Zoet blad",
+    "normalized": "zoet blad",
+    "language": "nl",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "NL"
+    ],
+    "country_usage": [
+      {
+        "country": "NL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Zoet kruid",
+    "normalized": "zoet kruid",
+    "language": "nl",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "NL"
+    ],
+    "country_usage": [
+      {
+        "country": "NL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Zoethout",
     "normalized": "zoethout",
     "language": "nl",
@@ -131107,6 +133527,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Γλυκό φύλλο",
+    "normalized": "γλυκο φυλλο",
+    "language": "el",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "GR"
+    ],
+    "country_usage": [
+      {
+        "country": "GR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Γλυκόριζα",
     "normalized": "γλυκοριζα",
     "language": "el",
@@ -131148,6 +133591,29 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Γλυκόχορτο",
+    "normalized": "γλυκοχορτο",
+    "language": "el",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "GR"
+    ],
+    "country_usage": [
+      {
+        "country": "GR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -133491,6 +135957,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Στέβια",
+    "normalized": "στεβια",
+    "language": "el",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "GR"
+    ],
+    "country_usage": [
+      {
+        "country": "GR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "GR"
+    ]
   },
   {
     "name": "Συζύγιο το αρωματικό",
@@ -140079,6 +142570,75 @@
     ]
   },
   {
+    "name": "Медена билка",
+    "normalized": "медена билка",
+    "language": "bg",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "country_usage": [
+      {
+        "country": "BG",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Медова трава",
+    "normalized": "медова трава",
+    "language": "uk",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Медовая трава",
+    "normalized": "медовая трава",
+    "language": "ru",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Мелисса лекарственная",
     "normalized": "мелисса лекарственная",
     "language": "ru",
@@ -142653,6 +145213,52 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Сладка билка",
+    "normalized": "сладка билка",
+    "language": "bg",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "country_usage": [
+      {
+        "country": "BG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Сладкая трава",
+    "normalized": "сладкая трава",
+    "language": "ru",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Сладък корен",
     "normalized": "сладък корен",
     "language": "bg",
@@ -142799,6 +145405,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Солодка трава",
+    "normalized": "солодка трава",
+    "language": "uk",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Спирулина",
     "normalized": "спирулина",
     "language": "bg",
@@ -142854,6 +145483,81 @@
     "language": "uk",
     "plant_ids": [
       "arthrospira_platensis"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "UA"
+    ]
+  },
+  {
+    "name": "Стевия",
+    "normalized": "стевия",
+    "language": "bg",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "country_usage": [
+      {
+        "country": "BG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "BG"
+    ]
+  },
+  {
+    "name": "Стевия",
+    "normalized": "стевия",
+    "language": "ru",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RU"
+    ]
+  },
+  {
+    "name": "Стевія",
+    "normalized": "стевія",
+    "language": "uk",
+    "plant_ids": [
+      "stevia_rebaudiana"
     ],
     "countries": [
       "UA"
@@ -146649,6 +149353,31 @@
     ]
   },
   {
+    "name": "סטיביה",
+    "normalized": "סטיביה",
+    "language": "he",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "IL"
+    ],
+    "country_usage": [
+      {
+        "country": "IL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IL"
+    ]
+  },
+  {
     "name": "סלוויה",
     "normalized": "סלוויה",
     "language": "he",
@@ -146988,6 +149717,29 @@
     "language": "he",
     "plant_ids": [
       "cymbopogon_citratus"
+    ],
+    "countries": [
+      "IL"
+    ],
+    "country_usage": [
+      {
+        "country": "IL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "עשב מתוק",
+    "normalized": "עשב מתוק",
+    "language": "he",
+    "plant_ids": [
+      "stevia_rebaudiana"
     ],
     "countries": [
       "IL"
@@ -148416,6 +151168,56 @@
         "country": "PK",
         "is_primary": true,
         "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PK"
+    ]
+  },
+  {
+    "name": "استویا",
+    "normalized": "استویا",
+    "language": "fa",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "IR"
+    ],
+    "country_usage": [
+      {
+        "country": "IR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IR"
+    ]
+  },
+  {
+    "name": "اسٹیویا",
+    "normalized": "اسٹیویا",
+    "language": "ur",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "PK"
+    ],
+    "country_usage": [
+      {
+        "country": "PK",
+        "is_primary": true,
+        "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "linguistic"
       }
@@ -150192,6 +152994,53 @@
     "dominant_in_countries": []
   },
   {
+    "name": "العشبة الحلوة",
+    "normalized": "العشبة الحلوة",
+    "language": "ar",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "DZ",
+      "EG",
+      "MA",
+      "TN"
+    ],
+    "country_usage": [
+      {
+        "country": "DZ",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "EG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
+    "dominant_in_countries": []
+  },
+  {
     "name": "الغار",
     "normalized": "الغار",
     "language": "ar",
@@ -151890,6 +154739,29 @@
         "country": "IR",
         "is_primary": false,
         "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "برگ شیرین",
+    "normalized": "برگ شیرین",
+    "language": "fa",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "IR"
+    ],
+    "country_usage": [
+      {
+        "country": "IR",
+        "is_primary": false,
+        "confidence": "medium",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
       }
@@ -155961,6 +158833,66 @@
     ]
   },
   {
+    "name": "ستيفيا",
+    "normalized": "ستيفيا",
+    "language": "ar",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "DZ",
+      "EG",
+      "IL",
+      "MA",
+      "TN"
+    ],
+    "country_usage": [
+      {
+        "country": "DZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "EG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "IL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "MA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "TN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 5,
+    "dominant_in_countries": [
+      "DZ",
+      "EG",
+      "MA",
+      "TN"
+    ]
+  },
+  {
     "name": "سفید ہلدی",
     "normalized": "سفید ہلدی",
     "language": "ur",
@@ -159007,6 +161939,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "گیاه شیرین",
+    "normalized": "گیاه شیرین",
+    "language": "fa",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "IR"
+    ],
+    "country_usage": [
+      {
+        "country": "IR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "گیلاس زمستانی",
     "normalized": "گیلاس زمستانی",
     "language": "fa",
@@ -159750,6 +162705,29 @@
     "dominant_in_countries": [
       "PK"
     ]
+  },
+  {
+    "name": "میٹھی بوٹی",
+    "normalized": "میٹھی بوٹی",
+    "language": "ur",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "PK"
+    ],
+    "country_usage": [
+      {
+        "country": "PK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "میخک",
@@ -160780,6 +163758,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "ورقة السكر",
+    "normalized": "ورقة السكر",
+    "language": "ar",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "EG"
+    ],
+    "country_usage": [
+      {
+        "country": "EG",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "يربا ماتيه",
     "normalized": "يربا ماتيه",
     "language": "ar",
@@ -161627,6 +164628,31 @@
         "confidence": "medium",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ET"
+    ]
+  },
+  {
+    "name": "ስቴቪያ",
+    "normalized": "ስቴቪያ",
+    "language": "am",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "ET"
+    ],
+    "country_usage": [
+      {
+        "country": "ET",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
       }
     ],
     "ambiguity_level": "low",
@@ -163253,6 +166279,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "ጣፋጭ ቅጠል",
+    "normalized": "ጣፋጭ ቅጠል",
+    "language": "am",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "ET"
+    ],
+    "country_usage": [
+      {
+        "country": "ET",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "ጥቁር በርበሬ",
     "normalized": "ጥቁር በርበሬ",
     "language": "am",
@@ -164807,6 +167856,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "मीठी पत्ती",
+    "normalized": "मीठी पत्ती",
+    "language": "hi",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "मुनगा",
     "normalized": "मुनगा",
     "language": "hi",
@@ -165299,6 +168371,31 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IN"
+    ]
+  },
+  {
+    "name": "स्टीविया",
+    "normalized": "स्टीविया",
+    "language": "hi",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
       }
     ],
     "ambiguity_level": "low",
@@ -165976,6 +169073,29 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "ਸਟੀਵੀਆ",
+    "normalized": "ਸਟੀਵੀਆ",
+    "language": "pa",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "PK"
+    ],
+    "country_usage": [
+      {
+        "country": "PK",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
       }
     ],
     "ambiguity_level": "low",
@@ -167956,6 +171076,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "ஸ்டீவியா",
+    "normalized": "ஸ்டீவியா",
+    "language": "ta",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "LK"
+    ],
+    "country_usage": [
+      {
+        "country": "LK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "ஹாதோர்ன்",
     "normalized": "ஹாதோர்ன்",
     "language": "ta",
@@ -169082,6 +172225,29 @@
     ]
   },
   {
+    "name": "මිහිරි කොළ",
+    "normalized": "මිහිරි කොළ",
+    "language": "si",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "LK"
+    ],
+    "country_usage": [
+      {
+        "country": "LK",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "මුරුංගා",
     "normalized": "මුරුංගා",
     "language": "si",
@@ -169415,6 +172581,31 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "LK"
+    ]
+  },
+  {
+    "name": "ස්ටීවියා",
+    "normalized": "ස්ටීවියා",
+    "language": "si",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "LK"
+    ],
+    "country_usage": [
+      {
+        "country": "LK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
       }
     ],
     "ambiguity_level": "low",
@@ -171067,6 +174258,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "ใบหวาน",
+    "normalized": "ใบหวาน",
+    "language": "th",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "TH"
+    ],
+    "country_usage": [
+      {
+        "country": "TH",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "เปปเปอร์มินต์",
     "normalized": "เปปเปอร์มินต์",
     "language": "th",
@@ -172217,6 +175431,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "สตีเวีย",
+    "normalized": "สตีเวีย",
+    "language": "th",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "TH"
+    ],
+    "country_usage": [
+      {
+        "country": "TH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "สเปียร์มินต์",
     "normalized": "สเปียร์มินต์",
     "language": "th",
@@ -172647,6 +175884,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "หญ้าหวาน",
+    "normalized": "หญ้าหวาน",
+    "language": "th",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "TH"
+    ],
+    "country_usage": [
+      {
+        "country": "TH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "TH"
+    ]
   },
   {
     "name": "หลินจือ",
@@ -173196,6 +176458,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "감미초",
+    "normalized": "감미초",
+    "language": "ko",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "country_usage": [
+      {
+        "country": "KR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "감초",
     "normalized": "감초",
     "language": "ko",
@@ -173672,6 +176957,29 @@
     "dominant_in_countries": [
       "KR"
     ]
+  },
+  {
+    "name": "단잎풀",
+    "normalized": "단잎풀",
+    "language": "ko",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "country_usage": [
+      {
+        "country": "KR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "들장미",
@@ -174966,6 +178274,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "스테비아",
+    "normalized": "스테비아",
+    "language": "ko",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "country_usage": [
+      {
+        "country": "KR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "KR"
+    ]
   },
   {
     "name": "스피루리나",
@@ -178027,6 +181360,54 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "スイートリーフ",
+    "normalized": "スイートリーフ",
+    "language": "ja",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "country_usage": [
+      {
+        "country": "JP",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "ステビア",
+    "normalized": "ステビア",
+    "language": "ja",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "country_usage": [
+      {
+        "country": "JP",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "JP"
+    ]
   },
   {
     "name": "スピルリナ",
@@ -181953,6 +185334,52 @@
     ]
   },
   {
+    "name": "斯蒂維亞",
+    "normalized": "斯蒂維亞",
+    "language": "zh",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "TW"
+    ],
+    "country_usage": [
+      {
+        "country": "TW",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "斯蒂维亚",
+    "normalized": "斯蒂维亚",
+    "language": "zh",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "country_usage": [
+      {
+        "country": "CN",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "普通牛至",
     "normalized": "普通牛至",
     "language": "zh",
@@ -183226,6 +186653,29 @@
     ]
   },
   {
+    "name": "甘味葉",
+    "normalized": "甘味葉",
+    "language": "ja",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "country_usage": [
+      {
+        "country": "JP",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "甘草",
     "normalized": "甘草",
     "language": "ja",
@@ -183298,6 +186748,47 @@
     "dominant_in_countries": [
       "CN",
       "TW"
+    ]
+  },
+  {
+    "name": "甜叶菊",
+    "normalized": "甜叶菊",
+    "language": "zh",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "CN",
+      "MY",
+      "SG"
+    ],
+    "country_usage": [
+      {
+        "country": "CN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "CN"
     ]
   },
   {
@@ -183376,6 +186867,62 @@
     "ambiguity_level": "low",
     "name_country_count": 2,
     "dominant_in_countries": []
+  },
+  {
+    "name": "甜菊",
+    "normalized": "甜菊",
+    "language": "zh",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "CN",
+      "TW"
+    ],
+    "country_usage": [
+      {
+        "country": "CN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TW",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "甜葉菊",
+    "normalized": "甜葉菊",
+    "language": "zh",
+    "plant_ids": [
+      "stevia_rebaudiana"
+    ],
+    "countries": [
+      "TW"
+    ],
+    "country_usage": [
+      {
+        "country": "TW",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "TW"
+    ]
   },
   {
     "name": "生姜",

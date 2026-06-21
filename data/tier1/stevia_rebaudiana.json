@@ -1,0 +1,1877 @@
+{
+  "plant_id": "stevia_rebaudiana",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Stevia",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for stevia"
+      },
+      {
+        "name": "Ka'a he'ê",
+        "language": "gn",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for stevia"
+      },
+      {
+        "name": "Hierba dulce",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for stevia"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Stevia",
+        "language": "de",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Austria commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Süßkraut",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for stevia"
+      },
+      {
+        "name": "Süßblatt",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for stevia"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Stevia",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for stevia"
+      },
+      {
+        "name": "Sweet leaf",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for stevia"
+      },
+      {
+        "name": "Sugarleaf",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for stevia"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Stevia",
+        "language": "nl",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Belgium commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Herbe sucrée",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for stevia"
+      },
+      {
+        "name": "Süßkraut",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for stevia"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Стевия",
+        "language": "bg",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Bulgaria commercial and food industry terminology for stevia",
+        "transliteration": "steviya",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Сладка билка",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for stevia",
+        "transliteration": "sladka bilka",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Медена билка",
+        "language": "bg",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for stevia",
+        "transliteration": "medena bilka",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Stevia",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for stevia"
+      },
+      {
+        "name": "Ka'a he'ê",
+        "language": "gn",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for stevia"
+      },
+      {
+        "name": "Hierba dulce",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for stevia"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Estévia",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for stevia"
+      },
+      {
+        "name": "Erva-doce-do-Paraguai",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for stevia"
+      },
+      {
+        "name": "Folha-doce",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for stevia"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Stevia",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for stevia"
+      },
+      {
+        "name": "Sweet leaf",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for stevia"
+      },
+      {
+        "name": "Herbe sucrée",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for stevia"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Stevia",
+        "language": "de",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Switzerland commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Herbe sucrée",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for stevia"
+      },
+      {
+        "name": "Stevia",
+        "language": "it",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Switzerland commercial and food industry terminology for stevia"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Stevia",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for stevia"
+      },
+      {
+        "name": "Hierba dulce",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for stevia"
+      }
+    ],
+    "CN": [
+      {
+        "name": "甜叶菊",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for stevia",
+        "transliteration": "tián yè jú",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "甜菊",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for stevia",
+        "transliteration": "tián jú",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "斯蒂维亚",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "China vernacular and descriptive terminology for stevia",
+        "transliteration": "sī dì wéi yà",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Stevia",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for stevia"
+      },
+      {
+        "name": "Hierba dulce",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for stevia"
+      },
+      {
+        "name": "Estevia",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Colombia commercial and food industry terminology for stevia"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Stevia",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for stevia"
+      },
+      {
+        "name": "Hierba dulce",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for stevia"
+      },
+      {
+        "name": "Estevia",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Costa Rica commercial and food industry terminology for stevia"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Estevia",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Cuba commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Hierba dulce",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for stevia"
+      },
+      {
+        "name": "Stevia",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for stevia"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Stévie",
+        "language": "cs",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Czech Republic commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Sladká tráva",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for stevia"
+      },
+      {
+        "name": "Medové listy",
+        "language": "cs",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for stevia"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Stevia",
+        "language": "de",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Germany commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Süßkraut",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for stevia"
+      },
+      {
+        "name": "Süßblatt",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for stevia"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Stevia",
+        "language": "da",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Denmark commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Sødurt",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for stevia"
+      },
+      {
+        "name": "Søde blade",
+        "language": "da",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for stevia"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Estevia",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Dominican Republic commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Hierba dulce",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for stevia"
+      },
+      {
+        "name": "Stevia",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for stevia"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "ستيفيا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Algeria vernacular and descriptive terminology for stevia",
+        "transliteration": "stifia",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "العشبة الحلوة",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for stevia",
+        "transliteration": "al-ushba al-hulwa",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Stévia",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Algeria commercial and food industry terminology for stevia"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Estevia",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Ecuador commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Hierba dulce",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for stevia"
+      },
+      {
+        "name": "Stevia",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for stevia"
+      }
+    ],
+    "EG": [
+      {
+        "name": "ستيفيا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Egypt vernacular and descriptive terminology for stevia",
+        "transliteration": "stifia",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "العشبة الحلوة",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for stevia",
+        "transliteration": "al-ushba al-hulwa",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ورقة السكر",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for stevia",
+        "transliteration": "waraqat al-sukkar",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Estevia",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Spain commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Hierba dulce",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for stevia"
+      },
+      {
+        "name": "Estèvia",
+        "language": "ca",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Spain commercial and food industry terminology for stevia"
+      }
+    ],
+    "ET": [
+      {
+        "name": "ስቴቪያ",
+        "language": "am",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for stevia",
+        "transliteration": "stevia",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ጣፋጭ ቅጠል",
+        "language": "am",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Ethiopia traditional and market terminology for stevia",
+        "transliteration": "tafach qetel",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Stevia",
+        "language": "om",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for stevia"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Stevia",
+        "language": "fi",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Finland commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Makealehti",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for stevia"
+      },
+      {
+        "name": "Sötblad",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for stevia"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Stévia",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "France commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Herbe sucrée",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for stevia"
+      },
+      {
+        "name": "Feuille sucrée",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for stevia"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Stevia",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for stevia"
+      },
+      {
+        "name": "Sweet leaf",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for stevia"
+      },
+      {
+        "name": "Sugarleaf",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for stevia"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Stevia",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Ghana commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Sweet leaf",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for stevia"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Στέβια",
+        "language": "el",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Greece commercial and food industry terminology for stevia",
+        "transliteration": "stevia",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Γλυκόχορτο",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for stevia",
+        "transliteration": "glykochorto",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Γλυκό φύλλο",
+        "language": "el",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for stevia",
+        "transliteration": "glyko fyllo",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Estevia",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Guatemala commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Hierba dulce",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for stevia"
+      },
+      {
+        "name": "Stevia",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for stevia"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Stevija",
+        "language": "hr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Croatia commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Slatki list",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for stevia"
+      },
+      {
+        "name": "Medeni list",
+        "language": "hr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for stevia"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Stevia",
+        "language": "hu",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Hungary commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Jázminpakóca",
+        "language": "hu",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Hungary vernacular and descriptive terminology for stevia"
+      },
+      {
+        "name": "Édesfű",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for stevia"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Stevia",
+        "language": "id",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Indonesia commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Daun manis",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for stevia"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Stevia",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Ireland commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Sweet leaf",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for stevia"
+      },
+      {
+        "name": "Duilleog mhilis",
+        "language": "ga",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for stevia"
+      }
+    ],
+    "IL": [
+      {
+        "name": "סטיביה",
+        "language": "he",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Israel vernacular and descriptive terminology for stevia",
+        "transliteration": "stevia",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "עשב מתוק",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for stevia",
+        "transliteration": "esev matok",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ستيفيا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Israel vernacular and descriptive terminology for stevia",
+        "transliteration": "stifia",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "स्टीविया",
+        "language": "hi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "India vernacular and descriptive terminology for stevia",
+        "transliteration": "stevia",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "मीठी पत्ती",
+        "language": "hi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for stevia",
+        "transliteration": "mithi patti",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Stevia",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "India commercial and food industry terminology for stevia"
+      }
+    ],
+    "IR": [
+      {
+        "name": "استویا",
+        "language": "fa",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Iran vernacular and descriptive terminology for stevia",
+        "transliteration": "ostevia",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "گیاه شیرین",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for stevia",
+        "transliteration": "giyah-e shirin",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "برگ شیرین",
+        "language": "fa",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for stevia",
+        "transliteration": "barg-e shirin",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Stevia",
+        "language": "it",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Italy commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Erba dolce",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for stevia"
+      },
+      {
+        "name": "Foglia dolce",
+        "language": "it",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for stevia"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Stevia",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Jamaica commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Sweet leaf",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for stevia"
+      },
+      {
+        "name": "Sugarleaf",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for stevia"
+      }
+    ],
+    "JP": [
+      {
+        "name": "ステビア",
+        "language": "ja",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Japan vernacular and descriptive terminology for stevia",
+        "transliteration": "sutebia",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "甘味葉",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for stevia",
+        "transliteration": "kanmiyo",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "スイートリーフ",
+        "language": "ja",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Japan vernacular and descriptive terminology for stevia",
+        "transliteration": "suīto rīfu",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Stevia",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Kenya commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Sweet leaf",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for stevia"
+      },
+      {
+        "name": "Jani tamu",
+        "language": "sw",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Kenya vernacular and descriptive terminology for stevia"
+      }
+    ],
+    "KR": [
+      {
+        "name": "스테비아",
+        "language": "ko",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Korea vernacular and descriptive terminology for stevia",
+        "transliteration": "seutebia",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "단잎풀",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for stevia",
+        "transliteration": "danip-pul",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "감미초",
+        "language": "ko",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for stevia",
+        "transliteration": "gammicho",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "ස්ටීවියා",
+        "language": "si",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for stevia",
+        "transliteration": "stevia",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "මිහිරි කොළ",
+        "language": "si",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for stevia",
+        "transliteration": "mihiri kola",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "ஸ்டீவியா",
+        "language": "ta",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for stevia",
+        "transliteration": "steeviya",
+        "transliteration_scheme": "iso_15919"
+      }
+    ],
+    "MA": [
+      {
+        "name": "ستيفيا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Morocco vernacular and descriptive terminology for stevia",
+        "transliteration": "stifia",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "العشبة الحلوة",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for stevia",
+        "transliteration": "al-ushba al-hulwa",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Stévia",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Morocco commercial and food industry terminology for stevia"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Estevia",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Mexico commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Hierba dulce",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for stevia"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Stevia",
+        "language": "ms",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Malaysia commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Daun manis",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for stevia"
+      },
+      {
+        "name": "甜叶菊",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for stevia",
+        "transliteration": "tián yè jú",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Stevia",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Nigeria commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Sweet leaf",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for stevia"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Stevia",
+        "language": "nl",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Netherlands commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Zoet kruid",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for stevia"
+      },
+      {
+        "name": "Zoet blad",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for stevia"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Stevia",
+        "language": "no",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Norway commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Søtblad",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for stevia"
+      },
+      {
+        "name": "Søt urt",
+        "language": "no",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for stevia"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Stevia",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "New Zealand commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Sweet leaf",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for stevia"
+      },
+      {
+        "name": "Sugarleaf",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for stevia"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Estevia",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Panama commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Hierba dulce",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for stevia"
+      },
+      {
+        "name": "Stevia",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for stevia"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Estevia",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Peru commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Hierba dulce",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for stevia"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Stevia",
+        "language": "tl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Philippines vernacular and descriptive terminology for stevia"
+      },
+      {
+        "name": "Sweet leaf",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for stevia"
+      }
+    ],
+    "PK": [
+      {
+        "name": "اسٹیویا",
+        "language": "ur",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Pakistan vernacular and descriptive terminology for stevia",
+        "transliteration": "stevia",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "میٹھی بوٹی",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for stevia",
+        "transliteration": "meethi booti",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ਸਟੀਵੀਆ",
+        "language": "pa",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Pakistan vernacular and descriptive terminology for stevia",
+        "transliteration": "stevia",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Stewia",
+        "language": "pl",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Poland commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Słodkie ziele",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for stevia"
+      },
+      {
+        "name": "Słodki liść",
+        "language": "pl",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for stevia"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Estévia",
+        "language": "pt",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Portugal commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Folha-doce",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for stevia"
+      },
+      {
+        "name": "Erva-doce-do-Paraguai",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for stevia"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Ka'a he'ê",
+        "language": "gn",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for stevia"
+      },
+      {
+        "name": "Stevia",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for stevia"
+      },
+      {
+        "name": "Hierba dulce",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for stevia"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Stevia",
+        "language": "ro",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Romania commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Iarba dulce",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for stevia"
+      },
+      {
+        "name": "Frunza dulce",
+        "language": "ro",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for stevia"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Стевия",
+        "language": "ru",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Russia vernacular and descriptive terminology for stevia",
+        "transliteration": "steviya",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Медовая трава",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for stevia",
+        "transliteration": "medovaya trava",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Сладкая трава",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for stevia",
+        "transliteration": "sladkaya trava",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Stevia",
+        "language": "sv",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Sweden commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Sötblad",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for stevia"
+      },
+      {
+        "name": "Sötört",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for stevia"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Stevia",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Singapore commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "甜叶菊",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for stevia",
+        "transliteration": "tián yè jú",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Daun manis",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for stevia"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Stévia",
+        "language": "sk",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Slovakia commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Sladká bylina",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for stevia"
+      },
+      {
+        "name": "Sladký list",
+        "language": "sk",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for stevia"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Stévia",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Senegal commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Herbe sucrée",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for stevia"
+      },
+      {
+        "name": "Stevia",
+        "language": "wo",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Senegal vernacular and descriptive terminology for stevia"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Estevia",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "El Salvador commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Hierba dulce",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for stevia"
+      },
+      {
+        "name": "Stevia",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for stevia"
+      }
+    ],
+    "TH": [
+      {
+        "name": "หญ้าหวาน",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for stevia",
+        "transliteration": "ya wan",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "สตีเวีย",
+        "language": "th",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for stevia",
+        "transliteration": "stevia",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "ใบหวาน",
+        "language": "th",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for stevia",
+        "transliteration": "bai wan",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "ستيفيا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Tunisia vernacular and descriptive terminology for stevia",
+        "transliteration": "stifia",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "العشبة الحلوة",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for stevia",
+        "transliteration": "al-ushba al-hulwa",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Stévia",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Tunisia commercial and food industry terminology for stevia"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Stevia",
+        "language": "tr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Turkey commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Tatlı ot",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for stevia"
+      },
+      {
+        "name": "Şeker otu",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for stevia"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Stevia",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Trinidad and Tobago commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Sweet leaf",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for stevia"
+      },
+      {
+        "name": "Sugarleaf",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for stevia"
+      }
+    ],
+    "TW": [
+      {
+        "name": "甜葉菊",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for stevia",
+        "transliteration": "tián yè jú",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "甜菊",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for stevia",
+        "transliteration": "tián jú",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "斯蒂維亞",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Taiwan vernacular and descriptive terminology for stevia",
+        "transliteration": "sī dì wéi yà",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Стевія",
+        "language": "uk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ukraine vernacular and descriptive terminology for stevia",
+        "transliteration": "steviia",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Медова трава",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for stevia",
+        "transliteration": "medova trava",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Солодка трава",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for stevia",
+        "transliteration": "solodka trava",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "Stevia",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "United States commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Sweet leaf",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for stevia"
+      },
+      {
+        "name": "Sugarleaf",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for stevia"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Stevia",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for stevia"
+      },
+      {
+        "name": "Hierba dulce",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for stevia"
+      },
+      {
+        "name": "Ka'a he'ê",
+        "language": "gn",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for stevia"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Estevia",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Venezuela commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Hierba dulce",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for stevia"
+      },
+      {
+        "name": "Stevia",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for stevia"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Cỏ ngọt",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for stevia"
+      },
+      {
+        "name": "Stevia",
+        "language": "vi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Vietnam vernacular and descriptive terminology for stevia"
+      },
+      {
+        "name": "Lá ngọt",
+        "language": "vi",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for stevia"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Stevia",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "South Africa commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Soetblaar",
+        "language": "af",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for stevia"
+      },
+      {
+        "name": "Sweet leaf",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for stevia"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Stevia",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Zambia commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Sweet leaf",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for stevia"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Stevia",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Zimbabwe commercial and food industry terminology for stevia"
+      },
+      {
+        "name": "Sweet leaf",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for stevia"
+      }
+    ]
+  }
+}
