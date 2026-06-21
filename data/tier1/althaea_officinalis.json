@@ -1,0 +1,1831 @@
+{
+  "plant_id": "althaea_officinalis",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Malvavisco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Malva blanca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for marshmallow root"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Eibisch",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Echter Eibisch",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Austria vernacular and descriptive terminology for marshmallow root"
+      },
+      {
+        "name": "Arznei-Eibisch",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Austria pharmacopoeial terminology for marshmallow root"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Marshmallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Common marshmallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "White mallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for marshmallow root"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Heemst",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Guimauve officinale",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Eibisch",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for marshmallow root"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Лечебна ружа",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for marshmallow root",
+        "transliteration": "lechebna ruzha",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Бяла ружа",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for marshmallow root",
+        "transliteration": "byala ruzha",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Алтея лечебна",
+        "language": "bg",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bulgaria vernacular and descriptive terminology for marshmallow root",
+        "transliteration": "alteya lechebna",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Malvavisco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Malva blanca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for marshmallow root"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Malvavisco",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Malvaísco",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Malva-branca",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for marshmallow root"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Marshmallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Guimauve officinale",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "White mallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for marshmallow root"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Eibisch",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Guimauve officinale",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Altea comune",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for marshmallow root"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Malvavisco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Malva blanca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Altea",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for marshmallow root"
+      }
+    ],
+    "CN": [
+      {
+        "name": "药蜀葵",
+        "language": "zh",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "China vernacular and descriptive terminology for marshmallow root",
+        "transliteration": "yào shǔ kuí",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "药锦葵",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for marshmallow root",
+        "transliteration": "yào jǐn kuí",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "蜀葵根",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for marshmallow root",
+        "transliteration": "shǔ kuí gēn",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Malvavisco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Malva blanca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Altea",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for marshmallow root"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Malvavisco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Malva blanca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for marshmallow root"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Malvavisco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Malva blanca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Altea",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for marshmallow root"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Proskurník lékařský",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Ibišek lékařský",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for marshmallow root"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Eibisch",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Echter Eibisch",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Germany vernacular and descriptive terminology for marshmallow root"
+      },
+      {
+        "name": "Arznei-Eibisch",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Germany pharmacopoeial terminology for marshmallow root"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Lægestokrose",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Ægte lægestokrose",
+        "language": "da",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Denmark vernacular and descriptive terminology for marshmallow root"
+      },
+      {
+        "name": "Marshmallowurt",
+        "language": "da",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Denmark vernacular and descriptive terminology for marshmallow root"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Malvavisco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Malva blanca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Altea",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for marshmallow root"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "الخطمية الطبية",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for marshmallow root",
+        "transliteration": "al-khatmiyya al-tibbiyya",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الخطمى",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for marshmallow root",
+        "transliteration": "al-khatmi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Guimauve officinale",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for marshmallow root"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Malvavisco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Malva blanca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for marshmallow root"
+      }
+    ],
+    "EG": [
+      {
+        "name": "الخطمية الطبية",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for marshmallow root",
+        "transliteration": "al-khatmiyya al-tibbiyya",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الخطمى",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for marshmallow root",
+        "transliteration": "al-khatmi",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Malvavisco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Malví",
+        "language": "ca",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Malvavisco",
+        "language": "gl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for marshmallow root"
+      }
+    ],
+    "ET": [
+      {
+        "name": "ማርሽማሎው",
+        "language": "am",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for marshmallow root",
+        "transliteration": "marshmalow",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Marshmallow",
+        "language": "om",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for marshmallow root"
+      },
+      {
+        "name": "ማርሽማሎው",
+        "language": "ti",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for marshmallow root",
+        "transliteration": "marshmalow",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Rohtosalkoruusu",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Rohtosalkojuuri",
+        "language": "fi",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Finland pharmacopoeial terminology for marshmallow root"
+      },
+      {
+        "name": "Läkemalva",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for marshmallow root"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Guimauve officinale",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Guimauve",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Mauve blanche",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for marshmallow root"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Marshmallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Common marshmallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "White mallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for marshmallow root"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Marshmallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Common marshmallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for marshmallow root"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Αλθαία η φαρμακευτική",
+        "language": "el",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Greece vernacular and descriptive terminology for marshmallow root",
+        "transliteration": "althaia i farmakeftiki",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Αλθαία",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for marshmallow root",
+        "transliteration": "althaia",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Δενδρομολόχα",
+        "language": "el",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for marshmallow root",
+        "transliteration": "dendromoloha",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Malvavisco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Malva blanca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Altea",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for marshmallow root"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Ljekoviti sljez",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Bijeli sljez",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Pitomi sljez",
+        "language": "hr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for marshmallow root"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Orvosi ziliz",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Fehér mályva",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Orvosi mályva",
+        "language": "hu",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Hungary pharmacopoeial terminology for marshmallow root"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Marshmallow",
+        "language": "id",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Indonesia vernacular and descriptive terminology for marshmallow root"
+      },
+      {
+        "name": "Altea",
+        "language": "id",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for marshmallow root"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Marshmallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Common marshmallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Leamhán léana",
+        "language": "ga",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for marshmallow root"
+      }
+    ],
+    "IL": [
+      {
+        "name": "חוטמית רפואית",
+        "language": "he",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Israel vernacular and descriptive terminology for marshmallow root",
+        "transliteration": "hutmit refuit",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "אלתיאה רפואית",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for marshmallow root",
+        "transliteration": "althaea refuit",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الخطمية الطبية",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for marshmallow root",
+        "transliteration": "al-khatmiyya al-tibbiyya",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "मार्शमैलो",
+        "language": "hi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "India vernacular and descriptive terminology for marshmallow root",
+        "transliteration": "marshmallow",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Marshmallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "মার্শম্যালো",
+        "language": "bn",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "India vernacular and descriptive terminology for marshmallow root",
+        "transliteration": "marshmallow",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IR": [
+      {
+        "name": "خطمی دارویی",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for marshmallow root",
+        "transliteration": "khatmi daruyi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "گل ختمی",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for marshmallow root",
+        "transliteration": "gol-e khatmi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ختمی سفید",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for marshmallow root",
+        "transliteration": "khatmi sefid",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Altea officinale",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Altea comune",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Malvavischio",
+        "language": "it",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for marshmallow root"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Marshmallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Common marshmallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "White mallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for marshmallow root"
+      }
+    ],
+    "JP": [
+      {
+        "name": "マーシュマロウ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Japan vernacular and descriptive terminology for marshmallow root",
+        "transliteration": "māshumarou",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "ウスベニタチアオイ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Japan vernacular and descriptive terminology for marshmallow root",
+        "transliteration": "usubeni tachiaoi",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "アルテア",
+        "language": "ja",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for marshmallow root",
+        "transliteration": "arutea",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Marshmallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Common marshmallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for marshmallow root"
+      }
+    ],
+    "KR": [
+      {
+        "name": "마시멜로",
+        "language": "ko",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Korea vernacular and descriptive terminology for marshmallow root",
+        "transliteration": "masimello",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "약용접시꽃",
+        "language": "ko",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Korea vernacular and descriptive terminology for marshmallow root",
+        "transliteration": "yagyong jeopsikkot",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "알테아",
+        "language": "ko",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for marshmallow root",
+        "transliteration": "altea",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "මාෂ්මෙලෝ",
+        "language": "si",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for marshmallow root",
+        "transliteration": "marshmallow",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "மார்ஷ்மெல்லோ",
+        "language": "ta",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for marshmallow root",
+        "transliteration": "marshmallow",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Marshmallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for marshmallow root"
+      }
+    ],
+    "MA": [
+      {
+        "name": "الخطمية الطبية",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for marshmallow root",
+        "transliteration": "al-khatmiyya al-tibbiyya",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الخطمى",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for marshmallow root",
+        "transliteration": "al-khatmi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Guimauve officinale",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for marshmallow root"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Malvavisco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Malva blanca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Altea",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for marshmallow root"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Marshmallow",
+        "language": "ms",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Malaysia vernacular and descriptive terminology for marshmallow root"
+      },
+      {
+        "name": "Marshmallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "药蜀葵",
+        "language": "zh",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Malaysia vernacular and descriptive terminology for marshmallow root",
+        "transliteration": "yào shǔ kuí",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Marshmallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Common marshmallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for marshmallow root"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Heemst",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Echte heemst",
+        "language": "nl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Netherlands vernacular and descriptive terminology for marshmallow root"
+      },
+      {
+        "name": "Witte malve",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for marshmallow root"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Legekattost",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Ekte legekattost",
+        "language": "no",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Norway vernacular and descriptive terminology for marshmallow root"
+      },
+      {
+        "name": "Marshmallowurt",
+        "language": "no",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Norway vernacular and descriptive terminology for marshmallow root"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Marshmallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Common marshmallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "White mallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for marshmallow root"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Malvavisco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Malva blanca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Altea",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for marshmallow root"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Malvavisco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Malva blanca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for marshmallow root"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Marshmallow",
+        "language": "tl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Philippines vernacular and descriptive terminology for marshmallow root"
+      },
+      {
+        "name": "Common marshmallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for marshmallow root"
+      }
+    ],
+    "PK": [
+      {
+        "name": "خطمی",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for marshmallow root",
+        "transliteration": "khatmi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "خطمی دوا",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for marshmallow root",
+        "transliteration": "khatmi dawa",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ਖਤਮੀ",
+        "language": "pa",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for marshmallow root",
+        "transliteration": "khatmi",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Prawoślaz lekarski",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Ślaz lekarski",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Altea lekarska",
+        "language": "pl",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for marshmallow root"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Malvavisco",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Malvaísco",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Malva-branca",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for marshmallow root"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Malvavisco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Malva blanca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Malvavisco",
+        "language": "gn",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and descriptive terminology for marshmallow root"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Nalbă mare",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Nalbă albă",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Alteea medicinală",
+        "language": "ro",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Romania pharmacopoeial terminology for marshmallow root"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Алтей лекарственный",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for marshmallow root",
+        "transliteration": "altey lekarstvennyy",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Алтей аптечный",
+        "language": "ru",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Russia pharmacopoeial terminology for marshmallow root",
+        "transliteration": "altey aptechnyy",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Просвирняк лекарственный",
+        "language": "ru",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for marshmallow root",
+        "transliteration": "prosvirnyak lekarstvennyy",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Läkemalva",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Äkta läkemalva",
+        "language": "sv",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sweden vernacular and descriptive terminology for marshmallow root"
+      },
+      {
+        "name": "Marshmallowört",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Sweden vernacular and descriptive terminology for marshmallow root"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Marshmallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "药蜀葵",
+        "language": "zh",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Singapore vernacular and descriptive terminology for marshmallow root",
+        "transliteration": "yào shǔ kuí",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Marshmallow",
+        "language": "ms",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Singapore vernacular and descriptive terminology for marshmallow root"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Ibiš lekársky",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Proskurník lekársky",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Altea lekárska",
+        "language": "sk",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for marshmallow root"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Guimauve officinale",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Guimauve",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Marshmallow",
+        "language": "wo",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Senegal vernacular and descriptive terminology for marshmallow root"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Malvavisco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Malva blanca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Altea",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for marshmallow root"
+      }
+    ],
+    "TH": [
+      {
+        "name": "มาร์ชแมลโลว์",
+        "language": "th",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for marshmallow root",
+        "transliteration": "marshmallow",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "อัลเทีย",
+        "language": "th",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for marshmallow root",
+        "transliteration": "althaea",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "ชบาเทศสมุนไพร",
+        "language": "th",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for marshmallow root",
+        "transliteration": "chaba thet samunphrai",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "الخطمية الطبية",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for marshmallow root",
+        "transliteration": "al-khatmiyya al-tibbiyya",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الخطمى",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for marshmallow root",
+        "transliteration": "al-khatmi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Guimauve officinale",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for marshmallow root"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Hatmi çiçeği",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Tıbbi hatmi",
+        "language": "tr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Turkey pharmacopoeial terminology for marshmallow root"
+      },
+      {
+        "name": "Ebegümeci hatmisi",
+        "language": "tr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for marshmallow root"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Marshmallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Common marshmallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "White mallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for marshmallow root"
+      }
+    ],
+    "TW": [
+      {
+        "name": "藥蜀葵",
+        "language": "zh",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Taiwan vernacular and descriptive terminology for marshmallow root",
+        "transliteration": "yào shǔ kuí",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "藥錦葵",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for marshmallow root",
+        "transliteration": "yào jǐn kuí",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "蜀葵根",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for marshmallow root",
+        "transliteration": "shǔ kuí gēn",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Алтея лікарська",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for marshmallow root",
+        "transliteration": "alteya likarska",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Проскурник лікарський",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for marshmallow root",
+        "transliteration": "proskurnyk likarskyi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Алтей аптечний",
+        "language": "uk",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Ukraine pharmacopoeial terminology for marshmallow root",
+        "transliteration": "altei aptechnyi",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "Marshmallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Common marshmallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "White mallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for marshmallow root"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Malvavisco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Malva blanca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Altea",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for marshmallow root"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Malvavisco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Malva blanca",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Altea",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for marshmallow root"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Cây thục quỳ thuốc",
+        "language": "vi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Vietnam vernacular and descriptive terminology for marshmallow root"
+      },
+      {
+        "name": "Althaea",
+        "language": "vi",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Vietnam vernacular and descriptive terminology for marshmallow root"
+      },
+      {
+        "name": "Kẹo dẻo thảo dược",
+        "language": "vi",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Vietnam vernacular and descriptive terminology for marshmallow root"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Marshmallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Heemswortel",
+        "language": "af",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for marshmallow root"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Marshmallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Common marshmallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for marshmallow root"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Marshmallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for marshmallow root"
+      },
+      {
+        "name": "Common marshmallow",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for marshmallow root"
+      }
+    ]
+  }
+}
