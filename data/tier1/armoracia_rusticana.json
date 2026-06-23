@@ -1,0 +1,1808 @@
+{
+  "plant_id": "armoracia_rusticana",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Rábano picante",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Rábano rusticano",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Argentina vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Horseradish",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Argentina commercial terminology for horseradish"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Meerrettich",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Kren",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Gewöhnlicher Meerrettich",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Austria vernacular and descriptive terminology for horseradish"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Horseradish",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Common horseradish",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Australia vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Horse radish",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Australia commercial terminology for horseradish"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Mierikswortel",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Raifort",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Meerrettich",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for horseradish"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Хрян",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for horseradish",
+        "transliteration": "hryan",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Обикновен хрян",
+        "language": "bg",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bulgaria vernacular and descriptive terminology for horseradish",
+        "transliteration": "obiknoven hryan",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Конски ряпа",
+        "language": "bg",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for horseradish",
+        "transliteration": "konski ryapa",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Rábano picante",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Rábano rusticano",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bolivia vernacular and descriptive terminology for horseradish"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Raiz-forte",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Rábano-silvestre",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Brazil vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Horseradish",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Brazil commercial terminology for horseradish"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Horseradish",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Raifort",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Common horseradish",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Canada vernacular and descriptive terminology for horseradish"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Meerrettich",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Raifort",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Barbaforte",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for horseradish"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Rábano picante",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Rábano rusticano",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Chile vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Horseradish",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Chile commercial terminology for horseradish"
+      }
+    ],
+    "CN": [
+      {
+        "name": "辣根",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for horseradish",
+        "transliteration": "là gēn",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "西洋山葵",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for horseradish",
+        "transliteration": "xī yáng shān kuí",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "普通辣根",
+        "language": "zh",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "China vernacular and descriptive terminology for horseradish",
+        "transliteration": "pǔ tōng là gēn",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Rábano picante",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Rábano rusticano",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Colombia vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Horseradish",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Colombia commercial terminology for horseradish"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Rábano picante",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Rábano rusticano",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Costa Rica vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Horseradish",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Costa Rica commercial terminology for horseradish"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Rábano picante",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Rábano rusticano",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Cuba vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Horseradish",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Cuba commercial terminology for horseradish"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Křen",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Křen selský",
+        "language": "cs",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Czech Republic vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Kořen křenu",
+        "language": "cs",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for horseradish"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Meerrettich",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Gewöhnlicher Meerrettich",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Germany vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Kren",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for horseradish"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Peberrod",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Almindelig peberrod",
+        "language": "da",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Denmark vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Peberrodsrod",
+        "language": "da",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for horseradish"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Rábano picante",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Rábano rusticano",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Dominican Republic vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Horseradish",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Dominican Republic commercial terminology for horseradish"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "فجل حار",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for horseradish",
+        "transliteration": "fijl har",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "فجل الخيل",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Algeria vernacular and descriptive terminology for horseradish",
+        "transliteration": "fijl al-khayl",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Raifort",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for horseradish"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Rábano picante",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Rábano rusticano",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ecuador vernacular and descriptive terminology for horseradish"
+      }
+    ],
+    "EG": [
+      {
+        "name": "فجل حار",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for horseradish",
+        "transliteration": "fijl har",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "فجل الخيل",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Egypt vernacular and descriptive terminology for horseradish",
+        "transliteration": "fijl al-khayl",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Rábano picante",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Rábano rusticano",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Spain vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Ràvec picant",
+        "language": "ca",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for horseradish"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Piparjuuri",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Tavallinen piparjuuri",
+        "language": "fi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Finland vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Pepparrot",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for horseradish"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Raifort",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Raifort rustique",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "France vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Moutarde des Allemands",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for horseradish"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Horseradish",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Common horseradish",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "United Kingdom vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Horse radish",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "United Kingdom commercial terminology for horseradish"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Horseradish",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Common horseradish",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ghana vernacular and descriptive terminology for horseradish"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Χρένο",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for horseradish",
+        "transliteration": "chreno",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Άγριο χρένο",
+        "language": "el",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Greece vernacular and descriptive terminology for horseradish",
+        "transliteration": "agrio chreno",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Rábano picante",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Rábano rusticano",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Guatemala vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Horseradish",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Guatemala commercial terminology for horseradish"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Hren",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Obični hren",
+        "language": "hr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Croatia vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Korijen hrena",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for horseradish"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Torma",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Közönséges torma",
+        "language": "hu",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Hungary vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Tormagyökér",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for horseradish"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Lobak",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Lobak pedas",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for horseradish"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Horseradish",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Common horseradish",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ireland vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Raidis capaill",
+        "language": "ga",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ireland vernacular and descriptive terminology for horseradish"
+      }
+    ],
+    "IL": [
+      {
+        "name": "חזרת",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for horseradish",
+        "transliteration": "chazeret",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "חזרת מצויה",
+        "language": "he",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Israel vernacular and descriptive terminology for horseradish",
+        "transliteration": "chazeret metzuya",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "فجل حار",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for horseradish",
+        "transliteration": "fijl har",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "हॉर्सरैडिश",
+        "language": "hi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "India vernacular and descriptive terminology for horseradish",
+        "transliteration": "horsradish",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "तीखी मूली",
+        "language": "hi",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for horseradish",
+        "transliteration": "tikhi muli",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Horseradish",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for horseradish"
+      }
+    ],
+    "IR": [
+      {
+        "name": "ترب کوهی",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for horseradish",
+        "transliteration": "torob kuhi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ترب تند",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for horseradish",
+        "transliteration": "torob tond",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "هورسرادیش",
+        "language": "fa",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Iran vernacular and descriptive terminology for horseradish",
+        "transliteration": "horsradish",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Barbaforte",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Rafano rusticano",
+        "language": "it",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Italy vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Cren",
+        "language": "it",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for horseradish"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Horseradish",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Common horseradish",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Jamaica vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Horse radish",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Jamaica commercial terminology for horseradish"
+      }
+    ],
+    "JP": [
+      {
+        "name": "ホースラディッシュ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Japan vernacular and descriptive terminology for horseradish",
+        "transliteration": "hōsuradisshu",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "西洋わさび",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for horseradish",
+        "transliteration": "seiyō wasabi",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "セイヨウワサビ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Japan vernacular and descriptive terminology for horseradish",
+        "transliteration": "seiyō wasabi",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Horseradish",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Common horseradish",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Kenya vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Figili kali",
+        "language": "sw",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for horseradish"
+      }
+    ],
+    "KR": [
+      {
+        "name": "홀스래디시",
+        "language": "ko",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Korea vernacular and descriptive terminology for horseradish",
+        "transliteration": "holseuraedisi",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "서양고추냉이",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for horseradish",
+        "transliteration": "seoyang gochunaengi",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "일반 서양고추냉이",
+        "language": "ko",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Korea vernacular and descriptive terminology for horseradish",
+        "transliteration": "ilban seoyang gochunaengi",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "හෝස්රැඩිෂ්",
+        "language": "si",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for horseradish",
+        "transliteration": "horsradish",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "ஹார்ஸ்ராடிஷ்",
+        "language": "ta",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for horseradish",
+        "transliteration": "harsradish",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Horseradish",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for horseradish"
+      }
+    ],
+    "MA": [
+      {
+        "name": "فجل حار",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for horseradish",
+        "transliteration": "fijl har",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "فجل الخيل",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Morocco vernacular and descriptive terminology for horseradish",
+        "transliteration": "fijl al-khayl",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Raifort",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for horseradish"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Rábano picante",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Rábano rusticano",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Mexico vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Horseradish",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Mexico commercial terminology for horseradish"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Lobak pedas",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Horseradish",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for horseradish"
+      },
+      {
+        "name": "辣根",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for horseradish",
+        "transliteration": "là gēn",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Horseradish",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Common horseradish",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Nigeria vernacular and descriptive terminology for horseradish"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Mierikswortel",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Gewone mierikswortel",
+        "language": "nl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Netherlands vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Peperwortel",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for horseradish"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Pepperrot",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Vanlig pepperrot",
+        "language": "no",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Norway vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Pepperrotrot",
+        "language": "no",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for horseradish"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Horseradish",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Common horseradish",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "New Zealand vernacular and descriptive terminology for horseradish"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Rábano picante",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Rábano rusticano",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Panama vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Horseradish",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Panama commercial terminology for horseradish"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Rábano picante",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Rábano rusticano",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Peru vernacular and descriptive terminology for horseradish"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Horseradish",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for horseradish"
+      }
+    ],
+    "PK": [
+      {
+        "name": "ہارس ریڈش",
+        "language": "ur",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Pakistan vernacular and descriptive terminology for horseradish",
+        "transliteration": "hors radish",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "تیز مولی",
+        "language": "ur",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for horseradish",
+        "transliteration": "tez muli",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ਹਾਰਸ ਰੈਡਿਸ਼",
+        "language": "pa",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Pakistan vernacular and descriptive terminology for horseradish",
+        "transliteration": "haaras raidish",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Chrzan",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Chrzan pospolity",
+        "language": "pl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Poland vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Korzeń chrzanu",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for horseradish"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Raiz-forte",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Rábano-silvestre",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Portugal vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Rábano picante",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for horseradish"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Rábano picante",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Rábano rusticano",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and descriptive terminology for horseradish"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Hrean",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Hrean comun",
+        "language": "ro",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Romania vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Rădăcină de hrean",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for horseradish"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Хрен",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for horseradish",
+        "transliteration": "khren",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Хрен обыкновенный",
+        "language": "ru",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Russia vernacular and descriptive terminology for horseradish",
+        "transliteration": "khren obyknovennyy",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Корень хрена",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for horseradish",
+        "transliteration": "koren khrena",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Pepparrot",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Vanlig pepparrot",
+        "language": "sv",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sweden vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Pepparrotsrot",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for horseradish"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Horseradish",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for horseradish"
+      },
+      {
+        "name": "辣根",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for horseradish",
+        "transliteration": "là gēn",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Lobak pedas",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for horseradish"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Chren",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Chren dedinský",
+        "language": "sk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Slovakia vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Koreň chrenu",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for horseradish"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Raifort",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Raifort commun",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Senegal vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Horseradish",
+        "language": "wo",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Senegal vernacular and descriptive terminology for horseradish"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Rábano picante",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Rábano rusticano",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "El Salvador vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Horseradish",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "El Salvador commercial terminology for horseradish"
+      }
+    ],
+    "TH": [
+      {
+        "name": "ฮอร์สแรดิช",
+        "language": "th",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for horseradish",
+        "transliteration": "hors radit",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "วาซาบิตะวันตก",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for horseradish",
+        "transliteration": "wasabi tawan tok",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "รากฮอร์สแรดิช",
+        "language": "th",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for horseradish",
+        "transliteration": "rak hors radit",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "فجل حار",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for horseradish",
+        "transliteration": "fijl har",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "فجل الخيل",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Tunisia vernacular and descriptive terminology for horseradish",
+        "transliteration": "fijl al-khayl",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Raifort",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for horseradish"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Yabanturpu",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Adi yabanturpu",
+        "language": "tr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Turkey vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "At turpu",
+        "language": "tr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Turkey vernacular and descriptive terminology for horseradish"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Horseradish",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Common horseradish",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Trinidad and Tobago vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Horse radish",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Trinidad and Tobago commercial terminology for horseradish"
+      }
+    ],
+    "TW": [
+      {
+        "name": "辣根",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for horseradish",
+        "transliteration": "là gēn",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "西洋山葵",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for horseradish",
+        "transliteration": "xī yáng shān kuí",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "普通辣根",
+        "language": "zh",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Taiwan vernacular and descriptive terminology for horseradish",
+        "transliteration": "pǔ tōng là gēn",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Хрін",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for horseradish",
+        "transliteration": "khrin",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Хрін звичайний",
+        "language": "uk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ukraine vernacular and descriptive terminology for horseradish",
+        "transliteration": "khrin zvychainyi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Корінь хрону",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for horseradish",
+        "transliteration": "korin khronu",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "Horseradish",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Common horseradish",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "United States vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Horse radish",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "United States commercial terminology for horseradish"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Rábano picante",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Rábano rusticano",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Uruguay vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Horseradish",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Uruguay commercial terminology for horseradish"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Rábano picante",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Rábano rusticano",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Venezuela vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Horseradish",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Venezuela commercial terminology for horseradish"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Cải ngựa",
+        "language": "vi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Vietnam vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Mù tạt ngựa",
+        "language": "vi",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Horseradish",
+        "language": "vi",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Vietnam commercial terminology for horseradish"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Horseradish",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Common horseradish",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Africa vernacular and descriptive terminology for horseradish"
+      },
+      {
+        "name": "Peperwortel",
+        "language": "af",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for horseradish"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Horseradish",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Common horseradish",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Zambia vernacular and descriptive terminology for horseradish"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Horseradish",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for horseradish"
+      },
+      {
+        "name": "Common horseradish",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Zimbabwe vernacular and descriptive terminology for horseradish"
+      }
+    ]
+  }
+}
