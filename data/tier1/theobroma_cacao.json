@@ -1,0 +1,1924 @@
+{
+  "plant_id": "theobroma_cacao",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Cacao",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for cacao"
+      },
+      {
+        "name": "Árbol del cacao",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Argentina vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Cacao criollo",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Argentina commercial and food industry terminology for cacao"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Kakao",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for cacao"
+      },
+      {
+        "name": "Kakaobaum",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Austria vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Edelkakao",
+        "language": "de",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Austria commercial and food industry terminology for cacao"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Cacao",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cocoa tree",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cacao tree",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Australia vernacular and descriptive terminology for cacao"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Cacao",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cacao",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for cacao"
+      },
+      {
+        "name": "Kakaobaum",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Belgium vernacular and descriptive terminology for cacao"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Какао",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for cacao",
+        "transliteration": "kakao",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Какаово дърво",
+        "language": "bg",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bulgaria vernacular and descriptive terminology for cacao",
+        "transliteration": "kakaovo darvo",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Благородно какао",
+        "language": "bg",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Bulgaria commercial and food industry terminology for cacao",
+        "transliteration": "blagorodno kakao",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Cacao",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for cacao"
+      },
+      {
+        "name": "Árbol del cacao",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bolivia vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Kakawa",
+        "language": "qu",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for cacao"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Cacau",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cacaueiro",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Brazil vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Cacau fino",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Brazil commercial and food industry terminology for cacao"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Cacao",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cacao",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cacao tree",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Canada vernacular and descriptive terminology for cacao"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Kakao",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cacao",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cacao",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for cacao"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Cacao",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for cacao"
+      },
+      {
+        "name": "Árbol del cacao",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Chile vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Cacao fino",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Chile commercial and food industry terminology for cacao"
+      }
+    ],
+    "CN": [
+      {
+        "name": "可可",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for cacao",
+        "transliteration": "kě kě",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "可可树",
+        "language": "zh",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "China vernacular and descriptive terminology for cacao",
+        "transliteration": "kě kě shù",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "可可豆",
+        "language": "zh",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "China commercial and food industry terminology for cacao",
+        "transliteration": "kě kě dòu",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Cacao",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for cacao"
+      },
+      {
+        "name": "Árbol del cacao",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Colombia vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Cacao fino de aroma",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Colombia commercial and food industry terminology for cacao"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Cacao",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for cacao"
+      },
+      {
+        "name": "Árbol del cacao",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Costa Rica vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Cacao criollo",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Costa Rica commercial and food industry terminology for cacao"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Cacao",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for cacao"
+      },
+      {
+        "name": "Árbol del cacao",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Cuba vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Cacao fino",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Cuba commercial and food industry terminology for cacao"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Kakao",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for cacao"
+      },
+      {
+        "name": "Kakaovník pravý",
+        "language": "cs",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Czech Republic vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Kakaové boby",
+        "language": "cs",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Czech Republic commercial and food industry terminology for cacao"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Kakao",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for cacao"
+      },
+      {
+        "name": "Kakaobaum",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Germany vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Kakaobohnen",
+        "language": "de",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Germany commercial and food industry terminology for cacao"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Kakao",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for cacao"
+      },
+      {
+        "name": "Kakaotræ",
+        "language": "da",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Denmark vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Kakaobønner",
+        "language": "da",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Denmark commercial and food industry terminology for cacao"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Cacao",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for cacao"
+      },
+      {
+        "name": "Árbol del cacao",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Dominican Republic vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Cacao dominicano",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Dominican Republic commercial and food industry terminology for cacao"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "كاكاو",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for cacao",
+        "transliteration": "kakao",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "شجرة الكاكاو",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Algeria vernacular and descriptive terminology for cacao",
+        "transliteration": "shajarat al-kakao",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Cacao",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for cacao"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Cacao",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cacao nacional",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Ecuador commercial and food industry terminology for cacao"
+      },
+      {
+        "name": "Kakaw",
+        "language": "qu",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for cacao"
+      }
+    ],
+    "EG": [
+      {
+        "name": "كاكاو",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for cacao",
+        "transliteration": "kakao",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "شجرة الكاكاو",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Egypt vernacular and descriptive terminology for cacao",
+        "transliteration": "shajarat al-kakao",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "حبوب الكاكاو",
+        "language": "ar",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Egypt commercial and food industry terminology for cacao",
+        "transliteration": "hubub al-kakao",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Cacao",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for cacao"
+      },
+      {
+        "name": "Árbol del cacao",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Spain vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Cacau",
+        "language": "ca",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for cacao"
+      }
+    ],
+    "ET": [
+      {
+        "name": "ካካዎ",
+        "language": "am",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for cacao",
+        "transliteration": "kakao",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ካካዎ ዛፍ",
+        "language": "am",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for cacao",
+        "transliteration": "kakao zaf",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Cacao",
+        "language": "om",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for cacao"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Kaakao",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for cacao"
+      },
+      {
+        "name": "Kaakaopuu",
+        "language": "fi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Finland vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Kaakaopavut",
+        "language": "fi",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Finland commercial and food industry terminology for cacao"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Cacao",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cacaoyer",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "France vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Fève de cacao",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "France commercial and food industry terminology for cacao"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Cacao",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cocoa tree",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cacao tree",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "United Kingdom vernacular and descriptive terminology for cacao"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Cocoa",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cocoa tree",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ghana vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Kookoo",
+        "language": "tw",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for cacao"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Κακάο",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for cacao",
+        "transliteration": "kakao",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Κακαόδεντρο",
+        "language": "el",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Greece vernacular and descriptive terminology for cacao",
+        "transliteration": "kakaodentro",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Κόκκοι κακάο",
+        "language": "el",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Greece commercial and food industry terminology for cacao",
+        "transliteration": "kokkoi kakao",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Cacao",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for cacao"
+      },
+      {
+        "name": "Árbol del cacao",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Guatemala vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Cacao criollo",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Guatemala commercial and food industry terminology for cacao"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Kakao",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for cacao"
+      },
+      {
+        "name": "Kakaovac",
+        "language": "hr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Croatia vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Kakaova zrna",
+        "language": "hr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Croatia commercial and food industry terminology for cacao"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Kakaó",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for cacao"
+      },
+      {
+        "name": "Kakaófa",
+        "language": "hu",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Hungary vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Kakaóbab",
+        "language": "hu",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Hungary commercial and food industry terminology for cacao"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Kakao",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for cacao"
+      },
+      {
+        "name": "Pohon kakao",
+        "language": "id",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Indonesia vernacular and descriptive terminology for cacao"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Cacao",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cocoa tree",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ireland vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Cacó",
+        "language": "ga",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ireland vernacular and descriptive terminology for cacao"
+      }
+    ],
+    "IL": [
+      {
+        "name": "קקאו",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for cacao",
+        "transliteration": "kakao",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "עץ הקקאו",
+        "language": "he",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Israel vernacular and descriptive terminology for cacao",
+        "transliteration": "etz ha-kakao",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "كاكاو",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for cacao",
+        "transliteration": "kakao",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "कोको",
+        "language": "hi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for cacao",
+        "transliteration": "koko",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "काकाओ",
+        "language": "hi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "India vernacular and descriptive terminology for cacao",
+        "transliteration": "kakao",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Cocoa",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for cacao"
+      }
+    ],
+    "IR": [
+      {
+        "name": "کاکائو",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for cacao",
+        "transliteration": "kakao",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "درخت کاکائو",
+        "language": "fa",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Iran vernacular and descriptive terminology for cacao",
+        "transliteration": "derakht-e kakao",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "دانه کاکائو",
+        "language": "fa",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Iran commercial and food industry terminology for cacao",
+        "transliteration": "daneh kakao",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Cacao",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for cacao"
+      },
+      {
+        "name": "Albero del cacao",
+        "language": "it",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Italy vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Fava di cacao",
+        "language": "it",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Italy commercial and food industry terminology for cacao"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Cocoa",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cacao",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cocoa tree",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Jamaica vernacular and descriptive terminology for cacao"
+      }
+    ],
+    "JP": [
+      {
+        "name": "カカオ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for cacao",
+        "transliteration": "kakao",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "カカオノキ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Japan vernacular and descriptive terminology for cacao",
+        "transliteration": "kakao no ki",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "カカオ豆",
+        "language": "ja",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Japan commercial and food industry terminology for cacao",
+        "transliteration": "kakao mame",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Kakao",
+        "language": "sw",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for cacao"
+      },
+      {
+        "name": "Mti wa kakao",
+        "language": "sw",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Kenya vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Cocoa",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for cacao"
+      }
+    ],
+    "KR": [
+      {
+        "name": "카카오",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for cacao",
+        "transliteration": "kakao",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "카카오나무",
+        "language": "ko",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Korea vernacular and descriptive terminology for cacao",
+        "transliteration": "kakao namu",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "카카오콩",
+        "language": "ko",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "South Korea commercial and food industry terminology for cacao",
+        "transliteration": "kakao kong",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "කොකෝවා",
+        "language": "si",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for cacao",
+        "transliteration": "kokova",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "කොකෝවා ගස",
+        "language": "si",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for cacao",
+        "transliteration": "kokova gasa",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "ககாவோ",
+        "language": "ta",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for cacao",
+        "transliteration": "kakao",
+        "transliteration_scheme": "iso_15919"
+      }
+    ],
+    "MA": [
+      {
+        "name": "كاكاو",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for cacao",
+        "transliteration": "kakao",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "شجرة الكاكاو",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Morocco vernacular and descriptive terminology for cacao",
+        "transliteration": "shajarat al-kakao",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Cacao",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for cacao"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Cacao",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cacáhuatl",
+        "language": "nah",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for cacao"
+      },
+      {
+        "name": "Árbol del cacao",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Mexico vernacular and descriptive terminology for cacao"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Koko",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cocoa",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for cacao"
+      },
+      {
+        "name": "可可",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for cacao",
+        "transliteration": "kě kě",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Cocoa",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cocoa tree",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Nigeria vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Koko",
+        "language": "yo",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for cacao"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Cacao",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cacaoboom",
+        "language": "nl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Netherlands vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Cacaoboon",
+        "language": "nl",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Netherlands commercial and food industry terminology for cacao"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Kakao",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for cacao"
+      },
+      {
+        "name": "Kakaotre",
+        "language": "no",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Norway vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Kakaobønne",
+        "language": "no",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Norway commercial and food industry terminology for cacao"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Cacao",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cocoa tree",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "New Zealand vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Kakao",
+        "language": "mi",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "New Zealand vernacular and descriptive terminology for cacao"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Cacao",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for cacao"
+      },
+      {
+        "name": "Árbol del cacao",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Panama vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Cacao criollo",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Panama commercial and food industry terminology for cacao"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Cacao",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cacao fino de aroma",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Peru commercial and food industry terminology for cacao"
+      },
+      {
+        "name": "Kakaw",
+        "language": "qu",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for cacao"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Kakaw",
+        "language": "tl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cocoa",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for cacao"
+      }
+    ],
+    "PK": [
+      {
+        "name": "کوکو",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for cacao",
+        "transliteration": "cocoa",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "کاکاؤ",
+        "language": "ur",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Pakistan vernacular and descriptive terminology for cacao",
+        "transliteration": "kakao",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Cocoa",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for cacao"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Kakao",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for cacao"
+      },
+      {
+        "name": "Kakaowiec właściwy",
+        "language": "pl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Poland vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Ziarno kakaowca",
+        "language": "pl",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Poland commercial and food industry terminology for cacao"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Cacau",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cacaueiro",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Portugal vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Grão de cacau",
+        "language": "pt",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Portugal commercial and food industry terminology for cacao"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Cacao",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for cacao"
+      },
+      {
+        "name": "Árbol del cacao",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Kakáu",
+        "language": "gn",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for cacao"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Cacao",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for cacao"
+      },
+      {
+        "name": "Arbore de cacao",
+        "language": "ro",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Romania vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Boabe de cacao",
+        "language": "ro",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Romania commercial and food industry terminology for cacao"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Какао",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for cacao",
+        "transliteration": "kakao",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Какао-дерево",
+        "language": "ru",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Russia vernacular and descriptive terminology for cacao",
+        "transliteration": "kakao-derevo",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Какао-бобы",
+        "language": "ru",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Russia commercial and food industry terminology for cacao",
+        "transliteration": "kakao-boby",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Kakao",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for cacao"
+      },
+      {
+        "name": "Kakaoträd",
+        "language": "sv",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sweden vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Kakaoböna",
+        "language": "sv",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Sweden commercial and food industry terminology for cacao"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Cocoa",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for cacao"
+      },
+      {
+        "name": "可可",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for cacao",
+        "transliteration": "kě kě",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Koko",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for cacao"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Kakao",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for cacao"
+      },
+      {
+        "name": "Kakaovník pravý",
+        "language": "sk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Slovakia vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Kakaové bôby",
+        "language": "sk",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Slovakia commercial and food industry terminology for cacao"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Cacao",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cacaoyer",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Senegal vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Kakaw",
+        "language": "wo",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Senegal vernacular and descriptive terminology for cacao"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Cacao",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for cacao"
+      },
+      {
+        "name": "Árbol del cacao",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "El Salvador vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Cacao criollo",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "El Salvador commercial and food industry terminology for cacao"
+      }
+    ],
+    "TH": [
+      {
+        "name": "โกโก้",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for cacao",
+        "transliteration": "koko",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "ต้นโกโก้",
+        "language": "th",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for cacao",
+        "transliteration": "ton koko",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "เมล็ดโกโก้",
+        "language": "th",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Thailand commercial and food industry terminology for cacao",
+        "transliteration": "malet koko",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "كاكاو",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for cacao",
+        "transliteration": "kakao",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "شجرة الكاكاو",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Tunisia vernacular and descriptive terminology for cacao",
+        "transliteration": "shajarat al-kakao",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Cacao",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for cacao"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Kakao",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for cacao"
+      },
+      {
+        "name": "Kakao ağacı",
+        "language": "tr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Turkey vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Kakao çekirdeği",
+        "language": "tr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Turkey commercial and food industry terminology for cacao"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Cocoa",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cacao",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cocoa tree",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Trinidad and Tobago vernacular and descriptive terminology for cacao"
+      }
+    ],
+    "TW": [
+      {
+        "name": "可可",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for cacao",
+        "transliteration": "kě kě",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "可可樹",
+        "language": "zh",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Taiwan vernacular and descriptive terminology for cacao",
+        "transliteration": "kě kě shù",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "可可豆",
+        "language": "zh",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Taiwan commercial and food industry terminology for cacao",
+        "transliteration": "kě kě dòu",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Какао",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for cacao",
+        "transliteration": "kakao",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Какаове дерево",
+        "language": "uk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ukraine vernacular and descriptive terminology for cacao",
+        "transliteration": "kakaove derevo",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Какао-боби",
+        "language": "uk",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Ukraine commercial and food industry terminology for cacao",
+        "transliteration": "kakao-boby",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "Cacao",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cocoa tree",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "United States vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Cacao bean",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "United States commercial and food industry terminology for cacao"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Cacao",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for cacao"
+      },
+      {
+        "name": "Árbol del cacao",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Uruguay vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Cacao fino",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Uruguay commercial and food industry terminology for cacao"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Cacao",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cacao criollo",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Venezuela commercial and food industry terminology for cacao"
+      },
+      {
+        "name": "Árbol del cacao",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Venezuela vernacular and descriptive terminology for cacao"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Ca cao",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cây ca cao",
+        "language": "vi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Vietnam vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Hạt ca cao",
+        "language": "vi",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Vietnam commercial and food industry terminology for cacao"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Cocoa",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cacao",
+        "language": "af",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cocoa tree",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Africa vernacular and descriptive terminology for cacao"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Cocoa",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cocoa tree",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Zambia vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Koko",
+        "language": "ny",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for cacao"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Cocoa",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for cacao"
+      },
+      {
+        "name": "Cocoa tree",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Zimbabwe vernacular and descriptive terminology for cacao"
+      },
+      {
+        "name": "Koko",
+        "language": "sn",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for cacao"
+      }
+    ]
+  }
+}
