@@ -1,0 +1,1863 @@
+{
+  "plant_id": "pimenta_dioica",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Pimienta de Jamaica",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimienta gorda",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimienta dioica",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Argentina vernacular and descriptive terminology for allspice"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Piment",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for allspice"
+      },
+      {
+        "name": "Nelkenpfeffer",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for allspice"
+      },
+      {
+        "name": "Jamaikapfeffer",
+        "language": "de",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Austria commercial and culinary terminology for allspice"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Allspice",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for allspice"
+      },
+      {
+        "name": "Jamaica pepper",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimento",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Australia commercial and culinary terminology for allspice"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Piment de la Jamaïque",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for allspice"
+      },
+      {
+        "name": "Piment",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for allspice"
+      },
+      {
+        "name": "Nelkenpfeffer",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for allspice"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Бахар",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for allspice",
+        "transliteration": "bahar",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Ямайски пипер",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for allspice",
+        "transliteration": "yamayski piper",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Пимента диоика",
+        "language": "bg",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Bulgaria vernacular and descriptive terminology for allspice",
+        "transliteration": "pimenta dioika",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Pimienta de Jamaica",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimienta gorda",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for allspice"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Pimenta-da-jamaica",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimenta-jamaicana",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimenta dioica",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Brazil vernacular and descriptive terminology for allspice"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Allspice",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for allspice"
+      },
+      {
+        "name": "Jamaica pepper",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for allspice"
+      },
+      {
+        "name": "Piment de la Jamaïque",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for allspice"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Nelkenpfeffer",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for allspice"
+      },
+      {
+        "name": "Piment de la Jamaïque",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimento della Giamaica",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for allspice"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Pimienta de Jamaica",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimienta gorda",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimienta dioica",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Chile vernacular and descriptive terminology for allspice"
+      }
+    ],
+    "CN": [
+      {
+        "name": "多香果",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for allspice",
+        "transliteration": "duō xiāng guǒ",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "牙买加胡椒",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for allspice",
+        "transliteration": "yá mǎi jiā hú jiāo",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "多香果树",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "China vernacular and descriptive terminology for allspice",
+        "transliteration": "duō xiāng guǒ shù",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Pimienta de Jamaica",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimienta gorda",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimienta dioica",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Colombia vernacular and descriptive terminology for allspice"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Pimienta de Jamaica",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimienta gorda",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for allspice"
+      },
+      {
+        "name": "Malagueta de Jamaica",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for allspice"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Pimienta de Jamaica",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimienta gorda",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimienta dioica",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Cuba vernacular and descriptive terminology for allspice"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Nové koření",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for allspice"
+      },
+      {
+        "name": "Jamajský pepř",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimentovník pravý",
+        "language": "cs",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Czech Republic vernacular and descriptive terminology for allspice"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Piment",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for allspice"
+      },
+      {
+        "name": "Nelkenpfeffer",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for allspice"
+      },
+      {
+        "name": "Jamaikapfeffer",
+        "language": "de",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Germany commercial and culinary terminology for allspice"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Allehånde",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for allspice"
+      },
+      {
+        "name": "Jamaicapebber",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for allspice"
+      },
+      {
+        "name": "Krydderpeber",
+        "language": "da",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for allspice"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Pimienta de Jamaica",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimienta gorda",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for allspice"
+      },
+      {
+        "name": "Malagueta",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for allspice"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "فلفل جامايكي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for allspice",
+        "transliteration": "filfil jamayki",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "بهار حلو",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for allspice",
+        "transliteration": "bahar helou",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Piment de la Jamaïque",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for allspice"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Pimienta de Jamaica",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimienta gorda",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for allspice"
+      }
+    ],
+    "EG": [
+      {
+        "name": "فلفل جامايكي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for allspice",
+        "transliteration": "filfil jamayki",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "بهار حلو",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for allspice",
+        "transliteration": "bahar helou",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "البهار الإفرنجي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for allspice",
+        "transliteration": "al-bahar al-ifranji",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Pimienta de Jamaica",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimienta gorda",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pebre de Jamaica",
+        "language": "ca",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for allspice"
+      }
+    ],
+    "ET": [
+      {
+        "name": "ጃማይካ በርበሬ",
+        "language": "am",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Ethiopia traditional and market terminology for allspice",
+        "transliteration": "jamaika berbere",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ኦልስፓይስ",
+        "language": "am",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for allspice",
+        "transliteration": "olspays",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Allspice",
+        "language": "om",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for allspice"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Maustepippuri",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for allspice"
+      },
+      {
+        "name": "Jamaikanpippuri",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for allspice"
+      },
+      {
+        "name": "Kryddpeppar",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for allspice"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Piment de la Jamaïque",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for allspice"
+      },
+      {
+        "name": "Tout-épice",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for allspice"
+      },
+      {
+        "name": "Piment giroflé",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for allspice"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Allspice",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for allspice"
+      },
+      {
+        "name": "Jamaica pepper",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimento",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "United Kingdom commercial and culinary terminology for allspice"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Allspice",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for allspice"
+      },
+      {
+        "name": "Jamaica pepper",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for allspice"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Μπαχάρι",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for allspice",
+        "transliteration": "bachari",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Πιμέντο",
+        "language": "el",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Greece vernacular and descriptive terminology for allspice",
+        "transliteration": "pimento",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Πιπέρι Τζαμάικας",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for allspice",
+        "transliteration": "piperi tzamaikas",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Pimienta de Jamaica",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimienta gorda",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for allspice"
+      },
+      {
+        "name": "Malagueta",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for allspice"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Piment",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for allspice"
+      },
+      {
+        "name": "Jamajčanski papar",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimenta",
+        "language": "hr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Croatia vernacular and descriptive terminology for allspice"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Szegfűbors",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for allspice"
+      },
+      {
+        "name": "Jamaikabors",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimenta dioica",
+        "language": "hu",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Hungary vernacular and descriptive terminology for allspice"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Allspice",
+        "language": "id",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Indonesia vernacular and descriptive terminology for allspice"
+      },
+      {
+        "name": "Lada Jamaika",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for allspice"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Allspice",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for allspice"
+      },
+      {
+        "name": "Jamaica pepper",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for allspice"
+      },
+      {
+        "name": "Allspíosra",
+        "language": "ga",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ireland vernacular and descriptive terminology for allspice"
+      }
+    ],
+    "IL": [
+      {
+        "name": "פלפל אנגלי",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for allspice",
+        "transliteration": "pilpel angli",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "פימנטו",
+        "language": "he",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Israel vernacular and descriptive terminology for allspice",
+        "transliteration": "pimento",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "بهار جامايكي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for allspice",
+        "transliteration": "bahar jamayki",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "कबाबचीनी",
+        "language": "hi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for allspice",
+        "transliteration": "kababchini",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ऑलस्पाइस",
+        "language": "hi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "India vernacular and descriptive terminology for allspice",
+        "transliteration": "allspice",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Allspice",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for allspice"
+      }
+    ],
+    "IR": [
+      {
+        "name": "فلفل جامائیکا",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for allspice",
+        "transliteration": "felfel jamaika",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "پیمِنتو",
+        "language": "fa",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Iran vernacular and descriptive terminology for allspice",
+        "transliteration": "pimento",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "بهار شیرین",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for allspice",
+        "transliteration": "bahar shirin",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Pimento",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pepe della Giamaica",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimenta dioica",
+        "language": "it",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Italy vernacular and descriptive terminology for allspice"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Allspice",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimento",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for allspice"
+      },
+      {
+        "name": "Jamaica pepper",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Jamaica commercial and culinary terminology for allspice"
+      }
+    ],
+    "JP": [
+      {
+        "name": "オールスパイス",
+        "language": "ja",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Japan vernacular and descriptive terminology for allspice",
+        "transliteration": "ōrusupaisu",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "ジャマイカペッパー",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for allspice",
+        "transliteration": "jamaika peppā",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "ピメント",
+        "language": "ja",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Japan commercial and culinary terminology for allspice",
+        "transliteration": "pimento",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Allspice",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for allspice"
+      },
+      {
+        "name": "Jamaica pepper",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pilipili ya Jamaika",
+        "language": "sw",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for allspice"
+      }
+    ],
+    "KR": [
+      {
+        "name": "올스파이스",
+        "language": "ko",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Korea vernacular and descriptive terminology for allspice",
+        "transliteration": "olseupaiseu",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "자메이카 후추",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for allspice",
+        "transliteration": "jameika huchu",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "피멘토",
+        "language": "ko",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "South Korea commercial and culinary terminology for allspice",
+        "transliteration": "pimento",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "ඕල්ස්පයිස්",
+        "language": "si",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for allspice",
+        "transliteration": "allspice",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "ජැමයිකා ගම්මිරිස්",
+        "language": "si",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for allspice",
+        "transliteration": "jamaika gammiris",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "ஆல்ஸ்பைஸ்",
+        "language": "ta",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for allspice",
+        "transliteration": "allspice",
+        "transliteration_scheme": "iso_15919"
+      }
+    ],
+    "MA": [
+      {
+        "name": "فلفل جامايكي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for allspice",
+        "transliteration": "filfil jamayki",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "بهار حلو",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for allspice",
+        "transliteration": "bahar helou",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Piment de la Jamaïque",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for allspice"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Pimienta de Jamaica",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimienta gorda",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for allspice"
+      },
+      {
+        "name": "Xocoxochitl",
+        "language": "nah",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for allspice"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Lada Jamaika",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for allspice"
+      },
+      {
+        "name": "Allspice",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for allspice"
+      },
+      {
+        "name": "多香果",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for allspice",
+        "transliteration": "duō xiāng guǒ",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Allspice",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for allspice"
+      },
+      {
+        "name": "Jamaica pepper",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for allspice"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Piment",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for allspice"
+      },
+      {
+        "name": "Jamaicapeper",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimentbes",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for allspice"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Allehånde",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for allspice"
+      },
+      {
+        "name": "Jamaikapepper",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimento",
+        "language": "no",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Norway commercial and culinary terminology for allspice"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Allspice",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for allspice"
+      },
+      {
+        "name": "Jamaica pepper",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for allspice"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Pimienta de Jamaica",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimienta gorda",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for allspice"
+      },
+      {
+        "name": "Malagueta",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for allspice"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Pimienta de Jamaica",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimienta gorda",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for allspice"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Allspice",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimyenta ng Jamaica",
+        "language": "tl",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for allspice"
+      }
+    ],
+    "PK": [
+      {
+        "name": "جامائیکا مرچ",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for allspice",
+        "transliteration": "jamaica mirch",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "آل اسپائس",
+        "language": "ur",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Pakistan vernacular and descriptive terminology for allspice",
+        "transliteration": "allspice",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ਜਮਾਇਕਾ ਮਿਰਚ",
+        "language": "pa",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for allspice",
+        "transliteration": "jamaika mirch",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Ziele angielskie",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pieprz jamajski",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimenta właściwa",
+        "language": "pl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Poland vernacular and descriptive terminology for allspice"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Pimenta-da-jamaica",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimenta-jamaicana",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimenta dioica",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Portugal vernacular and descriptive terminology for allspice"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Pimienta de Jamaica",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimienta gorda",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for allspice"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Ienibahar",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for allspice"
+      },
+      {
+        "name": "Piper jamaican",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimenta dioica",
+        "language": "ro",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Romania vernacular and descriptive terminology for allspice"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Душистый перец",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for allspice",
+        "transliteration": "dushistyy perets",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Ямайский перец",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for allspice",
+        "transliteration": "yamayskiy perets",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Пимента двудомная",
+        "language": "ru",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Russia vernacular and descriptive terminology for allspice",
+        "transliteration": "pimenta dvudomnaya",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Kryddpeppar",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for allspice"
+      },
+      {
+        "name": "Jamaikapeppar",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimento",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Sweden commercial and culinary terminology for allspice"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Allspice",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for allspice"
+      },
+      {
+        "name": "多香果",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for allspice",
+        "transliteration": "duō xiāng guǒ",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Lada Jamaika",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for allspice"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Nové korenie",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for allspice"
+      },
+      {
+        "name": "Jamajské korenie",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimentovník pravý",
+        "language": "sk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Slovakia vernacular and descriptive terminology for allspice"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Piment de la Jamaïque",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for allspice"
+      },
+      {
+        "name": "Tout-épice",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for allspice"
+      },
+      {
+        "name": "Allspice",
+        "language": "wo",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Senegal vernacular and descriptive terminology for allspice"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Pimienta de Jamaica",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimienta gorda",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for allspice"
+      },
+      {
+        "name": "Malagueta",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for allspice"
+      }
+    ],
+    "TH": [
+      {
+        "name": "ออลสไปซ์",
+        "language": "th",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for allspice",
+        "transliteration": "allspice",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "พริกไทยจาเมกา",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for allspice",
+        "transliteration": "phrik thai jamaika",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "พิมเมนโต",
+        "language": "th",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Thailand commercial and culinary terminology for allspice",
+        "transliteration": "pimento",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "فلفل جامايكي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for allspice",
+        "transliteration": "filfil jamayki",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "بهار حلو",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for allspice",
+        "transliteration": "bahar helou",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Piment de la Jamaïque",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for allspice"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Yenibahar",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for allspice"
+      },
+      {
+        "name": "Jamaika biberi",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimenta dioica",
+        "language": "tr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Turkey vernacular and descriptive terminology for allspice"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Allspice",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimento",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for allspice"
+      },
+      {
+        "name": "Jamaica pepper",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Trinidad and Tobago commercial and culinary terminology for allspice"
+      }
+    ],
+    "TW": [
+      {
+        "name": "多香果",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for allspice",
+        "transliteration": "duō xiāng guǒ",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "牙買加胡椒",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for allspice",
+        "transliteration": "yá mǎi jiā hú jiāo",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "多香果樹",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Taiwan vernacular and descriptive terminology for allspice",
+        "transliteration": "duō xiāng guǒ shù",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Духмяний перець",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for allspice",
+        "transliteration": "dukhmianyi perets",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Ямайський перець",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for allspice",
+        "transliteration": "yamaiskyi perets",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Пімента дводомна",
+        "language": "uk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ukraine vernacular and descriptive terminology for allspice",
+        "transliteration": "pimenta dvodomna",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "Allspice",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimento",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for allspice"
+      },
+      {
+        "name": "Jamaica pepper",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "United States commercial and culinary terminology for allspice"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Pimienta de Jamaica",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimienta gorda",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimienta dioica",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Uruguay vernacular and descriptive terminology for allspice"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Pimienta de Jamaica",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimienta gorda",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for allspice"
+      },
+      {
+        "name": "Pimienta dioica",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Venezuela vernacular and descriptive terminology for allspice"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Tiêu Jamaica",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for allspice"
+      },
+      {
+        "name": "Đa hương quả",
+        "language": "vi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Vietnam vernacular and descriptive terminology for allspice"
+      },
+      {
+        "name": "Allspice",
+        "language": "vi",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Vietnam commercial and culinary terminology for allspice"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Allspice",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for allspice"
+      },
+      {
+        "name": "Jamaica pepper",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for allspice"
+      },
+      {
+        "name": "Wonderpeper",
+        "language": "af",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for allspice"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Allspice",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for allspice"
+      },
+      {
+        "name": "Jamaica pepper",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for allspice"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Allspice",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for allspice"
+      },
+      {
+        "name": "Jamaica pepper",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for allspice"
+      }
+    ]
+  }
+}
