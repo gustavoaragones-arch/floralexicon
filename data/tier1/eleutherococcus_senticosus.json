@@ -1,0 +1,1845 @@
+{
+  "plant_id": "eleutherococcus_senticosus",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Ginseng siberiano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuterococo",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Argentina vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "Ginseng ruso",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Argentina commercial terminology for Siberian ginseng"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Taigawurzel",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Sibirischer Ginseng",
+        "language": "de",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Austria commercial terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuthero",
+        "language": "de",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Austria vernacular and descriptive terminology for Siberian ginseng"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Siberian ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuthero",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Australia vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "Devil's bush",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for Siberian ginseng"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Siberische ginseng",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Ginseng de Sibérie",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Taigawurzel",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for Siberian ginseng"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Сибирски женшен",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for Siberian ginseng",
+        "transliteration": "sibirski zhenshen",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Елеутерокок",
+        "language": "bg",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bulgaria vernacular and descriptive terminology for Siberian ginseng",
+        "transliteration": "eleuterokok",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Бодлив елеутерокок",
+        "language": "bg",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bulgaria vernacular and descriptive terminology for Siberian ginseng",
+        "transliteration": "bodliv eleuterokok",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Ginseng siberiano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuterococo",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bolivia vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "Ginseng ruso",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Bolivia commercial terminology for Siberian ginseng"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Ginseng-siberiano",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleutero",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuterococo",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Brazil vernacular and descriptive terminology for Siberian ginseng"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Siberian ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuthero",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Canada vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "Ginseng sibérien",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for Siberian ginseng"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Taigawurzel",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Ginseng de Sibérie",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Ginseng siberiano",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for Siberian ginseng"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Ginseng siberiano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuterococo",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Chile vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "Ginseng ruso",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Chile commercial terminology for Siberian ginseng"
+      }
+    ],
+    "CN": [
+      {
+        "name": "刺五加",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for Siberian ginseng",
+        "transliteration": "cì wǔ jiā",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "西伯利亚人参",
+        "language": "zh",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "China commercial terminology for Siberian ginseng",
+        "transliteration": "xī bó lì yà rén shēn",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "五加参",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for Siberian ginseng",
+        "transliteration": "wǔ jiā shēn",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Ginseng siberiano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuterococo",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Colombia vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "Ginseng ruso",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Colombia commercial terminology for Siberian ginseng"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Ginseng siberiano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuterococo",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Costa Rica vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "Ginseng ruso",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Costa Rica commercial terminology for Siberian ginseng"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Ginseng siberiano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuterococo",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Cuba vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "Ginseng ruso",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Cuba commercial terminology for Siberian ginseng"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Sibiřský ženšen",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuterokok ostnitý",
+        "language": "cs",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Czech Republic vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "Čertův keř",
+        "language": "cs",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for Siberian ginseng"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Taigawurzel",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Sibirischer Ginseng",
+        "language": "de",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Germany commercial terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleutherococcus",
+        "language": "de",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Germany vernacular and descriptive terminology for Siberian ginseng"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Sibirisk ginseng",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Russisk rod",
+        "language": "da",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuthero",
+        "language": "da",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Denmark vernacular and descriptive terminology for Siberian ginseng"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Ginseng siberiano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuterococo",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Dominican Republic vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "Ginseng ruso",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Dominican Republic commercial terminology for Siberian ginseng"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "جينسنغ سيبيري",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for Siberian ginseng",
+        "transliteration": "jinsing sibīrī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "إليوثيروكوكوس",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Algeria vernacular and descriptive terminology for Siberian ginseng",
+        "transliteration": "ilyūthīrūkūkūs",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Ginseng de Sibérie",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for Siberian ginseng"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Ginseng siberiano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuterococo",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ecuador vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "Ginseng ruso",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ecuador commercial terminology for Siberian ginseng"
+      }
+    ],
+    "EG": [
+      {
+        "name": "جينسنغ سيبيري",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for Siberian ginseng",
+        "transliteration": "jinsing sibīrī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "إليوثيرو",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Egypt vernacular and descriptive terminology for Siberian ginseng",
+        "transliteration": "ilyūthīrū",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "إليوثيروكوكس",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Egypt vernacular and descriptive terminology for Siberian ginseng",
+        "transliteration": "ilyūthīrūkūks",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Ginseng siberiano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuterococo",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Spain vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "Ginseng ruso",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Spain commercial terminology for Siberian ginseng"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Siperian ginseng",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Taigajuuri",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Piikkieleuterokokki",
+        "language": "fi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Finland vernacular and descriptive terminology for Siberian ginseng"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Ginseng de Sibérie",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Éleuthérocoque",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "France vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "Buisson du diable",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for Siberian ginseng"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Siberian ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuthero",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "United Kingdom vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "Devil's bush",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for Siberian ginseng"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Siberian ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuthero",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ghana vernacular and descriptive terminology for Siberian ginseng"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Σιβηριανό τζίνσενγκ",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for Siberian ginseng",
+        "transliteration": "siviriáno tzínsengk",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Ελευθερόκοκκος",
+        "language": "el",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Greece vernacular and descriptive terminology for Siberian ginseng",
+        "transliteration": "eleftherókokkos",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Ακανθόπαναξ",
+        "language": "el",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Greece vernacular and descriptive terminology for Siberian ginseng",
+        "transliteration": "akanthópanax",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Ginseng siberiano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuterococo",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Guatemala vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "Ginseng ruso",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Guatemala commercial terminology for Siberian ginseng"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Sibirski ginseng",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuterokok",
+        "language": "hr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Croatia vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "Bodljikavi eleuterokok",
+        "language": "hr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Croatia vernacular and descriptive terminology for Siberian ginseng"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Szibériai ginzeng",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleutero",
+        "language": "hu",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Tüskés tajgagyökér",
+        "language": "hu",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Hungary vernacular and descriptive terminology for Siberian ginseng"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Ginseng Siberia",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuthero",
+        "language": "id",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Indonesia vernacular and descriptive terminology for Siberian ginseng"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Siberian ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuthero",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ireland vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "Ginseng Sibéarach",
+        "language": "ga",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ireland vernacular and descriptive terminology for Siberian ginseng"
+      }
+    ],
+    "IL": [
+      {
+        "name": "ג'ינסנג סיבירי",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for Siberian ginseng",
+        "transliteration": "jinseng sibiri",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "אלאוטרוקוקוס",
+        "language": "he",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Israel vernacular and descriptive terminology for Siberian ginseng",
+        "transliteration": "eleuterokokus",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "جينسنغ سيبيري",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for Siberian ginseng",
+        "transliteration": "jinsing sibīrī",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "साइबेरियन जिनसेंग",
+        "language": "hi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for Siberian ginseng",
+        "transliteration": "saiberiyan jinseng",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "एल्युथेरो",
+        "language": "hi",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "India vernacular and descriptive terminology for Siberian ginseng",
+        "transliteration": "elyuthero",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Siberian ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for Siberian ginseng"
+      }
+    ],
+    "IR": [
+      {
+        "name": "جینسینگ سیبری",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for Siberian ginseng",
+        "transliteration": "jinseng-e siberi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الیوترو",
+        "language": "fa",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for Siberian ginseng",
+        "transliteration": "elyutero",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الیوترکوک",
+        "language": "fa",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Iran vernacular and descriptive terminology for Siberian ginseng",
+        "transliteration": "elyuterkok",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Ginseng siberiano",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuterococco",
+        "language": "it",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Italy vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "Acanthopanax",
+        "language": "it",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Italy vernacular and descriptive terminology for Siberian ginseng"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Siberian ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuthero",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Jamaica vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "Devil's bush",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for Siberian ginseng"
+      }
+    ],
+    "JP": [
+      {
+        "name": "エゾウコギ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for Siberian ginseng",
+        "transliteration": "ezoukogi",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "シベリア人参",
+        "language": "ja",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Japan commercial terminology for Siberian ginseng",
+        "transliteration": "shiberia ninjin",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "エレウテロ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for Siberian ginseng",
+        "transliteration": "ereutero",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Siberian ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuthero",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Kenya vernacular and descriptive terminology for Siberian ginseng"
+      }
+    ],
+    "KR": [
+      {
+        "name": "가시오갈피",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for Siberian ginseng",
+        "transliteration": "gasiogalpi",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "시베리아 인삼",
+        "language": "ko",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "South Korea commercial terminology for Siberian ginseng",
+        "transliteration": "sibeiria insam",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "엘레우테로",
+        "language": "ko",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for Siberian ginseng",
+        "transliteration": "elleutero",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "සයිබීරියානු ජින්සෙන්ග්",
+        "language": "si",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for Siberian ginseng",
+        "transliteration": "saibīriyānu jinseng",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "எலியுதெரோ",
+        "language": "ta",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for Siberian ginseng",
+        "transliteration": "eliyuthero",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Siberian ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for Siberian ginseng"
+      }
+    ],
+    "MA": [
+      {
+        "name": "جينسنغ سيبيري",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for Siberian ginseng",
+        "transliteration": "jinsing sibīrī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "إليوثيروكوك",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Morocco vernacular and descriptive terminology for Siberian ginseng",
+        "transliteration": "ilyūthīrūkūk",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Ginseng de Sibérie",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for Siberian ginseng"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Ginseng siberiano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuterococo",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Mexico vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "Ginseng ruso",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Mexico commercial terminology for Siberian ginseng"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Ginseng Siberia",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuthero",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Malaysia vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "西伯利亚人参",
+        "language": "zh",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Malaysia commercial terminology for Siberian ginseng",
+        "transliteration": "xī bó lì yà rén shēn",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Siberian ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuthero",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Nigeria vernacular and descriptive terminology for Siberian ginseng"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Siberische ginseng",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Taigawortel",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleutherococcus",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Netherlands vernacular and descriptive terminology for Siberian ginseng"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Sibirsk ginseng",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Russisk rot",
+        "language": "no",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuthero",
+        "language": "no",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Norway vernacular and descriptive terminology for Siberian ginseng"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Siberian ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuthero",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "New Zealand vernacular and descriptive terminology for Siberian ginseng"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Ginseng siberiano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuterococo",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Panama vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "Ginseng ruso",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Panama commercial terminology for Siberian ginseng"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Ginseng siberiano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuterococo",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Peru vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "Ginseng ruso",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Peru commercial terminology for Siberian ginseng"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Siberian ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuthero",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Philippines vernacular and descriptive terminology for Siberian ginseng"
+      }
+    ],
+    "PK": [
+      {
+        "name": "سائبیرین جنسن",
+        "language": "ur",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for Siberian ginseng",
+        "transliteration": "saiberian jinsan",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الیوتھیرو",
+        "language": "ur",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Pakistan vernacular and descriptive terminology for Siberian ginseng",
+        "transliteration": "elyuthero",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Siberian ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for Siberian ginseng"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Żeń-szeń syberyjski",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuterokok kolczasty",
+        "language": "pl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Poland vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "Diabelski krzew",
+        "language": "pl",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for Siberian ginseng"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Ginseng-siberiano",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleutero",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuterococo",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Portugal vernacular and descriptive terminology for Siberian ginseng"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Ginseng siberiano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuterococo",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "Ginseng ruso",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Paraguay commercial terminology for Siberian ginseng"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Ginseng siberian",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuterococ spinos",
+        "language": "ro",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Romania vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "Arbustul diavolului",
+        "language": "ro",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for Siberian ginseng"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Элеутерококк",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for Siberian ginseng",
+        "transliteration": "eleuterokokk",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Элеутерококк колючий",
+        "language": "ru",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Russia vernacular and descriptive terminology for Siberian ginseng",
+        "transliteration": "eleuterokokk kolyuchiy",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Сибирский женьшень",
+        "language": "ru",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Russia commercial terminology for Siberian ginseng",
+        "transliteration": "sibirskiy zhenshen",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Sibirisk ginseng",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Ryssrot",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuthero",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Sweden vernacular and descriptive terminology for Siberian ginseng"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Siberian ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "西伯利亚人参",
+        "language": "zh",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Singapore commercial terminology for Siberian ginseng",
+        "transliteration": "xī bó lì yà rén shēn",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Ginseng Siberia",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for Siberian ginseng"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Sibírsky ženšen",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuterokok ostnatý",
+        "language": "sk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Slovakia vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "Čertov ker",
+        "language": "sk",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for Siberian ginseng"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Ginseng de Sibérie",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Éleuthérocoque",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Senegal vernacular and descriptive terminology for Siberian ginseng"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Ginseng siberiano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuterococo",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "El Salvador vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "Ginseng ruso",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "El Salvador commercial terminology for Siberian ginseng"
+      }
+    ],
+    "TH": [
+      {
+        "name": "โสมไซบีเรีย",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for Siberian ginseng",
+        "transliteration": "som saiberia",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "เอลิวเทอโร",
+        "language": "th",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for Siberian ginseng",
+        "transliteration": "eliuthero",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "อีลิวเทอโรคอคคัส",
+        "language": "th",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for Siberian ginseng",
+        "transliteration": "iliutherokhokkhat",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "جينسنغ سيبيري",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for Siberian ginseng",
+        "transliteration": "jinsing sibīrī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "إليوثيروكوك",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Tunisia vernacular and descriptive terminology for Siberian ginseng",
+        "transliteration": "ilyūthīrūkūk",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Ginseng de Sibérie",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for Siberian ginseng"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Sibirya ginsengi",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuthero",
+        "language": "tr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Dikenli Sibirya ginsengi",
+        "language": "tr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Turkey vernacular and descriptive terminology for Siberian ginseng"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Siberian ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuthero",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Trinidad and Tobago vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "Devil's bush",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for Siberian ginseng"
+      }
+    ],
+    "TW": [
+      {
+        "name": "刺五加",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for Siberian ginseng",
+        "transliteration": "cì wǔ jiā",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "西伯利亞人參",
+        "language": "zh",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Taiwan commercial terminology for Siberian ginseng",
+        "transliteration": "xī bó lì yà rén shēn",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "五加參",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for Siberian ginseng",
+        "transliteration": "wǔ jiā shēn",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Сибірський женьшень",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for Siberian ginseng",
+        "transliteration": "sybirskyi zhenshen",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Елеутерокок колючий",
+        "language": "uk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ukraine vernacular and descriptive terminology for Siberian ginseng",
+        "transliteration": "eleuterokok koliuchyi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Чортів кущ",
+        "language": "uk",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for Siberian ginseng",
+        "transliteration": "chortiv kushch",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "Siberian ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuthero",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "United States vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "Devil's bush",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for Siberian ginseng"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Ginseng siberiano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuterococo",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Uruguay vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "Ginseng ruso",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Uruguay commercial terminology for Siberian ginseng"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Ginseng siberiano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuterococo",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Venezuela vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "Ginseng ruso",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Venezuela commercial terminology for Siberian ginseng"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Nhân sâm Siberia",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Ngũ gia bì gai",
+        "language": "vi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Vietnam vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuthero",
+        "language": "vi",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Vietnam vernacular and descriptive terminology for Siberian ginseng"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Siberian ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuthero",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "South Africa vernacular and descriptive terminology for Siberian ginseng"
+      },
+      {
+        "name": "Devil's bush",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for Siberian ginseng"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Siberian ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuthero",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Zambia vernacular and descriptive terminology for Siberian ginseng"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Siberian ginseng",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for Siberian ginseng"
+      },
+      {
+        "name": "Eleuthero",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Zimbabwe vernacular and descriptive terminology for Siberian ginseng"
+      }
+    ]
+  }
+}
