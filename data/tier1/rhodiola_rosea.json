@@ -1,0 +1,1813 @@
+{
+  "plant_id": "rhodiola_rosea",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Rodiola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Raíz de oro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rhodiola rosea",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Argentina vernacular and descriptive terminology for rhodiola"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Rosenwurz",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rhodiola",
+        "language": "de",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Austria commercial terminology for rhodiola"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Rhodiola",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Golden root",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Arctic root",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Australia commercial terminology for rhodiola"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Rozewortel",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Orpin rose",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rosenwurz",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for rhodiola"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Родиола",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for rhodiola",
+        "transliteration": "rodiola",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Златен корен",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for rhodiola",
+        "transliteration": "zlaten koren",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Розов корен",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for rhodiola",
+        "transliteration": "rozov koren",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Rodiola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Raíz de oro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rhodiola rosea",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bolivia vernacular and descriptive terminology for rhodiola"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Rodiola",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Raiz de ouro",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Raiz ártica",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Brazil commercial terminology for rhodiola"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Rhodiola",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Golden root",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rhodiole",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for rhodiola"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Rosenwurz",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Orpin rose",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rodíola",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for rhodiola"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Rodiola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Raíz de oro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rhodiola rosea",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Chile vernacular and descriptive terminology for rhodiola"
+      }
+    ],
+    "CN": [
+      {
+        "name": "红景天",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for rhodiola",
+        "transliteration": "hóng jǐng tiān",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "玫瑰红景天",
+        "language": "zh",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "China vernacular and descriptive terminology for rhodiola",
+        "transliteration": "méi guī hóng jǐng tiān",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "北极根",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "China commercial terminology for rhodiola",
+        "transliteration": "běi jí gēn",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Rodiola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Raíz de oro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rhodiola rosea",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Colombia vernacular and descriptive terminology for rhodiola"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Rodiola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Raíz de oro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rhodiola rosea",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Costa Rica vernacular and descriptive terminology for rhodiola"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Rodiola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Raíz de oro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rhodiola rosea",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Cuba vernacular and descriptive terminology for rhodiola"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Rozchodnice růžová",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Zlatý kořen",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rhodiola",
+        "language": "cs",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Czech Republic commercial terminology for rhodiola"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Rosenwurz",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Goldene Wurzel",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rhodiola",
+        "language": "de",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Germany commercial terminology for rhodiola"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Rosenrod",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Arktisk rod",
+        "language": "da",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Denmark commercial terminology for rhodiola"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Rodiola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Raíz de oro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rhodiola rosea",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Dominican Republic vernacular and descriptive terminology for rhodiola"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "رهوديولا",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Algeria vernacular and descriptive terminology for rhodiola",
+        "transliteration": "rhodiola",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الجذر الذهبي",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for rhodiola",
+        "transliteration": "al-jidhr al-dhahabi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Rhodiole",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for rhodiola"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Rodiola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Raíz de oro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rhodiola rosea",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ecuador vernacular and descriptive terminology for rhodiola"
+      }
+    ],
+    "EG": [
+      {
+        "name": "رهوديولا",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Egypt vernacular and descriptive terminology for rhodiola",
+        "transliteration": "rhodiola",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الجذر الذهبي",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for rhodiola",
+        "transliteration": "al-jidhr al-dhahabi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "رهوديولا الوردية",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Egypt vernacular and descriptive terminology for rhodiola",
+        "transliteration": "rhodiola al-wardiyya",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Rodiola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Raíz de oro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rhodiola rosea",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Spain vernacular and descriptive terminology for rhodiola"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Ruusujuuri",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Kultajuuri",
+        "language": "fi",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Ruusujuuri",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Finland vernacular and descriptive terminology for rhodiola"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Rhodiole",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Orpin rose",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Racine dorée",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for rhodiola"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Rhodiola",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Golden root",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Arctic root",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "United Kingdom commercial terminology for rhodiola"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Rhodiola",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Golden root",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for rhodiola"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Ροδιόλα",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for rhodiola",
+        "transliteration": "rodióla",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Χρυσή ρίζα",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for rhodiola",
+        "transliteration": "chrysí ríza",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Ροδιόλα η ροδόχρους",
+        "language": "el",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Greece vernacular and descriptive terminology for rhodiola",
+        "transliteration": "rodióla i rodóchrous",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Rodiola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Raíz de oro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rhodiola rosea",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Guatemala vernacular and descriptive terminology for rhodiola"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Rodiola",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Zlatni korijen",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Ružičasti žednjak",
+        "language": "hr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Croatia vernacular and descriptive terminology for rhodiola"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Rózsagyökér",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Aranygyökér",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rhodiola",
+        "language": "hu",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Hungary commercial terminology for rhodiola"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Rhodiola",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Akar emas",
+        "language": "id",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Indonesia vernacular and descriptive terminology for rhodiola"
+      },
+      {
+        "name": "Rhodiola rosea",
+        "language": "id",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Indonesia vernacular and descriptive terminology for rhodiola"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Rhodiola",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Golden root",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Róidíola",
+        "language": "ga",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ireland vernacular and descriptive terminology for rhodiola"
+      }
+    ],
+    "IL": [
+      {
+        "name": "רודיולה",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for rhodiola",
+        "transliteration": "rhodiola",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "שורש הזהב",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for rhodiola",
+        "transliteration": "shoresh hazahav",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "رهوديولا",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Israel vernacular and descriptive terminology for rhodiola",
+        "transliteration": "rhodiola",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "रोडियोला",
+        "language": "hi",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "India vernacular and descriptive terminology for rhodiola",
+        "transliteration": "rodiola",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "स्वर्ण मूल",
+        "language": "hi",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "India vernacular and descriptive terminology for rhodiola",
+        "transliteration": "svarn mool",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Rhodiola",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for rhodiola"
+      }
+    ],
+    "IR": [
+      {
+        "name": "رودیولا",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for rhodiola",
+        "transliteration": "rhodiola",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ریشه طلایی",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for rhodiola",
+        "transliteration": "rishe-ye talaei",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "رودیولا رزا",
+        "language": "fa",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Iran vernacular and descriptive terminology for rhodiola",
+        "transliteration": "rhodiola roza",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Rodíola",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Radice d'oro",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Radice artica",
+        "language": "it",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Italy commercial terminology for rhodiola"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Rhodiola",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Golden root",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Arctic root",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Jamaica commercial terminology for rhodiola"
+      }
+    ],
+    "JP": [
+      {
+        "name": "ロディオラ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for rhodiola",
+        "transliteration": "rodiora",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "イワベンケイ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for rhodiola",
+        "transliteration": "iwabenkē",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "ゴールデンルート",
+        "language": "ja",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Japan commercial terminology for rhodiola",
+        "transliteration": "gōruden rūto",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Rhodiola",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Golden root",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for rhodiola"
+      }
+    ],
+    "KR": [
+      {
+        "name": "홍경천",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for rhodiola",
+        "transliteration": "honggyeongcheon",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "로디올라",
+        "language": "ko",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "South Korea commercial terminology for rhodiola",
+        "transliteration": "rodiolla",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "황금뿌리",
+        "language": "ko",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for rhodiola",
+        "transliteration": "hwanggeum ppuri",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "Rhodiola",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for rhodiola"
+      }
+    ],
+    "MA": [
+      {
+        "name": "رهوديولا",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Morocco vernacular and descriptive terminology for rhodiola",
+        "transliteration": "rhodiola",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الجذر الذهبي",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for rhodiola",
+        "transliteration": "al-jidhr al-dhahabi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Rhodiole",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for rhodiola"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Rodiola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Raíz de oro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rhodiola rosea",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Mexico vernacular and descriptive terminology for rhodiola"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Rhodiola",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rhodiola",
+        "language": "ms",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Malaysia vernacular and descriptive terminology for rhodiola"
+      },
+      {
+        "name": "红景天",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for rhodiola",
+        "transliteration": "hóng jǐng tiān",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Rhodiola",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Golden root",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for rhodiola"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Rozewortel",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Gouden wortel",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rhodiola",
+        "language": "nl",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Netherlands commercial terminology for rhodiola"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Rosenrot",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Gullrot",
+        "language": "no",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rhodiola",
+        "language": "no",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Norway commercial terminology for rhodiola"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Rhodiola",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Golden root",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for rhodiola"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Rodiola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Raíz de oro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rhodiola rosea",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Panama vernacular and descriptive terminology for rhodiola"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Rodiola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Raíz de oro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rhodiola rosea",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Peru vernacular and descriptive terminology for rhodiola"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Rhodiola",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Golden root",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for rhodiola"
+      }
+    ],
+    "PK": [
+      {
+        "name": "روڈیولا",
+        "language": "ur",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Pakistan vernacular and descriptive terminology for rhodiola",
+        "transliteration": "rhodiola",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "سنہری جڑ",
+        "language": "ur",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Pakistan vernacular and descriptive terminology for rhodiola",
+        "transliteration": "sunahri jar",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Rhodiola",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for rhodiola"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Różeniec górski",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Złoty korzeń",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rhodiola",
+        "language": "pl",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Poland commercial terminology for rhodiola"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Rodiola",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Raiz de ouro",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rhodiola rosea",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Portugal vernacular and descriptive terminology for rhodiola"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Rodiola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Raíz de oro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rhodiola rosea",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Paraguay vernacular and descriptive terminology for rhodiola"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Rhodiola",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rădăcina de aur",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rhodiola rosea",
+        "language": "ro",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Romania vernacular and descriptive terminology for rhodiola"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Родиола розовая",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for rhodiola",
+        "transliteration": "rodiola rozovaya",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Золотой корень",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for rhodiola",
+        "transliteration": "zolotoy koren",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Розовый корень",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for rhodiola",
+        "transliteration": "rozovyy koren",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Rosenrot",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rosenrotsextrakt",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Sweden commercial terminology for rhodiola"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Rhodiola",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "红景天",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for rhodiola",
+        "transliteration": "hóng jǐng tiān",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Rhodiola",
+        "language": "ms",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Singapore vernacular and descriptive terminology for rhodiola"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Rozchodnica ružová",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Zlatý koreň",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rhodiola",
+        "language": "sk",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Slovakia commercial terminology for rhodiola"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Rhodiole",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Racine dorée",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for rhodiola"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Rodiola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Raíz de oro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rhodiola rosea",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "El Salvador vernacular and descriptive terminology for rhodiola"
+      }
+    ],
+    "TH": [
+      {
+        "name": "โรดิโอลา",
+        "language": "th",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for rhodiola",
+        "transliteration": "rodiola",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "รากทองคำ",
+        "language": "th",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for rhodiola",
+        "transliteration": "rak thongkham",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "โรดิโอลา โรเซีย",
+        "language": "th",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Thailand vernacular and descriptive terminology for rhodiola",
+        "transliteration": "rodiola rosea",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "رهوديولا",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Tunisia vernacular and descriptive terminology for rhodiola",
+        "transliteration": "rhodiola",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الجذر الذهبي",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for rhodiola",
+        "transliteration": "al-jidhr al-dhahabi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Rhodiole",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for rhodiola"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Rodiola",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Altın kök",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Arktik kök",
+        "language": "tr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Turkey commercial terminology for rhodiola"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Rhodiola",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Golden root",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Arctic root",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Trinidad and Tobago commercial terminology for rhodiola"
+      }
+    ],
+    "TW": [
+      {
+        "name": "紅景天",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for rhodiola",
+        "transliteration": "hóng jǐng tiān",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "玫瑰紅景天",
+        "language": "zh",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Taiwan vernacular and descriptive terminology for rhodiola",
+        "transliteration": "méi guī hóng jǐng tiān",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "北極根",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Taiwan commercial terminology for rhodiola",
+        "transliteration": "běi jí gēn",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Родіола рожева",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for rhodiola",
+        "transliteration": "rodiola rozheva",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Золотий корінь",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for rhodiola",
+        "transliteration": "zolotyi korin",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Рожевий корінь",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for rhodiola",
+        "transliteration": "rozhevyi korin",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "Rhodiola",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Golden root",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Arctic root",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "United States commercial terminology for rhodiola"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Rodiola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Raíz de oro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rhodiola rosea",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Uruguay vernacular and descriptive terminology for rhodiola"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Rodiola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Raíz de oro",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rhodiola rosea",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Venezuela vernacular and descriptive terminology for rhodiola"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Hồng cảnh thiên",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rễ vàng",
+        "language": "vi",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Rhodiola rosea",
+        "language": "vi",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Vietnam vernacular and descriptive terminology for rhodiola"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Rhodiola",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Golden root",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Arctic root",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "South Africa commercial terminology for rhodiola"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Rhodiola",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Golden root",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for rhodiola"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Rhodiola",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for rhodiola"
+      },
+      {
+        "name": "Golden root",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for rhodiola"
+      }
+    ]
+  }
+}
