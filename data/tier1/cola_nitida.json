@@ -1,0 +1,1452 @@
+{
+  "plant_id": "cola_nitida",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Nuez de cola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Cola africana",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Argentina commercial terminology for kola nut"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Kolanuss",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Kolanussbaum",
+        "language": "de",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for kola nut"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Kola nut",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Kola",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Australia commercial terminology for kola nut"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Kolanoot",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Noix de kola",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Kolanuss",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for kola nut"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Кола ядка",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for kola nut",
+        "transliteration": "kola yadka",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Кола",
+        "language": "bg",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Bulgaria commercial terminology for kola nut",
+        "transliteration": "kola",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Nuez de cola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Cola africana",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Bolivia commercial terminology for kola nut"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Noz-de-cola",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Cola",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Brazil commercial terminology for kola nut"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Kola nut",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Noix de kola",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for kola nut"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Kolanuss",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Noix de kola",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Noce di cola",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for kola nut"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Nuez de cola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Cola africana",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Chile commercial terminology for kola nut"
+      }
+    ],
+    "CN": [
+      {
+        "name": "可乐果",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for kola nut",
+        "transliteration": "kělè guǒ",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "可乐子",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "China commercial terminology for kola nut",
+        "transliteration": "kělè zǐ",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Nuez de cola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Cola africana",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Colombia commercial terminology for kola nut"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Nuez de cola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Cola africana",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Costa Rica commercial terminology for kola nut"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Nuez de cola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Cola africana",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Cuba commercial terminology for kola nut"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Kolový ořech",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Kola",
+        "language": "cs",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Czech Republic commercial terminology for kola nut"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Kolanuss",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Kola",
+        "language": "de",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Germany commercial terminology for kola nut"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Kolanød",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Kola",
+        "language": "da",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Denmark commercial terminology for kola nut"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Nuez de cola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Cola africana",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Dominican Republic commercial terminology for kola nut"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "جوز الكولا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for kola nut",
+        "transliteration": "jawz al-kola",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "كولا",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Algeria commercial terminology for kola nut",
+        "transliteration": "kola",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Noix de kola",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for kola nut"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Nuez de cola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Cola africana",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ecuador commercial terminology for kola nut"
+      }
+    ],
+    "EG": [
+      {
+        "name": "جوز الكولا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for kola nut",
+        "transliteration": "jawz al-kola",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "كولا",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Egypt commercial terminology for kola nut",
+        "transliteration": "kola",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Kolapähkinä",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Kola",
+        "language": "fi",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Finland commercial terminology for kola nut"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Noix de kola",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Kola",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "France commercial terminology for kola nut"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Kola nut",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Kola",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "United Kingdom commercial terminology for kola nut"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Bese",
+        "language": "tw",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Kola nut",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Goro",
+        "language": "ee",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for kola nut"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Καρύδι κόλα",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for kola nut",
+        "transliteration": "karydi kola",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Κόλα",
+        "language": "el",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Greece commercial terminology for kola nut",
+        "transliteration": "kola",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Nuez de cola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Cola africana",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Guatemala commercial terminology for kola nut"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Kola orah",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Kola",
+        "language": "hr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Croatia commercial terminology for kola nut"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Kóladió",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Kóla",
+        "language": "hu",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Hungary commercial terminology for kola nut"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Kacang kola",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Kola",
+        "language": "id",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Indonesia commercial terminology for kola nut"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Kola nut",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Kola",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Ireland commercial terminology for kola nut"
+      },
+      {
+        "name": "Cnó kola",
+        "language": "ga",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for kola nut"
+      }
+    ],
+    "IL": [
+      {
+        "name": "אגוז קולה",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for kola nut",
+        "transliteration": "egoz kola",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "קולה",
+        "language": "he",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Israel commercial terminology for kola nut",
+        "transliteration": "kola",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "جوز الكولا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for kola nut",
+        "transliteration": "jawz al-kola",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "कोला नट",
+        "language": "hi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for kola nut",
+        "transliteration": "kola nat",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Kola nut",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for kola nut"
+      },
+      {
+        "name": "कोला",
+        "language": "hi",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "India commercial terminology for kola nut",
+        "transliteration": "kola",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IR": [
+      {
+        "name": "دانه کولا",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for kola nut",
+        "transliteration": "dāneh-ye kolā",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "کولا",
+        "language": "fa",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Iran commercial terminology for kola nut",
+        "transliteration": "kolā",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Noce di cola",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Cola",
+        "language": "it",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Italy commercial terminology for kola nut"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Kola nut",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Kola",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Jamaica commercial terminology for kola nut"
+      }
+    ],
+    "JP": [
+      {
+        "name": "コーラナッツ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for kola nut",
+        "transliteration": "kōra nattsu",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "コーラ",
+        "language": "ja",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Japan commercial terminology for kola nut",
+        "transliteration": "kōra",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Kola",
+        "language": "sw",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Kola nut",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for kola nut"
+      }
+    ],
+    "KR": [
+      {
+        "name": "콜라너트",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for kola nut",
+        "transliteration": "kolla neoteu",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "콜라",
+        "language": "ko",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "South Korea commercial terminology for kola nut",
+        "transliteration": "kolla",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "කෝලා ගෙඩිය",
+        "language": "si",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for kola nut",
+        "transliteration": "kōlā gediya",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Kola nut",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for kola nut"
+      },
+      {
+        "name": "කෝලා",
+        "language": "si",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Sri Lanka commercial terminology for kola nut",
+        "transliteration": "kōlā",
+        "transliteration_scheme": "iso_15919"
+      }
+    ],
+    "MA": [
+      {
+        "name": "جوز الكولا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for kola nut",
+        "transliteration": "jawz al-kola",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "كولا",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Morocco commercial terminology for kola nut",
+        "transliteration": "kola",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Noix de kola",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for kola nut"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Nuez de cola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Cola africana",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Mexico commercial terminology for kola nut"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Kacang kola",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Kola nut",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for kola nut"
+      },
+      {
+        "name": "可乐果",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for kola nut",
+        "transliteration": "kělè guǒ",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Goro",
+        "language": "ha",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Obi",
+        "language": "yo",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Oji",
+        "language": "ig",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for kola nut"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Kolanoot",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Kola",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Netherlands commercial terminology for kola nut"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Kolanøtt",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Kola",
+        "language": "no",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Norway commercial terminology for kola nut"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Kola nut",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Kola",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "New Zealand commercial terminology for kola nut"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Nuez de cola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Cola africana",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Panama commercial terminology for kola nut"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Nuez de cola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Cola africana",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Peru commercial terminology for kola nut"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Kola nut",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Kola",
+        "language": "tl",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Philippines vernacular and descriptive terminology for kola nut"
+      }
+    ],
+    "PK": [
+      {
+        "name": "کولا نٹ",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for kola nut",
+        "transliteration": "kola nat",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "کولا",
+        "language": "ur",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Pakistan commercial terminology for kola nut",
+        "transliteration": "kola",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Orzech kola",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Kola",
+        "language": "pl",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Poland commercial terminology for kola nut"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Noz-de-cola",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Cola",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Portugal commercial terminology for kola nut"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Nuez de cola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Cola africana",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Paraguay commercial terminology for kola nut"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Nucă de kola",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Kola",
+        "language": "ro",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Romania commercial terminology for kola nut"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Орех кола",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for kola nut",
+        "transliteration": "orekh kola",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Кола",
+        "language": "ru",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Russia commercial terminology for kola nut",
+        "transliteration": "kola",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Kolanöt",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Kola",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Sweden commercial terminology for kola nut"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Kola nut",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for kola nut"
+      },
+      {
+        "name": "可乐果",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for kola nut",
+        "transliteration": "kělè guǒ",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Kacang kola",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for kola nut"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Kolový orech",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Kola",
+        "language": "sk",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Slovakia commercial terminology for kola nut"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Noix de kola",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Goro",
+        "language": "wo",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for kola nut"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Nuez de cola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Cola africana",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "El Salvador commercial terminology for kola nut"
+      }
+    ],
+    "TH": [
+      {
+        "name": "เมล็ดโคลา",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for kola nut",
+        "transliteration": "malet khola",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "โคลา",
+        "language": "th",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Thailand commercial terminology for kola nut",
+        "transliteration": "khola",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "جوز الكولا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for kola nut",
+        "transliteration": "jawz al-kola",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "كولا",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Tunisia commercial terminology for kola nut",
+        "transliteration": "kola",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Noix de kola",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for kola nut"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Kola cevizi",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Kola",
+        "language": "tr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Turkey commercial terminology for kola nut"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Kola nut",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Kola",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Trinidad and Tobago commercial terminology for kola nut"
+      }
+    ],
+    "TW": [
+      {
+        "name": "可樂果",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for kola nut",
+        "transliteration": "kělè guǒ",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "可樂子",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Taiwan commercial terminology for kola nut",
+        "transliteration": "kělè zǐ",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Горіх кола",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for kola nut",
+        "transliteration": "horikh kola",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Кола",
+        "language": "uk",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ukraine commercial terminology for kola nut",
+        "transliteration": "kola",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "Kola nut",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Kola",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "United States commercial terminology for kola nut"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Nuez de cola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Cola africana",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Uruguay commercial terminology for kola nut"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Nuez de cola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Cola africana",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Venezuela commercial terminology for kola nut"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Hạt kola",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Kola",
+        "language": "vi",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Vietnam commercial terminology for kola nut"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Kola nut",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Kola",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "South Africa commercial terminology for kola nut"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Kola nut",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Goro",
+        "language": "bem",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Zambia vernacular and descriptive terminology for kola nut"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Kola nut",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Goro",
+        "language": "sn",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Zimbabwe vernacular and descriptive terminology for kola nut"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Nuez de cola",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for kola nut"
+      },
+      {
+        "name": "Cola africana",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Spain commercial terminology for kola nut"
+      }
+    ]
+  }
+}
