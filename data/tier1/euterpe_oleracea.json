@@ -1,0 +1,1409 @@
+{
+  "plant_id": "euterpe_oleracea",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for açaí"
+      },
+      {
+        "name": "Palma de açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for açaí"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Açaí",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for açaí"
+      },
+      {
+        "name": "Açaípalme",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for açaí"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Açaí",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for açaí"
+      },
+      {
+        "name": "Açaí palm",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for açaí"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Açaí",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for açaí"
+      },
+      {
+        "name": "Açaï",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for açaí"
+      },
+      {
+        "name": "Açaípalme",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for açaí"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Акай",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for açaí",
+        "transliteration": "akay",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Палма акай",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for açaí",
+        "transliteration": "palma akay",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for açaí"
+      },
+      {
+        "name": "Palma de açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for açaí"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Açaí",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for açaí"
+      },
+      {
+        "name": "Açaizeiro",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for açaí"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Açaí",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for açaí"
+      },
+      {
+        "name": "Açaí palm",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for açaí"
+      },
+      {
+        "name": "Açaï",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for açaí"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Açaí",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for açaí"
+      },
+      {
+        "name": "Açaï",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for açaí"
+      },
+      {
+        "name": "Palma di açaí",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for açaí"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for açaí"
+      },
+      {
+        "name": "Palma de açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for açaí"
+      }
+    ],
+    "CN": [
+      {
+        "name": "阿萨伊",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for açaí",
+        "transliteration": "āsàyī",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "阿萨伊棕榈",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for açaí",
+        "transliteration": "āsàyī zōnglǘ",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for açaí"
+      },
+      {
+        "name": "Palma de açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for açaí"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for açaí"
+      },
+      {
+        "name": "Palma de açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for açaí"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for açaí"
+      },
+      {
+        "name": "Palma de açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for açaí"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Açaí",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for açaí"
+      },
+      {
+        "name": "Palma açaí",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for açaí"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Açaí",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for açaí"
+      },
+      {
+        "name": "Açaípalme",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for açaí"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Açaí",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for açaí"
+      },
+      {
+        "name": "Açaípalme",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for açaí"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for açaí"
+      },
+      {
+        "name": "Palma de açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for açaí"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "آساي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for açaí",
+        "transliteration": "āsāy",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "نخيل الآساي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for açaí",
+        "transliteration": "nakhīl al-āsāy",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Açaï",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for açaí"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for açaí"
+      },
+      {
+        "name": "Palma de açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for açaí"
+      }
+    ],
+    "EG": [
+      {
+        "name": "آساي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for açaí",
+        "transliteration": "āsāy",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "نخيل الآساي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for açaí",
+        "transliteration": "nakhīl al-āsāy",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for açaí"
+      },
+      {
+        "name": "Palma de açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for açaí"
+      }
+    ],
+    "ET": [
+      {
+        "name": "አሳይ",
+        "language": "am",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for açaí",
+        "transliteration": "āsāy",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Açaí",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for açaí"
+      },
+      {
+        "name": "Açaípalmu",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for açaí"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Açaï",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for açaí"
+      },
+      {
+        "name": "Palmier açaï",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for açaí"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Açaí",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for açaí"
+      },
+      {
+        "name": "Açaí palm",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for açaí"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Açaí",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for açaí"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Ασαΐ",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for açaí",
+        "transliteration": "asaí",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Φοίνικας ασαΐ",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for açaí",
+        "transliteration": "foínikas asaí",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for açaí"
+      },
+      {
+        "name": "Palma de açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for açaí"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Açaí",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for açaí"
+      },
+      {
+        "name": "Açaí palma",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for açaí"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Açaí",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for açaí"
+      },
+      {
+        "name": "Açaípálma",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for açaí"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Açaí",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for açaí"
+      },
+      {
+        "name": "Palem açaí",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for açaí"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Açaí",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for açaí"
+      },
+      {
+        "name": "Açaí palm",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for açaí"
+      },
+      {
+        "name": "Pailme açaí",
+        "language": "ga",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ireland vernacular and descriptive terminology for açaí"
+      }
+    ],
+    "IL": [
+      {
+        "name": "אסאי",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for açaí",
+        "transliteration": "asa'i",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "דקל אסאי",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for açaí",
+        "transliteration": "dekel asa'i",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "آساي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for açaí",
+        "transliteration": "āsāy",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "असाई",
+        "language": "hi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for açaí",
+        "transliteration": "asāī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Açaí",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for açaí"
+      }
+    ],
+    "IR": [
+      {
+        "name": "آسای",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for açaí",
+        "transliteration": "āsāy",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "نخل آسای",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for açaí",
+        "transliteration": "nakhl-e āsāy",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Açaí",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for açaí"
+      },
+      {
+        "name": "Palma di açaí",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for açaí"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Açaí",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for açaí"
+      },
+      {
+        "name": "Açaí palm",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for açaí"
+      }
+    ],
+    "JP": [
+      {
+        "name": "アサイー",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for açaí",
+        "transliteration": "asaii",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "アサイーヤシ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for açaí",
+        "transliteration": "asaii yashi",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Açaí",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for açaí"
+      },
+      {
+        "name": "Mtende wa açaí",
+        "language": "sw",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for açaí"
+      }
+    ],
+    "KR": [
+      {
+        "name": "아사이",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for açaí",
+        "transliteration": "asai",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "아사이야자",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for açaí",
+        "transliteration": "asai yaja",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "Açaí",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for açaí"
+      }
+    ],
+    "MA": [
+      {
+        "name": "آساي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for açaí",
+        "transliteration": "āsāy",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "نخيل الآساي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for açaí",
+        "transliteration": "nakhīl al-āsāy",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Açaï",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for açaí"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for açaí"
+      },
+      {
+        "name": "Palma de açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for açaí"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Açaí",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for açaí"
+      },
+      {
+        "name": "Pokok palma açaí",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for açaí"
+      },
+      {
+        "name": "阿萨伊",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for açaí",
+        "transliteration": "āsàyī",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Açaí",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for açaí"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Açaí",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for açaí"
+      },
+      {
+        "name": "Açaípalm",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for açaí"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Açaí",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for açaí"
+      },
+      {
+        "name": "Açaípalme",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for açaí"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Açaí",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for açaí"
+      },
+      {
+        "name": "Açaí palm",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for açaí"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for açaí"
+      },
+      {
+        "name": "Palma de açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for açaí"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for açaí"
+      },
+      {
+        "name": "Palma de açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for açaí"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Açaí",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for açaí"
+      },
+      {
+        "name": "Açaí palm",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for açaí"
+      }
+    ],
+    "PK": [
+      {
+        "name": "آسائی",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for açaí",
+        "transliteration": "āsāī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "آسائی پام",
+        "language": "ur",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for açaí",
+        "transliteration": "āsāī pām",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Açaí",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for açaí"
+      },
+      {
+        "name": "Palma açaí",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for açaí"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Açaí",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for açaí"
+      },
+      {
+        "name": "Açaizeiro",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for açaí"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for açaí"
+      },
+      {
+        "name": "Palma de açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for açaí"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Açaí",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for açaí"
+      },
+      {
+        "name": "Palmier açaí",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for açaí"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Асаи",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for açaí",
+        "transliteration": "asai",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Пальма асаи",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for açaí",
+        "transliteration": "palma asai",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Açaí",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for açaí"
+      },
+      {
+        "name": "Açaípalm",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for açaí"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Açaí",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for açaí"
+      },
+      {
+        "name": "阿萨伊",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for açaí",
+        "transliteration": "āsàyī",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Açaí",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for açaí"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Açaí",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for açaí"
+      },
+      {
+        "name": "Palma açaí",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for açaí"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Açaï",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for açaí"
+      },
+      {
+        "name": "Palmier açaï",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for açaí"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for açaí"
+      },
+      {
+        "name": "Palma de açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for açaí"
+      }
+    ],
+    "TH": [
+      {
+        "name": "อาซาอี",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for açaí",
+        "transliteration": "a-sa-i",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "ปาล์มอาซาอี",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for açaí",
+        "transliteration": "pam a-sa-i",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "آساي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for açaí",
+        "transliteration": "āsāy",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "نخيل الآساي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for açaí",
+        "transliteration": "nakhīl al-āsāy",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Açaï",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for açaí"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Açaí",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for açaí"
+      },
+      {
+        "name": "Açaí palmiyesi",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for açaí"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Açaí",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for açaí"
+      },
+      {
+        "name": "Açaí palm",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for açaí"
+      }
+    ],
+    "TW": [
+      {
+        "name": "阿薩伊",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for açaí",
+        "transliteration": "āsàyī",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "阿薩伊棕櫚",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for açaí",
+        "transliteration": "āsàyī zōnglǘ",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Асаї",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for açaí",
+        "transliteration": "asai",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Пальма асаї",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for açaí",
+        "transliteration": "palma asai",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "Açaí",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for açaí"
+      },
+      {
+        "name": "Açaí palm",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for açaí"
+      },
+      {
+        "name": "Açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for açaí"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for açaí"
+      },
+      {
+        "name": "Palma de açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for açaí"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for açaí"
+      },
+      {
+        "name": "Palma de açaí",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for açaí"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Açaí",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for açaí"
+      },
+      {
+        "name": "Cọ açaí",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for açaí"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Açaí",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for açaí"
+      },
+      {
+        "name": "Açaí palm",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for açaí"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Açaí",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for açaí"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Açaí",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for açaí"
+      }
+    ]
+  }
+}
