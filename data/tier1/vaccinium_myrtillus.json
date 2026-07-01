@@ -1,0 +1,1388 @@
+{
+  "plant_id": "vaccinium_myrtillus",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Arándano europeo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Mirtilo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for bilberry"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Heidelbeere",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Blaubeere",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for bilberry"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Bilberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for bilberry"
+      },
+      {
+        "name": "European bilberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for bilberry"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Bosbes",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Myrtille",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Heidelbeere",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for bilberry"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Черна боровинка",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for bilberry",
+        "transliteration": "cherna borovinka",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Европейска черна боровинка",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for bilberry",
+        "transliteration": "evropeyska cherna borovinka",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Arándano europeo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Mirtilo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for bilberry"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Mirtilo",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Mirtilo-europeu",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for bilberry"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Bilberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Myrtille",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for bilberry"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Heidelbeere",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Myrtille",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Mirtillo nero",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for bilberry"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Arándano europeo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Mirtilo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for bilberry"
+      }
+    ],
+    "CN": [
+      {
+        "name": "越橘",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for bilberry",
+        "transliteration": "yuèjú",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "欧洲越橘",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for bilberry",
+        "transliteration": "ōuzhōu yuèjú",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Arándano europeo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Mirtilo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for bilberry"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Arándano europeo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Mirtilo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for bilberry"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Arándano europeo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Mirtilo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for bilberry"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Borůvka černá",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Brusnice borůvka",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for bilberry"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Heidelbeere",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Blaubeere",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for bilberry"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Blåbær",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Europæisk blåbær",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for bilberry"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Arándano europeo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Mirtilo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for bilberry"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "توت بري أوروبي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for bilberry",
+        "transliteration": "tūt barrī ūrūbbī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ميرتيل",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for bilberry",
+        "transliteration": "mīrtil",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Myrtille",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for bilberry"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Arándano europeo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Mirtilo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for bilberry"
+      }
+    ],
+    "EG": [
+      {
+        "name": "توت بري أوروبي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for bilberry",
+        "transliteration": "tūt barrī ūrūbbī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ميرتيل",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for bilberry",
+        "transliteration": "mīrtil",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Arándano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Arándano europeo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for bilberry"
+      }
+    ],
+    "ET": [
+      {
+        "name": "ቢልቤሪ",
+        "language": "am",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for bilberry",
+        "transliteration": "bilberī",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Mustikka",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Euroopanmustikka",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for bilberry"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Myrtille",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Myrtille commune",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for bilberry"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Bilberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for bilberry"
+      },
+      {
+        "name": "European bilberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for bilberry"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Bilberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for bilberry"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Μύρτιλο",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for bilberry",
+        "transliteration": "mýrtilo",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Ευρωπαϊκό μύρτιλο",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for bilberry",
+        "transliteration": "evropaïkó mýrtilo",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Arándano europeo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Mirtilo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for bilberry"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Borovnica",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Obična borovnica",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for bilberry"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Fekete áfonya",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Erdei áfonya",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for bilberry"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Bilberry",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Bilberi Eropa",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for bilberry"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Bilberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for bilberry"
+      },
+      {
+        "name": "European bilberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Fraochán",
+        "language": "ga",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for bilberry"
+      }
+    ],
+    "IL": [
+      {
+        "name": "אוכמנית אירופית",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for bilberry",
+        "transliteration": "ukhmanit eropit",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "בילברי",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for bilberry",
+        "transliteration": "bilberi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "توت بري أوروبي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for bilberry",
+        "transliteration": "tūt barrī ūrūbbī",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "बिलबेरी",
+        "language": "hi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for bilberry",
+        "transliteration": "bilberī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Bilberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for bilberry"
+      }
+    ],
+    "IR": [
+      {
+        "name": "بیلبری",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for bilberry",
+        "transliteration": "bilberi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "بلوبری اروپایی",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for bilberry",
+        "transliteration": "bluberi-ye orupāyi",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Mirtillo nero",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Mirtillo europeo",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for bilberry"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Bilberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for bilberry"
+      },
+      {
+        "name": "European bilberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for bilberry"
+      }
+    ],
+    "JP": [
+      {
+        "name": "ビルベリー",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for bilberry",
+        "transliteration": "biruberī",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "セイヨウスノキ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for bilberry",
+        "transliteration": "seiyō sunoki",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Bilberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Bilberi",
+        "language": "sw",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Kenya vernacular and descriptive terminology for bilberry"
+      }
+    ],
+    "KR": [
+      {
+        "name": "빌베리",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for bilberry",
+        "transliteration": "bilberi",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "유럽 빌베리",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for bilberry",
+        "transliteration": "yureop bilberi",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "Bilberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for bilberry"
+      }
+    ],
+    "MA": [
+      {
+        "name": "توت بري أوروبي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for bilberry",
+        "transliteration": "tūt barrī ūrūbbī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ميرتيل",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for bilberry",
+        "transliteration": "mīrtil",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Myrtille",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for bilberry"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Arándano europeo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Mirtilo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for bilberry"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Bilberi",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Bilberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for bilberry"
+      },
+      {
+        "name": "越橘",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for bilberry",
+        "transliteration": "yuèjú",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Bilberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for bilberry"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Bosbes",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Blauwe bosbes",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for bilberry"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Blåbær",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Europeisk blåbær",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for bilberry"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Bilberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for bilberry"
+      },
+      {
+        "name": "European bilberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for bilberry"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Arándano europeo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Mirtilo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for bilberry"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Arándano europeo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Mirtilo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for bilberry"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Bilberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for bilberry"
+      }
+    ],
+    "PK": [
+      {
+        "name": "بل بیری",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for bilberry",
+        "transliteration": "bil berī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "یورپی بل بیری",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for bilberry",
+        "transliteration": "yūrpī bil berī",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Borówka czernica",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Czarna jagoda",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for bilberry"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Mirtilo-europeu",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Mirtilo",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for bilberry"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Arándano europeo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Mirtilo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for bilberry"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Afin",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Afin european",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for bilberry"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Черника",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for bilberry",
+        "transliteration": "chernika",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Черника обыкновенная",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for bilberry",
+        "transliteration": "chernika obyknovennaya",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Blåbär",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Europeiskt blåbär",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for bilberry"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Bilberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for bilberry"
+      },
+      {
+        "name": "越橘",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for bilberry",
+        "transliteration": "yuèjú",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Bilberi",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for bilberry"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Čučoriedka obyčajná",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Čučoriedka",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for bilberry"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Myrtille",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Myrtille commune",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for bilberry"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Arándano europeo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Mirtilo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for bilberry"
+      }
+    ],
+    "TH": [
+      {
+        "name": "บิลเบอร์รี",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for bilberry",
+        "transliteration": "bin-boe-ri",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "บิลเบอร์รียุโรป",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for bilberry",
+        "transliteration": "bin-boe-ri yurop",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "توت بري أوروبي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for bilberry",
+        "transliteration": "tūt barrī ūrūbbī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "ميرتيل",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for bilberry",
+        "transliteration": "mīrtil",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Myrtille",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for bilberry"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Yaban mersini",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Avrupa yaban mersini",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for bilberry"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Bilberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for bilberry"
+      },
+      {
+        "name": "European bilberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for bilberry"
+      }
+    ],
+    "TW": [
+      {
+        "name": "越橘",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for bilberry",
+        "transliteration": "yuèjú",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "歐洲越橘",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for bilberry",
+        "transliteration": "ōuzhōu yuèjú",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Чорниця",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for bilberry",
+        "transliteration": "chornytsia",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Чорниця звичайна",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for bilberry",
+        "transliteration": "chornytsia zvychaina",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "Bilberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for bilberry"
+      },
+      {
+        "name": "European bilberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for bilberry"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Arándano europeo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Mirtilo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for bilberry"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Arándano europeo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Mirtilo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for bilberry"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Việt quất châu Âu",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for bilberry"
+      },
+      {
+        "name": "Bilberry",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for bilberry"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Bilberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for bilberry"
+      },
+      {
+        "name": "European bilberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for bilberry"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Bilberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for bilberry"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Bilberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for bilberry"
+      }
+    ]
+  }
+}
