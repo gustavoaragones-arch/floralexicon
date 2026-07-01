@@ -1,0 +1,1388 @@
+{
+  "plant_id": "vaccinium_macrocarpon",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Arándano rojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Arándano agrio",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for cranberry"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Großfrüchtige Moosbeere",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Kulturmoosbeere",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for cranberry"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Cranberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for cranberry"
+      },
+      {
+        "name": "American cranberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for cranberry"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Grote veenbes",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Canneberge",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Großfrüchtige Moosbeere",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for cranberry"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Американска червена боровинка",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for cranberry",
+        "transliteration": "amerikanska chervena borovinka",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Едроплодна червена боровинка",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for cranberry",
+        "transliteration": "edroplodna chervena borovinka",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Arándano rojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Arándano agrio",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for cranberry"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Cranberry",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Oxicoco-americano",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for cranberry"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Cranberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Canneberge",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for cranberry"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Großfrüchtige Moosbeere",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Canneberge",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Mirtillo rosso americano",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for cranberry"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Arándano rojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Arándano agrio",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for cranberry"
+      }
+    ],
+    "CN": [
+      {
+        "name": "蔓越莓",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for cranberry",
+        "transliteration": "mànyuèméi",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "美洲蔓越莓",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for cranberry",
+        "transliteration": "měizhōu mànyuèméi",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Arándano rojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Arándano agrio",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for cranberry"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Arándano rojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Arándano agrio",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for cranberry"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Arándano rojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Arándano agrio",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for cranberry"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Klikva velkoplodá",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Americká brusinka",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for cranberry"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Großfrüchtige Moosbeere",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Kulturmoosbeere",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for cranberry"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Storfrugtet tranebær",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Amerikansk tranebær",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for cranberry"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Arándano rojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Arándano agrio",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for cranberry"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "كرانبيري",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for cranberry",
+        "transliteration": "kranbirī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "التوت البري الأمريكي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for cranberry",
+        "transliteration": "al-tūt al-barrī al-amrīkī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Canneberge",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for cranberry"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Arándano rojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Arándano agrio",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for cranberry"
+      }
+    ],
+    "EG": [
+      {
+        "name": "كرانبيري",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for cranberry",
+        "transliteration": "kranbirī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "التوت البري الأمريكي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for cranberry",
+        "transliteration": "al-tūt al-barrī al-amrīkī",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Arándano rojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Arándano rojo americano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for cranberry"
+      }
+    ],
+    "ET": [
+      {
+        "name": "ክራንቤሪ",
+        "language": "am",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for cranberry",
+        "transliteration": "kiranberī",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Isokarpalo",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Amerikankarpalo",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for cranberry"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Canneberge",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Canneberge à gros fruits",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for cranberry"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Cranberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for cranberry"
+      },
+      {
+        "name": "American cranberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for cranberry"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Cranberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for cranberry"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Κράνμπερι",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for cranberry",
+        "transliteration": "kránberi",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Αμερικανικό κράνμπερι",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for cranberry",
+        "transliteration": "amerikanikó kránberi",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Arándano rojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Arándano rojo americano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for cranberry"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Američka brusnica",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Krupnoplodna brusnica",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for cranberry"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Tőzegáfonya",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Nagy gyümölcsű tőzegáfonya",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for cranberry"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Cranberry",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Kranberi Amerika",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for cranberry"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Cranberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for cranberry"
+      },
+      {
+        "name": "American cranberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Mónóg Mheiriceánach",
+        "language": "ga",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ireland vernacular and descriptive terminology for cranberry"
+      }
+    ],
+    "IL": [
+      {
+        "name": "חמוצית אמריקאית",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for cranberry",
+        "transliteration": "chamutzit amerikait",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "קרנברי",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for cranberry",
+        "transliteration": "cranberry",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "كرانبيري",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for cranberry",
+        "transliteration": "kranbirī",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "क्रैनबेरी",
+        "language": "hi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for cranberry",
+        "transliteration": "krainberī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Cranberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for cranberry"
+      }
+    ],
+    "IR": [
+      {
+        "name": "کرنبری",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for cranberry",
+        "transliteration": "keranberi",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "زغال‌اخته آمریکایی",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for cranberry",
+        "transliteration": "zoghāl-akhte-ye āmrikāyi",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Mirtillo rosso americano",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Cranberry",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for cranberry"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Cranberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for cranberry"
+      },
+      {
+        "name": "American cranberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for cranberry"
+      }
+    ],
+    "JP": [
+      {
+        "name": "クランベリー",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for cranberry",
+        "transliteration": "kuranberī",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "オオミノツルコケモモ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for cranberry",
+        "transliteration": "ōmino tsurukokemomo",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Cranberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Kranberi",
+        "language": "sw",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Kenya vernacular and descriptive terminology for cranberry"
+      }
+    ],
+    "KR": [
+      {
+        "name": "크랜베리",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for cranberry",
+        "transliteration": "keuraenberi",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "미국 크랜베리",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for cranberry",
+        "transliteration": "miguk keuraenberi",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "Cranberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for cranberry"
+      }
+    ],
+    "MA": [
+      {
+        "name": "كرانبيري",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for cranberry",
+        "transliteration": "kranbirī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "التوت البري الأمريكي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for cranberry",
+        "transliteration": "al-tūt al-barrī al-amrīkī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Canneberge",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for cranberry"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Arándano rojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Arándano rojo americano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for cranberry"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Kranberi",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Cranberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for cranberry"
+      },
+      {
+        "name": "蔓越莓",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for cranberry",
+        "transliteration": "mànyuèméi",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Cranberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for cranberry"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Grote veenbes",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Amerikaanse veenbes",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for cranberry"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Stortranebær",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Amerikansk tranebær",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for cranberry"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Cranberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for cranberry"
+      },
+      {
+        "name": "American cranberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for cranberry"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Arándano rojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Arándano rojo americano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for cranberry"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Arándano rojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Arándano rojo americano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for cranberry"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Cranberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for cranberry"
+      }
+    ],
+    "PK": [
+      {
+        "name": "کرین بیری",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for cranberry",
+        "transliteration": "krain berī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "امریکی کرین بیری",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for cranberry",
+        "transliteration": "amrīkī krain berī",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Żurawina wielkoowocowa",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Żurawina amerykańska",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for cranberry"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Oxicoco-americano",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Cranberry",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for cranberry"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Arándano rojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Arándano rojo americano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for cranberry"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Afin american",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Merișor american",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for cranberry"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Клюква крупноплодная",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for cranberry",
+        "transliteration": "klyukva krupnoplodnaya",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Американская клюква",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for cranberry",
+        "transliteration": "amerikanskaya klyukva",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Stortranbär",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Amerikanskt tranbär",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for cranberry"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Cranberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for cranberry"
+      },
+      {
+        "name": "蔓越莓",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for cranberry",
+        "transliteration": "mànyuèméi",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Kranberi",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for cranberry"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Brusnica veľkoplodá",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Americká brusnica",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for cranberry"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Canneberge",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Canneberge à gros fruits",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for cranberry"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Arándano rojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Arándano rojo americano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for cranberry"
+      }
+    ],
+    "TH": [
+      {
+        "name": "แครนเบอร์รี",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for cranberry",
+        "transliteration": "khraen-boe-ri",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "แครนเบอร์รีอเมริกัน",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for cranberry",
+        "transliteration": "khraen-boe-ri amerigan",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "كرانبيري",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for cranberry",
+        "transliteration": "kranbirī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "التوت البري الأمريكي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for cranberry",
+        "transliteration": "al-tūt al-barrī al-amrīkī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Canneberge",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for cranberry"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Turnayemişi",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Amerikan turnayemişi",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for cranberry"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Cranberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for cranberry"
+      },
+      {
+        "name": "American cranberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for cranberry"
+      }
+    ],
+    "TW": [
+      {
+        "name": "蔓越莓",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for cranberry",
+        "transliteration": "mànyuèméi",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "美洲蔓越莓",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for cranberry",
+        "transliteration": "měizhōu mànyuèméi",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Журавлина великоплідна",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for cranberry",
+        "transliteration": "zhuravlyna velykoplidna",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Американська журавлина",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for cranberry",
+        "transliteration": "amerykanska zhuravlyna",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "Cranberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for cranberry"
+      },
+      {
+        "name": "American cranberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for cranberry"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Arándano rojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Arándano rojo americano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for cranberry"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Arándano rojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Arándano rojo americano",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for cranberry"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Nam việt quất",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for cranberry"
+      },
+      {
+        "name": "Nam việt quất Mỹ",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for cranberry"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Cranberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for cranberry"
+      },
+      {
+        "name": "American cranberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for cranberry"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Cranberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for cranberry"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Cranberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for cranberry"
+      }
+    ]
+  }
+}
