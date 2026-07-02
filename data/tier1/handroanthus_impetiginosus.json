@@ -1,0 +1,1375 @@
+{
+  "plant_id": "handroanthus_impetiginosus",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Pau d'Arco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Lapacho rosado",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for pau d'arco"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Pau d'Arco",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Rosafarbener Lapacho",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for pau d'arco"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Pau d'Arco",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Pink lapacho",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for pau d'arco"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Pau d'Arco",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Lapacho rose",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Pau d'Arco",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for pau d'arco"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Пау дарко",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for pau d'arco",
+        "transliteration": "pau darko",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Розов лапачо",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for pau d'arco",
+        "transliteration": "rozov lapacho",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Lapacho rosado",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Tajibo rosado",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for pau d'arco"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Pau d'arco",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Ipê-roxo",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for pau d'arco"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Pau d'Arco",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Pink lapacho",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Pau d'Arco",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for pau d'arco"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Pau d'Arco",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Lapacho rose",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Lapacho rosa",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for pau d'arco"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Lapacho rosado",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Pau d'Arco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for pau d'arco"
+      }
+    ],
+    "CN": [
+      {
+        "name": "紫花风铃木",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for pau d'arco",
+        "transliteration": "zǐhuā fēnglíngmù",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "拉帕乔树",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for pau d'arco",
+        "transliteration": "lāpàqiáo shù",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Pau d'Arco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Roble morado",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for pau d'arco"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Pau d'Arco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Lapacho rosado",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for pau d'arco"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Pau d'Arco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Lapacho rosado",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for pau d'arco"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Lapacho",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Růžový lapacho",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for pau d'arco"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Pau d'Arco",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Rosafarbener Lapacho",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for pau d'arco"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Pau d'Arco",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Lyserød lapacho",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for pau d'arco"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Pau d'Arco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Lapacho rosado",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for pau d'arco"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "باو داركو",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for pau d'arco",
+        "transliteration": "bāw dārkū",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Lapacho rose",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for pau d'arco"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Pau d'Arco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Lapacho rosado",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for pau d'arco"
+      }
+    ],
+    "EG": [
+      {
+        "name": "باو داركو",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for pau d'arco",
+        "transliteration": "bāw dārkū",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "لاباتشو الوردي",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for pau d'arco",
+        "transliteration": "lābātshū al-wardī",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Pau d'Arco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Lapacho rosado",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for pau d'arco"
+      }
+    ],
+    "ET": [
+      {
+        "name": "ፓው ዳርኮ",
+        "language": "am",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for pau d'arco",
+        "transliteration": "pau darko",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Pau d'Arco",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Vaaleanpunainen lapacho",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for pau d'arco"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Pau d'Arco",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Lapacho rose",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for pau d'arco"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Pau d'Arco",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Pink lapacho",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for pau d'arco"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Pau d'Arco",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for pau d'arco"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Πάου ντ' Άρκο",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for pau d'arco",
+        "transliteration": "Páou nt' Árko",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Ροζ λαπάτσο",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for pau d'arco",
+        "transliteration": "roz lapátso",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Pau d'Arco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Lapacho rosado",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for pau d'arco"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Pau d'Arco",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Ružičasti lapacho",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for pau d'arco"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Pau d'Arco",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Rózsaszín lapacho",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for pau d'arco"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Pau d'Arco",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Lapacho merah muda",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for pau d'arco"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Pau d'Arco",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Pink lapacho",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Pau d'Arco",
+        "language": "ga",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ireland vernacular and descriptive terminology for pau d'arco"
+      }
+    ],
+    "IL": [
+      {
+        "name": "פאו ד'ארקו",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for pau d'arco",
+        "transliteration": "Pau d'Arco",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "לפאצ'ו ורוד",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for pau d'arco",
+        "transliteration": "lapacho varod",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "باو داركو",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for pau d'arco",
+        "transliteration": "bāw dārkū",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "पाउ डी'आर्को",
+        "language": "hi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for pau d'arco",
+        "transliteration": "pau dī ārko",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Pau d'Arco",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for pau d'arco"
+      }
+    ],
+    "IR": [
+      {
+        "name": "پائو دارکو",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for pau d'arco",
+        "transliteration": "pāo dārko",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "لاپاچوی صورتی",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for pau d'arco",
+        "transliteration": "lāpācho-ye surati",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Pau d'Arco",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Lapacho rosa",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for pau d'arco"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Pau d'Arco",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Pink lapacho",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for pau d'arco"
+      }
+    ],
+    "JP": [
+      {
+        "name": "パウダルコ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for pau d'arco",
+        "transliteration": "Paudaruko",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "ピンクラパチョ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for pau d'arco",
+        "transliteration": "Pinku rapacho",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Pau d'Arco",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Lapacho ya waridi",
+        "language": "sw",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Kenya vernacular and descriptive terminology for pau d'arco"
+      }
+    ],
+    "KR": [
+      {
+        "name": "파우다르코",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for pau d'arco",
+        "transliteration": "paudareuko",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "분홍 라파초",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for pau d'arco",
+        "transliteration": "bunhong rapacho",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "Pau d'Arco",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for pau d'arco"
+      }
+    ],
+    "MA": [
+      {
+        "name": "باو داركو",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for pau d'arco",
+        "transliteration": "bāw dārkū",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Lapacho rose",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for pau d'arco"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Pau d'Arco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Lapacho rosado",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for pau d'arco"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Pau d'Arco",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Pau d'Arco",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "紫花风铃木",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for pau d'arco",
+        "transliteration": "zǐhuā fēnglíngmù",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Pau d'Arco",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for pau d'arco"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Pau d'Arco",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Roze lapacho",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for pau d'arco"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Pau d'Arco",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Rosa lapacho",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for pau d'arco"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Pau d'Arco",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Pink lapacho",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for pau d'arco"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Pau d'Arco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Lapacho rosado",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for pau d'arco"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Pau d'Arco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Lapacho rosado",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for pau d'arco"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Pau d'Arco",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Pink lapacho",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for pau d'arco"
+      }
+    ],
+    "PK": [
+      {
+        "name": "پاؤ ڈی آرکو",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for pau d'arco",
+        "transliteration": "Pau De Arco",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "گلابی لاپاچو",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for pau d'arco",
+        "transliteration": "gulabi lapacho",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Pau d'Arco",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Różowy lapacho",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for pau d'arco"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Pau d'arco",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Ipê-roxo",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for pau d'arco"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Lapacho rosado",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Tajy hũ",
+        "language": "gn",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for pau d'arco"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Pau d'Arco",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Lapacho roz",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for pau d'arco"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Пау д'Арко",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for pau d'arco",
+        "transliteration": "Pau d'Arko",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Розовый лапачо",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for pau d'arco",
+        "transliteration": "rozovyy lapacho",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Pau d'Arco",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Rosa lapacho",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for pau d'arco"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Pau d'Arco",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "紫花风铃木",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for pau d'arco",
+        "transliteration": "zǐhuā fēnglíngmù",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Pau d'Arco",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for pau d'arco"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Pau d'Arco",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Ružový lapacho",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for pau d'arco"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Pau d'Arco",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Lapacho rose",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for pau d'arco"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Pau d'Arco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Lapacho rosado",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for pau d'arco"
+      }
+    ],
+    "TH": [
+      {
+        "name": "เปาดาร์โก",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for pau d'arco",
+        "transliteration": "Pao Dako",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "ลาปาโชสีชมพู",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for pau d'arco",
+        "transliteration": "lapacho si chomphu",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "باو داركو",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for pau d'arco",
+        "transliteration": "bāw dārkū",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Lapacho rose",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for pau d'arco"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Pau d'Arco",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Pembe lapacho",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for pau d'arco"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Pau d'Arco",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Pink lapacho",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for pau d'arco"
+      }
+    ],
+    "TW": [
+      {
+        "name": "紫花風鈴木",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for pau d'arco",
+        "transliteration": "zǐhuā fēnglíngmù",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "拉帕喬樹",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for pau d'arco",
+        "transliteration": "lāpàqiáo shù",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Пау д'Арко",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for pau d'arco",
+        "transliteration": "Pau d'Arko",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Рожевий лапачо",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for pau d'arco",
+        "transliteration": "rozhevyi lapacho",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "Pau d'Arco",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Pink lapacho",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for pau d'arco"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Lapacho rosado",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Pau d'Arco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for pau d'arco"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Apamate",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Pau d'Arco",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for pau d'arco"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Pau d'Arco",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Cây lapacho hồng",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for pau d'arco"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Pau d'Arco",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for pau d'arco"
+      },
+      {
+        "name": "Pink lapacho",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for pau d'arco"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Pau d'Arco",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for pau d'arco"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Pau d'Arco",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for pau d'arco"
+      }
+    ]
+  }
+}
