@@ -1,0 +1,1384 @@
+{
+  "plant_id": "paullinia_cupana",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Guaraná",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guaraná brasileño",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Argentina traditional and market terminology for guaraná"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Guarana",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guaranapflanze",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Austria traditional and market terminology for guaraná"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Guarana",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Brazilian guarana",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australia traditional and market terminology for guaraná"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Guarana",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guarana",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guarana",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Belgium traditional and market terminology for guaraná"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Гуарана",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for guaraná",
+        "transliteration": "guarana",
+        "transliteration_scheme": "iso_9"
+      },
+      {
+        "name": "Гуарана растение",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgaria traditional and market terminology for guaraná",
+        "transliteration": "guarana rastenie",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Guaraná",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guaraná brasileño",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivia traditional and market terminology for guaraná"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Guaraná",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guaranazeiro",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Brazil traditional and market terminology for guaraná"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Guarana",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Brazilian guarana",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guarana",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Canada traditional and market terminology for guaraná"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Guarana",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guarana",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guaranà",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Switzerland traditional and market terminology for guaraná"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Guaraná",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guaraná brasileño",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chile traditional and market terminology for guaraná"
+      }
+    ],
+    "CN": [
+      {
+        "name": "瓜拉纳",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for guaraná",
+        "transliteration": "guālānà",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "巴西瓜拉纳",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "China traditional and market terminology for guaraná",
+        "transliteration": "bāxī guālānà",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Guaraná",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guaraná brasileño",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombia traditional and market terminology for guaraná"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Guaraná",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guaraná brasileño",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rica traditional and market terminology for guaraná"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Guaraná",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guaraná brasileño",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuba traditional and market terminology for guaraná"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Guarana",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Rostlina guarana",
+        "language": "cs",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Czech Republic traditional and market terminology for guaraná"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Guarana",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guaranapflanze",
+        "language": "de",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Germany traditional and market terminology for guaraná"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Guarana",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guaranaplante",
+        "language": "da",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Denmark traditional and market terminology for guaraná"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Guaraná",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guaraná brasileño",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican Republic traditional and market terminology for guaraná"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "غوارانا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for guaraná",
+        "transliteration": "ghuwārānā",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Guarana",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Algeria traditional and market terminology for guaraná"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Guaraná",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guaraná brasileño",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuador traditional and market terminology for guaraná"
+      }
+    ],
+    "EG": [
+      {
+        "name": "غوارانا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for guaraná",
+        "transliteration": "ghuwārānā",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "غوارانا البرازيلية",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Egypt traditional and market terminology for guaraná",
+        "transliteration": "ghuwārānā al-barāzīliyyah",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Guaraná",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guaraná brasileño",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Spain traditional and market terminology for guaraná"
+      }
+    ],
+    "ET": [
+      {
+        "name": "ጓራና",
+        "language": "am",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ethiopia vernacular and descriptive terminology for guaraná",
+        "transliteration": "guarana",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Guarana",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guaranakasvi",
+        "language": "fi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Finland traditional and market terminology for guaraná"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Guarana",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guarana du Brésil",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "France traditional and market terminology for guaraná"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Guarana",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Brazilian guarana",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United Kingdom traditional and market terminology for guaraná"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Guarana",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ghana traditional and market terminology for guaraná"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Γκουαρανά",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for guaraná",
+        "transliteration": "gkouaraná",
+        "transliteration_scheme": "iso_843"
+      },
+      {
+        "name": "Βραζιλιάνικη γκουαρανά",
+        "language": "el",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Greece traditional and market terminology for guaraná",
+        "transliteration": "vraziliániki gkouaraná",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Guaraná",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guaraná brasileño",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemala traditional and market terminology for guaraná"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Guarana",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Brazilska guarana",
+        "language": "hr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Croatia traditional and market terminology for guaraná"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Guarana",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Brazil guarana",
+        "language": "hu",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Hungary traditional and market terminology for guaraná"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Guarana",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guarana Brasil",
+        "language": "id",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Indonesia traditional and market terminology for guaraná"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Guarana",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Brazilian guarana",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ireland traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guarana",
+        "language": "ga",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ireland vernacular and descriptive terminology for guaraná"
+      }
+    ],
+    "IL": [
+      {
+        "name": "גוארנה",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for guaraná",
+        "transliteration": "guarana",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "גוארנה ברזילאית",
+        "language": "he",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for guaraná",
+        "transliteration": "guarana brazilit",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "غوارانا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Israel traditional and market terminology for guaraná",
+        "transliteration": "ghuwārānā",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "गुआराना",
+        "language": "hi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for guaraná",
+        "transliteration": "guārānā",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Brazilian guarana",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "India traditional and market terminology for guaraná"
+      }
+    ],
+    "IR": [
+      {
+        "name": "گوارانا",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for guaraná",
+        "transliteration": "guārānā",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "گوارانای برزیلی",
+        "language": "fa",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Iran traditional and market terminology for guaraná",
+        "transliteration": "guārānā-ye barzili",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Guaranà",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guaranà brasiliano",
+        "language": "it",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Italy traditional and market terminology for guaraná"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Guarana",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Brazilian guarana",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jamaica traditional and market terminology for guaraná"
+      }
+    ],
+    "JP": [
+      {
+        "name": "ガラナ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for guaraná",
+        "transliteration": "garana",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "ブラジルガラナ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Japan traditional and market terminology for guaraná",
+        "transliteration": "Burajiru garana",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Guarana",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kenya traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guarana ya Brazili",
+        "language": "sw",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Kenya vernacular and descriptive terminology for guaraná"
+      }
+    ],
+    "KR": [
+      {
+        "name": "과라나",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for guaraná",
+        "transliteration": "gwarana",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "브라질 과라나",
+        "language": "ko",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Korea traditional and market terminology for guaraná",
+        "transliteration": "beurajil gwarana",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "ගුවාරනා",
+        "language": "si",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Sri Lanka vernacular and descriptive terminology for guaraná",
+        "transliteration": "guvāranā",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Guarana",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lanka traditional and market terminology for guaraná"
+      }
+    ],
+    "MA": [
+      {
+        "name": "غوارانا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for guaraná",
+        "transliteration": "ghuwārānā",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Guarana",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Morocco traditional and market terminology for guaraná"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Guaraná",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guaraná brasileño",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexico traditional and market terminology for guaraná"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Guarana",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guarana",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for guaraná"
+      },
+      {
+        "name": "瓜拉纳",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysia traditional and market terminology for guaraná",
+        "transliteration": "guālānà",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Guarana",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Nigeria traditional and market terminology for guaraná"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Guarana",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Braziliaanse guarana",
+        "language": "nl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Netherlands traditional and market terminology for guaraná"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Guarana",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Brasiliansk guarana",
+        "language": "no",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Norway traditional and market terminology for guaraná"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Guarana",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Brazilian guarana",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand traditional and market terminology for guaraná"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Guaraná",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guaraná brasileño",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panama traditional and market terminology for guaraná"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Guaraná",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guaraná brasileño",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peru traditional and market terminology for guaraná"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Guarana",
+        "language": "tl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Brazilian guarana",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Philippines traditional and market terminology for guaraná"
+      }
+    ],
+    "PK": [
+      {
+        "name": "گوارانا",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for guaraná",
+        "transliteration": "guārānā",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "برازیلی گوارانا",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistan traditional and market terminology for guaraná",
+        "transliteration": "barāzīlī guārānā",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Guarana",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guarana brazylijska",
+        "language": "pl",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Poland traditional and market terminology for guaraná"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Guaraná",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guaranazeiro",
+        "language": "pt",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Portugal traditional and market terminology for guaraná"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Guaraná",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guaraná",
+        "language": "gn",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguay traditional and market terminology for guaraná"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Guarana",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guarana braziliană",
+        "language": "ro",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Romania traditional and market terminology for guaraná"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Гуарана",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for guaraná",
+        "transliteration": "guarana",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Бразильская гуарана",
+        "language": "ru",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Russia traditional and market terminology for guaraná",
+        "transliteration": "brazil'skaya guarana",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Guarana",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Brasiliansk guarana",
+        "language": "sv",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sweden traditional and market terminology for guaraná"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Guarana",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for guaraná"
+      },
+      {
+        "name": "瓜拉纳",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for guaraná",
+        "transliteration": "guālānà",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Guarana",
+        "language": "ms",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional and market terminology for guaraná"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Guarana",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Brazílska guarana",
+        "language": "sk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Slovakia traditional and market terminology for guaraná"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Guarana",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guarana du Brésil",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Senegal traditional and market terminology for guaraná"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Guaraná",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guaraná brasileño",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "El Salvador traditional and market terminology for guaraná"
+      }
+    ],
+    "TH": [
+      {
+        "name": "กัวรานา",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for guaraná",
+        "transliteration": "guarana",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "กัวรานาบราซิล",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thailand traditional and market terminology for guaraná",
+        "transliteration": "guarana brazin",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "غوارانا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for guaraná",
+        "transliteration": "ghuwārānā",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Guarana",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Tunisia traditional and market terminology for guaraná"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Guarana",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Brezilya guaranası",
+        "language": "tr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Turkey traditional and market terminology for guaraná"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Guarana",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Brazilian guarana",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Trinidad and Tobago traditional and market terminology for guaraná"
+      }
+    ],
+    "TW": [
+      {
+        "name": "瓜拉納",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for guaraná",
+        "transliteration": "guālānà",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "巴西瓜拉納",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Taiwan traditional and market terminology for guaraná",
+        "transliteration": "bāxī guālānà",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Гуарана",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for guaraná",
+        "transliteration": "huarana",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Бразильська гуарана",
+        "language": "uk",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ukraine traditional and market terminology for guaraná",
+        "transliteration": "brazylska huarana",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "US": [
+      {
+        "name": "Guarana",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Brazilian guarana",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "United States traditional and market terminology for guaraná"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Guaraná",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guaraná brasileño",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguay traditional and market terminology for guaraná"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Guaraná",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guaraná brasileño",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuela traditional and market terminology for guaraná"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Guarana",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Guarana Brasil",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnam traditional and market terminology for guaraná"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Guarana",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for guaraná"
+      },
+      {
+        "name": "Brazilian guarana",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "South Africa traditional and market terminology for guaraná"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Guarana",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zambia traditional and market terminology for guaraná"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Guarana",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Zimbabwe traditional and market terminology for guaraná"
+      }
+    ]
+  }
+}
