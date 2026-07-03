@@ -308,7 +308,7 @@ const dictionary = {
     name_country_breakdown_view_full: "View full country breakdown",
     name_country_breakdown_show_less: "Show fewer countries",
     country_all: "All countries",
-    country_helper: "Select your country to see the most relevant plant for your region.",
+    country_helper: "Select your country to see the most relevant name for your region.",
     name_no_matches_title: "No plants found for this name.",
     name_no_matches_body:
       "It may be missing from the index or spelled differently. Try the home search or another regional name.",
@@ -494,7 +494,7 @@ const dictionary = {
       "No plants found for this name in FloraLexicon. Try another common name or check spelling.",
     meta_name_match_title: 'What is "{name}" called in different countries?',
     meta_name_match_desc:
-      'Find what "{name}" is called in different countries. Compare local herb names and verify the correct plant using scientific classification.',
+      '"{name}" is called {names} and more around the world. See every local name by country and verify the exact plant on FloraLexicon.',
     name_hub_h1_default: 'How is "{name}" called in different countries?',
     name_hub_h1_country_mode:
       'What is "{name}" called in {country}?',
@@ -1084,7 +1084,7 @@ const dictionary = {
     name_country_breakdown_view_full: "Ver desglose completo por país",
     name_country_breakdown_show_less: "Mostrar menos países",
     country_all: "Todos los países",
-    country_helper: "Elige tu país para ver la planta más relevante para tu región.",
+    country_helper: "Elige tu país para ver el nombre más relevante para tu región.",
     name_no_matches_title: "No hay plantas para este nombre.",
     name_no_matches_body:
       "Puede no estar en el índice o estar escrito de otra forma. Prueba la búsqueda desde el inicio u otro nombre regional.",
@@ -1272,7 +1272,7 @@ const dictionary = {
       "No hay plantas para este nombre en FloraLexicon. Prueba otro nombre común o revisa la ortografía.",
     meta_name_match_title: "¿Cómo se llama «{name}» en distintos países?",
     meta_name_match_desc:
-      "Descubre cómo se llama «{name}» en distintos países. Compara nombres locales de hierbas y verifica la planta con la clasificación científica.",
+      "«{name}» se llama {names} y más en todo el mundo. Descubre cada nombre local por país y verifica la planta exacta en FloraLexicon.",
     name_hub_h1_default: "¿Cómo se llama «{name}» en distintos países?",
     name_hub_h1_country_mode:
       "¿Cómo se llama «{name}» en {country}?",

@@ -1,5 +1,6 @@
 import { NameResult } from "@/components/NameResult";
 import {
+  findNameRowsByPlantId,
   getAllNameUrlSlugsIncludingVariants,
   getCountryOptions,
   getPlantGlobalData,
@@ -83,6 +84,31 @@ export function generateMetadata({ params, searchParams }: Props): Metadata {
 
   const nameForMeta =
     result.matches[0]?.name_entry.name ?? slugToDisplayLabel(params.slug);
+  const primaryPlantId = result.matches[0]?.plant_id ?? "";
+  const sampleNames = (() => {
+    if (!primaryPlantId) return "";
+    const rows = findNameRowsByPlantId(primaryPlantId);
+    const seen = new Set<string>();
+    const englishQuery = (nameForMeta || "").trim().toLowerCase();
+    const picks: string[] = [];
+    // Prefer names DIFFERENT from the searched English word, to make the
+    // snippet informative (Cúrcuma, Kurkuma, Açafrão…), then fill if short.
+    const ordered = [...rows].sort((a, b) => {
+      const aEn = (a.name || "").toLowerCase() === englishQuery ? 1 : 0;
+      const bEn = (b.name || "").toLowerCase() === englishQuery ? 1 : 0;
+      return aEn - bEn; // non-English-query names first
+    });
+    for (const r of ordered) {
+      const nm = (r.name || "").trim();
+      if (!nm) continue;
+      const key = nm.toLowerCase();
+      if (seen.has(key)) continue;
+      seen.add(key);
+      picks.push(nm);
+      if (picks.length >= 5) break;
+    }
+    return picks.join(", ");
+  })();
 
   const countryLabel =
     countryFromQuery != null
@@ -103,7 +129,7 @@ export function generateMetadata({ params, searchParams }: Props): Metadata {
           name: nameForMeta,
           country: countryLabel,
         })
-      : ti(lang, "meta_name_match_desc", { name: nameForMeta });
+      : ti(lang, "meta_name_match_desc", { name: nameForMeta, names: sampleNames || nameForMeta });
 
   return {
     title,
