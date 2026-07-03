@@ -4,20 +4,13 @@ import type {
   PlantNameMatch,
   ResolvedPlantContext,
 } from "@/lib/resolver";
-import {
-  buildRegionalPlantRows,
-  isPlaceholderPlant,
-  sortRegionalPlantRows,
-} from "@/lib/resolver";
 import { CountryContextSelector } from "@/components/CountryContextSelector";
 import {
   dedupeNameIndexLinksByNormalizedLabel,
   getNameSlugRowCountForPlant,
   getPlantGlobalData,
-  loadNames,
   plantNameHubSlug,
 } from "@/lib/data";
-import { aggregateCountryFrequencyForNameHub } from "@/lib/geo";
 import { getCountryDisplayName } from "@/lib/countries";
 import { pickCountryModeLocalNames } from "@/lib/nameHubCountryMode";
 import {
@@ -242,7 +235,6 @@ export function NameResult({
   const siblingPlants = plantContexts
     .map((c) => c.plant)
     .filter((p): p is NonNullable<typeof p> => p != null);
-  const names = loadNames();
   /** Country selector: plant regional inventory (`processed` merge), not name-hub footprint. */
   const plantSelectorCountries =
     hasMatches &&
@@ -265,21 +257,19 @@ export function NameResult({
     ? countryMatches.filter((c) => c === normalizedCountry)
     : countryMatches;
 
-  const hubFreq =
-    hasMatches && normalized
-      ? aggregateCountryFrequencyForNameHub(normalized, names)
-      : new Map<string, number>();
-  const regionalRowsSorted = hasMatches
-    ? sortRegionalPlantRows(buildRegionalPlantRows(matches), hubFreq, lang)
-    : [];
-  const plantsByCountry = new Map(
-    regionalRowsSorted.map((r) => [r.countryCode, r.plants])
-  );
-  /** Hub country order × plants tied to this name in that country (from matches; preserves ambiguity). */
-  const filteredCountryRows = filteredCountryMatches.map((countryCode) => ({
-    countryCode,
-    plants: plantsByCountry.get(countryCode) ?? [],
-  }));
+  // Plant-scoped country breakdown: for each country in the plant's inventory,
+  // resolve THAT country's local name for the plant (Cúrcuma, Kurkuma, ...),
+  // reusing the same logic single-country mode uses. Falls back to prior
+  // name-scoped plant rows only for placeholder plants.
+  const breakdownPlantId = primaryContext?.plant_id ?? "";
+  const filteredCountryRows = filteredCountryMatches.map((countryCode) => {
+    const pick = breakdownPlantId
+      ? pickCountryModeLocalNames(breakdownPlantId, countryCode)
+      : null;
+    const localName = pick?.primaryLocalName?.trim() ?? "";
+    const alternatives = pick?.alternativeLabels ?? [];
+    return { countryCode, localName, alternatives, mode: pick?.mode ?? "global" };
+  });
 
   const useKeys = hasMatches ? aggregateUseKeys(plantContexts) : [];
 
@@ -738,38 +728,31 @@ export function NameResult({
           ) : null}
           {filteredCountryRows.length > 0 ? (
             <div className="mt-4 text-sm text-stone-800 dark:text-stone-200">
-              {filteredCountryRows.map(({ countryCode, plants }) => (
-                <div key={countryCode} className="country-row mb-3 last:mb-0">
+              {filteredCountryRows.map((row) => (
+                <div key={row.countryCode} className="country-row mb-3 last:mb-0">
                   <div className="country-name font-semibold text-stone-900 dark:text-stone-100">
                     <Link
-                      href={`${localePath(lang, `/name/${nameSlug}`)}?country=${encodeURIComponent(countryCode)}`}
+                      href={`${localePath(lang, `/name/${nameSlug}`)}?country=${encodeURIComponent(row.countryCode)}`}
                       className="text-flora-forest underline decoration-stone-300 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-300"
                     >
-                      {getCountryDisplayName(countryCode, lang)}
+                      {getCountryDisplayName(row.countryCode, lang)}
                     </Link>
                   </div>
-                  <div className="country-plants ml-3 mt-1 flex flex-wrap gap-2">
-                    {plants.length === 0 ? (
-                      <span className="text-stone-500 dark:text-stone-400">—</span>
-                    ) : (
-                      plants.map((plant) =>
-                        isPlaceholderPlant(plant) ? (
-                          <span
-                            key={plant.id}
-                            className="italic text-stone-600 dark:text-stone-400"
-                          >
-                            {t(lang, "plant_placeholder_title")}
+                  <div className="country-plants ml-3 mt-1 flex flex-wrap items-baseline gap-2">
+                    {row.localName ? (
+                      <>
+                        <span className="font-medium text-stone-900 dark:text-stone-100">
+                          {row.localName}
+                        </span>
+                        {row.alternatives.length > 0 ? (
+                          <span className="text-stone-500 dark:text-stone-400">
+                            {" · "}
+                            {row.alternatives.join(" · ")}
                           </span>
-                        ) : (
-                          <Link
-                            key={plant.id}
-                            href={localePath(lang, `/plant/${plant.id}`)}
-                            className="italic text-flora-forest underline decoration-stone-300 underline-offset-2 hover:decoration-flora-forest dark:text-emerald-300"
-                          >
-                            {plant.scientific_name}
-                          </Link>
-                        )
-                      )
+                        ) : null}
+                      </>
+                    ) : (
+                      <span className="text-stone-500 dark:text-stone-400">—</span>
                     )}
                   </div>
                 </div>
