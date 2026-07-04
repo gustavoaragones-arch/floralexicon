@@ -194,12 +194,37 @@ export default function NamePage({ params, searchParams }: Props) {
     }
   );
 
+  const dtPlantId = result.matches[0]?.plant_id ?? "";
+  const dtScientific =
+    samePlantClusters.find((c) => c.plant.id === dtPlantId)?.plant.scientific_name ?? "";
+  const dtAlternateNames = (() => {
+    if (!dtPlantId) return [] as string[];
+    const rows = findNameRowsByPlantId(dtPlantId);
+    const seen = new Set<string>();
+    const out: string[] = [];
+    for (const r of rows) {
+      const nm = (r.name || "").trim();
+      if (!nm) continue;
+      const key = nm.toLowerCase();
+      if (seen.has(key)) continue;
+      seen.add(key);
+      out.push(nm);
+      if (out.length >= 30) break;
+    }
+    return out;
+  })();
+
   const definedTermJsonLd = {
     "@context": "https://schema.org",
     "@type": "DefinedTerm",
     name: queryLabel,
     description: t(lang, "defined_term_desc"),
     url: `${SITE_URL}/${lang}/name/${canonicalSlug}`,
+    ...(dtAlternateNames.length ? { alternateName: dtAlternateNames } : {}),
+    ...(dtScientific && dtScientific !== t(lang, "plant_placeholder_title")
+      ? { about: { "@type": "Taxon", name: dtScientific } }
+      : {}),
+    inLanguage: lang,
   };
 
   return (
