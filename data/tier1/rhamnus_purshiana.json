@@ -1,0 +1,992 @@
+{
+  "plant_id": "rhamnus_purshiana",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Cáscara sagrada",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Argentine pharmacognosy and herbal terminology for Rhamnus purshiana"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Amerikanischer Faulbaum",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Austrian pharmacopoeial terminology"
+      },
+      {
+        "name": "Cascara",
+        "language": "de",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Austrian herbal supplement terminology"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Cascara",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Australian herbal supplement terminology"
+      },
+      {
+        "name": "Cascara sagrada",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Australian herbal terminology"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Amerikaanse vuilboom",
+        "language": "nl",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Belgian Dutch pharmacognosy terminology"
+      },
+      {
+        "name": "Cascara sagrada",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Belgian French pharmacognosy terminology"
+      },
+      {
+        "name": "Amerikanischer Faulbaum",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Belgian German botanical terminology"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Каскара саграда",
+        "language": "bg",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Bulgarian pharmacognosy terminology",
+        "transliteration": "Kaskara sagrada",
+        "transliteration_scheme": "iso_9"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Cáscara sagrada",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Bolivian herbal terminology"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Cáscara-sagrada",
+        "language": "pt",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Brazilian pharmacognosy terminology"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Cascara sagrada",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Canadian Natural Health Products terminology"
+      },
+      {
+        "name": "Cascara sagrada",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Canadian French herbal terminology"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Amerikanischer Faulbaum",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Swiss German pharmacognosy terminology"
+      },
+      {
+        "name": "Cascara sagrada",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Swiss French pharmacognosy terminology"
+      },
+      {
+        "name": "Cascara sagrada",
+        "language": "it",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Swiss Italian pharmacognosy terminology"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Cáscara sagrada",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Chilean herbal terminology"
+      }
+    ],
+    "CN": [
+      {
+        "name": "美鼠李",
+        "language": "zh",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Chinese pharmacognosy terminology for Rhamnus purshiana",
+        "transliteration": "Měi shǔlǐ",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "神圣鼠李皮",
+        "language": "zh",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Chinese materia medica terminology",
+        "transliteration": "Shénshèng shǔlǐ pí",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Cáscara sagrada",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Colombian herbal terminology"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Cáscara sagrada",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Costa Rican herbal terminology"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Cáscara sagrada",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Cuban herbal terminology"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Kaskara sagrada",
+        "language": "cs",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Czech pharmacognosy terminology"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Amerikanischer Faulbaum",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "German Pharmacopoeia terminology"
+      },
+      {
+        "name": "Cascara sagrada",
+        "language": "de",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "German herbal supplement terminology"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Cascara",
+        "language": "da",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Danish herbal supplement terminology"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Cáscara sagrada",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Dominican herbal terminology"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "قشرة الكاسكارا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Algerian herbal terminology",
+        "transliteration": "qishrat al-kāskārā",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Cascara sagrada",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Algerian French pharmacognosy terminology"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Cáscara sagrada",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Ecuadorian herbal terminology"
+      }
+    ],
+    "EG": [
+      {
+        "name": "قشرة الكاسكارا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Egyptian pharmacognosy terminology for Rhamnus purshiana",
+        "transliteration": "qishrat al-kāskārā",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Cáscara sagrada",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Spanish pharmacopoeial and herbal terminology"
+      }
+    ],
+    "ET": [
+      {
+        "name": "ካስካራ",
+        "language": "am",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ethiopian imported herbal supplement terminology",
+        "transliteration": "kāskārā",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Kaskara",
+        "language": "fi",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Finnish pharmacognosy terminology"
+      },
+      {
+        "name": "Pyhäkuori",
+        "language": "fi",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Finnish translated botanical terminology"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Cascara sagrada",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "French Pharmacopoeia terminology"
+      },
+      {
+        "name": "Bourdaine de Californie",
+        "language": "fr",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "French botanical terminology"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Cascara sagrada",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "British Herbal Pharmacopoeia terminology"
+      },
+      {
+        "name": "Cascara",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "United Kingdom herbal supplement terminology"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Cascara",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Ghanaian herbal supplement terminology"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Κασκάρα σαγκράδα",
+        "language": "el",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Greek pharmacognosy terminology",
+        "transliteration": "Kaskára sagráda",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Cáscara sagrada",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Guatemalan herbal terminology"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Kaskara",
+        "language": "hr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Croatian pharmacognosy terminology"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Kaskara",
+        "language": "hu",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Hungarian pharmacognosy terminology for Rhamnus purshiana"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Kaskara",
+        "language": "id",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Indonesian herbal supplement terminology"
+      },
+      {
+        "name": "Kaskara sagrada",
+        "language": "id",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Indonesian pharmacognosy terminology"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Cascara sagrada",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Irish herbal terminology"
+      }
+    ],
+    "IL": [
+      {
+        "name": "קסקרה סגרדה",
+        "language": "he",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Israeli pharmacognosy terminology",
+        "transliteration": "qaskara sagrada",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "Cascara sagrada",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Indian Ayurvedic and herbal supplement terminology"
+      },
+      {
+        "name": "कैस्कारा सग्राडा",
+        "language": "hi",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Hindi herbal supplement terminology",
+        "transliteration": "Kaiskārā Sagrāḍā",
+        "transliteration_scheme": "iast"
+      }
+    ],
+    "IR": [
+      {
+        "name": "کاسکارا ساگرادا",
+        "language": "fa",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Iranian pharmacognosy terminology",
+        "transliteration": "kāskārā sāgerādā",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Cascara sagrada",
+        "language": "it",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Italian Pharmacopoeia terminology"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Cascara",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Jamaican herbal supplement terminology"
+      }
+    ],
+    "JP": [
+      {
+        "name": "カスカラサグラダ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Japanese pharmacognosy terminology",
+        "transliteration": "Kasukara sagurada",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Cascara",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Kenyan herbal supplement terminology"
+      }
+    ],
+    "KR": [
+      {
+        "name": "카스카라 사그라다",
+        "language": "ko",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Korean pharmacognosy terminology for Rhamnus purshiana",
+        "transliteration": "Kaseukara sageurada",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "Cascara",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Sri Lankan herbal supplement terminology"
+      }
+    ],
+    "MA": [
+      {
+        "name": "قشرة الكاسكارا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Moroccan pharmacognosy terminology",
+        "transliteration": "qishrat al-kāskārā",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Cascara sagrada",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Moroccan French pharmacognosy terminology"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Cáscara sagrada",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Mexican Herbal Pharmacopoeia terminology"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Cascara",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Malaysian herbal supplement terminology"
+      },
+      {
+        "name": "神圣鼠李皮",
+        "language": "zh",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Malaysian Chinese pharmacognosy terminology",
+        "transliteration": "Shénshèng shǔlǐ pí",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Cascara",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Nigerian herbal supplement terminology"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Amerikaanse vuilboom",
+        "language": "nl",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Dutch pharmacognosy terminology"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Kaskara",
+        "language": "no",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Norwegian pharmacognosy terminology"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Cascara sagrada",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "New Zealand herbal terminology"
+      },
+      {
+        "name": "Cascara",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "New Zealand herbal supplement terminology"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Cáscara sagrada",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Panamanian herbal terminology"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Cáscara sagrada",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Peruvian herbal terminology for Rhamnus purshiana"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Cascara",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Philippine herbal supplement terminology"
+      },
+      {
+        "name": "Cascara sagrada",
+        "language": "tl",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Philippine herbal product terminology"
+      }
+    ],
+    "PK": [
+      {
+        "name": "کاسکارا ساگرادا",
+        "language": "ur",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Pakistani Unani and pharmacognosy terminology",
+        "transliteration": "kāskārā sāgrāḍā",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Kaskara",
+        "language": "pl",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Polish pharmacognosy terminology"
+      },
+      {
+        "name": "Kora szakłaku amerykańskiego",
+        "language": "pl",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Polish botanical pharmacognosy terminology"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Cáscara-sagrada",
+        "language": "pt",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Portuguese Pharmacopoeia terminology"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Cáscara sagrada",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Paraguayan herbal terminology"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Cascara sagrada",
+        "language": "ro",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Romanian pharmacognosy terminology"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Каскара саграда",
+        "language": "ru",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Russian pharmacognosy terminology",
+        "transliteration": "Kaskara sagrada",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Kaskara",
+        "language": "sv",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Swedish pharmacognosy terminology"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Cascara",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Singapore herbal supplement terminology"
+      },
+      {
+        "name": "神圣鼠李皮",
+        "language": "zh",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Singapore Chinese pharmacognosy terminology",
+        "transliteration": "Shénshèng shǔlǐ pí",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Kaskara sagrada",
+        "language": "sk",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Slovak pharmacognosy terminology for Rhamnus purshiana"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Cascara sagrada",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Senegalese French pharmacognosy terminology"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Cáscara sagrada",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Salvadoran herbal terminology"
+      }
+    ],
+    "TH": [
+      {
+        "name": "คาสคารา ซากราดา",
+        "language": "th",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Thai pharmacognosy terminology",
+        "transliteration": "Khaskhara Sagrada",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "قشرة الكاسكارا",
+        "language": "ar",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Tunisian pharmacognosy terminology",
+        "transliteration": "qishrat al-kāskārā",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Cascara sagrada",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Tunisian French pharmacognosy terminology"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Kaskara",
+        "language": "tr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Turkish pharmacognosy terminology"
+      },
+      {
+        "name": "Kaskara sagrada",
+        "language": "tr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Turkish herbal supplement terminology"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Cascara",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Trinidad and Tobago herbal supplement terminology"
+      }
+    ],
+    "TW": [
+      {
+        "name": "神聖鼠李皮",
+        "language": "zh",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Taiwan pharmacognosy terminology",
+        "transliteration": "Shénshèng shǔlǐ pí",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Каскара саграда",
+        "language": "uk",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Ukrainian pharmacognosy terminology",
+        "transliteration": "Kaskara sahrada",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "US": [
+      {
+        "name": "Cascara sagrada",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "United States Pharmacopeia and herbal terminology"
+      },
+      {
+        "name": "Cascara",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "United States herbal supplement terminology"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Cáscara sagrada",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Uruguayan herbal terminology for Rhamnus purshiana"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Cáscara sagrada",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Venezuelan herbal terminology"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Vỏ cascara",
+        "language": "vi",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Vietnamese herbal supplement terminology"
+      },
+      {
+        "name": "Cascara sagrada",
+        "language": "vi",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Vietnamese pharmacognosy terminology"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Cascara",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "South African herbal supplement terminology"
+      },
+      {
+        "name": "Cascara sagrada",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "South African complementary medicine terminology"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Cascara",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Zambian herbal supplement terminology"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Cascara",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Zimbabwean herbal supplement terminology"
+      }
+    ]
+  }
+}
