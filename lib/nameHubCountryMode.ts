@@ -92,11 +92,12 @@ function buildResult(
     };
   }
 
-  const primaries = entries.filter((e) =>
-    e.country_usage?.some((u) => u.country === c && u.is_primary === true)
-  );
-  const pool = primaries.length ? primaries : entries;
-  const ranked = sortForCountryMode(pool, c);
+  // Rank the full entry pool -- do not exclude non-primary entries, since
+  // that silently dropped legitimate companion names (e.g. commercial vs.
+  // pharmacopoeia register) from alternativeLabels. sortForCountryMode
+  // already orders by dominance/country-count/name-length, which is enough
+  // to put the best name first without discarding the rest.
+  const ranked = sortForCountryMode(entries, c);
   const orderedLabels: string[] = [];
   const seenNorm = new Set<string>();
   for (const e of ranked) {

@@ -268,7 +268,25 @@ export function NameResult({
       : null;
     const localName = pick?.primaryLocalName?.trim() ?? "";
     const alternatives = pick?.alternativeLabels ?? [];
-    return { countryCode, localName, alternatives, mode: pick?.mode ?? "global" };
+    const labels = [localName, ...alternatives]
+      .map((s) => s.trim())
+      .filter(Boolean);
+    const seen = new Set<string>();
+    const displayName = labels
+      .filter((s) => {
+        const k = s.toLowerCase();
+        if (seen.has(k)) return false;
+        seen.add(k);
+        return true;
+      })
+      .join(" / ");
+    return {
+      countryCode,
+      localName,
+      alternatives,
+      displayName,
+      mode: pick?.mode ?? "global",
+    };
   });
 
   const useKeys = hasMatches ? aggregateUseKeys(plantContexts) : [];
@@ -320,6 +338,24 @@ export function NameResult({
   const countryPrimaryHeadline = isCountryMode
     ? countryLocalPick?.primaryLocalName.trim() || inputName
     : "";
+  const countryPrimaryDisplayName = (() => {
+    if (!isCountryMode) return "";
+    const labels = [
+      countryPrimaryHeadline,
+      ...(countryLocalPick?.alternativeLabels ?? []),
+    ]
+      .map((s) => s.trim())
+      .filter(Boolean);
+    const seen = new Set<string>();
+    return labels
+      .filter((s) => {
+        const k = s.toLowerCase();
+        if (seen.has(k)) return false;
+        seen.add(k);
+        return true;
+      })
+      .join(" / ");
+  })();
 
   const plantData = primaryMatch
     ? getPlantGlobalData(primaryMatch.plant_id, plantGlobalOpts)
@@ -401,7 +437,7 @@ export function NameResult({
                   <div className="mt-3 space-y-2">
                     <div className="flex flex-wrap items-baseline gap-x-3 gap-y-2">
                       <p className="local-primary-name font-serif text-2xl font-semibold leading-tight tracking-tight text-stone-900 sm:text-3xl md:text-4xl dark:text-stone-100">
-                        {countryPrimaryHeadline}
+                        {countryPrimaryDisplayName || countryPrimaryHeadline}
                       </p>
                       {countryLocalPick ? (
                         <span
@@ -740,17 +776,9 @@ export function NameResult({
                   </div>
                   <div className="country-plants ml-3 mt-1 flex flex-wrap items-baseline gap-2">
                     {row.localName ? (
-                      <>
-                        <span className="font-medium text-stone-900 dark:text-stone-100">
-                          {row.localName}
-                        </span>
-                        {row.alternatives.length > 0 ? (
-                          <span className="text-stone-500 dark:text-stone-400">
-                            {" · "}
-                            {row.alternatives.join(" · ")}
-                          </span>
-                        ) : null}
-                      </>
+                      <span className="font-medium text-stone-900 dark:text-stone-100">
+                        {row.displayName || row.localName}
+                      </span>
                     ) : (
                       <span className="text-stone-500 dark:text-stone-400">—</span>
                     )}
