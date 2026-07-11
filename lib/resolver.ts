@@ -2,6 +2,7 @@ import { getCountryDisplayName, getCountryName } from "@/lib/countries";
 import type { Locale } from "@/lib/i18n";
 import type { NameEntry, Plant } from "@/lib/data";
 import {
+  findNameRowsByPlantId,
   getNamesByNormalized,
   getPlantById,
   loadNames,
@@ -500,6 +501,34 @@ function buildConfidenceByPlant(
   return byPlant;
 }
 
+function buildMatchesWithConfidence(
+  nameEntries: NameEntry[],
+  selectedCountry?: string
+): PlantNameMatch[] {
+  const confidenceByPlant = buildConfidenceByPlant(nameEntries, selectedCountry);
+  const collected = collectMatches(nameEntries);
+  const deduped = dedupeMatches(collected);
+  return deduped.map((m) => {
+    const c = confidenceByPlant.get(m.plant_id);
+    const base = c?.confidence ?? 0;
+    const coverageBoost = plantCoverageBoostForCountry(
+      m.plant_id,
+      selectedCountry,
+      nameEntries
+    );
+    const authorityBoost = nameEntryAuthorityBoost(m.name_entry);
+    const boosted = Math.min(1, base + coverageBoost + authorityBoost);
+    return {
+      ...m,
+      relevance_score: boosted,
+      confidence: boosted,
+      global_agreement: c?.global_agreement ?? 0,
+      regional_strength: c?.regional_strength ?? 0,
+      name_dominance: c?.name_dominance ?? 0,
+    };
+  });
+}
+
 /**
  * When a region is selected: keep only rows for that ISO where the name entry
  * is either explicitly tied to the country or shares the region’s mapped language
@@ -543,36 +572,39 @@ function resolvePlantNameCore(
   const query = typeof input === "string" ? input : "";
   const normalized = resolveCanonicalNameKey(query);
   const nameEntries = normalized ? getNamesByNormalized(normalized) : [];
-  const confidenceByPlant = buildConfidenceByPlant(nameEntries, country);
-
-  const collected = collectMatches(nameEntries);
-  const deduped = dedupeMatches(collected);
-  const withConfidence: PlantNameMatch[] = deduped.map((m) => {
-    const c = confidenceByPlant.get(m.plant_id);
-    const base = c?.confidence ?? 0;
-    const coverageBoost = plantCoverageBoostForCountry(
-      m.plant_id,
-      country,
-      nameEntries
-    );
-    const authorityBoost = nameEntryAuthorityBoost(m.name_entry);
-    const boosted = Math.min(1, base + coverageBoost + authorityBoost);
-    return {
-      ...m,
-      relevance_score: boosted,
-      confidence: boosted,
-      global_agreement: c?.global_agreement ?? 0,
-      regional_strength: c?.regional_strength ?? 0,
-      name_dominance: c?.name_dominance ?? 0,
-    };
-  });
-
   const selected = country?.trim().toUpperCase();
-  const countryScoped = selected
+  let rankingEntries = nameEntries;
+  const withConfidence = buildMatchesWithConfidence(nameEntries, country);
+  let countryScoped = selected
     ? withConfidence.filter((m) => matchAllowedForSelectedCountry(m, selected))
     : withConfidence;
 
-  const sorted = sortMatches(countryScoped, country, nameEntries);
+  // Country-mode fallback: if scoped query has no rows, but the unscoped query
+  // resolves to exactly one plant, pivot to that plant's own country-specific
+  // name inventory instead of returning a false empty state.
+  if (selected && countryScoped.length === 0) {
+    const unscoped = resolvePlantNameCore(input, undefined, lang);
+    if (unscoped.plantContexts.length === 1) {
+      const plantId = unscoped.plantContexts[0]?.plant_id ?? "";
+      if (plantId) {
+        const plantEntries = findNameRowsByPlantId(plantId);
+        const fallbackWithConfidence = buildMatchesWithConfidence(
+          plantEntries,
+          selected
+        );
+        const fallbackScoped = fallbackWithConfidence.filter(
+          (m) =>
+            m.plant_id === plantId && matchAllowedForSelectedCountry(m, selected)
+        );
+        if (fallbackScoped.length > 0) {
+          rankingEntries = plantEntries;
+          countryScoped = fallbackScoped;
+        }
+      }
+    }
+  }
+
+  const sorted = sortMatches(countryScoped, country, rankingEntries);
   const matches = enrichMatchesWithAuthority(sorted);
   const ambiguity = resolveAmbiguity(matches);
 
