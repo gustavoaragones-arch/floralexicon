@@ -75,6 +75,9 @@ function sortedGroupKeys(groups: Map<string, string[]>): string[] {
 const linkClass =
   "text-stone-800 underline decoration-stone-300 underline-offset-2 hover:text-flora-forest hover:decoration-flora-forest dark:text-stone-200 dark:hover:text-emerald-300 dark:hover:decoration-emerald-400";
 
+const jumpNavLinkClass =
+  "text-stone-600 transition-colors hover:text-flora-forest dark:text-stone-400 dark:hover:text-emerald-200";
+
 export default function NamesIndexPage({ params }: Props) {
   if (!isLocale(params.lang)) notFound();
   const lang = params.lang as Locale;
@@ -92,6 +95,21 @@ export default function NamesIndexPage({ params }: Props) {
         {t(lang, "names_index_lead")}
       </p>
 
+      <nav
+        aria-label="Alphabet index"
+        className="sticky top-0 z-10 -mx-6 mt-8 flex flex-wrap gap-x-3 gap-y-2 border-b border-stone-200/90 bg-flora-cream/95 px-6 py-3 text-sm font-medium backdrop-blur-sm dark:border-stone-800 dark:bg-stone-950/95"
+      >
+        {letters.map((letter) => (
+          <a
+            key={letter}
+            href={`#names-letter-${letter === "#" ? "other" : letter}`}
+            className={jumpNavLinkClass}
+          >
+            {letter === "#" ? t(lang, "names_index_other") : letter}
+          </a>
+        ))}
+      </nav>
+
       <div className="mt-12 space-y-10">
         {letters.map((letter) => (
           <section
@@ -100,7 +118,7 @@ export default function NamesIndexPage({ params }: Props) {
           >
             <h2
               id={`names-letter-${letter === "#" ? "other" : letter}`}
-              className="font-serif text-2xl font-semibold tracking-tight text-flora-forest dark:text-emerald-300"
+              className="scroll-mt-28 font-serif text-2xl font-semibold tracking-tight text-flora-forest dark:text-emerald-300"
             >
               {letter === "#" ? t(lang, "names_index_other") : letter}
             </h2>
