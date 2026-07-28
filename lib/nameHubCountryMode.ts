@@ -99,14 +99,19 @@ function buildResult(
   // to put the best name first without discarding the rest.
   const ranked = sortForCountryMode(entries, c);
   const orderedLabels: string[] = [];
+  // Dedup key includes language: two entries that are the same word in the
+  // SAME language are duplicates, but two entries that only look similar
+  // after diacritic-stripping (e.g. Spanish "Angelica" vs Catalan "Angelica")
+  // are genuinely different names and must not be collapsed into one.
   const seenNorm = new Set<string>();
   for (const e of ranked) {
     const label = e.name.trim();
     if (!label) continue;
     const nk = normalizeString(label);
     if (!nk) continue;
-    if (seenNorm.has(nk)) continue;
-    seenNorm.add(nk);
+    const dedupeKey = `${nk}\u0000${(e.language ?? "").trim().toLowerCase()}`;
+    if (seenNorm.has(dedupeKey)) continue;
+    seenNorm.add(dedupeKey);
     orderedLabels.push(label);
   }
 
