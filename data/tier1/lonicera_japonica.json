@@ -1,0 +1,997 @@
+{
+  "plant_id": "lonicera_japonica",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Madreselva japonesa",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Argentine botanical terminology"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Japanisches Geißblatt",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Austrian botanical terminology"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Japanese Honeysuckle",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Australian invasive plant terminology"
+      },
+      {
+        "name": "Japanese Honeysuckle Vine",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Australian horticultural trade usage"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Japanse kamperfoelie",
+        "language": "nl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Belgian Dutch botanical terminology"
+      },
+      {
+        "name": "Chèvrefeuille du Japon",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Belgian French botanical terminology"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Японски орлови нокти",
+        "language": "bg",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bulgarian botanical terminology",
+        "transliteration": "Yaponski orlovi nokti",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Madreselva japonesa",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Bolivian botanical terminology"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Madressilva-japonesa",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Brazilian botanical terminology"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Japanese Honeysuckle",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Canadian invasive species terminology"
+      },
+      {
+        "name": "Chèvrefeuille du Japon",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Canadian French botanical terminology"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Japanisches Geißblatt",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Swiss German botanical terminology"
+      },
+      {
+        "name": "Chèvrefeuille du Japon",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Swiss French botanical terminology"
+      },
+      {
+        "name": "Caprifoglio giapponese",
+        "language": "it",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Swiss Italian botanical terminology"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Madreselva japonesa",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Chilean botanical terminology"
+      }
+    ],
+    "CN": [
+      {
+        "name": "金银花",
+        "language": "zh",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Chinese Pharmacopoeia",
+        "transliteration": "Jīn Yín Huā",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "忍冬",
+        "language": "zh",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Traditional Chinese medicine terminology",
+        "transliteration": "Rěn Dōng",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Madreselva japonesa",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Colombian botanical terminology"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Madreselva japonesa",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Costa Rican botanical terminology"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Madreselva japonesa",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Cuban botanical terminology"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Zimolez japonský",
+        "language": "cs",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Czech botanical terminology"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Japanisches Geißblatt",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "German botanical terminology"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Japansk gedeblad",
+        "language": "da",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Danish botanical terminology"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Madreselva japonesa",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Dominican botanical terminology"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "زهر العسل الياباني",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Algerian botanical terminology",
+        "transliteration": "Zahr al-'asal al-yābānī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Chèvrefeuille du Japon",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Algerian French botanical terminology"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Madreselva japonesa",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ecuadorian botanical terminology"
+      }
+    ],
+    "EG": [
+      {
+        "name": "زهر العسل الياباني",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Egyptian botanical terminology",
+        "transliteration": "Zahr al-'asal al-yābānī",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Madreselva japonesa",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Spanish botanical terminology"
+      }
+    ],
+    "ET": [
+      {
+        "name": "የጃፓን ማር አበባ",
+        "language": "am",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ethiopian botanical terminology",
+        "transliteration": "Yejāpān mar abeba",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Japaninkuusama",
+        "language": "fi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Finnish botanical terminology"
+      },
+      {
+        "name": "Japansk kaprifol",
+        "language": "sv",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Finnish Swedish botanical terminology"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Chèvrefeuille du Japon",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "French botanical terminology"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Japanese Honeysuckle",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "United Kingdom invasive species terminology"
+      },
+      {
+        "name": "Japanese Honeysuckle Vine",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "United Kingdom horticultural terminology"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Japanese Honeysuckle",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Ghanaian botanical terminology"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Ιαπωνικό αγιόκλημα",
+        "language": "el",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Greek botanical terminology",
+        "transliteration": "Iaponikó agióklima",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Madreselva japonesa",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Guatemalan botanical terminology"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Japanska kozja krv",
+        "language": "hr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Croatian botanical terminology"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Japán lonc",
+        "language": "hu",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Hungarian botanical terminology"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Honeysuckle Jepang",
+        "language": "id",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Indonesian botanical terminology"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Japanese Honeysuckle",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Irish botanical terminology"
+      }
+    ],
+    "IL": [
+      {
+        "name": "יערה יפנית",
+        "language": "he",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Israeli botanical terminology",
+        "transliteration": "Ya'arah Yapanit",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "زهر العسل الياباني",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Arabic botanical terminology in Israel",
+        "transliteration": "Zahr al-'asal al-yābānī",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "जापानी हनीसकल",
+        "language": "hi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Indian botanical terminology",
+        "transliteration": "Jāpānī Hanīsakal",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Japanese Honeysuckle",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Indian horticultural terminology"
+      }
+    ],
+    "IR": [
+      {
+        "name": "پیچ امین‌الدوله ژاپنی",
+        "language": "fa",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Iranian botanical terminology",
+        "transliteration": "Pich-e Amīn al-Dowleh-ye Zhāpani",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Caprifoglio giapponese",
+        "language": "it",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Italian botanical terminology"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Japanese Honeysuckle",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Jamaican horticultural terminology"
+      }
+    ],
+    "JP": [
+      {
+        "name": "スイカズラ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Japanese botanical terminology",
+        "transliteration": "Suikazura",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "忍冬",
+        "language": "ja",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Japanese Kampo terminology",
+        "transliteration": "Nindō",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Japanese Honeysuckle",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Kenyan horticultural terminology"
+      }
+    ],
+    "KR": [
+      {
+        "name": "인동덩굴",
+        "language": "ko",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Korean Pharmacopoeia botanical terminology",
+        "transliteration": "Indong-deonggul",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "금은화",
+        "language": "ko",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Korean traditional medicine terminology",
+        "transliteration": "Geum-eun-hwa",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "ජපන් හනිසකල්",
+        "language": "si",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Sri Lankan botanical terminology",
+        "transliteration": "Japan Hanisakal",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Japanese Honeysuckle",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Sri Lankan horticultural terminology"
+      }
+    ],
+    "MA": [
+      {
+        "name": "زهر العسل الياباني",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Moroccan botanical terminology",
+        "transliteration": "Zahr al-'asal al-yābānī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Chèvrefeuille du Japon",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Moroccan French botanical terminology"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Madreselva japonesa",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Mexican botanical terminology"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Honeysuckle Jepun",
+        "language": "ms",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Malaysian botanical terminology"
+      },
+      {
+        "name": "金银花",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysian Chinese medicine terminology",
+        "transliteration": "Jīn Yín Huā",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Japanese Honeysuckle",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Nigerian horticultural terminology"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Japanse kamperfoelie",
+        "language": "nl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Dutch botanical terminology"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Japansk kaprifol",
+        "language": "no",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Norwegian botanical terminology"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Japanese Honeysuckle",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "New Zealand invasive plant terminology"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Madreselva japonesa",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Panamanian botanical terminology"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Madreselva japonesa",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Peruvian botanical terminology"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Japanese Honeysuckle",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Philippine horticultural terminology"
+      },
+      {
+        "name": "Japanese Honeysuckle",
+        "language": "tl",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Filipino botanical terminology"
+      }
+    ],
+    "PK": [
+      {
+        "name": "جاپانی ہنی سکل",
+        "language": "ur",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Pakistani botanical terminology",
+        "transliteration": "Jāpānī Hanī Sikal",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Japanese Honeysuckle",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Pakistani horticultural terminology"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Wiciokrzew japoński",
+        "language": "pl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Polish botanical terminology"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Madressilva-do-Japão",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Portuguese botanical terminology"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Madreselva japonesa",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Paraguayan botanical terminology"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Caprifoi japonez",
+        "language": "ro",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Romanian botanical terminology"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Жимолость японская",
+        "language": "ru",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Russian botanical terminology",
+        "transliteration": "Zhimolost' yaponskaya",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Japansk kaprifol",
+        "language": "sv",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Swedish botanical terminology"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Japanese Honeysuckle",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Singapore horticultural terminology"
+      },
+      {
+        "name": "金银花",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore Chinese medicine terminology",
+        "transliteration": "Jīn Yín Huā",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Japonský zemolez",
+        "language": "sk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Slovak botanical terminology"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Chèvrefeuille du Japon",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Senegalese botanical terminology"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Madreselva japonesa",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Salvadoran botanical terminology"
+      }
+    ],
+    "TH": [
+      {
+        "name": "สายน้ำผึ้งญี่ปุ่น",
+        "language": "th",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Thai botanical terminology",
+        "transliteration": "Sai Nam Phueng Yipun",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "金银花",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thai Chinese medicine terminology",
+        "transliteration": "Jīn Yín Huā",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "TN": [
+      {
+        "name": "زهر العسل الياباني",
+        "language": "ar",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Tunisian botanical terminology",
+        "transliteration": "Zahr al-'asal al-yābānī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Chèvrefeuille du Japon",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Tunisian French botanical terminology"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Japon hanımeli",
+        "language": "tr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Turkish botanical terminology"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Japanese Honeysuckle",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Trinidad and Tobago horticultural terminology"
+      }
+    ],
+    "TW": [
+      {
+        "name": "金銀花",
+        "language": "zh",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Taiwan Herbal Pharmacopoeia",
+        "transliteration": "Jīn Yín Huā",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "忍冬",
+        "language": "zh",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Taiwan traditional Chinese medicine terminology",
+        "transliteration": "Rěn Dōng",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Жимолость японська",
+        "language": "uk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ukrainian botanical terminology",
+        "transliteration": "Zhymolost yaponska",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "US": [
+      {
+        "name": "Japanese Honeysuckle",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "United States invasive species terminology"
+      },
+      {
+        "name": "Japanese Honeysuckle",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "United States Spanish horticultural terminology"
+      },
+      {
+        "name": "Jin Yin Hua",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "United States traditional Chinese medicine terminology"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Madreselva japonesa",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Uruguayan botanical terminology"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Madreselva japonesa",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Venezuelan botanical terminology"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Kim ngân hoa",
+        "language": "vi",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Vietnamese traditional medicine terminology"
+      },
+      {
+        "name": "Nhẫn đông",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnamese botanical terminology"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Japanese Honeysuckle",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "South African invasive plant terminology"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Japanese Honeysuckle",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Zambian horticultural terminology"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Japanese Honeysuckle",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Zimbabwean horticultural terminology"
+      }
+    ]
+  }
+}
