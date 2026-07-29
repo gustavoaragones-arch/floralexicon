@@ -99,11 +99,20 @@ function buildResult(
   // to put the best name first without discarding the rest.
   const ranked = sortForCountryMode(entries, c);
   const orderedLabels: string[] = [];
-  // Dedup key includes language: two entries that are the same word in the
-  // SAME language are duplicates, but two entries that only look similar
-  // after diacritic-stripping (e.g. Spanish "Angelica" vs Catalan "Angelica")
-  // are genuinely different names and must not be collapsed into one.
+  // Two dedup checks, for two different problems:
+  // 1) language-scoped key: two entries that are the same word in the SAME
+  //    language are duplicates, but two entries that only look similar after
+  //    diacritic-stripping (e.g. Spanish "Angelica" vs Catalan "Angelica")
+  //    are genuinely different names and must not be collapsed into one.
+  // 2) exact visible-string check: an unmodified international loanword
+  //    (e.g. "Poria" used in both Dutch and French Belgium) can appear as
+  //    two SEPARATE source entries with different language tags but
+  //    identical rendered text. Showing "Poria / Poria" gives a reader zero
+  //    information regardless of the language metadata behind it, so once
+  //    a literal string has been shown, any further entry with that exact
+  //    same visible text is skipped even if its language tag differs.
   const seenNorm = new Set<string>();
+  const seenExact = new Set<string>();
   for (const e of ranked) {
     const label = e.name.trim();
     if (!label) continue;
@@ -111,7 +120,9 @@ function buildResult(
     if (!nk) continue;
     const dedupeKey = `${nk}\u0000${(e.language ?? "").trim().toLowerCase()}`;
     if (seenNorm.has(dedupeKey)) continue;
+    if (seenExact.has(label)) continue;
     seenNorm.add(dedupeKey);
+    seenExact.add(label);
     orderedLabels.push(label);
   }
 
