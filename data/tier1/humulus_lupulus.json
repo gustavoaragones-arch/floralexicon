@@ -1,0 +1,1037 @@
+{
+  "plant_id": "humulus_lupulus",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Lúpulo",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Argentine herbal terminology"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Hopfen",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Austrian Pharmacopoeia terminology"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Hops",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Australian herbal terminology"
+      },
+      {
+        "name": "Hop",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Australian botanical terminology"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Hop",
+        "language": "nl",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Belgian Dutch herbal terminology"
+      },
+      {
+        "name": "Houblon",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Belgian French herbal terminology"
+      },
+      {
+        "name": "Hopfen",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Belgian German herbal terminology"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Хмел",
+        "language": "bg",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Bulgarian Pharmacopoeia terminology",
+        "transliteration": "Hmel",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Lúpulo",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Bolivian herbal terminology"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Lúpulo",
+        "language": "pt",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Brazilian Pharmacopoeia terminology"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Hops",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Canadian Natural Health terminology"
+      },
+      {
+        "name": "Houblon",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Canadian French herbal terminology"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Hopfen",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Swiss German herbal terminology"
+      },
+      {
+        "name": "Houblon",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Swiss French herbal terminology"
+      },
+      {
+        "name": "Luppolo",
+        "language": "it",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Swiss Italian herbal terminology"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Lúpulo",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Chilean herbal terminology"
+      }
+    ],
+    "CN": [
+      {
+        "name": "啤酒花",
+        "language": "zh",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Chinese Pharmacopoeia terminology",
+        "transliteration": "Pí Jiǔ Huā",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "忽布",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Traditional Chinese herbal terminology",
+        "transliteration": "Hū Bù",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Lúpulo",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Colombian herbal terminology"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Lúpulo",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Costa Rican herbal terminology"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Lúpulo",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Cuban herbal terminology"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Chmel",
+        "language": "cs",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Czech Pharmacopoeia terminology"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Hopfen",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "German Pharmacopoeia terminology"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Humle",
+        "language": "da",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Danish herbal terminology"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Lúpulo",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Dominican herbal terminology"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "حشيشة الدينار",
+        "language": "ar",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Arabic herbal terminology",
+        "transliteration": "Ḥashīshat al-Dīnār",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Houblon",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Algerian French herbal terminology"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Lúpulo",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Ecuadorian herbal terminology"
+      }
+    ],
+    "EG": [
+      {
+        "name": "حشيشة الدينار",
+        "language": "ar",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Egyptian herbal terminology",
+        "transliteration": "Ḥashīshat al-Dīnār",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Lúpulo",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Spanish Pharmacopoeia terminology"
+      },
+      {
+        "name": "Llúpol",
+        "language": "ca",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Catalan botanical terminology"
+      },
+      {
+        "name": "Lúpulo",
+        "language": "gl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Galician botanical terminology"
+      },
+      {
+        "name": "Lupulua",
+        "language": "eu",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Basque botanical terminology"
+      }
+    ],
+    "ET": [
+      {
+        "name": "ሆፕስ",
+        "language": "am",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ethiopian herbal terminology",
+        "transliteration": "Hopisi",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Humala",
+        "language": "fi",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Finnish herbal terminology"
+      },
+      {
+        "name": "Humle",
+        "language": "sv",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Finland Swedish botanical terminology"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Houblon",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "French Pharmacopoeia terminology"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Hops",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "British Herbal Pharmacopoeia terminology"
+      },
+      {
+        "name": "Hop",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "British botanical terminology"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Hops",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Ghanaian herbal terminology"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Λυκίσκος",
+        "language": "el",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Greek Pharmacopoeia terminology",
+        "transliteration": "Lykiskos",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Lúpulo",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Guatemalan herbal terminology"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Hmelj",
+        "language": "hr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Croatian Pharmacopoeia terminology"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Komló",
+        "language": "hu",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Hungarian Pharmacopoeia terminology"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Hop",
+        "language": "id",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Indonesian herbal terminology"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Hops",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Irish herbal terminology"
+      }
+    ],
+    "IL": [
+      {
+        "name": "כשות",
+        "language": "he",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Hebrew herbal terminology",
+        "transliteration": "Kashot",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "حشيشة الدينار",
+        "language": "ar",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Arabic herbal terminology in Israel",
+        "transliteration": "Ḥashīshat al-Dīnār",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "हॉप्स",
+        "language": "hi",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Indian herbal terminology",
+        "transliteration": "Hops",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Hops",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Indian English herbal terminology"
+      }
+    ],
+    "IR": [
+      {
+        "name": "رازک",
+        "language": "fa",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Iranian Pharmacopoeia terminology",
+        "transliteration": "Rāzak",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Luppolo",
+        "language": "it",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Italian Pharmacopoeia terminology"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Hops",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Jamaican herbal terminology"
+      }
+    ],
+    "JP": [
+      {
+        "name": "ホップ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Japanese Pharmacopoeia terminology",
+        "transliteration": "Hoppu",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "セイヨウカラハナソウ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Japanese botanical terminology",
+        "transliteration": "Seiyō Karahanasō",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Hops",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Kenyan herbal terminology"
+      }
+    ],
+    "KR": [
+      {
+        "name": "홉",
+        "language": "ko",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Korean Pharmacopoeia terminology",
+        "transliteration": "Hop",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "호프",
+        "language": "ko",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Korean commercial herbal terminology",
+        "transliteration": "Hopeu",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "හොප්ස්",
+        "language": "si",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Sri Lankan herbal terminology",
+        "transliteration": "Hops",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Hops",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Sri Lankan English herbal terminology"
+      }
+    ],
+    "MA": [
+      {
+        "name": "حشيشة الدينار",
+        "language": "ar",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Moroccan herbal terminology",
+        "transliteration": "Ḥashīshat al-Dīnār",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Houblon",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Moroccan French herbal terminology"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Lúpulo",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Mexican herbal terminology"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Hop",
+        "language": "ms",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Malaysian herbal terminology"
+      },
+      {
+        "name": "Hops",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Malaysian English herbal terminology"
+      },
+      {
+        "name": "啤酒花",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysian traditional Chinese medicine terminology",
+        "transliteration": "Pí Jiǔ Huā",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Hops",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Nigerian herbal terminology"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Hop",
+        "language": "nl",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Dutch Pharmacopoeia terminology"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Humle",
+        "language": "no",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Norwegian herbal terminology"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Hops",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "New Zealand herbal terminology"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Lúpulo",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Panamanian herbal terminology"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Lúpulo",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Peruvian herbal terminology"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Hops",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Philippine herbal terminology"
+      },
+      {
+        "name": "Hop",
+        "language": "tl",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Filipino herbal terminology"
+      }
+    ],
+    "PK": [
+      {
+        "name": "ہاپس",
+        "language": "ur",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Pakistani herbal terminology",
+        "transliteration": "Hāps",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Hops",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Pakistani English herbal terminology"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Chmiel",
+        "language": "pl",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Polish Pharmacopoeia terminology"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Lúpulo",
+        "language": "pt",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Portuguese Pharmacopoeia terminology"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Lúpulo",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Paraguayan herbal terminology"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Hamei",
+        "language": "ro",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Romanian Pharmacopoeia terminology"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Хмель",
+        "language": "ru",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Russian Pharmacopoeia terminology",
+        "transliteration": "Khmel'",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Humle",
+        "language": "sv",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Swedish herbal terminology"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Hops",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Singapore herbal terminology"
+      },
+      {
+        "name": "啤酒花",
+        "language": "zh",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore traditional Chinese medicine terminology",
+        "transliteration": "Pí Jiǔ Huā",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "Hop",
+        "language": "ms",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Singapore Malay herbal terminology"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Chmeľ",
+        "language": "sk",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Slovak Pharmacopoeia terminology"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Houblon",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Senegalese herbal terminology"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Lúpulo",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Salvadoran herbal terminology"
+      }
+    ],
+    "TH": [
+      {
+        "name": "ฮอปส์",
+        "language": "th",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Thai herbal terminology",
+        "transliteration": "Hop",
+        "transliteration_scheme": "rtgs"
+      },
+      {
+        "name": "ดอกฮอปส์",
+        "language": "th",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Thai commercial herbal terminology",
+        "transliteration": "Dok Hop",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "حشيشة الدينار",
+        "language": "ar",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Tunisian herbal terminology",
+        "transliteration": "Ḥashīshat al-Dīnār",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Houblon",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Tunisian French herbal terminology"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Şerbetçiotu",
+        "language": "tr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Turkish Pharmacopoeia terminology"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Hops",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Trinidad and Tobago herbal terminology"
+      }
+    ],
+    "TW": [
+      {
+        "name": "啤酒花",
+        "language": "zh",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Taiwan Herbal Pharmacopoeia",
+        "transliteration": "Pí Jiǔ Huā",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Хміль",
+        "language": "uk",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Ukrainian Pharmacopoeia terminology",
+        "transliteration": "Khmil",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "US": [
+      {
+        "name": "Hops",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "United States Herbal Pharmacopoeia terminology"
+      },
+      {
+        "name": "Hop",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "United States botanical terminology"
+      },
+      {
+        "name": "Lúpulo",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "United States Spanish herbal terminology"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Lúpulo",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Uruguayan herbal terminology"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Lúpulo",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Venezuelan herbal terminology"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Hoa bia",
+        "language": "vi",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Vietnamese herbal terminology"
+      },
+      {
+        "name": "Hops",
+        "language": "vi",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Vietnamese commercial herbal terminology"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Hops",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "South African herbal terminology"
+      },
+      {
+        "name": "Hop",
+        "language": "af",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Afrikaans botanical terminology"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Hops",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Zambian herbal terminology"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Hops",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Zimbabwean herbal terminology"
+      }
+    ]
+  }
+}
