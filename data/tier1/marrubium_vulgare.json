@@ -1,5 +1,5 @@
 {
-  "plant_id": "elettaria_cardamomum",
+  "plant_id": "marrubium_vulgare",
   "tier": 1,
   "supported_countries": [
     "AR",
@@ -82,7 +82,7 @@
   "names": {
     "AR": [
       {
-        "name": "Cardamomo",
+        "name": "Marrubio",
         "language": "es",
         "confidence": "high",
         "source": "pharmacopoeia_traditional",
@@ -91,7 +91,7 @@
     ],
     "AT": [
       {
-        "name": "Kardamom",
+        "name": "Gewöhnlicher Andorn",
         "language": "de",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -100,14 +100,14 @@
     ],
     "AU": [
       {
-        "name": "Cardamom",
+        "name": "White horehound",
         "language": "en",
         "confidence": "high",
         "source": "pharmacopoeia_traditional",
         "citation": "Australian herbal terminology"
       },
       {
-        "name": "Green cardamom",
+        "name": "Common horehound",
         "language": "en",
         "confidence": "high",
         "source": "linguistic",
@@ -116,21 +116,21 @@
     ],
     "BE": [
       {
-        "name": "Kardemom",
+        "name": "Malrove",
         "language": "nl",
         "confidence": "high",
         "source": "pharmacopoeia",
         "citation": "Belgian Dutch herbal terminology"
       },
       {
-        "name": "Cardamome",
+        "name": "Marrube blanc",
         "language": "fr",
         "confidence": "high",
         "source": "pharmacopoeia",
         "citation": "Belgian French herbal terminology"
       },
       {
-        "name": "Kardamom",
+        "name": "Gewöhnlicher Andorn",
         "language": "de",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -139,18 +139,18 @@
     ],
     "BG": [
       {
-        "name": "Кардамон",
+        "name": "Обикновен ранилист",
         "language": "bg",
         "confidence": "high",
         "source": "pharmacopoeia",
         "citation": "Bulgarian Pharmacopoeia terminology",
-        "transliteration": "Kardamon",
+        "transliteration": "Obiknoven ranilist",
         "transliteration_scheme": "bgn_pcgn"
       }
     ],
     "BO": [
       {
-        "name": "Cardamomo",
+        "name": "Marrubio",
         "language": "es",
         "confidence": "high",
         "source": "commercial",
@@ -159,7 +159,7 @@
     ],
     "BR": [
       {
-        "name": "Cardamomo",
+        "name": "Marroio-branco",
         "language": "pt",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -168,14 +168,14 @@
     ],
     "CA": [
       {
-        "name": "Cardamom",
+        "name": "White horehound",
         "language": "en",
         "confidence": "high",
         "source": "pharmacopoeia",
         "citation": "Canadian Natural Health terminology"
       },
       {
-        "name": "Cardamome",
+        "name": "Marrube blanc",
         "language": "fr",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -184,21 +184,21 @@
     ],
     "CH": [
       {
-        "name": "Kardamom",
+        "name": "Gewöhnlicher Andorn",
         "language": "de",
         "confidence": "high",
         "source": "pharmacopoeia",
         "citation": "Swiss German herbal terminology"
       },
       {
-        "name": "Cardamome",
+        "name": "Marrube blanc",
         "language": "fr",
         "confidence": "high",
         "source": "pharmacopoeia",
         "citation": "Swiss French herbal terminology"
       },
       {
-        "name": "Cardamomo",
+        "name": "Marrubio bianco",
         "language": "it",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -207,7 +207,7 @@
     ],
     "CL": [
       {
-        "name": "Cardamomo",
+        "name": "Marrubio",
         "language": "es",
         "confidence": "high",
         "source": "pharmacopoeia_traditional",
@@ -216,18 +216,27 @@
     ],
     "CN": [
       {
-        "name": "小豆蔻",
+        "name": "夏枯草薄荷",
         "language": "zh",
-        "confidence": "high",
-        "source": "pharmacopoeia",
-        "citation": "Chinese Pharmacopoeia terminology",
-        "transliteration": "Xiǎo Dòu Kòu",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Chinese herbal terminology",
+        "transliteration": "Xià Kū Cǎo Bò He",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "白夏枯草",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Chinese botanical terminology",
+        "transliteration": "Bái Xià Kū Cǎo",
         "transliteration_scheme": "pinyin"
       }
     ],
     "CO": [
       {
-        "name": "Cardamomo",
+        "name": "Marrubio",
         "language": "es",
         "confidence": "high",
         "source": "pharmacopoeia_traditional",
@@ -236,7 +245,7 @@
     ],
     "CR": [
       {
-        "name": "Cardamomo",
+        "name": "Marrubio",
         "language": "es",
         "confidence": "high",
         "source": "commercial",
@@ -245,7 +254,7 @@
     ],
     "CU": [
       {
-        "name": "Cardamomo",
+        "name": "Marrubio",
         "language": "es",
         "confidence": "high",
         "source": "traditional",
@@ -254,7 +263,7 @@
     ],
     "CZ": [
       {
-        "name": "Kardamom",
+        "name": "Jablečník obecný",
         "language": "cs",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -263,7 +272,7 @@
     ],
     "DE": [
       {
-        "name": "Kardamom",
+        "name": "Gewöhnlicher Andorn",
         "language": "de",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -272,7 +281,7 @@
     ],
     "DK": [
       {
-        "name": "Kardemomme",
+        "name": "Hvid horehound",
         "language": "da",
         "confidence": "high",
         "source": "pharmacopoeia_traditional",
@@ -281,7 +290,7 @@
     ],
     "DO": [
       {
-        "name": "Cardamomo",
+        "name": "Marrubio",
         "language": "es",
         "confidence": "high",
         "source": "commercial",
@@ -290,16 +299,16 @@
     ],
     "DZ": [
       {
-        "name": "هيل",
+        "name": "المرو الأبيض",
         "language": "ar",
         "confidence": "high",
         "source": "traditional",
         "citation": "Algerian traditional herbal terminology",
-        "transliteration": "Hayl",
+        "transliteration": "Al-Marw al-Abyaḍ",
         "transliteration_scheme": "ala_lc"
       },
       {
-        "name": "Cardamome",
+        "name": "Marrube blanc",
         "language": "fr",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -308,7 +317,7 @@
     ],
     "EC": [
       {
-        "name": "Cardamomo",
+        "name": "Marrubio",
         "language": "es",
         "confidence": "high",
         "source": "commercial",
@@ -317,39 +326,39 @@
     ],
     "EG": [
       {
-        "name": "هيل",
+        "name": "المرو الأبيض",
         "language": "ar",
         "confidence": "high",
         "source": "traditional",
         "citation": "Egyptian herbal terminology",
-        "transliteration": "Hayl",
+        "transliteration": "Al-Marw al-Abyaḍ",
         "transliteration_scheme": "ala_lc"
       }
     ],
     "ES": [
       {
-        "name": "Cardamomo",
+        "name": "Marrubio",
         "language": "es",
         "confidence": "high",
         "source": "pharmacopoeia",
         "citation": "Spanish Pharmacopoeia terminology"
       },
       {
-        "name": "Cardamom",
+        "name": "Marrubi blanc",
         "language": "ca",
-        "confidence": "medium",
+        "confidence": "high",
         "source": "linguistic",
         "citation": "Catalan botanical terminology"
       },
       {
-        "name": "Cardamomo",
+        "name": "Marrubio",
         "language": "gl",
         "confidence": "high",
         "source": "linguistic",
         "citation": "Galician botanical terminology"
       },
       {
-        "name": "Kardamomo",
+        "name": "Marrubio",
         "language": "eu",
         "confidence": "medium",
         "source": "linguistic",
@@ -358,34 +367,34 @@
     ],
     "ET": [
       {
-        "name": "ካርዳሞም",
+        "name": "ነጭ ማሩቢየም",
         "language": "am",
         "confidence": "medium",
         "source": "commercial",
         "citation": "Ethiopian herbal terminology",
-        "transliteration": "Kārdamom",
+        "transliteration": "Nech Marubiyem",
         "transliteration_scheme": "ala_lc"
       }
     ],
     "FI": [
       {
-        "name": "Kardemumma",
+        "name": "Rohtoandorni",
         "language": "fi",
         "confidence": "high",
         "source": "pharmacopoeia_traditional",
         "citation": "Finnish herbal terminology"
       },
       {
-        "name": "Kardemumma",
+        "name": "Vit horehound",
         "language": "sv",
-        "confidence": "high",
+        "confidence": "medium",
         "source": "linguistic",
         "citation": "Finland Swedish botanical terminology"
       }
     ],
     "FR": [
       {
-        "name": "Cardamome",
+        "name": "Marrube blanc",
         "language": "fr",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -394,14 +403,14 @@
     ],
     "GB": [
       {
-        "name": "Cardamom",
+        "name": "White horehound",
         "language": "en",
         "confidence": "high",
         "source": "pharmacopoeia",
         "citation": "British Herbal Pharmacopoeia terminology"
       },
       {
-        "name": "Green cardamom",
+        "name": "Common horehound",
         "language": "en",
         "confidence": "high",
         "source": "linguistic",
@@ -410,7 +419,7 @@
     ],
     "GH": [
       {
-        "name": "Cardamom",
+        "name": "White horehound",
         "language": "en",
         "confidence": "high",
         "source": "commercial",
@@ -419,18 +428,18 @@
     ],
     "GR": [
       {
-        "name": "Καρδάμωμο",
+        "name": "Μαρούβιο",
         "language": "el",
         "confidence": "high",
         "source": "pharmacopoeia_traditional",
         "citation": "Greek herbal terminology",
-        "transliteration": "Kardámomo",
+        "transliteration": "Marouvio",
         "transliteration_scheme": "iso_843"
       }
     ],
     "GT": [
       {
-        "name": "Cardamomo",
+        "name": "Marrubio",
         "language": "es",
         "confidence": "high",
         "source": "traditional",
@@ -439,7 +448,7 @@
     ],
     "HR": [
       {
-        "name": "Kardamom",
+        "name": "Obični očajnjak",
         "language": "hr",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -448,7 +457,7 @@
     ],
     "HU": [
       {
-        "name": "Kardamom",
+        "name": "Orvosi pemetefű",
         "language": "hu",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -457,16 +466,16 @@
     ],
     "ID": [
       {
-        "name": "Kapulaga",
+        "name": "White horehound",
         "language": "id",
         "confidence": "high",
-        "source": "traditional",
+        "source": "commercial",
         "citation": "Indonesian herbal terminology"
       }
     ],
     "IE": [
       {
-        "name": "Cardamom",
+        "name": "White horehound",
         "language": "en",
         "confidence": "high",
         "source": "pharmacopoeia_traditional",
@@ -475,36 +484,36 @@
     ],
     "IL": [
       {
-        "name": "הל",
+        "name": "מרוביון מצוי",
         "language": "he",
         "confidence": "high",
         "source": "pharmacopoeia_traditional",
         "citation": "Israeli herbal terminology",
-        "transliteration": "Hel",
+        "transliteration": "Merovyon Matsui",
         "transliteration_scheme": "ala_lc"
       },
       {
-        "name": "هيل",
+        "name": "المرو الأبيض",
         "language": "ar",
         "confidence": "high",
         "source": "traditional",
         "citation": "Arabic herbal terminology in Israel",
-        "transliteration": "Hayl",
+        "transliteration": "Al-Marw al-Abyaḍ",
         "transliteration_scheme": "ala_lc"
       }
     ],
     "IN": [
       {
-        "name": "इलायची",
+        "name": "व्हाइट होरहाउंड",
         "language": "hi",
         "confidence": "high",
-        "source": "pharmacopoeia",
-        "citation": "Indian Pharmacopoeia terminology",
-        "transliteration": "Ilāycī",
+        "source": "commercial",
+        "citation": "Indian herbal terminology",
+        "transliteration": "Whāiṭ Horhauṇḍ",
         "transliteration_scheme": "iso_15919"
       },
       {
-        "name": "Cardamom",
+        "name": "White horehound",
         "language": "en",
         "confidence": "high",
         "source": "commercial",
@@ -513,18 +522,18 @@
     ],
     "IR": [
       {
-        "name": "هل",
+        "name": "فراسیون سفید",
         "language": "fa",
         "confidence": "high",
         "source": "pharmacopoeia",
         "citation": "Iranian Pharmacopoeia terminology",
-        "transliteration": "Hel",
+        "transliteration": "Farāsiyūn-e Sefid",
         "transliteration_scheme": "ala_lc"
       }
     ],
     "IT": [
       {
-        "name": "Cardamomo",
+        "name": "Marrubio bianco",
         "language": "it",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -533,7 +542,7 @@
     ],
     "JM": [
       {
-        "name": "Cardamom",
+        "name": "White horehound",
         "language": "en",
         "confidence": "high",
         "source": "traditional",
@@ -542,63 +551,65 @@
     ],
     "JP": [
       {
-        "name": "カルダモン",
+        "name": "ホワイトホアハウンド",
         "language": "ja",
         "confidence": "high",
-        "source": "pharmacopoeia",
-        "citation": "Japanese Pharmacopoeia terminology",
-        "transliteration": "Karudamon",
+        "source": "commercial",
+        "citation": "Japanese herbal terminology",
+        "transliteration": "Howaito Hoahaundo",
+        "transliteration_scheme": "hepburn"
+      },
+      {
+        "name": "シロニガクサ",
+        "language": "ja",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Japanese botanical terminology",
+        "transliteration": "Shironigakusa",
         "transliteration_scheme": "hepburn"
       }
     ],
     "KE": [
       {
-        "name": "Cardamom",
+        "name": "White horehound",
         "language": "en",
         "confidence": "high",
         "source": "commercial",
         "citation": "Kenyan herbal terminology"
-      },
-      {
-        "name": "Iliki",
-        "language": "sw",
-        "confidence": "high",
-        "source": "traditional",
-        "citation": "Swahili herbal terminology"
       }
     ],
     "KR": [
       {
-        "name": "카다멈",
+        "name": "흰털쓴쓴이",
+        "language": "ko",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Korean botanical terminology",
+        "transliteration": "Huin-teol-sseunsseuni",
+        "transliteration_scheme": "rr"
+      },
+      {
+        "name": "화이트 호어하운드",
         "language": "ko",
         "confidence": "high",
-        "source": "pharmacopoeia",
-        "citation": "Korean Pharmacopoeia terminology",
-        "transliteration": "Kadameom",
+        "source": "commercial",
+        "citation": "Korean herbal terminology",
+        "transliteration": "Hwaiteu Hoeohaundeu",
         "transliteration_scheme": "rr"
       }
     ],
     "LK": [
       {
-        "name": "එනසාල්",
+        "name": "වයිට් හෝර්හවුන්ඩ්",
         "language": "si",
-        "confidence": "high",
-        "source": "traditional",
+        "confidence": "medium",
+        "source": "commercial",
         "citation": "Sri Lankan herbal terminology",
-        "transliteration": "Enasāl",
+        "transliteration": "Vaiṭ Horhauṇḍ",
         "transliteration_scheme": "iso_15919"
       },
       {
-        "name": "ஏலக்காய்",
-        "language": "ta",
-        "confidence": "high",
-        "source": "traditional",
-        "citation": "Sri Lankan Tamil herbal terminology",
-        "transliteration": "Ēlakkāy",
-        "transliteration_scheme": "iso_15919"
-      },
-      {
-        "name": "Cardamom",
+        "name": "White horehound",
         "language": "en",
         "confidence": "high",
         "source": "commercial",
@@ -607,16 +618,16 @@
     ],
     "MA": [
       {
-        "name": "هيل",
+        "name": "المرو الأبيض",
         "language": "ar",
         "confidence": "high",
         "source": "traditional",
         "citation": "Moroccan herbal terminology",
-        "transliteration": "Hayl",
+        "transliteration": "Al-Marw al-Abyaḍ",
         "transliteration_scheme": "ala_lc"
       },
       {
-        "name": "Cardamome",
+        "name": "Marrube blanc",
         "language": "fr",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -625,7 +636,7 @@
     ],
     "MX": [
       {
-        "name": "Cardamomo",
+        "name": "Marrubio",
         "language": "es",
         "confidence": "high",
         "source": "pharmacopoeia_traditional",
@@ -634,41 +645,32 @@
     ],
     "MY": [
       {
-        "name": "Buah pelaga",
+        "name": "White horehound",
         "language": "ms",
         "confidence": "high",
-        "source": "traditional",
+        "source": "commercial",
         "citation": "Malaysian herbal terminology"
       },
       {
-        "name": "Cardamom",
+        "name": "White horehound",
         "language": "en",
         "confidence": "high",
         "source": "commercial",
         "citation": "Malaysian English herbal terminology"
       },
       {
-        "name": "小豆蔻",
+        "name": "白夏枯草",
         "language": "zh",
-        "confidence": "high",
+        "confidence": "medium",
         "source": "traditional",
         "citation": "Malaysian traditional Chinese herbal terminology",
-        "transliteration": "Xiǎo Dòu Kòu",
+        "transliteration": "Bái Xià Kū Cǎo",
         "transliteration_scheme": "pinyin"
-      },
-      {
-        "name": "ஏலக்காய்",
-        "language": "ta",
-        "confidence": "high",
-        "source": "traditional",
-        "citation": "Malaysian Tamil herbal terminology",
-        "transliteration": "Ēlakkāy",
-        "transliteration_scheme": "iso_15919"
       }
     ],
     "NG": [
       {
-        "name": "Cardamom",
+        "name": "White horehound",
         "language": "en",
         "confidence": "high",
         "source": "commercial",
@@ -677,7 +679,7 @@
     ],
     "NL": [
       {
-        "name": "Kardemom",
+        "name": "Malrove",
         "language": "nl",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -686,16 +688,16 @@
     ],
     "NO": [
       {
-        "name": "Kardemomme",
+        "name": "Hvit horehound",
         "language": "no",
-        "confidence": "high",
-        "source": "pharmacopoeia_traditional",
-        "citation": "Norwegian herbal terminology"
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Norwegian botanical terminology"
       }
     ],
     "NZ": [
       {
-        "name": "Cardamom",
+        "name": "White horehound",
         "language": "en",
         "confidence": "high",
         "source": "commercial",
@@ -704,7 +706,7 @@
     ],
     "PA": [
       {
-        "name": "Cardamomo",
+        "name": "Marrubio",
         "language": "es",
         "confidence": "high",
         "source": "commercial",
@@ -713,7 +715,7 @@
     ],
     "PE": [
       {
-        "name": "Cardamomo",
+        "name": "Marrubio",
         "language": "es",
         "confidence": "high",
         "source": "pharmacopoeia_traditional",
@@ -722,32 +724,32 @@
     ],
     "PH": [
       {
-        "name": "Kardamomo",
-        "language": "tl",
-        "confidence": "high",
-        "source": "commercial",
-        "citation": "Filipino herbal terminology"
-      },
-      {
-        "name": "Cardamom",
+        "name": "White horehound",
         "language": "en",
         "confidence": "high",
         "source": "commercial",
-        "citation": "Philippine English herbal terminology"
+        "citation": "Philippine herbal terminology"
+      },
+      {
+        "name": "White horehound",
+        "language": "tl",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Filipino herbal terminology"
       }
     ],
     "PK": [
       {
-        "name": "الائچی",
+        "name": "وائٹ ہورہاؤنڈ",
         "language": "ur",
         "confidence": "high",
-        "source": "pharmacopoeia_traditional",
+        "source": "commercial",
         "citation": "Pakistani herbal terminology",
-        "transliteration": "Ilāichī",
+        "transliteration": "White Horehound",
         "transliteration_scheme": "ala_lc"
       },
       {
-        "name": "Cardamom",
+        "name": "White horehound",
         "language": "en",
         "confidence": "high",
         "source": "commercial",
@@ -756,7 +758,7 @@
     ],
     "PL": [
       {
-        "name": "Kardamon",
+        "name": "Szanta zwyczajna",
         "language": "pl",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -765,7 +767,7 @@
     ],
     "PT": [
       {
-        "name": "Cardamomo",
+        "name": "Marroio-branco",
         "language": "pt",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -774,7 +776,7 @@
     ],
     "PY": [
       {
-        "name": "Cardamomo",
+        "name": "Marrubio",
         "language": "es",
         "confidence": "high",
         "source": "commercial",
@@ -783,7 +785,14 @@
     ],
     "RO": [
       {
-        "name": "Cardamom",
+        "name": "Sovârv alb",
+        "language": "ro",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Romanian herbal terminology"
+      },
+      {
+        "name": "Marrubiu",
         "language": "ro",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -792,18 +801,18 @@
     ],
     "RU": [
       {
-        "name": "Кардамон",
+        "name": "Шандра обыкновенная",
         "language": "ru",
         "confidence": "high",
         "source": "pharmacopoeia",
         "citation": "Russian Pharmacopoeia terminology",
-        "transliteration": "Kardamon",
+        "transliteration": "Shandra obyknovennaya",
         "transliteration_scheme": "bgn_pcgn"
       }
     ],
     "SE": [
       {
-        "name": "Kardemumma",
+        "name": "Vitmalört",
         "language": "sv",
         "confidence": "high",
         "source": "pharmacopoeia_traditional",
@@ -812,41 +821,32 @@
     ],
     "SG": [
       {
-        "name": "Cardamom",
+        "name": "White horehound",
         "language": "en",
         "confidence": "high",
         "source": "commercial",
         "citation": "Singapore herbal terminology"
       },
       {
-        "name": "小豆蔻",
+        "name": "白夏枯草",
         "language": "zh",
-        "confidence": "high",
+        "confidence": "medium",
         "source": "traditional",
         "citation": "Singapore traditional Chinese herbal terminology",
-        "transliteration": "Xiǎo Dòu Kòu",
+        "transliteration": "Bái Xià Kū Cǎo",
         "transliteration_scheme": "pinyin"
       },
       {
-        "name": "Buah pelaga",
+        "name": "White horehound",
         "language": "ms",
         "confidence": "high",
-        "source": "traditional",
+        "source": "commercial",
         "citation": "Singapore Malay herbal terminology"
-      },
-      {
-        "name": "ஏலக்காய்",
-        "language": "ta",
-        "confidence": "high",
-        "source": "traditional",
-        "citation": "Singapore Tamil herbal terminology",
-        "transliteration": "Ēlakkāy",
-        "transliteration_scheme": "iso_15919"
       }
     ],
     "SK": [
       {
-        "name": "Kardamóm",
+        "name": "Jablčník obyčajný",
         "language": "sk",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -855,7 +855,7 @@
     ],
     "SN": [
       {
-        "name": "Cardamome",
+        "name": "Marrube blanc",
         "language": "fr",
         "confidence": "high",
         "source": "pharmacopoeia_traditional",
@@ -864,7 +864,7 @@
     ],
     "SV": [
       {
-        "name": "Cardamomo",
+        "name": "Marrubio",
         "language": "es",
         "confidence": "high",
         "source": "traditional",
@@ -873,27 +873,27 @@
     ],
     "TH": [
       {
-        "name": "กระวานเขียว",
+        "name": "ไวต์ฮอร์ฮาวด์",
         "language": "th",
         "confidence": "high",
-        "source": "pharmacopoeia_traditional",
+        "source": "commercial",
         "citation": "Thai herbal terminology",
-        "transliteration": "Krawan Khiao",
+        "transliteration": "Wait Hohāo",
         "transliteration_scheme": "rtgs"
       }
     ],
     "TN": [
       {
-        "name": "هيل",
+        "name": "المرو الأبيض",
         "language": "ar",
         "confidence": "high",
         "source": "traditional",
         "citation": "Tunisian herbal terminology",
-        "transliteration": "Hayl",
+        "transliteration": "Al-Marw al-Abyaḍ",
         "transliteration_scheme": "ala_lc"
       },
       {
-        "name": "Cardamome",
+        "name": "Marrube blanc",
         "language": "fr",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -902,16 +902,23 @@
     ],
     "TR": [
       {
-        "name": "Kakule",
+        "name": "Ak yalancı ısırgan",
         "language": "tr",
         "confidence": "high",
         "source": "pharmacopoeia",
         "citation": "Turkish Pharmacopoeia terminology"
+      },
+      {
+        "name": "Beyaz andız otu",
+        "language": "tr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Turkish traditional herbal terminology"
       }
     ],
     "TT": [
       {
-        "name": "Cardamom",
+        "name": "White horehound",
         "language": "en",
         "confidence": "high",
         "source": "commercial",
@@ -920,43 +927,43 @@
     ],
     "TW": [
       {
-        "name": "小豆蔻",
+        "name": "白夏枯草",
         "language": "zh",
         "confidence": "high",
-        "source": "pharmacopoeia",
-        "citation": "Taiwan Pharmacopoeia terminology",
-        "transliteration": "Xiǎo Dòu Kòu",
+        "source": "traditional",
+        "citation": "Taiwan traditional herbal terminology",
+        "transliteration": "Bái Xià Kū Cǎo",
         "transliteration_scheme": "pinyin"
       }
     ],
     "UA": [
       {
-        "name": "Кардамон",
+        "name": "Шандра звичайна",
         "language": "uk",
         "confidence": "high",
         "source": "pharmacopoeia",
         "citation": "Ukrainian Pharmacopoeia terminology",
-        "transliteration": "Kardamon",
+        "transliteration": "Shandra zvychaina",
         "transliteration_scheme": "bgn_pcgn"
       }
     ],
     "US": [
       {
-        "name": "Cardamom",
+        "name": "White horehound",
         "language": "en",
         "confidence": "high",
         "source": "pharmacopoeia",
         "citation": "United States Herbal Pharmacopoeia terminology"
       },
       {
-        "name": "Green cardamom",
+        "name": "Common horehound",
         "language": "en",
         "confidence": "high",
         "source": "linguistic",
         "citation": "United States botanical terminology"
       },
       {
-        "name": "Cardamomo",
+        "name": "Marrubio",
         "language": "es",
         "confidence": "high",
         "source": "commercial",
@@ -965,7 +972,7 @@
     ],
     "UY": [
       {
-        "name": "Cardamomo",
+        "name": "Marrubio",
         "language": "es",
         "confidence": "high",
         "source": "pharmacopoeia_traditional",
@@ -974,7 +981,7 @@
     ],
     "VE": [
       {
-        "name": "Cardamomo",
+        "name": "Marrubio",
         "language": "es",
         "confidence": "high",
         "source": "traditional",
@@ -983,39 +990,39 @@
     ],
     "VN": [
       {
-        "name": "Bạch đậu khấu",
+        "name": "Mã đề trắng",
         "language": "vi",
-        "confidence": "high",
-        "source": "pharmacopoeia",
-        "citation": "Vietnamese Pharmacopoeia terminology"
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Vietnamese herbal terminology"
       },
       {
-        "name": "Thảo quả xanh",
+        "name": "Bạch hạ khô thảo",
         "language": "vi",
         "confidence": "medium",
         "source": "traditional",
-        "citation": "Vietnamese herbal terminology"
+        "citation": "Vietnamese traditional herbal terminology"
       }
     ],
     "ZA": [
       {
-        "name": "Cardamom",
+        "name": "White horehound",
         "language": "en",
         "confidence": "high",
         "source": "commercial",
         "citation": "South African herbal terminology"
       },
       {
-        "name": "Kardemom",
+        "name": "Wit malva",
         "language": "af",
-        "confidence": "high",
+        "confidence": "medium",
         "source": "linguistic",
         "citation": "Afrikaans botanical terminology"
       }
     ],
     "ZM": [
       {
-        "name": "Cardamom",
+        "name": "White horehound",
         "language": "en",
         "confidence": "high",
         "source": "commercial",
@@ -1024,7 +1031,7 @@
     ],
     "ZW": [
       {
-        "name": "Cardamom",
+        "name": "White horehound",
         "language": "en",
         "confidence": "high",
         "source": "commercial",
