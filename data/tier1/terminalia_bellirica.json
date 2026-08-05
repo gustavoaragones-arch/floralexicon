@@ -1,0 +1,961 @@
+{
+  "plant_id": "terminalia_bellirica",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Bibhitaki",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Argentine Ayurvedic terminology"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Belerische Myrobalane",
+        "language": "de",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Austrian botanical terminology"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Bibhitaki",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Australian Ayurvedic terminology"
+      },
+      {
+        "name": "Beleric",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Australian botanical terminology"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Bibhitaki",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Belgian Dutch Ayurvedic terminology"
+      },
+      {
+        "name": "Myrobolan beleric",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Belgian French botanical terminology"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Бибхитаки",
+        "language": "bg",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Bulgarian Ayurvedic terminology",
+        "transliteration": "Bibhitaki",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Bibhitaki",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Bolivian Ayurvedic terminology"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Bibhitaki",
+        "language": "pt",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Brazilian Ayurvedic terminology"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Bibhitaki",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Canadian Ayurvedic terminology"
+      },
+      {
+        "name": "Myrobolan beleric",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Canadian French botanical terminology"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Belerische Myrobalane",
+        "language": "de",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Swiss German botanical terminology"
+      },
+      {
+        "name": "Myrobolan beleric",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Swiss French botanical terminology"
+      },
+      {
+        "name": "Mirabolano bellirico",
+        "language": "it",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Swiss Italian botanical terminology"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Bibhitaki",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Chilean Ayurvedic terminology"
+      }
+    ],
+    "CN": [
+      {
+        "name": "毗黎勒",
+        "language": "zh",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Traditional Chinese medicine terminology",
+        "transliteration": "Pí Lí Lè",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Bibhitaki",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Colombian Ayurvedic terminology"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Bibhitaki",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Costa Rican Ayurvedic terminology"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Bibhitaki",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Cuban Ayurvedic terminology"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Bibhitaki",
+        "language": "cs",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Czech Ayurvedic terminology"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Belerische Myrobalane",
+        "language": "de",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "German botanical terminology"
+      },
+      {
+        "name": "Bibhitaki",
+        "language": "de",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "German Ayurvedic terminology"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Bibhitaki",
+        "language": "da",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Danish Ayurvedic terminology"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Bibhitaki",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Dominican Ayurvedic terminology"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "بيبهيتاكي",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Algerian Ayurvedic terminology",
+        "transliteration": "Bībhītākī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Myrobolan beleric",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Algerian French botanical terminology"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Bibhitaki",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Ecuadorian Ayurvedic terminology"
+      }
+    ],
+    "EG": [
+      {
+        "name": "بيبهيتاكي",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Egyptian Ayurvedic terminology",
+        "transliteration": "Bībhītākī",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Bibhitaki",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Spanish Ayurvedic terminology"
+      },
+      {
+        "name": "Mirobálano bellírico",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Spanish botanical terminology"
+      }
+    ],
+    "ET": [
+      {
+        "name": "ቢብሂታኪ",
+        "language": "am",
+        "confidence": "low",
+        "source": "commercial",
+        "citation": "Ethiopian Ayurvedic terminology",
+        "transliteration": "Bibhitaki",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Bibhitaki",
+        "language": "fi",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Finnish Ayurvedic terminology"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Myrobolan beleric",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "French botanical terminology"
+      },
+      {
+        "name": "Bibhitaki",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "French Ayurvedic terminology"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Bibhitaki",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "British Ayurvedic terminology"
+      },
+      {
+        "name": "Beleric",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "British botanical terminology"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Bibhitaki",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ghanaian Ayurvedic terminology"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Μπιμπχιτάκι",
+        "language": "el",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Greek Ayurvedic terminology",
+        "transliteration": "Mpimpchitáki",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Bibhitaki",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Guatemalan Ayurvedic terminology"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Bibhitaki",
+        "language": "hr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Croatian Ayurvedic terminology"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Bibhitaki",
+        "language": "hu",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Hungarian Ayurvedic terminology"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Bibhitaki",
+        "language": "id",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Indonesian Ayurvedic terminology"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Bibhitaki",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Irish Ayurvedic terminology"
+      }
+    ],
+    "IL": [
+      {
+        "name": "ביבהיטאקי",
+        "language": "he",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Israeli Ayurvedic terminology",
+        "transliteration": "Bibhitaki",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "बिभीतकी",
+        "language": "hi",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Ayurvedic Pharmacopoeia of India",
+        "transliteration": "Bibhītakī",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Bibhitaki",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Indian English herbal terminology"
+      },
+      {
+        "name": "தான்றிக்காய்",
+        "language": "ta",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Traditional Siddha terminology",
+        "transliteration": "Tāṉṟikkāy",
+        "transliteration_scheme": "iso_15919"
+      }
+    ],
+    "IR": [
+      {
+        "name": "بلیله",
+        "language": "fa",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Iranian traditional medicine terminology",
+        "transliteration": "Balīleh",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Mirabolano bellirico",
+        "language": "it",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Italian botanical terminology"
+      },
+      {
+        "name": "Bibhitaki",
+        "language": "it",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Italian Ayurvedic terminology"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Bibhitaki",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Jamaican Ayurvedic terminology"
+      }
+    ],
+    "JP": [
+      {
+        "name": "ビベイタキ",
+        "language": "ja",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Japanese Ayurvedic terminology",
+        "transliteration": "Bibeitaki",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Bibhitaki",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Kenyan Ayurvedic terminology"
+      }
+    ],
+    "KR": [
+      {
+        "name": "비비타키",
+        "language": "ko",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Korean Ayurvedic terminology",
+        "transliteration": "Bibitaki",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "බුළු",
+        "language": "si",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lankan traditional herbal terminology",
+        "transliteration": "Buḷu",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "தான்றி",
+        "language": "ta",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Sri Lankan Tamil herbal terminology",
+        "transliteration": "Tāṉṟi",
+        "transliteration_scheme": "iso_15919"
+      }
+    ],
+    "MA": [
+      {
+        "name": "بيبهيتاكي",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Moroccan Ayurvedic terminology",
+        "transliteration": "Bībhītākī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Myrobolan beleric",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Moroccan French botanical terminology"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Bibhitaki",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Mexican Ayurvedic terminology"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Bibhitaki",
+        "language": "ms",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Malaysian Ayurvedic terminology"
+      },
+      {
+        "name": "毗黎勒",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Malaysian traditional Chinese herbal terminology",
+        "transliteration": "Pí Lí Lè",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Bibhitaki",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Nigerian Ayurvedic terminology"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Bibhitaki",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Dutch Ayurvedic terminology"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Bibhitaki",
+        "language": "no",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Norwegian Ayurvedic terminology"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Bibhitaki",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "New Zealand Ayurvedic terminology"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Bibhitaki",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Panamanian Ayurvedic terminology"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Bibhitaki",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Peruvian Ayurvedic terminology"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Bibhitaki",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Philippine Ayurvedic terminology"
+      }
+    ],
+    "PK": [
+      {
+        "name": "بہیڑا",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistani traditional medicine terminology",
+        "transliteration": "Bahēṛā",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Bibhitaki",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Pakistani English Ayurvedic terminology"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Bibhitaki",
+        "language": "pl",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Polish Ayurvedic terminology"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Bibhitaki",
+        "language": "pt",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Portuguese Ayurvedic terminology"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Bibhitaki",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Paraguayan Ayurvedic terminology"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Bibhitaki",
+        "language": "ro",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Romanian Ayurvedic terminology"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Бибхитаки",
+        "language": "ru",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Russian Ayurvedic terminology",
+        "transliteration": "Bibkhitaki",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Bibhitaki",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Swedish Ayurvedic terminology"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Bibhitaki",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Singapore Ayurvedic terminology"
+      },
+      {
+        "name": "毗黎勒",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Singapore traditional Chinese herbal terminology",
+        "transliteration": "Pí Lí Lè",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Bibhitaki",
+        "language": "sk",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Slovak Ayurvedic terminology"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Myrobolan beleric",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Senegalese botanical terminology"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Bibhitaki",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Salvadoran Ayurvedic terminology"
+      }
+    ],
+    "TH": [
+      {
+        "name": "สมอพิเภก",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thai traditional medicine terminology",
+        "transliteration": "Samo Phiphek",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "بيبهيتاكي",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Tunisian Ayurvedic terminology",
+        "transliteration": "Bībhītākī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Myrobolan beleric",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Tunisian French botanical terminology"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Bibhitaki",
+        "language": "tr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Turkish Ayurvedic terminology"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Bibhitaki",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Trinidad and Tobago Ayurvedic terminology"
+      }
+    ],
+    "TW": [
+      {
+        "name": "毗黎勒",
+        "language": "zh",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Taiwan traditional Chinese medicine terminology",
+        "transliteration": "Pí Lí Lè",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Бібхітакі",
+        "language": "uk",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ukrainian Ayurvedic terminology",
+        "transliteration": "Bibkhitaki",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "US": [
+      {
+        "name": "Bibhitaki",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "United States Ayurvedic terminology"
+      },
+      {
+        "name": "Beleric",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "United States botanical terminology"
+      },
+      {
+        "name": "Bibhitaki",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "United States Spanish Ayurvedic terminology"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Bibhitaki",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Uruguayan Ayurvedic terminology"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Bibhitaki",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Venezuelan Ayurvedic terminology"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Chiêu liêu",
+        "language": "vi",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Vietnamese traditional herbal terminology"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Bibhitaki",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "South African Ayurvedic terminology"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Bibhitaki",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Zambian Ayurvedic terminology"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Bibhitaki",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Zimbabwean Ayurvedic terminology"
+      }
+    ]
+  }
+}

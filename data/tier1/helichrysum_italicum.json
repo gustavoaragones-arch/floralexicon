@@ -1,0 +1,999 @@
+{
+  "plant_id": "helichrysum_italicum",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EG",
+    "ES",
+    "ET",
+    "FI",
+    "FR",
+    "GB",
+    "GH",
+    "GR",
+    "GT",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JM",
+    "JP",
+    "KE",
+    "KR",
+    "LK",
+    "MA",
+    "MX",
+    "MY",
+    "NG",
+    "NL",
+    "NO",
+    "NZ",
+    "PA",
+    "PE",
+    "PH",
+    "PK",
+    "PL",
+    "PT",
+    "PY",
+    "RO",
+    "RU",
+    "SE",
+    "SG",
+    "SK",
+    "SN",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "VE",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Siempreviva",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Argentine herbal terminology"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Currykraut",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Austrian botanical terminology"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Immortelle",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Australian aromatherapy terminology"
+      },
+      {
+        "name": "Curry plant",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Australian botanical terminology"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Kerriekruid",
+        "language": "nl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Belgian Dutch botanical terminology"
+      },
+      {
+        "name": "Immortelle",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Belgian French aromatherapy terminology"
+      },
+      {
+        "name": "Currykraut",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Belgian German botanical terminology"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Жълт кантарион",
+        "language": "bg",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Bulgarian botanical terminology",
+        "transliteration": "Zhalt kantarion",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Безсмъртниче",
+        "language": "bg",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bulgarian traditional herbal terminology",
+        "transliteration": "Bezsmartniche",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Siempreviva",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Bolivian herbal terminology"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Perpétua-do-brejo",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Brazilian botanical terminology"
+      },
+      {
+        "name": "Immortelle",
+        "language": "pt",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Brazilian aromatherapy terminology"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Immortelle",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Canadian aromatherapy terminology"
+      },
+      {
+        "name": "Immortelle",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Canadian French aromatherapy terminology"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Currykraut",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Swiss German botanical terminology"
+      },
+      {
+        "name": "Immortelle",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Swiss French aromatherapy terminology"
+      },
+      {
+        "name": "Elicriso",
+        "language": "it",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Swiss Italian herbal terminology"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Siempreviva",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Chilean herbal terminology"
+      }
+    ],
+    "CN": [
+      {
+        "name": "意大利蜡菊",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Chinese aromatherapy terminology",
+        "transliteration": "Yìdàlì Là Jú",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Siempreviva",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Colombian herbal terminology"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Siempreviva",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Costa Rican herbal terminology"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Siempreviva",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuban medicinal plant terminology"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Smil italský",
+        "language": "cs",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Czech botanical terminology"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Currykraut",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "German botanical terminology"
+      },
+      {
+        "name": "Italienische Strohblume",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "German botanical terminology"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Evighedsblomst",
+        "language": "da",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Danish botanical terminology"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Siempreviva",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Dominican herbal terminology"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "الخلود الإيطالي",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Algerian botanical terminology",
+        "transliteration": "Al-Khulūd al-Īṭālī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Immortelle",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Algerian French aromatherapy terminology"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Siempreviva",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Ecuadorian herbal terminology"
+      }
+    ],
+    "EG": [
+      {
+        "name": "الخلود الإيطالي",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Egyptian botanical terminology",
+        "transliteration": "Al-Khulūd al-Īṭālī",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Siempreviva",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Spanish herbal terminology"
+      },
+      {
+        "name": "Sempreviva",
+        "language": "ca",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Catalan botanical terminology"
+      },
+      {
+        "name": "Sempreviva",
+        "language": "gl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Galician botanical terminology"
+      },
+      {
+        "name": "Betikoa",
+        "language": "eu",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Basque botanical terminology"
+      }
+    ],
+    "ET": [
+      {
+        "name": "የማይሞት አበባ",
+        "language": "am",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Ethiopian botanical terminology",
+        "transliteration": "Yemaymot Abeba",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Italiankeltano",
+        "language": "fi",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Finnish botanical terminology"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Immortelle",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "French herbal terminology"
+      },
+      {
+        "name": "Hélichryse italienne",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "French botanical terminology"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Immortelle",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "British aromatherapy terminology"
+      },
+      {
+        "name": "Curry plant",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "British botanical terminology"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Immortelle",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Ghanaian aromatherapy terminology"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Ελίχρυσο",
+        "language": "el",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Greek herbal terminology",
+        "transliteration": "Elíchryso",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Siempreviva",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemalan herbal terminology"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Smilje",
+        "language": "hr",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Croatian herbal terminology"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Olasz szalmagyopár",
+        "language": "hu",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Hungarian botanical terminology"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Immortelle",
+        "language": "id",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Indonesian aromatherapy terminology"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Immortelle",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Irish aromatherapy terminology"
+      }
+    ],
+    "IL": [
+      {
+        "name": "אימורטל",
+        "language": "he",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Israeli aromatherapy terminology",
+        "transliteration": "Imortel",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الخلود الإيطالي",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Arabic botanical terminology in Israel",
+        "transliteration": "Al-Khulūd al-Īṭālī",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "इमॉर्टेल",
+        "language": "hi",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Indian aromatherapy terminology",
+        "transliteration": "Imōrṭel",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Immortelle",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Indian English aromatherapy terminology"
+      }
+    ],
+    "IR": [
+      {
+        "name": "همیشه‌بهار ایتالیایی",
+        "language": "fa",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Iranian botanical terminology",
+        "transliteration": "Hamishe-Bahār-e Itāliyāyi",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Elicriso",
+        "language": "it",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Italian herbal terminology"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Immortelle",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Jamaican aromatherapy terminology"
+      }
+    ],
+    "JP": [
+      {
+        "name": "イモーテル",
+        "language": "ja",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Japanese aromatherapy terminology",
+        "transliteration": "Imōteru",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Immortelle",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Kenyan aromatherapy terminology"
+      }
+    ],
+    "KR": [
+      {
+        "name": "이모르텔",
+        "language": "ko",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Korean aromatherapy terminology",
+        "transliteration": "Imoreutel",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "ඉමෝටෙල්",
+        "language": "si",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Sri Lankan aromatherapy terminology",
+        "transliteration": "Imōṭel",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Immortelle",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Sri Lankan English aromatherapy terminology"
+      }
+    ],
+    "MA": [
+      {
+        "name": "الخلود الإيطالي",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Moroccan botanical terminology",
+        "transliteration": "Al-Khulūd al-Īṭālī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Immortelle",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Moroccan French aromatherapy terminology"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Siempreviva",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Mexican herbal terminology"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Immortelle",
+        "language": "ms",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Malaysian aromatherapy terminology"
+      },
+      {
+        "name": "Immortelle",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Malaysian English aromatherapy terminology"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Immortelle",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Nigerian aromatherapy terminology"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Kerriekruid",
+        "language": "nl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Dutch botanical terminology"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Evighetsblomst",
+        "language": "no",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Norwegian botanical terminology"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Immortelle",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "New Zealand aromatherapy terminology"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Siempreviva",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Panamanian herbal terminology"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Siempreviva",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Peruvian herbal terminology"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Immortelle",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Philippine aromatherapy terminology"
+      }
+    ],
+    "PK": [
+      {
+        "name": "امورٹیل",
+        "language": "ur",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Pakistani aromatherapy terminology",
+        "transliteration": "Imorṭel",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Immortelle",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Pakistani English aromatherapy terminology"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Kocanki włoskie",
+        "language": "pl",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Polish herbal terminology"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Perpétua-das-areias",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Portuguese botanical terminology"
+      },
+      {
+        "name": "Imortela",
+        "language": "pt",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Portuguese aromatherapy terminology"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Siempreviva",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Paraguayan herbal terminology"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Sunătoare de nisip",
+        "language": "ro",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Romanian botanical terminology"
+      },
+      {
+        "name": "Iarba-șarpelui",
+        "language": "ro",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Romanian traditional herbal terminology"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Бессмертник итальянский",
+        "language": "ru",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Russian botanical terminology",
+        "transliteration": "Bessmertnik ital'yanskiy",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Currybuske",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Swedish botanical terminology"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Immortelle",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Singapore aromatherapy terminology"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Smil taliansky",
+        "language": "sk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Slovak botanical terminology"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Immortelle",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Senegalese aromatherapy terminology"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Siempreviva",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Salvadoran herbal terminology"
+      }
+    ],
+    "TH": [
+      {
+        "name": "อิมมอร์เทล",
+        "language": "th",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Thai aromatherapy terminology",
+        "transliteration": "Immotel",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "الخلود الإيطالي",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Tunisian botanical terminology",
+        "transliteration": "Al-Khulūd al-Īṭālī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Immortelle",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Tunisian French aromatherapy terminology"
+      }
+    ],
+    "TR": [
+      {
+        "name": "İtalyan ölmez otu",
+        "language": "tr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Turkish botanical terminology"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Immortelle",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Trinidad and Tobago aromatherapy terminology"
+      }
+    ],
+    "TW": [
+      {
+        "name": "義大利蠟菊",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Taiwan aromatherapy terminology",
+        "transliteration": "Yìdàlì Là Jú",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Цмин італійський",
+        "language": "uk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ukrainian botanical terminology",
+        "transliteration": "Tsmyn italiiskyi",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "US": [
+      {
+        "name": "Immortelle",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "United States aromatherapy terminology"
+      },
+      {
+        "name": "Curry plant",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "United States botanical terminology"
+      },
+      {
+        "name": "Everlasting",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "United States botanical terminology"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Siempreviva",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Uruguayan herbal terminology"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Siempreviva",
+        "language": "es",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Venezuelan herbal terminology"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Bất tử cúc",
+        "language": "vi",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Vietnamese aromatherapy terminology"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Immortelle",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "South African aromatherapy terminology"
+      },
+      {
+        "name": "Kerrieplant",
+        "language": "af",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Afrikaans botanical terminology"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Immortelle",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Zambian aromatherapy terminology"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Immortelle",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Zimbabwean aromatherapy terminology"
+      }
+    ]
+  }
+}

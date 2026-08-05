@@ -1,5 +1,5 @@
 {
-  "plant_id": "syzygium_aromaticum",
+  "plant_id": "plantago_ovata",
   "tier": 1,
   "supported_countries": [
     "AR",
@@ -82,16 +82,16 @@
   "names": {
     "AR": [
       {
-        "name": "Clavo de olor",
+        "name": "Psyllium",
         "language": "es",
         "confidence": "high",
-        "source": "pharmacopoeia_traditional",
+        "source": "pharmacopoeia",
         "citation": "Argentine herbal terminology"
       }
     ],
     "AT": [
       {
-        "name": "Gewürznelke",
+        "name": "Flohsamen",
         "language": "de",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -100,30 +100,37 @@
     ],
     "AU": [
       {
-        "name": "Clove",
+        "name": "Psyllium",
         "language": "en",
         "confidence": "high",
         "source": "pharmacopoeia",
         "citation": "Australian herbal terminology"
+      },
+      {
+        "name": "Ispaghula",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Australian botanical terminology"
       }
     ],
     "BE": [
       {
-        "name": "Kruidnagel",
+        "name": "Vlozaad",
         "language": "nl",
         "confidence": "high",
         "source": "pharmacopoeia",
         "citation": "Belgian Dutch herbal terminology"
       },
       {
-        "name": "Clou de girofle",
+        "name": "Psyllium",
         "language": "fr",
         "confidence": "high",
         "source": "pharmacopoeia",
         "citation": "Belgian French herbal terminology"
       },
       {
-        "name": "Gewürznelke",
+        "name": "Flohsamen",
         "language": "de",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -132,18 +139,18 @@
     ],
     "BG": [
       {
-        "name": "Карамфил",
+        "name": "Псилиум",
         "language": "bg",
         "confidence": "high",
         "source": "pharmacopoeia",
         "citation": "Bulgarian Pharmacopoeia terminology",
-        "transliteration": "Karamfil",
+        "transliteration": "Psilium",
         "transliteration_scheme": "bgn_pcgn"
       }
     ],
     "BO": [
       {
-        "name": "Clavo de olor",
+        "name": "Psyllium",
         "language": "es",
         "confidence": "high",
         "source": "commercial",
@@ -152,7 +159,7 @@
     ],
     "BR": [
       {
-        "name": "Cravo-da-índia",
+        "name": "Psyllium",
         "language": "pt",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -161,14 +168,14 @@
     ],
     "CA": [
       {
-        "name": "Clove",
+        "name": "Psyllium",
         "language": "en",
         "confidence": "high",
         "source": "pharmacopoeia",
         "citation": "Canadian Natural Health terminology"
       },
       {
-        "name": "Clou de girofle",
+        "name": "Psyllium",
         "language": "fr",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -177,21 +184,21 @@
     ],
     "CH": [
       {
-        "name": "Gewürznelke",
+        "name": "Flohsamen",
         "language": "de",
         "confidence": "high",
         "source": "pharmacopoeia",
         "citation": "Swiss German herbal terminology"
       },
       {
-        "name": "Clou de girofle",
+        "name": "Psyllium",
         "language": "fr",
         "confidence": "high",
         "source": "pharmacopoeia",
         "citation": "Swiss French herbal terminology"
       },
       {
-        "name": "Chiodo di garofano",
+        "name": "Psillio",
         "language": "it",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -200,36 +207,36 @@
     ],
     "CL": [
       {
-        "name": "Clavo de olor",
+        "name": "Psyllium",
         "language": "es",
         "confidence": "high",
-        "source": "pharmacopoeia_traditional",
+        "source": "pharmacopoeia",
         "citation": "Chilean herbal terminology"
       }
     ],
     "CN": [
       {
-        "name": "丁香",
+        "name": "车前子壳",
         "language": "zh",
         "confidence": "high",
         "source": "pharmacopoeia",
-        "citation": "Chinese Pharmacopoeia terminology",
-        "transliteration": "Dīng Xiāng",
+        "citation": "Chinese herbal terminology",
+        "transliteration": "Chē Qián Zǐ Ké",
         "transliteration_scheme": "pinyin"
       }
     ],
     "CO": [
       {
-        "name": "Clavo de olor",
+        "name": "Psyllium",
         "language": "es",
         "confidence": "high",
-        "source": "pharmacopoeia_traditional",
+        "source": "pharmacopoeia",
         "citation": "Colombian herbal terminology"
       }
     ],
     "CR": [
       {
-        "name": "Clavo de olor",
+        "name": "Psyllium",
         "language": "es",
         "confidence": "high",
         "source": "commercial",
@@ -238,7 +245,7 @@
     ],
     "CU": [
       {
-        "name": "Clavo de olor",
+        "name": "Psyllium",
         "language": "es",
         "confidence": "high",
         "source": "traditional",
@@ -247,7 +254,7 @@
     ],
     "CZ": [
       {
-        "name": "Hřebíček kořenný",
+        "name": "Jitrocel indický",
         "language": "cs",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -256,25 +263,32 @@
     ],
     "DE": [
       {
-        "name": "Gewürznelke",
+        "name": "Flohsamen",
         "language": "de",
         "confidence": "high",
         "source": "pharmacopoeia",
         "citation": "German Pharmacopoeia terminology"
+      },
+      {
+        "name": "Indischer Flohsamen",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "German botanical terminology"
       }
     ],
     "DK": [
       {
-        "name": "Kryddernellike",
+        "name": "Loppefrø",
         "language": "da",
         "confidence": "high",
-        "source": "pharmacopoeia_traditional",
+        "source": "pharmacopoeia",
         "citation": "Danish herbal terminology"
       }
     ],
     "DO": [
       {
-        "name": "Clavo de olor",
+        "name": "Psyllium",
         "language": "es",
         "confidence": "high",
         "source": "commercial",
@@ -283,16 +297,16 @@
     ],
     "DZ": [
       {
-        "name": "القرنفل",
+        "name": "بذور القطونة",
         "language": "ar",
         "confidence": "high",
-        "source": "traditional",
-        "citation": "Algerian traditional herbal terminology",
-        "transliteration": "Al-Qurunful",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Algerian herbal terminology",
+        "transliteration": "Buḏūr al-Quṭūnah",
         "transliteration_scheme": "ala_lc"
       },
       {
-        "name": "Clou de girofle",
+        "name": "Psyllium",
         "language": "fr",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -301,7 +315,7 @@
     ],
     "EC": [
       {
-        "name": "Clavo de olor",
+        "name": "Psyllium",
         "language": "es",
         "confidence": "high",
         "source": "commercial",
@@ -310,86 +324,86 @@
     ],
     "EG": [
       {
-        "name": "القرنفل",
+        "name": "بذور القطونة",
         "language": "ar",
         "confidence": "high",
-        "source": "traditional",
+        "source": "pharmacopoeia_traditional",
         "citation": "Egyptian herbal terminology",
-        "transliteration": "Al-Qurunful",
+        "transliteration": "Buḏūr al-Quṭūnah",
         "transliteration_scheme": "ala_lc"
       }
     ],
     "ES": [
       {
-        "name": "Clavo de olor",
+        "name": "Psyllium",
         "language": "es",
         "confidence": "high",
         "source": "pharmacopoeia",
         "citation": "Spanish Pharmacopoeia terminology"
       },
       {
-        "name": "Clau d'olor",
-        "language": "ca",
+        "name": "Zaragatona",
+        "language": "es",
         "confidence": "high",
         "source": "linguistic",
-        "citation": "Catalan botanical terminology"
-      },
-      {
-        "name": "Cravo",
-        "language": "gl",
-        "confidence": "high",
-        "source": "linguistic",
-        "citation": "Galician botanical terminology"
-      },
-      {
-        "name": "Sendia",
-        "language": "eu",
-        "confidence": "medium",
-        "source": "linguistic",
-        "citation": "Basque botanical terminology"
+        "citation": "Spanish traditional botanical terminology"
       }
     ],
     "ET": [
       {
-        "name": "ቅርንፉድ",
+        "name": "ፕስሊየም",
         "language": "am",
-        "confidence": "high",
-        "source": "traditional",
+        "confidence": "medium",
+        "source": "commercial",
         "citation": "Ethiopian herbal terminology",
-        "transliteration": "Qirinfud",
+        "transliteration": "Psiliyem",
         "transliteration_scheme": "ala_lc"
       }
     ],
     "FI": [
       {
-        "name": "Mausteneilikka",
+        "name": "Intiankirjopunta",
         "language": "fi",
         "confidence": "high",
-        "source": "pharmacopoeia_traditional",
+        "source": "pharmacopoeia",
         "citation": "Finnish herbal terminology"
       }
     ],
     "FR": [
       {
-        "name": "Clou de girofle",
+        "name": "Psyllium",
         "language": "fr",
         "confidence": "high",
         "source": "pharmacopoeia",
         "citation": "French Pharmacopoeia terminology"
+      },
+      {
+        "name": "Ispaghul",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "French botanical terminology"
       }
     ],
     "GB": [
       {
-        "name": "Clove",
+        "name": "Ispaghula",
         "language": "en",
         "confidence": "high",
         "source": "pharmacopoeia",
         "citation": "British Herbal Pharmacopoeia terminology"
+      },
+      {
+        "name": "Psyllium",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "British commercial terminology"
       }
     ],
     "GH": [
       {
-        "name": "Clove",
+        "name": "Psyllium",
         "language": "en",
         "confidence": "high",
         "source": "commercial",
@@ -398,18 +412,18 @@
     ],
     "GR": [
       {
-        "name": "Γαρίφαλο",
+        "name": "Ψύλλιο",
         "language": "el",
         "confidence": "high",
-        "source": "pharmacopoeia_traditional",
+        "source": "pharmacopoeia",
         "citation": "Greek herbal terminology",
-        "transliteration": "Garífalo",
+        "transliteration": "Psýllio",
         "transliteration_scheme": "iso_843"
       }
     ],
     "GT": [
       {
-        "name": "Clavo de olor",
+        "name": "Psyllium",
         "language": "es",
         "confidence": "high",
         "source": "traditional",
@@ -418,7 +432,7 @@
     ],
     "HR": [
       {
-        "name": "Klinčić",
+        "name": "Indijski trputac",
         "language": "hr",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -427,7 +441,14 @@
     ],
     "HU": [
       {
-        "name": "Szegfűszeg",
+        "name": "Útifűmagvak",
+        "language": "hu",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Hungarian botanical terminology"
+      },
+      {
+        "name": "Psyllium",
         "language": "hu",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -436,83 +457,74 @@
     ],
     "ID": [
       {
-        "name": "Cengkeh",
+        "name": "Psyllium",
         "language": "id",
         "confidence": "high",
-        "source": "traditional",
+        "source": "commercial",
         "citation": "Indonesian herbal terminology"
       }
     ],
     "IE": [
       {
-        "name": "Clove",
+        "name": "Ispaghula",
         "language": "en",
         "confidence": "high",
-        "source": "pharmacopoeia_traditional",
+        "source": "pharmacopoeia",
         "citation": "Irish herbal terminology"
       }
     ],
     "IL": [
       {
-        "name": "ציפורן",
+        "name": "פסיליום",
         "language": "he",
         "confidence": "high",
-        "source": "pharmacopoeia_traditional",
+        "source": "pharmacopoeia",
         "citation": "Israeli herbal terminology",
-        "transliteration": "Tsiporen",
+        "transliteration": "Psilyum",
         "transliteration_scheme": "ala_lc"
       },
       {
-        "name": "القرنفل",
+        "name": "بذور القطونة",
         "language": "ar",
         "confidence": "high",
-        "source": "traditional",
+        "source": "pharmacopoeia_traditional",
         "citation": "Arabic herbal terminology in Israel",
-        "transliteration": "Al-Qurunful",
+        "transliteration": "Buḏūr al-Quṭūnah",
         "transliteration_scheme": "ala_lc"
       }
     ],
     "IN": [
       {
-        "name": "लौंग",
+        "name": "इसबगोल",
         "language": "hi",
         "confidence": "high",
-        "source": "pharmacopoeia",
-        "citation": "Indian Pharmacopoeia terminology",
-        "transliteration": "Laung",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Indian Ayurvedic Pharmacopoeia terminology",
+        "transliteration": "Isabgol",
         "transliteration_scheme": "iso_15919"
       },
       {
-        "name": "Clove",
+        "name": "Psyllium",
         "language": "en",
         "confidence": "high",
         "source": "commercial",
         "citation": "Indian English herbal terminology"
-      },
-      {
-        "name": "கிராம்பு",
-        "language": "ta",
-        "confidence": "high",
-        "source": "traditional",
-        "citation": "Tamil culinary and herbal terminology",
-        "transliteration": "Kirāmpu",
-        "transliteration_scheme": "iso_15919"
       }
     ],
     "IR": [
       {
-        "name": "میخک",
+        "name": "اسفرزه",
         "language": "fa",
         "confidence": "high",
         "source": "pharmacopoeia",
         "citation": "Iranian Pharmacopoeia terminology",
-        "transliteration": "Mikhak",
+        "transliteration": "Esfarzeh",
         "transliteration_scheme": "ala_lc"
       }
     ],
     "IT": [
       {
-        "name": "Chiodo di garofano",
+        "name": "Psillio",
         "language": "it",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -521,7 +533,7 @@
     ],
     "JM": [
       {
-        "name": "Clove",
+        "name": "Psyllium",
         "language": "en",
         "confidence": "high",
         "source": "traditional",
@@ -530,74 +542,65 @@
     ],
     "JP": [
       {
-        "name": "チョウジ",
+        "name": "サイリウム",
         "language": "ja",
         "confidence": "high",
         "source": "pharmacopoeia",
         "citation": "Japanese Pharmacopoeia terminology",
-        "transliteration": "Chōji",
+        "transliteration": "Sairiumu",
         "transliteration_scheme": "hepburn"
       }
     ],
     "KE": [
       {
-        "name": "Clove",
+        "name": "Psyllium",
         "language": "en",
         "confidence": "high",
         "source": "commercial",
         "citation": "Kenyan herbal terminology"
-      },
-      {
-        "name": "Karafuu",
-        "language": "sw",
-        "confidence": "high",
-        "source": "traditional",
-        "citation": "Swahili culinary and herbal terminology"
       }
     ],
     "KR": [
       {
-        "name": "정향",
+        "name": "차전자피",
         "language": "ko",
         "confidence": "high",
         "source": "pharmacopoeia",
         "citation": "Korean Pharmacopoeia terminology",
-        "transliteration": "Jeonghyang",
+        "transliteration": "Chajeonjapi",
         "transliteration_scheme": "rr"
       }
     ],
     "LK": [
       {
-        "name": "කරාබුනැටි",
+        "name": "ඉස්බගුල්",
         "language": "si",
         "confidence": "high",
         "source": "traditional",
         "citation": "Sri Lankan herbal terminology",
-        "transliteration": "Karābunæṭi",
+        "transliteration": "Isbagul",
         "transliteration_scheme": "iso_15919"
       },
       {
-        "name": "கிராம்பு",
-        "language": "ta",
+        "name": "Psyllium",
+        "language": "en",
         "confidence": "high",
-        "source": "traditional",
-        "citation": "Sri Lankan Tamil herbal terminology",
-        "transliteration": "Kirāmpu",
-        "transliteration_scheme": "iso_15919"
+        "source": "commercial",
+        "citation": "Sri Lankan English herbal terminology"
       }
     ],
     "MA": [
       {
-        "name": "القرنفل",
+        "name": "بذور القطونة",
         "language": "ar",
         "confidence": "high",
-        "source": "traditional",
+        "source": "pharmacopoeia_traditional",
         "citation": "Moroccan herbal terminology",
-        "transliteration": "Al-Qurunful",
+        "transliteration": "Buḏūr al-Quṭūnah",
         "transliteration_scheme": "ala_lc"
       },
       {
-        "name": "Clou de girofle",
+        "name": "Psyllium",
         "language": "fr",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -606,50 +609,32 @@
     ],
     "MX": [
       {
-        "name": "Clavo de olor",
+        "name": "Psyllium",
         "language": "es",
         "confidence": "high",
-        "source": "pharmacopoeia_traditional",
+        "source": "pharmacopoeia",
         "citation": "Mexican herbal terminology"
       }
     ],
     "MY": [
       {
-        "name": "Bunga cengkih",
+        "name": "Psyllium",
         "language": "ms",
         "confidence": "high",
-        "source": "traditional",
+        "source": "commercial",
         "citation": "Malaysian herbal terminology"
       },
       {
-        "name": "Clove",
+        "name": "Isabgol",
         "language": "en",
         "confidence": "high",
         "source": "commercial",
         "citation": "Malaysian English herbal terminology"
-      },
-      {
-        "name": "丁香",
-        "language": "zh",
-        "confidence": "high",
-        "source": "traditional",
-        "citation": "Malaysian traditional Chinese herbal terminology",
-        "transliteration": "Dīng Xiāng",
-        "transliteration_scheme": "pinyin"
-      },
-      {
-        "name": "கிராம்பு",
-        "language": "ta",
-        "confidence": "high",
-        "source": "traditional",
-        "citation": "Malaysian Tamil herbal terminology",
-        "transliteration": "Kirāmpu",
-        "transliteration_scheme": "iso_15919"
       }
     ],
     "NG": [
       {
-        "name": "Clove",
+        "name": "Psyllium",
         "language": "en",
         "confidence": "high",
         "source": "commercial",
@@ -658,7 +643,7 @@
     ],
     "NL": [
       {
-        "name": "Kruidnagel",
+        "name": "Vlozaad",
         "language": "nl",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -667,16 +652,16 @@
     ],
     "NO": [
       {
-        "name": "Kryddernellik",
+        "name": "Loppefrø",
         "language": "no",
         "confidence": "high",
-        "source": "pharmacopoeia_traditional",
+        "source": "pharmacopoeia",
         "citation": "Norwegian herbal terminology"
       }
     ],
     "NZ": [
       {
-        "name": "Clove",
+        "name": "Psyllium",
         "language": "en",
         "confidence": "high",
         "source": "commercial",
@@ -685,7 +670,7 @@
     ],
     "PA": [
       {
-        "name": "Clavo de olor",
+        "name": "Psyllium",
         "language": "es",
         "confidence": "high",
         "source": "commercial",
@@ -694,41 +679,34 @@
     ],
     "PE": [
       {
-        "name": "Clavo de olor",
+        "name": "Psyllium",
         "language": "es",
         "confidence": "high",
-        "source": "pharmacopoeia_traditional",
+        "source": "pharmacopoeia",
         "citation": "Peruvian herbal terminology"
       }
     ],
     "PH": [
       {
-        "name": "Clove",
+        "name": "Psyllium",
         "language": "en",
         "confidence": "high",
         "source": "commercial",
         "citation": "Philippine herbal terminology"
-      },
-      {
-        "name": "Klabo de olor",
-        "language": "tl",
-        "confidence": "medium",
-        "source": "linguistic",
-        "citation": "Filipino botanical terminology"
       }
     ],
     "PK": [
       {
-        "name": "لونگ",
+        "name": "اسپغول",
         "language": "ur",
         "confidence": "high",
         "source": "pharmacopoeia_traditional",
         "citation": "Pakistani herbal terminology",
-        "transliteration": "Laung",
+        "transliteration": "Ispaghol",
         "transliteration_scheme": "ala_lc"
       },
       {
-        "name": "Clove",
+        "name": "Psyllium",
         "language": "en",
         "confidence": "high",
         "source": "commercial",
@@ -737,7 +715,7 @@
     ],
     "PL": [
       {
-        "name": "Goździk korzenny",
+        "name": "Babka jajowata",
         "language": "pl",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -746,7 +724,7 @@
     ],
     "PT": [
       {
-        "name": "Cravo-da-índia",
+        "name": "Psyllium",
         "language": "pt",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -755,7 +733,7 @@
     ],
     "PY": [
       {
-        "name": "Clavo de olor",
+        "name": "Psyllium",
         "language": "es",
         "confidence": "high",
         "source": "commercial",
@@ -764,7 +742,7 @@
     ],
     "RO": [
       {
-        "name": "Cuișoare",
+        "name": "Psyllium",
         "language": "ro",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -773,61 +751,36 @@
     ],
     "RU": [
       {
-        "name": "Гвоздика",
+        "name": "Псиллиум",
         "language": "ru",
         "confidence": "high",
         "source": "pharmacopoeia",
         "citation": "Russian Pharmacopoeia terminology",
-        "transliteration": "Gvozdika",
+        "transliteration": "Psillium",
         "transliteration_scheme": "bgn_pcgn"
       }
     ],
     "SE": [
       {
-        "name": "Kryddnejlika",
+        "name": "Loppfrö",
         "language": "sv",
         "confidence": "high",
-        "source": "pharmacopoeia_traditional",
+        "source": "pharmacopoeia",
         "citation": "Swedish herbal terminology"
       }
     ],
     "SG": [
       {
-        "name": "Clove",
+        "name": "Psyllium",
         "language": "en",
         "confidence": "high",
         "source": "commercial",
         "citation": "Singapore herbal terminology"
-      },
-      {
-        "name": "丁香",
-        "language": "zh",
-        "confidence": "high",
-        "source": "traditional",
-        "citation": "Singapore traditional Chinese herbal terminology",
-        "transliteration": "Dīng Xiāng",
-        "transliteration_scheme": "pinyin"
-      },
-      {
-        "name": "Bunga cengkih",
-        "language": "ms",
-        "confidence": "high",
-        "source": "traditional",
-        "citation": "Singapore Malay herbal terminology"
-      },
-      {
-        "name": "கிராம்பு",
-        "language": "ta",
-        "confidence": "high",
-        "source": "traditional",
-        "citation": "Singapore Tamil herbal terminology",
-        "transliteration": "Kirāmpu",
-        "transliteration_scheme": "iso_15919"
       }
     ],
     "SK": [
       {
-        "name": "Klinček voňavý",
+        "name": "Skorocel indický",
         "language": "sk",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -836,7 +789,7 @@
     ],
     "SN": [
       {
-        "name": "Clou de girofle",
+        "name": "Psyllium",
         "language": "fr",
         "confidence": "high",
         "source": "pharmacopoeia_traditional",
@@ -845,7 +798,7 @@
     ],
     "SV": [
       {
-        "name": "Clavo de olor",
+        "name": "Psyllium",
         "language": "es",
         "confidence": "high",
         "source": "traditional",
@@ -854,27 +807,27 @@
     ],
     "TH": [
       {
-        "name": "กานพลู",
+        "name": "ไซเลียม",
         "language": "th",
         "confidence": "high",
-        "source": "pharmacopoeia_traditional",
+        "source": "commercial",
         "citation": "Thai herbal terminology",
-        "transliteration": "Kan Phlu",
+        "transliteration": "Sailiam",
         "transliteration_scheme": "rtgs"
       }
     ],
     "TN": [
       {
-        "name": "القرنفل",
+        "name": "بذور القطونة",
         "language": "ar",
         "confidence": "high",
-        "source": "traditional",
+        "source": "pharmacopoeia_traditional",
         "citation": "Tunisian herbal terminology",
-        "transliteration": "Al-Qurunful",
+        "transliteration": "Buḏūr al-Quṭūnah",
         "transliteration_scheme": "ala_lc"
       },
       {
-        "name": "Clou de girofle",
+        "name": "Psyllium",
         "language": "fr",
         "confidence": "high",
         "source": "pharmacopoeia",
@@ -883,16 +836,23 @@
     ],
     "TR": [
       {
-        "name": "Karanfil",
+        "name": "Psyllium",
         "language": "tr",
         "confidence": "high",
         "source": "pharmacopoeia",
         "citation": "Turkish Pharmacopoeia terminology"
+      },
+      {
+        "name": "Pire otu",
+        "language": "tr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Turkish traditional herbal terminology"
       }
     ],
     "TT": [
       {
-        "name": "Clove",
+        "name": "Psyllium",
         "language": "en",
         "confidence": "high",
         "source": "commercial",
@@ -901,54 +861,54 @@
     ],
     "TW": [
       {
-        "name": "丁香",
+        "name": "洋車前子",
         "language": "zh",
         "confidence": "high",
         "source": "pharmacopoeia",
         "citation": "Taiwan Pharmacopoeia terminology",
-        "transliteration": "Dīng Xiāng",
+        "transliteration": "Yáng Chē Qián Zǐ",
         "transliteration_scheme": "pinyin"
       }
     ],
     "UA": [
       {
-        "name": "Гвоздика",
+        "name": "Псилліум",
         "language": "uk",
         "confidence": "high",
         "source": "pharmacopoeia",
         "citation": "Ukrainian Pharmacopoeia terminology",
-        "transliteration": "Hvozdyka",
+        "transliteration": "Psilium",
         "transliteration_scheme": "bgn_pcgn"
       }
     ],
     "US": [
       {
-        "name": "Clove",
+        "name": "Psyllium",
         "language": "en",
         "confidence": "high",
         "source": "pharmacopoeia",
         "citation": "United States Herbal Pharmacopoeia terminology"
       },
       {
-        "name": "Clavo de olor",
-        "language": "es",
+        "name": "Ispaghula",
+        "language": "en",
         "confidence": "high",
-        "source": "commercial",
-        "citation": "United States Spanish herbal terminology"
+        "source": "pharmacopoeia_traditional",
+        "citation": "United States botanical terminology"
       }
     ],
     "UY": [
       {
-        "name": "Clavo de olor",
+        "name": "Psyllium",
         "language": "es",
         "confidence": "high",
-        "source": "pharmacopoeia_traditional",
+        "source": "pharmacopoeia",
         "citation": "Uruguayan herbal terminology"
       }
     ],
     "VE": [
       {
-        "name": "Clavo de olor",
+        "name": "Psyllium",
         "language": "es",
         "confidence": "high",
         "source": "traditional",
@@ -957,32 +917,32 @@
     ],
     "VN": [
       {
-        "name": "Đinh hương",
+        "name": "Vỏ hạt mã đề Ấn Độ",
+        "language": "vi",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Vietnamese botanical terminology"
+      },
+      {
+        "name": "Psyllium",
         "language": "vi",
         "confidence": "high",
-        "source": "pharmacopoeia",
-        "citation": "Vietnamese Pharmacopoeia terminology"
+        "source": "commercial",
+        "citation": "Vietnamese commercial terminology"
       }
     ],
     "ZA": [
       {
-        "name": "Clove",
+        "name": "Psyllium",
         "language": "en",
         "confidence": "high",
         "source": "commercial",
         "citation": "South African herbal terminology"
-      },
-      {
-        "name": "Naeltjie",
-        "language": "af",
-        "confidence": "high",
-        "source": "linguistic",
-        "citation": "Afrikaans botanical terminology"
       }
     ],
     "ZM": [
       {
-        "name": "Clove",
+        "name": "Psyllium",
         "language": "en",
         "confidence": "high",
         "source": "commercial",
@@ -991,7 +951,7 @@
     ],
     "ZW": [
       {
-        "name": "Clove",
+        "name": "Psyllium",
         "language": "en",
         "confidence": "high",
         "source": "commercial",
