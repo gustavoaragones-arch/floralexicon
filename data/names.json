@@ -96,6 +96,209 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Abrojo",
+    "normalized": "abrojo",
+    "language": "es",
+    "plant_ids": [
+      "tribulus_terrestris"
+    ],
+    "countries": [
+      "AR",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "CU",
+      "DO",
+      "EC",
+      "ES",
+      "GT",
+      "MX",
+      "PA",
+      "PE",
+      "PY",
+      "SV",
+      "US",
+      "UY",
+      "VE"
+    ],
+    "country_usage": [
+      {
+        "country": "AR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      },
+      {
+        "country": "BO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "EC",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "ES",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "GT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MX",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "PY",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SV",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "UY",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "VE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 18,
+    "dominant_in_countries": [
+      "AR",
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "CU",
+      "DO",
+      "EC",
+      "ES",
+      "GT",
+      "MX",
+      "PA",
+      "PE",
+      "PY",
+      "SV",
+      "US",
+      "UY",
+      "VE"
+    ]
+  },
+  {
+    "name": "Abrolho",
+    "normalized": "abrolho",
+    "language": "pt",
+    "plant_ids": [
+      "tribulus_terrestris"
+    ],
+    "countries": [
+      "BR"
+    ],
+    "country_usage": [
+      {
+        "country": "BR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "BR"
+    ]
+  },
+  {
     "name": "Absinthe africaine",
     "normalized": "absinthe africaine",
     "language": "fr",
@@ -8915,6 +9118,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Almindelig hvidtjørn",
+    "normalized": "almindelig hvidtjørn",
+    "language": "da",
+    "plant_ids": [
+      "crataegus_laevigata"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DK"
+    ]
   },
   {
     "name": "Almindelig hvidtjørn",
@@ -18976,6 +19204,29 @@
     "normalized": "arc blanc",
     "language": "ca",
     "plant_ids": [
+      "crataegus_laevigata"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "country_usage": [
+      {
+        "country": "ES",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Arç blanc",
+    "normalized": "arc blanc",
+    "language": "ca",
+    "plant_ids": [
       "crataegus_monogyna"
     ],
     "countries": [
@@ -20384,6 +20635,71 @@
     "dominant_in_countries": [
       "FR",
       "SN"
+    ]
+  },
+  {
+    "name": "Armoise annuelle",
+    "normalized": "armoise annuelle",
+    "language": "fr",
+    "plant_ids": [
+      "artemisia_annua"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "CH",
+      "DZ",
+      "FR",
+      "MA"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "DZ",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "MA",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 6,
+    "dominant_in_countries": [
+      "FR"
     ]
   },
   {
@@ -21986,6 +22302,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Artemisa anual",
+    "normalized": "artemisa anual",
+    "language": "es",
+    "plant_ids": [
+      "artemisia_annua"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "country_usage": [
+      {
+        "country": "ES",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ES"
+    ]
+  },
+  {
     "name": "Artemisa dragón",
     "normalized": "artemisa dragon",
     "language": "es",
@@ -22166,6 +22507,73 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "ID"
+    ]
+  },
+  {
+    "name": "Artemisia annuale",
+    "normalized": "artemisia annuale",
+    "language": "it",
+    "plant_ids": [
+      "artemisia_annua"
+    ],
+    "countries": [
+      "CH",
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "IT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "IT"
+    ]
+  },
+  {
+    "name": "Artemísia anual",
+    "normalized": "artemisia anual",
+    "language": "pt",
+    "plant_ids": [
+      "artemisia_annua"
+    ],
+    "countries": [
+      "BR",
+      "PT"
+    ],
+    "country_usage": [
+      {
+        "country": "BR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "PT",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "BR",
+      "PT"
     ]
   },
   {
@@ -25028,6 +25436,55 @@
     ]
   },
   {
+    "name": "Aubépine à deux styles",
+    "normalized": "aubepine a deux styles",
+    "language": "fr",
+    "plant_ids": [
+      "crataegus_laevigata"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "CH",
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
+    "dominant_in_countries": [
+      "FR"
+    ]
+  },
+  {
     "name": "Aubépine à un style",
     "normalized": "aubepine a un style",
     "language": "fr",
@@ -25887,6 +26344,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Babin zub",
+    "normalized": "babin zub",
+    "language": "hr",
+    "plant_ids": [
+      "tribulus_terrestris"
+    ],
+    "countries": [
+      "HR"
+    ],
+    "country_usage": [
+      {
+        "country": "HR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HR"
+    ]
   },
   {
     "name": "Babka jajowata",
@@ -32780,6 +33262,39 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 1,
+    "dominant_in_countries": [
+      "IT"
+    ]
+  },
+  {
+    "name": "Biancospino comune",
+    "normalized": "biancospino comune",
+    "language": "it",
+    "plant_ids": [
+      "crataegus_laevigata"
+    ],
+    "countries": [
+      "CH",
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "IT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
     "dominant_in_countries": [
       "IT"
     ]
@@ -43081,6 +43596,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Buzdyganek naziemny",
+    "normalized": "buzdyganek naziemny",
+    "language": "pl",
+    "plant_ids": [
+      "tribulus_terrestris"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "country_usage": [
+      {
+        "country": "PL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PL"
+    ]
+  },
+  {
     "name": "Bylica afrykańska",
     "normalized": "bylica afrykanska",
     "language": "pl",
@@ -43125,6 +43665,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Bylica roczna",
+    "normalized": "bylica roczna",
+    "language": "pl",
+    "plant_ids": [
+      "artemisia_annua"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "country_usage": [
+      {
+        "country": "PL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PL"
+    ]
   },
   {
     "name": "Ca cao",
@@ -62184,6 +62749,31 @@
     ]
   },
   {
+    "name": "Colții babei",
+    "normalized": "coltii babei",
+    "language": "ro",
+    "plant_ids": [
+      "tribulus_terrestris"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "country_usage": [
+      {
+        "country": "RO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RO"
+    ]
+  },
+  {
     "name": "Cơm cháy đen",
     "normalized": "com chay đen",
     "language": "vi",
@@ -66711,6 +67301,93 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Croix-de-Malte",
+    "normalized": "croix de malte",
+    "language": "fr",
+    "plant_ids": [
+      "tribulus_terrestris"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "CH",
+      "DZ",
+      "FR",
+      "MA",
+      "SN",
+      "TN"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "DZ",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "MA",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "SN",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "TN",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 8,
+    "dominant_in_countries": [
+      "BE",
+      "CA",
+      "DZ",
+      "FR",
+      "MA",
+      "SN",
+      "TN"
+    ]
+  },
+  {
     "name": "Crúb an Chait",
     "normalized": "crub an chait",
     "language": "ga",
@@ -69558,6 +70235,31 @@
     ]
   },
   {
+    "name": "Damong-tinik",
+    "normalized": "damong tinik",
+    "language": "tl",
+    "plant_ids": [
+      "tribulus_terrestris"
+    ],
+    "countries": [
+      "PH"
+    ],
+    "country_usage": [
+      {
+        "country": "PH",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PH"
+    ]
+  },
+  {
     "name": "Đan sâm",
     "normalized": "đan sam",
     "language": "vi",
@@ -72110,6 +72812,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Demir dikeni",
+    "normalized": "demir dikeni",
+    "language": "tr",
+    "plant_ids": [
+      "tribulus_terrestris"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "country_usage": [
+      {
+        "country": "TR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "TR"
+    ]
   },
   {
     "name": "Deniz iğdesi",
@@ -75391,6 +76118,31 @@
     ]
   },
   {
+    "name": "Dubbeldoring",
+    "normalized": "dubbeldoring",
+    "language": "af",
+    "plant_ids": [
+      "tribulus_terrestris"
+    ],
+    "countries": [
+      "ZA"
+    ],
+    "country_usage": [
+      {
+        "country": "ZA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ZA"
+    ]
+  },
+  {
     "name": "Dugi papar",
     "normalized": "dugi papar",
     "language": "hr",
@@ -75659,6 +76411,31 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "VN"
+    ]
+  },
+  {
+    "name": "Dvostupi glog",
+    "normalized": "dvostupi glog",
+    "language": "hr",
+    "plant_ids": [
+      "crataegus_laevigata"
+    ],
+    "countries": [
+      "HR"
+    ],
+    "country_usage": [
+      {
+        "country": "HR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HR"
     ]
   },
   {
@@ -78008,6 +78785,40 @@
     ]
   },
   {
+    "name": "Eenjarige bijvoet",
+    "normalized": "eenjarige bijvoet",
+    "language": "nl",
+    "plant_ids": [
+      "artemisia_annua"
+    ],
+    "countries": [
+      "BE",
+      "NL"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "NL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "BE",
+      "NL"
+    ]
+  },
+  {
     "name": "Eenstijlige meidoorn",
     "normalized": "eenstijlige meidoorn",
     "language": "nl",
@@ -78170,6 +78981,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Egynyári üröm",
+    "normalized": "egynyari urom",
+    "language": "hu",
+    "plant_ids": [
+      "artemisia_annua"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "country_usage": [
+      {
+        "country": "HU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HU"
+    ]
+  },
+  {
     "name": "Ehinacea",
     "normalized": "ehinacea",
     "language": "hr",
@@ -78284,6 +79120,57 @@
     "name_country_count": 3,
     "dominant_in_countries": [
       "CH"
+    ]
+  },
+  {
+    "name": "Einjähriger Beifuß",
+    "normalized": "einjahriger beifuß",
+    "language": "de",
+    "plant_ids": [
+      "artemisia_annua"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "BE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "CH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
+    "dominant_in_countries": [
+      "AT",
+      "CH",
+      "DE"
     ]
   },
   {
@@ -79620,6 +80507,29 @@
     ]
   },
   {
+    "name": "Elorri zuri",
+    "normalized": "elorri zuri",
+    "language": "eu",
+    "plant_ids": [
+      "crataegus_laevigata"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "country_usage": [
+      {
+        "country": "ES",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Embondeiro",
     "normalized": "embondeiro",
     "language": "pt",
@@ -80594,6 +81504,57 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Erd-Burzeldorn",
+    "normalized": "erd burzeldorn",
+    "language": "de",
+    "plant_ids": [
+      "tribulus_terrestris"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "BE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "CH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
+    "dominant_in_countries": [
+      "AT",
+      "CH",
+      "DE"
+    ]
+  },
+  {
     "name": "Erdei áfonya",
     "normalized": "erdei afonya",
     "language": "hu",
@@ -81207,6 +82168,31 @@
     "normalized": "espinheiro alvar",
     "language": "pt",
     "plant_ids": [
+      "crataegus_laevigata"
+    ],
+    "countries": [
+      "PT"
+    ],
+    "country_usage": [
+      {
+        "country": "PT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PT"
+    ]
+  },
+  {
+    "name": "Espinheiro-alvar",
+    "normalized": "espinheiro alvar",
+    "language": "pt",
+    "plant_ids": [
       "crataegus_monogyna"
     ],
     "countries": [
@@ -81356,6 +82342,29 @@
     "dominant_in_countries": [
       "PY"
     ]
+  },
+  {
+    "name": "Espino albar",
+    "normalized": "espino albar",
+    "language": "es",
+    "plant_ids": [
+      "crataegus_laevigata"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "country_usage": [
+      {
+        "country": "ES",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Espino albar",
@@ -83151,6 +84160,31 @@
     "normalized": "estripo",
     "language": "gl",
     "plant_ids": [
+      "crataegus_laevigata"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "country_usage": [
+      {
+        "country": "ES",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ES"
+    ]
+  },
+  {
+    "name": "Estripo",
+    "normalized": "estripo",
+    "language": "gl",
+    "plant_ids": [
       "crataegus_monogyna"
     ],
     "countries": [
@@ -83169,6 +84203,90 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "ES"
+    ]
+  },
+  {
+    "name": "Etårig bynke",
+    "normalized": "etarig bynke",
+    "language": "da",
+    "plant_ids": [
+      "artemisia_annua"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DK"
+    ]
+  },
+  {
+    "name": "Ettårig malört",
+    "normalized": "ettarig malort",
+    "language": "sv",
+    "plant_ids": [
+      "artemisia_annua"
+    ],
+    "countries": [
+      "FI",
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "SE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "FI",
+      "SE"
+    ]
+  },
+  {
+    "name": "Ettårig malurt",
+    "normalized": "ettarig malurt",
+    "language": "no",
+    "plant_ids": [
+      "artemisia_annua"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "NO"
     ]
   },
   {
@@ -97040,6 +98158,31 @@
     ]
   },
   {
+    "name": "Głóg dwuszyjkowy",
+    "normalized": "głog dwuszyjkowy",
+    "language": "pl",
+    "plant_ids": [
+      "crataegus_laevigata"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "country_usage": [
+      {
+        "country": "PL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PL"
+    ]
+  },
+  {
     "name": "Głóg jednoszyjkowy",
     "normalized": "głog jednoszyjkowy",
     "language": "pl",
@@ -98204,6 +99347,37 @@
     "dominant_in_countries": [
       "FI"
     ]
+  },
+  {
+    "name": "Gokhru",
+    "normalized": "gokhru",
+    "language": "en",
+    "plant_ids": [
+      "tribulus_terrestris"
+    ],
+    "countries": [
+      "IN",
+      "PK"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      },
+      {
+        "country": "PK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
   },
   {
     "name": "Golden poppy",
@@ -113134,6 +114308,31 @@
     "normalized": "hloh obecny",
     "language": "cs",
     "plant_ids": [
+      "crataegus_laevigata"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CZ"
+    ]
+  },
+  {
+    "name": "Hloh obecný",
+    "normalized": "hloh obecny",
+    "language": "cs",
+    "plant_ids": [
       "crataegus_monogyna"
     ],
     "countries": [
@@ -113151,6 +114350,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Hloh obyčajný",
+    "normalized": "hloh obycajny",
+    "language": "sk",
+    "plant_ids": [
+      "crataegus_laevigata"
+    ],
+    "countries": [
+      "SK"
+    ],
+    "country_usage": [
+      {
+        "country": "SK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SK"
+    ]
   },
   {
     "name": "Hmelj",
@@ -118548,6 +119772,31 @@
     ]
   },
   {
+    "name": "İki dişicikli alıç",
+    "normalized": "iki disicikli alıc",
+    "language": "tr",
+    "plant_ids": [
+      "crataegus_laevigata"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "country_usage": [
+      {
+        "country": "TR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "TR"
+    ]
+  },
+  {
     "name": "Iliki",
     "normalized": "iliki",
     "language": "sw",
@@ -123307,6 +124556,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Jednogodišnji pelin",
+    "normalized": "jednogodisnji pelin",
+    "language": "hr",
+    "plant_ids": [
+      "artemisia_annua"
+    ],
+    "countries": [
+      "HR"
+    ],
+    "country_usage": [
+      {
+        "country": "HR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HR"
+    ]
   },
   {
     "name": "Jednosemenný hloh",
@@ -129145,6 +130419,564 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Kava",
+    "normalized": "kava",
+    "language": "cs",
+    "plant_ids": [
+      "piper_methysticum"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CZ"
+    ]
+  },
+  {
+    "name": "Kava",
+    "normalized": "kava",
+    "language": "da",
+    "plant_ids": [
+      "piper_methysticum"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DK"
+    ]
+  },
+  {
+    "name": "Kava",
+    "normalized": "kava",
+    "language": "de",
+    "plant_ids": [
+      "piper_methysticum"
+    ],
+    "countries": [
+      "AT",
+      "CH",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "CH",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "AT",
+      "CH",
+      "DE"
+    ]
+  },
+  {
+    "name": "Kava",
+    "normalized": "kava",
+    "language": "en",
+    "plant_ids": [
+      "piper_methysticum"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "GB",
+      "IE",
+      "NZ",
+      "SG",
+      "US",
+      "ZA"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "NZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SG",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "ZA",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 8,
+    "dominant_in_countries": [
+      "AU",
+      "CA",
+      "GB",
+      "IE",
+      "NZ",
+      "SG",
+      "US",
+      "ZA"
+    ]
+  },
+  {
+    "name": "Kava",
+    "normalized": "kava",
+    "language": "es",
+    "plant_ids": [
+      "piper_methysticum"
+    ],
+    "countries": [
+      "ES",
+      "MX"
+    ],
+    "country_usage": [
+      {
+        "country": "ES",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "MX",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "ES",
+      "MX"
+    ]
+  },
+  {
+    "name": "Kava",
+    "normalized": "kava",
+    "language": "fi",
+    "plant_ids": [
+      "piper_methysticum"
+    ],
+    "countries": [
+      "FI"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "FI"
+    ]
+  },
+  {
+    "name": "Kava",
+    "normalized": "kava",
+    "language": "fr",
+    "plant_ids": [
+      "piper_methysticum"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "FR"
+    ]
+  },
+  {
+    "name": "Kava",
+    "normalized": "kava",
+    "language": "hr",
+    "plant_ids": [
+      "piper_methysticum"
+    ],
+    "countries": [
+      "HR"
+    ],
+    "country_usage": [
+      {
+        "country": "HR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HR"
+    ]
+  },
+  {
+    "name": "Kava",
+    "normalized": "kava",
+    "language": "hu",
+    "plant_ids": [
+      "piper_methysticum"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "country_usage": [
+      {
+        "country": "HU",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HU"
+    ]
+  },
+  {
+    "name": "Kava",
+    "normalized": "kava",
+    "language": "it",
+    "plant_ids": [
+      "piper_methysticum"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "IT",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IT"
+    ]
+  },
+  {
+    "name": "Kava",
+    "normalized": "kava",
+    "language": "ms",
+    "plant_ids": [
+      "piper_methysticum"
+    ],
+    "countries": [
+      "MY"
+    ],
+    "country_usage": [
+      {
+        "country": "MY",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "MY"
+    ]
+  },
+  {
+    "name": "Kava",
+    "normalized": "kava",
+    "language": "nl",
+    "plant_ids": [
+      "piper_methysticum"
+    ],
+    "countries": [
+      "BE",
+      "NL"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "NL",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "BE",
+      "NL"
+    ]
+  },
+  {
+    "name": "Kava",
+    "normalized": "kava",
+    "language": "no",
+    "plant_ids": [
+      "piper_methysticum"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "NO"
+    ]
+  },
+  {
+    "name": "Kava",
+    "normalized": "kava",
+    "language": "pl",
+    "plant_ids": [
+      "piper_methysticum"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "country_usage": [
+      {
+        "country": "PL",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PL"
+    ]
+  },
+  {
+    "name": "Kava",
+    "normalized": "kava",
+    "language": "pt",
+    "plant_ids": [
+      "piper_methysticum"
+    ],
+    "countries": [
+      "BR",
+      "PT"
+    ],
+    "country_usage": [
+      {
+        "country": "BR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "PT",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "BR",
+      "PT"
+    ]
+  },
+  {
+    "name": "Kava",
+    "normalized": "kava",
+    "language": "ro",
+    "plant_ids": [
+      "piper_methysticum"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "country_usage": [
+      {
+        "country": "RO",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RO"
+    ]
+  },
+  {
+    "name": "Kava",
+    "normalized": "kava",
+    "language": "sk",
+    "plant_ids": [
+      "piper_methysticum"
+    ],
+    "countries": [
+      "SK"
+    ],
+    "country_usage": [
+      {
+        "country": "SK",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SK"
+    ]
+  },
+  {
+    "name": "Kava",
+    "normalized": "kava",
+    "language": "sv",
+    "plant_ids": [
+      "piper_methysticum"
+    ],
+    "countries": [
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "SE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SE"
+    ]
+  },
+  {
     "name": "Kävyinkivääri",
     "normalized": "kavyinkivaari",
     "language": "fi",
@@ -130126,6 +131958,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Kétbibés galagonya",
+    "normalized": "ketbibes galagonya",
+    "language": "hu",
+    "plant_ids": [
+      "crataegus_laevigata"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "country_usage": [
+      {
+        "country": "HU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HU"
+    ]
   },
   {
     "name": "Keten tohumu",
@@ -131273,6 +133130,31 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "PE"
+    ]
+  },
+  {
+    "name": "Királydinnye",
+    "normalized": "kiralydinnye",
+    "language": "hu",
+    "plant_ids": [
+      "tribulus_terrestris"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "country_usage": [
+      {
+        "country": "HU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HU"
     ]
   },
   {
@@ -135072,6 +136954,56 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Kotvičník zemní",
+    "normalized": "kotvicnik zemni",
+    "language": "cs",
+    "plant_ids": [
+      "tribulus_terrestris"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CZ"
+    ]
+  },
+  {
+    "name": "Kotvičník zemný",
+    "normalized": "kotvicnik zemny",
+    "language": "sk",
+    "plant_ids": [
+      "tribulus_terrestris"
+    ],
+    "countries": [
+      "SK"
+    ],
+    "country_usage": [
+      {
+        "country": "SK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SK"
+    ]
   },
   {
     "name": "Kovrčava metvica",
@@ -159339,6 +161271,84 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Midland Hawthorn",
+    "normalized": "midland hawthorn",
+    "language": "en",
+    "plant_ids": [
+      "crataegus_laevigata"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "GB",
+      "IE",
+      "NZ",
+      "SG",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "NZ",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "SG",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 7,
+    "dominant_in_countries": [
+      "AU",
+      "CA",
+      "GB",
+      "IE",
+      "NZ",
+      "US"
+    ]
+  },
+  {
     "name": "Mierikswortel",
     "normalized": "mierikswortel",
     "language": "nl",
@@ -171163,6 +173173,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Okaorapihlaja",
+    "normalized": "okaorapihlaja",
+    "language": "fi",
+    "plant_ids": [
+      "crataegus_laevigata"
+    ],
+    "countries": [
+      "FI"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Ökörfarkkóró",
     "normalized": "okorfarkkoro",
     "language": "hu",
@@ -174715,6 +176748,40 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Oxelhagtorn",
+    "normalized": "oxelhagtorn",
+    "language": "sv",
+    "plant_ids": [
+      "crataegus_laevigata"
+    ],
+    "countries": [
+      "FI",
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "SE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "FI",
+      "SE"
+    ]
+  },
+  {
     "name": "Oxicoco-americano",
     "normalized": "oxicoco americano",
     "language": "pt",
@@ -174846,6 +176913,31 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RO"
+    ]
+  },
+  {
+    "name": "Păducel cu două stile",
+    "normalized": "paducel cu doua stile",
+    "language": "ro",
+    "plant_ids": [
+      "crataegus_laevigata"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "country_usage": [
+      {
+        "country": "RO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
       }
     ],
     "ambiguity_level": "low",
@@ -175041,6 +177133,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Palina ročná",
+    "normalized": "palina rocna",
+    "language": "sk",
+    "plant_ids": [
+      "artemisia_annua"
+    ],
+    "countries": [
+      "SK"
+    ],
+    "country_usage": [
+      {
+        "country": "SK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SK"
+    ]
   },
   {
     "name": "Palma açaí",
@@ -179134,6 +181251,31 @@
     ]
   },
   {
+    "name": "Pelin anual",
+    "normalized": "pelin anual",
+    "language": "ro",
+    "plant_ids": [
+      "artemisia_annua"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "country_usage": [
+      {
+        "country": "RO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RO"
+    ]
+  },
+  {
     "name": "Pelin estragon",
     "normalized": "pelin estragon",
     "language": "hr",
@@ -179226,6 +181368,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Pelyněk roční",
+    "normalized": "pelynek rocni",
+    "language": "cs",
+    "plant_ids": [
+      "artemisia_annua"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CZ"
+    ]
   },
   {
     "name": "Pembe lapacho",
@@ -189930,6 +192097,161 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "VN"
+    ]
+  },
+  {
+    "name": "Puncture Vine",
+    "normalized": "puncture vine",
+    "language": "en",
+    "plant_ids": [
+      "tribulus_terrestris"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "GB",
+      "GH",
+      "IE",
+      "JM",
+      "KE",
+      "NG",
+      "NZ",
+      "PH",
+      "SG",
+      "TT",
+      "US",
+      "ZA",
+      "ZM",
+      "ZW"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "GH",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "JM",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "KE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "NG",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "NZ",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "PH",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "SG",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "TT",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "ZA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "ZM",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "ZW",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 16,
+    "dominant_in_countries": [
+      "AU",
+      "GB",
+      "GH",
+      "IE",
+      "JM",
+      "KE",
+      "NG",
+      "NZ",
+      "TT",
+      "ZM",
+      "ZW"
     ]
   },
   {
@@ -221802,6 +224124,147 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Sweet Wormwood",
+    "normalized": "sweet wormwood",
+    "language": "en",
+    "plant_ids": [
+      "artemisia_annua"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "GB",
+      "GH",
+      "IE",
+      "IN",
+      "KE",
+      "NG",
+      "NZ",
+      "SG",
+      "US",
+      "ZA",
+      "ZM",
+      "ZW"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "GH",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "IN",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "KE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "NG",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "NZ",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "SG",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "ZA",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "ZM",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "ZW",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 14,
+    "dominant_in_countries": [
+      "AU",
+      "CA",
+      "GB",
+      "GH",
+      "IE",
+      "IN",
+      "KE",
+      "NG",
+      "NZ",
+      "US",
+      "ZA",
+      "ZM",
+      "ZW"
+    ]
+  },
+  {
     "name": "Szafran",
     "normalized": "szafran",
     "language": "pl",
@@ -223506,6 +225969,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Tật lê",
+    "normalized": "tat le",
+    "language": "vi",
+    "plant_ids": [
+      "tribulus_terrestris"
+    ],
+    "countries": [
+      "VN"
+    ],
+    "country_usage": [
+      {
+        "country": "VN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "VN"
+    ]
+  },
+  {
     "name": "Tatlı fesleğen",
     "normalized": "tatlı feslegen",
     "language": "tr",
@@ -224861,6 +227349,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Tek yıllık pelin",
+    "normalized": "tek yıllık pelin",
+    "language": "tr",
+    "plant_ids": [
+      "artemisia_annua"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "country_usage": [
+      {
+        "country": "TR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "TR"
+    ]
+  },
+  {
     "name": "Tempelträd",
     "normalized": "tempeltrad",
     "language": "sv",
@@ -225361,6 +227874,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Thanh hao hoa vàng",
+    "normalized": "thanh hao hoa vang",
+    "language": "vi",
+    "plant_ids": [
+      "artemisia_annua"
+    ],
+    "countries": [
+      "VN"
+    ],
+    "country_usage": [
+      {
+        "country": "VN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "VN"
+    ]
   },
   {
     "name": "Thanh hao rồng",
@@ -228202,6 +230740,87 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Tribolo terrestre",
+    "normalized": "tribolo terrestre",
+    "language": "it",
+    "plant_ids": [
+      "tribulus_terrestris"
+    ],
+    "countries": [
+      "CH",
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "IT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "IT"
+    ]
+  },
+  {
+    "name": "Tribulus",
+    "normalized": "tribulus",
+    "language": "id",
+    "plant_ids": [
+      "tribulus_terrestris"
+    ],
+    "countries": [
+      "ID"
+    ],
+    "country_usage": [
+      {
+        "country": "ID",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ID"
+    ]
+  },
+  {
+    "name": "Tribulus",
+    "normalized": "tribulus",
+    "language": "ms",
+    "plant_ids": [
+      "tribulus_terrestris"
+    ],
+    "countries": [
+      "MY"
+    ],
+    "country_usage": [
+      {
+        "country": "MY",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Trigonella",
     "normalized": "trigonella",
     "language": "it",
@@ -229964,6 +232583,40 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "SK"
+    ]
+  },
+  {
+    "name": "Tweestijlige meidoorn",
+    "normalized": "tweestijlige meidoorn",
+    "language": "nl",
+    "plant_ids": [
+      "crataegus_laevigata"
+    ],
+    "countries": [
+      "BE",
+      "NL"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "NL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "BE",
+      "NL"
     ]
   },
   {
@@ -234097,6 +236750,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Vanlig hagtorn",
+    "normalized": "vanlig hagtorn",
+    "language": "no",
+    "plant_ids": [
+      "crataegus_laevigata"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "NO"
+    ]
   },
   {
     "name": "Vanlig hagtorn",
@@ -240587,6 +243265,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Yksivuotinen maruna",
+    "normalized": "yksivuotinen maruna",
+    "language": "fi",
+    "plant_ids": [
+      "artemisia_annua"
+    ],
+    "countries": [
+      "FI"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Ysop",
     "normalized": "ysop",
     "language": "de",
@@ -243430,6 +246131,57 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Zweigriffeliger Weißdorn",
+    "normalized": "zweigriffeliger weißdorn",
+    "language": "de",
+    "plant_ids": [
+      "crataegus_laevigata"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "BE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "CH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
+    "dominant_in_countries": [
+      "AT",
+      "CH",
+      "DE"
+    ]
+  },
+  {
     "name": "Zwiebel",
     "normalized": "zwiebel",
     "language": "de",
@@ -245315,6 +248067,31 @@
     ]
   },
   {
+    "name": "Ετήσια αψιθιά",
+    "normalized": "ετησια αψιθια",
+    "language": "el",
+    "plant_ids": [
+      "artemisia_annua"
+    ],
+    "countries": [
+      "GR"
+    ],
+    "country_usage": [
+      {
+        "country": "GR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "GR"
+    ]
+  },
+  {
     "name": "Ευλογημένο γαϊδουράγκαθο",
     "normalized": "ευλογημενο γαιδουραγκαθο",
     "language": "el",
@@ -245674,6 +248451,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Κάβα",
+    "normalized": "καβα",
+    "language": "el",
+    "plant_ids": [
+      "piper_methysticum"
+    ],
+    "countries": [
+      "GR"
+    ],
+    "country_usage": [
+      {
+        "country": "GR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "GR"
+    ]
   },
   {
     "name": "Κακάο",
@@ -246385,6 +249187,31 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "GR"
+    ]
+  },
+  {
+    "name": "Κράταιγος",
+    "normalized": "κραταιγος",
+    "language": "el",
+    "plant_ids": [
+      "crataegus_laevigata"
+    ],
+    "countries": [
+      "GR"
+    ],
+    "country_usage": [
+      {
+        "country": "GR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -249136,6 +251963,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Τρίβολος",
+    "normalized": "τριβολος",
+    "language": "el",
+    "plant_ids": [
+      "tribulus_terrestris"
+    ],
+    "countries": [
+      "GR"
+    ],
+    "country_usage": [
+      {
+        "country": "GR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "GR"
+    ]
+  },
+  {
     "name": "Τριγκοκιά",
     "normalized": "τριγκοκια",
     "language": "el",
@@ -251237,6 +254089,31 @@
     ]
   },
   {
+    "name": "Бабини зъби",
+    "normalized": "бабини зъби",
+    "language": "bg",
+    "plant_ids": [
+      "tribulus_terrestris"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "country_usage": [
+      {
+        "country": "BG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "BG"
+    ]
+  },
+  {
     "name": "Бадьян настоящий",
     "normalized": "бадьян настоящии",
     "language": "ru",
@@ -252244,6 +255121,31 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RU"
+    ]
+  },
+  {
+    "name": "Боярышник двухстолбиковый",
+    "normalized": "боярышник двухстолбиковыи",
+    "language": "ru",
+    "plant_ids": [
+      "crataegus_laevigata"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
       }
     ],
     "ambiguity_level": "low",
@@ -253724,6 +256626,31 @@
     ]
   },
   {
+    "name": "Глід двостовпчиковий",
+    "normalized": "глід двостовпчиковии",
+    "language": "uk",
+    "plant_ids": [
+      "crataegus_laevigata"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "UA"
+    ]
+  },
+  {
     "name": "Глід одноматочковий",
     "normalized": "глід одноматочковии",
     "language": "uk",
@@ -254807,6 +257734,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Двустълбест глог",
+    "normalized": "двустълбест глог",
+    "language": "bg",
+    "plant_ids": [
+      "crataegus_laevigata"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "country_usage": [
+      {
+        "country": "BG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "BG"
+    ]
+  },
+  {
     "name": "Девичья ромашка",
     "normalized": "девичья ромашка",
     "language": "ru",
@@ -255473,6 +258425,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Едногодишен пелин",
+    "normalized": "едногодишен пелин",
+    "language": "bg",
+    "plant_ids": [
+      "artemisia_annua"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "country_usage": [
+      {
+        "country": "BG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "BG"
+    ]
   },
   {
     "name": "Едносеменен глог",
@@ -256880,6 +259857,81 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Кава",
+    "normalized": "кава",
+    "language": "bg",
+    "plant_ids": [
+      "piper_methysticum"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "country_usage": [
+      {
+        "country": "BG",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "BG"
+    ]
+  },
+  {
+    "name": "Кава",
+    "normalized": "кава",
+    "language": "ru",
+    "plant_ids": [
+      "piper_methysticum"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RU"
+    ]
+  },
+  {
+    "name": "Кава",
+    "normalized": "кава",
+    "language": "uk",
+    "plant_ids": [
+      "piper_methysticum"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "UA"
+    ]
   },
   {
     "name": "Казанлъшка роза",
@@ -263242,6 +266294,56 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Полин однорічний",
+    "normalized": "полин однорічнии",
+    "language": "uk",
+    "plant_ids": [
+      "artemisia_annua"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "UA"
+    ]
+  },
+  {
+    "name": "Полынь однолетняя",
+    "normalized": "полынь однолетняя",
+    "language": "ru",
+    "plant_ids": [
+      "artemisia_annua"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RU"
+    ]
   },
   {
     "name": "Полынь эстрагонная",
@@ -269715,6 +272817,56 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Якірці сланкі",
+    "normalized": "якірці сланкі",
+    "language": "uk",
+    "plant_ids": [
+      "tribulus_terrestris"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "UA"
+    ]
+  },
+  {
+    "name": "Якорцы стелющиеся",
+    "normalized": "якорцы стелющиеся",
+    "language": "ru",
+    "plant_ids": [
+      "tribulus_terrestris"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RU"
+    ]
+  },
+  {
     "name": "Ямайски пипер",
     "normalized": "ямаиски пипер",
     "language": "bg",
@@ -272945,6 +276097,31 @@
     ]
   },
   {
+    "name": "לענה חד-שנתית",
+    "normalized": "לענה חד שנתית",
+    "language": "he",
+    "plant_ids": [
+      "artemisia_annua"
+    ],
+    "countries": [
+      "IL"
+    ],
+    "country_usage": [
+      {
+        "country": "IL",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IL"
+    ]
+  },
+  {
     "name": "לפאצ'ו ורוד",
     "normalized": "לפאצ'ו ורוד",
     "language": "he",
@@ -274906,6 +278083,29 @@
     "dominant_in_countries": [
       "IL"
     ]
+  },
+  {
+    "name": "שבטבט מצוי",
+    "normalized": "שבטבט מצוי",
+    "language": "he",
+    "plant_ids": [
+      "tribulus_terrestris"
+    ],
+    "countries": [
+      "IL"
+    ],
+    "country_usage": [
+      {
+        "country": "IL",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "שבת ריחני",
@@ -276882,6 +280082,31 @@
     ]
   },
   {
+    "name": "افسنطین یک‌ساله",
+    "normalized": "افسنطین یک‌ساله",
+    "language": "fa",
+    "plant_ids": [
+      "artemisia_annua"
+    ],
+    "countries": [
+      "IR"
+    ],
+    "country_usage": [
+      {
+        "country": "IR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IR"
+    ]
+  },
+  {
     "name": "اکتایا راسموسا",
     "normalized": "اکتایا راسموسا",
     "language": "fa",
@@ -278011,6 +281236,64 @@
     "ambiguity_level": "low",
     "name_country_count": 4,
     "dominant_in_countries": []
+  },
+  {
+    "name": "الحسك",
+    "normalized": "الحسك",
+    "language": "ar",
+    "plant_ids": [
+      "tribulus_terrestris"
+    ],
+    "countries": [
+      "DZ",
+      "EG",
+      "IL",
+      "MA",
+      "TN"
+    ],
+    "country_usage": [
+      {
+        "country": "DZ",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      },
+      {
+        "country": "EG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      },
+      {
+        "country": "IL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      },
+      {
+        "country": "TN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 5,
+    "dominant_in_countries": [
+      "EG",
+      "IL"
+    ]
   },
   {
     "name": "الحلبة",
@@ -279183,6 +282466,66 @@
         "country": "TN",
         "is_primary": true,
         "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 5,
+    "dominant_in_countries": [
+      "DZ",
+      "EG",
+      "MA",
+      "TN"
+    ]
+  },
+  {
+    "name": "الشيح الحولي",
+    "normalized": "الشيح الحولي",
+    "language": "ar",
+    "plant_ids": [
+      "artemisia_annua"
+    ],
+    "countries": [
+      "DZ",
+      "EG",
+      "IL",
+      "MA",
+      "TN"
+    ],
+    "country_usage": [
+      {
+        "country": "DZ",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "EG",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "IL",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MA",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "TN",
+        "is_primary": true,
+        "confidence": "medium",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
       }
@@ -286528,6 +289871,31 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "PK"
+    ]
+  },
+  {
+    "name": "خارخاسک",
+    "normalized": "خارخاسک",
+    "language": "fa",
+    "plant_ids": [
+      "tribulus_terrestris"
+    ],
+    "countries": [
+      "IR"
+    ],
+    "country_usage": [
+      {
+        "country": "IR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IR"
     ]
   },
   {
@@ -295344,6 +298712,31 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "IR"
+    ]
+  },
+  {
+    "name": "گوکھرو",
+    "normalized": "گوکھرو",
+    "language": "ur",
+    "plant_ids": [
+      "tribulus_terrestris"
+    ],
+    "countries": [
+      "PK"
+    ],
+    "country_usage": [
+      {
+        "country": "PK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PK"
     ]
   },
   {
@@ -304330,6 +307723,31 @@
     ]
   },
   {
+    "name": "गोखरू",
+    "normalized": "गोखरू",
+    "language": "hi",
+    "plant_ids": [
+      "tribulus_terrestris"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IN"
+    ]
+  },
+  {
     "name": "गोजी बेरी",
     "normalized": "गोजी बेरी",
     "language": "hi",
@@ -309756,6 +313174,45 @@
     "dominant_in_countries": []
   },
   {
+    "name": "நெருஞ்சி",
+    "normalized": "நெருஞ்சி",
+    "language": "ta",
+    "plant_ids": [
+      "tribulus_terrestris"
+    ],
+    "countries": [
+      "LK",
+      "MY",
+      "SG"
+    ],
+    "country_usage": [
+      {
+        "country": "LK",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "MY",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "SG",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": []
+  },
+  {
     "name": "நெல்லிக்காய்",
     "normalized": "நெல்லிக்காய்",
     "language": "ta",
@@ -311795,6 +315252,31 @@
     "language": "si",
     "plant_ids": [
       "centella_asiatica"
+    ],
+    "countries": [
+      "LK"
+    ],
+    "country_usage": [
+      {
+        "country": "LK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "LK"
+    ]
+  },
+  {
+    "name": "ගෝක්ෂුර",
+    "normalized": "ගෝක්ෂුර",
+    "language": "si",
+    "plant_ids": [
+      "tribulus_terrestris"
     ],
     "countries": [
       "LK"
@@ -314888,6 +318370,31 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "TH"
+    ]
+  },
+  {
+    "name": "ชิงเฮา",
+    "normalized": "ชิงเฮา",
+    "language": "th",
+    "plant_ids": [
+      "artemisia_annua"
+    ],
+    "countries": [
+      "TH"
+    ],
+    "country_usage": [
+      {
+        "country": "TH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -320444,6 +323951,31 @@
     ]
   },
   {
+    "name": "개똥쑥",
+    "normalized": "개똥쑥",
+    "language": "ko",
+    "plant_ids": [
+      "artemisia_annua"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "country_usage": [
+      {
+        "country": "KR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "KR"
+    ]
+  },
+  {
     "name": "개장미",
     "normalized": "개장미",
     "language": "ko",
@@ -320846,6 +324378,31 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "KR"
+    ]
+  },
+  {
+    "name": "남가새",
+    "normalized": "남가새",
+    "language": "ko",
+    "plant_ids": [
+      "tribulus_terrestris"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "country_usage": [
+      {
+        "country": "KR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
       }
     ],
     "ambiguity_level": "low",
@@ -324946,6 +328503,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "유럽산사나무",
+    "normalized": "유럽산사나무",
+    "language": "ko",
+    "plant_ids": [
+      "crataegus_laevigata"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "country_usage": [
+      {
+        "country": "KR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "KR"
+    ]
+  },
+  {
     "name": "육두구",
     "normalized": "육두구",
     "language": "ko",
@@ -325733,6 +329315,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "카바",
+    "normalized": "카바",
+    "language": "ko",
+    "plant_ids": [
+      "piper_methysticum"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "country_usage": [
+      {
+        "country": "KR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "KR"
+    ]
   },
   {
     "name": "카스카라 사그라다",
@@ -328559,6 +332166,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "カヴァ",
+    "normalized": "カヴァ",
+    "language": "ja",
+    "plant_ids": [
+      "piper_methysticum"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "country_usage": [
+      {
+        "country": "JP",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "JP"
+    ]
+  },
+  {
     "name": "カカオ",
     "normalized": "カカオ",
     "language": "ja",
@@ -328988,6 +332620,31 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "JP"
+    ]
+  },
+  {
+    "name": "クソニンジン",
+    "normalized": "クソニンジン",
+    "language": "ja",
+    "plant_ids": [
+      "artemisia_annua"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "country_usage": [
+      {
+        "country": "JP",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
       }
     ],
     "ambiguity_level": "low",
@@ -330322,6 +333979,31 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "JP"
+    ]
+  },
+  {
+    "name": "セイヨウサンザシ",
+    "normalized": "セイヨウサンザシ",
+    "language": "ja",
+    "plant_ids": [
+      "crataegus_laevigata"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "country_usage": [
+      {
+        "country": "JP",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
       }
     ],
     "ambiguity_level": "low",
@@ -331848,6 +335530,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "ハマビシ",
+    "normalized": "ハマビシ",
+    "language": "ja",
+    "plant_ids": [
+      "tribulus_terrestris"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "country_usage": [
+      {
+        "country": "JP",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "JP"
+    ]
   },
   {
     "name": "ハマメリス",
@@ -335271,6 +338978,48 @@
     ]
   },
   {
+    "name": "卡瓦胡椒",
+    "normalized": "卡瓦胡椒",
+    "language": "zh",
+    "plant_ids": [
+      "piper_methysticum"
+    ],
+    "countries": [
+      "CN",
+      "SG",
+      "TW"
+    ],
+    "country_usage": [
+      {
+        "country": "CN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "SG",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "TW",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "CN",
+      "TW"
+    ]
+  },
+  {
     "name": "印度乳香",
     "normalized": "印度乳香",
     "language": "zh",
@@ -338554,6 +342303,40 @@
     "normalized": "欧洲山楂",
     "language": "zh",
     "plant_ids": [
+      "crataegus_laevigata"
+    ],
+    "countries": [
+      "CN",
+      "SG"
+    ],
+    "country_usage": [
+      {
+        "country": "CN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "SG",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CN",
+      "SG"
+    ]
+  },
+  {
+    "name": "欧洲山楂",
+    "normalized": "欧洲山楂",
+    "language": "zh",
+    "plant_ids": [
       "crataegus_monogyna"
     ],
     "countries": [
@@ -338796,6 +342579,31 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "TW"
+    ]
+  },
+  {
+    "name": "歐洲山楂",
+    "normalized": "歐洲山楂",
+    "language": "zh",
+    "plant_ids": [
+      "crataegus_laevigata"
+    ],
+    "countries": [
+      "TW"
+    ],
+    "country_usage": [
+      {
+        "country": "TW",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
       }
     ],
     "ambiguity_level": "low",
@@ -344170,6 +347978,58 @@
     ]
   },
   {
+    "name": "蒺藜",
+    "normalized": "蒺藜",
+    "language": "zh",
+    "plant_ids": [
+      "tribulus_terrestris"
+    ],
+    "countries": [
+      "CN",
+      "MY",
+      "SG",
+      "TW"
+    ],
+    "country_usage": [
+      {
+        "country": "CN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "MY",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "SG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "TW",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
+    "dominant_in_countries": [
+      "CN",
+      "MY",
+      "SG",
+      "TW"
+    ]
+  },
+  {
     "name": "蓽茇",
     "normalized": "蓽茇",
     "language": "zh",
@@ -348326,6 +352186,31 @@
     ]
   },
   {
+    "name": "黃花蒿",
+    "normalized": "黃花蒿",
+    "language": "zh",
+    "plant_ids": [
+      "artemisia_annua"
+    ],
+    "countries": [
+      "TW"
+    ],
+    "country_usage": [
+      {
+        "country": "TW",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "TW"
+    ]
+  },
+  {
     "name": "黄姜",
     "normalized": "黄姜",
     "language": "zh",
@@ -348518,6 +352403,40 @@
     "name_country_count": 3,
     "dominant_in_countries": [
       "CN"
+    ]
+  },
+  {
+    "name": "黄花蒿",
+    "normalized": "黄花蒿",
+    "language": "zh",
+    "plant_ids": [
+      "artemisia_annua"
+    ],
+    "countries": [
+      "CN",
+      "SG"
+    ],
+    "country_usage": [
+      {
+        "country": "CN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "SG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CN",
+      "SG"
     ]
   },
   {

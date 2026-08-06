@@ -1,0 +1,410 @@
+{
+  "plant_id": "crataegus_laevigata",
+  "tier": 1,
+  "supported_countries": ["AT", "AU", "BE", "BG", "CA", "CH", "CN", "CZ", "DE", "DK", "ES", "FI", "FR", "GB", "GR", "HR", "HU", "IE", "IT", "JP", "KR", "NL", "NO", "NZ", "PL", "PT", "RO", "RU", "SE", "SG", "SK", "TR", "TW", "UA", "US"],
+  "names": {
+    "AT": [
+      {
+        "name": "Zweigriffeliger Weißdorn",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Austrian Pharmacopoeia terminology"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Midland Hawthorn",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Australian botanical terminology"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Tweestijlige meidoorn",
+        "language": "nl",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Belgian Dutch botanical terminology"
+      },
+      {
+        "name": "Aubépine à deux styles",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Belgian French botanical terminology"
+      },
+      {
+        "name": "Zweigriffeliger Weißdorn",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Belgian German botanical terminology"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Двустълбест глог",
+        "language": "bg",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Bulgarian Pharmacopoeia terminology",
+        "transliteration": "Dvustalbest glog",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Midland Hawthorn",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Canadian botanical terminology"
+      },
+      {
+        "name": "Aubépine à deux styles",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Canadian French botanical terminology"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Zweigriffeliger Weißdorn",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Swiss German botanical terminology"
+      },
+      {
+        "name": "Aubépine à deux styles",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Swiss French botanical terminology"
+      },
+      {
+        "name": "Biancospino comune",
+        "language": "it",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Swiss Italian botanical terminology"
+      }
+    ],
+    "CN": [
+      {
+        "name": "欧洲山楂",
+        "language": "zh",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Chinese botanical terminology",
+        "transliteration": "Ōuzhōu Shānzhā",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Hloh obecný",
+        "language": "cs",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Czech Pharmacopoeia terminology"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Zweigriffeliger Weißdorn",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "German Pharmacopoeia terminology"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Almindelig hvidtjørn",
+        "language": "da",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Danish botanical terminology"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Espino albar",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Spanish Pharmacopoeia terminology"
+      },
+      {
+        "name": "Arç blanc",
+        "language": "ca",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Catalan botanical terminology"
+      },
+      {
+        "name": "Estripo",
+        "language": "gl",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Galician botanical terminology"
+      },
+      {
+        "name": "Elorri zuri",
+        "language": "eu",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Basque botanical terminology"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Okaorapihlaja",
+        "language": "fi",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Finnish botanical terminology"
+      },
+      {
+        "name": "Oxelhagtorn",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Finland Swedish botanical terminology"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Aubépine à deux styles",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "French Pharmacopoeia terminology"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Midland Hawthorn",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "British botanical terminology"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Κράταιγος",
+        "language": "el",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Greek botanical terminology",
+        "transliteration": "Krataigos",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Dvostupi glog",
+        "language": "hr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Croatian Pharmacopoeia terminology"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Kétbibés galagonya",
+        "language": "hu",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Hungarian Pharmacopoeia terminology"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Midland Hawthorn",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Irish botanical terminology"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Biancospino comune",
+        "language": "it",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Italian Pharmacopoeia terminology"
+      }
+    ],
+    "JP": [
+      {
+        "name": "セイヨウサンザシ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Japanese botanical terminology",
+        "transliteration": "Seiyō Sanzashi",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KR": [
+      {
+        "name": "유럽산사나무",
+        "language": "ko",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Korean botanical terminology",
+        "transliteration": "Yureop Sansanamu",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Tweestijlige meidoorn",
+        "language": "nl",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Dutch botanical terminology"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Vanlig hagtorn",
+        "language": "no",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Norwegian botanical terminology"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Midland Hawthorn",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "New Zealand botanical terminology"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Głóg dwuszyjkowy",
+        "language": "pl",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Polish Pharmacopoeia terminology"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Espinheiro-alvar",
+        "language": "pt",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Portuguese Pharmacopoeia terminology"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Păducel cu două stile",
+        "language": "ro",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Romanian Pharmacopoeia terminology"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Боярышник двухстолбиковый",
+        "language": "ru",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Russian Pharmacopoeia terminology",
+        "transliteration": "Boyaryshnik dvukhstolbikovyy",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Oxelhagtorn",
+        "language": "sv",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Swedish botanical terminology"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Midland Hawthorn",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Singapore English botanical terminology"
+      },
+      {
+        "name": "欧洲山楂",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Singapore Chinese botanical terminology",
+        "transliteration": "Ōuzhōu Shānzhā",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Hloh obyčajný",
+        "language": "sk",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Slovak Pharmacopoeia terminology"
+      }
+    ],
+    "TR": [
+      {
+        "name": "İki dişicikli alıç",
+        "language": "tr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Turkish Pharmacopoeia terminology"
+      }
+    ],
+    "TW": [
+      {
+        "name": "歐洲山楂",
+        "language": "zh",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Taiwan botanical terminology",
+        "transliteration": "Ōuzhōu Shānzhā",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Глід двостовпчиковий",
+        "language": "uk",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Ukrainian Pharmacopoeia terminology",
+        "transliteration": "Hlid dvostovpchykovyi",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "US": [
+      {
+        "name": "Midland Hawthorn",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "United States botanical terminology"
+      }
+    ]
+  }
+}

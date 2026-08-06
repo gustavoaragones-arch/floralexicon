@@ -1,0 +1,374 @@
+{
+  "plant_id": "piper_methysticum",
+  "tier": 1,
+  "supported_countries": ["AT", "AU", "BE", "BG", "BR", "CA", "CH", "CN", "CZ", "DE", "DK", "ES", "FI", "FR", "GB", "GR", "HR", "HU", "IE", "IT", "JP", "KR", "MX", "MY", "NL", "NO", "NZ", "PL", "PT", "RO", "RU", "SE", "SG", "SK", "TW", "UA", "US", "ZA"],
+  "names": {
+    "AT": [
+      {
+        "name": "Kava",
+        "language": "de",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Austrian herbal terminology"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Kava",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Australian Pacific Island terminology"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Kava",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Belgian Dutch herbal terminology"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Кава",
+        "language": "bg",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Bulgarian herbal terminology",
+        "transliteration": "Kava",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Kava",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Brazilian herbal terminology"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Kava",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Canadian Natural Health Product terminology"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Kava",
+        "language": "de",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Swiss German herbal terminology"
+      }
+    ],
+    "CN": [
+      {
+        "name": "卡瓦胡椒",
+        "language": "zh",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Chinese herbal terminology",
+        "transliteration": "Kǎwǎ Hújiāo",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Kava",
+        "language": "cs",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Czech herbal terminology"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Kava",
+        "language": "de",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "German herbal product terminology"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Kava",
+        "language": "da",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Danish herbal terminology"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Kava",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Spanish herbal terminology"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Kava",
+        "language": "fi",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Finnish herbal terminology"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Kava",
+        "language": "fr",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "French herbal product terminology"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Kava",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "British Herbal Pharmacopoeia terminology"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Κάβα",
+        "language": "el",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Greek herbal terminology",
+        "transliteration": "Káva",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Kava",
+        "language": "hr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Croatian herbal terminology"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Kava",
+        "language": "hu",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Hungarian herbal terminology"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Kava",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Irish herbal terminology"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Kava",
+        "language": "it",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Italian herbal terminology"
+      }
+    ],
+    "JP": [
+      {
+        "name": "カヴァ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Japanese herbal terminology",
+        "transliteration": "Kava",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KR": [
+      {
+        "name": "카바",
+        "language": "ko",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Korean herbal terminology",
+        "transliteration": "Kaba",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Kava",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Mexican herbal terminology"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Kava",
+        "language": "ms",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Malaysian herbal terminology"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Kava",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Dutch herbal terminology"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Kava",
+        "language": "no",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Norwegian herbal terminology"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Kava",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "New Zealand Pacific herbal terminology"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Kava",
+        "language": "pl",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Polish herbal terminology"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Kava",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Portuguese herbal terminology"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Kava",
+        "language": "ro",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Romanian herbal terminology"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Кава",
+        "language": "ru",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Russian herbal terminology",
+        "transliteration": "Kava",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Kava",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Swedish herbal terminology"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Kava",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Singapore English herbal terminology"
+      },
+      {
+        "name": "卡瓦胡椒",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Singapore Chinese herbal terminology",
+        "transliteration": "Kǎwǎ Hújiāo",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Kava",
+        "language": "sk",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Slovak herbal terminology"
+      }
+    ],
+    "TW": [
+      {
+        "name": "卡瓦胡椒",
+        "language": "zh",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Taiwan herbal terminology",
+        "transliteration": "Kǎwǎ Hújiāo",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Кава",
+        "language": "uk",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ukrainian herbal terminology",
+        "transliteration": "Kava",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "US": [
+      {
+        "name": "Kava",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "United States Herbal Pharmacopoeia terminology"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Kava",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "South African herbal terminology"
+      }
+    ]
+  }
+}

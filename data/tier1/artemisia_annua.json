@@ -1,0 +1,570 @@
+{
+  "plant_id": "artemisia_annua",
+  "tier": 1,
+  "supported_countries": ["AT", "AU", "BE", "BG", "BR", "CA", "CH", "CN", "CZ", "DE", "DK", "DZ", "EG", "ES", "FI", "FR", "GB", "GH", "GR", "HR", "HU", "IE", "IL", "IN", "IR", "IT", "JP", "KE", "KR", "MA", "NG", "NL", "NO", "NZ", "PL", "PT", "RO", "RU", "SE", "SG", "SK", "TH", "TN", "TR", "TW", "UA", "US", "VN", "ZA", "ZM", "ZW"],
+  "names": {
+    "AT": [
+      {
+        "name": "Einjähriger Beifuß",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Austrian Pharmacopoeia terminology"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Sweet Wormwood",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Australian botanical terminology"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Eenjarige bijvoet",
+        "language": "nl",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Belgian Dutch botanical terminology"
+      },
+      {
+        "name": "Armoise annuelle",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Belgian French botanical terminology"
+      },
+      {
+        "name": "Einjähriger Beifuß",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Belgian German botanical terminology"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Едногодишен пелин",
+        "language": "bg",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Bulgarian Pharmacopoeia terminology",
+        "transliteration": "Ednogodishen pelin",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Artemísia anual",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Brazilian botanical terminology"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Sweet Wormwood",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Canadian Natural Health Product terminology"
+      },
+      {
+        "name": "Armoise annuelle",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Canadian French botanical terminology"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Einjähriger Beifuß",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Swiss German botanical terminology"
+      },
+      {
+        "name": "Armoise annuelle",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Swiss French botanical terminology"
+      },
+      {
+        "name": "Artemisia annuale",
+        "language": "it",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Swiss Italian botanical terminology"
+      }
+    ],
+    "CN": [
+      {
+        "name": "黄花蒿",
+        "language": "zh",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Chinese Pharmacopoeia terminology",
+        "transliteration": "Huáng Huā Hāo",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Pelyněk roční",
+        "language": "cs",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Czech Pharmacopoeia terminology"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Einjähriger Beifuß",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "German Pharmacopoeia terminology"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Etårig bynke",
+        "language": "da",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Danish botanical terminology"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "الشيح الحولي",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Algerian herbal terminology",
+        "transliteration": "Al-Shīḥ al-Ḥawlī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Armoise annuelle",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Algerian French botanical terminology"
+      }
+    ],
+    "EG": [
+      {
+        "name": "الشيح الحولي",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Egyptian herbal terminology",
+        "transliteration": "Al-Shīḥ al-Ḥawlī",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Artemisa anual",
+        "language": "es",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Spanish botanical terminology"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Yksivuotinen maruna",
+        "language": "fi",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Finnish botanical terminology"
+      },
+      {
+        "name": "Ettårig malört",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Finland Swedish botanical terminology"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Armoise annuelle",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "French Pharmacopoeia terminology"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Sweet Wormwood",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "British Herbal Pharmacopoeia terminology"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Sweet Wormwood",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ghanaian herbal terminology"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Ετήσια αψιθιά",
+        "language": "el",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Greek botanical terminology",
+        "transliteration": "Etísia Apsithiá",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Jednogodišnji pelin",
+        "language": "hr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Croatian Pharmacopoeia terminology"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Egynyári üröm",
+        "language": "hu",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Hungarian Pharmacopoeia terminology"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Sweet Wormwood",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Irish botanical terminology"
+      }
+    ],
+    "IL": [
+      {
+        "name": "לענה חד-שנתית",
+        "language": "he",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Israeli botanical terminology",
+        "transliteration": "La'anah Had-Shnatit",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الشيح الحولي",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Arabic botanical terminology in Israel",
+        "transliteration": "Al-Shīḥ al-Ḥawlī",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "Sweet Wormwood",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Indian English herbal terminology"
+      }
+    ],
+    "IR": [
+      {
+        "name": "افسنطین یک‌ساله",
+        "language": "fa",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Iranian herbal terminology",
+        "transliteration": "Afsantin-e Yek-Sāleh",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Artemisia annuale",
+        "language": "it",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Italian Pharmacopoeia terminology"
+      }
+    ],
+    "JP": [
+      {
+        "name": "クソニンジン",
+        "language": "ja",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Japanese Pharmacopoeia terminology",
+        "transliteration": "Kusoninjin",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Sweet Wormwood",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Kenyan herbal terminology"
+      }
+    ],
+    "KR": [
+      {
+        "name": "개똥쑥",
+        "language": "ko",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Korean Pharmacopoeia terminology",
+        "transliteration": "Gaettongsuk",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "MA": [
+      {
+        "name": "الشيح الحولي",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Moroccan herbal terminology",
+        "transliteration": "Al-Shīḥ al-Ḥawlī",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Armoise annuelle",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Moroccan French botanical terminology"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Sweet Wormwood",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Nigerian herbal terminology"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Eenjarige bijvoet",
+        "language": "nl",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Dutch botanical terminology"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Ettårig malurt",
+        "language": "no",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Norwegian botanical terminology"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Sweet Wormwood",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "New Zealand botanical terminology"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Bylica roczna",
+        "language": "pl",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Polish Pharmacopoeia terminology"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Artemísia anual",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Portuguese botanical terminology"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Pelin anual",
+        "language": "ro",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Romanian Pharmacopoeia terminology"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Полынь однолетняя",
+        "language": "ru",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Russian Pharmacopoeia terminology",
+        "transliteration": "Polyn' odnoletnyaya",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Ettårig malört",
+        "language": "sv",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Swedish botanical terminology"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Sweet Wormwood",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Singapore English herbal terminology"
+      },
+      {
+        "name": "黄花蒿",
+        "language": "zh",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Singapore Chinese herbal terminology",
+        "transliteration": "Huáng Huā Hāo",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Palina ročná",
+        "language": "sk",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Slovak Pharmacopoeia terminology"
+      }
+    ],
+    "TH": [
+      {
+        "name": "ชิงเฮา",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Thai herbal terminology",
+        "transliteration": "Ching Hao",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TN": [
+      {
+        "name": "الشيح الحولي",
+        "language": "ar",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Tunisian herbal terminology",
+        "transliteration": "Al-Shīḥ al-Ḥawlī",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Tek yıllık pelin",
+        "language": "tr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Turkish Pharmacopoeia terminology"
+      }
+    ],
+    "TW": [
+      {
+        "name": "黃花蒿",
+        "language": "zh",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Taiwan Pharmacopoeia terminology",
+        "transliteration": "Huáng Huā Hāo",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Полин однорічний",
+        "language": "uk",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Ukrainian Pharmacopoeia terminology",
+        "transliteration": "Polyn odnorichnyi",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "US": [
+      {
+        "name": "Sweet Wormwood",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "United States Herbal Pharmacopoeia terminology"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Thanh hao hoa vàng",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnamese traditional herbal terminology"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Sweet Wormwood",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "South African herbal terminology"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Sweet Wormwood",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Zambian herbal terminology"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Sweet Wormwood",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Zimbabwean herbal terminology"
+      }
+    ]
+  }
+}

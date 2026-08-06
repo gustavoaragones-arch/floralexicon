@@ -1,0 +1,791 @@
+{
+  "plant_id": "tribulus_terrestris",
+  "tier": 1,
+  "supported_countries": ["AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CN", "CO", "CR", "CU", "CZ", "DE", "DO", "DZ", "EC", "EG", "ES", "FR", "GB", "GH", "GR", "GT", "HR", "HU", "ID", "IE", "IL", "IN", "IR", "IT", "JM", "JP", "KE", "KR", "LK", "MA", "MX", "MY", "NG", "NZ", "PA", "PE", "PH", "PK", "PL", "PY", "RO", "RU", "SG", "SK", "SN", "SV", "TN", "TR", "TT", "TW", "UA", "US", "UY", "VE", "VN", "ZA", "ZM", "ZW"],
+  "names": {
+    "AR": [
+      {
+        "name": "Abrojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Argentine herbal terminology"
+      }
+    ],
+    "AT": [
+      {
+        "name": "Erd-Burzeldorn",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Austrian Pharmacopoeia terminology"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Puncture Vine",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Australian botanical terminology"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Croix-de-Malte",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Belgian French botanical terminology"
+      },
+      {
+        "name": "Erd-Burzeldorn",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Belgian German botanical terminology"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Бабини зъби",
+        "language": "bg",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Bulgarian Pharmacopoeia terminology",
+        "transliteration": "Babini zabi",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "BO": [
+      {
+        "name": "Abrojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Bolivian herbal terminology"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Abrolho",
+        "language": "pt",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Brazilian botanical terminology"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Puncture Vine",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Canadian botanical terminology"
+      },
+      {
+        "name": "Croix-de-Malte",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Canadian French botanical terminology"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Erd-Burzeldorn",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Swiss German botanical terminology"
+      },
+      {
+        "name": "Croix-de-Malte",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Swiss French botanical terminology"
+      },
+      {
+        "name": "Tribolo terrestre",
+        "language": "it",
+        "confidence": "medium",
+        "source": "pharmacopoeia",
+        "citation": "Swiss Italian botanical terminology"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Abrojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Chilean herbal terminology"
+      }
+    ],
+    "CN": [
+      {
+        "name": "蒺藜",
+        "language": "zh",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Chinese Pharmacopoeia terminology",
+        "transliteration": "Jí Lí",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Abrojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Colombian herbal terminology"
+      }
+    ],
+    "CR": [
+      {
+        "name": "Abrojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Costa Rican herbal terminology"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Abrojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Cuban herbal terminology"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Kotvičník zemní",
+        "language": "cs",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Czech Pharmacopoeia terminology"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Erd-Burzeldorn",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "German Pharmacopoeia terminology"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Abrojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Dominican herbal terminology"
+      }
+    ],
+    "DZ": [
+      {
+        "name": "الحسك",
+        "language": "ar",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Algerian herbal terminology",
+        "transliteration": "Al-Ḥasak",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Croix-de-Malte",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Algerian French botanical terminology"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Abrojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Ecuadorian herbal terminology"
+      }
+    ],
+    "EG": [
+      {
+        "name": "الحسك",
+        "language": "ar",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Egyptian herbal terminology",
+        "transliteration": "Al-Ḥasak",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Abrojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Spanish botanical terminology"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Croix-de-Malte",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "French Pharmacopoeia terminology"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Puncture Vine",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "British Herbal Pharmacopoeia terminology"
+      }
+    ],
+    "GH": [
+      {
+        "name": "Puncture Vine",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Ghanaian botanical terminology"
+      }
+    ],
+    "GR": [
+      {
+        "name": "Τρίβολος",
+        "language": "el",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Greek herbal terminology",
+        "transliteration": "Trivolos",
+        "transliteration_scheme": "iso_843"
+      }
+    ],
+    "GT": [
+      {
+        "name": "Abrojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Guatemalan herbal terminology"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Babin zub",
+        "language": "hr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Croatian Pharmacopoeia terminology"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Királydinnye",
+        "language": "hu",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Hungarian Pharmacopoeia terminology"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Tribulus",
+        "language": "id",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Indonesian herbal terminology"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Puncture Vine",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Irish botanical terminology"
+      }
+    ],
+    "IL": [
+      {
+        "name": "שבטבט מצוי",
+        "language": "he",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Israeli botanical terminology",
+        "transliteration": "Shevetbet Matsui",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "الحسك",
+        "language": "ar",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Arabic herbal terminology in Israel",
+        "transliteration": "Al-Ḥasak",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IN": [
+      {
+        "name": "गोखरू",
+        "language": "hi",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Ayurvedic Pharmacopoeia terminology",
+        "transliteration": "Gokharū",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "Gokhru",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Indian English Ayurvedic terminology"
+      }
+    ],
+    "IR": [
+      {
+        "name": "خارخاسک",
+        "language": "fa",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Iranian herbal terminology",
+        "transliteration": "Khārkhāsak",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Tribolo terrestre",
+        "language": "it",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Italian Pharmacopoeia terminology"
+      }
+    ],
+    "JM": [
+      {
+        "name": "Puncture Vine",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Jamaican botanical terminology"
+      }
+    ],
+    "JP": [
+      {
+        "name": "ハマビシ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Japanese Pharmacopoeia terminology",
+        "transliteration": "Hamabishi",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KE": [
+      {
+        "name": "Puncture Vine",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Kenyan botanical terminology"
+      }
+    ],
+    "KR": [
+      {
+        "name": "남가새",
+        "language": "ko",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Korean Pharmacopoeia terminology",
+        "transliteration": "Namgasae",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "LK": [
+      {
+        "name": "ගෝක්ෂුර",
+        "language": "si",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lankan Ayurvedic terminology",
+        "transliteration": "Gokṣura",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "நெருஞ்சி",
+        "language": "ta",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Sri Lankan Siddha terminology",
+        "transliteration": "Neruñci",
+        "transliteration_scheme": "iso_15919"
+      }
+    ],
+    "MA": [
+      {
+        "name": "الحسك",
+        "language": "ar",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Moroccan herbal terminology",
+        "transliteration": "Al-Ḥasak",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Croix-de-Malte",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Moroccan French botanical terminology"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Abrojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Mexican herbal terminology"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Tribulus",
+        "language": "ms",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Malaysian herbal terminology"
+      },
+      {
+        "name": "蒺藜",
+        "language": "zh",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Malaysian Chinese herbal terminology",
+        "transliteration": "Jí Lí",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "நெருஞ்சி",
+        "language": "ta",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Malaysian Tamil Siddha terminology",
+        "transliteration": "Neruñci",
+        "transliteration_scheme": "iso_15919"
+      }
+    ],
+    "NG": [
+      {
+        "name": "Puncture Vine",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Nigerian botanical terminology"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Puncture Vine",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "New Zealand botanical terminology"
+      }
+    ],
+    "PA": [
+      {
+        "name": "Abrojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Panamanian herbal terminology"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Abrojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Peruvian herbal terminology"
+      }
+    ],
+    "PH": [
+      {
+        "name": "Puncture Vine",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Philippine English botanical terminology"
+      },
+      {
+        "name": "Damong-tinik",
+        "language": "tl",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Filipino herbal terminology"
+      }
+    ],
+    "PK": [
+      {
+        "name": "گوکھرو",
+        "language": "ur",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistani Unani terminology",
+        "transliteration": "Gokhru",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Gokhru",
+        "language": "en",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Pakistani English herbal terminology"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Buzdyganek naziemny",
+        "language": "pl",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Polish Pharmacopoeia terminology"
+      }
+    ],
+    "PY": [
+      {
+        "name": "Abrojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Paraguayan herbal terminology"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Colții babei",
+        "language": "ro",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Romanian Pharmacopoeia terminology"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Якорцы стелющиеся",
+        "language": "ru",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Russian Pharmacopoeia terminology",
+        "transliteration": "Yakortsy stelyushchiyesya",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "SG": [
+      {
+        "name": "Puncture Vine",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Singapore English botanical terminology"
+      },
+      {
+        "name": "蒺藜",
+        "language": "zh",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Singapore Chinese herbal terminology",
+        "transliteration": "Jí Lí",
+        "transliteration_scheme": "pinyin"
+      },
+      {
+        "name": "நெருஞ்சி",
+        "language": "ta",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Singapore Tamil Siddha terminology",
+        "transliteration": "Neruñci",
+        "transliteration_scheme": "iso_15919"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Kotvičník zemný",
+        "language": "sk",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Slovak Pharmacopoeia terminology"
+      }
+    ],
+    "SN": [
+      {
+        "name": "Croix-de-Malte",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Senegalese herbal terminology"
+      }
+    ],
+    "SV": [
+      {
+        "name": "Abrojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Salvadoran herbal terminology"
+      }
+    ],
+    "TN": [
+      {
+        "name": "الحسك",
+        "language": "ar",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Tunisian herbal terminology",
+        "transliteration": "Al-Ḥasak",
+        "transliteration_scheme": "ala_lc"
+      },
+      {
+        "name": "Croix-de-Malte",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Tunisian French botanical terminology"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Demir dikeni",
+        "language": "tr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Turkish Pharmacopoeia terminology"
+      }
+    ],
+    "TT": [
+      {
+        "name": "Puncture Vine",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Trinidad and Tobago botanical terminology"
+      }
+    ],
+    "TW": [
+      {
+        "name": "蒺藜",
+        "language": "zh",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Taiwan Pharmacopoeia terminology",
+        "transliteration": "Jí Lí",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Якірці сланкі",
+        "language": "uk",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Ukrainian Pharmacopoeia terminology",
+        "transliteration": "Yakirtsi slanki",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "US": [
+      {
+        "name": "Puncture Vine",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "United States Herbal Pharmacopoeia terminology"
+      },
+      {
+        "name": "Abrojo",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "United States Spanish herbal terminology"
+      }
+    ],
+    "UY": [
+      {
+        "name": "Abrojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Uruguayan herbal terminology"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Abrojo",
+        "language": "es",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Venezuelan herbal terminology"
+      }
+    ],
+    "VN": [
+      {
+        "name": "Tật lê",
+        "language": "vi",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Vietnamese traditional herbal terminology"
+      }
+    ],
+    "ZA": [
+      {
+        "name": "Puncture Vine",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "South African botanical terminology"
+      },
+      {
+        "name": "Dubbeldoring",
+        "language": "af",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Afrikaans botanical terminology"
+      }
+    ],
+    "ZM": [
+      {
+        "name": "Puncture Vine",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Zambian botanical terminology"
+      }
+    ],
+    "ZW": [
+      {
+        "name": "Puncture Vine",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Zimbabwean botanical terminology"
+      }
+    ]
+  }
+}
