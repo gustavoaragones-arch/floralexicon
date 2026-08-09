@@ -1,0 +1,436 @@
+{
+  "plant_id": "arctostaphylos_uva_ursi",
+  "tier": 1,
+  "supported_countries": ["AT", "AU", "BE", "BG", "CA", "CH", "CN", "CZ", "DE", "DK", "ES", "FI", "FR", "GB", "HR", "HU", "IE", "IT", "JP", "KR", "NL", "NO", "PL", "PT", "RU", "SE", "SK", "UA", "US"],
+  "names": {
+    "AT": [
+      {
+        "name": "Echte Bärentraube",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "European Pharmacopoeia, Bearberry Leaf (Uvae ursi folium)"
+      },
+      {
+        "name": "Bärentraubenblätter",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "ESCOP Monographs 2nd ed., Uvae ursi folium"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Bearberry",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Madaus, Lehrbuch der biologischen Heilmittel (1938), Arctostaphylos"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Berendruif",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Wikispecies, Arctostaphylos uva-ursi vernacular names"
+      },
+      {
+        "name": "Busserole",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Madaus, Lehrbuch der biologischen Heilmittel (1938), Busserole officinale"
+      },
+      {
+        "name": "Raisin d'ours",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Wikispecies, Arctostaphylos uva-ursi vernacular names"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Мечо грозде",
+        "language": "bg",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Wikidata Q208032, bgwiki vernacular name",
+        "transliteration": "Mecho grozde",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Bearberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Madaus, Lehrbuch der biologischen Heilmittel (1938), Common Bearberry"
+      },
+      {
+        "name": "Kinnikinnick",
+        "language": "en",
+        "confidence": "medium",
+        "source": "ethnobotany",
+        "citation": "Wikipedia, Arctostaphylos uva-ursi (Algonquian-derived common name)"
+      },
+      {
+        "name": "Busserole",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Madaus, Lehrbuch der biologischen Heilmittel (1938), Busserole officinale"
+      },
+      {
+        "name": "Raisin d'ours",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Wikispecies, Arctostaphylos uva-ursi vernacular names"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Echte Bärentraube",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Pharmacopoea Helvetica V, Folium uvae ursi"
+      },
+      {
+        "name": "Busserole",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Madaus, Lehrbuch der biologischen Heilmittel (1938), Busserole officinale"
+      },
+      {
+        "name": "Uva ursina",
+        "language": "it",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Wikispecies, Arctostaphylos uva-ursi vernacular names"
+      }
+    ],
+    "CN": [
+      {
+        "name": "熊果",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Wikidata Q208032, zhwiki vernacular name",
+        "transliteration": "Xióngguǒ",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Medvědice lékařská",
+        "language": "cs",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Československý lékopis (Pharmacopoea Bohemoslovenica), Folia uvae ursi"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Echte Bärentraube",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Deutsches Arzneibuch 9. Ausgabe, Bärentraubenblätter – Uvae ursi folium"
+      },
+      {
+        "name": "Bärentraubenblätter",
+        "language": "de",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Standardzulassungen für Fertigarzneimittel, Bd. 1, Bärentraubenblätter"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Hede-Melbærris",
+        "language": "da",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Madaus, Lehrbuch der biologischen Heilmittel (1938), Melbärrisblade"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Gayuba",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Consejo General de Colegios Farmacéuticos (España), Gayuba: cuándo y cómo tomarla"
+      },
+      {
+        "name": "Uva de oso",
+        "language": "es",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Consejo General de Colegios Farmacéuticos (España), Gayuba: cuándo y cómo tomarla"
+      },
+      {
+        "name": "Boixerola",
+        "language": "ca",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Institut Botànic de Barcelona (CSIC), Contingut de compostos fenòlics de la boixerola"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Sianpuolukka",
+        "language": "fi",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Hällström, Neuvoja lääkekasvien kokoojille (1898)"
+      },
+      {
+        "name": "Mjölon",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Wikispecies, Arctostaphylos uva-ursi vernacular names"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Busserole",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Madaus, Lehrbuch der biologischen Heilmittel (1938), Busserole officinale"
+      },
+      {
+        "name": "Raisin d'ours",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Wikispecies, Arctostaphylos uva-ursi vernacular names"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Bearberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "British Herbal Pharmacopoeia, 4th ed."
+      },
+      {
+        "name": "Uva ursi",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Commission E Monograph, Uva Ursi leaf (HerbalGram)"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Crveno medvjeđe grožđe",
+        "language": "hr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Wikidata Q208032, hrwiki vernacular name"
+      },
+      {
+        "name": "Medvjetka",
+        "language": "hr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Wikispecies, Arctostaphylos uva-ursi vernacular names"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Orvosi medveszőlő",
+        "language": "hu",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Madaus, Lehrbuch der biologischen Heilmittel (1938), Medveszöllö"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Bearberry",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Madaus, Lehrbuch der biologischen Heilmittel (1938), Common Bearberry"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Uva ursina",
+        "language": "it",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Madaus, Lehrbuch der biologischen Heilmittel (1938), uva ursina"
+      },
+      {
+        "name": "Uva d'orso",
+        "language": "it",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Madaus, Lehrbuch der biologischen Heilmittel (1938), Uva d'orso"
+      }
+    ],
+    "JP": [
+      {
+        "name": "クマコケモモ",
+        "language": "ja",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Wikispecies, Arctostaphylos uva-ursi vernacular names",
+        "transliteration": "Kumakokemomo",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KR": [
+      {
+        "name": "곰들쭉",
+        "language": "ko",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Wikidata Q208032, kowiki vernacular name",
+        "transliteration": "Gomdeuljjuk",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Berendruif",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Wikispecies, Arctostaphylos uva-ursi vernacular names"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Melbær",
+        "language": "no",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Madaus, Lehrbuch der biologischen Heilmittel (1938), Melbaer"
+      },
+      {
+        "name": "Mjølbær",
+        "language": "nn",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Wikispecies, Arctostaphylos uva-ursi vernacular names"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Mącznica lekarska",
+        "language": "pl",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Madaus, Lehrbuch der biologischen Heilmittel (1938), Macznica"
+      },
+      {
+        "name": "Niedźwiedzie grono",
+        "language": "pl",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Madaus, Lehrbuch der biologischen Heilmittel (1938), Niedzwiedzie grono"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Uva-ursina",
+        "language": "pt",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Índice.eu, Arctostaphylos uva-ursi (L.) — medicamento tradicional à base de plantas"
+      },
+      {
+        "name": "Uva-de-urso",
+        "language": "pt",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Índice.eu, Arctostaphylos uva-ursi (L.) — medicamento tradicional à base de plantas"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Толокнянка обыкновенная",
+        "language": "ru",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Madaus, Lehrbuch der biologischen Heilmittel (1938), Toloknianka",
+        "transliteration": "Tolokyanka obyknovennaya",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Медвежьи ушки",
+        "language": "ru",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Wikispecies, Arctostaphylos uva-ursi vernacular names (russkiy)",
+        "transliteration": "Medvezhyi ushki",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Mjölon",
+        "language": "sv",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Madaus, Lehrbuch der biologischen Heilmittel (1938), Mjölon"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Medvedica lekárska",
+        "language": "sk",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Československý lékopis (Pharmacopoea Bohemoslovenica), Folia uvae ursi"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Мучниця звичайна",
+        "language": "uk",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Wikidata Q208032, ukwiki vernacular name",
+        "transliteration": "Muchnytsia zvychaina",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "US": [
+      {
+        "name": "Bearberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Commission E Monograph, Uva Ursi leaf (HerbalGram)"
+      },
+      {
+        "name": "Kinnikinnick",
+        "language": "en",
+        "confidence": "medium",
+        "source": "ethnobotany",
+        "citation": "Wikipedia, Arctostaphylos uva-ursi (Algonquian-derived common name)"
+      },
+      {
+        "name": "Uva ursi",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Commission E Monograph, Uva Ursi leaf (HerbalGram)"
+      }
+    ]
+  }
+}

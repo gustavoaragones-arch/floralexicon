@@ -29919,6 +29919,40 @@
     ]
   },
   {
+    "name": "Bärentraubenblätter",
+    "normalized": "barentraubenblatter",
+    "language": "de",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "AT",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "AT",
+      "DE"
+    ]
+  },
+  {
     "name": "Barkono",
     "normalized": "barkono",
     "language": "ha",
@@ -32008,6 +32042,65 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Bearberry",
+    "normalized": "bearberry",
+    "language": "en",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "GB",
+      "IE",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 5,
+    "dominant_in_countries": [
+      "AU",
+      "GB",
+      "IE"
+    ]
+  },
+  {
     "name": "Beere der fünf Geschmacksrichtungen",
     "normalized": "beere der funf geschmacksrichtungen",
     "language": "de",
@@ -32742,6 +32835,40 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "PL"
+    ]
+  },
+  {
+    "name": "Berendruif",
+    "normalized": "berendruif",
+    "language": "nl",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "BE",
+      "NL"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "NL",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "BE",
+      "NL"
     ]
   },
   {
@@ -37382,6 +37509,31 @@
     "ambiguity_level": "low",
     "name_country_count": 2,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Boixerola",
+    "normalized": "boixerola",
+    "language": "ca",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "country_usage": [
+      {
+        "country": "ES",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ES"
+    ]
   },
   {
     "name": "Boksdoornbes",
@@ -43477,6 +43629,56 @@
     "ambiguity_level": "low",
     "name_country_count": 4,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Busserole",
+    "normalized": "busserole",
+    "language": "fr",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "CH",
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      },
+      {
+        "country": "CH",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      },
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
+    "dominant_in_countries": [
+      "CH",
+      "FR"
+    ]
   },
   {
     "name": "Busuioc",
@@ -67528,6 +67730,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Crveno medvjeđe grožđe",
+    "normalized": "crveno medvjeđe grozđe",
+    "language": "hr",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "HR"
+    ],
+    "country_usage": [
+      {
+        "country": "HR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Csalán",
     "normalized": "csalan",
     "language": "hu",
@@ -77736,6 +77961,45 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Echte Bärentraube",
+    "normalized": "echte barentraube",
+    "language": "de",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "AT",
+      "CH",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "DE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
     "dominant_in_countries": []
   },
   {
@@ -91913,6 +92177,29 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Gayuba",
+    "normalized": "gayuba",
+    "language": "es",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "country_usage": [
+      {
+        "country": "ES",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
     "dominant_in_countries": []
   },
   {
@@ -110428,6 +110715,31 @@
     "ambiguity_level": "low",
     "name_country_count": 2,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Hede-Melbærris",
+    "normalized": "hede melbærris",
+    "language": "da",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DK"
+    ]
   },
   {
     "name": "Heemst",
@@ -133108,6 +133420,40 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Kinnikinnick",
+    "normalized": "kinnikinnick",
+    "language": "en",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CA",
+      "US"
+    ]
+  },
+  {
     "name": "Kion",
     "normalized": "kion",
     "language": "es",
@@ -151449,6 +151795,29 @@
     ]
   },
   {
+    "name": "Mącznica lekarska",
+    "normalized": "macznica lekarska",
+    "language": "pl",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "country_usage": [
+      {
+        "country": "PL",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Maczużnik chiński",
     "normalized": "maczuznik chinski",
     "language": "pl",
@@ -158846,6 +159215,81 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Medvedica lekárska",
+    "normalized": "medvedica lekarska",
+    "language": "sk",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "SK"
+    ],
+    "country_usage": [
+      {
+        "country": "SK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SK"
+    ]
+  },
+  {
+    "name": "Medvědice lékařská",
+    "normalized": "medvedice lekarska",
+    "language": "cs",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CZ"
+    ]
+  },
+  {
+    "name": "Medvjetka",
+    "normalized": "medvjetka",
+    "language": "hr",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "HR"
+    ],
+    "country_usage": [
+      {
+        "country": "HR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HR"
+    ]
+  },
+  {
     "name": "Meerrettich",
     "normalized": "meerrettich",
     "language": "de",
@@ -159023,6 +159467,29 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Melbær",
+    "normalized": "melbær",
+    "language": "no",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -163472,6 +163939,31 @@
     ]
   },
   {
+    "name": "Mjølbær",
+    "normalized": "mjølbær",
+    "language": "nn",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "NO"
+    ]
+  },
+  {
     "name": "Mjölktistel",
     "normalized": "mjolktistel",
     "language": "sv",
@@ -163493,6 +163985,40 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": [
+      "SE"
+    ]
+  },
+  {
+    "name": "Mjölon",
+    "normalized": "mjolon",
+    "language": "sv",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "FI",
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "SE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "FI",
       "SE"
     ]
   },
@@ -170818,6 +171344,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Niedźwiedzie grono",
+    "normalized": "niedzwiedzie grono",
+    "language": "pl",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "country_usage": [
+      {
+        "country": "PL",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PL"
+    ]
+  },
+  {
     "name": "Niembaum",
     "normalized": "niembaum",
     "language": "de",
@@ -176437,6 +176988,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Orvosi medveszőlő",
+    "normalized": "orvosi medveszolo",
+    "language": "hu",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "country_usage": [
+      {
+        "country": "HU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HU"
+    ]
   },
   {
     "name": "Orvosi pemetefű",
@@ -193850,6 +194426,45 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Raisin d'ours",
+    "normalized": "raisin d'ours",
+    "language": "fr",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
     "dominant_in_countries": []
   },
   {
@@ -215017,6 +215632,29 @@
     ]
   },
   {
+    "name": "Sianpuolukka",
+    "normalized": "sianpuolukka",
+    "language": "fi",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "FI"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Siberian ginseng",
     "normalized": "siberian ginseng",
     "language": "en",
@@ -233735,6 +234373,54 @@
     ]
   },
   {
+    "name": "Uva d'orso",
+    "normalized": "uva d'orso",
+    "language": "it",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "IT",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IT"
+    ]
+  },
+  {
+    "name": "Uva de oso",
+    "normalized": "uva de oso",
+    "language": "es",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "country_usage": [
+      {
+        "country": "ES",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Uva spina indiana",
     "normalized": "uva spina indiana",
     "language": "it",
@@ -233756,6 +234442,116 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Uva ursi",
+    "normalized": "uva ursi",
+    "language": "en",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "GB",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Uva ursina",
+    "normalized": "uva ursina",
+    "language": "it",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "CH",
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "IT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Uva-de-urso",
+    "normalized": "uva de urso",
+    "language": "pt",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "PT"
+    ],
+    "country_usage": [
+      {
+        "country": "PT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Uva-ursina",
+    "normalized": "uva ursina",
+    "language": "pt",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "PT"
+    ],
+    "country_usage": [
+      {
+        "country": "PT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PT"
+    ]
   },
   {
     "name": "Uzun biber",
@@ -264010,6 +264806,31 @@
     ]
   },
   {
+    "name": "Медвежьи ушки",
+    "normalized": "медвежьи ушки",
+    "language": "ru",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RU"
+    ]
+  },
+  {
     "name": "Медена билка",
     "normalized": "медена билка",
     "language": "bg",
@@ -264193,6 +265014,31 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "BG"
+    ]
+  },
+  {
+    "name": "Мечо грозде",
+    "normalized": "мечо грозде",
+    "language": "bg",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "country_usage": [
+      {
+        "country": "BG",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
       }
     ],
     "ambiguity_level": "low",
@@ -264488,6 +265334,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Мучниця звичайна",
+    "normalized": "мучниця звичаина",
+    "language": "uk",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "UA"
+    ]
   },
   {
     "name": "Мята",
@@ -269048,6 +269919,29 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Толокнянка обыкновенная",
+    "normalized": "толокнянка обыкновенная",
+    "language": "ru",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -324189,6 +325083,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "곰들쭉",
+    "normalized": "곰들쭉",
+    "language": "ko",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "country_usage": [
+      {
+        "country": "KR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "KR"
+    ]
+  },
+  {
     "name": "과라나",
     "normalized": "과라나",
     "language": "ko",
@@ -332670,6 +333589,31 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "JP"
+    ]
+  },
+  {
+    "name": "クマコケモモ",
+    "normalized": "クマコケモモ",
+    "language": "ja",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "country_usage": [
+      {
+        "country": "JP",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
       }
     ],
     "ambiguity_level": "low",
@@ -343499,6 +344443,31 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CN"
+    ]
+  },
+  {
+    "name": "熊果",
+    "normalized": "熊果",
+    "language": "zh",
+    "plant_ids": [
+      "arctostaphylos_uva_ursi"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "country_usage": [
+      {
+        "country": "CN",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
       }
     ],
     "ambiguity_level": "low",
