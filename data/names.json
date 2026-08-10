@@ -36911,6 +36911,124 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Blodört",
+    "normalized": "blodort",
+    "language": "sv",
+    "plant_ids": [
+      "sanguinaria_canadensis"
+    ],
+    "countries": [
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "SE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SE"
+    ]
+  },
+  {
+    "name": "Bloodroot",
+    "normalized": "bloodroot",
+    "language": "en",
+    "plant_ids": [
+      "sanguinaria_canadensis"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "GB",
+      "IE",
+      "NZ",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "NZ",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 6,
+    "dominant_in_countries": [
+      "AU",
+      "GB",
+      "IE",
+      "NZ"
+    ]
+  },
+  {
+    "name": "Bloodwort",
+    "normalized": "bloodwort",
+    "language": "en",
+    "plant_ids": [
+      "sanguinaria_canadensis"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "US"
+    ]
+  },
+  {
     "name": "Blue-green algae",
     "normalized": "blue green algae",
     "language": "en",
@@ -46715,6 +46833,31 @@
     "ambiguity_level": "low",
     "name_country_count": 3,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Canadisk Blodurt",
+    "normalized": "canadisk blodurt",
+    "language": "da",
+    "plant_ids": [
+      "sanguinaria_canadensis"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DK"
+    ]
   },
   {
     "name": "Canela",
@@ -128329,6 +128472,49 @@
     ]
   },
   {
+    "name": "Kanadische Blutwurz",
+    "normalized": "kanadische blutwurz",
+    "language": "de",
+    "plant_ids": [
+      "sanguinaria_canadensis"
+    ],
+    "countries": [
+      "AT",
+      "CH",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CH",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "AT",
+      "CH",
+      "DE"
+    ]
+  },
+  {
     "name": "Kaneel",
     "normalized": "kaneel",
     "language": "af",
@@ -163889,6 +164075,37 @@
     ]
   },
   {
+    "name": "miskwijiibik",
+    "normalized": "miskwijiibik",
+    "language": "oj",
+    "plant_ids": [
+      "sanguinaria_canadensis"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Mjødurt",
     "normalized": "mjødurt",
     "language": "da",
@@ -196243,6 +196460,29 @@
     ]
   },
   {
+    "name": "Red puccoon",
+    "normalized": "red puccoon",
+    "language": "en",
+    "plant_ids": [
+      "sanguinaria_canadensis"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Red Sage",
     "normalized": "red sage",
     "language": "en",
@@ -209531,6 +209771,81 @@
       "AT",
       "CH",
       "DE"
+    ]
+  },
+  {
+    "name": "Sang-dragon",
+    "normalized": "sang dragon",
+    "language": "fr",
+    "plant_ids": [
+      "sanguinaria_canadensis"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CA"
+    ]
+  },
+  {
+    "name": "Sanguinaire du Canada",
+    "normalized": "sanguinaire du canada",
+    "language": "fr",
+    "plant_ids": [
+      "sanguinaria_canadensis"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "CH",
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
+    "dominant_in_countries": [
+      "BE",
+      "FR"
     ]
   },
   {
@@ -324674,6 +324989,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "ᎩᎵ ᎤᏩᏘ",
+    "normalized": "ꭹꮅ ꭴꮹꮨ",
+    "language": "chr",
+    "plant_ids": [
+      "sanguinaria_canadensis"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "가든 딜",
     "normalized": "가든 딜",
     "language": "ko",
@@ -333247,6 +333585,31 @@
         "confidence": "high",
         "source": "manual",
         "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "JP"
+    ]
+  },
+  {
+    "name": "カナダケシ",
+    "normalized": "カナダケシ",
+    "language": "ja",
+    "plant_ids": [
+      "sanguinaria_canadensis"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "country_usage": [
+      {
+        "country": "JP",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
       }
     ],
     "ambiguity_level": "low",
@@ -349905,6 +350268,40 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": [
+      "TW"
+    ]
+  },
+  {
+    "name": "血根草",
+    "normalized": "血根草",
+    "language": "zh",
+    "plant_ids": [
+      "sanguinaria_canadensis"
+    ],
+    "countries": [
+      "CN",
+      "TW"
+    ],
+    "country_usage": [
+      {
+        "country": "CN",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "TW",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CN",
       "TW"
     ]
   },
