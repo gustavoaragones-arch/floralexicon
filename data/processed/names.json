@@ -100031,6 +100031,75 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Goldenseal",
+    "normalized": "goldenseal",
+    "language": "en",
+    "plant_ids": [
+      "hydrastis_canadensis"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "GB",
+      "IE",
+      "NZ",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "NZ",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 6,
+    "dominant_in_countries": [
+      "AU",
+      "CA",
+      "GB",
+      "IE",
+      "NZ"
+    ]
+  },
+  {
     "name": "Goldmohn",
     "normalized": "goldmohn",
     "language": "de",
@@ -100061,6 +100130,31 @@
     "name_country_count": 2,
     "dominant_in_countries": [
       "AT",
+      "DE"
+    ]
+  },
+  {
+    "name": "Goldsiegelwurzel",
+    "normalized": "goldsiegelwurzel",
+    "language": "de",
+    "plant_ids": [
+      "hydrastis_canadensis"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
       "DE"
     ]
   },
@@ -104419,6 +104513,29 @@
     "dominant_in_countries": [
       "NL"
     ]
+  },
+  {
+    "name": "Ground raspberry",
+    "normalized": "ground raspberry",
+    "language": "en",
+    "plant_ids": [
+      "hydrastis_canadensis"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Grozdasta crna zmijina trava",
@@ -112131,6 +112248,31 @@
     ]
   },
   {
+    "name": "Hidrastis",
+    "normalized": "hidrastis",
+    "language": "es",
+    "plant_ids": [
+      "hydrastis_canadensis"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "country_usage": [
+      {
+        "country": "ES",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ES"
+    ]
+  },
+  {
     "name": "Hierba de eneldo",
     "normalized": "hierba de eneldo",
     "language": "es",
@@ -119409,6 +119551,80 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Hydraste du Canada",
+    "normalized": "hydraste du canada",
+    "language": "fr",
+    "plant_ids": [
+      "hydrastis_canadensis"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "CH",
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
+    "dominant_in_countries": [
+      "BE"
+    ]
+  },
+  {
+    "name": "Hydrastis",
+    "normalized": "hydrastis",
+    "language": "fr",
+    "plant_ids": [
+      "hydrastis_canadensis"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "FR"
+    ]
+  },
+  {
     "name": "Hydrocotyle asiatique",
     "normalized": "hydrocotyle asiatique",
     "language": "fr",
@@ -120120,6 +120336,40 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Idraste",
+    "normalized": "idraste",
+    "language": "it",
+    "plant_ids": [
+      "hydrastis_canadensis"
+    ],
+    "countries": [
+      "CH",
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "CH",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "IT",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CH",
+      "IT"
+    ]
   },
   {
     "name": "Idrocotile asiatica",
@@ -128512,6 +128762,70 @@
       "AT",
       "CH",
       "DE"
+    ]
+  },
+  {
+    "name": "Kanadische Gelbwurz",
+    "normalized": "kanadische gelbwurz",
+    "language": "de",
+    "plant_ids": [
+      "hydrastis_canadensis"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "DE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Kanadische Orangenwurzel",
+    "normalized": "kanadische orangenwurzel",
+    "language": "de",
+    "plant_ids": [
+      "hydrastis_canadensis"
+    ],
+    "countries": [
+      "AT",
+      "CH",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "DE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "AT"
     ]
   },
   {
@@ -174852,6 +175166,39 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Orangeroot",
+    "normalized": "orangeroot",
+    "language": "en",
+    "plant_ids": [
+      "hydrastis_canadensis"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "US"
+    ]
+  },
+  {
     "name": "Oratuomi",
     "normalized": "oratuomi",
     "language": "fi",
@@ -194191,6 +194538,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Racine jaune",
+    "normalized": "racine jaune",
+    "language": "fr",
+    "plant_ids": [
+      "hydrastis_canadensis"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Rădăcina de aur",
     "normalized": "radacina de aur",
     "language": "ro",
@@ -211610,6 +211980,37 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Sceau d'or",
+    "normalized": "sceau d'or",
+    "language": "fr",
+    "plant_ids": [
+      "hydrastis_canadensis"
+    ],
+    "countries": [
+      "CA",
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Schafgarbe",
     "normalized": "schafgarbe",
     "language": "de",
@@ -213848,6 +214249,29 @@
         "confidence": "medium",
         "source": "local_ethnobotany",
         "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Sello de oro",
+    "normalized": "sello de oro",
+    "language": "es",
+    "plant_ids": [
+      "hydrastis_canadensis"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "country_usage": [
+      {
+        "country": "ES",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
       }
     ],
     "ambiguity_level": "low",
@@ -216611,6 +217035,29 @@
       "UY",
       "VE"
     ]
+  },
+  {
+    "name": "Sigillo d'oro",
+    "normalized": "sigillo d'oro",
+    "language": "it",
+    "plant_ids": [
+      "hydrastis_canadensis"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "IT",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Sigorei",
@@ -243408,6 +243855,60 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Yellow-puccoon",
+    "normalized": "yellow puccoon",
+    "language": "en",
+    "plant_ids": [
+      "hydrastis_canadensis"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Yellowroot",
+    "normalized": "yellowroot",
+    "language": "en",
+    "plant_ids": [
+      "hydrastis_canadensis"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
       }
     ],
     "ambiguity_level": "low",
