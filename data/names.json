@@ -12122,6 +12122,29 @@
     ]
   },
   {
+    "name": "Amerikanisches Wintergrün",
+    "normalized": "amerikanisches wintergrun",
+    "language": "de",
+    "plant_ids": [
+      "gaultheria_procumbens"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "DE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Amerikankarpalo",
     "normalized": "amerikankarpalo",
     "language": "fi",
@@ -12143,6 +12166,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Amerikansassafras",
+    "normalized": "amerikansassafras",
+    "language": "fi",
+    "plant_ids": [
+      "sassafras_albidum"
+    ],
+    "countries": [
+      "FI"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "FI"
+    ]
   },
   {
     "name": "Amerikansk ginseng",
@@ -12217,6 +12265,31 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "SE"
+    ]
+  },
+  {
+    "name": "Amerikansk sassafras",
+    "normalized": "amerikansk sassafras",
+    "language": "da",
+    "plant_ids": [
+      "sassafras_albidum"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DK"
     ]
   },
   {
@@ -41085,6 +41158,29 @@
     ]
   },
   {
+    "name": "Boxberry",
+    "normalized": "boxberry",
+    "language": "en",
+    "plant_ids": [
+      "gaultheria_procumbens"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Boy otu",
     "normalized": "boy otu",
     "language": "tr",
@@ -47813,6 +47909,31 @@
     "ambiguity_level": "low",
     "name_country_count": 2,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Canela-sassafrás",
+    "normalized": "canela sassafras",
+    "language": "pt",
+    "plant_ids": [
+      "sassafras_albidum"
+    ],
+    "countries": [
+      "PT"
+    ],
+    "country_usage": [
+      {
+        "country": "PT",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PT"
+    ]
   },
   {
     "name": "Canneberge",
@@ -55831,6 +55952,37 @@
     ]
   },
   {
+    "name": "Checkerberry",
+    "normalized": "checkerberry",
+    "language": "en",
+    "plant_ids": [
+      "gaultheria_procumbens"
+    ],
+    "countries": [
+      "GB",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Chèvrefeuille du Japon",
     "normalized": "chevrefeuille du japon",
     "language": "fr",
@@ -60859,6 +61011,29 @@
       "ZM",
       "ZW"
     ]
+  },
+  {
+    "name": "Cinnamon wood",
+    "normalized": "cinnamon wood",
+    "language": "en",
+    "plant_ids": [
+      "sassafras_albidum"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Cinorrodo",
@@ -77318,6 +77493,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Eastern teaberry",
+    "normalized": "eastern teaberry",
+    "language": "en",
+    "plant_ids": [
+      "gaultheria_procumbens"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Ebegümeci",
     "normalized": "ebegumeci",
     "language": "tr",
@@ -85833,6 +86031,29 @@
     ]
   },
   {
+    "name": "Fenchelholzbaum",
+    "normalized": "fenchelholzbaum",
+    "language": "de",
+    "plant_ids": [
+      "sassafras_albidum"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "DE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Fenegriek",
     "normalized": "fenegriek",
     "language": "af",
@@ -87424,6 +87645,29 @@
         "confidence": "medium",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Filé",
+    "normalized": "file",
+    "language": "en",
+    "plant_ids": [
+      "sassafras_albidum"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
       }
     ],
     "ambiguity_level": "low",
@@ -92680,6 +92924,95 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Gaulteria",
+    "normalized": "gaulteria",
+    "language": "es",
+    "plant_ids": [
+      "gaultheria_procumbens"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "country_usage": [
+      {
+        "country": "ES",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ES"
+    ]
+  },
+  {
+    "name": "Gaulthérie couchée",
+    "normalized": "gaultherie couchee",
+    "language": "fr",
+    "plant_ids": [
+      "gaultheria_procumbens"
+    ],
+    "countries": [
+      "CA",
+      "CH",
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "FR"
+    ]
+  },
+  {
+    "name": "Gaulthérie du Canada",
+    "normalized": "gaultherie du canada",
+    "language": "fr",
+    "plant_ids": [
+      "gaultheria_procumbens"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
     "dominant_in_countries": []
   },
   {
@@ -129277,6 +129610,29 @@
     ]
   },
   {
+    "name": "Kanadischer Tee",
+    "normalized": "kanadischer tee",
+    "language": "de",
+    "plant_ids": [
+      "gaultheria_procumbens"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "DE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Kaneel",
     "normalized": "kaneel",
     "language": "af",
@@ -131395,6 +131751,31 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "HU"
+    ]
+  },
+  {
+    "name": "Kašťa bělavá",
+    "normalized": "kasta belava",
+    "language": "cs",
+    "plant_ids": [
+      "sassafras_albidum"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CZ"
     ]
   },
   {
@@ -142817,6 +143198,55 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Laurier des Iroquois",
+    "normalized": "laurier des iroquois",
+    "language": "fr",
+    "plant_ids": [
+      "sassafras_albidum"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "CH",
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
+    "dominant_in_countries": [
+      "BE"
+    ]
   },
   {
     "name": "Laurier noble",
@@ -161434,6 +161864,37 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Menagwake",
+    "normalized": "menagwake",
+    "language": "oj",
+    "plant_ids": [
+      "sassafras_albidum"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Menta",
     "normalized": "menta",
     "language": "es",
@@ -164987,6 +165448,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Mitten tree",
+    "normalized": "mitten tree",
+    "language": "en",
+    "plant_ids": [
+      "sassafras_albidum"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Mjødurt",
     "normalized": "mjødurt",
     "language": "da",
@@ -167238,6 +167722,29 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 11,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Mountain tea",
+    "normalized": "mountain tea",
+    "language": "en",
+    "plant_ids": [
+      "gaultheria_procumbens"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
     "dominant_in_countries": []
   },
   {
@@ -172440,6 +172947,48 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Niederliegende Scheinbeere",
+    "normalized": "niederliegende scheinbeere",
+    "language": "de",
+    "plant_ids": [
+      "gaultheria_procumbens"
+    ],
+    "countries": [
+      "AT",
+      "CH",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CH",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "DE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "AT",
+      "CH"
+    ]
   },
   {
     "name": "Niedźwiedzie grono",
@@ -185912,6 +186461,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Petit thé des bois",
+    "normalized": "petit the des bois",
+    "language": "fr",
+    "plant_ids": [
+      "gaultheria_procumbens"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Petolisni ginseng",
     "normalized": "petolisni ginseng",
     "language": "hr",
@@ -197368,6 +197940,31 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "VN"
+    ]
+  },
+  {
+    "name": "Rebhuhnbeere",
+    "normalized": "rebhuhnbeere",
+    "language": "de",
+    "plant_ids": [
+      "gaultheria_procumbens"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DE"
     ]
   },
   {
@@ -211380,6 +211977,248 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "FI"
+    ]
+  },
+  {
+    "name": "Sasafrás",
+    "normalized": "sasafras",
+    "language": "es",
+    "plant_ids": [
+      "sassafras_albidum"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "country_usage": [
+      {
+        "country": "ES",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ES"
+    ]
+  },
+  {
+    "name": "Sassafras",
+    "normalized": "sassafras",
+    "language": "en",
+    "plant_ids": [
+      "sassafras_albidum"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "GB",
+      "IE",
+      "NZ",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "NZ",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 6,
+    "dominant_in_countries": [
+      "AU",
+      "CA",
+      "GB",
+      "IE",
+      "NZ",
+      "US"
+    ]
+  },
+  {
+    "name": "Sassafras",
+    "normalized": "sassafras",
+    "language": "fr",
+    "plant_ids": [
+      "sassafras_albidum"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "FR"
+    ]
+  },
+  {
+    "name": "Sassafras officinal",
+    "normalized": "sassafras officinal",
+    "language": "fr",
+    "plant_ids": [
+      "sassafras_albidum"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Sassafrasbaum",
+    "normalized": "sassafrasbaum",
+    "language": "de",
+    "plant_ids": [
+      "sassafras_albidum"
+    ],
+    "countries": [
+      "AT",
+      "CH",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CH",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "AT",
+      "CH",
+      "DE"
+    ]
+  },
+  {
+    "name": "Sassafrasso",
+    "normalized": "sassafrasso",
+    "language": "it",
+    "plant_ids": [
+      "sassafras_albidum"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "IT",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Sassofrasso",
+    "normalized": "sassofrasso",
+    "language": "it",
+    "plant_ids": [
+      "sassafras_albidum"
+    ],
+    "countries": [
+      "CH",
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "IT",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "IT"
     ]
   },
   {
@@ -226514,6 +227353,31 @@
     ]
   },
   {
+    "name": "Szasszafrász babérfa",
+    "normalized": "szasszafrasz baberfa",
+    "language": "hu",
+    "plant_ids": [
+      "sassafras_albidum"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "country_usage": [
+      {
+        "country": "HU",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HU"
+    ]
+  },
+  {
     "name": "Szczypiorek",
     "normalized": "szczypiorek",
     "language": "pl",
@@ -228496,6 +229360,29 @@
     ]
   },
   {
+    "name": "Té de Canadá",
+    "normalized": "te de canada",
+    "language": "es",
+    "plant_ids": [
+      "gaultheria_procumbens"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "country_usage": [
+      {
+        "country": "ES",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Té limón",
     "normalized": "te limon",
     "language": "es",
@@ -229165,6 +230052,37 @@
     "dominant_in_countries": [
       "HU"
     ]
+  },
+  {
+    "name": "Teaberry",
+    "normalized": "teaberry",
+    "language": "en",
+    "plant_ids": [
+      "gaultheria_procumbens"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
   },
   {
     "name": "Tee",
@@ -230125,6 +231043,47 @@
     "dominant_in_countries": [
       "BE",
       "FR"
+    ]
+  },
+  {
+    "name": "Thé des bois",
+    "normalized": "the des bois",
+    "language": "fr",
+    "plant_ids": [
+      "gaultheria_procumbens"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "BE"
     ]
   },
   {
@@ -235886,6 +236845,39 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Uva di monte",
+    "normalized": "uva di monte",
+    "language": "it",
+    "plant_ids": [
+      "gaultheria_procumbens"
+    ],
+    "countries": [
+      "CH",
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "IT",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "IT"
+    ]
   },
   {
     "name": "Uva spina indiana",
@@ -242835,6 +243827,37 @@
     "dominant_in_countries": []
   },
   {
+    "name": "White sassafras",
+    "normalized": "white sassafras",
+    "language": "en",
+    "plant_ids": [
+      "sassafras_albidum"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
     "name": "White turmeric",
     "normalized": "white turmeric",
     "language": "en",
@@ -243467,6 +244490,76 @@
     "ambiguity_level": "low",
     "name_country_count": 5,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Wintergreen",
+    "normalized": "wintergreen",
+    "language": "en",
+    "plant_ids": [
+      "gaultheria_procumbens"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "GB",
+      "IE",
+      "NZ",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "NZ",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 6,
+    "dominant_in_countries": [
+      "AU",
+      "CA",
+      "GB",
+      "IE",
+      "NZ",
+      "US"
+    ]
   },
   {
     "name": "Winterkersie",
@@ -258694,6 +259787,31 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "UA"
+    ]
+  },
+  {
+    "name": "Гаультерия лежачая",
+    "normalized": "гаультерия лежачая",
+    "language": "ru",
+    "plant_ids": [
+      "gaultheria_procumbens"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RU"
     ]
   },
   {
