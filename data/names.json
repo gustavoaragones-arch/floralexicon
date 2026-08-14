@@ -11501,6 +11501,37 @@
     ]
   },
   {
+    "name": "American mandrake",
+    "normalized": "american mandrake",
+    "language": "en",
+    "plant_ids": [
+      "podophyllum_peltatum"
+    ],
+    "countries": [
+      "GB",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
     "name": "American witch hazel",
     "normalized": "american witch hazel",
     "language": "en",
@@ -26252,6 +26283,31 @@
     ]
   },
   {
+    "name": "Azurbär",
+    "normalized": "azurbar",
+    "language": "sv",
+    "plant_ids": [
+      "caulophyllum_thalictroides"
+    ],
+    "countries": [
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "SE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SE"
+    ]
+  },
+  {
     "name": "Ba gạc Ấn Độ",
     "normalized": "ba gac an đo",
     "language": "vi",
@@ -37029,6 +37085,97 @@
     ]
   },
   {
+    "name": "Blue cohosh",
+    "normalized": "blue cohosh",
+    "language": "en",
+    "plant_ids": [
+      "caulophyllum_thalictroides"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "GB",
+      "IE",
+      "NZ",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "NZ",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 6,
+    "dominant_in_countries": [
+      "AU",
+      "GB",
+      "IE",
+      "NZ"
+    ]
+  },
+  {
+    "name": "Blue ginseng",
+    "normalized": "blue ginseng",
+    "language": "en",
+    "plant_ids": [
+      "caulophyllum_thalictroides"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Blue-green algae",
     "normalized": "blue green algae",
     "language": "en",
@@ -37097,6 +37244,29 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 7,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Blueberry root",
+    "normalized": "blueberry root",
+    "language": "en",
+    "plant_ids": [
+      "caulophyllum_thalictroides"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
     "dominant_in_countries": []
   },
   {
@@ -50992,6 +51162,80 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Caulophylle",
+    "normalized": "caulophylle",
+    "language": "fr",
+    "plant_ids": [
+      "caulophyllum_thalictroides"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "FR"
+    ]
+  },
+  {
+    "name": "Caulophylle faux-pigamon",
+    "normalized": "caulophylle faux pigamon",
+    "language": "fr",
+    "plant_ids": [
+      "caulophyllum_thalictroides"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "CH",
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
+    "dominant_in_countries": [
+      "BE"
+    ]
+  },
+  {
     "name": "Çay",
     "normalized": "cay",
     "language": "tr",
@@ -62700,6 +62944,54 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Cohosh azul",
+    "normalized": "cohosh azul",
+    "language": "es",
+    "plant_ids": [
+      "caulophyllum_thalictroides"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "country_usage": [
+      {
+        "country": "ES",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ES"
+    ]
+  },
+  {
+    "name": "Cohosh bleu",
+    "normalized": "cohosh bleu",
+    "language": "fr",
+    "plant_ids": [
+      "caulophyllum_thalictroides"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "manual",
+        "authority_source": "regulatory"
       }
     ],
     "ambiguity_level": "low",
@@ -81483,6 +81775,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Entenfuß",
+    "normalized": "entenfuß",
+    "language": "de",
+    "plant_ids": [
+      "podophyllum_peltatum"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DE"
+    ]
+  },
+  {
     "name": "Épine-vinette",
     "normalized": "epine vinette",
     "language": "fr",
@@ -88997,6 +89314,49 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Frauenwurzel",
+    "normalized": "frauenwurzel",
+    "language": "de",
+    "plant_ids": [
+      "caulophyllum_thalictroides"
+    ],
+    "countries": [
+      "AT",
+      "CH",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "CH",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "AT",
+      "CH",
+      "DE"
+    ]
+  },
+  {
     "name": "Fréamh mhilis",
     "normalized": "freamh mhilis",
     "language": "ga",
@@ -93055,6 +93415,48 @@
     "ambiguity_level": "low",
     "name_country_count": 2,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Gewöhnlicher Maiapfel",
+    "normalized": "gewohnlicher maiapfel",
+    "language": "de",
+    "plant_ids": [
+      "podophyllum_peltatum"
+    ],
+    "countries": [
+      "AT",
+      "CH",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "CH",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "DE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "AT",
+      "CH"
+    ]
   },
   {
     "name": "Gewöhnlicher Meerrettich",
@@ -101544,6 +101946,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Graines à chapelet",
+    "normalized": "graines a chapelet",
+    "language": "fr",
+    "plant_ids": [
+      "caulophyllum_thalictroides"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Graines d'anis",
     "normalized": "graines d'anis",
     "language": "fr",
@@ -104513,6 +104938,29 @@
     "dominant_in_countries": [
       "NL"
     ]
+  },
+  {
+    "name": "Ground lemon",
+    "normalized": "ground lemon",
+    "language": "en",
+    "plant_ids": [
+      "podophyllum_peltatum"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Ground raspberry",
@@ -146180,6 +146628,31 @@
     ]
   },
   {
+    "name": "Léontice faux-pigamon",
+    "normalized": "leontice faux pigamon",
+    "language": "fr",
+    "plant_ids": [
+      "caulophyllum_thalictroides"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CA"
+    ]
+  },
+  {
     "name": "Lepkeszegmag",
     "normalized": "lepkeszegmag",
     "language": "hu",
@@ -150043,6 +150516,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Løveblad",
+    "normalized": "løveblad",
+    "language": "da",
+    "plant_ids": [
+      "caulophyllum_thalictroides"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DK"
+    ]
   },
   {
     "name": "Løvetann",
@@ -158870,6 +159368,75 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Mayapple",
+    "normalized": "mayapple",
+    "language": "en",
+    "plant_ids": [
+      "podophyllum_peltatum"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "GB",
+      "IE",
+      "NZ",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "NZ",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 6,
+    "dominant_in_countries": [
+      "AU",
+      "CA",
+      "GB",
+      "IE",
+      "NZ"
+    ]
   },
   {
     "name": "Maydanoz",
@@ -179328,6 +179895,31 @@
     ]
   },
   {
+    "name": "Papoose root",
+    "normalized": "papoose root",
+    "language": "en",
+    "plant_ids": [
+      "caulophyllum_thalictroides"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "US"
+    ]
+  },
+  {
     "name": "Papoula-californiana",
     "normalized": "papoula californiana",
     "language": "pt",
@@ -189169,6 +189761,78 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Podophylle d'Amérique",
+    "normalized": "podophylle d'amerique",
+    "language": "fr",
+    "plant_ids": [
+      "podophyllum_peltatum"
+    ],
+    "countries": [
+      "CA",
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Podophylle pelté",
+    "normalized": "podophylle pelte",
+    "language": "fr",
+    "plant_ids": [
+      "podophyllum_peltatum"
+    ],
+    "countries": [
+      "CA",
+      "CH",
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "FR"
+    ]
+  },
+  {
     "name": "Pohon kakao",
     "normalized": "pohon kakao",
     "language": "id",
@@ -189733,6 +190397,47 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Pomme de mai",
+    "normalized": "pomme de mai",
+    "language": "fr",
+    "plant_ids": [
+      "podophyllum_peltatum"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "BE"
+    ]
   },
   {
     "name": "Poobar bu gudd",
@@ -242372,6 +243077,29 @@
     "dominant_in_countries": [
       "PL"
     ]
+  },
+  {
+    "name": "Wild mandrake",
+    "normalized": "wild mandrake",
+    "language": "en",
+    "plant_ids": [
+      "podophyllum_peltatum"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Wild marjoram",
@@ -325488,6 +326216,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "ᎤᏂᏍᏇᎫᎩ",
+    "normalized": "ꭴꮒꮝꮗꭻꭹ",
+    "language": "chr",
+    "plant_ids": [
+      "podophyllum_peltatum"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "US"
+    ]
   },
   {
     "name": "ᎩᎵ ᎤᏩᏘ",
