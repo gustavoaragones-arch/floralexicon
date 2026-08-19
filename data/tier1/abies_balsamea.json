@@ -1,0 +1,217 @@
+{
+  "plant_id": "abies_balsamea",
+  "tier": 1,
+  "supported_countries": [
+    "AT",
+    "AU",
+    "BE",
+    "CA",
+    "CH",
+    "DE",
+    "DK",
+    "FR",
+    "GB",
+    "IE",
+    "IT",
+    "NL",
+    "NO",
+    "NZ",
+    "SE",
+    "US"
+  ],
+  "names": {
+    "AT": [
+      {
+        "name": "Balsamtanne",
+        "language": "de",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "USDA Forest Products Laboratory, Abies balsamea — other common names (balsam-tanne)"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Balsam fir",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "USDA Forest Products Laboratory, Abies balsamea — other common names"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Balsemden",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "USDA Forest Products Laboratory, Abies balsamea — other common names (balsem-den)"
+      },
+      {
+        "name": "Sapin baumier",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "USDA Forest Products Laboratory, Abies balsamea — other common names"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Balsam fir",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Natural Resources Canada / Canadian National Vegetation Classification, Association CNVC00222 (Abies balsamea — sapin baumier)"
+      },
+      {
+        "name": "Sapin baumier",
+        "language": "fr",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Natural Resources Canada / Canadian National Vegetation Classification, Association CNVC00222 (Abies balsamea — sapin baumier)"
+      },
+      {
+        "name": "Canada balsam",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "American Conifer Society, Abies balsamea — common names"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Balsamtanne",
+        "language": "de",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "USDA Forest Products Laboratory, Abies balsamea — other common names (balsam-tanne)"
+      },
+      {
+        "name": "Sapin baumier",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "USDA Forest Products Laboratory, Abies balsamea — other common names"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Balsamtanne",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "USDA Forest Products Laboratory, Abies balsamea — other common names (balsam-tanne)"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Balsamgran",
+        "language": "da",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "USDA Forest Products Laboratory, Abies balsamea — other common names (balsam-gran)"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Sapin baumier",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Flora of North America, Abies balsamea — sapin baumier"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Balsam fir",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "USDA Forest Products Laboratory, Abies balsamea — other common names"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Balsam fir",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "USDA Forest Products Laboratory, Abies balsamea — other common names"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Abete balsamico",
+        "language": "it",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "USDA Forest Products Laboratory, Abies balsamea — other common names (abete balsamico)"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Balsemden",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "USDA Forest Products Laboratory, Abies balsamea — other common names (balsem-den)"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Balsamgran",
+        "language": "no",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "USDA Forest Products Laboratory, Abies balsamea — other common names (balsam-gran)"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Balsam fir",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "USDA Forest Products Laboratory, Abies balsamea — other common names"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Balsamgran",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "USDA Forest Products Laboratory, Abies balsamea — other common names (balsam-gran)"
+      }
+    ],
+    "US": [
+      {
+        "name": "Balsam fir",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "USDA Southern Research Station, Silvics of North America — Abies balsamea"
+      },
+      {
+        "name": "Canada balsam",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "American Conifer Society, Abies balsamea — common names"
+      },
+      {
+        "name": "Eastern fir",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "American Conifer Society, Abies balsamea — common names"
+      },
+      {
+        "name": "Blister fir",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "USDA Forest Products Laboratory, Abies balsamea — other common names"
+      }
+    ]
+  }
+}

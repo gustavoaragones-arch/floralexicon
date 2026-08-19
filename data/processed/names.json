@@ -73,6 +73,74 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Abendländischer Lebensbaum",
+    "normalized": "abendlandischer lebensbaum",
+    "language": "de",
+    "plant_ids": [
+      "thuja_occidentalis"
+    ],
+    "countries": [
+      "AT",
+      "CH",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CH",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "AT",
+      "CH",
+      "DE"
+    ]
+  },
+  {
+    "name": "Abete balsamico",
+    "normalized": "abete balsamico",
+    "language": "it",
+    "plant_ids": [
+      "abies_balsamea"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "IT",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IT"
+    ]
+  },
+  {
     "name": "Abishii",
     "normalized": "abishii",
     "language": "om",
@@ -9352,6 +9420,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Almindelig thuja",
+    "normalized": "almindelig thuja",
+    "language": "da",
+    "plant_ids": [
+      "thuja_occidentalis"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DK"
+    ]
   },
   {
     "name": "Almindelig timian",
@@ -19227,6 +19320,39 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Arborvitae",
+    "normalized": "arborvitae",
+    "language": "en",
+    "plant_ids": [
+      "thuja_occidentalis"
+    ],
+    "countries": [
+      "GB",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "GB"
+    ]
+  },
+  {
     "name": "Arbre à karité",
     "normalized": "arbre a karite",
     "language": "fr",
@@ -28497,6 +28623,226 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Balsam fir",
+    "normalized": "balsam fir",
+    "language": "en",
+    "plant_ids": [
+      "abies_balsamea"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "GB",
+      "IE",
+      "NZ",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "NZ",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 6,
+    "dominant_in_countries": [
+      "AU",
+      "GB",
+      "IE",
+      "NZ"
+    ]
+  },
+  {
+    "name": "Balsamgran",
+    "normalized": "balsamgran",
+    "language": "da",
+    "plant_ids": [
+      "abies_balsamea"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DK"
+    ]
+  },
+  {
+    "name": "Balsamgran",
+    "normalized": "balsamgran",
+    "language": "no",
+    "plant_ids": [
+      "abies_balsamea"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "NO"
+    ]
+  },
+  {
+    "name": "Balsamgran",
+    "normalized": "balsamgran",
+    "language": "sv",
+    "plant_ids": [
+      "abies_balsamea"
+    ],
+    "countries": [
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "SE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SE"
+    ]
+  },
+  {
+    "name": "Balsamtanne",
+    "normalized": "balsamtanne",
+    "language": "de",
+    "plant_ids": [
+      "abies_balsamea"
+    ],
+    "countries": [
+      "AT",
+      "CH",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CH",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "AT",
+      "CH",
+      "DE"
+    ]
+  },
+  {
+    "name": "Balsemden",
+    "normalized": "balsemden",
+    "language": "nl",
+    "plant_ids": [
+      "abies_balsamea"
+    ],
+    "countries": [
+      "BE",
+      "NL"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "NL",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "BE",
+      "NL"
+    ]
+  },
+  {
     "name": "Bambucké máslo",
     "normalized": "bambucke maslo",
     "language": "cs",
@@ -37119,6 +37465,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Blister fir",
+    "normalized": "blister fir",
+    "language": "en",
+    "plant_ids": [
+      "abies_balsamea"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Blodört",
     "normalized": "blodort",
     "language": "sv",
@@ -41114,6 +41483,29 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Bouleau à papier",
+    "normalized": "bouleau a papier",
+    "language": "fr",
+    "plant_ids": [
+      "betula_papyrifera"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
       }
     ],
     "ambiguity_level": "low",
@@ -47234,6 +47626,40 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Canada balsam",
+    "normalized": "canada balsam",
+    "language": "en",
+    "plant_ids": [
+      "abies_balsamea"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CA",
+      "US"
+    ]
+  },
+  {
     "name": "Canadisk Blodurt",
     "normalized": "canadisk blodurt",
     "language": "da",
@@ -48520,6 +48946,31 @@
     "ambiguity_level": "low",
     "name_country_count": 8,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Canoe birch",
+    "normalized": "canoe birch",
+    "language": "en",
+    "plant_ids": [
+      "betula_papyrifera"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "US"
+    ]
   },
   {
     "name": "Canyella",
@@ -52934,6 +53385,37 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Cèdre blanc",
+    "normalized": "cedre blanc",
+    "language": "fr",
+    "plant_ids": [
+      "thuja_occidentalis"
+    ],
+    "countries": [
+      "CA",
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
     "dominant_in_countries": []
   },
   {
@@ -77688,6 +78170,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Eastern fir",
+    "normalized": "eastern fir",
+    "language": "en",
+    "plant_ids": [
+      "abies_balsamea"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Eastern teaberry",
     "normalized": "eastern teaberry",
     "language": "en",
@@ -77708,6 +78213,37 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Eastern white cedar",
+    "normalized": "eastern white cedar",
+    "language": "en",
+    "plant_ids": [
+      "thuja_occidentalis"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
     "dominant_in_countries": []
   },
   {
@@ -129771,6 +130307,31 @@
     ]
   },
   {
+    "name": "Kanadantuija",
+    "normalized": "kanadantuija",
+    "language": "fi",
+    "plant_ids": [
+      "thuja_occidentalis"
+    ],
+    "countries": [
+      "FI"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "FI"
+    ]
+  },
+  {
     "name": "Kanadische Blutwurz",
     "normalized": "kanadische blutwurz",
     "language": "de",
@@ -162251,6 +162812,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Mendebaldeko tuia",
+    "normalized": "mendebaldeko tuia",
+    "language": "eu",
+    "plant_ids": [
+      "thuja_occidentalis"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "country_usage": [
+      {
+        "country": "ES",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ES"
+    ]
+  },
+  {
     "name": "Menta",
     "normalized": "menta",
     "language": "es",
@@ -174129,6 +174715,73 @@
     ]
   },
   {
+    "name": "Northern white cedar",
+    "normalized": "northern white cedar",
+    "language": "en",
+    "plant_ids": [
+      "thuja_occidentalis"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "GB",
+      "IE",
+      "NZ",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "NZ",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 6,
+    "dominant_in_countries": [
+      "AU",
+      "IE",
+      "NZ"
+    ]
+  },
+  {
     "name": "Nou moscada",
     "normalized": "nou moscada",
     "language": "ca",
@@ -175096,6 +175749,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Nyugati tuja",
+    "normalized": "nyugati tuja",
+    "language": "hu",
+    "plant_ids": [
+      "thuja_occidentalis"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "country_usage": [
+      {
+        "country": "HU",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HU"
+    ]
   },
   {
     "name": "Oải hương",
@@ -180829,6 +181507,75 @@
     "ambiguity_level": "low",
     "name_country_count": 2,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Paper birch",
+    "normalized": "paper birch",
+    "language": "en",
+    "plant_ids": [
+      "betula_papyrifera"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "GB",
+      "IE",
+      "NZ",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "NZ",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 6,
+    "dominant_in_countries": [
+      "AU",
+      "CA",
+      "GB",
+      "IE",
+      "NZ"
+    ]
   },
   {
     "name": "Papoila californiana",
@@ -212261,6 +213008,55 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Sapin baumier",
+    "normalized": "sapin baumier",
+    "language": "fr",
+    "plant_ids": [
+      "abies_balsamea"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "CH",
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
+    "dominant_in_countries": [
+      "FR"
+    ]
+  },
+  {
     "name": "Sarı kantaron",
     "normalized": "sarı kantaron",
     "language": "tr",
@@ -227054,6 +227850,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Swamp-cedar",
+    "normalized": "swamp cedar",
+    "language": "en",
+    "plant_ids": [
+      "thuja_occidentalis"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "US"
+    ]
+  },
+  {
     "name": "Swart komyn",
     "normalized": "swart komyn",
     "language": "af",
@@ -231837,6 +232658,95 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Thuya d'Occident",
+    "normalized": "thuya d'occident",
+    "language": "fr",
+    "plant_ids": [
+      "thuja_occidentalis"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CA"
+    ]
+  },
+  {
+    "name": "Thuya du Canada",
+    "normalized": "thuya du canada",
+    "language": "fr",
+    "plant_ids": [
+      "thuja_occidentalis"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Thuya occidental",
+    "normalized": "thuya occidental",
+    "language": "fr",
+    "plant_ids": [
+      "thuja_occidentalis"
+    ],
+    "countries": [
+      "BE",
+      "CH",
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "FR"
+    ]
+  },
+  {
     "name": "Thym",
     "normalized": "thym",
     "language": "fr",
@@ -234876,6 +235786,39 @@
     "ambiguity_level": "low",
     "name_country_count": 2,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Tuia occidentale",
+    "normalized": "tuia occidentale",
+    "language": "it",
+    "plant_ids": [
+      "thuja_occidentalis"
+    ],
+    "countries": [
+      "CH",
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "IT",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "IT"
+    ]
   },
   {
     "name": "Tuinbonenkruid",
@@ -240915,6 +241858,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Vanlig tuja",
+    "normalized": "vanlig tuja",
+    "language": "sv",
+    "plant_ids": [
+      "thuja_occidentalis"
+    ],
+    "countries": [
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "SE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SE"
+    ]
+  },
+  {
     "name": "Vanlig vitlök",
     "normalized": "vanlig vitlok",
     "language": "sv",
@@ -244046,6 +245014,71 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 8,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Westerse levensboom",
+    "normalized": "westerse levensboom",
+    "language": "nl",
+    "plant_ids": [
+      "thuja_occidentalis"
+    ],
+    "countries": [
+      "BE",
+      "NL"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "NL",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "BE",
+      "NL"
+    ]
+  },
+  {
+    "name": "White birch",
+    "normalized": "white birch",
+    "language": "en",
+    "plant_ids": [
+      "betula_papyrifera"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
     "dominant_in_countries": []
   },
   {
@@ -249189,6 +250222,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Zerav západní",
+    "normalized": "zerav zapadni",
+    "language": "cs",
+    "plant_ids": [
+      "thuja_occidentalis"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CZ"
+    ]
+  },
+  {
     "name": "Zerdeçal",
     "normalized": "zerdecal",
     "language": "tr",
@@ -250292,6 +251350,31 @@
       "AT",
       "CH",
       "DE"
+    ]
+  },
+  {
+    "name": "Żywotnik zachodni",
+    "normalized": "zywotnik zachodni",
+    "language": "pl",
+    "plant_ids": [
+      "thuja_occidentalis"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "country_usage": [
+      {
+        "country": "PL",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PL"
     ]
   },
   {
@@ -262998,6 +264081,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Западна туя",
+    "normalized": "западна туя",
+    "language": "bg",
+    "plant_ids": [
+      "thuja_occidentalis"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "country_usage": [
+      {
+        "country": "BG",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "BG"
+    ]
+  },
+  {
     "name": "Звезден анасон",
     "normalized": "звезден анасон",
     "language": "bg",
@@ -273335,6 +274443,31 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "UA"
+    ]
+  },
+  {
+    "name": "Туя западная",
+    "normalized": "туя западная",
+    "language": "ru",
+    "plant_ids": [
+      "thuja_occidentalis"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RU"
     ]
   },
   {
@@ -331018,6 +332151,31 @@
     ]
   },
   {
+    "name": "서양측백",
+    "normalized": "서양측백",
+    "language": "ko",
+    "plant_ids": [
+      "thuja_occidentalis"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "country_usage": [
+      {
+        "country": "KR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "KR"
+    ]
+  },
+  {
     "name": "서양톱풀",
     "normalized": "서양톱풀",
     "language": "ko",
@@ -339324,6 +340482,31 @@
         "country": "JP",
         "is_primary": true,
         "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "JP"
+    ]
+  },
+  {
+    "name": "ニオイヒバ",
+    "normalized": "ニオイヒバ",
+    "language": "ja",
+    "plant_ids": [
+      "thuja_occidentalis"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "country_usage": [
+      {
+        "country": "JP",
+        "is_primary": true,
+        "confidence": "medium",
         "source": "local_ethnobotany",
         "authority_source": "linguistic"
       }
