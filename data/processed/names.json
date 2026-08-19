@@ -7380,6 +7380,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Alaskan ginseng",
+    "normalized": "alaskan ginseng",
+    "language": "en",
+    "plant_ids": [
+      "oplopanax_horridus"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Albahaca",
     "normalized": "albahaca",
     "language": "es",
@@ -32230,6 +32253,29 @@
     ]
   },
   {
+    "name": "Bee balm",
+    "normalized": "bee balm",
+    "language": "en",
+    "plant_ids": [
+      "monarda_fistulosa"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Beere der fünf Geschmacksrichtungen",
     "normalized": "beere der funf geschmacksrichtungen",
     "language": "de",
@@ -33055,6 +33101,39 @@
     "ambiguity_level": "low",
     "name_country_count": 2,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Bergamote sauvage",
+    "normalized": "bergamote sauvage",
+    "language": "fr",
+    "plant_ids": [
+      "monarda_fistulosa"
+    ],
+    "countries": [
+      "CA",
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CA"
+    ]
   },
   {
     "name": "Bergarnica",
@@ -37790,6 +37869,37 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Bog Labrador tea",
+    "normalized": "bog labrador tea",
+    "language": "en",
+    "plant_ids": [
+      "rhododendron_groenlandicum"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Bohnenkraut",
     "normalized": "bohnenkraut",
     "language": "de",
@@ -37839,6 +37949,29 @@
       "CH",
       "DE"
     ]
+  },
+  {
+    "name": "Bois de savane",
+    "normalized": "bois de savane",
+    "language": "fr",
+    "plant_ids": [
+      "rhododendron_groenlandicum"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Bois doux",
@@ -74142,6 +74275,68 @@
     ]
   },
   {
+    "name": "Devil's club",
+    "normalized": "devil's club",
+    "language": "en",
+    "plant_ids": [
+      "oplopanax_horridus"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Devil's walking stick",
+    "normalized": "devil's walking stick",
+    "language": "en",
+    "plant_ids": [
+      "oplopanax_horridus"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Diabelski krzew",
     "normalized": "diabelski krzew",
     "language": "pl",
@@ -104759,6 +104954,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Grönländischer Porst",
+    "normalized": "gronlandischer porst",
+    "language": "de",
+    "plant_ids": [
+      "rhododendron_groenlandicum"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DE"
+    ]
+  },
+  {
     "name": "Grönmynta",
     "normalized": "gronmynta",
     "language": "sv",
@@ -117301,6 +117521,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Horsemint",
+    "normalized": "horsemint",
+    "language": "en",
+    "plant_ids": [
+      "monarda_fistulosa"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "US"
+    ]
+  },
+  {
     "name": "Horseradish",
     "normalized": "horseradish",
     "language": "en",
@@ -119688,6 +119933,29 @@
     "dominant_in_countries": [
       "TR"
     ]
+  },
+  {
+    "name": "Hudson Bay tea",
+    "normalized": "hudson bay tea",
+    "language": "en",
+    "plant_ids": [
+      "rhododendron_groenlandicum"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Hulba",
@@ -140999,6 +141267,37 @@
     ]
   },
   {
+    "name": "Labrador tea",
+    "normalized": "labrador tea",
+    "language": "en",
+    "plant_ids": [
+      "rhododendron_groenlandicum"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Lạc tiên",
     "normalized": "lac tien",
     "language": "vi",
@@ -145924,6 +146223,29 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Lédon du Groenland",
+    "normalized": "ledon du groenland",
+    "language": "fr",
+    "plant_ids": [
+      "rhododendron_groenlandicum"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
       }
     ],
     "ambiguity_level": "low",
@@ -154982,6 +155304,40 @@
     "ambiguity_level": "low",
     "name_country_count": 3,
     "dominant_in_countries": []
+  },
+  {
+    "name": "makade-aniibiish",
+    "normalized": "makade aniibiish",
+    "language": "oj",
+    "plant_ids": [
+      "rhododendron_groenlandicum"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CA",
+      "US"
+    ]
   },
   {
     "name": "Makealehti",
@@ -164780,6 +165136,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Mintleaf beebalm",
+    "normalized": "mintleaf beebalm",
+    "language": "en",
+    "plant_ids": [
+      "monarda_fistulosa"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Minttu",
     "normalized": "minttu",
     "language": "fi",
@@ -165938,6 +166317,39 @@
     "dominant_in_countries": [
       "FR",
       "SN"
+    ]
+  },
+  {
+    "name": "Monarde fistuleuse",
+    "normalized": "monarde fistuleuse",
+    "language": "fr",
+    "plant_ids": [
+      "monarda_fistulosa"
+    ],
+    "countries": [
+      "CA",
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "FR"
     ]
   },
   {
@@ -169376,6 +169788,29 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Muskeg tea",
+    "normalized": "muskeg tea",
+    "language": "en",
+    "plant_ids": [
+      "rhododendron_groenlandicum"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
       }
     ],
     "ambiguity_level": "low",
@@ -207819,6 +208254,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Rusty Labrador tea",
+    "normalized": "rusty labrador tea",
+    "language": "en",
+    "plant_ids": [
+      "rhododendron_groenlandicum"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Ruusujuuri",
     "normalized": "ruusujuuri",
     "language": "fi",
@@ -208195,6 +208653,40 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "S'áxt'",
+    "normalized": "s'axt'",
+    "language": "tli",
+    "plant_ids": [
+      "oplopanax_horridus"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CA",
+      "US"
+    ]
   },
   {
     "name": "Sả",
@@ -226539,6 +227031,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Swamp tea",
+    "normalized": "swamp tea",
+    "language": "en",
+    "plant_ids": [
+      "rhododendron_groenlandicum"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Swart komyn",
     "normalized": "swart komyn",
     "language": "af",
@@ -231087,6 +231602,29 @@
     ]
   },
   {
+    "name": "Thé du Labrador",
+    "normalized": "the du labrador",
+    "language": "fr",
+    "plant_ids": [
+      "rhododendron_groenlandicum"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Thé noir",
     "normalized": "the noir",
     "language": "fr",
@@ -231146,6 +231684,29 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 3,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Thé velouté",
+    "normalized": "the veloute",
+    "language": "fr",
+    "plant_ids": [
+      "rhododendron_groenlandicum"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
     "dominant_in_countries": []
   },
   {
@@ -244099,6 +244660,74 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "PL"
+    ]
+  },
+  {
+    "name": "Wild bergamot",
+    "normalized": "wild bergamot",
+    "language": "en",
+    "plant_ids": [
+      "monarda_fistulosa"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "GB",
+      "IE",
+      "NZ",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "NZ",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 6,
+    "dominant_in_countries": [
+      "AU",
+      "GB",
+      "IE",
+      "NZ"
     ]
   },
   {
