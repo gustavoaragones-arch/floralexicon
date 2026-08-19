@@ -1,0 +1,377 @@
+{
+  "plant_id": "juniperus_communis",
+  "tier": 1,
+  "supported_countries": [
+    "AT",
+    "BE",
+    "BG",
+    "CA",
+    "CH",
+    "CN",
+    "CZ",
+    "DE",
+    "DK",
+    "ES",
+    "FI",
+    "FR",
+    "GB",
+    "HR",
+    "HU",
+    "IE",
+    "IT",
+    "NL",
+    "NO",
+    "PL",
+    "PT",
+    "RO",
+    "RU",
+    "SE",
+    "SK",
+    "UA",
+    "US"
+  ],
+  "names": {
+    "AT": [
+      {
+        "name": "Gemeiner Wacholder",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Earle (ed.), The Gymnosperm Database (conifers.org), Juniperus communis — vernacular names (German)"
+      },
+      {
+        "name": "Wacholderbeeren",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Deutsches Arzneibuch / Commission E monograph — Juniperi fructus (Wacholderbeeren)"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Jeneverbes",
+        "language": "nl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Earle (ed.), The Gymnosperm Database (conifers.org), Juniperus communis — vernacular names (Dutch)"
+      },
+      {
+        "name": "Genévrier commun",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Earle (ed.), The Gymnosperm Database (conifers.org), Juniperus communis — vernacular names (French)"
+      }
+    ],
+    "BG": [
+      {
+        "name": "Обикновена хвойна",
+        "language": "bg",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Earle (ed.), The Gymnosperm Database (conifers.org), Juniperus communis — vernacular names (Bulgarian)",
+        "transliteration": "Obiknovena hvoyna",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Common juniper",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Earle (ed.), The Gymnosperm Database (conifers.org), Juniperus communis — vernacular names (English)"
+      },
+      {
+        "name": "Genévrier commun",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Earle (ed.), The Gymnosperm Database (conifers.org), Juniperus communis — vernacular names (French)"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Gemeiner Wacholder",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Pharmacopoea Helvetica — Juniperi fructus; Earle (ed.), The Gymnosperm Database (conifers.org), Juniperus communis — vernacular names (German)"
+      },
+      {
+        "name": "Genévrier commun",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Earle (ed.), The Gymnosperm Database (conifers.org), Juniperus communis — vernacular names (French)"
+      },
+      {
+        "name": "Ginepro comune",
+        "language": "it",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Earle (ed.), The Gymnosperm Database (conifers.org), Juniperus communis — vernacular names (Italian)"
+      }
+    ],
+    "CN": [
+      {
+        "name": "欧刺柏",
+        "language": "zh",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Earle (ed.), The Gymnosperm Database (conifers.org), Juniperus communis — vernacular names (Chinese)",
+        "transliteration": "Ōu cì bǎi",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Jalovec obecný",
+        "language": "cs",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Earle (ed.), The Gymnosperm Database (conifers.org), Juniperus communis — vernacular names (Czech)"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Gemeiner Wacholder",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Earle (ed.), The Gymnosperm Database (conifers.org), Juniperus communis — vernacular names (German)"
+      },
+      {
+        "name": "Wacholderbeeren",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Deutsches Arzneibuch / Commission E monograph — Juniperi fructus (Wacholderbeeren)"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Enebær",
+        "language": "da",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Earle (ed.), The Gymnosperm Database (conifers.org), Juniperus communis — vernacular names (Danish)"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Enebro común",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Earle (ed.), The Gymnosperm Database (conifers.org), Juniperus communis — vernacular names (Spanish)"
+      },
+      {
+        "name": "Ginebró",
+        "language": "ca",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Earle (ed.), The Gymnosperm Database (conifers.org), Juniperus communis — vernacular names (Catalan)"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Kataja",
+        "language": "fi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Earle (ed.), The Gymnosperm Database (conifers.org), Juniperus communis — vernacular names (Finnish)"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Genévrier commun",
+        "language": "fr",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Pharmacopée française — Juniperi pseudo-fructus; Earle (ed.), The Gymnosperm Database (conifers.org), Juniperus communis — vernacular names (French)"
+      },
+      {
+        "name": "Genièvre",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Earle (ed.), The Gymnosperm Database (conifers.org), Juniperus communis — vernacular names (French)"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Common juniper",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "British Herbal Pharmacopoeia; EMA/HMPC European Union herbal monograph on Juniperus communis L., pseudo-fructus (galbulus), Rev. 1, EMA/HMPC/241320/2021"
+      },
+      {
+        "name": "Juniper",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "EMA/HMPC European Union herbal monograph on Juniperus communis L., pseudo-fructus (galbulus), Rev. 1, EMA/HMPC/241320/2021"
+      }
+    ],
+    "HR": [
+      {
+        "name": "Borovica",
+        "language": "hr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Earle (ed.), The Gymnosperm Database (conifers.org), Juniperus communis — vernacular names (Croatian)"
+      }
+    ],
+    "HU": [
+      {
+        "name": "Közönséges boróka",
+        "language": "hu",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Earle (ed.), The Gymnosperm Database (conifers.org), Juniperus communis — vernacular names (Hungarian)"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Aiteal",
+        "language": "ga",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Earle (ed.), The Gymnosperm Database (conifers.org), Juniperus communis — vernacular names (Irish)"
+      },
+      {
+        "name": "Common juniper",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Earle (ed.), The Gymnosperm Database (conifers.org), Juniperus communis — vernacular names (English)"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Ginepro comune",
+        "language": "it",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Earle (ed.), The Gymnosperm Database (conifers.org), Juniperus communis — vernacular names (Italian)"
+      },
+      {
+        "name": "Ginepro",
+        "language": "it",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Earle (ed.), The Gymnosperm Database (conifers.org), Juniperus communis — vernacular names (Italian)"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Jeneverbes",
+        "language": "nl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Earle (ed.), The Gymnosperm Database (conifers.org), Juniperus communis — vernacular names (Dutch)"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Einer",
+        "language": "no",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Earle (ed.), The Gymnosperm Database (conifers.org), Juniperus communis — vernacular names (Norwegian)"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Jałowiec pospolity",
+        "language": "pl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Earle (ed.), The Gymnosperm Database (conifers.org), Juniperus communis — vernacular names (Polish)"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Zimbro-comum",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Earle (ed.), The Gymnosperm Database (conifers.org), Juniperus communis — vernacular names (Portuguese)"
+      },
+      {
+        "name": "Zimbro",
+        "language": "pt",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Herbs of Mexico / commercial listings — zimbro"
+      }
+    ],
+    "RO": [
+      {
+        "name": "Ienupăr",
+        "language": "ro",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Gernot Katzer Spice Pages, Juniperus communis — Romanian ienupăr"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Можжевельник обыкновенный",
+        "language": "ru",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Earle (ed.), The Gymnosperm Database (conifers.org), Juniperus communis — vernacular names (Russian)",
+        "transliteration": "Mozhzhevelnik obyknovennyy",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "SE": [
+      {
+        "name": "En",
+        "language": "sv",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Earle (ed.), The Gymnosperm Database (conifers.org), Juniperus communis — vernacular names (Swedish)"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Borievka obyčajná",
+        "language": "sk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Earle (ed.), The Gymnosperm Database (conifers.org), Juniperus communis — vernacular names (Slovak)"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Ялівець звичайний",
+        "language": "uk",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Earle (ed.), The Gymnosperm Database (conifers.org), Juniperus communis — vernacular names (Ukrainian)",
+        "transliteration": "Yalivets zvychainyi",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "US": [
+      {
+        "name": "Common juniper",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia",
+        "citation": "Commission E monograph, Juniper berry; Earle (ed.), The Gymnosperm Database (conifers.org), Juniperus communis — vernacular names (English)"
+      },
+      {
+        "name": "Juniper berry",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Commission E monograph, Juniper berry"
+      }
+    ]
+  }
+}

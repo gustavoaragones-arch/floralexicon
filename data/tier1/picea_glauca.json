@@ -1,0 +1,59 @@
+{
+  "plant_id": "picea_glauca",
+  "tier": 1,
+  "supported_countries": [
+    "CA",
+    "GB",
+    "US"
+  ],
+  "names": {
+    "CA": [
+      {
+        "name": "White spruce",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Natural Resources Canada / Canadian National Vegetation Classification, Association CNVC00235 (Picea glauca — épinette blanche)"
+      },
+      {
+        "name": "Épinette blanche",
+        "language": "fr",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Natural Resources Canada / Canadian National Vegetation Classification, Association CNVC00235 (Picea glauca — épinette blanche)"
+      }
+    ],
+    "GB": [
+      {
+        "name": "White spruce",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Natural Resources Canada / Canadian National Vegetation Classification, Association CNVC00235 (Picea glauca — épinette blanche)"
+      }
+    ],
+    "US": [
+      {
+        "name": "White spruce",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "USDA Southern Research Station, Silvics of North America — Picea glauca"
+      },
+      {
+        "name": "Canadian spruce",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "USDA Southern Research Station, Silvics of North America — Picea glauca"
+      },
+      {
+        "name": "Skunk spruce",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "USDA Southern Research Station, Silvics of North America — Picea glauca"
+      }
+    ]
+  }
+}

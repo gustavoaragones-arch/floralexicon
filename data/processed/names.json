@@ -5909,6 +5909,31 @@
     ]
   },
   {
+    "name": "Aiteal",
+    "normalized": "aiteal",
+    "language": "ga",
+    "plant_ids": [
+      "juniperus_communis"
+    ],
+    "countries": [
+      "IE"
+    ],
+    "country_usage": [
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IE"
+    ]
+  },
+  {
     "name": "Aito sahrami",
     "normalized": "aito sahrami",
     "language": "fi",
@@ -40249,6 +40274,56 @@
     ]
   },
   {
+    "name": "Borievka obyčajná",
+    "normalized": "borievka obycajna",
+    "language": "sk",
+    "plant_ids": [
+      "juniperus_communis"
+    ],
+    "countries": [
+      "SK"
+    ],
+    "country_usage": [
+      {
+        "country": "SK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SK"
+    ]
+  },
+  {
+    "name": "Borovica",
+    "normalized": "borovica",
+    "language": "hr",
+    "plant_ids": [
+      "juniperus_communis"
+    ],
+    "countries": [
+      "HR"
+    ],
+    "country_usage": [
+      {
+        "country": "HR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HR"
+    ]
+  },
+  {
     "name": "Borovnica",
     "normalized": "borovnica",
     "language": "hr",
@@ -47656,6 +47731,31 @@
     "name_country_count": 2,
     "dominant_in_countries": [
       "CA",
+      "US"
+    ]
+  },
+  {
+    "name": "Canadian spruce",
+    "normalized": "canadian spruce",
+    "language": "en",
+    "plant_ids": [
+      "picea_glauca"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
       "US"
     ]
   },
@@ -65224,6 +65324,53 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Common juniper",
+    "normalized": "common juniper",
+    "language": "en",
+    "plant_ids": [
+      "juniperus_communis"
+    ],
+    "countries": [
+      "CA",
+      "GB",
+      "IE",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "IE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Common mallow",
     "normalized": "common mallow",
     "language": "en",
@@ -80710,6 +80857,31 @@
     ]
   },
   {
+    "name": "Einer",
+    "normalized": "einer",
+    "language": "no",
+    "plant_ids": [
+      "juniperus_communis"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "NO"
+    ]
+  },
+  {
     "name": "Eingriffeliger Weißdorn",
     "normalized": "eingriffeliger weißdorn",
     "language": "de",
@@ -82189,6 +82361,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "En",
+    "normalized": "en",
+    "language": "sv",
+    "plant_ids": [
+      "juniperus_communis"
+    ],
+    "countries": [
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "SE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SE"
+    ]
+  },
+  {
     "name": "Encens indien",
     "normalized": "encens indien",
     "language": "fr",
@@ -82303,6 +82500,54 @@
       "BR",
       "PT"
     ]
+  },
+  {
+    "name": "Enebær",
+    "normalized": "enebær",
+    "language": "da",
+    "plant_ids": [
+      "juniperus_communis"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DK"
+    ]
+  },
+  {
+    "name": "Enebro común",
+    "normalized": "enebro comun",
+    "language": "es",
+    "plant_ids": [
+      "juniperus_communis"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "country_usage": [
+      {
+        "country": "ES",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Eneldo",
@@ -82809,6 +83054,29 @@
       "FR",
       "SN"
     ]
+  },
+  {
+    "name": "Épinette blanche",
+    "normalized": "epinette blanche",
+    "language": "fr",
+    "plant_ids": [
+      "picea_glauca"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Equinácea",
@@ -94005,6 +94273,45 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Gemeiner Wacholder",
+    "normalized": "gemeiner wacholder",
+    "language": "de",
+    "plant_ids": [
+      "juniperus_communis"
+    ],
+    "countries": [
+      "AT",
+      "CH",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "DE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Gemmer",
     "normalized": "gemmer",
     "language": "af",
@@ -94026,6 +94333,56 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Genévrier commun",
+    "normalized": "genevrier commun",
+    "language": "fr",
+    "plant_ids": [
+      "juniperus_communis"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "CH",
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
+    "dominant_in_countries": [
+      "CA",
+      "CH"
+    ]
   },
   {
     "name": "Gengibre",
@@ -94155,6 +94512,31 @@
     "dominant_in_countries": [
       "BR",
       "PT"
+    ]
+  },
+  {
+    "name": "Genièvre",
+    "normalized": "genievre",
+    "language": "fr",
+    "plant_ids": [
+      "juniperus_communis"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "FR"
     ]
   },
   {
@@ -94304,6 +94686,49 @@
     "ambiguity_level": "low",
     "name_country_count": 2,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Gewöhnliche Mahonie",
+    "normalized": "gewohnliche mahonie",
+    "language": "de",
+    "plant_ids": [
+      "mahonia_aquifolium"
+    ],
+    "countries": [
+      "AT",
+      "CH",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CH",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "AT",
+      "CH",
+      "DE"
+    ]
   },
   {
     "name": "Gewöhnliche Mariendistel",
@@ -95209,6 +95634,87 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Ginebró",
+    "normalized": "ginebro",
+    "language": "ca",
+    "plant_ids": [
+      "juniperus_communis"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "country_usage": [
+      {
+        "country": "ES",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ES"
+    ]
+  },
+  {
+    "name": "Ginepro",
+    "normalized": "ginepro",
+    "language": "it",
+    "plant_ids": [
+      "juniperus_communis"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "IT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IT"
+    ]
+  },
+  {
+    "name": "Ginepro comune",
+    "normalized": "ginepro comune",
+    "language": "it",
+    "plant_ids": [
+      "juniperus_communis"
+    ],
+    "countries": [
+      "CH",
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "IT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
     "dominant_in_countries": []
   },
   {
@@ -117019,6 +117525,47 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Holly-leaved barberry",
+    "normalized": "holly leaved barberry",
+    "language": "en",
+    "plant_ids": [
+      "mahonia_aquifolium"
+    ],
+    "countries": [
+      "CA",
+      "GB",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "CA"
+    ]
+  },
+  {
     "name": "Holunder",
     "normalized": "holunder",
     "language": "de",
@@ -122005,6 +122552,31 @@
     ]
   },
   {
+    "name": "Ienupăr",
+    "normalized": "ienupar",
+    "language": "ro",
+    "plant_ids": [
+      "juniperus_communis"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "country_usage": [
+      {
+        "country": "RO",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RO"
+    ]
+  },
+  {
     "name": "Iisoppi",
     "normalized": "iisoppi",
     "language": "fi",
@@ -125560,6 +126132,56 @@
     ]
   },
   {
+    "name": "Jalovec obecný",
+    "normalized": "jalovec obecny",
+    "language": "cs",
+    "plant_ids": [
+      "juniperus_communis"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CZ"
+    ]
+  },
+  {
+    "name": "Jałowiec pospolity",
+    "normalized": "jałowiec pospolity",
+    "language": "pl",
+    "plant_ids": [
+      "juniperus_communis"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "country_usage": [
+      {
+        "country": "PL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PL"
+    ]
+  },
+  {
     "name": "Jamaica",
     "normalized": "jamaica",
     "language": "es",
@@ -127000,6 +127622,40 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Jeneverbes",
+    "normalized": "jeneverbes",
+    "language": "nl",
+    "plant_ids": [
+      "juniperus_communis"
+    ],
+    "countries": [
+      "BE",
+      "NL"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "NL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "BE",
+      "NL"
+    ]
+  },
+  {
     "name": "Jengibre",
     "normalized": "jengibre",
     "language": "es",
@@ -127995,6 +128651,56 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Juniper",
+    "normalized": "juniper",
+    "language": "en",
+    "plant_ids": [
+      "juniperus_communis"
+    ],
+    "countries": [
+      "GB"
+    ],
+    "country_usage": [
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "GB"
+    ]
+  },
+  {
+    "name": "Juniper berry",
+    "normalized": "juniper berry",
+    "language": "en",
+    "plant_ids": [
+      "juniperus_communis"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "US"
+    ]
   },
   {
     "name": "Ka'a",
@@ -132655,6 +133361,31 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "TR"
+    ]
+  },
+  {
+    "name": "Kataja",
+    "normalized": "kataja",
+    "language": "fi",
+    "plant_ids": [
+      "juniperus_communis"
+    ],
+    "countries": [
+      "FI"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "FI"
     ]
   },
   {
@@ -139815,6 +140546,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Közönséges boróka",
+    "normalized": "kozonseges boroka",
+    "language": "hu",
+    "plant_ids": [
+      "juniperus_communis"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "country_usage": [
+      {
+        "country": "HU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HU"
+    ]
   },
   {
     "name": "Közönséges cickafark",
@@ -154624,6 +155380,31 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "PH"
+    ]
+  },
+  {
+    "name": "Mahonia",
+    "normalized": "mahonia",
+    "language": "en",
+    "plant_ids": [
+      "mahonia_aquifolium"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "US"
     ]
   },
   {
@@ -178600,6 +179381,74 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Oregon grape",
+    "normalized": "oregon grape",
+    "language": "en",
+    "plant_ids": [
+      "mahonia_aquifolium"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "GB",
+      "IE",
+      "NZ",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "NZ",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 6,
+    "dominant_in_countries": [
+      "AU",
+      "GB",
+      "IE",
+      "NZ"
+    ]
   },
   {
     "name": "Ori",
@@ -221210,6 +222059,29 @@
     ]
   },
   {
+    "name": "Skunk spruce",
+    "normalized": "skunk spruce",
+    "language": "en",
+    "plant_ids": [
+      "picea_glauca"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Slaapbes",
     "normalized": "slaapbes",
     "language": "nl",
@@ -225400,6 +226272,37 @@
       "GB",
       "US"
     ]
+  },
+  {
+    "name": "Stechdornblättrige Mahonie",
+    "normalized": "stechdornblattrige mahonie",
+    "language": "de",
+    "plant_ids": [
+      "mahonia_aquifolium"
+    ],
+    "countries": [
+      "AT",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "DE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
   },
   {
     "name": "Stenros",
@@ -244452,6 +245355,40 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Wacholderbeeren",
+    "normalized": "wacholderbeeren",
+    "language": "de",
+    "plant_ids": [
+      "juniperus_communis"
+    ],
+    "countries": [
+      "AT",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "AT",
+      "DE"
+    ]
+  },
+  {
     "name": "Wąkrota azjatycka",
     "normalized": "wakrota azjatycka",
     "language": "pl",
@@ -245450,6 +246387,48 @@
     "ambiguity_level": "low",
     "name_country_count": 2,
     "dominant_in_countries": []
+  },
+  {
+    "name": "White spruce",
+    "normalized": "white spruce",
+    "language": "en",
+    "plant_ids": [
+      "picea_glauca"
+    ],
+    "countries": [
+      "CA",
+      "GB",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "CA",
+      "GB"
+    ]
   },
   {
     "name": "White turmeric",
@@ -250397,6 +251376,54 @@
     "dominant_in_countries": [
       "BE",
       "NL"
+    ]
+  },
+  {
+    "name": "Zimbro",
+    "normalized": "zimbro",
+    "language": "pt",
+    "plant_ids": [
+      "juniperus_communis"
+    ],
+    "countries": [
+      "PT"
+    ],
+    "country_usage": [
+      {
+        "country": "PT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Zimbro-comum",
+    "normalized": "zimbro comum",
+    "language": "pt",
+    "plant_ids": [
+      "juniperus_communis"
+    ],
+    "countries": [
+      "PT"
+    ],
+    "country_usage": [
+      {
+        "country": "PT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PT"
     ]
   },
   {
@@ -269516,6 +270543,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Можжевельник обыкновенный",
+    "normalized": "можжевельник обыкновенныи",
+    "language": "ru",
+    "plant_ids": [
+      "juniperus_communis"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RU"
+    ]
+  },
+  {
     "name": "Моринга",
     "normalized": "моринга",
     "language": "bg",
@@ -270257,6 +271309,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Обикновена хвойна",
+    "normalized": "обикновена хвоина",
+    "language": "bg",
+    "plant_ids": [
+      "juniperus_communis"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "country_usage": [
+      {
+        "country": "BG",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "BG"
+    ]
   },
   {
     "name": "Обикновено глухарче",
@@ -278182,6 +279259,31 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "RU"
+    ]
+  },
+  {
+    "name": "Ялівець звичайний",
+    "normalized": "ялівець звичаинии",
+    "language": "uk",
+    "plant_ids": [
+      "juniperus_communis"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "UA"
     ]
   },
   {
@@ -347747,6 +348849,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "欧刺柏",
+    "normalized": "欧刺柏",
+    "language": "zh",
+    "plant_ids": [
+      "juniperus_communis"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "country_usage": [
+      {
+        "country": "CN",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CN"
+    ]
   },
   {
     "name": "欧洲小檗",
