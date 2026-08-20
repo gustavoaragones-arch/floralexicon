@@ -11333,6 +11333,29 @@
     ]
   },
   {
+    "name": "American black elderberry",
+    "normalized": "american black elderberry",
+    "language": "en",
+    "plant_ids": [
+      "sambucus_canadensis"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "American cranberry",
     "normalized": "american cranberry",
     "language": "en",
@@ -11432,6 +11455,62 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "American elder",
+    "normalized": "american elder",
+    "language": "en",
+    "plant_ids": [
+      "sambucus_canadensis"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "US"
+    ]
+  },
+  {
+    "name": "American elderberry",
+    "normalized": "american elderberry",
+    "language": "en",
+    "plant_ids": [
+      "sambucus_canadensis"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
     "dominant_in_countries": []
   },
   {
@@ -11640,6 +11719,37 @@
     "dominant_in_countries": [
       "PH"
     ]
+  },
+  {
+    "name": "American larch",
+    "normalized": "american larch",
+    "language": "en",
+    "plant_ids": [
+      "larix_laricina"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
   },
   {
     "name": "American mandrake",
@@ -28716,6 +28826,39 @@
     ]
   },
   {
+    "name": "Balsam poplar",
+    "normalized": "balsam poplar",
+    "language": "en",
+    "plant_ids": [
+      "populus_balsamifera"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CA"
+    ]
+  },
+  {
     "name": "Balsamgran",
     "normalized": "balsamgran",
     "language": "da",
@@ -28866,6 +29009,29 @@
       "BE",
       "NL"
     ]
+  },
+  {
+    "name": "Bam",
+    "normalized": "bam",
+    "language": "en",
+    "plant_ids": [
+      "populus_balsamifera"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Bambucké máslo",
@@ -36494,6 +36660,29 @@
         "confidence": "medium",
         "source": "local_ethnobotany",
         "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Black larch",
+    "normalized": "black larch",
+    "language": "en",
+    "plant_ids": [
+      "larix_laricina"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -47732,6 +47921,31 @@
     "dominant_in_countries": [
       "CA",
       "US"
+    ]
+  },
+  {
+    "name": "Canada elderberry",
+    "normalized": "canada elderberry",
+    "language": "en",
+    "plant_ids": [
+      "sambucus_canadensis"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CA"
     ]
   },
   {
@@ -64769,6 +64983,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Common elderberry",
+    "normalized": "common elderberry",
+    "language": "en",
+    "plant_ids": [
+      "sambucus_canadensis"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Common fennel",
     "normalized": "common fennel",
     "language": "en",
@@ -68019,6 +68256,29 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Cornouiller stolonifère",
+    "normalized": "cornouiller stolonifere",
+    "language": "fr",
+    "plant_ids": [
+      "cornus_sericea"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
       }
     ],
     "ambiguity_level": "low",
@@ -78317,6 +78577,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Eastern balsam-poplar",
+    "normalized": "eastern balsam poplar",
+    "language": "en",
+    "plant_ids": [
+      "populus_balsamifera"
+    ],
+    "countries": [
+      "GB"
+    ],
+    "country_usage": [
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "GB"
+    ]
+  },
+  {
     "name": "Eastern fir",
     "normalized": "eastern fir",
     "language": "en",
@@ -78333,6 +78618,29 @@
         "confidence": "medium",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Eastern larch",
+    "normalized": "eastern larch",
+    "language": "en",
+    "plant_ids": [
+      "larix_laricina"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
       }
     ],
     "ambiguity_level": "low",
@@ -109822,6 +110130,54 @@
     "dominant_in_countries": [
       "VN"
     ]
+  },
+  {
+    "name": "Hackmatack",
+    "normalized": "hackmatack",
+    "language": "en",
+    "plant_ids": [
+      "larix_laricina"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "US"
+    ]
+  },
+  {
+    "name": "Hackmatack",
+    "normalized": "hackmatack",
+    "language": "en",
+    "plant_ids": [
+      "populus_balsamifera"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Hadí koreň",
@@ -162717,6 +163073,29 @@
     ]
   },
   {
+    "name": "Mélèze laricin",
+    "normalized": "meleze laricin",
+    "language": "fr",
+    "plant_ids": [
+      "larix_laricina"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Melisa",
     "normalized": "melisa",
     "language": "es",
@@ -188713,6 +189092,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Peuplier baumier",
+    "normalized": "peuplier baumier",
+    "language": "fr",
+    "plant_ids": [
+      "populus_balsamifera"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Pfeffer",
     "normalized": "pfeffer",
     "language": "de",
@@ -200249,6 +200651,64 @@
     "dominant_in_countries": [
       "GB",
       "IE",
+      "US"
+    ]
+  },
+  {
+    "name": "Red-osier dogwood",
+    "normalized": "red osier dogwood",
+    "language": "en",
+    "plant_ids": [
+      "cornus_sericea"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CA"
+    ]
+  },
+  {
+    "name": "Redosier dogwood",
+    "normalized": "redosier dogwood",
+    "language": "en",
+    "plant_ids": [
+      "cornus_sericea"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
       "US"
     ]
   },
@@ -228225,6 +228685,52 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Sureau blanc",
+    "normalized": "sureau blanc",
+    "language": "fr",
+    "plant_ids": [
+      "sambucus_canadensis"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Sureau du Canada",
+    "normalized": "sureau du canada",
+    "language": "fr",
+    "plant_ids": [
+      "sambucus_canadensis"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Sureau noir",
     "normalized": "sureau noir",
     "language": "fr",
@@ -229880,6 +230386,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Tacamahac",
+    "normalized": "tacamahac",
+    "language": "en",
+    "plant_ids": [
+      "populus_balsamifera"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "US"
+    ]
+  },
+  {
     "name": "Tafarnuwa",
     "normalized": "tafarnuwa",
     "language": "ha",
@@ -230266,6 +230797,39 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Tamarack",
+    "normalized": "tamarack",
+    "language": "en",
+    "plant_ids": [
+      "larix_laricina"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CA"
+    ]
   },
   {
     "name": "Tanaceto",

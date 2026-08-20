@@ -1,0 +1,66 @@
+{
+  "plant_id": "populus_balsamifera",
+  "tier": 1,
+  "supported_countries": [
+    "CA",
+    "GB",
+    "US"
+  ],
+  "names": {
+    "CA": [
+      {
+        "name": "Balsam poplar",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Natural Resources Canada / Canadian National Vegetation Classification, Association CNVC00333 (Populus balsamifera — peuplier baumier; Cornus stolonifera — cornouiller stolonifère)"
+      },
+      {
+        "name": "Peuplier baumier",
+        "language": "fr",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Natural Resources Canada / Canadian National Vegetation Classification, Association CNVC00333 (Populus balsamifera — peuplier baumier; Cornus stolonifera — cornouiller stolonifère)"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Eastern balsam-poplar",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Botanical Society of Britain and Ireland vascular plant list (2007), via Wikipedia — Populus balsamifera"
+      }
+    ],
+    "US": [
+      {
+        "name": "Balsam poplar",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "USDA Southern Research Station, Silvics of North America — Populus balsamifera"
+      },
+      {
+        "name": "Tacamahac",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Wikipedia, Populus balsamifera — common names"
+      },
+      {
+        "name": "Bam",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Wikipedia, Populus balsamifera — common names"
+      },
+      {
+        "name": "Hackmatack",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Wikipedia, Populus balsamifera — common names"
+      }
+    ]
+  }
+}

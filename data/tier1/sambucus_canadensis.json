@@ -1,0 +1,70 @@
+{
+  "plant_id": "sambucus_canadensis",
+  "tier": 1,
+  "supported_countries": [
+    "CA",
+    "US"
+  ],
+  "names": {
+    "CA": [
+      {
+        "name": "Canada elderberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Nursery for the Earth, Sambucus canadensis — Canada elderberry / sureau blanc"
+      },
+      {
+        "name": "American elderberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Wikipedia, Sambucus canadensis — American black elderberry, Canada elderberry, common elderberry"
+      },
+      {
+        "name": "Sureau blanc",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Nursery for the Earth, Sambucus canadensis — Canada elderberry / sureau blanc"
+      },
+      {
+        "name": "Sureau du Canada",
+        "language": "fr",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Nursery for the Earth, Sambucus canadensis — Canada elderberry / sureau blanc"
+      }
+    ],
+    "US": [
+      {
+        "name": "American elderberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "NC State Extension Gardener Plant Toolbox, Sambucus canadensis — American elderberry"
+      },
+      {
+        "name": "Common elderberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "NPS NPSpecies, Sambucus nigra ssp. canadensis — park preferred common name"
+      },
+      {
+        "name": "American black elderberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "NPS NPSpecies, Sambucus nigra ssp. canadensis — American black elderberry"
+      },
+      {
+        "name": "American elder",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "University of Minnesota Strand Memorial Herbarium, Sambucus nigra ssp. canadensis — common names"
+      }
+    ]
+  }
+}
