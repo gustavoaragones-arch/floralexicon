@@ -1,0 +1,422 @@
+{
+  "plant_id": "acorus_calamus",
+  "tier": 1,
+  "supported_countries": [
+    "AT",
+    "AU",
+    "BE",
+    "CA",
+    "CH",
+    "CN",
+    "DE",
+    "FR",
+    "GB",
+    "ID",
+    "IE",
+    "IN",
+    "IT",
+    "JP",
+    "MY",
+    "NL",
+    "NZ",
+    "PK",
+    "RU",
+    "TH",
+    "TR",
+    "US"
+  ],
+  "names": {
+    "AT": [
+      {
+        "name": "Kalmus",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Porcher et al., Multilingual Multiscript Plant Name Database (University of Melbourne), Sorting Acorus names (German); USDA Phytochemical and Ethnobotanical Databases, Acorus calamus common names"
+      },
+      {
+        "name": "Magenwurz",
+        "language": "de",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Herbal Medicus, Virch / Waj / Sweet Flag — vernacular names by language (German)"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Sweet flag",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Porcher et al., Multilingual Multiscript Plant Name Database (University of Melbourne), Sorting Acorus names (English)"
+      }
+    ],
+    "BE": [
+      {
+        "name": "Kalmoes",
+        "language": "nl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "USDA Phytochemical and Ethnobotanical Databases, Acorus calamus common names (Dutch)"
+      },
+      {
+        "name": "Acore vrai",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Porcher et al., Multilingual Multiscript Plant Name Database (University of Melbourne), Sorting Acorus names (French)"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Sweet flag",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Porcher et al., Multilingual Multiscript Plant Name Database (University of Melbourne), Sorting Acorus names (English)"
+      },
+      {
+        "name": "Calamus",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Porcher et al., Multilingual Multiscript Plant Name Database (University of Melbourne), Sorting Acorus names (English)"
+      },
+      {
+        "name": "Rat root",
+        "language": "en",
+        "confidence": "medium",
+        "source": "ethnobotany",
+        "citation": "Drugs.com Natural Products Database, Calamus — Rat root"
+      },
+      {
+        "name": "Belle angélique",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Porcher et al., Multilingual Multiscript Plant Name Database (University of Melbourne), Sorting Acorus names (English list, marked Canada)"
+      },
+      {
+        "name": "Acore roseau",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Porcher et al., Multilingual Multiscript Plant Name Database (University of Melbourne), Sorting Acorus names (French)"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Kalmus",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Porcher et al., Multilingual Multiscript Plant Name Database (University of Melbourne), Sorting Acorus names (German); USDA Phytochemical and Ethnobotanical Databases, Acorus calamus common names"
+      },
+      {
+        "name": "Acore vrai",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Porcher et al., Multilingual Multiscript Plant Name Database (University of Melbourne), Sorting Acorus names (French)"
+      },
+      {
+        "name": "Calamo aromatico",
+        "language": "it",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Porcher et al., Multilingual Multiscript Plant Name Database (University of Melbourne), Sorting Acorus names (Italian)"
+      }
+    ],
+    "CN": [
+      {
+        "name": "水菖蒲",
+        "language": "zh",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Herbal Medicus, Virch / Waj / Sweet Flag — vernacular names by language (Chinese: Shui chang pu). Distinct from 石菖蒲 (Acorus tatarinowii) used in classical TCM.",
+        "transliteration": "Shuǐ chāng pú",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Kalmus",
+        "language": "de",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Porcher et al., Multilingual Multiscript Plant Name Database (University of Melbourne), Sorting Acorus names (German); USDA Phytochemical and Ethnobotanical Databases, Acorus calamus common names"
+      },
+      {
+        "name": "Magenwurz",
+        "language": "de",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Herbal Medicus, Virch / Waj / Sweet Flag — vernacular names by language (German)"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Acore vrai",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Porcher et al., Multilingual Multiscript Plant Name Database (University of Melbourne), Sorting Acorus names (French)"
+      },
+      {
+        "name": "Acore calame",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Porcher et al., Multilingual Multiscript Plant Name Database (University of Melbourne), Sorting Acorus names (French)"
+      },
+      {
+        "name": "Roseau odorant",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Porcher et al., Multilingual Multiscript Plant Name Database (University of Melbourne), Sorting Acorus names (French)"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Sweet flag",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Porcher et al., Multilingual Multiscript Plant Name Database (University of Melbourne), Sorting Acorus names (English)"
+      },
+      {
+        "name": "Sweet sedge",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Herbal Medicus, Virch / Waj / Sweet Flag — vernacular names by language (English)"
+      },
+      {
+        "name": "Calamus",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Porcher et al., Multilingual Multiscript Plant Name Database (University of Melbourne), Sorting Acorus names (English)"
+      }
+    ],
+    "ID": [
+      {
+        "name": "Jerangau",
+        "language": "id",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "USDA Phytochemical and Ethnobotanical Databases, Acorus calamus common names (Jerangau, Jariangau, Djerango)"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Sweet flag",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Porcher et al., Multilingual Multiscript Plant Name Database (University of Melbourne), Sorting Acorus names (English)"
+      }
+    ],
+    "IN": [
+      {
+        "name": "बच",
+        "language": "hi",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Jadibuti Store, Gudbach / Vacha / Acorus calamus — Indian vernacular names (Hindi)",
+        "transliteration": "Bach",
+        "transliteration_scheme": "iast"
+      },
+      {
+        "name": "वेखंड",
+        "language": "mr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Jadibuti Store, Gudbach / Vacha / Acorus calamus — Indian vernacular names (Marathi)",
+        "transliteration": "Vekhand",
+        "transliteration_scheme": "iast"
+      },
+      {
+        "name": "வசம்பு",
+        "language": "ta",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Jadibuti Store, Gudbach / Vacha / Acorus calamus — Indian vernacular names (Tamil)",
+        "transliteration": "Vacampu",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "వాస",
+        "language": "te",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Jadibuti Store, Gudbach / Vacha / Acorus calamus — Indian vernacular names (Telugu)",
+        "transliteration": "Vāsa",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "ಬಜೆ",
+        "language": "kn",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Jadibuti Store, Gudbach / Vacha / Acorus calamus — Indian vernacular names (Kannada)",
+        "transliteration": "Baje",
+        "transliteration_scheme": "iso_15919"
+      },
+      {
+        "name": "വയമ്പ്",
+        "language": "ml",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Kerala State Medicinal Plants Board, Acorus calamus — Vayambu (Malayalam)",
+        "transliteration": "Vayampŭ",
+        "transliteration_scheme": "iso_15919"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Calamo aromatico",
+        "language": "it",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Porcher et al., Multilingual Multiscript Plant Name Database (University of Melbourne), Sorting Acorus names (Italian)"
+      },
+      {
+        "name": "Acoro vero",
+        "language": "it",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Porcher et al., Multilingual Multiscript Plant Name Database (University of Melbourne), Sorting Acorus names (Italian)"
+      }
+    ],
+    "JP": [
+      {
+        "name": "ショウブ",
+        "language": "ja",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "USDA Phytochemical and Ethnobotanical Databases, Acorus calamus common names (Sho-Bu). Distinct from セキショウ (Acorus gramineus).",
+        "transliteration": "Shōbu",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "MY": [
+      {
+        "name": "Jerangau",
+        "language": "ms",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "USDA Phytochemical and Ethnobotanical Databases, Acorus calamus common names (Jerangau, Deringu)"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Kalmoes",
+        "language": "nl",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "USDA Phytochemical and Ethnobotanical Databases, Acorus calamus common names (Dutch)"
+      }
+    ],
+    "NZ": [
+      {
+        "name": "Sweet flag",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Porcher et al., Multilingual Multiscript Plant Name Database (University of Melbourne), Sorting Acorus names (English)"
+      }
+    ],
+    "PK": [
+      {
+        "name": "واج",
+        "language": "ur",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Herbal Medicus, Virch / Waj / Sweet Flag — vernacular names by language — Unani name Waj",
+        "transliteration": "Wāj",
+        "transliteration_scheme": "ala_lc"
+      }
+    ],
+    "RU": [
+      {
+        "name": "Аир болотный",
+        "language": "ru",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Porcher et al., Multilingual Multiscript Plant Name Database (University of Melbourne), Sorting Acorus names (Russian)",
+        "transliteration": "Air bolotnyy",
+        "transliteration_scheme": "bgn_pcgn"
+      },
+      {
+        "name": "Аир обыкновенный",
+        "language": "ru",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Porcher et al., Multilingual Multiscript Plant Name Database (University of Melbourne), Sorting Acorus names (Russian)",
+        "transliteration": "Air obyknovennyy",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "TH": [
+      {
+        "name": "ว่านน้ำ",
+        "language": "th",
+        "confidence": "high",
+        "source": "traditional",
+        "citation": "Porcher et al., Multilingual Multiscript Plant Name Database (University of Melbourne), Sorting Acorus names (Thai)",
+        "transliteration": "Wan nam",
+        "transliteration_scheme": "rtgs"
+      }
+    ],
+    "TR": [
+      {
+        "name": "Eğir kökü",
+        "language": "tr",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Traditional Medicines, The History of Sweet Flag (Vacha) Acorus calamus L. — Turkish names"
+      }
+    ],
+    "US": [
+      {
+        "name": "Sweet flag",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Porcher et al., Multilingual Multiscript Plant Name Database (University of Melbourne), Sorting Acorus names (English)"
+      },
+      {
+        "name": "Calamus",
+        "language": "en",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Porcher et al., Multilingual Multiscript Plant Name Database (University of Melbourne), Sorting Acorus names (English)"
+      },
+      {
+        "name": "Myrtle flag",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Porcher et al., Multilingual Multiscript Plant Name Database (University of Melbourne), Sorting Acorus names (English)"
+      },
+      {
+        "name": "Muskrat root",
+        "language": "en",
+        "confidence": "medium",
+        "source": "ethnobotany",
+        "citation": "Rätsch, Encyclopedia of Psychoactive Plants — Acorus calamus vernacular names"
+      },
+      {
+        "name": "ᏬᏱ ᎦᏙᎩ",
+        "language": "chr",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Cherokee Nation Language Program, Plants (language.cherokee.org) — CALAMUS ROOT",
+        "transliteration": "Woyi Gadogi",
+        "transliteration_scheme": "ala_lc"
+      }
+    ]
+  }
+}

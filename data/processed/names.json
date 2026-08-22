@@ -2558,6 +2558,116 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Acore calame",
+    "normalized": "acore calame",
+    "language": "fr",
+    "plant_ids": [
+      "acorus_calamus"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Acore roseau",
+    "normalized": "acore roseau",
+    "language": "fr",
+    "plant_ids": [
+      "acorus_calamus"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Acore vrai",
+    "normalized": "acore vrai",
+    "language": "fr",
+    "plant_ids": [
+      "acorus_calamus"
+    ],
+    "countries": [
+      "BE",
+      "CH",
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "FR"
+    ]
+  },
+  {
+    "name": "Acoro vero",
+    "normalized": "acoro vero",
+    "language": "it",
+    "plant_ids": [
+      "acorus_calamus"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "IT",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Actée à grappes",
     "normalized": "actee a grappes",
     "language": "fr",
@@ -33092,6 +33202,29 @@
     ]
   },
   {
+    "name": "Belle angélique",
+    "normalized": "belle angelique",
+    "language": "fr",
+    "plant_ids": [
+      "acorus_calamus"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Ben ailé",
     "normalized": "ben aile",
     "language": "fr",
@@ -46392,6 +46525,82 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Calamo aromatico",
+    "normalized": "calamo aromatico",
+    "language": "it",
+    "plant_ids": [
+      "acorus_calamus"
+    ],
+    "countries": [
+      "CH",
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "IT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "IT"
+    ]
+  },
+  {
+    "name": "Calamus",
+    "normalized": "calamus",
+    "language": "en",
+    "plant_ids": [
+      "acorus_calamus"
+    ],
+    "countries": [
+      "CA",
+      "GB",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "CA",
+      "GB",
+      "US"
+    ]
+  },
+  {
     "name": "Calandúil",
     "normalized": "calanduil",
     "language": "ga",
@@ -47949,6 +48158,134 @@
     ]
   },
   {
+    "name": "Canada goldenrod",
+    "normalized": "canada goldenrod",
+    "language": "en",
+    "plant_ids": [
+      "solidago_canadensis"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CA"
+    ]
+  },
+  {
+    "name": "Canadese guldenroede",
+    "normalized": "canadese guldenroede",
+    "language": "nl",
+    "plant_ids": [
+      "solidago_canadensis"
+    ],
+    "countries": [
+      "BE",
+      "NL"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "NL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "BE",
+      "NL"
+    ]
+  },
+  {
+    "name": "Canadian goldenrod",
+    "normalized": "canadian goldenrod",
+    "language": "en",
+    "plant_ids": [
+      "solidago_canadensis"
+    ],
+    "countries": [
+      "AU",
+      "GB",
+      "IE",
+      "NZ",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "NZ",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 5,
+    "dominant_in_countries": [
+      "AU",
+      "GB",
+      "IE",
+      "NZ",
+      "US"
+    ]
+  },
+  {
     "name": "Canadian spruce",
     "normalized": "canadian spruce",
     "language": "en",
@@ -47988,6 +48325,31 @@
         "country": "DK",
         "is_primary": true,
         "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DK"
+    ]
+  },
+  {
+    "name": "Canadisk gyldenris",
+    "normalized": "canadisk gyldenris",
+    "language": "da",
+    "plant_ids": [
+      "solidago_canadensis"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": true,
+        "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "linguistic"
       }
@@ -80956,6 +81318,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Eğir kökü",
+    "normalized": "egir koku",
+    "language": "tr",
+    "plant_ids": [
+      "acorus_calamus"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "country_usage": [
+      {
+        "country": "TR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "TR"
+    ]
+  },
+  {
     "name": "Églantier",
     "normalized": "eglantier",
     "language": "fr",
@@ -83279,6 +83666,87 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "DE"
+    ]
+  },
+  {
+    "name": "Épilobe à feuilles étroites",
+    "normalized": "epilobe a feuilles etroites",
+    "language": "fr",
+    "plant_ids": [
+      "chamaenerion_angustifolium"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "CH",
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Épilobe en épi",
+    "normalized": "epilobe en epi",
+    "language": "fr",
+    "plant_ids": [
+      "chamaenerion_angustifolium"
+    ],
+    "countries": [
+      "BE",
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "BE",
+      "FR"
     ]
   },
   {
@@ -89180,6 +89648,49 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Fireweed",
+    "normalized": "fireweed",
+    "language": "en",
+    "plant_ids": [
+      "chamaenerion_angustifolium"
+    ],
+    "countries": [
+      "CA",
+      "GB",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "CA",
+      "GB",
+      "US"
+    ]
+  },
+  {
     "name": "Fish Mint",
     "normalized": "fish mint",
     "language": "en",
@@ -93956,6 +94467,39 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Garofanino maggiore",
+    "normalized": "garofanino maggiore",
+    "language": "it",
+    "plant_ids": [
+      "chamaenerion_angustifolium"
+    ],
+    "countries": [
+      "CH",
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "IT",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "IT"
+    ]
+  },
+  {
     "name": "Garra del diablo",
     "normalized": "garra del diablo",
     "language": "es",
@@ -94987,6 +95531,37 @@
         "country": "NL",
         "is_primary": false,
         "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Gewöhnliche Kanadische Goldrute",
+    "normalized": "gewohnliche kanadische goldrute",
+    "language": "de",
+    "plant_ids": [
+      "solidago_canadensis"
+    ],
+    "countries": [
+      "AT",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "DE",
+        "is_primary": false,
+        "confidence": "medium",
         "source": "local_ethnobotany",
         "authority_source": "linguistic"
       }
@@ -128554,6 +129129,56 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Jerangau",
+    "normalized": "jerangau",
+    "language": "id",
+    "plant_ids": [
+      "acorus_calamus"
+    ],
+    "countries": [
+      "ID"
+    ],
+    "country_usage": [
+      {
+        "country": "ID",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ID"
+    ]
+  },
+  {
+    "name": "Jerangau",
+    "normalized": "jerangau",
+    "language": "ms",
+    "plant_ids": [
+      "acorus_calamus"
+    ],
+    "countries": [
+      "MY"
+    ],
+    "country_usage": [
+      {
+        "country": "MY",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "MY"
+    ]
+  },
+  {
     "name": "Jeżówka",
     "normalized": "jezowka",
     "language": "pl",
@@ -130777,6 +131402,81 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Kalmoes",
+    "normalized": "kalmoes",
+    "language": "nl",
+    "plant_ids": [
+      "acorus_calamus"
+    ],
+    "countries": [
+      "BE",
+      "NL"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "NL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "BE",
+      "NL"
+    ]
+  },
+  {
+    "name": "Kalmus",
+    "normalized": "kalmus",
+    "language": "de",
+    "plant_ids": [
+      "acorus_calamus"
+    ],
+    "countries": [
+      "AT",
+      "CH",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      },
+      {
+        "country": "CH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      },
+      {
+        "country": "DE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "CH"
+    ]
+  },
+  {
     "name": "Kamæleonplante",
     "normalized": "kamæleonplante",
     "language": "da",
@@ -131369,6 +132069,31 @@
     ]
   },
   {
+    "name": "Kanadagullris",
+    "normalized": "kanadagullris",
+    "language": "sv",
+    "plant_ids": [
+      "solidago_canadensis"
+    ],
+    "countries": [
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "SE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SE"
+    ]
+  },
+  {
     "name": "Kanadantuija",
     "normalized": "kanadantuija",
     "language": "fi",
@@ -131392,6 +132117,29 @@
     "dominant_in_countries": [
       "FI"
     ]
+  },
+  {
+    "name": "Kanadensiskt gullris",
+    "normalized": "kanadensiskt gullris",
+    "language": "sv",
+    "plant_ids": [
+      "solidago_canadensis"
+    ],
+    "countries": [
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "SE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Kanadische Blutwurz",
@@ -131458,6 +132206,49 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Kanadische Goldrute",
+    "normalized": "kanadische goldrute",
+    "language": "de",
+    "plant_ids": [
+      "solidago_canadensis"
+    ],
+    "countries": [
+      "AT",
+      "CH",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "CH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "AT",
+      "CH",
+      "DE"
+    ]
   },
   {
     "name": "Kanadische Orangenwurzel",
@@ -145172,6 +145963,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Laurier de Saint-Antoine",
+    "normalized": "laurier de saint antoine",
+    "language": "fr",
+    "plant_ids": [
+      "chamaenerion_angustifolium"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Laurier des Iroquois",
     "normalized": "laurier des iroquois",
     "language": "fr",
@@ -153550,6 +154364,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Lus na tine",
+    "normalized": "lus na tine",
+    "language": "ga",
+    "plant_ids": [
+      "chamaenerion_angustifolium"
+    ],
+    "countries": [
+      "IE"
+    ],
+    "country_usage": [
+      {
+        "country": "IE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Lưu ly thảo",
     "normalized": "luu ly thao",
     "language": "vi",
@@ -155580,6 +156417,40 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Magenwurz",
+    "normalized": "magenwurz",
+    "language": "de",
+    "plant_ids": [
+      "acorus_calamus"
+    ],
+    "countries": [
+      "AT",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "AT",
+      "DE"
+    ]
   },
   {
     "name": "Magnolia grimpant",
@@ -167671,6 +168542,31 @@
     ]
   },
   {
+    "name": "Mjölke",
+    "normalized": "mjolke",
+    "language": "sv",
+    "plant_ids": [
+      "chamaenerion_angustifolium"
+    ],
+    "countries": [
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "SE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SE"
+    ]
+  },
+  {
     "name": "Mjölktistel",
     "normalized": "mjolktistel",
     "language": "sv",
@@ -171683,6 +172579,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Muskrat root",
+    "normalized": "muskrat root",
+    "language": "en",
+    "plant_ids": [
+      "acorus_calamus"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Musta tee",
     "normalized": "musta tee",
     "language": "fi",
@@ -172353,6 +173272,29 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Myrtle flag",
+    "normalized": "myrtle flag",
+    "language": "en",
+    "plant_ids": [
+      "acorus_calamus"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
     "dominant_in_countries": []
   },
   {
@@ -199275,6 +200217,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Rallarros",
+    "normalized": "rallarros",
+    "language": "sv",
+    "plant_ids": [
+      "chamaenerion_angustifolium"
+    ],
+    "countries": [
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "SE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Randa tapak",
     "normalized": "randa tapak",
     "language": "id",
@@ -199314,6 +200279,29 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Rat root",
+    "normalized": "rat root",
+    "language": "en",
+    "plant_ids": [
+      "acorus_calamus"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
       }
     ],
     "ambiguity_level": "low",
@@ -207314,6 +208302,62 @@
     "ambiguity_level": "low",
     "name_country_count": 12,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Roseau odorant",
+    "normalized": "roseau odorant",
+    "language": "fr",
+    "plant_ids": [
+      "acorus_calamus"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Rosebay willowherb",
+    "normalized": "rosebay willowherb",
+    "language": "en",
+    "plant_ids": [
+      "chamaenerion_angustifolium"
+    ],
+    "countries": [
+      "GB",
+      "IE"
+    ],
+    "country_usage": [
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "IE"
+    ]
   },
   {
     "name": "Rosehip",
@@ -217423,6 +218467,47 @@
     ]
   },
   {
+    "name": "Schmalblättriges Weidenröschen",
+    "normalized": "schmalblattriges weidenroschen",
+    "language": "de",
+    "plant_ids": [
+      "chamaenerion_angustifolium"
+    ],
+    "countries": [
+      "AT",
+      "CH",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "DE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "CH"
+    ]
+  },
+  {
     "name": "Schnittlauch",
     "normalized": "schnittlauch",
     "language": "de",
@@ -223745,6 +224830,55 @@
     ]
   },
   {
+    "name": "Solidage du Canada",
+    "normalized": "solidage du canada",
+    "language": "fr",
+    "plant_ids": [
+      "solidago_canadensis"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "CH",
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
+    "dominant_in_countries": [
+      "FR"
+    ]
+  },
+  {
     "name": "Sølvlys",
     "normalized": "sølvlys",
     "language": "da",
@@ -226734,6 +227868,37 @@
     ]
   },
   {
+    "name": "Staudenfeuerkraut",
+    "normalized": "staudenfeuerkraut",
+    "language": "de",
+    "plant_ids": [
+      "chamaenerion_angustifolium"
+    ],
+    "countries": [
+      "AT",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "DE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Stechdornblättrige Mahonie",
     "normalized": "stechdornblattrige mahonie",
     "language": "de",
@@ -229631,6 +230796,73 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Sweet flag",
+    "normalized": "sweet flag",
+    "language": "en",
+    "plant_ids": [
+      "acorus_calamus"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "GB",
+      "IE",
+      "NZ",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      },
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "NZ",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 6,
+    "dominant_in_countries": [
+      "AU",
+      "IE",
+      "NZ"
+    ]
+  },
+  {
     "name": "Sweet leaf",
     "normalized": "sweet leaf",
     "language": "en",
@@ -229810,6 +231042,29 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 4,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Sweet sedge",
+    "normalized": "sweet sedge",
+    "language": "en",
+    "plant_ids": [
+      "acorus_calamus"
+    ],
+    "countries": [
+      "GB"
+    ],
+    "country_usage": [
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
     "dominant_in_countries": []
   },
   {
@@ -244301,6 +245556,37 @@
     ]
   },
   {
+    "name": "Verge d'or du Canada",
+    "normalized": "verge d'or du canada",
+    "language": "fr",
+    "plant_ids": [
+      "solidago_canadensis"
+    ],
+    "countries": [
+      "CA",
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Vervain",
     "normalized": "vervain",
     "language": "en",
@@ -245975,6 +247261,40 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "PL"
+    ]
+  },
+  {
+    "name": "Wald-Weidenröschen",
+    "normalized": "wald weidenroschen",
+    "language": "de",
+    "plant_ids": [
+      "chamaenerion_angustifolium"
+    ],
+    "countries": [
+      "AT",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "AT",
+      "DE"
     ]
   },
   {
@@ -259492,6 +260812,54 @@
     ]
   },
   {
+    "name": "Аир болотный",
+    "normalized": "аир болотныи",
+    "language": "ru",
+    "plant_ids": [
+      "acorus_calamus"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Аир обыкновенный",
+    "normalized": "аир обыкновенныи",
+    "language": "ru",
+    "plant_ids": [
+      "acorus_calamus"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RU"
+    ]
+  },
+  {
     "name": "Акай",
     "normalized": "акаи",
     "language": "bg",
@@ -266496,6 +267864,54 @@
         "confidence": "medium",
         "source": "local_ethnobotany",
         "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Іван-чай",
+    "normalized": "іван чаи",
+    "language": "uk",
+    "plant_ids": [
+      "chamaenerion_angustifolium"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "UA"
+    ]
+  },
+  {
+    "name": "Іван-чай вузьколистий",
+    "normalized": "іван чаи вузьколистии",
+    "language": "uk",
+    "plant_ids": [
+      "chamaenerion_angustifolium"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -309059,6 +310475,31 @@
     ]
   },
   {
+    "name": "واج",
+    "normalized": "واج",
+    "language": "ur",
+    "plant_ids": [
+      "acorus_calamus"
+    ],
+    "countries": [
+      "PK"
+    ],
+    "country_usage": [
+      {
+        "country": "PK",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PK"
+    ]
+  },
+  {
     "name": "والرین",
     "normalized": "والرین",
     "language": "fa",
@@ -315871,6 +317312,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "बच",
+    "normalized": "बच",
+    "language": "hi",
+    "plant_ids": [
+      "acorus_calamus"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "बबूना",
     "normalized": "बबूना",
     "language": "hi",
@@ -316833,6 +318297,29 @@
     "dominant_in_countries": [
       "IN"
     ]
+  },
+  {
+    "name": "वेखंड",
+    "normalized": "वेखंड",
+    "language": "mr",
+    "plant_ids": [
+      "acorus_calamus"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "वैनिला",
@@ -320833,6 +322320,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "வசம்பு",
+    "normalized": "வசம்பு",
+    "language": "ta",
+    "plant_ids": [
+      "acorus_calamus"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IN"
+    ]
+  },
+  {
     "name": "வலேரியன்",
     "normalized": "வலேரியன்",
     "language": "ta",
@@ -321303,6 +322815,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "వాస",
+    "normalized": "వాస",
+    "language": "te",
+    "plant_ids": [
+      "acorus_calamus"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "సోంపు",
     "normalized": "సోంపు",
     "language": "te",
@@ -321317,6 +322852,29 @@
         "country": "IN",
         "is_primary": false,
         "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "ಬಜೆ",
+    "normalized": "ಬಜೆ",
+    "language": "kn",
+    "plant_ids": [
+      "acorus_calamus"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": false,
+        "confidence": "medium",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
       }
@@ -321349,6 +322907,29 @@
     "dominant_in_countries": [
       "IN"
     ]
+  },
+  {
+    "name": "വയമ്പ്",
+    "normalized": "വയമ്പ്",
+    "language": "ml",
+    "plant_ids": [
+      "acorus_calamus"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "අරළු",
@@ -328844,6 +330425,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "ว่านน้ำ",
+    "normalized": "ว่านน้ำ",
+    "language": "th",
+    "plant_ids": [
+      "acorus_calamus"
+    ],
+    "countries": [
+      "TH"
+    ],
+    "country_usage": [
+      {
+        "country": "TH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "TH"
+    ]
+  },
+  {
     "name": "ว่านหางจระเข้",
     "normalized": "ว่านหางจระเข้",
     "language": "th",
@@ -330794,6 +332400,29 @@
     "language": "chr",
     "plant_ids": [
       "sanguinaria_canadensis"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "ᏬᏱ ᎦᏙᎩ",
+    "normalized": "ꮼᏹ ꭶꮩꭹ",
+    "language": "chr",
+    "plant_ids": [
+      "acorus_calamus"
     ],
     "countries": [
       "US"
@@ -340669,6 +342298,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "ショウブ",
+    "normalized": "ショウブ",
+    "language": "ja",
+    "plant_ids": [
+      "acorus_calamus"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "country_usage": [
+      {
+        "country": "JP",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "JP"
+    ]
+  },
+  {
     "name": "シロニガクサ",
     "normalized": "シロニガクサ",
     "language": "ja",
@@ -350113,6 +351767,31 @@
     "dominant_in_countries": [
       "CN",
       "TW"
+    ]
+  },
+  {
+    "name": "水菖蒲",
+    "normalized": "水菖蒲",
+    "language": "zh",
+    "plant_ids": [
+      "acorus_calamus"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "country_usage": [
+      {
+        "country": "CN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CN"
     ]
   },
   {
