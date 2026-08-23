@@ -11443,6 +11443,31 @@
     ]
   },
   {
+    "name": "Ambudillo",
+    "normalized": "ambudillo",
+    "language": "es",
+    "plant_ids": [
+      "nuphar_lutea"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "country_usage": [
+      {
+        "country": "ES",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ES"
+    ]
+  },
+  {
     "name": "American black elderberry",
     "normalized": "american black elderberry",
     "language": "en",
@@ -43323,6 +43348,29 @@
     "dominant_in_countries": [
       "NL"
     ]
+  },
+  {
+    "name": "Brandy bottle",
+    "normalized": "brandy bottle",
+    "language": "en",
+    "plant_ids": [
+      "nuphar_lutea"
+    ],
+    "countries": [
+      "GB"
+    ],
+    "country_usage": [
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Brännässla",
@@ -94913,6 +94961,45 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Gelbe Teichrose",
+    "normalized": "gelbe teichrose",
+    "language": "de",
+    "plant_ids": [
+      "nuphar_lutea"
+    ],
+    "countries": [
+      "AT",
+      "CH",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      },
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      },
+      {
+        "country": "DE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Gelbwurz",
     "normalized": "gelbwurz",
     "language": "de",
@@ -94942,6 +95029,40 @@
     "ambiguity_level": "low",
     "name_country_count": 2,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Gele plomp",
+    "normalized": "gele plomp",
+    "language": "nl",
+    "plant_ids": [
+      "nuphar_lutea"
+    ],
+    "countries": [
+      "BE",
+      "NL"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "NL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "BE",
+      "NL"
+    ]
   },
   {
     "name": "Gember",
@@ -104980,6 +105101,31 @@
     ]
   },
   {
+    "name": "Grążel żółty",
+    "normalized": "grazel zołty",
+    "language": "pl",
+    "plant_ids": [
+      "nuphar_lutea"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "country_usage": [
+      {
+        "country": "PL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PL"
+    ]
+  },
+  {
     "name": "Grčko sijeno",
     "normalized": "grcko sijeno",
     "language": "hr",
@@ -110104,6 +110250,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Gul åkande",
+    "normalized": "gul akande",
+    "language": "da",
+    "plant_ids": [
+      "nuphar_lutea"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DK"
+    ]
+  },
+  {
     "name": "Gul lök",
     "normalized": "gul lok",
     "language": "sv",
@@ -110148,6 +110319,56 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Gul näckros",
+    "normalized": "gul nackros",
+    "language": "sv",
+    "plant_ids": [
+      "nuphar_lutea"
+    ],
+    "countries": [
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "SE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SE"
+    ]
+  },
+  {
+    "name": "Gul nøkkerose",
+    "normalized": "gul nøkkerose",
+    "language": "no",
+    "plant_ids": [
+      "nuphar_lutea"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "NO"
+    ]
   },
   {
     "name": "Guldvallmo",
@@ -126591,6 +126812,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Isoulpukka",
+    "normalized": "isoulpukka",
+    "language": "fi",
+    "plant_ids": [
+      "nuphar_lutea"
+    ],
+    "countries": [
+      "FI"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "FI"
+    ]
   },
   {
     "name": "Ispaghul",
@@ -171544,6 +171790,40 @@
     ]
   },
   {
+    "name": "Mummel",
+    "normalized": "mummel",
+    "language": "de",
+    "plant_ids": [
+      "nuphar_lutea"
+    ],
+    "countries": [
+      "AT",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "AT",
+      "DE"
+    ]
+  },
+  {
     "name": "Munt",
     "normalized": "munt",
     "language": "af",
@@ -173749,6 +174029,40 @@
     ]
   },
   {
+    "name": "Nannufero",
+    "normalized": "nannufero",
+    "language": "it",
+    "plant_ids": [
+      "nuphar_lutea"
+    ],
+    "countries": [
+      "CH",
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "CH",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "IT",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CH",
+      "IT"
+    ]
+  },
+  {
     "name": "Nasiona chia",
     "normalized": "nasiona chia",
     "language": "pl",
@@ -175332,6 +175646,93 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Nenúfar groc",
+    "normalized": "nenufar groc",
+    "language": "ca",
+    "plant_ids": [
+      "nuphar_lutea"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "country_usage": [
+      {
+        "country": "ES",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Nenufar hori",
+    "normalized": "nenufar hori",
+    "language": "eu",
+    "plant_ids": [
+      "nuphar_lutea"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "country_usage": [
+      {
+        "country": "ES",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Nénuphar jaune",
+    "normalized": "nenuphar jaune",
+    "language": "fr",
+    "plant_ids": [
+      "nuphar_lutea"
+    ],
+    "countries": [
+      "BE",
+      "CH",
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "FR"
+    ]
   },
   {
     "name": "Nettle",
@@ -177464,6 +177865,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Nufăr galben",
+    "normalized": "nufar galben",
+    "language": "ro",
+    "plant_ids": [
+      "nuphar_lutea"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "country_usage": [
+      {
+        "country": "RO",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RO"
+    ]
   },
   {
     "name": "Nutmeg",
@@ -215410,6 +215836,31 @@
     ]
   },
   {
+    "name": "Sárga vízitök",
+    "normalized": "sarga vizitok",
+    "language": "hu",
+    "plant_ids": [
+      "nuphar_lutea"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "country_usage": [
+      {
+        "country": "HU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HU"
+    ]
+  },
+  {
     "name": "Sarı kantaron",
     "normalized": "sarı kantaron",
     "language": "tr",
@@ -229479,6 +229930,31 @@
     ]
   },
   {
+    "name": "Stulík žlutý",
+    "normalized": "stulik zluty",
+    "language": "cs",
+    "plant_ids": [
+      "nuphar_lutea"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CZ"
+    ]
+  },
+  {
     "name": "Su zufası",
     "normalized": "su zufası",
     "language": "tr",
@@ -240408,6 +240884,29 @@
     ]
   },
   {
+    "name": "Ulpukka",
+    "normalized": "ulpukka",
+    "language": "fi",
+    "plant_ids": [
+      "nuphar_lutea"
+    ],
+    "countries": [
+      "FI"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Ulvbær",
     "normalized": "ulvbær",
     "language": "no",
@@ -250206,6 +250705,40 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Yellow water-lily",
+    "normalized": "yellow water lily",
+    "language": "en",
+    "plant_ids": [
+      "nuphar_lutea"
+    ],
+    "countries": [
+      "GB",
+      "IE"
+    ],
+    "country_usage": [
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "GB",
+      "IE"
+    ]
   },
   {
     "name": "Yellow-puccoon",
@@ -264730,6 +265263,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Глечики жовті",
+    "normalized": "глечики жовті",
+    "language": "uk",
+    "plant_ids": [
+      "nuphar_lutea"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "UA"
+    ]
+  },
+  {
     "name": "Глід",
     "normalized": "глід",
     "language": "uk",
@@ -267038,6 +267596,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Жълта водна роза",
+    "normalized": "жълта водна роза",
+    "language": "bg",
+    "plant_ids": [
+      "nuphar_lutea"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "country_usage": [
+      {
+        "country": "BG",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "BG"
+    ]
   },
   {
     "name": "Западна туя",
@@ -270252,6 +270835,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Кубышка жёлтая",
+    "normalized": "кубышка желтая",
+    "language": "ru",
+    "plant_ids": [
+      "nuphar_lutea"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RU"
+    ]
   },
   {
     "name": "Културен лен",
@@ -309457,6 +310065,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "نينوفر أصفر",
+    "normalized": "نينوفر أصفر",
+    "language": "ar",
+    "plant_ids": [
+      "nuphar_lutea"
+    ],
+    "countries": [
+      "DZ"
+    ],
+    "country_usage": [
+      {
+        "country": "DZ",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DZ"
+    ]
+  },
+  {
     "name": "نیٹل",
     "normalized": "نیٹل",
     "language": "ur",
@@ -309479,6 +310112,31 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "PK"
+    ]
+  },
+  {
+    "name": "نیلوفر آبی زرد",
+    "normalized": "نیلوفر آبی زرد",
+    "language": "fa",
+    "plant_ids": [
+      "nuphar_lutea"
+    ],
+    "countries": [
+      "IR"
+    ],
+    "country_usage": [
+      {
+        "country": "IR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IR"
     ]
   },
   {
@@ -351067,6 +351725,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "欧亚萍蓬草",
+    "normalized": "欧亚萍蓬草",
+    "language": "zh",
+    "plant_ids": [
+      "nuphar_lutea"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "country_usage": [
+      {
+        "country": "CN",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CN"
+    ]
   },
   {
     "name": "欧刺柏",
