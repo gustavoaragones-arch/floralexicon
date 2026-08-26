@@ -1,0 +1,56 @@
+{
+  "plant_id": "prunus_virginiana",
+  "tier": 1,
+  "supported_countries": [
+    "CA",
+    "US"
+  ],
+  "names": {
+    "CA": [
+      {
+        "name": "Chokecherry",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Database of Vascular Plants of Canada (VASCAN), Prunus virginiana var. virginiana — Darbyshire et al., 2000"
+      },
+      {
+        "name": "Cerisier de Virginie",
+        "language": "fr",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Database of Vascular Plants of Canada (VASCAN), Prunus virginiana var. virginiana — Darbyshire et al., 2000"
+      }
+    ],
+    "US": [
+      {
+        "name": "Chokecherry",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "USDA Southern Research Station, Silvics of North America — Prunus virginiana"
+      },
+      {
+        "name": "Bitter-berry",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "iNaturalist / Wikipedia, Prunus virginiana — common names"
+      },
+      {
+        "name": "Western chokecherry",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "iNaturalist / Wikipedia, Prunus virginiana — common names"
+      },
+      {
+        "name": "Virginia bird cherry",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "iNaturalist / Wikipedia, Prunus virginiana — common names"
+      }
+    ]
+  }
+}

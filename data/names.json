@@ -36050,6 +36050,79 @@
     ]
   },
   {
+    "name": "Bitter-berry",
+    "normalized": "bitter berry",
+    "language": "en",
+    "plant_ids": [
+      "prunus_virginiana"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "US"
+    ]
+  },
+  {
+    "name": "Bittergrøn",
+    "normalized": "bittergrøn",
+    "language": "nn",
+    "plant_ids": [
+      "chimaphila_umbellata"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Bittergrønn",
+    "normalized": "bittergrønn",
+    "language": "no",
+    "plant_ids": [
+      "chimaphila_umbellata"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "NO"
+    ]
+  },
+  {
     "name": "Bizari",
     "normalized": "bizari",
     "language": "sw",
@@ -54730,6 +54803,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Cerisier de Virginie",
+    "normalized": "cerisier de virginie",
+    "language": "fr",
+    "plant_ids": [
+      "prunus_virginiana"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Černá myrobalána",
     "normalized": "cerna myrobalana",
     "language": "cs",
@@ -59318,6 +59414,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Chimaphile à ombelles",
+    "normalized": "chimaphile a ombelles",
+    "language": "fr",
+    "plant_ids": [
+      "chimaphila_umbellata"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Chimarrão",
     "normalized": "chimarrao",
     "language": "pt",
@@ -60629,6 +60748,39 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "PL"
+    ]
+  },
+  {
+    "name": "Chokecherry",
+    "normalized": "chokecherry",
+    "language": "en",
+    "plant_ids": [
+      "prunus_virginiana"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CA"
     ]
   },
   {
@@ -77013,6 +77165,47 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Doldiges Winterlieb",
+    "normalized": "doldiges winterlieb",
+    "language": "de",
+    "plant_ids": [
+      "chimaphila_umbellata"
+    ],
+    "countries": [
+      "AT",
+      "CH",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "DE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "CH"
+    ]
+  },
+  {
     "name": "Dong quai",
     "normalized": "dong quai",
     "language": "cs",
@@ -91989,6 +92182,39 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "ga'gige'bug",
+    "normalized": "ga'gige'bug",
+    "language": "oj",
+    "plant_ids": [
+      "chimaphila_umbellata"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "US"
+    ]
   },
   {
     "name": "Gairleog",
@@ -107564,6 +107790,29 @@
     ]
   },
   {
+    "name": "Ground holly",
+    "normalized": "ground holly",
+    "language": "en",
+    "plant_ids": [
+      "chimaphila_umbellata"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Ground lemon",
     "normalized": "ground lemon",
     "language": "en",
@@ -112869,6 +113118,37 @@
     ]
   },
   {
+    "name": "Harn-Gichtkraut",
+    "normalized": "harn gichtkraut",
+    "language": "de",
+    "plant_ids": [
+      "chimaphila_umbellata"
+    ],
+    "countries": [
+      "AT",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "DE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Harpagofit",
     "normalized": "harpagofit",
     "language": "hr",
@@ -114574,6 +114854,29 @@
         "confidence": "medium",
         "source": "local_ethnobotany",
         "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Herbe à pisser",
+    "normalized": "herbe a pisser",
+    "language": "fr",
+    "plant_ids": [
+      "chimaphila_umbellata"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
       }
     ],
     "ambiguity_level": "low",
@@ -132822,6 +133125,29 @@
     ]
   },
   {
+    "name": "Kangassarjatalvikki",
+    "normalized": "kangassarjatalvikki",
+    "language": "fi",
+    "plant_ids": [
+      "chimaphila_umbellata"
+    ],
+    "countries": [
+      "FI"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Kantarion",
     "normalized": "kantarion",
     "language": "hr",
@@ -137679,6 +138005,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "King's cure",
+    "normalized": "king's cure",
+    "language": "en",
+    "plant_ids": [
+      "chimaphila_umbellata"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Kinh giới cay",
     "normalized": "kinh gioi cay",
     "language": "vi",
@@ -138162,6 +138511,40 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Klapperschlangenwurzel",
+    "normalized": "klapperschlangenwurzel",
+    "language": "de",
+    "plant_ids": [
+      "polygala_senega"
+    ],
+    "countries": [
+      "AT",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      },
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "AT",
+      "DE"
+    ]
   },
   {
     "name": "Klasasta metvica",
@@ -142770,6 +143153,31 @@
     "name_country_count": 2,
     "dominant_in_countries": [
       "SE"
+    ]
+  },
+  {
+    "name": "Krzyżownica amerykańska",
+    "normalized": "krzyzownica amerykanska",
+    "language": "pl",
+    "plant_ids": [
+      "polygala_senega"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "country_usage": [
+      {
+        "country": "PL",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PL"
     ]
   },
   {
@@ -171025,6 +171433,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Mountain flax",
+    "normalized": "mountain flax",
+    "language": "en",
+    "plant_ids": [
+      "polygala_senega"
+    ],
+    "countries": [
+      "GB"
+    ],
+    "country_usage": [
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Mountain tea",
     "normalized": "mountain tea",
     "language": "en",
@@ -193310,6 +193741,48 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Pipsissewa",
+    "normalized": "pipsissewa",
+    "language": "en",
+    "plant_ids": [
+      "chimaphila_umbellata"
+    ],
+    "countries": [
+      "CA",
+      "GB",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "CA",
+      "GB"
+    ]
+  },
+  {
     "name": "Pire otu",
     "normalized": "pire otu",
     "language": "tr",
@@ -194703,6 +195176,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Poligala virginiana",
+    "normalized": "poligala virginiana",
+    "language": "it",
+    "plant_ids": [
+      "polygala_senega"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "IT",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IT"
+    ]
+  },
+  {
     "name": "Polo",
     "normalized": "polo",
     "language": "jv",
@@ -194747,6 +195245,80 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Polygala de Virginie",
+    "normalized": "polygala de virginie",
+    "language": "fr",
+    "plant_ids": [
+      "polygala_senega"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "CH",
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 4,
+    "dominant_in_countries": [
+      "BE"
+    ]
+  },
+  {
+    "name": "Polygale de Virginie",
+    "normalized": "polygale de virginie",
+    "language": "fr",
+    "plant_ids": [
+      "polygala_senega"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "FR"
+    ]
   },
   {
     "name": "Polypore du pin",
@@ -196538,6 +197110,37 @@
     "dominant_in_countries": [
       "NO"
     ]
+  },
+  {
+    "name": "Prince's pine",
+    "normalized": "prince's pine",
+    "language": "en",
+    "plant_ids": [
+      "chimaphila_umbellata"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
   },
   {
     "name": "Proskurník lekársky",
@@ -198966,6 +199569,47 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Pyrole en ombelle",
+    "normalized": "pyrole en ombelle",
+    "language": "fr",
+    "plant_ids": [
+      "chimaphila_umbellata"
+    ],
+    "countries": [
+      "CA",
+      "CH",
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CH",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "FR"
+    ]
+  },
+  {
     "name": "Quả ngũ vị",
     "normalized": "qua ngu vi",
     "language": "vi",
@@ -200732,6 +201376,37 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Rattlesnake root",
+    "normalized": "rattlesnake root",
+    "language": "en",
+    "plant_ids": [
+      "polygala_senega"
+    ],
+    "countries": [
+      "GB",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
     "dominant_in_countries": []
   },
   {
@@ -215911,6 +216586,31 @@
     ]
   },
   {
+    "name": "Sarjatalvikki",
+    "normalized": "sarjatalvikki",
+    "language": "fi",
+    "plant_ids": [
+      "chimaphila_umbellata"
+    ],
+    "countries": [
+      "FI"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "FI"
+    ]
+  },
+  {
     "name": "Sarriette",
     "normalized": "sarriette",
     "language": "fr",
@@ -220537,6 +221237,218 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Seneca snakeroot",
+    "normalized": "seneca snakeroot",
+    "language": "en",
+    "plant_ids": [
+      "polygala_senega"
+    ],
+    "countries": [
+      "CA",
+      "GB",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      },
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "CA"
+    ]
+  },
+  {
+    "name": "Senega",
+    "normalized": "senega",
+    "language": "en",
+    "plant_ids": [
+      "polygala_senega"
+    ],
+    "countries": [
+      "GB",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "GB",
+      "US"
+    ]
+  },
+  {
+    "name": "Senega root",
+    "normalized": "senega root",
+    "language": "en",
+    "plant_ids": [
+      "polygala_senega"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Senega snakeroot",
+    "normalized": "senega snakeroot",
+    "language": "en",
+    "plant_ids": [
+      "polygala_senega"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Senegarod",
+    "normalized": "senegarod",
+    "language": "da",
+    "plant_ids": [
+      "polygala_senega"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DK"
+    ]
+  },
+  {
+    "name": "Senegarot",
+    "normalized": "senegarot",
+    "language": "sv",
+    "plant_ids": [
+      "polygala_senega"
+    ],
+    "countries": [
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "SE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SE"
+    ]
+  },
+  {
+    "name": "Senegawurzel",
+    "normalized": "senegawurzel",
+    "language": "de",
+    "plant_ids": [
+      "polygala_senega"
+    ],
+    "countries": [
+      "AT",
+      "CH",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "CH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      },
+      {
+        "country": "DE",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "CH"
+    ]
+  },
+  {
     "name": "Sénégrain",
     "normalized": "senegrain",
     "language": "fr",
@@ -223898,6 +224810,54 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Skærm-vintergrøn",
+    "normalized": "skærm vintergrøn",
+    "language": "da",
+    "plant_ids": [
+      "chimaphila_umbellata"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DK"
+    ]
+  },
+  {
+    "name": "Skærmblomstret vintergrøn",
+    "normalized": "skærmblomstret vintergrøn",
+    "language": "da",
+    "plant_ids": [
+      "chimaphila_umbellata"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
       }
     ],
     "ambiguity_level": "low",
@@ -240930,6 +241890,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Umbellate wintergreen",
+    "normalized": "umbellate wintergreen",
+    "language": "en",
+    "plant_ids": [
+      "chimaphila_umbellata"
+    ],
+    "countries": [
+      "GB"
+    ],
+    "country_usage": [
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Umhlonyane",
     "normalized": "umhlonyane",
     "language": "nd",
@@ -246788,6 +247771,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Virginia bird cherry",
+    "normalized": "virginia bird cherry",
+    "language": "en",
+    "plant_ids": [
+      "prunus_virginiana"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Virginiai varázsmogyoró",
     "normalized": "virginiai varazsmogyoro",
     "language": "hu",
@@ -247081,6 +248087,31 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "SE"
+    ]
+  },
+  {
+    "name": "Vítod senega",
+    "normalized": "vitod senega",
+    "language": "cs",
+    "plant_ids": [
+      "polygala_senega"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CZ"
     ]
   },
   {
@@ -248334,6 +249365,29 @@
     ],
     "ambiguity_level": "low",
     "name_country_count": 8,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Western chokecherry",
+    "normalized": "western chokecherry",
+    "language": "en",
+    "plant_ids": [
+      "prunus_virginiana"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
     "dominant_in_countries": []
   },
   {
@@ -249607,6 +250661,40 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Winterlieb",
+    "normalized": "winterlieb",
+    "language": "de",
+    "plant_ids": [
+      "chimaphila_umbellata"
+    ],
+    "countries": [
+      "AT",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "AT",
+      "DE"
+    ]
   },
   {
     "name": "Wit borrie",
@@ -253858,6 +254946,31 @@
         "country": "CZ",
         "is_primary": true,
         "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CZ"
+    ]
+  },
+  {
+    "name": "Zimozelen okoličnatý",
+    "normalized": "zimozelen okolicnaty",
+    "language": "cs",
+    "plant_ids": [
+      "chimaphila_umbellata"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": true,
+        "confidence": "medium",
         "source": "local_ethnobotany",
         "authority_source": "linguistic"
       }
