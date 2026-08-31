@@ -1,0 +1,107 @@
+{
+  "plant_id": "iris_versicolor",
+  "tier": 1,
+  "supported_countries": [
+    "CA",
+    "FR",
+    "GB",
+    "IE",
+    "US"
+  ],
+  "names": {
+    "CA": [
+      {
+        "name": "Blue flag",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Wikipedia, Iris versicolor — common names. Provincial flower of Quebec since 1999."
+      },
+      {
+        "name": "Iris versicolore",
+        "language": "fr",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Gouvernement du Québec — emblème floral, iris versicolore"
+      },
+      {
+        "name": "Clajeux",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "AquaPortail, Iris versicolor : le clajeux — nom vernaculaire français"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Clajeux",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "AquaPortail, Iris versicolor : le clajeux — nom vernaculaire français"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Purple iris",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Botanical Society of Britain and Ireland vascular plant list (2007), via Wikipedia — Iris versicolor, purple iris"
+      },
+      {
+        "name": "Blue flag",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Wikipedia, Iris versicolor — common names"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Purple iris",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Botanical Society of Britain and Ireland vascular plant list (2007), via Wikipedia — Iris versicolor, purple iris"
+      }
+    ],
+    "US": [
+      {
+        "name": "Blue flag",
+        "language": "en",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Wikipedia, Iris versicolor — common names"
+      },
+      {
+        "name": "Harlequin blueflag",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Wikipedia, Iris versicolor — common names"
+      },
+      {
+        "name": "Larger blue flag",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Wikipedia, Iris versicolor — common names"
+      },
+      {
+        "name": "Northern blue flag",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Wikipedia, Iris versicolor — common names"
+      },
+      {
+        "name": "Poison flag",
+        "language": "en",
+        "confidence": "medium",
+        "source": "traditional",
+        "citation": "Wikipedia, Iris versicolor — common names"
+      }
+    ]
+  }
+}

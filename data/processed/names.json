@@ -11918,6 +11918,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "American shamrock",
+    "normalized": "american shamrock",
+    "language": "en",
+    "plant_ids": [
+      "trillium_erectum"
+    ],
+    "countries": [
+      "GB"
+    ],
+    "country_usage": [
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "American witch hazel",
     "normalized": "american witch hazel",
     "language": "en",
@@ -23318,6 +23341,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Asaret du Canada",
+    "normalized": "asaret du canada",
+    "language": "fr",
+    "plant_ids": [
+      "asarum_canadense"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Ashwagandha",
     "normalized": "ashwagandha",
     "language": "da",
@@ -34128,6 +34174,37 @@
     ]
   },
   {
+    "name": "Bethroot",
+    "normalized": "bethroot",
+    "language": "en",
+    "plant_ids": [
+      "trillium_erectum"
+    ],
+    "countries": [
+      "GB",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Betikoa",
     "normalized": "betikoa",
     "language": "eu",
@@ -35969,6 +36046,49 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Birthroot",
+    "normalized": "birthroot",
+    "language": "en",
+    "plant_ids": [
+      "trillium_erectum"
+    ],
+    "countries": [
+      "GB",
+      "IE",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "GB",
+      "IE",
+      "US"
+    ]
   },
   {
     "name": "Bisap",
@@ -38117,6 +38237,45 @@
       "IE",
       "NZ"
     ]
+  },
+  {
+    "name": "Blue flag",
+    "normalized": "blue flag",
+    "language": "en",
+    "plant_ids": [
+      "iris_versicolor"
+    ],
+    "countries": [
+      "CA",
+      "GB",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": []
   },
   {
     "name": "Blue ginseng",
@@ -43854,6 +44013,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Broad-leaved asarabacca",
+    "normalized": "broad leaved asarabacca",
+    "language": "en",
+    "plant_ids": [
+      "asarum_canadense"
+    ],
+    "countries": [
+      "GB"
+    ],
+    "country_usage": [
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "GB"
+    ]
+  },
+  {
     "name": "Broadleaf plantain",
     "normalized": "broadleaf plantain",
     "language": "en",
@@ -48312,6 +48496,29 @@
     ]
   },
   {
+    "name": "Canada wild ginger",
+    "normalized": "canada wild ginger",
+    "language": "en",
+    "plant_ids": [
+      "asarum_canadense"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Canadese guldenroede",
     "normalized": "canadese guldenroede",
     "language": "nl",
@@ -48407,6 +48614,29 @@
     ]
   },
   {
+    "name": "Canadian snakeroot",
+    "normalized": "canadian snakeroot",
+    "language": "en",
+    "plant_ids": [
+      "asarum_canadense"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Canadian spruce",
     "normalized": "canadian spruce",
     "language": "en",
@@ -48430,6 +48660,29 @@
     "dominant_in_countries": [
       "US"
     ]
+  },
+  {
+    "name": "Canadian wildginger",
+    "normalized": "canadian wildginger",
+    "language": "en",
+    "plant_ids": [
+      "asarum_canadense"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Canadisk Blodurt",
@@ -63382,6 +63635,40 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Clajeux",
+    "normalized": "clajeux",
+    "language": "fr",
+    "plant_ids": [
+      "iris_versicolor"
+    ],
+    "countries": [
+      "CA",
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CA",
+      "FR"
+    ]
   },
   {
     "name": "Clau d'olor",
@@ -97076,6 +97363,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Gingembre sauvage",
+    "normalized": "gingembre sauvage",
+    "language": "fr",
+    "plant_ids": [
+      "asarum_canadense"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Gingembre shampooing",
     "normalized": "gingembre shampooing",
     "language": "fr",
@@ -113118,6 +113428,29 @@
     ]
   },
   {
+    "name": "Harlequin blueflag",
+    "normalized": "harlequin blueflag",
+    "language": "en",
+    "plant_ids": [
+      "iris_versicolor"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Harn-Gichtkraut",
     "normalized": "harn gichtkraut",
     "language": "de",
@@ -126864,6 +127197,29 @@
     "dominant_in_countries": [
       "IT"
     ]
+  },
+  {
+    "name": "Iris versicolore",
+    "normalized": "iris versicolore",
+    "language": "fr",
+    "plant_ids": [
+      "iris_versicolor"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
   },
   {
     "name": "Isabgol",
@@ -145890,6 +146246,29 @@
     "country_usage": [
       {
         "country": "KE",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Larger blue flag",
+    "normalized": "larger blue flag",
+    "language": "en",
+    "plant_ids": [
+      "iris_versicolor"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
         "is_primary": false,
         "confidence": "medium",
         "source": "local_ethnobotany",
@@ -177649,6 +178028,29 @@
     ]
   },
   {
+    "name": "Northern blue flag",
+    "normalized": "northern blue flag",
+    "language": "en",
+    "plant_ids": [
+      "iris_versicolor"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Northern white cedar",
     "normalized": "northern white cedar",
     "language": "en",
@@ -194771,6 +195173,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Poison flag",
+    "normalized": "poison flag",
+    "language": "en",
+    "plant_ids": [
+      "iris_versicolor"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "US"
+    ]
+  },
+  {
     "name": "Poivre",
     "normalized": "poivre",
     "language": "fr",
@@ -199398,6 +199825,63 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Purple iris",
+    "normalized": "purple iris",
+    "language": "en",
+    "plant_ids": [
+      "iris_versicolor"
+    ],
+    "countries": [
+      "GB",
+      "IE"
+    ],
+    "country_usage": [
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "GB",
+      "IE"
+    ]
+  },
+  {
+    "name": "Purple trillium",
+    "normalized": "purple trillium",
+    "language": "en",
+    "plant_ids": [
+      "trillium_erectum"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Purpur-Sonnenhut",
     "normalized": "purpur sonnenhut",
     "language": "de",
@@ -202741,6 +203225,39 @@
       "GB",
       "IE",
       "US"
+    ]
+  },
+  {
+    "name": "Red trillium",
+    "normalized": "red trillium",
+    "language": "en",
+    "plant_ids": [
+      "trillium_erectum"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CA"
     ]
   },
   {
@@ -230520,6 +231037,37 @@
     ]
   },
   {
+    "name": "Stinking Benjamin",
+    "normalized": "stinking benjamin",
+    "language": "en",
+    "plant_ids": [
+      "trillium_erectum"
+    ],
+    "countries": [
+      "GB",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "GB",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Stjärnanis",
     "normalized": "stjarnanis",
     "language": "sv",
@@ -239560,6 +240108,70 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Trille dressé",
+    "normalized": "trille dresse",
+    "language": "fr",
+    "plant_ids": [
+      "trillium_erectum"
+    ],
+    "countries": [
+      "CA",
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "FR",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Trille rouge",
+    "normalized": "trille rouge",
+    "language": "fr",
+    "plant_ids": [
+      "trillium_erectum"
+    ],
+    "countries": [
+      "CA",
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "FR"
+    ]
   },
   {
     "name": "Troldhassel",
@@ -248769,6 +249381,29 @@
     ]
   },
   {
+    "name": "Wake-robin",
+    "normalized": "wake robin",
+    "language": "en",
+    "plant_ids": [
+      "trillium_erectum"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "traditional"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Wąkrota azjatycka",
     "normalized": "wakrota azjatycka",
     "language": "pl",
@@ -250177,6 +250812,39 @@
       "GB",
       "IE",
       "NZ"
+    ]
+  },
+  {
+    "name": "Wild ginger",
+    "normalized": "wild ginger",
+    "language": "en",
+    "plant_ids": [
+      "asarum_canadense"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "US",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CA"
     ]
   },
   {
@@ -334187,6 +334855,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "ᏄᏱᎦᎵ",
+    "normalized": "ꮔᏹꭶꮅ",
+    "language": "chr",
+    "plant_ids": [
+      "asarum_canadense"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "US"
+    ]
   },
   {
     "name": "ᏬᏱ ᎦᏙᎩ",
