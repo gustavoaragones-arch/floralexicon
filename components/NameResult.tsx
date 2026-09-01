@@ -280,11 +280,15 @@ export function NameResult({
         return true;
       })
       .join(" / ");
+    const localNameTransliteration = localName
+      ? pick?.labelTransliterations[localName]
+      : undefined;
     return {
       countryCode,
       localName,
       alternatives,
       displayName,
+      localNameTransliteration,
       mode: pick?.mode ?? "global",
     };
   });
@@ -338,6 +342,9 @@ export function NameResult({
   const countryPrimaryHeadline = isCountryMode
     ? countryLocalPick?.primaryLocalName.trim() || inputName
     : "";
+  const countryPrimaryTransliteration = countryLocalPick?.primaryLocalName
+    ? countryLocalPick.labelTransliterations[countryLocalPick.primaryLocalName]
+    : undefined;
   const countryPrimaryDisplayName = (() => {
     if (!isCountryMode) return "";
     const labels = [
@@ -457,6 +464,11 @@ export function NameResult({
                         </span>
                       ) : null}
                     </div>
+                    {countryPrimaryTransliteration ? (
+                      <p className="text-sm text-stone-500 dark:text-stone-400">
+                        {countryPrimaryTransliteration}
+                      </p>
+                    ) : null}
                     {countryLocalPick &&
                     (pickMode === "language_fallback" ||
                       pickMode === "global") ? (
@@ -514,9 +526,20 @@ export function NameResult({
                           : t(lang, "name_country_mode_other_names")}
                       </p>
                       <ul className="mt-2 list-disc space-y-1 pl-5">
-                        {countryLocalPick.alternativeLabels.map((label) => (
-                          <li key={label}>{label}</li>
-                        ))}
+                        {countryLocalPick.alternativeLabels.map((label) => {
+                          const transliteration =
+                            countryLocalPick.labelTransliterations[label];
+                          return (
+                            <li key={label}>
+                              {label}
+                              {transliteration ? (
+                                <span className="ml-1.5 text-stone-500 dark:text-stone-400">
+                                  {transliteration}
+                                </span>
+                              ) : null}
+                            </li>
+                          );
+                        })}
                       </ul>
                     </div>
                   ) : null}
@@ -776,9 +799,16 @@ export function NameResult({
                   </div>
                   <div className="country-plants ml-3 mt-1 flex flex-wrap items-baseline gap-2">
                     {row.localName ? (
-                      <span className="font-medium text-stone-900 dark:text-stone-100">
-                        {row.displayName || row.localName}
-                      </span>
+                      <>
+                        <span className="font-medium text-stone-900 dark:text-stone-100">
+                          {row.displayName || row.localName}
+                        </span>
+                        {row.localNameTransliteration ? (
+                          <span className="text-stone-500 dark:text-stone-400">
+                            {row.localNameTransliteration}
+                          </span>
+                        ) : null}
+                      </>
                     ) : (
                       <span className="text-stone-500 dark:text-stone-400">—</span>
                     )}

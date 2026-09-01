@@ -21,7 +21,12 @@ const config: Config = {
       },
       fontFamily: {
         sans: ["var(--font-flora-sans)", "system-ui", "sans-serif"],
-        serif: ["var(--font-flora-serif)", "Georgia", "serif"],
+        serif: [
+          "var(--font-flora-serif)",
+          "var(--font-cherokee-fallback)",
+          "Georgia",
+          "serif",
+        ],
       },
     },
   },

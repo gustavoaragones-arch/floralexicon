@@ -211,6 +211,8 @@ type NameRow = {
   ambiguity_level: string;
   name_country_count: number;
   dominant_in_countries: string[];
+  transliteration?: string;
+  transliteration_scheme?: string;
 };
 
 type SlimPlant = {
@@ -303,8 +305,13 @@ function main() {
             ambiguity_level: "low",
             name_country_count: 0,
             dominant_in_countries: [],
+            transliteration: e.transliteration,
+            transliteration_scheme: e.transliteration_scheme,
           };
           nameRows.set(key, row);
+        } else if (!row.transliteration && e.transliteration) {
+          row.transliteration = e.transliteration;
+          row.transliteration_scheme = e.transliteration_scheme;
         }
         if (!row.countries.includes(cc)) row.countries.push(cc);
         row.country_usage.push({

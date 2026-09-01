@@ -71,6 +71,12 @@ export type CountryModeNamePick = {
   alternativeLabels: string[];
   /** True when at least one name row has explicit coverage for the country (excludes `global_fallback` only). */
   hasCountrySpecificRows: boolean;
+  /**
+   * Romanization for a displayed label (`primaryLocalName` or an entry of
+   * `alternativeLabels`), keyed by the exact label text. Only present for
+   * labels whose source row carries a `transliteration`.
+   */
+  labelTransliterations: Record<string, string>;
 };
 
 function entryLanguageNorm(entry: NameEntry): string {
@@ -89,6 +95,7 @@ function buildResult(
       primaryLocalName: "",
       alternativeLabels: [],
       hasCountrySpecificRows: mode === "native",
+      labelTransliterations: {},
     };
   }
 
@@ -113,6 +120,7 @@ function buildResult(
   //    same visible text is skipped even if its language tag differs.
   const seenNorm = new Set<string>();
   const seenExact = new Set<string>();
+  const labelTransliterations: Record<string, string> = {};
   for (const e of ranked) {
     const label = e.name.trim();
     if (!label) continue;
@@ -124,15 +132,22 @@ function buildResult(
     seenNorm.add(dedupeKey);
     seenExact.add(label);
     orderedLabels.push(label);
+    const transliteration = e.transliteration?.trim();
+    if (transliteration) {
+      labelTransliterations[label] = transliteration;
+    }
   }
 
   const primaryLocalName = orderedLabels[0] ?? "";
-  const alternativeLabels = orderedLabels.slice(1, 4);
+  // Show every distinct name found, not just the first few -- callers that
+  // want a bounded preview can slice this themselves.
+  const alternativeLabels = orderedLabels.slice(1);
   return {
     mode,
     primaryLocalName,
     alternativeLabels,
     hasCountrySpecificRows: mode === "native",
+    labelTransliterations,
   };
 }
 
@@ -153,6 +168,7 @@ export function pickCountryModeLocalNames(
       primaryLocalName: "",
       alternativeLabels: [],
       hasCountrySpecificRows: false,
+      labelTransliterations: {},
     };
   }
 

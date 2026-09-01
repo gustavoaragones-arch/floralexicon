@@ -92,6 +92,10 @@ export type NameEntry = {
   source?: NameEntrySource;
   evidence_level?: NameEvidenceLevel;
   is_transliterated?: boolean;
+  /** Romanization of `name` when it is in a non-Latin script (e.g. "Shuǐ chāng pú" for 水菖蒲). */
+  transliteration?: string;
+  /** Romanization scheme used for {@link NameEntry.transliteration} (e.g. "pinyin", "hepburn"). */
+  transliteration_scheme?: string;
   /** True when this label is treated as globally scoped in the index. */
   global?: boolean;
   /** Hub width for this name row (same as `countries.length`; explicit for authority layer). */
@@ -437,6 +441,15 @@ function coalesceNameRecord(raw: Record<string, unknown>): NameEntry | null {
   const is_transliterated =
     raw.is_transliterated === true ? true : undefined;
   const global = raw.global === true ? true : undefined;
+  const transliteration =
+    typeof raw.transliteration === "string" && raw.transliteration.trim()
+      ? raw.transliteration
+      : undefined;
+  const transliteration_scheme =
+    typeof raw.transliteration_scheme === "string" &&
+    raw.transliteration_scheme.trim()
+      ? raw.transliteration_scheme
+      : undefined;
 
   return {
     name: raw.name,
@@ -457,6 +470,8 @@ function coalesceNameRecord(raw: Record<string, unknown>): NameEntry | null {
     ...(evidence_level ? { evidence_level } : {}),
     ...(is_transliterated !== undefined ? { is_transliterated } : {}),
     ...(global !== undefined ? { global } : {}),
+    ...(transliteration !== undefined ? { transliteration } : {}),
+    ...(transliteration_scheme !== undefined ? { transliteration_scheme } : {}),
   };
 }
 
@@ -787,7 +802,12 @@ export function getNameEntryUrlSlug(entry: NameEntry): string {
   return normalizedKeyToUrlSlug(key);
 }
 
-export type NameIndexLink = { slug: string; label: string };
+export type NameIndexLink = {
+  slug: string;
+  label: string;
+  transliteration?: string;
+  transliteration_scheme?: string;
+};
 
 /**
  * Other indexed names that reference this plant (excludes the current `/name/[slug]` page).
@@ -1100,13 +1120,25 @@ export function getNamesGroupedByCountryForPlant(
 ): CountryNameGroup[] {
   if (!plantId) return [];
   ensureIndexes();
-  const byCountry = new Map<string, Map<string, string>>();
+  type LinkValue = {
+    label: string;
+    transliteration?: string;
+    transliteration_scheme?: string;
+  };
+  const byCountry = new Map<string, Map<string, LinkValue>>();
 
   for (const entry of namesList) {
     if (!entry.plant_ids.includes(plantId)) continue;
     const slug = getNameEntryUrlSlug(entry);
     if (!slug) continue;
     const label = entry.name.trim() || slug;
+    const value: LinkValue = {
+      label,
+      ...(entry.transliteration ? { transliteration: entry.transliteration } : {}),
+      ...(entry.transliteration_scheme
+        ? { transliteration_scheme: entry.transliteration_scheme }
+        : {}),
+    };
     for (const code of nameEntryCountries(entry)) {
       if (!code) continue;
       let slugMap = byCountry.get(code);
@@ -1114,7 +1146,7 @@ export function getNamesGroupedByCountryForPlant(
         slugMap = new Map();
         byCountry.set(code, slugMap);
       }
-      if (!slugMap.has(slug)) slugMap.set(slug, label);
+      if (!slugMap.has(slug)) slugMap.set(slug, value);
     }
   }
 
@@ -1122,7 +1154,7 @@ export function getNamesGroupedByCountryForPlant(
     .map(([countryCode, slugMap]) => ({
       countryCode,
       entries: Array.from(slugMap.entries())
-        .map(([slug, label]) => ({ slug, label }))
+        .map(([slug, value]) => ({ slug, ...value }))
         .sort((a, b) =>
           a.label.localeCompare(b.label, "en", { sensitivity: "base" })
         ),

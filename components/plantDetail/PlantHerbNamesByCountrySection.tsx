@@ -46,11 +46,16 @@ export function PlantHerbNamesByCountrySection({ lang, groups }: Props) {
               {getCountryDisplayName(row.countryCode, lang)}
             </p>
             <ul className="mt-2 flex flex-wrap gap-x-2 gap-y-1 text-sm">
-              {row.entries.map(({ slug, label }) => (
+              {row.entries.map(({ slug, label, transliteration }) => (
                 <li key={`${row.countryCode}-${slug}`}>
                   <Link href={localePath(lang, `/name/${slug}`)} className={linkClass}>
                     {label}
                   </Link>
+                  {transliteration ? (
+                    <span className="ml-1 text-stone-500 dark:text-stone-400">
+                      {transliteration}
+                    </span>
+                  ) : null}
                 </li>
               ))}
             </ul>
