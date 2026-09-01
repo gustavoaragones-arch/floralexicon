@@ -408,10 +408,7 @@ export function NameResult({
               );
               const plantHref =
                 plant && !isPlaceholder
-                  ? localePath(
-                      lang,
-                      `/plant/${plantNameHubSlug(plant.id, plant.scientific_name)}`
-                    )
+                  ? localePath(lang, `/plant/${plant.id}`)
                   : null;
 
               const pickMode = countryLocalPick?.mode;
@@ -709,10 +706,7 @@ export function NameResult({
                 t(lang, "plant_placeholder_title");
               const href =
                 ctx.plant && !ctx.isPlaceholder
-                  ? localePath(
-                      lang,
-                      `/plant/${plantNameHubSlug(ctx.plant.id, ctx.plant.scientific_name)}`
-                    )
+                  ? localePath(lang, `/plant/${ctx.plant.id}`)
                   : localePath(lang, `/plant/${ctx.plant_id}`);
               return (
                 <li key={ctx.plant_id}>
