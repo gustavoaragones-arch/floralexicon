@@ -219240,6 +219240,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Sceau-de-Salomon a deux fleurs",
+    "normalized": "sceau de salomon a deux fleurs",
+    "language": "fr",
+    "plant_ids": [
+      "polygonatum_biflorum"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Schafgarbe",
     "normalized": "schafgarbe",
     "language": "de",
@@ -226730,6 +226753,49 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "HR"
+    ]
+  },
+  {
+    "name": "Smooth Solomon's-seal",
+    "normalized": "smooth solomon's seal",
+    "language": "en",
+    "plant_ids": [
+      "polygonatum_biflorum"
+    ],
+    "countries": [
+      "CA",
+      "GB",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "CA",
+      "GB",
+      "US"
     ]
   },
   {

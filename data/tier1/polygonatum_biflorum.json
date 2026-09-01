@@ -1,0 +1,41 @@
+{
+  "plant_id": "polygonatum_biflorum",
+  "tier": 1,
+  "supported_countries": ["CA", "GB", "US"],
+  "names": {
+    "CA": [
+      {
+        "name": "Smooth Solomon's-seal",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Database of Vascular Plants of Canada (VASCAN), ITIS 2010, vernacular name record for Polygonatum biflorum"
+      },
+      {
+        "name": "Sceau-de-Salomon a deux fleurs",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Database of Vascular Plants of Canada (VASCAN), Newcomb 1983, species-level vernacular name for Polygonatum biflorum"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Smooth Solomon's seal",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Royal Horticultural Society (RHS) plant record, Polygonatum biflorum listed as \"smooth Solomon's seal\", distinguished from the native P. multiflorum/P. odoratum on the RHS Solomon's seal guide"
+      }
+    ],
+    "US": [
+      {
+        "name": "Smooth Solomon's seal",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Lady Bird Johnson Wildflower Center, Native Plant Database, Polygonatum biflorum"
+      }
+    ]
+  }
+}
