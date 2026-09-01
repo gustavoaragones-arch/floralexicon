@@ -1,0 +1,50 @@
+{
+  "plant_id": "mitchella_repens",
+  "tier": 1,
+  "supported_countries": ["CA", "DE", "GB", "US"],
+  "names": {
+    "CA": [
+      {
+        "name": "Partridgeberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "wildspecies.ca (General Status of Species in Canada, Government of Canada), Mitchella repens"
+      },
+      {
+        "name": "Mitchella rampant",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "FOIBIS (Flora Ontario - Integrated Botanical Information System, University of Guelph), species detail record for Mitchella repens"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Rebhuhnbeere",
+        "language": "de",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Consistent name across many independent German nursery sources (Baumschule Horstmann, Haussermann, Stauden Stade, Stauden Ratgeber, StaudenOnline.de)"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Partridge berry",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Royal Horticultural Society (RHS) plant record, Mitchella repens listed as \"partridge berry\""
+      }
+    ],
+    "US": [
+      {
+        "name": "Partridgeberry",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "US Forest Service, Fire Effects Information System (FEIS), Mitchella repens species review"
+      }
+    ]
+  }
+}

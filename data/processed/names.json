@@ -28939,6 +28939,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Balmony",
+    "normalized": "balmony",
+    "language": "en",
+    "plant_ids": [
+      "chelone_glabra"
+    ],
+    "countries": [
+      "GB"
+    ],
+    "country_usage": [
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "GB"
+    ]
+  },
+  {
     "name": "Balsam fir",
     "normalized": "balsam fir",
     "language": "en",
@@ -70641,6 +70666,49 @@
     ]
   },
   {
+    "name": "Culver's root",
+    "normalized": "culver's root",
+    "language": "en",
+    "plant_ids": [
+      "veronicastrum_virginicum"
+    ],
+    "countries": [
+      "CA",
+      "GB",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "CA",
+      "GB",
+      "US"
+    ]
+  },
+  {
     "name": "Cumin noir",
     "normalized": "cumin noir",
     "language": "fr",
@@ -92552,6 +92620,39 @@
     ]
   },
   {
+    "name": "Galane glabre",
+    "normalized": "galane glabre",
+    "language": "fr",
+    "plant_ids": [
+      "chelone_glabra"
+    ],
+    "countries": [
+      "CA",
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "FR"
+    ]
+  },
+  {
     "name": "Galanga",
     "normalized": "galanga",
     "language": "ca",
@@ -101969,6 +102070,31 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "HU"
+    ]
+  },
+  {
+    "name": "Gladde schildpadbloem",
+    "normalized": "gladde schildpadbloem",
+    "language": "nl",
+    "plant_ids": [
+      "chelone_glabra"
+    ],
+    "countries": [
+      "NL"
+    ],
+    "country_usage": [
+      {
+        "country": "NL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "NL"
     ]
   },
   {
@@ -130964,6 +131090,40 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Kahler Schlangenkopf",
+    "normalized": "kahler schlangenkopf",
+    "language": "de",
+    "plant_ids": [
+      "chelone_glabra"
+    ],
+    "countries": [
+      "AT",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "AT",
+      "DE"
+    ]
+  },
+  {
     "name": "Kakao",
     "normalized": "kakao",
     "language": "cs",
@@ -133218,6 +133378,40 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Kandelaber-Ehrenpreis",
+    "normalized": "kandelaber ehrenpreis",
+    "language": "de",
+    "plant_ids": [
+      "veronicastrum_virginicum"
+    ],
+    "countries": [
+      "AT",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "AT",
+      "DE"
+    ]
   },
   {
     "name": "Kaneel",
@@ -142966,6 +143160,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Kransveronika",
+    "normalized": "kransveronika",
+    "language": "sv",
+    "plant_ids": [
+      "veronicastrum_virginicum"
+    ],
+    "countries": [
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "SE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SE"
+    ]
   },
   {
     "name": "Krauseminze",
@@ -169477,6 +169696,29 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Mitchella rampant",
+    "normalized": "mitchella rampant",
+    "language": "fr",
+    "plant_ids": [
+      "mitchella_repens"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
     "name": "Mitten tree",
     "normalized": "mitten tree",
     "language": "en",
@@ -185536,6 +185778,65 @@
     ]
   },
   {
+    "name": "Partridge berry",
+    "normalized": "partridge berry",
+    "language": "en",
+    "plant_ids": [
+      "mitchella_repens"
+    ],
+    "countries": [
+      "GB"
+    ],
+    "country_usage": [
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "GB"
+    ]
+  },
+  {
+    "name": "Partridgeberry",
+    "normalized": "partridgeberry",
+    "language": "en",
+    "plant_ids": [
+      "mitchella_repens"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CA",
+      "US"
+    ]
+  },
+  {
     "name": "Pasiflora",
     "normalized": "pasiflora",
     "language": "hr",
@@ -197618,6 +197919,31 @@
     ]
   },
   {
+    "name": "Przetacznikowiec wirginijski",
+    "normalized": "przetacznikowiec wirginijski",
+    "language": "pl",
+    "plant_ids": [
+      "veronicastrum_virginicum"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "country_usage": [
+      {
+        "country": "PL",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PL"
+    ]
+  },
+  {
     "name": "Psí růže",
     "normalized": "psi ruze",
     "language": "cs",
@@ -202965,6 +203291,31 @@
         "confidence": "medium",
         "source": "local_ethnobotany",
         "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DE"
+    ]
+  },
+  {
+    "name": "Rebhuhnbeere",
+    "normalized": "rebhuhnbeere",
+    "language": "de",
+    "plant_ids": [
+      "mitchella_repens"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
       }
     ],
     "ambiguity_level": "low",
@@ -212506,6 +212857,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Rozrazil virginský",
+    "normalized": "rozrazil virginsky",
+    "language": "cs",
+    "plant_ids": [
+      "veronicastrum_virginicum"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CZ"
+    ]
   },
   {
     "name": "Rózsa damascena",
@@ -247681,6 +248057,54 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Véronicastre de Virginie",
+    "normalized": "veronicastre de virginie",
+    "language": "fr",
+    "plant_ids": [
+      "veronicastrum_virginicum"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Véronique de Virginie",
+    "normalized": "veronique de virginie",
+    "language": "fr",
+    "plant_ids": [
+      "veronicastrum_virginicum"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "FR"
+    ]
+  },
+  {
     "name": "Vervain",
     "normalized": "vervain",
     "language": "en",
@@ -248427,6 +248851,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Virginiantädykkö",
+    "normalized": "virginiantadykko",
+    "language": "fi",
+    "plant_ids": [
+      "veronicastrum_virginicum"
+    ],
+    "countries": [
+      "FI"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "FI"
+    ]
   },
   {
     "name": "Virginiantaikapähkinä",
@@ -250646,6 +251095,40 @@
     "dominant_in_countries": [
       "CA",
       "PH"
+    ]
+  },
+  {
+    "name": "White turtlehead",
+    "normalized": "white turtlehead",
+    "language": "en",
+    "plant_ids": [
+      "chelone_glabra"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CA",
+      "US"
     ]
   },
   {
@@ -267200,6 +267683,33 @@
       "UA"
     ],
     "transliteration": "Verbena likarska",
+    "transliteration_scheme": "bgn_pcgn"
+  },
+  {
+    "name": "Вероникаструм виргинский",
+    "normalized": "вероникаструм виргинскии",
+    "language": "ru",
+    "plant_ids": [
+      "veronicastrum_virginicum"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RU"
+    ],
+    "transliteration": "Veronikastrum virginskiy",
     "transliteration_scheme": "bgn_pcgn"
   },
   {
