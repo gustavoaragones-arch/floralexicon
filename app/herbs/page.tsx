@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Herb names by country | FloraLexicon",
+  title: "Common names by country | FloraLexicon",
   description:
     "Browse country-level herb name pages. Compare local names, plant matches, and traditional use clusters.",
 };
@@ -13,7 +13,7 @@ export default function HerbsCountryIndexPage() {
   return (
     <main className="mx-auto w-full max-w-[1000px] px-6 py-14">
       <h1 className="font-serif text-3xl font-semibold tracking-tight text-stone-900 dark:text-stone-100 sm:text-4xl">
-        Herb names by country
+        Common names by country
       </h1>
       <p className="mt-4 max-w-2xl text-sm leading-relaxed text-stone-600 dark:text-stone-400">
         Programmatic country pages built from FloraLexicon records. Open a country to see local herb names,

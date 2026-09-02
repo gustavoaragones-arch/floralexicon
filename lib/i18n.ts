@@ -47,8 +47,8 @@ export function alternateLanguageUrls(pathWithoutLocale: string): {
 const dictionary = {
   en: {
     nav_home: "Home",
-    nav_plant_names: "Herb names",
-    nav_plants: "Plants",
+    nav_plant_names: "Common names",
+    nav_plants: "Scientific names",
     nav_concepts: "Concepts",
     concepts_meta_index_title: "Understanding Plant Names | FloraLexicon",
     concepts_meta_index_desc:
@@ -173,8 +173,8 @@ const dictionary = {
     search_empty_no_hub_title: "No exact match found",
     search_empty_no_hub_body:
       "Try another spelling, a regional name, or browse the plant index.",
-    search_empty_browse_plants: "Browse all plants",
-    search_empty_browse_names: "Browse plant names",
+    search_empty_browse_plants: "Browse all scientific names",
+    search_empty_browse_names: "Browse common names",
     search_prompt_title: "Search a plant name",
     search_prompt_body:
       "Enter a common name. We show every indexed species and how common each association is—without guessing a single winner.",
@@ -209,8 +209,8 @@ const dictionary = {
     home_browse_title: "Browse herbs & species",
     home_browse_lead:
       "Explore traditional and medicinal herb names in the index, or open species pages for herb identification context.",
-    home_all_plants: "All plants",
-    home_all_names: "All plant names",
+    home_all_plants: "All scientific names",
+    home_all_names: "All common names",
     home_browse_by_use_title: "Browse by use",
     home_link_medicinal_herbs: "Medicinal herbs",
     home_link_culinary_herbs: "Culinary-medicinal herbs",
@@ -268,8 +268,8 @@ const dictionary = {
       "Traditional and medicinal use varies by species and source. Follow links to each plant’s page for indexed use categories, or open a name hub when the same label may refer to more than one species.",
     herbs_country_nav_aria: "Related listings",
     herbs_country_nav_medicinal: "Medicinal herbs worldwide",
-    herbs_country_nav_plants: "All plants in the index",
-    herbs_country_nav_names: "Browse plant names",
+    herbs_country_nav_plants: "All scientific names",
+    herbs_country_nav_names: "Browse common names",
     herbs_country_names_h2: "Common names recorded in {country}",
     herbs_country_names_lead:
       "Each label opens the name hub for that spelling in FloraLexicon’s index.",
@@ -344,12 +344,12 @@ const dictionary = {
     also_known_as: "Also known as",
     plant_hub_also_called: "Also called:",
 
-    names_index_h1: "Herb names index",
+    names_index_h1: "Common names index",
     names_index_lead:
       "Alphabetical list of common and regional herb names in FloraLexicon. Each link opens country context and plant matches for that label.",
     names_index_other: "Other",
 
-    plants_index_h1: "Plants",
+    plants_index_h1: "Scientific names",
     plants_index_lead:
       "Species in the index (scientific names) — open a page to see common names by country and traditional-use notes.",
 
@@ -481,9 +481,9 @@ const dictionary = {
     meta_home_title: "Herb Name Translator Across Countries | FloraLexicon",
     meta_home_desc:
       "Translate traditional herb names for teas and remedies. See local names by country, then verify the plant with scientific naming when you need certainty.",
-    meta_names_title: "Plant Names Index",
+    meta_names_title: "Common Names Index",
     meta_names_desc: "Browse plant names and discover their scientific equivalents.",
-    meta_plants_title: "Plants index",
+    meta_plants_title: "Scientific names index",
     meta_plants_desc:
       "Browse species in the FloraLexicon index: scientific names, families, and links to full records.",
     meta_plant_desc_suffix: "— native range, uses, and taxonomic details on FloraLexicon.",
@@ -629,8 +629,8 @@ const dictionary = {
     compare_table_uses: "Traditional uses (index)",
     compare_table_regions: "Regions / native range",
     plant_explore_heading: "Explore further",
-    internal_link_browse_names: "Browse all plant names",
-    internal_link_all_plants: "All plants index",
+    internal_link_browse_names: "Browse all common names",
+    internal_link_all_plants: "All scientific names",
     category_top_names_heading: "Names in this category",
     category_top_names_lead:
       "Resolve these common labels to species—many appear alongside the plants listed above.",
