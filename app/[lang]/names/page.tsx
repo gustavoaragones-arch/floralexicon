@@ -1,3 +1,6 @@
+import { AlphabetJumpNav } from "@/components/AlphabetJumpNav";
+import { BackToTopButton } from "@/components/BackToTopButton";
+import { buildLetterGroups, sortedGroupKeys } from "@/lib/alphabetIndex";
 import { getAllNameUrlSlugsIncludingVariants } from "@/lib/data";
 import {
   alternateLanguageUrls,
@@ -38,52 +41,17 @@ function slugToLabel(slug: string): string {
     .join(" ");
 }
 
-function stripDiacritics(s: string): string {
-  return s.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-}
-
-function letterForSortLabel(labelLower: string): string {
-  const d = stripDiacritics(labelLower.trim());
-  const c = d.charAt(0);
-  if (/[a-z]/i.test(c)) return c.toUpperCase();
-  return "#";
-}
-
-function buildLetterGroups(slugs: string[]): Map<string, string[]> {
-  const sorted = [...slugs].sort((a, b) =>
-    slugToLabel(a).localeCompare(slugToLabel(b), "en", { sensitivity: "base" })
-  );
-
-  const groups = new Map<string, string[]>();
-  for (const slug of sorted) {
-    const label = slugToLabel(slug).toLowerCase();
-    const letter = letterForSortLabel(label);
-    const list = groups.get(letter);
-    if (list) list.push(slug);
-    else groups.set(letter, [slug]);
-  }
-  return groups;
-}
-
-function sortedGroupKeys(groups: Map<string, string[]>): string[] {
-  const keys = Array.from(groups.keys());
-  const letters = keys.filter((k) => k !== "#").sort((a, b) => a.localeCompare(b, "en"));
-  if (keys.includes("#")) letters.push("#");
-  return letters;
-}
-
 const linkClass =
   "text-stone-800 underline decoration-stone-300 underline-offset-2 hover:text-flora-forest hover:decoration-flora-forest dark:text-stone-200 dark:hover:text-emerald-300 dark:hover:decoration-emerald-400";
-
-const jumpNavLinkClass =
-  "text-stone-600 transition-colors hover:text-flora-forest dark:text-stone-400 dark:hover:text-emerald-200";
 
 export default function NamesIndexPage({ params }: Props) {
   if (!isLocale(params.lang)) notFound();
   const lang = params.lang as Locale;
 
-  const slugs = getAllNameUrlSlugsIncludingVariants();
-  const groups = buildLetterGroups(slugs);
+  const slugs = [...getAllNameUrlSlugsIncludingVariants()].sort((a, b) =>
+    slugToLabel(a).localeCompare(slugToLabel(b), "en", { sensitivity: "base" })
+  );
+  const groups = buildLetterGroups(slugs, slugToLabel);
   const letters = sortedGroupKeys(groups);
 
   return (
@@ -95,20 +63,11 @@ export default function NamesIndexPage({ params }: Props) {
         {t(lang, "names_index_lead")}
       </p>
 
-      <nav
-        aria-label="Alphabet index"
-        className="sticky top-0 z-10 -mx-6 mt-8 flex flex-wrap gap-x-3 gap-y-2 border-b border-stone-200/90 bg-flora-cream/95 px-6 py-3 text-sm font-medium backdrop-blur-sm dark:border-stone-800 dark:bg-stone-950/95"
-      >
-        {letters.map((letter) => (
-          <a
-            key={letter}
-            href={`#names-letter-${letter === "#" ? "other" : letter}`}
-            className={jumpNavLinkClass}
-          >
-            {letter === "#" ? t(lang, "names_index_other") : letter}
-          </a>
-        ))}
-      </nav>
+      <AlphabetJumpNav
+        letters={letters}
+        otherLabel={t(lang, "names_index_other")}
+        idPrefix="names-letter"
+      />
 
       <div className="mt-12 space-y-10">
         {letters.map((letter) => (
@@ -137,6 +96,8 @@ export default function NamesIndexPage({ params }: Props) {
           </section>
         ))}
       </div>
+
+      <BackToTopButton label={t(lang, "back_to_top")} />
     </main>
   );
 }

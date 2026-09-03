@@ -352,6 +352,9 @@ const dictionary = {
     plants_index_h1: "Scientific names",
     plants_index_lead:
       "Species in the index (scientific names) — open a page to see common names by country and traditional-use notes.",
+    plants_index_other: "Other",
+
+    back_to_top: "Back to top",
 
     prog_name_no_index:
       "‘{name}’ is a plant name people often look up. FloraLexicon does not yet map this spelling to species in our public index.",
@@ -1128,6 +1131,9 @@ const dictionary = {
     plants_index_h1: "Plantas",
     plants_index_lead:
       "Especies del índice (nombres científicos): abre una ficha para ver nombres comunes por país y notas de uso tradicional.",
+    plants_index_other: "Otros",
+
+    back_to_top: "Volver arriba",
 
     prog_name_no_index:
       "«{name}» es un nombre de planta que mucha gente consulta. FloraLexicon aún no asocia esta grafía a especies en el índice público.",
