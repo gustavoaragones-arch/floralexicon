@@ -11941,6 +11941,49 @@
     "dominant_in_countries": []
   },
   {
+    "name": "American skullcap",
+    "normalized": "american skullcap",
+    "language": "en",
+    "plant_ids": [
+      "scutellaria_lateriflora"
+    ],
+    "countries": [
+      "CA",
+      "GB",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "CA",
+      "GB",
+      "US"
+    ]
+  },
+  {
     "name": "American witch hazel",
     "normalized": "american witch hazel",
     "language": "en",
@@ -12527,6 +12570,31 @@
     "dominant_in_countries": [
       "AT",
       "CH",
+      "DE"
+    ]
+  },
+  {
+    "name": "Amerikanisches Helmkraut",
+    "normalized": "amerikanisches helmkraut",
+    "language": "de",
+    "plant_ids": [
+      "scutellaria_lateriflora"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
       "DE"
     ]
   },
@@ -85392,6 +85460,31 @@
     ]
   },
   {
+    "name": "Escutelaria de Virginia",
+    "normalized": "escutelaria de virginia",
+    "language": "es",
+    "plant_ids": [
+      "scutellaria_lateriflora"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "country_usage": [
+      {
+        "country": "ES",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ES"
+    ]
+  },
+  {
     "name": "Escutelaria del Baikal",
     "normalized": "escutelaria del baikal",
     "language": "es",
@@ -87849,6 +87942,40 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "HU"
+    ]
+  },
+  {
+    "name": "False unicorn root",
+    "normalized": "false unicorn root",
+    "language": "en",
+    "plant_ids": [
+      "chamaelirium_luteum"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CA",
+      "US"
     ]
   },
   {
@@ -216248,6 +216375,40 @@
     ]
   },
   {
+    "name": "Salvia blanca",
+    "normalized": "salvia blanca",
+    "language": "es",
+    "plant_ids": [
+      "salvia_apiana"
+    ],
+    "countries": [
+      "ES",
+      "MX"
+    ],
+    "country_usage": [
+      {
+        "country": "ES",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "MX",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "ES",
+      "MX"
+    ]
+  },
+  {
     "name": "Sálvia comum",
     "normalized": "salvia comum",
     "language": "pt",
@@ -218518,6 +218679,31 @@
     "name_country_count": 7,
     "dominant_in_countries": [
       "BE",
+      "FR"
+    ]
+  },
+  {
+    "name": "Sauge blanche",
+    "normalized": "sauge blanche",
+    "language": "fr",
+    "plant_ids": [
+      "salvia_apiana"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
       "FR"
     ]
   },
@@ -220978,6 +221164,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Scutellaire americaine",
+    "normalized": "scutellaire americaine",
+    "language": "fr",
+    "plant_ids": [
+      "scutellaria_lateriflora"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "FR"
+    ]
   },
   {
     "name": "Scutellaire du Baïkal",
@@ -250414,6 +250625,49 @@
     ]
   },
   {
+    "name": "Weisser Salbei",
+    "normalized": "weisser salbei",
+    "language": "de",
+    "plant_ids": [
+      "salvia_apiana"
+    ],
+    "countries": [
+      "AT",
+      "CH",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "CH",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "AT",
+      "CH",
+      "DE"
+    ]
+  },
+  {
     "name": "Werbena pospolita",
     "normalized": "werbena pospolita",
     "language": "pl",
@@ -250943,6 +251197,40 @@
     "ambiguity_level": "low",
     "name_country_count": 7,
     "dominant_in_countries": []
+  },
+  {
+    "name": "White sage",
+    "normalized": "white sage",
+    "language": "en",
+    "plant_ids": [
+      "salvia_apiana"
+    ],
+    "countries": [
+      "GB",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "GB",
+      "US"
+    ]
   },
   {
     "name": "White sassafras",

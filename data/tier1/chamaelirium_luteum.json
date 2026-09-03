@@ -1,0 +1,25 @@
+{
+  "plant_id": "chamaelirium_luteum",
+  "tier": 1,
+  "supported_countries": ["CA", "US"],
+  "names": {
+    "CA": [
+      {
+        "name": "False unicorn root",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Database of Vascular Plants of Canada (VASCAN), accepted species record for Chamaelirium luteum; native range is a marginal, historically-documented population in southern Ontario"
+      }
+    ],
+    "US": [
+      {
+        "name": "False unicorn root",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "United Plant Savers, species conservation profile for Chamaelirium luteum. Name deliberately preferred over bare 'unicorn root', 'starwort' or 'stargrass' - 19th-century Eclectic medical literature (King's American Dispensatory) and modern sources document extensive, long-documented transposition of these shared names with the unrelated Aletris farinosa ('true unicorn root')"
+      }
+    ]
+  }
+}

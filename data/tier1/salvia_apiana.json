@@ -1,0 +1,79 @@
+{
+  "plant_id": "salvia_apiana",
+  "tier": 1,
+  "supported_countries": ["AT", "CH", "DE", "ES", "FR", "GB", "MX", "US"],
+  "names": {
+    "AT": [
+      {
+        "name": "Weisser Salbei",
+        "language": "de",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Species-specific German name for Salvia apiana across many independent German-language retailers (herbathek.com, jani-online.de, wurzelsepp.de, evi-gampl.de); shared DACH-region commercial vocabulary, no Austria-specific variant found"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Weisser Salbei",
+        "language": "de",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Same shared German-language commercial name as DE/AT; no Switzerland-specific variant found"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Weisser Salbei",
+        "language": "de",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Consistent species-specific name across many independent German retailers (herbathek.com, jani-online.de, Kraeuterhaus Wurzelsepp, evi-gampl.de, Waldglueck), always given alongside the binomial Salvia apiana"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Salvia blanca",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Consistent species-specific name across independent Spanish retailers (Bazar Al Andalus, Casaquesuma, EcoMagic, Promesse de Fleurs ES); one source explicitly distinguishes it from Salvia officinalis"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Sauge blanche",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Cross-confirmed species-specific French name (Bazar Al Andalus vernacular listing; consistent with the species' Wikipedia-linked vernacular name record)"
+      }
+    ],
+    "GB": [
+      {
+        "name": "White sage",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "UK retailers (speedyseeds.co.uk, UK-based Etsy sellers) explicitly identify \"White Sage\" as Salvia apiana by binomial, distinguishing it from the Artemisia ludoviciana ambiguity documented elsewhere in North American retail"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Salvia blanca",
+        "language": "es",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Wilken-Robertson, M. (2020), Etnobotanica Kumiai: El Conocimiento Sobre Las Plantas Nativas de Un Pueblo Indigena de Baja California; documented Indigenous Kumiai/Paipai usage, not merely retail terminology"
+      }
+    ],
+    "US": [
+      {
+        "name": "White sage",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "U.S. Fish & Wildlife Service, species profile, Salvia apiana"
+      }
+    ]
+  }
+}

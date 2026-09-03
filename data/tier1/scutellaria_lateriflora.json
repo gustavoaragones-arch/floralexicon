@@ -1,0 +1,61 @@
+{
+  "plant_id": "scutellaria_lateriflora",
+  "tier": 1,
+  "supported_countries": ["CA", "DE", "ES", "FR", "GB", "US"],
+  "names": {
+    "CA": [
+      {
+        "name": "American skullcap",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Missouri Botanical Garden Plant Finder, Scutellaria lateriflora; native range explicitly includes Quebec and Newfoundland"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Amerikanisches Helmkraut",
+        "language": "de",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Species-specific name across independent German retailers (Magic Garden Seeds, eerlijkgezond.com), explicitly disambiguated from Sumpf-Helmkraut (S. galericulata) and Baikal-Helmkraut (S. baicalensis)"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Escutelaria de Virginia",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Consistent species-specific name across independent Spanish sources (Farmaceuticonline, Magic Garden Seeds ES, Wikiwand ES), explicitly disambiguated from Escutelaria del Baikal/china (S. baicalensis) and Escutelaria comun (S. galericulata)"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Scutellaire americaine",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "L'Herboristerie Yannick Bohbot; used specifically to disambiguate from Scutellaria galericulata, which independently holds the name \"Scutellaire casquee\" per Wikiphyto - a genuine French naming collision between the two species"
+      }
+    ],
+    "GB": [
+      {
+        "name": "American skullcap",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Correctly and predominantly used for Scutellaria lateriflora by UK specialist herbal retailers (Earthsong Seeds, The Spiceworks) and herbalreality.com; confidence held at medium rather than high because at least one UK wildflower retailer (Naturescape) was found incorrectly applying the same name to the native S. galericulata"
+      }
+    ],
+    "US": [
+      {
+        "name": "American skullcap",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Missouri Botanical Garden Plant Finder; also documented as blue skullcap, mad-dog skullcap, side-flowering skullcap"
+      }
+    ]
+  }
+}
