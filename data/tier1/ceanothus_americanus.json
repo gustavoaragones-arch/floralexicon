@@ -1,0 +1,43 @@
+{
+  "plant_id": "ceanothus_americanus",
+  "tier": 1,
+  "supported_countries": ["CA", "DE", "FR", "US"],
+  "names": {
+    "CA": [
+      {
+        "name": "New Jersey tea",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "eattheweeds.com / Missouri Botanical Garden; native range confirmed to extend from Quebec south to Florida"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Seckelblume",
+        "language": "de",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Madaus, Lehrbuch der biologischen Heilmittel (via Henriette's Herbal Homepage); cross-confirmed as \"Saeckelblume/Seckelblume\" by German-market homeopathy retailer Remedia"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Ceanothe d'Amerique",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Madaus, Lehrbuch der biologischen Heilmittel (via Henriette's Herbal Homepage)"
+      }
+    ],
+    "US": [
+      {
+        "name": "New Jersey tea",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "USDA NRCS Plant Fact Sheet, Ceanothus americanus"
+      }
+    ]
+  }
+}

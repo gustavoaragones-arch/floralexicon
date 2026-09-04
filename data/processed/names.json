@@ -48021,6 +48021,31 @@
     ]
   },
   {
+    "name": "California yerba santa",
+    "normalized": "california yerba santa",
+    "language": "en",
+    "plant_ids": [
+      "eriodictyon_californicum"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "US"
+    ]
+  },
+  {
     "name": "Californische klaproos",
     "normalized": "californische klaproos",
     "language": "nl",
@@ -53669,6 +53694,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Ceanothe d'Amerique",
+    "normalized": "ceanothe d'amerique",
+    "language": "fr",
+    "plant_ids": [
+      "ceanothus_americanus"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "FR"
+    ]
   },
   {
     "name": "Ceapă",
@@ -126288,6 +126338,74 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Indian tobacco",
+    "normalized": "indian tobacco",
+    "language": "en",
+    "plant_ids": [
+      "lobelia_inflata"
+    ],
+    "countries": [
+      "CA",
+      "GB",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "CA",
+      "GB",
+      "US"
+    ]
+  },
+  {
+    "name": "Indianertabak",
+    "normalized": "indianertabak",
+    "language": "de",
+    "plant_ids": [
+      "lobelia_inflata"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DE"
+    ]
+  },
+  {
     "name": "Indiase ginseng",
     "normalized": "indiase ginseng",
     "language": "nl",
@@ -177030,6 +177148,40 @@
     ]
   },
   {
+    "name": "New Jersey tea",
+    "normalized": "new jersey tea",
+    "language": "en",
+    "plant_ids": [
+      "ceanothus_americanus"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CA",
+      "US"
+    ]
+  },
+  {
     "name": "Ngải cứu châu Phi",
     "normalized": "ngai cuu chau phi",
     "language": "vi",
@@ -221476,6 +221628,31 @@
     ]
   },
   {
+    "name": "Seckelblume",
+    "normalized": "seckelblume",
+    "language": "de",
+    "plant_ids": [
+      "ceanothus_americanus"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DE"
+    ]
+  },
+  {
     "name": "Seeduindoring",
     "normalized": "seeduindoring",
     "language": "af",
@@ -234276,6 +234453,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Tabac indien",
+    "normalized": "tabac indien",
+    "language": "fr",
+    "plant_ids": [
+      "lobelia_inflata"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "FR"
+    ]
   },
   {
     "name": "Tacamahac",
@@ -356486,6 +356688,33 @@
       "JP"
     ],
     "transliteration": "rodiora",
+    "transliteration_scheme": "hepburn"
+  },
+  {
+    "name": "ロベリアソウ",
+    "normalized": "ロベリアソウ",
+    "language": "ja",
+    "plant_ids": [
+      "lobelia_inflata"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "country_usage": [
+      {
+        "country": "JP",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "JP"
+    ],
+    "transliteration": "Roberia-sou",
     "transliteration_scheme": "hepburn"
   },
   {

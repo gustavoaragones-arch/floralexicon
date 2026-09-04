@@ -1,0 +1,63 @@
+{
+  "plant_id": "lobelia_inflata",
+  "tier": 1,
+  "supported_countries": ["CA", "DE", "FR", "GB", "JP", "US"],
+  "names": {
+    "CA": [
+      {
+        "name": "Indian tobacco",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "United Plant Savers species profile; native range confirmed to include New Brunswick, Nova Scotia, Ontario, Quebec, and British Columbia"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Indianertabak",
+        "language": "de",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Species-specific name across many independent German retailers (Magic Garden Seeds, Dragonspice, ethnoplants.com, Pflueger); one source explicitly notes it is botanically unrelated to genus Nicotiana despite the name"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Tabac indien",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "French Wikipedia dedicated article \"Tabac indien\" for Lobelia inflata; cross-confirmed across independent French commercial sources (Alsagarden, ethnoplants.com)"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Indian tobacco",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Standard English common name, consistently and unambiguously used (Britannica, PFAF, Plants For A Future); distinguished throughout sources from ornamental Lobelia erinus"
+      }
+    ],
+    "JP": [
+      {
+        "name": "\u30ed\u30d9\u30ea\u30a2\u30bd\u30a6",
+        "language": "ja",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "National Museum of Nature and Science (Japan) specimen record; Nikko Botanical Garden field documentation. Species-specific, distinct from \u30eb\u30ea\u30df\u30be\u30ab\u30af\u30b7 (Lobelia erinus, the ornamental species)",
+        "transliteration": "Roberia-sou",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "US": [
+      {
+        "name": "Indian tobacco",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Lady Bird Johnson Wildflower Center, Native Plant Database; USDA Plants Profile"
+      }
+    ]
+  }
+}
