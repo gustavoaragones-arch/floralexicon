@@ -8565,6 +8565,31 @@
     ]
   },
   {
+    "name": "Algodoncillo inmortal",
+    "normalized": "algodoncillo inmortal",
+    "language": "es",
+    "plant_ids": [
+      "asclepias_tuberosa"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "country_usage": [
+      {
+        "country": "MX",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "MX"
+    ]
+  },
+  {
     "name": "Alho",
     "normalized": "alho",
     "language": "pt",
@@ -45456,6 +45481,40 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Butterfly weed",
+    "normalized": "butterfly weed",
+    "language": "en",
+    "plant_ids": [
+      "asclepias_tuberosa"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CA",
+      "US"
+    ]
+  },
+  {
     "name": "Büyük havlıcan",
     "normalized": "buyuk havlıcan",
     "language": "tr",
@@ -61274,6 +61333,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Chuchupate",
+    "normalized": "chuchupate",
+    "language": "es",
+    "plant_ids": [
+      "ligusticum_porteri"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "country_usage": [
+      {
+        "country": "MX",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "MX"
+    ]
   },
   {
     "name": "Chùm ngây",
@@ -126715,6 +126799,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Indigo sauvage",
+    "normalized": "indigo sauvage",
+    "language": "fr",
+    "plant_ids": [
+      "baptisia_tinctoria"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "FR"
+    ]
+  },
+  {
     "name": "Indijski dugi papar",
     "normalized": "indijski dugi papar",
     "language": "hr",
@@ -183900,6 +184009,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Osha",
+    "normalized": "osha",
+    "language": "en",
+    "plant_ids": [
+      "ligusticum_porteri"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "US"
+    ]
   },
   {
     "name": "Ostropest",
@@ -252222,6 +252356,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Wilder Indigo",
+    "normalized": "wilder indigo",
+    "language": "de",
+    "plant_ids": [
+      "baptisia_tinctoria"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DE"
+    ]
+  },
+  {
     "name": "Winter cherry",
     "normalized": "winter cherry",
     "language": "en",
@@ -253536,6 +253695,40 @@
     ]
   },
   {
+    "name": "Yellow wild indigo",
+    "normalized": "yellow wild indigo",
+    "language": "en",
+    "plant_ids": [
+      "baptisia_tinctoria"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CA",
+      "US"
+    ]
+  },
+  {
     "name": "Yellow-puccoon",
     "normalized": "yellow puccoon",
     "language": "en",
@@ -253682,6 +253875,40 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Yerba mansa",
+    "normalized": "yerba mansa",
+    "language": "es",
+    "plant_ids": [
+      "anemopsis_californica"
+    ],
+    "countries": [
+      "MX",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "MX",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "MX",
+      "US"
+    ]
   },
   {
     "name": "Yerba mate",

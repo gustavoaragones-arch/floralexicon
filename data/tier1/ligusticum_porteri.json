@@ -1,0 +1,25 @@
+{
+  "plant_id": "ligusticum_porteri",
+  "tier": 1,
+  "supported_countries": ["MX", "US"],
+  "names": {
+    "MX": [
+      {
+        "name": "Chuchupate",
+        "language": "es",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Documented Mexican common name (Grokipedia citing multiple ethnobotanical sources; Desert Tortoise Botanicals Sonoran plant profile). Preferred over the ambiguous 'oshá', which in some Mexican Spanish usage refers instead to Levisticum officinale (garden lovage, a different genus)"
+      }
+    ],
+    "US": [
+      {
+        "name": "Osha",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "United Plant Savers species conservation profile; Wikipedia. Species is conservation-sensitive due to slow growth and overharvesting"
+      }
+    ]
+  }
+}

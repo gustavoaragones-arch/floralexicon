@@ -1,0 +1,25 @@
+{
+  "plant_id": "anemopsis_californica",
+  "tier": 1,
+  "supported_countries": ["MX", "US"],
+  "names": {
+    "MX": [
+      {
+        "name": "Yerba mansa",
+        "language": "es",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Native range confirmed to include Baja California and central/northern Mexico (Southwest Desert Flora; Flora of the Southeastern United States). Unlike 'yerba santa', this name is genus-monotypic (Anemopsis has only one species) and does not carry the same cross-species collision risk"
+      }
+    ],
+    "US": [
+      {
+        "name": "Yerba mansa",
+        "language": "es",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "USDA NRCS Plant Guide, Anemopsis californica (symbol ANCA10)"
+      }
+    ]
+  }
+}

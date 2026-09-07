@@ -1,0 +1,43 @@
+{
+  "plant_id": "baptisia_tinctoria",
+  "tier": 1,
+  "supported_countries": ["CA", "DE", "FR", "US"],
+  "names": {
+    "CA": [
+      {
+        "name": "Yellow wild indigo",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "NatureServe Explorer; VASCAN; native range confirmed in southern Ontario. Species-specific form preferred over bare 'wild indigo', which risks conflation with the popular ornamental Baptisia australis (blue wild indigo)"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Wilder Indigo",
+        "language": "de",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Consistent name across many independent German sources including pharmaceutical manufacturer A.Vogel/Bioforce, Dr. Loges, Pflueger, and University of Ulm botanical garden; NatureServe corroborates real German commercial demand for this species specifically"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Indigo sauvage",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Madaus, Lehrbuch der biologischen Heilmittel (via Henriette's Herbal Homepage)"
+      }
+    ],
+    "US": [
+      {
+        "name": "Yellow wild indigo",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Missouri Botanical Garden Plant Finder; NC Extension Gardener Plant Toolbox. Distinguished from Baptisia australis (blue wild indigo) and true indigo (Indigofera tinctoria)"
+      }
+    ]
+  }
+}

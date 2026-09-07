@@ -1,0 +1,34 @@
+{
+  "plant_id": "asclepias_tuberosa",
+  "tier": 1,
+  "supported_countries": ["CA", "MX", "US"],
+  "names": {
+    "CA": [
+      {
+        "name": "Butterfly weed",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Wikipedia (subsp. interior range explicitly includes Ontario and Quebec); Canadian Food Inspection Agency seed identification records confirm presence in ON, QC. Distinguished from common milkweed (Asclepias syriaca)"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Algodoncillo inmortal",
+        "language": "es",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "CONABIO (Comision Nacional para el Conocimiento y Uso de la Biodiversidad), EncicloVida species record"
+      }
+    ],
+    "US": [
+      {
+        "name": "Butterfly weed",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Missouri Botanical Garden Plant Finder; NC Extension Gardener Plant Toolbox. Distinguished from common milkweed (Asclepias syriaca)"
+      }
+    ]
+  }
+}
