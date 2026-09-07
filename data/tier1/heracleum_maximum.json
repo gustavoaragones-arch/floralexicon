@@ -1,0 +1,36 @@
+{
+  "plant_id": "heracleum_maximum",
+  "tier": 1,
+  "supported_countries": ["CA", "RU", "US"],
+  "names": {
+    "CA": [
+      {
+        "name": "American cow-parsnip",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Wikipedia; Go Botany. Preferred over bare 'cow parsnip', which per Wikipedia is more internationally associated with the European Heracleum sphondylium; emphatically distinct from the dangerous invasive Heracleum mantegazzianum (giant hogweed)"
+      }
+    ],
+    "RU": [
+      {
+        "name": "\u0411\u043e\u0440\u0449\u0435\u0432\u0438\u043a \u0448\u0435\u0440\u0441\u0442\u0438\u0441\u0442\u044b\u0439",
+        "language": "ru",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Moscow State University Botanical Garden herbarium database (plant.depo.msu.ru), specimen records for Heracleum lanatum (accepted name Heracleum maximum), documented in Siberia, Chukotka and Kamchatka",
+        "transliteration": "Borshchevik sherstistyy",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "US": [
+      {
+        "name": "American cow-parsnip",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "USDA NRCS Plant Guide; NC Extension Gardener Plant Toolbox; the only Heracleum species native to North America"
+      }
+    ]
+  }
+}

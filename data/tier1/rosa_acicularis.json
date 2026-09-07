@@ -1,0 +1,87 @@
+{
+  "plant_id": "rosa_acicularis",
+  "tier": 1,
+  "supported_countries": ["CA", "CN", "FI", "JP", "KR", "RU", "SE", "US"],
+  "names": {
+    "CA": [
+      {
+        "name": "Prickly rose",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "US Forest Service Fire Effects Information System (FEIS); pictured on Alberta licence plates since 1983; Alberta's provincial flower"
+      }
+    ],
+    "CN": [
+      {
+        "name": "\u523a\u858f\u8587",
+        "language": "zh",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Flora of China (efloras.org, the authoritative national flora); Flora Reipublicae Popularis Sinicae; Chinese Academy of Sciences iPlant.cn database. Distinguished from the separate species Rosa davurica (\u5c71\u523a\u73ab)",
+        "transliteration": "Ci qiangwei",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Karjalanruusu",
+        "language": "fi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Suomen Lajitietokeskus (Finnish Biodiversity Information Facility); Finnish Rose Society species registry with full botanical description; genus-level list confirms clear distinction from Koiranruusu (R. canina) and Kurtturuusu (R. rugosa)"
+      }
+    ],
+    "JP": [
+      {
+        "name": "\u30aa\u30aa\u30bf\u30ab\u30cd\u30d0\u30e9",
+        "language": "ja",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "YList (BG Plants Japanese name-scientific name index), the standard Japanese botanical nomenclature authority; Japanese Wikipedia. Explicitly distinguished from the closely related Japanese-endemic species Rosa nipponensis (\u30bf\u30ab\u30cd\u30d0\u30e9)",
+        "transliteration": "Ootakanebara",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KR": [
+      {
+        "name": "\uc778\uac00\ubaa9",
+        "language": "ko",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "National Institute of Biological Resources, Republic of Korea (species.nibr.go.kr)",
+        "transliteration": "Ingamok",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "RU": [
+      {
+        "name": "\u0428\u0438\u043f\u043e\u0432\u043d\u0438\u043a \u0438\u0433\u043b\u0438\u0441\u0442\u044b\u0439",
+        "language": "ru",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Russian Wikipedia dedicated species article; Moscow State University Botanical Garden herbarium database, specimens documented across Siberia, Kamchatka and Yakutia; Plantarium.ru",
+        "transliteration": "Shipovnik iglistyy",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Finnros",
+        "language": "sv",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Swedish Wikipedia dedicated species article; genuine garden cultivation confirmed in Sweden"
+      }
+    ],
+    "US": [
+      {
+        "name": "Prickly rose",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "US Forest Service Fire Effects Information System (FEIS); Wikipedia. Also documented as bristly rose, wild rose, Arctic rose"
+      }
+    ]
+  }
+}

@@ -11516,6 +11516,40 @@
     "dominant_in_countries": []
   },
   {
+    "name": "American cow-parsnip",
+    "normalized": "american cow parsnip",
+    "language": "en",
+    "plant_ids": [
+      "heracleum_maximum"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CA",
+      "US"
+    ]
+  },
+  {
     "name": "American cranberry",
     "normalized": "american cranberry",
     "language": "en",
@@ -11991,6 +12025,49 @@
         "confidence": "medium",
         "source": "global_reuse",
         "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "CA",
+      "GB",
+      "US"
+    ]
+  },
+  {
+    "name": "American spikenard",
+    "normalized": "american spikenard",
+    "language": "en",
+    "plant_ids": [
+      "aralia_racemosa"
+    ],
+    "countries": [
+      "CA",
+      "GB",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
       },
       {
         "country": "US",
@@ -36288,6 +36365,31 @@
     ]
   },
   {
+    "name": "Bitter root",
+    "normalized": "bitter root",
+    "language": "en",
+    "plant_ids": [
+      "lewisia_rediviva"
+    ],
+    "countries": [
+      "GB"
+    ],
+    "country_usage": [
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "GB"
+    ]
+  },
+  {
     "name": "Bitter-berry",
     "normalized": "bitter berry",
     "language": "en",
@@ -36358,6 +36460,40 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "NO"
+    ]
+  },
+  {
+    "name": "Bitterroot",
+    "normalized": "bitterroot",
+    "language": "en",
+    "plant_ids": [
+      "lewisia_rediviva"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CA",
+      "US"
     ]
   },
   {
@@ -77571,6 +77707,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Doftmyskgräs",
+    "normalized": "doftmyskgras",
+    "language": "sv",
+    "plant_ids": [
+      "hierochloe_odorata"
+    ],
+    "countries": [
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "SE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SE"
+    ]
+  },
+  {
     "name": "Dog rose",
     "normalized": "dog rose",
     "language": "en",
@@ -79219,6 +79380,49 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "ZA"
+    ]
+  },
+  {
+    "name": "Duftendes Mariengras",
+    "normalized": "duftendes mariengras",
+    "language": "de",
+    "plant_ids": [
+      "hierochloe_odorata"
+    ],
+    "countries": [
+      "AT",
+      "CH",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "CH",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "AT",
+      "CH",
+      "DE"
     ]
   },
   {
@@ -89878,6 +90082,31 @@
     ]
   },
   {
+    "name": "Festgræs",
+    "normalized": "festgræs",
+    "language": "da",
+    "plant_ids": [
+      "hierochloe_odorata"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DK"
+    ]
+  },
+  {
     "name": "Feuille sucrée",
     "normalized": "feuille sucree",
     "language": "fr",
@@ -90329,6 +90558,31 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "DK"
+    ]
+  },
+  {
+    "name": "Finnros",
+    "normalized": "finnros",
+    "language": "sv",
+    "plant_ids": [
+      "rosa_acicularis"
+    ],
+    "countries": [
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "SE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SE"
     ]
   },
   {
@@ -91897,6 +92151,39 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Foin d'odeur",
+    "normalized": "foin d'odeur",
+    "language": "fr",
+    "plant_ids": [
+      "hierochloe_odorata"
+    ],
+    "countries": [
+      "CA",
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "FR"
+    ]
   },
   {
     "name": "Foirbhinn",
@@ -119948,6 +120235,40 @@
     ]
   },
   {
+    "name": "Holy grass",
+    "normalized": "holy grass",
+    "language": "en",
+    "plant_ids": [
+      "hierochloe_odorata"
+    ],
+    "countries": [
+      "GB",
+      "IE"
+    ],
+    "country_usage": [
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "low",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "GB",
+      "IE"
+    ]
+  },
+  {
     "name": "Holy thistle",
     "normalized": "holy thistle",
     "language": "en",
@@ -135260,6 +135581,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Karjalanruusu",
+    "normalized": "karjalanruusu",
+    "language": "fi",
+    "plant_ids": [
+      "rosa_acicularis"
+    ],
+    "countries": [
+      "FI"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "FI"
+    ]
+  },
+  {
     "name": "Kärsämö",
     "normalized": "karsamo",
     "language": "fi",
@@ -146443,6 +146789,31 @@
     "name_country_count": 2,
     "dominant_in_countries": [
       "SE"
+    ]
+  },
+  {
+    "name": "Lännenmaarianheinä",
+    "normalized": "lannenmaarianheina",
+    "language": "fi",
+    "plant_ids": [
+      "hierochloe_odorata"
+    ],
+    "countries": [
+      "FI"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "FI"
     ]
   },
   {
@@ -161842,6 +162213,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Marigras",
+    "normalized": "marigras",
+    "language": "no",
+    "plant_ids": [
+      "hierochloe_odorata"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "NO"
+    ]
   },
   {
     "name": "Marijin čkalj",
@@ -198205,6 +198601,40 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Prickly rose",
+    "normalized": "prickly rose",
+    "language": "en",
+    "plant_ids": [
+      "rosa_acicularis"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CA",
+      "US"
+    ]
+  },
+  {
     "name": "Prikbladet perikon",
     "normalized": "prikbladet perikon",
     "language": "da",
@@ -234157,6 +234587,40 @@
     ]
   },
   {
+    "name": "Sweetgrass",
+    "normalized": "sweetgrass",
+    "language": "en",
+    "plant_ids": [
+      "hierochloe_odorata"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CA",
+      "US"
+    ]
+  },
+  {
     "name": "Szafran",
     "normalized": "szafran",
     "language": "pl",
@@ -240052,6 +240516,56 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Tomkovica vonná",
+    "normalized": "tomkovica vonna",
+    "language": "sk",
+    "plant_ids": [
+      "hierochloe_odorata"
+    ],
+    "countries": [
+      "SK"
+    ],
+    "country_usage": [
+      {
+        "country": "SK",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SK"
+    ]
+  },
+  {
+    "name": "Tomkovice vonná",
+    "normalized": "tomkovice vonna",
+    "language": "cs",
+    "plant_ids": [
+      "hierochloe_odorata"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CZ"
+    ]
+  },
+  {
     "name": "Toorts",
     "normalized": "toorts",
     "language": "nl",
@@ -242814,6 +243328,31 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "TR"
+    ]
+  },
+  {
+    "name": "Turowka wonna",
+    "normalized": "turowka wonna",
+    "language": "pl",
+    "plant_ids": [
+      "hierochloe_odorata"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "country_usage": [
+      {
+        "country": "PL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PL"
     ]
   },
   {
@@ -247949,6 +248488,31 @@
     ]
   },
   {
+    "name": "Veenreukgras",
+    "normalized": "veenreukgras",
+    "language": "nl",
+    "plant_ids": [
+      "hierochloe_odorata"
+    ],
+    "countries": [
+      "NL"
+    ],
+    "country_usage": [
+      {
+        "country": "NL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "NL"
+    ]
+  },
+  {
     "name": "Vejbred",
     "normalized": "vejbred",
     "language": "da",
@@ -252224,6 +252788,40 @@
     "ambiguity_level": "low",
     "name_country_count": 5,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Wild sarsaparilla",
+    "normalized": "wild sarsaparilla",
+    "language": "en",
+    "plant_ids": [
+      "aralia_nudicaulis"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CA",
+      "US"
+    ]
   },
   {
     "name": "Wilde cichorei",
@@ -267423,6 +268021,33 @@
     "transliteration_scheme": "ala_lc"
   },
   {
+    "name": "Борщевик шерстистый",
+    "normalized": "борщевик шерстистыи",
+    "language": "ru",
+    "plant_ids": [
+      "heracleum_maximum"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RU"
+    ],
+    "transliteration": "Borshchevik sherstistyy",
+    "transliteration_scheme": "bgn_pcgn"
+  },
+  {
     "name": "Босвелія",
     "normalized": "босвелія",
     "language": "uk",
@@ -272323,6 +272948,33 @@
     "dominant_in_countries": [],
     "transliteration": "zolotoy koren",
     "transliteration_scheme": "ala_lc"
+  },
+  {
+    "name": "Зубровка душистая",
+    "normalized": "зубровка душистая",
+    "language": "ru",
+    "plant_ids": [
+      "hierochloe_odorata"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RU"
+    ],
+    "transliteration": "Zubrovka dushistaya",
+    "transliteration_scheme": "bgn_pcgn"
   },
   {
     "name": "Имбирь",
@@ -284824,6 +285476,33 @@
     "transliteration_scheme": "bgn_pcgn"
   },
   {
+    "name": "Чаполоч пахуча",
+    "normalized": "чаполоч пахуча",
+    "language": "uk",
+    "plant_ids": [
+      "hierochloe_odorata"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "UA"
+    ],
+    "transliteration": "Chapoloch pakhucha",
+    "transliteration_scheme": "bgn_pcgn"
+  },
+  {
     "name": "Часник",
     "normalized": "часник",
     "language": "uk",
@@ -286573,6 +287252,33 @@
     ],
     "transliteration": "shipovnik",
     "transliteration_scheme": "ala_lc"
+  },
+  {
+    "name": "Шиповник иглистый",
+    "normalized": "шиповник иглистыи",
+    "language": "ru",
+    "plant_ids": [
+      "rosa_acicularis"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RU"
+    ],
+    "transliteration": "Shipovnik iglistyy",
+    "transliteration_scheme": "bgn_pcgn"
   },
   {
     "name": "Шипшина",
@@ -347508,6 +348214,33 @@
     "transliteration_scheme": "rr"
   },
   {
+    "name": "인가목",
+    "normalized": "인가목",
+    "language": "ko",
+    "plant_ids": [
+      "rosa_acicularis"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "country_usage": [
+      {
+        "country": "KR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "KR"
+    ],
+    "transliteration": "Ingamok",
+    "transliteration_scheme": "rr"
+  },
+  {
     "name": "인도 인삼",
     "normalized": "인도 인삼",
     "language": "ko",
@@ -349347,6 +350080,33 @@
     "transliteration_scheme": "rr"
   },
   {
+    "name": "향모",
+    "normalized": "향모",
+    "language": "ko",
+    "plant_ids": [
+      "hierochloe_odorata"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "country_usage": [
+      {
+        "country": "KR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "KR"
+    ],
+    "transliteration": "Hyangmo",
+    "transliteration_scheme": "rr"
+  },
+  {
     "name": "호로파",
     "normalized": "호로파",
     "language": "ko",
@@ -351115,6 +351875,33 @@
     "transliteration_scheme": "hepburn"
   },
   {
+    "name": "オオタカネバラ",
+    "normalized": "オオタカネバラ",
+    "language": "ja",
+    "plant_ids": [
+      "rosa_acicularis"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "country_usage": [
+      {
+        "country": "JP",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "JP"
+    ],
+    "transliteration": "Ootakanebara",
+    "transliteration_scheme": "hepburn"
+  },
+  {
     "name": "オオナンキョウ",
     "normalized": "オオナンキョウ",
     "language": "ja",
@@ -352083,6 +352870,33 @@
     "name_country_count": 1,
     "dominant_in_countries": [],
     "transliteration": "gōruden rūto",
+    "transliteration_scheme": "hepburn"
+  },
+  {
+    "name": "コウボウ",
+    "normalized": "コウボウ",
+    "language": "ja",
+    "plant_ids": [
+      "hierochloe_odorata"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "country_usage": [
+      {
+        "country": "JP",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "JP"
+    ],
+    "transliteration": "Kobo",
     "transliteration_scheme": "hepburn"
   },
   {
@@ -358262,6 +359076,33 @@
       "TW"
     ],
     "transliteration": "cì wǔ jiā",
+    "transliteration_scheme": "pinyin"
+  },
+  {
+    "name": "刺薏薇",
+    "normalized": "刺薏薇",
+    "language": "zh",
+    "plant_ids": [
+      "rosa_acicularis"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "country_usage": [
+      {
+        "country": "CN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CN"
+    ],
+    "transliteration": "Ci qiangwei",
     "transliteration_scheme": "pinyin"
   },
   {
@@ -367470,6 +368311,33 @@
     "name_country_count": 1,
     "dominant_in_countries": [],
     "transliteration": "huā qí shēn",
+    "transliteration_scheme": "pinyin"
+  },
+  {
+    "name": "茅香",
+    "normalized": "茅香",
+    "language": "zh",
+    "plant_ids": [
+      "hierochloe_odorata"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "country_usage": [
+      {
+        "country": "CN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CN"
+    ],
+    "transliteration": "Maoxiang",
     "transliteration_scheme": "pinyin"
   },
   {

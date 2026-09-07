@@ -1,0 +1,34 @@
+{
+  "plant_id": "lewisia_rediviva",
+  "tier": 1,
+  "supported_countries": ["CA", "GB", "US"],
+  "names": {
+    "CA": [
+      {
+        "name": "Bitterroot",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Native range confirmed to include southern British Columbia (American Gardener; Discover Lewis & Clark). Note: the historically recorded 'Salish name' spat'lum is NOT included here - Wikipedia (citing sourced scholarship) notes this was likely actually a Salishan word for tobacco, misattributed to this plant by Pursh, not a genuine name for bitterroot"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Bitter root",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Royal Horticultural Society (RHS) plant record, Lewisia rediviva listed as \"bitter root\"; genuine UK alpine/rock-garden trade presence, though PFAF notes it is not reliably hardy outdoors in Britain"
+      }
+    ],
+    "US": [
+      {
+        "name": "Bitterroot",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Montana Native Plant Society; state flower of Montana. Culturally significant to the Salish, Kootenai, and Shoshone peoples"
+      }
+    ]
+  }
+}

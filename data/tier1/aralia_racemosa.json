@@ -1,0 +1,34 @@
+{
+  "plant_id": "aralia_racemosa",
+  "tier": 1,
+  "supported_countries": ["CA", "GB", "US"],
+  "names": {
+    "CA": [
+      {
+        "name": "American spikenard",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Native Plants of North America database; native range confirmed from New Brunswick to Manitoba. Species-specific name, consistently distinguished in sources from true spikenard (Nardostachys jatamansi), the unrelated Himalayan plant of biblical/ancient trade fame"
+      }
+    ],
+    "GB": [
+      {
+        "name": "American spikenard",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Royal Horticultural Society (RHS) plant record, listed as \"Aralia racemosa | American spikenard (American nard)\""
+      }
+    ],
+    "US": [
+      {
+        "name": "American spikenard",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Missouri Botanical Garden Plant Finder; Go Botany (Native Plant Trust)"
+      }
+    ]
+  }
+}

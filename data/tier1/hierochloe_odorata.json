@@ -1,0 +1,213 @@
+{
+  "plant_id": "hierochloe_odorata",
+  "tier": 1,
+  "supported_countries": ["AT", "CA", "CH", "CN", "CZ", "DE", "DK", "FI", "FR", "GB", "IE", "JP", "KR", "NL", "NO", "PL", "RU", "SE", "SK", "UA", "US"],
+  "names": {
+    "AT": [
+      {
+        "name": "Duftendes Mariengras",
+        "language": "de",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Shared German-language name confirmed native in Germany (Bavarian State Office for the Environment); no Austria-specific variant found, shared DACH-region vocabulary"
+      }
+    ],
+    "CA": [
+      {
+        "name": "Sweetgrass",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Widely documented sacred plant among Indigenous peoples in Canada; Wikipedia, Native Plant Trust"
+      },
+      {
+        "name": "Foin d'odeur",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "The Canadian Encyclopedia; genuine French-Canadian usage confirmed by native-plant nursery Pepiniere Nordique (Quebec)"
+      }
+    ],
+    "CH": [
+      {
+        "name": "Duftendes Mariengras",
+        "language": "de",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Wikipedia notes continental European range extends north from Switzerland (i.e. CH is near the range's southern edge); shared German-language name, no Switzerland-specific variant found"
+      }
+    ],
+    "CN": [
+      {
+        "name": "\u8305\u9999",
+        "language": "zh",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Historical Chinese materia medica (Zhenglei Bencao, Bencao Pinhui Jingyao) and modern TCM reference (baicao99.com) confirm this species-specific identification. Explicitly distinct from the modern term \u9999\u8305 (Xiangmao, different character order), which denotes lemongrass (Cymbopogon) - a real character-order confusion trap",
+        "transliteration": "Maoxiang",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Tomkovice vonn\u00e1",
+        "language": "cs",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "herbar.webnode.cz and adaptogeny.cz explicitly distinguish tomkovice vonna (genus Hierochloe, this species) from tomka vonna (genus Anthoxanthum, a different species - Anthoxanthum odoratum, sweet vernal grass). A live example of exactly the cross-species confusion flagged for this plant"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Duftendes Mariengras",
+        "language": "de",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Bavarian State Office for the Environment (LfU Bayern); genuinely native, critically endangered, ~90% population decline documented. German Wikipedia"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Festgr\u00e6s",
+        "language": "da",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Danish Wikipedia; Naturbasen.dk, genuinely native though rare, found on damp meadows with calcareous soil"
+      }
+    ],
+    "FI": [
+      {
+        "name": "L\u00e4nnenmaarianhein\u00e4",
+        "language": "fi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Suomen Lajitietokeskus (Finnish Biodiversity Information Facility); Finnish Wikipedia. Correctly distinguished from three sibling species in genus Hierochloe (australis, hirta, alpina), each with distinct Finnish names in the same taxonomic system"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Foin d'odeur",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Genuine wild presence confirmed, protected species in the Southern Alps (jardinage.pagesjaunes.fr); French Wikipedia"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Holy grass",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Wikipedia, explicitly documented as the UK-specific English name (distinct from 'sweet grass' used elsewhere); recorded in four Scottish counties and one in north-eastern England"
+      }
+    ],
+    "IE": [
+      {
+        "name": "Holy grass",
+        "language": "en",
+        "confidence": "low",
+        "source": "linguistic",
+        "citation": "Wikipedia confirms exactly one recorded site in Ireland - genuine but extremely marginal presence; shares the same English name as GB usage"
+      }
+    ],
+    "JP": [
+      {
+        "name": "\u30b3\u30a6\u30dc\u30a6",
+        "language": "ja",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Kotobank encyclopedia (citing botanist Makino Tomitaro's etymology linking it to Chinese Maoxiang); Kyoto Prefecture Red Data Book (government conservation document, listed as critically endangered); Hiroshima University Digital Museum",
+        "transliteration": "Kobo",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KR": [
+      {
+        "name": "\ud5a5\ubaa8",
+        "language": "ko",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Genuinely native to Korea (treeinfo.net); Korean Wikipedia genus article, distinguished from the related sanhyangmo (Hierochloe alpina)",
+        "transliteration": "Hyangmo",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Veenreukgras",
+        "language": "nl",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Dutch Ministry of Agriculture, Nature and Food Quality protected species database (minlnv.nederlandsesoorten.nl); Dutch national Red List; genuinely native, found mainly in North/South Holland and Utrecht"
+      }
+    ],
+    "NO": [
+      {
+        "name": "Marigras",
+        "language": "no",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Artsdatabanken (Norwegian Biodiversity Information Centre, government agency); genuinely common across most of Norway"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Turowka wonna",
+        "language": "pl",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "atlas-roslin.pl, a serious Polish botanical database documenting the species official protected status (included in statutory protection since 1957). Preferred over the colloquial zubrowka, which properly denotes either the plant informally or the vodka brand"
+      }
+    ],
+    "RU": [
+      {
+        "name": "\u0417\u0443\u0431\u0440\u043e\u0432\u043a\u0430 \u0434\u0443\u0448\u0438\u0441\u0442\u0430\u044f",
+        "language": "ru",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Russian Wikipedia (formal botanical citation: Gubanov et al., Illustrated Key to Plants of Central Russia); Plantarium.ru",
+        "transliteration": "Zubrovka dushistaya",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Doftmyskgr\u00e4s",
+        "language": "sv",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Swedish Wikipedia, genuinely reproducing/native in Sweden; Swedish Botanical Society (botanikportalen.se)"
+      }
+    ],
+    "SK": [
+      {
+        "name": "Tomkovica vonn\u00e1",
+        "language": "sk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Multiple independent Slovak nursery/retail sources; critically endangered species in Slovakia. Follows the same genus-distinct naming pattern as Czech (tomkovica = Hierochloe, tomka = Anthoxanthum)"
+      }
+    ],
+    "UA": [
+      {
+        "name": "\u0427\u0430\u043f\u043e\u043b\u043e\u0447 \u043f\u0430\u0445\u0443\u0447\u0430",
+        "language": "uk",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Ukrainian Wikipedia; Ukrainian Pharmaceutical Encyclopedia; genuinely native across Polissya and forest-steppe regions",
+        "transliteration": "Chapoloch pakhucha",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "US": [
+      {
+        "name": "Sweetgrass",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "One of the four sacred medicines for many Indigenous peoples in the United States; Wikipedia, Native Plant Trust. Distinct from Anthoxanthum odoratum (sweet vernal grass, unrelated) and from buffalo grass (Bouteloua dactyloides / Stenotaphrum secundatum, also unrelated)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "plant_id": "aralia_nudicaulis",
+  "tier": 1,
+  "supported_countries": ["CA", "US"],
+  "names": {
+    "CA": [
+      {
+        "name": "Wild sarsaparilla",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "US Forest Service Fire Effects Information System (FEIS); native range confirmed from Newfoundland to British Columbia. Species-specific name, consistently distinguished in sources from true sarsaparilla (Smilax spp., an unrelated tropical genus)"
+      }
+    ],
+    "US": [
+      {
+        "name": "Wild sarsaparilla",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "US Forest Service Fire Effects Information System (FEIS); National Park Service NPSpecies records"
+      }
+    ]
+  }
+}
