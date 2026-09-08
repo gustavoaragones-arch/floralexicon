@@ -1,0 +1,99 @@
+{
+  "plant_id": "mentha_arvensis",
+  "tier": 1,
+  "supported_countries": ["CA", "DE", "DK", "FI", "FR", "IT", "NL", "PL", "RU", "US"],
+  "names": {
+    "CA": [
+      {
+        "name": "Field mint",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Easyscape; species has genuine circumboreal distribution including North America. Distinguished from Mentha canadensis (the East Asian/North American 'Japanese mint' commercial menthol crop, treated as a separate accepted species by Kew POWO)"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Ackerminze",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "M.M.P.N.D. Sorting Mentha Names (University of Melbourne); Springer Nature medical reference (Montag, Pflanzen und Haut)"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Agermynte",
+        "language": "da",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "M.M.P.N.D. Sorting Mentha Names (University of Melbourne)"
+      }
+    ],
+    "FI": [
+      {
+        "name": "Peltominttu",
+        "language": "fi",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "M.M.P.N.D. Sorting Mentha Names (University of Melbourne)"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Menthe des champs",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "M.M.P.N.D. Sorting Mentha Names (University of Melbourne); FOIBIS (University of Guelph). Deliberately not using 'menthe du japon', an alternate name that likely reflects conflation with Mentha canadensis (see CN/JP/KR exclusion note)"
+      }
+    ],
+    "IT": [
+      {
+        "name": "Menta selvatica",
+        "language": "it",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "M.M.P.N.D. Sorting Mentha Names (University of Melbourne)"
+      }
+    ],
+    "NL": [
+      {
+        "name": "Akkermunt",
+        "language": "nl",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "M.M.P.N.D. Sorting Mentha Names (University of Melbourne)"
+      }
+    ],
+    "PL": [
+      {
+        "name": "Mieta polna",
+        "language": "pl",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "M.M.P.N.D. Sorting Mentha Names (University of Melbourne)"
+      }
+    ],
+    "RU": [
+      {
+        "name": "\u041c\u044f\u0442\u0430 \u043f\u043e\u043b\u0435\u0432\u0430\u044f",
+        "language": "ru",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "M.M.P.N.D. Sorting Mentha Names (University of Melbourne)",
+        "transliteration": "Myata polevaya",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "US": [
+      {
+        "name": "Field mint",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Easyscape; Wikipedia. Genus Mentha is taxonomically difficult; the massive commercial 'Japanese mint'/menthol-crop industry across CN/JP/KR/IN is documented (US plant patent PP21053) as botanically Mentha canadensis, a separate accepted species per Kew POWO, not true M. arvensis - those four candidate countries were deliberately excluded rather than assumed"
+      }
+    ]
+  }
+}
