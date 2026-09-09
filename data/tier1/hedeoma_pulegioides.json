@@ -1,0 +1,34 @@
+{
+  "plant_id": "hedeoma_pulegioides",
+  "tier": 1,
+  "supported_countries": ["CA", "DE", "US"],
+  "names": {
+    "CA": [
+      {
+        "name": "American pennyroyal",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Native range confirmed from Nova Scotia and southern Quebec/Ontario west to Minnesota (FSUS). Deliberately disambiguated from bare 'pennyroyal', which is also used for the unrelated, similarly toxic European Mentha pulegium - a confusion documented as longstanding even among 19th-century medical writers (Henriette's Herbal, citing Rafinesque). 'Squaw-mint', though historically documented, is excluded per this project's standing convention on such terms"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Amerikanische Poleiminze",
+        "language": "de",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "kraeuterallerlei.de, explicitly distinguishing the cultivated annual 'Amerikanische Poleiminze' (H. pulegioides) from the perennial European 'Poleiminze' (Mentha pulegium); cross-confirmed by USDA phytochemical/ethnobotanical database (phytochem.nal.usda.gov)"
+      }
+    ],
+    "US": [
+      {
+        "name": "American pennyroyal",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "National Park Service NPSpecies records (multiple parks); Drugs.com clinical monograph. SAFETY: pulegone content is hepatotoxic, neurotoxic and a documented abortifacient in concentrated/oil form; internal use of the essential oil is not recommended"
+      }
+    ]
+  }
+}

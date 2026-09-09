@@ -1,0 +1,65 @@
+{
+  "plant_id": "equisetum_arvense",
+  "tier": 1,
+  "supported_countries": ["CA", "DE", "FR", "JP", "RU", "US"],
+  "names": {
+    "CA": [
+      {
+        "name": "Field horsetail",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "NC Extension Gardener Plant Toolbox; native throughout temperate North America. Distinguished from the toxic Equisetum palustre (marsh horsetail); genus contains the toxic alkaloid palustrine, a documented commercial adulteration risk (Saslis-Lagoudakis et al. 2015, Scientific Reports)"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Ackerschachtelhalm",
+        "language": "de",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "HMPC/EMA herbal monograph reference (via awl.ch); University of Ulm botanical garden. Explicitly and repeatedly distinguished in German sources from the toxic Sumpfschachtelhalm (E. palustre)"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Prele des champs",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "French Wikipedia; Florealpes botanical database. Clearly distinguished from prele des marais (E. palustre) and grande prele (E. telmateia)"
+      }
+    ],
+    "JP": [
+      {
+        "name": "\u30b9\u30ae\u30ca",
+        "language": "ja",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Wikidata cross-language species record (jawiki)",
+        "transliteration": "Sugina",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "RU": [
+      {
+        "name": "\u0425\u0432\u043e\u0449 \u043f\u043e\u043b\u0435\u0432\u043e\u0439",
+        "language": "ru",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Plantarium.ru; Moscow State University herbarium database (plant.depo.msu.ru); AgroAtlas Russia",
+        "transliteration": "Khvoshch polevoy",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "US": [
+      {
+        "name": "Field horsetail",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "NC Extension Gardener Plant Toolbox; PFAF. Also documented as common horsetail, scouring rush, horsetail; contains thiaminase, a genuine safety consideration with extended use"
+      }
+    ]
+  }
+}
