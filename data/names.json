@@ -7165,6 +7165,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Ajo-cebolla",
+    "normalized": "ajo cebolla",
+    "language": "es",
+    "plant_ids": [
+      "allium_cernuum"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "country_usage": [
+      {
+        "country": "MX",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "MX"
+    ]
+  },
+  {
     "name": "Ak yalancı ısırgan",
     "normalized": "ak yalancı ısırgan",
     "language": "tr",
@@ -11593,6 +11618,74 @@
     ]
   },
   {
+    "name": "American angelica",
+    "normalized": "american angelica",
+    "language": "en",
+    "plant_ids": [
+      "angelica_atropurpurea"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CA",
+      "US"
+    ]
+  },
+  {
+    "name": "American bistort",
+    "normalized": "american bistort",
+    "language": "en",
+    "plant_ids": [
+      "polygonum_bistortoides"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CA",
+      "US"
+    ]
+  },
+  {
     "name": "American black elderberry",
     "normalized": "american black elderberry",
     "language": "en",
@@ -11614,6 +11707,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "American blue vervain",
+    "normalized": "american blue vervain",
+    "language": "en",
+    "plant_ids": [
+      "verbena_hastata"
+    ],
+    "countries": [
+      "GB"
+    ],
+    "country_usage": [
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "GB"
+    ]
   },
   {
     "name": "American cow-parsnip",
@@ -38074,6 +38192,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Blaues Eisenkraut",
+    "normalized": "blaues eisenkraut",
+    "language": "de",
+    "plant_ids": [
+      "verbena_hastata"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DE"
+    ]
+  },
+  {
     "name": "Blauwe bosbes",
     "normalized": "blauwe bosbes",
     "language": "nl",
@@ -38712,6 +38855,40 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Blue vervain",
+    "normalized": "blue vervain",
+    "language": "en",
+    "plant_ids": [
+      "verbena_hastata"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CA",
+      "US"
+    ]
   },
   {
     "name": "Blue-green algae",
@@ -97073,6 +97250,31 @@
     "ambiguity_level": "low",
     "name_country_count": 2,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Gewoehnliches Hundsgift",
+    "normalized": "gewoehnliches hundsgift",
+    "language": "de",
+    "plant_ids": [
+      "apocynum_androsaemifolium"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DE"
+    ]
   },
   {
     "name": "Gewöhnliche Kanadische Goldrute",
@@ -179174,6 +179376,40 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Nodding onion",
+    "normalized": "nodding onion",
+    "language": "en",
+    "plant_ids": [
+      "allium_cernuum"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CA",
+      "US"
+    ]
+  },
+  {
     "name": "Noisetier de sorcière",
     "normalized": "noisetier de sorciere",
     "language": "fr",
@@ -198495,6 +198731,31 @@
     "ambiguity_level": "low",
     "name_country_count": 15,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Praerieampfer",
+    "normalized": "praerieampfer",
+    "language": "de",
+    "plant_ids": [
+      "parthenium_integrifolium"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DE"
+    ]
   },
   {
     "name": "Pravá aloe",
@@ -230895,6 +231156,40 @@
     ]
   },
   {
+    "name": "Spreading dogbane",
+    "normalized": "spreading dogbane",
+    "language": "en",
+    "plant_ids": [
+      "apocynum_androsaemifolium"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CA",
+      "US"
+    ]
+  },
+  {
     "name": "Spreading hogweed",
     "normalized": "spreading hogweed",
     "language": "en",
@@ -253169,6 +253464,49 @@
     "ambiguity_level": "low",
     "name_country_count": 14,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Wild quinine",
+    "normalized": "wild quinine",
+    "language": "en",
+    "plant_ids": [
+      "parthenium_integrifolium"
+    ],
+    "countries": [
+      "CA",
+      "GB",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "CA",
+      "GB",
+      "US"
+    ]
   },
   {
     "name": "Wild rose",

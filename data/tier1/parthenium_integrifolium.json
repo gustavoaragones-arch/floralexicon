@@ -1,0 +1,43 @@
+{
+  "plant_id": "parthenium_integrifolium",
+  "tier": 1,
+  "supported_countries": ["CA", "DE", "GB", "US"],
+  "names": {
+    "CA": [
+      {
+        "name": "Wild quinine",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Wikipedia; NatureServe. Unrelated to true quinine (Cinchona spp.) despite the common name; distinguished from the invasive Parthenium hysterophorus (Santa Maria feverfew), which causes contact dermatitis"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Praerieampfer",
+        "language": "de",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Consistent name across independent German nurseries (Baumschule NewGarden, Stauden Stade, Floragard)"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Wild quinine",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Royal Horticultural Society (RHS) plant record, listing common names \"cutting almond, prairie dock, wild quinine\""
+      }
+    ],
+    "US": [
+      {
+        "name": "Wild quinine",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Missouri Botanical Garden Plant Finder; Lurie Garden. Used medicinally and as a poultice for burns by the Catawba people"
+      }
+    ]
+  }
+}

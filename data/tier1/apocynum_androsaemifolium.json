@@ -1,0 +1,34 @@
+{
+  "plant_id": "apocynum_androsaemifolium",
+  "tier": 1,
+  "supported_countries": ["CA", "DE", "US"],
+  "names": {
+    "CA": [
+      {
+        "name": "Spreading dogbane",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "US Forest Service Plant of the Week; native range confirmed across all 10 Canadian provinces. Distinguished from Apocynum cannabinum (Indian hemp)"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Gewoehnliches Hundsgift",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "German Wikipedia genus article; giftpflanzen.com; Hortipedia. Clearly distinguished from Indianischer Hanf/Hanfartiger Hundswuerger (A. cannabinum) and Venezianisches Hundsgift (A. venetum). Genuine German phytotherapy history for cardiac conditions documented in Madaus (1938, via Henriette's Herbal)"
+      }
+    ],
+    "US": [
+      {
+        "name": "Spreading dogbane",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "US Forest Service Plant of the Week; Lady Bird Johnson Wildflower Center. SAFETY: contains cardenolides (cymarin); toxic to dogs, humans and livestock"
+      }
+    ]
+  }
+}

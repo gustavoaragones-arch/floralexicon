@@ -1,0 +1,34 @@
+{
+  "plant_id": "allium_cernuum",
+  "tier": 1,
+  "supported_countries": ["CA", "MX", "US"],
+  "names": {
+    "CA": [
+      {
+        "name": "Nodding onion",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "NC Extension Gardener Plant Toolbox; native range confirmed Canada to Mexico. Species-specific, distinguished from ramps/wild leek (Allium tricoccum)"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Ajo-cebolla",
+        "language": "es",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Enciclovida.mx (Mexican biodiversity encyclopedia, CONABIO-affiliated)"
+      }
+    ],
+    "US": [
+      {
+        "name": "Nodding onion",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Lady Bird Johnson Wildflower Center; Flora of the Southeastern United States (FSUS). Also documented as Lady's leek. Mildly toxic if eaten in quantity (sulfides)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "plant_id": "verbena_hastata",
+  "tier": 1,
+  "supported_countries": ["CA", "DE", "GB", "US"],
+  "names": {
+    "CA": [
+      {
+        "name": "Blue vervain",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Native range confirmed across Canadian provinces NB/NS/ON/QC (NC Extension Gardener Plant Toolbox). Deliberately distinguished from the European Verbena officinalis, a separate species with its own naming history"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Blaues Eisenkraut",
+        "language": "de",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Gartenblues; Yarinde nursery. Also documented as Lanzen-Eisenkraut (Gaissmayer, Promesse de Fleurs). Multiple German sources explicitly distinguish this North American species from the native/naturalized Verbena officinalis"
+      }
+    ],
+    "GB": [
+      {
+        "name": "American blue vervain",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Royal Horticultural Society (RHS) plant record; 'American' explicitly used to disambiguate from the native British Verbena officinalis. Also listed as American simpler's joy, ironweed, wild hyssop"
+      }
+    ],
+    "US": [
+      {
+        "name": "Blue vervain",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Missouri Botanical Garden Plant Finder; NC Extension Gardener Plant Toolbox. Also documented as swamp vervain, swamp verbena, simpler's joy, American vervain"
+      }
+    ]
+  }
+}
