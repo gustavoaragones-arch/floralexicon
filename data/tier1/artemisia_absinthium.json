@@ -1,0 +1,81 @@
+{
+  "plant_id": "artemisia_absinthium",
+  "tier": 1,
+  "supported_countries": ["BO", "CL", "DE", "FR", "GB", "RU", "US", "VE"],
+  "names": {
+    "BO": [
+      {
+        "name": "Ajenjo",
+        "language": "es",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Herbario del Sur de Bolivia, Anexo of 'Asi nos curamos en la Marka Quila Quila' (official Chuquisaca community medicinal plant registry)"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Ajenjo",
+        "language": "es",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Chile DS N3/2010, Ministerio de Salud - 103 Hierbas Medicinales (MINAGRI/INDAP/FUCOA, 2018 reedition), entry 3"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Wermut",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "ScienceDirect topic overview; also documented as Wermutkraut, Bitterer Beifuss. Distinguished from Artemisia abrotanum (Eberraute/southernwood), a related but distinct European medicinal species"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Absinthe",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "ScienceDirect topic overview; also documented as Armoise amere, Herbe aux vers, Herbe d'absinthe. The species from which the alcoholic beverage absinthe takes its name"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Wormwood",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Britannica; native to Europe. Also documented as green ginger, grand wormwood, madderwort. Distinguished from the unrelated Artemisia annua (source of the antimalarial artemisinin), Artemisia maritima (sea wormwood) and Artemisia alba (white wormwood)"
+      }
+    ],
+    "RU": [
+      {
+        "name": "\u041f\u043e\u043b\u044b\u043d\u044c \u0433\u043e\u0440\u044c\u043a\u0430\u044f",
+        "language": "ru",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Russian Wikipedia (formal citation: Gubanov et al., Illustrated Key to Plants of Central Russia); Moscow State University herbarium database (plant.depo.msu.ru); Plantarium.ru. Considered the bitterest plant in the Russian flora",
+        "transliteration": "Polyn gorkaya",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "US": [
+      {
+        "name": "Common wormwood",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Britannica; naturalized from Europe, found in fields and roadsides (Flora of the Southeastern United States). Historically used as an anthelmintic (anti-parasitic); key ingredient in absinthe and vermouth. SAFETY: contains thujone, toxic at elevated levels"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Ajenjo",
+        "language": "es",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Melendez, Alvarado & Castro de Rojas (2012), market survey of medicinal plants sold in Maracay, Aragua, Venezuela"
+      }
+    ]
+  }
+}

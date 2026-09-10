@@ -367,6 +367,31 @@
     ]
   },
   {
+    "name": "Absinthe",
+    "normalized": "absinthe",
+    "language": "fr",
+    "plant_ids": [
+      "artemisia_absinthium"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "FR"
+    ]
+  },
+  {
     "name": "Absinthe africaine",
     "normalized": "absinthe africaine",
     "language": "fr",
@@ -2556,6 +2581,74 @@
     "ambiguity_level": "low",
     "name_country_count": 8,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Achiote",
+    "normalized": "achiote",
+    "language": "es",
+    "plant_ids": [
+      "bixa_orellana"
+    ],
+    "countries": [
+      "CO",
+      "GT",
+      "MX"
+    ],
+    "country_usage": [
+      {
+        "country": "CO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "GT",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "MX",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "CO",
+      "GT",
+      "MX"
+    ]
+  },
+  {
+    "name": "Achuete",
+    "normalized": "achuete",
+    "language": "tl",
+    "plant_ids": [
+      "bixa_orellana"
+    ],
+    "countries": [
+      "PH"
+    ],
+    "country_usage": [
+      {
+        "country": "PH",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PH"
+    ]
   },
   {
     "name": "Ackerminze",
@@ -6659,6 +6752,49 @@
     "ambiguity_level": "low",
     "name_country_count": 17,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Ajenjo",
+    "normalized": "ajenjo",
+    "language": "es",
+    "plant_ids": [
+      "artemisia_absinthium"
+    ],
+    "countries": [
+      "BO",
+      "CL",
+      "VE"
+    ],
+    "country_usage": [
+      {
+        "country": "BO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "CL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "VE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "BO",
+      "CL",
+      "VE"
+    ]
   },
   {
     "name": "Ajenjo africano",
@@ -26801,6 +26937,90 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Ayahuasca",
+    "normalized": "ayahuasca",
+    "language": "en",
+    "plant_ids": [
+      "banisteriopsis_caapi"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "US"
+    ]
+  },
+  {
+    "name": "Ayahuasca",
+    "normalized": "ayahuasca",
+    "language": "es",
+    "plant_ids": [
+      "banisteriopsis_caapi"
+    ],
+    "countries": [
+      "BO",
+      "VE"
+    ],
+    "country_usage": [
+      {
+        "country": "BO",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "VE",
+        "is_primary": true,
+        "confidence": "low",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "BO",
+      "VE"
+    ]
+  },
+  {
+    "name": "Ayahuasca",
+    "normalized": "ayahuasca",
+    "language": "qu",
+    "plant_ids": [
+      "banisteriopsis_caapi"
+    ],
+    "countries": [
+      "PE"
+    ],
+    "country_usage": [
+      {
+        "country": "PE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PE"
+    ]
+  },
+  {
     "name": "Aynısafa",
     "normalized": "aynısafa",
     "language": "tr",
@@ -35949,6 +36169,40 @@
     "dominant_in_countries": [
       "BE",
       "NL"
+    ]
+  },
+  {
+    "name": "Bija",
+    "normalized": "bija",
+    "language": "es",
+    "plant_ids": [
+      "bixa_orellana"
+    ],
+    "countries": [
+      "CU",
+      "PE"
+    ],
+    "country_usage": [
+      {
+        "country": "CU",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "PE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CU",
+      "PE"
     ]
   },
   {
@@ -68443,6 +68697,31 @@
     "ambiguity_level": "low",
     "name_country_count": 3,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Common wormwood",
+    "normalized": "common wormwood",
+    "language": "en",
+    "plant_ids": [
+      "artemisia_absinthium"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "US"
+    ]
   },
   {
     "name": "Common yarrow",
@@ -109615,6 +109894,31 @@
     "ambiguity_level": "low",
     "name_country_count": 2,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Guajachote",
+    "normalized": "guajachote",
+    "language": "es",
+    "plant_ids": [
+      "bixa_orellana"
+    ],
+    "countries": [
+      "SV"
+    ],
+    "country_usage": [
+      {
+        "country": "SV",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SV"
+    ]
   },
   {
     "name": "Guarana",
@@ -163098,6 +163402,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Mariri",
+    "normalized": "mariri",
+    "language": "pt",
+    "plant_ids": [
+      "banisteriopsis_caapi"
+    ],
+    "countries": [
+      "BR"
+    ],
+    "country_usage": [
+      {
+        "country": "BR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "BR"
+    ]
+  },
+  {
     "name": "Marjoram liar",
     "normalized": "marjoram liar",
     "language": "id",
@@ -176798,6 +177127,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Natema",
+    "normalized": "natema",
+    "language": "es",
+    "plant_ids": [
+      "banisteriopsis_caapi"
+    ],
+    "countries": [
+      "EC"
+    ],
+    "country_usage": [
+      {
+        "country": "EC",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "EC"
+    ]
+  },
+  {
     "name": "Nechtík",
     "normalized": "nechtik",
     "language": "sk",
@@ -182677,6 +183031,31 @@
       "ZA",
       "ZM",
       "ZW"
+    ]
+  },
+  {
+    "name": "Onoto",
+    "normalized": "onoto",
+    "language": "es",
+    "plant_ids": [
+      "bixa_orellana"
+    ],
+    "countries": [
+      "VE"
+    ],
+    "country_usage": [
+      {
+        "country": "VE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "VE"
     ]
   },
   {
@@ -226886,6 +227265,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Sindhuri",
+    "normalized": "sindhuri",
+    "language": "hi",
+    "plant_ids": [
+      "bixa_orellana"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IN"
+    ]
+  },
+  {
     "name": "Single-seeded hawthorn",
     "normalized": "single seeded hawthorn",
     "language": "en",
@@ -245654,6 +246058,65 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Urucu",
+    "normalized": "urucu",
+    "language": "es",
+    "plant_ids": [
+      "bixa_orellana"
+    ],
+    "countries": [
+      "AR",
+      "BO"
+    ],
+    "country_usage": [
+      {
+        "country": "AR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "BO",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "AR",
+      "BO"
+    ]
+  },
+  {
+    "name": "Urucum",
+    "normalized": "urucum",
+    "language": "pt",
+    "plant_ids": [
+      "bixa_orellana"
+    ],
+    "countries": [
+      "BR"
+    ],
+    "country_usage": [
+      {
+        "country": "BR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "BR"
+    ]
+  },
+  {
     "name": "Urzică",
     "normalized": "urzica",
     "language": "ro",
@@ -252771,6 +253234,31 @@
     ]
   },
   {
+    "name": "Wermut",
+    "normalized": "wermut",
+    "language": "de",
+    "plant_ids": [
+      "artemisia_absinthium"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DE"
+    ]
+  },
+  {
     "name": "West Indian lemongrass",
     "normalized": "west indian lemongrass",
     "language": "en",
@@ -254871,6 +255359,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Wormwood",
+    "normalized": "wormwood",
+    "language": "en",
+    "plant_ids": [
+      "artemisia_absinthium"
+    ],
+    "countries": [
+      "GB"
+    ],
+    "country_usage": [
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "GB"
+    ]
+  },
+  {
     "name": "Wrotycz maruna",
     "normalized": "wrotycz maruna",
     "language": "pl",
@@ -255199,6 +255712,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Yaje",
+    "normalized": "yaje",
+    "language": "es",
+    "plant_ids": [
+      "banisteriopsis_caapi"
+    ],
+    "countries": [
+      "CO"
+    ],
+    "country_usage": [
+      {
+        "country": "CO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CO"
+    ]
   },
   {
     "name": "Yalancı iğde",
@@ -281961,6 +282499,33 @@
       "UA"
     ],
     "transliteration": "Polyn odnorichnyi",
+    "transliteration_scheme": "bgn_pcgn"
+  },
+  {
+    "name": "Полынь горькая",
+    "normalized": "полынь горькая",
+    "language": "ru",
+    "plant_ids": [
+      "artemisia_absinthium"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RU"
+    ],
+    "transliteration": "Polyn gorkaya",
     "transliteration_scheme": "bgn_pcgn"
   },
   {

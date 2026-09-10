@@ -1,0 +1,70 @@
+{
+  "plant_id": "banisteriopsis_caapi",
+  "tier": 1,
+  "supported_countries": ["BO", "BR", "CO", "EC", "PE", "US", "VE"],
+  "names": {
+    "BO": [
+      {
+        "name": "Ayahuasca",
+        "language": "es",
+        "confidence": "medium",
+        "source": "ethnobotany",
+        "citation": "Traditional use documented across the Amazon basin extending from southern Bolivia to northern Panama (NTBG Tropical Plants Database); no distinct Bolivia-specific name found beyond the shared Quechua-derived regional term"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Mariri",
+        "language": "pt",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Peer-reviewed mitogenomic study (PMC11234496, Universidade Estadual Paulista/UFRJ/UFABC), documenting 'Mariri or Jagube' as the Brazilian name used by Indigenous communities and syncretic religious groups (Santo Daime, Uniao do Vegetal). Also documented as 'hoasca' in Brazil (PMC6646606)"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Yaje",
+        "language": "es",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "PMC6646606 (peer-reviewed phytochemical review), explicitly noting 'In Colombia it is also called caapi or yaje'; documented use by Shaman communities in Putumayo, Colombia"
+      }
+    ],
+    "EC": [
+      {
+        "name": "Natema",
+        "language": "es",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "PMC6646606 (peer-reviewed phytochemical review), documenting 'Nate' as the Ecuador-specific name. The oldest known ayahuasca-related ceremonial artifact (a cup dated to 50 AD) was found in Ecuador"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Ayahuasca",
+        "language": "qu",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "ICEERS; Quechua term composed of 'aya' (corpse/spirit) and 'waskha' (rope/vine). Used in the Peruvian Amazon for millennia, predating the Inca Empire. Note: this entry names the vine itself; 'ayahuasca' also separately denotes the brewed decoction made from it"
+      }
+    ],
+    "US": [
+      {
+        "name": "Ayahuasca",
+        "language": "en",
+        "confidence": "medium",
+        "source": "regulatory",
+        "citation": "UC Berkeley BCSP; genuine legal/religious recognition exists in the US for ayahuasca ceremonies conducted by the Santo Daime and Uniao do Vegetal (UDV) religious movements"
+      }
+    ],
+    "VE": [
+      {
+        "name": "Ayahuasca",
+        "language": "es",
+        "confidence": "low",
+        "source": "ethnobotany",
+        "citation": "Traditional healing use documented among Orinoco basin native healers (PMC6646606); no distinct Venezuela-specific vernacular name found beyond the shared regional term"
+      }
+    ]
+  }
+}
