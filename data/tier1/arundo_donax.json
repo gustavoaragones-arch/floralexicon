@@ -1,0 +1,43 @@
+{
+  "plant_id": "arundo_donax",
+  "tier": 1,
+  "supported_countries": ["ES", "FR", "MX", "US"],
+  "names": {
+    "ES": [
+      {
+        "name": "Cana",
+        "language": "es",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Medir S.L. (cane/reed manufacturer for wind instruments); long documented use across the Mediterranean, though genuinely ancient/native status vs. very early introduction remains debated. Used to craft traditional wind instruments such as the Spanish dulzaina"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Canne de Provence",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "ethnobotany",
+        "citation": "Ask-Ayurveda historical review; used to craft the traditional Provencal galoubet wind instrument"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Carrizo",
+        "language": "es",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "iNaturalist; also documented as the name used along the Colorado River region shared with the southwestern US"
+      }
+    ],
+    "US": [
+      {
+        "name": "Giant reed",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "US Forest Service Research and Development (FEIS species review). Also documented as Spanish cane, giant cane, Colorado river reed. The principal source material worldwide for reeds used in woodwind instruments (oboe, bassoon, clarinet, saxophone). SAFETY/ECOLOGY: listed among the world's 100 worst invasive alien species; a major riparian-corridor threat in southern California"
+      }
+    ]
+  }
+}

@@ -50,6 +50,31 @@
     ]
   },
   {
+    "name": "Abacaxi",
+    "normalized": "abacaxi",
+    "language": "pt",
+    "plant_ids": [
+      "ananas_comosus"
+    ],
+    "countries": [
+      "BR"
+    ],
+    "country_usage": [
+      {
+        "country": "BR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "BR"
+    ]
+  },
+  {
     "name": "Abebrødtræ",
     "normalized": "abebrødtræ",
     "language": "da",
@@ -49393,6 +49418,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Cana",
+    "normalized": "cana",
+    "language": "es",
+    "plant_ids": [
+      "arundo_donax"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "country_usage": [
+      {
+        "country": "ES",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ES"
+    ]
+  },
+  {
     "name": "Caña santa",
     "normalized": "cana santa",
     "language": "es",
@@ -50570,6 +50620,31 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "PT"
+    ]
+  },
+  {
+    "name": "Canne de Provence",
+    "normalized": "canne de provence",
+    "language": "fr",
+    "plant_ids": [
+      "arundo_donax"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "FR"
     ]
   },
   {
@@ -52939,6 +53014,31 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "BR"
+    ]
+  },
+  {
+    "name": "Carrizo",
+    "normalized": "carrizo",
+    "language": "es",
+    "plant_ids": [
+      "arundo_donax"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "country_usage": [
+      {
+        "country": "MX",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "MX"
     ]
   },
   {
@@ -98836,6 +98936,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Giant reed",
+    "normalized": "giant reed",
+    "language": "en",
+    "plant_ids": [
+      "arundo_donax"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "US"
+    ]
   },
   {
     "name": "Giligilani",
@@ -163226,6 +163351,133 @@
     ]
   },
   {
+    "name": "Maqui",
+    "normalized": "maqui",
+    "language": "de",
+    "plant_ids": [
+      "aristotelia_chilensis"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DE"
+    ]
+  },
+  {
+    "name": "Maqui",
+    "normalized": "maqui",
+    "language": "es",
+    "plant_ids": [
+      "aristotelia_chilensis"
+    ],
+    "countries": [
+      "AR",
+      "CL",
+      "ES"
+    ],
+    "country_usage": [
+      {
+        "country": "AR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "CL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "ES",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "AR",
+      "CL",
+      "ES"
+    ]
+  },
+  {
+    "name": "Maqui",
+    "normalized": "maqui",
+    "language": "fr",
+    "plant_ids": [
+      "aristotelia_chilensis"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "FR"
+    ]
+  },
+  {
+    "name": "Maqui berry",
+    "normalized": "maqui berry",
+    "language": "en",
+    "plant_ids": [
+      "aristotelia_chilensis"
+    ],
+    "countries": [
+      "GB",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "GB",
+      "US"
+    ]
+  },
+  {
     "name": "Mărar",
     "normalized": "marar",
     "language": "ro",
@@ -196741,6 +196993,146 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Pina",
+    "normalized": "pina",
+    "language": "es",
+    "plant_ids": [
+      "ananas_comosus"
+    ],
+    "countries": [
+      "AR",
+      "BO",
+      "CO",
+      "EC",
+      "MX",
+      "PE",
+      "PY",
+      "UY",
+      "VE"
+    ],
+    "country_usage": [
+      {
+        "country": "AR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "BO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "CO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "EC",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "MX",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "PE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "PY",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "UY",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "VE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 9,
+    "dominant_in_countries": [
+      "AR",
+      "BO",
+      "CO",
+      "EC",
+      "MX",
+      "PE",
+      "PY",
+      "UY",
+      "VE"
+    ]
+  },
+  {
+    "name": "Pineapple",
+    "normalized": "pineapple",
+    "language": "en",
+    "plant_ids": [
+      "ananas_comosus"
+    ],
+    "countries": [
+      "AU",
+      "GB",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "AU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "global_reuse",
+        "authority_source": "commercial"
+      },
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "AU",
+      "GB",
+      "US"
+    ]
   },
   {
     "name": "Pinecone ginger",

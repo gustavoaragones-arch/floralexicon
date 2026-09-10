@@ -1,0 +1,70 @@
+{
+  "plant_id": "aristotelia_chilensis",
+  "tier": 1,
+  "supported_countries": ["AR", "CL", "DE", "ES", "FR", "GB", "US"],
+  "names": {
+    "AR": [
+      {
+        "name": "Maqui",
+        "language": "es",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Genuinely native to the Andean region of Argentina (EFSA Novel Food dossier summary; Encyclopedia MDPI), not merely an import. Harvested wild by Mapuche communities on both sides of the Chile-Argentina border"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Maqui",
+        "language": "es",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Core native range, from the Coquimbo Region to Aysen (EFSA Novel Food dossier summary). Mapuche-derived alternate names also documented: clon, queldron, koelon, maquei. Considered a sacred plant by the Mapuche people, used for centuries before recent global 'superfood' commercialization"
+      }
+    ],
+    "DE": [
+      {
+        "name": "Maqui",
+        "language": "de",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Direct loanword used in the global superfood/supplement trade (analogous to acai or goji), not an independently-coined German name; the species is not native to Germany"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Maqui",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Direct loanword retained in Spanish-market superfood/supplement trade; the species itself is not native to Spain"
+      }
+    ],
+    "FR": [
+      {
+        "name": "Maqui",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Direct loanword used in the French superfood/supplement trade; the species itself is not native to France"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Maqui berry",
+        "language": "en",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "WebMD; direct loanword retained in UK supplement/health-food trade, distinguished from other unrelated 'superfood' berries such as acai, goji and blueberry"
+      }
+    ],
+    "US": [
+      {
+        "name": "Maqui berry",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "WebMD; regulated as a food by the FDA. Also documented as Chilean wineberry. Commercialized in the US following the global rise of 'superfood' antioxidant berries"
+      }
+    ]
+  }
+}
