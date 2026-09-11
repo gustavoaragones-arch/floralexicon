@@ -1,0 +1,52 @@
+{
+  "plant_id": "ammi_visnaga",
+  "tier": 1,
+  "supported_countries": ["DE", "EG", "GB", "MA", "US"],
+  "names": {
+    "DE": [
+      {
+        "name": "Knorpelmohre",
+        "language": "de",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "A.Vogel Plant Encyclopaedia; named for its umbel resemblance to Daucus carota (carrot), with the German name literally meaning 'gristle/knobbed carrot'. Genuine European homeopathic/phytotherapy use documented since Dioscorides"
+      }
+    ],
+    "EG": [
+      {
+        "name": "Khella Baladi",
+        "language": "ar",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Ask-Ayurveda; A.Vogel Plant Encyclopaedia. Used therapeutically by ancient Egyptians, documented in the Ebers Papyrus for kidney stones and bilharzia-related urinary calculi; dried umbels still sold in Middle Eastern markets today, used as toothpicks"
+      }
+    ],
+    "GB": [
+      {
+        "name": "Khella",
+        "language": "en",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Drugs.com clinical monograph; the source of khellin, from which the modern asthma drug sodium cromoglycate was derived in 1967. Also documented as bishop's weed (not to be confused with Ajwain, a different plant) and toothpick weed"
+      }
+    ],
+    "MA": [
+      {
+        "name": "Bachnikha",
+        "language": "ar",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Phytochemistry and medicinal properties of Ammi visnaga (Apiaceae), peer-reviewed review. Morocco is one of the plant's core cultivation regions alongside Egypt and Tunisia"
+      }
+    ],
+    "US": [
+      {
+        "name": "Khella",
+        "language": "en",
+        "confidence": "medium",
+        "source": "regulatory",
+        "citation": "Drugs.com clinical monograph; naturalized to parts of the southeastern United States. SAFETY: khellin can cause photosensitivity and liver enzyme changes at high doses"
+      }
+    ]
+  }
+}

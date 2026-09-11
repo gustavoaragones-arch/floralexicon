@@ -1,0 +1,52 @@
+{
+  "plant_id": "argemone_mexicana",
+  "tier": 1,
+  "supported_countries": ["AR", "BR", "IN", "MX", "US"],
+  "names": {
+    "AR": [
+      {
+        "name": "Cardo amarillo",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "PFAF Plant Database regional-name survey"
+      }
+    ],
+    "BR": [
+      {
+        "name": "Cardo-amarelo",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "PFAF Plant Database; also documented as cardo-santa, figo-do-inferno, papoula-de-espinho"
+      }
+    ],
+    "IN": [
+      {
+        "name": "Satyanashi",
+        "language": "hi",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Wikipedia; peer-reviewed pharmacognosy review (Revista Brasileira de Farmacognosia, 2013). Name means 'destroyer of truth/destroyer of all', referencing the plant's severe toxicity - its seed oil (argemone/katkar oil) contains sanguinarine and has caused documented mass poisoning outbreaks ('epidemic dropsy') when it adulterates mustard oil. Also flowers prominently during the Holi/Holika Dahan festival season"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Chicalote",
+        "language": "es",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "PFAF Plant Database; Nahuatl-derived name. Native to Mexico, used medicinally by Indigenous peoples there and in the western United States for centuries. Also documented as adormidera espinosa, cardo blanco"
+      }
+    ],
+    "US": [
+      {
+        "name": "Mexican prickly poppy",
+        "language": "en",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "GBIF; Wikipedia. Used medicinally by Indigenous peoples of the western United States. SAFETY: contains the toxic alkaloids sanguinarine and dihydrosanguinarine; toxic to grazing animals"
+      }
+    ]
+  }
+}

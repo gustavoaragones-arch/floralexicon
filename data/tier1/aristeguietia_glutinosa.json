@@ -1,0 +1,23 @@
+{
+  "plant_id": "aristeguietia_glutinosa",
+  "tier": 1,
+  "supported_countries": ["EC"],
+  "names": {
+    "EC": [
+      {
+        "name": "Matico",
+        "language": "es",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Wikipedia; NaturaLista Colombia; Herbario Azuay (Cuenca, Ecuador). Endemic to Ecuador ONLY. This entry corrects a Stage 1 range-triage error: 8 other countries (AR, BO, CL, CO, PE, PY, UY, VE) were initially flagged as candidates, but this was a name-collision artifact - 'Matico' in Peru refers to the unrelated Piper aduncum, and in Chile/Argentina to the unrelated Buddleja globosa. This species itself does not occur in those countries"
+      },
+      {
+        "name": "Yurak Maticu",
+        "language": "qu",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Cosmovision Etnobiologica de la Cultura Ancestral Floristica de la Comunidad Kichwa Quindihua (Ecuador), documenting the Kichwa name 'Yurak Maticu' (also glossed 'Matico blanco' in Spanish) used specifically for this species by the Quindihua Kichwa community"
+      }
+    ]
+  }
+}

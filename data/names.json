@@ -27979,6 +27979,31 @@
     ]
   },
   {
+    "name": "Bachnikha",
+    "normalized": "bachnikha",
+    "language": "ar",
+    "plant_ids": [
+      "ammi_visnaga"
+    ],
+    "countries": [
+      "MA"
+    ],
+    "country_usage": [
+      {
+        "country": "MA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "MA"
+    ]
+  },
+  {
     "name": "Bacopa",
     "normalized": "bacopa",
     "language": "da",
@@ -51973,6 +51998,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Cardo amarillo",
+    "normalized": "cardo amarillo",
+    "language": "es",
+    "plant_ids": [
+      "argemone_mexicana"
+    ],
+    "countries": [
+      "AR"
+    ],
+    "country_usage": [
+      {
+        "country": "AR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "AR"
+    ]
+  },
+  {
     "name": "Cardo benedetto",
     "normalized": "cardo benedetto",
     "language": "it",
@@ -52696,6 +52746,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Cardo-amarelo",
+    "normalized": "cardo amarelo",
+    "language": "pt",
+    "plant_ids": [
+      "argemone_mexicana"
+    ],
+    "countries": [
+      "BR"
+    ],
+    "country_usage": [
+      {
+        "country": "BR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "BR"
+    ]
   },
   {
     "name": "Cardo-bento",
@@ -60283,6 +60358,31 @@
     "ambiguity_level": "low",
     "name_country_count": 2,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Chicalote",
+    "normalized": "chicalote",
+    "language": "es",
+    "plant_ids": [
+      "argemone_mexicana"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "country_usage": [
+      {
+        "country": "MX",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "MX"
+    ]
   },
   {
     "name": "Chicorée",
@@ -139523,6 +139623,65 @@
     ]
   },
   {
+    "name": "Khella",
+    "normalized": "khella",
+    "language": "en",
+    "plant_ids": [
+      "ammi_visnaga"
+    ],
+    "countries": [
+      "GB",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "GB",
+      "US"
+    ]
+  },
+  {
+    "name": "Khella Baladi",
+    "normalized": "khella baladi",
+    "language": "ar",
+    "plant_ids": [
+      "ammi_visnaga"
+    ],
+    "countries": [
+      "EG"
+    ],
+    "country_usage": [
+      {
+        "country": "EG",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "EG"
+    ]
+  },
+  {
     "name": "Khương hoàng",
     "normalized": "khuong hoang",
     "language": "vi",
@@ -141341,6 +141500,31 @@
     "dominant_in_countries": [
       "BE",
       "NL"
+    ]
+  },
+  {
+    "name": "Knorpelmohre",
+    "normalized": "knorpelmohre",
+    "language": "de",
+    "plant_ids": [
+      "ammi_visnaga"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DE"
     ]
   },
   {
@@ -165935,6 +166119,31 @@
     ]
   },
   {
+    "name": "Matico",
+    "normalized": "matico",
+    "language": "es",
+    "plant_ids": [
+      "aristeguietia_glutinosa"
+    ],
+    "countries": [
+      "EC"
+    ],
+    "country_usage": [
+      {
+        "country": "EC",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "EC"
+    ]
+  },
+  {
     "name": "Matrem",
     "normalized": "matrem",
     "language": "da",
@@ -169781,6 +169990,31 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "HR"
+    ]
+  },
+  {
+    "name": "Mexican prickly poppy",
+    "normalized": "mexican prickly poppy",
+    "language": "en",
+    "plant_ids": [
+      "argemone_mexicana"
+    ],
+    "countries": [
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "US"
     ]
   },
   {
@@ -220751,6 +220985,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Satyanashi",
+    "normalized": "satyanashi",
+    "language": "hi",
+    "plant_ids": [
+      "argemone_mexicana"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "country_usage": [
+      {
+        "country": "IN",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IN"
+    ]
+  },
+  {
     "name": "Sầu đâu Ấn Độ",
     "normalized": "sau đau an đo",
     "language": "vi",
@@ -257686,6 +257945,29 @@
         "confidence": "high",
         "source": "local_ethnobotany",
         "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": []
+  },
+  {
+    "name": "Yurak Maticu",
+    "normalized": "yurak maticu",
+    "language": "qu",
+    "plant_ids": [
+      "aristeguietia_glutinosa"
+    ],
+    "countries": [
+      "EC"
+    ],
+    "country_usage": [
+      {
+        "country": "EC",
+        "is_primary": false,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
       }
     ],
     "ambiguity_level": "low",
