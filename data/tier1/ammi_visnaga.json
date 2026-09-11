@@ -1,8 +1,26 @@
 {
   "plant_id": "ammi_visnaga",
   "tier": 1,
-  "supported_countries": ["DE", "EG", "GB", "MA", "US"],
+  "supported_countries": ["AR", "CL", "DE", "EG", "ES", "GB", "MA", "MX", "PT", "US"],
   "names": {
+    "AR": [
+      {
+        "name": "Biznaga",
+        "language": "es",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "SINAVIMO (Sistema Nacional Argentino de Vigilancia y Monitoreo de Plagas), official government pest/weed database, listing it as present in the country affecting maize and alfalfa crops; Flora Bonaerense documents genuine medicinal use in Buenos Aires province for chronic asthma, psoriasis, hypertension and vitiligo, alongside its listed toxicity risks"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Biznaga",
+        "language": "es",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Khalil et al. (2020), peer-reviewed pharmacognosy review (Molecules journal, PMC7024292), confirming genuine naturalized distribution in Chile alongside Argentina and Mexico"
+      }
+    ],
     "DE": [
       {
         "name": "Knorpelmohre",
@@ -21,6 +39,15 @@
         "citation": "Ask-Ayurveda; A.Vogel Plant Encyclopaedia. Used therapeutically by ancient Egyptians, documented in the Ebers Papyrus for kidney stones and bilharzia-related urinary calculi; dried umbels still sold in Middle Eastern markets today, used as toothpicks"
       }
     ],
+    "ES": [
+      {
+        "name": "Viznaga",
+        "language": "es",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Fitoterapia.net vademecum; Hierbitas.com. The Iberian source of the 'biznaga/viznaga' naming tradition later carried to Latin America. Also used to make the traditional floral ornament 'biznagas malaguenas' from the dried plant skeleton in Malaga, Spain"
+      }
+    ],
     "GB": [
       {
         "name": "Khella",
@@ -37,6 +64,24 @@
         "confidence": "high",
         "source": "regulatory",
         "citation": "Phytochemistry and medicinal properties of Ammi visnaga (Apiaceae), peer-reviewed review. Morocco is one of the plant's core cultivation regions alongside Egypt and Tunisia"
+      }
+    ],
+    "MX": [
+      {
+        "name": "Biznaga",
+        "language": "es",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Confirmed naturalized in Mexico (Khalil et al. 2020, PMC7024292; tusplantasmedicinales.com). IMPORTANT CROSS-SPECIES CAUTION: in Mexico 'biznaga' is also, and more commonly, the name for several native barrel cacti (e.g. Echinocactus platyacanthus, used to make the candy acitron) - an entirely unrelated plant family. Sources explicitly warn not to confuse 'las biznagas mexicanas' (the native cacti) with this species"
+      }
+    ],
+    "PT": [
+      {
+        "name": "Bisnaga-das-searas",
+        "language": "pt",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "EcuRed; Fitoterapia.net vademecum. Also documented as paliteira. The Iberian Portuguese source of naming later relevant to Brazilian Portuguese usage"
       }
     ],
     "US": [

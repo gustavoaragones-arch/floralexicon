@@ -36938,6 +36938,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Bisnaga-das-searas",
+    "normalized": "bisnaga das searas",
+    "language": "pt",
+    "plant_ids": [
+      "ammi_visnaga"
+    ],
+    "countries": [
+      "PT"
+    ],
+    "country_usage": [
+      {
+        "country": "PT",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PT"
+    ]
+  },
+  {
     "name": "Bissap",
     "normalized": "bissap",
     "language": "fr",
@@ -37124,6 +37149,49 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Biznaga",
+    "normalized": "biznaga",
+    "language": "es",
+    "plant_ids": [
+      "ammi_visnaga"
+    ],
+    "countries": [
+      "AR",
+      "CL",
+      "MX"
+    ],
+    "country_usage": [
+      {
+        "country": "AR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "CL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      },
+      {
+        "country": "MX",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "AR",
+      "CL",
+      "MX"
+    ]
   },
   {
     "name": "Bjergarnika",
@@ -252701,6 +252769,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Viznaga",
+    "normalized": "viznaga",
+    "language": "es",
+    "plant_ids": [
+      "ammi_visnaga"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "country_usage": [
+      {
+        "country": "ES",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ES"
+    ]
   },
   {
     "name": "Vještičina lijeska",
