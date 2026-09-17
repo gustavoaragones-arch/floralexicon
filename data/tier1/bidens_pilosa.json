@@ -1,0 +1,114 @@
+{
+  "plant_id": "bidens_pilosa",
+  "tier": 1,
+  "supported_countries": ["BR", "CL", "CN", "CO", "CU", "ES", "IN", "JP", "KR", "PE", "RU"],
+  "names": {
+    "BR": [
+      {
+        "name": "Picao-preto",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "EPPO Global Database; wiki.pestinfo.org. The most iconic Brazilian shop/market name for this species"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Asta de cabra / Cacho de cabra",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "EPPO Global Database"
+      }
+    ],
+    "CN": [
+      {
+        "name": "\u9b3c\u9488\u8349",
+        "language": "zh",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "EPPO Global Database. Stage 1 range-triage had marked China 'no evidence' - this corrects that omission",
+        "transliteration": "Gui zhen cao",
+        "transliteration_scheme": "pinyin"
+      }
+    ],
+    "CO": [
+      {
+        "name": "Chipaca",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "EPPO Global Database; Jardin Botanico de Bogota herbarium vernacular-names platform. Also documented locally as Amor de Pobre, Cadillo, Chispaca, Romerillo"
+      }
+    ],
+    "CU": [
+      {
+        "name": "Romerillo blanco",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "EPPO Global Database"
+      }
+    ],
+    "ES": [
+      {
+        "name": "Amor seco / Amos seco",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "RAE - Diccionario historico del espanol de Canarias. Canary Islands Spanish usage, documented since at least 1799 (Viera y Clavijo). Stage 1 range-triage had marked Spain 'no evidence' - this corrects that omission. CAUTION: 'amor seco' and its variants are shared across several burr-bearing Asteraceae in Spanish (the RAE source itself groups it with 'brujilla'/'lapsana') - this specific attribution is species-specific per the cited source, but the generic term is not exclusive to Bidens pilosa"
+      }
+    ],
+    "IN": [
+      {
+        "name": "Kumra / Kumur",
+        "language": "hi",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "EPPO Global Database. Stage 1 range-triage had marked India 'no evidence' - this corrects that omission. Single-source; a second confirmation is recommended before raising confidence"
+      }
+    ],
+    "JP": [
+      {
+        "name": "\u30b3\u30bb\u30f3\u30c0\u30f3\u30b0\u30b5",
+        "language": "ja",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "EPPO Global Database. Stage 1 range-triage had marked Japan 'no evidence' - this corrects that omission",
+        "transliteration": "Kosendangusa",
+        "transliteration_scheme": "hepburn"
+      }
+    ],
+    "KR": [
+      {
+        "name": "\ud754\ub3c4\uae54\ube44\ubc14\ub298",
+        "language": "ko",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "EPPO Global Database. Stage 1 range-triage had marked South Korea 'no evidence' - this corrects that omission",
+        "transliteration": "Huin dokkaebi baneul",
+        "transliteration_scheme": "rr"
+      }
+    ],
+    "PE": [
+      {
+        "name": "Amor Seco",
+        "language": "es",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Bussmann & Sharon (2015), Plantas medicinales de los Andes y la Amazonia"
+      }
+    ],
+    "RU": [
+      {
+        "name": "\u0427\u0435\u0440\u0435\u0434\u0430 \u0432\u043e\u043b\u043e\u0441\u0438\u0441\u0442\u0430\u044f",
+        "language": "ru",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "EPPO Global Database. Stage 1 range-triage had marked Russia 'no evidence' - this corrects that omission",
+        "transliteration": "Chereda volosistaya",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ]
+  }
+}
