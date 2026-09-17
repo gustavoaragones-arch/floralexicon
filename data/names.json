@@ -2628,6 +2628,31 @@
   {
     "name": "Achuete",
     "normalized": "achuete",
+    "language": "id",
+    "plant_ids": [
+      "bixa_orellana"
+    ],
+    "countries": [
+      "ID"
+    ],
+    "country_usage": [
+      {
+        "country": "ID",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "ID"
+    ]
+  },
+  {
+    "name": "Achuete",
+    "normalized": "achuete",
     "language": "tl",
     "plant_ids": [
       "bixa_orellana"
@@ -2641,7 +2666,7 @@
         "is_primary": true,
         "confidence": "high",
         "source": "local_ethnobotany",
-        "authority_source": "commercial"
+        "authority_source": "ethnobotany"
       }
     ],
     "ambiguity_level": "low",

@@ -1,7 +1,21 @@
 {
   "plant_id": "bixa_orellana",
   "tier": 1,
-  "supported_countries": ["AR", "BO", "BR", "CO", "CU", "GT", "IN", "MX", "PE", "PH", "SV", "VE"],
+  "supported_countries": [
+    "AR",
+    "BO",
+    "BR",
+    "CO",
+    "CU",
+    "GT",
+    "ID",
+    "IN",
+    "MX",
+    "PE",
+    "PH",
+    "SV",
+    "VE"
+  ],
   "names": {
     "AR": [
       {
@@ -57,6 +71,15 @@
         "citation": "IPlantz; widely documented culinary use in Guatemala for coloring meat, fish and rice dishes when infused into cooking oil"
       }
     ],
+    "ID": [
+      {
+        "name": "Achuete",
+        "language": "id",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Africa Museum Xylarium DB (africamuseum.be), citing CABI Compendium. Single-source; a second confirmation is recommended before raising confidence"
+      }
+    ],
     "IN": [
       {
         "name": "Sindhuri",
@@ -89,8 +112,8 @@
         "name": "Achuete",
         "language": "tl",
         "confidence": "high",
-        "source": "commercial",
-        "citation": "IPlantz. Introduced to the Philippines in the 17th century by Spanish colonials from Central America/West Indies; now a major global production center"
+        "source": "ethnobotany",
+        "citation": "ScienceDirect topic overview; Brown, W.H. (1950), Useful Plants of the Philippines. Believed introduced from Mexico via the Manila-Acapulco Galleon trade"
       }
     ],
     "SV": [
