@@ -1,0 +1,264 @@
+{
+  "plant_id": "betula_pendula",
+  "tier": 1,
+  "supported_countries": [
+    "AR",
+    "AT",
+    "BE",
+    "BG",
+    "CA",
+    "CH",
+    "CL",
+    "CZ",
+    "DE",
+    "DK",
+    "ES",
+    "FI",
+    "FR",
+    "GB",
+    "HR",
+    "HU",
+    "IE",
+    "IT",
+    "NO",
+    "PL",
+    "RO",
+    "RU",
+    "SE",
+    "UA",
+    "US"
+  ],
+  "names": {
+    "AR": [
+      {
+        "name": "Abedul",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "SIB (Sistema de Informacion de Biodiversidad), Parques Nacionales, Argentina - species profile for Betula pendula lists 'Abedul, abedul plateado, abedul europeo' plus regional variants 'bedul, bieso'; corroborated by ArgentiNat (iNaturalist Argentina national node). Introduced/cultivated species in Argentina, not native. Note: one source variant list also includes 'aliso blanco' as a synonym, but 'aliso' is the standard Spanish name for Alnus (alder), a different genus - excluded here as a likely cross-genus name-collision artifact rather than a genuine shop-shelf name."
+      }
+    ],
+    "CL": [
+      {
+        "name": "Abedul",
+        "language": "es",
+        "confidence": "high",
+        "source": "pharmacopoeia_traditional",
+        "citation": "Ministerio de Salud de Chile (2010), Medicamentos Herbareos Tradicionales (MHT), official monograph list of 103 traditional herbal medicine species - includes Betula pendula as 'Abedul'. Confirmed independently by commercial nurseries (e.g. Vivero Pilmaiquen, Region de Los Rios) listing it as an introduced ornamental/medicinal species."
+      }
+    ],
+    "GB": [
+      {
+        "name": "Silver birch",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Wikipedia species article for Betula pendula: 'commonly known as silver birch... native to Europe and parts of Asia'; UK is within the species' native range. Corroborated by UK tree nurseries (e.g. Van den Berk, vdberk.co.uk) selling the species under this name."
+      }
+    ],
+    "IE": [
+      {
+        "name": "Silver birch",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Same English vernacular name as used in the UK; Ireland lies within the species' native Atlantic-European range per Kew POWO distribution data. No Ireland-specific commercial listing found independently; included on the strength of the shared English name and native range."
+      }
+    ],
+    "US": [
+      {
+        "name": "European white birch",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Wikipedia species article for Betula pendula: 'introduced into North America, where it is known as the European white birch, and is considered invasive in some states in USA'. Corroborated by the SEINet/ASU vascular flora database treating it as an introduced/naturalized species in the northeastern US."
+      }
+    ],
+    "CA": [
+      {
+        "name": "European white birch",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Same Wikipedia-documented North American usage as the US entry; Kew POWO lists the species as introduced to British Columbia, Alberta, Manitoba, Ontario and Saskatchewan."
+      }
+    ],
+    "DE": [
+      {
+        "name": "Hänge-Birke",
+        "language": "de",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Standard German vernacular name (also 'Sandbirke'), documented via the Wikidata/Wikimedia Commons vernacular-name listing for Betula pendula and consistent across German-language flora sources. Germany is within the species' core native European range."
+      }
+    ],
+    "AT": [
+      {
+        "name": "Hänge-Birke",
+        "language": "de",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Same standard German vernacular name as used in Germany; Austria is within the species' native Central European range per Kew POWO."
+      }
+    ],
+    "CH": [
+      {
+        "name": "Hänge-Birke",
+        "language": "de",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Same standard German vernacular name, used in German-speaking Switzerland; native range per Kew POWO includes Switzerland."
+      }
+    ],
+    "FR": [
+      {
+        "name": "Bouleau verruqueux",
+        "language": "fr",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Standard French vernacular name, documented via the Wikimedia Commons/Wikidata vernacular-name listing for Betula pendula and French-language flora sources. France is within the species' native range."
+      }
+    ],
+    "BE": [
+      {
+        "name": "Bouleau verruqueux",
+        "language": "fr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Same standard French vernacular name, used in French-speaking Belgium (Wallonia); native range per Kew POWO includes Belgium."
+      }
+    ],
+    "CZ": [
+      {
+        "name": "Bříza bělokorá",
+        "language": "cs",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Standard Czech vernacular name, documented via the Wikimedia Commons/Wikidata vernacular-name listing for Betula pendula. Czechia is within the species' native range."
+      }
+    ],
+    "BG": [
+      {
+        "name": "Бяла бреза",
+        "language": "bg",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Standard Bulgarian vernacular name (literally 'white birch'), documented via the Wikimedia Commons/Wikidata vernacular-name listing. Bulgaria is within the species' native Balkan/Central European range per Kew POWO.",
+        "transliteration": "Byala breza",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "DK": [
+      {
+        "name": "Vortebirk",
+        "language": "da",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Standard Danish vernacular name (also 'Vorte-Birk'), documented via the Wikimedia Commons/Wikidata vernacular-name listing. Denmark is within the species' native range."
+      }
+    ],
+    "FI": [
+      {
+        "name": "Rauduskoivu",
+        "language": "fi",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Standard Finnish vernacular name specific to Betula pendula, distinguishing it from Betula pubescens ('hieskoivu'), documented via the Wikimedia Commons/Wikidata vernacular-name listing. Finland is within the species' core native range and it is one of the two dominant native birches there."
+      }
+    ],
+    "HR": [
+      {
+        "name": "Obična breza",
+        "language": "hr",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Standard Croatian vernacular name, documented via the Wikimedia Commons/Wikidata vernacular-name listing. Croatia is within the species' native range."
+      }
+    ],
+    "HU": [
+      {
+        "name": "Közönséges nyír",
+        "language": "hu",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Standard Hungarian vernacular name, documented via the Wikimedia Commons/Wikidata vernacular-name listing. Hungary is within the species' native range."
+      }
+    ],
+    "NO": [
+      {
+        "name": "Hengebjørk",
+        "language": "no",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Standard Norwegian Bokmal vernacular name, documented via the Wikimedia Commons/Wikidata vernacular-name listing. Norway is within the species' native range."
+      }
+    ],
+    "PL": [
+      {
+        "name": "Brzoza brodawkowata",
+        "language": "pl",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Polish State Forests (Lasy Panstwowe) official species description; also EUFORGEN (European Forest Genetic Resources Programme) technical guideline for Poland, which gives 'brzoza brodawkowata (brzoza biala)' as the standard Polish name. SAFETY/COLLISION NOTE: Polish sources explicitly flag confusion risk with Betula pubescens ('brzoza omszona'), a distinct accepted species with overlapping range and similar common naming - this entry is specific to B. pendula only."
+      }
+    ],
+    "RO": [
+      {
+        "name": "Mesteacăn",
+        "language": "ro",
+        "confidence": "medium",
+        "source": "commercial",
+        "citation": "Standard Romanian-language word for birch, confirmed in a Moldovan public-procurement tender document (storage.mtender.gov.md) specifying 'Betula pendula \"Doorenbos\" (Mesteacan)' as a nursery-stock item. Source document is Moldovan rather than Romania-specific, but the term is the standard word in the language used in Romania."
+      }
+    ],
+    "RU": [
+      {
+        "name": "Берёза повислая",
+        "language": "ru",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Great Russian Encyclopedia (bigenc.ru) species entry; also the consistently used name across Plantarium.ru specimen records from across Russia. Common synonyms also documented: 'бёреза белая', 'берёза бородавчатая', 'берёза обыкновенная'. Russia (including Siberia) is within the species' core native range.",
+        "transliteration": "Beryoza povislaya",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "UA": [
+      {
+        "name": "Береза бородавчаста",
+        "language": "uk",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Ukrainian-language educational reference (osvita.ua) gives 'береза бородавчаста (береза повисла)' as the standard Ukrainian name for Betula pendula. The species is also sold under cultivation on Ukraine's largest online marketplace (prom.ua), though that particular commercial listing text uses the Russian-derived form 'береза повислая'.",
+        "transliteration": "Bereza borodavchasta",
+        "transliteration_scheme": "bgn_pcgn"
+      }
+    ],
+    "SE": [
+      {
+        "name": "Vårtbjörk",
+        "language": "sv",
+        "confidence": "high",
+        "source": "commercial",
+        "citation": "Sold under this name by Swedish garden retailers Bauhaus (bauhaus.se) and Hornbach (hornbach.se), both listing Betula pendula as 'Vartbjork'; also called 'hangbjork' in folk usage per the same commercial listing. Sweden is within the species' native range."
+      }
+    ],
+    "IT": [
+      {
+        "name": "Betulla bianca",
+        "language": "it",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Emilia-Romagna regional government (Osservatorio Regionale per la Qualita del Paesaggio) official urban-tree species catalogue lists Betula pendula as 'Betulla bianca'; corroborated by ARPA Molise's regional pollen/flora technical sheet. Native to the Alps and northern Apennines in Italy."
+      }
+    ],
+    "ES": [
+      {
+        "name": "Abedul",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Herbari Virtual del Mediterrani Occidental (Balearic Islands academic herbarium) gives 'Abedul, Abedul blanco' for Betula pendula, documenting its presence in Barcelona/Girona/Lleida provinces. Native to the Pyrenees and other northern Iberian mountain ranges."
+      }
+    ]
+  }
+}

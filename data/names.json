@@ -73,6 +73,49 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Abedul",
+    "normalized": "abedul",
+    "language": "es",
+    "plant_ids": [
+      "betula_pendula"
+    ],
+    "countries": [
+      "AR",
+      "CL",
+      "ES"
+    ],
+    "country_usage": [
+      {
+        "country": "AR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "pharmacopoeia_traditional"
+      },
+      {
+        "country": "ES",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "AR",
+      "CL",
+      "ES"
+    ]
+  },
+  {
     "name": "Abendländischer Lebensbaum",
     "normalized": "abendlandischer lebensbaum",
     "language": "de",
@@ -35095,6 +35138,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Betulla bianca",
+    "normalized": "betulla bianca",
+    "language": "it",
+    "plant_ids": [
+      "betula_pendula"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "country_usage": [
+      {
+        "country": "IT",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "IT"
+    ]
+  },
+  {
     "name": "Beyaz andız otu",
     "normalized": "beyaz andız otu",
     "language": "tr",
@@ -43254,6 +43322,40 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Bouleau verruqueux",
+    "normalized": "bouleau verruqueux",
+    "language": "fr",
+    "plant_ids": [
+      "betula_pendula"
+    ],
+    "countries": [
+      "BE",
+      "FR"
+    ],
+    "country_usage": [
+      {
+        "country": "BE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "FR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "BE",
+      "FR"
+    ]
+  },
+  {
     "name": "Bourbon vanília",
     "normalized": "bourbon vanilia",
     "language": "hu",
@@ -45100,6 +45202,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Bříza bělokorá",
+    "normalized": "briza belokora",
+    "language": "cs",
+    "plant_ids": [
+      "betula_pendula"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "country_usage": [
+      {
+        "country": "CZ",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CZ"
+    ]
+  },
+  {
     "name": "Broad-leaved asarabacca",
     "normalized": "broad leaved asarabacca",
     "language": "en",
@@ -45523,6 +45650,31 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "CZ"
+    ]
+  },
+  {
+    "name": "Brzoza brodawkowata",
+    "normalized": "brzoza brodawkowata",
+    "language": "pl",
+    "plant_ids": [
+      "betula_pendula"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "country_usage": [
+      {
+        "country": "PL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "PL"
     ]
   },
   {
@@ -89401,6 +89553,40 @@
     "dominant_in_countries": []
   },
   {
+    "name": "European white birch",
+    "normalized": "european white birch",
+    "language": "en",
+    "plant_ids": [
+      "betula_pendula"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "country_usage": [
+      {
+        "country": "CA",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "US",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "CA",
+      "US"
+    ]
+  },
+  {
     "name": "Europeisk blåbær",
     "normalized": "europeisk blabær",
     "language": "no",
@@ -114553,6 +114739,49 @@
     ]
   },
   {
+    "name": "Hänge-Birke",
+    "normalized": "hange birke",
+    "language": "de",
+    "plant_ids": [
+      "betula_pendula"
+    ],
+    "countries": [
+      "AT",
+      "CH",
+      "DE"
+    ],
+    "country_usage": [
+      {
+        "country": "AT",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "CH",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "DE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "AT",
+      "CH",
+      "DE"
+    ]
+  },
+  {
     "name": "Hành hương",
     "normalized": "hanh huong",
     "language": "vi",
@@ -117348,6 +117577,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Hengebjørk",
+    "normalized": "hengebjørk",
+    "language": "no",
+    "plant_ids": [
+      "betula_pendula"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "country_usage": [
+      {
+        "country": "NO",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "NO"
+    ]
   },
   {
     "name": "Herbata",
@@ -145376,6 +145630,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Közönséges nyír",
+    "normalized": "kozonseges nyir",
+    "language": "hu",
+    "plant_ids": [
+      "betula_pendula"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "country_usage": [
+      {
+        "country": "HU",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HU"
+    ]
+  },
+  {
     "name": "Közönséges orbáncfű",
     "normalized": "kozonseges orbancfu",
     "language": "hu",
@@ -170067,6 +170346,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Mesteacăn",
+    "normalized": "mesteacan",
+    "language": "ro",
+    "plant_ids": [
+      "betula_pendula"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "country_usage": [
+      {
+        "country": "RO",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RO"
+    ]
+  },
+  {
     "name": "Metélőhagyma",
     "normalized": "metelohagyma",
     "language": "hu",
@@ -182407,6 +182711,31 @@
     "ambiguity_level": "low",
     "name_country_count": 1,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Obična breza",
+    "normalized": "obicna breza",
+    "language": "hr",
+    "plant_ids": [
+      "betula_pendula"
+    ],
+    "countries": [
+      "HR"
+    ],
+    "country_usage": [
+      {
+        "country": "HR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "HR"
+    ]
   },
   {
     "name": "Obična cikorija",
@@ -205482,6 +205811,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Rauduskoivu",
+    "normalized": "rauduskoivu",
+    "language": "fi",
+    "plant_ids": [
+      "betula_pendula"
+    ],
+    "countries": [
+      "FI"
+    ],
+    "country_usage": [
+      {
+        "country": "FI",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "FI"
+    ]
+  },
+  {
     "name": "Rautayrtti",
     "normalized": "rautayrtti",
     "language": "fi",
@@ -228040,6 +228394,40 @@
     "ambiguity_level": "low",
     "name_country_count": 2,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Silver birch",
+    "normalized": "silver birch",
+    "language": "en",
+    "plant_ids": [
+      "betula_pendula"
+    ],
+    "countries": [
+      "GB",
+      "IE"
+    ],
+    "country_usage": [
+      {
+        "country": "GB",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      },
+      {
+        "country": "IE",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 2,
+    "dominant_in_countries": [
+      "GB",
+      "IE"
+    ]
   },
   {
     "name": "Silybe de Marie",
@@ -250912,6 +251300,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Vårtbjörk",
+    "normalized": "vartbjork",
+    "language": "sv",
+    "plant_ids": [
+      "betula_pendula"
+    ],
+    "countries": [
+      "SE"
+    ],
+    "country_usage": [
+      {
+        "country": "SE",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "commercial"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "SE"
+    ]
+  },
+  {
     "name": "Vattenisop",
     "normalized": "vattenisop",
     "language": "sv",
@@ -253418,6 +253831,31 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "HU"
+    ]
+  },
+  {
+    "name": "Vortebirk",
+    "normalized": "vortebirk",
+    "language": "da",
+    "plant_ids": [
+      "betula_pendula"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "country_usage": [
+      {
+        "country": "DK",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "DK"
     ]
   },
   {
@@ -270371,6 +270809,60 @@
     "transliteration_scheme": "ala_lc"
   },
   {
+    "name": "Береза бородавчаста",
+    "normalized": "береза бородавчаста",
+    "language": "uk",
+    "plant_ids": [
+      "betula_pendula"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "country_usage": [
+      {
+        "country": "UA",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "UA"
+    ],
+    "transliteration": "Bereza borodavchasta",
+    "transliteration_scheme": "bgn_pcgn"
+  },
+  {
+    "name": "Берёза повислая",
+    "normalized": "береза повислая",
+    "language": "ru",
+    "plant_ids": [
+      "betula_pendula"
+    ],
+    "countries": [
+      "RU"
+    ],
+    "country_usage": [
+      {
+        "country": "RU",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "RU"
+    ],
+    "transliteration": "Beryoza povislaya",
+    "transliteration_scheme": "bgn_pcgn"
+  },
+  {
     "name": "Бессмертник итальянский",
     "normalized": "бессмертник итальянскии",
     "language": "ru",
@@ -271496,6 +271988,33 @@
     "dominant_in_countries": [],
     "transliteration": "byal tran",
     "transliteration_scheme": "iso_9"
+  },
+  {
+    "name": "Бяла бреза",
+    "normalized": "бяла бреза",
+    "language": "bg",
+    "plant_ids": [
+      "betula_pendula"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "country_usage": [
+      {
+        "country": "BG",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "BG"
+    ],
+    "transliteration": "Byala breza",
+    "transliteration_scheme": "bgn_pcgn"
   },
   {
     "name": "Бяла куркума",
