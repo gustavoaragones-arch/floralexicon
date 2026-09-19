@@ -19601,6 +19601,31 @@
     "dominant_in_countries": []
   },
   {
+    "name": "Arbol de las orquideas",
+    "normalized": "arbol de las orquideas",
+    "language": "es",
+    "plant_ids": [
+      "bauhinia_variegata"
+    ],
+    "countries": [
+      "AR"
+    ],
+    "country_usage": [
+      {
+        "country": "AR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "AR"
+    ]
+  },
+  {
     "name": "Árbol de los cuarenta escudos",
     "normalized": "arbol de los cuarenta escudos",
     "language": "es",
@@ -54299,6 +54324,31 @@
     "dominant_in_countries": [
       "BR",
       "PT"
+    ]
+  },
+  {
+    "name": "Casco de vaca",
+    "normalized": "casco de vaca",
+    "language": "es",
+    "plant_ids": [
+      "bauhinia_variegata"
+    ],
+    "countries": [
+      "CO"
+    ],
+    "country_usage": [
+      {
+        "country": "CO",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CO"
     ]
   },
   {

@@ -1,8 +1,26 @@
 {
   "plant_id": "bauhinia_variegata",
   "tier": 1,
-  "supported_countries": ["IN", "MX", "US"],
+  "supported_countries": ["AR", "CO", "IN", "MX", "US"],
   "names": {
+    "AR": [
+      {
+        "name": "Arbol de las orquideas",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Argentine gardening blog documenting active cultivation in Cordoba, Argentina: 'Aqui la conocemos como arbol de las orquideas por el parecido de sus flores'. SAFETY/COLLISION NOTE: the same source explicitly warns the plant's leaves resemble, and are often confused with, Argentina's own native tree also called 'pata de vaca' (northern Argentina) - a different species. 'Pata de vaca' is deliberately NOT used as the Argentina name here to avoid that collision; 'arbol de las orquideas' is the unambiguous term."
+      }
+    ],
+    "CO": [
+      {
+        "name": "Casco de vaca",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Universidad EIA official flora catalog (Catalogo Flora Valle de Aburra, Colombia): 'Casco de vaca (variegata), arbol orquidea (Bauhinia variegata)'. SAFETY/COLLISION NOTE: Colombia also has a native, unrelated species (Bauhinia picta, native from Panama to Venezuela) sharing the same common names 'casco de vaca'/'arbol orquidea' - the academic catalog entry cited here explicitly labels this specific entry '(variegata)' to distinguish the introduced Asian species from the native look-alike."
+      }
+    ],
     "IN": [
       {
         "name": "Kachnar",
@@ -18,7 +36,7 @@
         "language": "es",
         "confidence": "high",
         "source": "regulatory",
-        "citation": "Bio Campeche (official biodiversity portal of the Mexican state of Campeche): 'Nombre Cientifico: Bauhinia variegata L. Nombre Comun: Arbol Orquidea'. Documented as a widely planted ornamental in Campeche, Carmen, Champoton and Escarcega."
+        "citation": "Bio Campeche (official biodiversity portal of the Mexican state of Campeche): 'Nombre Cientifico: Bauhinia variegata L. Nombre Comun: Arbol Orquidea'. Independently corroborated by UNAM's (Universidad Nacional Autonoma de Mexico) vascular plants catalog, which gives 'Arbol orquidea, Pata de vaca, Pata de res'."
       }
     ],
     "US": [
