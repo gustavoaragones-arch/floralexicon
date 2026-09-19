@@ -1,8 +1,17 @@
 {
   "plant_id": "arctium_lappa",
   "tier": 1,
-  "supported_countries": ["CA", "CN", "CZ", "DE", "DK", "ES", "FR", "HR", "JP", "KR", "RU", "US"],
+  "supported_countries": ["AR", "CA", "CL", "CN", "CZ", "DE", "DK", "ES", "FR", "HR", "JP", "KR", "RU", "UY", "US"],
   "names": {
+    "AR": [
+      {
+        "name": "Lampazo",
+        "language": "es",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "humanidadadondevas.com.ar plant-medicine reference: 'presente en Uruguay, Chile (V a X region) y en Argentina desde Entre Rios y Santa Fe hasta Chubut', documenting real naturalized distribution and traditional preparation (root decoction) for depurative/diuretic use. Corroborated by real first-person usage testimony from Salta, Argentina on a separate gardening blog, and by SIB (Argentina's official Parques Nacionales service), which uses the same 'lampazo/bardana' naming convention for the closely related Arctium minus."
+      }
+    ],
     "CA": [
       {
         "name": "Greater burdock",
@@ -10,6 +19,15 @@
         "confidence": "high",
         "source": "ethnobotany",
         "citation": "Wikipedia; naturalized as a weed of high-nitrogen soils across North America"
+      }
+    ],
+    "CL": [
+      {
+        "name": "Lampazo",
+        "language": "es",
+        "confidence": "medium",
+        "source": "ethnobotany",
+        "citation": "Same humanidadadondevas.com.ar source documenting naturalized presence specifically in Chile's regions V through X, using the same 'lampazo'/'bardana' naming shared across the Southern Cone."
       }
     ],
     "CN": [
@@ -110,13 +128,22 @@
         "transliteration_scheme": "bgn_pcgn"
       }
     ],
+    "UY": [
+      {
+        "name": "Lampazo",
+        "language": "es",
+        "confidence": "medium",
+        "source": "ethnobotany",
+        "citation": "Same humanidadadondevas.com.ar source explicitly documenting naturalized presence in Uruguay, using the shared Southern Cone 'lampazo'/'bardana' naming convention."
+      }
+    ],
     "US": [
       {
         "name": "Great burdock",
         "language": "en",
         "confidence": "high",
         "source": "ethnobotany",
-        "citation": "NC Extension Gardener Plant Toolbox. Also documented as gobo, edible burdock, lappa. SAFETY: burs can cause eye, skin and respiratory irritation; roots must be harvested in the first year of the biennial growth cycle for best quality"
+        "citation": "NC Extension Gardener Plant Toolbox. Also documented as gobo, edible burdock, lappa. SAFETY: burs can cause eye, skin and respiratory irritation; roots must be harvested in the firstyear of the biennial growth cycle for best quality"
       }
     ]
   }

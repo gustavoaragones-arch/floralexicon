@@ -49922,7 +49922,7 @@
     "dominant_in_countries": []
   },
   {
-    "name": "Cana",
+    "name": "Caña",
     "normalized": "cana",
     "language": "es",
     "plant_ids": [
@@ -49944,6 +49944,31 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "ES"
+    ]
+  },
+  {
+    "name": "Caña brava",
+    "normalized": "cana brava",
+    "language": "es",
+    "plant_ids": [
+      "arundo_donax"
+    ],
+    "countries": [
+      "AR"
+    ],
+    "country_usage": [
+      {
+        "country": "AR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "AR"
     ]
   },
   {
@@ -49984,6 +50009,31 @@
     "ambiguity_level": "low",
     "name_country_count": 3,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Cañabrava",
+    "normalized": "canabrava",
+    "language": "es",
+    "plant_ids": [
+      "arundo_donax"
+    ],
+    "countries": [
+      "CL"
+    ],
+    "country_usage": [
+      {
+        "country": "CL",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "manual",
+        "authority_source": "regulatory"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "CL"
+    ]
   },
   {
     "name": "Canada balsam",
@@ -72674,6 +72724,31 @@
     "name_country_count": 1,
     "dominant_in_countries": [
       "ES"
+    ]
+  },
+  {
+    "name": "Culantrillo de pozo",
+    "normalized": "culantrillo de pozo",
+    "language": "es",
+    "plant_ids": [
+      "adiantum_capillus_veneris"
+    ],
+    "countries": [
+      "AR"
+    ],
+    "country_usage": [
+      {
+        "country": "AR",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "linguistic"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "AR"
     ]
   },
   {
@@ -117813,6 +117888,31 @@
     ]
   },
   {
+    "name": "Helecho culantrillo",
+    "normalized": "helecho culantrillo",
+    "language": "es",
+    "plant_ids": [
+      "adiantum_capillus_veneris"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "country_usage": [
+      {
+        "country": "MX",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 1,
+    "dominant_in_countries": [
+      "MX"
+    ]
+  },
+  {
     "name": "Hélichryse italienne",
     "normalized": "helichryse italienne",
     "language": "fr",
@@ -148830,6 +148930,49 @@
     "ambiguity_level": "low",
     "name_country_count": 2,
     "dominant_in_countries": []
+  },
+  {
+    "name": "Lampazo",
+    "normalized": "lampazo",
+    "language": "es",
+    "plant_ids": [
+      "arctium_lappa"
+    ],
+    "countries": [
+      "AR",
+      "CL",
+      "UY"
+    ],
+    "country_usage": [
+      {
+        "country": "AR",
+        "is_primary": true,
+        "confidence": "high",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "CL",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      },
+      {
+        "country": "UY",
+        "is_primary": true,
+        "confidence": "medium",
+        "source": "local_ethnobotany",
+        "authority_source": "ethnobotany"
+      }
+    ],
+    "ambiguity_level": "low",
+    "name_country_count": 3,
+    "dominant_in_countries": [
+      "AR",
+      "CL",
+      "UY"
+    ]
   },
   {
     "name": "Lan",

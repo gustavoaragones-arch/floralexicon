@@ -1,8 +1,17 @@
 {
   "plant_id": "adiantum_capillus_veneris",
   "tier": 1,
-  "supported_countries": ["CN", "DE", "ES", "FR", "GB", "IN", "IR", "IT", "US"],
+  "supported_countries": ["AR", "CN", "DE", "ES", "FR", "GB", "IN", "IR", "IT", "MX", "US"],
   "names": {
+    "AR": [
+      {
+        "name": "Culantrillo de pozo",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Instituto de Botanica Darwinion (Argentina's official national herbarium/botanical institute) and ArgentiNat (iNaturalist Argentina national node) both maintain species-specific records confirming this exact taxon's presence in Argentina, not merely genus-level. Same collision caution as the ES entry applies: 'culantrillo' is used loosely across ~20 Adiantum species regionally, but this record is specifically about A. capillus-veneris."
+      }
+    ],
     "CN": [
       {
         "name": "\u94c1\u7ebf\u8590",
@@ -77,13 +86,22 @@
         "citation": "prehealing.com structured multilingual reference table"
       }
     ],
+    "MX": [
+      {
+        "name": "Helecho culantrillo",
+        "language": "es",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "iNaturalist Mexico, citing Mickel & Smith (2004) 'The Pteridophytes of Mexico' (Memoirs of the New York Botanical Garden) and Martinez (1979) 'Las Plantas Medicinales de Mexico': documented real medicinal use for respiratory ailments (cough, bronchitis) and hair/dandruff treatment, distributed from Baja California to Chiapas and Yucatan. Same genus-wide collision caution as ES/AR applies, but this source is species-specific and taxonomically anchored."
+      }
+    ],
     "US": [
       {
         "name": "Southern maidenhair fern",
         "language": "en",
         "confidence": "high",
         "source": "ethnobotany",
-        "citation": "NC Extension Gardener Plant Toolbox; USGS PlantID. Also documented as Venus hair fern, true maidenhair, black maidenhair. Listed as Endangered in North Carolina due to habitat loss. The most wide-ranging Adiantum species globally, occurring on six continents (Huiet & Smith 2015, taxonomic study)"
+        "citation": "NC Extension Gardener Plant Toolbox; USGS PlantID. Also documented as Venus hairfern, true maidenhair, black maidenhair. Listed as Endangered in North Carolina due to habitat loss. The most wide-ranging Adiantum species globally, occurring on six continents (Huiet & Smith 2015, taxonomic study)"
       }
     ]
   }

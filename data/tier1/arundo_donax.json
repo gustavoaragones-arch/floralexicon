@@ -1,11 +1,29 @@
 {
   "plant_id": "arundo_donax",
   "tier": 1,
-  "supported_countries": ["ES", "FR", "MX", "US"],
+  "supported_countries": ["AR", "CL", "ES", "FR", "MX", "US"],
   "names": {
+    "AR": [
+      {
+        "name": "Ca\u00f1a brava",
+        "language": "es",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "SIB (Sistema de Informacion de Biodiversidad), Parques Nacionales, Argentina - official species profile: 'Arundo donax (cana hueca, cana de Castilla, cana brava)'. Also documented via ArgentiNat (iNaturalist Argentina national node). Listed among the world's 100 worst invasive species."
+      }
+    ],
+    "CL": [
+      {
+        "name": "Ca\u00f1abrava",
+        "language": "es",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Chile's official Ministerio de Medio Ambiente iNaturalist portal (inaturalist.mma.gob.cl): 'La cana comun, cana de Castilla, carrizo, chin, canavera o canabrava (Arundo donax)'."
+      }
+    ],
     "ES": [
       {
-        "name": "Cana",
+        "name": "Ca\u00f1a",
         "language": "es",
         "confidence": "high",
         "source": "ethnobotany",
