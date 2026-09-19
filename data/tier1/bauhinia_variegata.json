@@ -1,0 +1,34 @@
+{
+  "plant_id": "bauhinia_variegata",
+  "tier": 1,
+  "supported_countries": ["IN", "MX", "US"],
+  "names": {
+    "IN": [
+      {
+        "name": "Kachnar",
+        "language": "hi",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Standard Hindi name for this species' edible flower buds, widely documented (Wikipedia species article, multiple horticultural and Ayurvedic sources) as a genuine market/culinary item across North India, used in curries and pickles."
+      }
+    ],
+    "MX": [
+      {
+        "name": "Arbol Orquidea",
+        "language": "es",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "Bio Campeche (official biodiversity portal of the Mexican state of Campeche): 'Nombre Cientifico: Bauhinia variegata L. Nombre Comun: Arbol Orquidea'. Documented as a widely planted ornamental in Campeche, Carmen, Champoton and Escarcega."
+      }
+    ],
+    "US": [
+      {
+        "name": "Orchid-tree",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Flora of the Southeastern United States (FSUS, official regional flora database): 'Bauhinia variegata Linnaeus. Common name: Orchid-tree. Habitat: Disturbed areas.' Documented as naturalized in the southeastern US."
+      }
+    ]
+  }
+}
