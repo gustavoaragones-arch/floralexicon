@@ -1,0 +1,61 @@
+{
+  "plant_id": "amaranthus_caudatus",
+  "tier": 1,
+  "supported_countries": ["BO", "EC", "ES", "GB", "PE", "US"],
+  "names": {
+    "PE": [
+      {
+        "name": "Kiwicha",
+        "language": "qu",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Peer-reviewed study (PMC10093863, 'Peruvian Amaranth (kiwicha) Accumulates Higher Levels of the Unsaturated Linoleic Acid'): confirms 'kiwicha' as the standard name for Peruvian Amaranthus caudatus, domesticated in Peru and found alongside Andean tombs over 4,000 years old. Widely used as the commercial/market name in Peru, not just a scientific-literature term."
+      }
+    ],
+    "BO": [
+      {
+        "name": "Kiwicha",
+        "language": "ay",
+        "confidence": "medium",
+        "source": "ethnobotany",
+        "citation": "Multiple Peruvian trade/agricultural sources (biocomerciokiwicha.blogspot.com, teofilocarranza.blogspot.com) document Aymara names for the species -'Kiwicha, Amaranto, Trigo Inca, Achis, Achita, Chaquilla, Sangorache, Borlas' - and its cultivation range as extending into Bolivia's high-altitude Aymara-speaking regions."
+      }
+    ],
+    "EC": [
+      {
+        "name": "Ataco",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "iNaturalist Ecuador species page (citing Wikipedia): Ecuador-specific common names listed are 'ataco, ataku morado, amaranto, bledo, quinua de Castilla'. The same source separately gives the Quechua name 'hawarcha' explicitly tagged '(Ecuador)', distinguishing it from the Peru/Bolivia Quechua form 'kiwicha'."
+      }
+    ],
+    "ES": [
+      {
+        "name": "Moco de pavo",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Spanish Wikipedia article on Amaranthus caudatus, citing Colmeiro, Miguel: 'Diccionario de los diversos nombres vulgares de muchas plantas usuales o notables del antiguo y nuevo mundo', Madrid, 1871 - documents 'moco de pavo' as the name used in Spain."
+      }
+    ],
+    "GB": [
+      {
+        "name": "Love-lies-bleeding",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Standard English ornamental-horticulture name specific to this species' distinctive drooping crimson tassel inflorescence, distinguishing it from grain-amaranth species (A. hypochondriacus, A. cruentus) sold under the generic name 'amaranth' - documented across UK gardening and horticultural trade sources."
+      }
+    ],
+    "US": [
+      {
+        "name": "Love-lies-bleeding",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Same standard English ornamental name as used in the UK, widely sold under this name in the US nursery/seed trade specifically for the ornamental tasseled form of A. caudatus."
+      }
+    ]
+  }
+}

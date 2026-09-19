@@ -1,0 +1,70 @@
+{
+  "plant_id": "acacia_melanoxylon",
+  "tier": 1,
+  "supported_countries": ["AR", "AU", "CL", "CO", "GB", "MX", "US"],
+  "names": {
+    "CL": [
+      {
+        "name": "Aromo australiano",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Instituto Forestal de Chile (INFOR), technical bulletin 'Apuntes: Antecedentes Generales sobre Acacia melanoxylon (Aromo Australiano)' (revista.infor.cl): 'En Chile se le denomina principalmente aromo australiano.'"
+      }
+    ],
+    "AR": [
+      {
+        "name": "Aromo salvaje",
+        "language": "es",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Same INFOR technical bulletin: 'Debido a su habilidad de invadir terrenos y bosques en Argentina recibe el nombre de aromo salvaje (Carnevale, 1968)'."
+      }
+    ],
+    "CO": [
+      {
+        "name": "Acacia negra de Tasmania",
+        "language": "es",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "NaturaLista Colombia (iNaturalist Colombia national node), species page title 'acacia negra de Tasmania (Acacia melanoxylon)'; species confirmed present in Colombia per Kew POWO distribution data."
+      }
+    ],
+    "MX": [
+      {
+        "name": "Acacia de madera negra",
+        "language": "es",
+        "confidence": "high",
+        "source": "regulatory",
+        "citation": "CONABIO (Mexican federal biodiversity commission) SIVICOFF invasive-species technical fact sheet: 'Especie: Acacia melanoxylon, R.Br. Nombre comun: Acacia de madera negra.'"
+      }
+    ],
+    "AU": [
+      {
+        "name": "Australian Blackwood",
+        "language": "en",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "Wikipedia species article and Pl@ntNet World Flora record; the species is native to eastern Australia and Tasmania, where 'blackwood' is the standard timber-trade name (used for guitars, ukuleles, and other instruments as a substitute for koa wood)."
+      }
+    ],
+    "GB": [
+      {
+        "name": "Blackwood",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Same standard English timber-trade name; species distribution per Kew POWO explicitly includes Great Britain (naturalized)."
+      }
+    ],
+    "US": [
+      {
+        "name": "Blackwood",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Same standard English name; species distribution includes California per Kew POWO/Colombian Plants aggregated distribution data, where it is documented as naturalized."
+      }
+    ]
+  }
+}

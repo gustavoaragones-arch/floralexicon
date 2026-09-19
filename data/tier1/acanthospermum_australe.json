@@ -1,0 +1,52 @@
+{
+  "plant_id": "acanthospermum_australe",
+  "tier": 1,
+  "supported_countries": ["AR", "BR", "MX", "PY", "US"],
+  "names": {
+    "AR": [
+      {
+        "name": "Tapekué",
+        "language": "es",
+        "confidence": "high",
+        "source": "ethnobotany",
+        "citation": "Peer-reviewed study (PMC8282796, Antimicrobial and cytotoxic activity of green synthesis silver nanoparticles targeting skin and soft tissue infectious agents): 'Acanthospermum australe (Loefl.) Kuntze, commonly known as \"tapekue\" in Argentina, is a medicinal plant used by indigenous peoples in northeastern Argentina to disinfect wounds and skin ulcers'. The name derives from Guarani, spoken across northeastern Argentina."
+      }
+    ],
+    "BR": [
+      {
+        "name": "Carrapichinho",
+        "language": "pt",
+        "confidence": "high",
+        "source": "linguistic",
+        "citation": "ESALQ-USP (Universidade de Sao Paulo) official agricultural glossary entry for the species. Corroborated by a peer-reviewed sugarcane-weed survey (Azania et al. 2008, cited in PMC3075403) listing 'Carrapichinho' as the standard Portuguese name, and by multiple herbarium occurrence records across Rio Grande do Sul, Parana, and Minas Gerais tagging the common name 'Carrapicho'."
+      }
+    ],
+    "PY": [
+      {
+        "name": "Pipili",
+        "language": "gn",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "Guarani-derived vernacular name documented via Wikidata/Wikimedia vernacular-name listing (which also gives 'Tapekue' as an Avane'e/Guarani name) and independently via Plants of Hawaii's accepted-name record (citing regional Flora of Paraguay-area sources), which lists 'ihi kukae hipa, kukaehipa, paraguay bur, pipili' as accepted vernacular names. Species collected and documented within Paraguay (Parque Nacional Cerro Cora, Amambay department)."
+      }
+    ],
+    "MX": [
+      {
+        "name": "Tapecue",
+        "language": "es",
+        "confidence": "medium",
+        "source": "regulatory",
+        "citation": "CONABIO (Mexican federal biodiversity commission), Metodo de Evaluacion Rapida de Invasividad (MERI) risk assessment, 2022: 'Nombre comun: tapecue (espanol), spiny bur (ingles) (EPPO, 2022)'. This is an official government invasive-species risk listing rather than a confirmed everyday market-shelf name, hence medium rather than high confidence."
+      }
+    ],
+    "US": [
+      {
+        "name": "Spiny bur",
+        "language": "en",
+        "confidence": "medium",
+        "source": "linguistic",
+        "citation": "USDA PLANTS Database (symbol ACAU2) and NIH/NCATS Inxight Drugs substance registry (UNII DQ0373SW6A) both list 'Spiny-bur', 'Sheepbur', and 'Paraguay bur' as English common names for this species, which is documented as naturalized/invasive in parts of the southeastern United States."
+      }
+    ]
+  }
+}
